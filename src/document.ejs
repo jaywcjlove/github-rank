@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Github Users Ranking for China.</title>
+  <style>
+    html, body, ul, li, h1 { margin: 0; padding: 0 }
+    html, body {  font-size: 16px; }
+    ul { list-style: none; }
+    a { color: #333; text-decoration: none; }
+    .title { text-align: center; padding: 34px 0 10px 0; font-size: 18px; }
+    .time, .footer { text-align: center; padding: 0 0 10px 0; font-size: 12px; color: #adadad; }
+    .footer { padding: 10px 0 30px 0; }
+    .footer a { color: #adadad; }
+    .users { max-width: 360px; margin: 0 auto; background-color: #efefef; padding: 10px; }
+    .users a { padding: 5px; display: block; }
+    .users a:hover { background-color: #e0e0e0; color: #1600ff; }
+    .users .rank { font-weight: bold; }
+    .users img { width: 32px; height: 32px; border-radius: 3px; }
+    .users span, .users img { vertical-align: middle; }
+  </style>
+</head>
+<body>
+  <h1 class="title">Github Users Ranking for China.</h1>
+  <div class="time">Last cache created on <%=date%> by Github API v3.</div>
+  <ul class="users">
+    <% users.forEach(function(user, idx){ %>
+      <li>
+        <a href="<%=user.html_url%>" target="_blank">
+          <img src="<%=user.avatar_url%>" alt="<%=user.login%>" />
+          <span class="rank"><%=idx + 1%></span>
+          <span>
+            <%=user.login%>
+          </span>
+        </a>
+      </li>
+    <% }); %>
+  </ul>
+  <div class="footer">
+    Create by <a href="https://github.com/jaywcjlove" target="_blank">小弟调调™</a>.
+  </div>
+</body>
+</html>
