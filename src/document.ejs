@@ -17,12 +17,17 @@
     .title { text-align: center; padding: 46px 0 0 0; font-size: 18px; }
     .time, .footer { text-align: center; padding: 0 0 10px 0; font-size: 12px; color: #adadad; }
     .footer { padding: 10px 0 30px 0; }
-    .users { max-width: 360px; margin: 0 auto; background-color: #efefef; padding: 10px; }
-    .users a { padding: 5px; display: block; transition: all .3s; border-radius: 3px; }
-    .users a:hover { background-color: #e0e0e0; }
-    .users .rank { font-weight: bold; }
-    .users img { width: 32px; height: 32px; border-radius: 3px; }
-    .users span, .users img { vertical-align: middle; }
+    .users { max-width: 360px; margin: 0 auto; padding-bottom: 10px; background-color: #efefef; border-radius: 5px; overflow: hidden; }
+    .users img { width: 21px; height: 21px; border-radius: 3px; display: block; margin: 0 auto; background-color: #e2e2e2; }
+    .users a { color: #008cba; }
+    .users li { padding: 5px; margin: 0 8px; border-radius: 3px; transition: all .3s; }
+    .users li.rank-title { background-color: #e2e2e2; margin: 0; padding: 7px 13px; margin-bottom: 10px; border-radius: 0; font-size: 14px; }
+    .users li.rank-title:hover { background: #e2e2e2; }
+    .users li:hover { background: #fff; }
+    .users li > span { display: table-cell; vertical-align: middle; font-size: 14px; }
+    .users li > span.rank { padding: 0 8px; }
+    .users li > span.name { width: 100%; }
+    .users li > span.followers { font-size: 12px; color: #7d7d7d; }
     @keyframes octocat-wave{
       0%,100%{-webkit-transform:rotate(0); transform:rotate(0);}
       20%,60%{-webkit-transform:rotate(-25deg); transform:rotate(-25deg);}
@@ -41,17 +46,17 @@
   <h1 class="title">Github Users Ranking for China.</h1>
   <div class="time">Last cache created on <%=date%> by Github API v3.</div>
   <ul class="users">
-    <% users.forEach(function(user, idx){ %>
-      <li>
-        <a href="<%=user.html_url%>" target="_blank">
-          <img src="<%=user.avatar_url%>&s=40" alt="<%=user.login%>" />
-          <span class="rank"><%=idx + 1%></span>
-          <span>
-            <%=user.login%>
-          </span>
-        </a>
+      <li class="rank-title">
+        Followers Ranking
       </li>
-    <% }); %>
+      <% users.forEach(function(user, idx){ %>
+      <li>
+        <span><img src="<%=user.avatar_url%>&s=40" alt="<%=user.login%>" /></span>
+        <span class="rank"><%=idx + 1%></span>
+        <span class="name"><a href="<%=user.html_url%>" target="_blank"><%=user.name || user.login%></a></span>
+        <span class="followers" title="followers"><%=user.followers%></span>
+      </li>
+      <% }); %>
   </ul>
   <div class="footer">
     Create by <a href="https://github.com/jaywcjlove" target="_blank">小弟调调™</a>.

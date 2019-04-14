@@ -4,6 +4,9 @@
   "description": "Github Users Ranking for China.",
   "scripts": {
     "start": "node lib/build.js",
+    "get": "npm run get:users && npm run get:users:info",
+    "get:users:info": "node lib/getUserInfo.js",
+    "get:users": "node lib/getUsers.js",
     "dev": "npm run build:cjs -- --watch",
     "prepare": "npm run build:cjs",
     "deploy": "gh-pages -d web",

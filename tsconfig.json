@@ -13,6 +13,7 @@
     // "outFile": "./",                       /* Concatenate and emit output to single file. */
     "outDir": "lib", /* Redirect output structure to the directory. */
     "rootDir": "./", /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
+    "resolveJsonModule": true,
     // "composite": true,                     /* Enable project compilation */
     // "removeComments": true,                /* Do not emit comments to output. */
     // "noEmit": true,                        /* Do not emit outputs. */
@@ -52,5 +53,9 @@
     // "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
     /* Advanced Options */
     // "declarationDir": "lib"                /* Output directory for generated declaration files. */
-  }
+  },
+  "include": [
+    "src/**/*",
+    ".cache/*"
+  ]
 }
