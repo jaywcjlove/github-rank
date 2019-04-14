@@ -1,7 +1,7 @@
 import FS from 'fs-extra';
 import path from 'path';
 import ejs from 'ejs';
-import {IUserData} from './utils';
+import { IUserData } from './common/props';
 
 
 export function creatHTML(userData?: IUserData[]): string {
