@@ -54,6 +54,9 @@ export interface IGithubUserInfoData {
   created_at: string;
   updated_at: string;
   rank: number; // 排序
+  // Github API 被限制返回的字段
+  documentation_url?: string;
+  message?: string;
 }
 
 export interface IResultUserData {

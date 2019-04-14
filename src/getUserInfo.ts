@@ -32,7 +32,11 @@ async function getInfo(num: number) {
     if (!user.followers) {
       console.log(`-> 获取第${num}条数据！`);
       const userAllInfo = await getUserInfoData(user.login);
-      console.log('userAllInfo:', userAllInfo);
+      // Github API 被限制返回错误信息，并中断请求。
+      if (userAllInfo.message && userAllInfo.documentation_url) {
+        console.log(`<- error: ${userAllInfo.message} -> ${userAllInfo.documentation_url}`);
+        return;
+      }
       userMoreInfo.users.push({ ...user, ...userAllInfo, rank: num + 1 });
       console.log(`<- 第${num}条数据获取完成！${user.login}`);
       await saveUserData(userMoreInfo);
