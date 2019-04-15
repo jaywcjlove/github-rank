@@ -7,7 +7,7 @@ export function getUserData(page: number): Promise<IResultUserData> {
 }
 
 export function getUserInfoData(username: string): Promise<IGithubUserInfoData> {
-  return fetch(`https://api.github.com/users/${username}?client_id=www&client_secret=wwww2`).then(res => res.json());
+  return fetch(`https://api.github.com/users/${username}?client_id=eee&client_secret=eee`).then(res => res.json());
 }
 
 export function sleep(ms: number) {

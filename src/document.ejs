@@ -27,6 +27,7 @@
     .users li > span { display: table-cell; vertical-align: middle; font-size: 14px; }
     .users li > span.rank { padding: 0 8px; }
     .users li > span.name { width: 100%; }
+    .users li > span.name i { color: #afafaf; }
     .users li > span.followers { font-size: 12px; color: #7d7d7d; }
     @keyframes octocat-wave{
       0%,100%{-webkit-transform:rotate(0); transform:rotate(0);}
@@ -53,7 +54,7 @@
       <li>
         <span><img src="<%=user.avatar_url%>&s=40" alt="<%=user.login%>" /></span>
         <span class="rank"><%=idx + 1%></span>
-        <span class="name"><a href="<%=user.html_url%>" target="_blank"><%=user.name || user.login%></a></span>
+        <span class="name"><a href="<%=user.html_url%>" target="_blank"><%=user.name || user.login%> <i><%=user.login%></i></a></span>
         <span class="followers" title="followers"><%=user.followers%></span>
       </li>
       <% }); %>
