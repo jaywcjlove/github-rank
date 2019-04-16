@@ -53,8 +53,8 @@
       </li>
       <% users.forEach(function(user, idx){ %>
       <li>
-        <span><img src="<%=user.avatar_url%>&s=40" loading="lazy" alt="<%=user.login%>" /></span>
-        <span class="rank"><%=idx + 1%></span>
+        <span><img src="<%=user.avatar_url%>&s=40" loading="lazy" title="<%=user.name || user.login%>" alt="<%=user.name || user.login%>" /></span>
+        <span class="rank" title="Ranking <%=idx + 1%>"><%=idx + 1%></span>
         <span class="name"><a href="<%=user.html_url%>" target="_blank"><%=user.name || user.login%> <i><%=user.login%></i></a></span>
         <span class="followers" title="followers"><%=user.followers%></span>
       </li>
