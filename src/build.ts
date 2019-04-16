@@ -1,6 +1,5 @@
 import FS from 'fs-extra';
 import path from 'path';
-import { IUserMoreInfoUsers } from './common/props';
 import { creatHTML } from './createHTML';
 import usersDone from '../.cache/done.json';
 

@@ -37,7 +37,7 @@ async function getInfo(num: number) {
         console.log(`<- error: ${userAllInfo.message} -> ${userAllInfo.documentation_url}`);
         return;
       }
-      userMoreInfo.users.push({ ...user, ...userAllInfo, rank: num + 1 });
+      userMoreInfo.users.push({ ...user, ...userAllInfo });
       console.log(`<- 第${num}条数据获取完成！${user.login}`);
       await saveUserData(userMoreInfo);
       await sleep(5000);

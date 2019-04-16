@@ -19,6 +19,7 @@ export interface IUserData {
   type: string;
   site_admin: boolean;
   score: number;
+  rank?: number; // 排序
 }
 
 export interface IGithubUserInfoData {
@@ -64,11 +65,6 @@ export interface IResultUserData {
   incomplete_results: boolean;
   items: IUserData[];
 }
-
-export interface IUserMoreInfoUsers extends IUserData, IGithubUserInfoData {
-
-}
-
 
 export interface IUserMoreInfo {
   count: number;    // 当前抓取到第几个用户信息
