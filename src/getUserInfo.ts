@@ -1,6 +1,6 @@
 import FS from 'fs-extra';
 import path from 'path';
-import { IUserMoreInfo, IUserData } from './common/props';
+import { IUserMoreInfo, IUserData, IGithubUserInfoData } from './common/props';
 import { sleep, getUserInfoData } from './utils';
 import usersCache from '../.cache/users.json';
 import usersDone from '../.cache/done.json';
@@ -55,7 +55,7 @@ async function getNotExistUserInfo(num: number, arr: IUserData[]) {
   const user: IUser = arr[num];
   if (!user) return;
   try {
-    const userAllInfo = await getUserInfoData(user.login);
+    const userAllInfo: IGithubUserInfoData = await getUserInfoData(user.login);
     // Github API 被限制返回错误信息，并中断请求。
     if (userAllInfo.message && userAllInfo.documentation_url) {
       console.log(`<- error: ${userAllInfo.message} -> ${userAllInfo.documentation_url}`);
