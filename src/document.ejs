@@ -7,7 +7,7 @@
   <title>Github Users Ranking for China.</title>
   <style>
     html, body, ul, li, h1 { margin: 0; padding: 0 }
-    html, body {  font-size: 16px; }
+    html, body {  font-size: 16px; font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol; }
     ul { list-style: none; }
     a { color: #333; text-decoration: none; transition: all .2s ease-in; }
     a:hover { color: #1600ff; }
@@ -20,6 +20,7 @@
     .users { max-width: 360px; margin: 0 auto; padding-bottom: 10px; background-color: #efefef; border-radius: 5px; overflow: hidden; }
     .users img { width: 21px; height: 21px; border-radius: 3px; display: block; margin: 0 auto; background-color: #e2e2e2; }
     .users a { color: #008cba; }
+    .users a:hover { color: #1600ff; }
     .users li { padding: 5px; margin: 0 8px; border-radius: 3px; transition: all .3s; }
     .users li.rank-title { background-color: #e2e2e2; margin: 0; padding: 7px 13px; margin-bottom: 10px; border-radius: 0; font-size: 14px; }
     .users li.rank-title:hover { background: #e2e2e2; }
@@ -52,7 +53,7 @@
       </li>
       <% users.forEach(function(user, idx){ %>
       <li>
-        <span><img src="<%=user.avatar_url%>&s=40" alt="<%=user.login%>" /></span>
+        <span><img src="<%=user.avatar_url%>&s=40" loading="lazy" alt="<%=user.login%>" /></span>
         <span class="rank"><%=idx + 1%></span>
         <span class="name"><a href="<%=user.html_url%>" target="_blank"><%=user.name || user.login%> <i><%=user.login%></i></a></span>
         <span class="followers" title="followers"><%=user.followers%></span>
