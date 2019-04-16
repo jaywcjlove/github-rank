@@ -68,6 +68,6 @@ export interface IResultUserData {
 
 export interface IUserMoreInfo {
   count: number;    // 当前抓取到第几个用户信息
-  errors: number[]; // 请求错误的第几个用户
+  errors: IUserData[]; // 请求错误的第几个用户
   users: Array<IGithubUserInfoData>;
 }

@@ -2,7 +2,7 @@ import FS from 'fs-extra';
 import path from 'path';
 import { IUserMoreInfo, IUserData } from './common/props';
 import { sleep, getUserInfoData } from './utils';
-import * as usersCache from '../.cache/users.json';
+import usersCache from '../.cache/users.json';
 import usersDone from '../.cache/done.json';
 
 interface IUser extends IUserData {
@@ -44,47 +44,50 @@ async function getInfo(num: number) {
       await getInfo(num + 1);
     }
   } catch (error) {
-    userMoreInfo.errors.push(num);
     await saveUserData(userMoreInfo);
     await getInfo(num + 1);
     console.log('getInfo', error);
   }
 }
 
-async function getErrorUserInfo(num: number, arr: number[]) {
+async function getNotExistUserInfo(num: number, arr: IUserData[]) {
   if (!arr[num]) return;
-  const user: IUser = usersCache[arr[num]];
-
+  const user: IUser = arr[num];
   if (!user) return;
   try {
-    console.log(`-> 获取第${arr[num]}条数据！`);
     const userAllInfo = await getUserInfoData(user.login);
     // Github API 被限制返回错误信息，并中断请求。
     if (userAllInfo.message && userAllInfo.documentation_url) {
       console.log(`<- error: ${userAllInfo.message} -> ${userAllInfo.documentation_url}`);
       return;
     }
-    console.log(`<- 第${arr[num]}条数据获取完成！${user.login}`);
-    userMoreInfo.users.push({ ...user, ...userAllInfo, rank: arr[num] });
+    console.log(`<- 用户 ${user.login} 数据获取完成！`);
+    userMoreInfo.users.push({ ...user, ...userAllInfo });
     userMoreInfo.errors = [...userMoreInfo.errors].splice(1);
     await saveUserData(userMoreInfo);
     if (userMoreInfo.errors.length === 0) return;
-    await sleep(5000);
-    await getErrorUserInfo(0, userMoreInfo.errors);
+    await sleep(2000);
+    await getNotExistUserInfo(0, userMoreInfo.errors);
   } catch (error) {
-    console.log('getErrorUserInfo', error);
+    console.log('getNotExistUserInfo', error);
   }
 }
 
 (async () => {
   try {
     await getInfo(userMoreInfo.count);
-    if (userMoreInfo.errors.length !== 0) {
-      console.log(`-> 有错误数据,检查 userMoreInfo.errors`);
-      await getErrorUserInfo(0, userMoreInfo.errors);
-    }
-    userMoreInfo.users.sort((a, b) => a.rank - b.rank);
-    console.log(`-> 获取数据完成！共 ${userMoreInfo.users.length} 条用户数据！`);
+    // Filter not exist users.
+    const notExistUser: IUserData[] = [];
+    usersCache.filter((item: IUserData) => {
+      const filterData = usersDone.users.find(d => d.login === item.login);
+      if (!filterData) {
+        notExistUser.push(item);
+      }
+    });
+    userMoreInfo.errors = notExistUser;
+    await saveUserData(userMoreInfo);
+    await getNotExistUserInfo(0, userMoreInfo.errors);
+    console.log(`-> 获取数据完成！缓存 ${usersCache.length} 条用户信息，共获取 ${userMoreInfo.users.length} 条用户数据！`);
     await saveUserData(userMoreInfo);
   } catch (error) {
     console.log(error);
