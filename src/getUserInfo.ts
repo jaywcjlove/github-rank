@@ -58,7 +58,7 @@ async function getNotExistUserInfo(num: number, arr: IUserData[]) {
     const userAllInfo: IGithubUserInfoData = await getUserInfoData(user.login);
     // Github API 被限制返回错误信息，并中断请求。
     if (userAllInfo.message && userAllInfo.documentation_url) {
-      console.log(`<- error: ${userAllInfo.message} -> ${userAllInfo.documentation_url}`);
+      console.log(`<- error: ${userAllInfo.message} -> ${userAllInfo.documentation_url}`, userAllInfo);
       return;
     }
     console.log(`<- 用户 ${user.login} 数据获取完成！`);
@@ -88,6 +88,7 @@ async function getNotExistUserInfo(num: number, arr: IUserData[]) {
     await saveUserData(userMoreInfo);
     await getNotExistUserInfo(0, userMoreInfo.errors);
     console.log(`-> 获取数据完成！缓存 ${usersCache.length} 条用户信息，共获取 ${userMoreInfo.users.length} 条用户数据！`);
+    userMoreInfo.users = userMoreInfo.users.sort((a, b) => a.rank - b.rank);
     await saveUserData(userMoreInfo);
   } catch (error) {
     console.log(error);

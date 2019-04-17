@@ -3,7 +3,13 @@ import { IResultUserData, IGithubUserInfoData } from './common/props';
 
 
 export function getUserData(page: number): Promise<IResultUserData> {
-  return fetch(`https://api.github.com/search/users?page=${page}&per_page=100&q=location:China`).then(res => res.json());
+  return fetch(`https://api.github.com/search/users?page=${page}&per_page=100&q=location:China`)
+    .then(res => {
+      console.log('res:limit:', res.headers.get('x-ratelimit-limit'));
+      console.log('res:remaining:', res.headers.get('x-ratelimit-remaining'));
+      console.log('res:reset:', res.headers.get('x-ratelimit-reset'));
+      return res.json();
+    });
 }
 /**
  * Get user info data
