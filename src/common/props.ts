@@ -20,6 +20,7 @@ export interface IUserData {
   site_admin: boolean;
   score: number;
   rank?: number; // 排序
+  [key:string]: any;
 }
 
 export interface IGithubUserInfoData {

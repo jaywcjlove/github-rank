@@ -36,10 +36,11 @@ async function getInfo(num: number) {
       if (userAllInfo.message && userAllInfo.documentation_url) {
         console.log(`<- error: ${userAllInfo.message} -> ${userAllInfo.documentation_url}`);
         return;
+      } else {
+        userMoreInfo.users.push({ ...user, ...userAllInfo });
+        console.log(`<- 第${num}条数据获取完成！${user.login}`);
+        await saveUserData(userMoreInfo);
       }
-      userMoreInfo.users.push({ ...user, ...userAllInfo });
-      console.log(`<- 第${num}条数据获取完成！${user.login}`);
-      await saveUserData(userMoreInfo);
       await sleep(5000);
       await getInfo(num + 1);
     }
@@ -77,9 +78,9 @@ async function getNotExistUserInfo(num: number, arr: IUserData[]) {
   try {
     await getInfo(userMoreInfo.count);
     // Filter not exist users.
-    const notExistUser: IUserData[] = [];
+    const notExistUser: IUserData[] = [];   
     usersCache.filter((item: IUserData) => {
-      const filterData = usersDone.users.find(d => d.login === item.login);
+      const filterData = usersDone.users.find((d: IUserData) => d.login === item.login);
       if (!filterData) {
         notExistUser.push(item);
       }
