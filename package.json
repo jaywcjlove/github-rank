@@ -1,6 +1,6 @@
 {
   "name": "@wcj/github-rank",
-  "version": "19.4.20",
+  "version": "19.4.20-1",
   "description": "Github Users Ranking for China.",
   "scripts": {
     "start": "node lib/build.js",
@@ -46,13 +46,12 @@
     "@types/node-fetch": "^2.3.2",
     "gh-pages": "^2.0.1",
     "jest": "^24.7.1",
-    "typescript": "^3.4.3"
-  },
-  "dependencies": {
+    "typescript": "^3.4.3",
     "@babel/runtime": "^7.4.3",
     "dotenv": "^7.0.0",
     "ejs": "^2.6.1",
     "fs-extra": "^7.0.1",
     "node-fetch": "^2.3.0"
-  }
+  },
+  "dependencies": {}
 }
