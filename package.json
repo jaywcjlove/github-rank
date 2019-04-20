@@ -1,6 +1,6 @@
 {
-  "name": "github-rank",
-  "version": "1.0.0",
+  "name": "@wcj/github-rank",
+  "version": "19.4.20",
   "description": "Github Users Ranking for China.",
   "scripts": {
     "start": "node lib/build.js",
@@ -12,16 +12,27 @@
     "deploy": "gh-pages -d web -m '2019-04-20'",
     "build:cjs": "BABEL_ENV=cjs babel src --out-dir lib --extensions \".ts,.tsx\" --source-maps inline --copy-files --delete-dir-on-start --verbose"
   },
+  "author": "Kenny Wong <wowohoo@qq.com>",
+  "license": "MIT",
+  "main": "dist/users.json",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jaywcjlove/github-rank.git"
   },
-  "author": "",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jaywcjlove/github-rank/issues"
   },
   "homepage": "https://github.com/jaywcjlove/github-rank#readme",
+  "files": [
+    "dist",
+    "web"
+  ],
+  "keywords": [
+    "github",
+    "github-ranking",
+    "rank",
+    "ranking"
+  ],
   "devDependencies": {
     "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",
