@@ -1,3 +1,5 @@
+排行榜预览：[Github 预览](http://jaywcjlove.github.io/github-rank/) | [UNPKG预览](https://unpkg.com/@wcj/github-rank/web/index.html) | [Gitee预览](http://jaywcjlove.gitee.io/github-rank)
+
 Github Ranking
 ---
 
@@ -5,11 +7,9 @@ Github中国用户排名，通过 Github API v3 来生成页面数据。
 
 WebSite: http://jaywcjlove.github.io/github-rank/
 
-也可通过 [UNPKG](https://unpkg.com/@wcj/github-rank/web/index.html) 访问：[https://unpkg.com/@wcj/github-rank/web/index.html](https://unpkg.com/@wcj/github-rank/web/index.html)
-
 [![](GithubRanking.png)](http://jaywcjlove.github.io/github-rank/)
 
-### 使用
+## 使用
 
 希望能从 `19年04月20日` 开始每天发版，版本号以 `年`、`月`、`日` 来定义，如: `v19.4.20`。
 
@@ -17,7 +17,8 @@ WebSite: http://jaywcjlove.github.io/github-rank/
 npm install @wcj/github-rank --save-dev
 ```
 
-使用可以通过引入数据，来获取排名数据，也可以通过 [UNPKG](https://unpkg.com/@wcj/github-rank/dist/users.json) 直接访问用户数据。
+使用可以通过引入数据，来获取排名数据，也可以通过 [UNPKG](https://unpkg.com/@wcj/github-rank/dist/users.json) 直接访问用户数据，
+也可通过 [UNPKG](https://unpkg.com/@wcj/github-rank/web/index.html) 访问：[https://unpkg.com/@wcj/github-rank/web/index.html](https://unpkg.com/@wcj/github-rank/web/index.html) 直接访问用户排行榜。
 
 ```js
 import users from '@wcj/github-rank';
