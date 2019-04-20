@@ -9,7 +9,7 @@
     "get:users": "node lib/getUsers.js",
     "dev": "npm run build:cjs -- --watch",
     "prepare": "npm run build:cjs",
-    "deploy": "gh-pages -d web",
+    "deploy": "gh-pages -d web -m '2019-04-20'",
     "build:cjs": "BABEL_ENV=cjs babel src --out-dir lib --extensions \".ts,.tsx\" --source-maps inline --copy-files --delete-dir-on-start --verbose"
   },
   "repository": {
@@ -28,6 +28,7 @@
     "@babel/plugin-transform-runtime": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
     "@babel/preset-typescript": "^7.3.3",
+    "@types/dotenv": "^6.1.1",
     "@types/ejs": "^2.6.3",
     "@types/fs-extra": "^5.0.5",
     "@types/node": "^11.13.4",
@@ -38,6 +39,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.4.3",
+    "dotenv": "^7.0.0",
     "ejs": "^2.6.1",
     "fs-extra": "^7.0.1",
     "node-fetch": "^2.3.0"

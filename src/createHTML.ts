@@ -1,10 +1,20 @@
 import FS from 'fs-extra';
 import path from 'path';
 import ejs from 'ejs';
-import { IUserData } from './common/props';
 
 
-export function creatHTML(userData?: IUserData[]): string {
+export interface ICreateHTML {
+  html_url: string;
+  avatar_url: string;
+  name: string | null;
+  login: string;
+  location: string;
+  public_repos: number;
+  followers: number;
+  [key: string]: any;
+}
+
+export function creatHTML(userData: ICreateHTML[]): string {
   const tmpStr: string = FS.readFileSync(path.join(__dirname, 'document.ejs')).toString();
   return ejs.render(tmpStr, {
     users: userData,
