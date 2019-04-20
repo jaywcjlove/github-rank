@@ -21,9 +21,11 @@ npm install @wcj/github-rank --save-dev
 
 ```js
 import users from '@wcj/github-rank';
+```
 
-console.log(users);
-/* 输出数组
+输出下面内容：
+
+```json
 [
   {
     "login": "jaywcjlove",
@@ -61,5 +63,4 @@ console.log(users);
     "updated_at": "2019-04-12T14:27:54Z"
   }
 ]
-*/
 ```
