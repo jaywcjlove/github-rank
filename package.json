@@ -1,6 +1,6 @@
 {
   "name": "@wcj/github-rank",
-  "version": "19.4.21",
+  "version": "19.4.22",
   "description": "Github Users Ranking for China.",
   "scripts": {
     "start": "node lib/build.js",
@@ -10,7 +10,7 @@
     "get:repos": "node lib/getRepos.js",
     "dev": "npm run build:cjs -- --watch",
     "prepare": "npm run build:cjs",
-    "deploy": "gh-pages -d web -m '2019-04-21'",
+    "deploy": "gh-pages -d web -m '2019-04-22'",
     "build:cjs": "BABEL_ENV=cjs babel src --out-dir lib --extensions \".ts,.tsx\" --source-maps inline --copy-files --delete-dir-on-start --verbose"
   },
   "author": "Kenny Wong <wowohoo@qq.com>",
