@@ -2,8 +2,10 @@ import FS from 'fs-extra';
 import path from 'path';
 import ejs from 'ejs';
 
+const rootPath: string = path.join(__dirname, 'html');
+const dateStr: string = `${new Date().getFullYear()}/${(new Date().getMonth()) + 1}/${new Date().getDate()}`;
 
-export interface ICreateHTML {
+export interface ICreateFollowersHTML {
   html_url: string;
   avatar_url: string;
   name: string | null;
@@ -14,10 +16,26 @@ export interface ICreateHTML {
   [key: string]: any;
 }
 
-export function creatHTML(userData: ICreateHTML[]): string {
-  const tmpStr: string = FS.readFileSync(path.join(__dirname, 'document.ejs')).toString();
+export function creatFollowersHTML(userData: ICreateFollowersHTML[]): string {
+  const filename: string = path.join(rootPath, 'followers.ejs');
+  const tmpStr: string = FS.readFileSync(filename).toString();
   return ejs.render(tmpStr, {
     users: userData,
-    date: `${new Date().getFullYear()}/${(new Date().getMonth()) + 1}/${new Date().getDate()}`,
-  });
+    date: dateStr,
+  }, { filename });
+}
+
+export interface IReposHTML {
+  html_url: string;
+  full_name: string;
+  [key: string]: any;
+}
+
+export function creatReposHTML(reposData: IReposHTML[]) {
+  const filename: string = path.join(rootPath, 'repos.ejs');
+  const tmpStr: string = FS.readFileSync(filename).toString();
+  return ejs.render(tmpStr, {
+    repos: reposData,
+    date: dateStr,
+  }, { filename });
 }

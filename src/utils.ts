@@ -56,6 +56,30 @@ export function getUserInfoData(username: string, client_id?: string, client_sec
     });
 }
 
+
+export interface IReposData {
+  [key: string]: any;
+}
+
+export interface IResultReposData {
+  total_count: number;
+  incomplete_results: boolean;
+  items: IReposData[];
+}
+
+/**
+ * Get repositories data
+ * @param page Page number
+ */
+export function getReposData(page: number): Promise<IResultReposData> {
+  return fetch(`https://api.github.com/search/repositories?q=stars:>8000&page=${page}&per_page=100`)
+    .then(res => {
+      console.log(`   Github API 获取用户计数: ${res.headers.get('x-ratelimit-limit')}/${res.headers.get('x-ratelimit-remaining')}`);
+      console.log('   时间:', `${res.headers.get('x-ratelimit-reset')}000\n`);
+      return res.json();
+    });
+}
+
 export function sleep(ms: number) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }

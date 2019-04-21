@@ -3,9 +3,7 @@
 Github Ranking
 ---
 
-Github中国用户排名，通过 Github API v3 来生成页面数据。
-
-WebSite: http://jaywcjlove.github.io/github-rank/
+Github中国用户排名，全球仓库 Star 排名，通过 Github API v3 来生成页面数据，[排行榜预览](http://jaywcjlove.github.io/github-rank/)。
 
 [![](GithubRanking.png)](http://jaywcjlove.github.io/github-rank/)
 
@@ -17,8 +15,7 @@ WebSite: http://jaywcjlove.github.io/github-rank/
 npm install @wcj/github-rank --save-dev
 ```
 
-使用可以通过引入数据，来获取排名数据，也可以通过 [UNPKG](https://unpkg.com/@wcj/github-rank/dist/users.json) 直接访问用户数据，
-也可通过 [UNPKG](https://unpkg.com/@wcj/github-rank/web/index.html) 访问：[https://unpkg.com/@wcj/github-rank/web/index.html](https://unpkg.com/@wcj/github-rank/web/index.html) 直接访问用户排行榜。
+使用可以通过引入数据，来获取排名数据，也可以通过 [UNPKG](https://unpkg.com/@wcj/github-rank/dist/users.json) 直接访问[用户排行榜](https://unpkg.com/@wcj/github-rank/web/index.html)。
 
 ```js
 import users from '@wcj/github-rank';

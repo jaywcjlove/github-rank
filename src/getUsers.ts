@@ -18,7 +18,7 @@ import { getUserData, sleep } from './utils';
 
     data = await getUserData(3) as IResultUserData;
     users = users.concat(data.items);
-    console.log(`-> 获取到第2页，共${data.items.length}条数据！`);
+    console.log(`-> 获取到第3页，共${data.items.length}条数据！`);
 
     // await sleep(2000);
     users = users.map((item: IUserData, idx: number) => {
