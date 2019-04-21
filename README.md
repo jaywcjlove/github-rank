@@ -3,7 +3,10 @@
 Github Ranking
 ---
 
-Github中国用户排名，全球仓库 Star 排名，通过 Github API v3 来生成页面数据，[排行榜预览](http://jaywcjlove.github.io/github-rank/)。
+Github中国用户排名，全球仓库 Star 最多排名，通过 Github API v3 来生成页面数据，[排行榜预览](http://jaywcjlove.github.io/github-rank/)。
+
+- [Github 中国用户 Followers 排名预览](http://jaywcjlove.github.io/github-rank/)
+- [Github 全球仓库 Star 最多排名预览](http://jaywcjlove.github.io/github-rank/repos.html)
 
 [![](GithubRanking.png)](http://jaywcjlove.github.io/github-rank/)
 
@@ -19,6 +22,7 @@ npm install @wcj/github-rank --save-dev
 
 ```js
 import users from '@wcj/github-rank';
+import repos from '@wcj/github-rank/dist/repos.json';
 ```
 
 输出下面内容：
