@@ -4,8 +4,6 @@ import dotenv, { DotenvConfigOutput, DotenvParseOutput } from 'dotenv';
 import FS from 'fs-extra';
 import { IResultUserData, IGithubUserInfoData } from './common/props';
 
-let cid = '';
-let csecret = '';
 
 interface DotenvParsedOption extends DotenvParseOutput{
   ID: string;
@@ -16,11 +14,12 @@ interface DotenvParse extends DotenvConfigOutput {
   parsed?: DotenvParsedOption;
 }
 
+let oauth: string = '';
+
 if (FS.pathExistsSync(path.join(process.cwd(), '.env'))) {
   const conf = dotenv.config() as DotenvParse;
-  if (conf.parsed) {
-    cid = conf.parsed.ID;
-    csecret = conf.parsed.SECRET;
+  if (conf.parsed && conf.parsed.ID && conf.parsed.SECRET) {
+    oauth = `client_id=${conf.parsed.ID}&client_secret=${conf.parsed.SECRET}`;
   }
 }
 
@@ -42,11 +41,8 @@ export function getUserData(page: number): Promise<IResultUserData> {
  * `X-RateLimit-Reset` The time at which the current rate limit window resets in UTC epoch seconds.
  */
 export function getUserInfoData(username: string, client_id?: string, client_secret?: string): Promise<IGithubUserInfoData> {
-  let oauth: string = '';
   if (client_id && client_secret) {
     oauth = `client_id=${client_id}&client_secret=${client_secret}`;
-  } else if (cid && csecret) {
-    oauth = `client_id=${cid}&client_secret=${csecret}`;
   }
   return fetch(`https://api.github.com/users/${username}?${oauth}`)
     .then(res => {
