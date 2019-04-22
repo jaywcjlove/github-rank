@@ -44,10 +44,15 @@
     .list li > div.info { width: 100%; }
     .list li > div.info i { color: #717171; }
     .list li > div.info a:hover i { color: #333; }
-    .list li div.sub-title { color: #333; padding: 2px 2px 2px 3px; background: #e2e2e2; margin: 4px 0 0 8px;}
+    .list li div.sub-title { color: #333; margin: 4px 0 0 3px;}
+    .list li span.language,
+    .list li span.star { background: #e2e2e2; display: inline-block; padding: 2px 4px; border-radius: 3px; }
     .list li div.followers { font-size: 12px; color: #7d7d7d; white-space:nowrap; padding-left: 5px; padding-top: 2px; border-radius: 3px; }
     .list li div.followers * { vertical-align: middle; }
-    .list li div.followers svg { display: inline-block; fill: #9E9E9E; }
+    .list li div.followers svg { display: inline-block; fill: #9E9E9E; width: 14px; height: 14px; }
+    .list.repos.trending .select { float: right; line-height: 14px; }
+    .list.repos.trending .select .active { color: #333; font-weight: bold; }
+    .list.repos.trending .language > span { border-radius: 50%; display: inline-block; position: relative; height: 10px; width: 10px; vertical-align: middle; top: -1px; margin-right: 4px; }
     .list.repos li div.followers { display: inline-block; padding-right: 5px; }
     .list.repos li div.details { width: 100%; }
     @keyframes octocat-wave{

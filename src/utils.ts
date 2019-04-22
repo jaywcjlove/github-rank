@@ -85,11 +85,11 @@ export interface ITrendingData {
   html_url: string;
   stargazers_count: number;
   rank: number;
-  todayStar: number;
+  todayStar: string;
 }
 
-export function getTrendingData() {
-  return fetch(`https://github.com/trending`)
+export function getTrendingData(type: string = 'daily') {
+  return fetch(`https://github.com/trending?since=${type}`)
     .then(res => res.buffer())
     .then((data) => {
       const resultData: ITrendingData[] = [];
@@ -101,13 +101,13 @@ export function getTrendingData() {
         const language = $(item).find('span[itemprop=programmingLanguage]').text().replace(/(\n|\s)/g, '');
         const languageColor = $(item).find('span.repo-language-color');
         const stargazers_count = $(item).find('a.muted-link svg.octicon.octicon-star').parent().text().replace(/(\n|\s|,)/g, '');
-        const todayStar = $(item).find('span.float-sm-right svg.octicon.octicon-star').parent().text().replace(/(\n|\s|,)/g, '');
+        const todayStar = $(item).find('span.float-sm-right svg.octicon.octicon-star').parent().text().replace(/(\n|,)/g, '').trim();
         const description = $(item).find('p.text-gray').text().replace(/(\n)/g, '').trim();
         let color = '';
         if (language && languageColor && languageColor.css) {
           color = languageColor.css('background-color');
         }
-        resultData.push({ full_name, language, color, description, stargazers_count: Number(stargazers_count), todayStar: parseInt(todayStar), html_url: `https://github.com${href}`, rank: idx + 1 });
+        resultData.push({ full_name, language, color, description, stargazers_count: Number(stargazers_count), todayStar, html_url: `https://github.com${href}`, rank: idx + 1 });
       });
       return resultData;
     });

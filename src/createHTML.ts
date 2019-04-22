@@ -35,11 +35,16 @@ export function creatReposHTML(reposData: IReposHTML[]) {
 }
 
 export interface ICreateTrendingHTML {
-
+  html_url: string;
+  full_name: string;
+  language: string;
+  stargazers_count: number;
+  todayStar: string;
+  description: string;
 }
 
-export function creatTrendingHTML(trendingData: ICreateTrendingHTML) {
+export function creatTrendingHTML(trendingData: ICreateTrendingHTML[], type: string = 'daily') {
   const filename: string = path.join(rootPath, 'trending.ejs');
   const tmpStr: string = FS.readFileSync(filename).toString();
-  return ejs.render(tmpStr, { trending: trendingData, date: dateStr }, { filename });
+  return ejs.render(tmpStr, { trending: trendingData, date: dateStr, type }, { filename });
 }

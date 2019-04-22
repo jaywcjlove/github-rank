@@ -9,18 +9,27 @@ import { getUserData, sleep } from './utils';
     let data = await getUserData(1) as IResultUserData;
     users = users.concat(data.items);
     console.log(`-> 获取到第1页，共${data.items.length}条数据！`);
-    await sleep(2000);
+    await sleep(1000);
 
     data = await getUserData(2) as IResultUserData;
     users = users.concat(data.items);
     console.log(`-> 获取到第2页，共${data.items.length}条数据！`);
-    await sleep(2000);
+    await sleep(1000);
 
     data = await getUserData(3) as IResultUserData;
     users = users.concat(data.items);
     console.log(`-> 获取到第3页，共${data.items.length}条数据！`);
+    await sleep(1000);
 
-    // await sleep(2000);
+    data = await getUserData(4) as IResultUserData;
+    users = users.concat(data.items);
+    console.log(`-> 获取到第3页，共${data.items.length}条数据！`);
+    await sleep(1000);
+
+    data = await getUserData(5) as IResultUserData;
+    users = users.concat(data.items);
+    console.log(`-> 获取到第3页，共${data.items.length}条数据！`);
+
     users = users.map((item: IUserData, idx: number) => {
       item.rank = idx + 1;
       return item;

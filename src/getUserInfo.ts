@@ -48,7 +48,7 @@ async function getInfo(arr: IUserData[]) {
     arr.shift();
     await saveCacheUserData(arr);
     console.log(`<- 用户 ${user.login} 的数据获取完成！还剩 ${arr.length} 个用户信息！`);
-    await sleep(2000);
+    await sleep(1000);
     await getInfo(arr);
   }
 }
