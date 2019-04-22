@@ -19,10 +19,7 @@ export interface ICreateFollowersHTML {
 export function creatFollowersHTML(userData: ICreateFollowersHTML[]): string {
   const filename: string = path.join(rootPath, 'followers.ejs');
   const tmpStr: string = FS.readFileSync(filename).toString();
-  return ejs.render(tmpStr, {
-    users: userData,
-    date: dateStr,
-  }, { filename });
+  return ejs.render(tmpStr, { users: userData, date: dateStr }, { filename });
 }
 
 export interface IReposHTML {
@@ -34,8 +31,15 @@ export interface IReposHTML {
 export function creatReposHTML(reposData: IReposHTML[]) {
   const filename: string = path.join(rootPath, 'repos.ejs');
   const tmpStr: string = FS.readFileSync(filename).toString();
-  return ejs.render(tmpStr, {
-    repos: reposData,
-    date: dateStr,
-  }, { filename });
+  return ejs.render(tmpStr, { repos: reposData, date: dateStr }, { filename });
+}
+
+export interface ICreateTrendingHTML {
+
+}
+
+export function creatTrendingHTML(trendingData: ICreateTrendingHTML) {
+  const filename: string = path.join(rootPath, 'trending.ejs');
+  const tmpStr: string = FS.readFileSync(filename).toString();
+  return ejs.render(tmpStr, { trending: trendingData, date: dateStr }, { filename });
 }

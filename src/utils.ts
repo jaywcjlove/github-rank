@@ -3,6 +3,7 @@ import path from 'path';
 import dotenv, { DotenvConfigOutput, DotenvParseOutput } from 'dotenv';
 import FS from 'fs-extra';
 import { IResultUserData, IGithubUserInfoData } from './common/props';
+import cheerio from 'cheerio';
 
 
 interface DotenvParsedOption extends DotenvParseOutput{
@@ -73,6 +74,42 @@ export function getReposData(page: number): Promise<IResultReposData> {
       console.log(`   Github API 获取用户计数: ${res.headers.get('x-ratelimit-limit')}/${res.headers.get('x-ratelimit-remaining')}`);
       console.log('   时间:', `${res.headers.get('x-ratelimit-reset')}000\n`);
       return res.json();
+    });
+}
+
+export interface ITrendingData {
+  full_name: string;
+  language: string;
+  color: string;
+  description: string;
+  html_url: string;
+  stargazers_count: number;
+  rank: number;
+  todayStar: number;
+}
+
+export function getTrendingData() {
+  return fetch(`https://github.com/trending`)
+    .then(res => res.buffer())
+    .then((data) => {
+      const resultData: ITrendingData[] = [];
+      const html = data.toString();
+      const $ = cheerio.load(html)
+      $('.repo-list li').each(function(idx, item) {
+        const full_name = $(item).find('h3 a').text().replace(/(\n|\s)/g, '');
+        const href = $(item).find('h3 a').attr('href').replace(/(\n|\s)/g, '');
+        const language = $(item).find('span[itemprop=programmingLanguage]').text().replace(/(\n|\s)/g, '');
+        const languageColor = $(item).find('span.repo-language-color');
+        const stargazers_count = $(item).find('a.muted-link svg.octicon.octicon-star').parent().text().replace(/(\n|\s|,)/g, '');
+        const todayStar = $(item).find('span.float-sm-right svg.octicon.octicon-star').parent().text().replace(/(\n|\s|,)/g, '');
+        const description = $(item).find('p.text-gray').text().replace(/(\n)/g, '').trim();
+        let color = '';
+        if (language && languageColor && languageColor.css) {
+          color = languageColor.css('background-color');
+        }
+        resultData.push({ full_name, language, color, description, stargazers_count: Number(stargazers_count), todayStar: parseInt(todayStar), html_url: `https://github.com${href}`, rank: idx + 1 });
+      });
+      return resultData;
     });
 }
 

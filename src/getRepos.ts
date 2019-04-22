@@ -25,5 +25,5 @@ async function saveReposData(data: IReposData) {
   await sleep(2000);
 
   await saveReposData(repos);
-  console.log(`> 工获取 ${repos.length} 个仓库！`);
+  console.log(`> 共获取 ${repos.length} 个仓库！`);
 })();
