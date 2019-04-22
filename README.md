@@ -13,7 +13,7 @@ Github中国用户排名，全球仓库 Star 最多排名，通过 Github API v3
 
 ## 使用
 
-希望能从 `19年04月20日` 开始每天发版，版本号以 `年`、`月`、`日` 来定义，如: `v19.4.20`。
+从 `2019年04月20日` 尽量每天在 [`npm`](https://www.npmjs.com/package/@wcj/github-rank) 上发版，版本号以 `年`、`月`、`日` 来定义，如: `v19.4.20`。
 
 ```bash
 npm install @wcj/github-rank --save-dev
@@ -24,11 +24,15 @@ npm install @wcj/github-rank --save-dev
 ```js
 import users from '@wcj/github-rank';
 import repos from '@wcj/github-rank/dist/repos.json';
+import trendingDaily from '@wcj/github-rank/dist/trending-daily.json';
+import trendingWeekly from '@wcj/github-rank/dist/trending-weekly.json';
+import trendingMonthly from '@wcj/github-rank/dist/trending-monthly.json';
 ```
 
-输出下面内容：
+```js
+import users from '@wcj/github-rank';
 
-```json
+// 默认 users 输出如下数据：
 [
   {
     "login": "jaywcjlove",
