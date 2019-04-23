@@ -1,17 +1,18 @@
 {
   "name": "@wcj/github-rank",
-  "version": "19.4.23",
+  "version": "19.4.24",
   "description": "Github Users Ranking for China.",
   "scripts": {
     "start": "node lib/build.js",
-    "get": "npm run get:users && npm run get:users:info && npm run get:repos && npm run get:trending",
+    "get": "npm run get:users && npm run get:users:china && npm run get:users:info && npm run get:repos && npm run get:trending",
     "get:users:info": "node lib/getUserInfo.js",
     "get:users": "node lib/getUsers.js",
+    "get:users:china": "node lib/getChinaUsers.js",
     "get:repos": "node lib/getRepos.js",
     "get:trending": "node lib/getTrending.js",
     "dev": "npm run build:cjs -- --watch",
     "prepare": "npm run build:cjs",
-    "deploy": "gh-pages -d web -m '2019-04-23'",
+    "deploy": "gh-pages -d web -m '2019-04-24'",
     "build:cjs": "BABEL_ENV=cjs babel src --out-dir lib --extensions \".ts,.tsx\" --source-maps inline --copy-files --delete-dir-on-start --verbose"
   },
   "author": "Kenny Wong <wowohoo@qq.com>",
@@ -19,12 +20,12 @@
   "main": "dist/users.json",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jaywcjlove/github-rank.git"
+    "url": "https://github.com/jaywcjlove/github-rank.git"
   },
   "bugs": {
     "url": "https://github.com/jaywcjlove/github-rank/issues"
   },
-  "homepage": "https://github.com/jaywcjlove/github-rank#readme",
+  "homepage": "http://jaywcjlove.github.io/github-rank/",
   "files": [
     "dist",
     "web"
