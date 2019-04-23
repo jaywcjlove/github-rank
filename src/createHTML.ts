@@ -10,16 +10,20 @@ export interface ICreateFollowersHTML {
   avatar_url: string;
   name: string | null;
   login: string;
-  location: string;
+  location: string | null;
   public_repos: number;
   followers: number;
   [key: string]: any;
 }
 
-export function creatFollowersHTML(userData: ICreateFollowersHTML[]): string {
+export function creatFollowersHTML(userData: ICreateFollowersHTML[], type: string): string {
   const filename: string = path.join(rootPath, 'followers.ejs');
   const tmpStr: string = FS.readFileSync(filename).toString();
-  return ejs.render(tmpStr, { title: 'Github Users Ranking for China.', users: userData, date: dateStr }, { filename });
+  let title = 'Github China User Ranking.';
+  if (type === 'global') {
+    title = 'Github Users Global Ranking.'
+  }
+  return ejs.render(tmpStr, { title, users: userData, date: dateStr, type }, { filename });
 }
 
 export interface IReposHTML {

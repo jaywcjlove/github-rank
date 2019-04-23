@@ -24,8 +24,8 @@ if (FS.pathExistsSync(path.join(process.cwd(), '.env'))) {
   }
 }
 
-export function getUserData(page: number): Promise<IResultUserData> {
-  return fetch(`https://api.github.com/search/users?page=${page}&per_page=100&q=location:China`)
+export function getUserData(page: number, isChina?: boolean): Promise<IResultUserData> {
+  return fetch(`https://api.github.com/search/users?page=${page}&per_page=100&q=${isChina ? 'location:China' : 'followers:>1000'}${oauth && `&${oauth}`}`)
     .then(res => {
       console.log(`   Github API 获取用户计数: ${res.headers.get('x-ratelimit-limit')}/${res.headers.get('x-ratelimit-remaining')}`);
       console.log('   时间:', `${res.headers.get('x-ratelimit-reset')}000`);
