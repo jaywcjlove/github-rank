@@ -17,8 +17,8 @@
         </div>
         <div class="sub-title followers">
           <% if(repo.language) {%>
-          <a target="_blank" href="https://github.com/topics/<%=repo.language.toLowerCase()%>">
-            <span class="language" title="Programming Language <%=repo.language%>"><span style="background-color: <%=repo.color%>;"></span><%=repo.language%></span>
+          <a class="language" target="_blank" href="https://github.com/topics/<%=repo.language.toLowerCase()%>"  title="Programming Language <%=repo.language%>">
+            <span style="background-color: <%=repo.color%>;"></span><%=repo.language%>
           </a>
           <% } %>
           <span class="star" title="Stargazers Count">
