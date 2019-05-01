@@ -33,7 +33,7 @@ import { getUserData, sleep } from './utils';
     users = users.map((item: IUserData, idx: number) => {
       item.rank = idx + 1;
       return item;
-    });
+    }).slice(0, 500);
 
     FS.outputFileSync(path.join(process.cwd(), '.cache', 'users.china.json'), JSON.stringify(users, null, 2));
     console.log(`-> 共获取${users.length}条用户数据！`);
