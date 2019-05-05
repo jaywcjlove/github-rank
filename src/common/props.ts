@@ -13,12 +13,14 @@ export interface IUserData {
   starred_url: string;
   subscriptions_url: string;
   organizations_url: string;
+  public_repos: number;
   repos_url: string;
   events_url: string;
   received_events_url: string;
   type: string;
   site_admin: boolean;
   score: number;
+  stargazers_count?: number;
   followers?: number; // 排序
   rank?: number; // 排序
 }
@@ -31,7 +33,6 @@ export interface IGithubUserInfoData extends IUserData {
   email: string | null;
   hireable: boolean | null;
   bio: string | null;
-  public_repos: number;
   public_gists: number;
   followers: number;
   following: number;

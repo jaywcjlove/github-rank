@@ -1,8 +1,7 @@
 import FS from 'fs-extra';
 import path from 'path';
-
-import { IUserData } from './common/props';
-import { sleep, getUserInfoData } from './utils';
+import { IUserData } from '../common/props';
+import { sleep, getUserInfoData } from './';
 
 
 /**
@@ -16,7 +15,7 @@ let users: IUserData[] = [];
 let usersStore: IUserData[] = [];
 
 
-async function saveUserData(data: IUserData[], type: string = '') {
+export async function saveUserData(data: IUserData[], type: string = '') {
   await FS.outputFile(path.join(process.cwd(), 'dist', `users${type}.json`), JSON.stringify(data, null, 2));
 }
 

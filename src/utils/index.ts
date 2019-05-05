@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 import path from 'path';
 import dotenv, { DotenvConfigOutput, DotenvParseOutput } from 'dotenv';
 import FS from 'fs-extra';
-import { IResultUserData, IGithubUserInfoData } from './common/props';
+import { IResultUserData, IGithubUserInfoData } from '../common/props';
 import cheerio from 'cheerio';
 
 
@@ -53,8 +53,42 @@ export function getUserInfoData(username: string, client_id?: string, client_sec
     });
 }
 
+/**
+ * Get the total count of stars.
+ * @param username 
+ * @param page 
+ */
+export async function getUserStarsData(username: string, repos: number, count: number = 0) {
+  if (!repos) {
+    console.log(`  仓库总数不存在无法获取 star 总数！`)
+    return count
+  }
+
+  const pages = Math.ceil(repos / 100);
+  let i = pages;
+  let reposData: IReposData[] = [];
+
+  while (i--) {
+    await fetch(`https://api.github.com/users/${username}/repos?per_page=100&page=${i + 1}?${oauth}`)
+      .then(res => {
+        console.log(`   Github API 获取用户总 Star 计数: ${res.headers.get('x-ratelimit-limit')}/${res.headers.get('x-ratelimit-remaining')}`);
+        console.log('   时间:', `${res.headers.get('x-ratelimit-reset')}000`);
+        return res.json();
+      }).then((data: IReposData[]) => {
+        reposData = reposData.concat(data);
+      });
+  }
+  reposData.forEach((item: IReposData) => {
+    if (item.stargazers_count) {
+      count += item.stargazers_count;
+    }
+  });
+  return count;
+}
+
 
 export interface IReposData {
+  stargazers_count: number;
   [key: string]: any;
 }
 

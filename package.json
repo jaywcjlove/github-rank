@@ -6,6 +6,7 @@
     "start": "node lib/build.js",
     "get": "npm run get:users && npm run get:users:china && npm run get:users:info && npm run get:repos && npm run get:trending",
     "get:users:info": "node lib/getUserInfo.js",
+    "star": "node lib/getUserInfoStars.js",
     "get:users": "node lib/getUsers.js",
     "get:users:china": "node lib/getChinaUsers.js",
     "get:repos": "node lib/getRepos.js",
