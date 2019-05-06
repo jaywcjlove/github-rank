@@ -63,13 +63,14 @@ export async function getUserStarsData(username: string, repos: number, count: n
     console.log(`  仓库总数不存在无法获取 star 总数！`)
     return count
   }
-
+  
   const pages = Math.ceil(repos / 100);
+  const page = pages === 1 ? repos : 100;
   let i = pages;
   let reposData: IReposData[] = [];
 
   while (i--) {
-    await fetch(`https://api.github.com/users/${username}/repos?per_page=100&page=${i + 1}?${oauth}`)
+    await fetch(`https://api.github.com/users/${username}/repos?per_page=${page}&page=${i + 1}?${oauth}`)
       .then(res => {
         console.log(`   Github API 获取用户总 Star 计数: ${res.headers.get('x-ratelimit-limit')}/${res.headers.get('x-ratelimit-remaining')}`);
         console.log('   时间:', `${res.headers.get('x-ratelimit-reset')}000`);

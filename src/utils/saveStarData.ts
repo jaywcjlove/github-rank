@@ -18,24 +18,23 @@ export async function getInfo(arr: IUserData[], type: string = '') {
   if (!user) {
     return;
   }
-  console.log(`\n-> 获取 ${user.login} 的 Star 总数！`);
+  console.log(`\n-> 获取 ${user.login} ${user.public_repos} 个仓库的 Star 总数！`);
   const userStars = await getUserStarsData(user.login, user.public_repos);
-  console.log('userStars:', userStars);
   users = users.map((item: IUserData) => {
     if (item.login === user.login) {
       item = { ...user };
-      if (userStars) {
+      if (userStars || userStars === 0) {
         item.stargazers_count = userStars;
       }
     }
     return item;
   });
-  if (userStars) {
+  if (userStars || user.public_repos === 0) {
     await saveUserData(users, type);
     // 获取成功删除第一条
     arr.shift();
     await saveCacheUserStarData(arr, type);
-    console.log(`<- 用户 ${user.login} 的 start 数据获取完成！还剩 ${arr.length} 个用户！`);
+    console.log(`<- 用户 ${user.login} 总共有 ${userStars} 个 Star ！还剩 ${arr.length} 个用户！`);
     await sleep(1000);
     await getInfo(arr, type);
   }

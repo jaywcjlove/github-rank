@@ -7,8 +7,15 @@ import { saveStarData } from './utils/saveStarData';
 
 ;(async () => {
   try {
+    // 缓存需要获取用户 star 数的信息
+    // await saveCacheUserStarData(users);
+    // 缓存需要获取用户 star 数的信息
+    // await saveCacheUserStarData(users, '.china');
+
+
+    const userData = usersDist as IUserData[];
     // 获取【全球】用户 star 数据排行榜
-    let users: IUserData[] = await saveStarData(usersDist, usersCache, '');
+    let users: IUserData[] = await saveStarData(userData, usersCache, '');
     if (usersCache.length === 0) {
       console.log(`-> 获取【全球】用户 star 数据完成！${users.length}`);
     } else {
