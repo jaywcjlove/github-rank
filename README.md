@@ -11,6 +11,7 @@ Github中国用户排名，全球仓库 Star 最多排名，通过 Github API v3
 - [Github **中国** 用户 Followers 排名预览](http://jaywcjlove.github.io/github-rank/users.china.html)
 - [Github 全球仓库 Star 最多排名预览](http://jaywcjlove.github.io/github-rank/repos.html)
 - [Github 社区趋势榜日、周、月预览](http://jaywcjlove.github.io/github-rank/trending.html) [**`日`**](http://jaywcjlove.github.io/github-rank/trending.html) [**`周`**](http://jaywcjlove.github.io/github-rank/trending-weekly.html) [**`月`**](http://jaywcjlove.github.io/github-rank/trending-monthly.html)
+- [SegmentFault 思否 - 近期热门](http://jaywcjlove.github.io/github-rank/sifou-daily.html) [**`日`**](http://jaywcjlove.github.io/github-rank/sifou-daily.html) [**`周`**](http://jaywcjlove.github.io/github-rank/sifou-weekly.html) [**`月`**](http://jaywcjlove.github.io/github-rank/sifou-monthly.html)
 
 [![](GithubRanking.png)](http://jaywcjlove.github.io/github-rank/)
 

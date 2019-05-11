@@ -89,7 +89,7 @@ export async function getUserStarsData(username: string, repos: number, count: n
 
 
 export interface IReposData {
-  stargazers_count: number;
+  stargazers_count?: number;
   [key: string]: any;
 }
 

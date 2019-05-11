@@ -1,6 +1,7 @@
 import FS from 'fs-extra';
 import path from 'path';
 import ejs from 'ejs';
+import { ISifou } from './utils/getSifou';
 
 const rootPath: string = path.join(__dirname, 'html');
 const dateStr: string = `${new Date().getFullYear()}/${(new Date().getMonth()) + 1}/${new Date().getDate()}`;
@@ -51,4 +52,10 @@ export function creatTrendingHTML(trendingData: ICreateTrendingHTML[], type: str
   const filename: string = path.join(rootPath, 'trending.ejs');
   const tmpStr: string = FS.readFileSync(filename).toString();
   return ejs.render(tmpStr, { title: 'Github Repositories Trending', trending: trendingData, date: dateStr, type }, { filename });
+}
+
+export function creatSifouHTML(sifouData: ISifou[], type: string = 'daily') {
+  const filename: string = path.join(rootPath, 'sifou.ejs');
+  const tmpStr: string = FS.readFileSync(filename).toString();
+  return ejs.render(tmpStr, { title: 'Segmentfault 思否热门', data: sifouData, date: dateStr, type }, { filename });
 }

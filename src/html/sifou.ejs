@@ -1,0 +1,25 @@
+<%- include('header', { tabCls: 'sifou' }); %>
+<ul class="list repos ">
+    <li class="rank-title">
+      Segmentfault 思否热门
+      <span class="select">
+        <a class="<%= type === 'daily' ? 'active': '' %>" href="sifou-daily.html">日热门</a>
+        <a class="<%= type === 'weekly' ? 'active': '' %>" href="sifou-weekly.html">周热门</a>
+        <a class="<%= type === 'monthly' ? 'active': '' %>" href="sifou-monthly.html">月热门</a>
+      </span>
+    </li>
+    <% data.forEach(function(repo, idx){ %>
+    <li>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking <%=idx + 1%>"><%=idx + 1%></span>
+          <a href="<%=repo.url%>" target="_blank" title="<%=repo.title%>"><%=repo.title%></a>
+        </div>
+        <div class="details">
+          <%=repo.description%>
+        </div>
+      </div>
+    </li>
+    <% }); %>
+</ul>
+<%- include('footer', { }); %>
