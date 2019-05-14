@@ -13,10 +13,10 @@
     "get:users:china": "node lib/getChinaUsers.js",
     "get:repos": "node lib/getRepos.js",
     "get:trending": "node lib/getTrending.js",
-    "dev": "npm run build:cjs -- --watch",
-    "prepare": "npm run build:cjs",
     "deploy": "gh-pages -d web -m '2019-05-14'",
-    "build:cjs": "BABEL_ENV=cjs babel src --out-dir lib --extensions \".ts,.tsx\" --source-maps inline --copy-files --delete-dir-on-start --verbose"
+    "prepare": "npm run build",
+    "dev": "tsbb watch",
+    "build": "tsbb build"
   },
   "author": "Kenny Wong <wowohoo@qq.com>",
   "license": "MIT",
@@ -40,12 +40,6 @@
     "ranking"
   ],
   "devDependencies": {
-    "@babel/cli": "^7.4.3",
-    "@babel/core": "^7.4.3",
-    "@babel/plugin-transform-runtime": "^7.4.3",
-    "@babel/preset-env": "^7.4.3",
-    "@babel/preset-typescript": "^7.3.3",
-    "@babel/runtime": "^7.4.3",
     "@types/cheerio": "^0.22.11",
     "@types/dotenv": "^6.1.1",
     "@types/ejs": "^2.6.3",
@@ -59,6 +53,7 @@
     "gh-pages": "^2.0.1",
     "jest": "^24.7.1",
     "node-fetch": "^2.3.0",
+    "tsbb": "0.0.10",
     "typescript": "^3.4.3"
   },
   "dependencies": {}
