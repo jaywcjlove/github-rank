@@ -1,6 +1,6 @@
 {
   "name": "@wcj/github-rank",
-  "version": "19.05.14",
+  "version": "19.05.15",
   "description": "Github Users Ranking for China.",
   "scripts": {
     "start": "node lib/build.js",
@@ -13,7 +13,7 @@
     "get:users:china": "node lib/getUsersChina.js",
     "get:repos": "node lib/getRepos.js",
     "get:trending": "node lib/getTrending.js",
-    "deploy": "gh-pages -d web -m '2019-05-14'",
+    "deploy": "gh-pages -d web -m '2019-05-15'",
     "prepare": "npm run build",
     "dev": "tsbb watch",
     "build": "tsbb build"
