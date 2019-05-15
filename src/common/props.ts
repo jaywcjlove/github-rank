@@ -23,6 +23,9 @@ export interface IUserData {
   stargazers_count?: number;
   followers?: number; // 排序
   rank?: number; // 排序
+  // 错误返回
+  message?: string;
+  documentation_url?: string;
 }
 
 export interface IGithubUserInfoData extends IUserData {
