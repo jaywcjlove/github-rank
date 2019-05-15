@@ -10,7 +10,7 @@
     "star": "node lib/getUserInfoStars.js",
     "get:sifou": "node lib/getSifou.js",
     "get:users": "node lib/getUsers.js",
-    "get:users:china": "node lib/getChinaUsers.js",
+    "get:users:china": "node lib/getUsersChina.js",
     "get:repos": "node lib/getRepos.js",
     "get:trending": "node lib/getTrending.js",
     "deploy": "gh-pages -d web -m '2019-05-14'",
@@ -53,8 +53,7 @@
     "gh-pages": "^2.0.1",
     "jest": "^24.7.1",
     "node-fetch": "^2.3.0",
-    "tsbb": "0.0.10",
-    "typescript": "^3.4.3"
+    "tsbb": "0.0.10"
   },
   "dependencies": {}
 }
