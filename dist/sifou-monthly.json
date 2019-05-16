@@ -5,44 +5,26 @@
     "url": "https://segmentfault.com/a/1190000019158228",
     "author": "刘小夕",
     "home_url": "https://segmentfault.com/u/liuyan666",
-    "votes": "127",
+    "votes": "139",
     "rank": 1
   },
   {
-    "title": "10秒钟构建你自己的”造轮子”工厂！ 2019年github/npm工程化协作开发栈最佳实践",
-    "description": "发起一个github/npm工程协作项目，门槛太高了！！ 最基础的问题，你都要花很久去研究： 如何在项目中全线使用es2017代码？ 答案是babel 如何统一所有协作者的代码风格？ 答案是eslint + prettier 如何测试驱动开...",
-    "url": "https://segmentfault.com/a/1190000019168638",
-    "author": "刘羽冲",
-    "home_url": "https://segmentfault.com/u/liuyuchong",
-    "votes": "50",
-    "rank": 2
-  },
-  {
-    "title": "9102年：手写一个React脚手架    【已优化至完美版】",
+    "title": "9102年：手写一个React脚手架    【已优化并附带小项目源码】",
     "description": "webpack马上要出5了，完全手写一个优化后的脚手架是不可或缺的技能。 本文书写时间 2019年5月9日 , webpack版本 4.30.0最新版本 本人所有代码均手写，亲自试验过可以运行达到优化效果。 欢迎关注我的专栏 《前端...",
     "url": "https://segmentfault.com/a/1190000019126657",
     "author": "Jerry谭金杰",
     "home_url": "https://segmentfault.com/u/jerrytanjinjie",
-    "votes": "155",
+    "votes": "158",
+    "rank": 2
+  },
+  {
+    "title": "VsCode从零开始配置一个属于自己的Vue开发环境",
+    "description": "VsCode算是比较热门的一个代码编辑器了，全名Visual Studio Code，微软出品，下载地址：点我去下载插件众多，功能齐全，平常开发过程中都是用的它，整理了下日常使用的插件及配置供大家参考，废话就不多说了，直...",
+    "url": "https://segmentfault.com/a/1190000019203847",
+    "author": "寻梦无痕",
+    "home_url": "https://segmentfault.com/u/liub37",
+    "votes": "14",
     "rank": 3
-  },
-  {
-    "title": "CSS实现两个球相交的粘粘效果",
-    "description": "这是一个纯粹利用CSS所做出来的效果，这个效果说穿了就是一个图像处理的原理，做法跟Photoshop里头的几乎一模一样，只是一个用图层和色版来制作，一个则是用CSS（把div当成图层思考就好了）。",
-    "url": "https://segmentfault.com/a/1190000019171125",
-    "author": "果冻",
-    "home_url": "https://segmentfault.com/u/guodong_589c0897bd203",
-    "votes": "71",
-    "rank": 4
-  },
-  {
-    "title": "用vscode开发vue应用",
-    "description": "现在用VSCode开发Vue.js应用几乎已经是前端的标配了，但很多时候我们看到的代码混乱不堪，作为一个前端工程师，单引号双引号乱用，一段有分号一段没有分号，有的地方有逗号有的地方没有逗号，空格回车都对不齐，...",
-    "url": "https://segmentfault.com/a/1190000019055976",
-    "author": "张京",
-    "home_url": "https://segmentfault.com/u/fengerzh",
-    "votes": "199",
-    "rank": 5
   },
   {
     "title": "一名【合格】前端工程师的自检清单",
@@ -50,7 +32,25 @@
     "url": "https://segmentfault.com/a/1190000018992363",
     "author": "ConardLi",
     "home_url": "https://segmentfault.com/u/conardli",
-    "votes": "526",
+    "votes": "534",
+    "rank": 4
+  },
+  {
+    "title": "13个帮你提高开发效率的现代CSS框架",
+    "description": "本文将向你介绍一系列顶级CSS框架。有些人可能听说过，也可能对有些人是全新的。但它们都提供了各种有用的先进功能，可以改善你的工作流程。开始吧！",
+    "url": "https://segmentfault.com/a/1190000019154021",
+    "author": "疯狂的技术宅",
+    "home_url": "https://segmentfault.com/u/evilboy",
+    "votes": "55",
+    "rank": 5
+  },
+  {
+    "title": "CSS实现两个球相交的粘粘效果",
+    "description": "这是一个纯粹利用CSS所做出来的效果，这个效果说穿了就是一个图像处理的原理，做法跟Photoshop里头的几乎一模一样，只是一个用图层和色版来制作，一个则是用CSS（把div当成图层思考就好了）。",
+    "url": "https://segmentfault.com/a/1190000019171125",
+    "author": "果冻",
+    "home_url": "https://segmentfault.com/u/guodong_589c0897bd203",
+    "votes": "80",
     "rank": 6
   },
   {
@@ -59,17 +59,26 @@
     "url": "https://segmentfault.com/a/1190000018959389",
     "author": "wuwhs",
     "home_url": "https://segmentfault.com/u/wuwhs",
-    "votes": "258",
+    "votes": "262",
     "rank": 7
   },
   {
-    "title": "总结异步编程的六种方式",
-    "description": "众所周知 JavaScript 是单线程工作，也就是只有一个脚本执行完成后才能执行下一个脚本，两个脚本不能同时执行，如果某个脚本耗时很长，后面的脚本都必须排队等着，会拖延整个程序的执行。那么如何让程序像人类一...",
-    "url": "https://segmentfault.com/a/1190000019188824",
-    "author": "Aima",
-    "home_url": "https://segmentfault.com/u/timao",
-    "votes": "18",
+    "title": "用vscode开发vue应用",
+    "description": "现在用VSCode开发Vue.js应用几乎已经是前端的标配了，但很多时候我们看到的代码混乱不堪，作为一个前端工程师，单引号双引号乱用，一段有分号一段没有分号，有的地方有逗号有的地方没有逗号，空格回车都对不齐，...",
+    "url": "https://segmentfault.com/a/1190000019055976",
+    "author": "张京",
+    "home_url": "https://segmentfault.com/u/fengerzh",
+    "votes": "201",
     "rank": 8
+  },
+  {
+    "title": "10秒钟构建你自己的”造轮子”工厂！ 2019年github/npm工程化协作开发栈最佳实践",
+    "description": "发起一个github/npm工程协作项目，门槛太高了！！ 最基础的问题，你都要花很久去研究： 如何在项目中全线使用es2017代码？ 答案是babel 如何统一所有协作者的代码风格？ 答案是eslint + prettier 如何测试驱动开...",
+    "url": "https://segmentfault.com/a/1190000019168638",
+    "author": "刘羽冲",
+    "home_url": "https://segmentfault.com/u/liuyuchong",
+    "votes": "51",
+    "rank": 9
   },
   {
     "title": "浅谈小程序运行机制",
@@ -77,17 +86,26 @@
     "url": "https://segmentfault.com/a/1190000019131399",
     "author": "小白",
     "home_url": "https://segmentfault.com/u/fengqingyu",
-    "votes": "83",
-    "rank": 9
+    "votes": "85",
+    "rank": 10
   },
   {
-    "title": "前端中的事件循环eventloop机制",
-    "description": "我们知道 js 是单线程执行的，那么异步的代码 js 是怎么处理的呢？例如下面的代码是如何进行输出的：",
-    "url": "https://segmentfault.com/a/1190000019183780",
-    "author": "wenzi",
-    "home_url": "https://segmentfault.com/u/wenzi0_0",
-    "votes": "17",
-    "rank": 10
+    "title": "call() , apply() 与 bind() 实例详解",
+    "description": "我们知道可以用call(), apply() 和 bind()这三个函数都是用来完成函数调用，并且设置this指向。 call()和apply()是 ECMAScript3 标准引入，而bind()函数则是在 ECMAScript 5 引入。 这边文章会用几个小例子来回忆...",
+    "url": "https://segmentfault.com/a/1190000019196935",
+    "author": "二两生抽",
+    "home_url": "https://segmentfault.com/u/greatkevin",
+    "votes": "13",
+    "rank": 11
+  },
+  {
+    "title": "45个值得收藏的 CSS 形状",
+    "description": "CSS能够生成各种形状。正方形和矩形很容易，因为它们是 web 的自然形状。添加宽度和高度，就得到了所需的精确大小的矩形。添加边框半径，你就可以把这个形状变成圆形，足够多的边框半径，你就可以把这些矩形变成...",
+    "url": "https://segmentfault.com/a/1190000018922732",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "471",
+    "rank": 12
   },
   {
     "title": "手摸手，带你用vue撸后台 系列五(v4.0新版本)",
@@ -95,8 +113,8 @@
     "url": "https://segmentfault.com/a/1190000019122005",
     "author": "花裤衩",
     "home_url": "https://segmentfault.com/u/panjiachen",
-    "votes": "103",
-    "rank": 11
+    "votes": "105",
+    "rank": 13
   },
   {
     "title": "旗帜鲜明地抵制 CSDN 下载（盗版）站！",
@@ -105,25 +123,25 @@
     "author": "高阳Sunny",
     "home_url": "https://segmentfault.com/u/sunny",
     "votes": "115",
-    "rank": 12
-  },
-  {
-    "title": "13个帮你提高开发效率的现代CSS框架",
-    "description": "本文将向你介绍一系列顶级CSS框架。有些人可能听说过，也可能对有些人是全新的。但它们都提供了各种有用的先进功能，可以改善你的工作流程。开始吧！",
-    "url": "https://segmentfault.com/a/1190000019154021",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "54",
-    "rank": 13
-  },
-  {
-    "title": "45个值得收藏的 CSS 形状",
-    "description": "CSS能够生成各种形状。正方形和矩形很容易，因为它们是 web 的自然形状。添加宽度和高度，就得到了所需的精确大小的矩形。添加边框半径，你就可以把这个形状变成圆形，足够多的边框半径，你就可以把这些矩形变成...",
-    "url": "https://segmentfault.com/a/1190000018922732",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "468",
     "rank": 14
+  },
+  {
+    "title": "总结异步编程的六种方式",
+    "description": "众所周知 JavaScript 是单线程工作，也就是只有一个脚本执行完成后才能执行下一个脚本，两个脚本不能同时执行，如果某个脚本耗时很长，后面的脚本都必须排队等着，会拖延整个程序的执行。那么如何让程序像人类一...",
+    "url": "https://segmentfault.com/a/1190000019188824",
+    "author": "Aima",
+    "home_url": "https://segmentfault.com/u/timao",
+    "votes": "34",
+    "rank": 15
+  },
+  {
+    "title": "RGB、HSL、Hex网页色彩码，看完这篇全懂了",
+    "description": "网页使用到的色彩标示方法中，从古早时期大家都在用的16进位码（#000000）、RGB色值标示、HSL色彩标示，其中网页设计师最常使用的16进位色码标示法，而16进位码又是如何计算色彩的呢？有没有办法直接脑袋就把色彩...",
+    "url": "https://segmentfault.com/a/1190000019199161",
+    "author": "果冻",
+    "home_url": "https://segmentfault.com/u/guodong_589c0897bd203",
+    "votes": "10",
+    "rank": 16
   },
   {
     "title": "小程序如何生成海报分享朋友圈",
@@ -131,34 +149,16 @@
     "url": "https://segmentfault.com/a/1190000019083548",
     "author": "小白",
     "home_url": "https://segmentfault.com/u/fengqingyu",
-    "votes": "130",
-    "rank": 15
-  },
-  {
-    "title": "【周刊-3】三年大厂面试官-十道前端面试题（欢迎挑战）",
-    "description": "在两家大厂工作了6年，当了3年的前端面试官，把一些较难的面试题与答案汇总在我的Github中。希望对大家有所帮助，助力大家进入自己理想的企业。",
-    "url": "https://segmentfault.com/a/1190000019156097",
-    "author": "第一名的小蝌蚪",
-    "home_url": "https://segmentfault.com/u/diyimingdexiao",
-    "votes": "42",
-    "rank": 16
-  },
-  {
-    "title": "一张思维导图辅助你深入了解 Vue | Vue-Router | Vuex 源码架构",
-    "description": "本文内容讲解的内容：一张思维导图辅助你深入了解 Vue | Vue-Router | Vuex 源码架构。",
-    "url": "https://segmentfault.com/a/1190000019153289",
-    "author": "夜尽天明",
-    "home_url": "https://segmentfault.com/u/biaochenxuying",
-    "votes": "45",
+    "votes": "134",
     "rank": 17
   },
   {
-    "title": "从 React Native 到 Flutter，移动跨平台方案的真相",
-    "description": "2018 年 12 月，Google 发布了 Flutter 1.0 正式版，似乎再次点燃了人们对移动跨平台开发的热情。上一次出现类似的情况，是在 15 年年初，Facebook 发布 React Native 的时候。四年不到的时间里，有两家大公司相...",
-    "url": "https://segmentfault.com/a/1190000019161737",
-    "author": "LeanCloud",
-    "home_url": "https://segmentfault.com/u/leancloud",
-    "votes": "27",
+    "title": "JavaScript 是如何工作的系列文章已更新到22篇",
+    "description": "为了方便大家共同学习，整理了之前博客系列的文章，目前已整理 JavaScript 是如何工作这个系列，可以请猛戳GitHub博客查看。",
+    "url": "https://segmentfault.com/a/1190000019203219",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "8",
     "rank": 18
   },
   {
@@ -167,44 +167,8 @@
     "url": "https://segmentfault.com/a/1190000019179879",
     "author": "he_xd",
     "home_url": "https://segmentfault.com/u/he_xd",
-    "votes": "26",
+    "votes": "32",
     "rank": 19
-  },
-  {
-    "title": "从0开始Go语言，用Golang搭建网站",
-    "description": "实践是最好的学习方式 零基础通过开发Web服务学习Go语言 本文适合有一定编程基础，但是没有Go语言基础的同学。 也就是俗称的“骗你”学Go语言系列。 这是一个适合阅读的系列，我希望您能够在车上、厕所、餐厅都阅读...",
-    "url": "https://segmentfault.com/a/1190000019151901",
-    "author": "ZetaChow晓代码",
-    "home_url": "https://segmentfault.com/u/zetachow",
-    "votes": "33",
-    "rank": 20
-  },
-  {
-    "title": "What's New in JavaScript",
-    "description": "前几天 Google IO 上 V8 团队为我们分享了《What's New in JavaScript》主题，分享的语速很慢推荐大家可以都去听听就当锻炼下听力了。看完之后我整理了一个文字版帮助大家快速了解分享内容，嘉宾主要是分享了以下...",
-    "url": "https://segmentfault.com/a/1190000019147365",
-    "author": "公子",
-    "home_url": "https://segmentfault.com/u/lizheming",
-    "votes": "43",
-    "rank": 21
-  },
-  {
-    "title": "看完这篇，你也可以实现一个360度全景插件",
-    "description": "导读 本文从绘图基础开始讲起，详细介绍了如何使用Three.js开发一个功能齐全的全景插件。 我们先来看一下插件的效果： 如果你对Three.js已经很熟悉了，或者你想跳过基础理论，那么你可以直接从全景预览开始看起。...",
-    "url": "https://segmentfault.com/a/1190000019068732",
-    "author": "ConardLi",
-    "home_url": "https://segmentfault.com/u/conardli",
-    "votes": "128",
-    "rank": 22
-  },
-  {
-    "title": "PHP超低内存遍历目录文件和读取超大文件",
-    "description": "我写这篇笔记的原因是现在网络上关于 PHP 遍历目录文件和 PHP 读取文本文件的教程和示例代码都是极其低效的，低效就算了，有的甚至好意思说是高效，实在辣眼睛。",
-    "url": "https://segmentfault.com/a/1190000019051193",
-    "author": "小明",
-    "home_url": "https://segmentfault.com/u/xiaoming_5aa4e820df9da",
-    "votes": "134",
-    "rank": 23
   },
   {
     "title": "JavaScript 函数作用域、执行环境(this)、call、apply、bind 的用法",
@@ -212,44 +176,8 @@
     "url": "https://segmentfault.com/a/1190000019190503",
     "author": "mit",
     "home_url": "https://segmentfault.com/u/mit",
-    "votes": "7",
-    "rank": 24
-  },
-  {
-    "title": "我发誓这真的是最后一篇关于ECDH的文儿！（API安全加强篇四）",
-    "description": "首先是前段时间我在公众号里被人批（dui）评（gang）了，大概意思就是：你别老整那ECDH又是椭圆又是素数啥的，你就说这玩意实际项目中怎么用就完了，我们不想听那些，那些我们都懂都精通，而且你还太监了，你自己...",
-    "url": "https://segmentfault.com/a/1190000019189227",
-    "author": "elarity",
-    "home_url": "https://segmentfault.com/u/elarity",
-    "votes": "6",
-    "rank": 25
-  },
-  {
-    "title": "【Swoole源码研究】深入理解Swoole协程实现",
-    "description": "Swoole4为PHP语言提供了强大的CSP协程编程模式，用户可以通过go函数创建一个协程，以达到并发执行的效果，如下面代码所示：",
-    "url": "https://segmentfault.com/a/1190000019089997",
-    "author": "LNMPR源码研究",
-    "home_url": "https://segmentfault.com/u/php7internal",
-    "votes": "79",
-    "rank": 26
-  },
-  {
-    "title": "2019前端工程师自检清单与思考",
-    "description": "对于JavaScript，掌握其语法和特性是最基本的，但是这些只是应用能力，最终仍旧考量仍然是计算机体系的理论知识，所以数据结构，算法，软件工程，设计模式等基础知识对前端工程师同样重要，这些知识的理解程度，...",
-    "url": "https://segmentfault.com/a/1190000018873042",
-    "author": "SuperX",
-    "home_url": "https://segmentfault.com/u/qzuser_584786517d31a",
-    "votes": "278",
-    "rank": 27
-  },
-  {
-    "title": "【周刊-2】三年大厂面试官-前端面试题（偏难）",
-    "description": "在大厂工作了6年，当了3年的前端面试官，把大厂常问的面试题与答案汇总在我的Github中。希望对大家有所帮助，助力大家进入自己理想的企业。",
-    "url": "https://segmentfault.com/a/1190000018869555",
-    "author": "第一名的小蝌蚪",
-    "home_url": "https://segmentfault.com/u/diyimingdexiao",
-    "votes": "245",
-    "rank": 28
+    "votes": "17",
+    "rank": 20
   },
   {
     "title": "【译】三分钟掌握 React 高阶组件",
@@ -257,16 +185,79 @@
     "url": "https://segmentfault.com/a/1190000019153177",
     "author": "joking_zhang",
     "home_url": "https://segmentfault.com/u/joking_zhang",
-    "votes": "23",
-    "rank": 29
+    "votes": "24",
+    "rank": 21
   },
   {
-    "title": "使用CSS实现逼真的水波纹点击效果",
-    "description": "虽然webkit具有遮罩的能力（webkit mask），不过webkit虽然强大，但在跨浏览器上总是它的罩门，况且在性能上也是往往会造成困扰（这也是为什么chrome要这么吃资源了），因此撇开webkit不谈，我们该用什么方法，才...",
-    "url": "https://segmentfault.com/a/1190000019132065",
-    "author": "果冻",
-    "home_url": "https://segmentfault.com/u/guodong_589c0897bd203",
-    "votes": "50",
-    "rank": 30
+    "title": "PHP超低内存遍历目录文件和读取超大文件",
+    "description": "我写这篇笔记的原因是现在网络上关于 PHP 遍历目录文件和 PHP 读取文本文件的教程和示例代码都是极其低效的，低效就算了，有的甚至好意思说是高效，实在辣眼睛。",
+    "url": "https://segmentfault.com/a/1190000019051193",
+    "author": "小明",
+    "home_url": "https://segmentfault.com/u/xiaoming_5aa4e820df9da",
+    "votes": "135",
+    "rank": 22
+  },
+  {
+    "title": "看完这篇，你也可以实现一个360度全景插件",
+    "description": "导读 本文从绘图基础开始讲起，详细介绍了如何使用Three.js开发一个功能齐全的全景插件。 我们先来看一下插件的效果： 如果你对Three.js已经很熟悉了，或者你想跳过基础理论，那么你可以直接从全景预览开始看起。...",
+    "url": "https://segmentfault.com/a/1190000019068732",
+    "author": "ConardLi",
+    "home_url": "https://segmentfault.com/u/conardli",
+    "votes": "129",
+    "rank": 23
+  },
+  {
+    "title": "如何用 Flutter 实现混合开发？闲鱼公开源代码实例",
+    "description": "阿里妹导读：具有一定规模的 App 通常有一套成熟通用的基础库，尤其是阿里系 App，一般需要依赖很多体系内的基础库。那么使用 Flutter 重新从头开发 App 的成本和风险都较高。所以在 Native App 进行渐进式迁移是...",
+    "url": "https://segmentfault.com/a/1190000019198825",
+    "author": "阿里云云栖社区",
+    "home_url": "https://segmentfault.com/u/yunqishequ_5aa899aad5395",
+    "votes": "8",
+    "rank": 24
+  },
+  {
+    "title": "前端中的事件循环eventloop机制",
+    "description": "我们知道 js 是单线程执行的，那么异步的代码 js 是怎么处理的呢？例如下面的代码是如何进行输出的：",
+    "url": "https://segmentfault.com/a/1190000019183780",
+    "author": "wenzi",
+    "home_url": "https://segmentfault.com/u/wenzi0_0",
+    "votes": "23",
+    "rank": 25
+  },
+  {
+    "title": "【周刊-3】三年大厂面试官-十道前端面试题（欢迎挑战）",
+    "description": "在两家大厂工作了6年，当了3年的前端面试官，把一些较难的面试题与答案汇总在我的Github中。希望对大家有所帮助，助力大家进入自己理想的企业。",
+    "url": "https://segmentfault.com/a/1190000019156097",
+    "author": "第一名的小蝌蚪",
+    "home_url": "https://segmentfault.com/u/diyimingdexiao",
+    "votes": "44",
+    "rank": 26
+  },
+  {
+    "title": "一张思维导图辅助你深入了解 Vue | Vue-Router | Vuex 源码架构",
+    "description": "本文内容讲解的内容：一张思维导图辅助你深入了解 Vue | Vue-Router | Vuex 源码架构。",
+    "url": "https://segmentfault.com/a/1190000019153289",
+    "author": "夜尽天明",
+    "home_url": "https://segmentfault.com/u/biaochenxuying",
+    "votes": "47",
+    "rank": 27
+  },
+  {
+    "title": "从 React Native 到 Flutter，移动跨平台方案的真相",
+    "description": "2018 年 12 月，Google 发布了 Flutter 1.0 正式版，似乎再次点燃了人们对移动跨平台开发的热情。上一次出现类似的情况，是在 15 年年初，Facebook 发布 React Native 的时候。四年不到的时间里，有两家大公司相...",
+    "url": "https://segmentfault.com/a/1190000019161737",
+    "author": "LeanCloud",
+    "home_url": "https://segmentfault.com/u/leancloud",
+    "votes": "30",
+    "rank": 28
+  },
+  {
+    "title": "What's New in JavaScript",
+    "description": "前几天 Google IO 上 V8 团队为我们分享了《What's New in JavaScript》主题，分享的语速很慢推荐大家可以都去听听就当锻炼下听力了。看完之后我整理了一个文字版帮助大家快速了解分享内容，嘉宾主要是分享了以下...",
+    "url": "https://segmentfault.com/a/1190000019147365",
+    "author": "公子",
+    "home_url": "https://segmentfault.com/u/lizheming",
+    "votes": "44",
+    "rank": 29
   }
 ]
