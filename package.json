@@ -1,9 +1,10 @@
 {
   "name": "@wcj/github-rank",
-  "version": "19.05.16",
+  "version": "19.05.17",
   "description": "Github Users Ranking for China.",
   "scripts": {
     "start": "node lib/build.js",
+    "get:toutiao": "node lib/geToutiao.js",
     "get": "npm run get:users && npm run get:users:china && npm run get:users:info && npm run get:repos",
     "get:o": "npm run get:trending && npm run get:sifou",
     "get:users:info": "node lib/getUserInfo.js",
@@ -13,9 +14,12 @@
     "get:users:china": "node lib/getUsersChina.js",
     "get:repos": "node lib/getRepos.js",
     "get:trending": "node lib/getTrending.js",
-    "deploy": "gh-pages -d web -m '2019-05-16'",
+    "deploy": "gh-pages -d web -m '2019-05-17'",
     "prepare": "npm run build",
-    "dev": "tsbb watch",
+    "types": "tsbb types",
+    "types:watch": "tsbb types --watch",
+    "dev": "npm run types:watch & npm run watch",
+    "watch": "tsbb watch",
     "build": "tsbb build"
   },
   "author": "Kenny Wong <wowohoo@qq.com>",
