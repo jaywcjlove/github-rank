@@ -1,7 +1,9 @@
 <%- include('header', { tabCls: 'users' }); %>
 <ul class="list">
     <li class="rank-title">
-      Users Followers Ranking
+      <a href="<%= type === 'global' ? 'https://github.com/search?q=followers%3A%3E1000&type=Users' : 'https://github.com/search?q=location%3AChina+followers%3A%3E1000&type=Users' %>">
+        Users Followers Ranking
+      </a>
       <span class="select">
         <a class="<%= type === 'global' ? 'active': '' %>" href="index.html">Global</a>
         <a class="<%= type === 'china' ? 'active': '' %>" href="users.china.html">China</a>

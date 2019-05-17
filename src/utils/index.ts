@@ -151,3 +151,38 @@ export function getTrendingData(type: string = 'daily') {
 export function sleep(ms: number) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
+
+export interface IToutiaoData {
+  title: string;
+  description: string;
+  votes: string;
+  url: string;
+  avatar: string;
+  avatarAlt: string;
+  subjectName: string;
+  homeUrl: string;
+} 
+
+export function getToutiaoData(day: number = 7) {
+  return fetch(`https://toutiao.io/posts/hot/${day}`)
+    .then(res => res.buffer())
+    .then((data) => {
+      const html = data.toString();
+      const $ = cheerio.load(html);
+      const toutiaoData: IToutiaoData[] = [];
+      $('.container .posts .post').each((idx, item) => {
+        const title: string = $(item).find('h3.title a').text();
+        const url: string = $(item).find('h3.title a').attr('href');
+        const description: string = $(item).find('p.summary a').text();
+        const votes: string = $(item).find('.upvote .like-button span').text();
+        const avatar: string = $(item).find('.user-info .user-avatar img').attr('src');
+        const avatarAlt: string = $(item).find('.user-info .user-avatar img').attr('alt');
+        const subjectName: string = $(item).find('.subject-name a').text();
+        const homeUrl: string = $(item).find('.subject-name a').attr('href');
+        toutiaoData.push({ title, description, votes, url, avatar, avatarAlt,
+          subjectName, homeUrl
+        });
+      });
+      return toutiaoData;
+    });
+}

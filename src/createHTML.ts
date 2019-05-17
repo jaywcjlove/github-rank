@@ -3,6 +3,8 @@ import path from 'path';
 import ejs from 'ejs';
 import { ISifou } from './utils/getSifou';
 
+import { IToutiaoData } from './utils'
+
 const rootPath: string = path.join(__dirname, 'html');
 const dateStr: string = `${new Date().getFullYear()}/${(new Date().getMonth()) + 1}/${new Date().getDate()}`;
 
@@ -58,4 +60,11 @@ export function creatSifouHTML(sifouData: ISifou[], type: string = 'daily') {
   const filename: string = path.join(rootPath, 'sifou.ejs');
   const tmpStr: string = FS.readFileSync(filename).toString();
   return ejs.render(tmpStr, { title: 'Segmentfault 思否热门', data: sifouData, date: dateStr, type }, { filename });
+}
+
+
+export function creatToutiaoHTML(data: IToutiaoData[], day: number = 7) {
+  const filename: string = path.join(rootPath, `toutiao.ejs`);
+  const tmpStr: string = FS.readFileSync(filename).toString();
+  return ejs.render(tmpStr, { title: `开发者头条 - 最近${day}天热门分享`, data, date: dateStr, day }, { filename });
 }

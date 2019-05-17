@@ -1,7 +1,7 @@
 <%- include('header', { tabCls: 'trending' }); %>
 <ul class="list repos trending">
     <li class="rank-title">
-      Repositories Trending
+      <a href="https://github.com/trending" target="_blank">Repositories Trending</a>
       <span class="select">
         <a class="<%= type === 'daily' ? 'active': '' %>" href="trending.html">Today</a>
         <a class="<%= type === 'weekly' ? 'active': '' %>" href="trending-weekly.html">Week</a>
