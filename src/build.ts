@@ -29,12 +29,14 @@ import toutiao90 from '../dist/toutiao-90.json';
     FS.outputFileSync(path.join(process.cwd(), 'web', 'users.china.html'), html);
     console.log(`> 中国用户 Follower 排行榜，页面生成成功！共${users.length}条数据！`);
 
+    console.log(`> ------------------`)
 
     const repos: IReposHTML[] = [...reposData];
     html = creatReposHTML(repos);
     FS.outputFileSync(path.join(process.cwd(), 'web', 'repos.html'), html);
     console.log(`> Repos 排行榜，页面生成成功！共${repos.length}条数据！`);
 
+    console.log(`> ------------------`)
 
     let trending: ICreateTrendingHTML[] = [...trendingDailyData];
     html = creatTrendingHTML(trending, 'daily');
@@ -51,7 +53,7 @@ import toutiao90 from '../dist/toutiao-90.json';
     FS.outputFileSync(path.join(process.cwd(), 'web', 'trending-monthly.html'), html);
     console.log(`> Trending 月趋势榜，页面生成成功！共${trending.length}条数据！`);
 
-
+    console.log(`> ------------------`)
 
     let sifou: ISifou[] = [...sifouDailyData];
     html = creatSifouHTML(sifou, 'daily');
@@ -68,7 +70,7 @@ import toutiao90 from '../dist/toutiao-90.json';
     FS.outputFileSync(path.join(process.cwd(), 'web', 'sifou-monthly.html'), html);
     console.log(`> 思否 月趋势榜，页面生成成功！共${sifou.length}条数据！`);
 
-
+    console.log(`> ------------------`)
 
     let toutiao: IToutiaoData[] = [...toutiao7];
     html = creatToutiaoHTML(toutiao, 7);
