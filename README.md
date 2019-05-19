@@ -1,11 +1,28 @@
 排行榜预览：[Github 预览](http://jaywcjlove.github.io/github-rank/) | [UNPKG预览](https://unpkg.com/@wcj/github-rank/web/index.html) | [Gitee预览](http://jaywcjlove.gitee.io/github-rank)
 
-Github Ranking
----
+<p align="center">
+  <a href="https://jaywcjlove.github.io/github-rank">
+    <img alt="Github Ranking" src="https://user-images.githubusercontent.com/1680273/57984124-01c15100-7a8b-11e9-84e3-31251d04778d.png">
+  </a>
+</p>
 
-[![](https://img.shields.io/npm/v/@wcj/github-rank.svg)](https://www.npmjs.com/package/@wcj/github-rank)
+<p align="center">
+  <a href="https://github.com/jaywcjlove/github-rank/issues">
+    <img src="https://img.shields.io/github/issues/jaywcjlove/github-rank.svg">
+  </a>
+  <a href="https://github.com/jaywcjlove/github-rank/network">
+    <img src="https://img.shields.io/github/forks/jaywcjlove/github-rank.svg">
+  </a>
+  <a href="https://github.com/jaywcjlove/github-rank/stargazers">
+    <img src="https://img.shields.io/github/stars/jaywcjlove/github-rank.svg">
+  </a>
+  <a href="https://www.npmjs.com/package/@wcj/github-rank">
+    <img src="https://img.shields.io/npm/v/@wcj/github-rank.svg">
+  </a>
+</p>
 
-Github中国用户排名，全球仓库 Star 最多排名，通过 Github API v3 来生成页面数据，[排行榜预览](http://jaywcjlove.github.io/github-rank/)。
+
+Github 中国用户排名，全球仓库 Star 最多排名，通过 Github API v3 来生成页面数据，[排行榜预览](http://jaywcjlove.github.io/github-rank/)，最近还添加了 [SegmentFault 思否近期热门](http://jaywcjlove.github.io/github-rank/sifou-daily.html)、[开发者头条最近热门分享](http://jaywcjlove.github.io/github-rank/toutiao-7.html)、[36Kr 快讯预览](http://jaywcjlove.github.io/github-rank/36kr.html)。
 
 - [Github **全球** 用户 Followers 排名预览](http://jaywcjlove.github.io/github-rank/)
 - [Github **中国** 用户 Followers 排名预览](http://jaywcjlove.github.io/github-rank/users.china.html)
@@ -14,8 +31,6 @@ Github中国用户排名，全球仓库 Star 最多排名，通过 Github API v3
 - [SegmentFault 思否 - 近期热门](http://jaywcjlove.github.io/github-rank/sifou-daily.html) [**`日`**](http://jaywcjlove.github.io/github-rank/sifou-daily.html) [**`周`**](http://jaywcjlove.github.io/github-rank/sifou-weekly.html) [**`月`**](http://jaywcjlove.github.io/github-rank/sifou-monthly.html)
 - [开发者头条 - 最近热门分享](http://jaywcjlove.github.io/github-rank/toutiao-7.html) [**`7天`**](http://jaywcjlove.github.io/github-rank/toutiao-7.html) [**`30天`**](http://jaywcjlove.github.io/github-rank/toutiao-30.html) [**`90天`**](http://jaywcjlove.github.io/github-rank/toutiao-90.html)
 - [36Kr - 快讯预览](http://jaywcjlove.github.io/github-rank/36kr.html)
-
-[![](GithubRanking.png)](http://jaywcjlove.github.io/github-rank/)
 
 ## 2019
 
