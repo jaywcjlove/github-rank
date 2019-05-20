@@ -1,30 +1,84 @@
 [
   {
+    "title": "每个前端工程师都应该了解的图片知识",
+    "description": "随着web的发展，网站资源的流量也变得越来越大。据统计，60% 的网站流量均来自网站图片，可见对图片合理优化可以大幅影响网站流量，减小带宽消耗和服务器压力。",
+    "url": "https://segmentfault.com/a/1190000019231550",
+    "author": "leexiaoran",
+    "home_url": "https://segmentfault.com/u/li1076629390",
+    "votes": "29",
+    "rank": 1
+  },
+  {
+    "title": "怎样阅读 ECMAScript 规范？",
+    "description": "Ecmascript 语言规范 The ECMAScript Language specification（又名：Javascript 规范 the JavaScript specification 或 ECMA-262）是学习 JavaScript 底层工作原理的非常好的资源。 然而，这是一个庞大的专业文...",
+    "url": "https://segmentfault.com/a/1190000019240609",
+    "author": "Pines_Cheng",
+    "home_url": "https://segmentfault.com/u/pines_cheng",
+    "votes": "2",
+    "rank": 2
+  },
+  {
+    "title": "前端每日实战 167# 视频演示如何用 1 个 dom 元素创作两颗爱心，祝大家 520 节日快乐！",
+    "description": "效果预览 按下右侧的“点击预览”按钮可以在当前页面预览，点击链接可以全屏预览。 [链接] 可交互视频 此视频是可以交互的，你可以随时暂停视频，编辑视频中的代码。 请用 chrome, safari, edge 打开观看。 [链接] ...",
+    "url": "https://segmentfault.com/a/1190000019238347",
+    "author": "comehope",
+    "home_url": "https://segmentfault.com/u/comehope",
+    "votes": "7",
+    "rank": 3
+  },
+  {
+    "title": "用 JavaScript 实现链表",
+    "description": "单链表是表示一系列节点的数据结构，其中每个节点指向链表中的下一个节点。 相反，双向链表具有指向其前后元素的节点。",
+    "url": "https://segmentfault.com/a/1190000019076293",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "13",
+    "rank": 4
+  },
+  {
+    "title": "Vue.js应用性能优化：第三部分-延迟加载Vuex模块",
+    "description": "在前一部分，我们学习了足够强大的模式，可以显着提高应用程序的性能 - 按每个路由分割代码。虽然按路由分割代码非常有用，但是在用户访问我们的站点后，仍然有很多代码是不需要的。在本系列的这一部分中，我们将...",
+    "url": "https://segmentfault.com/a/1190000019229823",
+    "author": "戎马",
+    "home_url": "https://segmentfault.com/u/lashoucuijs",
+    "votes": "23",
+    "rank": 5
+  },
+  {
+    "title": "CSS3 中关于 *-of-type 和 *-child的差异性及适用场景",
+    "description": "原文地址，排版更好 [链接] [链接] CSS3 中有很多表示元素序号的选择器，有以下几种 :first-child、:first-of-type、:last-of-type、:only-of-type、:only-child、:nth-child(n)、:nth-last-child(n)、:nth-of-ty...",
+    "url": "https://segmentfault.com/a/1190000019231337",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "7",
+    "rank": 6
+  },
+  {
     "title": "关于移动端适配，你必须要知道的",
     "description": "导读 移动端适配，是我们在开发中经常会遇到的，这里面可能会遇到非常多的问题： 1px问题 UI图完美适配方案 iPhoneX适配方案 横屏适配 高清屏图片模糊问题 ... 上面这些问题可能我们在开发中已经知道如何解决，但...",
     "url": "https://segmentfault.com/a/1190000019207842",
     "author": "ConardLi",
     "home_url": "https://segmentfault.com/u/conardli",
-    "votes": "97",
-    "rank": 1
+    "votes": "119",
+    "rank": 7
   },
   {
-    "title": "【译】什么是React Hooks",
-    "description": "React Hooks 于 2018年10月的React Conf 中引入，作为在 React 函数组件中使用状态和生命周期的一种方法。虽然函数组件之前被称为 无状态组件（FSC） ，但是 React Hooks 的出现，使得这些函数组件可以使用状态。...",
-    "url": "https://segmentfault.com/a/1190000019227865",
-    "author": "joking_zhang",
-    "home_url": "https://segmentfault.com/u/joking_zhang",
-    "votes": "3",
-    "rank": 2
+    "title": "精读《为什么专家不再关心技术细节》",
+    "description": "初期技术热情极大 -> 大量标志性技术项目 -> 转向综合性思考 -> 带团队/关注方法论",
+    "url": "https://segmentfault.com/a/1190000019231527",
+    "author": "黄子毅",
+    "home_url": "https://segmentfault.com/u/aoyangyudakong",
+    "votes": "11",
+    "rank": 8
   },
   {
-    "title": "React Fiber 渐进式组件遍历详解",
-    "description": "之前写的一篇文章，React Fiber 原理介绍，介绍了 React Fiber 的实现原理，其中的关键是使用Fiber链的数据结构，将递归的Stack Reconciler改写为循环的Fiber Reconciler。今天将手写一个 demo，详细讲解遍历Fibe...",
-    "url": "https://segmentfault.com/a/1190000019227307",
-    "author": "dabai",
-    "home_url": "https://segmentfault.com/u/dabai_5955b2921e87d",
-    "votes": "2",
-    "rank": 3
+    "title": "我要在栈上。不，你应该在堆上",
+    "description": "我们在写代码的时候，有时候会想这个变量到底分配到哪里了？这时候可能会有人说，在栈上，在堆上。信我准没错...",
+    "url": "https://segmentfault.com/a/1190000019234268",
+    "author": "煎鱼",
+    "home_url": "https://segmentfault.com/u/eddycjy",
+    "votes": "4",
+    "rank": 9
   },
   {
     "title": "vue组件间通信六种方式（完整版）",
@@ -32,17 +86,8 @@
     "url": "https://segmentfault.com/a/1190000019208626",
     "author": "浪里行舟",
     "home_url": "https://segmentfault.com/u/langlixingzhou",
-    "votes": "47",
-    "rank": 4
-  },
-  {
-    "title": "【面试篇】寒冬求职之你必须要懂的Web安全",
-    "description": "随着互联网的发展，各种Web应用变得越来越复杂，满足了用户的各种需求的同时，各种网络安全问题也接踵而至。作为前端工程师的我们也逃不开这个问题，今天一起看一看Web前端有哪些安全问题以及我们如何去检测和防...",
-    "url": "https://segmentfault.com/a/1190000019158228",
-    "author": "刘小夕",
-    "home_url": "https://segmentfault.com/u/liuyan666",
-    "votes": "148",
-    "rank": 5
+    "votes": "60",
+    "rank": 10
   },
   {
     "title": "VsCode从零开始配置一个属于自己的Vue开发环境",
@@ -50,8 +95,8 @@
     "url": "https://segmentfault.com/a/1190000019203847",
     "author": "寻梦无痕",
     "home_url": "https://segmentfault.com/u/liub37",
-    "votes": "65",
-    "rank": 6
+    "votes": "84",
+    "rank": 11
   },
   {
     "title": "ES6—面试常见ES6问题集锦（14）",
@@ -59,17 +104,8 @@
     "url": "https://segmentfault.com/a/1190000019223667",
     "author": "前端大彬哥",
     "home_url": "https://segmentfault.com/u/dabinge666",
-    "votes": "19",
-    "rank": 7
-  },
-  {
-    "title": "9102年：手写一个Vue的脚手架   【极致优化版】",
-    "description": "前言:在看本文前，建议你看下，下面这两篇文章 顺便给个赞和github的赞哦~ 如果你对webpack不是很了解，请你关注我之前的文章，都是百星以上star的高质量文 9102年：手写一个React完美版移动端脚手架 前端性能优...",
-    "url": "https://segmentfault.com/a/1190000019207033",
-    "author": "Jerry谭金杰",
-    "home_url": "https://segmentfault.com/u/jerrytanjinjie",
-    "votes": "50",
-    "rank": 8
+    "votes": "38",
+    "rank": 12
   },
   {
     "title": "Vue+Express全栈购物商城",
@@ -77,8 +113,71 @@
     "url": "https://segmentfault.com/a/1190000019221113",
     "author": "czero1995",
     "home_url": "https://segmentfault.com/u/czero1995",
-    "votes": "27",
-    "rank": 9
+    "votes": "44",
+    "rank": 13
+  },
+  {
+    "title": "9102年：手写一个Vue的脚手架   【极致优化版】",
+    "description": "前言:在看本文前，建议你看下，下面这两篇文章 顺便给个赞和github的赞哦~ 如果你对webpack不是很了解，请你关注我之前的文章，都是百星以上star的高质量文 9102年：手写一个React完美版移动端脚手架 前端性能优...",
+    "url": "https://segmentfault.com/a/1190000019207033",
+    "author": "Jerry谭金杰",
+    "home_url": "https://segmentfault.com/u/jerrytanjinjie",
+    "votes": "66",
+    "rank": 14
+  },
+  {
+    "title": "简单梳理Redux的源码与运行机制",
+    "description": "前几天写了一篇react另一个状态管理工具Unstated的源码解析。开启了我的看源码之路。想一想用了好长时间的redux，但从没有深究过原理，遇到报错更是懵逼，所以就啃了一遍它的源码，写了这篇文章，分享我对于它的...",
+    "url": "https://segmentfault.com/a/1190000019232219",
+    "author": "nero",
+    "home_url": "https://segmentfault.com/u/neronero",
+    "votes": "4",
+    "rank": 15
+  },
+  {
+    "title": "❤520，就用CSS给你的她（他）送颗心❤",
+    "description": "今天是520。一句温柔的问候，一束美丽的鲜花，一段真情的告白。但是作为一名与众不同的程序员，我们可不仅仅拥有上面的传情方法，别忘了每个人的手上可是都有其他人不具备的神奇技能，就是我们每天辛辛苦苦敲下的...",
+    "url": "https://segmentfault.com/a/1190000019232203",
+    "author": "果冻",
+    "home_url": "https://segmentfault.com/u/guodong_589c0897bd203",
+    "votes": "9",
+    "rank": 16
+  },
+  {
+    "title": "JavaScript数据结构与算法-Array-(leetcode原题)",
+    "description": "例如：1 ^ 1 = 0 、 2 ^ 2 = 0、 0 ^ 1 = 1 、1 ^ 1 ^ 2 ^ 3 ^ 2 ^ 4 ^ 3 = 4",
+    "url": "https://segmentfault.com/a/1190000019231595",
+    "author": "FinGet",
+    "home_url": "https://segmentfault.com/u/bios",
+    "votes": "6",
+    "rank": 17
+  },
+  {
+    "title": "web 前端开发玩转 win10 linux 子系统",
+    "description": "最新版 win10 已经内置了 linux 子系统 (WSL) 功能。在使用 win10 WSL 开发一周后，个人感觉已经完全可以取代 macOS 在 web 前端开发中的地位了。linux 环境下终端工具易用性、环境稳定性与 win10 的海量的软件生...",
+    "url": "https://segmentfault.com/a/1190000019220736",
+    "author": "胡大大牛",
+    "home_url": "https://segmentfault.com/u/hudadaniu",
+    "votes": "12",
+    "rank": 18
+  },
+  {
+    "title": "【译】什么是React Hooks",
+    "description": "React Hooks 于 2018年10月的React Conf 中引入，作为在 React 函数组件中使用状态和生命周期的一种方法。虽然函数组件之前被称为 无状态组件（FSC） ，但是 React Hooks 的出现，使得这些函数组件可以使用状态。...",
+    "url": "https://segmentfault.com/a/1190000019227865",
+    "author": "joking_zhang",
+    "home_url": "https://segmentfault.com/u/joking_zhang",
+    "votes": "12",
+    "rank": 19
+  },
+  {
+    "title": "swoole通用协程池的实现",
+    "description": "今天看了下swoole相关文档，用PHP也实现了一个，由于swoole没有golang的select，所以实现的有点简单，但是实用性还可以，通过工厂函数实现了通用性。",
+    "url": "https://segmentfault.com/a/1190000019236688",
+    "author": "xialeistudio",
+    "home_url": "https://segmentfault.com/u/xialeistudio",
+    "votes": "3",
+    "rank": 20
   },
   {
     "title": "实战Go内存泄露",
@@ -86,26 +185,35 @@
     "url": "https://segmentfault.com/a/1190000019222661",
     "author": "大彬",
     "home_url": "https://segmentfault.com/u/lessisbetter",
-    "votes": "15",
-    "rank": 10
+    "votes": "23",
+    "rank": 21
   },
   {
-    "title": "SQL 行转列，列转行",
-    "description": "SQL 行转列，列转行 行列转换在做报表分析时还是经常会遇到的，今天就说一下如何实现行列转换吧。 行列转换就是如下图所示两种展示形式的互相转换 行转列 假如我们有下表： {代码...} 通过上面 SQL 语句即可得到...",
-    "url": "https://segmentfault.com/a/1190000019220759",
-    "author": "李英杰同学",
-    "home_url": "https://segmentfault.com/u/abcde",
-    "votes": "17",
-    "rank": 11
+    "title": "【Node】搭建一个静态资源服务器",
+    "description": "一个包括文件缓存、传输压缩、ejs 模版引擎、MIME 类型匹配等功能的 Node 静态资源服务器，使用 Node 的内置模块实现，可以通过链接访问资源。",
+    "url": "https://segmentfault.com/a/1190000019222794",
+    "author": "JennyTong",
+    "home_url": "https://segmentfault.com/u/jennytong",
+    "votes": "9",
+    "rank": 22
   },
   {
-    "title": "web 前端开发玩转 win10 linux 子系统",
-    "description": "最新版 win10 已经内置了 linux 子系统 (WSL) 功能。在使用其一周开发后，个人感觉已经完全可以取代 macOS 在web前端开发中的地位了。linux 环境下终端工具易用性、环境稳定性与 win10 的海量的软件生态相结合，...",
-    "url": "https://segmentfault.com/a/1190000019220736",
-    "author": "胡大大牛",
-    "home_url": "https://segmentfault.com/u/hudadaniu",
-    "votes": "8",
-    "rank": 12
+    "title": "nginx解决跨域问题",
+    "description": "一. 产生跨域的原因 1.浏览器限制 2.跨域 3.XHR（XMLHttpRequest）请求 二. 解决思路 解决跨域有多重，在这里主要讲用nginx解决跨域 1.JSONP 2.nginx代理 3.浏览器禁止检查跨域 三. 下载安装nginx nginx下载地址 ...",
+    "url": "https://segmentfault.com/a/1190000019227927",
+    "author": "qianduanzhou",
+    "home_url": "https://segmentfault.com/u/qianduanzhou",
+    "votes": "11",
+    "rank": 23
+  },
+  {
+    "title": "线程池没你想的那么简单",
+    "description": "原以为线程池还挺简单的（平时常用，也分析过原理），这次是想自己动手写一个线程池来更加深入的了解它；但在动手写的过程中落地到细节时发现并没想的那么容易。结合源码对比后确实不得不佩服 Doug Lea 。",
+    "url": "https://segmentfault.com/a/1190000019229696",
+    "author": "crossoverJie",
+    "home_url": "https://segmentfault.com/u/crossoverjie",
+    "votes": "6",
+    "rank": 24
   },
   {
     "title": "CSS实现两个球相交的粘粘效果",
@@ -113,8 +221,8 @@
     "url": "https://segmentfault.com/a/1190000019171125",
     "author": "果冻",
     "home_url": "https://segmentfault.com/u/guodong_589c0897bd203",
-    "votes": "87",
-    "rank": 13
+    "votes": "89",
+    "rank": 25
   },
   {
     "title": "聊聊安卓折叠屏给交互设计和开发带来的变化",
@@ -122,142 +230,43 @@
     "url": "https://segmentfault.com/a/1190000019213936",
     "author": "阿里云云栖社区",
     "home_url": "https://segmentfault.com/u/yunqishequ_5aa899aad5395",
-    "votes": "19",
-    "rank": 14
-  },
-  {
-    "title": "前后端分离之更好的mock你的后端api",
-    "description": "在一个web应用的开发周期中, 一般前端与后端都是并行开发的, 各自完成自己的开发工作后进行联调, 联调通过再进行提测/发布.",
-    "url": "https://segmentfault.com/a/1190000019218003",
-    "author": "funkyLover",
-    "home_url": "https://segmentfault.com/u/funkylover",
-    "votes": "15",
-    "rank": 15
-  },
-  {
-    "title": "10秒钟构建你自己的”造轮子”工厂！ 2019年github/npm工程化协作开发栈最佳实践",
-    "description": "发起一个github/npm工程协作项目，门槛太高了！！ 最基础的问题，你都要花很久去研究： 如何在项目中全线使用es2017代码？ 答案是babel 如何统一所有协作者的代码风格？ 答案是eslint + prettier 如何测试驱动开...",
-    "url": "https://segmentfault.com/a/1190000019168638",
-    "author": "刘羽冲",
-    "home_url": "https://segmentfault.com/u/liuyuchong",
-    "votes": "58",
-    "rank": 16
-  },
-  {
-    "title": "13个帮你提高开发效率的现代CSS框架",
-    "description": "本文将向你介绍一系列顶级CSS框架。有些人可能听说过，也可能对有些人是全新的。但它们都提供了各种有用的先进功能，可以改善你的工作流程。开始吧！",
-    "url": "https://segmentfault.com/a/1190000019154021",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "58",
-    "rank": 17
-  },
-  {
-    "title": "详解JS错误处理：前端JS/Vue/React/Iframe/跨域/Node",
-    "description": "js错误捕获 js错误的实质，也是发出一个事件，处理他 error实例对象 对象属性 message：错误提示信息 name：错误名称（非标准属性）宿主环境赋予 stack：错误的堆栈（非标准属性）宿主环境赋予 对象类型(7种) Syn...",
-    "url": "https://segmentfault.com/a/1190000019226851",
-    "author": "Rainie",
-    "home_url": "https://segmentfault.com/u/rainie_5a7bd7cb82e80",
-    "votes": "1",
-    "rank": 18
-  },
-  {
-    "title": "总结异步编程的六种方式",
-    "description": "众所周知 JavaScript 是单线程工作，也就是只有一个脚本执行完成后才能执行下一个脚本，两个脚本不能同时执行，如果某个脚本耗时很长，后面的脚本都必须排队等着，会拖延整个程序的执行。那么如何让程序像人类一...",
-    "url": "https://segmentfault.com/a/1190000019188824",
-    "author": "Aima",
-    "home_url": "https://segmentfault.com/u/timao",
-    "votes": "49",
-    "rank": 19
-  },
-  {
-    "title": "【修炼内功】[JVM] 浅谈虚拟机内存模型",
-    "description": "对于C/C++而言，可以轻易地操作任意地址的内存，而对于已申请内存数据的生命周期，又要担负起维护的责任。不知各位在初学C语言时，是否经历过由于内存泄漏导致系统内存不足，又或者因为误操作系统关键内存导致强...",
-    "url": "https://segmentfault.com/a/1190000019227678",
-    "author": "林舍",
-    "home_url": "https://segmentfault.com/u/manerfan",
-    "votes": "1",
-    "rank": 20
-  },
-  {
-    "title": "vue+electron高仿网易云",
-    "description": "vue+electron高仿网易云桌面端，根据网上一位大神的api做的，目前已上线阿里云，项目在github上面有，希望大家支持下，觉得有帮助的点个star github地址如下： 高仿网易云 gif动图演示",
-    "url": "https://segmentfault.com/a/1190000019216939",
-    "author": "qianduanzhou",
-    "home_url": "https://segmentfault.com/u/qianduanzhou",
-    "votes": "17",
-    "rank": 21
-  },
-  {
-    "title": "利用Jenkins + nginx 实现前端项目自动构建与持续集成",
-    "description": "本地push代码到GitHub，Webhook自动触发jenkins上的构建动作,完成安装node插件并且打包，然后通过Publish Over SSH插件，将打包出来的文件，部署到目标服务器上。",
-    "url": "https://segmentfault.com/a/1190000019212628",
-    "author": "zhou_web",
-    "home_url": "https://segmentfault.com/u/zhou_web",
-    "votes": "15",
-    "rank": 22
-  },
-  {
-    "title": "善用CSS伪类，不用JS也能做出选项卡功能",
-    "description": "讲到选项卡（Tabs）功能时，大多会想到用JavaScript去做，像知名的前端框架：Bootstrap所提供的Tab元件，就是用jQuery实现的（其实网络上有很多用jQuery开发的Tab）；但其实不用jQuery或JavaScript技术，就能实现...",
-    "url": "https://segmentfault.com/a/1190000019214800",
-    "author": "果冻",
-    "home_url": "https://segmentfault.com/u/guodong_589c0897bd203",
-    "votes": "12",
-    "rank": 23
-  },
-  {
-    "title": "vue+高德地图开发采坑持续记录",
-    "description": "网上搜索了一些资料，大部门都是index.html直接引入高德地图的js文件，个人感觉没有必要，毕竟地图只是部分页面需要使用，所以这种方法直接不考虑了。然后又找到了一种地图懒加载的方法，需要的时候按需引入地图...",
-    "url": "https://segmentfault.com/a/1190000019215845",
-    "author": "寻梦无痕",
-    "home_url": "https://segmentfault.com/u/liub37",
-    "votes": "10",
-    "rank": 24
-  },
-  {
-    "title": "海量人脸特征检索解决方案演进之路",
-    "description": "人脸识别技术在最近几年得到了长足进步，目前在人脸识别领域业界领先的厂家识别准确率均达到了99%以上，因此大量人脸相关的应用场景开始逐步落地，例如人脸支付、人员布控、寻找失踪人口等，此外，结合人脸的追踪...",
-    "url": "https://segmentfault.com/a/1190000019224111",
-    "author": "huashiou",
-    "home_url": "https://segmentfault.com/u/huashiou",
-    "votes": "3",
-    "rank": 25
-  },
-  {
-    "title": "Nginx 内容缓存及常见参数配置",
-    "description": "使用场景:项目的页面需要加载很多数据，也不是经常变化的，不涉及个性化定制，为每次请求去动态生成数据，性能比不上根据请求路由和参数缓存一下结果，使用 Nginx 缓存将大幅度提升请求速度。",
-    "url": "https://segmentfault.com/a/1190000019179879",
-    "author": "he_xd",
-    "home_url": "https://segmentfault.com/u/he_xd",
-    "votes": "36",
+    "votes": "27",
     "rank": 26
   },
   {
-    "title": "JavaScript引擎是如何工作的？从调用栈到Promise你需要知道的一切",
-    "description": "你有没有想过浏览器是如何读取和运行 JavaScript 代码的吗？这看起来很神奇，但你可以学到一些发生在幕后的事情。让我们通过介绍 JavaScript 引擎的精彩世界在这种语言中尽情畅游。",
-    "url": "https://segmentfault.com/a/1190000019205065",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "17",
+    "title": "《ES6学习2》 变量的解构赋值",
+    "description": "ES6可以从数组和对象中提取值，然后对变量进行赋值。解构赋值的分类：数组解构赋值、对象解构赋值 、字符串解构赋值、数值解构赋值、布尔值解构赋值、 函数参数解构赋值。",
+    "url": "https://segmentfault.com/a/1190000019235944",
+    "author": "BluesZ",
+    "home_url": "https://segmentfault.com/u/bluesz_5adaa9e94d3ba",
+    "votes": "3",
     "rank": 27
   },
   {
-    "title": "Rematch: Redux 的重新设计",
-    "description": "难道现在状态管理不是一个可以解决的问题吗?直观地说，开发人员似乎知道一个隐藏的事实:状态管理的使用似乎比需要的更困难。在本文中，我们将探讨一些你可能一直在问自己的问题：",
-    "url": "https://segmentfault.com/a/1190000019056045",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "14",
+    "title": "JS核心知识点梳理——上下文、作用域、闭包、this（上）",
+    "description": "满满的干货，面试必bei系列，参考大量资料，并集合自己的理解以及相关的面试题，对JS核心知识点中的作用域、闭包、this、上下文进行了梳理。由于篇幅有限，这里只对我认为最重要的知识做了介绍,一些常识性的东西...",
+    "url": "https://segmentfault.com/a/1190000019221593",
+    "author": "Runningfyy",
+    "home_url": "https://segmentfault.com/u/yangkaiqiang",
+    "votes": "13",
     "rank": 28
   },
   {
-    "title": "RGB、HSL、Hex网页色彩码，看完这篇全懂了",
-    "description": "网页使用到的色彩标示方法中，从古早时期大家都在用的16进位码（#000000）、RGB色值标示、HSL色彩标示，其中网页设计师最常使用的16进位色码标示法，而16进位码又是如何计算色彩的呢？有没有办法直接脑袋就把色彩...",
-    "url": "https://segmentfault.com/a/1190000019199161",
-    "author": "果冻",
-    "home_url": "https://segmentfault.com/u/guodong_589c0897bd203",
-    "votes": "17",
+    "title": "使用service worker做缓存来加快首屏速度，可行么？",
+    "description": "不久之前，我简单探索了service worker在一个活动运营页面中的应用，可以参考我之前的这篇文章：",
+    "url": "https://segmentfault.com/a/1190000019239906",
+    "author": "CoyPan",
+    "home_url": "https://segmentfault.com/u/coypan",
+    "votes": "1",
     "rank": 29
+  },
+  {
+    "title": "MySQL8.0 - 新特性 - 安全及权限相关改进",
+    "description": "MySQL8.0里引入了不少关于权限的改动，从这些改动可以看出来，权限管理更加的规范和遍历了，这和我们之前为rds mysql增加了大量权限管理很类似，想来Oracle也是通过这些改动为其云业务服务的吧。",
+    "url": "https://segmentfault.com/a/1190000019234060",
+    "author": "阿里云云栖社区",
+    "home_url": "https://segmentfault.com/u/yunqishequ_5aa899aad5395",
+    "votes": "4",
+    "rank": 30
   }
 ]
