@@ -1,12 +1,21 @@
 [
   {
+    "title": "Java同步机制的底层实现",
+    "description": "在多线程编程中我们会遇到很多需要使用线程同步机制去解决的并发问题，而这些同步机制就是多线程编程中影响正确性和运行效率的重中之重。这不禁让我感到好奇，这些同步机制是如何实现的呢？好奇心是进步的源泉，...",
+    "url": "https://segmentfault.com/a/1190000019296548",
+    "author": "兜里有辣条",
+    "home_url": "https://segmentfault.com/u/juxingzhutou",
+    "votes": "5",
+    "rank": 1
+  },
+  {
     "title": "去 BAT 面试，总结了这 55 道 MySQL 面试题！",
     "description": "1、一张表，里面有ID自增主键，当insert了17条记录之后，删除了第15,16,17条记录，再把Mysql重启，再insert一条记录，这条记录的ID是18还是15？",
     "url": "https://segmentfault.com/a/1190000019284665",
     "author": "leo_su",
     "home_url": "https://segmentfault.com/u/leo_su",
-    "votes": "36",
-    "rank": 1
+    "votes": "42",
+    "rank": 2
   },
   {
     "title": "11 种在大多数教程中找不到的JavaScript技巧",
@@ -14,8 +23,8 @@
     "url": "https://segmentfault.com/a/1190000019225557",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "54",
-    "rank": 2
+    "votes": "56",
+    "rank": 3
   },
   {
     "title": "2019 再聊移动端 300ms 延迟及 fastClick 原理解析",
@@ -23,26 +32,8 @@
     "url": "https://segmentfault.com/a/1190000019281808",
     "author": "创宇前端",
     "home_url": "https://segmentfault.com/u/knownsecfed",
-    "votes": "31",
-    "rank": 3
-  },
-  {
-    "title": "优秀博文收藏（不定期更新）",
-    "description": "我的书签 我的书签（谨慎导入，小心覆盖） 工具类 nvm: node版本管理 nrm: 快速切换npm源 shell: zsh+on-my-zsh配置教程指南 sourcetree: git可视化工具 前端工具集: WEB前端助手(FeHelper) 网络封包截取工具 cha...",
-    "url": "https://segmentfault.com/a/1190000019271948",
-    "author": "同梦奇缘",
-    "home_url": "https://segmentfault.com/u/lxyc",
-    "votes": "39",
+    "votes": "35",
     "rank": 4
-  },
-  {
-    "title": "详解如何给背景图片加颜色遮罩",
-    "description": "前段时间在开发中，遇到需要给背景层加颜色遮罩的项目，现在特定总结一下给背景图层加颜色遮罩的方法。 方法一：通过定位叠加(注意层级) {代码...} {代码...} 方法二：通过伪类元素叠加 {代码...} {代码...} 方法...",
-    "url": "https://segmentfault.com/a/1190000019291352",
-    "author": "零度萤火",
-    "home_url": "https://segmentfault.com/u/lingduyinghuo",
-    "votes": "4",
-    "rank": 5
   },
   {
     "title": "让前端开发者失业的技术，Flutter Web初体验",
@@ -50,8 +41,35 @@
     "url": "https://segmentfault.com/a/1190000019262939",
     "author": "TNFE",
     "home_url": "https://segmentfault.com/u/tnfe",
-    "votes": "70",
+    "votes": "81",
+    "rank": 5
+  },
+  {
+    "title": "优秀博文收藏（不定期更新）",
+    "description": "我的书签 我的书签（谨慎导入，小心覆盖） 工具类 nvm: node版本管理 nrm: 快速切换npm源 shell: zsh+on-my-zsh配置教程指南 sourcetree: git可视化工具 前端工具集: WEB前端助手(FeHelper) 网络封包截取工具 cha...",
+    "url": "https://segmentfault.com/a/1190000019271948",
+    "author": "同梦奇缘",
+    "home_url": "https://segmentfault.com/u/lxyc",
+    "votes": "44",
     "rank": 6
+  },
+  {
+    "title": "Vue+Express+Mysql 全栈初体验",
+    "description": "曾几何时，你有没有想过一个前端工程师的未来是什么样的？这个时候你是不是会想到了一个词”前端架构师“，那么一个合格的前端架构只会前端OK吗？那当然不行，你必须具备全栈的能力，这样才能扩大个人的形象力，才...",
+    "url": "https://segmentfault.com/a/1190000019294514",
+    "author": "_杨溜溜",
+    "home_url": "https://segmentfault.com/u/_yangliuliu",
+    "votes": "9",
+    "rank": 7
+  },
+  {
+    "title": "详解如何给背景图片加颜色遮罩",
+    "description": "前段时间在开发中，遇到需要给背景层加颜色遮罩的项目，现在特定总结一下给背景图层加颜色遮罩的方法。 方法一：通过定位叠加(注意层级) {代码...} {代码...} 方法二：通过伪类元素叠加 {代码...} {代码...} 方法...",
+    "url": "https://segmentfault.com/a/1190000019291352",
+    "author": "零度萤火",
+    "home_url": "https://segmentfault.com/u/lingduyinghuo",
+    "votes": "14",
+    "rank": 8
   },
   {
     "title": "CSS3实现炫酷的切片式图片轮播效果",
@@ -59,8 +77,35 @@
     "url": "https://segmentfault.com/a/1190000019279874",
     "author": "果冻",
     "home_url": "https://segmentfault.com/u/guodong_589c0897bd203",
-    "votes": "24",
-    "rank": 7
+    "votes": "28",
+    "rank": 9
+  },
+  {
+    "title": "每个前端工程师都应该了解的图片知识",
+    "description": "随着web的发展，网站资源的流量也变得越来越大。据统计，60% 的网站流量均来自网站图片，可见对图片合理优化可以大幅影响网站流量，减小带宽消耗和服务器压力。",
+    "url": "https://segmentfault.com/a/1190000019231550",
+    "author": "leexiaoran",
+    "home_url": "https://segmentfault.com/u/li1076629390",
+    "votes": "108",
+    "rank": 10
+  },
+  {
+    "title": "Node.js 究竟是什么？",
+    "description": "Node.js 是一个 JavaScript 运行时环境。听起来还不错，不过这究竟意味着什么？它又是如何运作的？",
+    "url": "https://segmentfault.com/a/1190000019283751",
+    "author": "疯狂的技术宅",
+    "home_url": "https://segmentfault.com/u/evilboy",
+    "votes": "26",
+    "rank": 11
+  },
+  {
+    "title": "优化你的PHP代码,从现在做起",
+    "description": "大家好，我是CrazyCodes ，今天我们不聊工具、规范等等等等的辅助，就聊一下该如何写一段“好”的代码，本文以我的职业生涯碰到的代码为例，如有出入请在评论区提出异议，谢谢。",
+    "url": "https://segmentfault.com/a/1190000019274366",
+    "author": "CrazyCodes",
+    "home_url": "https://segmentfault.com/u/crazycodes",
+    "votes": "39",
+    "rank": 12
   },
   {
     "title": "那些你可能不知道的浏览器奇技淫巧",
@@ -69,25 +114,7 @@
     "author": "苏生不惑",
     "home_url": "https://segmentfault.com/u/sushengbuhuo",
     "votes": "45",
-    "rank": 8
-  },
-  {
-    "title": "优化你的PHP代码,从现在做起",
-    "description": "大家好，我是CrazyCodes ，今天我们不聊工具、规范等等等等的辅助，就聊一下该如何写一段“好”的代码，本文以我的职业生涯碰到的代码为例，如有出入请在评论区提出异议，谢谢。",
-    "url": "https://segmentfault.com/a/1190000019274366",
-    "author": "CrazyCodes",
-    "home_url": "https://segmentfault.com/u/crazycodes",
-    "votes": "36",
-    "rank": 9
-  },
-  {
-    "title": "Node.js 究竟是什么？",
-    "description": "Node.js 是一个 JavaScript 运行时环境。听起来还不错，不过这究竟意味着什么？它又是如何运作的？",
-    "url": "https://segmentfault.com/a/1190000019283751",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "20",
-    "rank": 10
+    "rank": 13
   },
   {
     "title": "Swoole 4.4 协程抢占式调度器详解",
@@ -96,16 +123,7 @@
     "author": "石光启",
     "home_url": "https://segmentfault.com/u/shiguangqi",
     "votes": "58",
-    "rank": 11
-  },
-  {
-    "title": "每个前端工程师都应该了解的图片知识",
-    "description": "随着web的发展，网站资源的流量也变得越来越大。据统计，60% 的网站流量均来自网站图片，可见对图片合理优化可以大幅影响网站流量，减小带宽消耗和服务器压力。",
-    "url": "https://segmentfault.com/a/1190000019231550",
-    "author": "leexiaoran",
-    "home_url": "https://segmentfault.com/u/li1076629390",
-    "votes": "103",
-    "rank": 12
+    "rank": 14
   },
   {
     "title": "深入理解控制反转（IoC）和依赖注入（DI）",
@@ -113,8 +131,35 @@
     "url": "https://segmentfault.com/a/1190000019280079",
     "author": "什么都只会一点点",
     "home_url": "https://segmentfault.com/u/xspdebug",
-    "votes": "16",
-    "rank": 13
+    "votes": "18",
+    "rank": 15
+  },
+  {
+    "title": "css绘制各种形状图形（第二版）",
+    "description": "虽然我们现在大都使用字体图标或者svg图片，似乎使用 CSS 来做图标意义不是很大，但怎么实现这些图标用到的一些技巧及思路是很值得我们的学习。",
+    "url": "https://segmentfault.com/a/1190000019256472",
+    "author": "零度萤火",
+    "home_url": "https://segmentfault.com/u/lingduyinghuo",
+    "votes": "49",
+    "rank": 16
+  },
+  {
+    "title": "浅析JavaScript异步",
+    "description": "一直以来都知道JavaScript是一门单线程语言，在笔试过程中不断的遇到一些输出结果的问题，考量的是对异步编程掌握情况。一般被问到异步的时候脑子里第一反应就是Ajax，setTimseout...这些东西。在平时做项目过程...",
+    "url": "https://segmentfault.com/a/1190000019253700",
+    "author": "Aaron",
+    "home_url": "https://segmentfault.com/u/aaron_59f5c5ee0c93f",
+    "votes": "54",
+    "rank": 17
+  },
+  {
+    "title": "清除CentOS 6或CentOS 7上的磁盘空间",
+    "description": "以下是清除CentOS 6或CentOS 7服务器上的磁盘空间的快速命令。首先需要安装yum-utils包：",
+    "url": "https://segmentfault.com/a/1190000019242684",
+    "author": "Yujiaao",
+    "home_url": "https://segmentfault.com/u/yujiaao",
+    "votes": "25",
+    "rank": 18
   },
   {
     "title": "代码注释，我们不一样",
@@ -123,34 +168,16 @@
     "author": "WEBING",
     "home_url": "https://segmentfault.com/u/webing123",
     "votes": "23",
-    "rank": 14
+    "rank": 19
   },
   {
-    "title": "css绘制各种形状图形（第二版）",
-    "description": "虽然我们现在大都使用字体图标或者svg图片，似乎使用 CSS 来做图标意义不是很大，但怎么实现这些图标用到的一些技巧及思路是很值得我们的学习。",
-    "url": "https://segmentfault.com/a/1190000019256472",
-    "author": "零度萤火",
-    "home_url": "https://segmentfault.com/u/lingduyinghuo",
-    "votes": "48",
-    "rank": 15
-  },
-  {
-    "title": "浅析JavaScript异步",
-    "description": "一直以来都知道JavaScript是一门单线程语言，在笔试过程中不断的遇到一些输出结果的问题，考量的是对异步编程掌握情况。一般被问到异步的时候脑子里第一反应就是Ajax，setTimseout...这些东西。在平时做项目过程...",
-    "url": "https://segmentfault.com/a/1190000019253700",
-    "author": "Aaron",
-    "home_url": "https://segmentfault.com/u/aaron_59f5c5ee0c93f",
-    "votes": "51",
-    "rank": 16
-  },
-  {
-    "title": "区块链笔记（3）比特币交易的数据和流程",
-    "description": "区块链技术只能用来做关于金融交易的应用么？或许先去了解它有关交易的细节，才能看到是否有其它应用的可能。",
-    "url": "https://segmentfault.com/a/1190000019291453",
-    "author": "sept08",
-    "home_url": "https://segmentfault.com/u/sept08",
-    "votes": "2",
-    "rank": 17
+    "title": "vxe-table vue table 一个非常强大表格组件",
+    "description": "vxe-table vue table 一个非常强大表格组件 一个功能更加强大的 Vue 表格组件查看 vxe-table 功能点 基础 尺寸 斑马线条纹 带边框 单元格样式 列宽拖动 流体高度 固定表头 固定列 固定表头和列 表头分组 序号 单...",
+    "url": "https://segmentfault.com/a/1190000019287984",
+    "author": "abc26296",
+    "home_url": "https://segmentfault.com/u/abc26296",
+    "votes": "13",
+    "rank": 20
   },
   {
     "title": "30分钟用Node.js构建一个API服务器",
@@ -158,8 +185,35 @@
     "url": "https://segmentfault.com/a/1190000019268920",
     "author": "疯狂的技术宅",
     "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "24",
-    "rank": 18
+    "votes": "25",
+    "rank": 21
+  },
+  {
+    "title": "如何在零JS代码情况下实现一个实时聊天功能❓",
+    "description": "前段时间在 github 上看到了一个很“trick”的项目：用纯 CSS（即不使用 JavaScript）实现一个聊天应用 —— css-only-chat。即下图所示效果。",
+    "url": "https://segmentfault.com/a/1190000019242663",
+    "author": "alienzhou",
+    "home_url": "https://segmentfault.com/u/alienzhou",
+    "votes": "53",
+    "rank": 22
+  },
+  {
+    "title": "令人惊叹的Visual Studio Code插件",
+    "description": "vscode-color-highlight------颜色代码高亮插件。（sublime text也有）vscode-Path Intellisense------文件路径提示。（sublime text也有）vscode-copy-relative-path------复制文件相对路径。vscode-Change Case...",
+    "url": "https://segmentfault.com/a/1190000019297038",
+    "author": "Null",
+    "home_url": "https://segmentfault.com/u/srooter",
+    "votes": "1",
+    "rank": 23
+  },
+  {
+    "title": "前端山泉 💧",
+    "description": "前端山泉 💧 前端优质文章的搬运工 👷 原文 => github 持续更新，欢迎 ⭐ 📂 CSS CSS 灵感 -- chokcoco iCSS -- chokcoco 学习 BFC (Block Formatting Context) -- 网易考拉前端团队 CSS网格布局（Grid）完全教程 ...",
+    "url": "https://segmentfault.com/a/1190000019292646",
+    "author": "ST_Pace",
+    "home_url": "https://segmentfault.com/u/st_pace",
+    "votes": "4",
+    "rank": 24
   },
   {
     "title": "JavaScript 发布-订阅模式",
@@ -168,7 +222,16 @@
     "author": "baihu",
     "home_url": "https://segmentfault.com/u/xiaoxiaobaihu",
     "votes": "19",
-    "rank": 19
+    "rank": 25
+  },
+  {
+    "title": "我们不背诵 API，只实现 API",
+    "description": "有不少刚入行的同学跟我说：“JavaScript 很多 API 记不清楚怎么办？数组的这方法、那方法总是傻傻分不清楚，该如何是好？操作 DOM 的方式今天记，明天忘，真让人奔溃！”",
+    "url": "https://segmentfault.com/a/1190000019287040",
+    "author": "lucas_580e331d326b4",
+    "home_url": "https://segmentfault.com/u/lucas_580e331d326b4",
+    "votes": "15",
+    "rank": 26
   },
   {
     "title": "java 多表查询",
@@ -176,35 +239,8 @@
     "url": "https://segmentfault.com/a/1190000019287287",
     "author": "潘佳琦",
     "home_url": "https://segmentfault.com/u/panjia_5b3b83f7743e9",
-    "votes": "7",
-    "rank": 20
-  },
-  {
-    "title": "如何在零JS代码情况下实现一个实时聊天功能❓",
-    "description": "前段时间在 github 上看到了一个很“trick”的项目：用纯 CSS（即不使用 JavaScript）实现一个聊天应用 —— css-only-chat。即下图所示效果。",
-    "url": "https://segmentfault.com/a/1190000019242663",
-    "author": "alienzhou",
-    "home_url": "https://segmentfault.com/u/alienzhou",
-    "votes": "52",
-    "rank": 21
-  },
-  {
-    "title": "【整理】18种推荐的CSS命名和书写规范",
-    "description": "选择器的命名规范 1.模块化命名 例如： 与布局相关的样式以“g”为开头。如“g-content”和“g-header”； 与挂钩相关的样式以“j”为开头。如“j-open”和“j-request”； 与元件相关的样式以“m”为开头。如“m-dropMenu”和“m-...",
-    "url": "https://segmentfault.com/a/1190000019268306",
-    "author": "果冻",
-    "home_url": "https://segmentfault.com/u/guodong_589c0897bd203",
-    "votes": "19",
-    "rank": 22
-  },
-  {
-    "title": "用100行代码，完成自己的前端构建工具！",
-    "description": "ES2017+，你不再需要纠结于复杂的构建工具技术选型。 也不再需要gulp,grunt,yeoman,metalsmith,fis3。 以上的这些构建工具，可以脑海中永远划掉。 100行代码，你将透视构建工具的本质。 100行代码，你将拥有一个...",
-    "url": "https://segmentfault.com/a/1190000019274156",
-    "author": "刘羽冲",
-    "home_url": "https://segmentfault.com/u/liuyuchong",
-    "votes": "14",
-    "rank": 23
+    "votes": "8",
+    "rank": 27
   },
   {
     "title": "代码注释的艺术，再也不怕被说代码可读性差啦！",
@@ -212,52 +248,16 @@
     "url": "https://segmentfault.com/a/1190000019276396",
     "author": "拾贰",
     "home_url": "https://segmentfault.com/u/jsay",
-    "votes": "13",
-    "rank": 24
-  },
-  {
-    "title": "前端工具函数",
-    "description": "将一级的数据结构处理成树状数据结构 处理成树状结构，一般就是需要节点和父节点标识，或者需要考虑以哪个节点为根节点生成树结构数据 {代码...} {代码...} 数组去重 数组去重方法有许多，还分为普通数组和对象数...",
-    "url": "https://segmentfault.com/a/1190000019256898",
-    "author": "我在长安长安",
-    "home_url": "https://segmentfault.com/u/wozaichanganchangan",
-    "votes": "23",
-    "rank": 25
-  },
-  {
-    "title": "端到端测试神器Cypress!进阶",
-    "description": "前言 官方文档：[链接] 目前只支持英文，好处是官方入门视频很多，对于英文水平不好的也很容易入手； 优缺点 优点： 只要你学好js语法上应该不是很大问题获取dom类似jq，对前端同学来说是好处； 缺点： 内置的GUI...",
-    "url": "https://segmentfault.com/a/1190000019290403",
-    "author": "slorder",
-    "home_url": "https://segmentfault.com/u/slorder",
-    "votes": "2",
-    "rank": 26
-  },
-  {
-    "title": "Nginx 静态文件服务配置及优化",
-    "description": "root 指令指定将用于搜索文件的根目录。 为了获取所请求文件的路径，NGINX 将请求 URI 附加到 root 指令指定的路径。该指令可以放在 http {}，server {} 或 location {} 上下文中的任何级别。在下面的示例中，为...",
-    "url": "https://segmentfault.com/a/1190000019276954",
-    "author": "he_xd",
-    "home_url": "https://segmentfault.com/u/he_xd",
-    "votes": "13",
-    "rank": 27
-  },
-  {
-    "title": "Vue 组件间通信方式",
-    "description": "例子是在 jsrun.net 平台编写，不支持移动端平台，所以本文建议在 PC 端进行阅读。 Vue 是数据驱动的视图框架，那么组件间的数据通信是必然的事情，那么组件间如何进行数据传递呢？ 首先组件间通信有父子组件、兄...",
-    "url": "https://segmentfault.com/a/1190000019269253",
-    "author": "xianshannan",
-    "home_url": "https://segmentfault.com/u/nanges",
-    "votes": "11",
+    "votes": "17",
     "rank": 28
   },
   {
-    "title": "前端山泉 💧",
-    "description": "前端山泉 💧 前端优质文章的搬运工 👷 github 持续更新，欢迎 ⭐ 📂 CSS CSS 灵感 -- chokcoco iCSS -- chokcoco 学习 BFC (Block Formatting Context) -- 网易考拉前端团队 CSS网格布局（Grid）完全教程 -- 毛三十 M...",
-    "url": "https://segmentfault.com/a/1190000019292646",
-    "author": "ST_Pace",
-    "home_url": "https://segmentfault.com/u/st_pace",
-    "votes": "1",
+    "title": "WEB页面实现等比例缩放自适应 - 通过 rem 和 vw 实现",
+    "description": "WEB页面实现等比例缩放自适应 - 通过 rem 和 vw 实现 一、rem 和 vw 简介 1. rem rem 是相对长度单位，是指相对于根元素(即html元素)font-size(字号大小)的倍数。 浏览器支持：Caniuse 示例 若根元素 font-size ...",
+    "url": "https://segmentfault.com/a/1190000019249274",
+    "author": "白菜1031",
+    "home_url": "https://segmentfault.com/u/baicai1031",
+    "votes": "22",
     "rank": 29
   },
   {
@@ -266,7 +266,7 @@
     "url": "https://segmentfault.com/a/1190000019265122",
     "author": "jrainlau",
     "home_url": "https://segmentfault.com/u/jrainlau",
-    "votes": "21",
+    "votes": "23",
     "rank": 30
   }
 ]
