@@ -1,12 +1,12 @@
 {
   "name": "@wcj/github-rank",
-  "version": "19.05.26",
+  "version": "19.05.27",
   "description": "Github Users Ranking for China.",
   "scripts": {
     "start": "node lib/build.js",
     "get:toutiao": "node lib/geToutiao.js",
     "get": "npm run get:users && npm run get:users:china && npm run get:users:info && npm run get:repos",
-    "get:o": "npm run get:trending && npm run get:sifou && npm run get:36kr",
+    "get:o": "npm run get:trending && npm run get:sifou && npm run get:36kr && npm run get:toutiao",
     "star": "node lib/getUserInfoStars.js",
     "get:users:info": "node lib/getUserInfo.js",
     "get:36kr": "node lib/get36Kr.js",
@@ -15,7 +15,7 @@
     "get:users:china": "node lib/getUsersChina.js",
     "get:repos": "node lib/getRepos.js",
     "get:trending": "node lib/getTrending.js",
-    "deploy": "gh-pages -d web -m '2019-05-26'",
+    "deploy": "gh-pages -d web -m '2019-05-27'",
     "prepare": "npm run build",
     "types": "tsbb types",
     "types:watch": "tsbb types --watch",
