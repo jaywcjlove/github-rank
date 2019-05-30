@@ -170,20 +170,20 @@
     "homeUrl": "/subjects/241105"
   },
   {
-    "title": "做技术还是做管理？40 岁的老程序员有话想对你说",
-    "description": "40岁的老程序员，经验（教训）有不少，今天只说一点：“不要一味的迷恋所谓的管理，把当官作为职场唯一的追求。”我20年的职业生涯，总的来说，可以分为3个阶段：技术->管理->技术。第...",
-    "votes": "70",
-    "url": "/k/o9x188",
+    "title": "太舒服的事情，是危险的",
+    "description": "这篇 7000 字的文章希望能给你一点启发上周我做了一个小小的实验。我平时刷知乎，都是默认选择「关注」页，看我关注的用户。但这次，我试着调成了「推荐」页，看算法给我推荐的内容。然后...",
+    "votes": "71",
+    "url": "/k/bczua4",
     "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
     "avatarAlt": "头条精选 - 独家号",
     "subjectName": "头条精选",
     "homeUrl": "/subjects/4"
   },
   {
-    "title": "太舒服的事情，是危险的",
-    "description": "这篇 7000 字的文章希望能给你一点启发上周我做了一个小小的实验。我平时刷知乎，都是默认选择「关注」页，看我关注的用户。但这次，我试着调成了「推荐」页，看算法给我推荐的内容。然后...",
-    "votes": "66",
-    "url": "/k/bczua4",
+    "title": "做技术还是做管理？40 岁的老程序员有话想对你说",
+    "description": "40岁的老程序员，经验（教训）有不少，今天只说一点：“不要一味的迷恋所谓的管理，把当官作为职场唯一的追求。”我20年的职业生涯，总的来说，可以分为3个阶段：技术->管理->技术。第...",
+    "votes": "70",
+    "url": "/k/o9x188",
     "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
     "avatarAlt": "头条精选 - 独家号",
     "subjectName": "头条精选",
@@ -208,16 +208,6 @@
     "avatarAlt": "Fundebug - 独家号",
     "subjectName": "Fundebug",
     "homeUrl": "/subjects/216955"
-  },
-  {
-    "title": "离不开的微服务架构，脱不开的 RPC 细节",
-    "description": "上一篇《微服务架构，多“微”才合适？》聊了微服务的粒度。微服务离不开RPC框架，RPC框架的原理、实践及细节，是本篇要分享的内容。服务化有什么好处？服务化的一个好处就是，不限定服务...",
-    "votes": "62",
-    "url": "/k/74yprd",
-    "avatar": "https://img.toutiao.io/user/b618677591aa49b3972ece0c7d26b473/thumb",
-    "avatarAlt": "数据淘金 - 独家号",
-    "subjectName": "数据淘金",
-    "homeUrl": "/subjects/120437"
   },
   {
     "title": "996 其实没什么用",
@@ -248,5 +238,15 @@
     "avatarAlt": "编程一生 - 独家号",
     "subjectName": "编程一生",
     "homeUrl": "/subjects/350352"
+  },
+  {
+    "title": "通过 MySQL 存储原理来分析排序和锁",
+    "description": "先抛出几个问题1.为什么不建议使用订单号作为主键?2.为什么要在需要排序的字段上加索引?3.for update 的记录不存在会导致锁住全表?4.redolog 和 binlog ...",
+    "votes": "58",
+    "url": "/k/6yfoee",
+    "avatar": "https://img.toutiao.io/subject%2F8f7bd452e4294ede887482f9e3510043",
+    "avatarAlt": "内核小王子 - 独家号",
+    "subjectName": "内核小王子",
+    "homeUrl": "/subjects/224607"
   }
 ]
