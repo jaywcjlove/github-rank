@@ -1,263 +1,137 @@
 [
   {
-    "title": "10个有趣的javascript和css库（2019年5月最新）",
-    "description": "我们的使命是让您了解最新和最酷的Web开发趋势。这就是为什么我们每个月都会发布一些精选的资源，这些资源是我们偶然发现并认为值得您关注的。",
-    "url": "https://segmentfault.com/a/1190000019352238",
-    "author": "果冻",
-    "home_url": "https://segmentfault.com/u/guodong_589c0897bd203",
-    "votes": "13",
+    "title": "文档生成器 mkdocs",
+    "description": "mkdocs 是 Python 一个对 Markdown 非常友好的文档生成器，中文文档地址 使用 mkdocs 我们可以用md 编写自己的文档，而且可以免费部署到 GitHub 。 安装 pip install mkdocs 使用 {代码...} 编辑 vi docs/index.m...",
+    "url": "https://segmentfault.com/a/1190000019360914",
+    "author": "苏生不惑",
+    "home_url": "https://segmentfault.com/u/sushengbuhuo",
+    "votes": "1",
     "rank": 1
   },
   {
-    "title": "2019-我的前端面试题",
-    "description": "2019的5月9号，离发工资还有1天的时候，我的领导亲切把我叫到办公室跟我说：'阿郭，我们公司要倒闭了，钱是没有的啦，为了不耽误你，你赶紧出去找工作吧'。听到这话，我虎躯一震，这已经是第2个月没工资了。",
-    "url": "https://segmentfault.com/a/1190000019348191",
-    "author": "郭邯",
-    "home_url": "https://segmentfault.com/u/qiangdada",
-    "votes": "15",
+    "title": "当我们在谈论高并发的时候究竟在谈什么?",
+    "description": "这里先给出结论: 高并发的基本表现为单位时间内系统能够同时处理的请求数,高并发的核心是对CPU资源的有效压榨。",
+    "url": "https://segmentfault.com/a/1190000019360335",
+    "author": "hncg",
+    "home_url": "https://segmentfault.com/u/hncg",
+    "votes": "6",
     "rank": 2
   },
   {
-    "title": "移动端跨平台方案如何选择",
-    "description": "",
-    "url": "https://segmentfault.com/a/1190000019348575",
-    "author": "小白",
-    "home_url": "https://segmentfault.com/u/fengqingyu",
-    "votes": "11",
+    "title": "线上出bug了？别怕，这么定位！",
+    "description": "摘要： Source Map还是很神奇的。 原文：线上出bug了？别怕，这么定位！ 公众号：前端小苑 Fundebug经授权转载并修改，版权归原作者所有。 工作中，生产环境代码是编译后代码，搜集到报错信息的行和列无法在源码...",
+    "url": "https://segmentfault.com/a/1190000019357769",
+    "author": "Fundebug",
+    "home_url": "https://segmentfault.com/u/fundebug",
+    "votes": "8",
     "rank": 3
   },
   {
-    "title": "react 项目模板",
-    "description": "根据自己常用的一些配置和需求,制定了一个项目模板基于 creat-react-app v2.x 搭建的项目模版以后会持续更新,不过频率不会很高",
-    "url": "https://segmentfault.com/a/1190000019354438",
-    "author": "darcrand",
-    "home_url": "https://segmentfault.com/u/darcrand",
-    "votes": "1",
+    "title": "你不知道的 JSON.stringfy",
+    "description": "JSON.stringfy()是将一个 JavaScript 对象转化为 JSON 格式字符串的标准方式。许多 JavaScript 框架在其内部，都会使用 JSON.stringify()：Express的 res.json()、Axios的 post，以及webpack stats，它们都调用了...",
+    "url": "https://segmentfault.com/a/1190000019356541",
+    "author": "littleLyon",
+    "home_url": "https://segmentfault.com/u/littlelyon",
+    "votes": "17",
     "rank": 4
   },
   {
-    "title": "JAVA字符串格式化——String.format()的使用",
-    "description": "String类的format()方法用于创建格式化的字符串以及连接多个字符串对象。熟悉C语言应该记得C语言的sprintf()方法，两者有类似之处。format()方法有两种重载形式。",
-    "url": "https://segmentfault.com/a/1190000019350486",
-    "author": "潘佳琦",
-    "home_url": "https://segmentfault.com/u/panjia_5b3b83f7743e9",
-    "votes": "6",
+    "title": "使用Rust和Elixir\b实现高效的下发好友列表",
+    "description": "我们进行的一个大项目是改变我们更新会员列表的方式（屏幕右侧的那些漂亮的头像）。我们可以直接发送会员列表中可见部分的更新(分页)，而不是为会员列表中的每个人发送更新。这样做的好处很明显，例如网络流量更...",
+    "url": "https://segmentfault.com/a/1190000019360263",
+    "author": "誉儿",
+    "home_url": "https://segmentfault.com/u/yuer_daily",
+    "votes": "1",
     "rank": 5
   },
   {
-    "title": "马蜂窝大交通业务监控报警系统架构设计与实现",
-    "description": "部门的业务线越来越多，任何一个线上运行的应用，都可能因为各种各样的原因出现问题：比如业务层面，订单量比上周减少了，流量突然下降了；技术层面的问题，系统出现 ERROR ，接口响应变慢了。拿大交通业务来说，...",
-    "url": "https://segmentfault.com/a/1190000019353585",
-    "author": "马蜂窝技术",
-    "home_url": "https://segmentfault.com/u/mafengwojishu",
-    "votes": "1",
+    "title": "从一道前端面试题谈起",
+    "description": "今天在知乎上看到一个回答《为什么前端工程师那么难招？》，作者提到说有很多前端工程师甚至连单链表翻转都写不出来。说实话，来面试的孩子们本来就紧张，你要冷不丁问一句单链表翻转怎么写，估计很多人都会蒙掉。",
+    "url": "https://segmentfault.com/a/1190000019358248",
+    "author": "张京",
+    "home_url": "https://segmentfault.com/u/fengerzh",
+    "votes": "5",
     "rank": 6
   },
   {
-    "title": "不要这样写简历",
-    "description": "作者：饥人谷创始人：方应杭文本来源：(已经方老师同意转载)[链接][链接] 想阅读更多优质文章请猛戳GitHub博客,一年百来篇优质文章等着你！ 简历问题 从严重到不严重排序 实习经验介绍太少。我根本就无法看出你在...",
-    "url": "https://segmentfault.com/a/1190000019354245",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "3",
+    "title": "判断浏览器是否支持 webp 的几种解决方法",
+    "description": "我们都知道，WebP 是 Google 推出的 WebP 图片格式，它是一种支持有损压缩和无损压缩的图片文件格式，根据Google测试，相同的图片，WebP 格式的图片均能比 PNG，JPG 格式的图片节约不少体积，但是其兼容性不是很...",
+    "url": "https://segmentfault.com/a/1190000019359180",
+    "author": "距离",
+    "home_url": "https://segmentfault.com/u/juli_590dd17068b9e",
+    "votes": "4",
     "rank": 7
   },
   {
-    "title": "音频可视化中的信号处理方案",
-    "description": "音频可视化是一个“听”起来非常“美”好的话题，其复杂程度很大程度上依赖视觉方案（一些例子），不同的视觉方案决定了你的技术方案选型，比如three.js，pixi.js等引擎。",
-    "url": "https://segmentfault.com/a/1190000019345560",
-    "author": "方泉水很甜",
-    "home_url": "https://segmentfault.com/u/junz91",
-    "votes": "14",
-    "rank": 8
-  },
-  {
-    "title": "nginx 反向代理处理跨域问题",
-    "description": "原文链接：[链接] 反向代理是什么 放两个神图，图片来自这里。 这是正向代理 这是反向代理 正向代理是你发出请求的时候先经过代理服务器，所以实际上发出请求的是代理服务器。 反向代理是“代理你的目标服务器”，...",
-    "url": "https://segmentfault.com/a/1190000019346086",
-    "author": "ssshooter",
-    "home_url": "https://segmentfault.com/u/ssshooter",
-    "votes": "8",
-    "rank": 9
-  },
-  {
-    "title": "Tornado进阶-从源码开始(转载)",
-    "description": "一、tornado概述 二、epoll预备 三、源码结构 四、tornado的http层 五、tornado的tcp层 六、tornado的ioloop分析 七、tornado请求1 八、tornado请求2 ps: 在此感谢jason_wang同学，附其博客地址",
-    "url": "https://segmentfault.com/a/1190000019353862",
-    "author": "魏什么",
-    "home_url": "https://segmentfault.com/u/itwhat",
-    "votes": "1",
-    "rank": 10
-  },
-  {
-    "title": "CSS3实现柱状图的3D立体动画效果",
-    "description": "这篇文章所实现的动画效果起源于一个小小的想法，这个想法来自于另一个网站的一篇文章，它介绍了如何在网页中使用CSS、图片和JavaScript创建立体的柱状图。在阅读了那篇文章之后，我想挑战一下，尝试使用纯CSS来...",
-    "url": "https://segmentfault.com/a/1190000019346101",
-    "author": "果冻",
-    "home_url": "https://segmentfault.com/u/guodong_589c0897bd203",
-    "votes": "8",
-    "rank": 11
-  },
-  {
-    "title": "Louvain 算法原理及设计实现",
-    "description": "奇技指南 在海量的信息流中，通过精准的算法给用户推荐其感兴趣的内容，已经成为了一个产品吸引用户，获取收益的极其重要的方式。本篇为算法系列文章，将为大家分享360的算法团队在实践中积累的算法知识及经验，...",
-    "url": "https://segmentfault.com/a/1190000019351745",
-    "author": "360技术",
-    "home_url": "https://segmentfault.com/u/360jishu",
-    "votes": "1",
-    "rank": 12
-  },
-  {
-    "title": "分布式时序数据库QTSDB的设计与实现",
-    "description": "奇技指南现有的开源时序数据库influxdb只支持单机运行，在面临大量数据写入时，会出现查询慢，机器负载高，单机容量的限制。 为了解决这一问题，360基础架构团队在单机influxdb的基础上，开发了集群版——QTSDB",
-    "url": "https://segmentfault.com/a/1190000019351152",
-    "author": "360技术",
-    "home_url": "https://segmentfault.com/u/360jishu",
-    "votes": "1",
-    "rank": 13
-  },
-  {
-    "title": "第一天：你的第一个Flask Web应用——你好，喵星在线！",
-    "description": "通过学习第一天的内容，你将学会如何创建你的第一个flask web应用，并且在自己的电脑上运行它。这是第一天的学习内容，所有内容的代码都将托管在github上，猫姐强烈建议各位同学在学习本课内容时，先跟着教程自己...",
-    "url": "https://segmentfault.com/a/1190000019352080",
+    "title": "第二天：在Flask Web应用中使用模板",
+    "description": "通过学习第二天的内容，你将会对模板有所了解，并且知道为什么要使用模板，以及使用模板有什么好处。这一天的学习内容涉及到的代码都会托管到github上，猫姐再次强调，在学习本课内容时一定要自己尝试手敲代码，...",
+    "url": "https://segmentfault.com/a/1190000019358340",
     "author": "猫姐",
     "home_url": "https://segmentfault.com/u/maojie_5cdc26ba423ae",
     "votes": "1",
+    "rank": 8
+  },
+  {
+    "title": "【Docker】第2篇：Docker 介绍",
+    "description": "1.docker是基于go语言实现主要目标是对对应组件的封装、分发、部署、运行等生命周期的管理，使应用程序及其运行环境能够做到“一次封装，到处运行”",
+    "url": "https://segmentfault.com/a/1190000019357866",
+    "author": "一只小小鸟",
+    "home_url": "https://segmentfault.com/u/shifeifei",
+    "votes": "3",
+    "rank": 9
+  },
+  {
+    "title": "使用 <wbr> 解决长 URL 的换行问题",
+    "description": "我们知道，世界上文字主要有两种：一种是以中文为代表的象形文字；另一种是以英法俄等为代表的拼音语系。前者的换行很简单，每个单字都有自己的意义，所以每个字后面都可以换行。拼音语言，字母组合本身无意义，...",
+    "url": "https://segmentfault.com/a/1190000019359030",
+    "author": "Meathill",
+    "home_url": "https://segmentfault.com/u/meathill",
+    "votes": "2",
+    "rank": 10
+  },
+  {
+    "title": "React造轮系列：Layout 组件思路",
+    "description": "本文是React造轮系列第三篇。 1.React 造轮子系列：Icon 组件思路 2.React造轮系列：对话框组件 - Dialog 思路 想阅读更多优质文章请猛戳GitHub博客,一年百来篇优质文章等着你！ 初始化 Layout 参考 And Design ,...",
+    "url": "https://segmentfault.com/a/1190000019331920",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "2",
+    "rank": 11
+  },
+  {
+    "title": "[译] 在你学习 React 之前必备的 JavaScript 基础",
+    "description": "为了不浪费大家的宝贵时间，在开头申明一下，这篇文章针对的阅读对象是：没有写过 React 或者刚刚才接触 React 并且对于 ES6 的语法不太了解的同学，这是一篇基础入门的文章，在一开始我并没有准备翻译一篇这样的...",
+    "url": "https://segmentfault.com/a/1190000019355442",
+    "author": "dendionk",
+    "home_url": "https://segmentfault.com/u/dendoink",
+    "votes": "2",
+    "rank": 12
+  },
+  {
+    "title": "优化 Google Chrome 的使用体验",
+    "description": "下面是吾辈在使用 Chrome 遇到的一些不舒服的地方，以及对应的解决方法。一切皆是为了一个目标：提高浏览器的使用体验！",
+    "url": "https://segmentfault.com/a/1190000019356232",
+    "author": "rxliuli",
+    "home_url": "https://segmentfault.com/u/rxliuli",
+    "votes": "3",
+    "rank": 13
+  },
+  {
+    "title": "Python基础练习100题 ( 1~ 10）",
+    "description": "大家好，好久不见，我最近在Github上发现了一个好东西，是关于夯实Python基础的100道题，原作者是在Python2的时候创建的，闲来无事，非常适合像我一样的小白来练习",
+    "url": "https://segmentfault.com/a/1190000019356802",
+    "author": "alpha94511",
+    "home_url": "https://segmentfault.com/u/alpha94511",
+    "votes": "2",
     "rank": 14
   },
   {
-    "title": "JavaScript 系列--JavaScript一些奇淫技巧的实现方法（一）简短的sleep函数，获取时间戳",
-    "description": "有些东西很好用，但是你未必知道；有些东西你可能用过，但是你未必知道原理。实现一个目的有多种途径，俗话说，条条大路通罗马。发散一下大家的思维以及拓展一下知识面。",
-    "url": "https://segmentfault.com/a/1190000019351599",
-    "author": "saucxs",
-    "home_url": "https://segmentfault.com/u/saucxs",
+    "title": "鱼叉攻击-尝试",
+    "description": "“鱼叉攻击”是黑客攻击方式之一，最常见的做法是，将木马程序作为电子邮件的附件，并起上一个极具诱惑力的名称，发送给目标电脑，诱使受害者打开附件，从而感染木马。",
+    "url": "https://segmentfault.com/a/1190000019356819",
+    "author": "飞龙",
+    "home_url": "https://segmentfault.com/u/wizardforcel",
     "votes": "1",
     "rank": 15
-  },
-  {
-    "title": "Python 隐藏的高级功能你都 get 到了吗?",
-    "description": "Python 多好用不用多说，大家看看自己用的语言就知道了。但是 Python 隐藏的高级功能你都 get 了吗?本文中，列举了 Python 中五种略高级的特征以及它们的使用方法，快来一探究竟吧!",
-    "url": "https://segmentfault.com/a/1190000019344926",
-    "author": "python派森",
-    "home_url": "https://segmentfault.com/u/pythonpaisen",
-    "votes": "3",
-    "rank": 16
-  },
-  {
-    "title": "Elasticsearch如何做到亿级数据查询毫秒级返回？",
-    "description": "这个问题，其实就是在看你是否用过 ES，其实 ES 性能并没有你想象中那么好的。很多时候数据量大了，特别是有几亿条数据的时候，可能你会懵逼的发现，跑个搜索怎么一下 5~10s。",
-    "url": "https://segmentfault.com/a/1190000019344860",
-    "author": "壹佰案例",
-    "home_url": "https://segmentfault.com/u/cynthiamsup",
-    "votes": "8",
-    "rank": 17
-  },
-  {
-    "title": "【译】使用\"BinaryAST\"加快JavaScript脚本的解析速度？",
-    "description": "原文：Faster script loading with BinaryAST?本文首发于公众号：符合预期的CoyPan",
-    "url": "https://segmentfault.com/a/1190000019344882",
-    "author": "CoyPan",
-    "home_url": "https://segmentfault.com/u/coypan",
-    "votes": "6",
-    "rank": 18
-  },
-  {
-    "title": "gRPC实现跨语言的微服务间通信 -- 精通外语的电报员与煲电报粥的小怪兽",
-    "description": "一个小巧的单体应用会随着公司业务的扩张而慢慢成长，逐渐演化成一个庞大且复杂的系统怪物，系统任何一处的问题都将影响整个怪物的表现，很少有单独的开发者能理清系统怪物所有的肌理脉络，导致bug的定位和新功能...",
-    "url": "https://segmentfault.com/a/1190000019344451",
-    "author": "黄小鹿技术",
-    "home_url": "https://segmentfault.com/u/huangxiaolu",
-    "votes": "1",
-    "rank": 19
-  },
-  {
-    "title": "Schedulerx2.0分布式计算原理&最佳实践",
-    "description": "Schedulerx2.0的客户端提供分布式执行、多种任务类型、统一日志等框架，用户只要依赖schedulerx-worker这个jar包，通过schedulerx2.0提供的编程模型，简单几行代码就能实现一套高可靠可运维的分布式执行引擎。",
-    "url": "https://segmentfault.com/a/1190000019347674",
-    "author": "阿里云云栖社区",
-    "home_url": "https://segmentfault.com/u/yunqishequ_5aa899aad5395",
-    "votes": "1",
-    "rank": 20
-  },
-  {
-    "title": "所谓的智慧云端服务器管理平台",
-    "description": "对于云服务器的采购,普通公司和个人采购都是够用就可,所谓够用,如果公司只是一个简单的企业网站或个人博客,那么这些大型的IDC服务商阿里云、百度云、腾讯云随便哪一家购买一个1核1G的云服务器就可以了，安装上lin...",
-    "url": "https://segmentfault.com/a/1190000019347209",
-    "author": "刘亮亮",
-    "home_url": "https://segmentfault.com/u/liuliangliang",
-    "votes": "1",
-    "rank": 21
-  },
-  {
-    "title": "使用 apiDoc 为你的Node.js API 生成文档",
-    "description": "当你为其他开发人员（前端，桌面，移动等）开发 API 时，需要生成一份风格良好的文档，以便他们知道可以使用的内容和方式，这非常重要。",
-    "url": "https://segmentfault.com/a/1190000019329984",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "6",
-    "rank": 22
-  },
-  {
-    "title": "关于promise的学习和拓展",
-    "description": "以前开发的时候偶尔会在请求中，或者其他场景中用到promise,只知道它是什么（链式调用，用于请求的后返回值得操作之类的）,大概怎么用，却没有深入了解。",
-    "url": "https://segmentfault.com/a/1190000019345533",
-    "author": "Chaos",
-    "home_url": "https://segmentfault.com/u/chaos_5ad8ad1bcdded",
-    "votes": "2",
-    "rank": 23
-  },
-  {
-    "title": "从js来聊聊异步编程",
-    "description": "揭开go的 gorouter,c#的 async/await等 使用同步的写法写异步代码的神秘面纱 , 证明其本质就是一个语法糖",
-    "url": "https://segmentfault.com/a/1190000019345262",
-    "author": "kyssion",
-    "home_url": "https://segmentfault.com/u/kyssion",
-    "votes": "2",
-    "rank": 24
-  },
-  {
-    "title": "vue-router之hash模式和history模式",
-    "description": "即地址栏 URL 中的 # 符号（此 hash 不是密码学里的散列运算）。比如这个 URL：[链接]，hash 的值为 #/hello。它的特点在于：hash 虽然出现在 URL 中，但不会被包括在 HTTP 请求中，对后端完全没有影响，因此改变...",
-    "url": "https://segmentfault.com/a/1190000019343191",
-    "author": "fuqihan",
-    "home_url": "https://segmentfault.com/u/fuqihan",
-    "votes": "1",
-    "rank": 25
-  },
-  {
-    "title": "Python测试开发中Django和Flask框架的区别",
-    "description": "为了更好地阐述这个问题，我们把开发一个应用的过程进行类比，往往开发一个应用（web应用、系统应用）跟建造房子的过程一样，需要先打地基，搭好骨架，然后一块砖一块砖叠上去。",
-    "url": "https://segmentfault.com/a/1190000019345048",
-    "author": "python派森",
-    "home_url": "https://segmentfault.com/u/pythonpaisen",
-    "votes": "1",
-    "rank": 26
-  },
-  {
-    "title": "前端常见面试题总结以及一些前端知识学习文档总结",
-    "description": "个人总结的一些常见的前端常见面试题,欢迎大家评论指出错误!也欢迎大家补充!前端常见面试题总结里面也有一些日常学习文档总结!",
-    "url": "https://segmentfault.com/a/1190000019344952",
-    "author": "一叶知秋",
-    "home_url": "https://segmentfault.com/u/uvdream",
-    "votes": "1",
-    "rank": 27
-  },
-  {
-    "title": "mysql基础知识总结",
-    "description": "mysql知识体系庞大，很多知识可能刚学过就忘了，我希望可以在这篇文章记下一些有用的知识点，方便以后查找使用",
-    "url": "https://segmentfault.com/a/1190000019353061",
-    "author": "tusi",
-    "home_url": "https://segmentfault.com/u/tusi",
-    "votes": "1",
-    "rank": 28
-  },
-  {
-    "title": "中文停用词",
-    "description": "中文停用词表, 哈工大停用词表, 百度停用词表, 四川大学机器智能实验室停用词库四份停用词表进行了合并去重, 共计2312个",
-    "url": "https://segmentfault.com/a/1190000019352814",
-    "author": "elephantnose",
-    "home_url": "https://segmentfault.com/u/elephantnose",
-    "votes": "0",
-    "rank": 29
   }
 ]
