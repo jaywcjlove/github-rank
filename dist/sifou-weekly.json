@@ -1,30 +1,57 @@
 [
   {
+    "title": "PHP下用Swoole实现Actor并发模型",
+    "description": "Actor对于PHPer来说，可能会比较陌生，写过Java的同学会比较熟悉，Java一直都有线程的概念（虽然PHP有Pthread,但不普及）,它是一种非共享内存的并发模型，每个Actor内的数据独立存在，Actor之间通过消息传递的形...",
+    "url": "https://segmentfault.com/a/1190000019382531",
+    "author": "如果的如果",
+    "home_url": "https://segmentfault.com/u/ruguoderuguo",
+    "votes": "39",
+    "rank": 1
+  },
+  {
     "title": "当我们在谈论高并发的时候究竟在谈什么?",
     "description": "这里先给出结论: 高并发的基本表现为单位时间内系统能够同时处理的请求数,高并发的核心是对CPU资源的有效压榨。",
     "url": "https://segmentfault.com/a/1190000019360335",
     "author": "hncg",
     "home_url": "https://segmentfault.com/u/hncg",
-    "votes": "151",
-    "rank": 1
-  },
-  {
-    "title": "六种组织CSS的方式",
-    "description": "Ben Frain曾经说过，写css代码很容易，但是扩展和维护却很难。本文就介绍了一套方案来解决这个问题。",
-    "url": "https://segmentfault.com/a/1190000019368091",
-    "author": "果冻",
-    "home_url": "https://segmentfault.com/u/guodong_589c0897bd203",
-    "votes": "14",
+    "votes": "181",
     "rank": 2
   },
   {
-    "title": "Git 自救指南",
-    "description": "Git 虽然因其分布式管理方式，不完全依赖网络，良好的分支策略，容易部署等优点，已经成为最受欢迎的源代码管理方式。但是一分耕耘一分收获，如果想更好地掌握 git，需要付出大量的学习成本。即使在各种 GUI 的加...",
-    "url": "https://segmentfault.com/a/1190000019373841",
-    "author": "CODING",
-    "home_url": "https://segmentfault.com/u/codingnet",
-    "votes": "5",
+    "title": "vue面试必备知识点",
+    "description": "MVVM 是 Model-View-ViewModel 的缩写Model：代表数据模型，也可以在Model中定义数据修改和操作的业务逻辑。我们可以把Model称为数据层，因为它仅仅关注数据本身，不关心任何行为View：用户操作界面。当ViewModel...",
+    "url": "https://segmentfault.com/a/1190000019384765",
+    "author": "jone_chen",
+    "home_url": "https://segmentfault.com/u/jone_chen",
+    "votes": "8",
     "rank": 3
+  },
+  {
+    "title": "有趣的交互系列 - 文字遮罩入场效果",
+    "description": "在这个系列里分享一些简单，但是很有意思的交互效果~附上demo地址和github地址 滚动，添加对应加载的class(比如loaded) 巧用animation实现文字和遮罩层的动画效果 文字动画: opacity 0 -> 1; 遮罩层动画: 首先...",
+    "url": "https://segmentfault.com/a/1190000019376991",
+    "author": "an_l",
+    "home_url": "https://segmentfault.com/u/memo_memo",
+    "votes": "27",
+    "rank": 4
+  },
+  {
+    "title": "2019 年了，为什么我还在用 jQuery？",
+    "description": "译者按： 看来 jQuery 还是有一些用武之地的。 原文: Why I'm Still Using jQuery in 2019 译者: Fundebug 为了保证可读性，本文采用意译而非直译。翻译仅供学习探讨，不代表 Fundebug 观点。 许多人都在提倡: “...",
+    "url": "https://segmentfault.com/a/1190000019379781",
+    "author": "Fundebug",
+    "home_url": "https://segmentfault.com/u/fundebug",
+    "votes": "8",
+    "rank": 5
+  },
+  {
+    "title": "<link>标签的几个用法，帮助提高页面性能",
+    "description": "HTML 中<link>元素规定了外部资源与当前文档的关系。最常见的用法，是用来链接一个外部的样式表，比如：",
+    "url": "https://segmentfault.com/a/1190000019377122",
+    "author": "CoyPan",
+    "home_url": "https://segmentfault.com/u/coypan",
+    "votes": "25",
+    "rank": 6
   },
   {
     "title": "使用React、Electron、Dva、Webpack、Node.js、Websocket快速构建跨平台应用",
@@ -32,17 +59,17 @@
     "url": "https://segmentfault.com/a/1190000019367175",
     "author": "Jerry谭金杰",
     "home_url": "https://segmentfault.com/u/jerrytanjinjie",
-    "votes": "31",
-    "rank": 4
+    "votes": "56",
+    "rank": 7
   },
   {
-    "title": "基于大数据的舆情分析系统架构 - 架构篇",
-    "description": "互联网的飞速发展促进了很多新媒体的发展，不论是知名的大V，明星还是围观群众都可以通过手机在微博，朋友圈或者点评网站上发表状态，分享自己的所见所想，使得“人人都有了麦克风”。不论是热点新闻还是娱乐八卦，...",
-    "url": "https://segmentfault.com/a/1190000019375653",
-    "author": "阿里云云栖社区",
-    "home_url": "https://segmentfault.com/u/yunqishequ_5aa899aad5395",
-    "votes": "2",
-    "rank": 5
+    "title": "CSS开关按钮三例",
+    "description": "很多时候我们都需要用户通过勾选/取消checkbox来表明他们对一些问题的答案。我们设置了一个标签，一个checkbox，并在提交表单后获取checkbox值，以查看用户是否已经选中或取消选中该checkbox。我们都知道默认的的...",
+    "url": "https://segmentfault.com/a/1190000019379527",
+    "author": "果冻",
+    "home_url": "https://segmentfault.com/u/guodong_589c0897bd203",
+    "votes": "10",
+    "rank": 8
   },
   {
     "title": "8 个你不知道的 DOM 功能",
@@ -50,26 +77,35 @@
     "url": "https://segmentfault.com/a/1190000019364550",
     "author": "疯狂的技术宅",
     "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "25",
-    "rank": 6
+    "votes": "38",
+    "rank": 9
   },
   {
-    "title": "当你打开天猫的那一刻，推荐系统做了哪些工作？",
-    "description": "阿里妹导读：当年打开天猫的那一刻，它为你完成了华丽的变身，成为世上独一无二的“天猫”，这就是智能推荐的力量。今天，来自阿里巴巴搜索推荐事业部的算法工程师陈启伟为你介绍天猫如何玩转首页个性化推荐，揭开...",
-    "url": "https://segmentfault.com/a/1190000019370927",
-    "author": "阿里云云栖社区",
-    "home_url": "https://segmentfault.com/u/yunqishequ_5aa899aad5395",
-    "votes": "6",
-    "rank": 7
+    "title": "公有链有未来还是联盟链有未来",
+    "description": "在我们讨论区块链时，分类是不可避免的一件事情。想必大家都听说过「公有链、联盟链、私有链、许可链、无需许可链」这些词汇，虽然我们已经耳熟能详，然而这些名词并没有公认的定义。我们在讨论中只能各凭自己的...",
+    "url": "https://segmentfault.com/a/1190000019383706",
+    "author": "秘猿科技",
+    "home_url": "https://segmentfault.com/u/cryptape",
+    "votes": "2",
+    "rank": 10
   },
   {
-    "title": "【Step-By-Step】一周面试题深入解析 / 周刊02",
-    "description": "Step-By-Step (点击进入项目) 是我于 2019-05-20 开始的一个项目，每个工作日发布一道面试题。每个周末我会仔细阅读大家的答案，整理最一份较优答案出来，因本人水平有限，有误的地方，大家及时指正。 如果想 加...",
-    "url": "https://segmentfault.com/a/1190000019368782",
-    "author": "刘小夕",
-    "home_url": "https://segmentfault.com/u/liuyan666",
-    "votes": "6",
-    "rank": 8
+    "title": "区块链对一些基本问题的答案",
+    "description": "为了让大家能够更深入的理解区块链，接下来的秘猿小课堂里将会从四个方面切入。第一个方面是区块链对一些基本问题的答案。其中包括对时间的答案，对空间的答案以及对能量的答案。",
+    "url": "https://segmentfault.com/a/1190000019384808",
+    "author": "秘猿科技",
+    "home_url": "https://segmentfault.com/u/cryptape",
+    "votes": "3",
+    "rank": 11
+  },
+  {
+    "title": "区块链实现信任自动化",
+    "description": "在前两期秘猿科技区块链小课堂中，我们理解了什么是区块链，以及区块链的发展史。那么，区块链能够为我们带来什么呢？秘猿科技 CEO 谢晗剑分享了对区块链技术带来现实意义的理解，请注意文章中公有许可链的想法在...",
+    "url": "https://segmentfault.com/a/1190000019382625",
+    "author": "秘猿科技",
+    "home_url": "https://segmentfault.com/u/cryptape",
+    "votes": "2",
+    "rank": 12
   },
   {
     "title": "详解vue组件三大核心概念",
@@ -77,35 +113,8 @@
     "url": "https://segmentfault.com/a/1190000019335341",
     "author": "浪里行舟",
     "home_url": "https://segmentfault.com/u/langlixingzhou",
-    "votes": "73",
-    "rank": 9
-  },
-  {
-    "title": "借助CSS来管理js事件",
-    "description": "CSS是一门很神奇的语言，很多和它不相干的功能却能起到很显著的效果，有些在js看起来实现都有一定的工作量，CSS一句属性就能轻而易举的解决，下面来看几个例子（主要和js事件相关）。",
-    "url": "https://segmentfault.com/a/1190000019342789",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "26",
-    "rank": 10
-  },
-  {
-    "title": "2019-我的前端面试题",
-    "description": "2019的5月9号，离发工资还有1天的时候，我的领导亲切把我叫到办公室跟我说：'阿郭，我们公司要倒闭了，钱是没有的啦，为了不耽误你，你赶紧出去找工作吧'。听到这话，我虎躯一震，这已经是第2个月没工资了。",
-    "url": "https://segmentfault.com/a/1190000019348191",
-    "author": "郭邯",
-    "home_url": "https://segmentfault.com/u/qiangdada",
-    "votes": "59",
-    "rank": 11
-  },
-  {
-    "title": "你不知道的 JSON.stringfy",
-    "description": "JSON.stringfy()是将一个 JavaScript 对象转化为 JSON 格式字符串的标准方式。许多 JavaScript 框架在其内部，都会使用 JSON.stringify()：Express的 res.json()、Axios的 post，以及webpack stats，它们都调用了...",
-    "url": "https://segmentfault.com/a/1190000019356541",
-    "author": "littleLyon",
-    "home_url": "https://segmentfault.com/u/littlelyon",
-    "votes": "27",
-    "rank": 12
+    "votes": "82",
+    "rank": 13
   },
   {
     "title": "MySQL 索引的原理与应用：索引类型，存储结构与锁",
@@ -113,8 +122,44 @@
     "url": "https://segmentfault.com/a/1190000019366328",
     "author": "王下邀月熊_Chevalier",
     "home_url": "https://segmentfault.com/u/wx_chevalier",
-    "votes": "17",
-    "rank": 13
+    "votes": "29",
+    "rank": 14
+  },
+  {
+    "title": "六种组织CSS的方式",
+    "description": "Ben Frain曾经说过，写css代码很容易，但是扩展和维护却很难。本文就介绍了一套方案来解决这个问题。",
+    "url": "https://segmentfault.com/a/1190000019368091",
+    "author": "果冻",
+    "home_url": "https://segmentfault.com/u/guodong_589c0897bd203",
+    "votes": "20",
+    "rank": 15
+  },
+  {
+    "title": "2019-我的前端面试题",
+    "description": "2019的5月9号，离发工资还有1天的时候，我的领导亲切把我叫到办公室跟我说：'阿郭，我们公司要倒闭了，钱是没有的啦，为了不耽误你，你赶紧出去找工作吧'。听到这话，我虎躯一震，这已经是第2个月没工资了。",
+    "url": "https://segmentfault.com/a/1190000019348191",
+    "author": "郭邯",
+    "home_url": "https://segmentfault.com/u/qiangdada",
+    "votes": "67",
+    "rank": 16
+  },
+  {
+    "title": "Git 自救指南",
+    "description": "Git 虽然因其分布式管理方式，不完全依赖网络，良好的分支策略，容易部署等优点，已经成为最受欢迎的源代码管理方式。但是一分耕耘一分收获，如果想更好地掌握 git，需要付出大量的学习成本。即使在各种 GUI 的加...",
+    "url": "https://segmentfault.com/a/1190000019373841",
+    "author": "CODING",
+    "home_url": "https://segmentfault.com/u/codingnet",
+    "votes": "14",
+    "rank": 17
+  },
+  {
+    "title": "借助CSS来管理js事件",
+    "description": "CSS是一门很神奇的语言，很多和它不相干的功能却能起到很显著的效果，有些在js看起来实现都有一定的工作量，CSS一句属性就能轻而易举的解决，下面来看几个例子（主要和js事件相关）。",
+    "url": "https://segmentfault.com/a/1190000019342789",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "29",
+    "rank": 18
   },
   {
     "title": "你要的 React 面试知识点，都在这了",
@@ -122,8 +167,8 @@
     "url": "https://segmentfault.com/a/1190000019339210",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "65",
-    "rank": 14
+    "votes": "67",
+    "rank": 19
   },
   {
     "title": "面试必备！webpack 中那些最易混淆的 5 个知识点",
@@ -132,25 +177,25 @@
     "author": "卤代烃",
     "home_url": "https://segmentfault.com/u/skychx",
     "votes": "68",
-    "rank": 15
+    "rank": 20
   },
   {
-    "title": "精读《What's new in javascript》",
-    "description": "2019 年 Google I/O 介绍了一些激动人心的 JS 新特性，这些特性有些已经被主流浏览器实现，并支持 polyfill，有些还在草案阶段。",
-    "url": "https://segmentfault.com/a/1190000019368245",
-    "author": "黄子毅",
-    "home_url": "https://segmentfault.com/u/aoyangyudakong",
-    "votes": "8",
-    "rank": 16
+    "title": "你不知道的 JSON.stringfy",
+    "description": "JSON.stringfy()是将一个 JavaScript 对象转化为 JSON 格式字符串的标准方式。许多 JavaScript 框架在其内部，都会使用 JSON.stringify()：Express的 res.json()、Axios的 post，以及webpack stats，它们都调用了...",
+    "url": "https://segmentfault.com/a/1190000019356541",
+    "author": "littleLyon",
+    "home_url": "https://segmentfault.com/u/littlelyon",
+    "votes": "31",
+    "rank": 21
   },
   {
-    "title": "Swoole  Redis 连接池的实现",
-    "description": "概述 这是关于 Swoole 入门学习的第九篇文章：Swoole Redis 连接池的实现。 第八篇：Swoole MySQL 的实现 第七篇：Swoole RPC 的实现 第六篇：Swoole 整合成一个小框架 第五篇：Swoole 多协议 多端口 的应用 第四...",
-    "url": "https://segmentfault.com/a/1190000019371279",
-    "author": "新亮",
-    "home_url": "https://segmentfault.com/u/xinliangcoder",
-    "votes": "2",
-    "rank": 17
+    "title": "【Step-By-Step】一周面试题深入解析 / 周刊02",
+    "description": "Step-By-Step (点击进入项目) 是我于 2019-05-20 开始的一个项目，每个工作日发布一道面试题。每个周末我会仔细阅读大家的答案，整理最一份较优答案出来，因本人水平有限，有误的地方，大家及时指正。 如果想 加...",
+    "url": "https://segmentfault.com/a/1190000019368782",
+    "author": "刘小夕",
+    "home_url": "https://segmentfault.com/u/liuyan666",
+    "votes": "16",
+    "rank": 22
   },
   {
     "title": "Docker快速搭建一套PHP、Nginx、MySQL、Redis、Xdebug、Memcached 开发环境并演进",
@@ -158,8 +203,8 @@
     "url": "https://segmentfault.com/a/1190000019361535",
     "author": "小白要生发",
     "home_url": "https://segmentfault.com/u/xiaobaiyaoshengfa",
-    "votes": "24",
-    "rank": 18
+    "votes": "25",
+    "rank": 23
   },
   {
     "title": "从一道前端面试题谈起",
@@ -167,8 +212,17 @@
     "url": "https://segmentfault.com/a/1190000019358248",
     "author": "张京",
     "home_url": "https://segmentfault.com/u/fengerzh",
-    "votes": "26",
-    "rank": 19
+    "votes": "30",
+    "rank": 24
+  },
+  {
+    "title": "vue-router工作原理概述和问题分析",
+    "description": "root vue实例上定义了一个响应式属性 Vue.util.defineReactive(this, '_route', this._router.history.current)",
+    "url": "https://segmentfault.com/a/1190000019386190",
+    "author": "littlelightss",
+    "home_url": "https://segmentfault.com/u/littlelightss",
+    "votes": "1",
+    "rank": 25
   },
   {
     "title": "数据结构与算法之美 - 时间和空间复杂度",
@@ -176,61 +230,7 @@
     "url": "https://segmentfault.com/a/1190000019363984",
     "author": "夜尽天明",
     "home_url": "https://segmentfault.com/u/biaochenxuying",
-    "votes": "13",
-    "rank": 20
-  },
-  {
-    "title": "【拒绝拖延】常见的JavaScript内存泄露原因及解决方案",
-    "description": "内存泄漏指由于疏忽或错误造成程序未能释放已经不再使用的内存。内存泄漏并非指内存在物理上的消失，而是应用程序分配某段内存后，由于设计错误，导致在释放该段内存之前就失去了对该段内存的控制，从而造成了内...",
-    "url": "https://segmentfault.com/a/1190000019366867",
-    "author": "拾贰",
-    "home_url": "https://segmentfault.com/u/jsay",
-    "votes": "9",
-    "rank": 21
-  },
-  {
-    "title": "曹春晖：谈一谈 Go 和 Syscall",
-    "description": "前言：syscall 是语言与系统交互的唯一手段，理解 Go 语言中的 syscall，本文可以帮助读者理解 Go 语言怎么与系统打交道，同时了解底层 runtime 在 syscall 优化方面的一些小心思，从而更为深入地理解 Go 语言。",
-    "url": "https://segmentfault.com/a/1190000019375999",
-    "author": "滴滴技术",
-    "home_url": "https://segmentfault.com/u/didijishu",
-    "votes": "1",
-    "rank": 22
-  },
-  {
-    "title": "从开源小白到 Apache Member，我的成长之路",
-    "description": "近日，Apache 软件基金会（ASF）官方 Blog 宣布全球新增 40 位 Apache Member，张乎兴有幸成为其中一位。",
-    "url": "https://segmentfault.com/a/1190000019369627",
-    "author": "阿里云云栖社区",
-    "home_url": "https://segmentfault.com/u/yunqishequ_5aa899aad5395",
-    "votes": "3",
-    "rank": 23
-  },
-  {
-    "title": "使用Rust和Elixir\b实现高效的下发好友列表",
-    "description": "我们进行的一个大项目是改变我们更新公会成员列表的方式（屏幕右侧的那些漂亮的头像）。我们可以直接发送会员列表中可见部分的更新(分页)，而不是为会员列表中的每个人都发送更新。这样做的好处很明显，例如网络...",
-    "url": "https://segmentfault.com/a/1190000019360263",
-    "author": "誉儿",
-    "home_url": "https://segmentfault.com/u/yuer_daily",
-    "votes": "9",
-    "rank": 24
-  },
-  {
-    "title": "10个有趣的javascript和css库（2019年5月最新）",
-    "description": "我们的使命是让您了解最新和最酷的Web开发趋势。这就是为什么我们每个月都会发布一些精选的资源，这些资源是我们偶然发现并认为值得您关注的。",
-    "url": "https://segmentfault.com/a/1190000019352238",
-    "author": "果冻",
-    "home_url": "https://segmentfault.com/u/guodong_589c0897bd203",
-    "votes": "36",
-    "rank": 25
-  },
-  {
-    "title": "滴滴开源 DroidAssist : 轻量级 Android 字节码编辑插件",
-    "description": "前言：近日，滴滴发布的开源项目 DroidAssist ，提供了一种简单易用、无侵入、配置化、轻量级的 Java 字节码操作方式，只需要在 XML 配置中添加简单的 Java 代码即可实现编译期对 Class 文件的动态修改。",
-    "url": "https://segmentfault.com/a/1190000019374170",
-    "author": "滴滴技术",
-    "home_url": "https://segmentfault.com/u/didijishu",
-    "votes": "1",
+    "votes": "15",
     "rank": 26
   },
   {
@@ -243,30 +243,21 @@
     "rank": 27
   },
   {
-    "title": "前端培训-初级阶段-场景实战（2019-06-06）-Content-Type对照表及日常使用",
-    "description": "前端最基础的就是 HTML+CSS+Javascript。掌握了这三门技术就算入门，但也仅仅是入门，现在前端开发的定义已经远远不止这些。前端小课堂（HTML/CSS/JS），本着提升技术水平，打牢基础知识的中心思想，我们开课啦（...",
-    "url": "https://segmentfault.com/a/1190000019371484",
-    "author": "linong",
-    "home_url": "https://segmentfault.com/u/linong",
-    "votes": "2",
+    "title": "【拒绝拖延】常见的JavaScript内存泄露原因及解决方案",
+    "description": "内存泄漏指由于疏忽或错误造成程序未能释放已经不再使用的内存。内存泄漏并非指内存在物理上的消失，而是应用程序分配某段内存后，由于设计错误，导致在释放该段内存之前就失去了对该段内存的控制，从而造成了内...",
+    "url": "https://segmentfault.com/a/1190000019366867",
+    "author": "拾贰",
+    "home_url": "https://segmentfault.com/u/jsay",
+    "votes": "10",
     "rank": 28
   },
   {
-    "title": "为什么要用Node.js",
-    "description": "JavaScript 的日益发展带来了很多变化，当今的 Web 开发面貌已经变得截然不同。在几年前是很难想象在服务器上运行 JavaScript 的。",
-    "url": "https://segmentfault.com/a/1190000019320503",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "38",
+    "title": "10个有趣的javascript和css库（2019年5月最新）",
+    "description": "我们的使命是让您了解最新和最酷的Web开发趋势。这就是为什么我们每个月都会发布一些精选的资源，这些资源是我们偶然发现并认为值得您关注的。",
+    "url": "https://segmentfault.com/a/1190000019352238",
+    "author": "果冻",
+    "home_url": "https://segmentfault.com/u/guodong_589c0897bd203",
+    "votes": "37",
     "rank": 29
-  },
-  {
-    "title": "MySQL分页优化实验与总结",
-    "description": "本次实验使用的数据是mysql官方提供的employee数据库，mysql官方提供了一些测试数据库，可以在这里找到[链接]。",
-    "url": "https://segmentfault.com/a/1190000019371155",
-    "author": "Darkgel",
-    "home_url": "https://segmentfault.com/u/darkgel",
-    "votes": "2",
-    "rank": 30
   }
 ]
