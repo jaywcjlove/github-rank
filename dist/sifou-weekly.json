@@ -1,11 +1,11 @@
 [
   {
-    "title": "阿里巴巴前端暑期实习面经",
-    "description": "先说一下为什么要去面试，因为之前跟学长吃饭的时候聊起来，大三这时候找一个暑期实习是个好机会，并且我在学校拿的奖也都围绕着前端来的。作为一个想知道自己处于什么水平的人来说，肯定要投大厂了，于是选择了...",
-    "url": "https://segmentfault.com/a/1190000019406592",
-    "author": "SangSir",
-    "home_url": "https://segmentfault.com/u/sangsir",
-    "votes": "15",
+    "title": "Vue 实现前进刷新，后退不刷新的效果",
+    "description": "在一个列表页中，第一次进入的时候，请求获取数据。点击某个列表项，跳到详情页，再从详情页后退回到列表页时，不刷新。也就是说从其他页面进到列表页，需要刷新获取数据，从详情页返回到列表页时不要刷新。",
+    "url": "https://segmentfault.com/a/1190000019414890",
+    "author": "woai3c",
+    "home_url": "https://segmentfault.com/u/woai3c",
+    "votes": "10",
     "rank": 1
   },
   {
@@ -14,8 +14,17 @@
     "url": "https://segmentfault.com/a/1190000019360335",
     "author": "hncg",
     "home_url": "https://segmentfault.com/u/hncg",
-    "votes": "210",
+    "votes": "214",
     "rank": 2
+  },
+  {
+    "title": "vue+node+mysql撸一个带权限的后台管理系统",
+    "description": "mvvm-rbac是一个简易的带权限的后台管理系统。它基于vue、egg、mysql(sequlize)实现，旨在用最少代码理解实现常见的业务功能，所以并没有使用ui库，页面并不是很漂亮。麻雀虽小，但是五脏俱全。该项目如果有什么...",
+    "url": "https://segmentfault.com/a/1190000019414876",
+    "author": "渣渣辉",
+    "home_url": "https://segmentfault.com/u/linxi_59223381a31e3",
+    "votes": "8",
+    "rank": 3
   },
   {
     "title": "前端答疑-chrome开发者工具正确食用-看网页源码",
@@ -23,16 +32,7 @@
     "url": "https://segmentfault.com/a/1190000019407019",
     "author": "linong",
     "home_url": "https://segmentfault.com/u/linong",
-    "votes": "10",
-    "rank": 3
-  },
-  {
-    "title": "还可以这么玩？超实用 Typescript 内置类型与自定义类型",
-    "description": "有时候我们也需要表格对应的搜索表单，需要其中一两个搜索项，如果刚接触 typescript 的同学可能会立刻这样写：",
-    "url": "https://segmentfault.com/a/1190000019402237",
-    "author": "微雨微语",
-    "home_url": "https://segmentfault.com/u/weiyuweiyu",
-    "votes": "21",
+    "votes": "24",
     "rank": 4
   },
   {
@@ -41,8 +41,26 @@
     "url": "https://segmentfault.com/a/1190000019391369",
     "author": "韩天峰",
     "home_url": "https://segmentfault.com/u/hantianfeng",
-    "votes": "49",
+    "votes": "52",
     "rank": 5
+  },
+  {
+    "title": "还可以这么玩？超实用 Typescript 内置类型与自定义类型",
+    "description": "有时候我们也需要表格对应的搜索表单，需要其中一两个搜索项，如果刚接触 typescript 的同学可能会立刻这样写：",
+    "url": "https://segmentfault.com/a/1190000019402237",
+    "author": "微雨微语",
+    "home_url": "https://segmentfault.com/u/weiyuweiyu",
+    "votes": "27",
+    "rank": 6
+  },
+  {
+    "title": "PWA入门：手把手教你制作一个PWA应用",
+    "description": "Web前端的同学是否想过学习app开发，以弥补自己移动端能力的不足？但在面对一众的选择时很多同学略感迷茫，是学习ios还是android开发？是学习原生开发、混合开发（比如：Ionic)，还是使用react native或者flutter...",
+    "url": "https://segmentfault.com/a/1190000019414253",
+    "author": "MudOnTire",
+    "home_url": "https://segmentfault.com/u/mudontire",
+    "votes": "11",
+    "rank": 7
   },
   {
     "title": "通过动图学习 CSS Flex",
@@ -50,17 +68,8 @@
     "url": "https://segmentfault.com/a/1190000019387626",
     "author": "疯狂的技术宅",
     "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "35",
-    "rank": 6
-  },
-  {
-    "title": "JavaScript 系列--JavaScript一些奇淫技巧的实现方法（二）数字格式化；类数组转数组",
-    "description": "之前写了一篇文章：JavaScript 系列--JavaScript一些奇淫技巧的实现方法（一）简短的sleep函数，获取时间戳",
-    "url": "https://segmentfault.com/a/1190000019409746",
-    "author": "saucxs",
-    "home_url": "https://segmentfault.com/u/saucxs",
-    "votes": "5",
-    "rank": 7
+    "votes": "41",
+    "rank": 8
   },
   {
     "title": "从零开发一个node命令行工具",
@@ -68,17 +77,44 @@
     "url": "https://segmentfault.com/a/1190000019396484",
     "author": "TNFE",
     "home_url": "https://segmentfault.com/u/tnfe",
-    "votes": "16",
-    "rank": 8
+    "votes": "25",
+    "rank": 9
   },
   {
-    "title": "如何反转CSS中的贝塞尔曲线",
-    "description": "首先来看一看我之前写的一个CSS轮播动画效果，为了让切换时动画的过渡更加的平滑我在animation-timing-function属性中并没有使用CSS提供的各种关键词，而使用了cubic-bezier（贝塞尔）函数。",
-    "url": "https://segmentfault.com/a/1190000019405831",
-    "author": "果冻",
-    "home_url": "https://segmentfault.com/u/guodong_589c0897bd203",
-    "votes": "8",
-    "rank": 9
+    "title": "浅析 JS 事件循环之 Microtask 和 Macrotask",
+    "description": "我们在上一篇 《浅析 JS 中的EventLoop 事件循环》 中提到一个 Event Queue，其实在事件循环中 queue 一共有两种，还有一种叫 Job Queue",
+    "url": "https://segmentfault.com/a/1190000019415672",
+    "author": "savokiss",
+    "home_url": "https://segmentfault.com/u/savokiss",
+    "votes": "5",
+    "rank": 10
+  },
+  {
+    "title": "JavaScript 系列--JavaScript一些奇淫技巧的实现方法（二）数字格式化；类数组转数组",
+    "description": "之前写了一篇文章：JavaScript 系列--JavaScript一些奇淫技巧的实现方法（一）简短的sleep函数，获取时间戳",
+    "url": "https://segmentfault.com/a/1190000019409746",
+    "author": "saucxs",
+    "home_url": "https://segmentfault.com/u/saucxs",
+    "votes": "16",
+    "rank": 11
+  },
+  {
+    "title": "如何在 JS 循环中正确使用 async 与 await",
+    "description": "async 与 await 的使用方式相对简单。 蛤当你尝试在循环中使用await时，事情就会变得复杂一些。",
+    "url": "https://segmentfault.com/a/1190000019357943",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "40",
+    "rank": 12
+  },
+  {
+    "title": "阿里巴巴前端暑期实习面经",
+    "description": "先说一下为什么要去面试，因为之前跟学长吃饭的时候聊起来，大三这时候找一个暑期实习是个好机会，并且我在学校拿的奖也都围绕着前端来的。作为一个想知道自己处于什么水平的人来说，肯定要投大厂了，于是选择了...",
+    "url": "https://segmentfault.com/a/1190000019406592",
+    "author": "SangSir",
+    "home_url": "https://segmentfault.com/u/sangsir",
+    "votes": "15",
+    "rank": 13
   },
   {
     "title": "PHP下用Swoole实现Actor并发模型",
@@ -87,43 +123,16 @@
     "author": "如果的如果",
     "home_url": "https://segmentfault.com/u/ruguoderuguo",
     "votes": "48",
-    "rank": 10
-  },
-  {
-    "title": "前端bug录-移动端下载图片",
-    "description": "前天，快下班的时候，一朋友发来一个战绩图。这是要约我上分？（这兄弟一手 C 位吊打亲友）。我果断拒绝三连。结果，小韭菜问我，右边那个图怎么做？那好了，事情从这里开始",
-    "url": "https://segmentfault.com/a/1190000019403486",
-    "author": "linong",
-    "home_url": "https://segmentfault.com/u/linong",
-    "votes": "12",
-    "rank": 11
-  },
-  {
-    "title": "2019-我的前端面试题",
-    "description": "2019的5月9号，离发工资还有1天的时候，我的领导亲切把我叫到办公室跟我说：'阿郭，我们公司要倒闭了，钱是没有的啦，为了不耽误你，你赶紧出去找工作吧'。听到这话，我虎躯一震，这已经是第2个月没工资了。",
-    "url": "https://segmentfault.com/a/1190000019348191",
-    "author": "郭邯",
-    "home_url": "https://segmentfault.com/u/qiangdada",
-    "votes": "79",
-    "rank": 12
-  },
-  {
-    "title": "如何在 JS 循环中正确使用 async 与 await",
-    "description": "async 与 await 的使用方式相对简单。 蛤当你尝试在循环中使用await时，事情就会变得复杂一些。",
-    "url": "https://segmentfault.com/a/1190000019357943",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "34",
-    "rank": 13
-  },
-  {
-    "title": "js 函数参数推荐书写方式 ({ param1, param2, ... })",
-    "description": "一般编程语言都是按序取值，比如 C、Java、JavaScript 等，少数语言支持按名取值，比如 Groovy。",
-    "url": "https://segmentfault.com/a/1190000019409066",
-    "author": "senntyou",
-    "home_url": "https://segmentfault.com/u/senntyou",
-    "votes": "2",
     "rank": 14
+  },
+  {
+    "title": "如何反转CSS中的贝塞尔曲线",
+    "description": "首先来看一看我之前写的一个CSS轮播动画效果，为了让切换时动画的过渡更加的平滑我在animation-timing-function属性中并没有使用CSS提供的各种关键词，而使用了cubic-bezier（贝塞尔）函数。",
+    "url": "https://segmentfault.com/a/1190000019405831",
+    "author": "果冻",
+    "home_url": "https://segmentfault.com/u/guodong_589c0897bd203",
+    "votes": "12",
+    "rank": 15
   },
   {
     "title": "使用React、Electron、Dva、Webpack、Node.js、Websocket快速构建跨平台应用",
@@ -131,8 +140,17 @@
     "url": "https://segmentfault.com/a/1190000019367175",
     "author": "Jerry谭金杰",
     "home_url": "https://segmentfault.com/u/jerrytanjinjie",
-    "votes": "80",
-    "rank": 15
+    "votes": "82",
+    "rank": 16
+  },
+  {
+    "title": "如何在Electron中调用Dll",
+    "description": "客户端有些硬件的接口需要调试，是在电脑上连了一些硬件的设备，比如打印机、扫描仪或者进行串口通信等等。单靠JS是完成不了了，我们决定通过把C++或者C#把这些功能打包成Dll，然后在Electron客户端中通过Node调...",
+    "url": "https://segmentfault.com/a/1190000019402908",
+    "author": "我来自伯纳乌",
+    "home_url": "https://segmentfault.com/u/gaoxuan",
+    "votes": "4",
+    "rank": 17
   },
   {
     "title": "如何提升JSON.stringify()的性能？",
@@ -140,8 +158,26 @@
     "url": "https://segmentfault.com/a/1190000019400854",
     "author": "alienzhou",
     "home_url": "https://segmentfault.com/u/alienzhou",
-    "votes": "19",
-    "rank": 16
+    "votes": "22",
+    "rank": 18
+  },
+  {
+    "title": "MySQL主从数据库同步延迟问题解决",
+    "description": "MySQL的主从同步是一个很成熟的架构，优点为：①在从服务器可以执行查询工作(即我们常说的读功能)，降低主服务器压力;②在从主服务器进行备份，避免备份期间影响主服务器服务;③当主服务器出现问题时，可以切换到从...",
+    "url": "https://segmentfault.com/a/1190000019411539",
+    "author": "leo_su",
+    "home_url": "https://segmentfault.com/u/leo_su",
+    "votes": "6",
+    "rank": 19
+  },
+  {
+    "title": "前端bug录-移动端下载图片",
+    "description": "前天，快下班的时候，一朋友发来一个战绩图。这是要约我上分？（这兄弟一手 C 位吊打亲友）。我果断拒绝三连。结果，小韭菜问我，右边那个图怎么做？那好了，事情从这里开始",
+    "url": "https://segmentfault.com/a/1190000019403486",
+    "author": "linong",
+    "home_url": "https://segmentfault.com/u/linong",
+    "votes": "14",
+    "rank": 20
   },
   {
     "title": "Docker快速搭建一套PHP、Nginx、MySQL、Redis、Xdebug、Memcached 开发环境并演进",
@@ -149,8 +185,35 @@
     "url": "https://segmentfault.com/a/1190000019361535",
     "author": "小白要生发",
     "home_url": "https://segmentfault.com/u/xiaobaiyaoshengfa",
-    "votes": "34",
-    "rank": 17
+    "votes": "37",
+    "rank": 21
+  },
+  {
+    "title": "掌握 Javascript 类型转换：从规则开始",
+    "description": "Javascript 里的类型转换是一个你永远绕不开的话题，不管你是在面试中还是工作写代码，总会碰到这类问题和各种的坑，所以不学好这个那是不行滴。关于类型转换我也看过不少的书和各种博客、帖子，也查过规范和做过...",
+    "url": "https://segmentfault.com/a/1190000019400583",
+    "author": "deepfunc",
+    "home_url": "https://segmentfault.com/u/deepfunc",
+    "votes": "5",
+    "rank": 22
+  },
+  {
+    "title": "js 函数参数推荐书写方式 ({ param1, param2, ... })",
+    "description": "一般编程语言都是按序取值，比如 C、Java、JavaScript 等，少数语言支持按名取值，比如 Groovy。",
+    "url": "https://segmentfault.com/a/1190000019409066",
+    "author": "senntyou",
+    "home_url": "https://segmentfault.com/u/senntyou",
+    "votes": "5",
+    "rank": 23
+  },
+  {
+    "title": "MySQL 索引的原理与应用：索引类型，存储结构与锁",
+    "description": "在数据结构与算法--索引 https://url.wx-coder.cn/O07eI 一节中，我们讨论了 B+Tree, LSM-Tree 这样的文件索引以及全文索引的基础算法，本文则会针对文件索引在关系型数据库中的实际应用进行探讨。",
+    "url": "https://segmentfault.com/a/1190000019366328",
+    "author": "王下邀月熊_Chevalier",
+    "home_url": "https://segmentfault.com/u/wx_chevalier",
+    "votes": "51",
+    "rank": 24
   },
   {
     "title": "Swoole4.x探究之多进程TCP协程服务实现",
@@ -158,8 +221,17 @@
     "url": "https://segmentfault.com/a/1190000019395362",
     "author": "如果的如果",
     "home_url": "https://segmentfault.com/u/ruguoderuguo",
-    "votes": "26",
-    "rank": 18
+    "votes": "27",
+    "rank": 25
+  },
+  {
+    "title": "8 个你不知道的 DOM 功能",
+    "description": "最近关注了太多的工具，现在最好从所有 React 和 npm-install-everything 的文章中休息一下，来看看一些纯粹的 DOM 和 Web API 功能，它们可以在不依赖任何第三方库的前提下在现代浏览器中运行。",
+    "url": "https://segmentfault.com/a/1190000019364550",
+    "author": "疯狂的技术宅",
+    "home_url": "https://segmentfault.com/u/evilboy",
+    "votes": "48",
+    "rank": 26
   },
   {
     "title": "有趣的交互系列 - 文字遮罩入场效果",
@@ -168,61 +240,7 @@
     "author": "an_l",
     "home_url": "https://segmentfault.com/u/memo_memo",
     "votes": "35",
-    "rank": 19
-  },
-  {
-    "title": "MySQL 索引的原理与应用：索引类型，存储结构与锁",
-    "description": "在数据结构与算法--索引 https://url.wx-coder.cn/O07eI 一节中，我们讨论了 B+Tree, LSM-Tree 这样的文件索引以及全文索引的基础算法，本文则会针对文件索引在关系型数据库中的实际应用进行探讨。",
-    "url": "https://segmentfault.com/a/1190000019366328",
-    "author": "王下邀月熊_Chevalier",
-    "home_url": "https://segmentfault.com/u/wx_chevalier",
-    "votes": "48",
-    "rank": 20
-  },
-  {
-    "title": "掌握 Javascript 类型转换：从规则开始",
-    "description": "Javascript 里的类型转换是一个你永远绕不开的话题，不管你是在面试中还是工作写代码，总会碰到这类问题和各种的坑，所以不学好这个那是不行滴。关于类型转换我也看过不少的书和各种博客、帖子，也查过规范和做过...",
-    "url": "https://segmentfault.com/a/1190000019400583",
-    "author": "deepfunc",
-    "home_url": "https://segmentfault.com/u/deepfunc",
-    "votes": "3",
-    "rank": 21
-  },
-  {
-    "title": "在 React 16 中从 setState 返回 null 的妙用",
-    "description": "在 React 16 中为了防止不必要的 DOM 更新，允许你决定是否让 .setState 更来新状态。在调用 .setState 时返回 null 将不再触发更新。",
-    "url": "https://segmentfault.com/a/1190000019400735",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "4",
-    "rank": 22
-  },
-  {
-    "title": "QQ音乐API koa2实现 - 全接口实现",
-    "description": "QQ音乐API koa2 版本, 通过Web网页版请求QQ音乐接口数据, 有问题请提 issue, 或者你有其他想法欢迎PR.",
-    "url": "https://segmentfault.com/a/1190000019388800",
-    "author": "RainyCG",
-    "home_url": "https://segmentfault.com/u/rainycg",
-    "votes": "22",
-    "rank": 23
-  },
-  {
-    "title": "区块链对时间、空间、能量的答案",
-    "description": "为了让大家能够更深入的理解区块链，接下来的秘猿小课堂里将会从四个方面切入。第一个方面是区块链对一些基本问题的答案。其中包括对时间的答案，对空间的答案以及对能量的答案。",
-    "url": "https://segmentfault.com/a/1190000019384808",
-    "author": "秘猿科技",
-    "home_url": "https://segmentfault.com/u/cryptape",
-    "votes": "42",
-    "rank": 24
-  },
-  {
-    "title": "vue面试必备知识点",
-    "description": "MVVM 是 Model-View-ViewModel 的缩写Model：代表数据模型，也可以在Model中定义数据修改和操作的业务逻辑。我们可以把Model称为数据层，因为它仅仅关注数据本身，不关心任何行为View：用户操作界面。当ViewModel...",
-    "url": "https://segmentfault.com/a/1190000019384765",
-    "author": "jone_chen",
-    "home_url": "https://segmentfault.com/u/jone_chen",
-    "votes": "29",
-    "rank": 25
+    "rank": 27
   },
   {
     "title": "<link>标签的几个用法，帮助提高页面性能",
@@ -230,34 +248,16 @@
     "url": "https://segmentfault.com/a/1190000019377122",
     "author": "CoyPan",
     "home_url": "https://segmentfault.com/u/coypan",
-    "votes": "32",
-    "rank": 26
-  },
-  {
-    "title": "8 个你不知道的 DOM 功能",
-    "description": "最近关注了太多的工具，现在最好从所有 React 和 npm-install-everything 的文章中休息一下，来看看一些纯粹的 DOM 和 Web API 功能，它们可以在不依赖任何第三方库的前提下在现代浏览器中运行。",
-    "url": "https://segmentfault.com/a/1190000019364550",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "45",
-    "rank": 27
-  },
-  {
-    "title": "面试题：MySQL是如何执行一条SQL的？",
-    "description": "作为一个开发者，你写了那么多增删改查相关的SQL，你理解MySQL内部执行该条SQL的机制吗？当面试官问到你可以简单说说MySQL从执行一条SQL语句开始是如何经历每一步的吗？这时你会怎么回答？",
-    "url": "https://segmentfault.com/a/1190000019387911",
-    "author": "琉忆",
-    "home_url": "https://segmentfault.com/u/leoyi",
-    "votes": "21",
+    "votes": "33",
     "rank": 28
   },
   {
-    "title": "PHP技术栈",
-    "description": "本文旨在给要学习 PHP 的新手一个大概的认知轮廓，在心里有个学习的结构，有的放矢，避免走太多弯路。大神请忽略。",
-    "url": "https://segmentfault.com/a/1190000019378466",
-    "author": "飞鸿影",
-    "home_url": "https://segmentfault.com/u/yujc",
-    "votes": "29",
+    "title": "在 React 16 中从 setState 返回 null 的妙用",
+    "description": "在 React 16 中为了防止不必要的 DOM 更新，允许你决定是否让 .setState 更来新状态。在调用 .setState 时返回 null 将不再触发更新。",
+    "url": "https://segmentfault.com/a/1190000019400735",
+    "author": "疯狂的技术宅",
+    "home_url": "https://segmentfault.com/u/evilboy",
+    "votes": "6",
     "rank": 29
   }
 ]
