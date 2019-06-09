@@ -1,12 +1,48 @@
 [
   {
+    "title": "JavaScript混淆安全加固",
+    "description": "在安全攻防战场中，前端代码都是公开的，那么对前端进行加密有意义吗？可能大部分人的回答是，毫无意义，不要自创加密算法，直接用HTTPS吧。但事实上，即使不了解密码学，也应知道是有意义的，因为加密前和解密后...",
+    "url": "https://segmentfault.com/a/1190000019423501",
+    "author": "_杨溜溜",
+    "home_url": "https://segmentfault.com/u/_yangliuliu",
+    "votes": "3",
+    "rank": 1
+  },
+  {
+    "title": "ES6 —项目综合实战（完结篇）",
+    "description": "最好的学习方法就是实践，所以这节课结合实际项目，来更好的理解和掌握ES6的用途和使用场景，达到灵活运用的目的。",
+    "url": "https://segmentfault.com/a/1190000019423357",
+    "author": "前端大彬哥",
+    "home_url": "https://segmentfault.com/u/dabinge666",
+    "votes": "3",
+    "rank": 2
+  },
+  {
+    "title": "当我们在谈开源协议的时候我们在谈什么？－　开源软件是否可以卖钱",
+    "description": "这是乌克兰程序员Paul Bagwell，画的一张分析图，介绍最流行的六种开源许可证----GPL、BSD、MIT、Mozilla、Apache和LGPL。",
+    "url": "https://segmentfault.com/a/1190000019424069",
+    "author": "yangrd",
+    "home_url": "https://segmentfault.com/u/yangrd",
+    "votes": "3",
+    "rank": 3
+  },
+  {
+    "title": "Android刘海屏、水滴屏全面屏适配",
+    "description": "现在，市面上的屏幕尺寸和全面屏方案五花八门。这里我使用了小米的图来说明：上述两种屏幕都可以统称为刘海屏，不过对于右侧较小的刘海，业界一般称为水滴屏或美人尖。为便于说明，后文提到的「刘海屏」「刘海区...",
+    "url": "https://segmentfault.com/a/1190000019422753",
+    "author": "xiangzhihong",
+    "home_url": "https://segmentfault.com/u/xiangzhihong",
+    "votes": "2",
+    "rank": 4
+  },
+  {
     "title": "Vue+Node+高德地图+Echart做一款出行可视化全栈webapp",
     "description": "咔咔出行（出行可视化） 项目简介 解决出行问题，用于出行行程记录，路线规划，数据可视化分析的移动端webapp 点击这里查看该项目 项目截图 私人出行公共交通历史列表我的信息 技术栈 前端：移动端，vue全家桶，M...",
     "url": "https://segmentfault.com/a/1190000019419885",
     "author": "小健",
     "home_url": "https://segmentfault.com/u/wangwenjian1995",
-    "votes": "1",
-    "rank": 1
+    "votes": "16",
+    "rank": 5
   },
   {
     "title": "Vue 实现前进刷新，后退不刷新的效果",
@@ -14,17 +50,8 @@
     "url": "https://segmentfault.com/a/1190000019414890",
     "author": "woai3c",
     "home_url": "https://segmentfault.com/u/woai3c",
-    "votes": "16",
-    "rank": 2
-  },
-  {
-    "title": "python开发植物大战僵尸游戏",
-    "description": "开发思路 完整项目地址：[链接] 觉得还OK的话，点下Star,作者不易，thank you！ 1.引入需要的模块，配置图片路径，设置界面宽高背景颜色，创建游戏主入口。 {代码...} 2.文本绘制，创建要动态改变的属性，渲染的...",
-    "url": "https://segmentfault.com/a/1190000019418065",
-    "author": "楷楷",
-    "home_url": "https://segmentfault.com/u/kaikai_5a484b1131e4c",
-    "votes": "4",
-    "rank": 3
+    "votes": "18",
+    "rank": 6
   },
   {
     "title": "前端答疑-chrome开发者工具正确食用-看网页源码",
@@ -32,8 +59,8 @@
     "url": "https://segmentfault.com/a/1190000019407019",
     "author": "linong",
     "home_url": "https://segmentfault.com/u/linong",
-    "votes": "30",
-    "rank": 4
+    "votes": "38",
+    "rank": 7
   },
   {
     "title": "还可以这么玩？超实用 Typescript 内置类型与自定义类型",
@@ -41,26 +68,8 @@
     "url": "https://segmentfault.com/a/1190000019402237",
     "author": "微雨微语",
     "home_url": "https://segmentfault.com/u/weiyuweiyu",
-    "votes": "29",
-    "rank": 5
-  },
-  {
-    "title": "史上最全的微信小程序代码大全源码下载",
-    "description": "小程序QQ交流群：131894955   开发文档： [链接] 小程序CMS官网源码下载 源码链接： [链接] JAVA版微信管家平台(各种微信活动、公众号管理) 源码地址： [链接] 微信小程序实例源码大全下载 微信小应用示例代码(p...",
-    "url": "https://segmentfault.com/a/1190000019417685",
-    "author": "scott",
-    "home_url": "https://segmentfault.com/u/jeecg",
-    "votes": "7",
-    "rank": 6
-  },
-  {
-    "title": "Swoole 4.4：支持 CURL 协程化",
-    "description": "在4.4之前的版本中，Swoole一直不支持CURL协程化，在代码中无法使用curl。由于curl使用了libcurl库实现，无法直接hook它的socket，4.4版本使用Swoole\\Coroutine\\Http\\Client模拟实现了curl的API，并在底层替换了c...",
-    "url": "https://segmentfault.com/a/1190000019391369",
-    "author": "韩天峰",
-    "home_url": "https://segmentfault.com/u/hantianfeng",
-    "votes": "52",
-    "rank": 7
+    "votes": "32",
+    "rank": 8
   },
   {
     "title": "PWA入门：手把手教你制作一个PWA应用",
@@ -68,8 +77,17 @@
     "url": "https://segmentfault.com/a/1190000019414253",
     "author": "MudOnTire",
     "home_url": "https://segmentfault.com/u/mudontire",
-    "votes": "22",
-    "rank": 8
+    "votes": "26",
+    "rank": 9
+  },
+  {
+    "title": "Swoole 4.4：支持 CURL 协程化",
+    "description": "在4.4之前的版本中，Swoole一直不支持CURL协程化，在代码中无法使用curl。由于curl使用了libcurl库实现，无法直接hook它的socket，4.4版本使用Swoole\\Coroutine\\Http\\Client模拟实现了curl的API，并在底层替换了c...",
+    "url": "https://segmentfault.com/a/1190000019391369",
+    "author": "韩天峰",
+    "home_url": "https://segmentfault.com/u/hantianfeng",
+    "votes": "54",
+    "rank": 10
   },
   {
     "title": "通过动图学习 CSS Flex",
@@ -77,8 +95,8 @@
     "url": "https://segmentfault.com/a/1190000019387626",
     "author": "疯狂的技术宅",
     "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "43",
-    "rank": 9
+    "votes": "44",
+    "rank": 11
   },
   {
     "title": "从零开发一个node命令行工具",
@@ -86,8 +104,8 @@
     "url": "https://segmentfault.com/a/1190000019396484",
     "author": "TNFE",
     "home_url": "https://segmentfault.com/u/tnfe",
-    "votes": "29",
-    "rank": 10
+    "votes": "30",
+    "rank": 12
   },
   {
     "title": "如何在 JS 循环中正确使用 async 与 await",
@@ -95,8 +113,8 @@
     "url": "https://segmentfault.com/a/1190000019357943",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "43",
-    "rank": 11
+    "votes": "44",
+    "rank": 13
   },
   {
     "title": "PHP下用Swoole实现Actor并发模型",
@@ -104,8 +122,8 @@
     "url": "https://segmentfault.com/a/1190000019382531",
     "author": "如果的如果",
     "home_url": "https://segmentfault.com/u/ruguoderuguo",
-    "votes": "48",
-    "rank": 12
+    "votes": "50",
+    "rank": 14
   },
   {
     "title": "使用React、Electron、Dva、Webpack、Node.js、Websocket快速构建跨平台应用",
@@ -113,53 +131,8 @@
     "url": "https://segmentfault.com/a/1190000019367175",
     "author": "Jerry谭金杰",
     "home_url": "https://segmentfault.com/u/jerrytanjinjie",
-    "votes": "82",
-    "rank": 13
-  },
-  {
-    "title": "JavaScript 系列--JavaScript一些奇淫技巧的实现方法（二）数字格式化；类数组转数组",
-    "description": "之前写了一篇文章：JavaScript 系列--JavaScript一些奇淫技巧的实现方法（一）简短的sleep函数，获取时间戳",
-    "url": "https://segmentfault.com/a/1190000019409746",
-    "author": "saucxs",
-    "home_url": "https://segmentfault.com/u/saucxs",
-    "votes": "17",
-    "rank": 14
-  },
-  {
-    "title": "阿里巴巴前端暑期实习面经",
-    "description": "先说一下为什么要去面试，因为之前跟学长吃饭的时候聊起来，大三这时候找一个暑期实习是个好机会，并且我在学校拿的奖也都围绕着前端来的。作为一个想知道自己处于什么水平的人来说，肯定要投大厂了，于是选择了...",
-    "url": "https://segmentfault.com/a/1190000019406592",
-    "author": "SangSir",
-    "home_url": "https://segmentfault.com/u/sangsir",
-    "votes": "16",
+    "votes": "83",
     "rank": 15
-  },
-  {
-    "title": "如何提升JSON.stringify()的性能？",
-    "description": "1. 熟悉的JSON.stringify() 在浏览器端或服务端，JSON.stringify()都是我们很常用的方法： 将 JSON object 存储到 localStorage 中； POST 请求中的 JSON body； 处理响应体中的 JSON 形式的数据； 甚至某些条件...",
-    "url": "https://segmentfault.com/a/1190000019400854",
-    "author": "alienzhou",
-    "home_url": "https://segmentfault.com/u/alienzhou",
-    "votes": "24",
-    "rank": 16
-  },
-  {
-    "title": "如何反转CSS中的贝塞尔曲线",
-    "description": "首先来看一看我之前写的一个CSS轮播动画效果，为了让切换时动画的过渡更加的平滑我在animation-timing-function属性中并没有使用CSS提供的各种关键词，而使用了cubic-bezier（贝塞尔）函数。",
-    "url": "https://segmentfault.com/a/1190000019405831",
-    "author": "果冻",
-    "home_url": "https://segmentfault.com/u/guodong_589c0897bd203",
-    "votes": "13",
-    "rank": 17
-  },
-  {
-    "title": "vue+node+mysql撸一个带权限的后台管理系统",
-    "description": "mvvm-rbac是一个简易的带权限的后台管理系统。它基于vue、egg、mysql(sequlize)实现，旨在用最少代码理解实现常见的业务功能，所以并没有使用ui库，页面并不是很漂亮。麻雀虽小，但是五脏俱全。该项目如果有什么...",
-    "url": "https://segmentfault.com/a/1190000019414876",
-    "author": "渣渣辉",
-    "home_url": "https://segmentfault.com/u/linxi_59223381a31e3",
-    "votes": "9",
-    "rank": 18
   },
   {
     "title": "2019年前端面试题-03",
@@ -167,8 +140,8 @@
     "url": "https://segmentfault.com/a/1190000019418068",
     "author": "云鱼Cloudy",
     "home_url": "https://segmentfault.com/u/cloudyttt",
-    "votes": "3",
-    "rank": 19
+    "votes": "10",
+    "rank": 16
   },
   {
     "title": "2019年前端面试题-02",
@@ -176,7 +149,34 @@
     "url": "https://segmentfault.com/a/1190000019414129",
     "author": "云鱼Cloudy",
     "home_url": "https://segmentfault.com/u/cloudyttt",
-    "votes": "8",
+    "votes": "17",
+    "rank": 17
+  },
+  {
+    "title": "python开发植物大战僵尸游戏",
+    "description": "开发思路 完整项目地址：[链接] 觉得还OK的话，点下Star,作者不易，thank you！ 1.引入需要的模块，配置图片路径，设置界面宽高背景颜色，创建游戏主入口。 {代码...} 2.文本绘制，创建要动态改变的属性，渲染的...",
+    "url": "https://segmentfault.com/a/1190000019418065",
+    "author": "楷楷",
+    "home_url": "https://segmentfault.com/u/kaikai_5a484b1131e4c",
+    "votes": "11",
+    "rank": 18
+  },
+  {
+    "title": "vue+node+mysql撸一个带权限的后台管理系统",
+    "description": "mvvm-rbac是一个简易的带权限的后台管理系统。它基于vue、egg、mysql(sequlize)实现，旨在用最少代码理解实现常见的业务功能，所以并没有使用ui库，页面并不是很漂亮。麻雀虽小，但是五脏俱全。该项目如果有什么...",
+    "url": "https://segmentfault.com/a/1190000019414876",
+    "author": "渣渣辉",
+    "home_url": "https://segmentfault.com/u/linxi_59223381a31e3",
+    "votes": "11",
+    "rank": 19
+  },
+  {
+    "title": "如何提升JSON.stringify()的性能？",
+    "description": "1. 熟悉的JSON.stringify() 在浏览器端或服务端，JSON.stringify()都是我们很常用的方法： 将 JSON object 存储到 localStorage 中； POST 请求中的 JSON body； 处理响应体中的 JSON 形式的数据； 甚至某些条件...",
+    "url": "https://segmentfault.com/a/1190000019400854",
+    "author": "alienzhou",
+    "home_url": "https://segmentfault.com/u/alienzhou",
+    "votes": "26",
     "rank": 20
   },
   {
@@ -185,17 +185,62 @@
     "url": "https://segmentfault.com/a/1190000019366328",
     "author": "王下邀月熊_Chevalier",
     "home_url": "https://segmentfault.com/u/wx_chevalier",
-    "votes": "52",
+    "votes": "53",
     "rank": 21
   },
   {
-    "title": "Docker快速搭建一套PHP、Nginx、MySQL、Redis、Xdebug、Memcached 开发环境并演进",
-    "description": "笔者在尝试起一个新web项目时，往往会陷入重新建立一套Docker环境的繁琐事当中。我想大家在开始做一个新项目时，或者快速为了和以前的项目做完全的隔离，也会起一套新docker环境。",
-    "url": "https://segmentfault.com/a/1190000019361535",
-    "author": "小白要生发",
-    "home_url": "https://segmentfault.com/u/xiaobaiyaoshengfa",
-    "votes": "39",
+    "title": "JAVA遍历机制的性能的比较",
+    "description": "近段时间在写leetcode的Lemonade Change时候，发现了for循环与forEach循环的耗时是不一致的，在提交记录上面差了一倍......    平常开发绝大部分业务逻辑的实现都需要遍历机制的帮忙，虽说也有注意到各数据结构操...",
+    "url": "https://segmentfault.com/a/1190000019423506",
+    "author": "cartoon",
+    "home_url": "https://segmentfault.com/u/cartoon_5cce2e0fb8fae",
+    "votes": "1",
     "rank": 22
+  },
+  {
+    "title": "浅析 JS 事件循环之 Microtask 和 Macrotask",
+    "description": "我们在上一篇 《浅析 JS 中的EventLoop 事件循环》 中提到一个 Event Queue，其实在事件循环中 queue 一共有两种，还有一种叫 Job Queue",
+    "url": "https://segmentfault.com/a/1190000019415672",
+    "author": "savokiss",
+    "home_url": "https://segmentfault.com/u/savokiss",
+    "votes": "8",
+    "rank": 23
+  },
+  {
+    "title": "如何反转CSS中的贝塞尔曲线",
+    "description": "首先来看一看我之前写的一个CSS轮播动画效果，为了让切换时动画的过渡更加的平滑我在animation-timing-function属性中并没有使用CSS提供的各种关键词，而使用了cubic-bezier（贝塞尔）函数。",
+    "url": "https://segmentfault.com/a/1190000019405831",
+    "author": "果冻",
+    "home_url": "https://segmentfault.com/u/guodong_589c0897bd203",
+    "votes": "14",
+    "rank": 24
+  },
+  {
+    "title": "JavaScript 系列--JavaScript一些奇淫技巧的实现方法（二）数字格式化；类数组转数组",
+    "description": "之前写了一篇文章：JavaScript 系列--JavaScript一些奇淫技巧的实现方法（一）简短的sleep函数，获取时间戳",
+    "url": "https://segmentfault.com/a/1190000019409746",
+    "author": "saucxs",
+    "home_url": "https://segmentfault.com/u/saucxs",
+    "votes": "18",
+    "rank": 25
+  },
+  {
+    "title": "阿里巴巴前端暑期实习面经",
+    "description": "先说一下为什么要去面试，因为之前跟学长吃饭的时候聊起来，大三这时候找一个暑期实习是个好机会，并且我在学校拿的奖也都围绕着前端来的。作为一个想知道自己处于什么水平的人来说，肯定要投大厂了，于是选择了...",
+    "url": "https://segmentfault.com/a/1190000019406592",
+    "author": "SangSir",
+    "home_url": "https://segmentfault.com/u/sangsir",
+    "votes": "17",
+    "rank": 26
+  },
+  {
+    "title": "Object类入门这一篇就够了！",
+    "description": "API（Application Programming Interface,应用程序编程接口）是一些预先定义的函数，目的是提供应用程序与开发人员基于某软件或硬件得以访问一组例程的能力，而又无需访问源码，或理解内部工作机制的细节。",
+    "url": "https://segmentfault.com/a/1190000019423279",
+    "author": "BWH_Steven",
+    "home_url": "https://segmentfault.com/u/bwh_steven",
+    "votes": "1",
+    "rank": 27
   },
   {
     "title": "8 个你不知道的 DOM 功能",
@@ -204,51 +249,6 @@
     "author": "疯狂的技术宅",
     "home_url": "https://segmentfault.com/u/evilboy",
     "votes": "50",
-    "rank": 23
-  },
-  {
-    "title": "浅析 JS 事件循环之 Microtask 和 Macrotask",
-    "description": "我们在上一篇 《浅析 JS 中的EventLoop 事件循环》 中提到一个 Event Queue，其实在事件循环中 queue 一共有两种，还有一种叫 Job Queue",
-    "url": "https://segmentfault.com/a/1190000019415672",
-    "author": "savokiss",
-    "home_url": "https://segmentfault.com/u/savokiss",
-    "votes": "7",
-    "rank": 24
-  },
-  {
-    "title": "MySQL主从数据库同步延迟问题解决",
-    "description": "MySQL的主从同步是一个很成熟的架构，优点为：①在从服务器可以执行查询工作(即我们常说的读功能)，降低主服务器压力;②在从主服务器进行备份，避免备份期间影响主服务器服务;③当主服务器出现问题时，可以切换到从...",
-    "url": "https://segmentfault.com/a/1190000019411539",
-    "author": "leo_su",
-    "home_url": "https://segmentfault.com/u/leo_su",
-    "votes": "8",
-    "rank": 25
-  },
-  {
-    "title": "前端bug录-移动端下载图片",
-    "description": "前天，快下班的时候，一朋友发来一个战绩图。这是要约我上分？（这兄弟一手 C 位吊打亲友）。我果断拒绝三连。结果，小韭菜问我，右边那个图怎么做？那好了，事情从这里开始",
-    "url": "https://segmentfault.com/a/1190000019403486",
-    "author": "linong",
-    "home_url": "https://segmentfault.com/u/linong",
-    "votes": "14",
-    "rank": 26
-  },
-  {
-    "title": "有趣的交互系列 - 文字遮罩入场效果",
-    "description": "在这个系列里分享一些简单，但是很有意思的交互效果~附上demo地址和github地址 滚动，添加对应加载的class(比如loaded) 巧用animation实现文字和遮罩层的动画效果 文字动画: opacity 0 -> 1; 遮罩层动画: 首先...",
-    "url": "https://segmentfault.com/a/1190000019376991",
-    "author": "an_l",
-    "home_url": "https://segmentfault.com/u/memo_memo",
-    "votes": "35",
-    "rank": 27
-  },
-  {
-    "title": "Swoole4.x探究之多进程TCP协程服务实现",
-    "description": "有研究过Workman框架的同学就会发现，其实workman最核心的，就是用了php socket拓展加上pcntl拓展来实现其底层的网络服务和多进程调度。那我们今天就来探讨如何使用Swoole的CoroutineSocket模块来实现自己的tcp服...",
-    "url": "https://segmentfault.com/a/1190000019395362",
-    "author": "如果的如果",
-    "home_url": "https://segmentfault.com/u/ruguoderuguo",
-    "votes": "27",
     "rank": 28
   },
   {
