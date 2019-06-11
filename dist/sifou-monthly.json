@@ -1,21 +1,30 @@
 [
   {
-    "title": "当我们在谈论高并发的时候究竟在谈什么?",
-    "description": "这里先给出结论: 高并发的基本表现为单位时间内系统能够同时处理的请求数,高并发的核心是对CPU资源的有效压榨。",
-    "url": "https://segmentfault.com/a/1190000019360335",
-    "author": "hncg",
-    "home_url": "https://segmentfault.com/u/hncg",
-    "votes": "229",
-    "rank": 1
-  },
-  {
     "title": "Vue+Node+高德地图+Echart做一款出行可视化全栈webapp",
     "description": "咔咔出行（出行可视化） 项目简介 解决出行问题，用于出行行程记录，路线规划，数据可视化分析的移动端webapp 点击这里查看该项目 项目截图 私人出行公共交通历史列表我的信息 技术栈 前端：移动端，vue全家桶，M...",
     "url": "https://segmentfault.com/a/1190000019419885",
     "author": "小健",
     "home_url": "https://segmentfault.com/u/wangwenjian1995",
-    "votes": "77",
+    "votes": "110",
+    "rank": 1
+  },
+  {
+    "title": "当我们在谈论高并发的时候究竟在谈什么?",
+    "description": "这里先给出结论: 高并发的基本表现为单位时间内系统能够同时处理的请求数,高并发的核心是对CPU资源的有效压榨。",
+    "url": "https://segmentfault.com/a/1190000019360335",
+    "author": "hncg",
+    "home_url": "https://segmentfault.com/u/hncg",
+    "votes": "232",
     "rank": 2
+  },
+  {
+    "title": "用 Vue 开发自己的 Chrome 扩展程序",
+    "description": "浏览器扩展程序是可以修改和增强 Web 浏览器功能的小程序。它们可用于各种任务，例如阻止广告，管理密码，组织标签，改变网页的外观和行为等等。",
+    "url": "https://segmentfault.com/a/1190000019436268",
+    "author": "疯狂的技术宅",
+    "home_url": "https://segmentfault.com/u/evilboy",
+    "votes": "35",
+    "rank": 3
   },
   {
     "title": "用JS开发跨平台桌面应用，从原理到实践",
@@ -23,17 +32,26 @@
     "url": "https://segmentfault.com/a/1190000019426512",
     "author": "ConardLi",
     "home_url": "https://segmentfault.com/u/conardli",
-    "votes": "32",
-    "rank": 3
+    "votes": "59",
+    "rank": 4
   },
   {
-    "title": "2019年前端面试题-03",
-    "description": "let与var的区别？ Let为ES6新添加申明变量的命令，它类似于var，但是有以下不同： 1、var声明的变量，其作用域为该语句所在的函数内，且存在变量提升现象 2、let声明的变量，其作用域为该语句所在的代码块内，不...",
-    "url": "https://segmentfault.com/a/1190000019418068",
-    "author": "云鱼Cloudy",
-    "home_url": "https://segmentfault.com/u/cloudyttt",
-    "votes": "27",
-    "rank": 4
+    "title": "循序渐进学加密",
+    "description": "还记得上初二的那年夏天，班里来了一个新同学，他就住在我家对面的楼里，于是我们一起上学放学，很快便成了最要好的朋友。我们决定发明一套神秘的沟通方式，任何人看到都不可能猜到它的真实含义。我们第一个想到...",
+    "url": "https://segmentfault.com/a/1190000019437132",
+    "author": "张京",
+    "home_url": "https://segmentfault.com/u/fengerzh",
+    "votes": "28",
+    "rank": 5
+  },
+  {
+    "title": "使用CSS创建一个炫酷的球体动画效果",
+    "description": "我最近看到了一个纯CSS实现的球体动画效果： 经过研究上面的效果实现起来大致可以分为五个步骤，下面就来一一介绍。 1.使用Jade和SCSS生成一个圆圈 创建一个圆圈的第一步是生成所有组成圆圈的粒子。有了Jade，我...",
+    "url": "https://segmentfault.com/a/1190000019439020",
+    "author": "果冻",
+    "home_url": "https://segmentfault.com/u/guodong_589c0897bd203",
+    "votes": "22",
+    "rank": 6
   },
   {
     "title": "JavaScript 的简洁之道",
@@ -41,26 +59,26 @@
     "url": "https://segmentfault.com/a/1190000019400316",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "6",
-    "rank": 5
-  },
-  {
-    "title": "Vue 实现前进刷新，后退不刷新的效果",
-    "description": "在一个列表页中，第一次进入的时候，请求获取数据。点击某个列表项，跳到详情页，再从详情页后退回到列表页时，不刷新。也就是说从其他页面进到列表页，需要刷新获取数据，从详情页返回到列表页时不要刷新。",
-    "url": "https://segmentfault.com/a/1190000019414890",
-    "author": "woai3c",
-    "home_url": "https://segmentfault.com/u/woai3c",
-    "votes": "38",
-    "rank": 6
-  },
-  {
-    "title": "Node.js运行原理、高并发性能测试对比及生态圈汇总",
-    "description": "Node.js是一个事件驱动I/O服务端JavaScript环境，基于Google的V8引擎，V8引擎执行Javascript的速度非常快，性能非常好",
-    "url": "https://segmentfault.com/a/1190000019425388",
-    "author": "Jerry谭金杰",
-    "home_url": "https://segmentfault.com/u/jerrytanjinjie",
-    "votes": "16",
+    "votes": "25",
     "rank": 7
+  },
+  {
+    "title": "前端解决第三方图片防盗链的办法 - html referrer 访问图片资源403问题",
+    "description": "笔者网站的图片都是上传到第三方网站上的，比如 简书、掘金、七牛云上的，但是最近简书和掘金都开启了 防盗链，防止其他网站访问他们网站上的图片了，导致笔者的网站存在他们网站上的图片全挂了。",
+    "url": "https://segmentfault.com/a/1190000019425093",
+    "author": "夜尽天明",
+    "home_url": "https://segmentfault.com/u/biaochenxuying",
+    "votes": "14",
+    "rank": 8
+  },
+  {
+    "title": "2019年前端面试题-03",
+    "description": "let与var的区别？ Let为ES6新添加申明变量的命令，它类似于var，但是有以下不同： 1、var声明的变量，其作用域为该语句所在的函数内，且存在变量提升现象 2、let声明的变量，其作用域为该语句所在的代码块内，不...",
+    "url": "https://segmentfault.com/a/1190000019418068",
+    "author": "云鱼Cloudy",
+    "home_url": "https://segmentfault.com/u/cloudyttt",
+    "votes": "33",
+    "rank": 9
   },
   {
     "title": "每个前端工程师都应该了解的图片知识",
@@ -68,17 +86,17 @@
     "url": "https://segmentfault.com/a/1190000019231550",
     "author": "leexiaoran",
     "home_url": "https://segmentfault.com/u/li1076629390",
-    "votes": "165",
-    "rank": 8
+    "votes": "166",
+    "rank": 10
   },
   {
-    "title": "2019-我的前端面试题",
-    "description": "2019的5月9号，离发工资还有1天的时候，我的领导亲切把我叫到办公室跟我说：'阿郭，我们公司要倒闭了，钱是没有的啦，为了不耽误你，你赶紧出去找工作吧'。听到这话，我虎躯一震，这已经是第2个月没工资了。",
-    "url": "https://segmentfault.com/a/1190000019348191",
-    "author": "郭邯",
-    "home_url": "https://segmentfault.com/u/qiangdada",
-    "votes": "82",
-    "rank": 9
+    "title": "Vue 实现前进刷新，后退不刷新的效果",
+    "description": "在一个列表页中，第一次进入的时候，请求获取数据。点击某个列表项，跳到详情页，再从详情页后退回到列表页时，不刷新。也就是说从其他页面进到列表页，需要刷新获取数据，从详情页返回到列表页时不要刷新。",
+    "url": "https://segmentfault.com/a/1190000019414890",
+    "author": "woai3c",
+    "home_url": "https://segmentfault.com/u/woai3c",
+    "votes": "43",
+    "rank": 11
   },
   {
     "title": "【面试篇】寒冬求职之你必须要懂的Web安全",
@@ -87,7 +105,34 @@
     "author": "刘小夕",
     "home_url": "https://segmentfault.com/u/liuyan666",
     "votes": "172",
-    "rank": 10
+    "rank": 12
+  },
+  {
+    "title": "2019-我的前端面试题",
+    "description": "2019的5月9号，离发工资还有1天的时候，我的领导亲切把我叫到办公室跟我说：'阿郭，我们公司要倒闭了，钱是没有的啦，为了不耽误你，你赶紧出去找工作吧'。听到这话，我虎躯一震，这已经是第2个月没工资了。",
+    "url": "https://segmentfault.com/a/1190000019348191",
+    "author": "郭邯",
+    "home_url": "https://segmentfault.com/u/qiangdada",
+    "votes": "85",
+    "rank": 13
+  },
+  {
+    "title": "package.json 中 你还不清楚的 browser，module，main 字段优先级",
+    "description": "前端开发中使用到 npm 包那可算是家常便饭，而使用到 npm 包总免不了接触到 package.json 包配置文件。",
+    "url": "https://segmentfault.com/a/1190000019438150",
+    "author": "微雨微语",
+    "home_url": "https://segmentfault.com/u/weiyuweiyu",
+    "votes": "16",
+    "rank": 14
+  },
+  {
+    "title": "关于移动端适配，你必须要知道的",
+    "description": "导读 移动端适配，是我们在开发中经常会遇到的，这里面可能会遇到非常多的问题： 1px问题 UI图完美适配方案 iPhoneX适配方案 横屏适配 高清屏图片模糊问题 ... 上面这些问题可能我们在开发中已经知道如何解决，但...",
+    "url": "https://segmentfault.com/a/1190000019207842",
+    "author": "ConardLi",
+    "home_url": "https://segmentfault.com/u/conardli",
+    "votes": "225",
+    "rank": 15
   },
   {
     "title": "详解vue组件三大核心概念",
@@ -96,34 +141,16 @@
     "author": "浪里行舟",
     "home_url": "https://segmentfault.com/u/langlixingzhou",
     "votes": "108",
-    "rank": 11
+    "rank": 16
   },
   {
-    "title": "从零开始，手写一个简易的Virtual DOM",
-    "description": "众所周知，对前端而言，直接操作 DOM 是一件及其耗费性能的事情，以 React 和 Vue 为代表的众多框架普遍采用 Virtual DOM 来解决如今愈发复杂 Web 应用中状态频繁发生变化导致的频繁更新 DOM 的性能问题。本文为...",
-    "url": "https://segmentfault.com/a/1190000019425098",
-    "author": "counterxing",
-    "home_url": "https://segmentfault.com/u/xingbofengfe",
-    "votes": "18",
-    "rank": 12
-  },
-  {
-    "title": "关于移动端适配，你必须要知道的",
-    "description": "导读 移动端适配，是我们在开发中经常会遇到的，这里面可能会遇到非常多的问题： 1px问题 UI图完美适配方案 iPhoneX适配方案 横屏适配 高清屏图片模糊问题 ... 上面这些问题可能我们在开发中已经知道如何解决，但...",
-    "url": "https://segmentfault.com/a/1190000019207842",
-    "author": "ConardLi",
-    "home_url": "https://segmentfault.com/u/conardli",
-    "votes": "223",
-    "rank": 13
-  },
-  {
-    "title": "还可以这么玩？超实用 Typescript 内置类型与自定义类型",
-    "description": "有时候我们也需要表格对应的搜索表单，需要其中一两个搜索项，如果刚接触 typescript 的同学可能会立刻这样写：",
-    "url": "https://segmentfault.com/a/1190000019402237",
-    "author": "微雨微语",
-    "home_url": "https://segmentfault.com/u/weiyuweiyu",
-    "votes": "37",
-    "rank": 14
+    "title": "Node.js运行原理、高并发性能测试对比及生态圈汇总",
+    "description": "Node.js是一个事件驱动I/O服务端JavaScript环境，基于Google的V8引擎，V8引擎执行Javascript的速度非常快，性能非常好",
+    "url": "https://segmentfault.com/a/1190000019425388",
+    "author": "Jerry谭金杰",
+    "home_url": "https://segmentfault.com/u/jerrytanjinjie",
+    "votes": "21",
+    "rank": 17
   },
   {
     "title": "如何在 JS 循环中正确使用 async 与 await",
@@ -131,8 +158,17 @@
     "url": "https://segmentfault.com/a/1190000019357943",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "51",
-    "rank": 15
+    "votes": "60",
+    "rank": 18
+  },
+  {
+    "title": "还可以这么玩？超实用 Typescript 内置类型与自定义类型",
+    "description": "有时候我们也需要表格对应的搜索表单，需要其中一两个搜索项，如果刚接触 typescript 的同学可能会立刻这样写：",
+    "url": "https://segmentfault.com/a/1190000019402237",
+    "author": "微雨微语",
+    "home_url": "https://segmentfault.com/u/weiyuweiyu",
+    "votes": "40",
+    "rank": 19
   },
   {
     "title": "使用React、Electron、Dva、Webpack、Node.js、Websocket快速构建跨平台应用",
@@ -140,89 +176,8 @@
     "url": "https://segmentfault.com/a/1190000019367175",
     "author": "Jerry谭金杰",
     "home_url": "https://segmentfault.com/u/jerrytanjinjie",
-    "votes": "85",
-    "rank": 16
-  },
-  {
-    "title": "Swoole 4.4：支持 CURL 协程化",
-    "description": "在4.4之前的版本中，Swoole一直不支持CURL协程化，在代码中无法使用curl。由于curl使用了libcurl库实现，无法直接hook它的socket，4.4版本使用Swoole\\Coroutine\\Http\\Client模拟实现了curl的API，并在底层替换了c...",
-    "url": "https://segmentfault.com/a/1190000019391369",
-    "author": "韩天峰",
-    "home_url": "https://segmentfault.com/u/hantianfeng",
-    "votes": "57",
-    "rank": 17
-  },
-  {
-    "title": "JavaScript：十大排序的算法思路和代码实现",
-    "description": "本文内容包括：(双向)冒泡排序、选择排序、插入排序、快速排序(填坑和交换)、归并排序、桶排序、基数排序、计数排序(优化)、堆排序、希尔排序。大家可以在这里测试代码。更多 leetcode 的 JavaScript 解法也可以...",
-    "url": "https://segmentfault.com/a/1190000019304443",
-    "author": "DangoSky",
-    "home_url": "https://segmentfault.com/u/dangosky",
-    "votes": "115",
-    "rank": 18
-  },
-  {
-    "title": "前端答疑-chrome开发者工具正确食用-看网页源码",
-    "description": "写这个文章，是因为在今天早上，有两个兄弟找我要源码。有图有真相。我震惊于都 9102年了，身为了一个正（xie）经（xin）前端er，还不会看控制台？",
-    "url": "https://segmentfault.com/a/1190000019407019",
-    "author": "linong",
-    "home_url": "https://segmentfault.com/u/linong",
-    "votes": "41",
-    "rank": 19
-  },
-  {
-    "title": "还学不会webpack？看这篇！",
-    "description": "Webpack已经流行好久了，但很多同学使用webpack时还是一头雾水，一下看到那么多文档、各种配置、各种loader、plugin立马就晕头转向了。我也不例外，以至于很长一段时间对webpack都是一知半解的状态。但是想要继续...",
-    "url": "https://segmentfault.com/a/1190000019304114",
-    "author": "MudOnTire",
-    "home_url": "https://segmentfault.com/u/mudontire",
-    "votes": "124",
+    "votes": "89",
     "rank": 20
-  },
-  {
-    "title": "Git常用命令小结",
-    "description": "Git的版本库里存了很多东西，其中最重要的就是称为stage（或者叫index）的暂存区，还有Git为我们自动创建的第一个分支master，以及指向master的一个指针叫HEAD。工作区有一个隐藏目录.git，这个不算工作区，而是G...",
-    "url": "https://segmentfault.com/a/1190000019429417",
-    "author": "云鱼Cloudy",
-    "home_url": "https://segmentfault.com/u/cloudyttt",
-    "votes": "13",
-    "rank": 21
-  },
-  {
-    "title": "【Step-By-Step】一周面试题深入解析 / 周刊 03",
-    "description": "Step-By-Step (点击进入项目) 是我于 2019-05-20 开始的一个项目，每个工作日发布一道面试题。每个周末我会仔细阅读大家的答案，整理最一份较优答案出来，因本人水平有限，有误的地方，大家及时指正。 如果想 加...",
-    "url": "https://segmentfault.com/a/1190000019429273",
-    "author": "刘小夕",
-    "home_url": "https://segmentfault.com/u/liuyan666",
-    "votes": "9",
-    "rank": 22
-  },
-  {
-    "title": "PHP下用Swoole实现Actor并发模型",
-    "description": "Actor对于PHPer来说，可能会比较陌生，写过Java的同学会比较熟悉，Java一直都有线程的概念（虽然PHP有Pthread,但不普及）,它是一种非共享内存的并发模型，每个Actor内的数据独立存在，Actor之间通过消息传递的形...",
-    "url": "https://segmentfault.com/a/1190000019382531",
-    "author": "如果的如果",
-    "home_url": "https://segmentfault.com/u/ruguoderuguo",
-    "votes": "53",
-    "rank": 23
-  },
-  {
-    "title": "JavaScript 系列--JavaScript一些奇淫技巧的实现方法（二）数字格式化；类数组转数组",
-    "description": "之前写了一篇文章：JavaScript 系列--JavaScript一些奇淫技巧的实现方法（一）简短的sleep函数，获取时间戳",
-    "url": "https://segmentfault.com/a/1190000019409746",
-    "author": "saucxs",
-    "home_url": "https://segmentfault.com/u/saucxs",
-    "votes": "22",
-    "rank": 24
-  },
-  {
-    "title": "通过动图学习 CSS Flex",
-    "description": "如果一张图片胜过千言万语 —— 那么动画呢？ Flex 无法通过文字或静态图像有效地完全解释。为了巩固你对flex的了解，我制作了这些动画演示。",
-    "url": "https://segmentfault.com/a/1190000019387626",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "47",
-    "rank": 25
   },
   {
     "title": "从零开发一个node命令行工具",
@@ -230,16 +185,61 @@
     "url": "https://segmentfault.com/a/1190000019396484",
     "author": "TNFE",
     "home_url": "https://segmentfault.com/u/tnfe",
-    "votes": "37",
+    "votes": "43",
+    "rank": 21
+  },
+  {
+    "title": "设计模式之观察者模式与发布订阅模式",
+    "description": "学习了一段时间设计模式，当学到观察者模式和发布订阅模式的时候遇到了很大的问题，这两个模式有点类似，有点傻傻分不清楚，博客起因如此，开始对观察者和发布订阅开始了Google之旅。对整个学习过程做一个简单的...",
+    "url": "https://segmentfault.com/a/1190000019440306",
+    "author": "Aaron",
+    "home_url": "https://segmentfault.com/u/aaron_59f5c5ee0c93f",
+    "votes": "10",
+    "rank": 22
+  },
+  {
+    "title": "Go配置文件热加载 - 发送系统信号",
+    "description": "在日常项目的开发中，我们经常会使用配置文件来保存项目的基本元数据，配置文件的类型有很多，如：JSON、xml、yaml、甚至可能是个纯文本格式的文件。不管是什么类型的配置数据，在某些场景下，我们可会有热更新当...",
+    "url": "https://segmentfault.com/a/1190000019436438",
+    "author": "360技术",
+    "home_url": "https://segmentfault.com/u/360jishu",
+    "votes": "15",
+    "rank": 23
+  },
+  {
+    "title": "JavaScript：十大排序的算法思路和代码实现",
+    "description": "本文内容包括：(双向)冒泡排序、选择排序、插入排序、快速排序(填坑和交换)、归并排序、桶排序、基数排序、计数排序(优化)、堆排序、希尔排序。大家可以在这里测试代码。更多 leetcode 的 JavaScript 解法也可以...",
+    "url": "https://segmentfault.com/a/1190000019304443",
+    "author": "DangoSky",
+    "home_url": "https://segmentfault.com/u/dangosky",
+    "votes": "116",
+    "rank": 24
+  },
+  {
+    "title": "从零开始，手写一个简易的Virtual DOM",
+    "description": "众所周知，对前端而言，直接操作 DOM 是一件及其耗费性能的事情，以 React 和 Vue 为代表的众多框架普遍采用 Virtual DOM 来解决如今愈发复杂 Web 应用中状态频繁发生变化导致的频繁更新 DOM 的性能问题。本文为...",
+    "url": "https://segmentfault.com/a/1190000019425098",
+    "author": "counterxing",
+    "home_url": "https://segmentfault.com/u/xingbofengfe",
+    "votes": "21",
+    "rank": 25
+  },
+  {
+    "title": "还学不会webpack？看这篇！",
+    "description": "Webpack已经流行好久了，但很多同学使用webpack时还是一头雾水，一下看到那么多文档、各种配置、各种loader、plugin立马就晕头转向了。我也不例外，以至于很长一段时间对webpack都是一知半解的状态。但是想要继续...",
+    "url": "https://segmentfault.com/a/1190000019304114",
+    "author": "MudOnTire",
+    "home_url": "https://segmentfault.com/u/mudontire",
+    "votes": "128",
     "rank": 26
   },
   {
-    "title": "你要的 React 面试知识点，都在这了",
-    "description": "React是流行的javascript框架之一，在2019年及以后将会更加流行。React于2013年首次发布，多年来广受欢迎。它是一个声明性的、基于组件的、用于构建用户界面的高效javascript库。",
-    "url": "https://segmentfault.com/a/1190000019339210",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "76",
+    "title": "Swoole 4.4：支持 CURL 协程化",
+    "description": "在4.4之前的版本中，Swoole一直不支持CURL协程化，在代码中无法使用curl。由于curl使用了libcurl库实现，无法直接hook它的socket，4.4版本使用Swoole\\Coroutine\\Http\\Client模拟实现了curl的API，并在底层替换了c...",
+    "url": "https://segmentfault.com/a/1190000019391369",
+    "author": "韩天峰",
+    "home_url": "https://segmentfault.com/u/hantianfeng",
+    "votes": "58",
     "rank": 27
   },
   {
@@ -248,8 +248,17 @@
     "url": "https://segmentfault.com/a/1190000019203847",
     "author": "寻梦无痕",
     "home_url": "https://segmentfault.com/u/liub37",
-    "votes": "164",
+    "votes": "168",
     "rank": 28
+  },
+  {
+    "title": "Docker快速搭建一套PHP、Nginx、MySQL、Redis、Xdebug、Memcached 开发环境并演进",
+    "description": "笔者在尝试起一个新web项目时，往往会陷入重新建立一套Docker环境的繁琐事当中。我想大家在开始做一个新项目时，或者快速为了和以前的项目做完全的隔离，也会起一套新docker环境。",
+    "url": "https://segmentfault.com/a/1190000019361535",
+    "author": "小白要生发",
+    "home_url": "https://segmentfault.com/u/xiaobaiyaoshengfa",
+    "votes": "41",
+    "rank": 29
   },
   {
     "title": "让前端开发者失业的技术，Flutter Web初体验",
@@ -257,7 +266,7 @@
     "url": "https://segmentfault.com/a/1190000019262939",
     "author": "TNFE",
     "home_url": "https://segmentfault.com/u/tnfe",
-    "votes": "129",
-    "rank": 29
+    "votes": "130",
+    "rank": 30
   }
 ]
