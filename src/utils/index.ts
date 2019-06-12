@@ -130,9 +130,9 @@ export function getTrendingData(type: string = 'daily') {
       const resultData: ITrendingData[] = [];
       const html = data.toString();
       const $ = cheerio.load(html)
-      $('.repo-list li').each(function(idx, item) {
-        const full_name = $(item).find('h3 a').text().replace(/(\n|\s)/g, '');
-        const href = $(item).find('h3 a').attr('href').replace(/(\n|\s)/g, '');
+      $('.Box-row').each(function(idx, item) {
+        const full_name = $(item).find('h1 a').text().replace(/(\n|\s)/g, '');
+        const href = $(item).find('h1 a').attr('href').replace(/(\n|\s)/g, '');
         const language = $(item).find('span[itemprop=programmingLanguage]').text().replace(/(\n|\s)/g, '');
         const languageColor = $(item).find('span.repo-language-color');
         const stargazers_count = $(item).find('a.muted-link svg.octicon.octicon-star').parent().text().replace(/(\n|\s|,)/g, '');
