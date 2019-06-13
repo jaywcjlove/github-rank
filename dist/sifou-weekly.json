@@ -1,30 +1,66 @@
 [
   {
+    "title": "这就是我的前端学习路线（大事件 + 时间轴倒序）（2016-7 至今）",
+    "description": "关于我 本科在读，大三，16年开始自学前端，兴趣广泛，非常喜欢尝试新东西。 博客 - 关于我：[链接] （比下方纯文字更美观） Github：[链接] 路线（倒序） 【以下是我的前端学习路线，供后人参考！】 2019-6-7：...",
+    "url": "https://segmentfault.com/a/1190000019466160",
+    "author": "林水溶",
+    "home_url": "https://segmentfault.com/u/shuirong1997",
+    "votes": "16",
+    "rank": 1
+  },
+  {
+    "title": "2019年前端笔试题",
+    "description": "什么是web标准？WEB标准不是某一个标准，而是一系列标准的集合。网页主要由三部分组成：结构（Structure）、表现（Presentation）和行为 （Behavior）。 对应的标准也分三方面：结构化标准语言主要包括XHTML和XML...",
+    "url": "https://segmentfault.com/a/1190000019465574",
+    "author": "云鱼Cloudy",
+    "home_url": "https://segmentfault.com/u/cloudyttt",
+    "votes": "14",
+    "rank": 2
+  },
+  {
+    "title": "手把教你搭建SSR(vue/vue-cli + express)",
+    "description": "最近简单的研究了一下SSR，对SSR已经有了一个简单的认知，主要应用于单页面应用，Nuxt是SSR很不错的框架。也有过调研，简单的用了一下，感觉还是很不错。但是还是想知道若不依赖于框架又应该如果处理SSR,研究一下...",
+    "url": "https://segmentfault.com/a/1190000019462324",
+    "author": "Aaron",
+    "home_url": "https://segmentfault.com/u/aaron_59f5c5ee0c93f",
+    "votes": "17",
+    "rank": 3
+  },
+  {
+    "title": "Vue 改变数据，页面不刷新的问题",
+    "description": "最近在用 element-ui 开发一个网站，使用 table 组件时，发现修改完数据，有时候会延迟一两秒，页面才会发生变化。看了一下代码，发现修改数据的代码是这样的",
+    "url": "https://segmentfault.com/a/1190000019470488",
+    "author": "woai3c",
+    "home_url": "https://segmentfault.com/u/woai3c",
+    "votes": "7",
+    "rank": 4
+  },
+  {
+    "title": "webpack4大结局：加入腾讯IM配置策略，实现前端工程化环境极致优化",
+    "description": "webpack，打包所有的资源 不知道不觉，webpack已经偷偷更新到4.34版本了,本人决定，这是今年最后一篇写webpack的文章，除非它更新到版本5，本人今年剩下的时间都会放在Golang和二进制数据操作以及后端的生态上 在...",
+    "url": "https://segmentfault.com/a/1190000019461556",
+    "author": "Peter谭金杰",
+    "home_url": "https://segmentfault.com/u/jerrytanjinjie",
+    "votes": "25",
+    "rank": 5
+  },
+  {
     "title": "尘埃落定——鹅厂暑期实习面经",
     "description": "博主 3 月份在腾讯官网投递 Web 前端开发岗，一路从提前批走到正式批，战线长达3个月...真的不容易（菜是原罪），特此记录下征战鹅厂的面经，希望可以帮到大家。",
     "url": "https://segmentfault.com/a/1190000019459429",
     "author": "酱菜豪",
     "home_url": "https://segmentfault.com/u/haohao_5b5339d296ecb",
-    "votes": "13",
-    "rank": 1
+    "votes": "39",
+    "rank": 6
   },
   {
-    "title": "React 新特性讲解及实例(一)",
-    "description": "本节主要讲解以下几个新的特性： Context ContextType lazy Suspense 错误边界（Error boundaries） memo 想阅读更多优质文章请猛戳GitHub博客,一年百来篇优质文章等着你！ Context 定义：Context 提供了一种方式...",
-    "url": "https://segmentfault.com/a/1190000019414243",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "11",
-    "rank": 2
-  },
-  {
-    "title": "实现平滑过渡的拖拽排序",
-    "description": "最近重读Vue官方文档，在列表的排序过渡这一小节，文档提到，<transition-group> 组件有一个特殊的地方，不仅可以实现进入和离开动画，还可以改变定位，官网示例如下：",
-    "url": "https://segmentfault.com/a/1190000019454559",
-    "author": "羊羊羊",
-    "home_url": "https://segmentfault.com/u/yangyangyang_5a40a55dd0ed3",
-    "votes": "13",
-    "rank": 3
+    "title": "CSS没有边界的裁剪路径 - Clip Paths",
+    "description": "随着浏览器对shape-outside和clip-path等属性的支持增加，CSS Shapes越来越受到关注。有几种方法可以使用CSS Shapes，特别是clip-path属性，乍一看我们并不知道这个属性如何使用，下面就来详细的介绍它。",
+    "url": "https://segmentfault.com/a/1190000019462933",
+    "author": "果冻",
+    "home_url": "https://segmentfault.com/u/guodong_589c0897bd203",
+    "votes": "9",
+    "rank": 7
   },
   {
     "title": "用JS开发跨平台桌面应用，从原理到实践",
@@ -32,8 +68,8 @@
     "url": "https://segmentfault.com/a/1190000019426512",
     "author": "ConardLi",
     "home_url": "https://segmentfault.com/u/conardli",
-    "votes": "82",
-    "rank": 4
+    "votes": "94",
+    "rank": 8
   },
   {
     "title": "Vue+Node+高德地图+Echart做一款出行可视化全栈webapp",
@@ -41,17 +77,8 @@
     "url": "https://segmentfault.com/a/1190000019419885",
     "author": "小健",
     "home_url": "https://segmentfault.com/u/wangwenjian1995",
-    "votes": "119",
-    "rank": 5
-  },
-  {
-    "title": "JavaScript 的简洁之道",
-    "description": "如果你关注代码本身和代码的编写方式，而不是只关心它是否能工作，那么你写代码是有一定的水准。专业开发人员将为未来的自己和“其他人”编写代码，而不仅仅只编写当前能工作就行的代码。",
-    "url": "https://segmentfault.com/a/1190000019400316",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "27",
-    "rank": 6
+    "votes": "127",
+    "rank": 9
   },
   {
     "title": "用 Vue 开发自己的 Chrome 扩展程序",
@@ -59,89 +86,17 @@
     "url": "https://segmentfault.com/a/1190000019436268",
     "author": "疯狂的技术宅",
     "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "48",
-    "rank": 7
-  },
-  {
-    "title": "基于 ThinkJS 的 WebSocket 通信详解",
-    "description": "我们的项目是基于 ThinkJS + Vue 开发的，最近实现了一个多端实时同步数据的功能，所以想写一篇文章来介绍下如何在 ThinkJS 的项目中利用 WebSocket 实现多端的实时通信。ThinkJS 是基于 Koa 2 开发的企业级 Node...",
-    "url": "https://segmentfault.com/a/1190000019455997",
-    "author": "bingomvm",
-    "home_url": "https://segmentfault.com/u/bingomvm",
-    "votes": "2",
-    "rank": 8
-  },
-  {
-    "title": "永强教你加解密：对称篇（一）",
-    "description": "大家好，我是永强，就是老李之前经常给你们说的区块链大神、大学肄业却依然大公司iOS主程一波儿流、只生活在老李口中尚未真实露面的骗钱高手、老王的左膀右臂 ——— 赵永强。我和尼古拉斯赵四之间并没有什么强关联...",
-    "url": "https://segmentfault.com/a/1190000019455770",
-    "author": "elarity",
-    "home_url": "https://segmentfault.com/u/elarity",
-    "votes": "5",
-    "rank": 9
-  },
-  {
-    "title": "循序渐进学加密",
-    "description": "还记得上初二的那年夏天，班里来了一个新同学，他就住在我家对面的楼里，于是我们一起上学放学，很快便成了最要好的朋友。我们决定发明一套神秘的沟通方式，任何人看到都不可能猜到它的真实含义。我们第一个想到...",
-    "url": "https://segmentfault.com/a/1190000019437132",
-    "author": "张京",
-    "home_url": "https://segmentfault.com/u/fengerzh",
-    "votes": "46",
+    "votes": "53",
     "rank": 10
   },
   {
-    "title": "深入理解Java虚拟机（自动内存管理机制）",
-    "description": "书籍真的是常读常新，古人说「书读百遍其义自见」还是蛮有道理的。周志明老师的这本《深入理解 Java 虚拟机》我细读了不下三遍，每一次阅读都有新的收获，每一次阅读对 Java 虚拟机的理解就更进一步。因而萌生了...",
-    "url": "https://segmentfault.com/a/1190000019457660",
-    "author": "BaronZhang",
-    "home_url": "https://segmentfault.com/u/baron",
-    "votes": "2",
+    "title": "Vant 2.0 发布：持之以恒，不乱节奏",
+    "description": "持之以恒，不乱节奏，对于长期作业实在至为重要。一旦节奏得以设定，其余的问题便可迎刃而解。 -- 村上春树",
+    "url": "https://segmentfault.com/a/1190000019465448",
+    "author": "有赞技术",
+    "home_url": "https://segmentfault.com/u/youzantech",
+    "votes": "6",
     "rank": 11
-  },
-  {
-    "title": "实现图片恒定宽高比的属性 — intrinsicsize",
-    "description": "开发中可能会遇到这样的需求：一个响应式页面，它的图片宽度是随页面大小变化的，并且图片高度和宽度要保持固定的比率。（这里假设图片是<img>元素，不是作为background，页面上要显示图片的宽高比与图片本...",
-    "url": "https://segmentfault.com/a/1190000019437573",
-    "author": "vczhan",
-    "home_url": "https://segmentfault.com/u/eq",
-    "votes": "17",
-    "rank": 12
-  },
-  {
-    "title": "typescript 高级技巧",
-    "description": "用了一段时间的 typescript 之后，深感中大型项目中 typescript 的必要性，它能够提前在编译期避免许多 bug，如很恶心的拼写问题。而越来越多的 package 也开始使用 ts，学习 ts 已是势在必行。",
-    "url": "https://segmentfault.com/a/1190000019449565",
-    "author": "shanyue",
-    "home_url": "https://segmentfault.com/u/xiange",
-    "votes": "10",
-    "rank": 13
-  },
-  {
-    "title": "模拟 vue3.0 rfcs `createComponent` api 中的`props`类型推导",
-    "description": "rfc 中类型推导部分 Type Inference 预期想实现的效果 {代码...} String -> string 、 Number -> number 、 Boolean -> boolean 在 ts 中 String对应的类型是StringConstructor Number对应的类型是Numbe...",
-    "url": "https://segmentfault.com/a/1190000019457171",
-    "author": "命理难说",
-    "home_url": "https://segmentfault.com/u/minglinanshuo",
-    "votes": "1",
-    "rank": 14
-  },
-  {
-    "title": "使用CSS创建一个炫酷的球体动画效果",
-    "description": "我最近看到了一个纯CSS实现的球体动画效果： 经过研究上面的效果实现起来大致可以分为五个步骤，下面就来一一介绍。 1.使用Jade和SCSS生成一个圆圈 创建一个圆圈的第一步是生成所有组成圆圈的粒子。有了Jade，我...",
-    "url": "https://segmentfault.com/a/1190000019439020",
-    "author": "果冻",
-    "home_url": "https://segmentfault.com/u/guodong_589c0897bd203",
-    "votes": "25",
-    "rank": 15
-  },
-  {
-    "title": "CSS :placeholder-shown伪类实现输入框浮动文字效果",
-    "description": "在这篇文章中，我们将使用:placeholder-shown伪类创建一个浮动的问题标签效果，使用纯CSS实现。",
-    "url": "https://segmentfault.com/a/1190000019452616",
-    "author": "果冻",
-    "home_url": "https://segmentfault.com/u/guodong_589c0897bd203",
-    "votes": "5",
-    "rank": 16
   },
   {
     "title": "设计模式之观察者模式与发布订阅模式",
@@ -149,44 +104,44 @@
     "url": "https://segmentfault.com/a/1190000019440306",
     "author": "Aaron",
     "home_url": "https://segmentfault.com/u/aaron_59f5c5ee0c93f",
-    "votes": "17",
-    "rank": 17
+    "votes": "21",
+    "rank": 12
   },
   {
-    "title": "前端解决第三方图片防盗链的办法 - html referrer 访问图片资源403问题",
-    "description": "笔者网站的图片都是上传到第三方网站上的，比如 简书、掘金、七牛云上的，但是最近简书和掘金都开启了 防盗链，防止其他网站访问他们网站上的图片了，导致笔者的网站存在他们网站上的图片全挂了。",
-    "url": "https://segmentfault.com/a/1190000019425093",
-    "author": "夜尽天明",
-    "home_url": "https://segmentfault.com/u/biaochenxuying",
-    "votes": "15",
-    "rank": 18
+    "title": "循序渐进学加密",
+    "description": "还记得上初二的那年夏天，班里来了一个新同学，他就住在我家对面的楼里，于是我们一起上学放学，很快便成了最要好的朋友。我们决定发明一套神秘的沟通方式，任何人看到都不可能猜到它的真实含义。我们第一个想到...",
+    "url": "https://segmentfault.com/a/1190000019437132",
+    "author": "张京",
+    "home_url": "https://segmentfault.com/u/fengerzh",
+    "votes": "56",
+    "rank": 13
   },
   {
-    "title": "package.json 中 你还不清楚的 browser，module，main 字段优先级",
-    "description": "前端开发中使用到 npm 包那可算是家常便饭，而使用到 npm 包总免不了接触到 package.json 包配置文件。",
-    "url": "https://segmentfault.com/a/1190000019438150",
-    "author": "微雨微语",
-    "home_url": "https://segmentfault.com/u/weiyuweiyu",
-    "votes": "18",
-    "rank": 19
+    "title": "实现平滑过渡的拖拽排序",
+    "description": "最近重读Vue官方文档，在列表的排序过渡这一小节，文档提到，<transition-group> 组件有一个特殊的地方，不仅可以实现进入和离开动画，还可以改变定位，官网示例如下：",
+    "url": "https://segmentfault.com/a/1190000019454559",
+    "author": "羊羊羊",
+    "home_url": "https://segmentfault.com/u/yangyangyang_5a40a55dd0ed3",
+    "votes": "22",
+    "rank": 14
   },
   {
-    "title": "Go配置文件热加载 - 发送系统信号",
-    "description": "在日常项目的开发中，我们经常会使用配置文件来保存项目的基本元数据，配置文件的类型有很多，如：JSON、xml、yaml、甚至可能是个纯文本格式的文件。不管是什么类型的配置数据，在某些场景下，我们可会有热更新当...",
-    "url": "https://segmentfault.com/a/1190000019436438",
-    "author": "360技术",
-    "home_url": "https://segmentfault.com/u/360jishu",
-    "votes": "18",
-    "rank": 20
+    "title": "JavaScript 的简洁之道",
+    "description": "如果你关注代码本身和代码的编写方式，而不是只关心它是否能工作，那么你写代码是有一定的水准。专业开发人员将为未来的自己和“其他人”编写代码，而不仅仅只编写当前能工作就行的代码。",
+    "url": "https://segmentfault.com/a/1190000019400316",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "28",
+    "rank": 15
   },
   {
-    "title": "2019年前端面试题-03",
-    "description": "let与var的区别？ Let为ES6新添加申明变量的命令，它类似于var，但是有以下不同： 1、var声明的变量，其作用域为该语句所在的函数内，且存在变量提升现象 2、let声明的变量，其作用域为该语句所在的代码块内，不...",
-    "url": "https://segmentfault.com/a/1190000019418068",
-    "author": "云鱼Cloudy",
-    "home_url": "https://segmentfault.com/u/cloudyttt",
-    "votes": "34",
-    "rank": 21
+    "title": "PHP 实现压缩解压操作",
+    "description": "在php中，有时我们需要使用到压缩文件操作，压缩文件可以节省磁盘空间；且压缩文件更小，便于网络传输，效率高，下面我们就来了解php的压缩解压相关操作",
+    "url": "https://segmentfault.com/a/1190000019468670",
+    "author": "huaweichenai",
+    "home_url": "https://segmentfault.com/u/huaweichenai",
+    "votes": "3",
+    "rank": 16
   },
   {
     "title": "Git常用命令小结",
@@ -194,44 +149,98 @@
     "url": "https://segmentfault.com/a/1190000019429417",
     "author": "云鱼Cloudy",
     "home_url": "https://segmentfault.com/u/cloudyttt",
-    "votes": "30",
+    "votes": "32",
+    "rank": 17
+  },
+  {
+    "title": "技术选型之Docker容器引擎",
+    "description": "最近对Docker和Kubernetes进行了一番学习，前两天做了一次技术分享，回去听了一遍自己演讲的录音，发现单单PPT做好还是远远不够的，没有提前准备好逻辑严谨的讲稿，在讲的时候出现了卡壳、漏掉技术点、逻辑矛盾的...",
+    "url": "https://segmentfault.com/a/1190000019462392",
+    "author": "huashiou",
+    "home_url": "https://segmentfault.com/u/huashiou",
+    "votes": "11",
+    "rank": 18
+  },
+  {
+    "title": "js异步从入门到放弃(实践篇) — 常见写法&面试题解析",
+    "description": "该系列下的前几篇文章分别对不同的几种异步方案原理进行解析，本文将介绍一些实际场景和一些常见的面试题。(积累不太够，后面想到再补)",
+    "url": "https://segmentfault.com/a/1190000019466014",
+    "author": "安歌",
+    "home_url": "https://segmentfault.com/u/linlinma",
+    "votes": "5",
+    "rank": 19
+  },
+  {
+    "title": "2019年前端面试题-03",
+    "description": "let与var的区别？ Let为ES6新添加申明变量的命令，它类似于var，但是有以下不同： 1、var声明的变量，其作用域为该语句所在的函数内，且存在变量提升现象 2、let声明的变量，其作用域为该语句所在的代码块内，不...",
+    "url": "https://segmentfault.com/a/1190000019418068",
+    "author": "云鱼Cloudy",
+    "home_url": "https://segmentfault.com/u/cloudyttt",
+    "votes": "35",
+    "rank": 20
+  },
+  {
+    "title": "JavaScript混淆安全加固",
+    "description": "在安全攻防战场中，前端代码都是公开的，那么对前端进行加密有意义吗？可能大部分人的回答是，毫无意义，不要自创加密算法，直接用HTTPS吧。但事实上，即使不了解密码学，也应知道是有意义的，因为加密前和解密后...",
+    "url": "https://segmentfault.com/a/1190000019423501",
+    "author": "_杨溜溜",
+    "home_url": "https://segmentfault.com/u/_yangliuliu",
+    "votes": "19",
+    "rank": 21
+  },
+  {
+    "title": "五年从P5到P8，在阿里学做个靠谱的人",
+    "description": "师兄文化，是阿里的老传统，新人入职都要认个师兄。 不是江湖上这种师兄哈，但帅是一样帅的 今天和大家聊聊我在阿里当师兄的故事。 我是“改之”，不是“有则改之无则加勉”的改之，而是“杨过，字改之”的那个改之。 ...",
+    "url": "https://segmentfault.com/a/1190000019469288",
+    "author": "阿里云云栖社区",
+    "home_url": "https://segmentfault.com/u/yunqishequ_5aa899aad5395",
+    "votes": "2",
     "rank": 22
   },
   {
-    "title": "Node.js运行原理、高并发性能测试对比及生态圈汇总",
-    "description": "Node.js是一个事件驱动I/O服务端JavaScript环境，基于Google的V8引擎，V8引擎执行Javascript的速度非常快，性能非常好",
-    "url": "https://segmentfault.com/a/1190000019425388",
-    "author": "Peter谭金杰",
-    "home_url": "https://segmentfault.com/u/jerrytanjinjie",
-    "votes": "23",
+    "title": "实现图片恒定宽高比的属性 — intrinsicsize",
+    "description": "开发中可能会遇到这样的需求：一个响应式页面，它的图片宽度是随页面大小变化的，并且图片高度和宽度要保持固定的比率。（这里假设图片是<img>元素，不是作为background，页面上要显示图片的宽高比与图片本...",
+    "url": "https://segmentfault.com/a/1190000019437573",
+    "author": "vczhan",
+    "home_url": "https://segmentfault.com/u/eq",
+    "votes": "20",
     "rank": 23
   },
   {
-    "title": "新的 Vue Function-based API 当中的看到的 Clojure 的影子",
-    "description": "这次 Vue 大会看到了 Vue 新的 API 设计, 中间有一些觉得眼熟的写法,后面也看到了工业聚的一些解读, 大致知道是什么样的用法吧..当然现场演讲过 Vue 具体实现的优化是更复杂的, 比这个 API 要多..",
-    "url": "https://segmentfault.com/a/1190000019455310",
-    "author": "题叶",
-    "home_url": "https://segmentfault.com/u/jiyinyiyong",
-    "votes": "1",
+    "title": "掌握 Javascript 类型转换：隐式转换救救孩子",
+    "description": "在上一篇中我们聊过了 JS 类型转换的规则和我发现的一些常见书籍中关于类型转换的一些小错误，当碰到显示类型转换的时候大家可以按照这些规则去拆解出答案。但 JS 中存在一些很隐晦的隐式类型转换，这一篇就来谈...",
+    "url": "https://segmentfault.com/a/1190000019464533",
+    "author": "deepfunc",
+    "home_url": "https://segmentfault.com/u/deepfunc",
+    "votes": "3",
     "rank": 24
   },
   {
-    "title": "git完整总结",
-    "description": "本地库 通过命令 git init 把这个目录变成git可以管理的仓库 git 本地工作流程 git的工作流程一般是这样的： １、在工作目录中添加、修改文件； ２、将需要进行版本管理的文件放入暂存区域； ３、将暂存区域的文...",
-    "url": "https://segmentfault.com/a/1190000019438610",
-    "author": "zhouzhou",
-    "home_url": "https://segmentfault.com/u/zhouzhou_58b5327535e9d",
-    "votes": "16",
+    "title": "『浅入深出』MySQL 中事务的实现",
+    "description": "在关系型数据库中，事务的重要性不言而喻，只要对数据库稍有了解的人都知道事务具有 ACID 四个基本属性，而我们不知道的可能就是数据库是如何实现这四个属性的；在这篇文章中，我们将对事务的实现进行分析，尝试...",
+    "url": "https://segmentfault.com/a/1190000019466389",
+    "author": "leo_su",
+    "home_url": "https://segmentfault.com/u/leo_su",
+    "votes": "4",
     "rank": 25
   },
   {
-    "title": "SG ：一个简单的PHP语法糖扩展",
-    "description": "奇技指南语法糖往往给程序员提供了更实用的编码方式，可以使代码更简洁流畅，语义更自然。本文介绍笔者自己写的PHP语法糖扩展，扩展了一种全新的PHP超全局变量获取方式。本文作者范家鹏，360技术委员会--WEB服务...",
-    "url": "https://segmentfault.com/a/1190000019436481",
-    "author": "360技术",
-    "home_url": "https://segmentfault.com/u/360jishu",
-    "votes": "16",
+    "title": "使用CSS创建一个炫酷的球体动画效果",
+    "description": "我最近看到了一个纯CSS实现的球体动画效果： 经过研究上面的效果实现起来大致可以分为五个步骤，下面就来一一介绍。 1.使用Jade和SCSS生成一个圆圈 创建一个圆圈的第一步是生成所有组成圆圈的粒子。有了Jade，我...",
+    "url": "https://segmentfault.com/a/1190000019439020",
+    "author": "果冻",
+    "home_url": "https://segmentfault.com/u/guodong_589c0897bd203",
+    "votes": "27",
     "rank": 26
+  },
+  {
+    "title": "React 新特性讲解及实例(一)",
+    "description": "本节主要讲解以下几个新的特性： Context ContextType lazy Suspense 错误边界（Error boundaries） memo 想阅读更多优质文章请猛戳GitHub博客,一年百来篇优质文章等着你！ Context 定义：Context 提供了一种方式...",
+    "url": "https://segmentfault.com/a/1190000019414243",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "14",
+    "rank": 27
   },
   {
     "title": "Redis专题(2)：Redis数据结构底层探秘",
@@ -239,34 +248,25 @@
     "url": "https://segmentfault.com/a/1190000019441134",
     "author": "宜信技术学院",
     "home_url": "https://segmentfault.com/u/gaoleihan",
-    "votes": "4",
-    "rank": 27
-  },
-  {
-    "title": "从零开始，手写一个简易的Virtual DOM",
-    "description": "众所周知，对前端而言，直接操作 DOM 是一件及其耗费性能的事情，以 React 和 Vue 为代表的众多框架普遍采用 Virtual DOM 来解决如今愈发复杂 Web 应用中状态频繁发生变化导致的频繁更新 DOM 的性能问题。本文为...",
-    "url": "https://segmentfault.com/a/1190000019425098",
-    "author": "counterxing",
-    "home_url": "https://segmentfault.com/u/xingbofengfe",
-    "votes": "22",
+    "votes": "6",
     "rank": 28
   },
   {
-    "title": "Vue 实现前进刷新，后退不刷新的效果",
-    "description": "在一个列表页中，第一次进入的时候，请求获取数据。点击某个列表项，跳到详情页，再从详情页后退回到列表页时，不刷新。也就是说从其他页面进到列表页，需要刷新获取数据，从详情页返回到列表页时不要刷新。",
-    "url": "https://segmentfault.com/a/1190000019414890",
-    "author": "woai3c",
-    "home_url": "https://segmentfault.com/u/woai3c",
-    "votes": "43",
+    "title": "GraphQL一个简单的入门示例",
+    "description": "本文首发于个人博客 目录 什么是GraphQL 解决了什么问题 GraphQL一个简单的入门示例 什么是GraphQL 官方文档定义：一种用于API的查询语言， Graph + Query有以下特点 请求你所要的数据不多不少 获取多个资源只用...",
+    "url": "https://segmentfault.com/a/1190000019448573",
+    "author": "funnycoderstar",
+    "home_url": "https://segmentfault.com/u/funnycoderstar",
+    "votes": "7",
     "rank": 29
   },
   {
-    "title": "在Vue中用canvas实现二维码和图片合成海报",
-    "description": "在项目中经常会遇到需要将不同的二维码放到一张通用图片上，提供用户下载简单来说，就是利用canvas将同等比例的二维码在图片上叠加，生成海报",
-    "url": "https://segmentfault.com/a/1190000019429702",
-    "author": "Shyla",
-    "home_url": "https://segmentfault.com/u/xiaoniezi",
-    "votes": "17",
+    "title": "Go配置文件热加载 - 发送系统信号",
+    "description": "在日常项目的开发中，我们经常会使用配置文件来保存项目的基本元数据，配置文件的类型有很多，如：JSON、xml、yaml、甚至可能是个纯文本格式的文件。不管是什么类型的配置数据，在某些场景下，我们可会有热更新当...",
+    "url": "https://segmentfault.com/a/1190000019436438",
+    "author": "360技术",
+    "home_url": "https://segmentfault.com/u/360jishu",
+    "votes": "21",
     "rank": 30
   }
 ]
