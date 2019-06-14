@@ -9,21 +9,21 @@
     "rank": 1
   },
   {
+    "title": "JavaScript系列--浅析原型链与继承",
+    "description": "继承是面向对象（OOP）语言中的一个最为人津津乐道的概念。许多面对对象（OOP）语言都支持两种继承方式:：接口继承 和 实现继承 。",
+    "url": "https://segmentfault.com/a/1190000019480355",
+    "author": "saucxs",
+    "home_url": "https://segmentfault.com/u/saucxs",
+    "votes": "8",
+    "rank": 2
+  },
+  {
     "title": "手把教你搭建SSR(vue/vue-cli + express)",
     "description": "最近简单的研究了一下SSR，对SSR已经有了一个简单的认知，主要应用于单页面应用，Nuxt是SSR很不错的框架。也有过调研，简单的用了一下，感觉还是很不错。但是还是想知道若不依赖于框架又应该如果处理SSR,研究一下...",
     "url": "https://segmentfault.com/a/1190000019462324",
     "author": "Aaron",
     "home_url": "https://segmentfault.com/u/aaron_59f5c5ee0c93f",
     "votes": "28",
-    "rank": 2
-  },
-  {
-    "title": "JavaScript系列--浅析原型链与继承",
-    "description": "继承是面向对象（OOP）语言中的一个最为人津津乐道的概念。许多面对对象（OOP）语言都支持两种继承方式:：接口继承 和 实现继承 。",
-    "url": "https://segmentfault.com/a/1190000019480355",
-    "author": "saucxs",
-    "home_url": "https://segmentfault.com/u/saucxs",
-    "votes": "7",
     "rank": 3
   },
   {
@@ -50,7 +50,7 @@
     "url": "https://segmentfault.com/a/1190000019466160",
     "author": "林水溶",
     "home_url": "https://segmentfault.com/u/shuirong1997",
-    "votes": "34",
+    "votes": "35",
     "rank": 6
   },
   {
@@ -68,8 +68,17 @@
     "url": "https://segmentfault.com/a/1190000019459429",
     "author": "酱菜豪",
     "home_url": "https://segmentfault.com/u/haohao_5b5339d296ecb",
-    "votes": "53",
+    "votes": "54",
     "rank": 8
+  },
+  {
+    "title": "有赞云如何支持多语言",
+    "description": "有赞是Saas公司，向商家提供了全方位的软件服务，支撑商家进行采购、店铺、商品、营销、订单、物流等等管理服务。",
+    "url": "https://segmentfault.com/a/1190000019483954",
+    "author": "有赞技术",
+    "home_url": "https://segmentfault.com/u/youzantech",
+    "votes": "2",
+    "rank": 9
   },
   {
     "title": "Vue+Node+高德地图+Echart做一款出行可视化全栈webapp",
@@ -77,8 +86,8 @@
     "url": "https://segmentfault.com/a/1190000019419885",
     "author": "小健",
     "home_url": "https://segmentfault.com/u/wangwenjian1995",
-    "votes": "134",
-    "rank": 9
+    "votes": "135",
+    "rank": 10
   },
   {
     "title": "webpack4大结局：加入腾讯IM配置策略，实现前端工程化环境极致优化",
@@ -87,7 +96,7 @@
     "author": "Peter谭金杰",
     "home_url": "https://segmentfault.com/u/jerrytanjinjie",
     "votes": "36",
-    "rank": 10
+    "rank": 11
   },
   {
     "title": "设计模式之观察者模式与发布订阅模式",
@@ -96,15 +105,6 @@
     "author": "Aaron",
     "home_url": "https://segmentfault.com/u/aaron_59f5c5ee0c93f",
     "votes": "25",
-    "rank": 11
-  },
-  {
-    "title": "一文读懂 IPv4 到 IPv6 的过渡技术",
-    "description": "在介绍 IPv4 到 IPv6 过渡技术之前，我们先来简单了解一下 IPv4 和 IPv6。什么是 IPv4？IPv4 全称为 Internet Protocol version 4，它为互联网上的每一个网络和每一台主机分配一个逻辑地址，IP 地址是一个 32 位...",
-    "url": "https://segmentfault.com/a/1190000019480145",
-    "author": "云叔_又拍云",
-    "home_url": "https://segmentfault.com/u/yunshu_blog",
-    "votes": "8",
     "rank": 12
   },
   {
@@ -135,30 +135,30 @@
     "rank": 15
   },
   {
+    "title": "一文读懂 IPv4 到 IPv6 的过渡技术",
+    "description": "在介绍 IPv4 到 IPv6 过渡技术之前，我们先来简单了解一下 IPv4 和 IPv6。什么是 IPv4？IPv4 全称为 Internet Protocol version 4，它为互联网上的每一个网络和每一台主机分配一个逻辑地址，IP 地址是一个 32 位...",
+    "url": "https://segmentfault.com/a/1190000019480145",
+    "author": "云叔_又拍云",
+    "home_url": "https://segmentfault.com/u/yunshu_blog",
+    "votes": "8",
+    "rank": 16
+  },
+  {
     "title": "摆脱客户端？网页发起直播势在必行！",
     "description": "近几年直播行业飞速发展，但是由于Web端这方面功能的长时间缺失，使得直播端以客户端为主；WebRTC 的出现使得网页也可以成为直播端。那么究竟WebRTC是什么呢？",
     "url": "https://segmentfault.com/a/1190000019471730",
     "author": "红领巾",
     "home_url": "https://segmentfault.com/u/honglingjin_5d021c3150b96",
     "votes": "10",
-    "rank": 16
-  },
-  {
-    "title": "优秀工程师必备的一项技能，你解锁了吗？",
-    "description": "阿里妹导读：很多程序员在工作一段时间后会遇到迷茫期，虽有技术傍身，也难免会产生焦虑，反复思考怎样才能快速成长。关于如何提高自己的思考力，运用思考的力量推动能力提升，以此实现技术成长，阿里巴巴盒马产...",
-    "url": "https://segmentfault.com/a/1190000019483865",
-    "author": "阿里云云栖社区",
-    "home_url": "https://segmentfault.com/u/yunqishequ_5aa899aad5395",
-    "votes": "2",
     "rank": 17
   },
   {
-    "title": "history和hash，vue-router",
-    "description": "window.history(可直接写成history)指向History对象，它表示当前窗口的浏览历史。History对象保存了当前窗口访问过的所有页面网址",
-    "url": "https://segmentfault.com/a/1190000019483158",
-    "author": "crystal",
-    "home_url": "https://segmentfault.com/u/crystal_5c98730d4620c",
-    "votes": "2",
+    "title": "CSS没有边界的裁剪路径 - Clip Paths",
+    "description": "随着浏览器对shape-outside和clip-path等属性的支持增加，CSS Shapes越来越受到关注。有几种方法可以使用CSS Shapes，特别是clip-path属性，乍一看我们并不知道这个属性如何使用，下面就来详细的介绍它。",
+    "url": "https://segmentfault.com/a/1190000019462933",
+    "author": "果冻",
+    "home_url": "https://segmentfault.com/u/guodong_589c0897bd203",
+    "votes": "15",
     "rank": 18
   },
   {
@@ -171,12 +171,12 @@
     "rank": 19
   },
   {
-    "title": "CSS没有边界的裁剪路径 - Clip Paths",
-    "description": "随着浏览器对shape-outside和clip-path等属性的支持增加，CSS Shapes越来越受到关注。有几种方法可以使用CSS Shapes，特别是clip-path属性，乍一看我们并不知道这个属性如何使用，下面就来详细的介绍它。",
-    "url": "https://segmentfault.com/a/1190000019462933",
-    "author": "果冻",
-    "home_url": "https://segmentfault.com/u/guodong_589c0897bd203",
-    "votes": "15",
+    "title": "实现平滑过渡的拖拽排序",
+    "description": "最近重读Vue官方文档，在列表的排序过渡这一小节，文档提到，<transition-group> 组件有一个特殊的地方，不仅可以实现进入和离开动画，还可以改变定位，官网示例如下：",
+    "url": "https://segmentfault.com/a/1190000019454559",
+    "author": "羊羊羊",
+    "home_url": "https://segmentfault.com/u/yangyangyang_5a40a55dd0ed3",
+    "votes": "28",
     "rank": 20
   },
   {
@@ -185,17 +185,26 @@
     "url": "https://segmentfault.com/a/1190000019475551",
     "author": "siberiawolf",
     "home_url": "https://segmentfault.com/u/siberiawolf",
-    "votes": "4",
+    "votes": "5",
     "rank": 21
   },
   {
-    "title": "实现平滑过渡的拖拽排序",
-    "description": "最近重读Vue官方文档，在列表的排序过渡这一小节，文档提到，<transition-group> 组件有一个特殊的地方，不仅可以实现进入和离开动画，还可以改变定位，官网示例如下：",
-    "url": "https://segmentfault.com/a/1190000019454559",
-    "author": "羊羊羊",
-    "home_url": "https://segmentfault.com/u/yangyangyang_5a40a55dd0ed3",
-    "votes": "28",
+    "title": "优秀工程师必备的一项技能，你解锁了吗？",
+    "description": "阿里妹导读：很多程序员在工作一段时间后会遇到迷茫期，虽有技术傍身，也难免会产生焦虑，反复思考怎样才能快速成长。关于如何提高自己的思考力，运用思考的力量推动能力提升，以此实现技术成长，阿里巴巴盒马产...",
+    "url": "https://segmentfault.com/a/1190000019483865",
+    "author": "阿里云云栖社区",
+    "home_url": "https://segmentfault.com/u/yunqishequ_5aa899aad5395",
+    "votes": "2",
     "rank": 22
+  },
+  {
+    "title": "history和hash，vue-router",
+    "description": "window.history(可直接写成history)指向History对象，它表示当前窗口的浏览历史。History对象保存了当前窗口访问过的所有页面网址",
+    "url": "https://segmentfault.com/a/1190000019483158",
+    "author": "crystal",
+    "home_url": "https://segmentfault.com/u/crystal_5c98730d4620c",
+    "votes": "2",
+    "rank": 23
   },
   {
     "title": "开发一个简单的 Vue 弹窗组件",
@@ -203,16 +212,7 @@
     "url": "https://segmentfault.com/a/1190000019480688",
     "author": "woai3c",
     "home_url": "https://segmentfault.com/u/woai3c",
-    "votes": "3",
-    "rank": 23
-  },
-  {
-    "title": "实现node日志管理",
-    "description": "第一次写node项目，之前除了前端的脚手架构建接触过一些简单的，所以总是碰到很多坑。比如权限验证，比如异常处理，比如日志管理。在看log4js使用方法的时候突然想到自己就可以实现简单的业务，不需要借助组件，...",
-    "url": "https://segmentfault.com/a/1190000019482834",
-    "author": "我在长安长安",
-    "home_url": "https://segmentfault.com/u/wozaichanganchangan",
-    "votes": "3",
+    "votes": "4",
     "rank": 24
   },
   {
@@ -234,13 +234,22 @@
     "rank": 26
   },
   {
+    "title": "实现node日志管理",
+    "description": "第一次写node项目，之前除了前端的脚手架构建接触过一些简单的，所以总是碰到很多坑。比如权限验证，比如异常处理，比如日志管理。在看log4js使用方法的时候突然想到自己就可以实现简单的业务，不需要借助组件，...",
+    "url": "https://segmentfault.com/a/1190000019482834",
+    "author": "我在长安长安",
+    "home_url": "https://segmentfault.com/u/wozaichanganchangan",
+    "votes": "3",
+    "rank": 27
+  },
+  {
     "title": "2019年前端面试题-03",
     "description": "let与var的区别？ Let为ES6新添加申明变量的命令，它类似于var，但是有以下不同： 1、var声明的变量，其作用域为该语句所在的函数内，且存在变量提升现象 2、let声明的变量，其作用域为该语句所在的代码块内，不...",
     "url": "https://segmentfault.com/a/1190000019418068",
     "author": "云鱼Cloudy",
     "home_url": "https://segmentfault.com/u/cloudyttt",
     "votes": "38",
-    "rank": 27
+    "rank": 28
   },
   {
     "title": "Git常用命令小结",
@@ -249,15 +258,6 @@
     "author": "云鱼Cloudy",
     "home_url": "https://segmentfault.com/u/cloudyttt",
     "votes": "35",
-    "rank": 28
-  },
-  {
-    "title": "有赞云如何支持多语言",
-    "description": "有赞是Saas公司，向商家提供了全方位的软件服务，支撑商家进行采购、店铺、商品、营销、订单、物流等等管理服务。",
-    "url": "https://segmentfault.com/a/1190000019483954",
-    "author": "有赞技术",
-    "home_url": "https://segmentfault.com/u/youzantech",
-    "votes": "2",
     "rank": 29
   }
 ]
