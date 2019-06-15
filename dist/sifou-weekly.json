@@ -1,21 +1,39 @@
 [
   {
+    "title": "【译】使用 React，TypeScript 和 Webpack 开始一个项目",
+    "description": "我会通过这篇文章，为大家讲述，如何使用 React，TypeScript 和 Webpack 来构建一个项目。",
+    "url": "https://segmentfault.com/a/1190000019489612",
+    "author": "joking_zhang",
+    "home_url": "https://segmentfault.com/u/joking_zhang",
+    "votes": "3",
+    "rank": 1
+  },
+  {
+    "title": "强烈推荐 GitHub 上值得前端学习的开源实战项目",
+    "description": "强烈推荐 GitHub 上值得前端学习的开源实战项目。 Vue.js vue-element-admin 是一个后台前端解决方案，它基于和 element-ui 实现 基于 iView 的 Vue 2.0 管理系统模板 基于 vue2 + vuex 构建一个具有 45 个页面的...",
+    "url": "https://segmentfault.com/a/1190000019488576",
+    "author": "夜尽天明",
+    "home_url": "https://segmentfault.com/u/biaochenxuying",
+    "votes": "14",
+    "rank": 2
+  },
+  {
     "title": "实用Javascript调试技巧分享",
     "description": "见过太多同学调试Javascript只会用简单的console.log甚至alert，看着真为他们捉鸡。。因为大多数同学追求优雅而高效地写代码，却忽略了如何优雅而高效地调试代码，不得不说是有点“偏科”了。下面我就分享一些实用...",
     "url": "https://segmentfault.com/a/1190000019474390",
     "author": "MudOnTire",
     "home_url": "https://segmentfault.com/u/mudontire",
-    "votes": "85",
-    "rank": 1
+    "votes": "105",
+    "rank": 3
   },
   {
-    "title": "JavaScript系列--浅析原型链与继承",
-    "description": "继承是面向对象（OOP）语言中的一个最为人津津乐道的概念。许多面对对象（OOP）语言都支持两种继承方式:：接口继承 和 实现继承 。",
-    "url": "https://segmentfault.com/a/1190000019480355",
-    "author": "saucxs",
-    "home_url": "https://segmentfault.com/u/saucxs",
-    "votes": "8",
-    "rank": 2
+    "title": "重构的基本认知",
+    "description": "代码不可能在第一次就写得完美，这是一个持续修改的过程，那么应该怎么来进行呢？以下内容来自《重构-改善既有代码的设计》",
+    "url": "https://segmentfault.com/a/1190000019489667",
+    "author": "桃源小盼",
+    "home_url": "https://segmentfault.com/u/tyxp",
+    "votes": "1",
+    "rank": 4
   },
   {
     "title": "手把教你搭建SSR(vue/vue-cli + express)",
@@ -23,35 +41,26 @@
     "url": "https://segmentfault.com/a/1190000019462324",
     "author": "Aaron",
     "home_url": "https://segmentfault.com/u/aaron_59f5c5ee0c93f",
-    "votes": "28",
-    "rank": 3
-  },
-  {
-    "title": "开源区块链监控系统， CITA-Monitor 助力运维人员实时把控链的运行状态",
-    "description": "CITA 是秘猿科技从 2016 年就开始研发，2017 年开源的高性能区块链内核。CITA 作为高性能区块链内核，可以用来开发各种联盟链，甚至公有链系统，具有为稳定、高效、灵活、可适应未来等特点。为了降低使用门槛，我...",
-    "url": "https://segmentfault.com/a/1190000019481522",
-    "author": "秘猿科技",
-    "home_url": "https://segmentfault.com/u/cryptape",
-    "votes": "5",
-    "rank": 4
-  },
-  {
-    "title": "2019年前端笔试题",
-    "description": "什么是web标准？WEB标准不是某一个标准，而是一系列标准的集合。网页主要由三部分组成：结构（Structure）、表现（Presentation）和行为 （Behavior）。 对应的标准也分三方面：结构化标准语言主要包括XHTML和XML...",
-    "url": "https://segmentfault.com/a/1190000019465574",
-    "author": "云鱼Cloudy",
-    "home_url": "https://segmentfault.com/u/cloudyttt",
-    "votes": "34",
+    "votes": "29",
     "rank": 5
   },
   {
-    "title": "这就是我的前端学习路线（大事件 + 时间轴倒序）（2016-7 至今）",
-    "description": "关于我 本科在读，大三，16年开始自学前端，兴趣广泛，非常喜欢尝试新东西。 博客 - 关于我：[链接] （比下方纯文字更美观） Github：[链接] 路线（倒序） 【以下是我的前端学习路线，供后人参考！】 2019-6-7：...",
-    "url": "https://segmentfault.com/a/1190000019466160",
-    "author": "林水溶",
-    "home_url": "https://segmentfault.com/u/shuirong1997",
-    "votes": "35",
+    "title": "最简单的vue消息提示全局组件",
+    "description": "简介 实现功能 自定义文本 自定义类型(默认，消息，成功，警告，危险) 自定义过渡时间 使用vue-cli3.0生成项目 toast全局组件编写 /src/toast/toast.vue {代码...} /src/toast/index.js {代码...} 全局注册 /main...",
+    "url": "https://segmentfault.com/a/1190000019487630",
+    "author": "渣渣辉",
+    "home_url": "https://segmentfault.com/u/linxi_59223381a31e3",
+    "votes": "7",
     "rank": 6
+  },
+  {
+    "title": "使用Node.js爬取任意网页资源并输出高质量PDF文件到本地~",
+    "description": "本文适合无论是否有爬虫以及Node.js基础的朋友观看~ 需求： 使用Node.js爬取网页资源，开箱即用的配置 将爬取到的网页内容以PDF格式输出 如果你是一名技术人员，那么可以看我接下来的文章，否则，请直接移步到我...",
+    "url": "https://segmentfault.com/a/1190000019485560",
+    "author": "Peter谭金杰",
+    "home_url": "https://segmentfault.com/u/jerrytanjinjie",
+    "votes": "15",
+    "rank": 7
   },
   {
     "title": "用JS开发跨平台桌面应用，从原理到实践",
@@ -60,7 +69,7 @@
     "author": "ConardLi",
     "home_url": "https://segmentfault.com/u/conardli",
     "votes": "109",
-    "rank": 7
+    "rank": 8
   },
   {
     "title": "尘埃落定——鹅厂暑期实习面经",
@@ -68,26 +77,35 @@
     "url": "https://segmentfault.com/a/1190000019459429",
     "author": "酱菜豪",
     "home_url": "https://segmentfault.com/u/haohao_5b5339d296ecb",
-    "votes": "54",
-    "rank": 8
-  },
-  {
-    "title": "有赞云如何支持多语言",
-    "description": "有赞是Saas公司，向商家提供了全方位的软件服务，支撑商家进行采购、店铺、商品、营销、订单、物流等等管理服务。",
-    "url": "https://segmentfault.com/a/1190000019483954",
-    "author": "有赞技术",
-    "home_url": "https://segmentfault.com/u/youzantech",
-    "votes": "2",
+    "votes": "60",
     "rank": 9
   },
   {
-    "title": "Vue+Node+高德地图+Echart做一款出行可视化全栈webapp",
-    "description": "咔咔出行（出行可视化） 项目简介 解决出行问题，用于出行行程记录，路线规划，数据可视化分析的移动端webapp 点击这里查看该项目 项目截图 私人出行公共交通历史列表我的信息 技术栈 前端：移动端，vue全家桶，M...",
-    "url": "https://segmentfault.com/a/1190000019419885",
-    "author": "小健",
-    "home_url": "https://segmentfault.com/u/wangwenjian1995",
-    "votes": "135",
+    "title": "推荐一些PHP及后端相关的技术博客",
+    "description": "不分先后，想到哪个写哪个的；其他还有 SegementFault, 掘金 这样的综合技术社区，经常有大佬出没。",
+    "url": "https://segmentfault.com/a/1190000019481470",
+    "author": "he_xd",
+    "home_url": "https://segmentfault.com/u/he_xd",
+    "votes": "14",
     "rank": 10
+  },
+  {
+    "title": "2019年前端笔试题",
+    "description": "什么是web标准？WEB标准不是某一个标准，而是一系列标准的集合。网页主要由三部分组成：结构（Structure）、表现（Presentation）和行为 （Behavior）。 对应的标准也分三方面：结构化标准语言主要包括XHTML和XML...",
+    "url": "https://segmentfault.com/a/1190000019465574",
+    "author": "云鱼Cloudy",
+    "home_url": "https://segmentfault.com/u/cloudyttt",
+    "votes": "37",
+    "rank": 11
+  },
+  {
+    "title": "这就是我的前端学习路线（大事件 + 时间轴倒序）（2016-7 至今）",
+    "description": "关于我 本科在读，大三，16年开始自学前端，兴趣广泛，非常喜欢尝试新东西。 博客 - 关于我：[链接] （比下方纯文字更美观） Github：[链接] 路线（倒序） 【以下是我的前端学习路线，供后人参考！】 2019-6-7：...",
+    "url": "https://segmentfault.com/a/1190000019466160",
+    "author": "林水溶",
+    "home_url": "https://segmentfault.com/u/shuirong1997",
+    "votes": "35",
+    "rank": 12
   },
   {
     "title": "webpack4大结局：加入腾讯IM配置策略，实现前端工程化环境极致优化",
@@ -95,17 +113,8 @@
     "url": "https://segmentfault.com/a/1190000019461556",
     "author": "Peter谭金杰",
     "home_url": "https://segmentfault.com/u/jerrytanjinjie",
-    "votes": "36",
-    "rank": 11
-  },
-  {
-    "title": "设计模式之观察者模式与发布订阅模式",
-    "description": "学习了一段时间设计模式，当学到观察者模式和发布订阅模式的时候遇到了很大的问题，这两个模式有点类似，有点傻傻分不清楚，博客起因如此，开始对观察者和发布订阅开始了Google之旅。对整个学习过程做一个简单的...",
-    "url": "https://segmentfault.com/a/1190000019440306",
-    "author": "Aaron",
-    "home_url": "https://segmentfault.com/u/aaron_59f5c5ee0c93f",
-    "votes": "25",
-    "rank": 12
+    "votes": "38",
+    "rank": 13
   },
   {
     "title": "用 Vue 开发自己的 Chrome 扩展程序",
@@ -113,16 +122,7 @@
     "url": "https://segmentfault.com/a/1190000019436268",
     "author": "疯狂的技术宅",
     "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "57",
-    "rank": 13
-  },
-  {
-    "title": "Vue 改变数据，页面不刷新的问题",
-    "description": "最近在用 element-ui 开发一个网站，使用 table 组件时，发现修改完数据，有时候会延迟一两秒，页面才会发生变化。看了一下代码，发现修改数据的代码是这样的",
-    "url": "https://segmentfault.com/a/1190000019470488",
-    "author": "woai3c",
-    "home_url": "https://segmentfault.com/u/woai3c",
-    "votes": "19",
+    "votes": "58",
     "rank": 14
   },
   {
@@ -131,26 +131,35 @@
     "url": "https://segmentfault.com/a/1190000019437132",
     "author": "张京",
     "home_url": "https://segmentfault.com/u/fengerzh",
-    "votes": "64",
+    "votes": "65",
     "rank": 15
   },
   {
-    "title": "一文读懂 IPv4 到 IPv6 的过渡技术",
-    "description": "在介绍 IPv4 到 IPv6 过渡技术之前，我们先来简单了解一下 IPv4 和 IPv6。什么是 IPv4？IPv4 全称为 Internet Protocol version 4，它为互联网上的每一个网络和每一台主机分配一个逻辑地址，IP 地址是一个 32 位...",
-    "url": "https://segmentfault.com/a/1190000019480145",
-    "author": "云叔_又拍云",
-    "home_url": "https://segmentfault.com/u/yunshu_blog",
-    "votes": "8",
+    "title": "技术选型之Docker容器引擎",
+    "description": "最近对Docker和Kubernetes进行了一番学习，前两天做了一次技术分享，回去听了一遍自己演讲的录音，发现单单PPT做好还是远远不够的，没有提前准备好逻辑严谨的讲稿，在讲的时候出现了卡壳、漏掉技术点、逻辑矛盾的...",
+    "url": "https://segmentfault.com/a/1190000019462392",
+    "author": "huashiou",
+    "home_url": "https://segmentfault.com/u/huashiou",
+    "votes": "30",
     "rank": 16
   },
   {
-    "title": "摆脱客户端？网页发起直播势在必行！",
-    "description": "近几年直播行业飞速发展，但是由于Web端这方面功能的长时间缺失，使得直播端以客户端为主；WebRTC 的出现使得网页也可以成为直播端。那么究竟WebRTC是什么呢？",
-    "url": "https://segmentfault.com/a/1190000019471730",
-    "author": "红领巾",
-    "home_url": "https://segmentfault.com/u/honglingjin_5d021c3150b96",
-    "votes": "10",
+    "title": "Vue 改变数据，页面不刷新的问题",
+    "description": "最近在用 element-ui 开发一个网站，使用 table 组件时，发现修改完数据，有时候会延迟一两秒，页面才会发生变化。看了一下代码，发现修改数据的代码是这样的",
+    "url": "https://segmentfault.com/a/1190000019470488",
+    "author": "woai3c",
+    "home_url": "https://segmentfault.com/u/woai3c",
+    "votes": "19",
     "rank": 17
+  },
+  {
+    "title": "设计模式之观察者模式与发布订阅模式",
+    "description": "学习了一段时间设计模式，当学到观察者模式和发布订阅模式的时候遇到了很大的问题，这两个模式有点类似，有点傻傻分不清楚，博客起因如此，开始对观察者和发布订阅开始了Google之旅。对整个学习过程做一个简单的...",
+    "url": "https://segmentfault.com/a/1190000019440306",
+    "author": "Aaron",
+    "home_url": "https://segmentfault.com/u/aaron_59f5c5ee0c93f",
+    "votes": "25",
+    "rank": 18
   },
   {
     "title": "CSS没有边界的裁剪路径 - Clip Paths",
@@ -158,8 +167,8 @@
     "url": "https://segmentfault.com/a/1190000019462933",
     "author": "果冻",
     "home_url": "https://segmentfault.com/u/guodong_589c0897bd203",
-    "votes": "15",
-    "rank": 18
+    "votes": "16",
+    "rank": 19
   },
   {
     "title": "详解 Cookie，Session，Token",
@@ -168,7 +177,34 @@
     "author": "funnycoderstar",
     "home_url": "https://segmentfault.com/u/funnycoderstar",
     "votes": "17",
-    "rank": 19
+    "rank": 20
+  },
+  {
+    "title": "摆脱客户端？网页发起直播势在必行！",
+    "description": "近几年直播行业飞速发展，但是由于Web端这方面功能的长时间缺失，使得直播端以客户端为主；WebRTC 的出现使得网页也可以成为直播端。那么究竟WebRTC是什么呢？",
+    "url": "https://segmentfault.com/a/1190000019471730",
+    "author": "红领巾",
+    "home_url": "https://segmentfault.com/u/honglingjin_5d021c3150b96",
+    "votes": "13",
+    "rank": 21
+  },
+  {
+    "title": "vue微信网页授权最终解决方案",
+    "description": "vue微信网页授权，基于vue-cli3.0+webpack 4+vant ui + sass+ rem适配方案+axios，开发的微信授权方案。项目地址：vue-wechat-auth",
+    "url": "https://segmentfault.com/a/1190000019488056",
+    "author": "乖摸摸头",
+    "home_url": "https://segmentfault.com/u/silent_songs",
+    "votes": "3",
+    "rank": 22
+  },
+  {
+    "title": "JavaScript系列--浅析原型链与继承",
+    "description": "继承是面向对象（OOP）语言中的一个最为人津津乐道的概念。许多面对对象（OOP）语言都支持两种继承方式:：接口继承 和 实现继承 。",
+    "url": "https://segmentfault.com/a/1190000019480355",
+    "author": "saucxs",
+    "home_url": "https://segmentfault.com/u/saucxs",
+    "votes": "9",
+    "rank": 23
   },
   {
     "title": "实现平滑过渡的拖拽排序",
@@ -177,42 +213,6 @@
     "author": "羊羊羊",
     "home_url": "https://segmentfault.com/u/yangyangyang_5a40a55dd0ed3",
     "votes": "28",
-    "rank": 20
-  },
-  {
-    "title": "Visual Studio Code调试PHP",
-    "description": "这两天有点时间，花时间学习了一下PHP基础语法和语句。因为个人比较喜欢Visual Studio Code这款编辑器，所以学习我主要记录一下使用VSCode学习PHP的遇到的一些问题。其中最主要的就是怎样使用VSCode调试PHP代码。",
-    "url": "https://segmentfault.com/a/1190000019475551",
-    "author": "siberiawolf",
-    "home_url": "https://segmentfault.com/u/siberiawolf",
-    "votes": "5",
-    "rank": 21
-  },
-  {
-    "title": "优秀工程师必备的一项技能，你解锁了吗？",
-    "description": "阿里妹导读：很多程序员在工作一段时间后会遇到迷茫期，虽有技术傍身，也难免会产生焦虑，反复思考怎样才能快速成长。关于如何提高自己的思考力，运用思考的力量推动能力提升，以此实现技术成长，阿里巴巴盒马产...",
-    "url": "https://segmentfault.com/a/1190000019483865",
-    "author": "阿里云云栖社区",
-    "home_url": "https://segmentfault.com/u/yunqishequ_5aa899aad5395",
-    "votes": "2",
-    "rank": 22
-  },
-  {
-    "title": "history和hash，vue-router",
-    "description": "window.history(可直接写成history)指向History对象，它表示当前窗口的浏览历史。History对象保存了当前窗口访问过的所有页面网址",
-    "url": "https://segmentfault.com/a/1190000019483158",
-    "author": "crystal",
-    "home_url": "https://segmentfault.com/u/crystal_5c98730d4620c",
-    "votes": "2",
-    "rank": 23
-  },
-  {
-    "title": "开发一个简单的 Vue 弹窗组件",
-    "description": "更多文章 一个弹窗组件通常包含两个部分，分别是遮罩层和内容层。 遮罩层是背景层，一般是半透明或不透明的黑色。 内容层是放我们要展示的内容的容器。 {代码...} 现在弹窗组件的结构已经搭建出来了。 类 modal-b...",
-    "url": "https://segmentfault.com/a/1190000019480688",
-    "author": "woai3c",
-    "home_url": "https://segmentfault.com/u/woai3c",
-    "votes": "4",
     "rank": 24
   },
   {
@@ -221,35 +221,26 @@
     "url": "https://segmentfault.com/a/1190000019400316",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "31",
+    "votes": "32",
     "rank": 25
   },
   {
-    "title": "技术选型之Docker容器引擎",
-    "description": "最近对Docker和Kubernetes进行了一番学习，前两天做了一次技术分享，回去听了一遍自己演讲的录音，发现单单PPT做好还是远远不够的，没有提前准备好逻辑严谨的讲稿，在讲的时候出现了卡壳、漏掉技术点、逻辑矛盾的...",
-    "url": "https://segmentfault.com/a/1190000019462392",
-    "author": "huashiou",
-    "home_url": "https://segmentfault.com/u/huashiou",
-    "votes": "22",
+    "title": "Vant 2.0 发布：持之以恒，不乱节奏",
+    "description": "持之以恒，不乱节奏，对于长期作业实在至为重要。一旦节奏得以设定，其余的问题便可迎刃而解。 -- 村上春树",
+    "url": "https://segmentfault.com/a/1190000019465448",
+    "author": "有赞技术",
+    "home_url": "https://segmentfault.com/u/youzantech",
+    "votes": "12",
     "rank": 26
   },
   {
-    "title": "实现node日志管理",
-    "description": "第一次写node项目，之前除了前端的脚手架构建接触过一些简单的，所以总是碰到很多坑。比如权限验证，比如异常处理，比如日志管理。在看log4js使用方法的时候突然想到自己就可以实现简单的业务，不需要借助组件，...",
-    "url": "https://segmentfault.com/a/1190000019482834",
-    "author": "我在长安长安",
-    "home_url": "https://segmentfault.com/u/wozaichanganchangan",
-    "votes": "3",
+    "title": "详解Vue计算属性和侦听属性",
+    "description": "一些初学者可能对计算属性和侦听属性的使用场景感到困惑不解，本文主要介绍两者的用法、使用场景及其两者的区别。本文的代码请猛戳github博客，纸上得来终觉浅，大家动手多敲敲代码！",
+    "url": "https://segmentfault.com/a/1190000019463967",
+    "author": "浪里行舟",
+    "home_url": "https://segmentfault.com/u/langlixingzhou",
+    "votes": "10",
     "rank": 27
-  },
-  {
-    "title": "2019年前端面试题-03",
-    "description": "let与var的区别？ Let为ES6新添加申明变量的命令，它类似于var，但是有以下不同： 1、var声明的变量，其作用域为该语句所在的函数内，且存在变量提升现象 2、let声明的变量，其作用域为该语句所在的代码块内，不...",
-    "url": "https://segmentfault.com/a/1190000019418068",
-    "author": "云鱼Cloudy",
-    "home_url": "https://segmentfault.com/u/cloudyttt",
-    "votes": "38",
-    "rank": 28
   },
   {
     "title": "Git常用命令小结",
@@ -258,6 +249,15 @@
     "author": "云鱼Cloudy",
     "home_url": "https://segmentfault.com/u/cloudyttt",
     "votes": "35",
+    "rank": 28
+  },
+  {
+    "title": "PHP 并发场景的几种解决方案",
+    "description": "在秒杀，抢购等并发场景下，可能会出现超卖的现象，在PHP语言中并没有原生提供并发的解决方案，因此就需要借助其他方式来实现并发控制。",
+    "url": "https://segmentfault.com/a/1190000019455439",
+    "author": "xiyanghui",
+    "home_url": "https://segmentfault.com/u/xiyanghui",
+    "votes": "18",
     "rank": 29
   }
 ]
