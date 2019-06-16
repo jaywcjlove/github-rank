@@ -1,20 +1,20 @@
 [
   {
-    "title": "【译】使用 React，TypeScript 和 Webpack 开始一个项目",
-    "description": "我会通过这篇文章，为大家讲述，如何使用 React，TypeScript 和 Webpack 来构建一个项目。",
-    "url": "https://segmentfault.com/a/1190000019489612",
-    "author": "joking_zhang",
-    "home_url": "https://segmentfault.com/u/joking_zhang",
-    "votes": "3",
-    "rank": 1
-  },
-  {
     "title": "强烈推荐 GitHub 上值得前端学习的开源实战项目",
     "description": "强烈推荐 GitHub 上值得前端学习的开源实战项目。 Vue.js vue-element-admin 是一个后台前端解决方案，它基于和 element-ui 实现 基于 iView 的 Vue 2.0 管理系统模板 基于 vue2 + vuex 构建一个具有 45 个页面的...",
     "url": "https://segmentfault.com/a/1190000019488576",
     "author": "夜尽天明",
     "home_url": "https://segmentfault.com/u/biaochenxuying",
-    "votes": "14",
+    "votes": "42",
+    "rank": 1
+  },
+  {
+    "title": "[译]带你理解 Async/await",
+    "description": "「async/await」是 promises 的另一种更便捷更流行的写法，同时它也更易于理解和使用。",
+    "url": "https://segmentfault.com/a/1190000019493976",
+    "author": "savokiss",
+    "home_url": "https://segmentfault.com/u/savokiss",
+    "votes": "5",
     "rank": 2
   },
   {
@@ -23,17 +23,44 @@
     "url": "https://segmentfault.com/a/1190000019474390",
     "author": "MudOnTire",
     "home_url": "https://segmentfault.com/u/mudontire",
-    "votes": "105",
+    "votes": "116",
     "rank": 3
   },
   {
-    "title": "重构的基本认知",
-    "description": "代码不可能在第一次就写得完美，这是一个持续修改的过程，那么应该怎么来进行呢？以下内容来自《重构-改善既有代码的设计》",
-    "url": "https://segmentfault.com/a/1190000019489667",
-    "author": "桃源小盼",
-    "home_url": "https://segmentfault.com/u/tyxp",
-    "votes": "1",
+    "title": "Go defer 会有性能损耗，尽量不要用？",
+    "description": "上个月在 @polaris @轩脉刃 的全栈技术群里看到一个小伙伴问 “说 defer 在栈退出时执行，会有性能损耗，尽量不要用，这个怎么解？”。",
+    "url": "https://segmentfault.com/a/1190000019490834",
+    "author": "煎鱼",
+    "home_url": "https://segmentfault.com/u/eddycjy",
+    "votes": "3",
     "rank": 4
+  },
+  {
+    "title": "关于数组中foreach() 、map()、filter()等,以及push(),unshift()等总结",
+    "description": "1.关于数组中foreach() 、map()、filter()、reduce() 、 some()、every()的总结。 1.forEch():遍历数组，不改变原数组，只是遍历 {代码...} 2.map():遍历数组，返回一个新数组，不改变原数组 {代码...} 3.filter(...",
+    "url": "https://segmentfault.com/a/1190000019493469",
+    "author": "harden",
+    "home_url": "https://segmentfault.com/u/harden_5d038df8a012e",
+    "votes": "3",
+    "rank": 5
+  },
+  {
+    "title": "Awesome Data Science in Python | 一文整理Python常用数据科学第三方模块",
+    "description": "1. 机器学习 EDA lantern 特征工程 yellowbrick Featuretools 模型解释 SHAP Lime 通用 Scikit-learn 自动化机器学习 mljar-supervised 2. 统计方法 通用 StatsModels：通用概率派 Scipy：含常见分布、统计量计算...",
+    "url": "https://segmentfault.com/a/1190000019493924",
+    "author": "三次方根",
+    "home_url": "https://segmentfault.com/u/sancifanggen",
+    "votes": "2",
+    "rank": 6
+  },
+  {
+    "title": "用JS开发跨平台桌面应用，从原理到实践",
+    "description": "使用Electron开发客户端程序已经有一段时间了，整体感觉还是非常不错的，其中也遇到了一些坑点，本文是从【运行原理】到【实际应用】对Electron进行一次系统性的总结。【多图，长文预警～】",
+    "url": "https://segmentfault.com/a/1190000019426512",
+    "author": "ConardLi",
+    "home_url": "https://segmentfault.com/u/conardli",
+    "votes": "112",
+    "rank": 7
   },
   {
     "title": "手把教你搭建SSR(vue/vue-cli + express)",
@@ -42,16 +69,7 @@
     "author": "Aaron",
     "home_url": "https://segmentfault.com/u/aaron_59f5c5ee0c93f",
     "votes": "29",
-    "rank": 5
-  },
-  {
-    "title": "最简单的vue消息提示全局组件",
-    "description": "简介 实现功能 自定义文本 自定义类型(默认，消息，成功，警告，危险) 自定义过渡时间 使用vue-cli3.0生成项目 toast全局组件编写 /src/toast/toast.vue {代码...} /src/toast/index.js {代码...} 全局注册 /main...",
-    "url": "https://segmentfault.com/a/1190000019487630",
-    "author": "渣渣辉",
-    "home_url": "https://segmentfault.com/u/linxi_59223381a31e3",
-    "votes": "7",
-    "rank": 6
+    "rank": 8
   },
   {
     "title": "使用Node.js爬取任意网页资源并输出高质量PDF文件到本地~",
@@ -59,17 +77,26 @@
     "url": "https://segmentfault.com/a/1190000019485560",
     "author": "Peter谭金杰",
     "home_url": "https://segmentfault.com/u/jerrytanjinjie",
-    "votes": "15",
-    "rank": 7
+    "votes": "25",
+    "rank": 9
   },
   {
-    "title": "用JS开发跨平台桌面应用，从原理到实践",
-    "description": "使用Electron开发客户端程序已经有一段时间了，整体感觉还是非常不错的，其中也遇到了一些坑点，本文是从【运行原理】到【实际应用】对Electron进行一次系统性的总结。【多图，长文预警～】",
-    "url": "https://segmentfault.com/a/1190000019426512",
-    "author": "ConardLi",
-    "home_url": "https://segmentfault.com/u/conardli",
-    "votes": "109",
-    "rank": 8
+    "title": "「译」什么是抽象语法树",
+    "description": "AST 是抽象语法树的缩写词，表示编程语言的语句和表达式中生成的 token。有了 AST，解释器或编译器就可以生成机器码或者对一条指令求值。",
+    "url": "https://segmentfault.com/a/1190000019491986",
+    "author": "Chor",
+    "home_url": "https://segmentfault.com/u/chor",
+    "votes": "5",
+    "rank": 10
+  },
+  {
+    "title": "基于better-scroll的vue滚动组件",
+    "description": "由于最近一个移动端项目中许多地方有滚动需求, 横向,纵向的都有,所以就基于better-scroll封装了一个通用的滚动组件,期间也踩了一些坑,有时候会滚动失效,初始化的时候就不能滚动等等...better-scroll地址: [链接]",
+    "url": "https://segmentfault.com/a/1190000019493601",
+    "author": "appleguardu",
+    "home_url": "https://segmentfault.com/u/appleguardu",
+    "votes": "3",
+    "rank": 11
   },
   {
     "title": "尘埃落定——鹅厂暑期实习面经",
@@ -77,8 +104,8 @@
     "url": "https://segmentfault.com/a/1190000019459429",
     "author": "酱菜豪",
     "home_url": "https://segmentfault.com/u/haohao_5b5339d296ecb",
-    "votes": "60",
-    "rank": 9
+    "votes": "62",
+    "rank": 12
   },
   {
     "title": "推荐一些PHP及后端相关的技术博客",
@@ -86,8 +113,8 @@
     "url": "https://segmentfault.com/a/1190000019481470",
     "author": "he_xd",
     "home_url": "https://segmentfault.com/u/he_xd",
-    "votes": "14",
-    "rank": 10
+    "votes": "20",
+    "rank": 13
   },
   {
     "title": "2019年前端笔试题",
@@ -95,8 +122,8 @@
     "url": "https://segmentfault.com/a/1190000019465574",
     "author": "云鱼Cloudy",
     "home_url": "https://segmentfault.com/u/cloudyttt",
-    "votes": "37",
-    "rank": 11
+    "votes": "40",
+    "rank": 14
   },
   {
     "title": "这就是我的前端学习路线（大事件 + 时间轴倒序）（2016-7 至今）",
@@ -104,17 +131,8 @@
     "url": "https://segmentfault.com/a/1190000019466160",
     "author": "林水溶",
     "home_url": "https://segmentfault.com/u/shuirong1997",
-    "votes": "35",
-    "rank": 12
-  },
-  {
-    "title": "webpack4大结局：加入腾讯IM配置策略，实现前端工程化环境极致优化",
-    "description": "webpack，打包所有的资源 不知道不觉，webpack已经偷偷更新到4.34版本了,本人决定，这是今年最后一篇写webpack的文章，除非它更新到版本5，本人今年剩下的时间都会放在Golang和二进制数据操作以及后端的生态上 在...",
-    "url": "https://segmentfault.com/a/1190000019461556",
-    "author": "Peter谭金杰",
-    "home_url": "https://segmentfault.com/u/jerrytanjinjie",
-    "votes": "38",
-    "rank": 13
+    "votes": "37",
+    "rank": 15
   },
   {
     "title": "用 Vue 开发自己的 Chrome 扩展程序",
@@ -123,7 +141,7 @@
     "author": "疯狂的技术宅",
     "home_url": "https://segmentfault.com/u/evilboy",
     "votes": "58",
-    "rank": 14
+    "rank": 16
   },
   {
     "title": "循序渐进学加密",
@@ -132,7 +150,25 @@
     "author": "张京",
     "home_url": "https://segmentfault.com/u/fengerzh",
     "votes": "65",
-    "rank": 15
+    "rank": 17
+  },
+  {
+    "title": "最简单的vue消息提示全局组件",
+    "description": "简介 实现功能 自定义文本 自定义类型(默认，消息，成功，警告，危险) 自定义过渡时间 使用vue-cli3.0生成项目 toast全局组件编写 /src/toast/toast.vue {代码...} /src/toast/index.js {代码...} 全局注册 /main...",
+    "url": "https://segmentfault.com/a/1190000019487630",
+    "author": "渣渣辉",
+    "home_url": "https://segmentfault.com/u/linxi_59223381a31e3",
+    "votes": "13",
+    "rank": 18
+  },
+  {
+    "title": "webpack4大结局：加入腾讯IM配置策略，实现前端工程化环境极致优化",
+    "description": "webpack，打包所有的资源 不知道不觉，webpack已经偷偷更新到4.34版本了,本人决定，这是今年最后一篇写webpack的文章，除非它更新到版本5，本人今年剩下的时间都会放在Golang和二进制数据操作以及后端的生态上 在...",
+    "url": "https://segmentfault.com/a/1190000019461556",
+    "author": "Peter谭金杰",
+    "home_url": "https://segmentfault.com/u/jerrytanjinjie",
+    "votes": "38",
+    "rank": 19
   },
   {
     "title": "技术选型之Docker容器引擎",
@@ -140,17 +176,8 @@
     "url": "https://segmentfault.com/a/1190000019462392",
     "author": "huashiou",
     "home_url": "https://segmentfault.com/u/huashiou",
-    "votes": "30",
-    "rank": 16
-  },
-  {
-    "title": "Vue 改变数据，页面不刷新的问题",
-    "description": "最近在用 element-ui 开发一个网站，使用 table 组件时，发现修改完数据，有时候会延迟一两秒，页面才会发生变化。看了一下代码，发现修改数据的代码是这样的",
-    "url": "https://segmentfault.com/a/1190000019470488",
-    "author": "woai3c",
-    "home_url": "https://segmentfault.com/u/woai3c",
-    "votes": "19",
-    "rank": 17
+    "votes": "32",
+    "rank": 20
   },
   {
     "title": "设计模式之观察者模式与发布订阅模式",
@@ -159,7 +186,25 @@
     "author": "Aaron",
     "home_url": "https://segmentfault.com/u/aaron_59f5c5ee0c93f",
     "votes": "25",
-    "rank": 18
+    "rank": 21
+  },
+  {
+    "title": "Vue 改变数据，页面不刷新的问题",
+    "description": "最近在用 element-ui 开发一个网站，使用 table 组件时，发现修改完数据，有时候会延迟一两秒，页面才会发生变化。看了一下代码，发现修改数据的代码是这样的",
+    "url": "https://segmentfault.com/a/1190000019470488",
+    "author": "woai3c",
+    "home_url": "https://segmentfault.com/u/woai3c",
+    "votes": "20",
+    "rank": 22
+  },
+  {
+    "title": "优秀工程师必备的一项技能，你解锁了吗？",
+    "description": "阿里妹导读：很多程序员在工作一段时间后会遇到迷茫期，虽有技术傍身，也难免会产生焦虑，反复思考怎样才能快速成长。关于如何提高自己的思考力，运用思考的力量推动能力提升，以此实现技术成长，阿里巴巴盒马产...",
+    "url": "https://segmentfault.com/a/1190000019483865",
+    "author": "阿里云云栖社区",
+    "home_url": "https://segmentfault.com/u/yunqishequ_5aa899aad5395",
+    "votes": "13",
+    "rank": 23
   },
   {
     "title": "CSS没有边界的裁剪路径 - Clip Paths",
@@ -168,34 +213,16 @@
     "author": "果冻",
     "home_url": "https://segmentfault.com/u/guodong_589c0897bd203",
     "votes": "16",
-    "rank": 19
+    "rank": 24
   },
   {
-    "title": "详解 Cookie，Session，Token",
-    "description": "很久很久之前， Web基本都是文档的浏览而已。既然是浏览， 作为服务器， 不需要记录在某一段时间里都浏览了什么文档， 每次请求都是一个新的HTTP协议，就是请求加响应。不用记录谁刚刚发了HTTP请求， 每次请求都...",
-    "url": "https://segmentfault.com/a/1190000019457890",
-    "author": "funnycoderstar",
-    "home_url": "https://segmentfault.com/u/funnycoderstar",
-    "votes": "17",
-    "rank": 20
-  },
-  {
-    "title": "摆脱客户端？网页发起直播势在必行！",
-    "description": "近几年直播行业飞速发展，但是由于Web端这方面功能的长时间缺失，使得直播端以客户端为主；WebRTC 的出现使得网页也可以成为直播端。那么究竟WebRTC是什么呢？",
-    "url": "https://segmentfault.com/a/1190000019471730",
-    "author": "红领巾",
-    "home_url": "https://segmentfault.com/u/honglingjin_5d021c3150b96",
-    "votes": "13",
-    "rank": 21
-  },
-  {
-    "title": "vue微信网页授权最终解决方案",
-    "description": "vue微信网页授权，基于vue-cli3.0+webpack 4+vant ui + sass+ rem适配方案+axios，开发的微信授权方案。项目地址：vue-wechat-auth",
-    "url": "https://segmentfault.com/a/1190000019488056",
-    "author": "乖摸摸头",
-    "home_url": "https://segmentfault.com/u/silent_songs",
-    "votes": "3",
-    "rank": 22
+    "title": "NPM你真的会吗？(一)",
+    "description": "npm是什么东东？npm其实是Node.js的包管理工具（package manager）。为啥我们需要一个包管理工具呢？因为我们在Node.js上开发时，会用到很多别人写的JavaScript代码。如果我们要使用别人写的某个包，每次都根据名...",
+    "url": "https://segmentfault.com/a/1190000019492392",
+    "author": "james",
+    "home_url": "https://segmentfault.com/u/james_58632aaa71b3d",
+    "votes": "1",
+    "rank": 25
   },
   {
     "title": "JavaScript系列--浅析原型链与继承",
@@ -204,7 +231,25 @@
     "author": "saucxs",
     "home_url": "https://segmentfault.com/u/saucxs",
     "votes": "9",
-    "rank": 23
+    "rank": 26
+  },
+  {
+    "title": "摆脱客户端？网页发起直播势在必行！",
+    "description": "近几年直播行业飞速发展，但是由于Web端这方面功能的长时间缺失，使得直播端以客户端为主；WebRTC 的出现使得网页也可以成为直播端。那么究竟WebRTC是什么呢？",
+    "url": "https://segmentfault.com/a/1190000019471730",
+    "author": "红领巾",
+    "home_url": "https://segmentfault.com/u/honglingjin_5d021c3150b96",
+    "votes": "15",
+    "rank": 27
+  },
+  {
+    "title": "【译】使用 React，TypeScript 和 Webpack 开始一个项目",
+    "description": "我会通过这篇文章，为大家讲述，如何使用 React，TypeScript 和 Webpack 来构建一个项目。",
+    "url": "https://segmentfault.com/a/1190000019489612",
+    "author": "joking_zhang",
+    "home_url": "https://segmentfault.com/u/joking_zhang",
+    "votes": "4",
+    "rank": 28
   },
   {
     "title": "实现平滑过渡的拖拽排序",
@@ -213,7 +258,7 @@
     "author": "羊羊羊",
     "home_url": "https://segmentfault.com/u/yangyangyang_5a40a55dd0ed3",
     "votes": "28",
-    "rank": 24
+    "rank": 29
   },
   {
     "title": "JavaScript 的简洁之道",
@@ -222,42 +267,6 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "32",
-    "rank": 25
-  },
-  {
-    "title": "Vant 2.0 发布：持之以恒，不乱节奏",
-    "description": "持之以恒，不乱节奏，对于长期作业实在至为重要。一旦节奏得以设定，其余的问题便可迎刃而解。 -- 村上春树",
-    "url": "https://segmentfault.com/a/1190000019465448",
-    "author": "有赞技术",
-    "home_url": "https://segmentfault.com/u/youzantech",
-    "votes": "12",
-    "rank": 26
-  },
-  {
-    "title": "详解Vue计算属性和侦听属性",
-    "description": "一些初学者可能对计算属性和侦听属性的使用场景感到困惑不解，本文主要介绍两者的用法、使用场景及其两者的区别。本文的代码请猛戳github博客，纸上得来终觉浅，大家动手多敲敲代码！",
-    "url": "https://segmentfault.com/a/1190000019463967",
-    "author": "浪里行舟",
-    "home_url": "https://segmentfault.com/u/langlixingzhou",
-    "votes": "10",
-    "rank": 27
-  },
-  {
-    "title": "Git常用命令小结",
-    "description": "Git的版本库里存了很多东西，其中最重要的就是称为stage（或者叫index）的暂存区，还有Git为我们自动创建的第一个分支master，以及指向master的一个指针叫HEAD。工作区有一个隐藏目录.git，这个不算工作区，而是G...",
-    "url": "https://segmentfault.com/a/1190000019429417",
-    "author": "云鱼Cloudy",
-    "home_url": "https://segmentfault.com/u/cloudyttt",
-    "votes": "35",
-    "rank": 28
-  },
-  {
-    "title": "PHP 并发场景的几种解决方案",
-    "description": "在秒杀，抢购等并发场景下，可能会出现超卖的现象，在PHP语言中并没有原生提供并发的解决方案，因此就需要借助其他方式来实现并发控制。",
-    "url": "https://segmentfault.com/a/1190000019455439",
-    "author": "xiyanghui",
-    "home_url": "https://segmentfault.com/u/xiyanghui",
-    "votes": "18",
-    "rank": 29
+    "rank": 30
   }
 ]
