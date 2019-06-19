@@ -1,11 +1,11 @@
 [
   {
-    "title": "虚拟 DOM 到底是什么？",
-    "description": "虚拟 DOM （Virtual DOM ）这个概念相信大家都不陌生，从 React 到 Vue ，虚拟 DOM 为这两个框架都带来了跨平台的能力（React-Native 和 Weex）。因为很多人是在学习 React 的过程中接触到的虚拟 DOM ，所以为先...",
-    "url": "https://segmentfault.com/a/1190000019510611",
-    "author": "Shenfq",
-    "home_url": "https://segmentfault.com/u/shenfq",
-    "votes": "20",
+    "title": "[译] 前端项目中常见的 CSS 问题",
+    "description": "快速摘要：近年来，跨浏览器的渲染和交互已经愈加一致。不过，它仍然没有达到完全一致，有很多小问题会让你出错。除了这些问题之外，还有不同的屏幕尺寸、语言偏好和明显的人为错误等不确定因素，我们从中发现了...",
+    "url": "https://segmentfault.com/a/1190000019523323",
+    "author": "Chor",
+    "home_url": "https://segmentfault.com/u/chor",
+    "votes": "16",
     "rank": 1
   },
   {
@@ -14,8 +14,44 @@
     "url": "https://segmentfault.com/a/1190000019504744",
     "author": "LNMPR源码研究",
     "home_url": "https://segmentfault.com/u/php7internal",
-    "votes": "73",
+    "votes": "119",
     "rank": 2
+  },
+  {
+    "title": "用Vue.js在浏览器中裁剪图像",
+    "description": "你是否写了一个需要接受用户上传图片的 Web 应用，后来才意识到用户总是提供各种形状和大小的图像来破坏你的网站主题？在网络上处理图像很容易成为一种痛苦 —— 当然，除非你使用了正确的工具。",
+    "url": "https://segmentfault.com/a/1190000019521987",
+    "author": "疯狂的技术宅",
+    "home_url": "https://segmentfault.com/u/evilboy",
+    "votes": "16",
+    "rank": 3
+  },
+  {
+    "title": "在小程序中实现 Mixins 方案",
+    "description": "在原生开发小程序的过程中，发现有多个页面都使用了几乎完全一样的逻辑。由于小程序官方并没有提供 Mixins 这种代码复用机制，所以只能采用非常不优雅的复制粘贴的方式去“复用”代码。随着功能越来越复杂，靠复制...",
+    "url": "https://segmentfault.com/a/1190000019527762",
+    "author": "jrainlau",
+    "home_url": "https://segmentfault.com/u/jrainlau",
+    "votes": "7",
+    "rank": 4
+  },
+  {
+    "title": "10个流行的JavaScript面试题",
+    "description": "JS 初学者总是对 this 关键字感到困惑，因为与其他现代编程语言相比，JS 中的这this关键字有点棘手。 “this” 一般是表示当前所在的对象，但是事情并没有像它应该的那样发生。JS中的this关键字由函数的调用者决定...",
+    "url": "https://segmentfault.com/a/1190000019379599",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "24",
+    "rank": 5
+  },
+  {
+    "title": "一行css代码搞定响应式布局",
+    "description": "在这篇文章中，我将教你如何使用 CSS Grid 来创建一个超酷的图像网格图，它将根据屏幕的宽度来改变列的数量。最精彩的地方在于：所有的响应特性被添加到了一行 css 代码中。这意味着我们不必将 HTML 与丑陋的类名...",
+    "url": "https://segmentfault.com/a/1190000019528033",
+    "author": "闪电矿工翻译组",
+    "home_url": "https://segmentfault.com/u/icepy",
+    "votes": "5",
+    "rank": 6
   },
   {
     "title": "让NodeJS在你的项目中发光发热",
@@ -23,26 +59,17 @@
     "url": "https://segmentfault.com/a/1190000019502857",
     "author": "MARKORMARK",
     "home_url": "https://segmentfault.com/u/markormark",
-    "votes": "35",
-    "rank": 3
+    "votes": "55",
+    "rank": 7
   },
   {
-    "title": "生成海报（前端 | python）",
-    "description": "我最近没有摸鱼，一直都在工作。只不过目前需要爬一点数据 python 做的，之后看机会分享一下。 忙着忙着老大说要生成海报，有个活动要给每个用户来个分享图。 想法 PS 批处理？脚本？ 能甩出去的活都甩出去，机智...",
-    "url": "https://segmentfault.com/a/1190000019514989",
-    "author": "linong",
-    "home_url": "https://segmentfault.com/u/linong",
-    "votes": "3",
-    "rank": 4
-  },
-  {
-    "title": "[源码阅读]基于Canvas+贝塞尔曲线算法的平滑手写板",
-    "description": "一种比较容易做出的是对鼠标移动轨迹画点，再将两点之间以直线相连，最后再进行平滑处理，这种方案不需要什么算法支持，但同样，它面对一个性能和美观的抉择，打的点多，密集，性能相对较低，但更加美观，视觉上...",
-    "url": "https://segmentfault.com/a/1190000019514679",
-    "author": "stonehank",
-    "home_url": "https://segmentfault.com/u/stonehank",
-    "votes": "3",
-    "rank": 5
+    "title": "虚拟 DOM 到底是什么？",
+    "description": "虚拟 DOM （Virtual DOM ）这个概念相信大家都不陌生，从 React 到 Vue ，虚拟 DOM 为这两个框架都带来了跨平台的能力（React-Native 和 Weex）。因为很多人是在学习 React 的过程中接触到的虚拟 DOM ，所以为先...",
+    "url": "https://segmentfault.com/a/1190000019510611",
+    "author": "Shenfq",
+    "home_url": "https://segmentfault.com/u/shenfq",
+    "votes": "41",
+    "rank": 8
   },
   {
     "title": "[译]送你43道JavaScript面试题",
@@ -50,35 +77,26 @@
     "url": "https://segmentfault.com/a/1190000019496107",
     "author": "ConardLi",
     "home_url": "https://segmentfault.com/u/conardli",
-    "votes": "64",
-    "rank": 6
+    "votes": "73",
+    "rank": 9
   },
   {
-    "title": "小程序生成分享海报，一个json就够了。同时支持web",
-    "description": "在项目里写过几个canvas生成分享海报页面后,觉得这是个重复且冗余的工作.于是就想有没有能通过类似json直接生成海报的库.",
-    "url": "https://segmentfault.com/a/1190000019507684",
-    "author": "诗人的咸鱼",
-    "home_url": "https://segmentfault.com/u/shirendexianyu",
-    "votes": "8",
-    "rank": 7
+    "title": "箭头函数的写法特点",
+    "description": "用 => 来标识 箭头函数表达式的语法比函数表达式更简洁，并且没有自己的this，arguments，super或 new.target。这些函数表达式更适用于那些本来需要匿名函数的地方，并且它们不能用作构造函数。",
+    "url": "https://segmentfault.com/a/1190000019524761",
+    "author": "老屋",
+    "home_url": "https://segmentfault.com/u/laowu123",
+    "votes": "4",
+    "rank": 10
   },
   {
     "title": "【JS】关于JS的一些知识点（JS基础，纯记录）",
-    "description": "本想着记笔记里，但是笔记里没有分类，还是以文章的形式吧，当个人总结吧，这一篇就当作JS基础篇的记录吧，持续更新～",
+    "description": "本想着记笔记里，但是笔记里没有分类，还是以文章的形式，当个人总结吧，这一篇就当作JS基础篇的记录吧，有修改的和新增的持续更新～",
     "url": "https://segmentfault.com/a/1190000019515672",
     "author": "Qin菇凉",
     "home_url": "https://segmentfault.com/u/qinguliang",
-    "votes": "3",
-    "rank": 8
-  },
-  {
-    "title": "再一次生产 CPU 高负载排查实践",
-    "description": "前几日早上打开邮箱收到一封监控报警邮件：某某 ip 服务器 CPU 负载较高，请研发尽快排查解决，发送时间正好是凌晨。",
-    "url": "https://segmentfault.com/a/1190000019507028",
-    "author": "crossoverJie",
-    "home_url": "https://segmentfault.com/u/crossoverjie",
-    "votes": "11",
-    "rank": 9
+    "votes": "16",
+    "rank": 11
   },
   {
     "title": "强烈推荐 GitHub 上值得前端学习的开源实战项目",
@@ -86,26 +104,17 @@
     "url": "https://segmentfault.com/a/1190000019488576",
     "author": "夜尽天明",
     "home_url": "https://segmentfault.com/u/biaochenxuying",
-    "votes": "83",
-    "rank": 10
-  },
-  {
-    "title": "JavaScript深入浅出第1课：箭头函数中的this究竟是什么鬼？",
-    "description": "JavaScript箭头函数与普通函数不只是写法上的区别，它们还有一些微妙的不同点，其中一个不同点就是this。",
-    "url": "https://segmentfault.com/a/1190000019507756",
-    "author": "Fundebug",
-    "home_url": "https://segmentfault.com/u/fundebug",
-    "votes": "7",
-    "rank": 11
-  },
-  {
-    "title": "计算平均值的不同实现方式",
-    "description": "本文翻译并严重删减自five-ways-to-average-with-js-reduce/ 如果我们有以下数组：需求是先过滤掉 found 为 false 的 item 再计算求平均值 {代码...} 一般想到的方法不外乎是一下几种： 1、for 循环 （可阅读性差...",
-    "url": "https://segmentfault.com/a/1190000019516191",
-    "author": "Obeing",
-    "home_url": "https://segmentfault.com/u/obeing",
-    "votes": "1",
+    "votes": "98",
     "rank": 12
+  },
+  {
+    "title": "小程序生成分享海报，一个json就够了。同时支持web",
+    "description": "在项目里写过几个canvas生成分享海报页面后,觉得这是个重复且冗余的工作.于是就想有没有能通过类似json直接生成海报的库.",
+    "url": "https://segmentfault.com/a/1190000019507684",
+    "author": "诗人的咸鱼",
+    "home_url": "https://segmentfault.com/u/shirendexianyu",
+    "votes": "22",
+    "rank": 13
   },
   {
     "title": "[译]带你理解 Async/await",
@@ -113,8 +122,8 @@
     "url": "https://segmentfault.com/a/1190000019493976",
     "author": "savokiss",
     "home_url": "https://segmentfault.com/u/savokiss",
-    "votes": "46",
-    "rank": 13
+    "votes": "52",
+    "rank": 14
   },
   {
     "title": "实用Javascript调试技巧分享",
@@ -122,44 +131,17 @@
     "url": "https://segmentfault.com/a/1190000019474390",
     "author": "MudOnTire",
     "home_url": "https://segmentfault.com/u/mudontire",
-    "votes": "145",
-    "rank": 14
-  },
-  {
-    "title": "MySQL Master Slave Docker部署例子",
-    "description": "原文地址：[链接] 本文对应代码：github 用Docker部署基于GTID的MySQL Master-Slave Replication例子。 启动Master 写一个文件mysql-master.cnf： {代码...} 这个配置文件把Master的server_id设置为1，要注意在同...",
-    "url": "https://segmentfault.com/a/1190000019515038",
-    "author": "chanjarster",
-    "home_url": "https://segmentfault.com/u/chanjarster",
-    "votes": "2",
+    "votes": "151",
     "rank": 15
   },
   {
-    "title": "JS 中为啥 ['1', '7', '11'].map(parseInt)  返回 [1, NaN, 3]",
-    "description": "Javascript 一直是神奇的语言。 不相信我？ 尝试使用map和parseInt将字符串数组转换为整数。打开 Chrome 的控制台(F12)，粘贴以下内容，然后按回车，查看输出结果：",
-    "url": "https://segmentfault.com/a/1190000019479803",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "24",
+    "title": "用vue2.0全家桶+element-ui+mockjs 实现后台管理权限系统及顶栏三级菜单显示",
+    "description": "手摸手，带你用vue实现后台管理权限系统及顶栏三级菜单显示 效果演示地址 项目demo展示 重要功能总结 权限功能的实现 权限路由思路：根据用户登录的roles信息与路由中配置的roles信息进行比较过滤，生成可以访问...",
+    "url": "https://segmentfault.com/a/1190000019519476",
+    "author": "梦动",
+    "home_url": "https://segmentfault.com/u/mengdong_5927a02673e54",
+    "votes": "7",
     "rank": 16
-  },
-  {
-    "title": "5种处理Vue异常的方法",
-    "description": "去年一整年，我都在使用最爱的—Vue.js— 来做项目。最近突然意识到，我竟然从来没有认真去处理异常。我可以自恋地说：\"我写的代码是完美的，没有BUG。\" 我相信大家都明白这是迷之自信。最近，我花了不少时间研究了...",
-    "url": "https://segmentfault.com/a/1190000019497128",
-    "author": "Fundebug",
-    "home_url": "https://segmentfault.com/u/fundebug",
-    "votes": "23",
-    "rank": 17
-  },
-  {
-    "title": "UICollectionView 固定行距列表左排: 来一个自定制 Layout",
-    "description": "一般我们是使用 UICollectionViewFlowLayout , 熟悉的格子视图。也可以自定制 UICollectionViewLayout ，对于每一个列表元素，想放哪就放哪。",
-    "url": "https://segmentfault.com/a/1190000019512842",
-    "author": "邓轻舟",
-    "home_url": "https://segmentfault.com/u/dengqingzhou",
-    "votes": "1",
-    "rank": 18
   },
   {
     "title": "提升90%加载速度——vuecli下的首屏性能优化",
@@ -167,17 +149,80 @@
     "url": "https://segmentfault.com/a/1190000019499007",
     "author": "夜行风",
     "home_url": "https://segmentfault.com/u/yexingfeng",
-    "votes": "16",
+    "votes": "25",
+    "rank": 17
+  },
+  {
+    "title": "【Vue项目总结】后台管理项目总结",
+    "description": "每个系统都有自己的登录登出逻辑，而我们前端所要做的其实是请求后台，拿到登录权限，带上登录权限，获取用户信息和菜单信息。在vue项目开发当中，我们一般都是在全局路由钩子做这一系列判断。",
+    "url": "https://segmentfault.com/a/1190000019516643",
+    "author": "Mondo",
+    "home_url": "https://segmentfault.com/u/imondo",
+    "votes": "14",
+    "rank": 18
+  },
+  {
+    "title": "JS 中为啥 ['1', '7', '11'].map(parseInt)  返回 [1, NaN, 3]",
+    "description": "Javascript 一直是神奇的语言。 不相信我？ 尝试使用map和parseInt将字符串数组转换为整数。打开 Chrome 的控制台(F12)，粘贴以下内容，然后按回车，查看输出结果：",
+    "url": "https://segmentfault.com/a/1190000019479803",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "26",
     "rank": 19
   },
   {
-    "title": "用深度学习魔法为你的照片转换风格（附源码）",
-    "description": "例如，最上边的照片是“内容”图像。我们要将中间照片中的“风格”（“风格”图像）应用于内容图像。也就是说我们希望把中间的图像中大都市的夜晚氛围反映在最终图像上，得到的结果是最下边的照片！",
-    "url": "https://segmentfault.com/a/1190000019513370",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "2",
+    "title": "爬虫爬 JSON HTML 数据",
+    "description": "其实之前我司是有专门做爬虫的，不用前端这边出人干活。后来那人离职了，有可能就没有爬虫这方面的需求了。突然又有了一些，前端这边出人做一下。老大说用 py 做，前期先调研一下。",
+    "url": "https://segmentfault.com/a/1190000019519473",
+    "author": "linong",
+    "home_url": "https://segmentfault.com/u/linong",
+    "votes": "5",
     "rank": 20
+  },
+  {
+    "title": "5种处理Vue异常的方法",
+    "description": "去年一整年，我都在使用最爱的—Vue.js— 来做项目。最近突然意识到，我竟然从来没有认真去处理异常。我可以自恋地说：\"我写的代码是完美的，没有BUG。\" 我相信大家都明白这是迷之自信。最近，我花了不少时间研究了...",
+    "url": "https://segmentfault.com/a/1190000019497128",
+    "author": "Fundebug",
+    "home_url": "https://segmentfault.com/u/fundebug",
+    "votes": "27",
+    "rank": 21
+  },
+  {
+    "title": "Vue 动态添加路由及生成菜单",
+    "description": "写后台管理系统，估计有不少人遇过这样的需求：根据后台数据动态添加路由和菜单。为什么这么做呢？因为不同的用户有不同的权限，能访问的页面是不一样的。在网上找了好多资料，终于想到了解决办法。",
+    "url": "https://segmentfault.com/a/1190000019527606",
+    "author": "woai3c",
+    "home_url": "https://segmentfault.com/u/woai3c",
+    "votes": "3",
+    "rank": 22
+  },
+  {
+    "title": "GopherChina2019(北京)大会视频大全",
+    "description": "GopherChina2019(北京)大会视频大全 Day1 1、基于 Go 语言的大规模微服务框架设计 2、如何用Go打造高性能路径规划和ETA引擎 3、TiDB 的 Golang 实践 4、How to write testable code 5、Go 业务基础库之 Error &am...",
+    "url": "https://segmentfault.com/a/1190000019527363",
+    "author": "如来神掌",
+    "home_url": "https://segmentfault.com/u/rulaishenzhang",
+    "votes": "2",
+    "rank": 23
+  },
+  {
+    "title": "再一次生产 CPU 高负载排查实践",
+    "description": "前几日早上打开邮箱收到一封监控报警邮件：某某 ip 服务器 CPU 负载较高，请研发尽快排查解决，发送时间正好是凌晨。",
+    "url": "https://segmentfault.com/a/1190000019507028",
+    "author": "crossoverJie",
+    "home_url": "https://segmentfault.com/u/crossoverjie",
+    "votes": "18",
+    "rank": 24
+  },
+  {
+    "title": "生成海报（前端 | python）",
+    "description": "我最近没有摸鱼，一直都在工作。只不过目前需要爬一点数据 python 做的，之后看机会分享一下。 忙着忙着老大说要生成海报，有个活动要给每个用户来个分享图。 想法 PS 批处理？脚本？ 能甩出去的活都甩出去，机智...",
+    "url": "https://segmentfault.com/a/1190000019514989",
+    "author": "linong",
+    "home_url": "https://segmentfault.com/u/linong",
+    "votes": "10",
+    "rank": 25
   },
   {
     "title": "Go defer 会有性能损耗，尽量不要用？",
@@ -185,17 +230,17 @@
     "url": "https://segmentfault.com/a/1190000019490834",
     "author": "煎鱼",
     "home_url": "https://segmentfault.com/u/eddycjy",
-    "votes": "20",
-    "rank": 21
+    "votes": "22",
+    "rank": 26
   },
   {
-    "title": "最简单的vue消息提示全局组件",
-    "description": "简介 实现功能 自定义文本 自定义类型(默认，消息，成功，警告，危险) 自定义过渡时间 使用vue-cli3.0生成项目 实际效果 toast全局组件编写 /src/toast/toast.vue {代码...} /src/toast/index.js {代码...} 全局...",
-    "url": "https://segmentfault.com/a/1190000019487630",
-    "author": "渣渣辉",
-    "home_url": "https://segmentfault.com/u/linxi_59223381a31e3",
-    "votes": "17",
-    "rank": 22
+    "title": "[源码阅读]基于Canvas+贝塞尔曲线算法的平滑手写板",
+    "description": "一种比较容易做出的是对鼠标移动轨迹画点，再将两点之间以直线相连，最后再进行平滑处理，这种方案不需要什么算法支持，但同样，它面对一个性能和美观的抉择，打的点多，密集，性能相对较低，但更加美观，视觉上...",
+    "url": "https://segmentfault.com/a/1190000019514679",
+    "author": "stonehank",
+    "home_url": "https://segmentfault.com/u/stonehank",
+    "votes": "8",
+    "rank": 27
   },
   {
     "title": "限制 input 输入框只能输入xxx",
@@ -203,70 +248,16 @@
     "url": "https://segmentfault.com/a/1190000019492951",
     "author": "yhtx1997",
     "home_url": "https://segmentfault.com/u/yhtx1997",
-    "votes": "33",
-    "rank": 23
-  },
-  {
-    "title": "React 的未来，与 Suspense 同行",
-    "description": "自从 React 团队发布他们的 16.x 愿景以来，已经风靡了整个社区。它添加了一些非常酷的东西：Hooks、惰性加载、Suspense 和缓存 API。",
-    "url": "https://segmentfault.com/a/1190000019510451",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "3",
-    "rank": 24
-  },
-  {
-    "title": "如何在JavaScript中访问暂未存在的嵌套对象",
-    "description": "JavaScript 是个很神奇的东西。但是 JavaScript中的一些东西确实很奇怪，让人摸不着头脑。其中之一就是当你试图访问嵌套对象时，会遇到这个错误",
-    "url": "https://segmentfault.com/a/1190000019469115",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "7",
-    "rank": 25
-  },
-  {
-    "title": "【Step-By-Step】高频面试题深入解析 / 周刊04",
-    "description": "Step-By-Step (点击进入项目) 是我于 2019-05-20 开始的一个项目，每个工作日发布一道面试题。每个周末我会仔细阅读大家的答案，整理最一份较优答案出来，因本人水平有限，有误的地方，大家及时指正。 如果想 加...",
-    "url": "https://segmentfault.com/a/1190000019500381",
-    "author": "刘小夕",
-    "home_url": "https://segmentfault.com/u/liuyan666",
-    "votes": "7",
-    "rank": 26
-  },
-  {
-    "title": "手把教你搭建SSR(vue/vue-cli + express)",
-    "description": "最近简单的研究了一下SSR，对SSR已经有了一个简单的认知，主要应用于单页面应用，Nuxt是SSR很不错的框架。也有过调研，简单的用了一下，感觉还是很不错。但是还是想知道若不依赖于框架又应该如果处理SSR,研究一下...",
-    "url": "https://segmentfault.com/a/1190000019462324",
-    "author": "Aaron",
-    "home_url": "https://segmentfault.com/u/aaron_59f5c5ee0c93f",
-    "votes": "42",
-    "rank": 27
-  },
-  {
-    "title": "推荐一些PHP及后端相关的技术博客",
-    "description": "不分先后，想到哪个写哪个的；其他还有 SegementFault, 掘金 这样的综合技术社区，经常有大佬出没。",
-    "url": "https://segmentfault.com/a/1190000019481470",
-    "author": "he_xd",
-    "home_url": "https://segmentfault.com/u/he_xd",
-    "votes": "38",
+    "votes": "36",
     "rank": 28
   },
   {
-    "title": "chrome插件开发 - github仓库star趋势图",
-    "description": "这天，在逛github（就是划水）的时候，突然想看看某个仓库的star走势，但是在star列表中翻了半天愣是没找到相应的功能。于是乎，谷歌一搜，发现有个叫Star History的谷歌插件，然而竟然要收费。。。",
-    "url": "https://segmentfault.com/a/1190000019496369",
-    "author": "小石头若海",
-    "home_url": "https://segmentfault.com/u/xiaoshitouruohai",
-    "votes": "17",
+    "title": "Vue实战-头部模块编写（5）",
+    "description": "通过上篇我们了解到了vue可以通过axios发送前端请求。 我们知道的在发送请求可以在creted（）钩子内，也可以在mounted（）钩子内。 本篇我们通过头部模块的编写，将请求到的数据渲染到模块内。 当然我们先要准备...",
+    "url": "https://segmentfault.com/a/1190000019513244",
+    "author": "前端大彬哥",
+    "home_url": "https://segmentfault.com/u/dabinge666",
+    "votes": "8",
     "rank": 29
-  },
-  {
-    "title": "为什么说优秀架构师往往是一个悲观主义者？",
-    "description": "阿里妹导读：18年前，200家企业由于在事故中信息系统遭到严重破坏而永远地关闭了。这样的事故引发了后人深思，对于工程师而言，不仅要求设计的系统足够强壮，还需要具备考虑失败的能力，当失败场景悉数被考虑周全...",
-    "url": "https://segmentfault.com/a/1190000019509737",
-    "author": "阿里云云栖社区",
-    "home_url": "https://segmentfault.com/u/yunqishequ_5aa899aad5395",
-    "votes": "3",
-    "rank": 30
   }
 ]
