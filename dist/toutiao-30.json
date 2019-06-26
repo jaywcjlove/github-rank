@@ -22,7 +22,7 @@
   {
     "title": "天边一朵云：徒手用 html 生成一朵云，很真的那种",
     "description": "《天边一朵云》是由蔡明亮执导，李康生、陈湘琪领衔主演的剧情电影，情节很文艺，摄影很露骨，属于那种你看了后完全没有撸点的色情片。看完本片后，我很后悔，所以我打算自己用html弄出天边...",
-    "votes": "65",
+    "votes": "67",
     "url": "/k/h2v2bv",
     "avatar": "https://img.toutiao.io/subject%2F8e44d1a2390944c08c6170906cfc0856",
     "avatarAlt": "跨端&全栈 - 独家号",
@@ -40,9 +40,19 @@
     "homeUrl": "/subjects/4"
   },
   {
+    "title": "史上最全的编程学习资料合集（持续更新）",
+    "description": "本项目是《码农周刊》编程学习资料大合集，码农周刊团队官方出品。码农周刊是一份专为程序员打造的 IT 技术周刊。我们会为你精选一周 IT 技术干货，每周二发送，完全免费。内容包括：程...",
+    "votes": "59",
+    "url": "/k/2bqige",
+    "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
+    "avatarAlt": "头条精选 - 独家号",
+    "subjectName": "头条精选",
+    "homeUrl": "/subjects/4"
+  },
+  {
     "title": "我看鸿蒙操作系统",
     "description": "华为宣布推出鸿蒙操作系统。其实我觉得能理解，但也蛮无奈的，所谓不得已而为之，google不提供后续版本授权，不提供新的支持，怎么办，硬着头皮也要上。有些自媒体说什么安卓慌了，goo...",
-    "votes": "57",
+    "votes": "58",
     "url": "/k/ratqz1",
     "avatar": "https://img.toutiao.io/subject%2Fd9ddc18ba9ea44d0960cf21197aa2304",
     "avatarAlt": "冷血的技术博客 - 独家号",
@@ -50,14 +60,14 @@
     "homeUrl": "/subjects/410617"
   },
   {
-    "title": "史上最全的编程学习资料合集（持续更新）",
-    "description": "本项目是《码农周刊》编程学习资料大合集，码农周刊团队官方出品。码农周刊是一份专为程序员打造的 IT 技术周刊。我们会为你精选一周 IT 技术干货，每周二发送，完全免费。内容包括：程...",
-    "votes": "53",
-    "url": "/k/2bqige",
-    "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
-    "avatarAlt": "头条精选 - 独家号",
-    "subjectName": "头条精选",
-    "homeUrl": "/subjects/4"
+    "title": "Linux 生产环境上，最常用的一套 \"AWK\" 技巧",
+    "description": "最有用系列：《Linux生产环境上，最常用的一套“vim“技巧》《Linux生产环境上，最常用的一套“Sed“技巧》《”Sed” 高级功能：我这小脑瓜都快绕晕了》敢用自己的名字做软...",
+    "votes": "47",
+    "url": "/k/ulgf5x",
+    "avatar": "https://img.toutiao.io/subject%2F2ec0a0853279459f8e91db11748f4592",
+    "avatarAlt": "小姐姐味道 - 独家号",
+    "subjectName": "小姐姐味道",
+    "homeUrl": "/subjects/351247"
   },
   {
     "title": "Nginx 与安全有关的几个配置",
@@ -68,16 +78,6 @@
     "avatarAlt": "运维咖啡吧 - 独家号",
     "subjectName": "运维咖啡吧",
     "homeUrl": "/subjects/178627"
-  },
-  {
-    "title": "Linux 生产环境上，最常用的一套 \"AWK\" 技巧",
-    "description": "最有用系列：《Linux生产环境上，最常用的一套“vim“技巧》《Linux生产环境上，最常用的一套“Sed“技巧》《”Sed” 高级功能：我这小脑瓜都快绕晕了》敢用自己的名字做软...",
-    "votes": "45",
-    "url": "/k/ulgf5x",
-    "avatar": "https://img.toutiao.io/subject%2F2ec0a0853279459f8e91db11748f4592",
-    "avatarAlt": "小姐姐味道 - 独家号",
-    "subjectName": "小姐姐味道",
-    "homeUrl": "/subjects/351247"
   },
   {
     "title": "服务端高并发分布式架构演进之路",
@@ -170,19 +170,9 @@
     "homeUrl": "/subjects/5551"
   },
   {
-    "title": "CoDo 开源一站式 DevOps 平台",
-    "description": "一群有梦想的年轻人开源了一个云管理平台，他们的口号是：让天下没有996的运维有幸参与到CoDo项目的开发，这是一个非常棒的一站式开源运维平台，分享给大家平台介绍CODO是一款为用户...",
-    "votes": "35",
-    "url": "/k/2p6xxn",
-    "avatar": "https://img.toutiao.io/subject%2F2f904f0590494bc1b2c69067c180b5b0",
-    "avatarAlt": "运维咖啡吧 - 独家号",
-    "subjectName": "运维咖啡吧",
-    "homeUrl": "/subjects/178627"
-  },
-  {
     "title": "两个小工具，MySQL 死锁分析，新技能又 Get",
     "description": "数据库死锁，是最难调试与追踪的。场景如下：同一个表，事务内先插入一条记录，再更新这条记录，并发时会死锁。 并且能够复现。可以通过什么工具模拟并发事务，查看信息，解决问题呢？这是今天...",
-    "votes": "35",
+    "votes": "36",
     "url": "/k/avwb60",
     "avatar": "https://img.toutiao.io/user/b618677591aa49b3972ece0c7d26b473/thumb",
     "avatarAlt": "数据淘金 - 独家号",
@@ -192,12 +182,22 @@
   {
     "title": "Java 并发编程：线程池源码实战",
     "description": "作者 | 马启航杏仁后端工程师。「我头发还多，你们呢？」一、概述笔者在网上看了好多的关于线程池原理、源码分析相关的文章，但是说实话，没有一篇让我觉得读完之后豁然开朗，完完全全的明白...",
-    "votes": "34",
+    "votes": "35",
     "url": "/k/jil71k",
     "avatar": "https://img.toutiao.io/subject%2F2200d388e46e44128cf378d4d4920a40",
     "avatarAlt": "杏仁技术站 - 独家号",
     "subjectName": "杏仁技术站",
     "homeUrl": "/subjects/206366"
+  },
+  {
+    "title": "CoDo 开源一站式 DevOps 平台",
+    "description": "一群有梦想的年轻人开源了一个云管理平台，他们的口号是：让天下没有996的运维有幸参与到CoDo项目的开发，这是一个非常棒的一站式开源运维平台，分享给大家平台介绍CODO是一款为用户...",
+    "votes": "35",
+    "url": "/k/2p6xxn",
+    "avatar": "https://img.toutiao.io/subject%2F2f904f0590494bc1b2c69067c180b5b0",
+    "avatarAlt": "运维咖啡吧 - 独家号",
+    "subjectName": "运维咖啡吧",
+    "homeUrl": "/subjects/178627"
   },
   {
     "title": "你以为工厂模式很简单，可能是因为你懂的只是冰山的一角",
