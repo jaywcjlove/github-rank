@@ -2,7 +2,7 @@
   {
     "title": "史上最全的编程学习资料合集（已更新）",
     "description": "本项目是《码农周刊》编程学习资料大合集，码农周刊团队官方出品。码农周刊是一份专为程序员打造的 IT 技术周刊。我们会为你精选一周 IT 技术干货，每周二发送，完全免费。内容包括：程...",
-    "votes": "92",
+    "votes": "94",
     "url": "/k/2bqige",
     "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
     "avatarAlt": "头条精选 - 独家号",
@@ -12,7 +12,7 @@
   {
     "title": "我用了 10 年，从深圳流水线厂妹做到纽约高薪程序员",
     "description": "孙玲每天早上从纽约布鲁克林的居室出发，一头扎进地铁，一个小时后，她出现在繁忙的曼哈顿街头，最终目的地是位于切尔西区第八大道上的谷歌办公大楼。孙玲目前是EPAM Systems公司的...",
-    "votes": "37",
+    "votes": "38",
     "url": "/k/mjhd8i",
     "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
     "avatarAlt": "头条精选 - 独家号",
@@ -20,14 +20,34 @@
     "homeUrl": "/subjects/4"
   },
   {
+    "title": "API 网关从入门到放弃",
+    "description": "前言假设你正在开发一个电商网站，那么这里会涉及到很多后端的微服务，比如会员、商品、推荐服务等等。那么这里就会遇到一个问题，APP/Browser怎么去访问这些后端的服务? 如果业务...",
+    "votes": "36",
+    "url": "/k/i14mvi",
+    "avatar": "https://img.toutiao.io/subject%2Fe7b064080a2d4df5850f192ca54ee1d2",
+    "avatarAlt": "acoder2013的独家号 - 独家号",
+    "subjectName": "acoder2013的独家号",
+    "homeUrl": "/subjects/268362"
+  },
+  {
     "title": "我的 Win 实用软件清单",
     "description": "1. 我的Win实用软件清单排名不分先后且长期更新 有更好用的或者需要帮助的可以留言————最后一次更新于 2019.06.251. Dism++1.1. 功能：系统精简、垃圾清理...",
-    "votes": "34",
+    "votes": "35",
     "url": "/k/150lmv",
     "avatar": "https://img.toutiao.io/subject%2Fe1913751ee6a4093be1ba6563f1abb6d",
     "avatarAlt": "爱写bug - 独家号",
     "subjectName": "爱写bug",
     "homeUrl": "/subjects/407474"
+  },
+  {
+    "title": "从实践到原理，带你参透 gRPC",
+    "description": "gRPC 在 Go 语言中大放异彩，越来越多的小伙伴在使用，最近也在公司安利了一波，希望这一篇文章能带你一览 gRPC 的巧妙之处，本文篇幅比较长，请做好阅读准备。本文目录如下：简...",
+    "votes": "30",
+    "url": "/k/o3ylio",
+    "avatar": "https://img.toutiao.io/user/01ec77a3ddbb4158afed606b24af1c87/thumb",
+    "avatarAlt": "煎鱼的清汤锅 - 独家号",
+    "subjectName": "煎鱼的清汤锅",
+    "homeUrl": "/subjects/343446"
   },
   {
     "title": "为什么阿里巴巴要求谨慎使用 ArrayList 中的 subList 方法",
@@ -52,7 +72,7 @@
   {
     "title": "终于有人把中台说清楚了",
     "description": "最近朋友圈被中台刷屏了，那么今天我们来说说中台！缘起百度指数搜索“中台”，可以发现，中台一词前几年几乎都没有搜索，反倒是今年5月21号开始蹭蹭往上涨！百度指数仔细搜索了一下原来5月...",
-    "votes": "26",
+    "votes": "27",
     "url": "/k/7xhgh0",
     "avatar": "https://img.toutiao.io/subject%2Fd9ddc18ba9ea44d0960cf21197aa2304",
     "avatarAlt": "冷血的技术博客 - 独家号",
@@ -60,64 +80,24 @@
     "homeUrl": "/subjects/410617"
   },
   {
-    "title": "没有预热，不叫高并发，叫并发高",
-    "description": "大家都知道，高并发系统有三把斧子：缓存、熔断和限流。但还有一把斧子，经常被遗忘在角落里，郁郁不得志，那就是预热。现象举例先说两个现象。这些现象，只能在并发高的系统中出现。好吧，它已...",
-    "votes": "26",
-    "url": "/k/50altv",
-    "avatar": "https://img.toutiao.io/subject%2F2ec0a0853279459f8e91db11748f4592",
-    "avatarAlt": "小姐姐味道 - 独家号",
-    "subjectName": "小姐姐味道",
-    "homeUrl": "/subjects/351247"
+    "title": "Https 到底把什么加密了?",
+    "description": "问题描述都说https是在http和tcp两层之间加密，针对的是传输过程，只有客户端和服务端才能解密，变成明文。但是又有很多人说，https协议下，用get请求不加密，需要用pos...",
+    "votes": "25",
+    "url": "/k/vw5rjx",
+    "avatar": "https://img.toutiao.io/subject%2F732cb6a567b6447aa876ed179c0e89c7",
+    "avatarAlt": "Fundebug - 独家号",
+    "subjectName": "Fundebug",
+    "homeUrl": "/subjects/216955"
   },
   {
-    "title": "从实践到原理，带你参透 gRPC",
-    "description": "gRPC 在 Go 语言中大放异彩，越来越多的小伙伴在使用，最近也在公司安利了一波，希望这一篇文章能带你一览 gRPC 的巧妙之处，本文篇幅比较长，请做好阅读准备。本文目录如下：简...",
-    "votes": "26",
-    "url": "/k/o3ylio",
-    "avatar": "https://img.toutiao.io/user/01ec77a3ddbb4158afed606b24af1c87/thumb",
-    "avatarAlt": "煎鱼的清汤锅 - 独家号",
-    "subjectName": "煎鱼的清汤锅",
-    "homeUrl": "/subjects/343446"
-  },
-  {
-    "title": "记一次被 DDoS 敲诈的历程",
-    "description": "0x01 背景 背景是这样，一个朋友网站业务被DDoS了，先是威胁要800元RMB，然后又转成提供DDOS的服务，然后又变成了DoS培训， 又变成了卖DDoS软件，最后又变成了DD...",
-    "votes": "24",
-    "url": "/k/ftnlse",
-    "avatar": "https://img.toutiao.io/subject%2Fe28330e25e7c43019c600fbe720c1911",
-    "avatarAlt": "2048 - 独家号",
-    "subjectName": "2048",
-    "homeUrl": "/subjects/3216"
-  },
-  {
-    "title": "这群开发者，每月至少能从 App Store 躺骗几十万",
-    "description": " 三个月前，世超给大家扒过一个只用 12 块钱，就能让妹纸对你投怀送抱的软件。这个软件是世超从 App Store 社交软件排行榜发现的，实际使用体验非常一言难尽，简直就是个大忽悠...",
-    "votes": "23",
-    "url": "/k/awdzh4",
-    "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
-    "avatarAlt": "头条精选 - 独家号",
-    "subjectName": "头条精选",
-    "homeUrl": "/subjects/4"
-  },
-  {
-    "title": "史上最全的编程学习资料合集 | 码农周刊第 267 期",
-    "description": "程序设计史上最全的编程学习资料合集（持续更新）  码农周刊团队官方出品，Star 吧！360 自研分布式海量小文件存储系统的设计与实现  杂说乱炖一个分布式、高可用、高可靠、持久化...",
+    "title": "惊：FastThreadLocal 吞吐量居然是 ThreadLocal 的 3 倍",
+    "description": "接着上次手撕面试题ThreadLocal！！！面试官一听，哎呦不错哦！本文将继续上文的话题，来聊聊FastThreadLocal，目前关于FastThreadLocal的很多文章都...",
     "votes": "21",
-    "url": "/k/ap0q1z",
-    "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
-    "avatarAlt": "头条精选 - 独家号",
-    "subjectName": "头条精选",
-    "homeUrl": "/subjects/4"
-  },
-  {
-    "title": "简洁方便的集合处理：Java 8 Stream 流",
-    "description": "背景java 8已经发行好几年了，前段时间java 12也已经问世，但平时的工作中，很多项目的环境还停留在java1.7中。而且java8的很多新特性都是革命性的，比如各种集合的优...",
-    "votes": "21",
-    "url": "/k/vgikta",
-    "avatar": "https://img.toutiao.io/subject%2F510cdc92a9bc493289fd056bcdc99f28",
-    "avatarAlt": "宜信技术学院 - 独家号",
-    "subjectName": "宜信技术学院",
-    "homeUrl": "/subjects/373027"
+    "url": "/k/c05mf3",
+    "avatar": "https://img.toutiao.io/subject%2Ff1877686771f404eac3cd6cd7203ecdb",
+    "avatarAlt": "匠心零度 - 独家号",
+    "subjectName": "匠心零度",
+    "homeUrl": "/subjects/241105"
   },
   {
     "title": "用 2000 元来打造一套全屋的智能系统，看完爷爷都会了",
@@ -140,6 +120,16 @@
     "homeUrl": "/subjects/4"
   },
   {
+    "title": "一个被 CEO 逼疯的技术负责人的检讨书",
+    "description": "以下是一封来自被 CEO 逼疯的技术负责人的检讨书。想火！！！自任开发部负责人一职以来，开发部在加班时长确实不够突出。作为负责人，我有不可推卸的责任。一、加班时长实际情况当得知 C...",
+    "votes": "18",
+    "url": "/k/jic2s1",
+    "avatar": "https://img.toutiao.io/subject%2F3f39bc56fe194d9f8bd25e9ef71016cc",
+    "avatarAlt": "PHP 解说 - 独家号",
+    "subjectName": "PHP 解说",
+    "homeUrl": "/subjects/158069"
+  },
+  {
     "title": "什么！2019 年了你还不会用 Async 函数？",
     "description": "作者 | Brilliant Open Web团队 编辑 | Brilliant Open Web团队 提示：阅读本篇文章约需要 10 分钟 异步编程在日常开发中十分常见，在和开发...",
     "votes": "18",
@@ -150,19 +140,9 @@
     "homeUrl": "/subjects/5551"
   },
   {
-    "title": "一个被 CEO 逼疯的技术负责人的检讨书",
-    "description": "以下是一封来自被 CEO 逼疯的技术负责人的检讨书。想火！！！自任开发部负责人一职以来，开发部在加班时长确实不够突出。作为负责人，我有不可推卸的责任。一、加班时长实际情况当得知 C...",
-    "votes": "17",
-    "url": "/k/jic2s1",
-    "avatar": "https://img.toutiao.io/subject%2F3f39bc56fe194d9f8bd25e9ef71016cc",
-    "avatarAlt": "PHP 解说 - 独家号",
-    "subjectName": "PHP 解说",
-    "homeUrl": "/subjects/158069"
-  },
-  {
     "title": "5G 时代是时候全面解决 TCP 的效率问题了",
     "description": "回顾过去一年工业界在实时网络方面的探索，大量的篇幅留给了基于UDP的SRT、QUIC等明星协议，包括Google以及国内的B站都有令人欣喜的实践。但不可否认TCP在整个互联网依然占...",
-    "votes": "16",
+    "votes": "17",
     "url": "/k/8dv1p9",
     "avatar": "https://img.toutiao.io/subject%2F49a4258a91954dd5a0ed4dd23050b388",
     "avatarAlt": "LiveVideoStack - 独家号",
@@ -170,14 +150,24 @@
     "homeUrl": "/subjects/349707"
   },
   {
-    "title": "JavaScript 深入浅出第 2 课：函数是一等公民是什么意思呢？",
-    "description": "摘要： 听起来很炫酷的一等公民是啥？《JavaScript深入浅出》系列：JavaScript深入浅出第1课：箭头函数中的this究竟是什么鬼？JavaScript深入浅出第2课：...",
-    "votes": "16",
-    "url": "/k/ualxgf",
-    "avatar": "https://img.toutiao.io/subject%2F732cb6a567b6447aa876ed179c0e89c7",
-    "avatarAlt": "Fundebug - 独家号",
-    "subjectName": "Fundebug",
-    "homeUrl": "/subjects/216955"
+    "title": "实践 DDD 领域驱动设计",
+    "description": " 说明 领域驱动设计最近又火了。概念不断被提及，但是相信对于像笔者一样的很多开发者对于其如何应用都一头雾水。正如《实现领域驱动设计》中作者提到的不同公司的业务能力开发能力和成熟度不...",
+    "votes": "15",
+    "url": "/k/3vgsjk",
+    "avatar": "https://img.toutiao.io/subject%2F576798fd40b142a18d9fba5754a6db8c",
+    "avatarAlt": "天府软件猿 - 独家号",
+    "subjectName": "天府软件猿",
+    "homeUrl": "/subjects/69085"
+  },
+  {
+    "title": "每天十亿级数据更新，秒出查询结果，ClickHouse 在携程酒店的应用",
+    "description": "作者简介蔡岳毅，携程酒店大数据高级研发经理，负责酒店数据智能平台研发，大数据技术创新工作。喜欢探索研究大数据的开源技术框架。一、背景1）携程酒店每天有上千表，累计十多亿数据更新，如...",
+    "votes": "15",
+    "url": "/k/dogsdc",
+    "avatar": "https://img.toutiao.io/subject%2F78ecbc84d295418aaf6fee0905ccd7f0",
+    "avatarAlt": "携程技术中心 - 独家号",
+    "subjectName": "携程技术中心",
+    "homeUrl": "/subjects/119893"
   },
   {
     "title": "分布式一致性算法 Paxos",
@@ -198,5 +188,15 @@
     "avatarAlt": "hoohack的独家号 - 独家号",
     "subjectName": "hoohack的独家号",
     "homeUrl": "/subjects/111359"
+  },
+  {
+    "title": "监控微信小程序中的慢 HTTP 请求",
+    "description": "摘要： 请求时间太长，影响用户体验，使用 Fundebug 监控慢请求。Fundebug 的微信小程序监控插件在 0.5.0 版本已经支持监控 HTTP 请求错误，在小程序中通过w...",
+    "votes": "14",
+    "url": "/k/n1v6u9",
+    "avatar": "https://img.toutiao.io/subject%2F732cb6a567b6447aa876ed179c0e89c7",
+    "avatarAlt": "Fundebug - 独家号",
+    "subjectName": "Fundebug",
+    "homeUrl": "/subjects/216955"
   }
 ]

@@ -1,21 +1,12 @@
 [
   {
-    "title": "8个有用的JS技巧",
-    "description": "使用 grid ，需要重新创建原始数据，并且每行的列长度可能不匹配， 为了确保不匹配行之间的长度相等，可以使用Array.fill方法。",
-    "url": "https://segmentfault.com/a/1190000019617387",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "25",
-    "rank": 1
-  },
-  {
     "title": "JS开发常用工具函数",
     "description": "内置函数toString后的主体代码块为 [native code] ，而非内置函数则为相关代码，所以非内置函数可以进行拷贝(toString后掐头去尾再由Function转)",
     "url": "https://segmentfault.com/a/1190000019601333",
     "author": "hfhan",
     "home_url": "https://segmentfault.com/u/hfhan",
-    "votes": "139",
-    "rank": 2
+    "votes": "164",
+    "rank": 1
   },
   {
     "title": "2019年前端必用正则(js)",
@@ -23,7 +14,16 @@
     "url": "https://segmentfault.com/a/1190000019597590",
     "author": "铁皮饭盒",
     "home_url": "https://segmentfault.com/u/russell221",
-    "votes": "103",
+    "votes": "111",
+    "rank": 2
+  },
+  {
+    "title": "8个有用的JS技巧",
+    "description": "使用 grid ，需要重新创建原始数据，并且每行的列长度可能不匹配， 为了确保不匹配行之间的长度相等，可以使用Array.fill方法。",
+    "url": "https://segmentfault.com/a/1190000019617387",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "35",
     "rank": 3
   },
   {
@@ -32,7 +32,7 @@
     "url": "https://segmentfault.com/a/1190000019619667",
     "author": "Snailclimb",
     "home_url": "https://segmentfault.com/u/snailclimb",
-    "votes": "66",
+    "votes": "71",
     "rank": 4
   },
   {
@@ -41,53 +41,8 @@
     "url": "https://segmentfault.com/a/1190000019608421",
     "author": "煎鱼",
     "home_url": "https://segmentfault.com/u/eddycjy",
-    "votes": "53",
+    "votes": "57",
     "rank": 5
-  },
-  {
-    "title": "日常划水:短信验证码开发实例",
-    "description": "大家好，我是CrazyCodes，在日常开发中有没有遇到过发送短信验证码的接口需要开发？你是如何处理短信验证码发送的呢？本篇我分享下短信验证码发送的设计。",
-    "url": "https://segmentfault.com/a/1190000019644690",
-    "author": "CrazyCodes",
-    "home_url": "https://segmentfault.com/u/crazycodes",
-    "votes": "5",
-    "rank": 6
-  },
-  {
-    "title": "懒加载方法总结",
-    "description": "有时一个页面中有多个图片或视频要展示,如果全部将资源加载显示,会导致页面暂时空白,用户体验很不好,要改变这种体验的一种思路是先用一个占位图片显示,然后在可视窗口展示的内容提前加载,保证用户看到的是已经加...",
-    "url": "https://segmentfault.com/a/1190000019644508",
-    "author": "Delia",
-    "home_url": "https://segmentfault.com/u/delia_5a38831addb7b",
-    "votes": "2",
-    "rank": 7
-  },
-  {
-    "title": "从渲染原理谈前端性能优化",
-    "description": "这句话来自《web性能权威指南》，我一直很喜欢，而本文尝试从浏览器渲染原理探讨如何进行性能提升。全文将从网络通信以及页面渲染两个过程去探讨浏览器的行为及在此过程中我们可以针对那些点进行优化，有些的不足...",
-    "url": "https://segmentfault.com/a/1190000019504744",
-    "author": "LNMPR源码研究",
-    "home_url": "https://segmentfault.com/u/php7internal",
-    "votes": "203",
-    "rank": 8
-  },
-  {
-    "title": "localStorage、sessionStorage ES6简单封装",
-    "description": "localStorage、sessionStorage ES6简单封装： {代码...} 使用方式： {代码...}",
-    "url": "https://segmentfault.com/a/1190000019643625",
-    "author": "ppCode",
-    "home_url": "https://segmentfault.com/u/luke_58aab11b996be",
-    "votes": "4",
-    "rank": 9
-  },
-  {
-    "title": "这儿有20道大厂面试题等你查收",
-    "description": "今年来，各大公司都缩减了HC，甚至是采取了“裁员”措施，在这样的大环境之下，想要获得一份更好的工作，必然需要付出更多的努力。",
-    "url": "https://segmentfault.com/a/1190000019584336",
-    "author": "刘小夕",
-    "home_url": "https://segmentfault.com/u/liuyan666",
-    "votes": "78",
-    "rank": 10
   },
   {
     "title": "「译」编写更好的 JavaScript 条件式和匹配条件的技巧",
@@ -95,62 +50,62 @@
     "url": "https://segmentfault.com/a/1190000019576207",
     "author": "Chor",
     "home_url": "https://segmentfault.com/u/chor",
-    "votes": "75",
+    "votes": "89",
+    "rank": 6
+  },
+  {
+    "title": "从渲染原理谈前端性能优化",
+    "description": "这句话来自《web性能权威指南》，我一直很喜欢，而本文尝试从浏览器渲染原理探讨如何进行性能提升。全文将从网络通信以及页面渲染两个过程去探讨浏览器的行为及在此过程中我们可以针对那些点进行优化，有些的不足...",
+    "url": "https://segmentfault.com/a/1190000019504744",
+    "author": "LNMPR源码研究",
+    "home_url": "https://segmentfault.com/u/php7internal",
+    "votes": "204",
+    "rank": 7
+  },
+  {
+    "title": "这儿有20道大厂面试题等你查收",
+    "description": "今年来，各大公司都缩减了HC，甚至是采取了“裁员”措施，在这样的大环境之下，想要获得一份更好的工作，必然需要付出更多的努力。",
+    "url": "https://segmentfault.com/a/1190000019584336",
+    "author": "刘小夕",
+    "home_url": "https://segmentfault.com/u/liuyan666",
+    "votes": "82",
+    "rank": 8
+  },
+  {
+    "title": "【小程序&公众号】免费商城系统源码",
+    "description": "1.商品: 能够对商品的状态分类管理 (出售中、待上架、库存中、已售馨、库存警戒、回收站)、添加产品、添加商品分类等功能",
+    "url": "https://segmentfault.com/a/1190000019648597",
+    "author": "Lunatic",
+    "home_url": "https://segmentfault.com/u/lunatic_5ce4985d84ed2",
+    "votes": "10",
+    "rank": 9
+  },
+  {
+    "title": "JavaScript 数据结构与算法之美 - 栈内存与堆内存 、浅拷贝与深拷贝",
+    "description": "笔者写的 JavaScript 数据结构与算法之美 系列用的语言是 JavaScript ，旨在入门数据结构与算法和方便以后复习。",
+    "url": "https://segmentfault.com/a/1190000019643450",
+    "author": "夜尽天明",
+    "home_url": "https://segmentfault.com/u/biaochenxuying",
+    "votes": "22",
+    "rank": 10
+  },
+  {
+    "title": "JavaScript深入浅出第3课：什么是垃圾回收算法？",
+    "description": "摘要： JS是如何回收内存的？ 《JavaScript深入浅出》系列： JavaScript深入浅出第1课：箭头函数中的this究竟是什么鬼？ JavaScript深入浅出第2课：函数是一等公民是什么意思呢？ JavaScript深入浅出第3课：什么...",
+    "url": "https://segmentfault.com/a/1190000019650517",
+    "author": "Fundebug",
+    "home_url": "https://segmentfault.com/u/fundebug",
+    "votes": "6",
     "rank": 11
   },
   {
-    "title": "vue实现自定义H5视频播放器",
-    "description": "前段时间基于vue写了一个自定义的video播放器组件,踩了一些小坑, 这里做一下复盘分享出来,避免日后重复踩坑...",
-    "url": "https://segmentfault.com/a/1190000019623347",
-    "author": "appleguardu",
-    "home_url": "https://segmentfault.com/u/appleguardu",
-    "votes": "29",
+    "title": "简述HTTP协议",
+    "description": "身为开发人员除了应该对我们所写的项目需求要了解，以及基本的语言知识，对于HTTP协议也是应该了解一下的，因为这些东西与我们是密不可分的，每天都在和HTTP打交道然而却不知道它到底是什么？这样说出去是不是很...",
+    "url": "https://segmentfault.com/a/1190000019624321",
+    "author": "Aaron",
+    "home_url": "https://segmentfault.com/u/aaron_59f5c5ee0c93f",
+    "votes": "33",
     "rank": 12
-  },
-  {
-    "title": "【译】来用 SVG 和 CSS 画朵云彩吧",
-    "description": "希腊神话中有这样一个故事是讲述宙斯创造出来一个云女神涅斐勒，并且类似大多数的希腊神话一样的，这个故事非常的奇异且限制级。下面一个简短克制的版本。",
-    "url": "https://segmentfault.com/a/1190000019640256",
-    "author": "闪电矿工翻译组",
-    "home_url": "https://segmentfault.com/u/icepy",
-    "votes": "5",
-    "rank": 13
-  },
-  {
-    "title": "🚀 Hyperf 发布 WebSocket 组件 及 多个组件 v1.0.3 更新 | 企业级的 PHP 微服务协程框架",
-    "description": "本次更新涉及以下组件，主要新增了 WebSocket 服务端 及 WebSocket 协程客户端 组件，以及修复了一些 Bug hyperf/constantshyperf/databasehyperf/dihyperf/frameworkhyperf/http-serverhyperf/json-rpchyperf/mo...",
-    "url": "https://segmentfault.com/a/1190000019640606",
-    "author": "huangzhhui",
-    "home_url": "https://segmentfault.com/u/huangzhhui",
-    "votes": "7",
-    "rank": 14
-  },
-  {
-    "title": "为vue3学点typescript(1), 体验typescript",
-    "description": "看了vue conf 2019的视频, 特别兴奋, vue3要来了!vue3是用typescript开发的, 我揣测在vue的带领下typescript会成为主流呢, 要不先学点.",
-    "url": "https://segmentfault.com/a/1190000019631849",
-    "author": "铁皮饭盒",
-    "home_url": "https://segmentfault.com/u/russell221",
-    "votes": "11",
-    "rank": 15
-  },
-  {
-    "title": "JavaScript 数据结构与算法之美 - 线性表（数组、栈、队列、链表）",
-    "description": "基础知识就像是一座大楼的地基，它决定了我们的技术高度。 我们应该多掌握一些可移值的技术或者再过十几年应该都不会过时的技术，数据结构与算法就是其中之一。",
-    "url": "https://segmentfault.com/a/1190000019624406",
-    "author": "夜尽天明",
-    "home_url": "https://segmentfault.com/u/biaochenxuying",
-    "votes": "25",
-    "rank": 16
-  },
-  {
-    "title": "JS引擎:它们是如何工作的?从调用堆栈到Promise，需要知道的所有内容",
-    "description": "有没有想过浏览器如何读取和运行JS代码？ 这看起来很神奇，我们可以通过浏览器提供的控制台来了解背后的一些原理。",
-    "url": "https://segmentfault.com/a/1190000019503741",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "18",
-    "rank": 17
   },
   {
     "title": "你不能不知道的Koa实现原理",
@@ -158,35 +113,17 @@
     "url": "https://segmentfault.com/a/1190000019623769",
     "author": "null仔",
     "home_url": "https://segmentfault.com/u/xiaoqianduan_58b28cfebff36",
-    "votes": "22",
-    "rank": 18
+    "votes": "25",
+    "rank": 13
   },
   {
-    "title": "将路由器温度通过MQTT协议加入Homeassistant及Homekit",
-    "description": "最近入手了一台斐讯K3路由器,可是博通的芯片发热太严重,想要随时了解路由器的温度,于是自己动手实现了一组程序来将路由器温度通过MQTT加入Homeassistant及Homekit.",
-    "url": "https://segmentfault.com/a/1190000019639494",
-    "author": "Hydrogen",
-    "home_url": "https://segmentfault.com/u/taku",
-    "votes": "4",
-    "rank": 19
-  },
-  {
-    "title": "🚀 Hyperf v1.0 发布，全新企业级的 PHP 协程微服务框架",
-    "description": "Hyperf 是基于 Swoole 4.3+ 实现的高性能、高灵活性的 PHP 协程框架，内置协程服务器及大量常用的组件，性能较传统基于 PHP-FPM 的框架有质的提升，提供超高性能的同时，也保持着极其灵活的可扩展性，标准组件均...",
-    "url": "https://segmentfault.com/a/1190000019533635",
-    "author": "huangzhhui",
-    "home_url": "https://segmentfault.com/u/huangzhhui",
-    "votes": "99",
-    "rank": 20
-  },
-  {
-    "title": "强烈推荐 GitHub 上值得前端学习的开源实战项目",
-    "description": "强烈推荐 GitHub 上值得前端学习的开源实战项目。 Vue.js vue-element-admin 是一个后台前端解决方案，它基于和 element-ui 实现 基于 iView 的 Vue 2.0 管理系统模板 基于 vue2 + vuex 构建一个具有 45 个页面的...",
-    "url": "https://segmentfault.com/a/1190000019488576",
-    "author": "夜尽天明",
-    "home_url": "https://segmentfault.com/u/biaochenxuying",
-    "votes": "134",
-    "rank": 21
+    "title": "vue实现自定义H5视频播放器",
+    "description": "前段时间基于vue写了一个自定义的video播放器组件,踩了一些小坑, 这里做一下复盘分享出来,避免日后重复踩坑...",
+    "url": "https://segmentfault.com/a/1190000019623347",
+    "author": "appleguardu",
+    "home_url": "https://segmentfault.com/u/appleguardu",
+    "votes": "32",
+    "rank": 14
   },
   {
     "title": "精读《Vue3.0 Function API》",
@@ -194,17 +131,17 @@
     "url": "https://segmentfault.com/a/1190000019625934",
     "author": "黄子毅",
     "home_url": "https://segmentfault.com/u/aoyangyudakong",
-    "votes": "15",
-    "rank": 22
+    "votes": "18",
+    "rank": 15
   },
   {
-    "title": "实用Javascript调试技巧分享",
-    "description": "见过太多同学调试Javascript只会用简单的console.log甚至alert，看着真为他们捉鸡。。因为大多数同学追求优雅而高效地写代码，却忽略了如何优雅而高效地调试代码，不得不说是有点“偏科”了。下面我就分享一些实用...",
-    "url": "https://segmentfault.com/a/1190000019474390",
-    "author": "MudOnTire",
-    "home_url": "https://segmentfault.com/u/mudontire",
-    "votes": "182",
-    "rank": 23
+    "title": "强烈推荐 GitHub 上值得前端学习的开源实战项目",
+    "description": "强烈推荐 GitHub 上值得前端学习的开源实战项目。 Vue.js vue-element-admin 是一个后台前端解决方案，它基于和 element-ui 实现 基于 iView 的 Vue 2.0 管理系统模板 基于 vue2 + vuex 构建一个具有 45 个页面的...",
+    "url": "https://segmentfault.com/a/1190000019488576",
+    "author": "夜尽天明",
+    "home_url": "https://segmentfault.com/u/biaochenxuying",
+    "votes": "137",
+    "rank": 16
   },
   {
     "title": "[译] 前端项目中常见的 CSS 问题",
@@ -212,26 +149,71 @@
     "url": "https://segmentfault.com/a/1190000019523323",
     "author": "Chor",
     "home_url": "https://segmentfault.com/u/chor",
-    "votes": "107",
+    "votes": "112",
+    "rank": 17
+  },
+  {
+    "title": "🚀 Hyperf v1.0 发布，全新企业级的 PHP 协程微服务框架",
+    "description": "Hyperf 是基于 Swoole 4.3+ 实现的高性能、高灵活性的 PHP 协程框架，内置协程服务器及大量常用的组件，性能较传统基于 PHP-FPM 的框架有质的提升，提供超高性能的同时，也保持着极其灵活的可扩展性，标准组件均...",
+    "url": "https://segmentfault.com/a/1190000019533635",
+    "author": "huangzhhui",
+    "home_url": "https://segmentfault.com/u/huangzhhui",
+    "votes": "101",
+    "rank": 18
+  },
+  {
+    "title": "实用Javascript调试技巧分享",
+    "description": "见过太多同学调试Javascript只会用简单的console.log甚至alert，看着真为他们捉鸡。。因为大多数同学追求优雅而高效地写代码，却忽略了如何优雅而高效地调试代码，不得不说是有点“偏科”了。下面我就分享一些实用...",
+    "url": "https://segmentfault.com/a/1190000019474390",
+    "author": "MudOnTire",
+    "home_url": "https://segmentfault.com/u/mudontire",
+    "votes": "184",
+    "rank": 19
+  },
+  {
+    "title": "JS引擎:它们是如何工作的?从调用堆栈到Promise，需要知道的所有内容",
+    "description": "有没有想过浏览器如何读取和运行JS代码？ 这看起来很神奇，我们可以通过浏览器提供的控制台来了解背后的一些原理。",
+    "url": "https://segmentfault.com/a/1190000019503741",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "22",
+    "rank": 20
+  },
+  {
+    "title": "为vue3学点typescript(1), 体验typescript",
+    "description": "看了vue conf 2019的视频, 特别兴奋, vue3要来了!vue3是用typescript开发的, 我揣测在vue的带领下typescript会成为主流呢, 要不先学点.",
+    "url": "https://segmentfault.com/a/1190000019631849",
+    "author": "铁皮饭盒",
+    "home_url": "https://segmentfault.com/u/russell221",
+    "votes": "16",
+    "rank": 21
+  },
+  {
+    "title": "localStorage、sessionStorage ES6简单封装",
+    "description": "localStorage、sessionStorage ES6简单封装： {代码...} 使用方式： {代码...}",
+    "url": "https://segmentfault.com/a/1190000019643625",
+    "author": "ppCode",
+    "home_url": "https://segmentfault.com/u/luke_58aab11b996be",
+    "votes": "16",
+    "rank": 22
+  },
+  {
+    "title": "PHP 理清 foreach 潜规则",
+    "description": "在相当长的一段时间里，我认为 foreach 在循环期间使用的是原数组的副本。但最近经过一些实验后发现这并不是百分百正确。",
+    "url": "https://segmentfault.com/a/1190000019637833",
+    "author": "weapon",
+    "home_url": "https://segmentfault.com/u/weapon",
+    "votes": "12",
+    "rank": 23
+  },
+  {
+    "title": "Web 安全漏洞之文件上传",
+    "description": "文件上传漏洞是指网络攻击者上传了一个可执行的文件到服务器上，当开发者没有对该文件进行合理的校验及处理的时候，很有可能让程序执行这个上传文件导致安全漏洞。大部分网站都会有文件上传的功能，例如头像、图...",
+    "url": "https://segmentfault.com/a/1190000019626978",
+    "author": "公子",
+    "home_url": "https://segmentfault.com/u/lizheming",
+    "votes": "19",
     "rank": 24
-  },
-  {
-    "title": "JavaScript之“use strict”",
-    "description": "“use strict\"是ECMAScript 5引入的-一条指令。指令不是语句(但非常接近于语句)。“usestrict\"指令和普通的语句之间有两个重要的区别:",
-    "url": "https://segmentfault.com/a/1190000019638718",
-    "author": "云鱼Cloudy",
-    "home_url": "https://segmentfault.com/u/cloudyttt",
-    "votes": "6",
-    "rank": 25
-  },
-  {
-    "title": "docker+daocloud实现前端项目自动构建部署",
-    "description": "项目的自动化部署在大公司或独角兽中用得比较多，相比来进行手动部署项目来说会更加高效。那么本文结合之前学习的docker知识点以及nginx来简单实现VueJs项目的自动部署，当然针对其他项目也类似。",
-    "url": "https://segmentfault.com/a/1190000019644035",
-    "author": "darkCode",
-    "home_url": "https://segmentfault.com/u/darkcode",
-    "votes": "1",
-    "rank": 26
   },
   {
     "title": "基于Vue SEO的四种方案",
@@ -239,8 +221,17 @@
     "url": "https://segmentfault.com/a/1190000019623624",
     "author": "lengziyu",
     "home_url": "https://segmentfault.com/u/lengziyu",
-    "votes": "19",
-    "rank": 27
+    "votes": "23",
+    "rank": 25
+  },
+  {
+    "title": "Vue 项目功能实现：刷新当前页面",
+    "description": "前些日子项目中突然接到了一个需求，要求点击当前路由刷新页面，进过实验有如下几种方案可实现需求，并简述不同。",
+    "url": "https://segmentfault.com/a/1190000019635080",
+    "author": "月半圆儿丨TED",
+    "home_url": "https://segmentfault.com/u/zhaolong_59099ff6ae746",
+    "votes": "14",
+    "rank": 26
   },
   {
     "title": "用JS开发跨平台桌面应用，从原理到实践",
@@ -249,15 +240,24 @@
     "author": "ConardLi",
     "home_url": "https://segmentfault.com/u/conardli",
     "votes": "138",
+    "rank": 27
+  },
+  {
+    "title": "【Step-By-Step】高频面试题深入解析 / 周刊06",
+    "description": "Step-By-Step (点击进入项目) 是我于 2019-05-20 开始的一个项目，每个工作日发布一道面试题。每个周末我会仔细阅读大家的答案，整理最一份较优答案出来，因本人水平有限，有误的地方，大家及时指正。 如果想 加...",
+    "url": "https://segmentfault.com/a/1190000019640437",
+    "author": "刘小夕",
+    "home_url": "https://segmentfault.com/u/liuyan666",
+    "votes": "18",
     "rank": 28
   },
   {
-    "title": "简述HTTP协议",
-    "description": "身为开发人员除了应该对我们所写的项目需求要了解，以及基本的语言知识，对于HTTP协议也是应该了解一下的，因为这些东西与我们是密不可分的，每天都在和HTTP打交道然而却不知道它到底是什么？这样说出去是不是很...",
-    "url": "https://segmentfault.com/a/1190000019624321",
+    "title": "那些年曾谈起的跨域",
+    "description": "对于前端开发来说跨域应该是最不陌生的问题了，无论是开发过程中还是在面试过程中都是一个经常遇到的一个问题，在开发过程中遇到这个问题的话一般都是找后端同学去解决，以至于很多人都忽略了对跨域的认识。为什...",
+    "url": "https://segmentfault.com/a/1190000019530009",
     "author": "Aaron",
     "home_url": "https://segmentfault.com/u/aaron_59f5c5ee0c93f",
-    "votes": "21",
+    "votes": "94",
     "rank": 29
   }
 ]
