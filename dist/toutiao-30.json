@@ -12,7 +12,7 @@
   {
     "title": "天边一朵云：徒手用 html 生成一朵云，很真的那种",
     "description": "《天边一朵云》是由蔡明亮执导，李康生、陈湘琪领衔主演的剧情电影，情节很文艺，摄影很露骨，属于那种你看了后完全没有撸点的色情片。看完本片后，我很后悔，所以我打算自己用html弄出天边...",
-    "votes": "73",
+    "votes": "74",
     "url": "/k/h2v2bv",
     "avatar": "https://img.toutiao.io/subject%2F8e44d1a2390944c08c6170906cfc0856",
     "avatarAlt": "跨端&全栈 - 独家号",
@@ -82,12 +82,22 @@
   {
     "title": "优秀工程师必备的一项技能，你解锁了吗？",
     "description": "  阿里妹导读：很多程序员在工作一段时间后会遇到迷茫期，虽有技术傍身，也难免会产生焦虑，反复思考怎样才能快速成长。关于如何提高自己的思考力，运用思考的力量推动能力提升，以此实现技术...",
-    "votes": "41",
+    "votes": "42",
     "url": "/k/61sx9j",
     "avatar": "https://img.toutiao.io/subject%2F732cb6a567b6447aa876ed179c0e89c7",
     "avatarAlt": "Fundebug - 独家号",
     "subjectName": "Fundebug",
     "homeUrl": "/subjects/216955"
+  },
+  {
+    "title": "API 网关从入门到放弃",
+    "description": "前言假设你正在开发一个电商网站，那么这里会涉及到很多后端的微服务，比如会员、商品、推荐服务等等。那么这里就会遇到一个问题，APP/Browser怎么去访问这些后端的服务? 如果业务...",
+    "votes": "41",
+    "url": "/k/i14mvi",
+    "avatar": "https://img.toutiao.io/subject%2Fe7b064080a2d4df5850f192ca54ee1d2",
+    "avatarAlt": "acoder2013的独家号 - 独家号",
+    "subjectName": "acoder2013的独家号",
+    "homeUrl": "/subjects/268362"
   },
   {
     "title": "为啥你身边没有 40+ 的程序员",
@@ -140,19 +150,9 @@
     "homeUrl": "/subjects/216955"
   },
   {
-    "title": "API 网关从入门到放弃",
-    "description": "前言假设你正在开发一个电商网站，那么这里会涉及到很多后端的微服务，比如会员、商品、推荐服务等等。那么这里就会遇到一个问题，APP/Browser怎么去访问这些后端的服务? 如果业务...",
-    "votes": "36",
-    "url": "/k/i14mvi",
-    "avatar": "https://img.toutiao.io/subject%2Fe7b064080a2d4df5850f192ca54ee1d2",
-    "avatarAlt": "acoder2013的独家号 - 独家号",
-    "subjectName": "acoder2013的独家号",
-    "homeUrl": "/subjects/268362"
-  },
-  {
     "title": "[译] 深入理解现代浏览器",
     "description": "编者按：本文作者李松峰，资深技术图书译者，翻译出版过40余部技术及交互设计专著，现任360奇舞团Web前端开发资深专家，360前端技术委员会委员、W3C AC代表。 各位，如果你的...",
-    "votes": "36",
+    "votes": "37",
     "url": "/k/6997wr",
     "avatar": "https://img.toutiao.io/subject%2Faec59e3752174268802557e3e7afcb33",
     "avatarAlt": "不错的好文 - 独家号",
@@ -210,6 +210,26 @@
     "homeUrl": "/subjects/372416"
   },
   {
+    "title": "从实践到原理，带你参透 gRPC",
+    "description": "gRPC 在 Go 语言中大放异彩，越来越多的小伙伴在使用，最近也在公司安利了一波，希望这一篇文章能带你一览 gRPC 的巧妙之处，本文篇幅比较长，请做好阅读准备。本文目录如下：简...",
+    "votes": "32",
+    "url": "/k/o3ylio",
+    "avatar": "https://img.toutiao.io/user/01ec77a3ddbb4158afed606b24af1c87/thumb",
+    "avatarAlt": "煎鱼的清汤锅 - 独家号",
+    "subjectName": "煎鱼的清汤锅",
+    "homeUrl": "/subjects/343446"
+  },
+  {
+    "title": "Https 到底把什么加密了?",
+    "description": "问题描述都说https是在http和tcp两层之间加密，针对的是传输过程，只有客户端和服务端才能解密，变成明文。但是又有很多人说，https协议下，用get请求不加密，需要用pos...",
+    "votes": "32",
+    "url": "/k/vw5rjx",
+    "avatar": "https://img.toutiao.io/subject%2F732cb6a567b6447aa876ed179c0e89c7",
+    "avatarAlt": "Fundebug - 独家号",
+    "subjectName": "Fundebug",
+    "homeUrl": "/subjects/216955"
+  },
+  {
     "title": "一位程序员写给孩子的一封信",
     "description": "不知不觉，突然想给未来的你写封信。 你的爸爸是一个西二旗程序员。 就是前些日子朋友圈疯传的\"月入5w，却活的不如5k\"的那类特殊群体中的一份子。不过，你二十又八的爸爸没有月入5w，...",
     "votes": "31",
@@ -220,33 +240,13 @@
     "homeUrl": "/subjects/4"
   },
   {
-    "title": "从实践到原理，带你参透 gRPC",
-    "description": "gRPC 在 Go 语言中大放异彩，越来越多的小伙伴在使用，最近也在公司安利了一波，希望这一篇文章能带你一览 gRPC 的巧妙之处，本文篇幅比较长，请做好阅读准备。本文目录如下：简...",
+    "title": "惊：FastThreadLocal 吞吐量居然是 ThreadLocal 的 3 倍",
+    "description": "接着上次手撕面试题ThreadLocal！！！面试官一听，哎呦不错哦！本文将继续上文的话题，来聊聊FastThreadLocal，目前关于FastThreadLocal的很多文章都...",
     "votes": "30",
-    "url": "/k/o3ylio",
-    "avatar": "https://img.toutiao.io/user/01ec77a3ddbb4158afed606b24af1c87/thumb",
-    "avatarAlt": "煎鱼的清汤锅 - 独家号",
-    "subjectName": "煎鱼的清汤锅",
-    "homeUrl": "/subjects/343446"
-  },
-  {
-    "title": "Spring Boot 配置文件中的花样，看这一篇足矣",
-    "description": "点击蓝色“程序猿DD”关注我哟加个“星标”，不忘签到哦关注我，回复口令获取可获取独家整理的学习资料：- 001 ：领取《Spring Boot基础教程》- 002 ：领取《Spri...",
-    "votes": "29",
-    "url": "/k/fm0k6n",
-    "avatar": "https://img.toutiao.io/subject%2F3526fabe1649407aa94a88d207df8cbb",
-    "avatarAlt": "程序猿DD - 独家号",
-    "subjectName": "程序猿DD",
-    "homeUrl": "/subjects/236702"
-  },
-  {
-    "title": "[PPT] 尤雨溪：State of Vue",
-    "description": "今天有去参加第三届Vue.js开发者大会吗？没去参加的童鞋可以先睹@尤大关于Vue的PPT。本PPT由@尤雨溪授权分享。更详细内容，可关注后续的视频【图书】深入浅出Vue.js...",
-    "votes": "29",
-    "url": "/k/aa43yx",
-    "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
-    "avatarAlt": "头条精选 - 独家号",
-    "subjectName": "头条精选",
-    "homeUrl": "/subjects/4"
+    "url": "/k/c05mf3",
+    "avatar": "https://img.toutiao.io/subject%2Ff1877686771f404eac3cd6cd7203ecdb",
+    "avatarAlt": "匠心零度 - 独家号",
+    "subjectName": "匠心零度",
+    "homeUrl": "/subjects/241105"
   }
 ]
