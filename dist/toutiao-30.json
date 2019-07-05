@@ -1,8 +1,8 @@
 [
   {
-    "title": "史上最全的编程学习资料合集（已更新）",
+    "title": "全面优质的编程学习资料",
     "description": "本项目是《码农周刊》编程学习资料大合集，码农周刊团队官方出品。码农周刊是一份专为程序员打造的 IT 技术周刊。我们会为你精选一周 IT 技术干货，每周二发送，完全免费。内容包括：程...",
-    "votes": "94",
+    "votes": "99",
     "url": "/k/2bqige",
     "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
     "avatarAlt": "头条精选 - 独家号",
@@ -28,16 +28,6 @@
     "avatarAlt": "JAVA干货 - 独家号",
     "subjectName": "JAVA干货",
     "homeUrl": "/subjects/51515"
-  },
-  {
-    "title": "那些被 Oracle 优化的程序员们，现在都怎么样了？",
-    "description": "据甲骨文员工透漏，前一天晚上还在加班改bug，第二天就通知被裁了，甚至要求被裁员工在30分钟内交出公司资产，离开大楼。甲骨文公司，全称甲骨文股份有限公司(甲骨文软件系统有限公司)，...",
-    "votes": "68",
-    "url": "/k/j0mpw6",
-    "avatar": "https://img.toutiao.io/subject%2Fd62ae4a6b08244b1b8422989109cdb5f",
-    "avatarAlt": "公众号：Java技术zhai - 独家号",
-    "subjectName": "公众号：Java技术zhai",
-    "homeUrl": "/subjects/342006"
   },
   {
     "title": "我看鸿蒙操作系统",
@@ -70,6 +60,16 @@
     "homeUrl": "/subjects/178627"
   },
   {
+    "title": "API 网关从入门到放弃",
+    "description": "前言假设你正在开发一个电商网站，那么这里会涉及到很多后端的微服务，比如会员、商品、推荐服务等等。那么这里就会遇到一个问题，APP/Browser怎么去访问这些后端的服务? 如果业务...",
+    "votes": "45",
+    "url": "/k/i14mvi",
+    "avatar": "https://img.toutiao.io/subject%2Fe7b064080a2d4df5850f192ca54ee1d2",
+    "avatarAlt": "acoder2013的独家号 - 独家号",
+    "subjectName": "acoder2013的独家号",
+    "homeUrl": "/subjects/268362"
+  },
+  {
     "title": "服务端高并发分布式架构演进之路",
     "description": "1. 概述本文以淘宝作为例子，介绍从一百个并发到千万级并发情况下服务端的架构的演进过程，同时列举出每个演进阶段会遇到的相关技术，让大家对架构的演进有一个整体的认知，文章最后汇总了一...",
     "votes": "43",
@@ -88,16 +88,6 @@
     "avatarAlt": "Fundebug - 独家号",
     "subjectName": "Fundebug",
     "homeUrl": "/subjects/216955"
-  },
-  {
-    "title": "API 网关从入门到放弃",
-    "description": "前言假设你正在开发一个电商网站，那么这里会涉及到很多后端的微服务，比如会员、商品、推荐服务等等。那么这里就会遇到一个问题，APP/Browser怎么去访问这些后端的服务? 如果业务...",
-    "votes": "41",
-    "url": "/k/i14mvi",
-    "avatar": "https://img.toutiao.io/subject%2Fe7b064080a2d4df5850f192ca54ee1d2",
-    "avatarAlt": "acoder2013的独家号 - 独家号",
-    "subjectName": "acoder2013的独家号",
-    "homeUrl": "/subjects/268362"
   },
   {
     "title": "为啥你身边没有 40+ 的程序员",
@@ -140,6 +130,16 @@
     "homeUrl": "/subjects/4"
   },
   {
+    "title": "Https 到底把什么加密了?",
+    "description": "问题描述都说https是在http和tcp两层之间加密，针对的是传输过程，只有客户端和服务端才能解密，变成明文。但是又有很多人说，https协议下，用get请求不加密，需要用pos...",
+    "votes": "38",
+    "url": "/k/vw5rjx",
+    "avatar": "https://img.toutiao.io/subject%2F732cb6a567b6447aa876ed179c0e89c7",
+    "avatarAlt": "Fundebug - 独家号",
+    "subjectName": "Fundebug",
+    "homeUrl": "/subjects/216955"
+  },
+  {
     "title": "年薪百万是种怎样的体验",
     "description": "最近冯老师和浪人高少先后发文谈及百万年薪的话题，忍不住我也跟着扯几句。先做个说明，本文中提及的年薪，包含基本薪酬和存在相对明确预期的股权，分红收益（当然也会在一定范围内起伏）。比如...",
     "votes": "37",
@@ -158,6 +158,26 @@
     "avatarAlt": "不错的好文 - 独家号",
     "subjectName": "不错的好文",
     "homeUrl": "/subjects/5551"
+  },
+  {
+    "title": "我的 Win 实用软件清单",
+    "description": "1. 我的Win实用软件清单排名不分先后且长期更新 有更好用的或者需要帮助的可以留言————最后一次更新于 2019.06.251. Dism++1.1. 功能：系统精简、垃圾清理...",
+    "votes": "37",
+    "url": "/k/150lmv",
+    "avatar": "https://img.toutiao.io/subject%2Fe1913751ee6a4093be1ba6563f1abb6d",
+    "avatarAlt": "爱写bug - 独家号",
+    "subjectName": "爱写bug",
+    "homeUrl": "/subjects/407474"
+  },
+  {
+    "title": "求你了，再问你 Java 内存模型的时候别再给我讲堆栈方法区了",
+    "description": "最近，面试过很多Java中高级开发，问过很多次关于Java内存模型的知识，问完之后，很多人上来就开始回答：Java内存模型由几部分组成，堆、本地方法栈、虚拟机栈、方法区…每一次我不...",
+    "votes": "37",
+    "url": "/k/4ufv7m",
+    "avatar": "https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e",
+    "avatarAlt": "JAVA干货 - 独家号",
+    "subjectName": "JAVA干货",
+    "homeUrl": "/subjects/51515"
   },
   {
     "title": "手撕面试题 ThreadLocal",
@@ -180,16 +200,6 @@
     "homeUrl": "/subjects/206366"
   },
   {
-    "title": "我的 Win 实用软件清单",
-    "description": "1. 我的Win实用软件清单排名不分先后且长期更新 有更好用的或者需要帮助的可以留言————最后一次更新于 2019.06.251. Dism++1.1. 功能：系统精简、垃圾清理...",
-    "votes": "35",
-    "url": "/k/150lmv",
-    "avatar": "https://img.toutiao.io/subject%2Fe1913751ee6a4093be1ba6563f1abb6d",
-    "avatarAlt": "爱写bug - 独家号",
-    "subjectName": "爱写bug",
-    "homeUrl": "/subjects/407474"
-  },
-  {
     "title": "这可能是最中肯的 Redis 规范了",
     "description": "redis功能强大，数据类型丰富，再快的系统，也经不住疯狂的滥用。通过禁用部分高风险功能，并挂上开发的枷锁，业务更能够以简洁、通用的思想去考虑问题，而不是绑定在某种实现上。Redi...",
     "votes": "33",
@@ -200,14 +210,24 @@
     "homeUrl": "/subjects/351247"
   },
   {
-    "title": "千万不要这样使用 Arrays.asList",
-    "description": "使用Arrays.asList()的原因无非是想将数组或一些元素转为集合,而你得到的集合并不一定是你想要的那个集合。而一开始asList的设计时用于打印数组而设计的，但jdk1.5...",
+    "title": "为什么阿里巴巴要求谨慎使用 ArrayList 中的 subList 方法",
+    "description": "△Hollis, 一个对Coding有着独特追求的人△这是Hollis的第 219 篇原创分享作者 l Hollis来源 l Hollis（ID：hollischuang）集合是J...",
+    "votes": "33",
+    "url": "/k/79hcb6",
+    "avatar": "https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e",
+    "avatarAlt": "JAVA干货 - 独家号",
+    "subjectName": "JAVA干货",
+    "homeUrl": "/subjects/51515"
+  },
+  {
+    "title": "惊：FastThreadLocal 吞吐量居然是 ThreadLocal 的 3 倍",
+    "description": "接着上次手撕面试题ThreadLocal！！！面试官一听，哎呦不错哦！本文将继续上文的话题，来聊聊FastThreadLocal，目前关于FastThreadLocal的很多文章都...",
     "votes": "32",
-    "url": "/k/oqdpx5",
-    "avatar": "https://img.toutiao.io/subject%2Fd63f79cb85a343fa979d3cbf0bf4ae4a",
-    "avatarAlt": "码上实战 - 独家号",
-    "subjectName": "码上实战",
-    "homeUrl": "/subjects/372416"
+    "url": "/k/c05mf3",
+    "avatar": "https://img.toutiao.io/subject%2Ff1877686771f404eac3cd6cd7203ecdb",
+    "avatarAlt": "匠心零度 - 独家号",
+    "subjectName": "匠心零度",
+    "homeUrl": "/subjects/241105"
   },
   {
     "title": "从实践到原理，带你参透 gRPC",
@@ -220,16 +240,6 @@
     "homeUrl": "/subjects/343446"
   },
   {
-    "title": "Https 到底把什么加密了?",
-    "description": "问题描述都说https是在http和tcp两层之间加密，针对的是传输过程，只有客户端和服务端才能解密，变成明文。但是又有很多人说，https协议下，用get请求不加密，需要用pos...",
-    "votes": "32",
-    "url": "/k/vw5rjx",
-    "avatar": "https://img.toutiao.io/subject%2F732cb6a567b6447aa876ed179c0e89c7",
-    "avatarAlt": "Fundebug - 独家号",
-    "subjectName": "Fundebug",
-    "homeUrl": "/subjects/216955"
-  },
-  {
     "title": "一位程序员写给孩子的一封信",
     "description": "不知不觉，突然想给未来的你写封信。 你的爸爸是一个西二旗程序员。 就是前些日子朋友圈疯传的\"月入5w，却活的不如5k\"的那类特殊群体中的一份子。不过，你二十又八的爸爸没有月入5w，...",
     "votes": "31",
@@ -238,15 +248,5 @@
     "avatarAlt": "头条精选 - 独家号",
     "subjectName": "头条精选",
     "homeUrl": "/subjects/4"
-  },
-  {
-    "title": "惊：FastThreadLocal 吞吐量居然是 ThreadLocal 的 3 倍",
-    "description": "接着上次手撕面试题ThreadLocal！！！面试官一听，哎呦不错哦！本文将继续上文的话题，来聊聊FastThreadLocal，目前关于FastThreadLocal的很多文章都...",
-    "votes": "30",
-    "url": "/k/c05mf3",
-    "avatar": "https://img.toutiao.io/subject%2Ff1877686771f404eac3cd6cd7203ecdb",
-    "avatarAlt": "匠心零度 - 独家号",
-    "subjectName": "匠心零度",
-    "homeUrl": "/subjects/241105"
   }
 ]
