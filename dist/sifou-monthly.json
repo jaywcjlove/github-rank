@@ -5,16 +5,16 @@
     "url": "https://segmentfault.com/a/1190000019601333",
     "author": "hfhan",
     "home_url": "https://segmentfault.com/u/hfhan",
-    "votes": "192",
+    "votes": "200",
     "rank": 1
   },
   {
-    "title": "盘点Vue源码中用到的工具函数",
-    "description": "创建一个被冻结的空对象 判断是否是 undefined 或 null 判断是否不是 undefined 和 null 判断是否是原始类型 判断是否是对象类型 判断有效的数组下标 判断是否是一个 Promise 对象 删除数组中指定元素 用做缓存的...",
-    "url": "https://segmentfault.com/a/1190000019679638",
-    "author": "戎马",
-    "home_url": "https://segmentfault.com/u/lashoucuijs",
-    "votes": "7",
+    "title": "React的移动端和PC端生态圈的使用汇总",
+    "description": "对于一项技术，我们不能停留在五分钟状态，特别喜欢一句话，用什么方式绘制UI界面一点不重要，重要的是底层的思维，解决问题和优化的思路。",
+    "url": "https://segmentfault.com/a/1190000019690099",
+    "author": "Peter谭金杰",
+    "home_url": "https://segmentfault.com/u/jerrytanjinjie",
+    "votes": "5",
     "rank": 2
   },
   {
@@ -23,35 +23,8 @@
     "url": "https://segmentfault.com/a/1190000019663847",
     "author": "吃葡萄不吐番茄皮",
     "home_url": "https://segmentfault.com/u/yuqibin",
-    "votes": "42",
+    "votes": "66",
     "rank": 3
-  },
-  {
-    "title": "grpc的Go服务端和PHP客户端实现",
-    "description": "gRPC 是一个高性能、开源和通用的 RPC 框架，面向移动和 HTTP/2 设计。目前提供 C、Java 和 Go 语言版本，分别是：grpc, grpc-java, grpc-go. 其中 C 版本支持 C, C++, Node.js, Python, Ruby, Objective-C, PHP ...",
-    "url": "https://segmentfault.com/a/1190000019668233",
-    "author": "guyan0319",
-    "home_url": "https://segmentfault.com/u/guyan0319",
-    "votes": "18",
-    "rank": 4
-  },
-  {
-    "title": "Smartour——让网页导览变得更简单",
-    "description": "在遇到网页内容有着较大调整的时候，往往需要一个导览功能去告诉用户，某某功能已经调整到另外一个位置。比较常规的办法是添加一个蒙层，高亮显示被调整的区域，然后通过文字介绍去完成引导。我们把这个功能称为“...",
-    "url": "https://segmentfault.com/a/1190000019640868",
-    "author": "jrainlau",
-    "home_url": "https://segmentfault.com/u/jrainlau",
-    "votes": "36",
-    "rank": 5
-  },
-  {
-    "title": "13 个 npm 快速开发技巧",
-    "description": "每天，数以百万计的开发人员使用 npm 或 yarn 来构建项目。运行npm init或npx create- response -app等命令几乎构建JS项目的首选方式，无论是为客户端或服务器端，还是桌面应用程序。",
-    "url": "https://segmentfault.com/a/1190000019607202",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "39",
-    "rank": 6
   },
   {
     "title": "2019年前端必用正则(js)",
@@ -59,7 +32,34 @@
     "url": "https://segmentfault.com/a/1190000019597590",
     "author": "铁皮饭盒",
     "home_url": "https://segmentfault.com/u/russell221",
-    "votes": "114",
+    "votes": "118",
+    "rank": 4
+  },
+  {
+    "title": "【译】21 项优化 React App 性能的技术",
+    "description": "在 React 内部，React 会使用几项巧妙的小技术，来优化计算更新 UI 时，所需要的最少的更新 DOM 的操作。在大多数情况下，即使你没有针对性能进行专项优化，React 依然很快，但是仍有一些方法可以加速 React 应用...",
+    "url": "https://segmentfault.com/a/1190000019685362",
+    "author": "joking_zhang",
+    "home_url": "https://segmentfault.com/u/joking_zhang",
+    "votes": "22",
+    "rank": 5
+  },
+  {
+    "title": "从渲染原理谈前端性能优化",
+    "description": "这句话来自《web性能权威指南》，我一直很喜欢，而本文尝试从浏览器渲染原理探讨如何进行性能提升。全文将从网络通信以及页面渲染两个过程去探讨浏览器的行为及在此过程中我们可以针对那些点进行优化，有些的不足...",
+    "url": "https://segmentfault.com/a/1190000019504744",
+    "author": "LNMPR源码研究",
+    "home_url": "https://segmentfault.com/u/php7internal",
+    "votes": "210",
+    "rank": 6
+  },
+  {
+    "title": "Smartour——让网页导览变得更简单",
+    "description": "在遇到网页内容有着较大调整的时候，往往需要一个导览功能去告诉用户，某某功能已经调整到另外一个位置。比较常规的办法是添加一个蒙层，高亮显示被调整的区域，然后通过文字介绍去完成引导。我们把这个功能称为“...",
+    "url": "https://segmentfault.com/a/1190000019640868",
+    "author": "jrainlau",
+    "home_url": "https://segmentfault.com/u/jrainlau",
+    "votes": "43",
     "rank": 7
   },
   {
@@ -68,26 +68,35 @@
     "url": "https://segmentfault.com/a/1190000019619667",
     "author": "Snailclimb",
     "home_url": "https://segmentfault.com/u/snailclimb",
-    "votes": "80",
+    "votes": "81",
     "rank": 8
   },
   {
-    "title": "在 JavaScript 中深度克隆对象（及其工作原理）",
-    "description": "如果你打算用 JavaScript 进行编码，那么就需要了解对象的工作方式。对象是 JavaScript 最重要的元素之一，深入理解了它会使你在编码时得心应手。在克隆对象时，它并不像看起来那么简单。",
-    "url": "https://segmentfault.com/a/1190000019676233",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "6",
+    "title": "13 个 npm 快速开发技巧",
+    "description": "每天，数以百万计的开发人员使用 npm 或 yarn 来构建项目。运行npm init或npx create- response -app等命令几乎构建JS项目的首选方式，无论是为客户端或服务器端，还是桌面应用程序。",
+    "url": "https://segmentfault.com/a/1190000019607202",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "47",
     "rank": 9
   },
   {
-    "title": "从渲染原理谈前端性能优化",
-    "description": "这句话来自《web性能权威指南》，我一直很喜欢，而本文尝试从浏览器渲染原理探讨如何进行性能提升。全文将从网络通信以及页面渲染两个过程去探讨浏览器的行为及在此过程中我们可以针对那些点进行优化，有些的不足...",
-    "url": "https://segmentfault.com/a/1190000019504744",
-    "author": "LNMPR源码研究",
-    "home_url": "https://segmentfault.com/u/php7internal",
-    "votes": "208",
+    "title": "移动端的3种适配方法",
+    "description": "做移动端页面以来，经常会听说移动端的适配这个问题，但是并没有认真分析过是如何适配各种机型的。目前公司用的是手淘的flexible.js进行页面适配的。适配的根本原理其实就是将设计稿按一定的比例在不同的手机上实...",
+    "url": "https://segmentfault.com/a/1190000019677612",
+    "author": "前路漫漫",
+    "home_url": "https://segmentfault.com/u/qianlumanman",
+    "votes": "27",
     "rank": 10
+  },
+  {
+    "title": "盘点Vue源码中用到的工具函数",
+    "description": "创建一个被冻结的空对象 判断是否是 undefined 或 null 判断是否不是 undefined 和 null 判断是否是原始类型 判断是否是对象类型 判断有效的数组下标 判断是否是一个 Promise 对象 删除数组中指定元素 用做缓存的...",
+    "url": "https://segmentfault.com/a/1190000019679638",
+    "author": "戎马",
+    "home_url": "https://segmentfault.com/u/lashoucuijs",
+    "votes": "23",
+    "rank": 11
   },
   {
     "title": "「译」编写更好的 JavaScript 条件式和匹配条件的技巧",
@@ -95,16 +104,7 @@
     "url": "https://segmentfault.com/a/1190000019576207",
     "author": "Chor",
     "home_url": "https://segmentfault.com/u/chor",
-    "votes": "98",
-    "rank": 11
-  },
-  {
-    "title": "8个有用的JS技巧",
-    "description": "使用 grid ，需要重新创建原始数据，并且每行的列长度可能不匹配， 为了确保不匹配行之间的长度相等，可以使用Array.fill方法。",
-    "url": "https://segmentfault.com/a/1190000019617387",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "42",
+    "votes": "100",
     "rank": 12
   },
   {
@@ -113,16 +113,16 @@
     "url": "https://segmentfault.com/a/1190000019608421",
     "author": "煎鱼",
     "home_url": "https://segmentfault.com/u/eddycjy",
-    "votes": "62",
+    "votes": "66",
     "rank": 13
   },
   {
-    "title": "值得收藏 7 个有用JavaScript技巧",
-    "description": "有时我们需要过滤数组中值为 false 的值. 例如(0, undefined, null, false), 你可能不知道这样的技巧",
-    "url": "https://segmentfault.com/a/1190000019659073",
-    "author": "任重道远",
-    "home_url": "https://segmentfault.com/u/renzhongdaoyuan_59170ca258c53",
-    "votes": "39",
+    "title": "vue实现自定义H5视频播放器",
+    "description": "前段时间基于vue写了一个自定义的video播放器组件,踩了一些小坑, 这里做一下复盘分享出来,避免日后重复踩坑...",
+    "url": "https://segmentfault.com/a/1190000019623347",
+    "author": "appleguardu",
+    "home_url": "https://segmentfault.com/u/appleguardu",
+    "votes": "38",
     "rank": 14
   },
   {
@@ -135,12 +135,12 @@
     "rank": 15
   },
   {
-    "title": "localStorage、sessionStorage ES6 简单封装 Vue",
-    "description": "localStorage、sessionStorage ES6简单封装： {代码...} 使用方式： {代码...}",
-    "url": "https://segmentfault.com/a/1190000019643625",
-    "author": "ppCode",
-    "home_url": "https://segmentfault.com/u/luke_58aab11b996be",
-    "votes": "22",
+    "title": "grpc的Go服务端和PHP客户端实现",
+    "description": "gRPC 是一个高性能、开源和通用的 RPC 框架，面向移动和 HTTP/2 设计。目前提供 C、Java 和 Go 语言版本，分别是：grpc, grpc-java, grpc-go. 其中 C 版本支持 C, C++, Node.js, Python, Ruby, Objective-C, PHP ...",
+    "url": "https://segmentfault.com/a/1190000019668233",
+    "author": "guyan0319",
+    "home_url": "https://segmentfault.com/u/guyan0319",
+    "votes": "19",
     "rank": 16
   },
   {
@@ -149,43 +149,43 @@
     "url": "https://segmentfault.com/a/1190000019530009",
     "author": "Aaron",
     "home_url": "https://segmentfault.com/u/aaron_59f5c5ee0c93f",
-    "votes": "103",
+    "votes": "105",
     "rank": 17
   },
   {
-    "title": "微前端如何落地？",
-    "description": "在过去的几星期里，随着 Martin Fowler 博客上，那篇 Cam Jackson 写的微前端的文章发布，到处都在讨论 Microfrontend。作为一个微前端 “专家”，我也分享一下：如何去落地微前端。",
-    "url": "https://segmentfault.com/a/1190000019663742",
-    "author": "phodal",
-    "home_url": "https://segmentfault.com/u/phodal",
-    "votes": "18",
+    "title": "8个有用的JS技巧",
+    "description": "使用 grid ，需要重新创建原始数据，并且每行的列长度可能不匹配， 为了确保不匹配行之间的长度相等，可以使用Array.fill方法。",
+    "url": "https://segmentfault.com/a/1190000019617387",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "42",
     "rank": 18
   },
   {
-    "title": "js类型检测的几种方式盘点",
-    "description": "开始之前，必须要知道js中关于类型的定义。js中有6种基本类型，null，undefined,boolean,string,number,symbol(es6新增的类型)。还有一种引用类型（复杂类型）是object。像是{},function函数，[]数组都是对象。",
-    "url": "https://segmentfault.com/a/1190000019658460",
-    "author": "小学生",
-    "home_url": "https://segmentfault.com/u/xiaoxuesheng_5b7e4b5dca7e8",
-    "votes": "16",
+    "title": "值得收藏 7 个有用JavaScript技巧",
+    "description": "有时我们需要过滤数组中值为 false 的值. 例如(0, undefined, null, false), 你可能不知道这样的技巧",
+    "url": "https://segmentfault.com/a/1190000019659073",
+    "author": "任重道远",
+    "home_url": "https://segmentfault.com/u/renzhongdaoyuan_59170ca258c53",
+    "votes": "42",
     "rank": 19
   },
   {
-    "title": "JavaScript 数据结构与算法之美 - 栈内存与堆内存 、浅拷贝与深拷贝",
-    "description": "笔者写的 JavaScript 数据结构与算法之美 系列用的语言是 JavaScript ，旨在入门数据结构与算法和方便以后复习。",
-    "url": "https://segmentfault.com/a/1190000019643450",
-    "author": "夜尽天明",
-    "home_url": "https://segmentfault.com/u/biaochenxuying",
-    "votes": "28",
+    "title": "读《进化：从孤胆极客到高效团队》",
+    "description": "2016年，我从一家中型的IT公司离职，这短短一年经历了人生的起起伏伏。因为表现突出转正后从一名基层开发被领导提拔为部门前端方向负责人，所谓的技术leader。而就在我真的达到公司的事就是我的事的精神状态短短...",
+    "url": "https://segmentfault.com/a/1190000019667997",
+    "author": "智联大前端",
+    "home_url": "https://segmentfault.com/u/zpfe",
+    "votes": "30",
     "rank": 20
   },
   {
-    "title": "简述HTTP协议",
-    "description": "身为开发人员除了应该对我们所写的项目需求要了解，以及基本的语言知识，对于HTTP协议也是应该了解一下的，因为这些东西与我们是密不可分的，每天都在和HTTP打交道然而却不知道它到底是什么？这样说出去是不是很...",
-    "url": "https://segmentfault.com/a/1190000019624321",
-    "author": "Aaron",
-    "home_url": "https://segmentfault.com/u/aaron_59f5c5ee0c93f",
-    "votes": "49",
+    "title": "强烈推荐 GitHub 上值得前端学习的开源实战项目",
+    "description": "强烈推荐 GitHub 上值得前端学习的开源实战项目。 Vue.js vue-element-admin 是一个后台前端解决方案，它基于和 element-ui 实现 基于 iView 的 Vue 2.0 管理系统模板 基于 vue2 + vuex 构建一个具有 45 个页面的...",
+    "url": "https://segmentfault.com/a/1190000019488576",
+    "author": "夜尽天明",
+    "home_url": "https://segmentfault.com/u/biaochenxuying",
+    "votes": "142",
     "rank": 21
   },
   {
@@ -194,26 +194,17 @@
     "url": "https://segmentfault.com/a/1190000019523323",
     "author": "Chor",
     "home_url": "https://segmentfault.com/u/chor",
-    "votes": "117",
+    "votes": "120",
     "rank": 22
   },
   {
-    "title": "强烈推荐 GitHub 上值得前端学习的开源实战项目",
-    "description": "强烈推荐 GitHub 上值得前端学习的开源实战项目。 Vue.js vue-element-admin 是一个后台前端解决方案，它基于和 element-ui 实现 基于 iView 的 Vue 2.0 管理系统模板 基于 vue2 + vuex 构建一个具有 45 个页面的...",
-    "url": "https://segmentfault.com/a/1190000019488576",
-    "author": "夜尽天明",
-    "home_url": "https://segmentfault.com/u/biaochenxuying",
-    "votes": "139",
+    "title": "微前端如何落地？",
+    "description": "在过去的几星期里，随着 Martin Fowler 博客上，那篇 Cam Jackson 写的微前端的文章发布，到处都在讨论 Microfrontend。作为一个微前端 “专家”，我也分享一下：如何去落地微前端。",
+    "url": "https://segmentfault.com/a/1190000019663742",
+    "author": "phodal",
+    "home_url": "https://segmentfault.com/u/phodal",
+    "votes": "20",
     "rank": 23
-  },
-  {
-    "title": "记一次前端项目重构要点总结",
-    "description": "不知不觉已是2019年的7月，恍惚之间已工作四年。懵懵懂懂的成长，间歇性努力，实话说，对现在自己取得的成果不大满意。不过，好在时不时顿悟，知道适时作出改变。",
-    "url": "https://segmentfault.com/a/1190000019660077",
-    "author": "苏溪云",
-    "home_url": "https://segmentfault.com/u/terry_su",
-    "votes": "8",
-    "rank": 24
   },
   {
     "title": "实用Javascript调试技巧分享",
@@ -221,7 +212,16 @@
     "url": "https://segmentfault.com/a/1190000019474390",
     "author": "MudOnTire",
     "home_url": "https://segmentfault.com/u/mudontire",
-    "votes": "184",
+    "votes": "187",
+    "rank": 24
+  },
+  {
+    "title": "用JS开发跨平台桌面应用，从原理到实践",
+    "description": "使用Electron开发客户端程序已经有一段时间了，整体感觉还是非常不错的，其中也遇到了一些坑点，本文是从【运行原理】到【实际应用】对Electron进行一次系统性的总结。【多图，长文预警～】",
+    "url": "https://segmentfault.com/a/1190000019426512",
+    "author": "ConardLi",
+    "home_url": "https://segmentfault.com/u/conardli",
+    "votes": "139",
     "rank": 25
   },
   {
@@ -230,34 +230,34 @@
     "url": "https://segmentfault.com/a/1190000019533635",
     "author": "huangzhhui",
     "home_url": "https://segmentfault.com/u/huangzhhui",
-    "votes": "102",
+    "votes": "103",
     "rank": 26
   },
   {
-    "title": "vue实现自定义H5视频播放器",
-    "description": "前段时间基于vue写了一个自定义的video播放器组件,踩了一些小坑, 这里做一下复盘分享出来,避免日后重复踩坑...",
-    "url": "https://segmentfault.com/a/1190000019623347",
-    "author": "appleguardu",
-    "home_url": "https://segmentfault.com/u/appleguardu",
-    "votes": "38",
+    "title": "简述HTTP协议",
+    "description": "身为开发人员除了应该对我们所写的项目需求要了解，以及基本的语言知识，对于HTTP协议也是应该了解一下的，因为这些东西与我们是密不可分的，每天都在和HTTP打交道然而却不知道它到底是什么？这样说出去是不是很...",
+    "url": "https://segmentfault.com/a/1190000019624321",
+    "author": "Aaron",
+    "home_url": "https://segmentfault.com/u/aaron_59f5c5ee0c93f",
+    "votes": "50",
     "rank": 27
   },
   {
-    "title": "用JS开发跨平台桌面应用，从原理到实践",
-    "description": "使用Electron开发客户端程序已经有一段时间了，整体感觉还是非常不错的，其中也遇到了一些坑点，本文是从【运行原理】到【实际应用】对Electron进行一次系统性的总结。【多图，长文预警～】",
-    "url": "https://segmentfault.com/a/1190000019426512",
-    "author": "ConardLi",
-    "home_url": "https://segmentfault.com/u/conardli",
-    "votes": "138",
+    "title": "马蜂窝支付中心架构演进",
+    "description": "为了更好地支持交易业务的快速发展，马蜂窝支付中心从最初只支持基础支付和退款的「刀耕火种」阶段，经历了架构调整的「刮骨疗伤」阶段，完成了到实现综合产品平台形态的「沉淀蓄力」阶段的演进。",
+    "url": "https://segmentfault.com/a/1190000019673536",
+    "author": "马蜂窝技术",
+    "home_url": "https://segmentfault.com/u/mafengwojishu",
+    "votes": "22",
     "rank": 28
   },
   {
-    "title": "读《进化：从孤胆极客到高效团队》",
-    "description": "2016年，我从一家中型的IT公司离职，这短短一年经历了人生的起起伏伏。因为表现突出转正后从一名基层开发被领导提拔为部门前端方向负责人，所谓的技术leader。而就在我真的达到公司的事就是我的事的精神状态短短...",
-    "url": "https://segmentfault.com/a/1190000019667997",
-    "author": "智联大前端",
-    "home_url": "https://segmentfault.com/u/zpfe",
-    "votes": "19",
+    "title": "自制小工具大大加速MySQL SQL语句优化(附源码)",
+    "description": "优化SQL，是DBA常见的工作之一。如何高效、快速地优化一条语句，是每个DBA经常要面对的一个问题。在日常的优化工作中，我发现有很多操作是在优化过程中必不可少的步骤。然而这些步骤重复性的执行，又会耗费DBA很...",
+    "url": "https://segmentfault.com/a/1190000019546553",
+    "author": "宜信技术学院",
+    "home_url": "https://segmentfault.com/u/gaoleihan",
+    "votes": "90",
     "rank": 29
   }
 ]
