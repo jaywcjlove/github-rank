@@ -2,7 +2,7 @@
   {
     "title": "全面优质的编程学习资料",
     "description": "本项目是《码农周刊》编程学习资料大合集，码农周刊团队官方出品。码农周刊是一份专为程序员打造的 IT 技术周刊。我们会为你精选一周 IT 技术干货，每周二发送，完全免费。内容包括：程...",
-    "votes": "107",
+    "votes": "110",
     "url": "/k/2bqige",
     "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
     "avatarAlt": "头条精选 - 独家号",
@@ -10,19 +10,9 @@
     "homeUrl": "/subjects/4"
   },
   {
-    "title": "API 网关从入门到放弃",
-    "description": "前言假设你正在开发一个电商网站，那么这里会涉及到很多后端的微服务，比如会员、商品、推荐服务等等。那么这里就会遇到一个问题，APP/Browser怎么去访问这些后端的服务? 如果业务...",
-    "votes": "46",
-    "url": "/k/i14mvi",
-    "avatar": "https://img.toutiao.io/subject%2Fe7b064080a2d4df5850f192ca54ee1d2",
-    "avatarAlt": "acoder2013的独家号 - 独家号",
-    "subjectName": "acoder2013的独家号",
-    "homeUrl": "/subjects/268362"
-  },
-  {
     "title": "求你了，再问你 Java 内存模型的时候别再给我讲堆栈方法区了",
     "description": "最近，面试过很多Java中高级开发，问过很多次关于Java内存模型的知识，问完之后，很多人上来就开始回答：Java内存模型由几部分组成，堆、本地方法栈、虚拟机栈、方法区…每一次我不...",
-    "votes": "46",
+    "votes": "55",
     "url": "/k/4ufv7m",
     "avatar": "https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e",
     "avatarAlt": "JAVA干货 - 独家号",
@@ -30,44 +20,44 @@
     "homeUrl": "/subjects/51515"
   },
   {
-    "title": "Https 到底把什么加密了?",
-    "description": "问题描述都说https是在http和tcp两层之间加密，针对的是传输过程，只有客户端和服务端才能解密，变成明文。但是又有很多人说，https协议下，用get请求不加密，需要用pos...",
-    "votes": "41",
-    "url": "/k/vw5rjx",
-    "avatar": "https://img.toutiao.io/subject%2F732cb6a567b6447aa876ed179c0e89c7",
-    "avatarAlt": "Fundebug - 独家号",
-    "subjectName": "Fundebug",
-    "homeUrl": "/subjects/216955"
-  },
-  {
-    "title": "惊：FastThreadLocal 吞吐量居然是 ThreadLocal 的 3 倍",
-    "description": "接着上次手撕面试题ThreadLocal！！！面试官一听，哎呦不错哦！本文将继续上文的话题，来聊聊FastThreadLocal，目前关于FastThreadLocal的很多文章都...",
-    "votes": "32",
-    "url": "/k/c05mf3",
-    "avatar": "https://img.toutiao.io/subject%2Ff1877686771f404eac3cd6cd7203ecdb",
-    "avatarAlt": "匠心零度 - 独家号",
-    "subjectName": "匠心零度",
-    "homeUrl": "/subjects/241105"
-  },
-  {
-    "title": "从实践到原理，带你参透 gRPC",
-    "description": "gRPC 在 Go 语言中大放异彩，越来越多的小伙伴在使用，最近也在公司安利了一波，希望这一篇文章能带你一览 gRPC 的巧妙之处，本文篇幅比较长，请做好阅读准备。本文目录如下：简...",
-    "votes": "32",
-    "url": "/k/o3ylio",
-    "avatar": "https://img.toutiao.io/user/01ec77a3ddbb4158afed606b24af1c87/thumb",
-    "avatarAlt": "煎鱼的清汤锅 - 独家号",
-    "subjectName": "煎鱼的清汤锅",
-    "homeUrl": "/subjects/343446"
+    "title": "色情资源引发的百度网盘之战",
+    "description": "为了荣誉而战 事情的起因是这样的，由于我想找几部经典电影欣赏欣赏，于是便向某老司机寻求资源（我备注了需要正规视频，绝对不是他想的那种资源），然后他丢给了我一个视频资源网站，说是比较...",
+    "votes": "37",
+    "url": "/k/9dkzwa",
+    "avatar": "https://img.toutiao.io/subject%2F8166b75990f54e8e8e2e506001201a8a",
+    "avatarAlt": "嘿话 - 独家号",
+    "subjectName": "嘿话",
+    "homeUrl": "/subjects/265331"
   },
   {
     "title": "Go 程序是怎样跑起来的",
     "description": "刚开始写这篇文章的时候，目标非常大，想要探索 Go 程序的一生：编码、编译、汇编、链接、运行、退出。它的每一步具体如何进行，力图弄清 Go 程序的这一生。在这个过程中，我又复习了一...",
-    "votes": "29",
+    "votes": "33",
     "url": "/k/4nc6e2",
     "avatar": "https://img.toutiao.io/subject%2F6a017995d8424765ab042213593cb4a9",
     "avatarAlt": "码农桃花源 - 独家号",
     "subjectName": "码农桃花源",
     "homeUrl": "/subjects/393157"
+  },
+  {
+    "title": "Go 内存分配那些事，就这么简单",
+    "description": "Δ 不断充电，持续成长，技术人的成长充电站 Δ这是Go语言充电站的第 27 期分享。新老朋友好久不见，我是大彬，这篇文章准备了很久，不是在拖延，而是中间做了一些其他事情，耽搁了一些...",
+    "votes": "28",
+    "url": "/k/rp42fp",
+    "avatar": "https://img.toutiao.io/subject%2Fdb88716534cc47198c5ad163d62f0942",
+    "avatarAlt": "Go语言充电站 - 独家号",
+    "subjectName": "Go语言充电站",
+    "homeUrl": "/subjects/396368"
+  },
+  {
+    "title": "MySQL 性能优化（八）：锁机制之表锁",
+    "description": "数据库的锁主要用来保证数据的一致性的。MyISAM存储引擎只支持表锁，InnoDB存储引擎既支持行锁，也支持表锁，但默认情况下是采用行锁。一、锁分类1.按照对数据操作的类型分：读锁...",
+    "votes": "27",
+    "url": "/k/48tdin",
+    "avatar": "https://img.toutiao.io/subject%2F81653dafbafb471ea67bf2df5bda15a9",
+    "avatarAlt": "码咖 - 独家号",
+    "subjectName": "码咖",
+    "homeUrl": "/subjects/364787"
   },
   {
     "title": "利用 chrome_remote_interface 实现程序化、自动化 Web 安全测试",
@@ -80,10 +70,40 @@
     "homeUrl": "/subjects/265331"
   },
   {
-    "title": "一键生成果照，程序员又出奇葩软件",
-    "description": "感觉最近程序员届就没消停过，前段时间搞出了非常火的换脸的技术叫做Deepfake，简单说就是利用深度学习的技术在收集到足够数据的情况下，能把一个视频中的某个人物的脸完全换成另一个人...",
-    "votes": "20",
-    "url": "/k/z30mld",
+    "title": "为什么阿里代码规约要求避免使用 Apache BeanUtils 进行属性复制",
+    "description": "缘起有一次开发过程中，刚好看到小伙伴在调用 set 方法，将数据库中查询出来的 Po 对象的属性拷贝到 Vo 对象中，类似这样：可以看出，Po 和 Vo 两个类的字段绝大部分是一样...",
+    "votes": "27",
+    "url": "/k/dgczp2",
+    "avatar": "https://img.toutiao.io/subject%2F8370ca7d0bed45afb18f847750e191c8",
+    "avatarAlt": "微信公众号:肥朝 - 独家号",
+    "subjectName": "微信公众号:肥朝",
+    "homeUrl": "/subjects/387709"
+  },
+  {
+    "title": "如何打造一份优雅的简历？",
+    "description": "最近一些朋友找我内推，并且给我发了他们的简历。很多简历在我看来都不合格，不只是内容，还有格式，在我这都没过关。然后，我都会把我的简历模板贡献出来，收获了诸多好评。为了让更多读者朋友...",
+    "votes": "25",
+    "url": "/k/f5euud",
+    "avatar": "https://img.toutiao.io/subject%2F6a017995d8424765ab042213593cb4a9",
+    "avatarAlt": "码农桃花源 - 独家号",
+    "subjectName": "码农桃花源",
+    "homeUrl": "/subjects/393157"
+  },
+  {
+    "title": "MySQL 性能优化（六）：in 和 exists",
+    "description": "in和exists哪个性能更优sql脚本：/*建库*/create database testdb6;use testdb6;/* 用户表 */drop table if exis...",
+    "votes": "22",
+    "url": "/k/i7lq90",
+    "avatar": "https://img.toutiao.io/subject%2F81653dafbafb471ea67bf2df5bda15a9",
+    "avatarAlt": "码咖 - 独家号",
+    "subjectName": "码咖",
+    "homeUrl": "/subjects/364787"
+  },
+  {
+    "title": "为什么学了很多知识，仍然没有什么用？",
+    "description": "本文共有 6400 字希望能对你有启发放心，不会太难读在知乎上看到一个故事。认识一位很有名气的经济学教授，当年买了上海一个小区的房子，价格大概才 30 万一套。教授有钱，一买买了两...",
+    "votes": "19",
+    "url": "/k/4uh4t4",
     "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
     "avatarAlt": "头条精选 - 独家号",
     "subjectName": "头条精选",
@@ -92,7 +112,7 @@
   {
     "title": "面试官：什么是脏读、幻读？",
     "description": "一、事务事务是数据库管理系统执行过程中的一个逻辑单位，由一个有限的数据库操作序列构成。--摘自百科 在MySQL里，事务是在引擎层面实现，比如MyIsam不支持，InnoDB支持 ...",
-    "votes": "18",
+    "votes": "19",
     "url": "/k/weuykg",
     "avatar": "https://img.toutiao.io/subject%2Ff7b65a24686f427686e9b3f8c97e0d76",
     "avatarAlt": "知否专栏 - 独家号",
@@ -102,7 +122,7 @@
   {
     "title": "JavaScript 深入浅出第 3 课：什么是垃圾回收算法？",
     "description": "摘要： JS是如何回收内存的？ 《JavaScript深入浅出》系列：JavaScript深入浅出第1课：箭头函数中的this究竟是什么鬼？ JavaScript深入浅出第2课：函...",
-    "votes": "18",
+    "votes": "19",
     "url": "/k/eboezh",
     "avatar": "https://img.toutiao.io/subject%2F732cb6a567b6447aa876ed179c0e89c7",
     "avatarAlt": "Fundebug - 独家号",
@@ -110,19 +130,9 @@
     "homeUrl": "/subjects/216955"
   },
   {
-    "title": "5G 时代是时候全面解决 TCP 的效率问题了",
-    "description": "回顾过去一年工业界在实时网络方面的探索，大量的篇幅留给了基于UDP的SRT、QUIC等明星协议，包括Google以及国内的B站都有令人欣喜的实践。但不可否认TCP在整个互联网依然占...",
-    "votes": "17",
-    "url": "/k/8dv1p9",
-    "avatar": "https://img.toutiao.io/subject%2F49a4258a91954dd5a0ed4dd23050b388",
-    "avatarAlt": "LiveVideoStack - 独家号",
-    "subjectName": "LiveVideoStack",
-    "homeUrl": "/subjects/349707"
-  },
-  {
     "title": "开发更高质量的服务",
     "description": "版权声明 本站原创文章 由 萌叔 发表转载请注明 萌叔 | http://vearne.cc1.引言产品要求的功能都都开发完了，但这并不是终结。怎么样做才能让我们的服务具有更好的质...",
-    "votes": "17",
+    "votes": "18",
     "url": "/k/am22yd",
     "avatar": "https://img.toutiao.io/subject%2F7c016973c0bb4e13a28ab338153e7d12",
     "avatarAlt": "萌叔 - 独家号",
@@ -130,73 +140,63 @@
     "homeUrl": "/subjects/334598"
   },
   {
-    "title": "实践 DDD 领域驱动设计",
-    "description": " 说明 领域驱动设计最近又火了。概念不断被提及，但是相信对于像笔者一样的很多开发者对于其如何应用都一头雾水。正如《实现领域驱动设计》中作者提到的不同公司的业务能力开发能力和成熟度不...",
+    "title": "目前最强开源人脸检测算法 RetinaFace",
+    "description": "点击我爱计算机视觉标星，更快获取CVML新技术人脸检测为目标检测的特例，是商业化最早的目标检测算法，也是目前几乎各大CV方向AI公司的必争之地。WIDER FACE数据集是由香港中...",
+    "votes": "18",
+    "url": "/k/14kdkv",
+    "avatar": "https://img.toutiao.io/subject%2F6fb8bc68eebb4cf189c4bda926dd3674",
+    "avatarAlt": "我爱计算机视觉 - 独家号",
+    "subjectName": "我爱计算机视觉",
+    "homeUrl": "/subjects/359575"
+  },
+  {
+    "title": "菲律宾的高薪工作机会了解一下？",
+    "description": "其实在去年已经爆料过那些出国工作的机会，基本上就是做着一些国内认为违法的事情，例如菠菜什么的。但是面对高薪的诱惑，好多技术不怎么样，国内找不到自己想要的薪资的工作，就选择了铤而走险...",
     "votes": "17",
-    "url": "/k/3vgsjk",
-    "avatar": "https://img.toutiao.io/subject%2F576798fd40b142a18d9fba5754a6db8c",
-    "avatarAlt": "天府软件猿 - 独家号",
-    "subjectName": "天府软件猿",
-    "homeUrl": "/subjects/69085"
+    "url": "/k/8kkihc",
+    "avatar": "https://img.toutiao.io/subject%2Fa0ef096294fb46d9b56318164f7679e1",
+    "avatarAlt": "逆流的鱼yuiop的独家号 - 独家号",
+    "subjectName": "逆流的鱼yuiop的独家号",
+    "homeUrl": "/subjects/154299"
   },
   {
-    "title": "MySQL 性能优化（六）：in 和 exists",
-    "description": "in和exists哪个性能更优sql脚本：/*建库*/create database testdb6;use testdb6;/* 用户表 */drop table if exis...",
-    "votes": "17",
-    "url": "/k/i7lq90",
-    "avatar": "https://img.toutiao.io/subject%2F81653dafbafb471ea67bf2df5bda15a9",
-    "avatarAlt": "码咖 - 独家号",
-    "subjectName": "码咖",
-    "homeUrl": "/subjects/364787"
-  },
-  {
-    "title": "漫话：如何给女朋友解释什么是 BIO、NIO 和 AIO？",
-    "description": "周末午后，在家里面进行电话面试，我问了面试者几个关于IO的问题，其中包括什么是BIO、NIO和AIO？三者有什么区别？具体如何使用等问题，但是面试者回答的并不是很满意。于是我在面试...",
-    "votes": "16",
-    "url": "/k/plfxjd",
-    "avatar": "https://img.toutiao.io/subject%2Ffdd0de401a124afab7ddd87d94c6e129",
-    "avatarAlt": "漫话编程 - 独家号",
-    "subjectName": "漫话编程",
-    "homeUrl": "/subjects/375127"
-  },
-  {
-    "title": "Redis 使用 Pipeline 加速查询速度",
-    "description": "1. RTTRedis 是一种基于客户端-服务端模型以及请求/响应协议的TCP服务。这意味着通常情况下 Redis 客户端执行一条命令分为如下四个过程：发送命令命令排队命令执行返回...",
-    "votes": "16",
-    "url": "/k/4cf933",
-    "avatar": "https://img.toutiao.io/subject%2F6ee3bb205b3248c2b746c1506548181a",
-    "avatarAlt": "大数据生态 - 独家号",
-    "subjectName": "大数据生态",
-    "homeUrl": "/subjects/136176"
-  },
-  {
-    "title": "详解并发下的 HashMap 以及 JDK 8 的优化",
-    "description": "HashMap使用链表法避免哈希冲突（相同hash值），当链表长度大于TREEIFY_THRESHOLD（默认为8）时，将链表转换为红黑树。当小于等于UNTREEIFY_THRES...",
+    "title": "记一次阿里巴巴一面的经历",
+    "description": " 上周在拉勾上收到一个蚂蚁金服的大哥要我的简历，当时很惊讶，居然有蚂蚁金服的找到我，然后想都没想就给了。受宠若惊呀，我知道自己的水平跟阿里的差距有多远，以前一直没用勇气去投，连试试...",
     "votes": "15",
-    "url": "/k/xhjhqt",
-    "avatar": "https://img.toutiao.io/subject%2F5ee5ee5047614f5e9b33bd29b9fe07c8",
-    "avatarAlt": "服务器后端开发 - 独家号",
-    "subjectName": "服务器后端开发",
-    "homeUrl": "/subjects/375484"
+    "url": "/k/c2clbg",
+    "avatar": "https://img.toutiao.io/subject%2Fddc18df383ac4c90afd8c005196f701f",
+    "avatarAlt": "Java极客技术的独家号 - 独家号",
+    "subjectName": "Java极客技术的独家号",
+    "homeUrl": "/subjects/412607"
   },
   {
-    "title": "Linux 上，最常用的一批命令解析（10 年精选）",
-    "description": " Linux这么多命令，通常会让初学者望而生畏。下面是我结合日常工作，以及在公司的内部培训中，针对对Linux不是很熟悉的同学，精选的一批必须要搞懂的命令集合。任何一个命令其实都是...",
+    "title": "傻瓜也能玩转日志归集",
+    "description": "关注\"一猿小讲\"的猿友们都知道，前段时间我在《一文讲懂线上应用系统监控》给大家简单提到了日志归集，埋下了伏笔，今天的这篇分享是来给大家还债的，主要从整体到局部，深入了解一下日志归集...",
+    "votes": "15",
+    "url": "/k/4wxz5z",
+    "avatar": "https://img.toutiao.io/subject%2F7a8541a4f49c4075a72ed00df32301ec",
+    "avatarAlt": "一猿小讲 - 独家号",
+    "subjectName": "一猿小讲",
+    "homeUrl": "/subjects/413084"
+  },
+  {
+    "title": "信号量限流，高并发场景不得不说的秘密",
+    "description": " 限流可以认为是一种降级，一般是根据后台的负载提前预估的一个阈值（也可以动态调整）。超过了这个值，就要进行一些旁路处理。根据业务形态，会有直接拒绝、延迟处理、保持等待、部分穿透、默...",
     "votes": "14",
-    "url": "/k/lmlufl",
+    "url": "/k/hb5akc",
     "avatar": "https://img.toutiao.io/subject%2F2ec0a0853279459f8e91db11748f4592",
     "avatarAlt": "小姐姐味道 - 独家号",
     "subjectName": "小姐姐味道",
     "homeUrl": "/subjects/351247"
   },
   {
-    "title": "为什么学了很多知识，仍然没有什么用？",
-    "description": "本文共有 6400 字希望能对你有启发放心，不会太难读在知乎上看到一个故事。认识一位很有名气的经济学教授，当年买了上海一个小区的房子，价格大概才 30 万一套。教授有钱，一买买了两...",
+    "title": "Redis RDB 持久化详解",
+    "description": "点击上方\"程序员历小冰\"，选择“置顶或者星标” 你的关注意义重大!Redis 是一种内存数据库，将数据保存在内存中，读写效率要比传统的将数据保存在磁盘上的数据库要快很多。但是一旦进...",
     "votes": "14",
-    "url": "/k/4uh4t4",
-    "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
-    "avatarAlt": "头条精选 - 独家号",
-    "subjectName": "头条精选",
-    "homeUrl": "/subjects/4"
+    "url": "/k/p1u4z3",
+    "avatar": "https://img.toutiao.io/subject%2Fb3fe2c24c18d4affa84e34b23e31a5f9",
+    "avatarAlt": "杀死那个程序员 - 独家号",
+    "subjectName": "杀死那个程序员",
+    "homeUrl": "/subjects/389295"
   }
 ]
