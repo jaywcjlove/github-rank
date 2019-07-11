@@ -1,12 +1,39 @@
 [
   {
+    "title": "一套基础自动化部署搭建过程",
+    "description": "公司初创技术团队，没有任何基础设施的情况下，需要搭建一系列code管理以及自动化部署等工具....所以引发了下面一系列的部署过程，历时两天，中间也是碰到各种问题，但最终把基本工具全部搭建成功，耶~，下面带大...",
+    "url": "https://segmentfault.com/a/1190000019729005",
+    "author": "LoyaltyLu",
+    "home_url": "https://segmentfault.com/u/loyaltylu",
+    "votes": "21",
+    "rank": 1
+  },
+  {
+    "title": "CSS水平或垂直居中技巧",
+    "description": "css水平和垂直居中是一个亘古不变的话题，它常常出现在优美的网页上以及各大前端面试当中。说来惭愧，在两年前面试的时候，我完全不知道如何做到水平和垂直均居中的方法，那场面别提有多尴尬了（ps：特想找个地洞...",
+    "url": "https://segmentfault.com/a/1190000019728790",
+    "author": "zero",
+    "home_url": "https://segmentfault.com/u/zero_599d47cbc8888zrn",
+    "votes": "19",
+    "rank": 2
+  },
+  {
     "title": "函数的防抖和节流是个啥？？？",
     "description": "后来工作中遇到了一个场景：输入名称的同时去服务器校验名称是否重复，但发现之前的代码竟然都没做限制，输入一次发一次请求。简直忍不了，就在项目的utils里加上了防抖函数。正好做一个总结，加深印象。",
     "url": "https://segmentfault.com/a/1190000019715721",
     "author": "nero",
     "home_url": "https://segmentfault.com/u/neronero",
-    "votes": "36",
-    "rank": 1
+    "votes": "62",
+    "rank": 3
+  },
+  {
+    "title": "最新：Lodash 严重安全漏洞背后你不得不知道的 JavaScript 知识",
+    "description": "可能有信息敏感的同学已经了解到：Lodash 库爆出严重安全漏洞，波及 400万+ 项目。这个漏洞使得 lodash “连夜”发版以解决潜在问题，并强烈建议开发者升级版本。",
+    "url": "https://segmentfault.com/a/1190000019735321",
+    "author": "lucas_580e331d326b4",
+    "home_url": "https://segmentfault.com/u/lucas_580e331d326b4",
+    "votes": "6",
+    "rank": 4
   },
   {
     "title": "JavaScript 设计模式（六）：观察者模式与发布订阅模式",
@@ -14,8 +41,8 @@
     "url": "https://segmentfault.com/a/1190000019722065",
     "author": "以乐之名",
     "home_url": "https://segmentfault.com/u/yilezhiming",
-    "votes": "8",
-    "rank": 2
+    "votes": "29",
+    "rank": 5
   },
   {
     "title": "公司倒闭 1 年了，而我当年的项目上了 GitHub 热榜",
@@ -23,8 +50,17 @@
     "url": "https://segmentfault.com/a/1190000019717005",
     "author": "江南一点雨",
     "home_url": "https://segmentfault.com/u/lenve",
-    "votes": "27",
-    "rank": 3
+    "votes": "38",
+    "rank": 6
+  },
+  {
+    "title": "纯css实现开关效果",
+    "description": "我们使用<input type=\"checkbox\">标签来实现这个效果。checkbox的选中、未选中的特性，刚好对应开关的打开、关闭on:打开 off:关闭",
+    "url": "https://segmentfault.com/a/1190000019735215",
+    "author": "小王子",
+    "home_url": "https://segmentfault.com/u/http_wenwen",
+    "votes": "3",
+    "rank": 7
   },
   {
     "title": "深入浅出Vue响应式原理",
@@ -32,17 +68,17 @@
     "url": "https://segmentfault.com/a/1190000019700618",
     "author": "浪里行舟",
     "home_url": "https://segmentfault.com/u/langlixingzhou",
-    "votes": "28",
-    "rank": 4
+    "votes": "33",
+    "rank": 8
   },
   {
-    "title": "+【13】JavaScript设计原则&&常用设计模式",
-    "description": "【前言】 最近阅读了《JavaScript设计模式与开发实践》，收获颇丰，于是想写一点总结及感想 写一篇文章对于我的意义在于： {代码...} 这种过程大概叫费曼学习法，图解：（图片来自网络，侵删） 这篇文章我想表达...",
-    "url": "https://segmentfault.com/a/1190000019663847",
-    "author": "吃葡萄不吐番茄皮",
-    "home_url": "https://segmentfault.com/u/yuqibin",
-    "votes": "98",
-    "rank": 5
+    "title": "开篇：二十三种设计模式的通俗理解",
+    "description": "本文为本次系列文章的第一篇，接下来，小编预计用一周的时间，带大家重新解读二十三中设计模式，如果你觉得本文对你有帮助的话，可以帮小编点一下“关注”以及“转发”，支持一下小编，谢谢！",
+    "url": "https://segmentfault.com/a/1190000019733084",
+    "author": "茶轴的青春",
+    "home_url": "https://segmentfault.com/u/chazhoudeqingchun",
+    "votes": "4",
+    "rank": 9
   },
   {
     "title": "Chrome 控制台常用调试技巧详解",
@@ -50,26 +86,8 @@
     "url": "https://segmentfault.com/a/1190000019712931",
     "author": "keywords",
     "home_url": "https://segmentfault.com/u/liwenhui",
-    "votes": "20",
-    "rank": 6
-  },
-  {
-    "title": "Array.slice 8种不同用法",
-    "description": "为了保证的可读性，本文采用意译而非直译。 想阅读更多优质文章请猛戳GitHub博客,一年百来篇优质文章等着你！ JS数组slice方法是JS语言中最强大、最常用的内建函数之一。 随着React和其他面向功能的JavaScript实...",
-    "url": "https://segmentfault.com/a/1190000019590275",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "10",
-    "rank": 7
-  },
-  {
-    "title": "Flutter滚动型容器组件 - ListView篇",
-    "description": "Flutter作为时下最流行的技术之一，凭借其出色的性能以及抹平多端的差异优势，早已引起大批技术爱好者的关注，甚至一些闲鱼，美团，腾讯等大公司均已投入生产使用。虽然目前其生态还没有完全成熟，但身靠背后的Go...",
-    "url": "https://segmentfault.com/a/1190000019716289",
-    "author": "小石头若海",
-    "home_url": "https://segmentfault.com/u/xiaoshitouruohai",
-    "votes": "5",
-    "rank": 8
+    "votes": "27",
+    "rank": 10
   },
   {
     "title": "vue 2.6 中 slot 的新用法",
@@ -77,8 +95,8 @@
     "url": "https://segmentfault.com/a/1190000019702966",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "25",
-    "rank": 9
+    "votes": "28",
+    "rank": 11
   },
   {
     "title": "用Flutter构建漂亮的UI界面 - 基础组件篇",
@@ -86,35 +104,8 @@
     "url": "https://segmentfault.com/a/1190000019687024",
     "author": "小石头若海",
     "home_url": "https://segmentfault.com/u/xiaoshitouruohai",
-    "votes": "34",
-    "rank": 10
-  },
-  {
-    "title": "【Step-By-Step】高频面试题深入解析 / 周刊07",
-    "description": "Step-By-Step (点击进入项目) 是我于 2019-05-20 开始的一个项目，每个工作日发布一道面试题。每个周末我会仔细阅读大家的答案，整理最一份较优答案出来，因本人水平有限，有误的地方，大家及时指正。 如果想 加...",
-    "url": "https://segmentfault.com/a/1190000019720000",
-    "author": "刘小夕",
-    "home_url": "https://segmentfault.com/u/liuyan666",
-    "votes": "2",
-    "rank": 11
-  },
-  {
-    "title": "手撕面试官系列（一）：spring108道面试题合集",
-    "description": "想必各位程序员已经开始准备金九银十的秋招了，创建这个这个系列文章的目的就是为了帮助大家解决面试的问题，系列文章将会一直更新，大家如果觉得不错可以关注我并转发，让更多程序兄弟看到~接下来我们进入正文环...",
-    "url": "https://segmentfault.com/a/1190000019723168",
-    "author": "程序汪",
-    "home_url": "https://segmentfault.com/u/chengxuwang_5cecfc991808d",
-    "votes": "2",
+    "votes": "41",
     "rank": 12
-  },
-  {
-    "title": "如何使用 Set 来提高代码的性能",
-    "description": "我确信有很多开发人员坚持使用基本的全局对象：数字，字符串，对象，数组和布尔值。对于许多用例，这些都是需要的。 但是如果想让你的代码尽可能快速和可扩展，那么这些基本类型并不总是足够好。",
-    "url": "https://segmentfault.com/a/1190000019615286",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "26",
-    "rank": 13
   },
   {
     "title": "【译】21 项优化 React App 性能的技术",
@@ -122,35 +113,26 @@
     "url": "https://segmentfault.com/a/1190000019685362",
     "author": "joking_zhang",
     "home_url": "https://segmentfault.com/u/joking_zhang",
-    "votes": "51",
+    "votes": "56",
+    "rank": 13
+  },
+  {
+    "title": "es6 7个比较有用的技巧",
+    "description": "有时我们需要过滤数组中值为 false 的值. 例如(0, undefined, null, false), 你可能不知道这样的技巧",
+    "url": "https://segmentfault.com/a/1190000019730909",
+    "author": "playboy5566",
+    "home_url": "https://segmentfault.com/u/playboy5566",
+    "votes": "3",
     "rank": 14
   },
   {
-    "title": "Swoole 4.4 正式版已发布",
-    "description": "移除Serialize模块, 在单独的 ext-serialize 扩展中维护. 废弃原因: 由于PHP内核频繁变更, 导致无法实现稳定可用的模块, 与php serialize相比没有太大差异化定位",
-    "url": "https://segmentfault.com/a/1190000019711998",
-    "author": "韩天峰",
-    "home_url": "https://segmentfault.com/u/hantianfeng",
-    "votes": "16",
+    "title": "Array.slice 8种不同用法",
+    "description": "为了保证的可读性，本文采用意译而非直译。 想阅读更多优质文章请猛戳GitHub博客,一年百来篇优质文章等着你！ JS数组slice方法是JS语言中最强大、最常用的内建函数之一。 随着React和其他面向功能的JavaScript实...",
+    "url": "https://segmentfault.com/a/1190000019590275",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "17",
     "rank": 15
-  },
-  {
-    "title": "前端超实用网站推荐",
-    "description": "一、教程类 1、菜鸟教程 很全的语言教程，简单不繁琐，可以当作工具来用。[链接] 2、css-tricks 非常权威的css网站，可以查询兼容性，最新特性，css3等。[链接] 二、框架类 1、vue尤大大开发的非常容易上手的js框...",
-    "url": "https://segmentfault.com/a/1190000019698231",
-    "author": "zero",
-    "home_url": "https://segmentfault.com/u/zero_599d47cbc8888zrn",
-    "votes": "11",
-    "rank": 16
-  },
-  {
-    "title": "开发生涯的一些微小思考",
-    "description": "对于一个程序员来说，技能不光是写代码，写更好的代码，做成一个项目，大多数的项目更多依赖于交流，然后再是功能实现，而大或精的项目在实现方面需要更多时间，如果有非常好的设计和文档，同样会减少交流的时间...",
-    "url": "https://segmentfault.com/a/1190000019719303",
-    "author": "he_xd",
-    "home_url": "https://segmentfault.com/u/he_xd",
-    "votes": "3",
-    "rank": 17
   },
   {
     "title": "[译]保持Node.js的速度-创建高性能Node.js Servers的工具、技术和提示",
@@ -158,8 +140,17 @@
     "url": "https://segmentfault.com/a/1190000019690503",
     "author": "sheldon",
     "home_url": "https://segmentfault.com/u/sheldoncui",
+    "votes": "34",
+    "rank": 16
+  },
+  {
+    "title": "如何使用 Set 来提高代码的性能",
+    "description": "我确信有很多开发人员坚持使用基本的全局对象：数字，字符串，对象，数组和布尔值。对于许多用例，这些都是需要的。 但是如果想让你的代码尽可能快速和可扩展，那么这些基本类型并不总是足够好。",
+    "url": "https://segmentfault.com/a/1190000019615286",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "28",
-    "rank": 18
+    "rank": 17
   },
   {
     "title": "React的移动端和PC端生态圈的使用汇总",
@@ -167,25 +158,34 @@
     "url": "https://segmentfault.com/a/1190000019690099",
     "author": "Peter谭金杰",
     "home_url": "https://segmentfault.com/u/jerrytanjinjie",
-    "votes": "28",
+    "votes": "31",
+    "rank": 18
+  },
+  {
+    "title": "Swoole 4.4 正式版已发布",
+    "description": "移除Serialize模块, 在单独的 ext-serialize 扩展中维护. 废弃原因: 由于PHP内核频繁变更, 导致无法实现稳定可用的模块, 与php serialize相比没有太大差异化定位",
+    "url": "https://segmentfault.com/a/1190000019711998",
+    "author": "韩天峰",
+    "home_url": "https://segmentfault.com/u/hantianfeng",
+    "votes": "19",
     "rank": 19
   },
   {
-    "title": "TS与JS中的Getters和Setter究竟有什么用",
-    "description": "在本文中，我们讨论了getter 和 setter 在现代 Web 开发中的实用性。它们有用吗？什么时候使用它们是有意义的？",
-    "url": "https://segmentfault.com/a/1190000019712906",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "4",
+    "title": "阿里资深技术专家的10年感悟",
+    "description": "阿里妹导读：阿里有许多土话，比如“方法总比困难多”、“不淘汰自己就会被别人淘汰”、“你感觉不舒服的时候，就是成长的时候”。每一句都在激励我们向前。生活总不缺困难和磨练，痛苦的时候，只有转变思维，才能蜕变...",
+    "url": "https://segmentfault.com/a/1190000019730089",
+    "author": "阿里云云栖社区",
+    "home_url": "https://segmentfault.com/u/yunqishequ_5aa899aad5395",
+    "votes": "5",
     "rank": 20
   },
   {
-    "title": "Swoft 2.0.3 重大更新，发布优雅的微服务治理",
-    "description": "Swoft 是一款基于 Swoole 扩展实现的 PHP 微服务协程框架。Swoft 能像 Go 一样，内置协程网络服务器及常用的协程客户端且常驻内存，不依赖传统的 PHP-FPM。有类似 Go 语言的协程操作方式，有类似 Spring Cloud 框...",
-    "url": "https://segmentfault.com/a/1190000019713892",
-    "author": "stelin",
-    "home_url": "https://segmentfault.com/u/swoft",
-    "votes": "9",
+    "title": "基于Vue实现后台系统权限控制",
+    "description": "需求分析 基础需求 项目的基础需求是： 系统管理员拥有最大权限，管理所有企业； 企业管理员拥有该企业所有权限，可下放权限给子账户； 子账户拥有限制权限，且可被随时更改。 根据权限列表展示隐藏相对应菜单栏...",
+    "url": "https://segmentfault.com/a/1190000019699582",
+    "author": "silkshdow",
+    "home_url": "https://segmentfault.com/u/silkshdow",
+    "votes": "24",
     "rank": 21
   },
   {
@@ -194,26 +194,8 @@
     "url": "https://segmentfault.com/a/1190000019713345",
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "12",
+    "votes": "14",
     "rank": 22
-  },
-  {
-    "title": "基于Vue实现后台系统权限控制",
-    "description": "需求分析 基础需求 项目的基础需求是： 系统管理员拥有最大权限，管理所有企业； 企业管理员拥有该企业所有权限，可下放权限给子账户； 子账户拥有限制权限，且可被随时更改。 根据权限列表展示隐藏相对应菜单栏...",
-    "url": "https://segmentfault.com/a/1190000019699582",
-    "author": "silkshdow",
-    "home_url": "https://segmentfault.com/u/silkshdow",
-    "votes": "20",
-    "rank": 23
-  },
-  {
-    "title": "扁平化数组的问题延伸",
-    "description": "在掘金上看到100道前端面试题，其中有一道题是这样的 有数组[11, 1, 3, 5 [4, 5], 2, [2, [44, 22, 1, [22, 13, 6]]]]，将它变为[1,2,3...]，即扁平化数组并排序",
-    "url": "https://segmentfault.com/a/1190000019723699",
-    "author": "远远的飞梦",
-    "home_url": "https://segmentfault.com/u/liumingyuan11",
-    "votes": "1",
-    "rank": 24
   },
   {
     "title": "作为一名JS开发人员，是什么使我夜不能寐",
@@ -222,42 +204,60 @@
     "author": "疯狂的技术宅",
     "home_url": "https://segmentfault.com/u/evilboy",
     "votes": "18",
+    "rank": 23
+  },
+  {
+    "title": "Swoft 2.0.3 重大更新，发布优雅的微服务治理",
+    "description": "Swoft 是一款基于 Swoole 扩展实现的 PHP 微服务协程框架。Swoft 能像 Go 一样，内置协程网络服务器及常用的协程客户端且常驻内存，不依赖传统的 PHP-FPM。有类似 Go 语言的协程操作方式，有类似 Spring Cloud 框...",
+    "url": "https://segmentfault.com/a/1190000019713892",
+    "author": "stelin",
+    "home_url": "https://segmentfault.com/u/swoft",
+    "votes": "11",
+    "rank": 24
+  },
+  {
+    "title": "JavaScript之数组",
+    "description": "JavaScript数组是JavaScript对象的特殊形式。数组索引实际上和碰巧是整数的属性名差不多，使用方括号访问数组元素就像用方括号访问对象的属性一样。JavaScript将指定的数字索引值转换成字符串——索引值1变成 “1”——...",
+    "url": "https://segmentfault.com/a/1190000019699597",
+    "author": "云鱼Cloudy",
+    "home_url": "https://segmentfault.com/u/cloudyttt",
+    "votes": "11",
     "rank": 25
   },
   {
-    "title": "在不同的项目下切换不同版本的 Node.js",
-    "description": "有时候几乎每周都会发布新版本的 Node.js —— 每隔几周发布一次小版本，每隔几个月发布一次主要版本。如果你是一个需要在不同程序和项目之间切换的码农，可能会发现需要运行不同版本的 Node。",
-    "url": "https://segmentfault.com/a/1190000019691878",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "17",
+    "title": "前端超实用网站推荐",
+    "description": "一、教程类 1、菜鸟教程 很全的语言教程，简单不繁琐，可以当作工具来用。[链接] 2、css-tricks 非常权威的css网站，可以查询兼容性，最新特性，css3等。[链接] 二、框架类 1、vue尤大大开发的非常容易上手的js框...",
+    "url": "https://segmentfault.com/a/1190000019698231",
+    "author": "zero",
+    "home_url": "https://segmentfault.com/u/zero_599d47cbc8888zrn",
+    "votes": "13",
     "rank": 26
   },
   {
-    "title": "soar-PHP - SQL 语句优化器和重写器的 PHP 扩展包、 方便框架中 SQL 语句调优",
-    "description": "soar-php 是一个基于小米公司开源的 soar 开发的 PHP 扩展包，方便框架中 SQL 语句调优。 项目链接 [链接] [链接] 框架中使用 [x] ThinkPHP [ ] Symfony [ ] Laravel [ ] Lumen [ ] Yii2 [ ] Slim 环境要求 PHP &...",
-    "url": "https://segmentfault.com/a/1190000019706619",
-    "author": "琯琯",
-    "home_url": "https://segmentfault.com/u/guanguans",
-    "votes": "10",
+    "title": "移动端的3种适配方法",
+    "description": "做移动端页面以来，经常会听说移动端的适配这个问题，但是并没有认真分析过是如何适配各种机型的。目前公司用的是手淘的flexible.js进行页面适配的。适配的根本原理其实就是将设计稿按一定的比例在不同的手机上实...",
+    "url": "https://segmentfault.com/a/1190000019677612",
+    "author": "前路漫漫",
+    "home_url": "https://segmentfault.com/u/qianlumanman",
+    "votes": "46",
     "rank": 27
   },
   {
-    "title": "IPv6 优于 IPv4 的十大功能",
-    "description": "现在是 9102 年，有一个严重的问题，困扰着资深宅男二狗子。那就是偶像团体没新名了。今年开始，偶像团体 XKB48 已经在无法取更多的新名字了，排列组合的所有方式都已经经过了历史长河的洗礼，除非偶像们的人数从...",
-    "url": "https://segmentfault.com/a/1190000019717578",
-    "author": "云叔_又拍云",
-    "home_url": "https://segmentfault.com/u/yunshu_blog",
-    "votes": "6",
+    "title": "Swoole 5 将移除自动添加 Event::wait() 特性",
+    "description": "在之前的版本中，编写Cli命令行脚本中使用异步或协程功能时，Swoole会自动在脚本末尾检测是否有Event::wait()调用，如果没有，底层会自动调用register_shutdown_function在脚本结束时调用Event::wait()，进入事件...",
+    "url": "https://segmentfault.com/a/1190000019711014",
+    "author": "韩天峰",
+    "home_url": "https://segmentfault.com/u/hantianfeng",
+    "votes": "16",
     "rank": 28
   },
   {
-    "title": "Spring Boot 打包成的可执行 jar ，为什么不能被其他项目依赖？",
-    "description": "“松哥，为什么我的 Spring Boot 项目打包成的 jar ，被其他项目依赖之后，总是报找不到类的错误？”",
-    "url": "https://segmentfault.com/a/1190000019706787",
-    "author": "江南一点雨",
-    "home_url": "https://segmentfault.com/u/lenve",
-    "votes": "17",
+    "title": "js使用AES加密PHP使用Openssl解密",
+    "description": "最近遇到的几个网站在提交密码时提交的已经是密文，也就是说在网络上传输的密码是密文，这样提升了密码在网络传输中的安全性。",
+    "url": "https://segmentfault.com/a/1190000019732163",
+    "author": "xialeistudio",
+    "home_url": "https://segmentfault.com/u/xialeistudio",
+    "votes": "2",
     "rank": 29
   }
 ]
