@@ -1,48 +1,66 @@
 [
   {
+    "title": "webpack基本配置",
+    "description": "虽然一直在接触 webpack ，不过都是在项目开发时遇到问题去看看文档，并没有系统化地学习、消化。这篇文章将从 webapck 最基本的配置开始说起，直到成功打包一个简单的项目。分享给需要入门的小伙伴，也是留一个笔记",
+    "url": "https://segmentfault.com/a/1190000019923659",
+    "author": "游荡de蝌蚪",
+    "home_url": "https://segmentfault.com/u/youdangde_5c8b208a23f95",
+    "votes": "1",
+    "rank": 1
+  },
+  {
+    "title": "JavaScript 数据结构与算法之美 - 十大经典排序算法汇总",
+    "description": "算法为王。想学好前端，先练好内功，内功不行，就算招式练的再花哨，终究成不了高手；只有内功深厚者，前端之路才会走得更远。",
+    "url": "https://segmentfault.com/a/1190000019916376",
+    "author": "夜尽天明",
+    "home_url": "https://segmentfault.com/u/biaochenxuying",
+    "votes": "17",
+    "rank": 2
+  },
+  {
+    "title": "从零开始，揭秘React服务端渲染核心技术",
+    "description": "在早几年前，jquery算是一个前端工程师必备的技能。当时很多公司采用的是java结合像velocity或者freemarker这种模板引擎的开发模式，页面渲染这块交给了服务器，而前端人员负责用jquery去写一些交互以及业务逻辑...",
+    "url": "https://segmentfault.com/a/1190000019916830",
+    "author": "wuming",
+    "home_url": "https://segmentfault.com/u/wuming_585cbbbfcac46",
+    "votes": "9",
+    "rank": 3
+  },
+  {
+    "title": "前端进阶 & 面试必备，优质资源、好文整理分享！",
+    "description": "前端技术日新月异，随着 大前端 的趋势，想要成为一名合格的前端工程师，需要学习掌握的东西更是宽泛。所以我们在寻求进阶的过程中，既要不断夯实前端基础，也要快速响应技术的更新迭代。闲话少说，这次给大家整...",
+    "url": "https://segmentfault.com/a/1190000019912790",
+    "author": "江三疯",
+    "home_url": "https://segmentfault.com/u/wuywd",
+    "votes": "20",
+    "rank": 4
+  },
+  {
     "title": "[译] 写给前端工程师的 Docker 入门",
     "description": "过去的我们，当业务发展需要部署新的应用时，DevOps 小伙伴通常会去买一台服务器，但是却不知道这个新应用具体需要多高的配置，往往都会造成资源浪费。",
     "url": "https://segmentfault.com/a/1190000019898011",
     "author": "savokiss",
     "home_url": "https://segmentfault.com/u/savokiss",
-    "votes": "53",
-    "rank": 1
-  },
-  {
-    "title": "七道常见的Redis面试题分享",
-    "description": "绝大部分写业务的程序员，在实际开发中使用 Redis 的时候，只会 Set Value 和 Get Value 两个操作，对 Redis 整体缺乏一个认知。这里以面试题的形式对 Redis 常见问题做一个总结，解决大家的知识盲点。",
-    "url": "https://segmentfault.com/a/1190000019910205",
-    "author": "茶轴的青春",
-    "home_url": "https://segmentfault.com/u/chazhoudeqingchun",
-    "votes": "3",
-    "rank": 2
-  },
-  {
-    "title": "iView 上线专业版平台，并发布 iView Pro 和 iView Admin Pro 两款产品（附发布会录像）",
-    "description": "7 月 27 日，我们在北京东直门成功举办了 iView 2019 新品发布会，上线了 iView 专业版 平台，并发布了 iView Pro 和 iView Admin Pro 两款产品、 iView 4.0 的预告，以及公布了和美团 mpvue 团队合作的移动端新 ...",
-    "url": "https://segmentfault.com/a/1190000019902664",
-    "author": "Aresn",
-    "home_url": "https://segmentfault.com/u/aresn",
-    "votes": "13",
-    "rank": 3
-  },
-  {
-    "title": "今天，我明白了JS事件循环机制",
-    "description": "js是一门单线程的编程语言，也就是说js在处理任务的时候，所有任务只能在一个线程上排队被执行，那如果某一个任务耗时比较长呢？总不能等到它执行结束再去执行下一个。所以在线程之内，又被分为了两个队列：",
-    "url": "https://segmentfault.com/a/1190000019900532",
-    "author": "nero",
-    "home_url": "https://segmentfault.com/u/neronero",
-    "votes": "20",
-    "rank": 4
-  },
-  {
-    "title": "js 的5个不良编码习惯，现在就改掉吧",
-    "description": "为了保证的可读性，本文采用意译而非直译。 想阅读更多优质文章请猛戳GitHub博客,一年百来篇优质文章等着你！ 在阅读JavaScript代码时，你是否有过这种感觉 你几乎不明白代码的作用？ 代码使用了很多 JavaScript ...",
-    "url": "https://segmentfault.com/a/1190000019853633",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "15",
+    "votes": "77",
     "rank": 5
+  },
+  {
+    "title": "从零到一，撸一个在线斗地主(下篇)",
+    "description": "上篇回顾：我们说了斗地主游戏的渲染展示部分，最后也讲了下canvas中交互的情况，下篇的重点就是游戏逻辑。",
+    "url": "https://segmentfault.com/a/1190000019923402",
+    "author": "腾讯AlloyTeam",
+    "home_url": "https://segmentfault.com/u/alloyteam",
+    "votes": "1",
+    "rank": 6
+  },
+  {
+    "title": "从零到一，撸一个在线斗地主(上篇)",
+    "description": "背景：朋友来深圳玩，若说到在深圳有什么好玩的，那当然是宅在家里斗地主了！可是天算不如人算，扑克牌丢了几张不全……大热天的，谁愿意出去买牌啊。不过问题不大，作为移动互联网时代的程序猿，当然是撸一个手机...",
+    "url": "https://segmentfault.com/a/1190000019923343",
+    "author": "腾讯AlloyTeam",
+    "home_url": "https://segmentfault.com/u/alloyteam",
+    "votes": "1",
+    "rank": 7
   },
   {
     "title": "你必须懂的前端性能优化",
@@ -50,98 +68,17 @@
     "url": "https://segmentfault.com/a/1190000019897234",
     "author": "张炳",
     "home_url": "https://segmentfault.com/u/markbzhang",
-    "votes": "57",
-    "rank": 6
-  },
-  {
-    "title": "Swoole 4.4.2 版本已发布，BUG 修复版本",
-    "description": "Server::stats增加 idle_worker_num and task_idle_worker_num信息 (#2687) (@matyhtf)",
-    "url": "https://segmentfault.com/a/1190000019907460",
-    "author": "韩天峰",
-    "home_url": "https://segmentfault.com/u/hantianfeng",
-    "votes": "5",
-    "rank": 7
-  },
-  {
-    "title": "2020年编程趋势预测",
-    "description": "“2020年就快到了！” 这听起来真是很疯狂，就像是科幻小说里的故事，但我们现在就要推开它的大门了。 如果你对未来的编程世界充满好奇，那么你来对地方了。我不能预测未来，也不敢保证说我以下和你们分享的一切正...",
-    "url": "https://segmentfault.com/a/1190000019904661",
-    "author": "京东云技术新知",
-    "home_url": "https://segmentfault.com/u/jdcdevloper",
-    "votes": "8",
+    "votes": "82",
     "rank": 8
   },
   {
-    "title": "不到 0.3s 完成渲染！360 信息流正文“闪开”优化实践",
-    "description": "开篇之前先介绍一下场景。信息流是一个基于用户兴趣使用算法将用户感兴趣的新闻内容推荐给用户的一种业务。这种业务带有非常特色的场景就是用户有一个“永远”都刷不完的推荐流列表，点击列表中的新闻之后可以跳转...",
-    "url": "https://segmentfault.com/a/1190000019904449",
-    "author": "公子",
-    "home_url": "https://segmentfault.com/u/lizheming",
-    "votes": "9",
+    "title": "30秒就能理解的 Javascript 代码片段 --- Array篇",
+    "description": "之前翻译过一篇文章，《我喜欢的5个编程技巧》，里面的一个技巧是借鉴一个网站的代码片段，好奇的小手点下链接后，发现是一个有 47000 多star的仓库，30-seconds-of-code。",
+    "url": "https://segmentfault.com/a/1190000019912597",
+    "author": "戎马",
+    "home_url": "https://segmentfault.com/u/lashoucuijs",
+    "votes": "15",
     "rank": 9
-  },
-  {
-    "title": "CSS动画设计专题（一）：字体特效",
-    "description": "本文来自《动画设计·字体特效》，更多文章放在了Github欢迎交流和Star 特效一览 划线动态： 背景高亮： 色块进出： 划线动态 效果图 原理 首先，利用::after和::before就可以画出上下两条线，所以只需要一个 dom ...",
-    "url": "https://segmentfault.com/a/1190000019910119",
-    "author": "心谭",
-    "home_url": "https://segmentfault.com/u/godbmw",
-    "votes": "1",
-    "rank": 10
-  },
-  {
-    "title": "为什么我们要熟悉这些通信协议？ 【精读】",
-    "description": "前端的最重要的基础知识点是什么？ 原生javaScript，HTML,CSS. Dom操作 EventLoop和渲染机制 各类工程化的工具原理以及使用，根据需求定制编写插件和包。（webpack的plugin和babel的预设包） 数据结构和算法（特...",
-    "url": "https://segmentfault.com/a/1190000019891825",
-    "author": "Peter谭金杰",
-    "home_url": "https://segmentfault.com/u/jerrytanjinjie",
-    "votes": "60",
-    "rank": 11
-  },
-  {
-    "title": "工信部要求应用商店上新 App 检查 IPv6，这里有一份 IPv6 快速部署指南",
-    "description": "7 月 25 日，工业和信息化部信息通信发展司组织召开部署推进 IPv6 网络就绪专项行动电视电话会议。会议指出，加快推进 IPv6 规模部署，构建高速率、广普及、全覆盖、智能化的下一代互联网，是互联网演进升级的必...",
-    "url": "https://segmentfault.com/a/1190000019905899",
-    "author": "云叔_又拍云",
-    "home_url": "https://segmentfault.com/u/yunshu_blog",
-    "votes": "5",
-    "rank": 12
-  },
-  {
-    "title": "从零到破万节点！支撑618大促背后的蚂蚁金服Kubernetes集群",
-    "description": "2019年天猫618大促，蚂蚁金服首次在大促中对调度系统和技术栈全面应用Kubernetes，突破了Kubernetes单集群万节点的规模，总节点数达到数十万个，这是世界最大规模的 Kubernetes 集群之一，而这距离开发团队下载Ku...",
-    "url": "https://segmentfault.com/a/1190000019904649",
-    "author": "阿里云云栖社区",
-    "home_url": "https://segmentfault.com/u/yunqishequ_5aa899aad5395",
-    "votes": "4",
-    "rank": 13
-  },
-  {
-    "title": "优秀程序员都应该学习的 GitHub 上开源的数据结构与算法项目",
-    "description": "算法为王。想学好前端，先练好内功，内功不行，就算招式练的再花哨，终究成不了高手；只有内功深厚者，前端之路才会走得更远。",
-    "url": "https://segmentfault.com/a/1190000019842169",
-    "author": "夜尽天明",
-    "home_url": "https://segmentfault.com/u/biaochenxuying",
-    "votes": "94",
-    "rank": 14
-  },
-  {
-    "title": "精读《Nodejs V12》",
-    "description": "Node12 与以往的版本不同，带来了许多重大升级，包括更多 V8 特性，Http 解析速度的提升，启动速度的提升，更好的诊断报告、内置堆分析工具，ESM 模块的更新等。",
-    "url": "https://segmentfault.com/a/1190000019900856",
-    "author": "黄子毅",
-    "home_url": "https://segmentfault.com/u/aoyangyudakong",
-    "votes": "5",
-    "rank": 15
-  },
-  {
-    "title": "一个合格的前端都应该阅读这些文章",
-    "description": "的确，有些标题党了。起因是微信群里，有哥们问我，你是怎么学习前端的呢？能不能共享一下学习方法。一句话也挺触动我的，我真的不算是什么大佬，对于学习前端知识，我也不能说是掌握了什么捷径。当然，我个人的...",
-    "url": "https://segmentfault.com/a/1190000019865902",
-    "author": "isNealyang",
-    "home_url": "https://segmentfault.com/u/nealyang231",
-    "votes": "99",
-    "rank": 16
   },
   {
     "title": "学习 jQuery 源码整体架构，打造属于自己的 js 类库",
@@ -149,17 +86,152 @@
     "url": "https://segmentfault.com/a/1190000019908729",
     "author": "若川",
     "home_url": "https://segmentfault.com/u/lxchuan12",
-    "votes": "5",
+    "votes": "18",
+    "rank": 10
+  },
+  {
+    "title": "JS最新基本数据类型:BigInt",
+    "description": "BigInt数据类型的目的是比Number数据类型支持的范围更大的整数值。在对大整数执行数学运算时，以任意精度表示整数的能力尤为重要。使用BigInt，整数溢出将不再是问题。",
+    "url": "https://segmentfault.com/a/1190000019912017",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "12",
+    "rank": 11
+  },
+  {
+    "title": "Node.js 高级进阶之 fs 文件模块学习",
+    "description": "文件操作是开发过程中并不可少的一部分。Node.js 中的 fs 模块是文件操作的封装，它提供了文件读取、写入、更名、删除、遍历目录、链接等 POSIX 文件系统操作。与其它模块不同的是，fs 模块中所有的操作都提供了...",
+    "url": "https://segmentfault.com/a/1190000019913303",
+    "author": "koala",
+    "home_url": "https://segmentfault.com/u/na_5a545653c24d9",
+    "votes": "16",
+    "rank": 12
+  },
+  {
+    "title": "深入解析强引用、软引用、弱引用、幻象引用",
+    "description": "关于强引用、软引用、弱引用、幻象引用的区别，在一些大公司的面试题中经常出现，可能有些小伙伴觉得这个知识点比较冷门，但其实大家在开发中经常用到，如new一个对象的时候就是强引用的应用。",
+    "url": "https://segmentfault.com/a/1190000019922953",
+    "author": "猿人谷",
+    "home_url": "https://segmentfault.com/u/yuanrengu",
+    "votes": "1",
+    "rank": 13
+  },
+  {
+    "title": "为什么我们要熟悉这些通信协议？ 【精读】",
+    "description": "前端的最重要的基础知识点是什么？ 原生javaScript，HTML,CSS. Dom操作 EventLoop和渲染机制 各类工程化的工具原理以及使用，根据需求定制编写插件和包。（webpack的plugin和babel的预设包） 数据结构和算法（特...",
+    "url": "https://segmentfault.com/a/1190000019891825",
+    "author": "Peter谭金杰",
+    "home_url": "https://segmentfault.com/u/jerrytanjinjie",
+    "votes": "85",
+    "rank": 14
+  },
+  {
+    "title": "Deep In React 之详谈 React 16 Diff 策略(二)",
+    "description": "我相信在看这篇文章的读者一般都已经了解过 React 16 以前的 Diff 算法了，这个算法也算是 React 跨时代或者说最有影响力的一点了，使 React 在保持了可维护性的基础上性能大大的提高，但 Diff 过程不仅不是免费...",
+    "url": "https://segmentfault.com/a/1190000019918133",
+    "author": "leexiaoran",
+    "home_url": "https://segmentfault.com/u/li1076629390",
+    "votes": "4",
+    "rank": 15
+  },
+  {
+    "title": "七道常见的Redis面试题分享",
+    "description": "绝大部分写业务的程序员，在实际开发中使用 Redis 的时候，只会 Set Value 和 Get Value 两个操作，对 Redis 整体缺乏一个认知。这里以面试题的形式对 Redis 常见问题做一个总结，解决大家的知识盲点。",
+    "url": "https://segmentfault.com/a/1190000019910205",
+    "author": "茶轴的青春",
+    "home_url": "https://segmentfault.com/u/chazhoudeqingchun",
+    "votes": "25",
+    "rank": 16
+  },
+  {
+    "title": "js 的5个不良编码习惯，现在就改掉吧",
+    "description": "为了保证的可读性，本文采用意译而非直译。 想阅读更多优质文章请猛戳GitHub博客,一年百来篇优质文章等着你！ 在阅读JavaScript代码时，你是否有过这种感觉 你几乎不明白代码的作用？ 代码使用了很多 JavaScript ...",
+    "url": "https://segmentfault.com/a/1190000019853633",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "23",
     "rank": 17
   },
   {
-    "title": "本地离线预览 React/Vue 等开源工具官方文档网站",
-    "description": "外网访问组件库官方文档网站、React 官方等文档网站太慢，解决办法，是将他们克隆到本地预览，即可离线预览，速度也快。这是一个小技巧分享给大家。",
-    "url": "https://segmentfault.com/a/1190000019904622",
-    "author": "小弟调调",
-    "home_url": "https://segmentfault.com/u/jslite",
-    "votes": "4",
+    "title": "解锁云原生 AI 技能 - 开发你的机器学习工作流",
+    "description": "按照上篇文章《解锁云原生 AI 技能 | 在 Kubernetes 上构建机器学习系统》搭建了一套 Kubeflow Pipelines 之后，我们一起小试牛刀，用一个真实的案例，学习如何开发一套基于 Kubeflow Pipelines 的机器学习工作流。",
+    "url": "https://segmentfault.com/a/1190000019922672",
+    "author": "阿里巴巴云原生",
+    "home_url": "https://segmentfault.com/u/alixitongruanjianjishu",
+    "votes": "1",
     "rank": 18
+  },
+  {
+    "title": "今天，我明白了JS事件循环机制",
+    "description": "js是一门单线程的编程语言，也就是说js在处理任务的时候，所有任务只能在一个线程上排队被执行，那如果某一个任务耗时比较长呢？总不能等到它执行结束再去执行下一个。所以在线程之内，又被分为了两个队列：",
+    "url": "https://segmentfault.com/a/1190000019900532",
+    "author": "nero",
+    "home_url": "https://segmentfault.com/u/neronero",
+    "votes": "27",
+    "rank": 19
+  },
+  {
+    "title": "Swoole 4.4.2 已发布，BUG 修复版本",
+    "description": "Server::stats增加 idle_worker_num and task_idle_worker_num信息 (#2687) (@matyhtf)",
+    "url": "https://segmentfault.com/a/1190000019907460",
+    "author": "韩天峰",
+    "home_url": "https://segmentfault.com/u/hantianfeng",
+    "votes": "10",
+    "rank": 20
+  },
+  {
+    "title": "在工作中常用到的SQL",
+    "description": "最近在公司做了几张报表，还记得刚开始要做报表的时候都快把SQL给忘光了（当时在广州休假了1个月多，在实习期间也没咋写过SQL），回到公司的第一个需求就是做报表。",
+    "url": "https://segmentfault.com/a/1190000019913273",
+    "author": "Java3y",
+    "home_url": "https://segmentfault.com/u/java_3y",
+    "votes": "8",
+    "rank": 21
+  },
+  {
+    "title": "提升sql水平，记录怒刷50道经典sql题【包含建表sql、答案sql、想提高sql水准的力荐一看】",
+    "description": "今年六月份离开学校了，隔一段时间对一些东西进行总结我坚信，时间会见证努力的脚步特此立文，刷网上比较热门的50道sql，里面的思路和sql均为本人刷题路上的记录欢迎大家学习探讨，有错也欢迎大家指出因为本人需...",
+    "url": "https://segmentfault.com/a/1190000019905581",
+    "author": "吴傲阳",
+    "home_url": "https://segmentfault.com/u/wuaoyang",
+    "votes": "9",
+    "rank": 22
+  },
+  {
+    "title": "iView 上线专业版平台，并发布 iView Pro 和 iView Admin Pro 两款产品（附发布会录像）",
+    "description": "7 月 27 日，我们在北京东直门成功举办了 iView 2019 新品发布会，上线了 iView 专业版 平台，并发布了 iView Pro 和 iView Admin Pro 两款产品、 iView 4.0 的预告，以及公布了和美团 mpvue 团队合作的移动端新 ...",
+    "url": "https://segmentfault.com/a/1190000019902664",
+    "author": "Aresn",
+    "home_url": "https://segmentfault.com/u/aresn",
+    "votes": "19",
+    "rank": 23
+  },
+  {
+    "title": "一个合格的前端都应该阅读这些文章",
+    "description": "的确，有些标题党了。起因是微信群里，有哥们问我，你是怎么学习前端的呢？能不能共享一下学习方法。一句话也挺触动我的，我真的不算是什么大佬，对于学习前端知识，我也不能说是掌握了什么捷径。当然，我个人的...",
+    "url": "https://segmentfault.com/a/1190000019865902",
+    "author": "isNealyang",
+    "home_url": "https://segmentfault.com/u/nealyang231",
+    "votes": "107",
+    "rank": 24
+  },
+  {
+    "title": "不到 0.3s 完成渲染！360 信息流正文“闪开”优化实践",
+    "description": "开篇之前先介绍一下场景。信息流是一个基于用户兴趣使用算法将用户感兴趣的新闻内容推荐给用户的一种业务。这种业务带有非常特色的场景就是用户有一个“永远”都刷不完的推荐流列表，点击列表中的新闻之后可以跳转...",
+    "url": "https://segmentfault.com/a/1190000019904449",
+    "author": "公子",
+    "home_url": "https://segmentfault.com/u/lizheming",
+    "votes": "17",
+    "rank": 25
+  },
+  {
+    "title": "2020年编程趋势预测",
+    "description": "“2020年就快到了！” 这听起来真是很疯狂，就像是科幻小说里的故事，但我们现在就要推开它的大门了。 如果你对未来的编程世界充满好奇，那么你来对地方了。我不能预测未来，也不敢保证说我以下和你们分享的一切正...",
+    "url": "https://segmentfault.com/a/1190000019904661",
+    "author": "京东云技术新知",
+    "home_url": "https://segmentfault.com/u/jdcdevloper",
+    "votes": "20",
+    "rank": 26
   },
   {
     "title": "数据结构与算法在前端领域的应用",
@@ -167,35 +239,8 @@
     "url": "https://segmentfault.com/a/1190000019901078",
     "author": "lucifer",
     "home_url": "https://segmentfault.com/u/shuohaodeyixuene",
-    "votes": "4",
-    "rank": 19
-  },
-  {
-    "title": "一键搭建基于docker的nodejs、php开发环境 （开源项目）",
-    "description": "最近写了个新项目，一键部署nodejs，php开发环境（docker，nodejs，php，nginx，mongo，mysql，redis）",
-    "url": "https://segmentfault.com/a/1190000019906077",
-    "author": "卡卡导航",
-    "home_url": "https://segmentfault.com/u/wallace5303",
-    "votes": "1",
-    "rank": 20
-  },
-  {
-    "title": "【Redis5源码学习】2019-04-16 跳跃表skiplist",
-    "description": "想象一下，给你一张草稿纸，一只笔，一个编辑器，你能立即实现一颗红黑树，或者AVL树出来吗？ 很难吧，这需要时间，要考虑很多细节，要参考一堆算法与数据结构之类的树，还要参考网上的代码，相当麻烦。",
-    "url": "https://segmentfault.com/a/1190000019907987",
-    "author": "NoSay",
-    "home_url": "https://segmentfault.com/u/nosay",
-    "votes": "1",
-    "rank": 21
-  },
-  {
-    "title": "vue项目props传值类型影响：单项数据流及双向数据流",
-    "description": "第一：传递string、number等基本数据类型：在构建vue项目中，props是子组件获取父组件的一种形式；在子组件中不可修改父组件传递的参数，代码如下：1、父组件代码：",
-    "url": "https://segmentfault.com/a/1190000019899941",
-    "author": "狂奔的蜗牛",
-    "home_url": "https://segmentfault.com/u/kuangbendewoniu_594354a1355e9",
-    "votes": "7",
-    "rank": 22
+    "votes": "16",
+    "rank": 27
   },
   {
     "title": "深入理解 ESLint",
@@ -203,67 +248,22 @@
     "url": "https://segmentfault.com/a/1190000019896962",
     "author": "Shenfq",
     "home_url": "https://segmentfault.com/u/shenfq",
-    "votes": "8",
-    "rank": 23
-  },
-  {
-    "title": "JavaScript 数据结构与算法之美 - 桶排序、计数排序、基数排序",
-    "description": "笔者写的 JavaScript 数据结构与算法之美 系列用的语言是 JavaScript ，旨在入门数据结构与算法和方便以后复习。",
-    "url": "https://segmentfault.com/a/1190000019903759",
-    "author": "夜尽天明",
-    "home_url": "https://segmentfault.com/u/biaochenxuying",
-    "votes": "5",
-    "rank": 24
-  },
-  {
-    "title": "云原生时代，2个方案轻松加速百万级镜像",
-    "description": "CNCF/containerd 中的远程文件系统快照程序直接远程存储镜像，使容器引擎通过网络读取镜像内容，几乎不需要时间分发。",
-    "url": "https://segmentfault.com/a/1190000019904191",
-    "author": "阿里巴巴云原生",
-    "home_url": "https://segmentfault.com/u/alixitongruanjianjishu",
-    "votes": "2",
-    "rank": 25
-  },
-  {
-    "title": "RPA项目中关于信息配置表的注意事项",
-    "description": "在做RPA项目的时候，有一个核心的部分就是给RPA流程做信息配置表，而信息配置表的设计以及读取方式，是决定这个RPA项目够不够灵活和稳定的关键因素之一。",
-    "url": "https://segmentfault.com/a/1190000019905019",
-    "author": "UiBot",
-    "home_url": "https://segmentfault.com/u/uibot",
-    "votes": "1",
-    "rank": 26
-  },
-  {
-    "title": "跟着大彬读源码 - Redis 7 - 对象编码之简单动态字符串",
-    "description": "Redis 没有直接使用 C 语言传统的字符串表示（以空字符串结尾的字符数组），而是构建了一种名为简单动态字符串（simple dynamic string）的抽象类型，并将 SDS 用作 Redis 的默认字符串表示。",
-    "url": "https://segmentfault.com/a/1190000019901507",
-    "author": "北国风光",
-    "home_url": "https://segmentfault.com/u/beiguofengguang",
-    "votes": "3",
-    "rank": 27
-  },
-  {
-    "title": "JavaScript 数据结构与算法之美 - 归并排序、快速排序、希尔排序、堆排序",
-    "description": "笔者写的 JavaScript 数据结构与算法之美 系列用的语言是 JavaScript ，旨在入门数据结构与算法和方便以后复习。",
-    "url": "https://segmentfault.com/a/1190000019871429",
-    "author": "夜尽天明",
-    "home_url": "https://segmentfault.com/u/biaochenxuying",
-    "votes": "22",
+    "votes": "11",
     "rank": 28
   },
   {
-    "title": "Node.js 事件循环的完整指南",
-    "description": "Node.js 是一个基于 Chrome 的 V8 JavaScript 引擎构建的 Javascript 运行时环境。",
-    "url": "https://segmentfault.com/a/1190000019881513",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "35",
+    "title": "独家专访阿里集团副总裁贾扬清：我为什么选择加入阿里巴巴？",
+    "description": "真正跟贾扬清近距离接触后笔者发现，这位被很多人称为“AI 架构大神”的 80 后青年科学家，更像一位温柔且平易近人的邻家“学霸”，虽然技能全面碾压但丝毫没有架子。加入阿里以来，贾扬清一直忙于了解集团覆盖范围极...",
+    "url": "https://segmentfault.com/a/1190000019916953",
+    "author": "阿里云云栖社区",
+    "home_url": "https://segmentfault.com/u/yunqishequ_5aa899aad5395",
+    "votes": "2",
     "rank": 29
   },
   {
-    "title": "将 IPv6 照进现实，我们需要做些什么？",
-    "description": "阿里妹导读：随着中共中央办公厅、国务院办公厅印发了《推进互联网协议第六版(IPv6)规模部署行动计划》后，整个 IPv6 产业链开始活跃起来。虽然目前我们距离世界上每一粒沙子都有一个地址的梦想还有点远，但加速...",
-    "url": "https://segmentfault.com/a/1190000019902695",
+    "title": "字节码技术在模块依赖分析中的应用",
+    "description": "近年来，随着手机业务的快速发展，为满足手机端用户诉求和业务功能的迅速增长，移动端的技术架构也从单一的大工程应用，逐步向模块化、组件化方向发展。以高德地图为例，Android 端的代码已突破百万行级别，超过1...",
+    "url": "https://segmentfault.com/a/1190000019917679",
     "author": "阿里云云栖社区",
     "home_url": "https://segmentfault.com/u/yunqishequ_5aa899aad5395",
     "votes": "3",
