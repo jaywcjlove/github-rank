@@ -1,21 +1,30 @@
 [
   {
-    "title": "webpack  hash  chunkhash  contenthash浅析",
-    "description": "官网解释：bundle由chunk组成，其中有几种类型（入口 entry chunk child chunk）。通常，chunk会直接对所输出的bundle。但是有些配置并不会产生一对一的关系。",
-    "url": "https://segmentfault.com/a/1190000020104777",
-    "author": "狂暴的猪头三",
-    "home_url": "https://segmentfault.com/u/kuangbaodezhutousan",
-    "votes": "3",
+    "title": "第十三集: 从零开始实现一套pc端vue的ui组件库( 评分组件 小星星 )",
+    "description": "说起评分的话, 最早看到这种形式是电影网站, 每部电影得到几颗星这种方式, 后来就出现了用户来手动选星星打分的玩法, 这些方式更直观, 更吸引用户参与进去, 这个组件其实还有很多玩法, 比加载动画, 我可以把星星...",
+    "url": "https://segmentfault.com/a/1190000020109085",
+    "author": "lulu_up",
+    "home_url": "https://segmentfault.com/u/lulu_up",
+    "votes": "5",
     "rank": 1
   },
   {
-    "title": "56 道高频 JavaScript 与 ES6+ 的面试题及答案",
-    "description": "前言 本文讲解 56 道 JavaScript 和 ES6+ 面试题的内容。 复习前端面试的知识，是为了巩固前端的基础知识，最重要的还是平时的积累！ 注意：文章的题与题之间用下划线分隔开，答案仅供参考。 前端硬核面试专题的...",
-    "url": "https://segmentfault.com/a/1190000020082089",
-    "author": "夜尽天明",
-    "home_url": "https://segmentfault.com/u/biaochenxuying",
-    "votes": "55",
+    "title": "为什么 ['1', '7', '11'].map(parseInt) 的结果是 [1, NaN, 3]？",
+    "description": "Javascript 总是以超自然的方式执行我们的代码，这是一件很神奇的事情，如果不信的话，思考一下 ['1', '7', '11'].map(parseInt) 的结果是什么？你以为会是 [1, 7, 11] 吗？我都这么问了，那肯定不是：",
+    "url": "https://segmentfault.com/a/1190000020108168",
+    "author": "大胡子民工潘半仙",
+    "home_url": "https://segmentfault.com/u/pantao",
+    "votes": "6",
     "rank": 2
+  },
+  {
+    "title": "高级程序员与初级程序员差别在哪里？",
+    "description": "之前在公众号里有个读者给我留言： 请教个问题，公司高职级和初中级，都是写业务代码，那么高职级的价值在哪里呢？ 由于公众号回复留言的限制，当时我就简单的回复了如下的几个点： 初级多在写代码，高级多在设计...",
+    "url": "https://segmentfault.com/a/1190000020108905",
+    "author": "leexiaoran",
+    "home_url": "https://segmentfault.com/u/li1076629390",
+    "votes": "5",
+    "rank": 3
   },
   {
     "title": "深入理解Node.js 进程与线程(8000长文彻底搞懂)",
@@ -23,8 +32,17 @@
     "url": "https://segmentfault.com/a/1190000020077274",
     "author": "koala",
     "home_url": "https://segmentfault.com/u/na_5a545653c24d9",
-    "votes": "88",
-    "rank": 3
+    "votes": "96",
+    "rank": 4
+  },
+  {
+    "title": "56 道高频 JavaScript 与 ES6+ 的面试题及答案",
+    "description": "前言 本文讲解 56 道 JavaScript 和 ES6+ 面试题的内容。 复习前端面试的知识，是为了巩固前端的基础知识，最重要的还是平时的积累！ 注意：文章的题与题之间用下划线分隔开，答案仅供参考。 前端硬核面试专题的...",
+    "url": "https://segmentfault.com/a/1190000020082089",
+    "author": "夜尽天明",
+    "home_url": "https://segmentfault.com/u/biaochenxuying",
+    "votes": "59",
+    "rank": 5
   },
   {
     "title": "Vue项目优化",
@@ -32,8 +50,8 @@
     "url": "https://segmentfault.com/a/1190000020085952",
     "author": "易小星",
     "home_url": "https://segmentfault.com/u/guanxiaobo",
-    "votes": "43",
-    "rank": 4
+    "votes": "46",
+    "rank": 6
   },
   {
     "title": "前端开发变量命名系列 - JavaScript篇",
@@ -41,17 +59,8 @@
     "url": "https://segmentfault.com/a/1190000020039039",
     "author": "jenemy",
     "home_url": "https://segmentfault.com/u/jenemy",
-    "votes": "121",
-    "rank": 5
-  },
-  {
-    "title": "前端十大经典算法",
-    "description": "非线性时间比较类排序：通过比较来决定元素间的相对次序，由于其时间复杂度不能突破O(nlogn)，因此称为非线性时间比较类排序。线性时间非比较类排序：不通过比较来决定元素间的相对次序，它可以突破基于比较排序...",
-    "url": "https://segmentfault.com/a/1190000020072884",
-    "author": "浅夏晴空",
-    "home_url": "https://segmentfault.com/u/qianxiaqingkong",
-    "votes": "59",
-    "rank": 6
+    "votes": "122",
+    "rank": 7
   },
   {
     "title": "前端20个真正灵魂拷问，吃透这些你就是中级前端工程师 【上篇】",
@@ -60,7 +69,25 @@
     "author": "Peter谭金杰",
     "home_url": "https://segmentfault.com/u/jerrytanjinjie",
     "votes": "98",
-    "rank": 7
+    "rank": 8
+  },
+  {
+    "title": "前端十大经典算法",
+    "description": "非线性时间比较类排序：通过比较来决定元素间的相对次序，由于其时间复杂度不能突破O(nlogn)，因此称为非线性时间比较类排序。线性时间非比较类排序：不通过比较来决定元素间的相对次序，它可以突破基于比较排序...",
+    "url": "https://segmentfault.com/a/1190000020072884",
+    "author": "浅夏晴空",
+    "home_url": "https://segmentfault.com/u/qianxiaqingkong",
+    "votes": "60",
+    "rank": 9
+  },
+  {
+    "title": "提高效率的 10 个 Git 小技巧",
+    "description": "你是否有过破坏了某个文件，想要重新开始？或者需要的文件在另一个分支中？下面的命令让你直接从某个分支取到那个文件。",
+    "url": "https://segmentfault.com/a/1190000020099456",
+    "author": "savokiss",
+    "home_url": "https://segmentfault.com/u/savokiss",
+    "votes": "18",
+    "rank": 10
   },
   {
     "title": "HTTP缓存和浏览器的本地存储",
@@ -68,17 +95,8 @@
     "url": "https://segmentfault.com/a/1190000020086923",
     "author": "搁浅",
     "home_url": "https://segmentfault.com/u/geqian_5c24ba8b4aa9e",
-    "votes": "33",
-    "rank": 8
-  },
-  {
-    "title": "一步一步搭建前端监控系统：如何监控资源加载错误？",
-    "description": "摘要： 资源加载失败会破坏产品功能以及用户体验.... 作者：一步一个脚印一个坑 原文：搭建前端监控系统（三）静态资源加载监控篇 Fundebug经授权转载，版权归原作者所有。 一步一步搭建前端监控系统系列博客： ...",
-    "url": "https://segmentfault.com/a/1190000020101606",
-    "author": "Fundebug",
-    "home_url": "https://segmentfault.com/u/fundebug",
-    "votes": "5",
-    "rank": 9
+    "votes": "37",
+    "rank": 11
   },
   {
     "title": "vue中8种组件通信方式, 值得收藏!",
@@ -87,16 +105,7 @@
     "author": "koala",
     "home_url": "https://segmentfault.com/u/na_5a545653c24d9",
     "votes": "82",
-    "rank": 10
-  },
-  {
-    "title": "提高效率的 10 个 Git 小技巧",
-    "description": "你是否有过破坏了某个文件，想要重新开始？或者需要的文件在另一个分支中？下面的命令让你直接从某个分支取到那个文件。",
-    "url": "https://segmentfault.com/a/1190000020099456",
-    "author": "savokiss",
-    "home_url": "https://segmentfault.com/u/savokiss",
-    "votes": "10",
-    "rank": 11
+    "rank": 12
   },
   {
     "title": "【Cute-Webpack】Webpack4 入门手册（共 18 章）",
@@ -104,16 +113,7 @@
     "url": "https://segmentfault.com/a/1190000020063707",
     "author": "pingan8787",
     "home_url": "https://segmentfault.com/u/pingan8787",
-    "votes": "53",
-    "rank": 12
-  },
-  {
-    "title": "谈谈Web应用中的图片优化技巧及反思",
-    "description": "对于大多数前端工程师来说，图片就是UI设计师(或者自己)切好的图，你要做的只是把图片丢进项目中，然后用以链接的方式呈现在页面上，而且我们也经常把精力放在项目的打包优化构建上，如何分包，如何抽取第三方库....",
-    "url": "https://segmentfault.com/a/1190000020047949",
-    "author": "fecoder",
-    "home_url": "https://segmentfault.com/u/fecoder2019",
-    "votes": "42",
+    "votes": "54",
     "rank": 13
   },
   {
@@ -122,8 +122,26 @@
     "url": "https://segmentfault.com/a/1190000020038593",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "81",
+    "votes": "83",
     "rank": 14
+  },
+  {
+    "title": "谈谈Web应用中的图片优化技巧及反思",
+    "description": "对于大多数前端工程师来说，图片就是UI设计师(或者自己)切好的图，你要做的只是把图片丢进项目中，然后用以链接的方式呈现在页面上，而且我们也经常把精力放在项目的打包优化构建上，如何分包，如何抽取第三方库....",
+    "url": "https://segmentfault.com/a/1190000020047949",
+    "author": "fecoder",
+    "home_url": "https://segmentfault.com/u/fecoder2019",
+    "votes": "42",
+    "rank": 15
+  },
+  {
+    "title": "动态规划练习题-合唱队形",
+    "description": "题目描述 N位同学站成一排，音乐老师要请其中的(N-K)位同学出列，使得剩下的K位同学不交换位置就能排成合唱队形。",
+    "url": "https://segmentfault.com/a/1190000020109364",
+    "author": "小利子",
+    "home_url": "https://segmentfault.com/u/xiaolizi_5930d3efdcf80",
+    "votes": "1",
+    "rank": 16
   },
   {
     "title": "这些常用的H5代码你知道吗",
@@ -131,8 +149,8 @@
     "url": "https://segmentfault.com/a/1190000020057408",
     "author": "老张的前端笔记",
     "home_url": "https://segmentfault.com/u/laozhang97",
-    "votes": "43",
-    "rank": 15
+    "votes": "44",
+    "rank": 17
   },
   {
     "title": "JS原型那些事儿",
@@ -140,25 +158,7 @@
     "url": "https://segmentfault.com/a/1190000020097614",
     "author": "appleguardu",
     "home_url": "https://segmentfault.com/u/appleguardu",
-    "votes": "10",
-    "rank": 16
-  },
-  {
-    "title": "深入理解Go-垃圾回收机制",
-    "description": "Go的GC自打出生的时候就开始被人诟病，但是在引入v1.5的三色标记和v1.8的混合写屏障后，正常的GC已经缩短到10us左右，已经变得非常优秀，了不起了，我们接下来探索一下Go的GC的原理吧",
-    "url": "https://segmentfault.com/a/1190000020086769",
-    "author": "tyloafer",
-    "home_url": "https://segmentfault.com/u/tyloafer",
-    "votes": "15",
-    "rank": 17
-  },
-  {
-    "title": "【译】使用 MongoDB，React，Node 和 Express（MERN）构建一个全栈应用",
-    "description": "例如对数据库的了解，熟悉一门后端语言，如何将前后端整合，这些对于我来说，还有些陌生。这就是促使我完成这篇文章的原因：解决这个问题，以帮助我自己和其他前端工程师。",
-    "url": "https://segmentfault.com/a/1190000020086440",
-    "author": "joking_zhang",
-    "home_url": "https://segmentfault.com/u/joking_zhang",
-    "votes": "18",
+    "votes": "13",
     "rank": 18
   },
   {
@@ -167,44 +167,35 @@
     "url": "https://segmentfault.com/a/1190000020092884",
     "author": "疯狂的技术宅",
     "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "13",
+    "votes": "16",
     "rank": 19
   },
   {
-    "title": "uni-app微信小程序接入人脸核身SDK",
-    "description": "这几天使用uni-app开发某银行的一个微信小程序，需要集成接入腾讯云的人脸核身SDK，如上图所示，记录下整合接入过程及踩的一些坑，帮助后面需要的朋友们。关于uni-app接入人脸核身SDK有不懂的地方可以在下面提问...",
-    "url": "https://segmentfault.com/a/1190000020102601",
-    "author": "寻梦无痕",
-    "home_url": "https://segmentfault.com/u/liub37",
-    "votes": "1",
+    "title": "深入理解Go-垃圾回收机制",
+    "description": "Go的GC自打出生的时候就开始被人诟病，但是在引入v1.5的三色标记和v1.8的混合写屏障后，正常的GC已经缩短到10us左右，已经变得非常优秀，了不起了，我们接下来探索一下Go的GC的原理吧",
+    "url": "https://segmentfault.com/a/1190000020086769",
+    "author": "tyloafer",
+    "home_url": "https://segmentfault.com/u/tyloafer",
+    "votes": "18",
     "rank": 20
   },
   {
-    "title": "Java跨平台？慎用这些有平台差异性的方法",
-    "description": "我们都知道Java是跨平台的，一次编译，到处运行，本质上依赖于不同操作系统下有不同的JVM。到处运行是做到了，但运行结果呢？一样的程序，在不同的JVM上跑的结果是否一样呢？很遗憾，程序的执行结果没有百分百的...",
-    "url": "https://segmentfault.com/a/1190000020100663",
-    "author": "404p",
-    "home_url": "https://segmentfault.com/u/404p",
-    "votes": "5",
+    "title": "使用 Flutter for web 构建了 100+ Widget 实时预览示例。",
+    "description": "使用 Flutter 开发已经接近一年时间了，但是在学习 Flutter 一些 Widget 的时候不能像前端那样有能直接在网站上实时看到效果，每次接触到一个新的 Widget 时都需要花费不少时间才能看到效果，所以我基于 Flutter ...",
+    "url": "https://segmentfault.com/a/1190000020108395",
+    "author": "lijy91",
+    "home_url": "https://segmentfault.com/u/lijy91",
+    "votes": "1",
     "rank": 21
   },
   {
-    "title": "从输入URL到页面可交互的过程探究之一：从服务端到客户端",
-    "description": "最近发现国外有一个系列，专门探究从输入URL到页面可交互的详细过程，是一份干货十足的好资料。笔者决定分为四篇文章对其进行有删减地翻译，只希望能对大家有所帮助，毕竟这是前端必备的知识点，也是容易忽略掉某...",
-    "url": "https://segmentfault.com/a/1190000020076547",
-    "author": "fecoder",
-    "home_url": "https://segmentfault.com/u/fecoder2019",
-    "votes": "13",
+    "title": "【译】使用 MongoDB，React，Node 和 Express（MERN）构建一个全栈应用",
+    "description": "例如对数据库的了解，熟悉一门后端语言，如何将前后端整合，这些对于我来说，还有些陌生。这就是促使我完成这篇文章的原因：解决这个问题，以帮助我自己和其他前端工程师。",
+    "url": "https://segmentfault.com/a/1190000020086440",
+    "author": "joking_zhang",
+    "home_url": "https://segmentfault.com/u/joking_zhang",
+    "votes": "22",
     "rank": 22
-  },
-  {
-    "title": "虚拟Dom详解 - (二)",
-    "description": "第一篇文章中主要讲解了虚拟DOM基本实现，简单的回顾一下，虚拟DOM是使用json数据描述的一段虚拟Node节点树，通过render函数生成其真实DOM节点。并添加到其对应的元素容器中。在创建真实DOM节点的同时并为其注册...",
-    "url": "https://segmentfault.com/a/1190000020067208",
-    "author": "Aaron",
-    "home_url": "https://segmentfault.com/u/aaron_59f5c5ee0c93f",
-    "votes": "21",
-    "rank": 23
   },
   {
     "title": "你可能不知道的LocalStorage用法",
@@ -213,7 +204,7 @@
     "author": "CoyPan",
     "home_url": "https://segmentfault.com/u/coypan",
     "votes": "34",
-    "rank": 24
+    "rank": 23
   },
   {
     "title": "阿里高级技术专家方法论：如何写复杂业务代码？",
@@ -221,26 +212,17 @@
     "url": "https://segmentfault.com/a/1190000020072990",
     "author": "阿里云云栖社区",
     "home_url": "https://segmentfault.com/u/yunqishequ_5aa899aad5395",
-    "votes": "23",
+    "votes": "26",
+    "rank": 24
+  },
+  {
+    "title": "虚拟Dom详解 - (二)",
+    "description": "第一篇文章中主要讲解了虚拟DOM基本实现，简单的回顾一下，虚拟DOM是使用json数据描述的一段虚拟Node节点树，通过render函数生成其真实DOM节点。并添加到其对应的元素容器中。在创建真实DOM节点的同时并为其注册...",
+    "url": "https://segmentfault.com/a/1190000020067208",
+    "author": "Aaron",
+    "home_url": "https://segmentfault.com/u/aaron_59f5c5ee0c93f",
+    "votes": "21",
     "rank": 25
-  },
-  {
-    "title": "Vue组件基础与通信",
-    "description": "vue cli 3.0之前安装的是vue-cli模块，vue cli 3.0之后安装的是@vue/cli模块。如果已经全局安装了旧版本的 vue-cli ， 那么需要先卸载vue-cli，再全局安装@vue/cli虽然安装的是vue cli，但是执行的命令仍然是vue",
-    "url": "https://segmentfault.com/a/1190000020082659",
-    "author": "JS_Even_JS",
-    "home_url": "https://segmentfault.com/u/js_even_js",
-    "votes": "11",
-    "rank": 26
-  },
-  {
-    "title": "react知识点整理50问（未完待续）",
-    "description": "react会将传入的参数对象和组件的当前状态合并，根据新的状态构建新的react元素树，计算react新树和老树的差异，根据差异最小化对界面进行最小化渲染",
-    "url": "https://segmentfault.com/a/1190000020055666",
-    "author": "哈哈哈我只是想笑",
-    "home_url": "https://segmentfault.com/u/hahahawozhishixiangxiao",
-    "votes": "24",
-    "rank": 27
   },
   {
     "title": "50行javaScript代码实现简单版的 call , apply ,bind   【中级前端面试基础必备】",
@@ -249,6 +231,24 @@
     "author": "Peter谭金杰",
     "home_url": "https://segmentfault.com/u/jerrytanjinjie",
     "votes": "38",
+    "rank": 26
+  },
+  {
+    "title": "从输入URL到页面可交互的过程探究之一：从服务端到客户端",
+    "description": "最近发现国外有一个系列，专门探究从输入URL到页面可交互的详细过程，是一份干货十足的好资料。笔者决定分为四篇文章对其进行有删减地翻译，只希望能对大家有所帮助，毕竟这是前端必备的知识点，也是容易忽略掉某...",
+    "url": "https://segmentfault.com/a/1190000020076547",
+    "author": "fecoder",
+    "home_url": "https://segmentfault.com/u/fecoder2019",
+    "votes": "13",
+    "rank": 27
+  },
+  {
+    "title": "react知识点整理50问（未完待续）",
+    "description": "react会将传入的参数对象和组件的当前状态合并，根据新的状态构建新的react元素树，计算react新树和老树的差异，根据差异最小化对界面进行最小化渲染",
+    "url": "https://segmentfault.com/a/1190000020055666",
+    "author": "哈哈哈我只是想笑",
+    "home_url": "https://segmentfault.com/u/hahahawozhishixiangxiao",
+    "votes": "24",
     "rank": 28
   },
   {
@@ -257,16 +257,16 @@
     "url": "https://segmentfault.com/a/1190000020069458",
     "author": "小石头若海",
     "home_url": "https://segmentfault.com/u/xiaoshitouruohai",
-    "votes": "19",
+    "votes": "20",
     "rank": 29
   },
   {
-    "title": "Node.JS 识别图片类型",
-    "description": "通过切文件名称后缀来获得图片格式的方式是不准确的，因为文件后缀是可以被强行更改的，这样一个.gif 图片也可以被保存成.jpg,",
-    "url": "https://segmentfault.com/a/1190000020074437",
-    "author": "coderAfei",
-    "home_url": "https://segmentfault.com/u/jserafei",
-    "votes": "16",
+    "title": "Jquery+AJAX上传文件，无刷新上传并重命名文件",
+    "description": "前端 index.html {代码...} 服务端 dooo.php {代码...} 文件目录 记得自己手动建立一个upload的文件夹用于存放上传的文件。 作者：TANKING网站：[链接]",
+    "url": "https://segmentfault.com/a/1190000020088339",
+    "author": "TANKING",
+    "home_url": "https://segmentfault.com/u/tanking",
+    "votes": "9",
     "rank": 30
   }
 ]

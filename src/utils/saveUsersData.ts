@@ -100,6 +100,7 @@ export async function saveUsersData(usersDist: IUserData[], cacheUsers: IUserDat
     await getInfo(cacheUsers, type, globalUsers);
   }
   users = sortUser(users);
+  users.splice(500, users.length);
   await saveUserData(users, type);
   return users;
 }

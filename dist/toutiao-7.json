@@ -2,7 +2,7 @@
   {
     "title": "架构师技术图谱，助你早日成为架构师（最新）",
     "description": "README.md架构师技术图谱，助你早日成为架构师本项目是《码农周刊》架构学习资料精选，码农周刊团队官方出品。架构师必读，助你早日成为架构师！架构师技术图谱包括：分布式、前端、大...",
-    "votes": "159",
+    "votes": "163",
     "url": "/k/8lhpf6",
     "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
     "avatarAlt": "头条精选 - 独家号",
@@ -20,16 +20,6 @@
     "homeUrl": "/subjects/412981"
   },
   {
-    "title": "技术人如何通过了解业务，获取晋升机会？",
-    "description": " 阿里妹导读：伐薪是阿里巴巴高级技术专家，14年初入阿里时，没有过多地思考业务痛点和了解业务策略。后来，经历过晋升，当晋升评委，主动学习业务，最后，完成了从技术专家向综合性 TL ...",
-    "votes": "32",
-    "url": "/k/wh9utpj",
-    "avatar": "https://img.toutiao.io/subject%2F876f49e759bc4a04a201395b306c001d",
-    "avatarAlt": "每天关注一点点 - 独家号",
-    "subjectName": "每天关注一点点",
-    "homeUrl": "/subjects/416037"
-  },
-  {
     "title": "最专业的对 “鸿蒙” 的评论",
     "description": "希望我可以带大家认识一个不同的鸿蒙OS。鸿蒙的发布会什么软总线、什么分布式云里雾里。想理解这些名词，只需要理解微内核即可。关于微内核，这个东西一直是学界的宠儿，并不是业界的宠儿。以...",
     "votes": "31",
@@ -38,6 +28,16 @@
     "avatarAlt": "程序员的朋友圈 - 独家号",
     "subjectName": "程序员的朋友圈",
     "homeUrl": "/subjects/378"
+  },
+  {
+    "title": "被提拔成小主管后如何提升自己的管理能力？",
+    "description": "我是26岁当上数据总监的，当时完成了公司的数字化转型，帮助公司带来盈利。就被提拔上成为管理者了。我一下子从专注于自己的事的工程师到搭建团队还要管理团队的leader。说实话我是非常...",
+    "votes": "31",
+    "url": "/k/0vjcpub",
+    "avatar": "https://img.toutiao.io/subject%2F8e44d1a2390944c08c6170906cfc0856",
+    "avatarAlt": "跨端&全栈 - 独家号",
+    "subjectName": "跨端&全栈",
+    "homeUrl": "/subjects/7076"
   },
   {
     "title": "说说分库分表的一个最佳实践",
@@ -60,6 +60,16 @@
     "homeUrl": "/subjects/375484"
   },
   {
+    "title": "前端要知道的 HTTPS",
+    "description": "点击上方“做工程师不做码农”，并“置顶公众号”第一时间接收我的最新文章01—概述HTTPS（HTTP Secure）是一种构建在 SSL 或 TLS 上的HTTP协议。简单的说，H...",
+    "votes": "28",
+    "url": "/k/yw6j6ia",
+    "avatar": "https://img.toutiao.io/subject%2F863a2a7b6d2c4bf7b17908270e59fb29",
+    "avatarAlt": "做工程师不做码农 - 独家号",
+    "subjectName": "做工程师不做码农",
+    "homeUrl": "/subjects/125297"
+  },
+  {
     "title": "每个抱怨的程序员，应该读一读曾国藩",
     "description": "非常惭愧的是，受课本的影响，我对曾国藩这样的人物并没有好感，在我心目中，他是镇压农民起义的刽子手、满清走狗、卖国贼。近些年来，社会上忽然掀起了研究曾国藩的热潮，各种《曾国藩家书》、...",
     "votes": "26",
@@ -80,26 +90,6 @@
     "homeUrl": "/subjects/4"
   },
   {
-    "title": "前端要知道的 HTTPS",
-    "description": "点击上方“做工程师不做码农”，并“置顶公众号”第一时间接收我的最新文章01—概述HTTPS（HTTP Secure）是一种构建在 SSL 或 TLS 上的HTTP协议。简单的说，H...",
-    "votes": "25",
-    "url": "/k/yw6j6ia",
-    "avatar": "https://img.toutiao.io/subject%2F863a2a7b6d2c4bf7b17908270e59fb29",
-    "avatarAlt": "做工程师不做码农 - 独家号",
-    "subjectName": "做工程师不做码农",
-    "homeUrl": "/subjects/125297"
-  },
-  {
-    "title": "大厂面试 Kafka，一定会问到的幂等性",
-    "description": "01 幂等性如此重要 Kafka作为分布式MQ，大量用于分布式系统中，如消息推送系统、业务平台系统（如结算平台），就拿结算来说，业务方作为上游把数据打到结算平台，如果一份数据被计算...",
-    "votes": "22",
-    "url": "/k/51pmief",
-    "avatar": "https://img.toutiao.io/subject%2Fa45effa5393348ddb766867805961f5b",
-    "avatarAlt": "靳刚同学 - 独家号",
-    "subjectName": "靳刚同学",
-    "homeUrl": "/subjects/203646"
-  },
-  {
     "title": "看完这篇还不清楚 Netty 的内存管理，那我就哭了",
     "description": "说明在学习Netty的时候，ByteBuf随处可见，但是如何高效分配ByteBuf还是很复杂的，Netty的池化内存分配这块还是比较难的，很多人学习过，看过但是还是云里雾里的，本篇...",
     "votes": "21",
@@ -112,7 +102,7 @@
   {
     "title": "互联网人职业发展之路：三年升高工，七年做架构，十年送外卖",
     "description": "前段时间虎扑上有一篇热帖，叫《一年前我月薪两万被叫老总，如今35岁在美团送外卖》，讲的是一个新媒体公司从业者人到中年的人生境遇，互联网行业里一直有一种说法，叫做“互联网公司没有35...",
-    "votes": "20",
+    "votes": "21",
     "url": "/k/px2n6vm",
     "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
     "avatarAlt": "头条精选 - 独家号",
@@ -122,7 +112,7 @@
   {
     "title": "为什么大部分开发人员没有在写单元测试？",
     "description": "过去我们一直的都在倡导著开发者需进行所谓的单元测试。单元测试是个相当有效的工程实践, 这是无庸置疑的。但是, 全世界大部分的开发人员是都没有在写单元测试的。为什么 ?主要的原因如下...",
-    "votes": "20",
+    "votes": "21",
     "url": "/k/cq5gctg",
     "avatar": "https://img.toutiao.io/subject%2Fda99000e87874702b1d30c3020381381",
     "avatarAlt": "Cloud Native 产品级敏捷 - 独家号",
@@ -140,6 +130,16 @@
     "homeUrl": "/subjects/375127"
   },
   {
+    "title": "什么是中台？所有的中台都是业务中台",
+    "description": "编者按：本文转载自网易副总裁，网易杭州研究院执行院长汪源的个人公众号“冷技术热思考”（欢迎搜索关注）。上周的云创峰会上，汪源承诺会写三篇文章，力求说清楚什么是中台，什么时候要考虑建...",
+    "votes": "19",
+    "url": "/k/enayeyq",
+    "avatar": "https://img.toutiao.io/subject%2F6d0e239b5f32447fbbe6d0443a49bc8e",
+    "avatarAlt": "网易云技术分享 - 独家号",
+    "subjectName": "网易云技术分享",
+    "homeUrl": "/subjects/199493"
+  },
+  {
     "title": "优化 Docker 镜像，加速应用部署，教你 6 个小窍门",
     "description": "为了让用户的云端应用管理更高效、更方便，今天从6个方面分享一些溜到飞起的Docker镜像优化小窍门。往期回顾：你想知道的React组件设计模式这里都有(下)明确指定镜像版本，管理更...",
     "votes": "17",
@@ -148,36 +148,6 @@
     "avatarAlt": "小米云技术官方 - 独家号",
     "subjectName": "小米云技术官方",
     "homeUrl": "/subjects/359355"
-  },
-  {
-    "title": "什么是中台？所有的中台都是业务中台",
-    "description": "编者按：本文转载自网易副总裁，网易杭州研究院执行院长汪源的个人公众号“冷技术热思考”（欢迎搜索关注）。上周的云创峰会上，汪源承诺会写三篇文章，力求说清楚什么是中台，什么时候要考虑建...",
-    "votes": "17",
-    "url": "/k/enayeyq",
-    "avatar": "https://img.toutiao.io/subject%2F6d0e239b5f32447fbbe6d0443a49bc8e",
-    "avatarAlt": "网易云技术分享 - 独家号",
-    "subjectName": "网易云技术分享",
-    "homeUrl": "/subjects/199493"
-  },
-  {
-    "title": "被提拔成小主管后如何提升自己的管理能力？",
-    "description": "我是26岁当上数据总监的，当时完成了公司的数字化转型，帮助公司带来盈利。就被提拔上成为管理者了。我一下子从专注于自己的事的工程师到搭建团队还要管理团队的leader。说实话我是非常...",
-    "votes": "16",
-    "url": "/k/0vjcpub",
-    "avatar": "https://img.toutiao.io/subject%2F8e44d1a2390944c08c6170906cfc0856",
-    "avatarAlt": "跨端&全栈 - 独家号",
-    "subjectName": "跨端&全栈",
-    "homeUrl": "/subjects/7076"
-  },
-  {
-    "title": "API 参数如何验证？别纠结，拿去用就是",
-    "description": "【这是一猿小讲的第 40 篇原创分享】 关注“一猿小讲”公众号的小伙伴都清楚，在七夕虐狗的日子，我们结合以往的实战项目，重磅推出《七夕，带你生撸一个验证框架》，一起生撸了一个 AP...",
-    "votes": "15",
-    "url": "/k/xa59a5v",
-    "avatar": "https://img.toutiao.io/subject%2F7a8541a4f49c4075a72ed00df32301ec",
-    "avatarAlt": "一猿小讲 - 独家号",
-    "subjectName": "一猿小讲",
-    "homeUrl": "/subjects/413084"
   },
   {
     "title": "常见数据结构和 JavaScript 实现总结",
@@ -190,6 +160,16 @@
     "homeUrl": "/subjects/216955"
   },
   {
+    "title": "Java 函数优雅之道",
+    "description": "Photo @mariascrivan.com文 | 陈昌毅导读随着软件项目代码的日积月累，系统维护成本变得越来越高，是所有软件团队面临的共同问题。持续地优化代码，提高代码的质量，...",
+    "votes": "13",
+    "url": "/k/6d9h6kr",
+    "avatar": "https://img.toutiao.io/subject%2Fb1443881891444a687010de8dba4ffdf",
+    "avatarAlt": "码小生 - 独家号",
+    "subjectName": "码小生",
+    "homeUrl": "/subjects/97644"
+  },
+  {
     "title": "工作中常见的五种技术 leader",
     "description": "力不从心型在工作中有种技术leader，总认为自己是最好的。在方案设计的时候，自己有一种方案，下属有一种方案。leader非要别人听他的。如果两种方案没有优劣之分，比较建议的做法是...",
     "votes": "13",
@@ -198,5 +178,25 @@
     "avatarAlt": "编程一生 - 独家号",
     "subjectName": "编程一生",
     "homeUrl": "/subjects/350352"
+  },
+  {
+    "title": "为什么 DDD 是设计微服务的最佳实践",
+    "description": "在很多的微服务开发团队在设计和实现微服务的时候觉得只要把原来的单体拆小，就是微服务了。但是这不一定是正确的微服务，可能只是一个拆小的小单体。这篇文章让我们从这个话题继续，先看看为什...",
+    "votes": "13",
+    "url": "/k/wxfb1jq",
+    "avatar": "https://img.toutiao.io/subject%2Faeb7e9623f7e4cfa9193ce9a20d5fd7f",
+    "avatarAlt": "aoho求索 - 独家号",
+    "subjectName": "aoho求索",
+    "homeUrl": "/subjects/276256"
+  },
+  {
+    "title": "Spring Batch（八）：mongo 读写组件使用",
+    "description": "tags: springbatch mongodb1.引言之前对Spring Batch的通过实例的方式进行了介绍，有兴趣的可见以下文章：数据批处理神器-Spring Batch(...",
+    "votes": "12",
+    "url": "/k/cyx9j9y",
+    "avatar": "https://img.toutiao.io/subject%2F81bac1d8c81c4523a1037648a39d6ae3",
+    "avatarAlt": "masonlee的独家号 - 独家号",
+    "subjectName": "masonlee的独家号",
+    "homeUrl": "/subjects/24970"
   }
 ]
