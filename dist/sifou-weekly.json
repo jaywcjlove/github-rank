@@ -1,30 +1,39 @@
 [
   {
-    "title": "第十三集: 从零开始实现一套pc端vue的ui组件库( 评分组件 小星星 )",
-    "description": "说起评分的话, 最早看到这种形式是电影网站, 每部电影得到几颗星这种方式, 后来就出现了用户来手动选星星打分的玩法, 这些方式更直观, 更吸引用户参与进去, 这个组件其实还有很多玩法, 比加载动画, 我可以把星星...",
-    "url": "https://segmentfault.com/a/1190000020109085",
-    "author": "lulu_up",
-    "home_url": "https://segmentfault.com/u/lulu_up",
-    "votes": "5",
+    "title": "红黑树，超强动静图详解，简单易懂",
+    "description": "红黑树，对很多童鞋来说，是既熟悉又陌生。学校中学过，只了解大概；工作中不怎么使用，但面试又是重点。每次需要查看红黑树内容时都很难以更生动形象的方式来理解其内容。没错，本文内容就是要解决这个问题，用...",
+    "url": "https://segmentfault.com/a/1190000020118044",
+    "author": "日拱一兵",
+    "home_url": "https://segmentfault.com/u/tanrigongyibing",
+    "votes": "10",
     "rank": 1
   },
   {
-    "title": "为什么 ['1', '7', '11'].map(parseInt) 的结果是 [1, NaN, 3]？",
-    "description": "Javascript 总是以超自然的方式执行我们的代码，这是一件很神奇的事情，如果不信的话，思考一下 ['1', '7', '11'].map(parseInt) 的结果是什么？你以为会是 [1, 7, 11] 吗？我都这么问了，那肯定不是：",
-    "url": "https://segmentfault.com/a/1190000020108168",
-    "author": "大胡子民工潘半仙",
-    "home_url": "https://segmentfault.com/u/pantao",
-    "votes": "6",
+    "title": "使用 CSS Grid Generator来快速使用及学习 Grid 布局",
+    "description": "CSS Grid Generator是一个由Sarah Drasner创建的免费工具。它是一个可视化设计工具，允许咱们创建一个基本的 grid 布局，然后就可以使用生成对应的代码，帮助咱们快速布局。",
+    "url": "https://segmentfault.com/a/1190000020068283",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "13",
     "rank": 2
   },
   {
-    "title": "高级程序员与初级程序员差别在哪里？",
-    "description": "之前在公众号里有个读者给我留言： 请教个问题，公司高职级和初中级，都是写业务代码，那么高职级的价值在哪里呢？ 由于公众号回复留言的限制，当时我就简单的回复了如下的几个点： 初级多在写代码，高级多在设计...",
-    "url": "https://segmentfault.com/a/1190000020108905",
-    "author": "leexiaoran",
-    "home_url": "https://segmentfault.com/u/li1076629390",
-    "votes": "5",
+    "title": "想学Node.js，stream先有必要搞清楚",
+    "description": "流的英文stream，流（Stream）是一个抽象的数据接口，Node.js中很多对象都实现了流，流是EventEmitter对象的一个实例，总之它是会冒数据（以 Buffer 为单位），或者能够吸收数据的东西，它的本质就是让数据流动起...",
+    "url": "https://segmentfault.com/a/1190000020112581",
+    "author": "koala",
+    "home_url": "https://segmentfault.com/u/na_5a545653c24d9",
+    "votes": "13",
     "rank": 3
+  },
+  {
+    "title": "css3效果大集合（1）",
+    "description": "1、背景渐变色效果 {代码...} 2、三角形效果 {代码...} 3、圆环效果 {代码...} 4、div上下跳动 {代码...} 5、加载loading效果 {代码...} 文章链接",
+    "url": "https://segmentfault.com/a/1190000020113700",
+    "author": "老张的前端笔记",
+    "home_url": "https://segmentfault.com/u/laozhang97",
+    "votes": "7",
+    "rank": 4
   },
   {
     "title": "深入理解Node.js 进程与线程(8000长文彻底搞懂)",
@@ -32,8 +41,8 @@
     "url": "https://segmentfault.com/a/1190000020077274",
     "author": "koala",
     "home_url": "https://segmentfault.com/u/na_5a545653c24d9",
-    "votes": "96",
-    "rank": 4
+    "votes": "102",
+    "rank": 5
   },
   {
     "title": "56 道高频 JavaScript 与 ES6+ 的面试题及答案",
@@ -41,8 +50,26 @@
     "url": "https://segmentfault.com/a/1190000020082089",
     "author": "夜尽天明",
     "home_url": "https://segmentfault.com/u/biaochenxuying",
-    "votes": "59",
-    "rank": 5
+    "votes": "70",
+    "rank": 6
+  },
+  {
+    "title": "删库不跑路-详解MySQL数据恢复",
+    "description": "日常工作中，总会有因手抖、写错条件、写错表名、错连生产库造成的误删库表和数据的事情发生，那么，如果连数据都恢复不了，还要什么 DBA。",
+    "url": "https://segmentfault.com/a/1190000020116271",
+    "author": "程淇铭",
+    "home_url": "https://segmentfault.com/u/echoqmc",
+    "votes": "3",
+    "rank": 7
+  },
+  {
+    "title": "微信小程序使用车牌号输入法",
+    "description": "在做小程序时，做了一个关于车的项目，然后需要添加车辆信息、添加车牌号，使用车牌键盘输入，当时我把这个需求给砍了，然后在添加车辆信息时，老大看到数据库里我乱填的车牌号，又让我把他加上了^o^",
+    "url": "https://segmentfault.com/a/1190000020117239",
+    "author": "ZJW0215",
+    "home_url": "https://segmentfault.com/u/zjw0215",
+    "votes": "4",
+    "rank": 8
   },
   {
     "title": "Vue项目优化",
@@ -50,26 +77,35 @@
     "url": "https://segmentfault.com/a/1190000020085952",
     "author": "易小星",
     "home_url": "https://segmentfault.com/u/guanxiaobo",
-    "votes": "46",
-    "rank": 6
+    "votes": "61",
+    "rank": 9
   },
   {
-    "title": "前端开发变量命名系列 - JavaScript篇",
-    "description": "JavaScript作为前端开发从业人员必须掌握的3大基础知识中最重要的一环，也是平是接触时间最长、写得最多的。在开发过程中必然会遇到命名的问题，你会词穷、纠结、惆怅吗？本文的出现相信能够解决大部分烦恼，让你...",
-    "url": "https://segmentfault.com/a/1190000020039039",
-    "author": "jenemy",
-    "home_url": "https://segmentfault.com/u/jenemy",
-    "votes": "122",
-    "rank": 7
+    "title": "高级程序员与初级程序员差别在哪里？",
+    "description": "之前在公众号里有个读者给我留言： 请教个问题，公司高职级和初中级，都是写业务代码，那么高职级的价值在哪里呢？ 由于公众号回复留言的限制，当时我就简单的回复了如下的几个点： 初级多在写代码，高级多在设计...",
+    "url": "https://segmentfault.com/a/1190000020108905",
+    "author": "leexiaoran",
+    "home_url": "https://segmentfault.com/u/li1076629390",
+    "votes": "20",
+    "rank": 10
   },
   {
-    "title": "前端20个真正灵魂拷问，吃透这些你就是中级前端工程师 【上篇】",
-    "description": "网上参差不弃的面试题，本文由浅入深，让你在做面试官的时候，能够辨别出面试者是不是真的有点东西，也能让你去面试中级前端工程师更有底气。但是切记把背诵面试题当成了你的唯一求职方向",
-    "url": "https://segmentfault.com/a/1190000020062444",
-    "author": "Peter谭金杰",
-    "home_url": "https://segmentfault.com/u/jerrytanjinjie",
-    "votes": "98",
-    "rank": 8
+    "title": "为什么 ['1', '7', '11'].map(parseInt) 的结果是 [1, NaN, 3]？",
+    "description": "Javascript 总是以超自然的方式执行我们的代码，这是一件很神奇的事情，如果不信的话，思考一下 ['1', '7', '11'].map(parseInt) 的结果是什么？你以为会是 [1, 7, 11] 吗？我都这么问了，那肯定不是：",
+    "url": "https://segmentfault.com/a/1190000020108168",
+    "author": "大胡子民工潘半仙",
+    "home_url": "https://segmentfault.com/u/pantao",
+    "votes": "19",
+    "rank": 11
+  },
+  {
+    "title": "8 道高频出现的 Vue 面试题及答案",
+    "description": "前言 本文讲解 8 道高频出现的 Vue 面试题及答案。 复习前端面试的知识，是为了巩固前端的基础知识，最重要的还是平时的积累！ 注意：文章的题与题之间用下划线分隔开，答案仅供参考。 前端硬核面试专题的完整版...",
+    "url": "https://segmentfault.com/a/1190000020097187",
+    "author": "夜尽天明",
+    "home_url": "https://segmentfault.com/u/biaochenxuying",
+    "votes": "32",
+    "rank": 12
   },
   {
     "title": "前端十大经典算法",
@@ -77,17 +113,26 @@
     "url": "https://segmentfault.com/a/1190000020072884",
     "author": "浅夏晴空",
     "home_url": "https://segmentfault.com/u/qianxiaqingkong",
-    "votes": "60",
-    "rank": 9
+    "votes": "71",
+    "rank": 13
   },
   {
-    "title": "提高效率的 10 个 Git 小技巧",
-    "description": "你是否有过破坏了某个文件，想要重新开始？或者需要的文件在另一个分支中？下面的命令让你直接从某个分支取到那个文件。",
-    "url": "https://segmentfault.com/a/1190000020099456",
-    "author": "savokiss",
-    "home_url": "https://segmentfault.com/u/savokiss",
-    "votes": "18",
-    "rank": 10
+    "title": "JavaScript 的一些常用设计模式",
+    "description": "设计模式是前人解决某个特定场景下对而总结出来的一些解决方案。可能刚开始接触编程还没有什么经验的时候，会感觉设计模式没那么好理解，这个也很正常。有些简单的设计模式我们有时候用到，不过没意识到也是存在的。",
+    "url": "https://segmentfault.com/a/1190000020115722",
+    "author": "xianshannan",
+    "home_url": "https://segmentfault.com/u/nanges",
+    "votes": "3",
+    "rank": 14
+  },
+  {
+    "title": "前端20个真正灵魂拷问，吃透这些你就是中级前端工程师 【上篇】",
+    "description": "网上参差不弃的面试题，本文由浅入深，让你在做面试官的时候，能够辨别出面试者是不是真的有点东西，也能让你去面试中级前端工程师更有底气。但是切记把背诵面试题当成了你的唯一求职方向",
+    "url": "https://segmentfault.com/a/1190000020062444",
+    "author": "Peter谭金杰",
+    "home_url": "https://segmentfault.com/u/jerrytanjinjie",
+    "votes": "99",
+    "rank": 15
   },
   {
     "title": "HTTP缓存和浏览器的本地存储",
@@ -95,8 +140,8 @@
     "url": "https://segmentfault.com/a/1190000020086923",
     "author": "搁浅",
     "home_url": "https://segmentfault.com/u/geqian_5c24ba8b4aa9e",
-    "votes": "37",
-    "rank": 11
+    "votes": "43",
+    "rank": 16
   },
   {
     "title": "vue中8种组件通信方式, 值得收藏!",
@@ -104,8 +149,26 @@
     "url": "https://segmentfault.com/a/1190000020053344",
     "author": "koala",
     "home_url": "https://segmentfault.com/u/na_5a545653c24d9",
-    "votes": "82",
-    "rank": 12
+    "votes": "85",
+    "rank": 17
+  },
+  {
+    "title": "ReactNative分布式热更新系统",
+    "description": "热更新是一个非常方便的方案。在应对大量用户和深度定制的时候一定不能使用开源的方案。一般第三方的这种方案，服务器带宽较小，或者不够灵活，不能满足自己的想法。这里推荐自己实现对应的热更新方案。只需要少...",
+    "url": "https://segmentfault.com/a/1190000020114577",
+    "author": "疯狂紫萧",
+    "home_url": "https://segmentfault.com/u/fengkuangzixiao",
+    "votes": "3",
+    "rank": 18
+  },
+  {
+    "title": "提高效率的 10 个 Git 小技巧",
+    "description": "你是否有过破坏了某个文件，想要重新开始？或者需要的文件在另一个分支中？下面的命令让你直接从某个分支取到那个文件。",
+    "url": "https://segmentfault.com/a/1190000020099456",
+    "author": "savokiss",
+    "home_url": "https://segmentfault.com/u/savokiss",
+    "votes": "20",
+    "rank": 19
   },
   {
     "title": "【Cute-Webpack】Webpack4 入门手册（共 18 章）",
@@ -113,35 +176,8 @@
     "url": "https://segmentfault.com/a/1190000020063707",
     "author": "pingan8787",
     "home_url": "https://segmentfault.com/u/pingan8787",
-    "votes": "54",
-    "rank": 13
-  },
-  {
-    "title": "21个让React 开发更高效更有趣的工具",
-    "description": "为了保证的可读性，本文采用意译而非直译。 想阅读更多优质文章请猛戳GitHub博客,一年百来篇优质文章等着你！ 下列工具中的重要性与排序无关。 1.Webpack Bundle Analyzer 有没有想过你的应用程序的哪些包或哪部...",
-    "url": "https://segmentfault.com/a/1190000020038593",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "83",
-    "rank": 14
-  },
-  {
-    "title": "谈谈Web应用中的图片优化技巧及反思",
-    "description": "对于大多数前端工程师来说，图片就是UI设计师(或者自己)切好的图，你要做的只是把图片丢进项目中，然后用以链接的方式呈现在页面上，而且我们也经常把精力放在项目的打包优化构建上，如何分包，如何抽取第三方库....",
-    "url": "https://segmentfault.com/a/1190000020047949",
-    "author": "fecoder",
-    "home_url": "https://segmentfault.com/u/fecoder2019",
-    "votes": "42",
-    "rank": 15
-  },
-  {
-    "title": "动态规划练习题-合唱队形",
-    "description": "题目描述 N位同学站成一排，音乐老师要请其中的(N-K)位同学出列，使得剩下的K位同学不交换位置就能排成合唱队形。",
-    "url": "https://segmentfault.com/a/1190000020109364",
-    "author": "小利子",
-    "home_url": "https://segmentfault.com/u/xiaolizi_5930d3efdcf80",
-    "votes": "1",
-    "rank": 16
+    "votes": "56",
+    "rank": 20
   },
   {
     "title": "这些常用的H5代码你知道吗",
@@ -149,8 +185,35 @@
     "url": "https://segmentfault.com/a/1190000020057408",
     "author": "老张的前端笔记",
     "home_url": "https://segmentfault.com/u/laozhang97",
-    "votes": "44",
-    "rank": 17
+    "votes": "48",
+    "rank": 21
+  },
+  {
+    "title": "百度APP-Android H5首屏优化实践",
+    "description": "百度App自2016年上半年尝试Feed流业务形态，至2017年下半年，历经10个版本的迭代，基本完成了产品形态的初步探索。在整个Feed流形态的闭环中，新闻详情页（文中称为落地页）作为重要的组成部分，如果打开页面后，...",
+    "url": "https://segmentfault.com/a/1190000020102343",
+    "author": "百度App技术",
+    "home_url": "https://segmentfault.com/u/baiduappjishu",
+    "votes": "11",
+    "rank": 22
+  },
+  {
+    "title": "第十三集: 从零开始实现一套pc端vue的ui组件库( 评分组件 小星星 )",
+    "description": "说起评分的话, 最早看到这种形式是电影网站, 每部电影得到几颗星这种方式, 后来就出现了用户来手动选星星打分的玩法, 这些方式更直观, 更吸引用户参与进去, 这个组件其实还有很多玩法, 比加载动画, 我可以把星星...",
+    "url": "https://segmentfault.com/a/1190000020109085",
+    "author": "lulu_up",
+    "home_url": "https://segmentfault.com/u/lulu_up",
+    "votes": "10",
+    "rank": 23
+  },
+  {
+    "title": "Spring Cloud与Dubbo的完美融合之手「Spring Cloud Alibaba」",
+    "description": "很早以前，在刚开始搞Spring Cloud基础教程的时候，写过这样一篇文章：《微服务架构的基础框架选择：Spring Cloud还是Dubbo？》，可能不少读者也都看过。之后也就一直有关于这两个框架怎么选的问题出来，其实文中...",
+    "url": "https://segmentfault.com/a/1190000020113213",
+    "author": "程序猿DD",
+    "home_url": "https://segmentfault.com/u/coderdd",
+    "votes": "2",
+    "rank": 24
   },
   {
     "title": "JS原型那些事儿",
@@ -158,8 +221,8 @@
     "url": "https://segmentfault.com/a/1190000020097614",
     "author": "appleguardu",
     "home_url": "https://segmentfault.com/u/appleguardu",
-    "votes": "13",
-    "rank": 18
+    "votes": "17",
+    "rank": 25
   },
   {
     "title": "50个必须要会的微服务面试题",
@@ -167,26 +230,8 @@
     "url": "https://segmentfault.com/a/1190000020092884",
     "author": "疯狂的技术宅",
     "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "16",
-    "rank": 19
-  },
-  {
-    "title": "深入理解Go-垃圾回收机制",
-    "description": "Go的GC自打出生的时候就开始被人诟病，但是在引入v1.5的三色标记和v1.8的混合写屏障后，正常的GC已经缩短到10us左右，已经变得非常优秀，了不起了，我们接下来探索一下Go的GC的原理吧",
-    "url": "https://segmentfault.com/a/1190000020086769",
-    "author": "tyloafer",
-    "home_url": "https://segmentfault.com/u/tyloafer",
-    "votes": "18",
-    "rank": 20
-  },
-  {
-    "title": "使用 Flutter for web 构建了 100+ Widget 实时预览示例。",
-    "description": "使用 Flutter 开发已经接近一年时间了，但是在学习 Flutter 一些 Widget 的时候不能像前端那样有能直接在网站上实时看到效果，每次接触到一个新的 Widget 时都需要花费不少时间才能看到效果，所以我基于 Flutter ...",
-    "url": "https://segmentfault.com/a/1190000020108395",
-    "author": "lijy91",
-    "home_url": "https://segmentfault.com/u/lijy91",
-    "votes": "1",
-    "rank": 21
+    "votes": "19",
+    "rank": 26
   },
   {
     "title": "【译】使用 MongoDB，React，Node 和 Express（MERN）构建一个全栈应用",
@@ -194,8 +239,17 @@
     "url": "https://segmentfault.com/a/1190000020086440",
     "author": "joking_zhang",
     "home_url": "https://segmentfault.com/u/joking_zhang",
-    "votes": "22",
-    "rank": 22
+    "votes": "26",
+    "rank": 27
+  },
+  {
+    "title": "深入理解Go-垃圾回收机制",
+    "description": "Go的GC自打出生的时候就开始被人诟病，但是在引入v1.5的三色标记和v1.8的混合写屏障后，正常的GC已经缩短到10us左右，已经变得非常优秀，了不起了，我们接下来探索一下Go的GC的原理吧",
+    "url": "https://segmentfault.com/a/1190000020086769",
+    "author": "tyloafer",
+    "home_url": "https://segmentfault.com/u/tyloafer",
+    "votes": "19",
+    "rank": 28
   },
   {
     "title": "你可能不知道的LocalStorage用法",
@@ -203,70 +257,16 @@
     "url": "https://segmentfault.com/a/1190000020061167",
     "author": "CoyPan",
     "home_url": "https://segmentfault.com/u/coypan",
-    "votes": "34",
-    "rank": 23
-  },
-  {
-    "title": "阿里高级技术专家方法论：如何写复杂业务代码？",
-    "description": "阿里妹导读：张建飞是阿里巴巴高级技术专家，一直在致力于应用架构和代码复杂度的治理。最近，他在看零售通商品域的代码。面对零售通如此复杂的业务场景，如何在架构和代码层面进行应对，是一个新课题。结合实际...",
-    "url": "https://segmentfault.com/a/1190000020072990",
-    "author": "阿里云云栖社区",
-    "home_url": "https://segmentfault.com/u/yunqishequ_5aa899aad5395",
-    "votes": "26",
-    "rank": 24
-  },
-  {
-    "title": "虚拟Dom详解 - (二)",
-    "description": "第一篇文章中主要讲解了虚拟DOM基本实现，简单的回顾一下，虚拟DOM是使用json数据描述的一段虚拟Node节点树，通过render函数生成其真实DOM节点。并添加到其对应的元素容器中。在创建真实DOM节点的同时并为其注册...",
-    "url": "https://segmentfault.com/a/1190000020067208",
-    "author": "Aaron",
-    "home_url": "https://segmentfault.com/u/aaron_59f5c5ee0c93f",
-    "votes": "21",
-    "rank": 25
-  },
-  {
-    "title": "50行javaScript代码实现简单版的 call , apply ,bind   【中级前端面试基础必备】",
-    "description": "其实 this 的指向，始终坚持一个原理：this 永远指向最后调用它的那个对象,这就是精髓。最关键所在",
-    "url": "https://segmentfault.com/a/1190000020044435",
-    "author": "Peter谭金杰",
-    "home_url": "https://segmentfault.com/u/jerrytanjinjie",
-    "votes": "38",
-    "rank": 26
-  },
-  {
-    "title": "从输入URL到页面可交互的过程探究之一：从服务端到客户端",
-    "description": "最近发现国外有一个系列，专门探究从输入URL到页面可交互的详细过程，是一份干货十足的好资料。笔者决定分为四篇文章对其进行有删减地翻译，只希望能对大家有所帮助，毕竟这是前端必备的知识点，也是容易忽略掉某...",
-    "url": "https://segmentfault.com/a/1190000020076547",
-    "author": "fecoder",
-    "home_url": "https://segmentfault.com/u/fecoder2019",
-    "votes": "13",
-    "rank": 27
-  },
-  {
-    "title": "react知识点整理50问（未完待续）",
-    "description": "react会将传入的参数对象和组件的当前状态合并，根据新的状态构建新的react元素树，计算react新树和老树的差异，根据差异最小化对界面进行最小化渲染",
-    "url": "https://segmentfault.com/a/1190000020055666",
-    "author": "哈哈哈我只是想笑",
-    "home_url": "https://segmentfault.com/u/hahahawozhishixiangxiao",
-    "votes": "24",
-    "rank": 28
-  },
-  {
-    "title": "小哥哥小姐姐看过来，这里有个组件库需要您签收一下",
-    "description": "一直以来都想做个组件库，一方面是对工作中常遇问题的总结，另一方面也确实能够提升工作效率（谁又不想造一个属于自己的轮子呢~），于是乎就有了本文的主角儿rn-components-kit。",
-    "url": "https://segmentfault.com/a/1190000020069458",
-    "author": "小石头若海",
-    "home_url": "https://segmentfault.com/u/xiaoshitouruohai",
-    "votes": "20",
+    "votes": "37",
     "rank": 29
   },
   {
-    "title": "Jquery+AJAX上传文件，无刷新上传并重命名文件",
-    "description": "前端 index.html {代码...} 服务端 dooo.php {代码...} 文件目录 记得自己手动建立一个upload的文件夹用于存放上传的文件。 作者：TANKING网站：[链接]",
-    "url": "https://segmentfault.com/a/1190000020088339",
-    "author": "TANKING",
-    "home_url": "https://segmentfault.com/u/tanking",
-    "votes": "9",
+    "title": "树莓派（3B+）安装centos踩坑记录",
+    "description": "最近一直在思考学习点什么东西，感觉很久不太动脑子了，有些生锈。大概是上周吧，回顾了一下这几年来的事情，大家讨论得最多的就是高并发、事务、分布式、集群、微服务、负载均衡等东西，我突发奇想，既然以我的...",
+    "url": "https://segmentfault.com/a/1190000020106067",
+    "author": "kumfo",
+    "home_url": "https://segmentfault.com/u/kumfo",
+    "votes": "5",
     "rank": 30
   }
 ]
