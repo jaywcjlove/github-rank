@@ -5,17 +5,26 @@
     "url": "https://segmentfault.com/a/1190000020122791",
     "author": "ConardLi",
     "home_url": "https://segmentfault.com/u/conardli",
-    "votes": "42",
+    "votes": "76",
     "rank": 1
   },
   {
-    "title": "javascript中为什么我们不能直接使用export?",
-    "description": "相信很多人最开始时都有过这样的疑问假如我的项目目录下有一个 index.html, index.js 于是我像这样写",
-    "url": "https://segmentfault.com/a/1190000020123242",
-    "author": "Yxaw",
-    "home_url": "https://segmentfault.com/u/yxaw",
-    "votes": "22",
+    "title": "前端20个灵魂拷问 彻底搞明白你就是中级前端工程师 【中篇】",
+    "description": "前端20个灵魂拷问，彻底搞明白你就是中级前端工程师 上篇 感觉大家比较喜欢看这种类型的文章，以后会多一些。 欢迎加入我们的前端交流二群 目前一群人数有点多 所以开放了二群 ～ 欢迎加入 里面很多小姐姐哦～～...",
+    "url": "https://segmentfault.com/a/1190000020144498",
+    "author": "Peter谭金杰",
+    "home_url": "https://segmentfault.com/u/jerrytanjinjie",
+    "votes": "41",
     "rank": 2
+  },
+  {
+    "title": "十年铲码，八大体系超千篇数百万字技术笔记系列汇总（GitBook 悦享版）",
+    "description": "十年铲码两茫茫，纵思量，却易忘；不觉笔者步入程序员已有十年。十年里一直浮沉沉沉沉，愈深入，愈觉得世界之大，宇宙浩瀚。十年之期，正巧笔者从阿里离开，重回 3D 打印制造业的怀抱，希望能依托于设备优势逐步...",
+    "url": "https://segmentfault.com/a/1190000020151968",
+    "author": "王下邀月熊_Chevalier",
+    "home_url": "https://segmentfault.com/u/wx_chevalier",
+    "votes": "10",
+    "rank": 3
   },
   {
     "title": "深入理解Node.js 进程与线程(8000长文彻底搞懂)",
@@ -23,8 +32,8 @@
     "url": "https://segmentfault.com/a/1190000020077274",
     "author": "koala",
     "home_url": "https://segmentfault.com/u/na_5a545653c24d9",
-    "votes": "126",
-    "rank": 3
+    "votes": "135",
+    "rank": 4
   },
   {
     "title": "56 道高频 JavaScript 与 ES6+ 的面试题及答案",
@@ -32,89 +41,8 @@
     "url": "https://segmentfault.com/a/1190000020082089",
     "author": "夜尽天明",
     "home_url": "https://segmentfault.com/u/biaochenxuying",
-    "votes": "102",
-    "rank": 4
-  },
-  {
-    "title": "前端开发变量命名系列 - JavaScript篇",
-    "description": "JavaScript作为前端开发从业人员必须掌握的3大基础知识中最重要的一环，也是平是接触时间最长、写得最多的。在开发过程中必然会遇到命名的问题，你会词穷、纠结、惆怅吗？本文的出现相信能够解决大部分烦恼，让你...",
-    "url": "https://segmentfault.com/a/1190000020039039",
-    "author": "jenemy",
-    "home_url": "https://segmentfault.com/u/jenemy",
-    "votes": "136",
-    "rank": 5
-  },
-  {
-    "title": "你必须懂的前端性能优化",
-    "description": "接下来是 TCP 握手，应用层会下发数据给传输层，这里 TCP 协议会指明两端的端口号，然后下发给网络层。网络层中的 IP 协议会确定 IP 地址，并且指示了数据传输中如何跳转路由器。然后包会再被封装到数据链路层的...",
-    "url": "https://segmentfault.com/a/1190000019897234",
-    "author": "张炳",
-    "home_url": "https://segmentfault.com/u/markbzhang",
-    "votes": "210",
-    "rank": 6
-  },
-  {
-    "title": "前端十大经典算法",
-    "description": "非线性时间比较类排序：通过比较来决定元素间的相对次序，由于其时间复杂度不能突破O(nlogn)，因此称为非线性时间比较类排序。线性时间非比较类排序：不通过比较来决定元素间的相对次序，它可以突破基于比较排序...",
-    "url": "https://segmentfault.com/a/1190000020072884",
-    "author": "浅夏晴空",
-    "home_url": "https://segmentfault.com/u/qianxiaqingkong",
-    "votes": "96",
-    "rank": 7
-  },
-  {
-    "title": "红黑树，超强动静图详解，简单易懂",
-    "description": "红黑树，对很多童鞋来说，是既熟悉又陌生。学校中学过，只了解大概；工作中不怎么使用，但面试又是重点。每次需要查看红黑树内容时都很难以更生动形象的方式来理解其内容。没错，本文内容就是要解决这个问题，用...",
-    "url": "https://segmentfault.com/a/1190000020118044",
-    "author": "日拱一兵",
-    "home_url": "https://segmentfault.com/u/tanrigongyibing",
-    "votes": "34",
-    "rank": 8
-  },
-  {
-    "title": "Vue项目优化",
-    "description": "在日常的Vue项目开发中，随着业务的日渐复杂，代码量的日益增加，随之带来的问题就是打包后的vendor.js体积过大，导致加载时空白页时间过长，给用户的体验太差。为此我们需要减少vendor.js的体积，从本质上来解决...",
-    "url": "https://segmentfault.com/a/1190000020085952",
-    "author": "易小星",
-    "home_url": "https://segmentfault.com/u/guanxiaobo",
-    "votes": "73",
-    "rank": 9
-  },
-  {
-    "title": "面试被问到Vue?想进一步提升?那就停下来看一下吧",
-    "description": "Vue作为最近最炙手可热的前端框架，其简单的入门方式和功能强大的API是其优点。而同时因为其API的多样性和丰富性，所以他的很多开发方式就和一切基于组件的React不同，如果没有对Vue的API（有一些甚至文档都没提...",
-    "url": "https://segmentfault.com/a/1190000020131403",
-    "author": "Yxaw",
-    "home_url": "https://segmentfault.com/u/yxaw",
-    "votes": "10",
-    "rank": 10
-  },
-  {
-    "title": "为什么 ['1', '7', '11'].map(parseInt) 的结果是 [1, NaN, 3]？",
-    "description": "Javascript 总是以超自然的方式执行我们的代码，这是一件很神奇的事情，如果不信的话，思考一下 ['1', '7', '11'].map(parseInt) 的结果是什么？你以为会是 [1, 7, 11] 吗？我都这么问了，那肯定不是：",
-    "url": "https://segmentfault.com/a/1190000020108168",
-    "author": "大胡子民工潘半仙",
-    "home_url": "https://segmentfault.com/u/pantao",
-    "votes": "26",
-    "rank": 11
-  },
-  {
-    "title": "前端最强面经汇总",
-    "description": "花了很长时间整理的前端面试资源，喜欢请大家不要吝啬star~ 别只收藏，点个赞，点个star再走哈~ 持续更新中……，可以关注下github 项目地址 [链接] 求star!!!求star!!!求star!!! 面试秘籍 中高级前端大厂面试秘籍...",
-    "url": "https://segmentfault.com/a/1190000020028294",
-    "author": "aoping",
-    "home_url": "https://segmentfault.com/u/aoping",
     "votes": "116",
-    "rank": 12
-  },
-  {
-    "title": "8道经典JavaScript面试题解析，你真的掌握JavaScript了吗？",
-    "description": "JavaScript是前端开发中非常重要的一门语言，浏览器是他主要运行的地方。JavaScript是一个非常有意思的语言，但是他有很多一些概念，大家经常都会忽略。比如说，原型，闭包，原型链，事件循环等等这些概念，很多J...",
-    "url": "https://segmentfault.com/a/1190000020026378",
-    "author": "WEB开发阿靖",
-    "home_url": "https://segmentfault.com/u/webkaifalijiajing",
-    "votes": "132",
-    "rank": 13
+    "rank": 5
   },
   {
     "title": "前端20个真正灵魂拷问，吃透这些你就是中级前端工程师 【上篇】",
@@ -122,8 +50,107 @@
     "url": "https://segmentfault.com/a/1190000020062444",
     "author": "Peter谭金杰",
     "home_url": "https://segmentfault.com/u/jerrytanjinjie",
-    "votes": "102",
+    "votes": "111",
+    "rank": 6
+  },
+  {
+    "title": "前端开发变量命名系列 - JavaScript篇",
+    "description": "JavaScript作为前端开发从业人员必须掌握的3大基础知识中最重要的一环，也是平是接触时间最长、写得最多的。在开发过程中必然会遇到命名的问题，你会词穷、纠结、惆怅吗？本文的出现相信能够解决大部分烦恼，让你...",
+    "url": "https://segmentfault.com/a/1190000020039039",
+    "author": "jenemy",
+    "home_url": "https://segmentfault.com/u/jenemy",
+    "votes": "143",
+    "rank": 7
+  },
+  {
+    "title": "你必须懂的前端性能优化",
+    "description": "接下来是 TCP 握手，应用层会下发数据给传输层，这里 TCP 协议会指明两端的端口号，然后下发给网络层。网络层中的 IP 协议会确定 IP 地址，并且指示了数据传输中如何跳转路由器。然后包会再被封装到数据链路层的...",
+    "url": "https://segmentfault.com/a/1190000019897234",
+    "author": "张炳",
+    "home_url": "https://segmentfault.com/u/markbzhang",
+    "votes": "211",
+    "rank": 8
+  },
+  {
+    "title": "JS 在获取当前月的最后一天遇到的坑",
+    "description": "为了更好的讲这节的内容，提示一个 JS 处理日期的小技巧，想获取上个月最后一天，只需要设置SetDate参数为0即可。",
+    "url": "https://segmentfault.com/a/1190000020144642",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "14",
+    "rank": 9
+  },
+  {
+    "title": "聊聊鉴权那些事",
+    "description": "在系统级项目开发时常常会遇到一个问题就是鉴权，身为一个前端来说可能我们距离鉴权可能比较远，一般来说我们也只是去应用，并没有对权限这一部分进行深入的理解。",
+    "url": "https://segmentfault.com/a/1190000020146855",
+    "author": "Aaron",
+    "home_url": "https://segmentfault.com/u/aaron_59f5c5ee0c93f",
+    "votes": "16",
+    "rank": 10
+  },
+  {
+    "title": "面试被问到Vue?想进一步提升?那就停下来看一下吧",
+    "description": "Vue作为最近最炙手可热的前端框架，其简单的入门方式和功能强大的API是其优点。而同时因为其API的多样性和丰富性，所以他的很多开发方式就和一切基于组件的React不同，如果没有对Vue的API（有一些甚至文档都没提...",
+    "url": "https://segmentfault.com/a/1190000020131403",
+    "author": "Yxaw",
+    "home_url": "https://segmentfault.com/u/yxaw",
+    "votes": "36",
+    "rank": 11
+  },
+  {
+    "title": "前端十大经典算法",
+    "description": "非线性时间比较类排序：通过比较来决定元素间的相对次序，由于其时间复杂度不能突破O(nlogn)，因此称为非线性时间比较类排序。线性时间非比较类排序：不通过比较来决定元素间的相对次序，它可以突破基于比较排序...",
+    "url": "https://segmentfault.com/a/1190000020072884",
+    "author": "浅夏晴空",
+    "home_url": "https://segmentfault.com/u/qianxiaqingkong",
+    "votes": "115",
+    "rank": 12
+  },
+  {
+    "title": "红黑树，超强动静图详解，简单易懂",
+    "description": "红黑树，对很多童鞋来说，是既熟悉又陌生。学校中学过，只了解大概；工作中不怎么使用，但面试又是重点。每次需要查看红黑树内容时都很难以更生动形象的方式来理解其内容。没错，本文内容就是要解决这个问题，用...",
+    "url": "https://segmentfault.com/a/1190000020118044",
+    "author": "日拱一兵",
+    "home_url": "https://segmentfault.com/u/tanrigongyibing",
+    "votes": "51",
+    "rank": 13
+  },
+  {
+    "title": "为何我建议1-3年的Java程序员仔细看看这篇文章",
+    "description": "此文的目的是为了督促自己去不断学习，让自己有更明确的方向去提升自己。以技能树为基础，以面试要点为大纲，我觉得比抓住什么看什么要更有目的，更能坚持下去。世界瞬息万变，我们要时刻准备着、时刻提高着自己...",
+    "url": "https://segmentfault.com/a/1190000020140435",
+    "author": "茶轴的青春",
+    "home_url": "https://segmentfault.com/u/chazhoudeqingchun",
+    "votes": "30",
     "rank": 14
+  },
+  {
+    "title": "Vue项目优化",
+    "description": "在日常的Vue项目开发中，随着业务的日渐复杂，代码量的日益增加，随之带来的问题就是打包后的vendor.js体积过大，导致加载时空白页时间过长，给用户的体验太差。为此我们需要减少vendor.js的体积，从本质上来解决...",
+    "url": "https://segmentfault.com/a/1190000020085952",
+    "author": "易小星",
+    "home_url": "https://segmentfault.com/u/guanxiaobo",
+    "votes": "83",
+    "rank": 15
+  },
+  {
+    "title": "来一个老生常谈的话题，Javascript 中，数组如何去重？",
+    "description": "关于如何去除一个给定数组中的重复项，应该是 Javascript 面试中最常见的一个问题了，最常见的方式有三种：Set、Array.prototype.filter 以及 Array.prototype.reduce，对于只有简单数据的数组来讲，我最喜欢 Set...",
+    "url": "https://segmentfault.com/a/1190000020152792",
+    "author": "大胡子民工潘半仙",
+    "home_url": "https://segmentfault.com/u/pantao",
+    "votes": "8",
+    "rank": 16
+  },
+  {
+    "title": "前端最强面经汇总",
+    "description": "花了很长时间整理的前端面试资源，喜欢请大家不要吝啬star~ 别只收藏，点个赞，点个star再走哈~ 持续更新中……，可以关注下github 项目地址 [链接] 求star!!!求star!!!求star!!! 面试秘籍 中高级前端大厂面试秘籍...",
+    "url": "https://segmentfault.com/a/1190000020028294",
+    "author": "aoping",
+    "home_url": "https://segmentfault.com/u/aoping",
+    "votes": "119",
+    "rank": 17
   },
   {
     "title": "vue中8种组件通信方式, 值得收藏!",
@@ -131,17 +158,35 @@
     "url": "https://segmentfault.com/a/1190000020053344",
     "author": "koala",
     "home_url": "https://segmentfault.com/u/na_5a545653c24d9",
-    "votes": "99",
-    "rank": 15
+    "votes": "111",
+    "rank": 18
   },
   {
-    "title": "HTTP缓存和浏览器的本地存储",
-    "description": "http请求做为影响前端性能极为重要的一环，因为请求受网络影响很大，如果网络很慢的情况下,页面很可能会空白很久。对于首次进入网站的用户可能要通过优化接口性能和接口数量来解决。但是，对于重复进入页面的用户...",
-    "url": "https://segmentfault.com/a/1190000020086923",
-    "author": "搁浅",
-    "home_url": "https://segmentfault.com/u/geqian_5c24ba8b4aa9e",
-    "votes": "54",
-    "rank": 16
+    "title": "Web 应用的撤销重做实现",
+    "description": "这个制作间页面有着类似 PPT 的交互：从左侧的工具栏中选择元素放入中间的画布、在画布中可以删除、操作（拖动、缩放、旋转等）这些元素。",
+    "url": "https://segmentfault.com/a/1190000020154153",
+    "author": "云音乐前端团队",
+    "home_url": "https://segmentfault.com/u/musicfe",
+    "votes": "3",
+    "rank": 19
+  },
+  {
+    "title": "8道经典JavaScript面试题解析，你真的掌握JavaScript了吗？",
+    "description": "JavaScript是前端开发中非常重要的一门语言，浏览器是他主要运行的地方。JavaScript是一个非常有意思的语言，但是他有很多一些概念，大家经常都会忽略。比如说，原型，闭包，原型链，事件循环等等这些概念，很多J...",
+    "url": "https://segmentfault.com/a/1190000020026378",
+    "author": "WEB开发阿靖",
+    "home_url": "https://segmentfault.com/u/webkaifalijiajing",
+    "votes": "133",
+    "rank": 20
+  },
+  {
+    "title": "javascript中为什么我们不能直接使用export?",
+    "description": "相信很多人最开始时都有过这样的疑问假如我的项目目录下有一个 index.html, index.js 于是我像这样写",
+    "url": "https://segmentfault.com/a/1190000020123242",
+    "author": "Yxaw",
+    "home_url": "https://segmentfault.com/u/yxaw",
+    "votes": "26",
+    "rank": 21
   },
   {
     "title": "21个让React 开发更高效更有趣的工具",
@@ -149,8 +194,26 @@
     "url": "https://segmentfault.com/a/1190000020038593",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "85",
-    "rank": 17
+    "votes": "87",
+    "rank": 22
+  },
+  {
+    "title": "可靠React组件设计的7个准则之终篇",
+    "description": "本篇文章重点阐述 <font style='color:red;font-weight:bold;'>可测试和富有意义</font>。因水平有限，文中部分翻译可能不够准确，如果你有更好的想法，欢迎在评论区指出。",
+    "url": "https://segmentfault.com/a/1190000020151015",
+    "author": "刘小夕",
+    "home_url": "https://segmentfault.com/u/liuyan666",
+    "votes": "3",
+    "rank": 23
+  },
+  {
+    "title": "HTTP缓存和浏览器的本地存储",
+    "description": "http请求做为影响前端性能极为重要的一环，因为请求受网络影响很大，如果网络很慢的情况下,页面很可能会空白很久。对于首次进入网站的用户可能要通过优化接口性能和接口数量来解决。但是，对于重复进入页面的用户...",
+    "url": "https://segmentfault.com/a/1190000020086923",
+    "author": "搁浅",
+    "home_url": "https://segmentfault.com/u/geqian_5c24ba8b4aa9e",
+    "votes": "58",
+    "rank": 24
   },
   {
     "title": "8 道高频出现的 Vue 面试题及答案",
@@ -158,17 +221,17 @@
     "url": "https://segmentfault.com/a/1190000020097187",
     "author": "夜尽天明",
     "home_url": "https://segmentfault.com/u/biaochenxuying",
-    "votes": "41",
-    "rank": 18
+    "votes": "45",
+    "rank": 25
   },
   {
-    "title": "高级程序员与初级程序员差别在哪里？",
-    "description": "之前在公众号里有个读者给我留言： 请教个问题，公司高职级和初中级，都是写业务代码，那么高职级的价值在哪里呢？ 由于公众号回复留言的限制，当时我就简单的回复了如下的几个点： 初级多在写代码，高级多在设计...",
-    "url": "https://segmentfault.com/a/1190000020108905",
-    "author": "leexiaoran",
-    "home_url": "https://segmentfault.com/u/li1076629390",
-    "votes": "25",
-    "rank": 19
+    "title": "前端代码规范 — JavaScript 风格指南",
+    "description": "本文基于 github 项目 airbnb/javascript 翻译，也加入了一些个人理解。规范有利于我们更好的提高代码可读性，避免一些不必要的 bug。但是，并没有统一的标准和硬性要求，这里只是给大家提供一些参考，适合团队和...",
+    "url": "https://segmentfault.com/a/1190000020146498",
+    "author": "江三疯",
+    "home_url": "https://segmentfault.com/u/wuywd",
+    "votes": "15",
+    "rank": 26
   },
   {
     "title": "使用 CSS Grid Generator来快速使用及学习 Grid 布局",
@@ -176,17 +239,17 @@
     "url": "https://segmentfault.com/a/1190000020068283",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "21",
-    "rank": 20
+    "votes": "27",
+    "rank": 27
   },
   {
-    "title": "谈谈Web应用中的图片优化技巧及反思",
-    "description": "对于大多数前端工程师来说，图片就是UI设计师(或者自己)切好的图，你要做的只是把图片丢进项目中，然后用以链接的方式呈现在页面上，而且我们也经常把精力放在项目的打包优化构建上，如何分包，如何抽取第三方库....",
-    "url": "https://segmentfault.com/a/1190000020047949",
-    "author": "fecoder",
-    "home_url": "https://segmentfault.com/u/fecoder2019",
-    "votes": "44",
-    "rank": 21
+    "title": "深入浅出Mysql索引的那些事儿",
+    "description": "一般的应用系统，读写比例在10:1左右，而且插入操作和一般的更新操作很少出现性能问题，遇到最多的，也是最容易出问题的，还是一些复杂的查询操作，所以查询语句的优化显然是重中之重。",
+    "url": "https://segmentfault.com/a/1190000020149264",
+    "author": "猿人谷",
+    "home_url": "https://segmentfault.com/u/yuanrengu",
+    "votes": "6",
+    "rank": 28
   },
   {
     "title": "【Cute-Webpack】Webpack4 入门手册（共 18 章）",
@@ -194,35 +257,8 @@
     "url": "https://segmentfault.com/a/1190000020063707",
     "author": "pingan8787",
     "home_url": "https://segmentfault.com/u/pingan8787",
-    "votes": "57",
-    "rank": 22
-  },
-  {
-    "title": "OpenResty 社区王院生：APISIX 的高性能实践",
-    "description": "2019 年 7 月 6 日，OpenResty 社区联合又拍云，举办 OpenResty × Open Talk 全国巡回沙龙·上海站，OpenResty 软件基金会联合创始人王院生在活动上做了《APISIX 的高性能实践》的分享。OpenResty x Open Talk 全...",
-    "url": "https://segmentfault.com/a/1190000020128654",
-    "author": "云叔_又拍云",
-    "home_url": "https://segmentfault.com/u/yunshu_blog",
-    "votes": "5",
-    "rank": 23
-  },
-  {
-    "title": "可能是你见过最完善的微前端解决方案",
-    "description": "Techniques, strategies and recipes for building a modern web app with multiple teams using different JavaScript frameworks. — Micro Frontends",
-    "url": "https://segmentfault.com/a/1190000020122048",
-    "author": "kuitos",
-    "home_url": "https://segmentfault.com/u/kuitos",
-    "votes": "13",
-    "rank": 24
-  },
-  {
-    "title": "这些常用的H5代码你知道吗",
-    "description": "1、返回上一页第一次在手机端用到返回上一页的时候，只写了window.history.go(-1)；这一句。但是只在安卓手机有效果，兼容苹果手机需要在跳转代码后加上return false；这句。跳转后刷新页面加上self.location.rel...",
-    "url": "https://segmentfault.com/a/1190000020057408",
-    "author": "老张的前端笔记",
-    "home_url": "https://segmentfault.com/u/laozhang97",
-    "votes": "49",
-    "rank": 25
+    "votes": "59",
+    "rank": 29
   },
   {
     "title": "Vue，React，微信小程序，快应用，TS 和 Koa 一把梭",
@@ -230,43 +266,7 @@
     "url": "https://segmentfault.com/a/1190000019938310",
     "author": "火狼",
     "home_url": "https://segmentfault.com/u/huolang_5a14e07d2f2ff",
-    "votes": "93",
-    "rank": 26
-  },
-  {
-    "title": "删库不跑路-详解MySQL数据恢复",
-    "description": "日常工作中，总会有因手抖、写错条件、写错表名、错连生产库造成的误删库表和数据的事情发生，那么，如果连数据都恢复不了，还要什么 DBA。",
-    "url": "https://segmentfault.com/a/1190000020116271",
-    "author": "程淇铭",
-    "home_url": "https://segmentfault.com/u/echoqmc",
-    "votes": "16",
-    "rank": 27
-  },
-  {
-    "title": "新的 React DevTools 发布！",
-    "description": "我们很高兴地宣布推出 React 开发者工具的新版本，现在可以在 Chrome，Firefox和（Chromium）Edge 中使用！",
-    "url": "https://segmentfault.com/a/1190000020130188",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "4",
-    "rank": 28
-  },
-  {
-    "title": "10个艰难的Java面试题与答案",
-    "description": "这是我收集的10个较难回答的 Java 面试题。这些问题主要来自 Java 核心部分 ,不涉及 Java EE 相关问题。这些问题都是容易在各种 Java 面试中被问到的。",
-    "url": "https://segmentfault.com/a/1190000019962661",
-    "author": "Yujiaao",
-    "home_url": "https://segmentfault.com/u/yujiaao",
-    "votes": "83",
-    "rank": 29
-  },
-  {
-    "title": "基于原生JS验证表单组件：xy-form",
-    "description": "form表单元素大家可能都用到过，除了可以提交表单外，还有一些内置的表单校验，比如require、minlength、maxlength，还有各种类型的input，比如type=email可以校验是否是邮箱类型，如果不满足还可以使用pattern进...",
-    "url": "https://segmentfault.com/a/1190000020121106",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "13",
+    "votes": "95",
     "rank": 30
   }
 ]
