@@ -1,6 +1,6 @@
 {
   "name": "@wcj/github-rank",
-  "version": "19.08.22",
+  "version": "19.08.24",
   "description": "Github Users Ranking for China.",
   "scripts": {
     "start": "node lib/build.js",
@@ -15,7 +15,7 @@
     "get:users:china": "node lib/getUsersChina.js",
     "get:repos": "node lib/getRepos.js",
     "get:trending": "node lib/getTrending.js",
-    "deploy": "npm run start && gh-pages -d web -m '2019.08.22'",
+    "deploy": "node lib/deploy.js",
     "prepare": "npm run build",
     "types": "tsbb types",
     "types:watch": "tsbb types --watch",
@@ -51,13 +51,15 @@
     "@types/fs-extra": "^5.0.5",
     "@types/node": "^11.13.4",
     "@types/node-fetch": "^2.3.2",
+    "@uiw/formatter": "^1.2.3",
     "cheerio": "^1.0.0-rc.3",
+    "console-emojis": "^1.0.3",
     "dotenv": "^7.0.0",
     "ejs": "^2.6.1",
     "fs-extra": "^7.0.1",
     "gh-pages": "^2.0.1",
     "jest": "^24.7.1",
     "node-fetch": "^2.3.0",
-    "tsbb": "^1.0.2"
+    "tsbb": "^1.1.3"
   }
 }
