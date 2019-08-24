@@ -37,9 +37,10 @@ const pkgPath = path.join(root, 'package.json');
 
     await execute('npm run start');
     await execute('npm publish');
-    await execute(`./node_modules/.bin/gh-pages -d web -m '${version}'`);
+    await execute(`./node_modules/.bin/gh-pages -d web -m 'released v${version}' ${formatter('YYYY/MM/DD HH:mm:ss', new Date)}`);
+    await execute('git add .');
+    await execute(`git commit -m "released v${version}"`);
     await execute('git pull --all');
-    // "deploy": "npm run start && gh-pages -d web -m '2019.08.22'",
     await execute('git branch --format "%(if)%(upstream:short)%(then)git push . %(upstream:short):%(refname:short)%(end)" | sh');
     await execute('git push tee --all');
     (console as any)['100']('> done!');
