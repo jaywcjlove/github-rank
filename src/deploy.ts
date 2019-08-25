@@ -40,6 +40,7 @@ const pkgPath = path.join(root, 'package.json');
     await execute(`./node_modules/.bin/gh-pages -d web -m 'released v${version}' ${formatter('YYYY/MM/DD HH:mm:ss', new Date)}`);
     await execute('git add .');
     await execute(`git commit -m "released v${version}"`);
+    await execute('git push origin master');
     await execute('git pull --all');
     await execute('git branch --format "%(if)%(upstream:short)%(then)git push . %(upstream:short):%(refname:short)%(end)" | sh');
     await execute('git push tee --all');
