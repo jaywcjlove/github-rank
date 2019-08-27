@@ -1,12 +1,21 @@
 [
   {
+    "title": "过来人教你如何编写一份合格的技术简历",
+    "description": "马上又要到跳槽旺季了，身边的一些朋友或多或少都在看更好的机会。 我也收到不少简历， 经我手的简历也都好几百份了， 有的写的很好， 有的写的没眼看， 差别很大。",
+    "url": "https://segmentfault.com/a/1190000020202517",
+    "author": "皮小蛋",
+    "home_url": "https://segmentfault.com/u/scaukk",
+    "votes": "31",
+    "rank": 1
+  },
+  {
     "title": "Vue面试中，经常会被问到的面试题/知识点(2019改进版)",
     "description": "MVVM 是 Model-View-ViewModel 的缩写。Model代表数据模型，也可以在Model中定义数据修改和操作的业务逻辑。View 代表UI 组件，它负责将数据模型转化成UI 展现出来。ViewModel 监听模型数据的改变和控制视图行为...",
     "url": "https://segmentfault.com/a/1190000020181662",
     "author": "沉静地闪光",
     "home_url": "https://segmentfault.com/u/007008",
-    "votes": "36",
-    "rank": 1
+    "votes": "56",
+    "rank": 2
   },
   {
     "title": "前端20个灵魂拷问 彻底搞明白你就是中级前端工程师 【中篇】",
@@ -14,8 +23,8 @@
     "url": "https://segmentfault.com/a/1190000020144498",
     "author": "Peter谭金杰",
     "home_url": "https://segmentfault.com/u/jerrytanjinjie",
-    "votes": "113",
-    "rank": 2
+    "votes": "124",
+    "rank": 3
   },
   {
     "title": "前端该如何准备数据结构和算法？",
@@ -23,35 +32,8 @@
     "url": "https://segmentfault.com/a/1190000020122791",
     "author": "ConardLi",
     "home_url": "https://segmentfault.com/u/conardli",
-    "votes": "95",
-    "rank": 3
-  },
-  {
-    "title": "JS基础-原型、原型链真的不能一知半解",
-    "description": "JS的原型、原型链一直是比较难理解的内容，不少初学者甚至有一定经验的老鸟都不一定能完全说清楚，更多的\"很可能\"是一知半解，而这部分内容又是JS的核心内容，想要技术进阶的话肯定不能对这个概念一知半解，碰到...",
-    "url": "https://segmentfault.com/a/1190000020185194",
-    "author": "OBKoro1",
-    "home_url": "https://segmentfault.com/u/obkoro1",
-    "votes": "18",
+    "votes": "97",
     "rank": 4
-  },
-  {
-    "title": "PHP & Swoole 与 Java、Go 等技术选型答疑",
-    "description": "感觉Swoole越来越复杂了，虽然特性也变得更强，可惜在项目组里面根本推不动，而且协程后需要注意事项也很多，稍不注意可能就是连接忘了回收，连接错乱的风险(当然有defer之类的可以规避)",
-    "url": "https://segmentfault.com/a/1190000020180096",
-    "author": "韩天峰",
-    "home_url": "https://segmentfault.com/u/hantianfeng",
-    "votes": "38",
-    "rank": 5
-  },
-  {
-    "title": "订阅发布模式和观察者模式的区别",
-    "description": "在软件架构中，发布-订阅是一种消息范式，消息的发送者（称为发布者）不会将消息直接发送给特定的接收者（称为订阅者）。而是将发布的消息分为不同的类别，无需了解哪些订阅者（如果有的话）可能存在。同样的，订...",
-    "url": "https://segmentfault.com/a/1190000020169229",
-    "author": "xianshannan",
-    "home_url": "https://segmentfault.com/u/nanges",
-    "votes": "8",
-    "rank": 6
   },
   {
     "title": "深入理解Node.js 进程与线程(8000长文彻底搞懂)",
@@ -59,8 +41,8 @@
     "url": "https://segmentfault.com/a/1190000020077274",
     "author": "koala",
     "home_url": "https://segmentfault.com/u/na_5a545653c24d9",
-    "votes": "147",
-    "rank": 7
+    "votes": "153",
+    "rank": 5
   },
   {
     "title": "你必须懂的前端性能优化",
@@ -68,8 +50,8 @@
     "url": "https://segmentfault.com/a/1190000019897234",
     "author": "张炳",
     "home_url": "https://segmentfault.com/u/markbzhang",
-    "votes": "216",
-    "rank": 8
+    "votes": "217",
+    "rank": 6
   },
   {
     "title": "56 道高频 JavaScript 与 ES6+ 的面试题及答案",
@@ -78,6 +60,24 @@
     "author": "夜尽天明",
     "home_url": "https://segmentfault.com/u/biaochenxuying",
     "votes": "127",
+    "rank": 7
+  },
+  {
+    "title": "PHP & Swoole 与 Java、Go 等技术选型答疑",
+    "description": "感觉Swoole越来越复杂了，虽然特性也变得更强，可惜在项目组里面根本推不动，而且协程后需要注意事项也很多，稍不注意可能就是连接忘了回收，连接错乱的风险(当然有defer之类的可以规避)",
+    "url": "https://segmentfault.com/a/1190000020180096",
+    "author": "韩天峰",
+    "home_url": "https://segmentfault.com/u/hantianfeng",
+    "votes": "42",
+    "rank": 8
+  },
+  {
+    "title": "只需一步，在Spring Boot中统一Restful API返回值格式与统一处理异常",
+    "description": "在前后端分离大行其道的今天，有一个统一的返回值格式不仅能使我们的接口看起来更漂亮，而且还可以使前端可以统一处理很多东西，避免很多问题的产生。",
+    "url": "https://segmentfault.com/a/1190000020144445",
+    "author": "我的小熊不见了",
+    "home_url": "https://segmentfault.com/u/wodexiaoxiongbujianliao",
+    "votes": "48",
     "rank": 9
   },
   {
@@ -86,8 +86,17 @@
     "url": "https://segmentfault.com/a/1190000020039039",
     "author": "jenemy",
     "home_url": "https://segmentfault.com/u/jenemy",
-    "votes": "150",
+    "votes": "151",
     "rank": 10
+  },
+  {
+    "title": "JS基础-原型、原型链真的不能一知半解",
+    "description": "JS的原型、原型链一直是比较难理解的内容，不少初学者甚至有一定经验的老鸟都不一定能完全说清楚，更多的\"很可能\"是一知半解，而这部分内容又是JS的核心内容，想要技术进阶的话肯定不能对这个概念一知半解，碰到...",
+    "url": "https://segmentfault.com/a/1190000020185194",
+    "author": "OBKoro1",
+    "home_url": "https://segmentfault.com/u/obkoro1",
+    "votes": "30",
+    "rank": 11
   },
   {
     "title": "前端20个真正灵魂拷问，吃透这些你就是中级前端工程师 【上篇】",
@@ -95,8 +104,8 @@
     "url": "https://segmentfault.com/a/1190000020062444",
     "author": "Peter谭金杰",
     "home_url": "https://segmentfault.com/u/jerrytanjinjie",
-    "votes": "119",
-    "rank": 11
+    "votes": "120",
+    "rank": 12
   },
   {
     "title": "前端十大经典算法",
@@ -104,8 +113,8 @@
     "url": "https://segmentfault.com/a/1190000020072884",
     "author": "浅夏晴空",
     "home_url": "https://segmentfault.com/u/qianxiaqingkong",
-    "votes": "125",
-    "rank": 12
+    "votes": "128",
+    "rank": 13
   },
   {
     "title": "前端最强面经汇总",
@@ -113,8 +122,8 @@
     "url": "https://segmentfault.com/a/1190000020028294",
     "author": "aoping",
     "home_url": "https://segmentfault.com/u/aoping",
-    "votes": "125",
-    "rank": 13
+    "votes": "126",
+    "rank": 14
   },
   {
     "title": "vue中8种组件通信方式, 值得收藏!",
@@ -122,8 +131,8 @@
     "url": "https://segmentfault.com/a/1190000020053344",
     "author": "koala",
     "home_url": "https://segmentfault.com/u/na_5a545653c24d9",
-    "votes": "118",
-    "rank": 14
+    "votes": "119",
+    "rank": 15
   },
   {
     "title": "8道经典JavaScript面试题解析，你真的掌握JavaScript了吗？",
@@ -132,15 +141,6 @@
     "author": "WEB开发阿靖",
     "home_url": "https://segmentfault.com/u/webkaifalijiajing",
     "votes": "135",
-    "rank": 15
-  },
-  {
-    "title": "Vue项目优化",
-    "description": "在日常的Vue项目开发中，随着业务的日渐复杂，代码量的日益增加，随之带来的问题就是打包后的vendor.js体积过大，导致加载时空白页时间过长，给用户的体验太差。为此我们需要减少vendor.js的体积，从本质上来解决...",
-    "url": "https://segmentfault.com/a/1190000020085952",
-    "author": "易小星",
-    "home_url": "https://segmentfault.com/u/guanxiaobo",
-    "votes": "87",
     "rank": 16
   },
   {
@@ -149,8 +149,17 @@
     "url": "https://segmentfault.com/a/1190000019970715",
     "author": "OBKoro1",
     "home_url": "https://segmentfault.com/u/obkoro1",
-    "votes": "78",
+    "votes": "79",
     "rank": 17
+  },
+  {
+    "title": "Vue项目优化",
+    "description": "在日常的Vue项目开发中，随着业务的日渐复杂，代码量的日益增加，随之带来的问题就是打包后的vendor.js体积过大，导致加载时空白页时间过长，给用户的体验太差。为此我们需要减少vendor.js的体积，从本质上来解决...",
+    "url": "https://segmentfault.com/a/1190000020085952",
+    "author": "易小星",
+    "home_url": "https://segmentfault.com/u/guanxiaobo",
+    "votes": "88",
+    "rank": 18
   },
   {
     "title": "红黑树，超强动静图详解，简单易懂",
@@ -158,8 +167,62 @@
     "url": "https://segmentfault.com/a/1190000020118044",
     "author": "日拱一兵",
     "home_url": "https://segmentfault.com/u/tanrigongyibing",
-    "votes": "62",
-    "rank": 18
+    "votes": "70",
+    "rank": 19
+  },
+  {
+    "title": "Vue路由之JWT身份认证",
+    "description": "JSON Web Token（JWT）是目前最流行的跨域身份验证解决方案，相较于session机制，服务器就不需要保存任何 session 数据了，也就是说，服务器变成无状态了，从而比较容易实现扩展。JWT 实际上是一个令牌（Token）...",
+    "url": "https://segmentfault.com/a/1190000020181742",
+    "author": "JS_Even_JS",
+    "home_url": "https://segmentfault.com/u/js_even_js",
+    "votes": "18",
+    "rank": 20
+  },
+  {
+    "title": "21个让React 开发更高效更有趣的工具",
+    "description": "为了保证的可读性，本文采用意译而非直译。 想阅读更多优质文章请猛戳GitHub博客,一年百来篇优质文章等着你！ 下列工具中的重要性与排序无关。 1.Webpack Bundle Analyzer 有没有想过你的应用程序的哪些包或哪部...",
+    "url": "https://segmentfault.com/a/1190000020038593",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "92",
+    "rank": 21
+  },
+  {
+    "title": "探索javascript -> async、await",
+    "description": "在讲async之前，先简单的提一下promise。首先，先来纠正一下很多人普遍的错误观点 --> 'promise是异步的', 看代码:",
+    "url": "https://segmentfault.com/a/1190000020195211",
+    "author": "Yxaw",
+    "home_url": "https://segmentfault.com/u/yxaw",
+    "votes": "11",
+    "rank": 22
+  },
+  {
+    "title": "Fundebug录屏插件更新至0.6.0",
+    "description": "Fundebug提供专业的异常监控服务，当线上应用出现 BUG 的时候，我们可以第一时间报警，帮助开发者及时发现 BUG，提高 Debug 效率。在网页端，我们通过原创的录屏技术，可以 100%还原 BUG 出现之前用户的操作流程...",
+    "url": "https://segmentfault.com/a/1190000020195329",
+    "author": "Fundebug",
+    "home_url": "https://segmentfault.com/u/fundebug",
+    "votes": "5",
+    "rank": 23
+  },
+  {
+    "title": "深入浅出Mysql索引的那些事儿",
+    "description": "一般的应用系统，读写比例在10:1左右，而且插入操作和一般的更新操作很少出现性能问题，遇到最多的，也是最容易出问题的，还是一些复杂的查询操作，所以查询语句的优化显然是重中之重。",
+    "url": "https://segmentfault.com/a/1190000020149264",
+    "author": "猿人谷",
+    "home_url": "https://segmentfault.com/u/yuanrengu",
+    "votes": "38",
+    "rank": 24
+  },
+  {
+    "title": "如何让Element UI的Message消息提示每次只弹出一个",
+    "description": "Element UI的Message消息提示是点击一次触发一次的。在开发的时候经常会作为一些校验提示，但是公司的测试人员在进行测试时会一直点，然后就会出现如下图的情况。虽然客户使用的时候一般来说不会出现这种情况（毕...",
+    "url": "https://segmentfault.com/a/1190000020173021",
+    "author": "TDon",
+    "home_url": "https://segmentfault.com/u/tdon",
+    "votes": "22",
+    "rank": 25
   },
   {
     "title": "5个 JS 解构有趣的用途",
@@ -168,34 +231,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "26",
-    "rank": 19
-  },
-  {
-    "title": "通过实例学习正则表达式",
-    "description": "+、*。 +、*和？在正则表达式中被称为量词符。+表示一次或多次，*表示0次或多次，？表示0次或一次。",
-    "url": "https://segmentfault.com/a/1190000020171825",
-    "author": "July",
-    "home_url": "https://segmentfault.com/u/shuaitudi_5b0a74584dc93",
-    "votes": "23",
-    "rank": 20
-  },
-  {
-    "title": "深入浅出Mysql索引的那些事儿",
-    "description": "一般的应用系统，读写比例在10:1左右，而且插入操作和一般的更新操作很少出现性能问题，遇到最多的，也是最容易出问题的，还是一些复杂的查询操作，所以查询语句的优化显然是重中之重。",
-    "url": "https://segmentfault.com/a/1190000020149264",
-    "author": "猿人谷",
-    "home_url": "https://segmentfault.com/u/yuanrengu",
-    "votes": "34",
-    "rank": 21
-  },
-  {
-    "title": "21个让React 开发更高效更有趣的工具",
-    "description": "为了保证的可读性，本文采用意译而非直译。 想阅读更多优质文章请猛戳GitHub博客,一年百来篇优质文章等着你！ 下列工具中的重要性与排序无关。 1.Webpack Bundle Analyzer 有没有想过你的应用程序的哪些包或哪部...",
-    "url": "https://segmentfault.com/a/1190000020038593",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "91",
-    "rank": 22
+    "rank": 26
   },
   {
     "title": "为何我建议1-3年的Java程序员仔细看看这篇文章",
@@ -204,42 +240,6 @@
     "author": "茶轴的青春",
     "home_url": "https://segmentfault.com/u/chazhoudeqingchun",
     "votes": "47",
-    "rank": 23
-  },
-  {
-    "title": "Vue路由之JWT身份认证",
-    "description": "JSON Web Token（JWT）是目前最流行的跨域身份验证解决方案，相较于session机制，服务器就不需要保存任何 session 数据了，也就是说，服务器变成无状态了，从而比较容易实现扩展。JWT 实际上是一个令牌（Token）...",
-    "url": "https://segmentfault.com/a/1190000020181742",
-    "author": "JS_Even_JS",
-    "home_url": "https://segmentfault.com/u/js_even_js",
-    "votes": "13",
-    "rank": 24
-  },
-  {
-    "title": "十年铲码，八大体系超千篇数百万字技术笔记系列汇总（GitBook 悦享版）",
-    "description": "十年铲码两茫茫，纵思量，却易忘；不觉笔者步入程序员已有十年。十年里一直浮沉沉沉沉，愈深入，愈觉得世界之大，宇宙浩瀚。十年之期，正巧笔者从阿里离开，重回 3D 打印制造业的怀抱，希望能依托于设备优势逐步...",
-    "url": "https://segmentfault.com/a/1190000020151968",
-    "author": "王下邀月熊_Chevalier",
-    "home_url": "https://segmentfault.com/u/wx_chevalier",
-    "votes": "29",
-    "rank": 25
-  },
-  {
-    "title": "只需一步，在Spring Boot中统一Restful API返回值格式与统一处理异常",
-    "description": "在前后端分离大行其道的今天，有一个统一的返回值格式不仅能使我们的接口看起来更漂亮，而且还可以使前端可以统一处理很多东西，避免很多问题的产生。",
-    "url": "https://segmentfault.com/a/1190000020144445",
-    "author": "我的小熊不见了",
-    "home_url": "https://segmentfault.com/u/wodexiaoxiongbujianliao",
-    "votes": "43",
-    "rank": 26
-  },
-  {
-    "title": "JS 可选链的好处",
-    "description": "JS的一些特性极大地改变了咱们的编码方式。从ES6年开始，对咱们代码影响最大的特性的解 、箭头函数、类和模块系统。",
-    "url": "https://segmentfault.com/a/1190000020173404",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "5",
     "rank": 27
   },
   {
@@ -248,7 +248,7 @@
     "url": "https://segmentfault.com/a/1190000020086923",
     "author": "搁浅",
     "home_url": "https://segmentfault.com/u/geqian_5c24ba8b4aa9e",
-    "votes": "63",
+    "votes": "64",
     "rank": 28
   },
   {
@@ -259,5 +259,14 @@
     "home_url": "https://segmentfault.com/u/savokiss",
     "votes": "142",
     "rank": 29
+  },
+  {
+    "title": "Vue，React，微信小程序，快应用，TS 和 Koa 一把梭",
+    "description": "前端生态越来越繁华，随着资本寒冬的来临，对前端招聘要求也变高了； 本文将从项目出发由浅入深做一个Vue，React，微信小程序，快应用，TS和 Koa的知识大串联； 相当于一篇文章搞定前端目前主流技术栈。",
+    "url": "https://segmentfault.com/a/1190000019938310",
+    "author": "火狼",
+    "home_url": "https://segmentfault.com/u/huolang_5a14e07d2f2ff",
+    "votes": "98",
+    "rank": 30
   }
 ]

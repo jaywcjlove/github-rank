@@ -1,21 +1,30 @@
 [
   {
+    "title": "过来人教你如何编写一份合格的技术简历",
+    "description": "马上又要到跳槽旺季了，身边的一些朋友或多或少都在看更好的机会。 我也收到不少简历， 经我手的简历也都好几百份了， 有的写的很好， 有的写的没眼看， 差别很大。",
+    "url": "https://segmentfault.com/a/1190000020202517",
+    "author": "皮小蛋",
+    "home_url": "https://segmentfault.com/u/scaukk",
+    "votes": "31",
+    "rank": 1
+  },
+  {
     "title": "Vue面试中，经常会被问到的面试题/知识点(2019改进版)",
     "description": "MVVM 是 Model-View-ViewModel 的缩写。Model代表数据模型，也可以在Model中定义数据修改和操作的业务逻辑。View 代表UI 组件，它负责将数据模型转化成UI 展现出来。ViewModel 监听模型数据的改变和控制视图行为...",
     "url": "https://segmentfault.com/a/1190000020181662",
     "author": "沉静地闪光",
     "home_url": "https://segmentfault.com/u/007008",
-    "votes": "36",
-    "rank": 1
+    "votes": "56",
+    "rank": 2
   },
   {
-    "title": "订阅发布模式和观察者模式的区别",
-    "description": "在软件架构中，发布-订阅是一种消息范式，消息的发送者（称为发布者）不会将消息直接发送给特定的接收者（称为订阅者）。而是将发布的消息分为不同的类别，无需了解哪些订阅者（如果有的话）可能存在。同样的，订...",
-    "url": "https://segmentfault.com/a/1190000020169229",
-    "author": "xianshannan",
-    "home_url": "https://segmentfault.com/u/nanges",
-    "votes": "8",
-    "rank": 2
+    "title": "vue递归组件实战之简单树形控件",
+    "description": "1、递归组件-简单树形控件预览及问题 在编写树形组件时遇到的问题： 组件如何才能递归调用？ 递归组件点击事件如何传递？ 2、树形控件基本结构及样式 {代码...} 3、组件目录及数据结构 目录结构vue-tree VueTree....",
+    "url": "https://segmentfault.com/a/1190000020201740",
+    "author": "heath_learning",
+    "home_url": "https://segmentfault.com/u/heath_learning",
+    "votes": "2",
+    "rank": 3
   },
   {
     "title": "JS基础-原型、原型链真的不能一知半解",
@@ -23,8 +32,26 @@
     "url": "https://segmentfault.com/a/1190000020185194",
     "author": "OBKoro1",
     "home_url": "https://segmentfault.com/u/obkoro1",
-    "votes": "18",
-    "rank": 3
+    "votes": "30",
+    "rank": 4
+  },
+  {
+    "title": "探索javascript -> async、await",
+    "description": "在讲async之前，先简单的提一下promise。首先，先来纠正一下很多人普遍的错误观点 --> 'promise是异步的', 看代码:",
+    "url": "https://segmentfault.com/a/1190000020195211",
+    "author": "Yxaw",
+    "home_url": "https://segmentfault.com/u/yxaw",
+    "votes": "11",
+    "rank": 5
+  },
+  {
+    "title": "Fundebug录屏插件更新至0.6.0",
+    "description": "Fundebug提供专业的异常监控服务，当线上应用出现 BUG 的时候，我们可以第一时间报警，帮助开发者及时发现 BUG，提高 Debug 效率。在网页端，我们通过原创的录屏技术，可以 100%还原 BUG 出现之前用户的操作流程...",
+    "url": "https://segmentfault.com/a/1190000020195329",
+    "author": "Fundebug",
+    "home_url": "https://segmentfault.com/u/fundebug",
+    "votes": "5",
+    "rank": 6
   },
   {
     "title": "PHP & Swoole 与 Java、Go 等技术选型答疑",
@@ -32,8 +59,8 @@
     "url": "https://segmentfault.com/a/1190000020180096",
     "author": "韩天峰",
     "home_url": "https://segmentfault.com/u/hantianfeng",
-    "votes": "38",
-    "rank": 4
+    "votes": "42",
+    "rank": 7
   },
   {
     "title": "前端20个灵魂拷问 彻底搞明白你就是中级前端工程师 【中篇】",
@@ -41,26 +68,44 @@
     "url": "https://segmentfault.com/a/1190000020144498",
     "author": "Peter谭金杰",
     "home_url": "https://segmentfault.com/u/jerrytanjinjie",
-    "votes": "113",
-    "rank": 5
+    "votes": "124",
+    "rank": 8
   },
   {
-    "title": "JS 可选链的好处",
-    "description": "JS的一些特性极大地改变了咱们的编码方式。从ES6年开始，对咱们代码影响最大的特性的解 、箭头函数、类和模块系统。",
-    "url": "https://segmentfault.com/a/1190000020173404",
+    "title": "一键实现自动化部署（灰度发布）实践",
+    "description": "在过去几年的DevOps的浪潮中，自动化、持续集成这两个概念早已深入人心(互联网技术人)。比尔盖茨先生曾经都说过：“任何技术在一个业务中使用的第一条规则就是，将自动化应用到一个高效的操作上将会放大高效。第二...",
+    "url": "https://segmentfault.com/a/1190000020197481",
+    "author": "民工哥技术之路",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "4",
+    "rank": 9
+  },
+  {
+    "title": "只需一步，在Spring Boot中统一Restful API返回值格式与统一处理异常",
+    "description": "在前后端分离大行其道的今天，有一个统一的返回值格式不仅能使我们的接口看起来更漂亮，而且还可以使前端可以统一处理很多东西，避免很多问题的产生。",
+    "url": "https://segmentfault.com/a/1190000020144445",
+    "author": "我的小熊不见了",
+    "home_url": "https://segmentfault.com/u/wodexiaoxiongbujianliao",
+    "votes": "48",
+    "rank": 10
+  },
+  {
+    "title": "ES新提案：双问号操作符",
+    "description": "本文主要讲Gabriel Isenberg撰写的ES提案“Nullish coalescing for JavaScript”。 它提出?? 替换||的运算符,并提供默认值。这里先把这相提案叫作双问号操作符，如果你有好的叫法，欢迎留言讨论。",
+    "url": "https://segmentfault.com/a/1190000020182715",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "5",
-    "rank": 6
+    "rank": 11
   },
   {
-    "title": "前端该如何准备数据结构和算法？",
-    "description": "据我了解，前端程序员有相当一部分对“数据结构”和“算法”的基础概念都不是很清晰，这直接导致很多人在看到有关这部分的内容就会望而却步。",
-    "url": "https://segmentfault.com/a/1190000020122791",
-    "author": "ConardLi",
-    "home_url": "https://segmentfault.com/u/conardli",
-    "votes": "95",
-    "rank": 7
+    "title": "vue父子组件通信高级用法",
+    "description": "vue项目的一大亮点就是组件化。使用组件可以极大地提高项目中代码的复用率，减少代码量。但是使用组件最大的难点就是父子组件之间的通信。",
+    "url": "https://segmentfault.com/a/1190000020197420",
+    "author": "我的小熊不见了",
+    "home_url": "https://segmentfault.com/u/wodexiaoxiongbujianliao",
+    "votes": "2",
+    "rank": 12
   },
   {
     "title": "Vue路由之JWT身份认证",
@@ -68,8 +113,89 @@
     "url": "https://segmentfault.com/a/1190000020181742",
     "author": "JS_Even_JS",
     "home_url": "https://segmentfault.com/u/js_even_js",
-    "votes": "13",
-    "rank": 8
+    "votes": "18",
+    "rank": 13
+  },
+  {
+    "title": "如何确定自己是否适合做程序员？",
+    "description": "LeanCloud 公司里面 80% 的人都是工程师，在这个经常和各路工程师沟通的岗位上，我发现大家有以下共性，可以作为「如何确定自己是否适合做程序员？」的一些参考：",
+    "url": "https://segmentfault.com/a/1190000020201473",
+    "author": "LeanCloud",
+    "home_url": "https://segmentfault.com/u/leancloud",
+    "votes": "1",
+    "rank": 14
+  },
+  {
+    "title": "Markdown语法快速学习",
+    "description": "Markdown默认使用的脚注样式链接不会在页面中显示。有时包含一个读者可见的非超链接注脚很有用。对于这样的注脚，GitBook支持的一种简单的语法。",
+    "url": "https://segmentfault.com/a/1190000020203439",
+    "author": "wangyuanqi",
+    "home_url": "https://segmentfault.com/u/wangyuanqi",
+    "votes": "1",
+    "rank": 15
+  },
+  {
+    "title": "第十四集: 从零开始实现一套pc端vue的ui组件库( Popover弹出框 )",
+    "description": "Popover组件不同于alert这种霸道总裁, 它更倾向于辅助显示某些未显示完整的内容, toast组件与其相比更偏向'提示', Popover更偏向于'展示', 但属于一种'轻展示', 毕竟不会出现'蒙层'等效果.别看它小小的, 它里面的...",
+    "url": "https://segmentfault.com/a/1190000020193444",
+    "author": "lulu_up",
+    "home_url": "https://segmentfault.com/u/lulu_up",
+    "votes": "8",
+    "rank": 16
+  },
+  {
+    "title": "为什么我喜欢JavaScript的Optional Chaining",
+    "description": "JavaScript 的特性极大地改变了你的编码方式。从 ES2015 开始，对我代码影响最多的功能是解构、箭头函数、类和模块系统。",
+    "url": "https://segmentfault.com/a/1190000020186924",
+    "author": "疯狂的技术宅",
+    "home_url": "https://segmentfault.com/u/evilboy",
+    "votes": "11",
+    "rank": 17
+  },
+  {
+    "title": "订阅发布模式和观察者模式的区别",
+    "description": "在软件架构中，发布-订阅是一种消息范式，消息的发送者（称为发布者）不会将消息直接发送给特定的接收者（称为订阅者）。而是将发布的消息分为不同的类别，无需了解哪些订阅者（如果有的话）可能存在。同样的，订...",
+    "url": "https://segmentfault.com/a/1190000020169229",
+    "author": "xianshannan",
+    "home_url": "https://segmentfault.com/u/nanges",
+    "votes": "10",
+    "rank": 18
+  },
+  {
+    "title": "SpingBoot：整合Elasticsearch7.2.0",
+    "description": "新版本的Spring boot 2的spring-boot-starter-data-elasticsearch中支持的Elasticsearch版本是2.X，但Elasticsearch实际上已经发展到7.2.X版本了，为了更好的使用Elasticsearch的新特性，所以弃用了spring-boot-s...",
+    "url": "https://segmentfault.com/a/1190000020179390",
+    "author": "onlooker",
+    "home_url": "https://segmentfault.com/u/onlooker",
+    "votes": "6",
+    "rank": 19
+  },
+  {
+    "title": "如何让Element UI的Message消息提示每次只弹出一个",
+    "description": "Element UI的Message消息提示是点击一次触发一次的。在开发的时候经常会作为一些校验提示，但是公司的测试人员在进行测试时会一直点，然后就会出现如下图的情况。虽然客户使用的时候一般来说不会出现这种情况（毕...",
+    "url": "https://segmentfault.com/a/1190000020173021",
+    "author": "TDon",
+    "home_url": "https://segmentfault.com/u/tdon",
+    "votes": "22",
+    "rank": 20
+  },
+  {
+    "title": "ElasticSearch:常用的基础查询与过滤器",
+    "description": "quert_string（获取包含指定关键字文档）默认查询_all字段，_all字段是由所有字段组合而成的，可以通过description:关键字，获取通过请求的时候来设置default_field。可使用AND和OR这种布尔操作符来组合词条搜索...",
+    "url": "https://segmentfault.com/a/1190000020199099",
+    "author": "onlooker",
+    "home_url": "https://segmentfault.com/u/onlooker",
+    "votes": "1",
+    "rank": 21
+  },
+  {
+    "title": "9102年，隔壁公司新来的女实习生问我什么是TypeScript ？",
+    "description": "所谓的超集 其实就是最终将你写的TypeScript编译成javascript去执行，因为浏览器上能跑的脚本语言是javascript，这个本质要搞清楚",
+    "url": "https://segmentfault.com/a/1190000020182422",
+    "author": "Peter谭金杰",
+    "home_url": "https://segmentfault.com/u/jerrytanjinjie",
+    "votes": "11",
+    "rank": 22
   },
   {
     "title": "通过实例学习正则表达式",
@@ -77,44 +203,8 @@
     "url": "https://segmentfault.com/a/1190000020171825",
     "author": "July",
     "home_url": "https://segmentfault.com/u/shuaitudi_5b0a74584dc93",
-    "votes": "23",
-    "rank": 9
-  },
-  {
-    "title": "5个 JS 解构有趣的用途",
-    "description": "为了保证的可读性，本文采用意译而非直译。 想阅读更多优质文章请猛戳GitHub博客,一年百来篇优质文章等着你！ 1. 交换变量 通常交换两个变量的方法需要一个额外的临时变量,来看看例子： {代码...} temp是一个临时...",
-    "url": "https://segmentfault.com/a/1190000020125752",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "26",
-    "rank": 10
-  },
-  {
-    "title": "Symbol能干什么！为什么要掌握它?",
-    "description": "说到Symbol就先来说下 js中的基础数据类型 string、number、boolean、null、undefined，Symbol就是js中的第六种基础数据类型",
-    "url": "https://segmentfault.com/a/1190000020191738",
-    "author": "前端优选",
-    "home_url": "https://segmentfault.com/u/qianduanyouxuan",
-    "votes": "2",
-    "rank": 11
-  },
-  {
-    "title": "只要三步，将koa的node服务升级到https",
-    "description": "https 用于启动https服务 fs用于获取读取证书文件 koa-sslify 用于将http请求强制转换为https请求",
-    "url": "https://segmentfault.com/a/1190000020184701",
-    "author": "一个互联网学徒",
-    "home_url": "https://segmentfault.com/u/yigehulianwangxuetu",
-    "votes": "2",
-    "rank": 12
-  },
-  {
-    "title": "终于找到可以一文多发的平台了！ openwrite.cn",
-    "description": "有时候自己辛苦写了几个小时的技术文章，被爬虫抓走。自己去全平台一个一个发，又过于麻烦。而且每个平台都不一样，发文同步很困难。那么终于有了一款一文多发的利器：OpenWrite 了。",
-    "url": "https://segmentfault.com/a/1190000020181362",
-    "author": "泥瓦匠",
-    "home_url": "https://segmentfault.com/u/niwajiang_5c99fa77b0858",
-    "votes": "8",
-    "rank": 13
+    "votes": "24",
+    "rank": 23
   },
   {
     "title": "x(z).z<a>.0 | x<w>.y<w>.0 | y(v).v(u).0",
@@ -123,16 +213,16 @@
     "author": "uglee",
     "home_url": "https://segmentfault.com/u/uglee",
     "votes": "9",
-    "rank": 14
+    "rank": 24
   },
   {
-    "title": "【JVM从小白学成大佬】4.Java虚拟机何谓垃圾及垃圾回收算法",
-    "description": "在Java中内存是由虚拟机自动管理的，虚拟机在内存中划出一片区域，作为满足程序内存分配请求的空间。内存的创建仍然是由程序猿来显示指定的，但是对象的释放却对程序猿是透明的。就是解放了程序猿手动回收内存的...",
-    "url": "https://segmentfault.com/a/1190000020184636",
-    "author": "猿人谷",
-    "home_url": "https://segmentfault.com/u/yuanrengu",
-    "votes": "5",
-    "rank": 15
+    "title": "5个 JS 解构有趣的用途",
+    "description": "为了保证的可读性，本文采用意译而非直译。 想阅读更多优质文章请猛戳GitHub博客,一年百来篇优质文章等着你！ 1. 交换变量 通常交换两个变量的方法需要一个额外的临时变量,来看看例子： {代码...} temp是一个临时...",
+    "url": "https://segmentfault.com/a/1190000020125752",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "26",
+    "rank": 25
   },
   {
     "title": "深入浅出Mysql索引的那些事儿",
@@ -140,35 +230,35 @@
     "url": "https://segmentfault.com/a/1190000020149264",
     "author": "猿人谷",
     "home_url": "https://segmentfault.com/u/yuanrengu",
-    "votes": "34",
-    "rank": 16
+    "votes": "38",
+    "rank": 26
   },
   {
-    "title": "9102年，隔壁公司新来的女实习生问我什么是TypeScript ？",
-    "description": "所谓的超集 其实就是最终将你写的TypeScript编译成javascript去执行，因为浏览器上能跑的脚本语言是javascript，这个本质要搞清楚",
-    "url": "https://segmentfault.com/a/1190000020182422",
-    "author": "Peter谭金杰",
-    "home_url": "https://segmentfault.com/u/jerrytanjinjie",
-    "votes": "8",
-    "rank": 17
+    "title": "浅析服务器并发IO性能提升之路 — 从网络编程基础到epoll",
+    "description": "我们常常使用HTTP协议来传输各种格式的数据，其实HTTP这个应用层协议的底层，是基于传输层TCP协议来实现的。TCP协议仅仅把这些数据当做一串无意义的数据流来看待。所以，我们可以说：客户端与服务器通过在建立的...",
+    "url": "https://segmentfault.com/a/1190000020194471",
+    "author": "NoSay",
+    "home_url": "https://segmentfault.com/u/nosay",
+    "votes": "4",
+    "rank": 27
   },
   {
-    "title": "十年铲码，八大体系超千篇数百万字技术笔记系列汇总（GitBook 悦享版）",
-    "description": "十年铲码两茫茫，纵思量，却易忘；不觉笔者步入程序员已有十年。十年里一直浮沉沉沉沉，愈深入，愈觉得世界之大，宇宙浩瀚。十年之期，正巧笔者从阿里离开，重回 3D 打印制造业的怀抱，希望能依托于设备优势逐步...",
-    "url": "https://segmentfault.com/a/1190000020151968",
-    "author": "王下邀月熊_Chevalier",
-    "home_url": "https://segmentfault.com/u/wx_chevalier",
-    "votes": "29",
-    "rank": 18
+    "title": "用 NodeJS 重命名系统文件",
+    "description": "幸运的是 Node.js 的文件系统 (Fs) 核心模块实现了内置的方法，可以通过 fs.renam() 和 fs.renameSync() 方法来给文件一个新名字。",
+    "url": "https://segmentfault.com/a/1190000020197893",
+    "author": "疯狂的技术宅",
+    "home_url": "https://segmentfault.com/u/evilboy",
+    "votes": "3",
+    "rank": 28
   },
   {
-    "title": "如何让Element UI的Message消息提示每次只弹出一个",
-    "description": "Element UI的Message消息提示是点击一次触发一次的。在开发的时候经常会作为一些校验提示，但是公司的测试人员在进行测试时会一直点，然后就会出现如下图的情况。虽然客户使用的时候一般来说不会出现这种情况（毕...",
-    "url": "https://segmentfault.com/a/1190000020173021",
-    "author": "TDon",
-    "home_url": "https://segmentfault.com/u/tdon",
+    "title": "JavaScript之柯里化",
+    "description": "柯里化(Currying)，又称部分求值(Partial Evaluation)，是把接收多个参数的函数变成接受一个单一参数(最初函数的第一个参数)的函数，并且返回接受剩余的参数而且返回结果的新函数的技术。",
+    "url": "https://segmentfault.com/a/1190000020158274",
+    "author": "Clearlove",
+    "home_url": "https://segmentfault.com/u/clearlove07",
     "votes": "14",
-    "rank": 19
+    "rank": 29
   },
   {
     "title": "为何我建议1-3年的Java程序员仔细看看这篇文章",
@@ -177,78 +267,6 @@
     "author": "茶轴的青春",
     "home_url": "https://segmentfault.com/u/chazhoudeqingchun",
     "votes": "47",
-    "rank": 20
-  },
-  {
-    "title": "只需一步，在Spring Boot中统一Restful API返回值格式与统一处理异常",
-    "description": "在前后端分离大行其道的今天，有一个统一的返回值格式不仅能使我们的接口看起来更漂亮，而且还可以使前端可以统一处理很多东西，避免很多问题的产生。",
-    "url": "https://segmentfault.com/a/1190000020144445",
-    "author": "我的小熊不见了",
-    "home_url": "https://segmentfault.com/u/wodexiaoxiongbujianliao",
-    "votes": "43",
-    "rank": 21
-  },
-  {
-    "title": "给女朋友讲ActiveMQ是啥？",
-    "description": "ActiveMQ 就是一个消息中间件，市面上现在有很多的消息中间件开源产品，比如，RocketMQ、RabbitMQ、Kafka等。",
-    "url": "https://segmentfault.com/a/1190000020130362",
-    "author": "欧阳思海",
-    "home_url": "https://segmentfault.com/u/sihai_5ae5ba9170388",
-    "votes": "20",
-    "rank": 22
-  },
-  {
-    "title": "【深入 PHP】PHP7 数组的底层实现",
-    "description": "PHP 的数组是一种非常强大灵活的数据类型，在讲它的底层实现之前，先看一下 PHP 的数组都具有哪些特性。",
-    "url": "https://segmentfault.com/a/1190000020175662",
-    "author": "JeffreyC",
-    "home_url": "https://segmentfault.com/u/jeffrey_up",
-    "votes": "7",
-    "rank": 23
-  },
-  {
-    "title": "漫谈哲学与编程",
-    "description": "谈到哲学，多数人都会直觉性的认为它是很高深的一门学问。实际上大多数情况并非如此，哲学研究的往往是非常简单的一些命题，而这些命题在常人看来可能并没有现实意义。",
-    "url": "https://segmentfault.com/a/1190000020184955",
-    "author": "keelii",
-    "home_url": "https://segmentfault.com/u/keelii",
-    "votes": "4",
-    "rank": 24
-  },
-  {
-    "title": "使用typescript构建Vue应用",
-    "description": "使用typescript构建Vue应用和使用js一样，都是通过vue-cli去初始化并创建一个vue项目，只不过使用typescript构建的时候要在脚手架问卷操作的时候勾选上typescript选项。",
-    "url": "https://segmentfault.com/a/1190000020177261",
-    "author": "JS_Even_JS",
-    "home_url": "https://segmentfault.com/u/js_even_js",
-    "votes": "8",
-    "rank": 25
-  },
-  {
-    "title": "用一道大厂面试题带你搞懂事件循环机制",
-    "description": "本文涵盖 面试题的引入 对事件循环面试题执行顺序的一些疑问 通过面试题对微任务、事件循环、定时器等对深入理解 结论总结 面试题 面试题如下，大家可以先试着写一下输出结果，然后再看我下面的详细讲解，看看会...",
-    "url": "https://segmentfault.com/a/1190000020159229",
-    "author": "koala",
-    "home_url": "https://segmentfault.com/u/na_5a545653c24d9",
-    "votes": "22",
-    "rank": 26
-  },
-  {
-    "title": "聊聊鉴权那些事",
-    "description": "在系统级项目开发时常常会遇到一个问题就是鉴权，身为一个前端来说可能我们距离鉴权可能比较远，一般来说我们也只是去应用，并没有对权限这一部分进行深入的理解。",
-    "url": "https://segmentfault.com/a/1190000020146855",
-    "author": "Aaron",
-    "home_url": "https://segmentfault.com/u/aaron_59f5c5ee0c93f",
-    "votes": "27",
-    "rank": 27
-  },
-  {
-    "title": "面试被问到Vue?想进一步提升?那就停下来看一下吧",
-    "description": "Vue作为最近最炙手可热的前端框架，其简单的入门方式和功能强大的API是其优点。而同时因为其API的多样性和丰富性，所以他的很多开发方式就和一切基于组件的React不同，如果没有对Vue的API（有一些甚至文档都没提...",
-    "url": "https://segmentfault.com/a/1190000020131403",
-    "author": "Yxaw",
-    "home_url": "https://segmentfault.com/u/yxaw",
-    "votes": "38",
-    "rank": 28
+    "rank": 30
   }
 ]
