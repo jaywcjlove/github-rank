@@ -32,11 +32,13 @@ const pkgPath = path.join(root, 'package.json');
     const pkg = await fs.readJson(pkgPath);
     const version = formatter('YY.MM.DD', new Date);
     console.log(`> version: ${pkg.version} => ${version}`);
-    pkg.version = version;
-    await fs.writeFile(pkgPath, JSON.stringify(pkg, null, 2));
 
     await execute('npm run start');
-    await execute('npm publish');
+    if (version !== pkg.version) {
+      pkg.version = version;
+      await fs.writeFile(pkgPath, JSON.stringify(pkg, null, 2));
+      await execute('npm publish');
+    }
     await execute(`./node_modules/.bin/gh-pages -d web -m 'released v${version}' ${formatter('YYYY/MM/DD HH:mm:ss', new Date)}`);
     await execute('git add .');
     await execute(`git commit -m "released v${version}"`);
