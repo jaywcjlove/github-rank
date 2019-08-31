@@ -1,11 +1,11 @@
 [
   {
-    "title": "聊一聊初中高级工程师的区别",
-    "description": "闲聊的时候就聊到了级别的问题， 我也有一些想法， 结合之前看到的一篇文章，在这里总结一下， 顺便分享给大家。",
-    "url": "https://segmentfault.com/a/1190000020240960",
-    "author": "皮小蛋",
-    "home_url": "https://segmentfault.com/u/scaukk",
-    "votes": "6",
+    "title": "js记录鼠标动作并按发生时间重现",
+    "description": "demo 演示记录鼠标在一个区域内的动作，并记录下来。点击回放时，按时序回放动作,包括移动，点击，拖拽",
+    "url": "https://segmentfault.com/a/1190000020247452",
+    "author": "纤细的一帆风顺",
+    "home_url": "https://segmentfault.com/u/xianxideyifanfengshun",
+    "votes": "1",
     "rank": 1
   },
   {
@@ -14,53 +14,17 @@
     "url": "https://segmentfault.com/a/1190000020202517",
     "author": "皮小蛋",
     "home_url": "https://segmentfault.com/u/scaukk",
-    "votes": "78",
+    "votes": "80",
     "rank": 2
   },
   {
-    "title": "深入了解 JavaScript 内存泄露",
-    "description": "用户一般不会在一个 Web 页面停留比较久，即使有一点内存泄漏，重载页面内存也会跟着释放。而且浏览器也有自动回收内存的机制，所以我们前端其实并没有像 C、C++ 这类语言一样，特别关注内存泄漏的问题。",
-    "url": "https://segmentfault.com/a/1190000020231307",
-    "author": "格西南",
-    "home_url": "https://segmentfault.com/u/nanges",
-    "votes": "9",
+    "title": "Swoole学习之Swoole Task任务(六)",
+    "description": "在Server程序中如果需要执行很耗时的操作，比如一个聊天服务器发送广播，Web服务器中发送邮件。如果直接去执行这些函数就会阻塞当前进程，导致服务器响应变慢。",
+    "url": "https://segmentfault.com/a/1190000020246401",
+    "author": "Corwien",
+    "home_url": "https://segmentfault.com/u/corwien",
+    "votes": "3",
     "rank": 3
-  },
-  {
-    "title": "JS 前20个常用字符串方法及使用方式",
-    "description": "为了回馈读者，《大迁世界》不定期举行(每个月一到三次)，现金抽奖活动，保底200，外加用户赞赏，希望你能成为大迁世界的小锦鲤，快来试试吧",
-    "url": "https://segmentfault.com/a/1190000020204425",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "18",
-    "rank": 4
-  },
-  {
-    "title": "最惨图灵奖得主？C语言之父、开发UNIX系统，逝世的时间却没人知道...",
-    "description": "在各种编程语言当中，C语言因其简洁、有效、通用的特性而始终占据一席之地。自 C语言出现后，以 C语言为根基的 C++、Java 和 C# 等面向对象语言相继诞生，并在各自领域大获成功。",
-    "url": "https://segmentfault.com/a/1190000020242824",
-    "author": "思否编辑部",
-    "home_url": "https://segmentfault.com/u/sifoubianjibu",
-    "votes": "1",
-    "rank": 5
-  },
-  {
-    "title": "细说 Netty 中的粘包和拆包",
-    "description": "确实，我也认为这是个伪命题，tcp这种双工面向流的协议，本来就没有粘拆包的说法，包的界限问题应该需要由上层的应用处理。",
-    "url": "https://segmentfault.com/a/1190000020238448",
-    "author": "空无",
-    "home_url": "https://segmentfault.com/u/kongwu",
-    "votes": "7",
-    "rank": 6
-  },
-  {
-    "title": "axios如何利用promise无痛刷新token",
-    "description": "最近遇到个需求：前端登录后，后端返回token和token有效时间，当token过期时要求用旧token去获取新的token，前端需要做到无痛刷新token，即请求刷新token时要做到用户无感知。",
-    "url": "https://segmentfault.com/a/1190000020210980",
-    "author": "fengxianqi",
-    "home_url": "https://segmentfault.com/u/fengxianqi",
-    "votes": "54",
-    "rank": 7
   },
   {
     "title": "前端20个灵魂拷问 彻底搞明白你就是中级前端工程师 【下篇】",
@@ -68,16 +32,52 @@
     "url": "https://segmentfault.com/a/1190000020207259",
     "author": "Peter谭金杰",
     "home_url": "https://segmentfault.com/u/jerrytanjinjie",
-    "votes": "75",
+    "votes": "85",
+    "rank": 4
+  },
+  {
+    "title": "上线清单 —— 20 个 Laravel 应用性能优化项",
+    "description": "文章转发自专业的Laravel开发者社区，原始链接：[链接] 让我们开始吧！假若你的 laravel 应用已经投入生产环境中。 从第一个用户，到第十，第一百，直到成千上万的用户！慢慢地，随着用户越多，你的网站会越来越...",
+    "url": "https://segmentfault.com/a/1190000020245354",
+    "author": "Charlie_Jade",
+    "home_url": "https://segmentfault.com/u/summerblue",
+    "votes": "6",
+    "rank": 5
+  },
+  {
+    "title": "axios如何利用promise无痛刷新token",
+    "description": "最近遇到个需求：前端登录后，后端返回token和token有效时间，当token过期时要求用旧token去获取新的token，前端需要做到无痛刷新token，即请求刷新token时要做到用户无感知。",
+    "url": "https://segmentfault.com/a/1190000020210980",
+    "author": "fengxianqi",
+    "home_url": "https://segmentfault.com/u/fengxianqi",
+    "votes": "59",
+    "rank": 6
+  },
+  {
+    "title": "JS 前20个常用字符串方法及使用方式",
+    "description": "为了回馈读者，《大迁世界》不定期举行(每个月一到三次)，现金抽奖活动，保底200，外加用户赞赏，希望你能成为大迁世界的小锦鲤，快来试试吧",
+    "url": "https://segmentfault.com/a/1190000020204425",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "24",
+    "rank": 7
+  },
+  {
+    "title": "从技术小白到收获BAT研发offer，分享我的学习经验和感悟（赠送相关学习资料）",
+    "description": "去年秋季参加了校园招聘，有幸拿到了BAT、头条、网易、滴滴、亚马逊、华为等offer，经过研究生两年的学习积累，终于达成了自己的目标，期间也经历了很多，谨以此文，聊表感叹，也会分享很多我的Java学习心得和求...",
+    "url": "https://segmentfault.com/a/1190000020247539",
+    "author": "黄小斜",
+    "home_url": "https://segmentfault.com/u/h2pl",
+    "votes": "2",
     "rank": 8
   },
   {
-    "title": "浅谈C/C++链接库",
-    "description": "2、本文后续会用到linux下nm, ldd命令。nm用于查看文件中的符号, 例如变量, 函数名称。ldd用于查看动态链接库或者可执行文件的依赖库(动态链接库)。",
-    "url": "https://segmentfault.com/a/1190000020240898",
-    "author": "LNMPR源码研究",
-    "home_url": "https://segmentfault.com/u/php7internal",
-    "votes": "1",
+    "title": "深入了解 JavaScript 内存泄露",
+    "description": "用户一般不会在一个 Web 页面停留比较久，即使有一点内存泄漏，重载页面内存也会跟着释放。而且浏览器也有自动回收内存的机制，所以我们前端其实并没有像 C、C++ 这类语言一样，特别关注内存泄漏的问题。",
+    "url": "https://segmentfault.com/a/1190000020231307",
+    "author": "格西南",
+    "home_url": "https://segmentfault.com/u/nanges",
+    "votes": "13",
     "rank": 9
   },
   {
@@ -86,7 +86,7 @@
     "url": "https://segmentfault.com/a/1190000020185194",
     "author": "OBKoro1",
     "home_url": "https://segmentfault.com/u/obkoro1",
-    "votes": "48",
+    "votes": "50",
     "rank": 10
   },
   {
@@ -95,17 +95,26 @@
     "url": "https://segmentfault.com/a/1190000020232460",
     "author": "Peter谭金杰",
     "home_url": "https://segmentfault.com/u/jerrytanjinjie",
-    "votes": "20",
+    "votes": "21",
     "rank": 11
   },
   {
-    "title": "发布-订阅模式和观察者模式真的不一样？",
-    "description": "设计模式并不能直接用来完成代码的编写，而是描述在各种不同情况下，要怎么解决问题的一种方案，它不是一个死的机制，它是一种思想，一种代码的形式。",
-    "url": "https://segmentfault.com/a/1190000020211587",
-    "author": "Clearlove",
-    "home_url": "https://segmentfault.com/u/clearlove07",
-    "votes": "16",
+    "title": "Vue实战—实现商品详情页（12）",
+    "description": "这篇我们来实现商品详情页面： 在首页点击某一商品会展示商品的详细信息。如下图所示： 创建good组件 创建一个组件 good transition 来定义页面展示的形式； 使用v-show与变量showFlag来控制显示与隐藏，ref配合B...",
+    "url": "https://segmentfault.com/a/1190000020245793",
+    "author": "前端大彬哥",
+    "home_url": "https://segmentfault.com/u/dabinge666",
+    "votes": "2",
     "rank": 12
+  },
+  {
+    "title": "Array.from() 五个超好用的用途",
+    "description": "翻译：刘小夕原文链接：[链接] 因水平有限，文中部分翻译可能不够准确，如果你有更好的想法，欢迎在评论区指出。 更多文章可戳: [链接] 任何一种编程语言都具有超出基本用法的功能，它得益于成功的设计和试图去解...",
+    "url": "https://segmentfault.com/a/1190000020221170",
+    "author": "刘小夕",
+    "home_url": "https://segmentfault.com/u/liuyan666",
+    "votes": "22",
+    "rank": 13
   },
   {
     "title": "JavaScript之深入理解闭包",
@@ -113,17 +122,26 @@
     "url": "https://segmentfault.com/a/1190000020237554",
     "author": "云鱼Cloudy",
     "home_url": "https://segmentfault.com/u/cloudyttt",
-    "votes": "6",
-    "rank": 13
+    "votes": "15",
+    "rank": 14
   },
   {
-    "title": "微服务的三种通信方法",
-    "description": "作者：Kyle Galbraith翻译：疯狂的技术宅 原文：[链接] 未经允许严禁转载 在微服务架构的世界中，我们通过一系列服务构建应用。集合中的每项服务都符合以下标准： 松散耦合 可维护和可测试 可以独立部署 微服务架...",
-    "url": "https://segmentfault.com/a/1190000020240248",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "2",
-    "rank": 14
+    "title": "发布-订阅模式和观察者模式真的不一样？",
+    "description": "设计模式并不能直接用来完成代码的编写，而是描述在各种不同情况下，要怎么解决问题的一种方案，它不是一个死的机制，它是一种思想，一种代码的形式。",
+    "url": "https://segmentfault.com/a/1190000020211587",
+    "author": "Clearlove",
+    "home_url": "https://segmentfault.com/u/clearlove07",
+    "votes": "18",
+    "rank": 15
+  },
+  {
+    "title": "Vue面试中，经常会被问到的面试题/知识点(2019改进版)",
+    "description": "MVVM 是 Model-View-ViewModel 的缩写。Model代表数据模型，也可以在Model中定义数据修改和操作的业务逻辑。View 代表UI 组件，它负责将数据模型转化成UI 展现出来。ViewModel 监听模型数据的改变和控制视图行为...",
+    "url": "https://segmentfault.com/a/1190000020181662",
+    "author": "沉静地闪光",
+    "home_url": "https://segmentfault.com/u/007008",
+    "votes": "73",
+    "rank": 16
   },
   {
     "title": "Element ui表格组件+sortablejs实现行拖拽排序",
@@ -132,42 +150,24 @@
     "author": "吃和远方",
     "home_url": "https://segmentfault.com/u/chiheyuanfang",
     "votes": "19",
-    "rank": 15
-  },
-  {
-    "title": "css如何实现n宫格布局?",
-    "description": "常见应用场景 现在的APP界面基本都是大同小异, 宫格布局现在基本成了每个APP必然的存在. 带边框, 常用在\"功能导航\"页面 无边框, 常用在首页分类 设计目标 在scss环境下, 通过mixin实现n宫格, 并且可以支持\"有无边...",
-    "url": "https://segmentfault.com/a/1190000020216215",
-    "author": "铁皮饭盒",
-    "home_url": "https://segmentfault.com/u/russell221",
-    "votes": "22",
-    "rank": 16
-  },
-  {
-    "title": "Array.from() 五个超好用的用途",
-    "description": "翻译：刘小夕原文链接：[链接] 因水平有限，文中部分翻译可能不够准确，如果你有更好的想法，欢迎在评论区指出。 更多文章可戳: [链接] 任何一种编程语言都具有超出基本用法的功能，它得益于成功的设计和试图去解...",
-    "url": "https://segmentfault.com/a/1190000020221170",
-    "author": "刘小夕",
-    "home_url": "https://segmentfault.com/u/liuyan666",
-    "votes": "19",
     "rank": 17
   },
   {
-    "title": "快速入门 Python 数据分析实用指南",
-    "description": "Python 现如今已成为数据分析和数据科学使用上的标准语言和标准平台之一。那么作为一个新手小白，该如何快速入门 Python 数据分析呢？",
-    "url": "https://segmentfault.com/a/1190000020236893",
-    "author": "xiaoxiaozi",
-    "home_url": "https://segmentfault.com/u/xiaoxiaozi",
-    "votes": "4",
+    "title": "解密vue-router: 从源码开始",
+    "description": "前几天笔者看到一个问题：你真的了解vue-router的吗？你知道vue-router的运行原理吗？抱着这样的问题，笔者开始了vue-router的源码探索之旅。本文并没有逐行去深究源码，而是跟着笔者画的流程图来简析每一步的运...",
+    "url": "https://segmentfault.com/a/1190000020245449",
+    "author": "玩弄心里的鬼",
+    "home_url": "https://segmentfault.com/u/lizongyuan",
+    "votes": "3",
     "rank": 18
   },
   {
-    "title": "Vue面试中，经常会被问到的面试题/知识点(2019改进版)",
-    "description": "MVVM 是 Model-View-ViewModel 的缩写。Model代表数据模型，也可以在Model中定义数据修改和操作的业务逻辑。View 代表UI 组件，它负责将数据模型转化成UI 展现出来。ViewModel 监听模型数据的改变和控制视图行为...",
-    "url": "https://segmentfault.com/a/1190000020181662",
-    "author": "沉静地闪光",
-    "home_url": "https://segmentfault.com/u/007008",
-    "votes": "70",
+    "title": "ElasticSearch:组合查询或复合查询",
+    "description": "允许在单独的查询中组合任意数量的查询，指定的查询语句表名哪些部分是必须匹配（must）、应该匹配(should)或不能匹配(must_not)",
+    "url": "https://segmentfault.com/a/1190000020245240",
+    "author": "onlooker",
+    "home_url": "https://segmentfault.com/u/onlooker",
+    "votes": "3",
     "rank": 19
   },
   {
@@ -180,76 +180,22 @@
     "rank": 20
   },
   {
-    "title": "稍微学一下Vuex原理",
-    "description": "Vuex 是一个专为 Vue.js 应用程序开发的状态管理模式。这种集中管理应用状态的模式相比父子组件通信来说，使数据的通信更方便，状态的更改也更加直观。",
-    "url": "https://segmentfault.com/a/1190000020232760",
-    "author": "ST_Pace",
-    "home_url": "https://segmentfault.com/u/st_pace",
-    "votes": "6",
+    "title": "聊一聊初中高级工程师的区别",
+    "description": "闲聊的时候就聊到了级别的问题， 我也有一些想法， 结合之前看到的一篇文章，在这里总结一下， 顺便分享给大家。",
+    "url": "https://segmentfault.com/a/1190000020240960",
+    "author": "皮小蛋",
+    "home_url": "https://segmentfault.com/u/scaukk",
+    "votes": "9",
     "rank": 21
   },
   {
-    "title": "Java 基础 - 并不神奇的泛型",
-    "description": "前阵子给公司新人培训Java 基础相关的一些点，系统整理了一下泛型相关的知识点。特来分享一下。希望能让一些对泛型不熟悉的同学完全掌握Java 泛型的相关知识点。",
-    "url": "https://segmentfault.com/a/1190000020234693",
-    "author": "Richard_Yi",
-    "home_url": "https://segmentfault.com/u/richard_yi",
-    "votes": "6",
+    "title": "css如何实现n宫格布局?",
+    "description": "常见应用场景 现在的APP界面基本都是大同小异, 宫格布局现在基本成了每个APP必然的存在. 带边框, 常用在\"功能导航\"页面 无边框, 常用在首页分类 设计目标 在scss环境下, 通过mixin实现n宫格, 并且可以支持\"有无边...",
+    "url": "https://segmentfault.com/a/1190000020216215",
+    "author": "铁皮饭盒",
+    "home_url": "https://segmentfault.com/u/russell221",
+    "votes": "22",
     "rank": 22
-  },
-  {
-    "title": "wbepack构建速度优化",
-    "description": "使用webpack.DllPlugin优化，其实并没有优化速度，只是把一些不需要经常变更的部分提前构建，之后只需要构建变更的部分就可以了，确实优化了时间",
-    "url": "https://segmentfault.com/a/1190000020237589",
-    "author": "frontoldman",
-    "home_url": "https://segmentfault.com/u/frontoldman",
-    "votes": "3",
-    "rank": 23
-  },
-  {
-    "title": "JS数组基本操作——数组遍历到底有多少种方式？",
-    "description": "源于一次面试，一起面试的同事问面试者的一个问题：数组遍历有哪些方式？想来数组操作是平时开发中的常用技能，面试者吞吞吐吐大概就说出了两种方式吧，最后就淘汰掉啦（面试者是个很认真的妹纸，面试都在简单做...",
-    "url": "https://segmentfault.com/a/1190000020233039",
-    "author": "木马啊",
-    "home_url": "https://segmentfault.com/u/mumaa",
-    "votes": "8",
-    "rank": 24
-  },
-  {
-    "title": "浅谈react context",
-    "description": "好久不见！（两个多月没更新内容，惭愧了三分钟）。接下来的文章主要是开始对react的内容做一些整理（疯狂立Flag）。本文的对象是Context.",
-    "url": "https://segmentfault.com/a/1190000020217926",
-    "author": "安歌",
-    "home_url": "https://segmentfault.com/u/linlinma",
-    "votes": "14",
-    "rank": 25
-  },
-  {
-    "title": "前端优化之 Http 相关优化总结",
-    "description": "这个是最根本的途径，假设真的有个 10 几兆以上的静态资源文件，不减少大小的情况下，即使优化做到了极致，用户体验也好不了哪里去。",
-    "url": "https://segmentfault.com/a/1190000020187933",
-    "author": "格西南",
-    "home_url": "https://segmentfault.com/u/nanges",
-    "votes": "14",
-    "rank": 26
-  },
-  {
-    "title": "怎么获取Thread返回值？（FutureTask解读）",
-    "description": "偶然间看到这个问题，对于标配jdk1.8的我们是不是分分钟拍出答案？答曰：简单，Callable，完美解决，下一题……",
-    "url": "https://segmentfault.com/a/1190000020227235",
-    "author": "暗夜君王",
-    "home_url": "https://segmentfault.com/u/liuzijian",
-    "votes": "5",
-    "rank": 27
-  },
-  {
-    "title": "一键部署 Spring Boot 到远程 Docker 容器，就是这么秀！",
-    "description": "不知道各位小伙伴在生产环境都是怎么部署 Spring Boot 的，打成 jar 直接一键运行？打成 war 扔到 Tomcat 容器中运行？不过据松哥了解，容器化部署应该是目前的主流方案。",
-    "url": "https://segmentfault.com/a/1190000020237075",
-    "author": "江南一点雨",
-    "home_url": "https://segmentfault.com/u/lenve",
-    "votes": "3",
-    "rank": 28
   },
   {
     "title": "Swoole学习之网络通信引擎WebSocket服务(五)",
@@ -257,8 +203,17 @@
     "url": "https://segmentfault.com/a/1190000020233868",
     "author": "Corwien",
     "home_url": "https://segmentfault.com/u/corwien",
-    "votes": "2",
-    "rank": 29
+    "votes": "4",
+    "rank": 23
+  },
+  {
+    "title": "细说 Netty 中的粘包和拆包",
+    "description": "确实，我也认为这是个伪命题，tcp这种双工面向流的协议，本来就没有粘拆包的说法，包的界限问题应该需要由上层的应用处理。",
+    "url": "https://segmentfault.com/a/1190000020238448",
+    "author": "空无",
+    "home_url": "https://segmentfault.com/u/kongwu",
+    "votes": "11",
+    "rank": 24
   },
   {
     "title": "flex布局入门",
@@ -266,7 +221,52 @@
     "url": "https://segmentfault.com/a/1190000020232010",
     "author": "搁浅",
     "home_url": "https://segmentfault.com/u/geqian_5c24ba8b4aa9e",
-    "votes": "9",
+    "votes": "11",
+    "rank": 25
+  },
+  {
+    "title": "【JVM从小白学成大佬】5.垃圾收集器及内存分配策略",
+    "description": "前面介绍了垃圾回收算法，接下来我们介绍垃圾收集器和内存分配的策略。有没有一种牛逼的收集器像银弹一样适配所有场景？很明显，不可能有，不然我也没必要单独搞一篇文章来介绍垃圾收集器了。熟悉不同收集器的优...",
+    "url": "https://segmentfault.com/a/1190000020222413",
+    "author": "猿人谷",
+    "home_url": "https://segmentfault.com/u/yuanrengu",
+    "votes": "5",
+    "rank": 26
+  },
+  {
+    "title": "稍微学一下Vuex原理",
+    "description": "Vuex 是一个专为 Vue.js 应用程序开发的状态管理模式。这种集中管理应用状态的模式相比父子组件通信来说，使数据的通信更方便，状态的更改也更加直观。",
+    "url": "https://segmentfault.com/a/1190000020232760",
+    "author": "ST_Pace",
+    "home_url": "https://segmentfault.com/u/st_pace",
+    "votes": "8",
+    "rank": 27
+  },
+  {
+    "title": "JS数组基本操作——数组遍历到底有多少种方式？",
+    "description": "源于一次面试，一起面试的同事问面试者的一个问题：数组遍历有哪些方式？想来数组操作是平时开发中的常用技能，面试者吞吞吐吐大概就说出了两种方式吧，最后就淘汰掉啦（面试者是个很认真的妹纸，面试都在简单做...",
+    "url": "https://segmentfault.com/a/1190000020233039",
+    "author": "木马啊",
+    "home_url": "https://segmentfault.com/u/mumaa",
+    "votes": "11",
+    "rank": 28
+  },
+  {
+    "title": "浅谈react context",
+    "description": "好久不见！（两个多月没更新内容，惭愧了三分钟）。接下来的文章主要是开始对react的内容做一些整理（疯狂立Flag）。本文的对象是Context.",
+    "url": "https://segmentfault.com/a/1190000020217926",
+    "author": "安歌",
+    "home_url": "https://segmentfault.com/u/linlinma",
+    "votes": "16",
+    "rank": 29
+  },
+  {
+    "title": "接口文档神器YApi",
+    "description": "如果你想要一个好用的接口管理平台，那么你需要YApi或swagger。YApi支持各种数据导入，实现无缝迁移。",
+    "url": "https://segmentfault.com/a/1190000020220258",
+    "author": "aoping",
+    "home_url": "https://segmentfault.com/u/aoping",
+    "votes": "15",
     "rank": 30
   }
 ]

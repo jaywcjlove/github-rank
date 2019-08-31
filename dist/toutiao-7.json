@@ -40,14 +40,14 @@
     "homeUrl": "/subjects/158069"
   },
   {
-    "title": "被神话的 Linux，一文带你看清 Linux 在多核可扩展性设计上的不足",
-    "description": "本文接着《有关微内核OS史上最透彻一篇 - 写于华为鸿蒙发布一周之际》 继续写下去。我其实并不想讨论微内核的概念，也并不擅长去阐述概念，这是百科全书的事，但无奈最近由于鸿蒙的发布导...",
-    "votes": "27",
-    "url": "/k/s2p82pv",
-    "avatar": "https://img.toutiao.io/subject%2Fe28330e25e7c43019c600fbe720c1911",
-    "avatarAlt": "2048 - 独家号",
-    "subjectName": "2048",
-    "homeUrl": "/subjects/3216"
+    "title": "一道字节跳动的算法面试题，你能做出来吗？",
+    "description": "前几天有个小伙伴去面试字节跳动，面试官问了他一道链表相关的算法题，不过他一时之间没做出来，就来问了我一下，感觉这道题还不错，拿来讲一讲。01 题目这其实是一道变形的链表反转题，大致...",
+    "votes": "25",
+    "url": "/k/8elkm2n",
+    "avatar": "https://img.toutiao.io/subject%2F26be1738e95242c6870b70b04cd4fb3d",
+    "avatarAlt": "街道-书记的独家号 - 独家号",
+    "subjectName": "街道-书记的独家号",
+    "homeUrl": "/subjects/261335"
   },
   {
     "title": "面试官问我同步容器（如 Vector）的所有操作一定是线程安全的吗？我懵了",
@@ -58,26 +58,6 @@
     "avatarAlt": "JAVA干货 - 独家号",
     "subjectName": "JAVA干货",
     "homeUrl": "/subjects/51515"
-  },
-  {
-    "title": "一道字节跳动的算法面试题，你能做出来吗？",
-    "description": "前几天有个小伙伴去面试字节跳动，面试官问了他一道链表相关的算法题，不过他一时之间没做出来，就来问了我一下，感觉这道题还不错，拿来讲一讲。01 题目这其实是一道变形的链表反转题，大致...",
-    "votes": "24",
-    "url": "/k/8elkm2n",
-    "avatar": "https://img.toutiao.io/subject%2F26be1738e95242c6870b70b04cd4fb3d",
-    "avatarAlt": "街道-书记的独家号 - 独家号",
-    "subjectName": "街道-书记的独家号",
-    "homeUrl": "/subjects/261335"
-  },
-  {
-    "title": "那些年在百度牛人身上学到的东西：陆奇",
-    "description": "自从2014年4月加入百度，至今已经有5年多了。在百度遇到了非常多的牛人，从中也学到了非常多的东西，接下来我重点挑选其中的5个人与大家分享一下。 百度同学最敬佩的领袖：陆奇 兼职做...",
-    "votes": "22",
-    "url": "/k/wwt7gwy",
-    "avatar": "https://img.toutiao.io/subject%2F876f49e759bc4a04a201395b306c001d",
-    "avatarAlt": "每天关注一点点 - 独家号",
-    "subjectName": "每天关注一点点",
-    "homeUrl": "/subjects/416037"
   },
   {
     "title": "读透《阿里巴巴数据中台实践》，其到底有什么高明之处？",
@@ -100,9 +80,19 @@
     "homeUrl": "/subjects/4"
   },
   {
+    "title": "看完这篇还不懂缓存穿透，我跪搓衣板，99% 程序员已收藏",
+    "description": "点击▲关注 “爪哇笔记”   给公众号标星置顶 更多精彩 第一时间直达  前言 在博客系统中，为了提升响应速度，加入了 Redis 缓存，把文章主键 ID 作为 key 值去缓存查...",
+    "votes": "20",
+    "url": "/k/efi4hly",
+    "avatar": "https://img.toutiao.io/subject%2F12be27b43f7e4d3eabab4a73bf1f9691",
+    "avatarAlt": "爪哇笔记 - 独家号",
+    "subjectName": "爪哇笔记",
+    "homeUrl": "/subjects/211218"
+  },
+  {
     "title": "一周 IT 技术干货（码农周刊第 276 期）",
     "description": "程序设计架构师技术图谱 头条精选 助你早日成为架构师！我的一年中台实战录 溜溜技术 本文作者所在的团队用一年时间搭建中台，因为公司战略和组织架构调整，中台项目被停止了，但是其间有太...",
-    "votes": "19",
+    "votes": "20",
     "url": "/k/xa8ww94",
     "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
     "avatarAlt": "头条精选 - 独家号",
@@ -110,14 +100,14 @@
     "homeUrl": "/subjects/4"
   },
   {
-    "title": "缓存技术使用的实践与思考",
-    "description": "点击上方蓝字,关注猿天地！ 1. 导读 按照现在流行的互联网分层架构模型，最简单的架构当属Web响应层+DB存储层的架构。从最开始的单机混合部署Web和DB，到后来将二者拆分到不同...",
-    "votes": "19",
-    "url": "/k/azb1xfs",
-    "avatar": "https://img.toutiao.io/subject%2Ffcd1137867a2413880689043418675a7",
-    "avatarAlt": "猿天地 - 独家号",
-    "subjectName": "猿天地",
-    "homeUrl": "/subjects/6491"
+    "title": "Service Mesh (k8s & Istio) 的那些事儿",
+    "description": "前言:三十而立后，琐碎的事情多了起来，不好抽出时间去做技术分享。记得年初那会还说要分享下raft的原理和实践，结果次次爽约。但我的github和技术文章还在持续的更新，我个人感觉专...",
+    "votes": "17",
+    "url": "/k/q7xx8jk",
+    "avatar": "https://img.toutiao.io/subject%2F024d7591122e4b29afa7a68604538ac0",
+    "avatarAlt": "峰云就她了 - 独家号",
+    "subjectName": "峰云就她了",
+    "homeUrl": "/subjects/310300"
   },
   {
     "title": "从今天开始，成为一名了不起的 JavaScript 工程师",
@@ -128,26 +118,6 @@
     "avatarAlt": "前端到js全栈再到架构的成长之路 - 独家号",
     "subjectName": "前端到js全栈再到架构的成长之路",
     "homeUrl": "/subjects/11510"
-  },
-  {
-    "title": "Service Mesh (k8s & Istio) 的那些事儿",
-    "description": "前言:三十而立后，琐碎的事情多了起来，不好抽出时间去做技术分享。记得年初那会还说要分享下raft的原理和实践，结果次次爽约。但我的github和技术文章还在持续的更新，我个人感觉专...",
-    "votes": "16",
-    "url": "/k/q7xx8jk",
-    "avatar": "https://img.toutiao.io/subject%2F024d7591122e4b29afa7a68604538ac0",
-    "avatarAlt": "峰云就她了 - 独家号",
-    "subjectName": "峰云就她了",
-    "homeUrl": "/subjects/310300"
-  },
-  {
-    "title": "看完这篇还不懂缓存穿透，我跪搓衣板，99% 程序员已收藏",
-    "description": "点击▲关注 “爪哇笔记”   给公众号标星置顶 更多精彩 第一时间直达  前言 在博客系统中，为了提升响应速度，加入了 Redis 缓存，把文章主键 ID 作为 key 值去缓存查...",
-    "votes": "15",
-    "url": "/k/efi4hly",
-    "avatar": "https://img.toutiao.io/subject%2F12be27b43f7e4d3eabab4a73bf1f9691",
-    "avatarAlt": "爪哇笔记 - 独家号",
-    "subjectName": "爪哇笔记",
-    "homeUrl": "/subjects/211218"
   },
   {
     "title": "使用 GitHub Actions 自动化构建 Golang 应用",
@@ -190,13 +160,43 @@
     "homeUrl": "/subjects/84785"
   },
   {
-    "title": "别轻易给自己贴标签",
-    "description": " 本文共有 5500 字 如果感觉文章太长 那是因为留言太多  我经常收到来自读者们的求助。 他们的问题往往是这样的： 我觉得自己缺乏自信，请问怎么样才能培养自信？ 我感觉有社交障...",
+    "title": "AI 研发工程师成长指南",
+    "description": "AI研发工程师成长指南本文为数据茶水间群友原创，经授权在本公众号发表。关于作者：Japson。某人工智能公司AI平台研发工程师，专注于AI工程化及场景落地。持续学习中，期望与大家多...",
     "votes": "13",
-    "url": "/k/cdabq1p",
-    "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
-    "avatarAlt": "头条精选 - 独家号",
-    "subjectName": "头条精选",
-    "homeUrl": "/subjects/4"
+    "url": "/k/o8vaesh",
+    "avatar": "https://img.toutiao.io/subject%2Fd260a17b1b33411d9e18db18e1f1a0f4",
+    "avatarAlt": "算法猿的成长 - 独家号",
+    "subjectName": "算法猿的成长",
+    "homeUrl": "/subjects/1584"
+  },
+  {
+    "title": "Java 应用监测（三）：这些命令行工具你掌握了吗",
+    "description": "tags: java, troubleshooting, monitor,jvm一句话概括：原来jdk自带的命令行工具如此好用，本文将详细介绍。1 引言监测java应用，最方便的就...",
+    "votes": "12",
+    "url": "/k/99mewp2",
+    "avatar": "https://img.toutiao.io/subject%2F81bac1d8c81c4523a1037648a39d6ae3",
+    "avatarAlt": "mason技术记录 - 独家号",
+    "subjectName": "mason技术记录",
+    "homeUrl": "/subjects/24970"
+  },
+  {
+    "title": "Dubbo 流量上线时的非平滑问题",
+    "description": "点击上方蓝色字关注我们~前言笔者最近解决了一个困扰了业务系统很久的问题。 这个问题只在发布时出现，每次只影响一两次调用，相较于其它的问题来说，这个问题有点不够受重视。 由于种种原因...",
+    "votes": "12",
+    "url": "/k/073bv9k",
+    "avatar": "https://img.toutiao.io/subject%2F445f12f30e3940b2b52eac3d48d07389",
+    "avatarAlt": "搬运工来架构 - 独家号",
+    "subjectName": "搬运工来架构",
+    "homeUrl": "/subjects/176399"
+  },
+  {
+    "title": "Golang 实现单机百万长连接服务：美图的三年优化经验",
+    "description": "导读：美图长连接服务历时三年，在内存优化上积累比较丰富的实践经验，本文将会介绍我们团队这些年在内存优化道路上做的一些尝试。  作者简介：王鸿佳，系统研发工程师，现任职于美图公司，主...",
+    "votes": "12",
+    "url": "/k/ycc0pxy",
+    "avatar": "https://img.toutiao.io/subject%2F876f49e759bc4a04a201395b306c001d",
+    "avatarAlt": "每天关注一点点 - 独家号",
+    "subjectName": "每天关注一点点",
+    "homeUrl": "/subjects/416037"
   }
 ]
