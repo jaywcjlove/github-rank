@@ -2,22 +2,12 @@
   {
     "title": "终于找到可以一文多发的平台了",
     "description": " 你来了~  openwrite.cn 一文多发平台有时候自己辛苦写了几个小时的技术文章，被爬虫抓走。自己去全平台一个一个发，又过于麻烦。而且每个平台都不一样，发文同步很困难。那么...",
-    "votes": "45",
+    "votes": "46",
     "url": "/k/sq2x7uf",
     "avatar": "https://img.toutiao.io/subject%2Fbdb189abc2894fa1bb7a090d9d64f408",
     "avatarAlt": "SpringForAll社区 - 独家号",
     "subjectName": "SpringForAll社区",
     "homeUrl": "/subjects/2500"
-  },
-  {
-    "title": "如何优雅地进行重试",
-    "description": "本文口味：冰镇杨梅 预计阅读：20分钟0|1说明 最近公司在搞活动，需要依赖一个第三方接口，测试阶段并没有什么异常状况，但上线后发现依赖的接口有时候会因为内部错误而返回系统异常，虽...",
-    "votes": "43",
-    "url": "/k/rhskkte",
-    "avatar": "https://img.toutiao.io/subject%2Ffcd1137867a2413880689043418675a7",
-    "avatarAlt": "猿天地 - 独家号",
-    "subjectName": "猿天地",
-    "homeUrl": "/subjects/6491"
   },
   {
     "title": "为什么技术团队领导者多是后台开发人员",
@@ -28,16 +18,6 @@
     "avatarAlt": "大龄程序员笔记 - 独家号",
     "subjectName": "大龄程序员笔记",
     "homeUrl": "/subjects/137286"
-  },
-  {
-    "title": "大龄程序员技术管理路上的悲喜总结",
-    "description": "本文仅仅是对自己作为一个普通大龄开发者的一些技术与管理的总结。不喜勿喷。谢谢！生在中国这片热土，我们做程序开发的人要面临很多的挑战。只要生命不息，挑战就永远不会停止。比如最近疯传的...",
-    "votes": "30",
-    "url": "/k/spo7w8w",
-    "avatar": "https://img.toutiao.io/subject%2F3f39bc56fe194d9f8bd25e9ef71016cc",
-    "avatarAlt": "PHP 解说 - 独家号",
-    "subjectName": "PHP 解说",
-    "homeUrl": "/subjects/158069"
   },
   {
     "title": "一道字节跳动的算法面试题，你能做出来吗？",
@@ -60,6 +40,16 @@
     "homeUrl": "/subjects/51515"
   },
   {
+    "title": "看完这篇还不懂缓存穿透，我跪搓衣板，99% 程序员已收藏",
+    "description": "点击▲关注 “爪哇笔记”   给公众号标星置顶 更多精彩 第一时间直达  前言 在博客系统中，为了提升响应速度，加入了 Redis 缓存，把文章主键 ID 作为 key 值去缓存查...",
+    "votes": "22",
+    "url": "/k/efi4hly",
+    "avatar": "https://img.toutiao.io/subject%2F12be27b43f7e4d3eabab4a73bf1f9691",
+    "avatarAlt": "爪哇笔记 - 独家号",
+    "subjectName": "爪哇笔记",
+    "homeUrl": "/subjects/211218"
+  },
+  {
     "title": "读透《阿里巴巴数据中台实践》，其到底有什么高明之处？",
     "description": "这是傅一平的第296篇原创作者：傅一平个人微信：fuyipingmnb最近阿里巴巴分享了《阿里巴巴数据中台实践》这个PPT（自行搜索原始文章），对于数据中台的始作俑者，还是要怀着巨...",
     "votes": "21",
@@ -72,22 +62,12 @@
   {
     "title": "低代码：下一次 IT 技术革命？",
     "description": "文 | 陈绍元图片来源 | pexelIT技术支撑了全球信息化浪潮，然而软件开发效率却难以像摩尔定律一样快速提升，以至于成为瓶颈。近几年，低代码领域发展迅速，赛道跑出了超10亿美元...",
-    "votes": "21",
+    "votes": "20",
     "url": "/k/x6y7u2v",
     "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
     "avatarAlt": "头条精选 - 独家号",
     "subjectName": "头条精选",
     "homeUrl": "/subjects/4"
-  },
-  {
-    "title": "看完这篇还不懂缓存穿透，我跪搓衣板，99% 程序员已收藏",
-    "description": "点击▲关注 “爪哇笔记”   给公众号标星置顶 更多精彩 第一时间直达  前言 在博客系统中，为了提升响应速度，加入了 Redis 缓存，把文章主键 ID 作为 key 值去缓存查...",
-    "votes": "20",
-    "url": "/k/efi4hly",
-    "avatar": "https://img.toutiao.io/subject%2F12be27b43f7e4d3eabab4a73bf1f9691",
-    "avatarAlt": "爪哇笔记 - 独家号",
-    "subjectName": "爪哇笔记",
-    "homeUrl": "/subjects/211218"
   },
   {
     "title": "一周 IT 技术干货（码农周刊第 276 期）",
@@ -98,6 +78,16 @@
     "avatarAlt": "头条精选 - 独家号",
     "subjectName": "头条精选",
     "homeUrl": "/subjects/4"
+  },
+  {
+    "title": "压测工具如何选择？ab、locust、Jmeter、go 压测工具（单台机器 100w 连接压测实战）",
+    "description": "本文介绍压测是什么，解释压测的专属名词，教大家如何计算压测指标。介绍市面上的常见压测工具(ab、locust、Jmeter、go实现的压测工具、云压测)，对比这些压测工具，教大家如...",
+    "votes": "19",
+    "url": "/k/mp7xsz2",
+    "avatar": "https://img.toutiao.io/subject%2Fb9c4695b7a8145249294ef90e20a3b05",
+    "avatarAlt": "link1st的独家号 - 独家号",
+    "subjectName": "link1st的独家号",
+    "homeUrl": "/subjects/418659"
   },
   {
     "title": "Service Mesh (k8s & Istio) 的那些事儿",
@@ -130,6 +120,16 @@
     "homeUrl": "/subjects/268333"
   },
   {
+    "title": "Golang 实现单机百万长连接服务：美图的三年优化经验",
+    "description": "导读：美图长连接服务历时三年，在内存优化上积累比较丰富的实践经验，本文将会介绍我们团队这些年在内存优化道路上做的一些尝试。  作者简介：王鸿佳，系统研发工程师，现任职于美图公司，主...",
+    "votes": "14",
+    "url": "/k/ycc0pxy",
+    "avatar": "https://img.toutiao.io/subject%2F876f49e759bc4a04a201395b306c001d",
+    "avatarAlt": "每天关注一点点 - 独家号",
+    "subjectName": "每天关注一点点",
+    "homeUrl": "/subjects/416037"
+  },
+  {
     "title": "明白了，原来 Go web 框架中的中间件都是这样实现的",
     "description": "这篇文章想谈谈Go的装饰器模式、pipeline(filter)模式以及常见web框架中的中间件的实现方式。 修饰模式修饰模式是常见的一种设计模式，是面向对象编程领域中，一种动态地...",
     "votes": "14",
@@ -150,6 +150,16 @@
     "homeUrl": "/subjects/416733"
   },
   {
+    "title": "Dubbo 流量上线时的非平滑问题",
+    "description": "点击上方蓝色字关注我们~前言笔者最近解决了一个困扰了业务系统很久的问题。 这个问题只在发布时出现，每次只影响一两次调用，相较于其它的问题来说，这个问题有点不够受重视。 由于种种原因...",
+    "votes": "13",
+    "url": "/k/073bv9k",
+    "avatar": "https://img.toutiao.io/subject%2F445f12f30e3940b2b52eac3d48d07389",
+    "avatarAlt": "搬运工来架构 - 独家号",
+    "subjectName": "搬运工来架构",
+    "homeUrl": "/subjects/176399"
+  },
+  {
     "title": "Web 多媒体开发指南",
     "description": "一般接触音视频开发的前端比较少，但实际里面涉及的知识点非常多，因此做一个脑图，帮助有兴趣的同学学习和研究相关知识点。  基本Web 多媒体开发覆盖非常多的方面，其中，视频，音频，以...",
     "votes": "13",
@@ -160,6 +170,26 @@
     "homeUrl": "/subjects/84785"
   },
   {
+    "title": "该不该提前和领导沟通离职意向？",
+    "description": " 前几天和大学同学聚会，聊起她的近况，说起她正在为何时提出辞职而感到发愁。原来她们单位有个已入职3年的女孩，因为有结婚后辞职的打算，不知道怎么就传到领导耳朵里，距结婚期还有半年的时...",
+    "votes": "13",
+    "url": "/k/6y3za85",
+    "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
+    "avatarAlt": "头条精选 - 独家号",
+    "subjectName": "头条精选",
+    "homeUrl": "/subjects/4"
+  },
+  {
+    "title": "当代互联网精英速成指南（1 分钟速成版）",
+    "description": "有没有感觉无法跟上这个互联网时代？是否还在为错过各种风口而懊悔不已？会不会在与行业精英交流时一头雾水？可感觉到一眨眼就有新的拗口词出现？是不是厌倦了永远当一个热点跟随者？没关系！只...",
+    "votes": "13",
+    "url": "/k/2vt7zg3",
+    "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
+    "avatarAlt": "头条精选 - 独家号",
+    "subjectName": "头条精选",
+    "homeUrl": "/subjects/4"
+  },
+  {
     "title": "AI 研发工程师成长指南",
     "description": "AI研发工程师成长指南本文为数据茶水间群友原创，经授权在本公众号发表。关于作者：Japson。某人工智能公司AI平台研发工程师，专注于AI工程化及场景落地。持续学习中，期望与大家多...",
     "votes": "13",
@@ -168,35 +198,5 @@
     "avatarAlt": "算法猿的成长 - 独家号",
     "subjectName": "算法猿的成长",
     "homeUrl": "/subjects/1584"
-  },
-  {
-    "title": "Java 应用监测（三）：这些命令行工具你掌握了吗",
-    "description": "tags: java, troubleshooting, monitor,jvm一句话概括：原来jdk自带的命令行工具如此好用，本文将详细介绍。1 引言监测java应用，最方便的就...",
-    "votes": "12",
-    "url": "/k/99mewp2",
-    "avatar": "https://img.toutiao.io/subject%2F81bac1d8c81c4523a1037648a39d6ae3",
-    "avatarAlt": "mason技术记录 - 独家号",
-    "subjectName": "mason技术记录",
-    "homeUrl": "/subjects/24970"
-  },
-  {
-    "title": "Dubbo 流量上线时的非平滑问题",
-    "description": "点击上方蓝色字关注我们~前言笔者最近解决了一个困扰了业务系统很久的问题。 这个问题只在发布时出现，每次只影响一两次调用，相较于其它的问题来说，这个问题有点不够受重视。 由于种种原因...",
-    "votes": "12",
-    "url": "/k/073bv9k",
-    "avatar": "https://img.toutiao.io/subject%2F445f12f30e3940b2b52eac3d48d07389",
-    "avatarAlt": "搬运工来架构 - 独家号",
-    "subjectName": "搬运工来架构",
-    "homeUrl": "/subjects/176399"
-  },
-  {
-    "title": "Golang 实现单机百万长连接服务：美图的三年优化经验",
-    "description": "导读：美图长连接服务历时三年，在内存优化上积累比较丰富的实践经验，本文将会介绍我们团队这些年在内存优化道路上做的一些尝试。  作者简介：王鸿佳，系统研发工程师，现任职于美图公司，主...",
-    "votes": "12",
-    "url": "/k/ycc0pxy",
-    "avatar": "https://img.toutiao.io/subject%2F876f49e759bc4a04a201395b306c001d",
-    "avatarAlt": "每天关注一点点 - 独家号",
-    "subjectName": "每天关注一点点",
-    "homeUrl": "/subjects/416037"
   }
 ]
