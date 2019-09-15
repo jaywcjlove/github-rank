@@ -12,7 +12,7 @@
   {
     "title": "金九银十面试季来临，最新 BATJ 面试资料分享给你",
     "description": "金九银十，每年9、10月份各大互联网公司都会周期性地发生人事变动，无论是刚进入社会的职场菜鸟，还是准备跳槽的老手，都想在这个时候获得新的工作，或迎来晋升涨薪的最佳机会。 不同于往年...",
-    "votes": "140",
+    "votes": "142",
     "url": "/k/8xbjgw2",
     "avatar": "https://img.toutiao.io/subject%2Fd62ae4a6b08244b1b8422989109cdb5f",
     "avatarAlt": "公众号：Java技术zhai - 独家号",
@@ -72,12 +72,32 @@
   {
     "title": "如何优雅地进行重试",
     "description": "本文口味：冰镇杨梅 预计阅读：20分钟0|1说明 最近公司在搞活动，需要依赖一个第三方接口，测试阶段并没有什么异常状况，但上线后发现依赖的接口有时候会因为内部错误而返回系统异常，虽...",
-    "votes": "45",
+    "votes": "46",
     "url": "/k/rhskkte",
     "avatar": "https://img.toutiao.io/subject%2Ffcd1137867a2413880689043418675a7",
     "avatarAlt": "猿天地 - 独家号",
     "subjectName": "猿天地",
     "homeUrl": "/subjects/6491"
+  },
+  {
+    "title": "每秒 100W 请求，12306 秒杀业务，架构如何优化？",
+    "description": "如《同样是高并发，QQ/微博/12306的架构难度一样吗？》一文所述，同样是高并发场景，三类业务的架构挑战不一样：QQ类业务，用户主要读写自己的数据，访问基本带有uid属性，数据访...",
+    "votes": "44",
+    "url": "/k/3snpwix",
+    "avatar": "https://img.toutiao.io/subject%2F9d058a96b0484f65a93e575731c3dbf3",
+    "avatarAlt": "落北的mark簿 - 独家号",
+    "subjectName": "落北的mark簿",
+    "homeUrl": "/subjects/123823"
+  },
+  {
+    "title": "在浏览器输入 URL 回车之后发生了什么（超详细版）",
+    "description": "这个问题已经是老生常谈了，更是经常被作为面试的压轴题出现，网上也有很多文章，但最近闲的无聊，然后就自己做了一篇笔记，感觉比之前理解更透彻了。 前言这个问题已经是老生常谈了，更是经常...",
+    "votes": "40",
+    "url": "/k/4b96i5m",
+    "avatar": "https://img.toutiao.io/user/ce593a7c52194f849802ee51bea65ea3/thumb",
+    "avatarAlt": "4Ark的独家号 - 独家号",
+    "subjectName": "4Ark的独家号",
+    "homeUrl": "/subjects/388286"
   },
   {
     "title": "既生 synchronized，何生 volatile",
@@ -90,14 +110,14 @@
     "homeUrl": "/subjects/51515"
   },
   {
-    "title": "在浏览器输入 URL 回车之后发生了什么（超详细版）",
-    "description": "这个问题已经是老生常谈了，更是经常被作为面试的压轴题出现，网上也有很多文章，但最近闲的无聊，然后就自己做了一篇笔记，感觉比之前理解更透彻了。 前言这个问题已经是老生常谈了，更是经常...",
-    "votes": "38",
-    "url": "/k/4b96i5m",
-    "avatar": "https://img.toutiao.io/user/ce593a7c52194f849802ee51bea65ea3/thumb",
-    "avatarAlt": "4Ark的独家号 - 独家号",
-    "subjectName": "4Ark的独家号",
-    "homeUrl": "/subjects/388286"
+    "title": "何解？浪费一年时间，我学了假人工智能",
+    "description": "怎样成为一名优秀的AI工程师？  这是很多从事人工智能学术研究和产品研发的同学都关心的一个问题。面对市场对人才的大量需求与供给的严重不足，以及高薪水的诱惑，越来越多的人开始学习这个...",
+    "votes": "37",
+    "url": "/k/qx5epwl",
+    "avatar": "https://img.toutiao.io/subject%2Fd62ae4a6b08244b1b8422989109cdb5f",
+    "avatarAlt": "公众号：Java技术zhai - 独家号",
+    "subjectName": "公众号：Java技术zhai",
+    "homeUrl": "/subjects/342006"
   },
   {
     "title": "为什么技术团队领导者多是后台开发人员",
@@ -112,7 +132,7 @@
   {
     "title": "五年总结：过往记忆大数据原创精选",
     "description": "今年是我创建这个微信公众号的第五年，五年来，收获了6.8万粉丝。这个数字，在自媒体圈子，属于十八线小规模的那种，但是在纯技术圈，还是不错的成绩，我很欣慰。我花在这个号上面的时间挺多...",
-    "votes": "33",
+    "votes": "34",
     "url": "/k/uo8qx8n",
     "avatar": "https://img.toutiao.io/user/326cbb836e8245c6a3a1ac0d4b121bf8/thumb",
     "avatarAlt": "过往记忆大数据 - 独家号",
@@ -120,34 +140,14 @@
     "homeUrl": "/subjects/43182"
   },
   {
-    "title": "最专业的对 “鸿蒙” 的评论",
-    "description": "希望我可以带大家认识一个不同的鸿蒙OS。鸿蒙的发布会什么软总线、什么分布式云里雾里。想理解这些名词，只需要理解微内核即可。关于微内核，这个东西一直是学界的宠儿，并不是业界的宠儿。以...",
-    "votes": "33",
-    "url": "/k/p1c47yq",
-    "avatar": "https://img.toutiao.io/subject%2F4c72971aff5c4e73821ac59b18ff5dd6",
-    "avatarAlt": "程序员的朋友圈 - 独家号",
-    "subjectName": "程序员的朋友圈",
-    "homeUrl": "/subjects/378"
-  },
-  {
-    "title": "说说分库分表的一个最佳实践",
-    "description": "概述分布式数据库已经流行好多年，产品非常众多，其中分布式数据库中间件使用场景最广。本文主要是总结如何基于分布式数据库中间件做数据库架构设计，以充分发挥它的分布式能力。各个中间件产品...",
-    "votes": "33",
-    "url": "/k/8nkwg4b",
-    "avatar": "https://img.toutiao.io/user/4cb9bca9530d44878bd1e7cee7309e5f/thumb",
-    "avatarAlt": "u539780的独家号 - 独家号",
-    "subjectName": "u539780的独家号",
-    "homeUrl": "/subjects/415976"
-  },
-  {
-    "title": "彻底搞懂 MySQL 的索引",
-    "description": "前言MyISAM和InnoDB是MySQL最常用的两个存储引擎，本文将进行详尽的介绍和对比。对于MySQL其余几种存储引擎，请读者自行搜索学习。本文会图解两种引擎的索引结构区别，然...",
-    "votes": "31",
-    "url": "/k/dw93t7x",
-    "avatar": "https://img.toutiao.io/subject%2F85512c92aa814f468f6b429b6eb70ba8",
-    "avatarAlt": "服务器后端开发 - 独家号",
-    "subjectName": "服务器后端开发",
-    "homeUrl": "/subjects/375484"
+    "title": "面试官：讲讲 DNS 的原理？",
+    "description": "引言今天我们来聊聊DNS。 所谓域名系统（Domain Name System缩写DNS，Domain Name被译为域名）是因特网的一项核心服务，它作为可以将域名和IP地址相互映...",
+    "votes": "32",
+    "url": "/k/u7t6dj1",
+    "avatar": "https://img.toutiao.io/subject%2F8e44d1a2390944c08c6170906cfc0856",
+    "avatarAlt": "跨端&全栈 - 独家号",
+    "subjectName": "跨端&全栈",
+    "homeUrl": "/subjects/7076"
   },
   {
     "title": "大龄程序员技术管理路上的悲喜总结",
@@ -158,16 +158,6 @@
     "avatarAlt": "PHP 解说 - 独家号",
     "subjectName": "PHP 解说",
     "homeUrl": "/subjects/158069"
-  },
-  {
-    "title": "每秒 100W 请求，12306 秒杀业务，架构如何优化？",
-    "description": "如《同样是高并发，QQ/微博/12306的架构难度一样吗？》一文所述，同样是高并发场景，三类业务的架构挑战不一样：QQ类业务，用户主要读写自己的数据，访问基本带有uid属性，数据访...",
-    "votes": "30",
-    "url": "/k/3snpwix",
-    "avatar": "https://img.toutiao.io/subject%2F9d058a96b0484f65a93e575731c3dbf3",
-    "avatarAlt": "落北的mark簿 - 独家号",
-    "subjectName": "落北的mark簿",
-    "homeUrl": "/subjects/123823"
   },
   {
     "title": "压测工具如何选择？ab、locust、Jmeter、go 压测工具（单台机器 100w 连接压测实战）",
@@ -248,5 +238,15 @@
     "avatarAlt": "头条精选 - 独家号",
     "subjectName": "头条精选",
     "homeUrl": "/subjects/4"
+  },
+  {
+    "title": "面试官问我同步容器（如 Vector）的所有操作一定是线程安全的吗？我懵了",
+    "description": "△Hollis, 一个对Coding有着独特追求的人△  这是Hollis的第 226篇原创分享 作者 l Hollis 来源 l Hollis（ID：hollischuang） ...",
+    "votes": "26",
+    "url": "/k/7q9btxa",
+    "avatar": "https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e",
+    "avatarAlt": "JAVA干货 - 独家号",
+    "subjectName": "JAVA干货",
+    "homeUrl": "/subjects/51515"
   }
 ]
