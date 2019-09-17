@@ -1,47 +1,272 @@
 [
   {
-    "title": "InnoDB与MyISAM等存储引擎对比",
-    "description": "文章原文：blog.ouyangsihai.cn >> InnoDB与MyISAM等存储引擎对比 InnoDB存储引擎介绍 InnoDB引擎是Mysql的默认的存储引擎，他有很多自己的特性，下面一一列举。 支持事务，InnoDB存储引擎主要就是为了在线...",
-    "url": "https://segmentfault.com/a/1190000020383024",
-    "author": "欧阳思海",
-    "home_url": "https://segmentfault.com/u/sihai_5ae5ba9170388",
-    "votes": "1",
+    "title": "不要肆无忌惮地在你的项目中使用 ES78910 了～",
+    "description": "在一次 code review 中,我在我们的项目(项目基于 vue-cli 3 创建)中找到了这句代码 MDN",
+    "url": "https://segmentfault.com/a/1190000020392040",
+    "author": "null仔",
+    "home_url": "https://segmentfault.com/u/xiaoqianduan_58b28cfebff36",
+    "votes": "13",
     "rank": 1
   },
   {
-    "title": "systemtap 探秘（三）- 类型、变量和数组",
-    "description": "上一篇文章，我们展示了几个常见的 probe 生成的 C 代码是怎么样的。本文则讨论 stp 的几种类型，两种变量，以及关联数组。",
-    "url": "https://segmentfault.com/a/1190000020380171",
-    "author": "spacewander",
-    "home_url": "https://segmentfault.com/u/spacewander",
-    "votes": "4",
+    "title": "前端经典面试题(60道前端面试题包含JS、CSS、React、网络、浏览器、程序题等)",
+    "description": "(以下所有答案仅供参考) 简答题 1、什么是防抖和节流？有什么区别？如何实现？ 参考答案 防抖 触发高频事件后n秒内函数只会执行一次，如果n秒内高频事件再次被触发，则重新计算时间 思路： 每次触发事件时都取消...",
+    "url": "https://segmentfault.com/a/1190000020391424",
+    "author": "浅夏晴空",
+    "home_url": "https://segmentfault.com/u/qianxiaqingkong",
+    "votes": "26",
     "rank": 2
   },
   {
-    "title": "如何在 React 项目中整合 Eslint 和 Prettier",
-    "description": "当我们来到一个新的团队，或者接手一个新的项目时，一定会遇到代码规范的问题。随着前端应用越来越复杂，代码规范的问题也日益得到大家的重视。本文就带着大家来从 0 开始整合一个 React 前端应用的相关配置。",
-    "url": "https://segmentfault.com/a/1190000020379876",
-    "author": "joking_zhang",
-    "home_url": "https://segmentfault.com/u/joking_zhang",
-    "votes": "4",
+    "title": "Go 1.13 errors 基本用法",
+    "description": "Go 最新版本 1.13 中新增了 errors 的一些特性，有助于我们更优雅的处理业务逻辑中报错的问题。本文主要展示 errors 包中新增方法的用法。",
+    "url": "https://segmentfault.com/a/1190000020398774",
+    "author": "sxssxs",
+    "home_url": "https://segmentfault.com/u/sxssxs",
+    "votes": "3",
     "rank": 3
   },
   {
-    "title": "vue源码分析之计算属性",
-    "description": "最近总被问道vue的计算属性原理是什么、计算属性是如何做依赖收集的之类的问题，今天用了一天时间好好研究了下源码，把过程基本捋顺了。总的来说还是比较简单。",
-    "url": "https://segmentfault.com/a/1190000020380799",
-    "author": "Aria",
-    "home_url": "https://segmentfault.com/u/janesu",
-    "votes": "2",
+    "title": "从0搭建自己的webpack开发环境（一）",
+    "description": "又一个连载来啦！这次我们将分四篇文章来介绍如何从0构建一个webpack开发环境，了解其内部机制和原理，从而让我们更准确的掌握和使用webpack，下面开始我们的起步：",
+    "url": "https://segmentfault.com/a/1190000020397229",
+    "author": "前端优选",
+    "home_url": "https://segmentfault.com/u/qianduanyouxuan",
+    "votes": "3",
     "rank": 4
   },
   {
-    "title": "js并查集算法",
-    "description": "// 班上有 N 名学生。其中有些人是朋友，有些则不是。他们的友谊具有是传递性。// 如果已知 A 是 B 的朋友，B 是 C 的朋友，那么我们可以认为 A 也是 C 的朋友。所谓的朋友圈，是指所有朋友的集合。// 给定一个 N...",
-    "url": "https://segmentfault.com/a/1190000020381349",
-    "author": "cunzaizhuyi",
-    "home_url": "https://segmentfault.com/u/yunhuangbeiqing",
+    "title": "【深入浅出-口语】（3）：自然发音",
+    "description": "目的 根据音标念单词，根据单词写音标 规律 根据字母写音标 字母 音标 a [æ] b [b] c [k] d [d] e [ɛ] f [f] g [g] h [h] i [ɪ] j [dʒ] k [k] 字母 音标 首、尾 l [l] 了、傲 m [m] 么、 摁（嘴巴闭+鼻音） n [n]...",
+    "url": "https://segmentfault.com/a/1190000020398658",
+    "author": "mousycoder",
+    "home_url": "https://segmentfault.com/u/mousycoder",
     "votes": "1",
     "rank": 5
+  },
+  {
+    "title": "【深入浅出-JVM】（76）：classloader",
+    "description": "public Class<?> loadClass(String name) throws ClassNotFoundException",
+    "url": "https://segmentfault.com/a/1190000020398628",
+    "author": "mousycoder",
+    "home_url": "https://segmentfault.com/u/mousycoder",
+    "votes": "1",
+    "rank": 6
+  },
+  {
+    "title": "【深入浅出-JVM】（75）：class 装载",
+    "description": "过程 装载 条件 主动使用 class时 创建一个类的实例 （new 、反射、克隆、反序列化） 调用类的静态方法（invokestatic） 使用类或接口的静态字段（getstatic、putstatic） 使用 reflect反射 初始化子类，先初始化...",
+    "url": "https://segmentfault.com/a/1190000020398596",
+    "author": "mousycoder",
+    "home_url": "https://segmentfault.com/u/mousycoder",
+    "votes": "1",
+    "rank": 7
+  },
+  {
+    "title": "用 JavaScript 实现一个简单的状态机",
+    "description": "使用状态机可以构建健壮的 UI，其好处已有详细的描述—— 例如你可以参见Edward J. Pring 的文章和 David Khourshid 的视频。 另外Krasimir Tsonev 描述了 JavaScript 中状态机的一些常用方法。一些比较流行的 Java...",
+    "url": "https://segmentfault.com/a/1190000020395145",
+    "author": "疯狂的技术宅",
+    "home_url": "https://segmentfault.com/u/evilboy",
+    "votes": "4",
+    "rank": 8
+  },
+  {
+    "title": "【深入浅出-JVM】（77）：SPI",
+    "description": "在resource/META-INF/services 创建一个以接口全限定名为命名的文件，内容写上实现类的全限定名",
+    "url": "https://segmentfault.com/a/1190000020398573",
+    "author": "mousycoder",
+    "home_url": "https://segmentfault.com/u/mousycoder",
+    "votes": "1",
+    "rank": 9
+  },
+  {
+    "title": "Docker竟然还能这么玩？商业级4G代理搭建实战！",
+    "description": "时间过得真快，距离这个系列的上一篇文章《商业级4G代理搭建指南【准备篇】》发布的时间已经过了两个星期了，上个星期由于各种琐事缠身，周二开始就没空写文章了，所以就咕咕咕了。",
+    "url": "https://segmentfault.com/a/1190000020393325",
+    "author": "夜幕NightTeam",
+    "home_url": "https://segmentfault.com/u/nightteam",
+    "votes": "10",
+    "rank": 10
+  },
+  {
+    "title": "腾讯云云开发官方小程序训练营，限时免费速来报名！",
+    "description": "每年的“金九银十”都是传说中的学习黄金期！这期间，在校的小伙伴面临开学季/求职季/考研季挑战，已经步入社会的也即将步入年终前的冲刺阶段。",
+    "url": "https://segmentfault.com/a/1190000020398299",
+    "author": "SegmentFault",
+    "home_url": "https://segmentfault.com/u/segmentfault",
+    "votes": "1",
+    "rank": 11
+  },
+  {
+    "title": "win10x64安装nodejieba",
+    "description": "ps. node版本低于10.16可能会不成功，因为windows-build-tools的npm说明页里，提到--include-arm64-tools选项只能用于node12以上，然而我的10.16却可以",
+    "url": "https://segmentfault.com/a/1190000020397627",
+    "author": "黒之染",
+    "home_url": "https://segmentfault.com/u/haua",
+    "votes": "1",
+    "rank": 12
+  },
+  {
+    "title": "从校招生到核心架构师，支付宝研究员李俊奎谈如何成为一名优秀的程序员",
+    "description": "在2016年双11和新春红包等活动中，李俊奎和他的团队实现历史性突破，即在系统不被降级的压力下，控制资源消耗不超过2015财年双11，并且很好地满足了业务需求。",
+    "url": "https://segmentfault.com/a/1190000020393395",
+    "author": "阿里云云栖社区",
+    "home_url": "https://segmentfault.com/u/yunqishequ_5aa899aad5395",
+    "votes": "4",
+    "rank": 13
+  },
+  {
+    "title": "代码整洁 vs 代码肮脏",
+    "description": "写出整洁的代码，是每个程序员的追求。《clean code》指出，要想写出好的代码，首先得知道什么是肮脏代码、什么是整洁代码；然后通过大量的刻意练习，才能真正写出整洁的代码。",
+    "url": "https://segmentfault.com/a/1190000020393391",
+    "author": "泥瓦匠",
+    "home_url": "https://segmentfault.com/u/niwajiang_5c99fa77b0858",
+    "votes": "6",
+    "rank": 14
+  },
+  {
+    "title": "js 避免污染全局变量",
+    "description": "造成污染全局变量的原因 在经典页面中，经常会有这样的引用js {代码...} a.js {代码...} b.js {代码...} 上面定义的函数都是全局变量 这就造成了污染全局变量，那么这样有什么危害呢？ 危害 随着项目的变大，全局...",
+    "url": "https://segmentfault.com/a/1190000020396738",
+    "author": "北方",
+    "home_url": "https://segmentfault.com/u/beifang",
+    "votes": "1",
+    "rank": 15
+  },
+  {
+    "title": "【翻译】第四章 - [Dan_Ristic]webrtc开发互动实践",
+    "description": "​ 在创建WebRTC应用程序的某个时刻，您将不得不脱离为客户端开发并构建服务器。大多数WebRTC应用程序不仅仅依赖于能够通过音频和视频进行通信，而且通常需要许多其他功能才能引起兴趣。在本章中，我们将使用JavaS...",
+    "url": "https://segmentfault.com/a/1190000020398162",
+    "author": "zeronlee",
+    "home_url": "https://segmentfault.com/u/zeronlee",
+    "votes": "1",
+    "rank": 16
+  },
+  {
+    "title": "从使用者到开发者，知乎参与 TiDB 社区背后的故事",
+    "description": "作者介绍：孙晓光，知乎技术平台团队负责人，负责建设知乎在线和离线的基础设施平台，为业务开发提供统一的基础设施。曾多年从事私有云相关产品开发工作，关注云原生技术，TiKV 项目 Committer。",
+    "url": "https://segmentfault.com/a/1190000020394657",
+    "author": "PingCAP",
+    "home_url": "https://segmentfault.com/u/pingcap",
+    "votes": "2",
+    "rank": 17
+  },
+  {
+    "title": "（译）你应该要知道的十个JavaScript字符串方法",
+    "description": "查看原文更多内容请关注GitHub 1、startsWith() 检查字符串是否以指定的字符开头 {代码...} 2、endsWith() 检查字符串是否以指定的字符结束 {代码...} 3、includes() 检查字符串是否包含指定的字符 {代码...} 4、...",
+    "url": "https://segmentfault.com/a/1190000020397881",
+    "author": "sueRimn",
+    "home_url": "https://segmentfault.com/u/suerimn",
+    "votes": "1",
+    "rank": 18
+  },
+  {
+    "title": "【沙龙报名中】腾讯云联手多家科技企业，共探云开发应用实践",
+    "description": "| 导语 9月21日，北京北邮科技酒店，云+社区邀您参加《“小程序·云开发” 北京站》沙龙活动，聚焦小程序·云开发的技术应用实践，直面云开发技术应用实践专家，共探前沿，实现价值。",
+    "url": "https://segmentfault.com/a/1190000020396080",
+    "author": "腾讯云加社区",
+    "home_url": "https://segmentfault.com/u/qcloudcommunity",
+    "votes": "1",
+    "rank": 19
+  },
+  {
+    "title": "分享 10 个有用的 Laravel 5.8 集合辅助方法",
+    "description": "在 Laravel 中，有一个操作数组的非常好用的类，叫做集合。相信每个 Laravel 的开发者都或多或少用过集合，尤其是在操作的 Eloquent 的时候。在这篇文章中，我会列出 10 个常用的方法。",
+    "url": "https://segmentfault.com/a/1190000020391169",
+    "author": "Charlie_Jade",
+    "home_url": "https://segmentfault.com/u/summerblue",
+    "votes": "3",
+    "rank": 20
+  },
+  {
+    "title": "TDengine在数控机床监控中的应用",
+    "description": "随着工业物联网时代的到来，企业用户对建立数控机床在日常生产中的监控和报警平台的需求越来越大。通过搭建对于数控机床的监控和报警平台，企业用户可以随时了解自己生产线的工作情况，及时获得异常反馈，从而合...",
+    "url": "https://segmentfault.com/a/1190000020395790",
+    "author": "涛思数据",
+    "home_url": "https://segmentfault.com/u/taosishuju",
+    "votes": "1",
+    "rank": 21
+  },
+  {
+    "title": "(译)你应该知道的十个JavaScript数组方法",
+    "description": "查看原文更多内容请关注GitHub 1、forEach() 循环遍历数组 {代码...} 2、includes() 检查数组是否包含方法中传递的项 {代码...} 3、filter() 创建一个新数组，在新数组中过滤出符合条件的项 {代码...} 4、map() ...",
+    "url": "https://segmentfault.com/a/1190000020397347",
+    "author": "sueRimn",
+    "home_url": "https://segmentfault.com/u/suerimn",
+    "votes": "1",
+    "rank": 22
+  },
+  {
+    "title": "JS 中几种轻松处理'this'指向方式",
+    "description": "作者：Dmitri Pavlutin来源：dmitripavlutin译者：前端小智 为了保证的可读性，本文采用意译而非直译。 想阅读更多优质文章请猛戳GitHub博客,一年百来篇优质文章等着你！ 我喜欢在JS中更改函数执行上下文的指向，...",
+    "url": "https://segmentfault.com/a/1190000020386592",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "5",
+    "rank": 23
+  },
+  {
+    "title": "微信小程序之下载(下载文件tempFilePath后缀unknown)",
+    "description": "最近有用到微信小程序的downloadFile接口，但是在真机上出现了文件后缀为unknown，导致文件保存失败，这里记录下",
+    "url": "https://segmentfault.com/a/1190000020395198",
+    "author": "ZJW0215",
+    "home_url": "https://segmentfault.com/u/zjw0215",
+    "votes": "1",
+    "rank": 24
+  },
+  {
+    "title": "精读《前端与 BI》",
+    "description": "商业智能（Business Intelligence）简称 BI，即通过数据挖掘与分析找到商业洞察，助力商业成功。",
+    "url": "https://segmentfault.com/a/1190000020393383",
+    "author": "黄子毅",
+    "home_url": "https://segmentfault.com/u/aoyangyudakong",
+    "votes": "2",
+    "rank": 25
+  },
+  {
+    "title": "云开发 0 基础训练营第二期热力来袭！",
+    "description": "每年的“金九银十”都是传说中的学习黄金期！这期间在校的小伙伴面临开学季/求职季/考研季挑战，已经步入社会的也即将步入年终前的冲刺阶段。所以，这段时期的学习/工作状态直接决定2019年末是否能有美好的收尾，可...",
+    "url": "https://segmentfault.com/a/1190000020393738",
+    "author": "CloudBase",
+    "home_url": "https://segmentfault.com/u/tencenttcb",
+    "votes": "1",
+    "rank": 26
+  },
+  {
+    "title": "函数式编程杂谈",
+    "description": "比起命令式编程，函数式编程更加强调程序执行的结果而非执行的过程，倡导利用若干简单的执行单元让计算结果不断演进，逐层推导出复杂的运算。本文通过函数式编程的一些趣味用法来阐述学习函数式编程的奇妙之处。",
+    "url": "https://segmentfault.com/a/1190000020394214",
+    "author": "vivo互联网技术",
+    "home_url": "https://segmentfault.com/u/vivo_tech",
+    "votes": "1",
+    "rank": 27
+  },
+  {
+    "title": "电信NBIoT物联网平台完整测试流程整理",
+    "description": "最近在负责一个物联网相关的项目，需要对接电信NBIoT平台，首次对接感觉没有头绪。这里将整个过程记录下来，希望这个能帮到需要的人。另外提供对接部署咨询服务欢迎私信。",
+    "url": "https://segmentfault.com/a/1190000020392173",
+    "author": "evenvi技术博客",
+    "home_url": "https://segmentfault.com/u/evenvi",
+    "votes": "1",
+    "rank": 28
+  },
+  {
+    "title": "这个中秋，我用 Java 画了一个月饼！",
+    "description": "栈长代表微信公众号 \"Java技术栈\" 祝所有粉丝中秋佳节快乐！ 为了用一种特殊的方式表达我的心意，去年中秋节，我写了这篇文章： 为了写中秋这篇文章，我学了 20 种编程语言！ 没错，去年一天，我学了 20 种编程语...",
+    "url": "https://segmentfault.com/a/1190000020394095",
+    "author": "Java技术栈",
+    "home_url": "https://segmentfault.com/u/javastack",
+    "votes": "2",
+    "rank": 29
+  },
+  {
+    "title": "如何架构一个中后台项目的前端部分（技术选型篇）",
+    "description": "最近我正在公司做一个中后台管理系统的前端框架搭建工作，虽然说公司已经有现成的中后台框架可供选择，但是并不特别适合我们部门的项目，因此在借鉴原有框架的基础上融入了我的一些个人想法和思考在里面。",
+    "url": "https://segmentfault.com/a/1190000020390377",
+    "author": "劳卜",
+    "home_url": "https://segmentfault.com/u/chris",
+    "votes": "5",
+    "rank": 30
   }
 ]
