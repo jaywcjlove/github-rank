@@ -1,15 +1,5 @@
 [
   {
-    "title": "架构师技术图谱，助你早日成为架构师（最新）",
-    "description": "README.md架构师技术图谱，助你早日成为架构师本项目是《码农周刊》架构学习资料精选，码农周刊团队官方出品。架构师必读，助你早日成为架构师！架构师技术图谱包括：分布式、前端、大...",
-    "votes": "177",
-    "url": "/k/8lhpf6",
-    "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
-    "avatarAlt": "头条精选 - 独家号",
-    "subjectName": "头条精选",
-    "homeUrl": "/subjects/4"
-  },
-  {
     "title": "金九银十面试季来临，最新 BATJ 面试资料分享给你",
     "description": "金九银十，每年9、10月份各大互联网公司都会周期性地发生人事变动，无论是刚进入社会的职场菜鸟，还是准备跳槽的老手，都想在这个时候获得新的工作，或迎来晋升涨薪的最佳机会。 不同于往年...",
     "votes": "142",
@@ -40,16 +30,6 @@
     "homeUrl": "/subjects/7076"
   },
   {
-    "title": "基于 websocket 单台机器支持百万连接分布式聊天 (IM) 系统",
-    "description": "基于websocket单台机器支持百万连接分布式聊天(IM)系统本文将介绍如何实现一个基于websocket分布式聊天(IM)系统。使用golang实现websocket通讯，单机...",
-    "votes": "60",
-    "url": "/k/1a26ee6",
-    "avatar": "https://img.toutiao.io/subject%2F20beeac3d2a440769cdd83012a2ac64f",
-    "avatarAlt": "溜溜技术 - 独家号",
-    "subjectName": "溜溜技术",
-    "homeUrl": "/subjects/197857"
-  },
-  {
     "title": "终于找到可以一文多发的平台了",
     "description": " 你来了~  openwrite.cn 一文多发平台有时候自己辛苦写了几个小时的技术文章，被爬虫抓走。自己去全平台一个一个发，又过于麻烦。而且每个平台都不一样，发文同步很困难。那么...",
     "votes": "50",
@@ -58,6 +38,26 @@
     "avatarAlt": "SpringForAll社区 - 独家号",
     "subjectName": "SpringForAll社区",
     "homeUrl": "/subjects/2500"
+  },
+  {
+    "title": "面试官：讲讲 DNS 的原理？",
+    "description": "引言今天我们来聊聊DNS。 所谓域名系统（Domain Name System缩写DNS，Domain Name被译为域名）是因特网的一项核心服务，它作为可以将域名和IP地址相互映...",
+    "votes": "48",
+    "url": "/k/u7t6dj1",
+    "avatar": "https://img.toutiao.io/subject%2F8e44d1a2390944c08c6170906cfc0856",
+    "avatarAlt": "跨端&全栈 - 独家号",
+    "subjectName": "跨端&全栈",
+    "homeUrl": "/subjects/7076"
+  },
+  {
+    "title": "每秒 100W 请求，12306 秒杀业务，架构如何优化？",
+    "description": "如《同样是高并发，QQ/微博/12306的架构难度一样吗？》一文所述，同样是高并发场景，三类业务的架构挑战不一样：QQ类业务，用户主要读写自己的数据，访问基本带有uid属性，数据访...",
+    "votes": "47",
+    "url": "/k/3snpwix",
+    "avatar": "https://img.toutiao.io/subject%2F9d058a96b0484f65a93e575731c3dbf3",
+    "avatarAlt": "落北的mark簿 - 独家号",
+    "subjectName": "落北的mark簿",
+    "homeUrl": "/subjects/123823"
   },
   {
     "title": "如何优雅地进行重试",
@@ -70,29 +70,9 @@
     "homeUrl": "/subjects/6491"
   },
   {
-    "title": "面试官：讲讲 DNS 的原理？",
-    "description": "引言今天我们来聊聊DNS。 所谓域名系统（Domain Name System缩写DNS，Domain Name被译为域名）是因特网的一项核心服务，它作为可以将域名和IP地址相互映...",
-    "votes": "46",
-    "url": "/k/u7t6dj1",
-    "avatar": "https://img.toutiao.io/subject%2F8e44d1a2390944c08c6170906cfc0856",
-    "avatarAlt": "跨端&全栈 - 独家号",
-    "subjectName": "跨端&全栈",
-    "homeUrl": "/subjects/7076"
-  },
-  {
-    "title": "每秒 100W 请求，12306 秒杀业务，架构如何优化？",
-    "description": "如《同样是高并发，QQ/微博/12306的架构难度一样吗？》一文所述，同样是高并发场景，三类业务的架构挑战不一样：QQ类业务，用户主要读写自己的数据，访问基本带有uid属性，数据访...",
-    "votes": "45",
-    "url": "/k/3snpwix",
-    "avatar": "https://img.toutiao.io/subject%2F9d058a96b0484f65a93e575731c3dbf3",
-    "avatarAlt": "落北的mark簿 - 独家号",
-    "subjectName": "落北的mark簿",
-    "homeUrl": "/subjects/123823"
-  },
-  {
     "title": "在浏览器输入 URL 回车之后发生了什么（超详细版）",
     "description": "这个问题已经是老生常谈了，更是经常被作为面试的压轴题出现，网上也有很多文章，但最近闲的无聊，然后就自己做了一篇笔记，感觉比之前理解更透彻了。 前言这个问题已经是老生常谈了，更是经常...",
-    "votes": "40",
+    "votes": "41",
     "url": "/k/4b96i5m",
     "avatar": "https://img.toutiao.io/user/ce593a7c52194f849802ee51bea65ea3/thumb",
     "avatarAlt": "4Ark的独家号 - 独家号",
@@ -112,7 +92,7 @@
   {
     "title": "何解？浪费一年时间，我学了假人工智能",
     "description": "怎样成为一名优秀的AI工程师？  这是很多从事人工智能学术研究和产品研发的同学都关心的一个问题。面对市场对人才的大量需求与供给的严重不足，以及高薪水的诱惑，越来越多的人开始学习这个...",
-    "votes": "38",
+    "votes": "39",
     "url": "/k/qx5epwl",
     "avatar": "https://img.toutiao.io/subject%2Fd62ae4a6b08244b1b8422989109cdb5f",
     "avatarAlt": "公众号：Java技术zhai - 独家号",
@@ -130,14 +110,14 @@
     "homeUrl": "/subjects/137286"
   },
   {
-    "title": "五年总结：过往记忆大数据原创精选",
-    "description": "今年是我创建这个微信公众号的第五年，五年来，收获了6.8万粉丝。这个数字，在自媒体圈子，属于十八线小规模的那种，但是在纯技术圈，还是不错的成绩，我很欣慰。我花在这个号上面的时间挺多...",
+    "title": "超燃！高效 MacBook 工作环境配置，超实用",
+    "description": "点击上方“小强的进阶之路”，选择“星标”公众号重磅干货，第一时间送达！预计阅读时间：28分钟工欲善其事，必先利其器，工具永远都是用来解决问题的，没必要为了工具而工具，一切工具都是为...",
     "votes": "34",
-    "url": "/k/uo8qx8n",
-    "avatar": "https://img.toutiao.io/user/326cbb836e8245c6a3a1ac0d4b121bf8/thumb",
-    "avatarAlt": "过往记忆大数据 - 独家号",
-    "subjectName": "过往记忆大数据",
-    "homeUrl": "/subjects/43182"
+    "url": "/k/wrcqwx0",
+    "avatar": "https://img.toutiao.io/subject%2F1ecd558bf4a24bc780d2c3a0ab6e69f2",
+    "avatarAlt": "分布式系统 - 独家号",
+    "subjectName": "分布式系统",
+    "homeUrl": "/subjects/8411"
   },
   {
     "title": "大龄程序员技术管理路上的悲喜总结",
@@ -150,6 +130,26 @@
     "homeUrl": "/subjects/158069"
   },
   {
+    "title": "企业内耗成瘾者",
+    "description": "原创：小姐姐味道（微信公众号ID：xjjdog），欢迎分享，转载请保留出处。设计模式里有一种模式叫做反模式。今天我们以第一人称的口吻，欣赏一个反面的，有些熟悉的面孔。如有雷同，纯属...",
+    "votes": "30",
+    "url": "/k/z91w5sb",
+    "avatar": "https://img.toutiao.io/subject%2F6b8e14b561b24dfeac075e2a8dac9bfd",
+    "avatarAlt": "小姐姐味道 - 独家号",
+    "subjectName": "小姐姐味道",
+    "homeUrl": "/subjects/351247"
+  },
+  {
+    "title": "教了一年少儿编程，说说感想和体验",
+    "description": "1. 缘起少儿编程这个概念在国内兴起，总有个三四年了。2016 年，曾经有人问：“儿童学习编程是不是为了将来做'程序猿'？”。我当时给的回答是：编程说白了就是用一种简单的符号语言描...",
+    "votes": "30",
+    "url": "/k/rdpf647",
+    "avatar": "https://img.toutiao.io/subject%2F8f260658736e497ba0a632a3456effec",
+    "avatarAlt": "众智汇 - 独家号",
+    "subjectName": "众智汇",
+    "homeUrl": "/subjects/233305"
+  },
+  {
     "title": "压测工具如何选择？ab、locust、Jmeter、go 压测工具（单台机器 100w 连接压测实战）",
     "description": "本文介绍压测是什么，解释压测的专属名词，教大家如何计算压测指标。介绍市面上的常见压测工具(ab、locust、Jmeter、go实现的压测工具、云压测)，对比这些压测工具，教大家如...",
     "votes": "30",
@@ -160,14 +160,14 @@
     "homeUrl": "/subjects/418659"
   },
   {
-    "title": "教了一年少儿编程，说说感想和体验",
-    "description": "1. 缘起少儿编程这个概念在国内兴起，总有个三四年了。2016 年，曾经有人问：“儿童学习编程是不是为了将来做'程序猿'？”。我当时给的回答是：编程说白了就是用一种简单的符号语言描...",
+    "title": "一个深圳流水线女工的 10 年：​工资翻了 40 倍，我还不认命",
+    "description": "感谢孙玲接受视觉志专访孙玲公众号：Lets English（ID：heytimetostudy）作者｜不一2009年，19岁的孙玲和朋友一起，坐上了前往深圳的绿皮火车。经过14个小...",
     "votes": "29",
-    "url": "/k/rdpf647",
-    "avatar": "https://img.toutiao.io/subject%2F8f260658736e497ba0a632a3456effec",
-    "avatarAlt": "众智汇 - 独家号",
-    "subjectName": "众智汇",
-    "homeUrl": "/subjects/233305"
+    "url": "/k/0645enr",
+    "avatar": "https://img.toutiao.io/subject%2F74d2eb04ed1b4c82834556c9a541fee5",
+    "avatarAlt": "HelloDog - 独家号",
+    "subjectName": "HelloDog",
+    "homeUrl": "/subjects/4009"
   },
   {
     "title": "“你离职的原因是什么？” 两种回答，结局大不相同",
@@ -180,16 +180,6 @@
     "homeUrl": "/subjects/4"
   },
   {
-    "title": "一个深圳流水线女工的 10 年：​工资翻了 40 倍，我还不认命",
-    "description": "感谢孙玲接受视觉志专访孙玲公众号：Lets English（ID：heytimetostudy）作者｜不一2009年，19岁的孙玲和朋友一起，坐上了前往深圳的绿皮火车。经过14个小...",
-    "votes": "28",
-    "url": "/k/0645enr",
-    "avatar": "https://img.toutiao.io/subject%2F74d2eb04ed1b4c82834556c9a541fee5",
-    "avatarAlt": "HelloDog - 独家号",
-    "subjectName": "HelloDog",
-    "homeUrl": "/subjects/4009"
-  },
-  {
     "title": "被神话的 Linux，一文带你看清 Linux 在多核可扩展性设计上的不足",
     "description": "本文接着《有关微内核OS史上最透彻一篇 - 写于华为鸿蒙发布一周之际》 继续写下去。我其实并不想讨论微内核的概念，也并不擅长去阐述概念，这是百科全书的事，但无奈最近由于鸿蒙的发布导...",
     "votes": "28",
@@ -198,16 +188,6 @@
     "avatarAlt": "2048 - 独家号",
     "subjectName": "2048",
     "homeUrl": "/subjects/3216"
-  },
-  {
-    "title": "Visual Studio Code 有哪些工程方面的亮点",
-    "description": "Visual Studio Code（VS Code）近年来获得了爆炸式增长，成为广大开发者工具库中的必备神器。它作为一个开源项目，也吸引了无数第三方开发者和终端用户，成为顶尖开源...",
-    "votes": "27",
-    "url": "/k/m714iub",
-    "avatar": "https://img.toutiao.io/subject%2F732cb6a567b6447aa876ed179c0e89c7",
-    "avatarAlt": "Fundebug - 独家号",
-    "subjectName": "Fundebug",
-    "homeUrl": "/subjects/216955"
   },
   {
     "title": "goproxy.cn：为中国 Go 语言开发者量身打造的模块代理",
@@ -220,14 +200,14 @@
     "homeUrl": "/subjects/343446"
   },
   {
-    "title": "吴恩达的 CS229，有人把它浓缩成 6 张中文速查表",
-    "description": "吴恩达在斯坦福开设的机器学习课 CS229，是很多人最初入门机器学习的课，历史悠久，而且仍然是最经典的机器学习课程之一。当时因为这门课太火爆，吴恩达不得不弄了个超大的网络课程来授课...",
+    "title": "一文带你搞懂 API 网关",
+    "description": "前言假设你正在开发一个电商网站，那么这里会涉及到很多后端的微服务，比如会员、商品、推荐服务等等。 那么这里就会遇到一个问题，APP/Browser怎么去访问这些后端的服务? 如果业...",
     "votes": "27",
-    "url": "/k/50v50yg",
-    "avatar": "https://img.toutiao.io/subject%2Fc8a60287ae464b8db21221a59774ceb3",
-    "avatarAlt": "AIHackers - 独家号",
-    "subjectName": "AIHackers",
-    "homeUrl": "/subjects/300686"
+    "url": "/k/irww6gr",
+    "avatar": "https://img.toutiao.io/subject%2Fe7b064080a2d4df5850f192ca54ee1d2",
+    "avatarAlt": "acoder2013的独家号 - 独家号",
+    "subjectName": "acoder2013的独家号",
+    "homeUrl": "/subjects/268362"
   },
   {
     "title": "不好意思，你的辛劳并不等于酬劳",
@@ -248,5 +228,25 @@
     "avatarAlt": "JAVA干货 - 独家号",
     "subjectName": "JAVA干货",
     "homeUrl": "/subjects/51515"
+  },
+  {
+    "title": "看完这篇还不懂缓存穿透，我跪搓衣板，99% 程序员已收藏",
+    "description": "点击▲关注 “爪哇笔记”   给公众号标星置顶 更多精彩 第一时间直达  前言 在博客系统中，为了提升响应速度，加入了 Redis 缓存，把文章主键 ID 作为 key 值去缓存查...",
+    "votes": "26",
+    "url": "/k/efi4hly",
+    "avatar": "https://img.toutiao.io/subject%2F12be27b43f7e4d3eabab4a73bf1f9691",
+    "avatarAlt": "爪哇笔记 - 独家号",
+    "subjectName": "爪哇笔记",
+    "homeUrl": "/subjects/211218"
+  },
+  {
+    "title": "一道字节跳动的算法面试题，你能做出来吗？",
+    "description": "前几天有个小伙伴去面试字节跳动，面试官问了他一道链表相关的算法题，不过他一时之间没做出来，就来问了我一下，感觉这道题还不错，拿来讲一讲。01 题目这其实是一道变形的链表反转题，大致...",
+    "votes": "25",
+    "url": "/k/8elkm2n",
+    "avatar": "https://img.toutiao.io/subject%2F26be1738e95242c6870b70b04cd4fb3d",
+    "avatarAlt": "街道-书记的独家号 - 独家号",
+    "subjectName": "街道-书记的独家号",
+    "homeUrl": "/subjects/261335"
   }
 ]
