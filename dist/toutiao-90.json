@@ -40,16 +40,6 @@
     "homeUrl": "/subjects/2372"
   },
   {
-    "title": "天边一朵云：徒手用 html 生成一朵云，很真的那种",
-    "description": "《天边一朵云》是由蔡明亮执导，李康生、陈湘琪领衔主演的剧情电影，情节很文艺，摄影很露骨，属于那种你看了后完全没有撸点的色情片。看完本片后，我很后悔，所以我打算自己用html弄出天边...",
-    "votes": "78",
-    "url": "/k/h2v2bv",
-    "avatar": "https://img.toutiao.io/subject%2F8e44d1a2390944c08c6170906cfc0856",
-    "avatarAlt": "跨端&全栈 - 独家号",
-    "subjectName": "跨端&全栈",
-    "homeUrl": "/subjects/7076"
-  },
-  {
     "title": "端到端一致性，流系统 Spark/Flink/Kafka/DataFlow 对比总结",
     "description": "收藏数已经是赞数的2倍多了... 麻烦至少收藏的同学点一下赞...(码字，查资料，整理文档实属不易; 望赞使其扩散到需要它的人眼前)长文预警, 全文两万五千多字, 37页word文...",
     "votes": "75",
@@ -72,7 +62,7 @@
   {
     "title": "求你了，再问你 Java 内存模型的时候别再给我讲堆栈方法区了",
     "description": "最近，面试过很多Java中高级开发，问过很多次关于Java内存模型的知识，问完之后，很多人上来就开始回答：Java内存模型由几部分组成，堆、本地方法栈、虚拟机栈、方法区…每一次我不...",
-    "votes": "62",
+    "votes": "63",
     "url": "/k/4ufv7m",
     "avatar": "https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e",
     "avatarAlt": "JAVA干货 - 独家号",
@@ -170,16 +160,6 @@
     "homeUrl": "/subjects/2500"
   },
   {
-    "title": "Linux 生产环境上，最常用的一套 \"AWK\" 技巧",
-    "description": "最有用系列：《Linux生产环境上，最常用的一套“vim“技巧》《Linux生产环境上，最常用的一套“Sed“技巧》《”Sed” 高级功能：我这小脑瓜都快绕晕了》敢用自己的名字做软...",
-    "votes": "50",
-    "url": "/k/ulgf5x",
-    "avatar": "https://img.toutiao.io/subject%2F6b8e14b561b24dfeac075e2a8dac9bfd",
-    "avatarAlt": "小姐姐味道 - 独家号",
-    "subjectName": "小姐姐味道",
-    "homeUrl": "/subjects/351247"
-  },
-  {
     "title": "API 网关从入门到放弃",
     "description": "前言假设你正在开发一个电商网站，那么这里会涉及到很多后端的微服务，比如会员、商品、推荐服务等等。那么这里就会遇到一个问题，APP/Browser怎么去访问这些后端的服务? 如果业务...",
     "votes": "49",
@@ -192,12 +172,22 @@
   {
     "title": "面试官：讲讲 DNS 的原理？",
     "description": "引言今天我们来聊聊DNS。 所谓域名系统（Domain Name System缩写DNS，Domain Name被译为域名）是因特网的一项核心服务，它作为可以将域名和IP地址相互映...",
-    "votes": "48",
+    "votes": "49",
     "url": "/k/u7t6dj1",
     "avatar": "https://img.toutiao.io/subject%2F8e44d1a2390944c08c6170906cfc0856",
     "avatarAlt": "跨端&全栈 - 独家号",
     "subjectName": "跨端&全栈",
     "homeUrl": "/subjects/7076"
+  },
+  {
+    "title": "每秒 100W 请求，12306 秒杀业务，架构如何优化？",
+    "description": "如《同样是高并发，QQ/微博/12306的架构难度一样吗？》一文所述，同样是高并发场景，三类业务的架构挑战不一样：QQ类业务，用户主要读写自己的数据，访问基本带有uid属性，数据访...",
+    "votes": "48",
+    "url": "/k/3snpwix",
+    "avatar": "https://img.toutiao.io/subject%2F9d058a96b0484f65a93e575731c3dbf3",
+    "avatarAlt": "落北的mark簿 - 独家号",
+    "subjectName": "落北的mark簿",
+    "homeUrl": "/subjects/123823"
   },
   {
     "title": "10 余万行 C 代码开源之后，我被震惊了",
@@ -208,16 +198,6 @@
     "avatarAlt": "Fundebug - 独家号",
     "subjectName": "Fundebug",
     "homeUrl": "/subjects/216955"
-  },
-  {
-    "title": "每秒 100W 请求，12306 秒杀业务，架构如何优化？",
-    "description": "如《同样是高并发，QQ/微博/12306的架构难度一样吗？》一文所述，同样是高并发场景，三类业务的架构挑战不一样：QQ类业务，用户主要读写自己的数据，访问基本带有uid属性，数据访...",
-    "votes": "47",
-    "url": "/k/3snpwix",
-    "avatar": "https://img.toutiao.io/subject%2F9d058a96b0484f65a93e575731c3dbf3",
-    "avatarAlt": "落北的mark簿 - 独家号",
-    "subjectName": "落北的mark簿",
-    "homeUrl": "/subjects/123823"
   },
   {
     "title": "被提拔成小主管后如何提升自己的管理能力？",
@@ -248,5 +228,25 @@
     "avatarAlt": "小姐姐味道 - 独家号",
     "subjectName": "小姐姐味道",
     "homeUrl": "/subjects/351247"
+  },
+  {
+    "title": "向 Excel 说再见，神级编辑器统一表格与 Python",
+    "description": "机器之心报道 参与：思源、张倩 很多开发者说自从有了 Python/Pandas，Excel 都不怎么用了，用它来处理与可视化表格非常快速。但是这样还是有一大缺陷，操作不是可视化的...",
+    "votes": "44",
+    "url": "/k/9soy79r",
+    "avatar": "https://img.toutiao.io/user/b618677591aa49b3972ece0c7d26b473/thumb",
+    "avatarAlt": "数据淘金 - 独家号",
+    "subjectName": "数据淘金",
+    "homeUrl": "/subjects/120437"
+  },
+  {
+    "title": "码住！史上最详尽的 Git 分支管理实践 ",
+    "description": "Linux & Git 被称为 Linus Travis 的两大神作, 实至名归!在谈 Git 之前, 先谈一下 Linux。Linux 和 Windows 作为两个广泛使用的操作...",
+    "votes": "43",
+    "url": "/k/4v5vhl",
+    "avatar": "https://img.toutiao.io/subject%2F187bcc2e5040459eb578563f6e84e09e",
+    "avatarAlt": "码云独家号 - 独家号",
+    "subjectName": "码云独家号",
+    "homeUrl": "/subjects/258441"
   }
 ]
