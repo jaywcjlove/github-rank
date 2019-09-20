@@ -119,6 +119,7 @@ export interface ITrendingData {
   description: string;
   html_url: string;
   stargazers_count: number;
+  forked: number;
   rank: number;
   todayStar: string;
 }
@@ -135,14 +136,15 @@ export function getTrendingData(type: string = 'daily') {
         const href = $(item).find('h1 a').attr('href').replace(/(\n|\s)/g, '');
         const language = $(item).find('span[itemprop=programmingLanguage]').text().replace(/(\n|\s)/g, '');
         const languageColor = $(item).find('span.repo-language-color');
-        const stargazers_count = $(item).find('a.muted-link svg.octicon.octicon-star').parent().text().replace(/(\n|\s|,)/g, '');
-        const todayStar = $(item).find('span.float-sm-right svg.octicon.octicon-star').parent().text().replace(/(\n|,)/g, '').trim();
+        const stargazers_count = $(item).find('a.muted-link svg.octicon.octicon-star').parent().parent().text().replace(/(\n|\s|,)/g, '');
+        const forked = $(item).find('a.muted-link svg.octicon.octicon-repo-forked').parent().parent().text().replace(/(\n|\s|,)/g, '');
+        const todayStar = $(item).find('span.float-sm-right').text().replace(/(\n|,)/g, '').trim();
         const description = $(item).find('p.text-gray').text().replace(/(\n)/g, '').trim();
         let color = '';
         if (language && languageColor && languageColor.css) {
           color = languageColor.css('background-color');
         }
-        resultData.push({ full_name, language, color, description, stargazers_count: Number(stargazers_count), todayStar, html_url: `https://github.com${href}`, rank: idx + 1 });
+        resultData.push({ full_name, language, color, description, stargazers_count: Number(stargazers_count), forked: Number(forked), todayStar, html_url: `https://github.com${href}`, rank: idx + 1 });
       });
       return resultData;
     });
