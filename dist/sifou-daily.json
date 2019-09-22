@@ -1,12 +1,30 @@
 [
   {
+    "title": "移动端调试大法",
+    "description": "在日常项目中的开发中，接触移动端开发的小伙伴们免不了要和移动端调试打交道，本文特在此总结下常用的移动端调试，欢迎小伙伴补充。",
+    "url": "https://segmentfault.com/a/1190000020455696",
+    "author": "樊一",
+    "home_url": "https://segmentfault.com/u/fanyi_5a01678c81075",
+    "votes": "8",
+    "rank": 1
+  },
+  {
+    "title": "DDD简单落地",
+    "description": "初学DDD，如有理解错误欢迎指正。也欢迎一起讨论DDD落地方面问题我的学习笔记 分包 module依赖 调用关系 实例项目推荐 dddsample-coreddd-cargoddddemo阿里的COLA 学习线路推荐 先看《领域驱动设计精粹》落地的时...",
+    "url": "https://segmentfault.com/a/1190000020455819",
+    "author": "夙梦流尘",
+    "home_url": "https://segmentfault.com/u/mazhenjie",
+    "votes": "2",
+    "rank": 2
+  },
+  {
     "title": "2019年最快的Javascript框架",
     "description": "速度是纯nodejs的2倍，更不用说其他依赖nodejs的框架例如express/koa/hapi了，根本不值一提，不但如此，性能还能吊打spring以及一众php7框架。",
     "url": "https://segmentfault.com/a/1190000020452315",
     "author": "张京",
     "home_url": "https://segmentfault.com/u/fengerzh",
-    "votes": "4",
-    "rank": 1
+    "votes": "7",
+    "rank": 3
   },
   {
     "title": "块级作用域绑定(临时死区)(var && let && const 的区别和联系)",
@@ -14,25 +32,7 @@
     "url": "https://segmentfault.com/a/1190000020452115",
     "author": "朱帅",
     "home_url": "https://segmentfault.com/u/zhushuai_5d15bbb8472f2",
-    "votes": "1",
-    "rank": 2
-  },
-  {
-    "title": "Nuxt项目从开始到部署",
-    "description": "前期接了个私人项目，做个官网，想到在公司都是使用vue技术栈，而官网刚好可以使用nuxt来做。 开始 安装 nuxt安装可以按照官网的步骤来 {代码...} 使用预处理器 项目下直接安装对应的预处理器 {代码...} 全局组件...",
-    "url": "https://segmentfault.com/a/1190000020452519",
-    "author": "Mondo",
-    "home_url": "https://segmentfault.com/u/imondo",
-    "votes": "1",
-    "rank": 3
-  },
-  {
-    "title": "Go微服务全链路跟踪详解",
-    "description": "在微服务架构中，调用链是漫长而复杂的，要了解其中的每个环节及其性能，你需要全链路跟踪。 它的原理很简单，你可以在每个请求开始时生成一个唯一的ID，并将其传递到整个调用链。 该ID称为CorrelationID¹，你可...",
-    "url": "https://segmentfault.com/a/1190000020450845",
-    "author": "倚天码农",
-    "home_url": "https://segmentfault.com/u/codecraftsman",
-    "votes": "2",
+    "votes": "3",
     "rank": 4
   },
   {
@@ -45,13 +45,40 @@
     "rank": 5
   },
   {
-    "title": "深入理解计算机系统cp1：存储单位与编码",
-    "description": "摘要： 理解计算机是如何存储数据的。 原文：深入理解计算机系统cp1：存储单位与编码 作者：Chor Fundebug经授权转载，版权归原作者所有。 1. 存储单位 位：即 bit，表示二进制位，要么是 0 ，要么是 1。它是计算...",
-    "url": "https://segmentfault.com/a/1190000020451266",
-    "author": "Fundebug",
-    "home_url": "https://segmentfault.com/u/fundebug",
+    "title": "DDD学习笔记",
+    "description": "领域驱动设计(Domain Driven Design) 是一种从系统分析到软件建模的一套方法论。以领域为核心驱动力的设计体系。",
+    "url": "https://segmentfault.com/a/1190000020455746",
+    "author": "夙梦流尘",
+    "home_url": "https://segmentfault.com/u/mazhenjie",
     "votes": "1",
     "rank": 6
+  },
+  {
+    "title": "Go微服务全链路跟踪详解",
+    "description": "在微服务架构中，调用链是漫长而复杂的，要了解其中的每个环节及其性能，你需要全链路跟踪。 它的原理很简单，你可以在每个请求开始时生成一个唯一的ID，并将其传递到整个调用链。 该ID称为CorrelationID¹，你可...",
+    "url": "https://segmentfault.com/a/1190000020450845",
+    "author": "倚天码农",
+    "home_url": "https://segmentfault.com/u/codecraftsman",
+    "votes": "2",
+    "rank": 7
+  },
+  {
+    "title": "charles 启用/禁用断点",
+    "description": "1.3、 enable/disable breakpoints 和 2.3 breakpoints settings",
+    "url": "https://segmentfault.com/a/1190000020453282",
+    "author": "小朱同学",
+    "home_url": "https://segmentfault.com/u/zhubangbang",
+    "votes": "2",
+    "rank": 8
+  },
+  {
+    "title": "charles 开始/暂停记录",
+    "description": "1.1、 stop/start recording 和 2.1 recording settings",
+    "url": "https://segmentfault.com/a/1190000020453082",
+    "author": "小朱同学",
+    "home_url": "https://segmentfault.com/u/zhubangbang",
+    "votes": "2",
+    "rank": 9
   },
   {
     "title": "国庆前来一波vue相关知识点，值得收藏并给自己充充电",
@@ -59,44 +86,44 @@
     "url": "https://segmentfault.com/a/1190000020450933",
     "author": "蓝少",
     "home_url": "https://segmentfault.com/u/bluezhan",
-    "votes": "1",
-    "rank": 7
-  },
-  {
-    "title": "如何加快 Node.js 应用的启动速度",
-    "description": "我们平时在开发部署 Node.js 应用的过程中，对于应用进程启动的耗时很少有人会关注，大多数的应用 5 分钟左右就可以启动完成，这个过程中会涉及到和集团很多系统的交互，这个耗时看起来也没有什么问题。",
-    "url": "https://segmentfault.com/a/1190000020448201",
-    "author": "阿里云云栖社区",
-    "home_url": "https://segmentfault.com/u/yunqishequ_5aa899aad5395",
-    "votes": "5",
-    "rank": 8
-  },
-  {
-    "title": "（3/4）Java 垃圾回收方式",
-    "description": "In this tutorial we will go through the various type of Java garbage collectors available. Garbage collection is an automatic process in Java which relieves the programmer of object memory allocati...",
-    "url": "https://segmentfault.com/a/1190000020447277",
-    "author": "捏造的信仰",
-    "home_url": "https://segmentfault.com/u/yidinghe",
-    "votes": "3",
-    "rank": 9
-  },
-  {
-    "title": "利用SpringAOP 对 Mybatis Pagehelper 使用上的优化",
-    "description": "Mybatis 的 Pagehelper 插件相信大家都使用过（没用过的请飘过～～～～），并且用起来确实很方便。但是每次都的PageHelper.startPage(PageNum, PageSize)，对于我这种比较懒的人来说，是万万忍受不了的，怎么办？...",
-    "url": "https://segmentfault.com/a/1190000020449421",
-    "author": "阅历笔记",
-    "home_url": "https://segmentfault.com/u/yuelicn",
-    "votes": "1",
+    "votes": "4",
     "rank": 10
   },
   {
-    "title": "看懂巴菲特推荐的指数基金定投，Python验证",
-    "description": "超越股神，你这辈子是不可能了的啦，但是超越身边的普通人，那是足够了，只要你坚持定投，坚持定投正确的标的，直到成功为止，建立好市场的心里站，不要在股市中浮浮沉沉。我在大学期间，我就开始学习理财投资，...",
-    "url": "https://segmentfault.com/a/1190000020449804",
-    "author": "KenNaNa",
-    "home_url": "https://segmentfault.com/u/kennana",
+    "title": "charles 开始/暂停模拟慢网速",
+    "description": "1.2、 stop/start throttling 和 2.2 throttling settings",
+    "url": "https://segmentfault.com/a/1190000020453017",
+    "author": "小朱同学",
+    "home_url": "https://segmentfault.com/u/zhubangbang",
     "votes": "2",
     "rank": 11
+  },
+  {
+    "title": "charles Web界面设置",
+    "description": "Web界面可以让您使用Web浏览器控制查询，您可以访问 http://control.charles",
+    "url": "https://segmentfault.com/a/1190000020452937",
+    "author": "小朱同学",
+    "home_url": "https://segmentfault.com/u/zhubangbang",
+    "votes": "2",
+    "rank": 12
+  },
+  {
+    "title": "charles 自动存储/auto_save",
+    "description": "“自动保存”工具会在你设定的间隔后，自动保存并清除抓取到的内容。假设你设置了3分钟，则每隔三分钟会保存一次，",
+    "url": "https://segmentfault.com/a/1190000020452853",
+    "author": "小朱同学",
+    "home_url": "https://segmentfault.com/u/zhubangbang",
+    "votes": "2",
+    "rank": 13
+  },
+  {
+    "title": "charles 黑名单",
+    "description": "本文参考：charles 黑名单 charles 黑名单 功能：阻止对匹配HOST的请求；可以直接把请求丢掉，也可以直接返回403状态码； 我一般用黑名单工具来block一些软件的自动上传功能 黑名单工具可让您阻止对设置Host的请...",
+    "url": "https://segmentfault.com/a/1190000020452813",
+    "author": "小朱同学",
+    "home_url": "https://segmentfault.com/u/zhubangbang",
+    "votes": "2",
+    "rank": 14
   },
   {
     "title": "charles 禁用Cookies /Block Cookies Settings",
@@ -104,8 +131,89 @@
     "url": "https://segmentfault.com/a/1190000020452755",
     "author": "小朱同学",
     "home_url": "https://segmentfault.com/u/zhubangbang",
+    "votes": "3",
+    "rank": 15
+  },
+  {
+    "title": "charles 客户端进程",
+    "description": "本文参考：charles 客户端进程 客户端进程工具/client_process 显示使每个请求的本地客户端进程; 客户端进程工具显示负责进行每个请求的本地客户端进程的名称。 客户端进程通常是您的Web浏览器，例如firefox.exe...",
+    "url": "https://segmentfault.com/a/1190000020452687",
+    "author": "小朱同学",
+    "home_url": "https://segmentfault.com/u/zhubangbang",
+    "votes": "3",
+    "rank": 16
+  },
+  {
+    "title": "charles 新的修改请求",
+    "description": "可以写各种状态； – URL： – Method： – GET – POST – PUT – DELETE – HEAD – TRACE – Content type： – application/x-www-form-urlencoded – multipart/form-data; boundary=******** – text/plain – text/xml ...",
+    "url": "https://segmentfault.com/a/1190000020452613",
+    "author": "小朱同学",
+    "home_url": "https://segmentfault.com/u/zhubangbang",
+    "votes": "2",
+    "rank": 17
+  },
+  {
+    "title": "javascript版快速排序算法",
+    "description": "是一个效率较高的排序算法，每一轮都会把比基准数小的放左边，比基准数大的放右边，本文章只是记录一下过程盗用一张图来看看过程",
+    "url": "https://segmentfault.com/a/1190000020455046",
+    "author": "fantasy525",
+    "home_url": "https://segmentfault.com/u/fantasyfei",
     "votes": "1",
-    "rank": 12
+    "rank": 18
+  },
+  {
+    "title": "搞懂JS变量提升",
+    "description": "本文讲解Javascript变量提升引起的问题以及如何规避。 问题 今天看到一道有意思的面试题，考察的还真是JS的基本功，题目如下： {代码...} 根据if条件可以得出可能的答案： Hello world Hello Jack 正确答案 答案...",
+    "url": "https://segmentfault.com/a/1190000020454881",
+    "author": "xialeistudio",
+    "home_url": "https://segmentfault.com/u/xialeistudio",
+    "votes": "2",
+    "rank": 19
+  },
+  {
+    "title": "深入理解计算机系统cp1：存储单位与编码",
+    "description": "摘要： 理解计算机是如何存储数据的。 原文：深入理解计算机系统cp1：存储单位与编码 作者：Chor Fundebug经授权转载，版权归原作者所有。 1. 存储单位 位：即 bit，表示二进制位，要么是 0 ，要么是 1。它是计算...",
+    "url": "https://segmentfault.com/a/1190000020451266",
+    "author": "Fundebug",
+    "home_url": "https://segmentfault.com/u/fundebug",
+    "votes": "1",
+    "rank": 20
+  },
+  {
+    "title": "Nuxt项目从开始到部署",
+    "description": "前期接了个私人项目，做个官网，想到在公司都是使用vue技术栈，而官网刚好可以使用nuxt来做。 开始 安装 nuxt安装可以按照官网的步骤来 {代码...} 使用预处理器 项目下直接安装对应的预处理器 {代码...} 全局组件...",
+    "url": "https://segmentfault.com/a/1190000020452519",
+    "author": "Mondo",
+    "home_url": "https://segmentfault.com/u/imondo",
+    "votes": "2",
+    "rank": 21
+  },
+  {
+    "title": "谨防猴子补丁以及Python中排查技巧",
+    "description": "前两天晚上线上系统突发故障，在立马打开线上错误日志之后，却只能得到一堆毫无意义的程序调用栈(traceback)的输出，于是团队成员陷入漫长而又抓瞎的问题排查过程中。问题很幸运地得到了解决，但是我一直想不明白...",
+    "url": "https://segmentfault.com/a/1190000020456832",
+    "author": "Martin91",
+    "home_url": "https://segmentfault.com/u/martin91",
+    "votes": "1",
+    "rank": 22
+  },
+  {
+    "title": "人类灭绝的一种可能",
+    "description": "【色情直播】在某个瞬间，由于一些外部原因，我联想到了色情直播。人为什么不去做色情直播呢？因为这总归是不光彩的事，总会有熟人看见，影响声誉。有没有办法解决？",
+    "url": "https://segmentfault.com/a/1190000020456473",
+    "author": "momo707577045",
+    "home_url": "https://segmentfault.com/u/momo707577045",
+    "votes": "1",
+    "rank": 23
+  },
+  {
+    "title": "Function",
+    "description": "函数的构造函数是Function，函数是Function的实例。 在JavaScript中使用Function可以实例化函数对象，也是说在JavaScript中函数与普通对象一样，也是一个对象类型，函数是JavaScript的一等公民。",
+    "url": "https://segmentfault.com/a/1190000020455536",
+    "author": "blob",
+    "home_url": "https://segmentfault.com/u/myz2000",
+    "votes": "1",
+    "rank": 24
   },
   {
     "title": "vue多页面项目中路由如何使用history模式",
@@ -114,16 +222,7 @@
     "author": "Ming_Up",
     "home_url": "https://segmentfault.com/u/mray",
     "votes": "1",
-    "rank": 13
-  },
-  {
-    "title": "charles 客户端进程",
-    "description": "本文参考：charles 客户端进程 客户端进程工具/client_process 显示使每个请求的本地客户端进程; 客户端进程工具显示负责进行每个请求的本地客户端进程的名称。 客户端进程通常是您的Web浏览器，例如firefox.exe...",
-    "url": "https://segmentfault.com/a/1190000020452687",
-    "author": "小朱同学",
-    "home_url": "https://segmentfault.com/u/zhubangbang",
-    "votes": "1",
-    "rank": 14
+    "rank": 25
   },
   {
     "title": "【Day 3】云开发0基础训练营",
@@ -132,42 +231,6 @@
     "author": "CloudBase",
     "home_url": "https://segmentfault.com/u/tencenttcb",
     "votes": "0",
-    "rank": 15
-  },
-  {
-    "title": "Go Modules 和 Go Proxy",
-    "description": "Go 在 1.11 版本引入了新的依赖管理模式 Go Modules，旨在解决一直广为诟病的依赖管理问题。",
-    "url": "https://segmentfault.com/a/1190000020450159",
-    "author": "Zack",
-    "home_url": "https://segmentfault.com/u/zzc_actual",
-    "votes": "0",
-    "rank": 16
-  },
-  {
-    "title": "vue中以Element写一个分页组件",
-    "description": "组件代码 {代码...} 别的组件引入 {代码...}",
-    "url": "https://segmentfault.com/a/1190000020450105",
-    "author": "yang",
-    "home_url": "https://segmentfault.com/u/yang_5c8f63fe0d5aa",
-    "votes": "1",
-    "rank": 17
-  },
-  {
-    "title": "深入理解计算机系统：定点数的表示和运算",
-    "description": "最近学习计算机组成原理时，结合视频和个人理解做的一些笔记。可能文中有错误或者描述不恰当的地方，欢迎评论区指出。",
-    "url": "https://segmentfault.com/a/1190000020449764",
-    "author": "Chor",
-    "home_url": "https://segmentfault.com/u/chor",
-    "votes": "1",
-    "rank": 18
-  },
-  {
-    "title": "4K高清彩色开国典礼上映：技术加持之下，历史不会褪色",
-    "description": "场景描述：在今日上映的电影《决胜时刻》中，经过了 4K 修复的高清史料，将会和全国人民见面。这段来之不易的资料，是创作者们经历了繁重的修复工作得来。电影修复究竟是怎么一回事，AI 在这个过程能带来什么帮助？",
-    "url": "https://segmentfault.com/a/1190000020448465",
-    "author": "超神经HyperAI",
-    "home_url": "https://segmentfault.com/u/chaoshenjinghyperai",
-    "votes": "3",
-    "rank": 19
+    "rank": 26
   }
 ]
