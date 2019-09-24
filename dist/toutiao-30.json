@@ -22,7 +22,7 @@
   {
     "title": "面试官：讲讲 DNS 的原理？",
     "description": "引言今天我们来聊聊DNS。 所谓域名系统（Domain Name System缩写DNS，Domain Name被译为域名）是因特网的一项核心服务，它作为可以将域名和IP地址相互映...",
-    "votes": "49",
+    "votes": "50",
     "url": "/k/u7t6dj1",
     "avatar": "https://img.toutiao.io/subject%2F8e44d1a2390944c08c6170906cfc0856",
     "avatarAlt": "跨端&全栈 - 独家号",
@@ -32,7 +32,7 @@
   {
     "title": "每秒 100W 请求，12306 秒杀业务，架构如何优化？",
     "description": "如《同样是高并发，QQ/微博/12306的架构难度一样吗？》一文所述，同样是高并发场景，三类业务的架构挑战不一样：QQ类业务，用户主要读写自己的数据，访问基本带有uid属性，数据访...",
-    "votes": "48",
+    "votes": "49",
     "url": "/k/3snpwix",
     "avatar": "https://img.toutiao.io/subject%2F9d058a96b0484f65a93e575731c3dbf3",
     "avatarAlt": "落北的mark簿 - 独家号",
@@ -40,19 +40,9 @@
     "homeUrl": "/subjects/123823"
   },
   {
-    "title": "如何优雅地进行重试",
-    "description": "本文口味：冰镇杨梅 预计阅读：20分钟0|1说明 最近公司在搞活动，需要依赖一个第三方接口，测试阶段并没有什么异常状况，但上线后发现依赖的接口有时候会因为内部错误而返回系统异常，虽...",
-    "votes": "46",
-    "url": "/k/rhskkte",
-    "avatar": "https://img.toutiao.io/subject%2Ffcd1137867a2413880689043418675a7",
-    "avatarAlt": "猿天地 - 独家号",
-    "subjectName": "猿天地",
-    "homeUrl": "/subjects/6491"
-  },
-  {
     "title": "在浏览器输入 URL 回车之后发生了什么（超详细版）",
     "description": "这个问题已经是老生常谈了，更是经常被作为面试的压轴题出现，网上也有很多文章，但最近闲的无聊，然后就自己做了一篇笔记，感觉比之前理解更透彻了。 前言这个问题已经是老生常谈了，更是经常...",
-    "votes": "41",
+    "votes": "42",
     "url": "/k/4b96i5m",
     "avatar": "https://img.toutiao.io/user/ce593a7c52194f849802ee51bea65ea3/thumb",
     "avatarAlt": "4Ark的独家号 - 独家号",
@@ -90,6 +80,16 @@
     "homeUrl": "/subjects/268362"
   },
   {
+    "title": "[译] 辞职后一年做了 7 个 App",
+    "description": "此文是「IndieMaker独立变现」知识星球人物志系列之第9篇官网：http://www.indiemakerstart.com/Andrey的独立创业变现经历是很多人的缩影，从...",
+    "votes": "33",
+    "url": "/k/22pq56t",
+    "avatar": "https://img.toutiao.io/subject%2F3fb00b07ad814fce8baab2f445b3a2c8",
+    "avatarAlt": "web前端开发知识 - 独家号",
+    "subjectName": "web前端开发知识",
+    "homeUrl": "/subjects/7315"
+  },
+  {
     "title": "用 Python 分析淘宝 2000 款避孕套，得出这些有趣的结论",
     "description": "到现在为止，我们的淘宝教程已经写到了第四篇，前三篇分别是：第一篇：Python模拟登录淘宝，详细讲解如何使用requests库登录淘宝pc端。第二篇：淘宝自动登录2.0，新增Coo...",
     "votes": "32",
@@ -110,24 +110,14 @@
     "homeUrl": "/subjects/351247"
   },
   {
-    "title": "[译] 辞职后一年做了 7 个 App",
-    "description": "此文是「IndieMaker独立变现」知识星球人物志系列之第9篇官网：http://www.indiemakerstart.com/Andrey的独立创业变现经历是很多人的缩影，从...",
-    "votes": "32",
-    "url": "/k/22pq56t",
-    "avatar": "https://img.toutiao.io/subject%2F3fb00b07ad814fce8baab2f445b3a2c8",
-    "avatarAlt": "web前端开发知识 - 独家号",
-    "subjectName": "web前端开发知识",
-    "homeUrl": "/subjects/7315"
-  },
-  {
-    "title": "大龄程序员技术管理路上的悲喜总结",
-    "description": "本文仅仅是对自己作为一个普通大龄开发者的一些技术与管理的总结。不喜勿喷。谢谢！生在中国这片热土，我们做程序开发的人要面临很多的挑战。只要生命不息，挑战就永远不会停止。比如最近疯传的...",
+    "title": "压测工具如何选择？ab、locust、Jmeter、go 压测工具（单台机器 100w 连接压测实战）",
+    "description": "本文介绍压测是什么，解释压测的专属名词，教大家如何计算压测指标。介绍市面上的常见压测工具(ab、locust、Jmeter、go实现的压测工具、云压测)，对比这些压测工具，教大家如...",
     "votes": "31",
-    "url": "/k/spo7w8w",
-    "avatar": "https://img.toutiao.io/subject%2F3f39bc56fe194d9f8bd25e9ef71016cc",
-    "avatarAlt": "PHP 解说 - 独家号",
-    "subjectName": "PHP 解说",
-    "homeUrl": "/subjects/158069"
+    "url": "/k/mp7xsz2",
+    "avatar": "https://img.toutiao.io/subject%2Fb9c4695b7a8145249294ef90e20a3b05",
+    "avatarAlt": "link1st的独家号 - 独家号",
+    "subjectName": "link1st的独家号",
+    "homeUrl": "/subjects/418659"
   },
   {
     "title": "教了一年少儿编程，说说感想和体验",
@@ -138,16 +128,6 @@
     "avatarAlt": "众智汇 - 独家号",
     "subjectName": "众智汇",
     "homeUrl": "/subjects/233305"
-  },
-  {
-    "title": "压测工具如何选择？ab、locust、Jmeter、go 压测工具（单台机器 100w 连接压测实战）",
-    "description": "本文介绍压测是什么，解释压测的专属名词，教大家如何计算压测指标。介绍市面上的常见压测工具(ab、locust、Jmeter、go实现的压测工具、云压测)，对比这些压测工具，教大家如...",
-    "votes": "30",
-    "url": "/k/mp7xsz2",
-    "avatar": "https://img.toutiao.io/subject%2Fb9c4695b7a8145249294ef90e20a3b05",
-    "avatarAlt": "link1st的独家号 - 独家号",
-    "subjectName": "link1st的独家号",
-    "homeUrl": "/subjects/418659"
   },
   {
     "title": "一个深圳流水线女工的 10 年：​工资翻了 40 倍，我还不认命",
@@ -248,5 +228,25 @@
     "avatarAlt": "程序亦非猿的Android旅程 - 独家号",
     "subjectName": "程序亦非猿的Android旅程",
     "homeUrl": "/subjects/4163"
+  },
+  {
+    "title": "JDK 13 快来了，JDK 8 的这几点应该看看",
+    "description": " 说明 jdk8虽然出现很久了，但是可能我们还是有很多人并不太熟悉，本文主要就是介绍说明一些jdk8相关的内容。主要会讲解： lambda表达式 方法引用 默认方法 Stream ...",
+    "votes": "23",
+    "url": "/k/z604hza",
+    "avatar": "https://img.toutiao.io/subject%2Ff1877686771f404eac3cd6cd7203ecdb",
+    "avatarAlt": "匠心零度 - 独家号",
+    "subjectName": "匠心零度",
+    "homeUrl": "/subjects/241105"
+  },
+  {
+    "title": "珍藏多年的 Git 问题和操作清单",
+    "description": "引言本文整理自工作多年以来遇到的所有 Git 问题汇总，之前都是遗忘的时候去看一遍操作，这次重新整理了一下，发出来方便大家收藏以及需要的时候查找答案。一、必备知识点仓库Remote...",
+    "votes": "22",
+    "url": "/k/5h0y1zj",
+    "avatar": "https://img.toutiao.io/subject%2Ffcd1137867a2413880689043418675a7",
+    "avatarAlt": "猿天地 - 独家号",
+    "subjectName": "猿天地",
+    "homeUrl": "/subjects/6491"
   }
 ]

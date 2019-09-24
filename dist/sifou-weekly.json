@@ -1,12 +1,39 @@
 [
   {
-    "title": "如何架构一个中后台项目的前端部分（webpack + 接口配置篇）",
-    "description": "当我们的前端项目完成了技术选型阶段后，接下来所要做的便是项目的构建和配置。虽然说用脚手架能够帮助我们完成基本的目录构建和一些基础配置，但是其他很多实用的功能及特殊配置都需要自己动手实践，根据实际场...",
-    "url": "https://segmentfault.com/a/1190000020466207",
-    "author": "劳卜",
-    "home_url": "https://segmentfault.com/u/chris",
-    "votes": "8",
+    "title": "简单易懂的 ES6 Iterators 指南和示例",
+    "description": "作者：Brandon Morelli译者：前端小智来源：Medium 为了保证的可读性，本文采用意译而非直译。 想阅读更多优质文章请猛戳GitHub博客,一年百来篇优质文章等着你！ 附：读者福利，为了督促大家更好的学习，领取完资...",
+    "url": "https://segmentfault.com/a/1190000020471406",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "3",
     "rank": 1
+  },
+  {
+    "title": "Vue之Mixins (混入)",
+    "description": "混入 (mixin) 提供了一种非常灵活的方式，来分发 Vue 组件中的可复用功能。一个混入对象可以包含任意组件选项。当组件使用混入对象时，所有混入对象的选项将被“混合”进入该组件本身的选项。当组件和混入对象含有...",
+    "url": "https://segmentfault.com/a/1190000020474346",
+    "author": "yang",
+    "home_url": "https://segmentfault.com/u/yang_5c8f63fe0d5aa",
+    "votes": "2",
+    "rank": 2
+  },
+  {
+    "title": "React数据大屏的应用实践",
+    "description": "现如今大数据已无所不在，并且正被越来越广泛的被应用到历史、政治、科学、经济、商业甚至渗透到我们生活的方方面面中，获取的渠道也越来越便利。",
+    "url": "https://segmentfault.com/a/1190000020475113",
+    "author": "hzzly",
+    "home_url": "https://segmentfault.com/u/hzzly",
+    "votes": "2",
+    "rank": 3
+  },
+  {
+    "title": "Javavscript基础——原型和原型链",
+    "description": "对于使用过基于类的语言(如Java或C#)的人来说，Javascript的继承有点难以搞懂，因为它本身没有class这种东西。(ES6中引入了class关键字，看上去也像传统的OOP语言，但是那只是语法糖，底层还是基于原型)。",
+    "url": "https://segmentfault.com/a/1190000020470749",
+    "author": "xialeistudio",
+    "home_url": "https://segmentfault.com/u/xialeistudio",
+    "votes": "15",
+    "rank": 4
   },
   {
     "title": "说说JS中的沙箱",
@@ -14,35 +41,17 @@
     "url": "https://segmentfault.com/a/1190000020463234",
     "author": "曾培森",
     "home_url": "https://segmentfault.com/u/zengpeisen_5abdadcc67a6f",
-    "votes": "15",
-    "rank": 2
-  },
-  {
-    "title": "用 JavaScript 操作 Cookie",
-    "description": "Web 服务器和 HTTP 服务器是无状态的，因此当 Web 服务器将网页发送到浏览器时，连接会被断开，服务器会忘记与用户相关的所有内容。",
-    "url": "https://segmentfault.com/a/1190000020464100",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "6",
-    "rank": 3
-  },
-  {
-    "title": "JS基础-完美掌握继承知识点",
-    "description": "上篇文章详细解析了原型、原型链的相关知识点，这篇文章讲的是和原型链有密切关联的继承，它是前端基础中很重要的一个知识点，它对于代码复用来说非常有用，本篇将详细解析JS中的各种继承方式和优缺点进行，希望...",
-    "url": "https://segmentfault.com/a/1190000020462544",
-    "author": "OBKoro1",
-    "home_url": "https://segmentfault.com/u/obkoro1",
-    "votes": "8",
-    "rank": 4
-  },
-  {
-    "title": "MySQL主从不一致情形与解决方法",
-    "description": "由于mysql主从复制是基于binlog的一种异步复制通过网络传送binlog文件，理所当然网络延迟是主从不同步的绝大多数的原因，特别是跨机房的数据同步出现这种几率非常的大，所以做读写分离，注意从业务层进行前期设计。",
-    "url": "https://segmentfault.com/a/1190000020464993",
-    "author": "leo_su",
-    "home_url": "https://segmentfault.com/u/leo_su",
-    "votes": "5",
+    "votes": "17",
     "rank": 5
+  },
+  {
+    "title": "如何架构一个中后台项目的前端部分（webpack + 接口配置篇）",
+    "description": "当我们的前端项目完成了技术选型阶段后，接下来所要做的便是项目的构建和配置。虽然说用脚手架能够帮助我们完成基本的目录构建和一些基础配置，但是其他很多实用的功能及特殊配置都需要自己动手实践，根据实际场...",
+    "url": "https://segmentfault.com/a/1190000020466207",
+    "author": "劳卜",
+    "home_url": "https://segmentfault.com/u/chris",
+    "votes": "13",
+    "rank": 6
   },
   {
     "title": "移动端调试大法",
@@ -51,16 +60,16 @@
     "author": "樊一",
     "home_url": "https://segmentfault.com/u/fanyi_5a01678c81075",
     "votes": "26",
-    "rank": 6
+    "rank": 7
   },
   {
-    "title": "掌握JS函数中的几种参数形式（函数基础）",
-    "description": "函数是一段结合在一起执行特定任务的代码，函数一般使用参数与外部进行交互。要编写简洁高效的JS代码，必须掌握函数参数。",
-    "url": "https://segmentfault.com/a/1190000020436141",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "7",
-    "rank": 7
+    "title": "K8S 生态周报| Kubernetes v1.16 正式发布",
+    "description": "「K8S 生态周报」内容主要包含我所接触到的 K8S 生态相关的每周值得推荐的一些信息。欢迎订阅知乎专栏「k8s生态」。",
+    "url": "https://segmentfault.com/a/1190000020474196",
+    "author": "张晋涛",
+    "home_url": "https://segmentfault.com/u/moelove",
+    "votes": "2",
+    "rank": 8
   },
   {
     "title": "面试官问你B树和B+树，就把这篇文章丢给他",
@@ -69,7 +78,7 @@
     "author": "欧阳思海",
     "home_url": "https://segmentfault.com/u/sihai_5ae5ba9170388",
     "votes": "83",
-    "rank": 8
+    "rank": 9
   },
   {
     "title": "2019 前端秋季社招面试经历总结（二年多经验）",
@@ -77,8 +86,17 @@
     "url": "https://segmentfault.com/a/1190000020460644",
     "author": "夜尽天明",
     "home_url": "https://segmentfault.com/u/biaochenxuying",
-    "votes": "15",
-    "rank": 9
+    "votes": "20",
+    "rank": 10
+  },
+  {
+    "title": "React Rouer 使用教程",
+    "description": "作为 React 全家桶的一员，如果我们想要开发一个 React 应用，那么 react-router 基本上是我们绕不过去的基础。基于此，对它的了解和使用也是必不可少的一步",
+    "url": "https://segmentfault.com/a/1190000020471085",
+    "author": "游荡de蝌蚪",
+    "home_url": "https://segmentfault.com/u/youdangde_5c8b208a23f95",
+    "votes": "7",
+    "rank": 11
   },
   {
     "title": "如何写出优雅耐看的JavaScript代码",
@@ -86,8 +104,35 @@
     "url": "https://segmentfault.com/a/1190000020444918",
     "author": "浅夏晴空",
     "home_url": "https://segmentfault.com/u/qianxiaqingkong",
-    "votes": "57",
-    "rank": 10
+    "votes": "63",
+    "rank": 12
+  },
+  {
+    "title": "用 JavaScript 操作 Cookie",
+    "description": "Web 服务器和 HTTP 服务器是无状态的，因此当 Web 服务器将网页发送到浏览器时，连接会被断开，服务器会忘记与用户相关的所有内容。",
+    "url": "https://segmentfault.com/a/1190000020464100",
+    "author": "疯狂的技术宅",
+    "home_url": "https://segmentfault.com/u/evilboy",
+    "votes": "11",
+    "rank": 13
+  },
+  {
+    "title": "MySQL主从不一致情形与解决方法",
+    "description": "由于mysql主从复制是基于binlog的一种异步复制通过网络传送binlog文件，理所当然网络延迟是主从不同步的绝大多数的原因，特别是跨机房的数据同步出现这种几率非常的大，所以做读写分离，注意从业务层进行前期设计。",
+    "url": "https://segmentfault.com/a/1190000020464993",
+    "author": "leo_su",
+    "home_url": "https://segmentfault.com/u/leo_su",
+    "votes": "10",
+    "rank": 14
+  },
+  {
+    "title": "JS基础-完美掌握继承知识点",
+    "description": "上篇文章详细解析了原型、原型链的相关知识点，这篇文章讲的是和原型链有密切关联的继承，它是前端基础中很重要的一个知识点，它对于代码复用来说非常有用，本篇将详细解析JS中的各种继承方式和优缺点进行，希望...",
+    "url": "https://segmentfault.com/a/1190000020462544",
+    "author": "OBKoro1",
+    "home_url": "https://segmentfault.com/u/obkoro1",
+    "votes": "9",
+    "rank": 15
   },
   {
     "title": "正则表达式使用笔记",
@@ -96,7 +141,25 @@
     "author": "dabai",
     "home_url": "https://segmentfault.com/u/dabai_5955b2921e87d",
     "votes": "11",
-    "rank": 11
+    "rank": 16
+  },
+  {
+    "title": "前端培训-中级阶段（14）- HTTP 首部字段和状态码（2019-09-05期）",
+    "description": "前端最基础的就是 HTML+CSS+Javascript。掌握了这三门技术就算入门，但也仅仅是入门，现在前端开发的定义已经远远不止这些。前端小课堂（HTML/CSS/JS），本着提升技术水平，打牢基础知识的中心思想，我们开课啦（...",
+    "url": "https://segmentfault.com/a/1190000020204490",
+    "author": "linong",
+    "home_url": "https://segmentfault.com/u/linong",
+    "votes": "4",
+    "rank": 17
+  },
+  {
+    "title": "掌握JS函数中的几种参数形式（函数基础）",
+    "description": "函数是一段结合在一起执行特定任务的代码，函数一般使用参数与外部进行交互。要编写简洁高效的JS代码，必须掌握函数参数。",
+    "url": "https://segmentfault.com/a/1190000020436141",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "9",
+    "rank": 18
   },
   {
     "title": "Java Web 面试中关于Spring MVC必问题,不看血亏！",
@@ -104,8 +167,8 @@
     "url": "https://segmentfault.com/a/1190000020463668",
     "author": "码农小胖哥",
     "home_url": "https://segmentfault.com/u/10000000",
-    "votes": "4",
-    "rank": 12
+    "votes": "12",
+    "rank": 19
   },
   {
     "title": "通过实现25个数组方法来理解及高效使用数组方法(长文,建议收藏)",
@@ -113,8 +176,17 @@
     "url": "https://segmentfault.com/a/1190000020389596",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "42",
-    "rank": 13
+    "votes": "44",
+    "rank": 20
+  },
+  {
+    "title": "使用CSS实现图片帧动画与曲线运动",
+    "description": "本文首发于公众号：符合预期的CoyPan 写在前面 在前端开发中，提到动画，我们可以： 直接利用DOM实现动画。 利用canvas实现动画。 利用svg实现动画。 直接用一张gif动图。 利用图片实现帧动画。 ... 所有动画的基...",
+    "url": "https://segmentfault.com/a/1190000020460391",
+    "author": "CoyPan",
+    "home_url": "https://segmentfault.com/u/coypan",
+    "votes": "10",
+    "rank": 21
   },
   {
     "title": "2020前端秋招总结",
@@ -122,17 +194,8 @@
     "url": "https://segmentfault.com/a/1190000020446367",
     "author": "心难收",
     "home_url": "https://segmentfault.com/u/xinnanshou",
-    "votes": "12",
-    "rank": 14
-  },
-  {
-    "title": "用CSS新属性实现特殊的图片显示效果",
-    "description": "使用一个或多个图像相关的CSS属性（background-blend-mode, mix-blend-mode, or filter）可以实现许多特殊的图片显示效果。本文转载自Bennett Feely的个人网站，文中共列举了20种图片显示效果。",
-    "url": "https://segmentfault.com/a/1190000020438243",
-    "author": "毛瑞",
-    "home_url": "https://segmentfault.com/u/ifat3",
-    "votes": "40",
-    "rank": 15
+    "votes": "14",
+    "rank": 22
   },
   {
     "title": "跨站脚本攻击—XSS",
@@ -140,17 +203,17 @@
     "url": "https://segmentfault.com/a/1190000020402185",
     "author": "FEWY",
     "home_url": "https://segmentfault.com/u/fewy",
-    "votes": "46",
-    "rank": 16
+    "votes": "47",
+    "rank": 23
   },
   {
-    "title": "Tomcat 应用中并行流带来的类加载问题",
-    "description": "随着 Java8 的不断流行，越来越多的开发人员使用并行流（parallel）这一特性提升代码执行效率。但是，作者发现在 Tomcat 容器中使用并行流会出现动态加载类失败的情况，通过对比 Tomcat 多个版本的源码，结合并行...",
-    "url": "https://segmentfault.com/a/1190000020465503",
-    "author": "vivo互联网技术",
-    "home_url": "https://segmentfault.com/u/vivo_tech",
-    "votes": "1",
-    "rank": 17
+    "title": "用CSS新属性实现特殊的图片显示效果",
+    "description": "使用一个或多个图像相关的CSS属性（background-blend-mode, mix-blend-mode, or filter）可以实现许多特殊的图片显示效果。本文转载自Bennett Feely的个人网站，文中共列举了20种图片显示效果。",
+    "url": "https://segmentfault.com/a/1190000020438243",
+    "author": "毛瑞",
+    "home_url": "https://segmentfault.com/u/ifat3",
+    "votes": "41",
+    "rank": 24
   },
   {
     "title": "七个开源的 Spring Boot 前后端分离项目，一定要收藏！",
@@ -159,25 +222,7 @@
     "author": "江南一点雨",
     "home_url": "https://segmentfault.com/u/lenve",
     "votes": "55",
-    "rank": 18
-  },
-  {
-    "title": "使用CSS实现图片帧动画与曲线运动",
-    "description": "本文首发于公众号：符合预期的CoyPan 写在前面 在前端开发中，提到动画，我们可以： 直接利用DOM实现动画。 利用canvas实现动画。 利用svg实现动画。 直接用一张gif动图。 利用图片实现帧动画。 ... 所有动画的基...",
-    "url": "https://segmentfault.com/a/1190000020460391",
-    "author": "CoyPan",
-    "home_url": "https://segmentfault.com/u/coypan",
-    "votes": "6",
-    "rank": 19
-  },
-  {
-    "title": "2019 DevOps 必备面试题——配置管理篇",
-    "description": "配置管理（CM）的目的是通过使开发或部署过程可控且可重复，来确保产品或系统在其整个生命周期中的完整性，从而创建更高质量的产品或系统。CM 流程允许有序管理系统信息和系统更改，以便：",
-    "url": "https://segmentfault.com/a/1190000020464515",
-    "author": "CODING",
-    "home_url": "https://segmentfault.com/u/codingnet",
-    "votes": "1",
-    "rank": 20
+    "rank": 25
   },
   {
     "title": "MySQL 之 LEFT JOIN 避坑指南",
@@ -185,8 +230,26 @@
     "url": "https://segmentfault.com/a/1190000020458807",
     "author": "MageekChiu",
     "home_url": "https://segmentfault.com/u/mageek",
-    "votes": "10",
-    "rank": 21
+    "votes": "12",
+    "rank": 26
+  },
+  {
+    "title": "GitHub 60000+ Star,命令行的艺术",
+    "description": "熟练使用命令行是一种常常被忽视，或被认为难以掌握的技能，但实际上，它会提高你作为工程师的灵活性以及生产力。本文是一份我在 Linux 上工作时，发现的一些命令行使用技巧的摘要。有些技巧非常基础，而另一些则...",
+    "url": "https://segmentfault.com/a/1190000020469871",
+    "author": "LeanCloud",
+    "home_url": "https://segmentfault.com/u/leancloud",
+    "votes": "3",
+    "rank": 27
+  },
+  {
+    "title": "不要把敏捷玩成小瀑布了",
+    "description": "瀑布开发就是严格遵守 需求->设计->编码->测试 的顺序，做完一个环节才能做下一个，界限分明，简单明了，最省脑力了。",
+    "url": "https://segmentfault.com/a/1190000020473241",
+    "author": "Saga",
+    "home_url": "https://segmentfault.com/u/saga_zhu",
+    "votes": "1",
+    "rank": 28
   },
   {
     "title": "【React技术栈】从零开始手写redux",
@@ -194,79 +257,16 @@
     "url": "https://segmentfault.com/a/1190000020427462",
     "author": "刘小夕",
     "home_url": "https://segmentfault.com/u/liuyan666",
-    "votes": "30",
-    "rank": 22
-  },
-  {
-    "title": "有的线程它死了，于是它变成一道面试题。",
-    "description": "我记得那天是周一，刚刚经历过周末过的放松，干劲十足的我正在键盘上疯狂的输出。这时，我的手机响了起来，拿起一看，是来自杭州的电话，心想这次是要给我推荐股票呢还是要让我贷款呢。我接起了电话，准备“调戏一...",
-    "url": "https://segmentfault.com/a/1190000020435830",
-    "author": "why技术",
-    "home_url": "https://segmentfault.com/u/whyjishu",
-    "votes": "24",
-    "rank": 23
-  },
-  {
-    "title": "解决原子性问题？脑海中有这个模型就可以了",
-    "description": "原子性问题的源头就是 线程切换，但在多核 CPU 的大背景下，不允许线程切换是不可能的，正所谓「魔高一尺，道高一丈」，新规矩来了:",
-    "url": "https://segmentfault.com/a/1190000020462873",
-    "author": "日拱一兵",
-    "home_url": "https://segmentfault.com/u/tanrigongyibing",
-    "votes": "3",
-    "rank": 24
-  },
-  {
-    "title": "面试官: 既然已经有数组了,为什么还要链表",
-    "description": "对于不少开发者而言,链表(linked list)这种数据结构既熟悉又陌生,熟悉是因为它确实是非常基础的数据结构,陌生的原因是我们在业务开发中用到它的几率的确不大.",
-    "url": "https://segmentfault.com/a/1190000020442302",
-    "author": "程序员面试官",
-    "home_url": "https://segmentfault.com/u/cxymsg",
-    "votes": "14",
-    "rank": 25
-  },
-  {
-    "title": "微服务架构一直火，为什么服务化要搞懂？",
-    "description": "微服务架构，这 5 年左右一直被认可，是软件架构的未来方向。需要大家理解的是，为什么需要服务化。比如微服务架构对企业来说，带来什么价值？有啥弊端？",
-    "url": "https://segmentfault.com/a/1190000020437300",
-    "author": "泥瓦匠",
-    "home_url": "https://segmentfault.com/u/niwajiang_5c99fa77b0858",
-    "votes": "28",
-    "rank": 26
-  },
-  {
-    "title": "图算法 - 只需“五步” ，获取两节点间的所有路径（非递归方式）",
-    "description": "在实现 “图” 数据结构时，会遇到 “获取两点之间是所有路径” 这个算法问题，网上的资料大多都是利用递归算法来实现（见文末的参考文章）。",
-    "url": "https://segmentfault.com/a/1190000020445075",
-    "author": "JSCON简时空",
-    "home_url": "https://segmentfault.com/u/jscon",
-    "votes": "14",
-    "rank": 27
-  },
-  {
-    "title": "JavaScript——对象之初探",
-    "description": "初探对象 （一）定义： 无序的数据集合 声明方式： let obj = new Object(); let obj = { }; （二）属性名 Object.keys (obj)：可以得到obj的所有属性名 变量作为属性名： {代码...} 对比：不加[]的属性名会自动...",
-    "url": "https://segmentfault.com/a/1190000020463293",
-    "author": "Oliver",
-    "home_url": "https://segmentfault.com/u/ysq99",
-    "votes": "1",
-    "rank": 28
-  },
-  {
-    "title": "喜大普奔，两个开源的 Spring Boot + Vue 前后端分离项目可以在线体验了",
-    "description": "其实这两个项目当时刚做好的时候，我就把它们部署到服务器上了，以帮助小伙伴们更好的查看效果。但是那个是一台国外服务器，之所以购买国外服务器，主要是嫌国内备案麻烦，当然也有其他大家都懂的原因。",
-    "url": "https://segmentfault.com/a/1190000020440486",
-    "author": "江南一点雨",
-    "home_url": "https://segmentfault.com/u/lenve",
-    "votes": "22",
+    "votes": "31",
     "rank": 29
   },
   {
-    "title": "2019年最快的Javascript框架",
-    "description": "速度是纯nodejs的2倍，更不用说其他依赖nodejs的框架例如express/koa/hapi了，根本不值一提，不但如此，性能还能吊打spring以及一众php7框架。",
-    "url": "https://segmentfault.com/a/1190000020452315",
-    "author": "张京",
-    "home_url": "https://segmentfault.com/u/fengerzh",
-    "votes": "9",
+    "title": "CPU 使用率低高负载的原因，看看这篇！",
+    "description": "产生的原因一句话总结就是：等待磁盘I/O完成的进程过多，导致进程队列长度过大，但是cpu运行的进程却很少，这样就体现到负载过大了，cpu使用率低。",
+    "url": "https://segmentfault.com/a/1190000020459073",
+    "author": "民工哥技术之路",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "11",
     "rank": 30
   }
 ]
