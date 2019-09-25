@@ -1,4 +1,4 @@
-排行榜预览网址：[Github](http://jaywcjlove.github.io/github-rank/) | [Githack](https://raw.githack.com/jaywcjlove/github-rank/gh-pages/index.html) | [UNPKG](https://unpkg.com/@wcj/github-rank/web/index.html) | [Gitee](http://jaywcjlove.gitee.io/github-rank)
+Preview: [Github](http://jaywcjlove.github.io/github-rank/) | [Gitee](http://jaywcjlove.gitee.io/github-rank) | [UNPKG](https://unpkg.com/@wcj/github-rank/web/index.html) | [Githack](https://raw.githack.com/jaywcjlove/github-rank/gh-pages/index.html) | [Statically](https://cdn.statically.io/gh/jaywcjlove/github-rank/gh-pages/index.html)
 
 <p align="center">
   <a href="https://jaywcjlove.github.io/github-rank">
