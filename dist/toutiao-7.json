@@ -1,23 +1,33 @@
 [
   {
-    "title": "[译] 辞职后一年做了 7 个 App",
-    "description": "此文是「IndieMaker独立变现」知识星球人物志系列之第9篇官网：http://www.indiemakerstart.com/Andrey的独立创业变现经历是很多人的缩影，从...",
+    "title": "中台的末路",
+    "description": "从 15 年开始，到 19 年现在为止。各大公司都在吹捧中台理念。仿佛中台是业务复杂性的救世主。是某些架构师和 PM 的新出路。各种割韭菜的讲中台的课程层出不穷。当然，吹牛逼的时候...",
     "votes": "34",
-    "url": "/k/22pq56t",
-    "avatar": "https://img.toutiao.io/subject%2F3fb00b07ad814fce8baab2f445b3a2c8",
-    "avatarAlt": "web前端开发知识 - 独家号",
-    "subjectName": "web前端开发知识",
-    "homeUrl": "/subjects/7315"
+    "url": "/k/gfuiz7n",
+    "avatar": "https://img.toutiao.io/subject%2F6a017995d8424765ab042213593cb4a9",
+    "avatarAlt": "码农桃花源 - 独家号",
+    "subjectName": "码农桃花源",
+    "homeUrl": "/subjects/393157"
   },
   {
     "title": "ArtiPub：开源的一文多发平台",
     "description": "README.mdArtiPub      ArtiPub (Article Publisher的简称，意为\"文章发布者\")是一款开源的一文多发平台，可以帮助文章作者将编写好的文章...",
-    "votes": "22",
+    "votes": "23",
     "url": "/k/oagceoo",
     "avatar": "https://img.toutiao.io/subject%2F152f9820c144416e99825b87b38e8d4b",
     "avatarAlt": "MarvinZhang的独家号 - 独家号",
     "subjectName": "MarvinZhang的独家号",
     "homeUrl": "/subjects/297963"
+  },
+  {
+    "title": "专业的 MySQL 开发规范",
+    "description": "为了项目的稳定，代码的高效，管理的便捷，在开发团队内部会制定各种各样的规范这里分享一份我们定义的MySQL开发规范，欢迎交流拍砖数据库对象命名规范 数据库对象 命名规范的对象是指数...",
+    "votes": "22",
+    "url": "/k/gbx787n",
+    "avatar": "https://img.toutiao.io/subject%2F2f904f0590494bc1b2c69067c180b5b0",
+    "avatarAlt": "运维咖啡吧 - 独家号",
+    "subjectName": "运维咖啡吧",
+    "homeUrl": "/subjects/178627"
   },
   {
     "title": "MySQL 为什么要这样优化",
@@ -30,6 +40,16 @@
     "homeUrl": "/subjects/282003"
   },
   {
+    "title": "从百亿到万亿：如何打造一支承担企业战略使命的研发团队",
+    "description": "2019 年 9 月 21 日，由高端技术领导者社交平台 TGO 鲲鹏会主办的 GTLC 全球技术领导峰会分站在南京举行。会上苏宁易购集团总经理助理肖军发表了主题为「从百亿到万亿：...",
+    "votes": "18",
+    "url": "/k/xndbf9l",
+    "avatar": "https://img.toutiao.io/subject%2F2d3d99522c644729948fa3e529e11b48",
+    "avatarAlt": "架构一加一 - 独家号",
+    "subjectName": "架构一加一",
+    "homeUrl": "/subjects/314175"
+  },
+  {
     "title": "Gin v1.4 中文文档",
     "description": "Gin Web 框架Gin是一款用Go（Golang）编写的Web框架. 它拥有 Martini-like API 的特性, 具有更好的性能, 速度较httprouter提高了40...",
     "votes": "17",
@@ -38,26 +58,6 @@
     "avatarAlt": "码农思维 - 独家号",
     "subjectName": "码农思维",
     "homeUrl": "/subjects/305777"
-  },
-  {
-    "title": "延时队列：基于 Redis 的实现",
-    "description": "作者 | 黄书柏  杏仁java开发工程师，专注后端开发。 前段时间做一个项目，需要各种定时任务处理会话状态，处理订单状态，然后需求不停的变，修修改改就觉得很麻烦，就去了解了一下有...",
-    "votes": "16",
-    "url": "/k/vf7co0h",
-    "avatar": "https://img.toutiao.io/subject%2F2200d388e46e44128cf378d4d4920a40",
-    "avatarAlt": "杏仁技术站 - 独家号",
-    "subjectName": "杏仁技术站",
-    "homeUrl": "/subjects/206366"
-  },
-  {
-    "title": "从百亿到万亿：如何打造一支承担企业战略使命的研发团队",
-    "description": "2019 年 9 月 21 日，由高端技术领导者社交平台 TGO 鲲鹏会主办的 GTLC 全球技术领导峰会分站在南京举行。会上苏宁易购集团总经理助理肖军发表了主题为「从百亿到万亿：...",
-    "votes": "15",
-    "url": "/k/xndbf9l",
-    "avatar": "https://img.toutiao.io/subject%2F2d3d99522c644729948fa3e529e11b48",
-    "avatarAlt": "架构一加一 - 独家号",
-    "subjectName": "架构一加一",
-    "homeUrl": "/subjects/314175"
   },
   {
     "title": "如何破解微信聊天数据库",
@@ -110,20 +110,20 @@
     "homeUrl": "/subjects/4"
   },
   {
-    "title": "如何为 Kafka 集群选择合适的 Topics/Partitions 数量",
-    "description": "这是许多kafka使用者经常会问到的一个问题。本文的目的是介绍与本问题相关的一些重要决策因素，并提供一些简单的计算公式。越多的分区可以提供更高的吞吐量 首先我们需要明白以下事实：在...",
+    "title": "为什么说 Prometheus 是足以取代 Zabbix 的监控神器？",
+    "description": " 本文根据dbaplus社群第198期线上分享整理而成，文末还有好书推荐哦~ 讲师介绍 陈晓宇 宜信容器云架构师负责宜信PaaS平台的设计和推广，帮助企业从传统应用迁移至云原生；在...",
     "votes": "13",
-    "url": "/k/ls32v9k",
+    "url": "/k/mrbn1qv",
     "avatar": "https://img.toutiao.io/subject%2F6ee3bb205b3248c2b746c1506548181a",
     "avatarAlt": "大数据生态 - 独家号",
     "subjectName": "大数据生态",
     "homeUrl": "/subjects/136176"
   },
   {
-    "title": "为什么说 Prometheus 是足以取代 Zabbix 的监控神器？",
-    "description": " 本文根据dbaplus社群第198期线上分享整理而成，文末还有好书推荐哦~ 讲师介绍 陈晓宇 宜信容器云架构师负责宜信PaaS平台的设计和推广，帮助企业从传统应用迁移至云原生；在...",
-    "votes": "12",
-    "url": "/k/mrbn1qv",
+    "title": "如何为 Kafka 集群选择合适的 Topics/Partitions 数量",
+    "description": "这是许多kafka使用者经常会问到的一个问题。本文的目的是介绍与本问题相关的一些重要决策因素，并提供一些简单的计算公式。越多的分区可以提供更高的吞吐量 首先我们需要明白以下事实：在...",
+    "votes": "13",
+    "url": "/k/ls32v9k",
     "avatar": "https://img.toutiao.io/subject%2F6ee3bb205b3248c2b746c1506548181a",
     "avatarAlt": "大数据生态 - 独家号",
     "subjectName": "大数据生态",
@@ -150,6 +150,26 @@
     "homeUrl": "/subjects/176399"
   },
   {
+    "title": "[译] 支付核心系统设计：Airbnb 的分布式事务方案简介",
+    "description": "导读：微服务架构下的支付系统，由于其需要在性能和一致性之间做很多权衡，带来设计和实现的复杂性。Airbnb的支付系统需要对接全球很多个国家的支付系统，因此带来很大的复杂性。本文详细...",
+    "votes": "11",
+    "url": "/k/wo0s4y8",
+    "avatar": "https://img.toutiao.io/subject%2F08c3200c43064a1babec277646669298",
+    "avatarAlt": "黑夜路人 - 独家号",
+    "subjectName": "黑夜路人",
+    "homeUrl": "/subjects/17093"
+  },
+  {
+    "title": "和微信公众号编辑器战斗的日子",
+    "description": "作者：灵魂画师牧码 本文提到的 Markdown Nice 体验地址：https://mdnice.com公元 2019 年，微信公众号排版能力孱弱，始终为运营者所诟病，秀米、13...",
+    "votes": "11",
+    "url": "/k/st34sf0",
+    "avatar": "https://img.toutiao.io/subject%2Fb751657c3aaa4ac59db50c07db41e538",
+    "avatarAlt": "HelloGitHub - 独家号",
+    "subjectName": "HelloGitHub",
+    "homeUrl": "/subjects/175527"
+  },
+  {
     "title": "[译] TypeScript 完全手册",
     "description": "在 freeCodeCamp 社区阅读原文。Stack Overflow 在 90,000 名开发者中开展了一项调查，结果显示 TypeScript 是人们最想学习的工具之一。在过...",
     "votes": "11",
@@ -170,33 +190,13 @@
     "homeUrl": "/subjects/4"
   },
   {
-    "title": "微服务架构下，MySQL 读写分离后，数据库 CPU 飙升卡壳问题解析",
-    "description": "前言最近系统（基于SpringCloud+K8s）上线，运维团队早上8点左右在群里反馈，系统登录无反应！我的第一反应是Mysql数据库扛不住了。排查问题也是一波三折，有网络问题，也...",
+    "title": "程序猿菜鸟打怪升级：一路火花带闪电",
+    "description": "前段时间接到segmentFault(思否)的中秋约稿，思否小姐姐让写写我的程序猿故事，14年毕业到现在，回首这5年，感觉就是：平头白发银披风，一生都在征战中。希望能对大家有些许帮...",
     "votes": "10",
-    "url": "/k/2nh8e2o",
-    "avatar": "https://img.toutiao.io/subject%2Ffcd1137867a2413880689043418675a7",
-    "avatarAlt": "猿天地 - 独家号",
-    "subjectName": "猿天地",
-    "homeUrl": "/subjects/6491"
-  },
-  {
-    "title": "[译] 支付核心系统设计：Airbnb 的分布式事务方案简介",
-    "description": "导读：微服务架构下的支付系统，由于其需要在性能和一致性之间做很多权衡，带来设计和实现的复杂性。Airbnb的支付系统需要对接全球很多个国家的支付系统，因此带来很大的复杂性。本文详细...",
-    "votes": "10",
-    "url": "/k/wo0s4y8",
-    "avatar": "https://img.toutiao.io/subject%2F08c3200c43064a1babec277646669298",
-    "avatarAlt": "黑夜路人 - 独家号",
-    "subjectName": "黑夜路人",
-    "homeUrl": "/subjects/17093"
-  },
-  {
-    "title": "和微信公众号编辑器战斗的日子",
-    "description": "作者：灵魂画师牧码 本文提到的 Markdown Nice 体验地址：https://mdnice.com公元 2019 年，微信公众号排版能力孱弱，始终为运营者所诟病，秀米、13...",
-    "votes": "10",
-    "url": "/k/st34sf0",
-    "avatar": "https://img.toutiao.io/subject%2Fb751657c3aaa4ac59db50c07db41e538",
-    "avatarAlt": "HelloGitHub - 独家号",
-    "subjectName": "HelloGitHub",
-    "homeUrl": "/subjects/175527"
+    "url": "/k/mk04zya",
+    "avatar": "https://img.toutiao.io/subject%2F17cb8235f5714aca98c37cd444b3402a",
+    "avatarAlt": "猿人谷 - 独家号",
+    "subjectName": "猿人谷",
+    "homeUrl": "/subjects/422208"
   }
 ]
