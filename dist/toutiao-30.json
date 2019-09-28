@@ -20,16 +20,6 @@
     "homeUrl": "/subjects/7076"
   },
   {
-    "title": "终于找到可以一文多发的平台了",
-    "description": " 你来了~  openwrite.cn 一文多发平台有时候自己辛苦写了几个小时的技术文章，被爬虫抓走。自己去全平台一个一个发，又过于麻烦。而且每个平台都不一样，发文同步很困难。那么...",
-    "votes": "50",
-    "url": "/k/sq2x7uf",
-    "avatar": "https://img.toutiao.io/subject%2Fbdb189abc2894fa1bb7a090d9d64f408",
-    "avatarAlt": "SpringForAll社区 - 独家号",
-    "subjectName": "SpringForAll社区",
-    "homeUrl": "/subjects/2500"
-  },
-  {
     "title": "每秒 100W 请求，12306 秒杀业务，架构如何优化？",
     "description": "如《同样是高并发，QQ/微博/12306的架构难度一样吗？》一文所述，同样是高并发场景，三类业务的架构挑战不一样：QQ类业务，用户主要读写自己的数据，访问基本带有uid属性，数据访...",
     "votes": "50",
@@ -38,6 +28,16 @@
     "avatarAlt": "落北的mark簿 - 独家号",
     "subjectName": "落北的mark簿",
     "homeUrl": "/subjects/123823"
+  },
+  {
+    "title": "中台的末路",
+    "description": "从 15 年开始，到 19 年现在为止。各大公司都在吹捧中台理念。仿佛中台是业务复杂性的救世主。是某些架构师和 PM 的新出路。各种割韭菜的讲中台的课程层出不穷。当然，吹牛逼的时候...",
+    "votes": "43",
+    "url": "/k/gfuiz7n",
+    "avatar": "https://img.toutiao.io/subject%2F6a017995d8424765ab042213593cb4a9",
+    "avatarAlt": "码农桃花源 - 独家号",
+    "subjectName": "码农桃花源",
+    "homeUrl": "/subjects/393157"
   },
   {
     "title": "在浏览器输入 URL 回车之后发生了什么（超详细版）",
@@ -78,16 +78,6 @@
     "avatarAlt": "web前端开发知识 - 独家号",
     "subjectName": "web前端开发知识",
     "homeUrl": "/subjects/7315"
-  },
-  {
-    "title": "中台的末路",
-    "description": "从 15 年开始，到 19 年现在为止。各大公司都在吹捧中台理念。仿佛中台是业务复杂性的救世主。是某些架构师和 PM 的新出路。各种割韭菜的讲中台的课程层出不穷。当然，吹牛逼的时候...",
-    "votes": "34",
-    "url": "/k/gfuiz7n",
-    "avatar": "https://img.toutiao.io/subject%2F6a017995d8424765ab042213593cb4a9",
-    "avatarAlt": "码农桃花源 - 独家号",
-    "subjectName": "码农桃花源",
-    "homeUrl": "/subjects/393157"
   },
   {
     "title": "用 Python 分析淘宝 2000 款避孕套，得出这些有趣的结论",
@@ -160,16 +150,6 @@
     "homeUrl": "/subjects/4"
   },
   {
-    "title": "面试官问我同步容器（如 Vector）的所有操作一定是线程安全的吗？我懵了",
-    "description": "△Hollis, 一个对Coding有着独特追求的人△  这是Hollis的第 226篇原创分享 作者 l Hollis 来源 l Hollis（ID：hollischuang） ...",
-    "votes": "26",
-    "url": "/k/7q9btxa",
-    "avatar": "https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e",
-    "avatarAlt": "JAVA干货 - 独家号",
-    "subjectName": "JAVA干货",
-    "homeUrl": "/subjects/51515"
-  },
-  {
     "title": "看完这篇还不懂缓存穿透，我跪搓衣板，99% 程序员已收藏",
     "description": "点击▲关注 “爪哇笔记”   给公众号标星置顶 更多精彩 第一时间直达  前言 在博客系统中，为了提升响应速度，加入了 Redis 缓存，把文章主键 ID 作为 key 值去缓存查...",
     "votes": "26",
@@ -188,6 +168,16 @@
     "avatarAlt": "知了一笑 - 独家号",
     "subjectName": "知了一笑",
     "homeUrl": "/subjects/416733"
+  },
+  {
+    "title": "专业的 MySQL 开发规范",
+    "description": "为了项目的稳定，代码的高效，管理的便捷，在开发团队内部会制定各种各样的规范这里分享一份我们定义的MySQL开发规范，欢迎交流拍砖数据库对象命名规范 数据库对象 命名规范的对象是指数...",
+    "votes": "25",
+    "url": "/k/gbx787n",
+    "avatar": "https://img.toutiao.io/subject%2F2f904f0590494bc1b2c69067c180b5b0",
+    "avatarAlt": "运维咖啡吧 - 独家号",
+    "subjectName": "运维咖啡吧",
+    "homeUrl": "/subjects/178627"
   },
   {
     "title": "敏感词过滤算法对比，顺便开源了个工具库",
@@ -240,13 +230,23 @@
     "homeUrl": "/subjects/241105"
   },
   {
-    "title": "专业的 MySQL 开发规范",
-    "description": "为了项目的稳定，代码的高效，管理的便捷，在开发团队内部会制定各种各样的规范这里分享一份我们定义的MySQL开发规范，欢迎交流拍砖数据库对象命名规范 数据库对象 命名规范的对象是指数...",
+    "title": "超实用技术面试手册，从工作申请、面试考题再到优势谈判，GitHub 获 30000 星",
+    "description": "安妮 发自 凹非寺量子位 出品 | 公众号 QbitAI技术人员求职面试，单刷leetcode上的大厂题库可能还不够。简历怎么写才能吸引HR的眼光，可能会被技术老大问到哪些常见问题...",
     "votes": "22",
-    "url": "/k/gbx787n",
-    "avatar": "https://img.toutiao.io/subject%2F2f904f0590494bc1b2c69067c180b5b0",
-    "avatarAlt": "运维咖啡吧 - 独家号",
-    "subjectName": "运维咖啡吧",
-    "homeUrl": "/subjects/178627"
+    "url": "/k/k67sare",
+    "avatar": "https://img.toutiao.io/subject%2F732cb6a567b6447aa876ed179c0e89c7",
+    "avatarAlt": "Fundebug - 独家号",
+    "subjectName": "Fundebug",
+    "homeUrl": "/subjects/216955"
+  },
+  {
+    "title": "在线就能用的 Linux 我给你找好了",
+    "description": "来源：公众号【编程珠玑】作者：守望先生网站：https://www.yanbinghu.com前言 是不是不想装虚拟机，还想体验一下Linux？是不是自己的电脑不在，又想搞事情？今...",
+    "votes": "22",
+    "url": "/k/1u0hh8m",
+    "avatar": "https://img.toutiao.io/subject%2Fe28330e25e7c43019c600fbe720c1911",
+    "avatarAlt": "2048 - 独家号",
+    "subjectName": "2048",
+    "homeUrl": "/subjects/3216"
   }
 ]
