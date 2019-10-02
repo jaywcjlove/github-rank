@@ -1,254 +1,38 @@
 [
   {
-    "title": "为什么MySQL数据库索引选择使用B+树？",
-    "description": "数据库经常存放了大量的数据，数据库的查询也是经常发生的。 当我们要查询一个庞大的数据表中的一行小小的数据的时候，就像茫茫人海中找到一个对的人一样困难... 我们为了节约时间成本，我们一定要想办法以最快的...",
-    "url": "https://segmentfault.com/a/1190000020545192",
-    "author": "小柚子",
-    "home_url": "https://segmentfault.com/u/wenwenjie",
-    "votes": "6",
+    "title": "API 接口设计： GraphQL 和 REST 怎么选择？",
+    "description": "这个话题在开发社区里已经讨论过一段时间，人们对此有不同的看法与观点，那么我应该使用哪一个? 有很多东西需要成长但富有活力的新成员还是经验丰富的老成员? 在此之前让我们了解下 REST 和 GraphQL吧。",
+    "url": "https://segmentfault.com/a/1190000020546174",
+    "author": "Charlie_Jade",
+    "home_url": "https://segmentfault.com/u/summerblue",
+    "votes": "3",
     "rank": 1
   },
   {
-    "title": "XShell 的替代品 FinalShell",
-    "description": "很多人在 Windows 下第一个接触的 SSH 终端工具是 XShell 或 SecureCRT，他们都是收费的，XShell 目前的价格是 人民币 899 元，SecureCRT 则是 99 美金/年。",
-    "url": "https://segmentfault.com/a/1190000020542013",
-    "author": "捏造的信仰",
-    "home_url": "https://segmentfault.com/u/yidinghe",
-    "votes": "7",
+    "title": "Eclipse快捷键",
+    "description": "单个文本内常用快捷键--编辑 Ctrl+D 删除当前光标所在行 Alt+↓ 当前行和下面一行交换位置 Alt+↑ 当前行和上面一行交换位置 Ctrl+Alt+↓ / ↑ 将当前行/选中的代码向下或向上复制 Shift+Enter 在当前行的下一行插入...",
+    "url": "https://segmentfault.com/a/1190000020546621",
+    "author": "tolman",
+    "home_url": "https://segmentfault.com/u/tolman",
+    "votes": "2",
     "rank": 2
   },
   {
-    "title": "如何避免新代码变包袱？阿里通用方法来了！",
-    "description": "阿里妹导读：什么是设计？什么是架构？从零开始建立一个新的系统，新写的每行代码都可能成为明天的历史包袱？如何能有效的在遗留代码上工作？今天，阿里资深技术专家辉子为我们带来NBF框架下软件工程架构设计通用...",
-    "url": "https://segmentfault.com/a/1190000020542951",
-    "author": "阿里云云栖社区",
-    "home_url": "https://segmentfault.com/u/yunqishequ_5aa899aad5395",
+    "title": "uni-app开发一个小视频应用(二)",
+    "description": "上篇文章，我们已经实现了首页的头部导航栏组件、底部的tabBar导航栏组件、中间的视频列表组件以及视频列表组件中的视频播放组件，传入视频列表渲染后已经可以上下滑动进行视频切换和播放，接下来我们将完成首页...",
+    "url": "https://segmentfault.com/a/1190000020546609",
+    "author": "JS_Even_JS",
+    "home_url": "https://segmentfault.com/u/js_even_js",
     "votes": "3",
     "rank": 3
   },
   {
-    "title": "【JVM 知识体系框框架】",
-    "description": "JVM 内存分布 线程共享数据区： 方法区->类信息，静态变量堆->数组对象 线程隔离区 虚拟机栈-> 方法 本地方法栈->本地方法库 native 堆、程序计数器 JVM 运行数据 程序计数器 线程隔离 ，比较小的内...",
-    "url": "https://segmentfault.com/a/1190000020540570",
-    "author": "mousycoder",
-    "home_url": "https://segmentfault.com/u/mousycoder",
-    "votes": "5",
+    "title": "vscode 使用指南",
+    "description": "command+shift+p -> configure language -> Configure Display Language -> zh-cn",
+    "url": "https://segmentfault.com/a/1190000020547203",
+    "author": "前端一锅煮",
+    "home_url": "https://segmentfault.com/u/daqianduan",
+    "votes": "1",
     "rank": 4
-  },
-  {
-    "title": "Java注解教程和示例",
-    "description": "Java注解使我们可以将元数据信息添加到源代码中，尽管它们不是程序本身的一部分。注解是从JDK 5添加到Java的。注解对其注解的代码的操作没有直接影响（即，它不影响程序的执行）。",
-    "url": "https://segmentfault.com/a/1190000020539236",
-    "author": "Yujiaao",
-    "home_url": "https://segmentfault.com/u/yujiaao",
-    "votes": "6",
-    "rank": 5
-  },
-  {
-    "title": "Mac 终端效率神技",
-    "description": "一、 增强各种预览的插件 预览查看图片分辨率&大小 代码语法高亮 快速预览zip压缩包内容 快速预览markdown格式内容 {代码...} 二、 iTerm2 具体的配置网上一大堆。贴一个本人亲身操刀操作过的教程 程序员经常...",
-    "url": "https://segmentfault.com/a/1190000020543137",
-    "author": "fantasticbaby",
-    "home_url": "https://segmentfault.com/u/fantasticbaby",
-    "votes": "2",
-    "rank": 6
-  },
-  {
-    "title": "从零开始搭建前端监控系统（二）——实现圈选（无埋点）",
-    "description": "前言 本系列文章旨在讲解如何从零开始搭建前端监控系统。 项目已经开源 项目地址： [链接] (web sdk) [链接] (服务端，用于提供api)(未完) [链接] （后台管理系统，可视化数据等）（未完） 您的支持是我们不断前...",
-    "url": "https://segmentfault.com/a/1190000020543108",
-    "author": "aoping",
-    "home_url": "https://segmentfault.com/u/aoping",
-    "votes": "3",
-    "rank": 7
-  },
-  {
-    "title": "uni-app开发一个小视频应用(一)",
-    "description": "uni-app 是一个使用 Vue.js 开发所有前端应用的框架，是一种终极的跨平台解决方案，这里的平台，主要指的是App平台(android、ios)、小程序平台、H5平台。开发者编写一套代码，可发布到iOS、Android、H5、以及各种...",
-    "url": "https://segmentfault.com/a/1190000020541195",
-    "author": "JS_Even_JS",
-    "home_url": "https://segmentfault.com/u/js_even_js",
-    "votes": "4",
-    "rank": 8
-  },
-  {
-    "title": "编码与编程的区别是什么？",
-    "description": "每个工作领域都有它们的术语表——特定的词与日常生活中的含义截然不同。对于不断发展的软件业的专业词汇尤其如此。在软件开发领域，“engagement”与婚礼无关，“cookies”不能吃，“classes”不是你必须参加的事情，甚...",
-    "url": "https://segmentfault.com/a/1190000020541505",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "2",
-    "rank": 9
-  },
-  {
-    "title": "7、Dubbo的服务导出2之导出到远程",
-    "description": "1、暴露服务到远程 上一篇文章分析了暴露服务到本地，6、Dubbo的服务导出1之导出到本地。接下来分析暴露服务到远程。 {代码...} {代码...} {代码...} {代码...} {代码...} {代码...} {代码...} {代码...} {代码.....",
-    "url": "https://segmentfault.com/a/1190000020542867",
-    "author": "一念花开",
-    "home_url": "https://segmentfault.com/u/liwanghong",
-    "votes": "2",
-    "rank": 10
-  },
-  {
-    "title": "依赖注入（dependency injection）最通俗的讲解",
-    "description": "服务可以是您编写的类，也可以是来自导入库的类。例如，它可以是一个 logger 或一个 database connection。因此，您可以编写一个无需任何外部帮助即可单独运行的服务，但也可能您会很快您会达到一个点，即其中一...",
-    "url": "https://segmentfault.com/a/1190000020542530",
-    "author": "维子",
-    "home_url": "https://segmentfault.com/u/isgiker",
-    "votes": "3",
-    "rank": 11
-  },
-  {
-    "title": "Lombok介绍、使用方法和总结",
-    "description": "Lombok能以简单的注解形式来简化java代码，提高开发人员的开发效率。例如开发中经常需要写的javabean，都需要花时间去添加相应的getter/setter，也许还要去写构造器、equals等方法，而且需要维护，当属性多时会出...",
-    "url": "https://segmentfault.com/a/1190000020538816",
-    "author": "alterem",
-    "home_url": "https://segmentfault.com/u/alterem",
-    "votes": "3",
-    "rank": 12
-  },
-  {
-    "title": "6、Dubbo的服务导出1之导出到本地",
-    "description": "接下来研究一下 Dubbo 导出服务的过程。Dubbo 服务导出过程始于Spring容器发布刷新事件，Dubbo在接收到事件后，会立即执行服务导出逻辑。整个逻辑大致可分为三个部分，第一部分是前置工作，主要用于检查参数，组...",
-    "url": "https://segmentfault.com/a/1190000020539217",
-    "author": "一念花开",
-    "home_url": "https://segmentfault.com/u/liwanghong",
-    "votes": "2",
-    "rank": 13
-  },
-  {
-    "title": "SpringBoot详细打印启动时异常堆栈信息",
-    "description": "SpringBoot在项目启动时如果遇到异常并不能友好的打印出具体的堆栈错误信息，我们只能查看到简单的错误消息，以致于并不能及时解决发生的问题，针对这个问题SpringBoot提供了故障分析仪的概念（failure-analyzer...",
-    "url": "https://segmentfault.com/a/1190000020542439",
-    "author": "恒宇少年",
-    "home_url": "https://segmentfault.com/u/hengyushaonian",
-    "votes": "1",
-    "rank": 14
-  },
-  {
-    "title": "彻底理解cookie，session，token",
-    "description": "1、很久很久以前，Web基本上就是文档的浏览而已，既然是浏览，作为服务器，不需要记录谁在某一段时间里都浏览了什么文档，每次请求都是一个新的HTTP协议，就是请求加响应，尤其是我不用记住是谁刚刚发了HTTP请求...",
-    "url": "https://segmentfault.com/a/1190000020541710",
-    "author": "ccbaber",
-    "home_url": "https://segmentfault.com/u/ccbaber",
-    "votes": "2",
-    "rank": 15
-  },
-  {
-    "title": "Alibaba Cloud Linux 2-阿里云Linux操作系统全面解析",
-    "description": "2019年9月26日星期四，在杭州云栖大会的阿里云系统软件开发者专场上，来自阿里云智能基础软件技术专家贾正华(花名：晓贾)做了主题为《Alibaba Cloud Linux 2-阿里云Linux操作系统》的技术分享，主要就Alibaba Clo...",
-    "url": "https://segmentfault.com/a/1190000020541440",
-    "author": "阿里云云栖社区",
-    "home_url": "https://segmentfault.com/u/yunqishequ_5aa899aad5395",
-    "votes": "1",
-    "rank": 16
-  },
-  {
-    "title": "Linux安装 redisCluster，不需要rubby",
-    "description": "最近客户要求缓存必须要用redis，秉承客户第一的理念，部署一套redis cluster模式。cluster相比哨兵，自身的一致性哈希算法带来更好的水平扩展性。公司开发环境只给一台linux机器，集群模式最低要求三主三从，只...",
-    "url": "https://segmentfault.com/a/1190000020539514",
-    "author": "ccbaber",
-    "home_url": "https://segmentfault.com/u/ccbaber",
-    "votes": "2",
-    "rank": 17
-  },
-  {
-    "title": "云原生网关 Kong 和Kong 管理UI 的完全安装攻略",
-    "description": "上一文我们对Kong网关的简单介绍，今天我们来搭建Kong的环境。以便于以后对Kong的进一步了解和学习。",
-    "url": "https://segmentfault.com/a/1190000020540208",
-    "author": "码农小胖哥",
-    "home_url": "https://segmentfault.com/u/10000000",
-    "votes": "2",
-    "rank": 18
-  },
-  {
-    "title": "frp 端口映射",
-    "description": "frp 是一个可用于内网穿透的高性能的反向代理应用，支持 tcp, udp 协议，为 http 和 https 应用协议提供了额外的能力，且尝试性支持了点对点穿透。",
-    "url": "https://segmentfault.com/a/1190000020540069",
-    "author": "MrChang",
-    "home_url": "https://segmentfault.com/u/mrchang_5d904e798fb1f",
-    "votes": "1",
-    "rank": 19
-  },
-  {
-    "title": "Nginx的负载均衡",
-    "description": "我们都知道，Nginx支持负载均衡，可以很方便的帮助我们进行水平扩容，然而它究竟是依据什么原则进行请求的分发，其中又有哪些负载均衡算法可供选择和配置，今天就让我们好好来了解一下。<!-- more -->",
-    "url": "https://segmentfault.com/a/1190000020539398",
-    "author": "death00",
-    "home_url": "https://segmentfault.com/u/death00",
-    "votes": "1",
-    "rank": 20
-  },
-  {
-    "title": "重学JavaScript之面向对象的程序设计（继承）",
-    "description": "ES中 描述了 原型链的概念，并将原型链作为实现继承的主要方法。其基本思想是利用原型让一个引用类型继承另一个引用类型的属性和方法。",
-    "url": "https://segmentfault.com/a/1190000020539045",
-    "author": "故事胶片",
-    "home_url": "https://segmentfault.com/u/jiaopianjun",
-    "votes": "1",
-    "rank": 21
-  },
-  {
-    "title": "算法分析与设计C++ 2:递归：爬楼梯",
-    "description": "总时间限制: 2000ms 单个测试点时间限制: 1000ms 内存限制: 512kB描述小明爬楼梯，他可以每次走1级或者2级，输入楼梯的级数，求不同的走法数。",
-    "url": "https://segmentfault.com/a/1190000020544400",
-    "author": "ZC_Wang",
-    "home_url": "https://segmentfault.com/u/zc_wang",
-    "votes": "0",
-    "rank": 22
-  },
-  {
-    "title": "算法分析与设计C++ 1:猴子吃桃",
-    "description": "总时间限制: 1000ms 单个测试点时间限制: 100ms 内存限制: 65535kB 描述 猴子第一天摘下若干个桃子，当即吃了一半，好不过瘾，又多吃了一个。第二天早上又吃了剩下的桃子的一半，又多吃了一个。以后每天都吃了前...",
-    "url": "https://segmentfault.com/a/1190000020544360",
-    "author": "ZC_Wang",
-    "home_url": "https://segmentfault.com/u/zc_wang",
-    "votes": "0",
-    "rank": 23
-  },
-  {
-    "title": "SpringBootSecurity学习（09）网页版登录配置Session共享",
-    "description": "当后台项目由部署在一台改为部署在多台以后，解决session共享问题最常用的办法就是把session存储在redis等缓存中。关于session和cookie概念这里就不再赘述了，在springboot-security环境下，把session存储到redis...",
-    "url": "https://segmentfault.com/a/1190000020544320",
-    "author": "郭艺宾",
-    "home_url": "https://segmentfault.com/u/guoyibin",
-    "votes": "0",
-    "rank": 24
-  },
-  {
-    "title": "2019 SD卡、U盘无法格式化怎么办的解决方法",
-    "description": "有天 闲的没事， 格式化一下U盘 ，结果突然断电了，我的天、我还在格式化的U盘 ，果然 ，我在此启动电脑后，的U盘直接 就不能用了。于是 我格式化。",
-    "url": "https://segmentfault.com/a/1190000020544053",
-    "author": "高鑫",
-    "home_url": "https://segmentfault.com/u/gao_5d70881ad8c48",
-    "votes": "0",
-    "rank": 25
-  },
-  {
-    "title": "在线公开课 | 教你如何自行搭建一个威胁感知大脑？",
-    "description": "那么在云上安全备受瞩目的大环境下，云态势感知技术又如何为安全保驾护航呢？在未来又有着怎样的发展趋势呢？为此，京东云产品研发部产品经理梁洋洋，专门为大家解读了云态势感知的进化论。",
-    "url": "https://segmentfault.com/a/1190000020543822",
-    "author": "京东云技术新知",
-    "home_url": "https://segmentfault.com/u/jdcdevloper",
-    "votes": "0",
-    "rank": 26
-  },
-  {
-    "title": "通过一次慢SQL优化来看EXPLAIN",
-    "description": "前段时间接手了一个公司内部使用的API调用统计的项目，最近突然频繁的收到慢SQL的告警，正好最近在学习这块的内容，来练把手吧。",
-    "url": "https://segmentfault.com/a/1190000020543640",
-    "author": "嘛嘛嘛嘛嘛",
-    "home_url": "https://segmentfault.com/u/mamamamama_5d663339d4350",
-    "votes": "0",
-    "rank": 27
-  },
-  {
-    "title": "关于熵的直观理解",
-    "description": "任何粒子的常态都是随机运动，也就是“无序运动”，“熵”这个概念，就是“无需运动”的度量，它反映了事物的不确定性，越不确定的事物，它的熵就越大。",
-    "url": "https://segmentfault.com/a/1190000020543360",
-    "author": "心是晴朗的",
-    "home_url": "https://segmentfault.com/u/routangyuan",
-    "votes": "0",
-    "rank": 28
   }
 ]
