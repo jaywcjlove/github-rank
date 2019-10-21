@@ -1,147 +1,219 @@
 [
   {
+    "title": "【译】基于Hooks 的 Redux 速成课",
+    "description": "你对 Redux 感到困惑吗？如果使用新的 Redux Hooks，会更加简单！这里是一个关于 Redux 的速成班，将配合 React 函数组件使用：",
+    "url": "https://segmentfault.com/a/1190000020747009",
+    "author": "joking_zhang",
+    "home_url": "https://segmentfault.com/u/joking_zhang",
+    "votes": "3",
+    "rank": 1
+  },
+  {
+    "title": "ES6读书笔记汇总系列(一)",
+    "description": "温故而知新,可以为师矣. 相信大家都会有这种感觉,很多学过的知识经常不使用就会慢慢遗忘!!!本文把以前自己关于 ES6的入门读书笔记重新汇总了一下,并结合了工作中常用的使用场景...",
+    "url": "https://segmentfault.com/a/1190000020744951",
+    "author": "appleguardu",
+    "home_url": "https://segmentfault.com/u/appleguardu",
+    "votes": "7",
+    "rank": 2
+  },
+  {
+    "title": "Log4j 结合钉钉打造日志机器人",
+    "description": "在平常的开发中，找问题时，看日志经常是不可或缺的一件事件。对于错误日志，我们更是希望能够立马悉知，迅速对错误追本溯源，然后对错误进行修正。钉钉机器人的出现，无疑为我们第一时间对错误日志进行响应，提...",
+    "url": "https://segmentfault.com/a/1190000020746282",
+    "author": "mizhoux",
+    "home_url": "https://segmentfault.com/u/mizhoux",
+    "votes": "2",
+    "rank": 3
+  },
+  {
+    "title": "如何定制一款属于程序员的卫衣",
+    "description": "厌倦了枯燥机械重复流水线的工作，每天时不时的被打断，不知道什么时候就被人圈到一群里，然后就要紧急支持一个事情。支线任务实在太多，晨会规划的主线任务实在没时间做，而且很多事逻辑负责，上下文切换成本太...",
+    "url": "https://segmentfault.com/a/1190000020743762",
+    "author": "周梦康",
+    "home_url": "https://segmentfault.com/u/zhoumengkang",
+    "votes": "5",
+    "rank": 4
+  },
+  {
+    "title": "基于vue.js 和node构建的个人博客项目（前后端分离）",
+    "description": "本项目是一款个人学习的博客项目，主要是为了学习vue2 和 node.js。另外涉及到MySQL redis nginx 等技术栈知识 项目地址",
+    "url": "https://segmentfault.com/a/1190000020745455",
+    "author": "邢走在云端",
+    "home_url": "https://segmentfault.com/u/xingheng",
+    "votes": "4",
+    "rank": 5
+  },
+  {
+    "title": "网关限流总结",
+    "description": "统计一段时间内允许通过的请求数。比如 qps为100，即1s内允许通过的请求数100，每来一个请求计数器加1，超过100的请求拒绝、时间过1s后计数器清0，重新计数。这样限流比较暴力，如果前10ms 来了100个请求，那剩下...",
+    "url": "https://segmentfault.com/a/1190000020745218",
+    "author": "super洪仔",
+    "home_url": "https://segmentfault.com/u/superhongzi",
+    "votes": "2",
+    "rank": 6
+  },
+  {
+    "title": "真实感受一下县比省大不包邮，省市区乡镇多级数据重装上阵",
+    "description": "以前采集的旧版省市区三级或四级城市数据总是觉得怪怪的，经过多方探讨，终于下定决心进行了一次重大更新，发布了这个重（chong）装版。除了省市区乡镇数据外，坐标和边界范围、还有拼音都是有的。GitHub: [链接]...",
+    "url": "https://segmentfault.com/a/1190000020746611",
+    "author": "高坚果",
+    "home_url": "https://segmentfault.com/u/xiangyuecn",
+    "votes": "1",
+    "rank": 7
+  },
+  {
+    "title": "【Java必修课】好用的Arrays.asList也有这三个坑",
+    "description": "在开发或写测试用例的过程中，经常会用到Arrays.asList()这个方法，可以快速方便地将数组转化成一个List。例如：",
+    "url": "https://segmentfault.com/a/1190000020745893",
+    "author": "南瓜慢说",
+    "home_url": "https://segmentfault.com/u/nanguamanshuo",
+    "votes": "2",
+    "rank": 8
+  },
+  {
+    "title": "常见问题:TimeWait",
+    "description": "哪方先主动关闭,哪方会产生timewait,如果server端主动进行关闭,那么会产生在server端。而且都会持续2个MSL的时长(一个MSL一般默认30s)",
+    "url": "https://segmentfault.com/a/1190000020745340",
+    "author": "xiaowei520",
+    "home_url": "https://segmentfault.com/u/xiaowei520",
+    "votes": "1",
+    "rank": 9
+  },
+  {
+    "title": "ConcurrentLinkedQueue vs BlockingQueue比较",
+    "description": "结果////////////=============///blocking version cost ms:22052lock free cost ms:22",
+    "url": "https://segmentfault.com/a/1190000020745303",
+    "author": "Honwhy",
+    "home_url": "https://segmentfault.com/u/honwhy",
+    "votes": "1",
+    "rank": 10
+  },
+  {
+    "title": "每天固定的时间刷新数据",
+    "description": "**前段时间,项目需要在一天中固定刷新数据,查找许久都无解，后来偶然知道:可以将时间转化为字符串**Get Time From Date：返回当前24小时制时间的字符串",
+    "url": "https://segmentfault.com/a/1190000020745158",
+    "author": "yang",
+    "home_url": "https://segmentfault.com/u/yang_5c8f63fe0d5aa",
+    "votes": "2",
+    "rank": 11
+  },
+  {
+    "title": "一款基于vue和golang gin框架的私活快速搭建模板",
+    "description": "由于国内没法安装到X包下面的东西 如果可以翻墙 上面的命令就可以让你安心使用swagger了如果没有翻墙的办法那就先装一下 gopm",
+    "url": "https://segmentfault.com/a/1190000020744421",
+    "author": "蒋吉兆",
+    "home_url": "https://segmentfault.com/u/jiangjizhao",
+    "votes": "1",
+    "rank": 12
+  },
+  {
     "title": "吐槽ng-alain",
     "description": "前言 使用Ng-aialin有一段时间了，虽然有坑，但是还是自己掌握的不熟练，这个问题也困惑了我一段时间 问题分析 在使用前端框架不登录时发送http请求 请求不能发出 代码 service： {代码...} ts： {代码...} {代码...",
     "url": "https://segmentfault.com/a/1190000020742810",
     "author": "潘佳琦",
     "home_url": "https://segmentfault.com/u/panjia_5b3b83f7743e9",
     "votes": "1",
-    "rank": 1
-  },
-  {
-    "title": "数据库where和having的区别",
-    "description": "上课的时候老师讲sql语句时，感觉知道一点，就没太认真的听，而且感觉大概知道用法就没管了，但在这周的实验中，一个问题的出现，却让我发现：自己好像完全没有区分出他两。",
-    "url": "https://segmentfault.com/a/1190000020742538",
-    "author": "笙歌会停",
-    "home_url": "https://segmentfault.com/u/liyiheng",
-    "votes": "2",
-    "rank": 2
-  },
-  {
-    "title": "WebRTC实现p2p视频通话",
-    "description": "简介 目的 帮助自己了解webrtc 实现端对端通信 {代码...} what is WebRTC {代码...} {代码...} WebRTC组成 getUserMedia负责获取用户本地的多媒体数据 RTCPeerConnection负责建立P2P连接以及传输多媒体数据。 RTC...",
-    "url": "https://segmentfault.com/a/1190000020741658",
-    "author": "一二三",
-    "home_url": "https://segmentfault.com/u/random_wang",
-    "votes": "4",
-    "rank": 3
-  },
-  {
-    "title": "Spring Boot 2 实战：使用 Spring Boot Admin 监控你的应用",
-    "description": "生产上对 Web 应用 的监控是十分必要的。我们可以近乎实时来对应用的健康、性能等其他指标进行监控来及时应对一些突发情况。避免一些故障的发生。对于 Spring Boot 应用来说我们可以通过一个轻量级的监控工具 Spr...",
-    "url": "https://segmentfault.com/a/1190000020742301",
-    "author": "码农小胖哥",
-    "home_url": "https://segmentfault.com/u/10000000",
-    "votes": "2",
-    "rank": 4
-  },
-  {
-    "title": "初揭微信的面纱",
-    "description": "在《微课堂》这个项目中，我们采用了php与微信结合的方法，来实现我们想要的功能，如“上课签到”、“上课提醒”等功能，后来随着功能的不断完善，对微信的依赖也越来越多，不过微信开发这部分是另一个队友负责的，自...",
-    "url": "https://segmentfault.com/a/1190000020738596",
-    "author": "锦城",
-    "home_url": "https://segmentfault.com/u/jincheng_5d8637135e0b9",
-    "votes": "4",
-    "rank": 5
-  },
-  {
-    "title": "Python的人脸识别,欧式距离比对,机器训练,人脸采集,离线识别",
-    "description": "博主还是抱着开源精神,因为下面这些code是经过了上千次baidu和google搜索出来得到的结果及其想法,提供给大家共同学习进步,注释的都很清楚,功能完全实现先上一下效果图",
-    "url": "https://segmentfault.com/a/1190000020742371",
-    "author": "Leoappyjj",
-    "home_url": "https://segmentfault.com/u/pink_5867c28ad46d9",
-    "votes": "1",
-    "rank": 6
-  },
-  {
-    "title": "小程序篇(2)：登录获取用户信息",
-    "description": "登录和获取用户信息是小程序中最基本的两步操作，但是由于之前小程序官方开始时的设计缺陷，导致很多开发者将登录和获取用户信息绑定使用，尽管后来小程序wx.getUserInfo接口调整为：在用户未授权过的情况下调用...",
-    "url": "https://segmentfault.com/a/1190000020740295",
-    "author": "william",
-    "home_url": "https://segmentfault.com/u/liwenjie_59a4eecc51e6a",
-    "votes": "5",
-    "rank": 7
-  },
-  {
-    "title": "甲骨文公司联合 CEO 马克·赫德去世，享年 62 岁",
-    "description": "北京时间 10 月 19 日讯，根据一份内部电子邮件显示，甲骨文联席执行长马克-赫德（Mark Hurd）周五去世。甲骨文现跌 0.83%，报 54.63 美元。这家商业软件制造商上月宣布，赫德将休病假，但没有透露其他细节。",
-    "url": "https://segmentfault.com/a/1190000020741844",
-    "author": "徐九丨思否社区",
-    "home_url": "https://segmentfault.com/u/weepie",
-    "votes": "1",
-    "rank": 8
-  },
-  {
-    "title": "介绍 Laravel Horizon",
-    "description": "今天我得意的宣布 Laravel Horizon, 它为 Laravel Redis 队列提供了精美的仪表盘和代码驱动的配置系统。",
-    "url": "https://segmentfault.com/a/1190000020740985",
-    "author": "Charlie_Jade",
-    "home_url": "https://segmentfault.com/u/summerblue",
-    "votes": "2",
-    "rank": 9
-  },
-  {
-    "title": "【Springboot】Springboot整合邮件服务(HTML/附件/模板-QQ、网易)",
-    "description": "邮件服务是常用的服务之一，作用很多，对外可以给用户发送活动、营销广告等；对内可以发送系统监控报告与告警。",
-    "url": "https://segmentfault.com/a/1190000020738977",
-    "author": "南瓜慢说",
-    "home_url": "https://segmentfault.com/u/nanguamanshuo",
-    "votes": "2",
-    "rank": 10
-  },
-  {
-    "title": "记一次Mac下java环境配置",
-    "description": "作为一个前端程序员在工作中也无法避免安装Java环境，毕竟总有的项目没有完全前后端分离；而且由于公司后端项目的原因，还用不了最新的JDK版本，因此在我安装最新版本Java环境的情况下需要更换sdk，着实让人感概...",
-    "url": "https://segmentfault.com/a/1190000020741708",
-    "author": "红领巾",
-    "home_url": "https://segmentfault.com/u/honglingjin_5d021c3150b96",
-    "votes": "1",
-    "rank": 11
-  },
-  {
-    "title": "细述Javascript的加法运算符",
-    "description": "JavaScript是一门了不起的语言。我喜欢它的灵活性：只需以你喜欢的方式做事：更改变量类型，动态的向对象添加方法或属性，对不同的变量类型使用运算符等等。",
-    "url": "https://segmentfault.com/a/1190000020739429",
-    "author": "judyh",
-    "home_url": "https://segmentfault.com/u/judyh",
-    "votes": "1",
-    "rank": 12
-  },
-  {
-    "title": "您需要了解的有关调试Docker容器的知识",
-    "description": "调试Docker容器可能是一个非常具有挑战性的过程。在这里，我将分享一些调试容器的基本技术，主要是Docker的技术，但是这些技术也适用于许多其他类型的Linux容器引擎。我将在此处详细介绍的方法适用于基于Linux的...",
-    "url": "https://segmentfault.com/a/1190000020740874",
-    "author": "iyacontrol",
-    "home_url": "https://segmentfault.com/u/daimaxianyumeng",
-    "votes": "1",
     "rank": 13
   },
   {
-    "title": "MySQL路由器8.0",
-    "description": "MySQL 路由器是 InnoDB 集群的一部分，是轻量级中间件，可在应用程序和后端 MySQL 服务器之间提供透明路由。它可用于各种用例，例如通过有效地将数据库流量路由到适当的后端 MySQL 服务器来提供高可用性和可伸缩...",
-    "url": "https://segmentfault.com/a/1190000020740694",
-    "author": "Yujiaao",
-    "home_url": "https://segmentfault.com/u/yujiaao",
+    "title": "CentOS 7系统增加swap",
+    "description": "swap是位于磁盘上的特殊文件（或分区），属于“虚拟内存”的一部分。通俗点就是内存的备胎，内存充足的情况下，基本上没swap什么事（和设置有关）；内存不够用时系统便将内存中的部分数据腾挪到swap中，为正在运行...",
+    "url": "https://segmentfault.com/a/1190000020743153",
+    "author": "tlanyan",
+    "home_url": "https://segmentfault.com/u/tlanyan",
     "votes": "1",
     "rank": 14
   },
   {
-    "title": "拒绝美式政治正确，他负气出走，选择来中国",
-    "description": "场景描述：语音识别领域大神 Daniel Povey 此前卷入一场 JHU 学生抗议活动引起的风波中，而被 JHU 解雇。当地时间 10 月 17 日凌晨，他在推特中表示，自己将在 2019 年底入职小米，此消息又引起业界的一阵讨论热...",
-    "url": "https://segmentfault.com/a/1190000020738763",
-    "author": "超神经HyperAI",
-    "home_url": "https://segmentfault.com/u/chaoshenjinghyperai",
+    "title": "我为什么不喜欢Ubuntu？",
+    "description": "Ubuntu是我最先尝试的Linux发行版。作为主流发行版，Ubuntu有丰富的软件，完善的社区支持，以及其主打的友好易用的桌面环境。毫不夸张的说，Ubuntu为我开启了Linux世界的大门。",
+    "url": "https://segmentfault.com/a/1190000020743119",
+    "author": "tlanyan",
+    "home_url": "https://segmentfault.com/u/tlanyan",
     "votes": "1",
     "rank": 15
   },
   {
-    "title": "WegGL 3D 工业物联网-隧道监控实战",
-    "description": "监控隧道内的车道堵塞情况、隧道内的车祸现场，在隧道中显示当前车祸位置并在隧道口给与提示等等功能都是非常有必要的。这个隧道 Demo 的主要内容包括：照明、风机、车道指示灯、交通信号灯、情报板、消防、火灾...",
-    "url": "https://segmentfault.com/a/1190000020740366",
-    "author": "hightopo",
-    "home_url": "https://segmentfault.com/u/hightopo",
+    "title": "zsh使用scp命令时*通配符出现no matches的错误",
+    "description": "很肯定这条命令语句在bash中能正常如期工作，出现这样的问题应该是zsh的锅。作为资深linux用户，可以很快看出了问题所在：zsh试图将*通配符展开，在本地未找到对应文件，于是出现“no matches”的错误。",
+    "url": "https://segmentfault.com/a/1190000020743089",
+    "author": "tlanyan",
+    "home_url": "https://segmentfault.com/u/tlanyan",
     "votes": "1",
     "rank": 16
+  },
+  {
+    "title": "ssh端口转发的三种方式",
+    "description": "ssh是我使用最频繁的两个命令行工具之一（另一个则必须是vim）。有了ssh，我可以远程处理各种可能出现的问题而无需肉身到现场。",
+    "url": "https://segmentfault.com/a/1190000020743065",
+    "author": "tlanyan",
+    "home_url": "https://segmentfault.com/u/tlanyan",
+    "votes": "1",
+    "rank": 17
+  },
+  {
+    "title": "module: command not found",
+    "description": "module是*nix系统上加载/管理模块的命令，然而大多数发行版上并未默认安装，运行该命令则会出现如下错误：module: command not found。",
+    "url": "https://segmentfault.com/a/1190000020743031",
+    "author": "tlanyan",
+    "home_url": "https://segmentfault.com/u/tlanyan",
+    "votes": "1",
+    "rank": 18
+  },
+  {
+    "title": "封装ajax请求函数(ajax.js)与接口请求函数（index.js）以及如何在项目中使用",
+    "description": "api文件下的ajax {代码...} ajax文件下的index.js {代码...} 配置代理 在项目中使用",
+    "url": "https://segmentfault.com/a/1190000020747298",
+    "author": "yang",
+    "home_url": "https://segmentfault.com/u/yang_5c8f63fe0d5aa",
+    "votes": "1",
+    "rank": 19
+  },
+  {
+    "title": "scala学习--方法与函数",
+    "description": "Spark1.6中使用的是Scala2.10。Spark2.0版本以上使用是Scala2.11版本。",
+    "url": "https://segmentfault.com/a/1190000020745948",
+    "author": "小鸡",
+    "home_url": "https://segmentfault.com/u/be_coding",
+    "votes": "1",
+    "rank": 20
+  },
+  {
+    "title": "当vue页面路径一样 参数不同时 有可能页面不会跳转刷新",
+    "description": "当vue页面路径一样 参数不同时 有可能页面不会跳转刷问了大佬说是Vue的bug，然后采用了这个奇淫巧技",
+    "url": "https://segmentfault.com/a/1190000020745233",
+    "author": "yang",
+    "home_url": "https://segmentfault.com/u/yang_5c8f63fe0d5aa",
+    "votes": "1",
+    "rank": 21
+  },
+  {
+    "title": "解决element-ui的下拉框有值却无法选中的问题",
+    "description": "*出现这个问题好像是因为下拉框数据是循环掉别的接口得来的，因为数据层次太多，render函数没有自动更新，需手动强制刷新所以我直接强制刷新了值，而forceUpdate就是重新render。写一个方法，在select的change事...",
+    "url": "https://segmentfault.com/a/1190000020744277",
+    "author": "yang",
+    "home_url": "https://segmentfault.com/u/yang_5c8f63fe0d5aa",
+    "votes": "1",
+    "rank": 22
+  },
+  {
+    "title": "Flutter 之页面切换（命名路由）",
+    "description": "之前的文章介绍过基本路由，使用基本路由相对简单灵活，适用于应用中页面不多的场景。而在应用中页面比较多的情况下，再使用基本路由，会导致大量的重复代码，此时使用命名路由会非常方便",
+    "url": "https://segmentfault.com/a/1190000020743674",
+    "author": "過愙",
+    "home_url": "https://segmentfault.com/u/_5aa51c5ac083b",
+    "votes": "1",
+    "rank": 23
+  },
+  {
+    "title": "看图轻松了解etcd",
+    "description": "用一些图示结合场景和文字轻松了解etcd，文章是针对etcd初学者的，目的是让大家了解etcd是什么、主要在什么场景下使用、etcd集群是怎么工作的以及创建集群时应该如何选择集群的节点数。",
+    "url": "https://segmentfault.com/a/1190000020742981",
+    "author": "KevinYan",
+    "home_url": "https://segmentfault.com/u/kevinyan",
+    "votes": "1",
+    "rank": 24
   },
   {
     "title": "剑指offer(二)",
@@ -150,15 +222,6 @@
     "author": "陈污龟",
     "home_url": "https://segmentfault.com/u/chenwugui",
     "votes": "1",
-    "rank": 17
-  },
-  {
-    "title": "剑指offer(一)",
-    "description": "最近在看《剑指offer》，写几篇文章来记录一下，今天有以下几道算法题： 斐波那契数列 二进制中1的个数 数组中重复的数字 二维数组中的查找 替换空格 数值的整数次方 斐波那契数列 写一个函数，输入n，求斐波那契...",
-    "url": "https://segmentfault.com/a/1190000020741403",
-    "author": "陈污龟",
-    "home_url": "https://segmentfault.com/u/chenwugui",
-    "votes": "1",
-    "rank": 18
+    "rank": 25
   }
 ]
