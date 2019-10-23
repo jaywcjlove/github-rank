@@ -10,6 +10,16 @@
     "homeUrl": "/subjects/6988"
   },
   {
+    "title": "高性能服务端优化之路",
+    "description": "业务场景达达是全国领先的最后三公里物流配送平台。达达的业务模式与滴滴以及Uber很相似，以众包的方式利用社会闲散人力资源，解决O2O最后三公里即时性配送难题。达达业务主要包含两部分...",
+    "votes": "32",
+    "url": "/k/801i8j3",
+    "avatar": "https://img.toutiao.io/user/b618677591aa49b3972ece0c7d26b473/thumb",
+    "avatarAlt": "数据淘金 - 独家号",
+    "subjectName": "数据淘金",
+    "homeUrl": "/subjects/120437"
+  },
+  {
     "title": "开源精粹（第六期）：刷题必备的 LeetCode 插件，值得你拥有",
     "description": "时光飞逝，虽然国庆长假已经结束，但七天的假期根本表达不完我们对祖国的热爱。新时代的首次阅兵、首次亮相的新型武器、受阅军人的着装与精神风貌，除了久久不能忘怀，更感受到了伟大祖国的繁荣...",
     "votes": "29",
@@ -32,7 +42,7 @@
   {
     "title": "Docker 大势已去，Podman 万岁",
     "description": "前言郑重声明：本文不是 Podman 的入门篇，入门请阅读这篇文章：再见 Docker，是时候拥抱下一代容器工具了Podman原来是 CRI-O 项目的一部分，后来被分离成一个单独...",
-    "votes": "24",
+    "votes": "27",
     "url": "/k/5rvpr8g",
     "avatar": "https://img.toutiao.io/subject%2Fe975130a4fe84bc0aa7e49d4d120b5a8",
     "avatarAlt": "云原生实验室 - 独家号",
@@ -42,7 +52,7 @@
   {
     "title": "这样规范写代码，同事直呼 “666”",
     "description": "来源：http://i7q.cn/5iDTto一、MyBatis 不要为了多个查询条件而写 1 = 1当遇到多个查询条件，使用where 1=1 可以很方便的解决我们的问题，但是这...",
-    "votes": "24",
+    "votes": "25",
     "url": "/k/8auvp4j",
     "avatar": "https://img.toutiao.io/subject%2F8370ca7d0bed45afb18f847750e191c8",
     "avatarAlt": "微信公众号:肥朝 - 独家号",
@@ -62,7 +72,7 @@
   {
     "title": "业务复杂 = if else？刚来的大神竟然用策略 + 工厂彻底干掉了他们",
     "description": "对于业务开发来说，业务逻辑的复杂是必然的，随着业务发展，需求只会越来越复杂，为了考虑到各种各样的情况，代码中不可避免的会出现很多if-else。一旦代码中if-else过多，就会大...",
-    "votes": "17",
+    "votes": "21",
     "url": "/k/cjksgtl",
     "avatar": "https://img.toutiao.io/subject%2Ffdd0de401a124afab7ddd87d94c6e129",
     "avatarAlt": "漫话编程 - 独家号",
@@ -80,6 +90,16 @@
     "homeUrl": "/subjects/241105"
   },
   {
+    "title": "TiDB@丰巢：支付平台的迁移之旅",
+    "description": "丰巢第一次在生产环境实际使用TiDB，是在2018年，其场景是每天产生一亿条以上数据的推送平台，当时我们还发了一篇文章，被PingCAP官方收录：TiDB at 丰巢：尝鲜分布式数...",
+    "votes": "15",
+    "url": "/k/3k6n8w7",
+    "avatar": "https://img.toutiao.io/subject%2F08c3200c43064a1babec277646669298",
+    "avatarAlt": "黑夜路人 - 独家号",
+    "subjectName": "黑夜路人",
+    "homeUrl": "/subjects/17093"
+  },
+  {
     "title": "Disruptor 原理探讨",
     "description": "之前谈到了在我的项目里用到了Disruptor，因为对它了解不足的原因，才会引发之前的问题，因此，今天特意来探讨其原理。为什么采用Disruptor先介绍一下我的这个服务。这个服务...",
     "votes": "15",
@@ -90,29 +110,19 @@
     "homeUrl": "/subjects/422252"
   },
   {
-    "title": "2019 年，Golang 开始吊打 Java 性能了",
-    "description": "最近要同事debug性能，不经意间发现现在Golang性能开始吊打Java了！！！感觉Go发展神速！！ 之前Go和Java基本是平手，甚至还有较大差距，请见https://www....",
-    "votes": "14",
-    "url": "/k/x9sionf",
-    "avatar": "https://img.toutiao.io/subject%2F2633bd8663d9433fb04f0dea81cb2ec2",
-    "avatarAlt": "sunsky303 - 独家号",
-    "subjectName": "sunsky303",
-    "homeUrl": "/subjects/48071"
-  },
-  {
-    "title": "TiDB@丰巢：支付平台的迁移之旅",
-    "description": "丰巢第一次在生产环境实际使用TiDB，是在2018年，其场景是每天产生一亿条以上数据的推送平台，当时我们还发了一篇文章，被PingCAP官方收录：TiDB at 丰巢：尝鲜分布式数...",
-    "votes": "13",
-    "url": "/k/3k6n8w7",
-    "avatar": "https://img.toutiao.io/subject%2F08c3200c43064a1babec277646669298",
-    "avatarAlt": "黑夜路人 - 独家号",
-    "subjectName": "黑夜路人",
-    "homeUrl": "/subjects/17093"
+    "title": "不论微信钉钉还是什么软件，我写了个通用的消息监控处理机器人",
+    "description": "上一篇推文中提到，我希望通过监控微信对应的聊天记录，来实现一个消息自动处理的机器人，上篇文章实现的就是自动保存感兴趣的文章到Bear。虽说那篇文章比较实用，也有很多朋友表示喜欢，但...",
+    "votes": "15",
+    "url": "/k/dld5rnz",
+    "avatar": "https://img.toutiao.io/subject%2F6fa73fb26b854609acc4bde71c8fb2a6",
+    "avatarAlt": "老胡的储物柜 - 独家号",
+    "subjectName": "老胡的储物柜",
+    "homeUrl": "/subjects/248689"
   },
   {
     "title": "从经典的一道菜 “京酱肉丝” 聊懂集群分布式",
     "description": "【这是一猿小讲的第 61 篇原创分享】 饱经 CURD 折磨的程序猿，在被问起“分布式”时，转而会去说“集群”；当被问起“集群”时，转而又会去说“分布式”，在程序猿脑海中，感觉两者...",
-    "votes": "12",
+    "votes": "13",
     "url": "/k/ta34k8u",
     "avatar": "https://img.toutiao.io/subject%2F7a8541a4f49c4075a72ed00df32301ec",
     "avatarAlt": "一猿小讲 - 独家号",
@@ -120,14 +130,14 @@
     "homeUrl": "/subjects/413084"
   },
   {
-    "title": "那些有趣的代码（一）：有点萌的 Tomcat 的线程池题",
-    "description": "最近抓紧时间看看了看tomcat 和 jetty 的源代码。发现了一些有趣的代码，这里和大家分享一下。Tomcat 作为一个老牌的 servlet 容器，处理多线程肯定得心应手，为...",
+    "title": "为什么 Redis 选择单线程模型？",
+    "description": "概述 设计 单线程模型 可维护性 并发处理 性能瓶颈 引入多线程 删除操作 总结 Reference 为什么这么设计（Why’s THE Design）是一系列关于计算机领域中程序...",
     "votes": "12",
-    "url": "/k/ohjo1lh",
-    "avatar": "https://img.toutiao.io/user/f6ee5031deb14edf9ce6eef2ee764f4b/thumb",
-    "avatarAlt": "犀利豆的独家号 - 独家号",
-    "subjectName": "犀利豆的独家号",
-    "homeUrl": "/subjects/314311"
+    "url": "/k/iapyb8w",
+    "avatar": "https://img.toutiao.io/subject%2Fb74e6991f2de41dbb21d7eef58177d64",
+    "avatarAlt": "面向信仰编程 - 独家号",
+    "subjectName": "面向信仰编程",
+    "homeUrl": "/subjects/90130"
   },
   {
     "title": "InnoDB 架构，一幅图秒懂",
@@ -140,6 +150,16 @@
     "homeUrl": "/subjects/120437"
   },
   {
+    "title": "使用 OpenResty 搭建高性能 Web 应用",
+    "description": "2019 年 8 月 31 日，OpenResty 社区联合又拍云，举办 OpenResty × Open Talk 全国巡回沙龙·成都站，原贝壳找房基础架构部工程师尹吉峰在活动上...",
+    "votes": "12",
+    "url": "/k/80d2jz1",
+    "avatar": "https://img.toutiao.io/subject%2F4f9b8a1b9ad34bf3b815671f8461ff25",
+    "avatarAlt": "又拍云 - 独家号",
+    "subjectName": "又拍云",
+    "homeUrl": "/subjects/182218"
+  },
+  {
     "title": "简单说说 Spring 的循环依赖",
     "description": "作者 | 田伟然回首向来萧瑟处，归去，也无风雨也无晴。杏仁工程师，关注编码和诗词。前言本文最耗时间的点就在于想一个好的标题， 既要灿烂夺目，又要光华内敛，事实证明这比砍需求还要难！...",
     "votes": "12",
@@ -148,6 +168,16 @@
     "avatarAlt": "杏仁技术站 - 独家号",
     "subjectName": "杏仁技术站",
     "homeUrl": "/subjects/206366"
+  },
+  {
+    "title": "字节跳动的三道编码面试题的实现",
+    "description": "国庆节后，自己的一个小圈子微信群的伙伴们发了一张图片，是网上流传的字节跳动的面试题编码，闲的无事就思索了下，发现都不难，都是对基础的数学知识的考量。先上图吧！当然40分钟，我也无法...",
+    "votes": "11",
+    "url": "/k/91o3frk",
+    "avatar": "https://img.toutiao.io/subject%2F732cb6a567b6447aa876ed179c0e89c7",
+    "avatarAlt": "Fundebug - 独家号",
+    "subjectName": "Fundebug",
+    "homeUrl": "/subjects/216955"
   },
   {
     "title": "[译] 好用到哭！8 个技巧让 Vim 菜鸟变专家",
@@ -168,35 +198,5 @@
     "avatarAlt": "Go语言中文网 - 独家号",
     "subjectName": "Go语言中文网",
     "homeUrl": "/subjects/133906"
-  },
-  {
-    "title": "史上最全 Windows 安全工具锦集",
-    "description": "“工欲善其事，必先利其器。”近日，深信服安全团队整理了一些常见的PE工具、调试反汇编工具、应急工具、流量分析工具和WebShell查杀工具，希望可以帮助到一些安全行业的初学者。PE...",
-    "votes": "10",
-    "url": "/k/ho7qzur",
-    "avatar": "https://img.toutiao.io/subject%2Fe28330e25e7c43019c600fbe720c1911",
-    "avatarAlt": "2048 - 独家号",
-    "subjectName": "2048",
-    "homeUrl": "/subjects/3216"
-  },
-  {
-    "title": "macOS 使用 Homebrew 的经验分享",
-    "description": "前言本来想着macOS使用Homebrew对大家没啥难度，之前就分享了一篇介绍homebrew-bundle备份恢复的文章，不过长期使用后还是觉得有必要做一下总结，道理也很简单，越...",
-    "votes": "10",
-    "url": "/k/v85t5sx",
-    "avatar": "https://img.toutiao.io/subject%2F74d2eb04ed1b4c82834556c9a541fee5",
-    "avatarAlt": "HelloDog - 独家号",
-    "subjectName": "HelloDog",
-    "homeUrl": "/subjects/4009"
-  },
-  {
-    "title": "了解 MongoDB 看这一篇就够了",
-    "description": " 一、简介 MongoDB 是一款流行的开源文档型数据库，从它的命名来看，确实是有一定野心的。MongoDB 的原名一开始来自于 英文单词\"Humongous\", 中文含义是指\"庞...",
-    "votes": "10",
-    "url": "/k/lffi0x6",
-    "avatar": "https://img.toutiao.io/subject%2F68c02d27d74f459fb2a9412febb64aaa",
-    "avatarAlt": "美码师 - 独家号",
-    "subjectName": "美码师",
-    "homeUrl": "/subjects/345577"
   }
 ]
