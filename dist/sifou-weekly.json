@@ -5,8 +5,17 @@
     "url": "https://segmentfault.com/a/1190000020759924",
     "author": "火狼",
     "home_url": "https://segmentfault.com/u/huolang_5a14e07d2f2ff",
-    "votes": "139",
+    "votes": "165",
     "rank": 1
+  },
+  {
+    "title": "「干货」用 Vue + Echarts 打造你的专属可视化界面（上）",
+    "description": "在近期的项目中，有大量处理可视化数据的需求。说起这个，相信很多同学跟我一样，都会想到用 Echarts 来实现。没错，Echarts 拥有高度可定制化的配置，以及非常详尽的开发文档，并且它的最新版已经更新到了 v4.3。",
+    "url": "https://segmentfault.com/a/1190000020795710",
+    "author": "micherwa",
+    "home_url": "https://segmentfault.com/u/micherwa",
+    "votes": "40",
+    "rank": 2
   },
   {
     "title": "灵活运用JS开发技巧",
@@ -14,17 +23,17 @@
     "url": "https://segmentfault.com/a/1190000020749133",
     "author": "JowayYoung",
     "home_url": "https://segmentfault.com/u/yangzw",
-    "votes": "122",
-    "rank": 2
+    "votes": "145",
+    "rank": 3
   },
   {
-    "title": "基于Spring Boot+Spring Security+JWT+Vue前后端分离的开源项目",
-    "description": "最近整合Spring Boot+Spring Security+JWT+Vue 完成了一套前后端分离的基础项目，这里把它开源出来分享给有需要的小伙伴们",
-    "url": "https://segmentfault.com/a/1190000020784657",
-    "author": "郑清",
-    "home_url": "https://segmentfault.com/u/zhengqing",
+    "title": "时序数据库 InfluxDB（三）",
+    "description": "相关文章：时序数据库 InfluxDB（一） 时序数据库 InfluxDB（二） 数据类型 InfluxDB 是一个无结构模式，这也就是说你无需事先定义好表以及表的数据结构。 InfluxDB 支持的数据类型非常简单： measurement : stri...",
+    "url": "https://segmentfault.com/a/1190000020811233",
+    "author": "rife",
+    "home_url": "https://segmentfault.com/u/rife",
     "votes": "1",
-    "rank": 3
+    "rank": 4
   },
   {
     "title": "MySQL的又一神器-锁，MySQL面试必备",
@@ -32,8 +41,26 @@
     "url": "https://segmentfault.com/a/1190000020762791",
     "author": "欧阳思海",
     "home_url": "https://segmentfault.com/u/sihai_5ae5ba9170388",
-    "votes": "36",
-    "rank": 4
+    "votes": "57",
+    "rank": 5
+  },
+  {
+    "title": "SegmentFault 思否 - 7 年如一日做好开发者社区这件事，成为中文开发者领域最被信赖的创领者",
+    "description": "2012 年的 6 月份，我与祁宁 @Joyqi 以及董锋 @Fen 一起辞职来到杭州驻扎在莲花街的一个民居全职开始做 SegmentFault 社区，没想到已经过去了 7 年的时间，很多场景犹如昨日历历在目。我与祁宁和董锋我们之间的相...",
+    "url": "https://segmentfault.com/a/1190000020786902",
+    "author": "高阳Sunny",
+    "home_url": "https://segmentfault.com/u/sunny",
+    "votes": "30",
+    "rank": 6
+  },
+  {
+    "title": "Vue 组件间通信 11 种方法汇总",
+    "description": "修饰符 .sync 是 2.3.0+ 新增，它对 props 起到了一种修饰的作用，使用 .sync 进行修饰的 props 意味子组件有修改它的意图，这种情况下它只起到一个标注性作用，有它没它都不会影响逻辑（后文会介绍使用 .sync 的...",
+    "url": "https://segmentfault.com/a/1190000020796713",
+    "author": "Leiy",
+    "home_url": "https://segmentfault.com/u/webinfoq",
+    "votes": "13",
+    "rank": 7
   },
   {
     "title": "50行代码完成视频通话 (WebRTC + WebSocket)",
@@ -41,8 +68,8 @@
     "url": "https://segmentfault.com/a/1190000020780854",
     "author": "shushushu",
     "home_url": "https://segmentfault.com/u/shushushu_5b7a56e782571",
-    "votes": "17",
-    "rank": 5
+    "votes": "30",
+    "rank": 8
   },
   {
     "title": "“寒冬”三年经验前端面试总结（含头条、百度、饿了么、滴滴等）之手写题（二）",
@@ -50,8 +77,35 @@
     "url": "https://segmentfault.com/a/1190000020775348",
     "author": "阳呀呀",
     "home_url": "https://segmentfault.com/u/yangyaya",
-    "votes": "17",
-    "rank": 6
+    "votes": "25",
+    "rank": 9
+  },
+  {
+    "title": "Spring Boot项目如何同时支持HTTP和HTTPS协议",
+    "description": "如今，企业级应用程序的常见场景是同时支持HTTP和HTTPS两种协议，这篇文章考虑如何让Spring Boot应用程序同时支持HTTP和HTTPS两种协议。",
+    "url": "https://segmentfault.com/a/1190000020809662",
+    "author": "阿杜",
+    "home_url": "https://segmentfault.com/u/duqi",
+    "votes": "1",
+    "rank": 10
+  },
+  {
+    "title": "前端资源缓存详解",
+    "description": "前言 对每个前端开发者来说都避不开前端缓存，那么前端缓存都有哪些，又该如何去设置呢？ 前端缓存只要分为HTTP缓存和浏览器缓存，下面我们分别来介绍一下 HTTP缓存 HTTP缓存又分一下两种： 强缓存 协商缓存 两者...",
+    "url": "https://segmentfault.com/a/1190000020786519",
+    "author": "浅夏晴空",
+    "home_url": "https://segmentfault.com/u/qianxiaqingkong",
+    "votes": "24",
+    "rank": 11
+  },
+  {
+    "title": "1024 巨献！！一文看尽过去一年前端领域的那些好文（700 篇大汇总）",
+    "description": "1024，在这个“程序猿” 和 “程序媛” 特有的节日，我们为您送出一份节日大礼包 —— 过去一年政采云 ZooTeam 前端小报推荐过的 700 篇好文，篇篇人肉筛选推荐，一文看尽一年的精华沉淀，强烈建议收藏~!",
+    "url": "https://segmentfault.com/a/1190000020793463",
+    "author": "政采云前端团队",
+    "home_url": "https://segmentfault.com/u/zhengcaiyunqianduantuandui",
+    "votes": "15",
+    "rank": 12
   },
   {
     "title": "vue-next/runtime-core 源码阅读指南",
@@ -60,115 +114,34 @@
     "author": "littleLyon",
     "home_url": "https://segmentfault.com/u/littlelyon",
     "votes": "7",
-    "rank": 7
-  },
-  {
-    "title": "分享一个页面平滑滚动小技巧",
-    "description": "今天写需求的时候发现一个小的优化点：用户选择了一些数据之后, 对应列表中的数据需要高亮， 有时候列表很长， 为了提升用户体验，需要加个滚动， 自动滚动到目标位置。",
-    "url": "https://segmentfault.com/a/1190000020769492",
-    "author": "皮小蛋",
-    "home_url": "https://segmentfault.com/u/scaukk",
-    "votes": "16",
-    "rank": 8
-  },
-  {
-    "title": "详细判断浏览器运行环境",
-    "description": "看到标题，大家就能想起这个需求在很多项目上都能用到。我们部署在Web服务器上的前端应用，既可以用PC浏览器访问，也可以用手机浏览器访问，再加上现在智能设备的推广，我们甚至能在车载系统、穿戴设备和电视平台...",
-    "url": "https://segmentfault.com/a/1190000020716933",
-    "author": "JowayYoung",
-    "home_url": "https://segmentfault.com/u/yangzw",
-    "votes": "95",
-    "rank": 9
-  },
-  {
-    "title": "[小组分享] React 当中性能优化手段整理",
-    "description": "内部小组分享底稿. 回顾一下 React class 组件的优化 useMemo 提供的优化 React.memo 优化 useCallback 优化 避免 render 当中的 DOM 操作 class 组件的优化 通过判断减少数据变化触发的重新渲染, 以及之后的 DOM...",
-    "url": "https://segmentfault.com/a/1190000020769066",
-    "author": "题叶",
-    "home_url": "https://segmentfault.com/u/jiyinyiyong",
-    "votes": "8",
-    "rank": 10
-  },
-  {
-    "title": "EasyExcel 轻松灵活读取Excel内容",
-    "description": "Java 后端程序员应该会遇到读取 Excel 信息到 DB 等相关需求，脑海中可能突然间想起 Apache POI 这个技术解决方案，但是当 Excel 的数据量非常大的时候，你也许发现，POI 是将整个 Excel 的内容全部读出来放入到...",
-    "url": "https://segmentfault.com/a/1190000020759658",
-    "author": "日拱一兵",
-    "home_url": "https://segmentfault.com/u/tanrigongyibing",
-    "votes": "22",
-    "rank": 11
-  },
-  {
-    "title": "一文读懂分布式架构知识体系（内含超全核心知识大图）",
-    "description": "导读：本文力求从分布式基础理论、架构设计模式、工程应用、部署运维、业界方案这几大方面，介绍基于 MSA（微服务架构）的分布式知识体系大纲，从而对 SOA 到 MSA 进化有着立体的认识；从概念上和工具应用上更近...",
-    "url": "https://segmentfault.com/a/1190000020780720",
-    "author": "技术小能手xihaha",
-    "home_url": "https://segmentfault.com/u/jishuxiaonengshouxihaha",
-    "votes": "4",
-    "rank": 12
-  },
-  {
-    "title": "Vue组件库搭建实践与探索",
-    "description": "在以前传统的前端页面开发方式时，存在协同困难，可复用性差的问题，导致开发和维护都不是一件简单的事。而组件化思想的提出，以及Vue、React等MV*框架的快速流行，让我们开始尝试用组件化的思想去开发。由于笔者...",
-    "url": "https://segmentfault.com/a/1190000020754678",
-    "author": "曾培森",
-    "home_url": "https://segmentfault.com/u/zengpeisen_5abdadcc67a6f",
-    "votes": "25",
     "rank": 13
   },
   {
-    "title": "支撑微博亿级社交平台，小白也能玩转Redis集群(实战篇)",
-    "description": "上篇文章《支撑微博亿级社交平台，小白也能玩转Redis集群(原理篇)》介绍了Redis集群相关原理，这篇文章将介绍Redis Cluster集群的搭建、配置，运维、扩容等具体操作",
-    "url": "https://segmentfault.com/a/1190000020762868",
-    "author": "分布式系统架构",
-    "home_url": "https://segmentfault.com/u/fenbushixitongjiagou",
-    "votes": "11",
+    "title": "Docker安装ELK并实现JSON格式日志分析",
+    "description": "ELK是elastic公司提供的一套完整的日志收集以及前端展示的解决方案，是三个产品的首字母缩写，分别是ElasticSearch、Logstash和Kibana。",
+    "url": "https://segmentfault.com/a/1190000020787873",
+    "author": "我的小熊不见了",
+    "home_url": "https://segmentfault.com/u/wodexiaoxiongbujianliao",
+    "votes": "22",
     "rank": 14
   },
   {
-    "title": "为什么我喜欢 JavaScript 可选链",
-    "description": "很多 JavaScript 的特性极大地改变了你的编码方式。从 ES2015 及更高版本开始，对我的代码影响最大的功能是解构、箭头函数、类和模块系统。",
-    "url": "https://segmentfault.com/a/1190000020774875",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "8",
+    "title": "DOM浅谈",
+    "description": "文档对象模型（Document Object Model，简称DOM），是W3C组织推荐的处理可扩展置标语言的标准编程接口。DOM即文档对象模型，是一种处理HTML和XML文件的标准API。",
+    "url": "https://segmentfault.com/a/1190000020810884",
+    "author": "南屋流星",
+    "home_url": "https://segmentfault.com/u/nanwuliuxing",
+    "votes": "2",
     "rank": 15
   },
   {
-    "title": "IOS 浏览器页面布局错位（如：点不到）的分析与解决",
-    "description": "IOS 浏览器软键盘的拉起与收缩、微信 IOS 浏览器底部导航条的显示与隐藏，很容易导致页面布局错位（相对窗体的绝对定位元素）：",
-    "url": "https://segmentfault.com/a/1190000020765238",
-    "author": "senntyou",
-    "home_url": "https://segmentfault.com/u/senntyou",
-    "votes": "12",
-    "rank": 16
-  },
-  {
-    "title": "马蜂窝 IM 移动端架构的从 0 到 1",
-    "description": "移动互联网技术改变了旅游的世界，这个领域过去沉重的信息分销成本被大大降低。用户与服务供应商之间、用户与用户之间的沟通路径逐渐打通，沟通的场景也在不断扩展。这促使所有的移动应用开发者都要从用户视角出...",
-    "url": "https://segmentfault.com/a/1190000020761250",
-    "author": "马蜂窝技术",
-    "home_url": "https://segmentfault.com/u/mafengwojishu",
-    "votes": "10",
-    "rank": 17
-  },
-  {
-    "title": "5个JavaScript 解构的有趣用法",
-    "description": "原文：Dmitri Pavlutin翻译：疯狂的技术宅 原文：[链接] 未经允许严禁转载 如果你查看我的常规 JavaScript 代码，会看到到处都有解构。 读取对象属性和访问数组项是常见的操作。结构使这些操作变得更加轻松和简洁...",
-    "url": "https://segmentfault.com/a/1190000020750113",
+    "title": "用 MelonJS 开发一个游戏",
+    "description": "游戏开发并不需要局限于使用 Unity 或 Unreal Engine4 的用户。 JavaScript 游戏开发已经有一段时间了。实际上，最流行的浏览器（例如Chrome，Firefox和Edge）的最新版本提供了对高级图形渲染（例如WebGL）的支持...",
+    "url": "https://segmentfault.com/a/1190000020798017",
     "author": "疯狂的技术宅",
     "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "23",
-    "rank": 18
-  },
-  {
-    "title": "记json与serialize性能测试",
-    "description": "最近在观看swoole官方的课程时，其中有一小段专门说到了json_decode这个函数的效率问题，其慢的原因是在进行转化时需要遍历文中每一个字符去寻找EOF（end of file：文字流的结尾，关于EOF阮一峰大神这篇文章解释...",
-    "url": "https://segmentfault.com/a/1190000020755226",
-    "author": "陈小楷",
-    "home_url": "https://segmentfault.com/u/chenxiaokai",
-    "votes": "14",
-    "rank": 19
+    "votes": "11",
+    "rank": 16
   },
   {
     "title": "7 个沙雕又带有陷阱的 JS 面试题",
@@ -176,97 +149,124 @@
     "url": "https://segmentfault.com/a/1190000020743430",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "23",
+    "votes": "27",
+    "rank": 17
+  },
+  {
+    "title": "百度App网络深度优化系列《一》DNS优化",
+    "description": "网络优化是客户端几大技术方向中公认的一个深度领域，所以百度App给大家带来网络深度优化系列文章，其中包含系列《一》DNS优化，系列《二》连接优化，系列《三》弱网优化，希望对大家在网络方向的学习和实践有所...",
+    "url": "https://segmentfault.com/a/1190000020805202",
+    "author": "百度App技术",
+    "home_url": "https://segmentfault.com/u/baiduappjishu",
+    "votes": "11",
+    "rank": 18
+  },
+  {
+    "title": "写在1024节——回顾这几年",
+    "description": "很久没写些啥技术相关的文章了，一方面是感觉技术资料已经相当丰富，写了也只是在搜索引擎上再增加一篇重复的内容；另外一方面也是对于技术很久以来没有太多新的理解，或许说目前阶段感觉够用。而不写文章，总觉...",
+    "url": "https://segmentfault.com/a/1190000020792189",
+    "author": "kumfo",
+    "home_url": "https://segmentfault.com/u/kumfo",
+    "votes": "12",
+    "rank": 19
+  },
+  {
+    "title": "简易 shell 脚本入门 (纯示例代码)",
+    "description": "经常会遇到需要简单编写 shell 脚本的情况, 每次都忘记 shell 脚本语法然后去查资料.故专门写篇文章记录常用的 shell 语法.",
+    "url": "https://segmentfault.com/a/1190000020809577",
+    "author": "beiweiqiang",
+    "home_url": "https://segmentfault.com/u/beiweiqiang",
+    "votes": "3",
     "rank": 20
   },
   {
-    "title": "【JS 口袋书】第 8 章：以更细的角度来看 JS 中的 this",
-    "description": "JS 中的this关键字对于初学者来说是一个谜，对于经验丰富的开发人员来说则是一个永恒的难题。this 实际上是一个移动的目标，在代码执行过程中可能会发生变化，而没有任何明显的原因。首先，看一下this关键字在其...",
-    "url": "https://segmentfault.com/a/1190000020471520",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "9",
+    "title": "【译】仅使用 Context 和 Hooks 来管理 React 应用的状态",
+    "description": "自从 React Hooks 发布以来，数以千计关于它的文章，库和视频课程已经被发布。如果自己搜索下这些资源，您会发现我前段时间写的一篇文章，是关于如何使用 Hooks 构建示例应用程序。您可以在这里找到它。",
+    "url": "https://segmentfault.com/a/1190000020808696",
+    "author": "joking_zhang",
+    "home_url": "https://segmentfault.com/u/joking_zhang",
+    "votes": "3",
     "rank": 21
   },
   {
-    "title": "程序员需要了解的硬核知识之CPU",
-    "description": "大家都是程序员，大家都是和计算机打交道的程序员，大家都是和计算机中软件硬件打交道的程序员，大家都是和CPU打交道的程序员，所以，不管你是玩儿硬件的还是做软件的，你的世界都少不了计算机最核心的 - CPU",
-    "url": "https://segmentfault.com/a/1190000020751429",
-    "author": "cxuan",
-    "home_url": "https://segmentfault.com/u/cxuan",
-    "votes": "15",
+    "title": "vue登录以及权限验证相关",
+    "description": "最近在做一个小应用，需要用到vue实现登录，以及给不同路由设置权限。在网上看了很多文章，讲的是乱七八糟。感叹国内技术类文章实在是差劲，抄来抄去。这篇文章就说说我最后是如何实现的。",
+    "url": "https://segmentfault.com/a/1190000020791290",
+    "author": "zhuzhezhe",
+    "home_url": "https://segmentfault.com/u/zhuzhezhe",
+    "votes": "13",
     "rank": 22
   },
   {
-    "title": "缩短箭头函数的小诀窍",
-    "description": "作者：Dmitri Pavlutin翻译：疯狂的技术宅 原文：[链接] 未经允许严禁转载 使用箭头语法，你可以定义比函数表达式短的函数。在某些情况下，你可以完全省略： 参数括号 (param1, param2) return 关键字 甚至大括号...",
-    "url": "https://segmentfault.com/a/1190000020760897",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "8",
+    "title": "JS对象的 rest/spread 属性指南",
+    "description": "在ES5中，咱们合并对象通常使用Lodash的_.extend(target, [sources]) 方法，在ES6中咱们使用 Object.assign(target, [sources])来合并对象，当然现在最常用应该是使用 Rest/Spread(展开运算符与剩余操作符)。",
+    "url": "https://segmentfault.com/a/1190000020247136",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "9",
     "rank": 23
   },
   {
-    "title": "不只是块级作用域，你不知道的let和const",
-    "description": "ES6新增了两个重要的关键字let和const，相信大家都不陌生，但是包括我在内，在系统学习ES6之前也只使用到了【不存在变量提升】这个特性。",
-    "url": "https://segmentfault.com/a/1190000020768392",
-    "author": "xialeistudio",
-    "home_url": "https://segmentfault.com/u/xialeistudio",
-    "votes": "10",
+    "title": "前端面试必备——eslint篇",
+    "description": "多人共同开发一个项目，如果没有统一代码风格，其他人的代码在你的IDE就会是一片红，更可怕的是你不小心格式化了代码，格式化的记录也会被加入到git记录中，极不利于协作开发。因此我认为对于多人项目，应该在一...",
+    "url": "https://segmentfault.com/a/1190000020787866",
+    "author": "Runningfyy",
+    "home_url": "https://segmentfault.com/u/yangkaiqiang",
+    "votes": "11",
     "rank": 24
   },
   {
-    "title": "这道Java基础题真的有坑！我求求你，认真思考后再回答。",
-    "description": "全文共计7362个字，46张图。分析的较为详尽，并进行了相关知识点的扩展，所以篇幅较长，建议转发朋友圈或者自己收藏起来，慢慢阅读。",
-    "url": "https://segmentfault.com/a/1190000020763010",
-    "author": "why技术",
-    "home_url": "https://segmentfault.com/u/whyjishu",
-    "votes": "12",
+    "title": "基于Spring Boot+Spring Security+JWT+Vue前后端分离的开源项目",
+    "description": "最近整合Spring Boot+Spring Security+JWT+Vue 完成了一套前后端分离的基础项目，这里把它开源出来分享给有需要的小伙伴们",
+    "url": "https://segmentfault.com/a/1190000020784657",
+    "author": "郑清",
+    "home_url": "https://segmentfault.com/u/zhengqing",
+    "votes": "15",
     "rank": 25
   },
   {
-    "title": "Spring Security 实战干货：必须掌握的一些内置 Filter",
-    "description": "上一文我们使用 Spring Security 实现了各种登录聚合的场面。其中我们是通过在 UsernamePasswordAuthenticationFilter 之前一个自定义的过滤器实现的。我怎么知道自定义过滤器要加在 UsernamePasswordAuthenticat...",
-    "url": "https://segmentfault.com/a/1190000020769672",
-    "author": "码农小胖哥",
-    "home_url": "https://segmentfault.com/u/10000000",
-    "votes": "7",
+    "title": "Vue组件库搭建实践与探索",
+    "description": "在以前传统的前端页面开发方式时，存在协同困难，可复用性差的问题，导致开发和维护都不是一件简单的事。而组件化思想的提出，以及Vue、React等MV*框架的快速流行，让我们开始尝试用组件化的思想去开发。由于笔者...",
+    "url": "https://segmentfault.com/a/1190000020754678",
+    "author": "曾培森",
+    "home_url": "https://segmentfault.com/u/zengpeisen_5abdadcc67a6f",
+    "votes": "28",
     "rank": 26
   },
   {
-    "title": "总结网易的年度娱乐圈画转h5画中画的技术实现。",
-    "description": "前言：花时间学习了网易的年度娱乐圈画转h5的技术实现。有些点比较难懂，故此，做个笔记。如果恰好帮助到你，棒呆",
-    "url": "https://segmentfault.com/a/1190000020781728",
-    "author": "VisionM",
-    "home_url": "https://segmentfault.com/u/visionm",
-    "votes": "3",
+    "title": "马蜂窝 IM 移动端架构的从 0 到 1",
+    "description": "移动互联网技术改变了旅游的世界，这个领域过去沉重的信息分销成本被大大降低。用户与服务供应商之间、用户与用户之间的沟通路径逐渐打通，沟通的场景也在不断扩展。这促使所有的移动应用开发者都要从用户视角出...",
+    "url": "https://segmentfault.com/a/1190000020761250",
+    "author": "马蜂窝技术",
+    "home_url": "https://segmentfault.com/u/mafengwojishu",
+    "votes": "20",
     "rank": 27
   },
   {
-    "title": "Typescript 进阶",
-    "description": "这是一篇自己总结的 Typescript type相关的进阶文章，适合有一定ts基础，并在type编写方面感到迷惑、感到绝望的同学，也给那些入门Typescript已久，却无法更上一层楼的童鞋一个方向。如果是Typescript小白，建议...",
-    "url": "https://segmentfault.com/a/1190000020715919",
-    "author": "懒懒的技术宅",
-    "home_url": "https://segmentfault.com/u/lanlandejishuzhai",
-    "votes": "40",
+    "title": "5个JavaScript 解构的有趣用法",
+    "description": "原文：Dmitri Pavlutin翻译：疯狂的技术宅 原文：[链接] 未经允许严禁转载 如果你查看我的常规 JavaScript 代码，会看到到处都有解构。 读取对象属性和访问数组项是常见的操作。结构使这些操作变得更加轻松和简洁...",
+    "url": "https://segmentfault.com/a/1190000020750113",
+    "author": "疯狂的技术宅",
+    "home_url": "https://segmentfault.com/u/evilboy",
+    "votes": "28",
     "rank": 28
   },
   {
-    "title": "组装一台自己的深度学习计算机",
-    "description": "在与 Microsoft Azure GPU VM 奋斗了几年之后，听说亚马逊的 AWS 并没有更好的表现，我觉得应该拥有自己的本地深度学习机器了。",
-    "url": "https://segmentfault.com/a/1190000020764449",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "6",
+    "title": "EasyExcel 轻松灵活读取Excel内容",
+    "description": "Java 后端程序员应该会遇到读取 Excel 信息到 DB 等相关需求，脑海中可能突然间想起 Apache POI 这个技术解决方案，但是当 Excel 的数据量非常大的时候，你也许发现，POI 是将整个 Excel 的内容全部读出来放入到...",
+    "url": "https://segmentfault.com/a/1190000020759658",
+    "author": "日拱一兵",
+    "home_url": "https://segmentfault.com/u/tanrigongyibing",
+    "votes": "29",
     "rank": 29
   },
   {
-    "title": "React16源码解析(一)- 图解Fiber架构",
-    "description": "老的react架构从setState到render完成，整个过程是主要霸占主线程的。如果组件比较大，或者有些复杂的逻辑，长时间占用主线程，会导致一些input框输入操作、动画等得不到响应，从而表现出页面卡顿。",
-    "url": "https://segmentfault.com/a/1190000020736966",
-    "author": "小柚子",
-    "home_url": "https://segmentfault.com/u/wenwenjie",
-    "votes": "16",
+    "title": "分享一个页面平滑滚动小技巧",
+    "description": "今天写需求的时候发现一个小的优化点：用户选择了一些数据之后, 对应列表中的数据需要高亮， 有时候列表很长， 为了提升用户体验，需要加个滚动， 自动滚动到目标位置。",
+    "url": "https://segmentfault.com/a/1190000020769492",
+    "author": "皮小蛋",
+    "home_url": "https://segmentfault.com/u/scaukk",
+    "votes": "19",
     "rank": 30
   }
 ]
