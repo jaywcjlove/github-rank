@@ -2,7 +2,7 @@
   {
     "title": "MySQL 的 COUNT 语句，竟然都能被面试官虐的这么惨！？",
     "description": "△Hollis, 一个对Coding有着独特追求的人△这是Hollis的第 232篇原创分享作者 l Hollis来源 l Hollis（ID：hollischuang）数据库查询...",
-    "votes": "51",
+    "votes": "52",
     "url": "/k/6nrem1x",
     "avatar": "https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e",
     "avatarAlt": "JAVA干货 - 独家号",
@@ -10,29 +10,9 @@
     "homeUrl": "/subjects/51515"
   },
   {
-    "title": "高性能服务端优化之路",
-    "description": "业务场景达达是全国领先的最后三公里物流配送平台。达达的业务模式与滴滴以及Uber很相似，以众包的方式利用社会闲散人力资源，解决O2O最后三公里即时性配送难题。达达业务主要包含两部分...",
-    "votes": "40",
-    "url": "/k/801i8j3",
-    "avatar": "https://img.toutiao.io/user/b618677591aa49b3972ece0c7d26b473/thumb",
-    "avatarAlt": "数据淘金 - 独家号",
-    "subjectName": "数据淘金",
-    "homeUrl": "/subjects/120437"
-  },
-  {
-    "title": "Docker 大势已去，Podman 万岁",
-    "description": "前言郑重声明：本文不是 Podman 的入门篇，入门请阅读这篇文章：再见 Docker，是时候拥抱下一代容器工具了Podman原来是 CRI-O 项目的一部分，后来被分离成一个单独...",
-    "votes": "31",
-    "url": "/k/5rvpr8g",
-    "avatar": "https://img.toutiao.io/subject%2Fe975130a4fe84bc0aa7e49d4d120b5a8",
-    "avatarAlt": "云原生实验室 - 独家号",
-    "subjectName": "云原生实验室",
-    "homeUrl": "/subjects/412397"
-  },
-  {
     "title": "如何写出优雅的 Golang 代码",
     "description": "写在前面代码规范 辅助工具 goimportsgolint自动化最佳实践 目录结构 /pkg 私有代码/src平铺/cmd/apiMakefile小结模块拆分 按层拆分按职责拆分小...",
-    "votes": "29",
+    "votes": "32",
     "url": "/k/enqg2tf",
     "avatar": "https://img.toutiao.io/subject%2Fb74e6991f2de41dbb21d7eef58177d64",
     "avatarAlt": "面向信仰编程 - 独家号",
@@ -40,14 +20,14 @@
     "homeUrl": "/subjects/90130"
   },
   {
-    "title": "业务复杂 = if else？刚来的大神竟然用策略 + 工厂彻底干掉了他们",
-    "description": "对于业务开发来说，业务逻辑的复杂是必然的，随着业务发展，需求只会越来越复杂，为了考虑到各种各样的情况，代码中不可避免的会出现很多if-else。一旦代码中if-else过多，就会大...",
-    "votes": "23",
-    "url": "/k/cjksgtl",
-    "avatar": "https://img.toutiao.io/subject%2Ffdd0de401a124afab7ddd87d94c6e129",
-    "avatarAlt": "漫话编程 - 独家号",
-    "subjectName": "漫话编程",
-    "homeUrl": "/subjects/375127"
+    "title": "我掏空了各大搜索引擎，给你整理了 154 道 Java 面试题",
+    "description": "Java集合22题ArrayList 和 Vector 的区别。说说 ArrayList,Vector, LinkedList 的存储性能和特性。快速失败 (fail-fast) ...",
+    "votes": "29",
+    "url": "/k/a6pg1yr",
+    "avatar": "https://img.toutiao.io/subject%2F8370ca7d0bed45afb18f847750e191c8",
+    "avatarAlt": "微信公众号:肥朝 - 独家号",
+    "subjectName": "微信公众号:肥朝",
+    "homeUrl": "/subjects/387709"
   },
   {
     "title": "起底阿里完整前端技术体系",
@@ -60,6 +40,16 @@
     "homeUrl": "/subjects/380054"
   },
   {
+    "title": "为什么区块链会成为国家战略？",
+    "description": "  今日国家再次强调了区块链在新的技术变革中的重要性，并且表示要把区块链作为核心技术自主创新的重要突破口，受此带动，迅雷等区块链概念股应声而涨。  而就在昨天，一个重要且有点“好笑...",
+    "votes": "21",
+    "url": "/k/l92zqs3",
+    "avatar": "https://img.toutiao.io/subject%2F4c72971aff5c4e73821ac59b18ff5dd6",
+    "avatarAlt": "程序员的朋友圈 - 独家号",
+    "subjectName": "程序员的朋友圈",
+    "homeUrl": "/subjects/378"
+  },
+  {
     "title": "Code Review 最佳实践",
     "description": "我一直认为Code Review（代码审查）是软件开发中的最佳实践之一，可以有效提高整体代码质量，及时发现代码中可能存在的问题。包括像Google、微软这些公司，Code Revi...",
     "votes": "20",
@@ -68,26 +58,6 @@
     "avatarAlt": "乱学派 - 独家号",
     "subjectName": "乱学派",
     "homeUrl": "/subjects/110643"
-  },
-  {
-    "title": "不论微信钉钉还是什么软件，我写了个通用的消息监控处理机器人",
-    "description": "上一篇推文中提到，我希望通过监控微信对应的聊天记录，来实现一个消息自动处理的机器人，上篇文章实现的就是自动保存感兴趣的文章到Bear。虽说那篇文章比较实用，也有很多朋友表示喜欢，但...",
-    "votes": "20",
-    "url": "/k/dld5rnz",
-    "avatar": "https://img.toutiao.io/subject%2F6fa73fb26b854609acc4bde71c8fb2a6",
-    "avatarAlt": "老胡的储物柜 - 独家号",
-    "subjectName": "老胡的储物柜",
-    "homeUrl": "/subjects/248689"
-  },
-  {
-    "title": "为什么 Redis 选择单线程模型？",
-    "description": "概述 设计 单线程模型 可维护性 并发处理 性能瓶颈 引入多线程 删除操作 总结 Reference 为什么这么设计（Why’s THE Design）是一系列关于计算机领域中程序...",
-    "votes": "19",
-    "url": "/k/iapyb8w",
-    "avatar": "https://img.toutiao.io/subject%2Fb74e6991f2de41dbb21d7eef58177d64",
-    "avatarAlt": "面向信仰编程 - 独家号",
-    "subjectName": "面向信仰编程",
-    "homeUrl": "/subjects/90130"
   },
   {
     "title": "终于有人把 “分布式事务” 说清楚了",
@@ -100,14 +70,14 @@
     "homeUrl": "/subjects/8411"
   },
   {
-    "title": "为什么区块链会成为国家战略？",
-    "description": "  今日国家再次强调了区块链在新的技术变革中的重要性，并且表示要把区块链作为核心技术自主创新的重要突破口，受此带动，迅雷等区块链概念股应声而涨。  而就在昨天，一个重要且有点“好笑...",
-    "votes": "18",
-    "url": "/k/l92zqs3",
-    "avatar": "https://img.toutiao.io/subject%2F4c72971aff5c4e73821ac59b18ff5dd6",
-    "avatarAlt": "程序员的朋友圈 - 独家号",
-    "subjectName": "程序员的朋友圈",
-    "homeUrl": "/subjects/378"
+    "title": "贾扬清：把生命浪费在有意思的事情上",
+    "description": " 今天，是1024程序员节。在这个“攻城狮”自带光芒的日子里，阿里妹请来AI大神贾扬清，作为一位开发者，聊一聊他自己的开发者经历，希望对你有所启发。  贾扬清阿里巴巴集团副总裁、高...",
+    "votes": "17",
+    "url": "/k/pahos7v",
+    "avatar": "https://img.toutiao.io/user/b618677591aa49b3972ece0c7d26b473/thumb",
+    "avatarAlt": "数据淘金 - 独家号",
+    "subjectName": "数据淘金",
+    "homeUrl": "/subjects/120437"
   },
   {
     "title": "由一次线上故障来理解下 TCP 三握、四挥 & Java 堆栈分析到源码的探秘",
@@ -130,24 +100,14 @@
     "homeUrl": "/subjects/216955"
   },
   {
-    "title": "TiDB@丰巢：支付平台的迁移之旅",
-    "description": "丰巢第一次在生产环境实际使用TiDB，是在2018年，其场景是每天产生一亿条以上数据的推送平台，当时我们还发了一篇文章，被PingCAP官方收录：TiDB at 丰巢：尝鲜分布式数...",
-    "votes": "16",
-    "url": "/k/3k6n8w7",
-    "avatar": "https://img.toutiao.io/subject%2F08c3200c43064a1babec277646669298",
-    "avatarAlt": "黑夜路人 - 独家号",
-    "subjectName": "黑夜路人",
-    "homeUrl": "/subjects/17093"
-  },
-  {
-    "title": "字节跳动的三道编码面试题的实现",
-    "description": "国庆节后，自己的一个小圈子微信群的伙伴们发了一张图片，是网上流传的字节跳动的面试题编码，闲的无事就思索了下，发现都不难，都是对基础的数学知识的考量。先上图吧！当然40分钟，我也无法...",
-    "votes": "14",
-    "url": "/k/91o3frk",
-    "avatar": "https://img.toutiao.io/subject%2F732cb6a567b6447aa876ed179c0e89c7",
-    "avatarAlt": "Fundebug - 独家号",
-    "subjectName": "Fundebug",
-    "homeUrl": "/subjects/216955"
+    "title": "GitHub 带来的不止是开源，还有折叠的认知",
+    "description": "这里是Z哥的个人公众号每周五11：45 按时送达当然了，也会时不时加个餐～我的第「113」篇原创敬上几乎每个程序员都知道github，但是知道目前上面有多少repositories...",
+    "votes": "13",
+    "url": "/k/kq2ay36",
+    "avatar": "https://img.toutiao.io/subject%2Fc992e775e6344583abd8a49f632b3e13",
+    "avatarAlt": "跨界架构师 - 独家号",
+    "subjectName": "跨界架构师",
+    "homeUrl": "/subjects/268968"
   },
   {
     "title": "黑客入门，从 HTB 开始",
@@ -158,16 +118,6 @@
     "avatarAlt": "Neal Caffery - 独家号",
     "subjectName": "Neal Caffery",
     "homeUrl": "/subjects/231715"
-  },
-  {
-    "title": "使用 OpenResty 搭建高性能 Web 应用",
-    "description": "2019 年 8 月 31 日，OpenResty 社区联合又拍云，举办 OpenResty × Open Talk 全国巡回沙龙·成都站，原贝壳找房基础架构部工程师尹吉峰在活动上...",
-    "votes": "12",
-    "url": "/k/80d2jz1",
-    "avatar": "https://img.toutiao.io/subject%2F4f9b8a1b9ad34bf3b815671f8461ff25",
-    "avatarAlt": "又拍云 - 独家号",
-    "subjectName": "又拍云",
-    "homeUrl": "/subjects/182218"
   },
   {
     "title": "爬虫开发者职业生涯的终止",
@@ -190,13 +140,63 @@
     "homeUrl": "/subjects/344392"
   },
   {
-    "title": "万字 Spring Cloud Gateway 2.0，面向未来的技术，了解一下？",
-    "description": " 原创：小姐姐味道（微信公众号ID：xjjdog），欢迎分享，转载请保留出处。 本文将从知识拓扑讲起，谈一下api网关的功能，以及spring cloud gateway的使用方法...",
+    "title": "IM 服务器设计：如何解决消息的乱序",
+    "description": "导读：IM消息需要面对的另一个难题：如何保证收到的消息不乱序。本文先详细分析了乱序的原因，针对每种原因给出了相应的解决办法。并且在文末给出一劳永逸的设计方案。作者 codedump...",
     "votes": "11",
-    "url": "/k/uiy8udr",
-    "avatar": "https://img.toutiao.io/subject%2F6b8e14b561b24dfeac075e2a8dac9bfd",
-    "avatarAlt": "小姐姐味道 - 独家号",
-    "subjectName": "小姐姐味道",
-    "homeUrl": "/subjects/351247"
+    "url": "/k/bo8w5g6",
+    "avatar": "https://img.toutiao.io/subject%2F08c3200c43064a1babec277646669298",
+    "avatarAlt": "黑夜路人 - 独家号",
+    "subjectName": "黑夜路人",
+    "homeUrl": "/subjects/17093"
+  },
+  {
+    "title": "从对称加密到非对称加密再到认证中心：https 的证书申请",
+    "description": "作者 | 马启航 杏仁后端工程师。「我头发还多，你们呢？」 前言本来觉得也就是一个普通的博客网站，用不用 HTTPS 似乎也没什么大不了。但是在网络上各种信息的狂轰乱炸下，还是决定...",
+    "votes": "11",
+    "url": "/k/dsjc7b6",
+    "avatar": "https://img.toutiao.io/subject%2F2200d388e46e44128cf378d4d4920a40",
+    "avatarAlt": "杏仁技术站 - 独家号",
+    "subjectName": "杏仁技术站",
+    "homeUrl": "/subjects/206366"
+  },
+  {
+    "title": "[译] 如何成为一名优秀的初级工程师",
+    "description": "很多人都在想着如何成为一名高级工程师，而我想要的是先成为优秀的初级工程师。明年将是我正式受雇佣写代码的第15年了。（译者：老外的写代码职业生涯真的挺长的）回首往昔，我第一天工作的日...",
+    "votes": "11",
+    "url": "/k/2qibj9e",
+    "avatar": "https://img.toutiao.io/subject%2F2d4476b881aa4ea4a48c920c98b901bc",
+    "avatarAlt": "Jackeyzhe的成长 - 独家号",
+    "subjectName": "Jackeyzhe的成长",
+    "homeUrl": "/subjects/67572"
+  },
+  {
+    "title": "超级好用的 Java 数据可视化库：Tablesaw",
+    "description": "本文适合刚学习完 Java 语言基础的人群，跟着本文可了解和使用 Tablesaw 项目。示例均在 Windows 操作系统下演示 本文作者：HelloGitHub-秦人 Hell...",
+    "votes": "11",
+    "url": "/k/o3vsjdk",
+    "avatar": "https://img.toutiao.io/subject%2Fb751657c3aaa4ac59db50c07db41e538",
+    "avatarAlt": "HelloGitHub - 独家号",
+    "subjectName": "HelloGitHub",
+    "homeUrl": "/subjects/175527"
+  },
+  {
+    "title": "Spring Boot 集成 websocket 的四种方式",
+    "description": "【websocket】spring boot 集成 websocket 的四种方式集成 websocket 的四种方案1. 原生注解pom.xml<dependency>  <gr...",
+    "votes": "10",
+    "url": "/k/kraprf0",
+    "avatar": "https://img.toutiao.io/subject%2F3fc1dd4f06b845e3a9f07391c0791056",
+    "avatarAlt": "Java程序员的世界 - 独家号",
+    "subjectName": "Java程序员的世界",
+    "homeUrl": "/subjects/162119"
+  },
+  {
+    "title": "[译] 400 行 C 代码实现一个虚拟机（2018）",
+    "description": "译者序本文翻译自 2018 年的一篇英文博客 Write your Own Virtual Machine 。文章介绍如何用 400 行左右的 C 代码实现一个虚拟机，该虚拟机能够...",
+    "votes": "10",
+    "url": "/k/g2znbrd",
+    "avatar": "https://img.toutiao.io/user/c0af4e8d29dc41cc89076422786173bc/thumb",
+    "avatarAlt": "ArthurChiao的独家号 - 独家号",
+    "subjectName": "ArthurChiao的独家号",
+    "homeUrl": "/subjects/381904"
   }
 ]
