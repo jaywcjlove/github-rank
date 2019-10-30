@@ -22,7 +22,7 @@
   {
     "title": "我掏空了各大搜索引擎，给你整理了 154 道 Java 面试题",
     "description": "Java集合22题ArrayList 和 Vector 的区别。说说 ArrayList,Vector, LinkedList 的存储性能和特性。快速失败 (fail-fast) ...",
-    "votes": "29",
+    "votes": "30",
     "url": "/k/a6pg1yr",
     "avatar": "https://img.toutiao.io/subject%2F8370ca7d0bed45afb18f847750e191c8",
     "avatarAlt": "微信公众号:肥朝 - 独家号",
@@ -30,9 +30,19 @@
     "homeUrl": "/subjects/387709"
   },
   {
+    "title": "MySQL 的又一神器：锁（面试必备）",
+    "description": "原文链接：blog.ouyangsihai.cn >> MySQL的又一神器-锁，MySQL面试必备 在看这篇文章之前，我们回顾一下前面的几篇关于MySQL的文章，应该对你读下面的...",
+    "votes": "29",
+    "url": "/k/tmzfqj0",
+    "avatar": "https://img.toutiao.io/subject%2F594f5c3afbcf4b40ae6216fd65d57afa",
+    "avatarAlt": "小南国 - 独家号",
+    "subjectName": "小南国",
+    "homeUrl": "/subjects/130457"
+  },
+  {
     "title": "起底阿里完整前端技术体系",
     "description": "点击蓝字前端真好玩关注，回复“1”加入前端进阶群 与大家一起成长  进入2019年，大前端技术生态似乎进入到了一个相对稳定的环境，React在2013年发布至今已经6年时间了，Vu...",
-    "votes": "22",
+    "votes": "23",
     "url": "/k/ukw2eqw",
     "avatar": "https://img.toutiao.io/subject%2Fc9bc51847b0c4b49aca52d0eaa087ed1",
     "avatarAlt": "冷星前端圈 - 独家号",
@@ -42,7 +52,7 @@
   {
     "title": "为什么区块链会成为国家战略？",
     "description": "  今日国家再次强调了区块链在新的技术变革中的重要性，并且表示要把区块链作为核心技术自主创新的重要突破口，受此带动，迅雷等区块链概念股应声而涨。  而就在昨天，一个重要且有点“好笑...",
-    "votes": "21",
+    "votes": "23",
     "url": "/k/l92zqs3",
     "avatar": "https://img.toutiao.io/subject%2F4c72971aff5c4e73821ac59b18ff5dd6",
     "avatarAlt": "程序员的朋友圈 - 独家号",
@@ -50,29 +60,9 @@
     "homeUrl": "/subjects/378"
   },
   {
-    "title": "Code Review 最佳实践",
-    "description": "我一直认为Code Review（代码审查）是软件开发中的最佳实践之一，可以有效提高整体代码质量，及时发现代码中可能存在的问题。包括像Google、微软这些公司，Code Revi...",
-    "votes": "20",
-    "url": "/k/sm3hqol",
-    "avatar": "https://img.toutiao.io/subject%2Fd00b380edf1f4c5c989adc712d44de7b",
-    "avatarAlt": "乱学派 - 独家号",
-    "subjectName": "乱学派",
-    "homeUrl": "/subjects/110643"
-  },
-  {
-    "title": "终于有人把 “分布式事务” 说清楚了",
-    "description": "“一个复杂的系统往往都是从一个小而简的系统发展衍化而来，为了满足日益增长的业务需求，不断的增加系统的复杂度，从单体架构逐步发展为分布式架构，而分布式系统架构的设计主要关注：高性能，...",
-    "votes": "19",
-    "url": "/k/i5sksxg",
-    "avatar": "https://img.toutiao.io/subject%2F1ecd558bf4a24bc780d2c3a0ab6e69f2",
-    "avatarAlt": "分布式系统 - 独家号",
-    "subjectName": "分布式系统",
-    "homeUrl": "/subjects/8411"
-  },
-  {
     "title": "贾扬清：把生命浪费在有意思的事情上",
     "description": " 今天，是1024程序员节。在这个“攻城狮”自带光芒的日子里，阿里妹请来AI大神贾扬清，作为一位开发者，聊一聊他自己的开发者经历，希望对你有所启发。  贾扬清阿里巴巴集团副总裁、高...",
-    "votes": "17",
+    "votes": "18",
     "url": "/k/pahos7v",
     "avatar": "https://img.toutiao.io/user/b618677591aa49b3972ece0c7d26b473/thumb",
     "avatarAlt": "数据淘金 - 独家号",
@@ -80,29 +70,9 @@
     "homeUrl": "/subjects/120437"
   },
   {
-    "title": "由一次线上故障来理解下 TCP 三握、四挥 & Java 堆栈分析到源码的探秘",
-    "description": "本文导读：生产故障场景介绍TCP 建连三次握手过程TCP 断连四次挥手过程结合 Java 堆栈剖析源码再从堆栈中找到\"罪魁祸首\"问题优化方案总结1生产故障场景介绍业务简介：该服务主...",
-    "votes": "17",
-    "url": "/k/0g32x49",
-    "avatar": "https://img.toutiao.io/subject%2Ff33eef24ceab4cdc89f90bd997e1a8fd",
-    "avatarAlt": "Java爱好者社区 - 独家号",
-    "subjectName": "Java爱好者社区",
-    "homeUrl": "/subjects/327515"
-  },
-  {
-    "title": "聊聊缓存淘汰算法：LRU 实现原理",
-    "description": "01、前言我们常用缓存提升数据查询速度，由于缓存容量有限，当缓存容量到达上限，就需要删除部分数据挪出空间，这样新数据才可以添加进来。缓存数据不能随机删除，一般情况下我们需要根据某种...",
-    "votes": "16",
-    "url": "/k/hn5m7pa",
-    "avatar": "https://img.toutiao.io/subject%2F732cb6a567b6447aa876ed179c0e89c7",
-    "avatarAlt": "Fundebug - 独家号",
-    "subjectName": "Fundebug",
-    "homeUrl": "/subjects/216955"
-  },
-  {
     "title": "GitHub 带来的不止是开源，还有折叠的认知",
     "description": "这里是Z哥的个人公众号每周五11：45 按时送达当然了，也会时不时加个餐～我的第「113」篇原创敬上几乎每个程序员都知道github，但是知道目前上面有多少repositories...",
-    "votes": "13",
+    "votes": "15",
     "url": "/k/kq2ay36",
     "avatar": "https://img.toutiao.io/subject%2Fc992e775e6344583abd8a49f632b3e13",
     "avatarAlt": "跨界架构师 - 独家号",
@@ -110,34 +80,44 @@
     "homeUrl": "/subjects/268968"
   },
   {
-    "title": "黑客入门，从 HTB 开始",
-    "description": "点击蓝字“madMen”关注我哟  Hack the box 是国外的一个靶机平台，里面的靶机包含多种系统类型，并且里面可以利用的漏洞类型多种多样，有很多靶机其实非常贴近实战情景。...",
+    "title": "学习区块链必读：如何 10 分钟搭建 Libra",
+    "description": "导读：Libra作为Facebook发布的区块链系统，自开源以来受到大家的广泛关注。本文作者先简要介绍了Libra的一些特点和基本使用方法，适合对区块链有兴趣的广大工程师阅读。  ...",
+    "votes": "14",
+    "url": "/k/xowx2mj",
+    "avatar": "https://img.toutiao.io/subject%2F08c3200c43064a1babec277646669298",
+    "avatarAlt": "黑夜路人 - 独家号",
+    "subjectName": "黑夜路人",
+    "homeUrl": "/subjects/17093"
+  },
+  {
+    "title": "Spring Boot 集成 websocket 的四种方式",
+    "description": "【websocket】spring boot 集成 websocket 的四种方式集成 websocket 的四种方案1. 原生注解pom.xml<dependency>  <gr...",
     "votes": "13",
-    "url": "/k/4cn0sc7",
-    "avatar": "https://img.toutiao.io/subject%2Fe41e760fc6f34ddea164670e36aa978f",
-    "avatarAlt": "Neal Caffery - 独家号",
-    "subjectName": "Neal Caffery",
-    "homeUrl": "/subjects/231715"
+    "url": "/k/kraprf0",
+    "avatar": "https://img.toutiao.io/subject%2F3fc1dd4f06b845e3a9f07391c0791056",
+    "avatarAlt": "Java程序员的世界 - 独家号",
+    "subjectName": "Java程序员的世界",
+    "homeUrl": "/subjects/162119"
   },
   {
-    "title": "爬虫开发者职业生涯的终止",
-    "description": "\"给你个帐号，你用这个帐号登录进XXX系统，把所有的数据给我爬下来！\"“这个是犯法的吧，我不做！”几年前做过一段时间的爬虫开发，这是跟老板的一段对话。作为一个程序员，就算是奉行技术...",
-    "votes": "11",
-    "url": "/k/ootbaen",
-    "avatar": "https://img.toutiao.io/subject%2F484396dcd14c47bcbd788495b8e4bf2b",
-    "avatarAlt": "指尖数虫 - 独家号",
-    "subjectName": "指尖数虫",
-    "homeUrl": "/subjects/339188"
+    "title": "从对称加密到非对称加密再到认证中心：https 的证书申请",
+    "description": "作者 | 马启航 杏仁后端工程师。「我头发还多，你们呢？」 前言本来觉得也就是一个普通的博客网站，用不用 HTTPS 似乎也没什么大不了。但是在网络上各种信息的狂轰乱炸下，还是决定...",
+    "votes": "12",
+    "url": "/k/dsjc7b6",
+    "avatar": "https://img.toutiao.io/subject%2F2200d388e46e44128cf378d4d4920a40",
+    "avatarAlt": "杏仁技术站 - 独家号",
+    "subjectName": "杏仁技术站",
+    "homeUrl": "/subjects/206366"
   },
   {
-    "title": "【2019 个推开发者节】四大移动开发 SDK 全部免费用",
-    "description": "1024程序员节来了双11近了各路满减、折扣、领券、秒杀、集赞营销玩法猛于虎，一看优惠两毛五日常拼命赶“需求”修“Bug”的开发者们想找个好用又不贵的工具太难了亲爱的开发者们，不要...",
-    "votes": "11",
-    "url": "/k/1myjv8x",
-    "avatar": "https://img.toutiao.io/subject%2F3693e6238bb344dc81c63b48e0be0cfb",
-    "avatarAlt": "个推技术学院 - 独家号",
-    "subjectName": "个推技术学院",
-    "homeUrl": "/subjects/344392"
+    "title": "腾讯视频 Node.js 服务是如何支撑国庆阅兵直播高并发的？",
+    "description": "导语 | 上个月，我有幸参与了腾讯视频国庆阅兵直播页面开发的相关工作，最终，累计观看2.38亿人次，经受住了高并发的考验。在参于Glama框架的开发维护及平时基础建设相关讨论实践中...",
+    "votes": "12",
+    "url": "/k/si550cn",
+    "avatar": "https://img.toutiao.io/subject%2F8e12ef64799649acbfd936883ef16c3c",
+    "avatarAlt": "技术中台及微服务架构 - 独家号",
+    "subjectName": "技术中台及微服务架构",
+    "homeUrl": "/subjects/26578"
   },
   {
     "title": "IM 服务器设计：如何解决消息的乱序",
@@ -150,16 +130,6 @@
     "homeUrl": "/subjects/17093"
   },
   {
-    "title": "从对称加密到非对称加密再到认证中心：https 的证书申请",
-    "description": "作者 | 马启航 杏仁后端工程师。「我头发还多，你们呢？」 前言本来觉得也就是一个普通的博客网站，用不用 HTTPS 似乎也没什么大不了。但是在网络上各种信息的狂轰乱炸下，还是决定...",
-    "votes": "11",
-    "url": "/k/dsjc7b6",
-    "avatar": "https://img.toutiao.io/subject%2F2200d388e46e44128cf378d4d4920a40",
-    "avatarAlt": "杏仁技术站 - 独家号",
-    "subjectName": "杏仁技术站",
-    "homeUrl": "/subjects/206366"
-  },
-  {
     "title": "[译] 如何成为一名优秀的初级工程师",
     "description": "很多人都在想着如何成为一名高级工程师，而我想要的是先成为优秀的初级工程师。明年将是我正式受雇佣写代码的第15年了。（译者：老外的写代码职业生涯真的挺长的）回首往昔，我第一天工作的日...",
     "votes": "11",
@@ -168,6 +138,16 @@
     "avatarAlt": "Jackeyzhe的成长 - 独家号",
     "subjectName": "Jackeyzhe的成长",
     "homeUrl": "/subjects/67572"
+  },
+  {
+    "title": "Redis 高效删除大 key",
+    "description": "一、大key的删除问题大key（bigkey）是指 key 的 value 是个庞然大物，例如Hashes, Sorted Sets, Lists, Sets，日积月累之后，会变得...",
+    "votes": "11",
+    "url": "/k/44z11u6",
+    "avatar": "https://img.toutiao.io/subject%2F6ee3bb205b3248c2b746c1506548181a",
+    "avatarAlt": "大数据生态 - 独家号",
+    "subjectName": "大数据生态",
+    "homeUrl": "/subjects/136176"
   },
   {
     "title": "超级好用的 Java 数据可视化库：Tablesaw",
@@ -180,16 +160,6 @@
     "homeUrl": "/subjects/175527"
   },
   {
-    "title": "Spring Boot 集成 websocket 的四种方式",
-    "description": "【websocket】spring boot 集成 websocket 的四种方式集成 websocket 的四种方案1. 原生注解pom.xml<dependency>  <gr...",
-    "votes": "10",
-    "url": "/k/kraprf0",
-    "avatar": "https://img.toutiao.io/subject%2F3fc1dd4f06b845e3a9f07391c0791056",
-    "avatarAlt": "Java程序员的世界 - 独家号",
-    "subjectName": "Java程序员的世界",
-    "homeUrl": "/subjects/162119"
-  },
-  {
     "title": "[译] 400 行 C 代码实现一个虚拟机（2018）",
     "description": "译者序本文翻译自 2018 年的一篇英文博客 Write your Own Virtual Machine 。文章介绍如何用 400 行左右的 C 代码实现一个虚拟机，该虚拟机能够...",
     "votes": "10",
@@ -198,5 +168,35 @@
     "avatarAlt": "ArthurChiao的独家号 - 独家号",
     "subjectName": "ArthurChiao的独家号",
     "homeUrl": "/subjects/381904"
+  },
+  {
+    "title": "一周 IT 技术干货（码农周刊第 282 期）",
+    "description": "程序设计架构师技术图谱 头条精选 助你早日成为架构师！去中心化的 RTC 通信平台架构设计 LiveVideoStack 去中心化的 RTC 网络无需关心其它媒体服务状态，可快速增...",
+    "votes": "9",
+    "url": "/k/rl1wqdx",
+    "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
+    "avatarAlt": "头条精选 - 独家号",
+    "subjectName": "头条精选",
+    "homeUrl": "/subjects/4"
+  },
+  {
+    "title": "从 Zabbix 到 Prometheus，同程艺龙数据库监控系统的实践",
+    "description": "作者介绍闫晓宇，同程艺龙数据库技术专家，具有多年互联网行业DB运维经验，在游戏、O2O及电商行业从事过DBA运维工作。2016年加入同程艺龙，目前在团队负责数据库架构设计及优化、运...",
+    "votes": "9",
+    "url": "/k/v86b6wi",
+    "avatar": "https://img.toutiao.io/subject%2Faec59e3752174268802557e3e7afcb33",
+    "avatarAlt": "不错的好文 - 独家号",
+    "subjectName": "不错的好文",
+    "homeUrl": "/subjects/5551"
+  },
+  {
+    "title": "中年程序猿图鉴 | 1024 特别策划",
+    "description": " 燃财经（ID:rancaijing）原创 作者 | 王琳 苏琦 魏佳 晓通 刘景丰 蓝予 闫丽娇 编辑 | 魏佳 程序员群体曾是低调多金的代表，但最近996话题、甲骨文大裁员等事...",
+    "votes": "9",
+    "url": "/k/wwpapyj",
+    "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
+    "avatarAlt": "头条精选 - 独家号",
+    "subjectName": "头条精选",
+    "homeUrl": "/subjects/4"
   }
 ]
