@@ -42,7 +42,7 @@
   {
     "title": "MySQL 的又一神器：锁（面试必备）",
     "description": "原文链接：blog.ouyangsihai.cn >> MySQL的又一神器-锁，MySQL面试必备 在看这篇文章之前，我们回顾一下前面的几篇关于MySQL的文章，应该对你读下面的...",
-    "votes": "39",
+    "votes": "40",
     "url": "/k/tmzfqj0",
     "avatar": "https://img.toutiao.io/subject%2F594f5c3afbcf4b40ae6216fd65d57afa",
     "avatarAlt": "小南国 - 独家号",
@@ -58,16 +58,6 @@
     "avatarAlt": "微信公众号:肥朝 - 独家号",
     "subjectName": "微信公众号:肥朝",
     "homeUrl": "/subjects/387709"
-  },
-  {
-    "title": "如何看待蚂蚁金服 OceanBase “击败” 甲骨文？",
-    "description": "早上起来被一条新闻刷了屏中国自研数据库超越Oracle登顶全球第一 ↓ 看到这则消息还是很振奋尤其连院士都给出了肯定于是，去了TPC的官网想看看关于这个榜单的细节我们会发现↓这个纪...",
-    "votes": "38",
-    "url": "/k/u74dd7o",
-    "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
-    "avatarAlt": "头条精选 - 独家号",
-    "subjectName": "头条精选",
-    "homeUrl": "/subjects/4"
   },
   {
     "title": "免费获取 JetBrains 全家桶正版 License 教程",
@@ -100,6 +90,16 @@
     "homeUrl": "/subjects/412397"
   },
   {
+    "title": "面试官：怎么优化 SQL？",
+    "description": "在面试的环节中，面试官问到：你是如何设计你的表结构的，画一下E-R图？接着又继续深挖，如果有慢查询，你是如何优化你的sql的？今天，我就来和大家讲讲要怎么回答这道问题。首先，我们要...",
+    "votes": "31",
+    "url": "/k/krgyq6o",
+    "avatar": "https://img.toutiao.io/subject%2Ffeac6349d35845adabc61e76b4e833a9",
+    "avatarAlt": "Nevada的独家号 - 独家号",
+    "subjectName": "Nevada的独家号",
+    "homeUrl": "/subjects/425478"
+  },
+  {
     "title": "运营商劫持狠起来，连 json 都改",
     "description": "原创：小姐姐味道（微信公众号ID：xjjdog），欢迎分享，转载请保留出处。感谢`neko`的供稿运营商劫持，是常见的流氓手段，它们老少通吃，连孩子都不放过，经常嚣张的在右下角或者...",
     "votes": "31",
@@ -130,6 +130,16 @@
     "homeUrl": "/subjects/4"
   },
   {
+    "title": "面试官：“准备用 HashMap 存 1w 条数据，构造时传 10000 会触发扩容吗？”",
+    "description": " // 预计存入1w条数据，初始化赋值10000，避免 resize。HashMap<String,String> map = new HashMap<>(10000)// for...",
+    "votes": "29",
+    "url": "/k/hnvfy0h",
+    "avatar": "https://img.toutiao.io/subject%2F89ee4c4a6ee648388935c4f8514712b8",
+    "avatarAlt": "承香墨影的独家号 - 独家号",
+    "subjectName": "承香墨影的独家号",
+    "homeUrl": "/subjects/16900"
+  },
+  {
     "title": "爱奇艺实用数据库选型树：不同场景如何快速选择数据库？",
     "description": "作者：郭磊涛，爱奇艺数据库和中间件负责人，TiDB User Group Ambassador。本文系 TUG 北京区 9 月线下活动 “不同业务场景下的数据库技术选型思路” 分享...",
     "votes": "28",
@@ -140,14 +150,14 @@
     "homeUrl": "/subjects/423838"
   },
   {
-    "title": "面试官：“准备用 HashMap 存 1w 条数据，构造时传 10000 会触发扩容吗？”",
-    "description": " // 预计存入1w条数据，初始化赋值10000，避免 resize。HashMap<String,String> map = new HashMap<>(10000)// for...",
-    "votes": "28",
-    "url": "/k/hnvfy0h",
-    "avatar": "https://img.toutiao.io/subject%2F89ee4c4a6ee648388935c4f8514712b8",
-    "avatarAlt": "承香墨影的独家号 - 独家号",
-    "subjectName": "承香墨影的独家号",
-    "homeUrl": "/subjects/16900"
+    "title": "前后端都分离了，该搞个好用的 API 管理系统了",
+    "description": "阿尔伯塔日出，加拿大 (© Ambre Haller) 为啥需要API管理系统！ 互联网服务发展至今，作为开发者阵营的我们，已经用实践证明了前后端分离开发模式正在逐渐成为越来越多互...",
+    "votes": "26",
+    "url": "/k/x1lkk12",
+    "avatar": "https://img.toutiao.io/subject%2Fac9927f2564545b1a462e16886afbaca",
+    "avatarAlt": "CodeSheep - 独家号",
+    "subjectName": "CodeSheep",
+    "homeUrl": "/subjects/264797"
   },
   {
     "title": "这样规范写代码，同事直呼 “666”",
@@ -178,16 +188,6 @@
     "avatarAlt": "猿人谷 - 独家号",
     "subjectName": "猿人谷",
     "homeUrl": "/subjects/422208"
-  },
-  {
-    "title": "前后端都分离了，该搞个好用的 API 管理系统了",
-    "description": "阿尔伯塔日出，加拿大 (© Ambre Haller) 为啥需要API管理系统！ 互联网服务发展至今，作为开发者阵营的我们，已经用实践证明了前后端分离开发模式正在逐渐成为越来越多互...",
-    "votes": "25",
-    "url": "/k/x1lkk12",
-    "avatar": "https://img.toutiao.io/subject%2Fac9927f2564545b1a462e16886afbaca",
-    "avatarAlt": "CodeSheep - 独家号",
-    "subjectName": "CodeSheep",
-    "homeUrl": "/subjects/264797"
   },
   {
     "title": "业务复杂 = if else？刚来的大神竟然用策略 + 工厂彻底干掉了他们",

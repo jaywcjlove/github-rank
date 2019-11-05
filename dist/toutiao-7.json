@@ -1,23 +1,13 @@
 [
   {
-    "title": "MySQL 的又一神器：锁（面试必备）",
-    "description": "原文链接：blog.ouyangsihai.cn >> MySQL的又一神器-锁，MySQL面试必备 在看这篇文章之前，我们回顾一下前面的几篇关于MySQL的文章，应该对你读下面的...",
-    "votes": "39",
-    "url": "/k/tmzfqj0",
-    "avatar": "https://img.toutiao.io/subject%2F594f5c3afbcf4b40ae6216fd65d57afa",
-    "avatarAlt": "小南国 - 独家号",
-    "subjectName": "小南国",
-    "homeUrl": "/subjects/130457"
-  },
-  {
-    "title": "我掏空了各大搜索引擎，给你整理了 154 道 Java 面试题",
-    "description": "Java集合22题ArrayList 和 Vector 的区别。说说 ArrayList,Vector, LinkedList 的存储性能和特性。快速失败 (fail-fast) ...",
-    "votes": "39",
-    "url": "/k/a6pg1yr",
-    "avatar": "https://img.toutiao.io/subject%2F8370ca7d0bed45afb18f847750e191c8",
-    "avatarAlt": "微信公众号:肥朝 - 独家号",
-    "subjectName": "微信公众号:肥朝",
-    "homeUrl": "/subjects/387709"
+    "title": "面试官：怎么优化 SQL？",
+    "description": "在面试的环节中，面试官问到：你是如何设计你的表结构的，画一下E-R图？接着又继续深挖，如果有慢查询，你是如何优化你的sql的？今天，我就来和大家讲讲要怎么回答这道问题。首先，我们要...",
+    "votes": "31",
+    "url": "/k/krgyq6o",
+    "avatar": "https://img.toutiao.io/subject%2Ffeac6349d35845adabc61e76b4e833a9",
+    "avatarAlt": "Nevada的独家号 - 独家号",
+    "subjectName": "Nevada的独家号",
+    "homeUrl": "/subjects/425478"
   },
   {
     "title": "运营商劫持狠起来，连 json 都改",
@@ -32,12 +22,22 @@
   {
     "title": "面试官：“准备用 HashMap 存 1w 条数据，构造时传 10000 会触发扩容吗？”",
     "description": " // 预计存入1w条数据，初始化赋值10000，避免 resize。HashMap<String,String> map = new HashMap<>(10000)// for...",
-    "votes": "28",
+    "votes": "29",
     "url": "/k/hnvfy0h",
     "avatar": "https://img.toutiao.io/subject%2F89ee4c4a6ee648388935c4f8514712b8",
     "avatarAlt": "承香墨影的独家号 - 独家号",
     "subjectName": "承香墨影的独家号",
     "homeUrl": "/subjects/16900"
+  },
+  {
+    "title": "前后端都分离了，该搞个好用的 API 管理系统了",
+    "description": "阿尔伯塔日出，加拿大 (© Ambre Haller) 为啥需要API管理系统！ 互联网服务发展至今，作为开发者阵营的我们，已经用实践证明了前后端分离开发模式正在逐渐成为越来越多互...",
+    "votes": "26",
+    "url": "/k/x1lkk12",
+    "avatar": "https://img.toutiao.io/subject%2Fac9927f2564545b1a462e16886afbaca",
+    "avatarAlt": "CodeSheep - 独家号",
+    "subjectName": "CodeSheep",
+    "homeUrl": "/subjects/264797"
   },
   {
     "title": "那些 35 岁被辞退的中年人后来都怎么样了？",
@@ -50,19 +50,9 @@
     "homeUrl": "/subjects/4"
   },
   {
-    "title": "前后端都分离了，该搞个好用的 API 管理系统了",
-    "description": "阿尔伯塔日出，加拿大 (© Ambre Haller) 为啥需要API管理系统！ 互联网服务发展至今，作为开发者阵营的我们，已经用实践证明了前后端分离开发模式正在逐渐成为越来越多互...",
-    "votes": "25",
-    "url": "/k/x1lkk12",
-    "avatar": "https://img.toutiao.io/subject%2Fac9927f2564545b1a462e16886afbaca",
-    "avatarAlt": "CodeSheep - 独家号",
-    "subjectName": "CodeSheep",
-    "homeUrl": "/subjects/264797"
-  },
-  {
     "title": "分享 GitHub 上有趣、入门级的开源项目月刊",
     "description": "兴趣是最好的老师，HelloGitHub 就是帮你找到兴趣！简介  分享 GitHub 上有趣、入门级的开源项目。这是一个面向编程新手、热爱编程、对开源社区感兴趣 人群的月刊，月刊...",
-    "votes": "22",
+    "votes": "24",
     "url": "/k/keoqwpc",
     "avatar": "https://img.toutiao.io/subject%2Fb751657c3aaa4ac59db50c07db41e538",
     "avatarAlt": "HelloGitHub - 独家号",
@@ -80,44 +70,24 @@
     "homeUrl": "/subjects/120437"
   },
   {
-    "title": "学习区块链必读：如何 10 分钟搭建 Libra",
-    "description": "导读：Libra作为Facebook发布的区块链系统，自开源以来受到大家的广泛关注。本文作者先简要介绍了Libra的一些特点和基本使用方法，适合对区块链有兴趣的广大工程师阅读。  ...",
-    "votes": "16",
-    "url": "/k/xowx2mj",
-    "avatar": "https://img.toutiao.io/subject%2F08c3200c43064a1babec277646669298",
-    "avatarAlt": "黑夜路人 - 独家号",
-    "subjectName": "黑夜路人",
-    "homeUrl": "/subjects/17093"
-  },
-  {
-    "title": "GitHub 带来的不止是开源，还有折叠的认知",
-    "description": "这里是Z哥的个人公众号每周五11：45 按时送达当然了，也会时不时加个餐～我的第「113」篇原创敬上几乎每个程序员都知道github，但是知道目前上面有多少repositories...",
-    "votes": "15",
-    "url": "/k/kq2ay36",
-    "avatar": "https://img.toutiao.io/subject%2Fc992e775e6344583abd8a49f632b3e13",
-    "avatarAlt": "跨界架构师 - 独家号",
-    "subjectName": "跨界架构师",
-    "homeUrl": "/subjects/268968"
+    "title": "为什么大多数知名互联网公司都加班",
+    "description": "点击上方蓝色字关注我~图：Tim Gouw这里是王大炮的第12篇原创全文共2697字，阅读时间7分钟说到加班这个话题，那就离不了互联网，二者形影不离，你中有我，我中有你，仿佛互联网...",
+    "votes": "17",
+    "url": "/k/try7kk5",
+    "avatar": "https://img.toutiao.io/subject%2Fe67441de18d2447d8bf05bc0f44b1ca3",
+    "avatarAlt": "后知后jue - 独家号",
+    "subjectName": "后知后jue",
+    "homeUrl": "/subjects/425353"
   },
   {
     "title": "华为 HR 实名控述！员工加班 160 小时竟被怀疑造假，曾被逼到哭",
     "description": "来源：市界，作者：何珊珊图片来源：视觉中国10月30日，华为2012实验室人力资源部员工胡玲在华为心声论坛实名发长帖，举报导师杨瑞峰及HR高雁各种懒政失职，更多细节直指HR政策导向...",
-    "votes": "15",
+    "votes": "17",
     "url": "/k/3gmajva",
     "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
     "avatarAlt": "头条精选 - 独家号",
     "subjectName": "头条精选",
     "homeUrl": "/subjects/4"
-  },
-  {
-    "title": "腾讯视频 Node.js 服务是如何支撑国庆阅兵直播高并发的？",
-    "description": "导语 | 上个月，我有幸参与了腾讯视频国庆阅兵直播页面开发的相关工作，最终，累计观看2.38亿人次，经受住了高并发的考验。在参于Glama框架的开发维护及平时基础建设相关讨论实践中...",
-    "votes": "14",
-    "url": "/k/si550cn",
-    "avatar": "https://img.toutiao.io/subject%2F8e12ef64799649acbfd936883ef16c3c",
-    "avatarAlt": "技术中台及微服务架构 - 独家号",
-    "subjectName": "技术中台及微服务架构",
-    "homeUrl": "/subjects/26578"
   },
   {
     "title": "提升写文档和解决问题的能力：《金字塔原理》读书笔记",
@@ -130,6 +100,16 @@
     "homeUrl": "/subjects/63673"
   },
   {
+    "title": "2019 腾讯广告算法大赛方案分享（冠军）",
+    "description": "本文提供2019年腾讯广告算法大赛冠军的代码分享。 俞士纶（Philip S. Yu）教授的评价“冠军队伍已经在有意无意使用“广度学习”的方法”，评委讲到“这是最接近腾讯真实业务的...",
+    "votes": "13",
+    "url": "/k/9twysqf",
+    "avatar": "https://img.toutiao.io/user/b618677591aa49b3972ece0c7d26b473/thumb",
+    "avatarAlt": "数据淘金 - 独家号",
+    "subjectName": "数据淘金",
+    "homeUrl": "/subjects/120437"
+  },
+  {
     "title": "何处安放我们的 Go 代码",
     "description": "用了近半年的 Go，真是有种相见恨晚的感觉。简洁的语法、完善并强大的开发工具链，省去新手不少折腾的时间，可以专注写代码。这期间也掌握了不少技巧与惯用法（idioms），比如 pro...",
     "votes": "13",
@@ -140,14 +120,24 @@
     "homeUrl": "/subjects/69"
   },
   {
-    "title": "Redis 高效删除大 key",
-    "description": "一、大key的删除问题大key（bigkey）是指 key 的 value 是个庞然大物，例如Hashes, Sorted Sets, Lists, Sets，日积月累之后，会变得...",
-    "votes": "13",
-    "url": "/k/44z11u6",
-    "avatar": "https://img.toutiao.io/subject%2F6ee3bb205b3248c2b746c1506548181a",
-    "avatarAlt": "大数据生态 - 独家号",
-    "subjectName": "大数据生态",
-    "homeUrl": "/subjects/136176"
+    "title": "主键，不少人以为自己懂了，却不透彻",
+    "description": "MySQL是被广泛应用的数据库，InnoDB又是用得最广的存储引擎，主键又是对InnoDB性能影响最大的因素之一，主键选择对，可以极大提升性能。 InnoDB选择什么列作为主键，有...",
+    "votes": "12",
+    "url": "/k/4lmjvko",
+    "avatar": "https://img.toutiao.io/user/b618677591aa49b3972ece0c7d26b473/thumb",
+    "avatarAlt": "数据淘金 - 独家号",
+    "subjectName": "数据淘金",
+    "homeUrl": "/subjects/120437"
+  },
+  {
+    "title": "[译] 区块链火了，但你可能对它一知半解",
+    "description": "小佛爷说 最近，一个重大政策利好的释放，让区块链再次成为热议的话题，各种区块链概念股也应势上涨。各种声音一致认为，区块链是继互联网之后又一大浪潮，将作为基础设施为各行各业带来巨大的...",
+    "votes": "12",
+    "url": "/k/4j3747x",
+    "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
+    "avatarAlt": "头条精选 - 独家号",
+    "subjectName": "头条精选",
+    "homeUrl": "/subjects/4"
   },
   {
     "title": "Spring Boot 2 整合 Redis 哨兵集群，实现消息队列场景",
@@ -160,43 +150,53 @@
     "homeUrl": "/subjects/416733"
   },
   {
-    "title": "[译] 如何成为一名优秀的初级工程师",
-    "description": "很多人都在想着如何成为一名高级工程师，而我想要的是先成为优秀的初级工程师。明年将是我正式受雇佣写代码的第15年了。（译者：老外的写代码职业生涯真的挺长的）回首往昔，我第一天工作的日...",
-    "votes": "12",
-    "url": "/k/2qibj9e",
-    "avatar": "https://img.toutiao.io/subject%2F2d4476b881aa4ea4a48c920c98b901bc",
-    "avatarAlt": "Jackeyzhe的成长 - 独家号",
-    "subjectName": "Jackeyzhe的成长",
-    "homeUrl": "/subjects/67572"
+    "title": "Go 语言出现后，Java 还是最佳选择吗？",
+    "description": "阿里妹导读：随着大量新生的异步框架和支持协程的语言(如Go)的出现，在很多场景下操作系统的线程调度成为了性能的瓶颈，Java也因此被质疑是否不再适应最新的云场景了。4年前，阿里JV...",
+    "votes": "11",
+    "url": "/k/4hnjv6a",
+    "avatar": "https://img.toutiao.io/subject%2Fc64389e4ebf74b48abbd9d049092162a",
+    "avatarAlt": "编程的那些事儿 - 独家号",
+    "subjectName": "编程的那些事儿",
+    "homeUrl": "/subjects/253439"
   },
   {
-    "title": "2019 腾讯广告算法大赛方案分享（冠军）",
-    "description": "本文提供2019年腾讯广告算法大赛冠军的代码分享。 俞士纶（Philip S. Yu）教授的评价“冠军队伍已经在有意无意使用“广度学习”的方法”，评委讲到“这是最接近腾讯真实业务的...",
+    "title": "Golang 高效截取字符串的一些思考",
+    "description": "最近我在 Go Forum 中发现了 [SOLVED] String size of 20 character 的问题，“hollowaykeanho” 给出了相关的答案，而我从中...",
     "votes": "11",
-    "url": "/k/9twysqf",
-    "avatar": "https://img.toutiao.io/user/b618677591aa49b3972ece0c7d26b473/thumb",
-    "avatarAlt": "数据淘金 - 独家号",
-    "subjectName": "数据淘金",
-    "homeUrl": "/subjects/120437"
+    "url": "/k/xurg0gy",
+    "avatar": "https://img.toutiao.io/subject%2F970752cc0f8b4c309eecd39633a6cc9a",
+    "avatarAlt": "戚银 - 独家号",
+    "subjectName": "戚银",
+    "homeUrl": "/subjects/384948"
   },
   {
-    "title": "那些有趣的代码（二）：偏不听父母话的 Tomcat 类加载器",
-    "description": "看 Tomcat 的源码越看越有趣。Tomcat 的代码总有一种处处都有那么一点调皮的感觉。今天就聊一聊 Tomcat 的类加载机制。了解过 JVM 的类加载一定知道，JVM 类加...",
-    "votes": "11",
-    "url": "/k/rs6i62h",
-    "avatar": "https://img.toutiao.io/user/f6ee5031deb14edf9ce6eef2ee764f4b/thumb",
-    "avatarAlt": "犀利豆的独家号 - 独家号",
-    "subjectName": "犀利豆的独家号",
-    "homeUrl": "/subjects/314311"
+    "title": "用 js 写卡牌游戏（七）",
+    "description": "前言最近抽时间把前两个界面重新做了下，看起来不那么像demo了，之后会把游戏内容丰富一下。今天要做的效果是这样的，出牌：出牌效果默剧老电影：默剧电影效果线上地址：http://ca...",
+    "votes": "10",
+    "url": "/k/r5sn7qc",
+    "avatar": "https://img.toutiao.io/user/843afed29af241eea70e9ff618b3ce0d/thumb",
+    "avatarAlt": "特约演员。的独家号 - 独家号",
+    "subjectName": "特约演员。的独家号",
+    "homeUrl": "/subjects/10803"
   },
   {
-    "title": "[译] 区块链火了，但你可能对它一知半解",
-    "description": "小佛爷说 最近，一个重大政策利好的释放，让区块链再次成为热议的话题，各种区块链概念股也应势上涨。各种声音一致认为，区块链是继互联网之后又一大浪潮，将作为基础设施为各行各业带来巨大的...",
-    "votes": "11",
-    "url": "/k/4j3747x",
-    "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
-    "avatarAlt": "头条精选 - 独家号",
-    "subjectName": "头条精选",
-    "homeUrl": "/subjects/4"
+    "title": "刷 14 道 LeetCode 的总结",
+    "description": "引子 为什么我要刷leetcode？换工作？不是！那是？玩！巴菲特的双目标清单系统，基本方法是列两个清单，一个是职业生涯最重要的目标（不超过5个），另一个是比较重要的目标。对于比较...",
+    "votes": "10",
+    "url": "/k/qc341cb",
+    "avatar": "https://img.toutiao.io/subject%2F4325865040b44c0b9e2d8d80a83d1d11",
+    "avatarAlt": "编程一生 - 独家号",
+    "subjectName": "编程一生",
+    "homeUrl": "/subjects/350352"
+  },
+  {
+    "title": "记一次 Kafka 集群线上扩容",
+    "description": "前段时间收到某个 Kafka 集群的生产客户端反馈发送消息耗时很高，于是花了一段时间去排查这个问题，最后该集群进行扩容，由于某些主题的当前数据量实在太大，在对这些主题迁移过程中花费...",
+    "votes": "9",
+    "url": "/k/el4gbku",
+    "avatar": "https://img.toutiao.io/subject%2F7e103ce7918f469ea72f971f1c7333ad",
+    "avatarAlt": "公众号「后端进阶」 - 独家号",
+    "subjectName": "公众号「后端进阶」",
+    "homeUrl": "/subjects/151340"
   }
 ]
