@@ -35,7 +35,7 @@ const pkgPath = path.join(root, 'package.json');
 
     await execute('npm run start');
     if (version !== pkg.version) {
-      pkg.version = version;
+      pkg.version = version.replace(/\.(0)/g, '.');
       await fs.writeFile(pkgPath, JSON.stringify(pkg, null, 2));
       await execute('npm publish');
     }
