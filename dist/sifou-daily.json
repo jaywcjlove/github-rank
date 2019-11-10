@@ -1,12 +1,48 @@
 [
   {
+    "title": "前端与算法 leetcode 350. 两个数组的交集 II",
+    "description": "[TOC] 前端与算法 leetcode 350. 两个数组的交集 II 题目描述 给定两个数组，编写一个函数来计算它们的交集。 示例 1: {代码...} 示例 2: {代码...} 说明： 输出结果中每个元素出现的次数，应与元素在两个数组中...",
+    "url": "https://segmentfault.com/a/1190000020957484",
+    "author": "墨抒颖",
+    "home_url": "https://segmentfault.com/u/moshuying",
+    "votes": "2",
+    "rank": 1
+  },
+  {
+    "title": "前端面试每日3+1（周汇总2019.11.10）",
+    "description": "《论语》，曾子曰：“吾日三省吾身”（我每天多次反省自己）。 前端面试每日3+1题，以面试题来驱动学习，每天进步一点！ 让努力成为一种习惯，让奋斗成为一种享受！相信 坚持 的力量！！！",
+    "url": "https://segmentfault.com/a/1190000020957347",
+    "author": "浪子神剑",
+    "home_url": "https://segmentfault.com/u/haizlin",
+    "votes": "2",
+    "rank": 2
+  },
+  {
     "title": "vue的provide / inject 有什么用？",
     "description": "vue的父子组件通信用什么？：prop和$emit的组合。如果是爷孙组件呢？：那么就要用父组件来转发数据和事件了。如果是太爷爷和孙子组件呢？：当然是vuex啦emmm 好的，没我啥事了，我这就走。",
     "url": "https://segmentfault.com/a/1190000020954324",
     "author": "李大雷",
     "home_url": "https://segmentfault.com/u/lidalei",
-    "votes": "7",
-    "rank": 1
+    "votes": "10",
+    "rank": 3
+  },
+  {
+    "title": "python滑块验证码的破解",
+    "description": "破解滑块验证码的思路主要有2种： 获得一张完整的背景图和一张有缺口的图片，两张图片进行像素上的一一对比，找出不一样的坐标。 获得一张有缺口的图片和需要验证的小图，两张图片进行二极化以及归一化，确定小图...",
+    "url": "https://segmentfault.com/a/1190000020955506",
+    "author": "我爱静静",
+    "home_url": "https://segmentfault.com/u/woaijingjing",
+    "votes": "2",
+    "rank": 4
+  },
+  {
+    "title": "vue ssr服务端渲染小白解惑",
+    "description": "初学vue服务端渲染疑惑非常多，我们大部分前端都是半路出家，上手都是前后端分离，对服务端并不了解，不说java、php语言了，连node服务都还没搞明白，理解服务端渲染还是有些困难的；",
+    "url": "https://segmentfault.com/a/1190000020955788",
+    "author": "liubingyang",
+    "home_url": "https://segmentfault.com/u/liubingyang_5aa7319fed77d",
+    "votes": "3",
+    "rank": 5
   },
   {
     "title": "程序猿的 45 个瞬间(收集了一些，大家共乐)",
@@ -14,8 +50,8 @@
     "url": "https://segmentfault.com/a/1190000020954720",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "3",
-    "rank": 2
+    "votes": "11",
+    "rank": 6
   },
   {
     "title": "前端与算法 leetcode 189. 旋转数组",
@@ -24,124 +60,79 @@
     "author": "墨抒颖",
     "home_url": "https://segmentfault.com/u/moshuying",
     "votes": "1",
-    "rank": 3
-  },
-  {
-    "title": "Spring Security 入门之基本概念",
-    "description": "阅读更多关于 Angular、TypeScript、Node.js/Java 、Spring 等技术文章，欢迎访问我的个人博客 —— 全栈修仙之路",
-    "url": "https://segmentfault.com/a/1190000020952769",
-    "author": "semlinker",
-    "home_url": "https://segmentfault.com/u/angular4",
-    "votes": "2",
-    "rank": 4
-  },
-  {
-    "title": "docker-compose  配置spring环境",
-    "description": "最近需要打包项目给成员们进行测试，但打包运行后很影响开发，于是打算使用docker模拟生产环境运行打包后的项目，这样就能既开发，又能给成员进行测试了。由于原项目过大，打算先拿软件工程的大实验试试水，软件...",
-    "url": "https://segmentfault.com/a/1190000020953106",
-    "author": "鲸冬香",
-    "home_url": "https://segmentfault.com/u/jingdongxiang",
-    "votes": "1",
-    "rank": 5
-  },
-  {
-    "title": "ZooTeam 前端周刊｜第 55 期",
-    "description": "上篇文章介绍了 Suspense, 那么这篇文章就讲讲它的好搭档 useTransition。如果你是 React 的粉丝，这两篇文章一定不能错过。 我们知道 React 内部做了翻天覆地的优化，外部也提供了一些紧凑的新 API，这些 API 主...",
-    "url": "https://segmentfault.com/a/1190000020952828",
-    "author": "政采云前端团队",
-    "home_url": "https://segmentfault.com/u/zhengcaiyunqianduantuandui",
-    "votes": "1",
-    "rank": 6
-  },
-  {
-    "title": "浅谈前端面试",
-    "description": "最近组里大佬出差，面试的任务落在了我这个小喽啰身上。作为一位中级工程师，让我面试高级工程师，我也是压力山大，只得硬着头皮上。这几天面试了许许多多人，感慨良多，不吐不快",
-    "url": "https://segmentfault.com/a/1190000020949791",
-    "author": "Runningfyy",
-    "home_url": "https://segmentfault.com/u/yangkaiqiang",
-    "votes": "7",
     "rank": 7
   },
   {
-    "title": "Vue项目中使用jsonp抓取跨域数据",
-    "description": "在下载的jsopn中，jsonp（url，options，callback）这个是原生jsonp方法中的参数；",
-    "url": "https://segmentfault.com/a/1190000020952784",
-    "author": "素素",
-    "home_url": "https://segmentfault.com/u/susu_5d686fe714836",
+    "title": "JAVA应用性能监控之基于JDK命令行工具监控",
+    "description": "标准参数-help-server -client-version -showversion-cp -classpath标准参数在JVM各个版本里基本不变，相对稳定。",
+    "url": "https://segmentfault.com/a/1190000020956689",
+    "author": "hanson",
+    "home_url": "https://segmentfault.com/u/hanson_5981bb3889ba0",
     "votes": "1",
     "rank": 8
   },
   {
-    "title": "使用 Gitea 快速搭建私有 Git 版本控制服务",
-    "description": "分布式版本控制工具 Git 已经是现代软件源代码版本控制首选方案之一。公有 Git 服务提供商 国外知名如 GitHub 国内网络延迟高,Gitlab 涉嫌对中国的歧视不推荐。国内有 Gitee、Coding 生态还不错。但是一般公司的...",
-    "url": "https://segmentfault.com/a/1190000020948710",
-    "author": "码农小胖哥",
-    "home_url": "https://segmentfault.com/u/10000000",
-    "votes": "5",
+    "title": "使用kubeasz安装K8S集群，不受国内网络环境影响",
+    "description": "一台安装了Ubuntu或CentOS的机器（可以是虚拟机），本文中使用的是Ubuntu 19.10虚拟机，内存为2g",
+    "url": "https://segmentfault.com/a/1190000020956341",
+    "author": "Ron_You",
+    "home_url": "https://segmentfault.com/u/azzinoths",
+    "votes": "2",
     "rank": 9
   },
   {
-    "title": "获取鼠标位置（区分event对象中的 clientX、offsetX、screenX、pageX ）",
-    "description": "client直译就是客户端，客户端的窗口就是指游览器的显示页面内容的窗口大小（不包含工具栏、导航栏等等）。",
-    "url": "https://segmentfault.com/a/1190000020949241",
-    "author": "教父的秘书",
-    "home_url": "https://segmentfault.com/u/yaokai",
-    "votes": "4",
+    "title": "前端与算法 leetcode 28.实现 strStr()",
+    "description": "这道题的意义是实现一个api,不是调api,尽管很多时候api的速度比我们写的快(今天这个我们可以做到和indexOf一样快),但我们还是要去了解api内实现的原理,在我们所熟悉的v8引擎中,indexOf使用了kmp和bm两种算法,在主...",
+    "url": "https://segmentfault.com/a/1190000020956075",
+    "author": "墨抒颖",
+    "home_url": "https://segmentfault.com/u/moshuying",
+    "votes": "1",
     "rank": 10
   },
   {
-    "title": "前端与算法 leetcode 26. 删除排序数组中的重复项",
-    "description": "[TOC] 前端与算法 leetcode 26. 删除排序数组中的重复项 题目描述 26. 删除排序数组中的重复项 概要 一提到原地删除数组,就能立即想到双指针法,这道题本身也没什么难度,日常水题, 提示 双指针 解析 没有思路的时...",
-    "url": "https://segmentfault.com/a/1190000020952671",
+    "title": "前端与算法 leetcode 27.移除元素",
+    "description": "题目本身其实挺简单的,官方解答也说道了人们可能会对\"就地\"一次感到困惑,并认为在不复制数组的情况下从数组中删除元素是不可能的",
+    "url": "https://segmentfault.com/a/1190000020956070",
     "author": "墨抒颖",
     "home_url": "https://segmentfault.com/u/moshuying",
     "votes": "1",
     "rank": 11
   },
   {
-    "title": "全面拥抱React-Hooks",
-    "description": "丑话说在前面 强烈建议至少刷一遍《官方文档》，反复研读《Hooks FAQ》这里主要以本人关注点聚合，方便理解用于实践 一、React-Hooks要解决什么？ 以下是上一代标准写法类组件的缺点，也正是hook要解决的问题 大...",
-    "url": "https://segmentfault.com/a/1190000020948922",
-    "author": "周振超",
-    "home_url": "https://segmentfault.com/u/zhouzhenchao",
-    "votes": "5",
+    "title": "用初中数学知识撸一个canvas环形进度条",
+    "description": "周末好，今天给大家带来一款接地气的环形进度条组件vue-awesome-progress。近日被设计小姐姐要求实现这么一个环形进度条效果，大体由四部分组成，分别是底色圆环，进度弧，环内文字，进度圆点。设计稿截图如下：",
+    "url": "https://segmentfault.com/a/1190000020953625",
+    "author": "Tusi",
+    "home_url": "https://segmentfault.com/u/tusi_5c8a591841687",
+    "votes": "1",
     "rank": 12
   },
   {
-    "title": "分布式id生成方案总结",
-    "description": "本文已经收录自 JavaGuide （60k+ Star【Java学习+面试指南】 一份涵盖大部分Java程序员所需要掌握的核心知识。）本文授权转载自：[链接] ，作者：1点25。",
-    "url": "https://segmentfault.com/a/1190000020952410",
-    "author": "Snailclimb",
-    "home_url": "https://segmentfault.com/u/snailclimb",
-    "votes": "2",
+    "title": "element transfer 不使用render-content方法给每一行加title的一种思路",
+    "description": "最近在使用element-ui的el-transfer时候遇到一问题：穿梭框一行显示一条数据，但是有的数据比较长，一行显示不下，那就要把超出的部分用...展示，鼠标放上去的时候展示完整内容。一般的做法呢，就是通过css控制.....",
+    "url": "https://segmentfault.com/a/1190000020956789",
+    "author": "aqiongbei",
+    "home_url": "https://segmentfault.com/u/aqiongbei",
+    "votes": "1",
     "rank": 13
   },
   {
-    "title": "Java 导出数据库表信息生成Word文档",
-    "description": "最近看见朋友写了一个导出数据库生成word文档的业务，感觉很有意思，研究了一下，这里也拿出来与大家分享一波~",
-    "url": "https://segmentfault.com/a/1190000020949157",
-    "author": "郑清",
-    "home_url": "https://segmentfault.com/u/zhengqing",
-    "votes": "3",
+    "title": "Python：记录一次Web接口优化",
+    "description": "背景 我们负责的一个业务平台，有次在发现设置页面的加载特别特别地慢，简直就是令人发指 让用户等待 36s 肯定是不可能的，于是我们就要开启优化之旅了。 投石问路 既然是网站的响应问题，可以通过 Chrome 这个强...",
+    "url": "https://segmentfault.com/a/1190000020956724",
+    "author": "Lin_R",
+    "home_url": "https://segmentfault.com/u/lin_r",
+    "votes": "1",
     "rank": 14
   },
   {
-    "title": "Mac 上安装 nvm",
-    "description": "安装和更新 要安装或更新nvm，应运行安装脚本。为此，你可以手动下载并运行脚本，也可以使用以下cURL或Wget命令： {代码...} 或者 {代码...} 其中v0.35.1是版本号 最新版本：[链接] 三种方法都可行，选择其中一种...",
-    "url": "https://segmentfault.com/a/1190000020949164",
-    "author": "云鱼Cloudy",
-    "home_url": "https://segmentfault.com/u/cloudyttt",
-    "votes": "2",
+    "title": "天天玩微信，Spring Boot 开发私有即时通信系统了解一下",
+    "description": "利用Spring Boot作为基础框架，Spring Security作为安全框架，WebSocket作为通信框架，实现点对点聊天和群聊天。",
+    "url": "https://segmentfault.com/a/1190000020955596",
+    "author": "java_small_ant",
+    "home_url": "https://segmentfault.com/u/strongant",
+    "votes": "1",
     "rank": 15
-  },
-  {
-    "title": "leetcode452. Minimum Number of Arrows to Burst Balloons",
-    "description": "There are a number of spherical balloons spread in two-dimensional space. For each balloon, provided input is the start and end coordinates of the horizontal diameter. Since it's horizontal, y-coor...",
-    "url": "https://segmentfault.com/a/1190000020948683",
-    "author": "raledong",
-    "home_url": "https://segmentfault.com/u/raledong",
-    "votes": "2",
-    "rank": 16
   },
   {
     "title": "注解入门",
@@ -150,7 +141,7 @@
     "author": "北冥有只鱼",
     "home_url": "https://segmentfault.com/u/beiyouzhiyu",
     "votes": "1",
-    "rank": 17
+    "rank": 16
   },
   {
     "title": "Centos下使用yum安装mysql",
@@ -159,96 +150,6 @@
     "author": "君莫笑",
     "home_url": "https://segmentfault.com/u/jmxiao",
     "votes": "1",
-    "rank": 18
-  },
-  {
-    "title": "Centos7下安装jdk1.8",
-    "description": "检查是否安装jdk 检查命令如下 {代码...} 如出现以下提示则未安装 {代码...} 下载jdk 官方下载地址：[链接] 如果下载提示需要登录，可以尝试下下载链接：[链接] 下载之后会有一个文件：jdk-8u231-linux-x64.tar.g...",
-    "url": "https://segmentfault.com/a/1190000020953094",
-    "author": "君莫笑",
-    "home_url": "https://segmentfault.com/u/jmxiao",
-    "votes": "1",
-    "rank": 19
-  },
-  {
-    "title": "文件 File",
-    "description": "以介质是硬盘为例，字节流和字符流的弊端：在每一次读写的时候，都会访问硬盘。 如果读写的频率比较高的时候，其性能表现不佳。",
-    "url": "https://segmentfault.com/a/1190000020950742",
-    "author": "开始以后_",
-    "home_url": "https://segmentfault.com/u/kaishiyihou_",
-    "votes": "1",
-    "rank": 20
-  },
-  {
-    "title": "Java线程学习详解",
-    "description": "使用 new 关键字和 Thread 类或其子类建立一个线程对象后，该线程对象就处于新建状态。它保持这个状态直到程序 start() 这个线程。",
-    "url": "https://segmentfault.com/a/1190000020950643",
-    "author": "开始以后_",
-    "home_url": "https://segmentfault.com/u/kaishiyihou_",
-    "votes": "2",
-    "rank": 21
-  },
-  {
-    "title": "JavaScript获取可视区、页面内容、浏览器宽高、滚动高度",
-    "description": "兼容性IE、Safari 和 Opera 支持 ScreenLeft/ScreenTopFirefox、Safari 支持 ScreenX/ScreenYChrome 都支持",
-    "url": "https://segmentfault.com/a/1190000020950308",
-    "author": "教父的秘书",
-    "home_url": "https://segmentfault.com/u/yaokai",
-    "votes": "1",
-    "rank": 22
-  },
-  {
-    "title": "DHCP协议及工作流",
-    "description": "DHCP（动态主机配置协议 Dynamic Host Configuration Protocol）是一个局域网的网络协议。指的是由服务器控制一段lP地址范围，客户机登录服务器时就可以自动获得服务器分配的lP地址和子网掩码",
-    "url": "https://segmentfault.com/a/1190000020950164",
-    "author": "潘佳琦",
-    "home_url": "https://segmentfault.com/u/panjia_5b3b83f7743e9",
-    "votes": "1",
-    "rank": 23
-  },
-  {
-    "title": "git撤销操作",
-    "description": "git的撤销操作：reset、checkout和revert这三个命令都可以用于撤销。reset和checkout可以作用于commit或者文件，revert只能作用于commit。",
-    "url": "https://segmentfault.com/a/1190000020950014",
-    "author": "zhouzhou",
-    "home_url": "https://segmentfault.com/u/zhouzhou_58b5327535e9d",
-    "votes": "1",
-    "rank": 24
-  },
-  {
-    "title": "文件系统微服务的一些设想",
-    "description": "2.整套系统都是以API的方式与外部对接，在PC端，IOS，安卓都能使用，也能内部服务器访问调用。3.系统底层使用swoole框架，灵活调度各个服务",
-    "url": "https://segmentfault.com/a/1190000020948978",
-    "author": "挡不住的晴天",
-    "home_url": "https://segmentfault.com/u/dangbuzhudeqingtian",
-    "votes": "1",
-    "rank": 25
-  },
-  {
-    "title": "centos上docker安装mysql",
-    "description": "安装docker 如果你的机器上没有安装docker，使用下面命令安装docker {代码...} 启动docker {代码...} 安装mysql 安装mysql5.6版本 {代码...} 查看docker镜像 {代码...} 启动mysql {代码...} 参数解释 --name mysq...",
-    "url": "https://segmentfault.com/a/1190000020948738",
-    "author": "君莫笑",
-    "home_url": "https://segmentfault.com/u/jmxiao",
-    "votes": "1",
-    "rank": 26
-  },
-  {
-    "title": "React服务端渲染之路03——路由",
-    "description": "所有源代码、文档和图片都在 github 的仓库里，点击进入仓库 相关阅读 React服务端渲染之路01——项目基础架构搭建 React服务端渲染之路02——最简单的服务端渲染 React服务端渲染之路03——路由 React服务端渲染之路04...",
-    "url": "https://segmentfault.com/a/1190000020948108",
-    "author": "Karuru",
-    "home_url": "https://segmentfault.com/u/karuru",
-    "votes": "1",
-    "rank": 27
-  },
-  {
-    "title": "【Python教程】03.集合与循环",
-    "description": "大纲 集合类型 列表 元组 字典 集合 循环 练习 集合类型 基础语法中介绍的几种python的基础类型都属于数值类型。另外一种基础类型是集合类型，主要包括列表、元组、字典、集合。其中列表和元组是一种序列。序列是...",
-    "url": "https://segmentfault.com/a/1190000020947858",
-    "author": "lvancer",
-    "home_url": "https://segmentfault.com/u/lvancer",
-    "votes": "1",
-    "rank": 28
+    "rank": 17
   }
 ]
