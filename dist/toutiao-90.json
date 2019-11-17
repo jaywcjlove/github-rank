@@ -1,15 +1,5 @@
 [
   {
-    "title": "架构师技术图谱，助你早日成为架构师（最新）",
-    "description": "README.md架构师技术图谱，助你早日成为架构师本项目是《码农周刊》架构学习资料精选，码农周刊团队官方出品。架构师必读，助你早日成为架构师！架构师技术图谱包括：分布式、前端、大...",
-    "votes": "182",
-    "url": "/k/8lhpf6",
-    "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
-    "avatarAlt": "头条精选 - 独家号",
-    "subjectName": "头条精选",
-    "homeUrl": "/subjects/4"
-  },
-  {
     "title": "金九银十面试季来临，最新 BATJ 面试资料分享给你",
     "description": "金九银十，每年9、10月份各大互联网公司都会周期性地发生人事变动，无论是刚进入社会的职场菜鸟，还是准备跳槽的老手，都想在这个时候获得新的工作，或迎来晋升涨薪的最佳机会。 不同于往年...",
     "votes": "143",
@@ -60,19 +50,9 @@
     "homeUrl": "/subjects/4"
   },
   {
-    "title": "基于 websocket 单台机器支持百万连接分布式聊天 (IM) 系统",
-    "description": "基于websocket单台机器支持百万连接分布式聊天(IM)系统本文将介绍如何实现一个基于websocket分布式聊天(IM)系统。使用golang实现websocket通讯，单机...",
-    "votes": "63",
-    "url": "/k/1a26ee6",
-    "avatar": "https://img.toutiao.io/subject%2F20beeac3d2a440769cdd83012a2ac64f",
-    "avatarAlt": "溜溜技术 - 独家号",
-    "subjectName": "溜溜技术",
-    "homeUrl": "/subjects/197857"
-  },
-  {
     "title": "中台的末路",
     "description": "从 15 年开始，到 19 年现在为止。各大公司都在吹捧中台理念。仿佛中台是业务复杂性的救世主。是某些架构师和 PM 的新出路。各种割韭菜的讲中台的课程层出不穷。当然，吹牛逼的时候...",
-    "votes": "59",
+    "votes": "60",
     "url": "/k/gfuiz7n",
     "avatar": "https://img.toutiao.io/subject%2F6a017995d8424765ab042213593cb4a9",
     "avatarAlt": "码农桃花源 - 独家号",
@@ -128,16 +108,6 @@
     "avatarAlt": "猿天地 - 独家号",
     "subjectName": "猿天地",
     "homeUrl": "/subjects/6491"
-  },
-  {
-    "title": "被提拔成小主管后如何提升自己的管理能力？",
-    "description": "我是26岁当上数据总监的，当时完成了公司的数字化转型，帮助公司带来盈利。就被提拔上成为管理者了。我一下子从专注于自己的事的工程师到搭建团队还要管理团队的leader。说实话我是非常...",
-    "votes": "48",
-    "url": "/k/0vjcpub",
-    "avatar": "https://img.toutiao.io/subject%2F8e44d1a2390944c08c6170906cfc0856",
-    "avatarAlt": "跨端&全栈 - 独家号",
-    "subjectName": "跨端&全栈",
-    "homeUrl": "/subjects/7076"
   },
   {
     "title": "iPhone 为什么不加大内存？",
@@ -200,6 +170,16 @@
     "homeUrl": "/subjects/268968"
   },
   {
+    "title": "既生 synchronized，何生 volatile",
+    "description": "在我的博客和公众号中，发表过很多篇关于并发编程的文章，之前的文章中我们介绍过了两个在Java并发编程中比较重要的两个关键字：synchronized和volatile我们简单回顾一...",
+    "votes": "41",
+    "url": "/k/pp413pr",
+    "avatar": "https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e",
+    "avatarAlt": "JAVA干货 - 独家号",
+    "subjectName": "JAVA干货",
+    "homeUrl": "/subjects/51515"
+  },
+  {
     "title": "我掏空了各大搜索引擎，给你整理了 154 道 Java 面试题",
     "description": "Java集合22题ArrayList 和 Vector 的区别。说说 ArrayList,Vector, LinkedList 的存储性能和特性。快速失败 (fail-fast) ...",
     "votes": "40",
@@ -208,16 +188,6 @@
     "avatarAlt": "微信公众号:肥朝 - 独家号",
     "subjectName": "微信公众号:肥朝",
     "homeUrl": "/subjects/387709"
-  },
-  {
-    "title": "既生 synchronized，何生 volatile",
-    "description": "在我的博客和公众号中，发表过很多篇关于并发编程的文章，之前的文章中我们介绍过了两个在Java并发编程中比较重要的两个关键字：synchronized和volatile我们简单回顾一...",
-    "votes": "40",
-    "url": "/k/pp413pr",
-    "avatar": "https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e",
-    "avatarAlt": "JAVA干货 - 独家号",
-    "subjectName": "JAVA干货",
-    "homeUrl": "/subjects/51515"
   },
   {
     "title": "为什么技术团队领导者多是后台开发人员",
@@ -248,5 +218,35 @@
     "avatarAlt": "acoder2013的独家号 - 独家号",
     "subjectName": "acoder2013的独家号",
     "homeUrl": "/subjects/268362"
+  },
+  {
+    "title": "如何看待蚂蚁金服 OceanBase “击败” 甲骨文？",
+    "description": "早上起来被一条新闻刷了屏中国自研数据库超越Oracle登顶全球第一 ↓ 看到这则消息还是很振奋尤其连院士都给出了肯定于是，去了TPC的官网想看看关于这个榜单的细节我们会发现↓这个纪...",
+    "votes": "38",
+    "url": "/k/u74dd7o",
+    "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
+    "avatarAlt": "头条精选 - 独家号",
+    "subjectName": "头条精选",
+    "homeUrl": "/subjects/4"
+  },
+  {
+    "title": "还在埋头干活？给程序员的几个忠告",
+    "description": "开门见山，今天这篇文章是给程序员的几个忠告。好吧，我膨胀了，不是大 V 居然也好意思给别人忠告。   即使你不是程序员，看看也有好处。   1. 坚持学习，高效的学习   从去年下...",
+    "votes": "37",
+    "url": "/k/fe38m44",
+    "avatar": "https://img.toutiao.io/subject%2F180d026f85274c998656474cd1988d0f",
+    "avatarAlt": "四猿外 - 独家号",
+    "subjectName": "四猿外",
+    "homeUrl": "/subjects/426740"
+  },
+  {
+    "title": "用 Python 分析淘宝 2000 款避孕套，得出这些有趣的结论",
+    "description": "到现在为止，我们的淘宝教程已经写到了第四篇，前三篇分别是：第一篇：Python模拟登录淘宝，详细讲解如何使用requests库登录淘宝pc端。第二篇：淘宝自动登录2.0，新增Coo...",
+    "votes": "36",
+    "url": "/k/tvktm2n",
+    "avatar": "https://img.toutiao.io/subject%2Fbaed405458484428abe5b35891e34afa",
+    "avatarAlt": "裸睡的猪 - 独家号",
+    "subjectName": "裸睡的猪",
+    "homeUrl": "/subjects/416945"
   }
 ]

@@ -1,13 +1,23 @@
 [
   {
-    "title": "Arthas：Java 线上问题定位处理的终极利器",
-    "description": "可以点击上方蓝色 “未读代码” 关注我。回复资源获取精心整理的 Java核心知识&面试资料。前言在使用 Arthas 之前，当遇到 Java 线上问题时，如 CPU 飙升、负载突高...",
-    "votes": "25",
-    "url": "/k/hf6jup4",
-    "avatar": "https://img.toutiao.io/subject%2F4b05eabbfd3b46ce862825715a31b6f4",
-    "avatarAlt": "未读代码的独家号 - 独家号",
-    "subjectName": "未读代码的独家号",
-    "homeUrl": "/subjects/365875"
+    "title": "还在埋头干活？给程序员的几个忠告",
+    "description": "开门见山，今天这篇文章是给程序员的几个忠告。好吧，我膨胀了，不是大 V 居然也好意思给别人忠告。   即使你不是程序员，看看也有好处。   1. 坚持学习，高效的学习   从去年下...",
+    "votes": "37",
+    "url": "/k/fe38m44",
+    "avatar": "https://img.toutiao.io/subject%2F180d026f85274c998656474cd1988d0f",
+    "avatarAlt": "四猿外 - 独家号",
+    "subjectName": "四猿外",
+    "homeUrl": "/subjects/426740"
+  },
+  {
+    "title": "这些技术轮子，让监控落地成为现实",
+    "description": "【这是一猿小讲的第 68 篇原创分享】 场景一：页面提示超时了，到底是哪个服务响应慢了呢？ 场景二：系统当前的处理能力如何，TPS、QPS 指标是多少呢？ 场景三：线上服务部署在多...",
+    "votes": "24",
+    "url": "/k/92ubk7y",
+    "avatar": "https://img.toutiao.io/subject%2F7a8541a4f49c4075a72ed00df32301ec",
+    "avatarAlt": "一猿小讲 - 独家号",
+    "subjectName": "一猿小讲",
+    "homeUrl": "/subjects/413084"
   },
   {
     "title": "一条电商 Android 工程化实践",
@@ -30,14 +40,34 @@
     "homeUrl": "/subjects/389295"
   },
   {
-    "title": "超越 “双十一”：ebay 百万 TPS 支付账务系统的设计与实现",
-    "description": "供稿 | Payments 任杰编辑 | 顾欣怡本文8760字，预计阅读时间27分钟更多干货请关注“eBay技术荟”公众号   导读 2018年，ebay全面展开了下一代百万TPS...",
-    "votes": "19",
-    "url": "/k/hhaysu7",
-    "avatar": "https://img.toutiao.io/subject%2F4c72971aff5c4e73821ac59b18ff5dd6",
-    "avatarAlt": "程序员的朋友圈 - 独家号",
-    "subjectName": "程序员的朋友圈",
-    "homeUrl": "/subjects/378"
+    "title": "代码以外的生存之道",
+    "description": "愿所有自强不息、孜孜不倦地持续自我改进的开发人员都能在代码之外，找到自己的最佳生存之道。前言最近刚刚读完了一本书，深受启发，想和各位程序员同道分享一二，也强烈建议大家去阅读一下。这...",
+    "votes": "18",
+    "url": "/k/3nghott",
+    "avatar": "https://img.toutiao.io/subject%2F732cb6a567b6447aa876ed179c0e89c7",
+    "avatarAlt": "Fundebug - 独家号",
+    "subjectName": "Fundebug",
+    "homeUrl": "/subjects/216955"
+  },
+  {
+    "title": "Java 线上故障排查全套路",
+    "description": "线上故障主要会包括 CPU、磁盘、内存以及网络问题，而大多数故障可能会包含不止一个层面的问题，所以进行排查时候尽量四个方面依次排查一遍。同时例如 jstack、jmap 等工具也是...",
+    "votes": "16",
+    "url": "/k/mczyjep",
+    "avatar": "https://img.toutiao.io/subject%2Fcb6906900b114ccd9a77daa3d7bc40ff",
+    "avatarAlt": "中间件日志 - 独家号",
+    "subjectName": "中间件日志",
+    "homeUrl": "/subjects/347783"
+  },
+  {
+    "title": "Spring Boot 2 整合 shard-jdbc 中间件，实现数据分库分表",
+    "description": "一、水平分割1、水平分库1)、概念：以字段为依据，按照一定策略，将一个库中的数据拆分到多个库中。2)、结果每个库的结构都一样；数据都不一样；所有库的并集是全量数据；2、水平分表1)...",
+    "votes": "16",
+    "url": "/k/55l60zb",
+    "avatar": "https://img.toutiao.io/subject%2F652f30d4f8ed4f198281774399a49076",
+    "avatarAlt": "知了一笑 - 独家号",
+    "subjectName": "知了一笑",
+    "homeUrl": "/subjects/416733"
   },
   {
     "title": "动图了解 I/O 多路复用",
@@ -50,34 +80,54 @@
     "homeUrl": "/subjects/182586"
   },
   {
-    "title": "初创公司 5 大 Java 服务困局，阿里工程师如何打破？",
-    "description": "阿里妹导读：初创公司遇到的每一个问题都可能攸关生死。创业之初更应该总结行业的常见问题，对比方案寻找最优解。阿里巴巴地图技术专家常意在技术圈摸爬滚打数年，接触了各式各样的Java服务...",
-    "votes": "15",
-    "url": "/k/6a16zcm",
-    "avatar": "https://img.toutiao.io/user/b618677591aa49b3972ece0c7d26b473/thumb",
-    "avatarAlt": "数据淘金 - 独家号",
-    "subjectName": "数据淘金",
-    "homeUrl": "/subjects/120437"
-  },
-  {
-    "title": "代码以外的生存之道",
-    "description": "愿所有自强不息、孜孜不倦地持续自我改进的开发人员都能在代码之外，找到自己的最佳生存之道。前言最近刚刚读完了一本书，深受启发，想和各位程序员同道分享一二，也强烈建议大家去阅读一下。这...",
-    "votes": "15",
-    "url": "/k/3nghott",
-    "avatar": "https://img.toutiao.io/subject%2F732cb6a567b6447aa876ed179c0e89c7",
-    "avatarAlt": "Fundebug - 独家号",
-    "subjectName": "Fundebug",
-    "homeUrl": "/subjects/216955"
-  },
-  {
     "title": "实测 Maven 上传 jar 包到私服的方法归纳",
     "description": "    Hello，各位小伙伴大家好，我是小栈君。好久不见，最近因为工作的缘故，导致了更新变慢，但是小栈君也在积极的做素材的规划，毕竟学习知识点的归纳和提炼需要一定的时间。 所以还...",
-    "votes": "14",
+    "votes": "15",
     "url": "/k/7txplas",
     "avatar": "https://img.toutiao.io/subject%2Ff46cac7eef1646bfbc486a00a9229817",
     "avatarAlt": "it干货栈的独家号 - 独家号",
     "subjectName": "it干货栈的独家号",
     "homeUrl": "/subjects/83429"
+  },
+  {
+    "title": "Nginx 基础知识从小白到入门",
+    "description": "前言Nginx现在几乎是众多大型网站的必用技术，大家应该都知道Nginx被F5收购的大事件，章亦春也在专心维护OpenResty项目构建和谐家园，无论你选择Nginx还是OpenR...",
+    "votes": "14",
+    "url": "/k/rbkd19n",
+    "avatar": "https://img.toutiao.io/subject%2F74d2eb04ed1b4c82834556c9a541fee5",
+    "avatarAlt": "HelloDog - 独家号",
+    "subjectName": "HelloDog",
+    "homeUrl": "/subjects/4009"
+  },
+  {
+    "title": "容器中某 Go 服务 GC 停顿经常超过 100ms 排查",
+    "description": "GC停顿经常超过100ms现象有同事反馈说, 最近开始试用公司的k8s, 部署在docker里的go进程有问题, 接口耗时很长, 而且还有超时. 逻辑很简单, 只是调用了kv存储,...",
+    "votes": "13",
+    "url": "/k/4cvlsl0",
+    "avatar": "https://img.toutiao.io/subject%2F7f6f8cc56f97459dad43858004334307",
+    "avatarAlt": "cultus - 独家号",
+    "subjectName": "cultus",
+    "homeUrl": "/subjects/67464"
+  },
+  {
+    "title": "为什么你应该使用 Git 进行版本控制",
+    "description": "概述设计 分布式性能可靠性总结Reference为什么这么设计（Why’s THE Design）是一系列关于计算机领域中程序设计决策的文章，我们在这个系列的每一篇文章中都会提出一...",
+    "votes": "13",
+    "url": "/k/0cr5pgx",
+    "avatar": "https://img.toutiao.io/subject%2Fb74e6991f2de41dbb21d7eef58177d64",
+    "avatarAlt": "面向信仰编程 - 独家号",
+    "subjectName": "面向信仰编程",
+    "homeUrl": "/subjects/90130"
+  },
+  {
+    "title": "敲开通往架构师的门",
+    "description": "最近学习了一些关于架构设计的知识想分享给大家。俗话说得好，不想当架构师的程序员不是好厨子。那么如何成为一名架构师呢？接下来就聊一聊我的一些想法。什么是架构师 之前有同学问我，做了几...",
+    "votes": "12",
+    "url": "/k/3ginr69",
+    "avatar": "https://img.toutiao.io/subject%2F2d4476b881aa4ea4a48c920c98b901bc",
+    "avatarAlt": "Jackeyzhe的成长 - 独家号",
+    "subjectName": "Jackeyzhe的成长",
+    "homeUrl": "/subjects/67572"
   },
   {
     "title": "外包程序员的幸福生活",
@@ -90,6 +140,16 @@
     "homeUrl": "/subjects/426740"
   },
   {
+    "title": "[译] 经典系统设计面试题解析：如何设计 TinyURL（最终篇）",
+    "description": "原文链接：https://www.educative.io/courses/grokking-the-system-design-interview/m2ygV4E81AR编者注：...",
+    "votes": "11",
+    "url": "/k/igb344o",
+    "avatar": "https://img.toutiao.io/subject%2F70b05b5b11464314a2b82f0d6d8c29d7",
+    "avatarAlt": "APEMESH - 独家号",
+    "subjectName": "APEMESH",
+    "homeUrl": "/subjects/398346"
+  },
+  {
     "title": "发号器：分布式 ID 生成系统",
     "description": "相关文章：浅谈订单号生成设计方案背景在分布式系统中，经常需要对大量的数据、消息、http请求等进行唯一标识，例如：对于分布式系统，服务间相互调用需要唯一标识，调用链路分析的时候需要...",
     "votes": "10",
@@ -100,24 +160,34 @@
     "homeUrl": "/subjects/17093"
   },
   {
-    "title": "容器中某 Go 服务 GC 停顿经常超过 100ms 排查",
-    "description": "GC停顿经常超过100ms现象有同事反馈说, 最近开始试用公司的k8s, 部署在docker里的go进程有问题, 接口耗时很长, 而且还有超时. 逻辑很简单, 只是调用了kv存储,...",
-    "votes": "9",
-    "url": "/k/4cvlsl0",
-    "avatar": "https://img.toutiao.io/subject%2F7f6f8cc56f97459dad43858004334307",
-    "avatarAlt": "cultus - 独家号",
-    "subjectName": "cultus",
-    "homeUrl": "/subjects/67464"
+    "title": "面对数据库死锁差点跪",
+    "description": "码上实战理论实践相结合，做个好好学习的宝宝！^_^关注数据库死锁这个问题不知道你有没有遇到过呢？一旦遇到该如何排查问题呢？环境: MySQL 5.7.25 引擎 InnoDB如果你...",
+    "votes": "10",
+    "url": "/k/5fqur6c",
+    "avatar": "https://img.toutiao.io/subject%2Fd63f79cb85a343fa979d3cbf0bf4ae4a",
+    "avatarAlt": "码上实战 - 独家号",
+    "subjectName": "码上实战",
+    "homeUrl": "/subjects/372416"
   },
   {
-    "title": "[译] 经典系统设计面试题解析：如何设计 TinyURL（最终篇）",
-    "description": "原文链接：https://www.educative.io/courses/grokking-the-system-design-interview/m2ygV4E81AR编者注：...",
+    "title": "Linux 背后的思想",
+    "description": " 01Linus TorvaldsLinus Torvalds两次改变了技术，第一次是Linux内核，它帮助互联网的发展；第二次是Git，全球开发者使用的源代码管理系统。在一次TE...",
+    "votes": "10",
+    "url": "/k/rtzer4x",
+    "avatar": "https://img.toutiao.io/subject%2F4c72971aff5c4e73821ac59b18ff5dd6",
+    "avatarAlt": "程序员的朋友圈 - 独家号",
+    "subjectName": "程序员的朋友圈",
+    "homeUrl": "/subjects/378"
+  },
+  {
+    "title": "MySQL 分页 offset 过大性能问题与优化",
+    "description": "背景最近被DBA报了一个慢查询，一条sql要执行几秒甚至十几秒，直接导致cpu idle报警，幸好线上没有出事故。这里记录下问题的详细信息和解决方案。Mysql表结构大概可以简化为...",
     "votes": "9",
-    "url": "/k/igb344o",
-    "avatar": "https://img.toutiao.io/subject%2F70b05b5b11464314a2b82f0d6d8c29d7",
-    "avatarAlt": "APEMESH - 独家号",
-    "subjectName": "APEMESH",
-    "homeUrl": "/subjects/398346"
+    "url": "/k/3b6y2bi",
+    "avatar": "https://img.toutiao.io/subject%2Fba1b88cabb4f4845998c301ff8663fd9",
+    "avatarAlt": "DaemonCoder - 独家号",
+    "subjectName": "DaemonCoder",
+    "homeUrl": "/subjects/77895"
   },
   {
     "title": "线上问题排查，这些命令你一定用得到",
@@ -128,75 +198,5 @@
     "avatarAlt": "米冉的独家号 - 独家号",
     "subjectName": "米冉的独家号",
     "homeUrl": "/subjects/225136"
-  },
-  {
-    "title": "Linux 日志切割神器 logrotate 原理介绍和配置详解",
-    "description": "前言在Linux环境中能够帮助我们分析问题蛛丝马迹的有效办法之一便是日志，常见的如操作系统syslog日志/var/log/messages，应用程序Nginx日志/var/log...",
-    "votes": "9",
-    "url": "/k/ja37t9n",
-    "avatar": "https://img.toutiao.io/subject%2F74d2eb04ed1b4c82834556c9a541fee5",
-    "avatarAlt": "HelloDog - 独家号",
-    "subjectName": "HelloDog",
-    "homeUrl": "/subjects/4009"
-  },
-  {
-    "title": "面对数据库死锁差点跪",
-    "description": "码上实战理论实践相结合，做个好好学习的宝宝！^_^关注数据库死锁这个问题不知道你有没有遇到过呢？一旦遇到该如何排查问题呢？环境: MySQL 5.7.25 引擎 InnoDB如果你...",
-    "votes": "9",
-    "url": "/k/5fqur6c",
-    "avatar": "https://img.toutiao.io/subject%2Fd63f79cb85a343fa979d3cbf0bf4ae4a",
-    "avatarAlt": "码上实战 - 独家号",
-    "subjectName": "码上实战",
-    "homeUrl": "/subjects/372416"
-  },
-  {
-    "title": "算法面试必修课：动态规划基础题型归纳（一）",
-    "description": "一、前言动态规划（Dynamic Programming，简称DP），虽然抽象后进行求解的思路并不复杂，但具体的形式千差万别，找出问题的子结构以及通过子结构重新构造最优解的过程很难...",
-    "votes": "9",
-    "url": "/k/94eo2mn",
-    "avatar": "https://img.toutiao.io/subject%2F8e44d1a2390944c08c6170906cfc0856",
-    "avatarAlt": "跨端&全栈 - 独家号",
-    "subjectName": "跨端&全栈",
-    "homeUrl": "/subjects/7076"
-  },
-  {
-    "title": "为什么你应该使用 Git 进行版本控制",
-    "description": "概述设计 分布式性能可靠性总结Reference为什么这么设计（Why’s THE Design）是一系列关于计算机领域中程序设计决策的文章，我们在这个系列的每一篇文章中都会提出一...",
-    "votes": "9",
-    "url": "/k/0cr5pgx",
-    "avatar": "https://img.toutiao.io/subject%2Fb74e6991f2de41dbb21d7eef58177d64",
-    "avatarAlt": "面向信仰编程 - 独家号",
-    "subjectName": "面向信仰编程",
-    "homeUrl": "/subjects/90130"
-  },
-  {
-    "title": "Spring Boot 2 整合 shard-jdbc 中间件，实现数据分库分表",
-    "description": "一、水平分割1、水平分库1)、概念：以字段为依据，按照一定策略，将一个库中的数据拆分到多个库中。2)、结果每个库的结构都一样；数据都不一样；所有库的并集是全量数据；2、水平分表1)...",
-    "votes": "9",
-    "url": "/k/55l60zb",
-    "avatar": "https://img.toutiao.io/subject%2F652f30d4f8ed4f198281774399a49076",
-    "avatarAlt": "知了一笑 - 独家号",
-    "subjectName": "知了一笑",
-    "homeUrl": "/subjects/416733"
-  },
-  {
-    "title": "学习 sentry 源码整体架构，打造属于自己的前端异常监控 SDK",
-    "description": "前言这是学习源码整体架构第四篇。整体架构这词语好像有点大，姑且就算是源码整体结构吧，主要就是学习是代码整体结构，不深究其他不是主线的具体函数的实现。文章学习的是打包整合后的代码，不...",
-    "votes": "8",
-    "url": "/k/xqgn0kk",
-    "avatar": "https://img.toutiao.io/subject%2F732cb6a567b6447aa876ed179c0e89c7",
-    "avatarAlt": "Fundebug - 独家号",
-    "subjectName": "Fundebug",
-    "homeUrl": "/subjects/216955"
-  },
-  {
-    "title": "谷歌 Chrome 浏览器：关于插件，这一篇就够了",
-    "description": "这次是干货，有多干？正文共：5879字87图完了，怕你们看不下去，我特意整理了PDF给大家，传送地址：https://github.com/ithuangqing/Chrome-t...",
-    "votes": "8",
-    "url": "/k/mhuj027",
-    "avatar": "https://img.toutiao.io/subject%2F332d34ff9c964519b23c59bd168bc72f",
-    "avatarAlt": "安卓学习之路 - 独家号",
-    "subjectName": "安卓学习之路",
-    "homeUrl": "/subjects/137450"
   }
 ]
