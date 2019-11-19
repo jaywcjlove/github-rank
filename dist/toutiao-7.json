@@ -2,7 +2,7 @@
   {
     "title": "还在埋头干活？给程序员的几个忠告",
     "description": "开门见山，今天这篇文章是给程序员的几个忠告。好吧，我膨胀了，不是大 V 居然也好意思给别人忠告。   即使你不是程序员，看看也有好处。   1. 坚持学习，高效的学习   从去年下...",
-    "votes": "37",
+    "votes": "39",
     "url": "/k/fe38m44",
     "avatar": "https://img.toutiao.io/subject%2F180d026f85274c998656474cd1988d0f",
     "avatarAlt": "四猿外 - 独家号",
@@ -20,6 +20,16 @@
     "homeUrl": "/subjects/413084"
   },
   {
+    "title": "10 个高效 Linux 技巧及 Vim 命令对比",
+    "description": "Vim的很多命令和功能与Linux系统的命令和功能及其相似，可以说是一脉相承。Vim教程网(https://vimjc.com)总结了10条Linux下提高效率的小技巧，并与Vim...",
+    "votes": "21",
+    "url": "/k/80vyszp",
+    "avatar": "https://img.toutiao.io/subject%2F537d321c8e0f41be8b0bb61cac957b5f",
+    "avatarAlt": "Vim教程网 - 独家号",
+    "subjectName": "Vim教程网",
+    "homeUrl": "/subjects/389874"
+  },
+  {
     "title": "一条电商 Android 工程化实践",
     "description": " 订阅 这篇文章是我在 2019【极光开发者大会】技术分享时所讲内容的文字版本，修改删减了演讲时的冗余言语，现免费开放给大家阅读， 希望能给买不到票参加大会的开源实验室读者带来帮助...",
     "votes": "20",
@@ -30,29 +40,19 @@
     "homeUrl": "/subjects/18483"
   },
   {
-    "title": "当 Redis 发生高延迟时，到底发生了什么",
-    "description": "点击上方\"程序员历小冰\"，选择“置顶或者星标” 你的关注意义重大!Redis 是一种内存数据库，将数据保存在内存中，读写效率要比传统的将数据保存在磁盘上的数据库要快很多。但是 Re...",
+    "title": "从 P4 到 P9，在马云家写代码到双 11 前端 PM",
+    "description": " 阿里妹导读：今年的双11已经是阿里资深前端技术专家舒文来阿里的第11年，从应届生到双11前端PM，他一路升级打怪，实现了岗位上从P4到P9的晋升。这第11届双11顺利结束之际，他...",
     "votes": "19",
-    "url": "/k/om5vftt",
-    "avatar": "https://img.toutiao.io/subject%2Fb3fe2c24c18d4affa84e34b23e31a5f9",
-    "avatarAlt": "程序员历小冰 - 独家号",
-    "subjectName": "程序员历小冰",
-    "homeUrl": "/subjects/389295"
-  },
-  {
-    "title": "代码以外的生存之道",
-    "description": "愿所有自强不息、孜孜不倦地持续自我改进的开发人员都能在代码之外，找到自己的最佳生存之道。前言最近刚刚读完了一本书，深受启发，想和各位程序员同道分享一二，也强烈建议大家去阅读一下。这...",
-    "votes": "18",
-    "url": "/k/3nghott",
-    "avatar": "https://img.toutiao.io/subject%2F732cb6a567b6447aa876ed179c0e89c7",
-    "avatarAlt": "Fundebug - 独家号",
-    "subjectName": "Fundebug",
-    "homeUrl": "/subjects/216955"
+    "url": "/k/0r5rxug",
+    "avatar": "https://img.toutiao.io/subject%2F8e44d1a2390944c08c6170906cfc0856",
+    "avatarAlt": "跨端&全栈 - 独家号",
+    "subjectName": "跨端&全栈",
+    "homeUrl": "/subjects/7076"
   },
   {
     "title": "Java 线上故障排查全套路",
     "description": "线上故障主要会包括 CPU、磁盘、内存以及网络问题，而大多数故障可能会包含不止一个层面的问题，所以进行排查时候尽量四个方面依次排查一遍。同时例如 jstack、jmap 等工具也是...",
-    "votes": "16",
+    "votes": "17",
     "url": "/k/mczyjep",
     "avatar": "https://img.toutiao.io/subject%2Fcb6906900b114ccd9a77daa3d7bc40ff",
     "avatarAlt": "中间件日志 - 独家号",
@@ -60,39 +60,9 @@
     "homeUrl": "/subjects/347783"
   },
   {
-    "title": "Spring Boot 2 整合 shard-jdbc 中间件，实现数据分库分表",
-    "description": "一、水平分割1、水平分库1)、概念：以字段为依据，按照一定策略，将一个库中的数据拆分到多个库中。2)、结果每个库的结构都一样；数据都不一样；所有库的并集是全量数据；2、水平分表1)...",
-    "votes": "16",
-    "url": "/k/55l60zb",
-    "avatar": "https://img.toutiao.io/subject%2F652f30d4f8ed4f198281774399a49076",
-    "avatarAlt": "知了一笑 - 独家号",
-    "subjectName": "知了一笑",
-    "homeUrl": "/subjects/416733"
-  },
-  {
-    "title": "动图了解 I/O 多路复用",
-    "description": "啥叫I/O多路复用？epoll又是个什么东西？你或许看过很多文章，但是还是感觉云里雾里的，今天，我们抛开文字，释放动图，或许你就理解了。I/O多路复用通常的一次的请求过程如下图所示...",
-    "votes": "16",
-    "url": "/k/nm4jgu7",
-    "avatar": "https://img.toutiao.io/subject%2F97447fa2afe34a0f8b78e000eebbcea3",
-    "avatarAlt": "RyuGou的独家号 - 独家号",
-    "subjectName": "RyuGou的独家号",
-    "homeUrl": "/subjects/182586"
-  },
-  {
-    "title": "实测 Maven 上传 jar 包到私服的方法归纳",
-    "description": "    Hello，各位小伙伴大家好，我是小栈君。好久不见，最近因为工作的缘故，导致了更新变慢，但是小栈君也在积极的做素材的规划，毕竟学习知识点的归纳和提炼需要一定的时间。 所以还...",
-    "votes": "15",
-    "url": "/k/7txplas",
-    "avatar": "https://img.toutiao.io/subject%2Ff46cac7eef1646bfbc486a00a9229817",
-    "avatarAlt": "it干货栈的独家号 - 独家号",
-    "subjectName": "it干货栈的独家号",
-    "homeUrl": "/subjects/83429"
-  },
-  {
     "title": "Nginx 基础知识从小白到入门",
     "description": "前言Nginx现在几乎是众多大型网站的必用技术，大家应该都知道Nginx被F5收购的大事件，章亦春也在专心维护OpenResty项目构建和谐家园，无论你选择Nginx还是OpenR...",
-    "votes": "14",
+    "votes": "17",
     "url": "/k/rbkd19n",
     "avatar": "https://img.toutiao.io/subject%2F74d2eb04ed1b4c82834556c9a541fee5",
     "avatarAlt": "HelloDog - 独家号",
@@ -100,9 +70,49 @@
     "homeUrl": "/subjects/4009"
   },
   {
+    "title": "Spring Boot 2 整合 shard-jdbc 中间件，实现数据分库分表",
+    "description": "一、水平分割1、水平分库1)、概念：以字段为依据，按照一定策略，将一个库中的数据拆分到多个库中。2)、结果每个库的结构都一样；数据都不一样；所有库的并集是全量数据；2、水平分表1)...",
+    "votes": "17",
+    "url": "/k/55l60zb",
+    "avatar": "https://img.toutiao.io/subject%2F652f30d4f8ed4f198281774399a49076",
+    "avatarAlt": "知了一笑 - 独家号",
+    "subjectName": "知了一笑",
+    "homeUrl": "/subjects/416733"
+  },
+  {
+    "title": "实测 Maven 上传 jar 包到私服的方法归纳",
+    "description": "    Hello，各位小伙伴大家好，我是小栈君。好久不见，最近因为工作的缘故，导致了更新变慢，但是小栈君也在积极的做素材的规划，毕竟学习知识点的归纳和提炼需要一定的时间。 所以还...",
+    "votes": "16",
+    "url": "/k/7txplas",
+    "avatar": "https://img.toutiao.io/subject%2Ff46cac7eef1646bfbc486a00a9229817",
+    "avatarAlt": "it干货栈的独家号 - 独家号",
+    "subjectName": "it干货栈的独家号",
+    "homeUrl": "/subjects/83429"
+  },
+  {
+    "title": "996 的乐趣，你是无法想象的",
+    "description": " 原创：小姐姐味道（微信公众号ID：xjjdog），欢迎分享，转载请保留出处。本文虚构了一个愤懑猥琐的loser形象，如有雷同，纯属巧合。本文具有魔幻现实主义色彩，优美的艺术来自生...",
+    "votes": "15",
+    "url": "/k/785u6yx",
+    "avatar": "https://img.toutiao.io/subject%2F6b8e14b561b24dfeac075e2a8dac9bfd",
+    "avatarAlt": "小姐姐味道 - 独家号",
+    "subjectName": "小姐姐味道",
+    "homeUrl": "/subjects/351247"
+  },
+  {
+    "title": "敲开通往架构师的门",
+    "description": "最近学习了一些关于架构设计的知识想分享给大家。俗话说得好，不想当架构师的程序员不是好厨子。那么如何成为一名架构师呢？接下来就聊一聊我的一些想法。什么是架构师 之前有同学问我，做了几...",
+    "votes": "14",
+    "url": "/k/3ginr69",
+    "avatar": "https://img.toutiao.io/subject%2F2d4476b881aa4ea4a48c920c98b901bc",
+    "avatarAlt": "Jackeyzhe的成长 - 独家号",
+    "subjectName": "Jackeyzhe的成长",
+    "homeUrl": "/subjects/67572"
+  },
+  {
     "title": "容器中某 Go 服务 GC 停顿经常超过 100ms 排查",
     "description": "GC停顿经常超过100ms现象有同事反馈说, 最近开始试用公司的k8s, 部署在docker里的go进程有问题, 接口耗时很长, 而且还有超时. 逻辑很简单, 只是调用了kv存储,...",
-    "votes": "13",
+    "votes": "14",
     "url": "/k/4cvlsl0",
     "avatar": "https://img.toutiao.io/subject%2F7f6f8cc56f97459dad43858004334307",
     "avatarAlt": "cultus - 独家号",
@@ -120,24 +130,14 @@
     "homeUrl": "/subjects/90130"
   },
   {
-    "title": "敲开通往架构师的门",
-    "description": "最近学习了一些关于架构设计的知识想分享给大家。俗话说得好，不想当架构师的程序员不是好厨子。那么如何成为一名架构师呢？接下来就聊一聊我的一些想法。什么是架构师 之前有同学问我，做了几...",
-    "votes": "12",
-    "url": "/k/3ginr69",
-    "avatar": "https://img.toutiao.io/subject%2F2d4476b881aa4ea4a48c920c98b901bc",
-    "avatarAlt": "Jackeyzhe的成长 - 独家号",
-    "subjectName": "Jackeyzhe的成长",
-    "homeUrl": "/subjects/67572"
-  },
-  {
-    "title": "外包程序员的幸福生活",
-    "description": "今天给你们讲述一个外包程序员的幸福生活。男主是Z哥，不是在外包公司上班的那种，是一名自由职业者，接外包项目自己干。接下来讲的都是真人真事。 先给大家介绍一下男主，Z哥，老程序员，是...",
-    "votes": "12",
-    "url": "/k/aqu6iwo",
-    "avatar": "https://img.toutiao.io/subject%2F180d026f85274c998656474cd1988d0f",
-    "avatarAlt": "四猿外 - 独家号",
-    "subjectName": "四猿外",
-    "homeUrl": "/subjects/426740"
+    "title": "开源 |《Go 语言高级编程》开源图书",
+    "description": " 点击链接或图片即可阅读 喜欢请分享到朋友圈哦 项目介绍 本书涵盖 CGO、Go 汇编语言、RPC 实现、Web 框架实现、分布式系统等高阶主题，针对 Go 语言有一定经验想深入了...",
+    "votes": "11",
+    "url": "/k/flrbnoq",
+    "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
+    "avatarAlt": "头条精选 - 独家号",
+    "subjectName": "头条精选",
+    "homeUrl": "/subjects/4"
   },
   {
     "title": "[译] 经典系统设计面试题解析：如何设计 TinyURL（最终篇）",
@@ -150,24 +150,24 @@
     "homeUrl": "/subjects/398346"
   },
   {
-    "title": "发号器：分布式 ID 生成系统",
-    "description": "相关文章：浅谈订单号生成设计方案背景在分布式系统中，经常需要对大量的数据、消息、http请求等进行唯一标识，例如：对于分布式系统，服务间相互调用需要唯一标识，调用链路分析的时候需要...",
-    "votes": "10",
-    "url": "/k/rnql9zk",
+    "title": "如何使用 RST 来解决 TCP 断开问题",
+    "description": "女主宣言 最近在团队分享中，关于长链接的服务中，提到了一个TIMEWAIT的解决方案，具体关于TIMEWAIT具体产生的原因，原理，对系统产生的影响，会在其他的文章中给出具体的说明...",
+    "votes": "11",
+    "url": "/k/57k8dbo",
     "avatar": "https://img.toutiao.io/subject%2F08c3200c43064a1babec277646669298",
     "avatarAlt": "黑夜路人 - 独家号",
     "subjectName": "黑夜路人",
     "homeUrl": "/subjects/17093"
   },
   {
-    "title": "面对数据库死锁差点跪",
-    "description": "码上实战理论实践相结合，做个好好学习的宝宝！^_^关注数据库死锁这个问题不知道你有没有遇到过呢？一旦遇到该如何排查问题呢？环境: MySQL 5.7.25 引擎 InnoDB如果你...",
+    "title": "走进 Golang 之编译器原理",
+    "description": "目录如下：认识 go build 编译器原理 词法分析语法分析语义分析中间码生成代码优化机器码生成总结 认识 go build当我们敲下go build的时候，我们写的源码文件究竟...",
     "votes": "10",
-    "url": "/k/5fqur6c",
-    "avatar": "https://img.toutiao.io/subject%2Fd63f79cb85a343fa979d3cbf0bf4ae4a",
-    "avatarAlt": "码上实战 - 独家号",
-    "subjectName": "码上实战",
-    "homeUrl": "/subjects/372416"
+    "url": "/k/vlqlh1n",
+    "avatar": "https://img.toutiao.io/subject%2Fa1e6651109ba4fdca8e6b9c2b39d5aa7",
+    "avatarAlt": "大愚Talk - 独家号",
+    "subjectName": "大愚Talk",
+    "homeUrl": "/subjects/133163"
   },
   {
     "title": "Linux 背后的思想",
@@ -180,23 +180,23 @@
     "homeUrl": "/subjects/378"
   },
   {
-    "title": "MySQL 分页 offset 过大性能问题与优化",
-    "description": "背景最近被DBA报了一个慢查询，一条sql要执行几秒甚至十几秒，直接导致cpu idle报警，幸好线上没有出事故。这里记录下问题的详细信息和解决方案。Mysql表结构大概可以简化为...",
+    "title": "数据分析的价值",
+    "description": "点击上方“大数据与人工智能”，“星标或置顶公众号” 第一时间获取好内容 作者丨gongyouliu编辑丨zandy这是作者的第22篇文章，约5500字，阅读需30分钟 作者从12年...",
     "votes": "9",
-    "url": "/k/3b6y2bi",
-    "avatar": "https://img.toutiao.io/subject%2Fba1b88cabb4f4845998c301ff8663fd9",
-    "avatarAlt": "DaemonCoder - 独家号",
-    "subjectName": "DaemonCoder",
-    "homeUrl": "/subjects/77895"
+    "url": "/k/4jwtut0",
+    "avatar": "https://img.toutiao.io/subject%2Faadbad2fe9e14ff3b32205dbee50ecfe",
+    "avatarAlt": "大数据与人工智能 - 独家号",
+    "subjectName": "大数据与人工智能",
+    "homeUrl": "/subjects/392714"
   },
   {
-    "title": "线上问题排查，这些命令你一定用得到",
-    "description": "线上问题排查，以下场景，你遇到过吗？ 一、了解机器连接数情况问题：1.2.3.4的sshd的监听端口是22，如何统计1.2.3.4的sshd服务各种连接状态(TIME_WAIT/ ...",
+    "title": "吐血推荐珍藏的 Visual Studio Code 插件",
+    "description": "作为一名Java工程师，由于工作需要，最近一个月一直在写NodeJS，这种经历可以说是一部辛酸史了。好在有神器Visual Studio Code陪伴，让我的这段经历没有更加困难。...",
     "votes": "9",
-    "url": "/k/jc85n4j",
-    "avatar": "https://img.toutiao.io/subject%2F335d2eb0faf44e53896d0ec9fb798775",
-    "avatarAlt": "米冉的独家号 - 独家号",
-    "subjectName": "米冉的独家号",
-    "homeUrl": "/subjects/225136"
+    "url": "/k/qm7lg6s",
+    "avatar": "https://img.toutiao.io/subject%2F2d4476b881aa4ea4a48c920c98b901bc",
+    "avatarAlt": "Jackeyzhe的成长 - 独家号",
+    "subjectName": "Jackeyzhe的成长",
+    "homeUrl": "/subjects/67572"
   }
 ]

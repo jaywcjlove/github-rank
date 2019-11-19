@@ -1,12 +1,30 @@
 [
   {
-    "title": "“寒冬”三年经验前端面试总结（含头条、百度、饿了么、滴滴等）之CSS篇",
-    "description": "不论是寒冬还是暖冬，找工作之前都需要做好充足的准备，面试的时候才能做到游刃有余。此文是把我最近找工作准备的以及笔试面试中涉及到的手写题做一个总结。给自己，也给需要的同学。",
-    "url": "https://segmentfault.com/a/1190000020966360",
-    "author": "阳呀呀",
-    "home_url": "https://segmentfault.com/u/yangyaya",
-    "votes": "111",
+    "title": "vue中使用锚点定位",
+    "description": "vue中使用锚点定位 {代码...} 本文参考链接：[链接]",
+    "url": "https://segmentfault.com/a/1190000021047936",
+    "author": "yang",
+    "home_url": "https://segmentfault.com/u/yang_5c8f63fe0d5aa",
+    "votes": "2",
     "rank": 1
+  },
+  {
+    "title": "简单易懂的 React useState() Hook 指南（长文建议收藏）",
+    "description": "状态是隐藏在组件中的信息，组件可以在父组件不知道的情况下修改其状态。我更偏爱函数组件，因为它们足够简单，要使函数组件具有状态管理，可以useState() Hook。",
+    "url": "https://segmentfault.com/a/1190000021010240",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "16",
+    "rank": 2
+  },
+  {
+    "title": "从零手写逐步实现Promise A+标准的所有方法",
+    "description": "GitHub仓库更有自己实现的webpack、mini-react、redux、react-redux、websocket , Electron跨平台桌面端、React-native移动端开源项目等",
+    "url": "https://segmentfault.com/a/1190000021040201",
+    "author": "Peter谭金杰",
+    "home_url": "https://segmentfault.com/u/jerrytanjinjie",
+    "votes": "17",
+    "rank": 3
   },
   {
     "title": "PHP 中通过 getopt 解析 GNU C 风格命令行选项",
@@ -14,53 +32,8 @@
     "url": "https://segmentfault.com/a/1190000021033608",
     "author": "周梦康",
     "home_url": "https://segmentfault.com/u/zhoumengkang",
-    "votes": "2",
-    "rank": 2
-  },
-  {
-    "title": "supervisor + 钉钉实现线上告警",
-    "description": "为了确保线上项目的稳定性，需要对supervisor多次重新拉启失败后的进程，进行钉钉告警，以便相关的技术人员能及时处理。具体实现的效果如下：",
-    "url": "https://segmentfault.com/a/1190000021032998",
-    "author": "phplife",
-    "home_url": "https://segmentfault.com/u/phplife",
-    "votes": "2",
-    "rank": 3
-  },
-  {
-    "title": "解读 https 通信",
-    "description": "在浏览器与服务器之间进行通信主要有 http 和 https 两种方式。对于 http 而言，这是一种明文传输的通信协议，这就让客户端与服务器之间的明文通信容易让黑客窃取甚至篡改，无法保证安全。因而引入了 https 协议...",
-    "url": "https://segmentfault.com/a/1190000021033772",
-    "author": "guozhchun",
-    "home_url": "https://segmentfault.com/u/guozhchun",
-    "votes": "1",
+    "votes": "6",
     "rank": 4
-  },
-  {
-    "title": "一个秒杀系统的设计思考",
-    "description": "秒杀大家都不陌生。自2011年首次出现以来，无论是双十一购物还是 12306 抢票，秒杀场景已随处可见。简单来说，秒杀就是在同一时刻大量请求争抢购买同一商品并完成交易的过程。从架构视角来看，秒杀系统本质是一个...",
-    "url": "https://segmentfault.com/a/1190000020970562",
-    "author": "阿哲",
-    "home_url": "https://segmentfault.com/u/ialan",
-    "votes": "70",
-    "rank": 5
-  },
-  {
-    "title": "14 个拷贝数组的 JS 技巧",
-    "description": "数组拷贝经常被误解，但这并不是因为拷贝过程本身，而是因为缺乏对 JS 如何处理数组及其元素的理解。JS 中的数组是可变的，这说明在创建数组之后还可以修改数组的内容。",
-    "url": "https://segmentfault.com/a/1190000020978127",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "42",
-    "rank": 6
-  },
-  {
-    "title": "一段监视 DOM 的神奇代码",
-    "description": "作者：Eddie Aich翻译：疯狂的技术宅 原文：[链接] 未经允许严禁转载 通过使用此模块，只需将鼠标悬停在浏览器中，即可快速查看DOM元素的属性。基本上它是一个即时检查器。 将鼠标悬停在 DOM 元素上会显示其属性...",
-    "url": "https://segmentfault.com/a/1190000020968664",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "62",
-    "rank": 7
   },
   {
     "title": "前端数据结构与算法细致分析—上（复杂度分析）",
@@ -68,71 +41,17 @@
     "url": "https://segmentfault.com/a/1190000021026249",
     "author": "Yxaw",
     "home_url": "https://segmentfault.com/u/yxaw",
-    "votes": "21",
-    "rank": 8
+    "votes": "40",
+    "rank": 5
   },
   {
-    "title": "从 Proxy 到 Vue 源码，深入理解 Vue 3.0 响应系统",
-    "description": "最近被公众号各种推送关于 Vue 3 的文章（真是不想学都不行啊），因为现在 Vue 还处于 pre-alpha 状态，所以很多功能尚未实现（这就意味着源码量相对较少，阅读起来也相对比较容易）。此次版本中的重大改进之一是...",
-    "url": "https://segmentfault.com/a/1190000021003414",
-    "author": "Leiy",
-    "home_url": "https://segmentfault.com/u/webinfoq",
-    "votes": "17",
-    "rank": 9
-  },
-  {
-    "title": "React 开发必须知道的 34 个技巧【近1W字】",
-    "description": "React 是前端三大框架之一,在面试和开发中也是一项技能;本文从实际开发中总结了 React 开发的一些技巧技巧,适合 React 初学或者有一定项目经验的同学;万字长文,建议收藏。 序列文章:Vue 开发必须知道的 36 个技巧...",
-    "url": "https://segmentfault.com/a/1190000020984842",
-    "author": "火狼",
-    "home_url": "https://segmentfault.com/u/huolang_5a14e07d2f2ff",
-    "votes": "44",
-    "rank": 10
-  },
-  {
-    "title": "GitHub 启动代码永久保存计划，为人类文明留“火种”？",
-    "description": "2019 年 11月 13-14 日，GitHub 举办了年度开发者大会 GitHub Universe 2019。",
-    "url": "https://segmentfault.com/a/1190000021010098",
-    "author": "徐九",
-    "home_url": "https://segmentfault.com/u/weepie",
-    "votes": "9",
-    "rank": 11
-  },
-  {
-    "title": "90行JS代码构建属于你的React",
-    "description": "本文中的实现借助了 snabbdom ，因此如果你的关注点是虚拟DOM的实现或是将虚拟DOM渲染到浏览器的底层实现，本篇文章中并不会涉及到。",
-    "url": "https://segmentfault.com/a/1190000020995110",
-    "author": "刘小夕",
-    "home_url": "https://segmentfault.com/u/liuyan666",
-    "votes": "19",
-    "rank": 12
-  },
-  {
-    "title": "Java I/O体系从原理到应用，这一篇全说清楚了",
-    "description": "本文介绍操作系统I/O工作原理，Java I/O设计，基本使用，开源项目中实现高性能I/O常见方法和实现，彻底搞懂高性能I/O之道",
-    "url": "https://segmentfault.com/a/1190000020993686",
-    "author": "分布式系统架构",
-    "home_url": "https://segmentfault.com/u/fenbushixitongjiagou",
-    "votes": "25",
-    "rank": 13
-  },
-  {
-    "title": "小程序篇(3)：瀑布流",
-    "description": "瀑布流是一种很常见的网页布局，视觉表现为参差不齐的多栏布局，是一种时下很流行的布局形式，最近在写小程序恰好也碰到了，想了几种不同的实现方法，接下来就来一起看看具体的实现方法（所用的方法中用的例子都...",
-    "url": "https://segmentfault.com/a/1190000021031631",
-    "author": "william",
-    "home_url": "https://segmentfault.com/u/liwenjie_59a4eecc51e6a",
-    "votes": "2",
-    "rank": 14
-  },
-  {
-    "title": "通过 20 个棘手的ES6面试问题来提高咱们的 JS 技能",
-    "description": "ECMAScript 6（以下简称ES6）是 JS 语言的下一代标准，已经在2015年6月正式发布了。它的目标，是使得 JS 语言可以用来编写复杂的大型应用程序，成为企业级开发语言。接下来咱们来看看 20 道棘手的面试题，通过做...",
-    "url": "https://segmentfault.com/a/1190000020927871",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "46",
-    "rank": 15
+    "title": "webpack常用配置总览",
+    "description": "看《深入浅出webpack》总结一下常用的webpack的属性的含义并加了一些自己的链接，写在一个文件下更能有全局感受，更能理解各个属性中间的关系，重点要关注entry,output,resolve,module, plugins几部分",
+    "url": "https://segmentfault.com/a/1190000021031425",
+    "author": "jackwang",
+    "home_url": "https://segmentfault.com/u/jackwang_58a989575834c",
+    "votes": "20",
+    "rank": 6
   },
   {
     "title": "Docker 构建脚本 Dockerfile 指令全解析",
@@ -140,53 +59,44 @@
     "url": "https://segmentfault.com/a/1190000021033342",
     "author": "码农小胖哥",
     "home_url": "https://segmentfault.com/u/10000000",
-    "votes": "1",
-    "rank": 16
+    "votes": "9",
+    "rank": 7
   },
   {
-    "title": "docker-compose 部署 Vue+SpringBoot 前后端分离项目",
-    "description": "本文将通过docker-compose来部署前端Vue项目到Nginx中，和运行后端SpringBoot项目",
-    "url": "https://segmentfault.com/a/1190000021008496",
-    "author": "郑清",
-    "home_url": "https://segmentfault.com/u/zhengqing",
-    "votes": "11",
-    "rank": 17
+    "title": "14 个拷贝数组的 JS 技巧",
+    "description": "数组拷贝经常被误解，但这并不是因为拷贝过程本身，而是因为缺乏对 JS 如何处理数组及其元素的理解。JS 中的数组是可变的，这说明在创建数组之后还可以修改数组的内容。",
+    "url": "https://segmentfault.com/a/1190000020978127",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "47",
+    "rank": 8
   },
   {
-    "title": "19 个来自 2019 React Conf 的总结",
-    "description": "React Conf ⚛️已经正式结束。有很多精彩的演讲，人物，活动，当然还有美食。我还在整理整个活动，但是就这次会议而言，这是迄今为止我参加过的最好的活动。",
-    "url": "https://segmentfault.com/a/1190000020973753",
-    "author": "joking_zhang",
-    "home_url": "https://segmentfault.com/u/joking_zhang",
-    "votes": "29",
-    "rank": 18
+    "title": "supervisor + 钉钉实现线上告警",
+    "description": "为了确保线上项目的稳定性，需要对supervisor多次重新拉启失败后的进程，进行钉钉告警，以便相关的技术人员能及时处理。具体实现的效果如下：",
+    "url": "https://segmentfault.com/a/1190000021032998",
+    "author": "phplife",
+    "home_url": "https://segmentfault.com/u/phplife",
+    "votes": "8",
+    "rank": 9
   },
   {
-    "title": "前端知识点总结--ES6入门",
-    "description": "ES6 推荐在函数中使用 let 定义变量const 用来声明一个常量 (值类似值不能改变，引用类型地址不能改变)let 和 const 只在最近的一个块中（花括号中）有效",
-    "url": "https://segmentfault.com/a/1190000020976554",
-    "author": "楷楷",
-    "home_url": "https://segmentfault.com/u/kaikai_5a484b1131e4c",
-    "votes": "18",
-    "rank": 19
+    "title": "外行人都能看懂的WebFlux，错过了血亏！",
+    "description": "如果有关注我公众号文章的同学就会发现，最近我不定时转发了一些比较好的WebFlux的文章，因为我最近在学。",
+    "url": "https://segmentfault.com/a/1190000021038373",
+    "author": "Java3y",
+    "home_url": "https://segmentfault.com/u/java_3y",
+    "votes": "9",
+    "rank": 10
   },
   {
-    "title": "如何利用缓存机制实现JAVA类反射性能提升30倍",
-    "description": "文章来源：宜信技术学院 & 宜信支付结算团队技术分享第4期-支付结算部支付研发团队高级工程师陶红《JAVA类反射技术&优化》分享者：宜信支付结算部支付研发团队高级工程师陶红 原文首发于宜信支付结算技术...",
-    "url": "https://segmentfault.com/a/1190000020986852",
-    "author": "宜信技术学院",
-    "home_url": "https://segmentfault.com/u/gaoleihan",
-    "votes": "29",
-    "rank": 20
-  },
-  {
-    "title": "axios如何利用promise无痛刷新token（二）",
-    "description": "前段时间写了篇文章《axios如何利用promise无痛刷新token》，陆陆续续收到一些反馈。发现不少同学会想要从在请求前拦截的思路入手，甚至收到了几个邮件来询问博主遇到的问题，所以索性再写一篇文章来说说另一个思...",
-    "url": "https://segmentfault.com/a/1190000020986592",
-    "author": "fengxianqi",
-    "home_url": "https://segmentfault.com/u/fengxianqi",
-    "votes": "24",
-    "rank": 21
+    "title": "精读《React Conf 2019 - Day2》",
+    "description": "Fast refresh 是更好的 react-hot-loader 替代方案，目前仅支持 react-native 平台，很快就会支持 react-dom 平台。",
+    "url": "https://segmentfault.com/a/1190000021037818",
+    "author": "黄子毅",
+    "home_url": "https://segmentfault.com/u/aoyangyudakong",
+    "votes": "5",
+    "rank": 11
   },
   {
     "title": "前端性能和错误监控",
@@ -194,8 +104,35 @@
     "url": "https://segmentfault.com/a/1190000021029136",
     "author": "woai3c",
     "home_url": "https://segmentfault.com/u/woai3c",
-    "votes": "4",
-    "rank": 22
+    "votes": "14",
+    "rank": 12
+  },
+  {
+    "title": "typescript 3.7 中值得注意的 3 个新特性",
+    "description": "距 typescript 3.7 正式发布已经有一段时间了，这段时间正在对手上的项目进行 typescript 的迁移工作，所以会特别留意每一次的 release。",
+    "url": "https://segmentfault.com/a/1190000021034905",
+    "author": "littleLyon",
+    "home_url": "https://segmentfault.com/u/littlelyon",
+    "votes": "6",
+    "rank": 13
+  },
+  {
+    "title": "JS数组Reduce方法详解",
+    "description": "一直以来都在函数式编程的大门之外徘徊，要入门的话首先得熟悉各种高阶函数，数组的reduce方法就是其中之一。",
+    "url": "https://segmentfault.com/a/1190000021039129",
+    "author": "nero",
+    "home_url": "https://segmentfault.com/u/neronero",
+    "votes": "8",
+    "rank": 14
+  },
+  {
+    "title": "React 开发必须知道的 34 个技巧【近1W字】",
+    "description": "React 是前端三大框架之一,在面试和开发中也是一项技能;本文从实际开发中总结了 React 开发的一些技巧技巧,适合 React 初学或者有一定项目经验的同学;万字长文,建议收藏。 序列文章:Vue 开发必须知道的 36 个技巧...",
+    "url": "https://segmentfault.com/a/1190000020984842",
+    "author": "火狼",
+    "home_url": "https://segmentfault.com/u/huolang_5a14e07d2f2ff",
+    "votes": "47",
+    "rank": 15
   },
   {
     "title": "教你应付一个很恶心却常见的需求（点击自身以外的区域关闭自己）",
@@ -203,61 +140,115 @@
     "url": "https://segmentfault.com/a/1190000021020795",
     "author": "machinist",
     "home_url": "https://segmentfault.com/u/machinist",
-    "votes": "5",
+    "votes": "8",
+    "rank": 16
+  },
+  {
+    "title": "【全栈修炼】CORS和CSRF修炼宝典",
+    "description": "《全栈修炼》系列 《【全栈修炼】OAuth2修炼宝典》 CORS 和 CSRF 太容易混淆了，看完本文，你就清楚了。 一、CORS 和 CSRF 区别 先看下图： 两者概念完全不同，另外常常我们也会看到 XSS ，这里一起介绍： CORS ...",
+    "url": "https://segmentfault.com/a/1190000021035150",
+    "author": "pingan8787",
+    "home_url": "https://segmentfault.com/u/pingan8787",
+    "votes": "2",
+    "rank": 17
+  },
+  {
+    "title": "Java升级那么快，多个版本如何灵活切换和管理？",
+    "description": "近两年，Java 版本升级频繁，感觉刚刚掌握 Java8，写本文时，已听到 java14 的消息，无论是尝鲜新特性(Java12 中 Collectors.teeing 超强功能使用)，还是由于项目升级/兼容需要，我们可能都要面临管理多个 Java ...",
+    "url": "https://segmentfault.com/a/1190000021037771",
+    "author": "日拱一兵",
+    "home_url": "https://segmentfault.com/u/tanrigongyibing",
+    "votes": "8",
+    "rank": 18
+  },
+  {
+    "title": "ECharts 打造在线个人简历",
+    "description": "使用 GitHub Pages 和 VuePress 搭建网站：[链接] ECharts 打造在线个人简历：[链接]",
+    "url": "https://segmentfault.com/a/1190000021035745",
+    "author": "yang",
+    "home_url": "https://segmentfault.com/u/yang_5c8f63fe0d5aa",
+    "votes": "4",
+    "rank": 19
+  },
+  {
+    "title": "面向对象的设计过程",
+    "description": "前言 我一直认为分享的目的不是炫技。 一是，自我学习的总结。 二是，降低他人的学习成本。 三是，别人对自己学习结果的审核。 同时，本次分享有下面四个要素： 观点 本次分享的观点是一个软件工程中的思维方法，...",
+    "url": "https://segmentfault.com/a/1190000021047112",
+    "author": "TIGERB",
+    "home_url": "https://segmentfault.com/u/tigerb",
+    "votes": "6",
+    "rank": 20
+  },
+  {
+    "title": "从 Proxy 到 Vue 源码，深入理解 Vue 3.0 响应系统",
+    "description": "最近被公众号各种推送关于 Vue 3 的文章（真是不想学都不行啊），因为现在 Vue 还处于 pre-alpha 状态，所以很多功能尚未实现（这就意味着源码量相对较少，阅读起来也相对比较容易）。此次版本中的重大改进之一是...",
+    "url": "https://segmentfault.com/a/1190000021003414",
+    "author": "Leiy",
+    "home_url": "https://segmentfault.com/u/webinfoq",
+    "votes": "19",
+    "rank": 21
+  },
+  {
+    "title": "19 个来自 2019 React Conf 的总结",
+    "description": "React Conf ⚛️已经正式结束。有很多精彩的演讲，人物，活动，当然还有美食。我还在整理整个活动，但是就这次会议而言，这是迄今为止我参加过的最好的活动。",
+    "url": "https://segmentfault.com/a/1190000020973753",
+    "author": "joking_zhang",
+    "home_url": "https://segmentfault.com/u/joking_zhang",
+    "votes": "34",
+    "rank": 22
+  },
+  {
+    "title": "小程序篇(3)：瀑布流",
+    "description": "瀑布流是一种很常见的网页布局，视觉表现为参差不齐的多栏布局，是一种时下很流行的布局形式，最近在写小程序恰好也碰到了，想了几种不同的实现方法，接下来就来一起看看具体的实现方法（所用的方法中用的例子都...",
+    "url": "https://segmentfault.com/a/1190000021031631",
+    "author": "william",
+    "home_url": "https://segmentfault.com/u/liwenjie_59a4eecc51e6a",
+    "votes": "7",
     "rank": 23
   },
   {
-    "title": "“狗屁不通文章生成器”登顶GitHub热榜？",
-    "description": "GitHub 被誉为全球最大的同性交友网站，……，陪伴我们已经走过 10+ 年时间，它托管了大量的软件代码，同时也承载了程序员无尽的欢乐。",
-    "url": "https://segmentfault.com/a/1190000020994782",
-    "author": "苏南",
-    "home_url": "https://segmentfault.com/u/susouth",
-    "votes": "7",
+    "title": "90行JS代码构建属于你的React",
+    "description": "本文中的实现借助了 snabbdom ，因此如果你的关注点是虚拟DOM的实现或是将虚拟DOM渲染到浏览器的底层实现，本篇文章中并不会涉及到。",
+    "url": "https://segmentfault.com/a/1190000020995110",
+    "author": "刘小夕",
+    "home_url": "https://segmentfault.com/u/liuyan666",
+    "votes": "22",
     "rank": 24
   },
   {
-    "title": "React高级面试题",
-    "description": "虚拟DOM（VDOM）它是真实DOM的内存表示,一种编程概念，一种模式。它会和真实的DOM同步，比如通过ReactDOM这种库，这个同步的过程叫做调和(reconcilation)。",
-    "url": "https://segmentfault.com/a/1190000020993113",
-    "author": "浅夏晴空",
-    "home_url": "https://segmentfault.com/u/qianxiaqingkong",
-    "votes": "16",
+    "title": "为了让大家能在vuepress中写react，我开发了rcpress",
+    "description": "众所周知，vuepress是一款比较著名的文档生产工具。其特点是功能强大，使用简洁。以前开发vue组件时，写文档使用的就是它，之后转战react后觉得没有类似的顺手的文档工具，就模仿vuepress写了这个rcpress。",
+    "url": "https://segmentfault.com/a/1190000021039274",
+    "author": "王wwyy",
+    "home_url": "https://segmentfault.com/u/wangyi_584682e394577",
+    "votes": "6",
     "rank": 25
   },
   {
-    "title": "为你重新系统梳理下， Web 体验优化中和图有关的那些事（万字长文）",
-    "description": "Web 页面性能优化，解决了图片相关，问题就解决了大半。本文从 Web 常见的图片格式入手，引出与图片优化相关的有效方案，期望对大家能有一点帮助。",
-    "url": "https://segmentfault.com/a/1190000020967587",
-    "author": "政采云前端团队",
-    "home_url": "https://segmentfault.com/u/zhengcaiyunqianduantuandui",
-    "votes": "22",
+    "title": "Springboot：高并发下耗时操作的实现",
+    "description": "高并发下，就是请求在一个时间点比较多时，很多写的请求打过来时，你的服务器承受很大的压力，当你的一个请求处理时间长时，这些请求将会把你的服务器线程耗尽，即你的主线程池里的线程将不会再有空闲状态的，再...",
+    "url": "https://segmentfault.com/a/1190000021035759",
+    "author": "Java大蜗牛",
+    "home_url": "https://segmentfault.com/u/hainabaichuana",
+    "votes": "3",
     "rank": 26
   },
   {
-    "title": "让你的组件千变万化，Vue slot 剖玄析微",
-    "description": "Vue 代码中的 slot 是什么，简单来说就是插槽。 <slot> 元素作为组件模板之中的内容分发插槽，传入内容后 <slot> 元素自身将被替换。",
-    "url": "https://segmentfault.com/a/1190000021005263",
-    "author": "政采云前端团队",
-    "home_url": "https://segmentfault.com/u/zhengcaiyunqianduantuandui",
-    "votes": "9",
+    "title": "【Golang小知识】new与make的区别",
+    "description": "new只有一个Type参数，Type可以是任意类型数据。make可以有多个参数，其中第一个参数与new的参数相同，但是只能是slice，map，或者chan中的一种。对于不同类型，size参数说明如下：",
+    "url": "https://segmentfault.com/a/1190000021034737",
+    "author": "moonbamboo",
+    "home_url": "https://segmentfault.com/u/moonbamboogo",
+    "votes": "2",
     "rank": 27
   },
   {
-    "title": "前端攻城狮得会点抓包数据",
-    "description": "青花瓷抓包是Mac上非常好用的抓包工具,因为有时候需要抓一些数据和资源,非常的好用,但是现在的App,几乎都是HTTPS加密,以至于很多时候抓的包乱码,为了解决这个问题,特此写一篇抓包HTTPS的教程.",
-    "url": "https://segmentfault.com/a/1190000021010327",
-    "author": "极客James",
-    "home_url": "https://segmentfault.com/u/jikejames",
-    "votes": "5",
+    "title": "时序数据库 InfluxDB（七）",
+    "description": "InfluxDB 开源的社区版本面临的最大的问题就是单点故障和容灾备份，有没有一个简单的方案去解决这个问题呢？",
+    "url": "https://segmentfault.com/a/1190000021035679",
+    "author": "rife",
+    "home_url": "https://segmentfault.com/u/rife",
+    "votes": "3",
     "rank": 28
-  },
-  {
-    "title": "ES6、ES7、ES8、ES9、ES10新特性一览",
-    "description": "1.ES6新特性（2015） 类 模块化 箭头函数 函数参数默认值 模板字符串 解构赋值 延展操作符 对象属性简写 Promise Let与Const 1.1模块化(Module) ES5不支持原生的模块化，在ES6中模块作为重要的组成部分被添加进来...",
-    "url": "https://segmentfault.com/a/1190000021018253",
-    "author": "樱桃",
-    "home_url": "https://segmentfault.com/u/yingtao_5c235a47953d5",
-    "votes": "4",
-    "rank": 29
   }
 ]
