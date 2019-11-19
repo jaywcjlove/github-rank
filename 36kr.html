@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/x-icon" href="https://github.githubassets.com/favicon.ico">
+  <title> 36Kr快讯 </title>
+  <meta name="description" content="36Kr快讯">
+  <style>
+    * { box-sizing: border-box; }
+    html, body, ul, li, h1 { margin: 0; padding: 0 }
+    html, body { font-size: 16px; font-family: -apple-system,"Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","WenQuanYi Micro Hei","Microsoft Yahei",sans-serif; }
+    ul { list-style: none; }
+    body { text-align: center; }
+    a { color: #333; text-decoration: none; transition: all .2s ease-in; }
+    a:hover { color: #1600ff; }
+    a.github-corner:hover .octo-arm { animation: octocat-wave 560ms ease-in-out; }
+    a.github-corner svg { fill: #f1f1f1; color: #000; position: absolute; top: 0; border: 0; right: 0; z-index: 99; width: 70px; height: 70px; }
+    a.github-corner { position: fixed; z-index: 9999; top: 0; right: 0; }
+    .title { padding: 46px 0 0 0; font-size: 18px; line-height: 24px; }
+    .time, .footer { padding: 5px 0 2px 0; font-size: 12px; color: #adadad; }
+    .tabs { padding: 10px 0 15px 0;}
+    .tabs a { background: #e2e2e2; display: inline-block; padding: 3px 7px; font-size: 12px; line-height: 16px; color: #0366d6; }
+    .tabs a.active { background: #696969; color: #efefef; }
+    .footer { padding: 10px 0 30px 0; }
+    .list { text-align: left; max-width: 470px; margin: 0 auto; padding-bottom: 10px; background-color: #efefef; border-radius: 5px; overflow: hidden; }
+    .list img { width: 36px; height: 36px; border-radius: 3px; display: block; margin: 0 auto; background-color: #e2e2e2; border: 0; overflow: hidden; }
+    .list a { color: #0366d6; }
+    .list a:hover { color: #1600ff; }
+    .list li { padding: 5px; margin: 0 8px; transition: all .3s; border-bottom: 1px solid #d8d8d8; }
+    .list li.rank-title { background-color: #e2e2e2; margin: 0; padding: 7px 13px; margin-bottom: 10px; border-radius: 0; font-size: 14px; line-height: 16px; }
+    .list li.rank-title:hover { background: #e2e2e2; }
+    .list li:last-child, .list li.rank-title { border-bottom: 0; }
+    .list li:hover { background: rgba(255, 255, 255, 0.56); }
+    .list li > div { display: table-cell; vertical-align: top; font-size: 14px; }
+    .list li div.rank { padding: 0 8px; }
+    .list li div.rank span { font-weight: bold; }
+    .list li div.details { padding: 2px 0 0 9px; font-size: 12px; float: left; color: #b9b9b9; }
+    .list li div.details a { color: #b9b9b9; transition: all .3s; }
+    .list li div.details a:hover { color: #1600ff; }
+    .list li div.details a:hover svg { fill: #1600ff; }
+    .list li div.details * { vertical-align: middle; }
+    .list li div.details .localtion { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; max-width: 150px; display: inline-block; height: 14px; }
+    .list li div.details svg { width: 12px; height: 12px; margin-top: 0; margin-right: 2px; fill: #b9b9b9; display: inline-block; }
+    .list li > div.info { width: 100%; }
+    .list li > div.info i { color: #717171; }
+    .list li > div.info a:hover i { color: #333; }
+    .list li div.sub-title { color: #333; margin: 4px 0 0 3px;}
+    .list li a.language,
+    .list li span.star { height: 18px; background: #e2e2e2; display: inline-block; padding: 2px 4px; border-radius: 3px; }
+    .list li div.followers { font-size: 12px; color: #7d7d7d; white-space:nowrap; padding-left: 5px; padding-top: 2px; border-radius: 3px; }
+    .list li div.followers a { color: #545454; }
+    .list li div.followers * { vertical-align: middle; }
+    .list li div.followers svg { vertical-align: text-top; display: inline-block; fill: #9E9E9E; width: 14px; height: 14px; }
+    .list .select { float: right; line-height: 14px; line-height: 16px; }
+    .list .select .active { color: #333; font-weight: bold; }
+    .list.repos.trending .language > span { border-radius: 50%; display: inline-block; position: relative; height: 10px; width: 10px; vertical-align: middle; top: -1px; margin-right: 4px; }
+    .list.repos li div.followers { display: inline-block; padding-right: 5px; }
+    .list.repos li div.details { width: 100%; }
+    @keyframes octocat-wave{
+      0%,100%{-webkit-transform:rotate(0); transform:rotate(0);}
+      20%,60%{-webkit-transform:rotate(-25deg); transform:rotate(-25deg);}
+      40%,80%{-webkit-transform:rotate(10deg); transform:rotate(10deg);}
+    }
+  </style>
+</head>
+<body>
+  <a href="https://github.com/jaywcjlove/github-rank" target="_blank" class="github-corner">
+    <svg viewBox="0 0 250 250">
+      <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+      <path class="octo-arm" fill="currentColor" style="transform-origin: 130px 106px;" d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"></path>
+      <path fill="currentColor" class="octo-body" d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"></path>
+    </svg>
+  </a>
+  <h1 class="title"> 36Kr快讯 </h1>
+  <div class="time">Last cache created on 2019/11/19 by Github API v3.</div>
+  <div class="tabs">
+    <a class="" href="index.html">Users</a>
+    <a class="" href="repos.html">Repos</a>
+    <a class="" href="trending.html">Trending</a>
+    <a class="" href="sifou-daily.html">Sifou</a>
+    <a class="" href="toutiao-7.html">开发头条</a>
+    <a class="active" href="36kr.html">36Kr</a>
+  </div>
+<ul class="list">
+    <li class="rank-title">
+      <a href="https://36kr.com/newsflashes" target="_blank">36Kr快讯</a>
+    </li>
+    
+    <li>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 1">1</span>
+          <a href="http://baijiahao.baidu.com/s?id=1650587090217103524&amp;wfr=spider&amp;for=pc" target="_blank" title="6G专家组成员：速率是5G的10至100倍，预计2030年商用">6G专家组成员：速率是5G的10至100倍，预计2030年商用</a>
+        </div>
+        <div class="details">
+          11月3日，国家6G技术研发推进工作组和总体专家组宣告成立，标志着中国6G技术研发工作正式启动。6G总体专家组成员、中国电信技术创新中心副主任杨峰义在接受澎湃新闻记者采访时表示，目前6G研究领域还出于探索阶段，技术上无任何倾向性。如果单从速率来看，6G应该会是5G的10到100倍。（经济日报）
+        </div>
+      </div>
+    </li>
+    
+    <li>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 2">2</span>
+          <a href="https://finance.sina.com.cn/china/dfjj/2019-11-19/doc-iihnzhfz0170014.shtml" target="_blank" title="天津与华为共建天津鲲鹏生态创新中心">天津与华为共建天津鲲鹏生态创新中心</a>
+        </div>
+        <div class="details">
+          天津市政府与华为技术有限公司签署战略合作框架协议，双方将在津共建鲲鹏生态创新中心，加快鲲鹏计算产业规划、布局和建设，打造鲲鹏计算产业示范区。与此同时，华为还与滨海新区、市委网信办、市工业和信息化局、滨海高新区管委会共同签署五方合作协议，推进框架协议有关项目加快落地。（天津日报）
+        </div>
+      </div>
+    </li>
+    
+    <li>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 3">3</span>
+          <a href="https://www.thepaper.cn/newsDetail_forward_4993264" target="_blank" title="斥资5亿美元，爱彼迎成为第14家奥运会顶级赞助商">斥资5亿美元，爱彼迎成为第14家奥运会顶级赞助商</a>
+        </div>
+        <div class="details">
+          国际奥林匹克委员会与美国共享住宿平台Airbnb爱彼迎共同宣布，爱彼迎将为奥林匹克运动提供支持，成为第14家奥运会顶级赞助商直至2028年。这一为期9年的合作将覆盖3届夏季奥运会和2届冬季奥运会，另据国际奥委会与国际残奥委会的长期合作协议，爱彼迎也取得了国际残奥委会、残奥会及青奥会的市场营销权益。（澎湃）
+        </div>
+      </div>
+    </li>
+    
+    <li>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 4">4</span>
+          <a href="https://cn.wsj.com/articles/%C3%A4%C2%B8%C2%8E%C3%A7%C2%A6%C2%8F%C3%A7%C2%89%C2%B9%C3%A6%C2%95%C2%B2%C3%A5%C2%AE%C2%9A%C3%A5%C2%8A%C2%B3%C3%A8%C2%B5%C2%84%C3%A5%C2%8D%C2%8F%C3%A8%C2%AE%C2%AE%C3%A5%C2%90%C2%8E%C3%AF%C2%BC%C2%8Cuaw%C3%A8%C2%BD%C2%AC%C3%A5%C" target="_blank" title="与福特敲定劳资协议后，UAW转向与菲亚特克莱斯勒的谈判">与福特敲定劳资协议后，UAW转向与菲亚特克莱斯勒的谈判</a>
+        </div>
+        <div class="details">
+          随着福特汽车公司达成新的劳资协议，全美汽车工人联合会将把接下来的工作重心转向与菲亚特克莱斯勒的谈判。劳工专家说，UAW与福特汽车和通用汽车达成的协议包括了涨薪、调整新员工工资以及为临时工提供全职工作途径的条款。但是对菲亚特克莱斯勒来说，接受这类条款成本更高，因为相比福特和通用汽车，该公司劳动力中新员工更多，挣最高工资的人更少。（华尔街日报）
+        </div>
+      </div>
+    </li>
+    
+    <li>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 5">5</span>
+          <a href="https://36kr.com/p/5267204" target="_blank" title="“​易捷行云EasyStack”获中国系统数亿元融资">“​易捷行云EasyStack”获中国系统数亿元融资</a>
+        </div>
+        <div class="details">
+          36氪获悉，11月18日，中国电子系统技术有限公司（中国系统）宣布完成对易捷行云EasyStack的数亿元战略投资。本轮融资后，双方将共同构建基于“PK体系”的企业级云基础架构PKC，进一步完善一体化数字“底座”，推动我国现代数字城市建设快速发展。易捷行云EasyStack成立于2014年2月，是一家企业私有云产品服务商。
+        </div>
+      </div>
+    </li>
+    
+    <li>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 6">6</span>
+          <a href="https://tech.163.com/19/1119/07/EUB1L80I00097U7T.html" target="_blank" title="电动汽车创业公司拜腾获加州经销商许可">电动汽车创业公司拜腾获加州经销商许可</a>
+        </div>
+        <div class="details">
+          据外媒报道，拜腾表示获得加州的经销商许可，该许可证将有助于拜腾通过自家基础设施以及美国零售合作伙伴销售和服务车辆。拜腾还表示，它已经成立Byton Cars California LLC作为其零售实体，一旦获得了加州经销商执照，它将能够直接向加州客户销售和租赁汽车，并在其他州进行网上销售。拜腾将于2020年在中国市场推出电动SUV, 2021年在美国和欧盟推出电动SUV。（网易科技）
+        </div>
+      </div>
+    </li>
+    
+    <li>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 7">7</span>
+          <a href="https://www.thepaper.cn/newsDetail_forward_4989513" target="_blank" title="携号转网铺开：专家称对运营商营收影响有限，利好宽带强势方">携号转网铺开：专家称对运营商营收影响有限，利好宽带强势方</a>
+        </div>
+        <div class="details">
+          11月10日，三大运营商在全国范围内携号转网上线试运行。网络上有数据显示：截至11月11日晚上8时，全国总携出量为1492名。不过，独立电器分析师付亮认为，这些转出的数据并不一定真实准确，目前看三家运营商资费水平相当，携转政策出台后，对三大运营商的营收“几无影响”。但从用户数层面，付亮认为，携转政策全面实施后，有利于宽带强势的运营商。（澎湃）
+        </div>
+      </div>
+    </li>
+    
+    <li>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 8">8</span>
+          <a href="https://www.pingwest.com/w/197914" target="_blank" title="苹果将于12月2日举行发布会，公布2019年度最受欢迎应用及游戏">苹果将于12月2日举行发布会，公布2019年度最受欢迎应用及游戏</a>
+        </div>
+        <div class="details">
+          苹果公司将于12月2日在纽约市举行新闻发布会，活动的重点是“纪念我们最喜欢的2019年应用和游戏”。邀请函上的标语写着“被数百万人爱着。创造最好的。”该发布会或将公布2019年度苹果应用商店最受欢迎的应用及游戏。（品玩）
+        </div>
+      </div>
+    </li>
+    
+    <li>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 9">9</span>
+          <a href="http://www.xinhuanet.com//2019-11/18/c_1125246663.htm" target="_blank" title="全球超算500强：美蝉联冠军，中国数量增加">全球超算500强：美蝉联冠军，中国数量增加</a>
+        </div>
+        <div class="details">
+          新一期全球超级计算机500强榜单18日面世，美国超级计算机“顶点”蝉联冠军，中国继续扩大数量上的领先优势，在总算力上与美国的差距进一步缩小。榜单显示，中国境内有228台超算上榜，在上榜数量上蝉联第一，比半年前的榜单增加9台。美国以117台位列第二，日本、法国、德国依次位居其后。这是2017年11月以来，中国超算上榜数量连续第五次位居第一。（新华网）
+        </div>
+      </div>
+    </li>
+    
+    <li>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 10">10</span>
+          <a href="https://wap.egsea.com/detail/article?id=519685" target="_blank" title="美媒：美国商务部发布90天延期许可，第三次“豁免”华为">美媒：美国商务部发布90天延期许可，第三次“豁免”华为</a>
+        </div>
+        <div class="details">
+          美国NPR18日消息，美国商务部当日发布公告，宣布发布90天延期许可，允许美国企业继续与中国华为技术有限公司进行业务往来。路透社称，这是美国政府自今年5月把华为列入管制黑名单以来，第三次宣布“豁免”华为。（环球网）
+        </div>
+      </div>
+    </li>
+    
+    <li>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 11">11</span>
+          <a href="https://www.pingwest.com/w/197913" target="_blank" title="谷歌再次通过收购来加强其云计算能力">谷歌再次通过收购来加强其云计算能力</a>
+        </div>
+        <div class="details">
+          据CNBC报道，Google收购了小型企业CloudSimple来建立其云计算部门，CloudSimple使Google能够运行基于VMware的服务器虚拟化技术。交易细节并未披露。今年7月，Google表示其整体云部门，包括面向企业的G Suite生产力软件组合，已达到80亿美元的年收入。（品玩）
+        </div>
+      </div>
+    </li>
+    
+    <li>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 12">12</span>
+          <a href="http://news.cnstock.com/news,bwkx-201911-4453811.htm" target="_blank" title="华为透露鸿蒙整体战略定于20日发布">华为透露鸿蒙整体战略定于20日发布</a>
+        </div>
+        <div class="details">
+          美国消费者新闻与商业频道举办的第二届全球科技大会1上，华为董事长梁华透露，华为将在11月20日发布与鸿蒙相关的整体战略。他介绍，华为正在着力做好产品的重新设计，新的5G到来之后，市场需求非常大。（中国新闻网）
+        </div>
+      </div>
+    </li>
+    
+    <li>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 13">13</span>
+          <a href="https://www.pingwest.com/w/197911" target="_blank" title="谷歌正式启动云游戏服务Stadia，每月订阅费用10美元">谷歌正式启动云游戏服务Stadia，每月订阅费用10美元</a>
+        </div>
+        <div class="details">
+          根据The Verge报道，近日，Google正式启动云游戏服务Stadia，这项服务可使玩家无需下载游戏，就可以在手机、浏览器等多个平台游玩电脑和主机游戏。购买Chromecast Ultra和Stadia手柄捆绑包可获得三个月免费试用Stadia Pro服务的资格，价格为129美元。之后，每个月的订阅费用为10美元。（品玩）
+        </div>
+      </div>
+    </li>
+    
+    <li>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 14">14</span>
+          <a href="https://finance.sina.cn/chanjing/gdxw/2019-11-19/detail-iihnzahi1796333.d.html?vt=4&amp;pos=17" target="_blank" title="百度系“灯火互助”平台上线">百度系“灯火互助”平台上线</a>
+        </div>
+        <div class="details">
+          双11当天，百度系“灯火互助”平台低调上线。提供该服务的主体为上海兴朋俊科技有限公司，注册资金100万，公司经营范围为“科技推广和应用服务业”，实际控制人是曹越。资料显示，曹越是百度搜索公司运营总经理。这是今年继360、美团之后又一家大型互联网公司进军网络互助。至此，BAT（百度、阿里巴巴、腾讯）皆完成了对网络互助平台的布局。（证券时报）
+        </div>
+      </div>
+    </li>
+    
+    <li>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 15">15</span>
+          <a href="https://tech.sina.com.cn/i/2019-11-18/doc-iihnzahi1784942.shtml" target="_blank" title="捷克政府批准一项数字税，对谷歌Facebook等征税7%">捷克政府批准一项数字税，对谷歌Facebook等征税7%</a>
+        </div>
+        <div class="details">
+          据外媒报道，捷克政府周一批准了一项7%的数字税提案，旨在通过对谷歌和Facebook等全球互联网巨头的广告服务征税来增加国库收入。根据该提案，捷克政府将对大型互联网公司提供的精准广告、多边数字接口和用户数据销售所获得的收入进行征税。虽然得到了政府批准，该提案仍需在议会被立法人员通过。（新浪科技）
+        </div>
+      </div>
+    </li>
+    
+    <li>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 16">16</span>
+          <a href="https://new.qq.com/omn/FIN20191/FIN2019111900003000.html" target="_blank" title="T-Mobile CEO将卸任，此前媒体称其将入主WeWork">T-Mobile CEO将卸任，此前媒体称其将入主WeWork</a>
+        </div>
+        <div class="details">
+          T-mobile美国公司周一表示，首席执行长莱杰尔将于明年春天辞职，现任首席运营官西沃特将接替其职位。报道称，莱杰尔正在就出任WeWork母公司We Co.的首席执行官进行谈判，软银集团一直在寻找一位合格的高管来接替创始人亚当-诺伊曼。（腾讯证券）
+        </div>
+      </div>
+    </li>
+    
+    <li>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 17">17</span>
+          <a href="https://new.qq.com/omn/TEC20191/TEC2019111900085600.html" target="_blank" title="亚马逊推出免费在线音乐服务，Spotify股价暴跌5%">亚马逊推出免费在线音乐服务，Spotify股价暴跌5%</a>
+        </div>
+        <div class="details">
+          据外媒消息，亚马逊公司周一表示已经推出了其在线音乐服务“亚马逊音乐”的免费版本，这一服务将会插播广告。亚马逊很早之前就已经进入了在线音乐市场，按照行业标准资费推出了每月十美元的会员服务，但是这一服务的存在感并不强。此次推出免费服务也将对Spotify造成巨大冲击。周一，在这一消息影响下，Spotify股价大幅暴跌了4.9%。Spotify收盘时下跌7.25美元，至140.26美元。（腾讯科技）
+        </div>
+      </div>
+    </li>
+    
+    <li>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 18">18</span>
+          <a href="http://www.cs.com.cn/cj/hyzx/201911/t20191119_6000278.html" target="_blank" title="10月国内5G手机出货量环比增逾四倍">10月国内5G手机出货量环比增逾四倍</a>
+        </div>
+        <div class="details">
+          中国信通院数据显示，10月国内5G手机出货量环比增长401.81%。据中信证券测算，2019年国内5G手机出货量在百万量级，2020年有望提升至1亿部左右，全球可达2亿-3亿部。业内人士认为，5G手机放量在即，预计明年将迎来第一波5G手机换机潮，手机出货量保持高景气，消费电子行业旺季可期。（中证报）
+        </div>
+      </div>
+    </li>
+    
+    <li>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 19">19</span>
+          <a href="https://tech.sina.com.cn/it/2019-11-19/doc-iihnzhfz0145991.shtml" target="_blank" title="苹果发布iOS 13.2.3更新：修复App后台无法下载问题">苹果发布iOS 13.2.3更新：修复App后台无法下载问题</a>
+        </div>
+        <div class="details">
+          苹果周一发布iOS 13的另一个版本更新，这次是13.2.3版，本次更新主要修复了App可能无法在后台下载内容的问题，以及“邮件”可能无法获取新邮件和Exchange帐户无法包括并引用原始邮件内容的问题。（新浪科技）
+        </div>
+      </div>
+    </li>
+    
+    <li>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 20">20</span>
+          <a href="https://mp.weixin.qq.com/s/lUp9s4stKnyVhZRzzOLxJg" target="_blank" title="58同城Q3营收43亿人民币，同比增长17%">58同城Q3营收43亿人民币，同比增长17%</a>
+        </div>
+        <div class="details">
+          36氪获悉，生活服务平台58同城公布了截至9月30日的第三季度未经审计的财务报告。财报显示，58同城2019年第三季度实现营收42.580亿人民币，人民币同比增长17.4%，非美国会计准则的运营利润为10.392亿人民币，同比增长21.3%。
+        </div>
+      </div>
+    </li>
+    
+    <li>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 21">21</span>
+          <a href="http://www.egsea.com/news/detail?id=519623" target="_blank" title="中移动回应停售华为三款5G手机：消息不实，各渠道正常销售">中移动回应停售华为三款5G手机：消息不实，各渠道正常销售</a>
+        </div>
+        <div class="details">
+          有消息称，中移动已将华为Mate30(5G)、Mate30 pro(5G)和Mate 20X(5G)三款终端从一级营销库内暂时撤下，明天起营业厅或不再销售这三款手机。原因是华为手机软件更新后，电信、联通为“默认移动数据”卡时将默认打开5G开关，中国移动卡的5G开关却为默认关闭。中移动回应，“消息不实，中国移动各渠道在正常销售华为5G手机。”华为方面则回复称，“谣言”。（证券时报）
+        </div>
+      </div>
+    </li>
+    
+    <li>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 22">22</span>
+          <a href="https://www.thepaper.cn/newsDetail_forward_4990551" target="_blank" title="青年汽车集团回应子公司杭州青年汽车破产：未影响到集团经营">青年汽车集团回应子公司杭州青年汽车破产：未影响到集团经营</a>
+        </div>
+        <div class="details">
+          近日，人民法院公告网发布的破产文书显示，杭州青年汽车有限公司正式宣告破产。青年汽车集团总裁办回应称，杭州青年汽车破产并未影响到集团的经营，目前集团仍在正常运营中。集团主营的业务为纯电动城市客车，与杭州青年汽车业务并无直接联系，也与“水氢汽车”毫无关系。（澎湃新闻）
+        </div>
+      </div>
+    </li>
+    
+    <li>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 23">23</span>
+          <a href="https://finance.sina.com.cn/stock/usstock/c/2019-11-19/doc-iihnzahi1800496.shtml" target="_blank" title="WeWork表示该公司将于本周开始在美国“认真地”裁员">WeWork表示该公司将于本周开始在美国“认真地”裁员</a>
+        </div>
+        <div class="details">
+          WeWork表示，将于本周开始在美国“认真地”裁员。该公司执行董事长马塞洛-克劳尔周一在一封电子邮件中告诉员工，这一过程“将使我们更强大，更有能力在未来几个月和几年里创造更多的机会”。在9月份撤回首次公开发行（IPO）登记后不久，WeWork就告诉员工要做好大规模裁员的准备。知情人士说，他裁员总数可能达到2000人左右，约占全球员工总数的16%。（新浪财经）
+        </div>
+      </div>
+    </li>
+    
+    <li>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 24">24</span>
+          <a href="https://finance.sina.com.cn/stock/usstock/c/2019-11-19/doc-iihnzhfz0149061.shtml" target="_blank" title="电子烟制造商Juul再遭起诉，被指营销故意针对青少年">电子烟制造商Juul再遭起诉，被指营销故意针对青少年</a>
+        </div>
+        <div class="details">
+          加利福尼亚州正在起诉美国最大的电子烟制造商Juul Labs，指控该公司早期的广告营销活动故意针对青少年。该起诉讼是针对Juul的最新一起法律诉讼。 该公司面临有关州和联邦政府的多项调查，以调查其早期的市场营销是否助长了当前未成年电子烟用户的剧增。北卡罗来纳州在5月份对Juul提起了首项诉讼。Juul指出，已经停止了相关广告宣传，并下架了大多数口味的电子烟。（新浪财经）
+        </div>
+      </div>
+    </li>
+    
+</ul>
+  <div class="footer">
+    <p>
+      <a href="https://github.com/jaywcjlove/github-rank/network" target="_blank">
+        <img src="https://img.shields.io/github/forks/jaywcjlove/github-rank.svg">
+      </a>
+      <a href="https://github.com/jaywcjlove/github-rank/stargazers" target="_blank">
+        <img src="https://img.shields.io/github/stars/jaywcjlove/github-rank.svg">
+      </a>
+      <a href="https://www.npmjs.com/package/@wcj/github-rank" target="_blank">
+        <img src="https://img.shields.io/npm/v/@wcj/github-rank.svg">
+      </a>
+      <a href="https://unpkg.com/@wcj/github-rank/web/index.html" target="_blank">
+        <img src="https://img.shields.io/npm/v/@wcj/github-rank.svg?label=unpkg">
+      </a>
+    </p>
+    <div class="time">Last cache created on 2019/11/19 by Github API v3.</div>
+    Create by <a href="https://github.com/jaywcjlove" target="_blank">小弟调调™</a>.
+  </div>
+</body>
+</html>

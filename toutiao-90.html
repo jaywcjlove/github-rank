@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/x-icon" href="https://github.githubassets.com/favicon.ico">
+  <title> 开发者头条 - 最近90天热门分享 </title>
+  <meta name="description" content="开发者头条 - 最近90天热门分享">
+  <style>
+    * { box-sizing: border-box; }
+    html, body, ul, li, h1 { margin: 0; padding: 0 }
+    html, body { font-size: 16px; font-family: -apple-system,"Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","WenQuanYi Micro Hei","Microsoft Yahei",sans-serif; }
+    ul { list-style: none; }
+    body { text-align: center; }
+    a { color: #333; text-decoration: none; transition: all .2s ease-in; }
+    a:hover { color: #1600ff; }
+    a.github-corner:hover .octo-arm { animation: octocat-wave 560ms ease-in-out; }
+    a.github-corner svg { fill: #f1f1f1; color: #000; position: absolute; top: 0; border: 0; right: 0; z-index: 99; width: 70px; height: 70px; }
+    a.github-corner { position: fixed; z-index: 9999; top: 0; right: 0; }
+    .title { padding: 46px 0 0 0; font-size: 18px; line-height: 24px; }
+    .time, .footer { padding: 5px 0 2px 0; font-size: 12px; color: #adadad; }
+    .tabs { padding: 10px 0 15px 0;}
+    .tabs a { background: #e2e2e2; display: inline-block; padding: 3px 7px; font-size: 12px; line-height: 16px; color: #0366d6; }
+    .tabs a.active { background: #696969; color: #efefef; }
+    .footer { padding: 10px 0 30px 0; }
+    .list { text-align: left; max-width: 470px; margin: 0 auto; padding-bottom: 10px; background-color: #efefef; border-radius: 5px; overflow: hidden; }
+    .list img { width: 36px; height: 36px; border-radius: 3px; display: block; margin: 0 auto; background-color: #e2e2e2; border: 0; overflow: hidden; }
+    .list a { color: #0366d6; }
+    .list a:hover { color: #1600ff; }
+    .list li { padding: 5px; margin: 0 8px; transition: all .3s; border-bottom: 1px solid #d8d8d8; }
+    .list li.rank-title { background-color: #e2e2e2; margin: 0; padding: 7px 13px; margin-bottom: 10px; border-radius: 0; font-size: 14px; line-height: 16px; }
+    .list li.rank-title:hover { background: #e2e2e2; }
+    .list li:last-child, .list li.rank-title { border-bottom: 0; }
+    .list li:hover { background: rgba(255, 255, 255, 0.56); }
+    .list li > div { display: table-cell; vertical-align: top; font-size: 14px; }
+    .list li div.rank { padding: 0 8px; }
+    .list li div.rank span { font-weight: bold; }
+    .list li div.details { padding: 2px 0 0 9px; font-size: 12px; float: left; color: #b9b9b9; }
+    .list li div.details a { color: #b9b9b9; transition: all .3s; }
+    .list li div.details a:hover { color: #1600ff; }
+    .list li div.details a:hover svg { fill: #1600ff; }
+    .list li div.details * { vertical-align: middle; }
+    .list li div.details .localtion { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; max-width: 150px; display: inline-block; height: 14px; }
+    .list li div.details svg { width: 12px; height: 12px; margin-top: 0; margin-right: 2px; fill: #b9b9b9; display: inline-block; }
+    .list li > div.info { width: 100%; }
+    .list li > div.info i { color: #717171; }
+    .list li > div.info a:hover i { color: #333; }
+    .list li div.sub-title { color: #333; margin: 4px 0 0 3px;}
+    .list li a.language,
+    .list li span.star { height: 18px; background: #e2e2e2; display: inline-block; padding: 2px 4px; border-radius: 3px; }
+    .list li div.followers { font-size: 12px; color: #7d7d7d; white-space:nowrap; padding-left: 5px; padding-top: 2px; border-radius: 3px; }
+    .list li div.followers a { color: #545454; }
+    .list li div.followers * { vertical-align: middle; }
+    .list li div.followers svg { vertical-align: text-top; display: inline-block; fill: #9E9E9E; width: 14px; height: 14px; }
+    .list .select { float: right; line-height: 14px; line-height: 16px; }
+    .list .select .active { color: #333; font-weight: bold; }
+    .list.repos.trending .language > span { border-radius: 50%; display: inline-block; position: relative; height: 10px; width: 10px; vertical-align: middle; top: -1px; margin-right: 4px; }
+    .list.repos li div.followers { display: inline-block; padding-right: 5px; }
+    .list.repos li div.details { width: 100%; }
+    @keyframes octocat-wave{
+      0%,100%{-webkit-transform:rotate(0); transform:rotate(0);}
+      20%,60%{-webkit-transform:rotate(-25deg); transform:rotate(-25deg);}
+      40%,80%{-webkit-transform:rotate(10deg); transform:rotate(10deg);}
+    }
+  </style>
+</head>
+<body>
+  <a href="https://github.com/jaywcjlove/github-rank" target="_blank" class="github-corner">
+    <svg viewBox="0 0 250 250">
+      <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+      <path class="octo-arm" fill="currentColor" style="transform-origin: 130px 106px;" d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"></path>
+      <path fill="currentColor" class="octo-body" d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"></path>
+    </svg>
+  </a>
+  <h1 class="title"> 开发者头条 - 最近90天热门分享 </h1>
+  <div class="time">Last cache created on 2019/11/19 by Github API v3.</div>
+  <div class="tabs">
+    <a class="" href="index.html">Users</a>
+    <a class="" href="repos.html">Repos</a>
+    <a class="" href="trending.html">Trending</a>
+    <a class="" href="sifou-daily.html">Sifou</a>
+    <a class="active" href="toutiao-7.html">开发头条</a>
+    <a class="" href="36kr.html">36Kr</a>
+  </div>
+<ul class="list">
+    <li class="rank-title">
+      <a href="https://toutiao.io/posts/hot/7" target="_blank">头条 热门分享</a>
+      <span class="select">
+        <a class="" href="toutiao-7.html">7天</a>
+        <a class="" href="toutiao-30.html">30天</a>
+        <a class="active" href="toutiao-90.html">90天</a>
+      </span>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/342006" target="_blank">
+          <img src="https://img.toutiao.io/subject%2Fd62ae4a6b08244b1b8422989109cdb5f" loading="lazy" title="公众号：Java技术zhai - 独家号" alt="公众号：Java技术zhai - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 1">1</span>
+          <a href="https://toutiao.io/k/8xbjgw2" target="_blank" title="金九银十面试季来临，最新 BATJ 面试资料分享给你">金九银十面试季来临，最新 BATJ 面试资料分享给你</a>
+        </div>
+      
+        <div class="details">
+          金九银十，每年9、10月份各大互联网公司都会周期性地发生人事变动，无论是刚进入社会的职场菜鸟，还是准备跳槽的老手，都想在这个时候获得新的工作，或迎来晋升涨薪的最佳机会。 不同于往年...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>143</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/394999" target="_blank">
+          <img src="https://img.toutiao.io/subject%2F7d707e6fb2c340da8606774489f76f31" loading="lazy" title="学而思轻课基础业务组 - 独家号" alt="学而思轻课基础业务组 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 2">2</span>
+          <a href="https://toutiao.io/k/emc1r90" target="_blank" title="世界上最好的学习法：费曼学习法">世界上最好的学习法：费曼学习法</a>
+        </div>
+      
+        <div class="details">
+          阅读本文大概需要 6.6 分钟。 你是否曾幻想读一遍书就记住所有的内容？是否想学习完一项技能就马上达到巅峰水平？除非你是天才，不然这是不可能的。对于大多数的普通人来说，可以通过笨办...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>78</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/4" target="_blank">
+          <img src="https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b" loading="lazy" title="头条精选 - 独家号" alt="头条精选 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 3">3</span>
+          <a href="https://toutiao.io/k/q5if8z8" target="_blank" title="人是怎么废掉的？第一条就戳中了 90% 的年轻人">人是怎么废掉的？第一条就戳中了 90% 的年轻人</a>
+        </div>
+      
+        <div class="details">
+           题图：全景视觉   人是怎么废掉的？ 知友：曾加（68,000+ 赞同，数学话题的优秀回答者）   01沉溺于「轻易获得高成就感」的事情 有意无意地寻求用很小付出获得很大「回报」...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>74</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/393157" target="_blank">
+          <img src="https://img.toutiao.io/subject%2F6a017995d8424765ab042213593cb4a9" loading="lazy" title="码农桃花源 - 独家号" alt="码农桃花源 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 4">4</span>
+          <a href="https://toutiao.io/k/gfuiz7n" target="_blank" title="中台的末路">中台的末路</a>
+        </div>
+      
+        <div class="details">
+          从 15 年开始，到 19 年现在为止。各大公司都在吹捧中台理念。仿佛中台是业务复杂性的救世主。是某些架构师和 PM 的新出路。各种割韭菜的讲中台的课程层出不穷。当然，吹牛逼的时候...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>60</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/51515" target="_blank">
+          <img src="https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e" loading="lazy" title="JAVA干货 - 独家号" alt="JAVA干货 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 5">5</span>
+          <a href="https://toutiao.io/k/6nrem1x" target="_blank" title="MySQL 的 COUNT 语句，竟然都能被面试官虐的这么惨！？">MySQL 的 COUNT 语句，竟然都能被面试官虐的这么惨！？</a>
+        </div>
+      
+        <div class="details">
+          △Hollis, 一个对Coding有着独特追求的人△这是Hollis的第 232篇原创分享作者 l Hollis来源 l Hollis（ID：hollischuang）数据库查询...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>56</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/7076" target="_blank">
+          <img src="https://img.toutiao.io/subject%2F8e44d1a2390944c08c6170906cfc0856" loading="lazy" title="跨端&amp;全栈 - 独家号" alt="跨端&amp;全栈 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 6">6</span>
+          <a href="https://toutiao.io/k/u7t6dj1" target="_blank" title="面试官：讲讲 DNS 的原理？">面试官：讲讲 DNS 的原理？</a>
+        </div>
+      
+        <div class="details">
+          引言今天我们来聊聊DNS。 所谓域名系统（Domain Name System缩写DNS，Domain Name被译为域名）是因特网的一项核心服务，它作为可以将域名和IP地址相互映...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>52</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/123823" target="_blank">
+          <img src="https://img.toutiao.io/subject%2F9d058a96b0484f65a93e575731c3dbf3" loading="lazy" title="落北的mark簿 - 独家号" alt="落北的mark簿 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 7">7</span>
+          <a href="https://toutiao.io/k/3snpwix" target="_blank" title="每秒 100W 请求，12306 秒杀业务，架构如何优化？">每秒 100W 请求，12306 秒杀业务，架构如何优化？</a>
+        </div>
+      
+        <div class="details">
+          如《同样是高并发，QQ/微博/12306的架构难度一样吗？》一文所述，同样是高并发场景，三类业务的架构挑战不一样：QQ类业务，用户主要读写自己的数据，访问基本带有uid属性，数据访...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>52</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/2500" target="_blank">
+          <img src="https://img.toutiao.io/subject%2Fbdb189abc2894fa1bb7a090d9d64f408" loading="lazy" title="SpringForAll社区 - 独家号" alt="SpringForAll社区 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 8">8</span>
+          <a href="https://toutiao.io/k/sq2x7uf" target="_blank" title="终于找到可以一文多发的平台了">终于找到可以一文多发的平台了</a>
+        </div>
+      
+        <div class="details">
+           你来了~  openwrite.cn 一文多发平台有时候自己辛苦写了几个小时的技术文章，被爬虫抓走。自己去全平台一个一个发，又过于麻烦。而且每个平台都不一样，发文同步很困难。那么...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>50</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/6491" target="_blank">
+          <img src="https://img.toutiao.io/subject%2Ffcd1137867a2413880689043418675a7" loading="lazy" title="猿天地 - 独家号" alt="猿天地 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 9">9</span>
+          <a href="https://toutiao.io/k/rhskkte" target="_blank" title="如何优雅地进行重试">如何优雅地进行重试</a>
+        </div>
+      
+        <div class="details">
+          本文口味：冰镇杨梅 预计阅读：20分钟0|1说明 最近公司在搞活动，需要依赖一个第三方接口，测试阶段并没有什么异常状况，但上线后发现依赖的接口有时候会因为内部错误而返回系统异常，虽...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>48</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/216955" target="_blank">
+          <img src="https://img.toutiao.io/subject%2F732cb6a567b6447aa876ed179c0e89c7" loading="lazy" title="Fundebug - 独家号" alt="Fundebug - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 10">10</span>
+          <a href="https://toutiao.io/k/6hnbb8c" target="_blank" title="iPhone 为什么不加大内存？">iPhone 为什么不加大内存？</a>
+        </div>
+      
+        <div class="details">
+           这实际上是一个技术问题，涉及到iOS与安卓两个操作系统的设计原理。首先，安卓机上大内存，这是个中国特色，也就是说只有中国国内销售的安卓机才会上这么大的内存，海外版的安卓机主流内存...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>44</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/120437" target="_blank">
+          <img src="https://img.toutiao.io/user/b618677591aa49b3972ece0c7d26b473/thumb" loading="lazy" title="数据淘金 - 独家号" alt="数据淘金 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 11">11</span>
+          <a href="https://toutiao.io/k/801i8j3" target="_blank" title="高性能服务端优化之路">高性能服务端优化之路</a>
+        </div>
+      
+        <div class="details">
+          业务场景达达是全国领先的最后三公里物流配送平台。达达的业务模式与滴滴以及Uber很相似，以众包的方式利用社会闲散人力资源，解决O2O最后三公里即时性配送难题。达达业务主要包含两部分...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>43</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/351247" target="_blank">
+          <img src="https://img.toutiao.io/subject%2F6b8e14b561b24dfeac075e2a8dac9bfd" loading="lazy" title="小姐姐味道 - 独家号" alt="小姐姐味道 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 12">12</span>
+          <a href="https://toutiao.io/k/46vw3pg" target="_blank" title="作为高级 Java，你应该了解的 Linux 知识">作为高级 Java，你应该了解的 Linux 知识</a>
+        </div>
+      
+        <div class="details">
+          原创：小姐姐味道（微信公众号ID：xjjdog），欢迎分享，转载请保留出处。作为一个javaer，我以前写过很多关于Linux的文章。但经过多年的观察，发现其实对于大部分人，有些东...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>43</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/388286" target="_blank">
+          <img src="https://img.toutiao.io/user/ce593a7c52194f849802ee51bea65ea3/thumb" loading="lazy" title="4Ark的独家号 - 独家号" alt="4Ark的独家号 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 13">13</span>
+          <a href="https://toutiao.io/k/4b96i5m" target="_blank" title="在浏览器输入 URL 回车之后发生了什么（超详细版）">在浏览器输入 URL 回车之后发生了什么（超详细版）</a>
+        </div>
+      
+        <div class="details">
+          这个问题已经是老生常谈了，更是经常被作为面试的压轴题出现，网上也有很多文章，但最近闲的无聊，然后就自己做了一篇笔记，感觉比之前理解更透彻了。 前言这个问题已经是老生常谈了，更是经常...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>43</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/130457" target="_blank">
+          <img src="https://img.toutiao.io/subject%2F594f5c3afbcf4b40ae6216fd65d57afa" loading="lazy" title="小南国 - 独家号" alt="小南国 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 14">14</span>
+          <a href="https://toutiao.io/k/tmzfqj0" target="_blank" title="MySQL 的又一神器：锁（面试必备）">MySQL 的又一神器：锁（面试必备）</a>
+        </div>
+      
+        <div class="details">
+          原文链接：blog.ouyangsihai.cn &gt;&gt; MySQL的又一神器-锁，MySQL面试必备 在看这篇文章之前，我们回顾一下前面的几篇关于MySQL的文章，应该对你读下面的...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>41</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/268968" target="_blank">
+          <img src="https://img.toutiao.io/subject%2Fc992e775e6344583abd8a49f632b3e13" loading="lazy" title="跨界架构师 - 独家号" alt="跨界架构师 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 15">15</span>
+          <a href="https://toutiao.io/k/ftjzsyn" target="_blank" title="大家在寻找的高级程序员到底是什么样子的？">大家在寻找的高级程序员到底是什么样子的？</a>
+        </div>
+      
+        <div class="details">
+          这里是Z哥的个人公众号每周五11：45 按时送达当然了，也会时不时加个餐～我的第「110」篇原创敬上你好，我是Z哥。这篇文章主题很简单，就是一个很常见的话题“什么是高级程序员？”。...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>41</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/51515" target="_blank">
+          <img src="https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e" loading="lazy" title="JAVA干货 - 独家号" alt="JAVA干货 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 16">16</span>
+          <a href="https://toutiao.io/k/pp413pr" target="_blank" title="既生 synchronized，何生 volatile">既生 synchronized，何生 volatile</a>
+        </div>
+      
+        <div class="details">
+          在我的博客和公众号中，发表过很多篇关于并发编程的文章，之前的文章中我们介绍过了两个在Java并发编程中比较重要的两个关键字：synchronized和volatile我们简单回顾一...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>41</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/387709" target="_blank">
+          <img src="https://img.toutiao.io/subject%2F8370ca7d0bed45afb18f847750e191c8" loading="lazy" title="微信公众号:肥朝 - 独家号" alt="微信公众号:肥朝 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 17">17</span>
+          <a href="https://toutiao.io/k/a6pg1yr" target="_blank" title="我掏空了各大搜索引擎，给你整理了 154 道 Java 面试题">我掏空了各大搜索引擎，给你整理了 154 道 Java 面试题</a>
+        </div>
+      
+        <div class="details">
+          Java集合22题ArrayList 和 Vector 的区别。说说 ArrayList,Vector, LinkedList 的存储性能和特性。快速失败 (fail-fast) ...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>40</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/137286" target="_blank">
+          <img src="https://img.toutiao.io/subject%2F0e6fd0887f9046ed9bec490e8d807dd1" loading="lazy" title="大龄程序员笔记 - 独家号" alt="大龄程序员笔记 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 18">18</span>
+          <a href="https://toutiao.io/k/yqusxpo" target="_blank" title="为什么技术团队领导者多是后台开发人员">为什么技术团队领导者多是后台开发人员</a>
+        </div>
+      
+        <div class="details">
+          先别急着往下拉文章，现在思考一个问题：你现在的软件开发团队或之前的团队，带领团队的人处于软件开发职能的哪一个岗位？产品经理，UI设计还是前端开发，后台开发，测试人员，运维人员？(专...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>39</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/426740" target="_blank">
+          <img src="https://img.toutiao.io/subject%2F180d026f85274c998656474cd1988d0f" loading="lazy" title="四猿外 - 独家号" alt="四猿外 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 19">19</span>
+          <a href="https://toutiao.io/k/fe38m44" target="_blank" title="还在埋头干活？给程序员的几个忠告">还在埋头干活？给程序员的几个忠告</a>
+        </div>
+      
+        <div class="details">
+          开门见山，今天这篇文章是给程序员的几个忠告。好吧，我膨胀了，不是大 V 居然也好意思给别人忠告。   即使你不是程序员，看看也有好处。   1. 坚持学习，高效的学习   从去年下...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>39</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/342006" target="_blank">
+          <img src="https://img.toutiao.io/subject%2Fd62ae4a6b08244b1b8422989109cdb5f" loading="lazy" title="公众号：Java技术zhai - 独家号" alt="公众号：Java技术zhai - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 20">20</span>
+          <a href="https://toutiao.io/k/qx5epwl" target="_blank" title="何解？浪费一年时间，我学了假人工智能">何解？浪费一年时间，我学了假人工智能</a>
+        </div>
+      
+        <div class="details">
+          怎样成为一名优秀的AI工程师？  这是很多从事人工智能学术研究和产品研发的同学都关心的一个问题。面对市场对人才的大量需求与供给的严重不足，以及高薪水的诱惑，越来越多的人开始学习这个...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>39</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/268362" target="_blank">
+          <img src="https://img.toutiao.io/subject%2Fe7b064080a2d4df5850f192ca54ee1d2" loading="lazy" title="acoder2013的独家号 - 独家号" alt="acoder2013的独家号 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 21">21</span>
+          <a href="https://toutiao.io/k/irww6gr" target="_blank" title="一文带你搞懂 API 网关">一文带你搞懂 API 网关</a>
+        </div>
+      
+        <div class="details">
+          前言假设你正在开发一个电商网站，那么这里会涉及到很多后端的微服务，比如会员、商品、推荐服务等等。 那么这里就会遇到一个问题，APP/Browser怎么去访问这些后端的服务? 如果业...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>39</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/4" target="_blank">
+          <img src="https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b" loading="lazy" title="头条精选 - 独家号" alt="头条精选 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 22">22</span>
+          <a href="https://toutiao.io/k/u74dd7o" target="_blank" title="如何看待蚂蚁金服 OceanBase “击败” 甲骨文？">如何看待蚂蚁金服 OceanBase “击败” 甲骨文？</a>
+        </div>
+      
+        <div class="details">
+          早上起来被一条新闻刷了屏中国自研数据库超越Oracle登顶全球第一 ↓ 看到这则消息还是很振奋尤其连院士都给出了肯定于是，去了TPC的官网想看看关于这个榜单的细节我们会发现↓这个纪...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>38</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/416945" target="_blank">
+          <img src="https://img.toutiao.io/subject%2Fbaed405458484428abe5b35891e34afa" loading="lazy" title="裸睡的猪 - 独家号" alt="裸睡的猪 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 23">23</span>
+          <a href="https://toutiao.io/k/tvktm2n" target="_blank" title="用 Python 分析淘宝 2000 款避孕套，得出这些有趣的结论">用 Python 分析淘宝 2000 款避孕套，得出这些有趣的结论</a>
+        </div>
+      
+        <div class="details">
+          到现在为止，我们的淘宝教程已经写到了第四篇，前三篇分别是：第一篇：Python模拟登录淘宝，详细讲解如何使用requests库登录淘宝pc端。第二篇：淘宝自动登录2.0，新增Coo...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>36</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/7315" target="_blank">
+          <img src="https://img.toutiao.io/subject%2F3fb00b07ad814fce8baab2f445b3a2c8" loading="lazy" title="web前端开发知识 - 独家号" alt="web前端开发知识 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 24">24</span>
+          <a href="https://toutiao.io/k/22pq56t" target="_blank" title="[译] 辞职后一年做了 7 个 App">[译] 辞职后一年做了 7 个 App</a>
+        </div>
+      
+        <div class="details">
+          此文是「IndieMaker独立变现」知识星球人物志系列之第9篇官网：http://www.indiemakerstart.com/Andrey的独立创业变现经历是很多人的缩影，从...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>36</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/6988" target="_blank">
+          <img src="https://img.toutiao.io/subject%2F2114e3f8b86846fdb835dcfa580fbfbd" loading="lazy" title="Python之美_ - 独家号" alt="Python之美_ - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 25">25</span>
+          <a href="https://toutiao.io/k/kopwisx" target="_blank" title="免费获取 JetBrains 全家桶正版 License 教程">免费获取 JetBrains 全家桶正版 License 教程</a>
+        </div>
+      
+        <div class="details">
+          本文首发于爱湃森官方服务号「爱湃森Python」: https://mp.weixin.qq.com/s/MdUCbs8l4-P5aiciQCTC8w前言Python开发者可选择的...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>34</span>
+      </div>
+    </li>
+    
+</ul>
+  <div class="footer">
+    <p>
+      <a href="https://github.com/jaywcjlove/github-rank/network" target="_blank">
+        <img src="https://img.shields.io/github/forks/jaywcjlove/github-rank.svg">
+      </a>
+      <a href="https://github.com/jaywcjlove/github-rank/stargazers" target="_blank">
+        <img src="https://img.shields.io/github/stars/jaywcjlove/github-rank.svg">
+      </a>
+      <a href="https://www.npmjs.com/package/@wcj/github-rank" target="_blank">
+        <img src="https://img.shields.io/npm/v/@wcj/github-rank.svg">
+      </a>
+      <a href="https://unpkg.com/@wcj/github-rank/web/index.html" target="_blank">
+        <img src="https://img.shields.io/npm/v/@wcj/github-rank.svg?label=unpkg">
+      </a>
+    </p>
+    <div class="time">Last cache created on 2019/11/19 by Github API v3.</div>
+    Create by <a href="https://github.com/jaywcjlove" target="_blank">小弟调调™</a>.
+  </div>
+</body>
+</html>
