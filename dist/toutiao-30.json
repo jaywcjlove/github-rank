@@ -10,16 +10,6 @@
     "homeUrl": "/subjects/387709"
   },
   {
-    "title": "作为高级 Java，你应该了解的 Linux 知识",
-    "description": "原创：小姐姐味道（微信公众号ID：xjjdog），欢迎分享，转载请保留出处。作为一个javaer，我以前写过很多关于Linux的文章。但经过多年的观察，发现其实对于大部分人，有些东...",
-    "votes": "43",
-    "url": "/k/46vw3pg",
-    "avatar": "https://img.toutiao.io/subject%2F6b8e14b561b24dfeac075e2a8dac9bfd",
-    "avatarAlt": "小姐姐味道 - 独家号",
-    "subjectName": "小姐姐味道",
-    "homeUrl": "/subjects/351247"
-  },
-  {
     "title": "MySQL 的又一神器：锁（面试必备）",
     "description": "原文链接：blog.ouyangsihai.cn >> MySQL的又一神器-锁，MySQL面试必备 在看这篇文章之前，我们回顾一下前面的几篇关于MySQL的文章，应该对你读下面的...",
     "votes": "41",
@@ -28,6 +18,16 @@
     "avatarAlt": "小南国 - 独家号",
     "subjectName": "小南国",
     "homeUrl": "/subjects/130457"
+  },
+  {
+    "title": "作为高级 Java，你应该了解的 Linux 知识",
+    "description": "原创：小姐姐味道（微信公众号ID：xjjdog），欢迎分享，转载请保留出处。作为一个javaer，我以前写过很多关于Linux的文章。但经过多年的观察，发现其实对于大部分人，有些东...",
+    "votes": "43",
+    "url": "/k/46vw3pg",
+    "avatar": "https://img.toutiao.io/subject%2F6b8e14b561b24dfeac075e2a8dac9bfd",
+    "avatarAlt": "小姐姐味道 - 独家号",
+    "subjectName": "小姐姐味道",
+    "homeUrl": "/subjects/351247"
   },
   {
     "title": "面试官：怎么优化 SQL？",
@@ -40,14 +40,14 @@
     "homeUrl": "/subjects/425478"
   },
   {
-    "title": "如何写出优雅的 Golang 代码",
-    "description": "写在前面代码规范 辅助工具 goimportsgolint自动化最佳实践 目录结构 /pkg 私有代码/src平铺/cmd/apiMakefile小结模块拆分 按层拆分按职责拆分小...",
-    "votes": "32",
-    "url": "/k/enqg2tf",
-    "avatar": "https://img.toutiao.io/subject%2Fb74e6991f2de41dbb21d7eef58177d64",
-    "avatarAlt": "面向信仰编程 - 独家号",
-    "subjectName": "面向信仰编程",
-    "homeUrl": "/subjects/90130"
+    "title": "如何回答性能优化的问题，才能打动阿里面试官？",
+    "description": " 阿里妹导读：日常工作中，我们多少都会遇到应用的性能问题。在阿里面试中，性能优化也是常被问到的题目，用来考察是否有实际的线上问题处理经验。面对这类问题，阿里工程师齐光给出了详细流程...",
+    "votes": "34",
+    "url": "/k/5aenw3o",
+    "avatar": "https://img.toutiao.io/subject%2Faec59e3752174268802557e3e7afcb33",
+    "avatarAlt": "不错的好文 - 独家号",
+    "subjectName": "不错的好文",
+    "homeUrl": "/subjects/5551"
   },
   {
     "title": "前后端都分离了，该搞个好用的 API 管理系统了",
@@ -62,7 +62,7 @@
   {
     "title": "Java 线上故障排查全套路",
     "description": "线上故障主要会包括 CPU、磁盘、内存以及网络问题，而大多数故障可能会包含不止一个层面的问题，所以进行排查时候尽量四个方面依次排查一遍。同时例如 jstack、jmap 等工具也是...",
-    "votes": "19",
+    "votes": "20",
     "url": "/k/mczyjep",
     "avatar": "https://img.toutiao.io/subject%2Fcb6906900b114ccd9a77daa3d7bc40ff",
     "avatarAlt": "中间件日志 - 独家号",
@@ -100,16 +100,6 @@
     "homeUrl": "/subjects/426599"
   },
   {
-    "title": "如何回答性能优化的问题，才能打动阿里面试官？",
-    "description": " 阿里妹导读：日常工作中，我们多少都会遇到应用的性能问题。在阿里面试中，性能优化也是常被问到的题目，用来考察是否有实际的线上问题处理经验。面对这类问题，阿里工程师齐光给出了详细流程...",
-    "votes": "27",
-    "url": "/k/5aenw3o",
-    "avatar": "https://img.toutiao.io/subject%2Faec59e3752174268802557e3e7afcb33",
-    "avatarAlt": "不错的好文 - 独家号",
-    "subjectName": "不错的好文",
-    "homeUrl": "/subjects/5551"
-  },
-  {
     "title": "Nginx 基础知识从小白到入门",
     "description": "前言Nginx现在几乎是众多大型网站的必用技术，大家应该都知道Nginx被F5收购的大事件，章亦春也在专心维护OpenResty项目构建和谐家园，无论你选择Nginx还是OpenR...",
     "votes": "17",
@@ -118,6 +108,16 @@
     "avatarAlt": "HelloDog - 独家号",
     "subjectName": "HelloDog",
     "homeUrl": "/subjects/4009"
+  },
+  {
+    "title": "设计高性能高并发网络系统需考虑哪些因素",
+    "description": "“世间可称之为天经地义的事情没几样，复杂的互联网架构也是如此，万丈高楼平地起，架构都是演变而来，那么演变的本质是什么？”— 1 —引子 软件复杂性来源于几个方面：高并发高性能、高可...",
+    "votes": "14",
+    "url": "/k/xyon5ah",
+    "avatar": "https://img.toutiao.io/subject%2F2d3d99522c644729948fa3e529e11b48",
+    "avatarAlt": "架构一加一 - 独家号",
+    "subjectName": "架构一加一",
+    "homeUrl": "/subjects/314175"
   },
   {
     "title": "当 Redis 发生高延迟时，到底发生了什么",
@@ -150,19 +150,29 @@
     "homeUrl": "/subjects/120437"
   },
   {
-    "title": "设计高性能高并发网络系统需考虑哪些因素",
-    "description": "“世间可称之为天经地义的事情没几样，复杂的互联网架构也是如此，万丈高楼平地起，架构都是演变而来，那么演变的本质是什么？”— 1 —引子 软件复杂性来源于几个方面：高并发高性能、高可...",
-    "votes": "14",
-    "url": "/k/xyon5ah",
-    "avatar": "https://img.toutiao.io/subject%2F2d3d99522c644729948fa3e529e11b48",
-    "avatarAlt": "架构一加一 - 独家号",
-    "subjectName": "架构一加一",
-    "homeUrl": "/subjects/314175"
+    "title": "告别动态规划，连刷 40 道题，我总结了这些套路，看不懂你打我",
+    "description": "动态规划难吗？说实话，我觉得很难，特别是对于初学者来说，我当时入门动态规划的时候，是看 0-1 背包问题，当时真的是一脸懵逼。后来，我遇到动态规划的题，看的懂答案，但就是自己不会做...",
+    "votes": "22",
+    "url": "/k/jcapha4",
+    "avatar": "https://img.toutiao.io/subject%2F8e44d1a2390944c08c6170906cfc0856",
+    "avatarAlt": "跨端&全栈 - 独家号",
+    "subjectName": "跨端&全栈",
+    "homeUrl": "/subjects/7076"
+  },
+  {
+    "title": "最全 Linux 应急响应技巧",
+    "description": "概述Linux环境下处理应急响应事件往往会更加的棘手，因为相比于Windows，Linux没有像Autorun、procexp这样的应急响应利器，也没有统一的应急响应处理流程。所以...",
+    "votes": "12",
+    "url": "/k/ii2gbg8",
+    "avatar": "https://img.toutiao.io/subject%2Fe28330e25e7c43019c600fbe720c1911",
+    "avatarAlt": "2048 - 独家号",
+    "subjectName": "2048",
+    "homeUrl": "/subjects/3216"
   },
   {
     "title": "面试官：“准备用 HashMap 存 1w 条数据，构造时传 10000 会触发扩容吗？”",
     "description": " // 预计存入1w条数据，初始化赋值10000，避免 resize。HashMap<String,String> map = new HashMap<>(10000)// for...",
-    "votes": "33",
+    "votes": "34",
     "url": "/k/hnvfy0h",
     "avatar": "https://img.toutiao.io/subject%2F89ee4c4a6ee648388935c4f8514712b8",
     "avatarAlt": "承香墨影的独家号 - 独家号",
@@ -172,22 +182,12 @@
   {
     "title": "浅谈技术管理",
     "description": "前面几年我一直在做一线的技术实施，最近2年工作重心慢慢开始转向技术团队的管理工作，从“冲锋陷阵”到“带兵打仗”再到“排兵布阵”，思考问题的角度也在产生着变化。两年前，因公司业务发展...",
-    "votes": "25",
+    "votes": "26",
     "url": "/k/l5xtel9",
     "avatar": "https://img.toutiao.io/subject%2Fab225f76a1344c82acd5de490243c1fb",
     "avatarAlt": "安全奇点 - 独家号",
     "subjectName": "安全奇点",
     "homeUrl": "/subjects/6127"
-  },
-  {
-    "title": "分享 GitHub 上有趣、入门级的开源项目月刊",
-    "description": "兴趣是最好的老师，HelloGitHub 就是帮你找到兴趣！简介  分享 GitHub 上有趣、入门级的开源项目。这是一个面向编程新手、热爱编程、对开源社区感兴趣 人群的月刊，月刊...",
-    "votes": "26",
-    "url": "/k/keoqwpc",
-    "avatar": "https://img.toutiao.io/subject%2Fb751657c3aaa4ac59db50c07db41e538",
-    "avatarAlt": "HelloGitHub - 独家号",
-    "subjectName": "HelloGitHub",
-    "homeUrl": "/subjects/175527"
   },
   {
     "title": "10 个高效 Linux 技巧及 Vim 命令对比",
@@ -200,30 +200,10 @@
     "homeUrl": "/subjects/389874"
   },
   {
-    "title": "索引，一文搞定",
-    "description": "前段时间写数据库内核比较多，最近又有朋友问索引的应用了，其实相关索引应用之前或多或少写过，只是可能不这么系统，这一篇简单总结一下，并系统性补充一些概念。 画外音：本文基于MySQL...",
-    "votes": "9",
-    "url": "/k/b23dtxd",
-    "avatar": "https://img.toutiao.io/user/b618677591aa49b3972ece0c7d26b473/thumb",
-    "avatarAlt": "数据淘金 - 独家号",
-    "subjectName": "数据淘金",
-    "homeUrl": "/subjects/120437"
-  },
-  {
-    "title": "最全 Linux 应急响应技巧",
-    "description": "概述Linux环境下处理应急响应事件往往会更加的棘手，因为相比于Windows，Linux没有像Autorun、procexp这样的应急响应利器，也没有统一的应急响应处理流程。所以...",
-    "votes": "10",
-    "url": "/k/ii2gbg8",
-    "avatar": "https://img.toutiao.io/subject%2Fe28330e25e7c43019c600fbe720c1911",
-    "avatarAlt": "2048 - 独家号",
-    "subjectName": "2048",
-    "homeUrl": "/subjects/3216"
-  },
-  {
-    "title": "这可能就是你苦苦寻找免费、高颜值、功能强大的 Markdown 编辑器（共 5 款）",
-    "description": "本文作者 | HelloGitHub-小猪蹄作者博客 | https://chungzh.cn/Markdown 是一个轻量级的标记语言，语法简单、容易上手，它深受程序员、博客主等...",
-    "votes": "8",
-    "url": "/k/k7v0sro",
+    "title": "分享 GitHub 上有趣、入门级的开源项目月刊",
+    "description": "兴趣是最好的老师，HelloGitHub 就是帮你找到兴趣！简介  分享 GitHub 上有趣、入门级的开源项目。这是一个面向编程新手、热爱编程、对开源社区感兴趣 人群的月刊，月刊...",
+    "votes": "27",
+    "url": "/k/keoqwpc",
     "avatar": "https://img.toutiao.io/subject%2Fb751657c3aaa4ac59db50c07db41e538",
     "avatarAlt": "HelloGitHub - 独家号",
     "subjectName": "HelloGitHub",
@@ -238,6 +218,26 @@
     "avatarAlt": "四猿外 - 独家号",
     "subjectName": "四猿外",
     "homeUrl": "/subjects/426740"
+  },
+  {
+    "title": "[译] 深入 OAuth 2.0 和 JWT",
+    "description": "原文链接：https://uriotnews.com/?s=oauth2.0+and+jwtI. 认证和授权从基于计算机的应用出现伊始，几乎每个开发者在其职业生涯内都会面对的一个最...",
+    "votes": "9",
+    "url": "/k/4bccwld",
+    "avatar": "https://img.toutiao.io/subject%2F8c9b39ef1d9c438ea534e073f937da82",
+    "avatarAlt": "云前端☁️ - 独家号",
+    "subjectName": "云前端☁️",
+    "homeUrl": "/subjects/40889"
+  },
+  {
+    "title": "索引，一文搞定",
+    "description": "前段时间写数据库内核比较多，最近又有朋友问索引的应用了，其实相关索引应用之前或多或少写过，只是可能不这么系统，这一篇简单总结一下，并系统性补充一些概念。 画外音：本文基于MySQL...",
+    "votes": "9",
+    "url": "/k/b23dtxd",
+    "avatar": "https://img.toutiao.io/user/b618677591aa49b3972ece0c7d26b473/thumb",
+    "avatarAlt": "数据淘金 - 独家号",
+    "subjectName": "数据淘金",
+    "homeUrl": "/subjects/120437"
   },
   {
     "title": "主键，不少人以为自己懂了，却不透彻",
