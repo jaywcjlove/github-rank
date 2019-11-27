@@ -1,39 +1,147 @@
 [
   {
+    "title": "IPv6，无需操作就可升级？",
+    "description": "最近这段时间，5G 出现在你能看到的各种信息里，铺天盖地的宣传提醒着大家新一代互联网的到来。其实早在几年前 5G 就有所提及，可是为什么到现在才开始窜上热门呢？这就涉及到了 IPv6。",
+    "url": "https://segmentfault.com/a/1190000021125576",
+    "author": "云叔_又拍云",
+    "home_url": "https://segmentfault.com/u/yunshu_blog",
+    "votes": "4",
+    "rank": 1
+  },
+  {
+    "title": "JavaScript 中， 5 种增加代码可读性的最佳实践",
+    "description": "好消息：阿里云服务器2019Hi拼团优惠活动正在火热进行中，新老用户均可参与，2核1G云服务器仅需79元，1核2G香港服务器仅需719元/3年，更多服务器配置及价格请关注：Hi拼团，或点此了解“云上爆款2折特惠活动”。同...",
+    "url": "https://segmentfault.com/a/1190000021120569",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "8",
+    "rank": 2
+  },
+  {
+    "title": "走进Golang之运行与Plan9汇编",
+    "description": "本文目录速览： Golang的运行环境 内存 操作系统、CPU、内存互相配合 Go程序的调用规约 函数在栈上的分布 Go的调用实例 Go的汇编plan9 查看go应用代码对应的翻译函数 逃逸分析 传值还是传指针 总结 通过上一篇走...",
+    "url": "https://segmentfault.com/a/1190000021126576",
+    "author": "大愚Talk",
+    "home_url": "https://segmentfault.com/u/helei112g",
+    "votes": "1",
+    "rank": 3
+  },
+  {
+    "title": "设计模式之美学习（八）：为何说要多用组合少用继承？如何决定该用组合还是继承？",
+    "description": "在面向对象编程中，有一条非常经典的设计原则，那就是：组合优于继承，多用组合少用继承。为什么不推荐使用继承？组合相比继承有哪些优势？如何判断该用组合还是继承？",
+    "url": "https://segmentfault.com/a/1190000021126247",
+    "author": "沐晨",
+    "home_url": "https://segmentfault.com/u/muchen_li",
+    "votes": "1",
+    "rank": 4
+  },
+  {
+    "title": "使用 Angular 打造微前端架构的 ToB 企业级应用",
+    "description": "这篇文章其实已经准备了11个月了，因为虽然我们年初就开始使用 Angular 的微前端架构，但是产品一直没有正式发布，无法通过生产环境实践验证可行性，11月16日我们的产品正式灰度发布，所以是时候分享一下我们在使...",
+    "url": "https://segmentfault.com/a/1190000021126183",
+    "author": "Worktile",
+    "home_url": "https://segmentfault.com/u/worktile",
+    "votes": "2",
+    "rank": 5
+  },
+  {
+    "title": "直击KubeCon北美峰会：开发者们不得不关注的10大项目",
+    "description": "今天晚上8:30，第三期在线培训《如何通过Istio进行金丝雀发布》将准时开播，内容包括Istio原理、金丝雀发布、在Rancher中启用Istio，报名及观看链接：[链接]",
+    "url": "https://segmentfault.com/a/1190000021125905",
+    "author": "RancherLabs",
+    "home_url": "https://segmentfault.com/u/rancher",
+    "votes": "1",
+    "rank": 6
+  },
+  {
+    "title": "apt-get更新出现W: GPG error: http://repo.mysql.com trusty InRelease",
+    "description": "一、问题 在使用 apt-get update 在 Ubuntu 环境更新包资源时，出现了以下报错： {代码...} 从报错的信息看是因为签名参数过期了，所以，这里需要删除后再更新。 二、解决 先查看执行命令：apt-key list {代码......",
+    "url": "https://segmentfault.com/a/1190000021124958",
+    "author": "Corwien",
+    "home_url": "https://segmentfault.com/u/corwien",
+    "votes": "2",
+    "rank": 7
+  },
+  {
+    "title": "一文读懂JavaScript的并发模型和事件循环机制",
+    "description": "在浏览器实现中，每个单页都是一个独立进程，其中包含了JS引擎、GUI界面渲染、事件触发、定时触发器、异步HTTP请求等多个线程。",
+    "url": "https://segmentfault.com/a/1190000021123157",
+    "author": "赵帅强",
+    "home_url": "https://segmentfault.com/u/zhaoshuaiqiang",
+    "votes": "5",
+    "rank": 8
+  },
+  {
+    "title": "一个基于vue和element-ui的甘特图组件，gantt、项目管理、任务管理器。",
+    "description": "目前市面上最有名的几个gantt插件占据江湖了非常久远的时间，它们古老又强大。 但无一例外的是：它们收费或极其难用并且依赖非常古老的技术，其中有些技术现在入行的新手甚至从未听闻。 【jQueryGantt】【plusgan...",
+    "url": "https://segmentfault.com/a/1190000021121660",
+    "author": "蔚蓝",
+    "home_url": "https://segmentfault.com/u/weilan_595deafa69d76",
+    "votes": "3",
+    "rank": 9
+  },
+  {
+    "title": "打造稳定快速、高效免费图床",
+    "description": "因为在不同平台发布同一篇文章的时候，最一个痛苦的点就是，图片存储问题，各个平台的文件存储方式各不相同，无法直接 Ctrl + C 的方式一键搞定，为了解决这个问题，使用 MarkDown + 图床 的方式进行文章的写作，...",
+    "url": "https://segmentfault.com/a/1190000021123192",
+    "author": "JackFeng",
+    "home_url": "https://segmentfault.com/u/a2data",
+    "votes": "2",
+    "rank": 10
+  },
+  {
     "title": "《Flappy Bird》开发者：游戏爆红之后，觉得“这个世界突然疯了”...",
     "description": "从默默无闻到一夜爆红，《Flappy BIrd》在当年创造了手机游戏的一个奇迹，iOS 免费游戏下载榜单第一名、2014年\"美国及中国 iTunes 最受欢迎免费应用软件\"、被Cnet 评为“21世纪初全球最具影响力的 25 个 App 之一”。",
     "url": "https://segmentfault.com/a/1190000021116868",
     "author": "徐九",
     "home_url": "https://segmentfault.com/u/weepie",
-    "votes": "3",
-    "rank": 1
+    "votes": "5",
+    "rank": 11
   },
   {
-    "title": "通过事例重温一下常见的 JS 中 15 种数组操作(备忘清单)",
-    "description": "好消息：阿里云服务器2019Hi拼团优惠活动正在火热进行中，新老用户均可参与，2核1G云服务器仅需79元，1核2G香港服务器仅需719元/3年，更多服务器配置及价格请关注：Hi拼团，或点此了解“云上爆款2折特惠活动”。同...",
-    "url": "https://segmentfault.com/a/1190000021071600",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "17",
-    "rank": 2
+    "title": "Vue源码笔记 — 数据驱动--为什么通过 this.xxx 可以访问到 data 中定义的数据",
+    "description": "上面是一个简单的 Vue 示例，当运行 mounted 生命周期时，控制台会输出 Hello Vue!。那么为什么通过 this.message 可以访问到 data 中定义的数据，下面让我们一起分析一下。",
+    "url": "https://segmentfault.com/a/1190000021120558",
+    "author": "Dragon",
+    "home_url": "https://segmentfault.com/u/dragon_5a59a3864a29c",
+    "votes": "2",
+    "rank": 12
   },
   {
-    "title": "package.json 详解",
-    "description": "Node 项目在项目根目录中名为 package.json 的文件中跟踪依赖关系和元数据。这是你项目的核心。它包含名称、描述和版本之类的信息，以及运行、开发以及有选择地将项目发布到 NPM 所需的信息。",
-    "url": "https://segmentfault.com/a/1190000021114661",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "9",
-    "rank": 3
+    "title": "React Hook 基础使用",
+    "description": "Hook 是 React 16.8 的新增特性。它可以让你在不编写 class 的情况下使用 state 以及其他的 React 特性",
+    "url": "https://segmentfault.com/a/1190000021123890",
+    "author": "游荡de蝌蚪",
+    "home_url": "https://segmentfault.com/u/youdangde_5c8b208a23f95",
+    "votes": "1",
+    "rank": 13
   },
   {
-    "title": "跨站请求伪造—CSRF",
-    "description": "CSRF，是跨站请求伪造（Cross Site Request Forgery）的缩写，是一种劫持受信任用户向服务器发送非预期请求的攻击方式。",
-    "url": "https://segmentfault.com/a/1190000021114673",
-    "author": "FEWY",
-    "home_url": "https://segmentfault.com/u/fewy",
-    "votes": "6",
-    "rank": 4
+    "title": "'MD'，原来是这样写的？干就完了",
+    "description": "Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。",
+    "url": "https://segmentfault.com/a/1190000021123208",
+    "author": "JackFeng",
+    "home_url": "https://segmentfault.com/u/a2data",
+    "votes": "2",
+    "rank": 14
+  },
+  {
+    "title": "比原链CTO James | Go语言成为区块链主流开发语言的四点理由",
+    "description": "11月24日，比原链CTO James参加了Go中国举办的Gopher Meetup杭州站活动，与来自阿里、网易的技术专家带来Kubernetes、区块链、日志采集、云原生等话题的分享。James向大家介绍了Go语言特性在区块链中的应用还分析...",
+    "url": "https://segmentfault.com/a/1190000021121063",
+    "author": "比原链Bytom",
+    "home_url": "https://segmentfault.com/u/bytom",
+    "votes": "1",
+    "rank": 15
+  },
+  {
+    "title": "结合RBAC模型讲解权限管理系统需求及表结构创建",
+    "description": "在本号之前的文章中，已经为大家介绍了很多关于Spring Security的使用方法，也介绍了RBAC的基于角色权限控制模型。但是很多朋友虽然已经理解了RBAC控制模型，但是仍有很多的问题阻碍他们进一步开发。比如：",
+    "url": "https://segmentfault.com/a/1190000021116681",
+    "author": "字母哥博客",
+    "home_url": "https://segmentfault.com/u/zimug",
+    "votes": "4",
+    "rank": 16
   },
   {
     "title": "Ant Design Pro 下实现文件下载",
@@ -41,8 +149,80 @@
     "url": "https://segmentfault.com/a/1190000021118085",
     "author": "JasonHe",
     "home_url": "https://segmentfault.com/u/soulman",
+    "votes": "3",
+    "rank": 17
+  },
+  {
+    "title": "Spring Security 测试实战",
+    "description": "试题管理系统的安全模块使用Spring Security，代码从原华软仓库移植，在移植的过程中，发现原测试编写的不好，遂在新系统中对安全模块测试进行了重构。",
+    "url": "https://segmentfault.com/a/1190000021122222",
+    "author": "张喜硕",
+    "home_url": "https://segmentfault.com/u/zhangxishuo",
     "votes": "1",
-    "rank": 5
+    "rank": 18
+  },
+  {
+    "title": "IOS9兼容性问题解决: Attempting to change configurable attribute",
+    "description": "排除法缩小问题范围：请远在北京的这位测试同学通过HTTP代理抓包的方式查看是否拉取了我们的jssdk，以及是否发起了广告拉取请求。结果是：js已拉取，但下一步的ajax请求未发出；这便说明问题肯定出现在jssdk的加...",
+    "url": "https://segmentfault.com/a/1190000021123838",
+    "author": "sheldon",
+    "home_url": "https://segmentfault.com/u/sheldoncui",
+    "votes": "1",
+    "rank": 19
+  },
+  {
+    "title": "宋宝华： Linux内核编程广泛使用的前向声明(Forward Declaration)",
+    "description": "本文系转载，著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。 作者：宋宝华 来源： 微信公众号linux阅码场(id: linuxdev) 前向声明 编程定律 先强调一点：在一切可能的场景，尽可能地使用...",
+    "url": "https://segmentfault.com/a/1190000021121894",
+    "author": "linux阅码场",
+    "home_url": "https://segmentfault.com/u/linuxdev",
+    "votes": "1",
+    "rank": 20
+  },
+  {
+    "title": "[ 干货 ] 介绍4个开发 React 应用的实用技巧",
+    "description": "Hooks 自推出以来就很火， 它改变了我们编写React 代码的方式， 有助于我们写更简洁的代码。",
+    "url": "https://segmentfault.com/a/1190000021120189",
+    "author": "皮小蛋",
+    "home_url": "https://segmentfault.com/u/scaukk",
+    "votes": "3",
+    "rank": 21
+  },
+  {
+    "title": "一名UI设计师的Electron学习之路（二）——记事本APP",
+    "description": "最近一直在摸索Electron，网上有大牛使用Electron-vue做的一些应用，但由于本人非科班开发人员，学习起来总是云里雾里的，最终还是回归原始的Electron开发，再逐步拓展其他栈的知识。好了，接下来是最近临摹的一...",
+    "url": "https://segmentfault.com/a/1190000021123516",
+    "author": "少孟",
+    "home_url": "https://segmentfault.com/u/shaomeng",
+    "votes": "1",
+    "rank": 22
+  },
+  {
+    "title": "高并发编程学习(1)——并发基础",
+    "description": "当我们使用计算机时，可以同时做许多事情，例如一边打游戏一边听音乐。这是因为操作系统支持并发任务，从而使得这些工作得以同时进行。",
+    "url": "https://segmentfault.com/a/1190000021123348",
+    "author": "我没有三颗心脏",
+    "home_url": "https://segmentfault.com/u/wmyskxz",
+    "votes": "1",
+    "rank": 23
+  },
+  {
+    "title": "一文彻底搞懂Java中的异常机制",
+    "description": "首先我们可以明确一点就是异常的处理机制可以确保我们程序的健壮性，提高系统可用率。虽然我们不是特别喜欢看到它，但是我们不能不承认它的地位，作用。",
+    "url": "https://segmentfault.com/a/1190000021123004",
+    "author": "TopJavaer",
+    "home_url": "https://segmentfault.com/u/topjavaer",
+    "votes": "1",
+    "rank": 24
+  },
+  {
+    "title": "Java 数据持久化系列之JDBC",
+    "description": "前段时间小冰在工作中遇到了一系列关于数据持久化的问题，在排查问题时发现自己对 Java 后端的数据持久化框架的原理都不太了解，只有不断试错，因此走了很多弯路。于是下定决心，集中精力学习了持久化相关框架的...",
+    "url": "https://segmentfault.com/a/1190000021122696",
+    "author": "remcarpediem",
+    "home_url": "https://segmentfault.com/u/remcarpediem",
+    "votes": "1",
+    "rank": 25
   },
   {
     "title": "如何一眼看穿一家公司要凉？",
@@ -51,222 +231,24 @@
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "2",
-    "rank": 6
-  },
-  {
-    "title": "大型科技团队的管理",
-    "description": "分享中介绍了高效科技组织的特点及管理经验，指出科技团队的定位和使命在于支持业务、赋能业务、最终引领业务，同时，还介绍了面向未来的科技组织的特点及对管理者提出的能力要求。",
-    "url": "https://segmentfault.com/a/1190000021115034",
-    "author": "宜信技术学院",
-    "home_url": "https://segmentfault.com/u/gaoleihan",
-    "votes": "3",
-    "rank": 7
-  },
-  {
-    "title": "【全栈修炼】RESTful架构及实践 修炼宝典",
-    "description": "REST：（Representational State Transfer）即表现层状态转换，定义了资源的通用访问格式，是一种网络应用程序的设计风格和开发方式。",
-    "url": "https://segmentfault.com/a/1190000021112172",
-    "author": "pingan8787",
-    "home_url": "https://segmentfault.com/u/pingan8787",
-    "votes": "7",
-    "rank": 8
-  },
-  {
-    "title": "如何利用快照（ snapshot ）功能快速定位性能问题",
-    "description": "我们常常会遇到这样的困惑，收到用户或者客服的反馈，平台使用有问题，但是测试人员搭建环境后又没办法复现故障，最后导致问题没法解决，眼睁睁地看着用户流失。",
-    "url": "https://segmentfault.com/a/1190000021115781",
-    "author": "OneAPM蓝海讯通",
-    "home_url": "https://segmentfault.com/u/oneapm_official",
-    "votes": "1",
-    "rank": 9
-  },
-  {
-    "title": "将Swagger2文档导出为HTML或markdown等格式离线阅读",
-    "description": "网上有很多《使用swagger2构建API文档》的文章，该文档是一个在线文档，需要使用HTTP访问。但是在我们日常使用swagger接口文档的时候，有的时候需要接口文档离线访问，如将文档导出为html、markdown格式。又或者...",
-    "url": "https://segmentfault.com/a/1190000021112720",
-    "author": "字母哥博客",
-    "home_url": "https://segmentfault.com/u/zimug",
-    "votes": "2",
-    "rank": 10
-  },
-  {
-    "title": "React 深入系列：1. React 中的元素、组件、实例和节点",
-    "description": "React 深入系列是 《React进阶之路》作者徐超笔下的文章，文章首发于老干部的大前端。文章简短精干，清晰明了，现将此系列文章分享在本专栏里，希望对您有所帮助。",
-    "url": "https://segmentfault.com/a/1190000021112828",
-    "author": "Leiy",
-    "home_url": "https://segmentfault.com/u/webinfoq",
-    "votes": "3",
-    "rank": 11
-  },
-  {
-    "title": "《面试宝典》：检验是否为合格的初中级程序员的面试知识点，你都知道了吗？查漏补缺",
-    "description": "欢迎关注文章系列，一起学习 《提升能力，涨薪可待篇》 《面试知识，工作可待篇》 《实战演练，拒绝996篇》 也欢迎关注微信公众号【Ccww笔记】，原创技术文章第一时间推出 如果此文对你有帮助、喜欢的话，那就点...",
-    "url": "https://segmentfault.com/a/1190000021113522",
-    "author": "Ccww",
-    "home_url": "https://segmentfault.com/u/ccww",
-    "votes": "3",
-    "rank": 12
-  },
-  {
-    "title": "Node.js v13.2.0 开始支持ES modules了",
-    "description": "Node.js 前不久发布了v13.2.0，宣布开始支持ES modules。在此之前，想要在node中使用ES modules，需要添加--experimental-module。v13.2.0版本后，可以直接使用ES modules了。",
-    "url": "https://segmentfault.com/a/1190000021110982",
-    "author": "CoyPan",
-    "home_url": "https://segmentfault.com/u/coypan",
-    "votes": "6",
-    "rank": 13
-  },
-  {
-    "title": "React-Hook 基础使用（一）",
-    "description": "Hook 是 React 16.8 的新增特性。它可以让你在不编写 class 的情况下使用 state 以及其他的 React 特性",
-    "url": "https://segmentfault.com/a/1190000021113773",
-    "author": "游荡de蝌蚪",
-    "home_url": "https://segmentfault.com/u/youdangde_5c8b208a23f95",
-    "votes": "2",
-    "rank": 14
-  },
-  {
-    "title": "天啦！竟然从来没有人讲过 SpringBoot 支持配置如此平滑的迁移",
-    "description": "SpringBoot 是原生支持配置迁移的，但是官方文档没有看到这方面描述，在源码中才看到此模块，spring-boot-properties-migrator，幸亏我没有跳过。看到这篇文章的各位，可算是捡到宝了，相信你继续往下看下去，定...",
-    "url": "https://segmentfault.com/a/1190000021113056",
-    "author": "逸飞兮",
-    "home_url": "https://segmentfault.com/u/lw5946",
-    "votes": "1",
-    "rank": 15
-  },
-  {
-    "title": "Java描述设计模式(23)：访问者模式",
-    "description": "电竞是游戏比赛达到“竞技”层面的体育项目。利用电子设备作为运动器械进行的、人与人之间的智力对抗运动。通过电竞，可以提高人的反应能力、协调能力、团队精神等。但是不同人群的对电竞的持有的观念不一样，有的...",
-    "url": "https://segmentfault.com/a/1190000021111701",
-    "author": "知了一笑",
-    "home_url": "https://segmentfault.com/u/cicadasmile",
-    "votes": "2",
-    "rank": 16
-  },
-  {
-    "title": "深拷贝与浅拷贝",
-    "description": "由于引用数据类型--名存在栈内存中（存的只是个地址，该地址指向堆内存），值存在于堆内存中。b=a只是把引用地址赋值给了b，当修改数组的时候a，b依旧是指向同一个堆内存。因此修改a，b会跟着变。",
-    "url": "https://segmentfault.com/a/1190000021110303",
-    "author": "哈哈",
-    "home_url": "https://segmentfault.com/u/haha_5da6d52007548",
-    "votes": "2",
-    "rank": 17
-  },
-  {
-    "title": "FE Interview",
-    "description": "个人收集的前端知识点、面试题和答案，参考答案仅代表个人观点，方便复习，目录如下，通过文档内搜索目录可快速定位章节",
-    "url": "https://segmentfault.com/a/1190000021109907",
-    "author": "穗乃果",
-    "home_url": "https://segmentfault.com/u/kotori",
-    "votes": "4",
-    "rank": 18
-  },
-  {
-    "title": "一个JDK线程池BUG引发的GC机制思考",
-    "description": "本文中的模拟代码已经问题都是在HotSpot java8 (1.8.0_221)版本下模拟&出现的",
-    "url": "https://segmentfault.com/a/1190000021109130",
-    "author": "空无",
-    "home_url": "https://segmentfault.com/u/kongwu",
-    "votes": "9",
-    "rank": 19
-  },
-  {
-    "title": "Kube-OVN v0.9.0更新，网络可视化和控制平面稳定性提升",
-    "description": "Kube-OVN 是一个基于 OVN 的 Kubernetes 开源网络项目，具有丰富的企业级网络功能并且十分易于上手使用。0.9.0的版本得到了社区用户的大力支持，增加了监控视图，并解决了很多稳定性相关的问题。",
-    "url": "https://segmentfault.com/a/1190000021110472",
-    "author": "灵雀云",
-    "home_url": "https://segmentfault.com/u/lingqueyun",
-    "votes": "2",
-    "rank": 20
-  },
-  {
-    "title": "【原创】laravel-gii 可视化代码生成工具",
-    "description": "根据MySQL的表结构生成对应的Model、Observer、Controller、View、Route等相关项目文件，通过简单点击鼠标即可自动创建完整的CRUD后台。",
-    "url": "https://segmentfault.com/a/1190000021112115",
-    "author": "jaysun",
-    "home_url": "https://segmentfault.com/u/osinger",
-    "votes": "1",
-    "rank": 21
-  },
-  {
-    "title": "Dubbo源码解析实战 - 路由Router的奥秘",
-    "description": "集群容错中的第二个关键词Router,中文意思就是路由前端的路由和后端的路由他们是不同的,但是思想是基本一致的.鉴于很多技术文章都有一个诟病,就是只讲概念,却不讲应用场景,其实Router在应用隔离,读写分离,灰度发...",
-    "url": "https://segmentfault.com/a/1190000021112112",
-    "author": "JavaEdge",
-    "home_url": "https://segmentfault.com/u/yishengzhiweiyumeiren",
-    "votes": "1",
-    "rank": 22
-  },
-  {
-    "title": "2019年底前的web前端面试题初级-web标准应付HR大多面试问题",
-    "description": "作者 | Jeskson来源 | 达达前端小酒馆 问：你知道在css中，html的标签元素分多少中不同的类型吗？ 答：大体可分三种：1，块状元素，2，内联元素，3，内联块状元素 块级元素：就是每个块级元素都是从新的一行开始...",
-    "url": "https://segmentfault.com/a/1190000021111544",
-    "author": "达达前端小酒馆",
-    "home_url": "https://segmentfault.com/u/dashucoding",
-    "votes": "1",
-    "rank": 23
-  },
-  {
-    "title": "在前端 Word 还能这样玩",
-    "description": "前阵子听到公司运营的小姐姐们在抱怨，说在富文本编辑器中发布包含图片的 Word 文档时，图片和文本内容不能一起复制，每次她们都得分开处理，对于包含较多图片的 Word 时，她们处理起来很抓狂。目前她们所使用后...",
-    "url": "https://segmentfault.com/a/1190000021111457",
-    "author": "semlinker",
-    "home_url": "https://segmentfault.com/u/angular4",
-    "votes": "2",
-    "rank": 24
-  },
-  {
-    "title": "网页生成PDF文件应用",
-    "description": "你没有碰到过要将网页转换为PDF文件的需求？ 图片呢？ 如何保存一个网页的快照？ 截图？ 页面过长怎办，系统自带的截图工具没法滚屏海外网页被墙，通过在香港服部署一PDF生成服务可以免除无谓的浏览其它垃圾/非法...",
-    "url": "https://segmentfault.com/a/1190000021111285",
-    "author": "neveryield",
-    "home_url": "https://segmentfault.com/u/neveryield",
-    "votes": "1",
-    "rank": 25
-  },
-  {
-    "title": "前端基础整理-MVVM相关",
-    "description": "Model、View、Controllermvc有如下两种形式，不管哪种都是单向通信的，实际项目一般会采用灵活的方式，如backbone.js，相当于两种形式的结合MVC实现了功能的分层，但是当你有变化的时候你需要同时维护三个对象和...",
-    "url": "https://segmentfault.com/a/1190000021110458",
-    "author": "JTR354",
-    "home_url": "https://segmentfault.com/u/jtr354",
-    "votes": "1",
     "rank": 26
   },
   {
-    "title": "初探Tomcat的架构设计",
-    "description": "Tomcat 作为 servlet 容器实现，它是基于 Java 语言开发的轻量级应用服务器。因为 Tomcat 作为应用服务器，它有着完全开源，轻量，性能稳定，部署成本低等优点，所以它成为目前 Java 开发应用部署的首选，几乎每...",
-    "url": "https://segmentfault.com/a/1190000021111132",
-    "author": "ytao",
-    "home_url": "https://segmentfault.com/u/ytao_5d89aaa42675a",
+    "title": "es6总结",
+    "description": "数组的结构 var [a,b,c] = [1,2,3];console.log(a);console.log(b);console.log(c);",
+    "url": "https://segmentfault.com/a/1190000021121582",
+    "author": "素素",
+    "home_url": "https://segmentfault.com/u/susu_5d686fe714836",
     "votes": "1",
     "rank": 27
   },
   {
-    "title": "vue 表单验证完毕 重新加载 界面不显示初始化错误信息",
-    "description": "问题描述：做一个新增的表单，有好多必填项，如果新增完成以后，还停留在这个界面，那么完成以后，数据必须初始化，这样的话界面就会出现必填项的错误提示。",
-    "url": "https://segmentfault.com/a/1190000021110372",
-    "author": "张旭超",
-    "home_url": "https://segmentfault.com/u/zhangxuchao1024",
+    "title": "sort便捷排序",
+    "description": "1.sort便捷排序 {代码...} 从小到大打印结果： 从大到小打印结果： 底层算法原理：[链接]",
+    "url": "https://segmentfault.com/a/1190000021120212",
+    "author": "云端的日子",
+    "home_url": "https://segmentfault.com/u/yunduanderizi_5c7f6d367b5d0",
     "votes": "1",
     "rank": 28
-  },
-  {
-    "title": "为什么用Sass而不是Less？",
-    "description": "1、什么是Sass和Less？2、为什么要使用CSS预处理器？3、Sass和Less的比较4、为什么选择使用Sass而不是Less？",
-    "url": "https://segmentfault.com/a/1190000021110126",
-    "author": "KASON",
-    "home_url": "https://segmentfault.com/u/kason_5c6fb9100a56b",
-    "votes": "1",
-    "rank": 29
-  },
-  {
-    "title": "不懂就问：cookie和session对比（1、cookie）",
-    "description": "cookie是储存在用户本地终端上的不超过4KB的小型数据 简单说明： {代码...} 完整示例： {代码...}",
-    "url": "https://segmentfault.com/a/1190000021109800",
-    "author": "珍惜眼前",
-    "home_url": "https://segmentfault.com/u/zhenxiyanqian",
-    "votes": "1",
-    "rank": 30
   }
 ]

@@ -22,22 +22,12 @@
   {
     "title": "告别动态规划，连刷 40 道题，我总结了这些套路，看不懂你打我",
     "description": "动态规划难吗？说实话，我觉得很难，特别是对于初学者来说，我当时入门动态规划的时候，是看 0-1 背包问题，当时真的是一脸懵逼。后来，我遇到动态规划的题，看的懂答案，但就是自己不会做...",
-    "votes": "22",
+    "votes": "24",
     "url": "/k/jcapha4",
     "avatar": "https://img.toutiao.io/subject%2F8e44d1a2390944c08c6170906cfc0856",
     "avatarAlt": "跨端&全栈 - 独家号",
     "subjectName": "跨端&全栈",
     "homeUrl": "/subjects/7076"
-  },
-  {
-    "title": "最全 Linux 应急响应技巧",
-    "description": "概述Linux环境下处理应急响应事件往往会更加的棘手，因为相比于Windows，Linux没有像Autorun、procexp这样的应急响应利器，也没有统一的应急响应处理流程。所以...",
-    "votes": "12",
-    "url": "/k/ii2gbg8",
-    "avatar": "https://img.toutiao.io/subject%2Fe28330e25e7c43019c600fbe720c1911",
-    "avatarAlt": "2048 - 独家号",
-    "subjectName": "2048",
-    "homeUrl": "/subjects/3216"
   },
   {
     "title": "[译] 深入 OAuth 2.0 和 JWT",
@@ -50,16 +40,6 @@
     "homeUrl": "/subjects/40889"
   },
   {
-    "title": "面试官：JVM 对锁进行了优化，都优化了啥？",
-    "description": "从JDK1.6开始，JVM对锁进行了各种优化，目的就是为了在线程间更高效的共享数据和解决互斥同步的问题。从锁优化的话题开始，可以引申出很多考点面试题，比如锁优化的技术、各优化技术的...",
-    "votes": "13",
-    "url": "/k/0y017pt",
-    "avatar": "https://img.toutiao.io/subject%2F1c73154dc104436babf48224a6ed1626",
-    "avatarAlt": "Java实战技术 - 独家号",
-    "subjectName": "Java实战技术",
-    "homeUrl": "/subjects/22887"
-  },
-  {
     "title": "就写了一行代码，被狂虐问了这么多问题",
     "description": "面试官：如何在一个方法中创建一个局部byte类型数组？小白：(是不是太基础了，暗笑)byte[] arrays = new byte[1024]。面试官：这个局部arrays变量指...",
     "votes": "20",
@@ -70,19 +50,9 @@
     "homeUrl": "/subjects/22887"
   },
   {
-    "title": "Bing 搜索核心技术 BitFunnel 原理",
-    "description": "导语 从90年代中期开始，人们普遍认识，对于内容索引来说，文件签名技术比反向链接效果更差。最近几年必应搜索引擎开发与部署了一套基于位分割的标签索引。这种索引（也称BitFunnel...",
-    "votes": "11",
-    "url": "/k/nm4pi7s",
-    "avatar": "https://img.toutiao.io/subject%2Faec59e3752174268802557e3e7afcb33",
-    "avatarAlt": "不错的好文 - 独家号",
-    "subjectName": "不错的好文",
-    "homeUrl": "/subjects/5551"
-  },
-  {
     "title": "万亿级消息背后: 小米消息队列的实践",
     "description": " 万亿级消息背后的小米消息队列实践往期文章回顾：Mysql数据实时同步实践目录 业务背景 架构与关键问题 性能与资源优化 平台化效率 小米消息中间件的规划与愿景 前文《消息队列价值...",
-    "votes": "10",
+    "votes": "11",
     "url": "/k/rys99bx",
     "avatar": "https://img.toutiao.io/subject%2F8e12ef64799649acbfd936883ef16c3c",
     "avatarAlt": "技术中台及微服务架构 - 独家号",
@@ -100,69 +70,9 @@
     "homeUrl": "/subjects/380054"
   },
   {
-    "title": "Go 开发过程中总是要停下来编译：用它解决你的烦恼，快乐编程",
-    "description": "点击上方蓝色“Go语言中文网”关注我们，领全套Go资料，每天学习 Go 语言使用编译型语言进行开发，总是需要不断的进行这样一个循环：编码->编译->运行->调试->编码。每次改完代...",
-    "votes": "17",
-    "url": "/k/h762cq7",
-    "avatar": "https://img.toutiao.io/subject%2F64677a07a70345cf967f7b92cb5a59fc",
-    "avatarAlt": "Go语言中文网 - 独家号",
-    "subjectName": "Go语言中文网",
-    "homeUrl": "/subjects/133906"
-  },
-  {
-    "title": "Spring Boot+Swagger 接口文档企业实践（下）",
-    "description": "tags:springbootswaggerdoc一句话概括：基于 springboot+swagger 实现接口文档显示后，本文将给出在企业实践的进阶需求，包括接口按需过滤，前端...",
-    "votes": "14",
-    "url": "/k/mljsq3n",
-    "avatar": "https://img.toutiao.io/subject%2F81bac1d8c81c4523a1037648a39d6ae3",
-    "avatarAlt": "mason技术记录 - 独家号",
-    "subjectName": "mason技术记录",
-    "homeUrl": "/subjects/24970"
-  },
-  {
-    "title": "为什么 DNS 使用 UDP 协议",
-    "description": "概述设计 UDPTCP总结Reference为什么这么设计（Why’s THE Design）是一系列关于计算机领域中程序设计决策的文章，我们在这个系列的每一篇文章中都会提出一个具...",
-    "votes": "13",
-    "url": "/k/1zxqxx9",
-    "avatar": "https://img.toutiao.io/subject%2Fb74e6991f2de41dbb21d7eef58177d64",
-    "avatarAlt": "面向信仰编程 - 独家号",
-    "subjectName": "面向信仰编程",
-    "homeUrl": "/subjects/90130"
-  },
-  {
-    "title": "基于 Redis 实现的延迟消息队列",
-    "description": "依赖版本1.15.0+模块说明模块的设计实现原理参考《有赞延迟队列设计》，详细架构图如下： 有赞的这个架构设计是基于Redis的，我们为什么不使用RabbitMQ？可能是用的不是这...",
-    "votes": "7",
-    "url": "/k/www9xod",
-    "avatar": "https://img.toutiao.io/user/4361a6a113a047ad90034b9fa0cacdf3/thumb",
-    "avatarAlt": "口香糖 - 独家号",
-    "subjectName": "口香糖",
-    "homeUrl": "/subjects/153924"
-  },
-  {
-    "title": "Spring Boot 2 整合 QuartJob，实现定时器实时管理",
-    "description": "一、QuartJob简介 1、一句话描述Quartz是一个完全由java编写的开源作业调度框架，形式简易，功能强大。2、核心API(1)、Scheduler代表一个 Quartz ...",
-    "votes": "13",
-    "url": "/k/79ikndl",
-    "avatar": "https://img.toutiao.io/subject%2F652f30d4f8ed4f198281774399a49076",
-    "avatarAlt": "知了一笑 - 独家号",
-    "subjectName": "知了一笑",
-    "homeUrl": "/subjects/416733"
-  },
-  {
-    "title": "程序设计的 5 个底层逻辑，决定你能走多快",
-    "description": " 阿里妹导读：肉眼看计算机是由CPU、内存、显示器这些硬件设备组成，但大部分人从事的是软件开发工作。计算机底层原理就是连通硬件和软件的桥梁，理解计算机底层原理才能在程序设计这条路上...",
-    "votes": "4",
-    "url": "/k/31lkg9z",
-    "avatar": "https://img.toutiao.io/subject%2Fc64389e4ebf74b48abbd9d049092162a",
-    "avatarAlt": "编程的那些事儿 - 独家号",
-    "subjectName": "编程的那些事儿",
-    "homeUrl": "/subjects/253439"
-  },
-  {
     "title": "JVM 面试：运行结构（附测试题）",
     "description": "JVM 结构这篇主要了解 JVM 内在的运行结构是怎么样的。虚拟机的意义Java 作为一门高级程序语言，它的语法非常复杂，抽象程度也很高。因此，直接在硬件上运行这种复杂的程序并不现...",
-    "votes": "7",
+    "votes": "8",
     "url": "/k/mmaagkz",
     "avatar": "https://img.toutiao.io/subject%2F22588c509b2d43a28b1be8575a53c312",
     "avatarAlt": "CODE - 独家号",
@@ -170,14 +80,44 @@
     "homeUrl": "/subjects/33758"
   },
   {
-    "title": "《面试知识，工作可待：集合篇》：Java 集合面试知识大全",
-    "description": " 欢迎一起学习《提升能力，涨薪可待 》 《面试知识，工作可待 》 《实战演练，拒绝996 》 也欢迎关注公 众 号【Ccww笔记】，原创技术文章第 一时间推出 如果此文对你有帮助、...",
-    "votes": "4",
-    "url": "/k/bj5g3pq",
-    "avatar": "https://img.toutiao.io/subject%2F36ba6cca33c74069b0141b60a64963b8",
-    "avatarAlt": "Ccww架构之旅 - 独家号",
-    "subjectName": "Ccww架构之旅",
-    "homeUrl": "/subjects/367406"
+    "title": "Spring Boot+Swagger 接口文档企业实践（下）",
+    "description": "tags:springbootswaggerdoc一句话概括：基于 springboot+swagger 实现接口文档显示后，本文将给出在企业实践的进阶需求，包括接口按需过滤，前端...",
+    "votes": "15",
+    "url": "/k/mljsq3n",
+    "avatar": "https://img.toutiao.io/subject%2F81bac1d8c81c4523a1037648a39d6ae3",
+    "avatarAlt": "mason技术记录 - 独家号",
+    "subjectName": "mason技术记录",
+    "homeUrl": "/subjects/24970"
+  },
+  {
+    "title": "程序设计的 5 个底层逻辑，决定你能走多快",
+    "description": " 阿里妹导读：肉眼看计算机是由CPU、内存、显示器这些硬件设备组成，但大部分人从事的是软件开发工作。计算机底层原理就是连通硬件和软件的桥梁，理解计算机底层原理才能在程序设计这条路上...",
+    "votes": "5",
+    "url": "/k/31lkg9z",
+    "avatar": "https://img.toutiao.io/subject%2Fc64389e4ebf74b48abbd9d049092162a",
+    "avatarAlt": "编程的那些事儿 - 独家号",
+    "subjectName": "编程的那些事儿",
+    "homeUrl": "/subjects/253439"
+  },
+  {
+    "title": "程序员岁数大了之后的出路（下篇）",
+    "description": "这是四猿外的第 50 篇原创文章，感谢各位读者大大。 前文再续，书接上回。上次说到了程序员沿着技术发展、转管理、转产品三个出路，今天我们继续聊程序员的其他出路。上篇文章的传送门见底...",
+    "votes": "10",
+    "url": "/k/l3gilvs",
+    "avatar": "https://img.toutiao.io/subject%2F180d026f85274c998656474cd1988d0f",
+    "avatarAlt": "四猿外 - 独家号",
+    "subjectName": "四猿外",
+    "homeUrl": "/subjects/426740"
+  },
+  {
+    "title": "2w 字长文，让你瞬间拥有 “调用链” 开发经验",
+    "description": "原创：小姐姐味道（微信公众号ID：xjjdog），欢迎分享，转载请保留出处。很多同学表示，对于微服务中常用的调用链功能的原理，感觉很模糊。本文将真正的从零开始，介绍调用链客户端开发...",
+    "votes": "8",
+    "url": "/k/3e7lgvy",
+    "avatar": "https://img.toutiao.io/subject%2F6b8e14b561b24dfeac075e2a8dac9bfd",
+    "avatarAlt": "小姐姐味道 - 独家号",
+    "subjectName": "小姐姐味道",
+    "homeUrl": "/subjects/351247"
   },
   {
     "title": "双 11 模块 79.34% 的代码是怎样智能生成的？",
@@ -190,13 +130,73 @@
     "homeUrl": "/subjects/72425"
   },
   {
-    "title": "2w 字长文，让你瞬间拥有 “调用链” 开发经验",
-    "description": "原创：小姐姐味道（微信公众号ID：xjjdog），欢迎分享，转载请保留出处。很多同学表示，对于微服务中常用的调用链功能的原理，感觉很模糊。本文将真正的从零开始，介绍调用链客户端开发...",
+    "title": "Golang 避坑指南（一）：interface 之坑多多",
+    "description": "点击上方蓝色“Go语言中文网”关注我们，领全套Go资料，每天学习 Go 语言 interface{}和void*/Object 是一样的吗？  先来看一段关于 interface ...",
+    "votes": "10",
+    "url": "/k/tb39cc7",
+    "avatar": "https://img.toutiao.io/subject%2F64677a07a70345cf967f7b92cb5a59fc",
+    "avatarAlt": "Go语言中文网 - 独家号",
+    "subjectName": "Go语言中文网",
+    "homeUrl": "/subjects/133906"
+  },
+  {
+    "title": "初探 Tomcat 的架构设计",
+    "description": " Tomcat 作为 servlet 容器实现，它是基于 Java 语言开发的轻量级应用服务器。因为 Tomcat 作为应用服务器，它有着完全开源，轻量，性能稳定，部署成本低等优点...",
+    "votes": "9",
+    "url": "/k/p6wiuce",
+    "avatar": "https://img.toutiao.io/subject%2Fd28ab13d2e164292bfdfcd3e08a265bd",
+    "avatarAlt": "ytao - 独家号",
+    "subjectName": "ytao",
+    "homeUrl": "/subjects/411378"
+  },
+  {
+    "title": "终于可以携号转网，三大运营商做了 10 年，技术难点到底在哪？",
+    "description": "2019年11月11日，工业和信息化部发布了《携号转网服务管理规定》，标志着我国携号转网业务可以正式使用了。规定中要求4大运营商严格遵照执行，包括：不得无正当理由拒绝、阻止、拖延向...",
+    "votes": "15",
+    "url": "/k/bvcmt39",
+    "avatar": "https://img.toutiao.io/subject%2Ffdd0de401a124afab7ddd87d94c6e129",
+    "avatarAlt": "漫话编程 - 独家号",
+    "subjectName": "漫话编程",
+    "homeUrl": "/subjects/375127"
+  },
+  {
+    "title": "Spring Boot 2.0 整合 Dubbo 框架，实现 RPC 服务远程调用",
+    "description": "一、Dubbo框架简介  1、框架依赖图例说明：1)图中小方块 Protocol, Cluster, Proxy, Service, Container, Registry, Mo...",
+    "votes": "15",
+    "url": "/k/fs0ge6y",
+    "avatar": "https://img.toutiao.io/subject%2F652f30d4f8ed4f198281774399a49076",
+    "avatarAlt": "知了一笑 - 独家号",
+    "subjectName": "知了一笑",
+    "homeUrl": "/subjects/416733"
+  },
+  {
+    "title": "后端开发之 Redis 必会概念",
+    "description": "不忘初心，砥砺前行 作者 | 陌无崖转载请联系授权 持久化RDB持久化RDB持久化是指将当前进程中的数据生成快照的方式保存到硬盘中。保存的文件名后缀时rdb。Redis重新启动的时...",
+    "votes": "4",
+    "url": "/k/to08oh5",
+    "avatar": "https://img.toutiao.io/subject%2Fcac9e43137b043cd93b5eb5ab2b9ad73",
+    "avatarAlt": "Golang技术杂文 - 独家号",
+    "subjectName": "Golang技术杂文",
+    "homeUrl": "/subjects/416521"
+  },
+  {
+    "title": "记一次 MySQL 的 update 死锁",
+    "description": "2019.11.20 账户系统死锁问题排查分析。问题出现项目出现死锁告警，日志中出现报错:Error updating database. Cause: com.mysql.jdb...",
     "votes": "8",
-    "url": "/k/3e7lgvy",
-    "avatar": "https://img.toutiao.io/subject%2F6b8e14b561b24dfeac075e2a8dac9bfd",
-    "avatarAlt": "小姐姐味道 - 独家号",
-    "subjectName": "小姐姐味道",
-    "homeUrl": "/subjects/351247"
+    "url": "/k/rsdztpe",
+    "avatar": "https://img.toutiao.io/subject%2F8574f4cfaa1f4898915cc78fb24ab909",
+    "avatarAlt": "技术千山 - 独家号",
+    "subjectName": "技术千山",
+    "homeUrl": "/subjects/69085"
+  },
+  {
+    "title": "一文彻底搞懂 CMS GC 参数配置",
+    "description": "近期整理多个 HBase 集群的 JVM 参数，发现都是默认的 CMS GC 配置，如何调优 JVM 参数就成了一个绕不过的话题。因此，为了寻求一个 CMS GC 的 JVM 合理...",
+    "votes": "6",
+    "url": "/k/lwmjz8l",
+    "avatar": "https://img.toutiao.io/subject%2F95c84ffafcd94581a784cd11607e229d",
+    "avatarAlt": "大数据手稿笔记 - 独家号",
+    "subjectName": "大数据手稿笔记",
+    "homeUrl": "/subjects/395894"
   }
 ]
