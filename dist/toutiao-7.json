@@ -2,7 +2,7 @@
   {
     "title": "还在用 Win？教你从零把 Mac 打造成开发利器",
     "description": "本文作者：guoweiye，腾讯 PCG 开发工程师很多人都说 Mac 比 Windows 更适合做开发，那关键是要把 Mac 配置好，下面就来和大家分享一下如何从零开始把一台新 ...",
-    "votes": "25",
+    "votes": "29",
     "url": "/k/r5rhx80",
     "avatar": "https://img.toutiao.io/subject%2F4c72971aff5c4e73821ac59b18ff5dd6",
     "avatarAlt": "程序员的朋友圈 - 独家号",
@@ -12,12 +12,32 @@
   {
     "title": "Postman 的替代品来了",
     "description": "Postwoman一个开源、免费、快速、漂亮的 API 构建器，可以替代 Postman。这个名字起得挺有意思，感觉像 Postman 的媳妇。Postwoman 的诞生过程：它的...",
-    "votes": "31",
+    "votes": "34",
     "url": "/k/de4ekou",
     "avatar": "https://img.toutiao.io/subject%2F34a8080276c94c04a9660da45c688190",
     "avatarAlt": "性能与架构 - 独家号",
     "subjectName": "性能与架构",
     "homeUrl": "/subjects/429228"
+  },
+  {
+    "title": "90% 的人会遇到性能问题，如何用 1 行代码快速定位？",
+    "description": "阿里妹导读：在《如何回答性能优化的问题，才能打动阿里面试官？》中，主要是介绍了应用常见性能瓶颈点的分布，及如何初判若干指标是否出现了异常。今天，齐光将会基于之前列举的众多指标，给出...",
+    "votes": "15",
+    "url": "/k/uk2n04k",
+    "avatar": "https://img.toutiao.io/user/b618677591aa49b3972ece0c7d26b473/thumb",
+    "avatarAlt": "数据淘金 - 独家号",
+    "subjectName": "数据淘金",
+    "homeUrl": "/subjects/120437"
+  },
+  {
+    "title": "图解 Redis 五种数据结构底层实现",
+    "description": "redis有五种基本数据结构：字符串、hash、set、zset、list。但是你知道构成这五种结构的底层数据结构是怎样的吗？今天我们来花费五分钟的时间了解一下。(目前redis版...",
+    "votes": "15",
+    "url": "/k/s614gsy",
+    "avatar": "https://img.toutiao.io/subject%2F97447fa2afe34a0f8b78e000eebbcea3",
+    "avatarAlt": "RyuGou的独家号 - 独家号",
+    "subjectName": "RyuGou的独家号",
+    "homeUrl": "/subjects/182586"
   },
   {
     "title": "分享 GitHub 上有趣、入门的开源项目：《HelloGitHub》第 44 期",
@@ -30,26 +50,6 @@
     "homeUrl": "/subjects/175527"
   },
   {
-    "title": "图解 Redis 五种数据结构底层实现",
-    "description": "redis有五种基本数据结构：字符串、hash、set、zset、list。但是你知道构成这五种结构的底层数据结构是怎样的吗？今天我们来花费五分钟的时间了解一下。(目前redis版...",
-    "votes": "12",
-    "url": "/k/s614gsy",
-    "avatar": "https://img.toutiao.io/subject%2F97447fa2afe34a0f8b78e000eebbcea3",
-    "avatarAlt": "RyuGou的独家号 - 独家号",
-    "subjectName": "RyuGou的独家号",
-    "homeUrl": "/subjects/182586"
-  },
-  {
-    "title": "Javaer 运维指令合集（快餐版）",
-    "description": "Hi～新朋友，记得点蓝字关注我们哟 这年头，大家都喜欢吃快餐，虽不健康，但是奈何真香！这里我把经常使用的运维指令总结成一套指令快餐。之所以称之为快餐是因为每个指令都是简单的一句或者...",
-    "votes": "14",
-    "url": "/k/j1ppl2k",
-    "avatar": "https://img.toutiao.io/subject%2F8e2135cec43e4cfd9637503eb6841ec6",
-    "avatarAlt": "hellofrank - 独家号",
-    "subjectName": "hellofrank",
-    "homeUrl": "/subjects/419901"
-  },
-  {
     "title": "String 引发的提问，我差点跪了",
     "description": "面试官：下面代码执行结果是什么？String t0 = \"helloworld\";String t1 = new String(\"helloworld\");System.out.p...",
     "votes": "12",
@@ -60,34 +60,34 @@
     "homeUrl": "/subjects/22887"
   },
   {
-    "title": "一日千星的机器学习系统设计指南，这个英伟达小姐姐的项目火了",
-    "description": "机器之心整理机器之心编辑部 今年 8 月份，毕业于斯坦福、现就职于英伟达人工智能应用团队的一位小姐姐在推特上列出了十大优质的免费机器学习课程资源，并将它们串成了一条高效的学习路线。...",
-    "votes": "7",
-    "url": "/k/pl7497s",
-    "avatar": "https://img.toutiao.io/subject%2Fc8a60287ae464b8db21221a59774ceb3",
-    "avatarAlt": "AIHackers - 独家号",
-    "subjectName": "AIHackers",
-    "homeUrl": "/subjects/300686"
-  },
-  {
-    "title": "Spring Boot + logback 日志输出企业实践（上）",
-    "description": "tags: springboot logback log 一句话概括：在 java 应用开发过程中，日志输出与记录是重要一环，logback 是当前的首选日志框架，本文将对 spr...",
-    "votes": "8",
-    "url": "/k/wz9obpd",
-    "avatar": "https://img.toutiao.io/subject%2F81bac1d8c81c4523a1037648a39d6ae3",
-    "avatarAlt": "mason技术记录 - 独家号",
-    "subjectName": "mason技术记录",
-    "homeUrl": "/subjects/24970"
+    "title": "Git 常见问题及解决办法",
+    "description": "Git 是一个分布式版本控制软件，最初由林纳斯·托瓦兹创作，于 2005 年以 GPL 发布。最初目的是为更好地管理 Linux 内核开发而设计。经过多年发展，如今已成为绝大多数软...",
+    "votes": "14",
+    "url": "/k/e0q028e",
+    "avatar": "https://img.toutiao.io/subject%2F423aa3b32219428999cfffd48b4f3ea2",
+    "avatarAlt": "Web前端静轩苑 - 独家号",
+    "subjectName": "Web前端静轩苑",
+    "homeUrl": "/subjects/79906"
   },
   {
     "title": "别让自己 “墙” 了自己",
     "description": "这一两周与几个朋友聊天，有年轻的90后，也有大叔级的70后，这些人在我看来都是很有能力的人，但是一些喜好过于强烈，让我不经意地回顾了我工作20年来身边的人，有发展得好的，也有发展的...",
-    "votes": "39",
+    "votes": "40",
     "url": "/k/tfh5dgb",
     "avatar": "https://img.toutiao.io/user/b618677591aa49b3972ece0c7d26b473/thumb",
     "avatarAlt": "数据淘金 - 独家号",
     "subjectName": "数据淘金",
     "homeUrl": "/subjects/120437"
+  },
+  {
+    "title": "Java 面试圣经（第二版）",
+    "description": "基础篇基本功面向对象的特征final, finally, finalize 的区别https://www.jianshu.com/p/c45b6d782e91重载和重写的区别说说反...",
+    "votes": "7",
+    "url": "/k/k66j8op",
+    "avatar": "https://img.toutiao.io/user/efb199aa813e44df9892a81ff9cdf6d2/thumb",
+    "avatarAlt": "一枚不是程序员的工程师 - 独家号",
+    "subjectName": "一枚不是程序员的工程师",
+    "homeUrl": "/subjects/61569"
   },
   {
     "title": "阿里巴巴架构师：十问业务中台和我的答案",
@@ -100,6 +100,16 @@
     "homeUrl": "/subjects/4829"
   },
   {
+    "title": "Spring Boot + logback 日志输出企业实践（上）",
+    "description": "tags: springboot logback log 一句话概括：在 java 应用开发过程中，日志输出与记录是重要一环，logback 是当前的首选日志框架，本文将对 spr...",
+    "votes": "8",
+    "url": "/k/wz9obpd",
+    "avatar": "https://img.toutiao.io/subject%2F81bac1d8c81c4523a1037648a39d6ae3",
+    "avatarAlt": "mason技术记录 - 独家号",
+    "subjectName": "mason技术记录",
+    "homeUrl": "/subjects/24970"
+  },
+  {
     "title": "攻击 JWT 的一些方法",
     "description": "关于jwtJWT的全称是Json Web Token。它遵循JSON格式，将用户信息加密到token里，服务器不保存任何用户信息，只保存密钥信息，通过使用特定加密算法验证token...",
     "votes": "9",
@@ -108,16 +118,6 @@
     "avatarAlt": "Awesome Qix - 独家号",
     "subjectName": "Awesome Qix",
     "homeUrl": "/subjects/33"
-  },
-  {
-    "title": "搞懂 Redis 到底快在哪里",
-    "description": "前言Redis是一种基于键值对(Key-Value)的NoSQL数据库，Redis的Value可以由String，hash，list，set，zset，Bitmaps，HyperL...",
-    "votes": "7",
-    "url": "/k/dpjsnem",
-    "avatar": "https://img.toutiao.io/subject%2F7d707e6fb2c340da8606774489f76f31",
-    "avatarAlt": "学而思轻课基础业务组 - 独家号",
-    "subjectName": "学而思轻课基础业务组",
-    "homeUrl": "/subjects/394999"
   },
   {
     "title": "一文彻底搞懂 CAS 实现原理",
@@ -130,14 +130,14 @@
     "homeUrl": "/subjects/327515"
   },
   {
-    "title": "Git 常见问题及解决办法",
-    "description": "Git 是一个分布式版本控制软件，最初由林纳斯·托瓦兹创作，于 2005 年以 GPL 发布。最初目的是为更好地管理 Linux 内核开发而设计。经过多年发展，如今已成为绝大多数软...",
-    "votes": "11",
-    "url": "/k/e0q028e",
-    "avatar": "https://img.toutiao.io/subject%2F423aa3b32219428999cfffd48b4f3ea2",
-    "avatarAlt": "Web前端静轩苑 - 独家号",
-    "subjectName": "Web前端静轩苑",
-    "homeUrl": "/subjects/79906"
+    "title": "Spring Boot 2 整合 FastDFS 中间件，实现文件分布式管理",
+    "description": "一、FastDFS简介  1、FastDFS作用FastDFS是一个开源的轻量级分布式文件系统，它对文件进行管理，功能包括：文件存储、文件同步、文件上传、文件下载等，解决了大容量存...",
+    "votes": "12",
+    "url": "/k/8l176zb",
+    "avatar": "https://img.toutiao.io/subject%2F652f30d4f8ed4f198281774399a49076",
+    "avatarAlt": "知了一笑 - 独家号",
+    "subjectName": "知了一笑",
+    "homeUrl": "/subjects/416733"
   },
   {
     "title": "千万级延时任务队列如何实现，看美图开源的 LMSTFY",
@@ -150,26 +150,6 @@
     "homeUrl": "/subjects/420681"
   },
   {
-    "title": "Spring Boot 2 整合 FastDFS 中间件，实现文件分布式管理",
-    "description": "一、FastDFS简介  1、FastDFS作用FastDFS是一个开源的轻量级分布式文件系统，它对文件进行管理，功能包括：文件存储、文件同步、文件上传、文件下载等，解决了大容量存...",
-    "votes": "12",
-    "url": "/k/8l176zb",
-    "avatar": "https://img.toutiao.io/subject%2F652f30d4f8ed4f198281774399a49076",
-    "avatarAlt": "知了一笑 - 独家号",
-    "subjectName": "知了一笑",
-    "homeUrl": "/subjects/416733"
-  },
-  {
-    "title": "Java 面试圣经（第二版）",
-    "description": "基础篇基本功面向对象的特征final, finally, finalize 的区别https://www.jianshu.com/p/c45b6d782e91重载和重写的区别说说反...",
-    "votes": "5",
-    "url": "/k/k66j8op",
-    "avatar": "https://img.toutiao.io/user/efb199aa813e44df9892a81ff9cdf6d2/thumb",
-    "avatarAlt": "一枚不是程序员的工程师 - 独家号",
-    "subjectName": "一枚不是程序员的工程师",
-    "homeUrl": "/subjects/61569"
-  },
-  {
     "title": "Spring Boot 2 整合 Shiro 框架，实现用户权限管理",
     "description": "一、Shiro简介  1、基础概念Apache Shiro是一个强大且易用的Java安全框架,执行身份验证、授权、密码和会话管理。作为一款安全框架Shiro的设计相当巧妙。Shir...",
     "votes": "10",
@@ -180,9 +160,29 @@
     "homeUrl": "/subjects/416733"
   },
   {
+    "title": "分布式唯一 ID 的生成方案",
+    "description": "分布式ID的特性全局唯一不能出现重复的ID，这是最基本的要求。递增有利于关系数据库索引性能。高可用既然是服务于分布式系统，为多个服务提供ID服务，访问压力一定很大，所以需要保证高可...",
+    "votes": "6",
+    "url": "/k/brahx5c",
+    "avatar": "https://img.toutiao.io/subject%2F34a8080276c94c04a9660da45c688190",
+    "avatarAlt": "性能与架构 - 独家号",
+    "subjectName": "性能与架构",
+    "homeUrl": "/subjects/429228"
+  },
+  {
+    "title": "成为大神，从规范 Commit Message 做起",
+    "description": "在日常的开发工作中，我们团队所有的项目都是使用Git来做版本管理的。Git是个很强大的版本管理工具，像全球最大的同性交友网站Github就是基于Git的。 如此强大的版本管理工具，...",
+    "votes": "6",
+    "url": "/k/whepq9i",
+    "avatar": "https://img.toutiao.io/subject%2Fe400706b4c73499290cbdb4143dc2561",
+    "avatarAlt": "爱笑笑爱生活 - 独家号",
+    "subjectName": "爱笑笑爱生活",
+    "homeUrl": "/subjects/3193"
+  },
+  {
     "title": "聊聊短地址服务的实现",
     "description": "版权声明 本站原创文章 由 萌叔 发表转载请注明 萌叔 | http://vearne.cc1. 前言一个长URL地址，形如”https://www.google.com.hk/s...",
-    "votes": "5",
+    "votes": "6",
     "url": "/k/vup0a62",
     "avatar": "https://img.toutiao.io/subject%2F7c016973c0bb4e13a28ab338153e7d12",
     "avatarAlt": "萌叔 - 独家号",
@@ -190,13 +190,13 @@
     "homeUrl": "/subjects/334598"
   },
   {
-    "title": "阿里巴巴 Arthas 3.1.5 版本支持火焰图，快速定位应用热点",
-    "description": "ArthasArthas是Alibaba开源的Java诊断工具，深受开发者喜爱。Github：https://github.com/alibaba/arthas文档：https:/...",
-    "votes": "13",
-    "url": "/k/qaqdo4n",
-    "avatar": "https://img.toutiao.io/subject%2F4037e9a889c94841b38942df627c176e",
-    "avatarAlt": "横云断岭的专栏 - 独家号",
-    "subjectName": "横云断岭的专栏",
-    "homeUrl": "/subjects/385955"
+    "title": "这一次，终于系统的学习了 JVM 内存结构",
+    "description": "点击上方“平头哥的技术博文”，选择“关注公众号”技术文章第一时间送达！最近在看《 JAVA并发编程实践 》这本书，里面涉及到了 Java 内存模型，通过 Java 内存模型顺理成章...",
+    "votes": "8",
+    "url": "/k/tl9moul",
+    "avatar": "https://img.toutiao.io/subject%2F5d898d2cd50442c09f705c2d765c1aa1",
+    "avatarAlt": "平头哥的技术博文 - 独家号",
+    "subjectName": "平头哥的技术博文",
+    "homeUrl": "/subjects/419565"
   }
 ]
