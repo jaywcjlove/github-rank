@@ -10,6 +10,26 @@
     "homeUrl": "/subjects/378"
   },
   {
+    "title": "我以为我对 MySQL 索引很了解，直到我遇到了阿里的面试官",
+    "description": " 开发十年，就只剩下这套架构体系了！！ 本文来自一位不愿意透露姓名的粉丝投稿 相信很多人对于MySQL的索引都不陌生，索引(Index)是帮助MySQL高效获取数据的数据结构。因为...",
+    "votes": "55",
+    "url": "/k/y1nzr4t",
+    "avatar": "https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e",
+    "avatarAlt": "JAVA干货 - 独家号",
+    "subjectName": "JAVA干货",
+    "homeUrl": "/subjects/51515"
+  },
+  {
+    "title": "还在用 Win？教你从零把 Mac 打造成开发利器",
+    "description": "本文作者：guoweiye，腾讯 PCG 开发工程师很多人都说 Mac 比 Windows 更适合做开发，那关键是要把 Mac 配置好，下面就来和大家分享一下如何从零开始把一台新 ...",
+    "votes": "31",
+    "url": "/k/r5rhx80",
+    "avatar": "https://img.toutiao.io/subject%2F4c72971aff5c4e73821ac59b18ff5dd6",
+    "avatarAlt": "程序员的朋友圈 - 独家号",
+    "subjectName": "程序员的朋友圈",
+    "homeUrl": "/subjects/378"
+  },
+  {
     "title": "如何回答性能优化的问题，才能打动阿里面试官？",
     "description": " 阿里妹导读：日常工作中，我们多少都会遇到应用的性能问题。在阿里面试中，性能优化也是常被问到的题目，用来考察是否有实际的线上问题处理经验。面对这类问题，阿里工程师齐光给出了详细流程...",
     "votes": "35",
@@ -18,16 +38,6 @@
     "avatarAlt": "不错的好文 - 独家号",
     "subjectName": "不错的好文",
     "homeUrl": "/subjects/5551"
-  },
-  {
-    "title": "还在用 Win？教你从零把 Mac 打造成开发利器",
-    "description": "本文作者：guoweiye，腾讯 PCG 开发工程师很多人都说 Mac 比 Windows 更适合做开发，那关键是要把 Mac 配置好，下面就来和大家分享一下如何从零开始把一台新 ...",
-    "votes": "29",
-    "url": "/k/r5rhx80",
-    "avatar": "https://img.toutiao.io/subject%2F4c72971aff5c4e73821ac59b18ff5dd6",
-    "avatarAlt": "程序员的朋友圈 - 独家号",
-    "subjectName": "程序员的朋友圈",
-    "homeUrl": "/subjects/378"
   },
   {
     "title": "Java 线上故障排查全套路",
@@ -40,16 +50,6 @@
     "homeUrl": "/subjects/347783"
   },
   {
-    "title": "Arthas：Java 线上问题定位处理的终极利器",
-    "description": "可以点击上方蓝色 “未读代码” 关注我。回复资源获取精心整理的 Java核心知识&面试资料。前言在使用 Arthas 之前，当遇到 Java 线上问题时，如 CPU 飙升、负载突高...",
-    "votes": "27",
-    "url": "/k/hf6jup4",
-    "avatar": "https://img.toutiao.io/subject%2F4b05eabbfd3b46ce862825715a31b6f4",
-    "avatarAlt": "未读代码的独家号 - 独家号",
-    "subjectName": "未读代码的独家号",
-    "homeUrl": "/subjects/365875"
-  },
-  {
     "title": "这些技术轮子，让监控落地成为现实",
     "description": "【这是一猿小讲的第 68 篇原创分享】 场景一：页面提示超时了，到底是哪个服务响应慢了呢？ 场景二：系统当前的处理能力如何，TPS、QPS 指标是多少呢？ 场景三：线上服务部署在多...",
     "votes": "25",
@@ -60,24 +60,14 @@
     "homeUrl": "/subjects/413084"
   },
   {
-    "title": "互联网 8 年技术老兵的近期面试有感",
-    "description": "先说结论：这一轮面试游历得到以下几个深刻教训：不要去小公司，练手也尽量不要去，锻炼价值真的不大人和人差距蛮大的，牛逼的人5-8年已经是业界顶级了，绝大部分人5-8年也就是个P6的水...",
-    "votes": "33",
-    "url": "/k/x8c6dcz",
-    "avatar": "https://img.toutiao.io/default-avatar.png",
-    "avatarAlt": "宸爸的独家号 - 独家号",
-    "subjectName": "宸爸的独家号",
-    "homeUrl": "/subjects/426599"
-  },
-  {
-    "title": "Nginx 基础知识从小白到入门",
-    "description": "前言Nginx现在几乎是众多大型网站的必用技术，大家应该都知道Nginx被F5收购的大事件，章亦春也在专心维护OpenResty项目构建和谐家园，无论你选择Nginx还是OpenR...",
-    "votes": "17",
-    "url": "/k/rbkd19n",
-    "avatar": "https://img.toutiao.io/subject%2F74d2eb04ed1b4c82834556c9a541fee5",
-    "avatarAlt": "HelloDog - 独家号",
-    "subjectName": "HelloDog",
-    "homeUrl": "/subjects/4009"
+    "title": "90% 的人会遇到性能问题，如何用 1 行代码快速定位？",
+    "description": "阿里妹导读：在《如何回答性能优化的问题，才能打动阿里面试官？》中，主要是介绍了应用常见性能瓶颈点的分布，及如何初判若干指标是否出现了异常。今天，齐光将会基于之前列举的众多指标，给出...",
+    "votes": "19",
+    "url": "/k/uk2n04k",
+    "avatar": "https://img.toutiao.io/user/b618677591aa49b3972ece0c7d26b473/thumb",
+    "avatarAlt": "数据淘金 - 独家号",
+    "subjectName": "数据淘金",
+    "homeUrl": "/subjects/120437"
   },
   {
     "title": "设计高性能高并发网络系统需考虑哪些因素",
@@ -90,6 +80,26 @@
     "homeUrl": "/subjects/314175"
   },
   {
+    "title": "Nginx 基础知识从小白到入门",
+    "description": "前言Nginx现在几乎是众多大型网站的必用技术，大家应该都知道Nginx被F5收购的大事件，章亦春也在专心维护OpenResty项目构建和谐家园，无论你选择Nginx还是OpenR...",
+    "votes": "17",
+    "url": "/k/rbkd19n",
+    "avatar": "https://img.toutiao.io/subject%2F74d2eb04ed1b4c82834556c9a541fee5",
+    "avatarAlt": "HelloDog - 独家号",
+    "subjectName": "HelloDog",
+    "homeUrl": "/subjects/4009"
+  },
+  {
+    "title": "万字长文带你深入浅出 Golang Runtime",
+    "description": "  本文作者：yifhao，腾讯PCG NOW直播 后台工程师 介绍 本文基于 2019.02 发布的 go 1.12 linux amd64 版本, 主要介绍了 Runtime ...",
+    "votes": "24",
+    "url": "/k/g98jey9",
+    "avatar": "https://img.toutiao.io/subject%2Fe76f4a6bf4fd49e6a38fd3ae57188995",
+    "avatarAlt": "杂说乱炖 - 独家号",
+    "subjectName": "杂说乱炖",
+    "homeUrl": "/subjects/33419"
+  },
+  {
     "title": "告别动态规划，连刷 40 道题，我总结了这些套路，看不懂你打我",
     "description": "动态规划难吗？说实话，我觉得很难，特别是对于初学者来说，我当时入门动态规划的时候，是看 0-1 背包问题，当时真的是一脸懵逼。后来，我遇到动态规划的题，看的懂答案，但就是自己不会做...",
     "votes": "26",
@@ -100,29 +110,9 @@
     "homeUrl": "/subjects/7076"
   },
   {
-    "title": "当 Redis 发生高延迟时，到底发生了什么",
-    "description": "点击上方\"程序员历小冰\"，选择“置顶或者星标” 你的关注意义重大!Redis 是一种内存数据库，将数据保存在内存中，读写效率要比传统的将数据保存在磁盘上的数据库要快很多。但是 Re...",
-    "votes": "19",
-    "url": "/k/om5vftt",
-    "avatar": "https://img.toutiao.io/subject%2Fb3fe2c24c18d4affa84e34b23e31a5f9",
-    "avatarAlt": "程序员历小冰 - 独家号",
-    "subjectName": "程序员历小冰",
-    "homeUrl": "/subjects/389295"
-  },
-  {
-    "title": "你应该知道的 12 道经典计算机网络面试题",
-    "description": "“本篇总结了 12 道最常见的计算机网络面试题，并给出了一些自己的看法，若有不妥之处万望指正。1、请详细介绍一下 TCP 的三次握手机制，为什么要三次握手？在讲三次握手之前首先要介...",
-    "votes": "23",
-    "url": "/k/khsh5c5",
-    "avatar": "https://img.toutiao.io/user/b618677591aa49b3972ece0c7d26b473/thumb",
-    "avatarAlt": "数据淘金 - 独家号",
-    "subjectName": "数据淘金",
-    "homeUrl": "/subjects/120437"
-  },
-  {
     "title": "Postman 的替代品来了",
     "description": "Postwoman一个开源、免费、快速、漂亮的 API 构建器，可以替代 Postman。这个名字起得挺有意思，感觉像 Postman 的媳妇。Postwoman 的诞生过程：它的...",
-    "votes": "34",
+    "votes": "35",
     "url": "/k/de4ekou",
     "avatar": "https://img.toutiao.io/subject%2F34a8080276c94c04a9660da45c688190",
     "avatarAlt": "性能与架构 - 独家号",
@@ -130,14 +120,34 @@
     "homeUrl": "/subjects/429228"
   },
   {
-    "title": "超越 “双十一”：ebay 百万 TPS 支付账务系统的设计与实现",
-    "description": "供稿 | Payments 任杰编辑 | 顾欣怡本文8760字，预计阅读时间27分钟更多干货请关注“eBay技术荟”公众号   导读 2018年，ebay全面展开了下一代百万TPS...",
-    "votes": "20",
-    "url": "/k/hhaysu7",
-    "avatar": "https://img.toutiao.io/subject%2F4c72971aff5c4e73821ac59b18ff5dd6",
-    "avatarAlt": "程序员的朋友圈 - 独家号",
-    "subjectName": "程序员的朋友圈",
-    "homeUrl": "/subjects/378"
+    "title": "查询太慢？看看 ES 是如何把索引的性能压榨到极致的",
+    "description": "推荐原创专栏  大叔的大数据杂谈【每日五分钟学习大数据】系列 No.20上一篇文章简单地介绍过了ES的相关概念，还没看的同学快去复习下：ES是什么？看完这篇就不要再问这种低级问题了...",
+    "votes": "16",
+    "url": "/k/tgjdp67",
+    "avatar": "https://img.toutiao.io/subject%2F9e49e64f2f6d4771824d369b68f394b7",
+    "avatarAlt": "数据叔 - 独家号",
+    "subjectName": "数据叔",
+    "homeUrl": "/subjects/367908"
+  },
+  {
+    "title": "JWT 攻击手册：如何入侵你的 Token",
+    "description": "JSON Web Token（JWT）对于渗透测试人员而言，可能是一个非常吸引人的攻击途径。因为它不仅可以让你伪造任意用户获得无限的访问权限，而且还可能进一步发现更多的安全漏洞，如...",
+    "votes": "22",
+    "url": "/k/kv7kyr5",
+    "avatar": "https://img.toutiao.io/subject%2Fab225f76a1344c82acd5de490243c1fb",
+    "avatarAlt": "安全奇点 - 独家号",
+    "subjectName": "安全奇点",
+    "homeUrl": "/subjects/6127"
+  },
+  {
+    "title": "图解 Redis 五种数据结构底层实现",
+    "description": "redis有五种基本数据结构：字符串、hash、set、zset、list。但是你知道构成这五种结构的底层数据结构是怎样的吗？今天我们来花费五分钟的时间了解一下。(目前redis版...",
+    "votes": "16",
+    "url": "/k/s614gsy",
+    "avatar": "https://img.toutiao.io/subject%2F97447fa2afe34a0f8b78e000eebbcea3",
+    "avatarAlt": "RyuGou的独家号 - 独家号",
+    "subjectName": "RyuGou的独家号",
+    "homeUrl": "/subjects/182586"
   },
   {
     "title": "最全 Linux 应急响应技巧",
@@ -150,26 +160,6 @@
     "homeUrl": "/subjects/3216"
   },
   {
-    "title": "浅谈技术管理",
-    "description": "前面几年我一直在做一线的技术实施，最近2年工作重心慢慢开始转向技术团队的管理工作，从“冲锋陷阵”到“带兵打仗”再到“排兵布阵”，思考问题的角度也在产生着变化。两年前，因公司业务发展...",
-    "votes": "26",
-    "url": "/k/l5xtel9",
-    "avatar": "https://img.toutiao.io/subject%2Fab225f76a1344c82acd5de490243c1fb",
-    "avatarAlt": "安全奇点 - 独家号",
-    "subjectName": "安全奇点",
-    "homeUrl": "/subjects/6127"
-  },
-  {
-    "title": "90% 的人会遇到性能问题，如何用 1 行代码快速定位？",
-    "description": "阿里妹导读：在《如何回答性能优化的问题，才能打动阿里面试官？》中，主要是介绍了应用常见性能瓶颈点的分布，及如何初判若干指标是否出现了异常。今天，齐光将会基于之前列举的众多指标，给出...",
-    "votes": "15",
-    "url": "/k/uk2n04k",
-    "avatar": "https://img.toutiao.io/user/b618677591aa49b3972ece0c7d26b473/thumb",
-    "avatarAlt": "数据淘金 - 独家号",
-    "subjectName": "数据淘金",
-    "homeUrl": "/subjects/120437"
-  },
-  {
     "title": "关于 Kafka 的一些面试题目",
     "description": "上周客串了一下面试官，在这里就简单记录一下期间我问到的一些关于 Kafka 的面试题目，这些都是我平时在学习 Kafka 的一些总结要点。谈谈你对 kafka 的整体认识？问这个问...",
     "votes": "9",
@@ -178,6 +168,16 @@
     "avatarAlt": "公众号「后端进阶」 - 独家号",
     "subjectName": "公众号「后端进阶」",
     "homeUrl": "/subjects/151340"
+  },
+  {
+    "title": "浅谈技术管理",
+    "description": "前面几年我一直在做一线的技术实施，最近2年工作重心慢慢开始转向技术团队的管理工作，从“冲锋陷阵”到“带兵打仗”再到“排兵布阵”，思考问题的角度也在产生着变化。两年前，因公司业务发展...",
+    "votes": "26",
+    "url": "/k/l5xtel9",
+    "avatar": "https://img.toutiao.io/subject%2Fab225f76a1344c82acd5de490243c1fb",
+    "avatarAlt": "安全奇点 - 独家号",
+    "subjectName": "安全奇点",
+    "homeUrl": "/subjects/6127"
   },
   {
     "title": "10 个高效 Linux 技巧及 Vim 命令对比",
@@ -200,16 +200,6 @@
     "homeUrl": "/subjects/40889"
   },
   {
-    "title": "图解 Redis 五种数据结构底层实现",
-    "description": "redis有五种基本数据结构：字符串、hash、set、zset、list。但是你知道构成这五种结构的底层数据结构是怎样的吗？今天我们来花费五分钟的时间了解一下。(目前redis版...",
-    "votes": "15",
-    "url": "/k/s614gsy",
-    "avatar": "https://img.toutiao.io/subject%2F97447fa2afe34a0f8b78e000eebbcea3",
-    "avatarAlt": "RyuGou的独家号 - 独家号",
-    "subjectName": "RyuGou的独家号",
-    "homeUrl": "/subjects/182586"
-  },
-  {
     "title": "分享 GitHub 上有趣、入门的开源项目：《HelloGitHub》第 44 期",
     "description": "兴趣是最好的老师，HelloGitHub 就是帮你找到兴趣！ 简介  分享 GitHub 上有趣、入门级的开源项目。这是一个面向编程新手、热爱编程、对开源社区感兴趣 人群的月刊，月...",
     "votes": "17",
@@ -218,6 +208,16 @@
     "avatarAlt": "HelloGitHub - 独家号",
     "subjectName": "HelloGitHub",
     "homeUrl": "/subjects/175527"
+  },
+  {
+    "title": "毕业 10 年才懂，会升层思考，工作有多轻松？",
+    "description": "阿里妹导读：从学生开始老师就教导我们什么是问题？如何找出标准答案。然而，经过十几年的学习，大多数人依然没有理解问题的本质。正确定义问题是成功的开始，更是成功架构师的必要条件。今天，...",
+    "votes": "26",
+    "url": "/k/qcc4pgo",
+    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
+    "avatarAlt": "ASCE1885的互联网之路 - 独家号",
+    "subjectName": "ASCE1885的互联网之路",
+    "homeUrl": "/subjects/4829"
   },
   {
     "title": "还在埋头干活？给程序员的几个忠告",
@@ -230,14 +230,14 @@
     "homeUrl": "/subjects/426740"
   },
   {
-    "title": "代码以外的生存之道",
-    "description": "愿所有自强不息、孜孜不倦地持续自我改进的开发人员都能在代码之外，找到自己的最佳生存之道。前言最近刚刚读完了一本书，深受启发，想和各位程序员同道分享一二，也强烈建议大家去阅读一下。这...",
+    "title": "对开发人员有用的定律、理论、原则和模式",
+    "description": " 这篇文章包含对一些定律、原则以及模式的解释，但不提倡其中任何一个。它们的应用始终存在着争论，并且很大程度上取决于你正在做什么。一、定律1、布鲁克斯法则这个定律表明，在许多情况下，...",
     "votes": "19",
-    "url": "/k/3nghott",
-    "avatar": "https://img.toutiao.io/subject%2F732cb6a567b6447aa876ed179c0e89c7",
-    "avatarAlt": "Fundebug - 独家号",
-    "subjectName": "Fundebug",
-    "homeUrl": "/subjects/216955"
+    "url": "/k/deftwuz",
+    "avatar": "https://img.toutiao.io/subject%2F031045bd63a049f0be798c6b6d344a80",
+    "avatarAlt": "JAVA程序员技术分享 - 独家号",
+    "subjectName": "JAVA程序员技术分享",
+    "homeUrl": "/subjects/1996"
   },
   {
     "title": "Java 诊断利器 Arthas 优雅排查生产环境",
