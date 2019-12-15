@@ -12,7 +12,7 @@
   {
     "title": "我以为我对 MySQL 索引很了解，直到我遇到了阿里的面试官",
     "description": " 开发十年，就只剩下这套架构体系了！！ 本文来自一位不愿意透露姓名的粉丝投稿 相信很多人对于MySQL的索引都不陌生，索引(Index)是帮助MySQL高效获取数据的数据结构。因为...",
-    "votes": "55",
+    "votes": "56",
     "url": "/k/y1nzr4t",
     "avatar": "https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e",
     "avatarAlt": "JAVA干货 - 独家号",
@@ -50,16 +50,6 @@
     "homeUrl": "/subjects/347783"
   },
   {
-    "title": "这些技术轮子，让监控落地成为现实",
-    "description": "【这是一猿小讲的第 68 篇原创分享】 场景一：页面提示超时了，到底是哪个服务响应慢了呢？ 场景二：系统当前的处理能力如何，TPS、QPS 指标是多少呢？ 场景三：线上服务部署在多...",
-    "votes": "25",
-    "url": "/k/92ubk7y",
-    "avatar": "https://img.toutiao.io/subject%2F7a8541a4f49c4075a72ed00df32301ec",
-    "avatarAlt": "一猿小讲 - 独家号",
-    "subjectName": "一猿小讲",
-    "homeUrl": "/subjects/413084"
-  },
-  {
     "title": "90% 的人会遇到性能问题，如何用 1 行代码快速定位？",
     "description": "阿里妹导读：在《如何回答性能优化的问题，才能打动阿里面试官？》中，主要是介绍了应用常见性能瓶颈点的分布，及如何初判若干指标是否出现了异常。今天，齐光将会基于之前列举的众多指标，给出...",
     "votes": "19",
@@ -80,24 +70,24 @@
     "homeUrl": "/subjects/314175"
   },
   {
-    "title": "Nginx 基础知识从小白到入门",
-    "description": "前言Nginx现在几乎是众多大型网站的必用技术，大家应该都知道Nginx被F5收购的大事件，章亦春也在专心维护OpenResty项目构建和谐家园，无论你选择Nginx还是OpenR...",
-    "votes": "17",
-    "url": "/k/rbkd19n",
-    "avatar": "https://img.toutiao.io/subject%2F74d2eb04ed1b4c82834556c9a541fee5",
-    "avatarAlt": "HelloDog - 独家号",
-    "subjectName": "HelloDog",
-    "homeUrl": "/subjects/4009"
-  },
-  {
     "title": "万字长文带你深入浅出 Golang Runtime",
     "description": "  本文作者：yifhao，腾讯PCG NOW直播 后台工程师 介绍 本文基于 2019.02 发布的 go 1.12 linux amd64 版本, 主要介绍了 Runtime ...",
-    "votes": "24",
+    "votes": "25",
     "url": "/k/g98jey9",
     "avatar": "https://img.toutiao.io/subject%2Fe76f4a6bf4fd49e6a38fd3ae57188995",
     "avatarAlt": "杂说乱炖 - 独家号",
     "subjectName": "杂说乱炖",
     "homeUrl": "/subjects/33419"
+  },
+  {
+    "title": "JWT 攻击手册：如何入侵你的 Token",
+    "description": "JSON Web Token（JWT）对于渗透测试人员而言，可能是一个非常吸引人的攻击途径。因为它不仅可以让你伪造任意用户获得无限的访问权限，而且还可能进一步发现更多的安全漏洞，如...",
+    "votes": "23",
+    "url": "/k/kv7kyr5",
+    "avatar": "https://img.toutiao.io/subject%2Fab225f76a1344c82acd5de490243c1fb",
+    "avatarAlt": "安全奇点 - 独家号",
+    "subjectName": "安全奇点",
+    "homeUrl": "/subjects/6127"
   },
   {
     "title": "告别动态规划，连刷 40 道题，我总结了这些套路，看不懂你打我",
@@ -128,16 +118,6 @@
     "avatarAlt": "数据叔 - 独家号",
     "subjectName": "数据叔",
     "homeUrl": "/subjects/367908"
-  },
-  {
-    "title": "JWT 攻击手册：如何入侵你的 Token",
-    "description": "JSON Web Token（JWT）对于渗透测试人员而言，可能是一个非常吸引人的攻击途径。因为它不仅可以让你伪造任意用户获得无限的访问权限，而且还可能进一步发现更多的安全漏洞，如...",
-    "votes": "22",
-    "url": "/k/kv7kyr5",
-    "avatar": "https://img.toutiao.io/subject%2Fab225f76a1344c82acd5de490243c1fb",
-    "avatarAlt": "安全奇点 - 独家号",
-    "subjectName": "安全奇点",
-    "homeUrl": "/subjects/6127"
   },
   {
     "title": "图解 Redis 五种数据结构底层实现",
@@ -190,6 +170,16 @@
     "homeUrl": "/subjects/389874"
   },
   {
+    "title": "毕业 10 年才懂，会升层思考，工作有多轻松？",
+    "description": "阿里妹导读：从学生开始老师就教导我们什么是问题？如何找出标准答案。然而，经过十几年的学习，大多数人依然没有理解问题的本质。正确定义问题是成功的开始，更是成功架构师的必要条件。今天，...",
+    "votes": "26",
+    "url": "/k/qcc4pgo",
+    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
+    "avatarAlt": "ASCE1885的互联网之路 - 独家号",
+    "subjectName": "ASCE1885的互联网之路",
+    "homeUrl": "/subjects/4829"
+  },
+  {
     "title": "[译] 深入 OAuth 2.0 和 JWT",
     "description": "原文链接：https://uriotnews.com/?s=oauth2.0+and+jwtI. 认证和授权从基于计算机的应用出现伊始，几乎每个开发者在其职业生涯内都会面对的一个最...",
     "votes": "9",
@@ -208,16 +198,6 @@
     "avatarAlt": "HelloGitHub - 独家号",
     "subjectName": "HelloGitHub",
     "homeUrl": "/subjects/175527"
-  },
-  {
-    "title": "毕业 10 年才懂，会升层思考，工作有多轻松？",
-    "description": "阿里妹导读：从学生开始老师就教导我们什么是问题？如何找出标准答案。然而，经过十几年的学习，大多数人依然没有理解问题的本质。正确定义问题是成功的开始，更是成功架构师的必要条件。今天，...",
-    "votes": "26",
-    "url": "/k/qcc4pgo",
-    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
-    "avatarAlt": "ASCE1885的互联网之路 - 独家号",
-    "subjectName": "ASCE1885的互联网之路",
-    "homeUrl": "/subjects/4829"
   },
   {
     "title": "还在埋头干活？给程序员的几个忠告",
@@ -248,5 +228,25 @@
     "avatarAlt": "ytao - 独家号",
     "subjectName": "ytao",
     "homeUrl": "/subjects/411378"
+  },
+  {
+    "title": "敲开通往架构师的门",
+    "description": "最近学习了一些关于架构设计的知识想分享给大家。俗话说得好，不想当架构师的程序员不是好厨子。那么如何成为一名架构师呢？接下来就聊一聊我的一些想法。什么是架构师 之前有同学问我，做了几...",
+    "votes": "15",
+    "url": "/k/3ginr69",
+    "avatar": "https://img.toutiao.io/subject%2F2d4476b881aa4ea4a48c920c98b901bc",
+    "avatarAlt": "Jackeyzhe的成长 - 独家号",
+    "subjectName": "Jackeyzhe的成长",
+    "homeUrl": "/subjects/67572"
+  },
+  {
+    "title": "面试官：JVM 对锁进行了优化，都优化了啥？",
+    "description": "从JDK1.6开始，JVM对锁进行了各种优化，目的就是为了在线程间更高效的共享数据和解决互斥同步的问题。从锁优化的话题开始，可以引申出很多考点面试题，比如锁优化的技术、各优化技术的...",
+    "votes": "13",
+    "url": "/k/0y017pt",
+    "avatar": "https://img.toutiao.io/subject%2F1c73154dc104436babf48224a6ed1626",
+    "avatarAlt": "Java实战技术 - 独家号",
+    "subjectName": "Java实战技术",
+    "homeUrl": "/subjects/22887"
   }
 ]
