@@ -2,7 +2,7 @@
   {
     "title": "程序员开发效率神器汇总",
     "description": "本文作者：neonliu，腾讯 CSIG 开发工程师neon 是鹅厂的一位资深后台开发工程师，多年工作下来他总结了很多效率神器，今天分享给大家。一. 开发工具1)sql2go用于将...",
-    "votes": "49",
+    "votes": "50",
     "url": "/k/0m6re0s",
     "avatar": "https://img.toutiao.io/subject%2F4c72971aff5c4e73821ac59b18ff5dd6",
     "avatarAlt": "程序员的朋友圈 - 独家号",
@@ -32,7 +32,7 @@
   {
     "title": "如何回答性能优化的问题，才能打动阿里面试官？",
     "description": " 阿里妹导读：日常工作中，我们多少都会遇到应用的性能问题。在阿里面试中，性能优化也是常被问到的题目，用来考察是否有实际的线上问题处理经验。面对这类问题，阿里工程师齐光给出了详细流程...",
-    "votes": "35",
+    "votes": "34",
     "url": "/k/5aenw3o",
     "avatar": "https://img.toutiao.io/subject%2Faec59e3752174268802557e3e7afcb33",
     "avatarAlt": "不错的好文 - 独家号",
@@ -50,6 +50,16 @@
     "homeUrl": "/subjects/120437"
   },
   {
+    "title": "余额宝背后的服务治理架构",
+    "description": "微服务化架构下，面临服务治理问题的企业越来越多，这就像一场“暗夜长征”，只有找到正确的治理方向，才能坚持到底，看到胜利的曙光。希望这篇根据ArchSummit2019北京站两场演讲...",
+    "votes": "24",
+    "url": "/k/wsek9ag",
+    "avatar": "https://img.toutiao.io/subject%2F08c3200c43064a1babec277646669298",
+    "avatarAlt": "黑夜路人 - 独家号",
+    "subjectName": "黑夜路人",
+    "homeUrl": "/subjects/17093"
+  },
+  {
     "title": "JWT 攻击手册：如何入侵你的 Token",
     "description": "JSON Web Token（JWT）对于渗透测试人员而言，可能是一个非常吸引人的攻击途径。因为它不仅可以让你伪造任意用户获得无限的访问权限，而且还可能进一步发现更多的安全漏洞，如...",
     "votes": "24",
@@ -62,22 +72,12 @@
   {
     "title": "万字长文带你深入浅出 Golang Runtime",
     "description": "  本文作者：yifhao，腾讯PCG NOW直播 后台工程师 介绍 本文基于 2019.02 发布的 go 1.12 linux amd64 版本, 主要介绍了 Runtime ...",
-    "votes": "25",
+    "votes": "24",
     "url": "/k/g98jey9",
     "avatar": "https://img.toutiao.io/subject%2Fe76f4a6bf4fd49e6a38fd3ae57188995",
     "avatarAlt": "杂说乱炖 - 独家号",
     "subjectName": "杂说乱炖",
     "homeUrl": "/subjects/33419"
-  },
-  {
-    "title": "余额宝背后的服务治理架构",
-    "description": "微服务化架构下，面临服务治理问题的企业越来越多，这就像一场“暗夜长征”，只有找到正确的治理方向，才能坚持到底，看到胜利的曙光。希望这篇根据ArchSummit2019北京站两场演讲...",
-    "votes": "23",
-    "url": "/k/wsek9ag",
-    "avatar": "https://img.toutiao.io/subject%2F08c3200c43064a1babec277646669298",
-    "avatarAlt": "黑夜路人 - 独家号",
-    "subjectName": "黑夜路人",
-    "homeUrl": "/subjects/17093"
   },
   {
     "title": "设计高性能高并发网络系统需考虑哪些因素",
@@ -120,6 +120,16 @@
     "homeUrl": "/subjects/367908"
   },
   {
+    "title": "探探如何三个月完成微服务改造，以及踩过的 “坑”",
+    "description": "在探探创建之初，单体架构很好满足了业务的发展与迭代，但随着业务和流量的快速增长，传统的单体架构受到了巨大的挑战，从而需要进行微服务重构以满足开发及公司发展需求。本文主要分享探探微服...",
+    "votes": "21",
+    "url": "/k/940ata9",
+    "avatar": "https://img.toutiao.io/subject%2Faec59e3752174268802557e3e7afcb33",
+    "avatarAlt": "不错的好文 - 独家号",
+    "subjectName": "不错的好文",
+    "homeUrl": "/subjects/5551"
+  },
+  {
     "title": "图解 Redis 五种数据结构底层实现",
     "description": "redis有五种基本数据结构：字符串、hash、set、zset、list。但是你知道构成这五种结构的底层数据结构是怎样的吗？今天我们来花费五分钟的时间了解一下。(目前redis版...",
     "votes": "16",
@@ -128,16 +138,6 @@
     "avatarAlt": "RyuGou的独家号 - 独家号",
     "subjectName": "RyuGou的独家号",
     "homeUrl": "/subjects/182586"
-  },
-  {
-    "title": "最全 Linux 应急响应技巧",
-    "description": "概述Linux环境下处理应急响应事件往往会更加的棘手，因为相比于Windows，Linux没有像Autorun、procexp这样的应急响应利器，也没有统一的应急响应处理流程。所以...",
-    "votes": "13",
-    "url": "/k/ii2gbg8",
-    "avatar": "https://img.toutiao.io/subject%2Fe28330e25e7c43019c600fbe720c1911",
-    "avatarAlt": "2048 - 独家号",
-    "subjectName": "2048",
-    "homeUrl": "/subjects/3216"
   },
   {
     "title": "关于 Kafka 的一些面试题目",
@@ -150,14 +150,14 @@
     "homeUrl": "/subjects/151340"
   },
   {
-    "title": "浅谈技术管理",
-    "description": "前面几年我一直在做一线的技术实施，最近2年工作重心慢慢开始转向技术团队的管理工作，从“冲锋陷阵”到“带兵打仗”再到“排兵布阵”，思考问题的角度也在产生着变化。两年前，因公司业务发展...",
-    "votes": "26",
-    "url": "/k/l5xtel9",
-    "avatar": "https://img.toutiao.io/subject%2Fab225f76a1344c82acd5de490243c1fb",
-    "avatarAlt": "安全奇点 - 独家号",
-    "subjectName": "安全奇点",
-    "homeUrl": "/subjects/6127"
+    "title": "深入理解 Linux I/O 复用之 epoll 机制",
+    "description": "0.概述 通过本篇文章将了解到以下内容: I/O复用的定义和产生背景 Linux系统的I/O复用工具 epoll设计的基本构成epoll高性能的底层实现epoll的ET模式和LT模...",
+    "votes": "30",
+    "url": "/k/sa1c0p1",
+    "avatar": "https://img.toutiao.io/subject%2F52501806a5d8487a92b253fd813048ec",
+    "avatarAlt": "后端技术指南针 - 独家号",
+    "subjectName": "后端技术指南针",
+    "homeUrl": "/subjects/378173"
   },
   {
     "title": "毕业 10 年才懂，会升层思考，工作有多轻松？",
@@ -170,14 +170,34 @@
     "homeUrl": "/subjects/4829"
   },
   {
-    "title": "10 个高效 Linux 技巧及 Vim 命令对比",
-    "description": "Vim的很多命令和功能与Linux系统的命令和功能及其相似，可以说是一脉相承。Vim教程网(https://vimjc.com)总结了10条Linux下提高效率的小技巧，并与Vim...",
-    "votes": "32",
-    "url": "/k/80vyszp",
-    "avatar": "https://img.toutiao.io/subject%2F537d321c8e0f41be8b0bb61cac957b5f",
-    "avatarAlt": "Vim教程网 - 独家号",
-    "subjectName": "Vim教程网",
-    "homeUrl": "/subjects/389874"
+    "title": "Golang 写的即时通讯服务器 gim",
+    "description": "README.md简要介绍gim是一个即时通讯服务器，代码全部使用golang完成。主要功能1.离线消息同步2.多业务接入3.单用户多设备同时在线4.单聊，群聊，以及超大群聊天场景...",
+    "votes": "28",
+    "url": "/k/btzwpcf",
+    "avatar": "https://img.toutiao.io/user/43e1628abb8b4e26b9668f1775b51a57/thumb",
+    "avatarAlt": "thinking in go - 独家号",
+    "subjectName": "thinking in go",
+    "homeUrl": "/subjects/294070"
+  },
+  {
+    "title": "Redis 崩了，我成功把锅甩给了隔壁组（记一次 Redis 连接超限排查）",
+    "description": "记一次Redis连接超限问题排查经过.文章地址: https://blog.piaoruiqing.com/2019/12/15/max-number-of-clients-rea...",
+    "votes": "35",
+    "url": "/k/028lnz5",
+    "avatar": "https://img.toutiao.io/subject%2F2ce5552a7e784f9b8786e60edd64baf2",
+    "avatarAlt": "代码如诗 - 独家号",
+    "subjectName": "代码如诗",
+    "homeUrl": "/subjects/420717"
+  },
+  {
+    "title": "软件工程六大设计原则总结，案例演示",
+    "description": "一、单一职责原则 1、概念描述 对类来说的，即一个类应该只负责一项职责。如果一个类负责两个职责，可能存在职责1变化，引起职责2变化的情况。可以基于抽象逻辑，或者业务逻辑对类进行细化...",
+    "votes": "28",
+    "url": "/k/bk1d65h",
+    "avatar": "https://img.toutiao.io/subject%2F652f30d4f8ed4f198281774399a49076",
+    "avatarAlt": "知了一笑 - 独家号",
+    "subjectName": "知了一笑",
+    "homeUrl": "/subjects/416733"
   },
   {
     "title": "[译] 深入 OAuth 2.0 和 JWT",
@@ -210,6 +230,16 @@
     "homeUrl": "/subjects/264797"
   },
   {
+    "title": "Java 程序员必读核心书单（基础版）",
+    "description": "新爷的地盘(xin-zone)：关注JAVA编程及大数据，注重经验分享及个人成长。张三丰在武当山教张无忌太极功夫时候说了一句话，你有九阳神功护体，学什么武功都会很快的。果真，张无忌...",
+    "votes": "22",
+    "url": "/k/irxsj6t",
+    "avatar": "https://img.toutiao.io/subject%2F8e2135cec43e4cfd9637503eb6841ec6",
+    "avatarAlt": "hellofrank - 独家号",
+    "subjectName": "hellofrank",
+    "homeUrl": "/subjects/419901"
+  },
+  {
     "title": "对开发人员有用的定律、理论、原则和模式",
     "description": " 这篇文章包含对一些定律、原则以及模式的解释，但不提倡其中任何一个。它们的应用始终存在着争论，并且很大程度上取决于你正在做什么。一、定律1、布鲁克斯法则这个定律表明，在许多情况下，...",
     "votes": "19",
@@ -218,35 +248,5 @@
     "avatarAlt": "JAVA程序员技术分享 - 独家号",
     "subjectName": "JAVA程序员技术分享",
     "homeUrl": "/subjects/1996"
-  },
-  {
-    "title": "Java 诊断利器 Arthas 优雅排查生产环境",
-    "description": "前言Arthas是Alibaba开源的Java诊断工具。在线排查问题，无需重启；动态跟踪Java代码；实时监控JVM状态。对分秒必争的线上异常，Arthas可帮助我们快速诊断相关问...",
-    "votes": "12",
-    "url": "/k/nro6viu",
-    "avatar": "https://img.toutiao.io/subject%2Fd28ab13d2e164292bfdfcd3e08a265bd",
-    "avatarAlt": "ytao - 独家号",
-    "subjectName": "ytao",
-    "homeUrl": "/subjects/411378"
-  },
-  {
-    "title": "面试官：JVM 对锁进行了优化，都优化了啥？",
-    "description": "从JDK1.6开始，JVM对锁进行了各种优化，目的就是为了在线程间更高效的共享数据和解决互斥同步的问题。从锁优化的话题开始，可以引申出很多考点面试题，比如锁优化的技术、各优化技术的...",
-    "votes": "13",
-    "url": "/k/0y017pt",
-    "avatar": "https://img.toutiao.io/subject%2F1c73154dc104436babf48224a6ed1626",
-    "avatarAlt": "Java实战技术 - 独家号",
-    "subjectName": "Java实战技术",
-    "homeUrl": "/subjects/22887"
-  },
-  {
-    "title": "程序员岁数大了之后的出路（下篇）",
-    "description": "这是四猿外的第 50 篇原创文章，感谢各位读者大大。 前文再续，书接上回。上次说到了程序员沿着技术发展、转管理、转产品三个出路，今天我们继续聊程序员的其他出路。上篇文章的传送门见底...",
-    "votes": "13",
-    "url": "/k/l3gilvs",
-    "avatar": "https://img.toutiao.io/subject%2F180d026f85274c998656474cd1988d0f",
-    "avatarAlt": "四猿外 - 独家号",
-    "subjectName": "四猿外",
-    "homeUrl": "/subjects/426740"
   }
 ]
