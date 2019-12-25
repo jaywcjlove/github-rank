@@ -146,7 +146,7 @@ export function getTrendingData(type: string = 'daily') {
           color = languageColor.css('background-color');
         }
         let stargazersCount = '';
-        let node = $(item).find('svg[aria-label="star"].octicon.octicon-star');
+        let node = $(item).find('.muted-link svg[aria-label="star"].octicon.octicon-star');
         if (node && node[0] && node[0].next) {
           stargazersCount = node[0].next.data.replace(/(\n|\s|,)/g, '');
         }
