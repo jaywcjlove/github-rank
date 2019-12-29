@@ -1,156 +1,75 @@
 [
   {
+    "title": "12道vue高频原理面试题,你能答出几道?",
+    "description": "本文分享 12 道 vue 高频原理面试题,覆盖了 vue 核心实现原理,其实一个框架的实现原理一篇文章是不可能说完的,希望通过这 12 道问题,让读者对自己的 Vue 掌握程度有一定的认识(B 数),从而弥补自己的不足,更好的掌...",
+    "url": "https://segmentfault.com/a/1190000021407782",
+    "author": "null仔",
+    "home_url": "https://segmentfault.com/u/xiaoqianduan_58b28cfebff36",
+    "votes": "48",
+    "rank": 1
+  },
+  {
+    "title": "年前走一波【vue博文】集合，收藏就对了，2020年您好",
+    "description": "忆长安·十二月 [唐]谢良辅 忆长安，腊月时，温泉彩仗新移。 瑞气遥迎凤辇，日光先暖龙池。 取酒虾蟆陵下，家家守岁传卮。",
+    "url": "https://segmentfault.com/a/1190000021414405",
+    "author": "蓝少",
+    "home_url": "https://segmentfault.com/u/bluezhan",
+    "votes": "33",
+    "rank": 2
+  },
+  {
+    "title": "令人期待的 JavaScript 新特性",
+    "description": "一个ECMAScript标准的制作过程，包含了Stage 0到Stage 4 五个阶段，每个阶段提交至下一阶段都需要TC39审批通过。本文介绍这些新特性处于Stage 3 或者Stage 4 阶段，这意味着应该很快在浏览器和其他引擎中支持这些...",
+    "url": "https://segmentfault.com/a/1190000021415550",
+    "author": "浪里行舟",
+    "home_url": "https://segmentfault.com/u/langlixingzhou",
+    "votes": "12",
+    "rank": 3
+  },
+  {
+    "title": "2020年了,再不会webpack敲得代码就不香了(近万字实战)",
+    "description": "2020年即将到来,在众多前端的招聘要求里,webpack、工程化这些字眼频率越来越高。日常开发者中，我们常常在用诸如vue-cli、create-react-app的脚手架来构建我们的项目。但是如果你想在团队脱颖而出(鹤立鸡群)、拿...",
+    "url": "https://segmentfault.com/a/1190000021395777",
+    "author": "前端小布",
+    "home_url": "https://segmentfault.com/u/zhuchirenyuanxiaobu",
+    "votes": "36",
+    "rank": 4
+  },
+  {
     "title": "「圣诞特辑」纯前端实现人脸识别自动佩戴圣诞帽",
     "description": "叮叮当，叮叮当，吊儿个郎当，一年一度的圣诞节到咯，我不由的回想起了前两年票圈被圣诞帽支配的恐惧。打开票圈全是各种@官方求帽子的：",
     "url": "https://segmentfault.com/a/1190000021391725",
     "author": "云音乐前端团队",
     "home_url": "https://segmentfault.com/u/musicfe",
-    "votes": "21",
-    "rank": 1
-  },
-  {
-    "title": "权威发布 | SegmentFault 思否 2019 中国技术品牌影响力企业榜",
-    "description": "2019 匆匆进入尾声，经济整体低迷下“核心技术”被提到新的高度。5G 商用牌照正式发放，国际 Wi-Fi 联盟发布 Wi-Fi 6 标准，智慧屏品类横空出世，国产操作系统打破巨头垄断，……",
-    "url": "https://segmentfault.com/a/1190000021395952",
-    "author": "SegmentFault",
-    "home_url": "https://segmentfault.com/u/segmentfault",
-    "votes": "5",
-    "rank": 2
-  },
-  {
-    "title": "愿你的指下有代码，眼里有星辰",
-    "description": "2019年和以往的每一年都不一样，这一年，我离开了熟悉的南京，来到了北京的工作，成为了一名“进城务工人员”。每次从南京回北京的时候，我都笑称自己又要去进城务工了。",
-    "url": "https://segmentfault.com/a/1190000021390351",
-    "author": "刘小夕",
-    "home_url": "https://segmentfault.com/u/liuyan666",
-    "votes": "19",
-    "rank": 3
-  },
-  {
-    "title": "年度文章集合 | 最全微前端集合【建议收藏】",
-    "description": "微前端是一种类似于微服务的架构，它将微服务的理念应用于浏览器端，即将 Web 应用由单一的单体应用转变为多个小型前端应用聚合为一的应用。各个前端应用还可以独立运行、独立开发、独立部署。",
-    "url": "https://segmentfault.com/a/1190000021382262",
-    "author": "semlinker",
-    "home_url": "https://segmentfault.com/u/angular4",
-    "votes": "17",
-    "rank": 4
-  },
-  {
-    "title": "关于大厂面试中问到的二十几个 HTTP 面试题",
-    "description": "我在 github 上新建了一个仓库 日问，每天一道面试题，有关前端，后端，devops以及软技能，促进职业成长，敲开大厂之门，欢迎交流",
-    "url": "https://segmentfault.com/a/1190000021379246",
-    "author": "shanyue",
-    "home_url": "https://segmentfault.com/u/xiange",
-    "votes": "23",
+    "votes": "43",
     "rank": 5
   },
   {
-    "title": "如何处理 Web 图片优化？",
-    "description": "未优化的图片是影响网站性能的主要因素之一，尤其会影响初次加载。取决于图像的分辨率和画质，图片可能占据整个网站流量的 70%.",
-    "url": "https://segmentfault.com/a/1190000021339242",
-    "author": "LeanCloud",
-    "home_url": "https://segmentfault.com/u/leancloud",
-    "votes": "87",
+    "title": "「推荐收藏 」 20个Web前端开发工程师必看的国外网站",
+    "description": "兄弟们,你们还在边喝营养快线边看 pornxxx 吗 ? 休息一下吧,营养跟不上啦,跟我一起学习吧,一起\"科学\"上网 !",
+    "url": "https://segmentfault.com/a/1190000021402820",
+    "author": "null仔",
+    "home_url": "https://segmentfault.com/u/xiaoqianduan_58b28cfebff36",
+    "votes": "31",
     "rank": 6
   },
   {
-    "title": "Electron+Vue开发跨平台桌面应用",
-    "description": "虽然B/S是目前开发的主流，但是C/S仍然有很大的市场需求。受限于浏览器的沙盒限制，网页应用无法满足某些场景下的使用需求，而桌面应用可以读写本地文件、调用更多系统资源，再加上Web开发的低成本、高效率的优势...",
-    "url": "https://segmentfault.com/a/1190000021376934",
-    "author": "xiangzhihong",
-    "home_url": "https://segmentfault.com/u/xiangzhihong",
-    "votes": "32",
+    "title": "大厂面试-字节跳动",
+    "description": "dva 首先是一个基于 redux 和 redux-saga 的数据流方案，然后为了简化开发体验，dva 还额外内置了 react-router 和 fetch，所以也可以理解为一个轻量级的应用框架。",
+    "url": "https://segmentfault.com/a/1190000021401836",
+    "author": "we452366",
+    "home_url": "https://segmentfault.com/u/we452366",
+    "votes": "19",
     "rank": 7
   },
   {
-    "title": "讲给前端的正则表达式(4)：避免灾难性回溯",
-    "description": "作者：wanago翻译：疯狂的技术宅 原文：[链接]未经允许严禁转载 前文： 讲给前端的正则表达式(1)：基本概念 讲给前端的正则表达式(2)：写出更优雅、更精确的正则表达式 讲给前端的正则表达式(3)：使用 ES6 特性 ...",
-    "url": "https://segmentfault.com/a/1190000021394276",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "8",
+    "title": "基于 Apache APISIX 的下一代微服务架构",
+    "description": "2019 年 12 月 14 日，又拍云联合 Apache APISIX 社区举办 API 网关与高性能服务最佳实践丨Open Talk 广州站活动，Apache APISIX PPMC 温铭做了题为《Apache APISIX 的 Apache 之路》的分享。本次活动，邀请了来...",
+    "url": "https://segmentfault.com/a/1190000021418074",
+    "author": "云叔_又拍云",
+    "home_url": "https://segmentfault.com/u/yunshu_blog",
+    "votes": "5",
     "rank": 8
-  },
-  {
-    "title": "不懂什么是锁？看看这篇你就明白了",
-    "description": "Java 中的锁有很多，可以按照不同的功能、种类进行分类，下面是我对 Java 中一些常用锁的分类，包括一些基本的概述",
-    "url": "https://segmentfault.com/a/1190000021307302",
-    "author": "cxuan",
-    "home_url": "https://segmentfault.com/u/cxuan",
-    "votes": "87",
-    "rank": 9
-  },
-  {
-    "title": "SegmentFault 高阳：坚持做长期有价值的事情，帮助开发者成功",
-    "description": "科创人（以下简称科）：作为福布斯评选出的 30 位 30 岁以下创业者，以及更了不起的——《科创人》采访的首位 90 后科创人（叉腰厚颜），您当初为何选择创业这条路？",
-    "url": "https://segmentfault.com/a/1190000021395232",
-    "author": "思否编辑部",
-    "home_url": "https://segmentfault.com/u/writers",
-    "votes": "3",
-    "rank": 10
-  },
-  {
-    "title": "如何在团队中做好Code Review",
-    "description": "通过Code Review，对于同样的功能实现，有经验的工程师可以给经验尚浅的工程师提供合理的优化建议。经验尚浅的工程师可以通过阅读优质代码，快速学习相关技术运用的最佳实践。如果大家技术实力相当，可能就是互相...",
-    "url": "https://segmentfault.com/a/1190000021368303",
-    "author": "ken_io",
-    "home_url": "https://segmentfault.com/u/ken_io",
-    "votes": "16",
-    "rank": 11
-  },
-  {
-    "title": "从 Fetch 到 Streams —— 以流的角度处理网络请求",
-    "description": "自第一个实现的浏览器开始计算，Fetch API 已经快要五岁了。这五年 Chrome 和 Firefox 刷了不少版本号，IE 也不知死了多少年，而它的继任者更是上演了一出名为《Edge: Become Chromium》的好剧。再加上 ES6+ 的普...",
-    "url": "https://segmentfault.com/a/1190000021367378",
-    "author": "云音乐前端团队",
-    "home_url": "https://segmentfault.com/u/musicfe",
-    "votes": "32",
-    "rank": 12
-  },
-  {
-    "title": "探索CSS单行文字居中，多行文字居左的实现方式",
-    "description": "这段文字能不能这样判断一下，当文字不足一行时，让它居中显示，当文字超过一行就让它居左，不然居中显示很奇怪，因为最后一行是吊着的",
-    "url": "https://segmentfault.com/a/1190000021385669",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "11",
-    "rank": 13
-  },
-  {
-    "title": "2019 年 JavaScript 现状调查报告",
-    "description": "2003 年，保罗·格雷厄姆（Paul Graham） 曾撰文提到，他的公司决定使用 Lisp。在该文章中他将 Lisp 描绘成计算机语言界的法语，它独特、深邃，能够表达难以描述的事物。",
-    "url": "https://segmentfault.com/a/1190000021371254",
-    "author": "徐九",
-    "home_url": "https://segmentfault.com/u/weepie",
-    "votes": "23",
-    "rank": 14
-  },
-  {
-    "title": "值得关注的 Vue.js开源项目",
-    "description": "Vue.js 的另一个大优点是易于理解和学习。可以在 Vue 框架的帮助下创建任何 Web 应用。因此我建议你了解一些 Vue 开源项目。",
-    "url": "https://segmentfault.com/a/1190000021323095",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "84",
-    "rank": 15
-  },
-  {
-    "title": "「万字整理 」这里有一份Node.js入门指南和实践,请注意查收 ❤️",
-    "description": "JS 是脚本语言,脚本语言都需要一个解析器才能运行。对于写在 HTML 页面里的 JS,浏览器充当了解析器的角色。而对于需要独立运行的 JS,NodeJS 就是一个解析器。",
-    "url": "https://segmentfault.com/a/1190000021368102",
-    "author": "null仔",
-    "home_url": "https://segmentfault.com/u/xiaoqianduan_58b28cfebff36",
-    "votes": "32",
-    "rank": 16
-  },
-  {
-    "title": "你不知道的 JSON.stringify() 的威力",
-    "description": "其实有很多有用的东西，当时学习了，也记住了，但是时间久了就是记不住，所以导致在日常开发中总是想不起来原来这个东西可以这么用，而去选择了更加复杂和麻烦的方式。其实我们日常学习的知识就是拿来用的，即使...",
-    "url": "https://segmentfault.com/a/1190000021230185",
-    "author": "弹铁蛋",
-    "home_url": "https://segmentfault.com/u/dantiedan",
-    "votes": "72",
-    "rank": 17
   },
   {
     "title": "吐血整理！！！2019最强前端面试合集(编程题)",
@@ -158,44 +77,80 @@
     "url": "https://segmentfault.com/a/1190000021390890",
     "author": "we452366",
     "home_url": "https://segmentfault.com/u/we452366",
-    "votes": "10",
-    "rank": 18
+    "votes": "33",
+    "rank": 9
   },
   {
-    "title": "如何写出一个惊艳面试官的 Promise【近 1W字】",
-    "description": "1.高级 WEB 面试会让你手写一个Promise,Generator 的 PolyFill(一段代码); 2.在写之前我们简单回顾下他们的作用; 3.手写模块见PolyFill.",
-    "url": "https://segmentfault.com/a/1190000021320472",
-    "author": "火狼",
-    "home_url": "https://segmentfault.com/u/huolang_5a14e07d2f2ff",
-    "votes": "52",
-    "rank": 19
+    "title": "超哥的2019年度总结",
+    "description": "仿佛是眨眼间，就到了 2019 年的末尾。回想这一年，可以用 “忙” 这个词来概括，故记录下这篇年度总结留作回顾，并在此与大家分享。",
+    "url": "https://segmentfault.com/a/1190000021416143",
+    "author": "micherwa",
+    "home_url": "https://segmentfault.com/u/micherwa",
+    "votes": "4",
+    "rank": 10
   },
   {
-    "title": "构建生产就绪的K8S集群的16点清单",
-    "description": "Kubernetes是用于构建高度可扩展系统的强大工具。结果，许多公司已经开始或正在计划使用它来协调生产服务。不幸的是，像大多数强大的技术一样，Kubernetes也很复杂。我们整理了以下清单，以帮助你生产环境最佳实...",
-    "url": "https://segmentfault.com/a/1190000021377024",
-    "author": "iyacontrol",
-    "home_url": "https://segmentfault.com/u/daimaxianyumeng",
-    "votes": "14",
-    "rank": 20
+    "title": "如何处理 Web 图片优化？",
+    "description": "未优化的图片是影响网站性能的主要因素之一，尤其会影响初次加载。取决于图像的分辨率和画质，图片可能占据整个网站流量的 70%.",
+    "url": "https://segmentfault.com/a/1190000021339242",
+    "author": "LeanCloud",
+    "home_url": "https://segmentfault.com/u/leancloud",
+    "votes": "89",
+    "rank": 11
   },
   {
-    "title": "20 个新的且值得关注的 Vue 开源项目",
-    "description": "点赞再看，养成习惯本文 GitHub [链接] 上已经收录，更多往期高赞文章的分类，也整理了很多我的文档，和教程资料。欢迎Star和完善，大家面试可以参照考点复习，希望我们一起有点东西。",
-    "url": "https://segmentfault.com/a/1190000021192728",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "93",
-    "rank": 21
+    "title": "不懂什么是锁？看看这篇你就明白了",
+    "description": "Java 中的锁有很多，可以按照不同的功能、种类进行分类，下面是我对 Java 中一些常用锁的分类，包括一些基本的概述",
+    "url": "https://segmentfault.com/a/1190000021307302",
+    "author": "cxuan",
+    "home_url": "https://segmentfault.com/u/cxuan",
+    "votes": "92",
+    "rank": 12
   },
   {
-    "title": "webpack实战出真知(近万字)",
-    "description": "自2015年以来，webpack成为了我们前端开发中不可或缺的部分。在众多前端的招聘要求里,webpack、工程化这些字眼频率越来越高。日常开发者中，我们常常在用诸如vue-cli、create-react-app的脚手架来构建我们的项目...",
-    "url": "https://segmentfault.com/a/1190000021395777",
-    "author": "前端小布",
-    "home_url": "https://segmentfault.com/u/zhuchirenyuanxiaobu",
-    "votes": "1",
-    "rank": 22
+    "title": "愿你的指下有代码，眼里有星辰",
+    "description": "2019年和以往的每一年都不一样，这一年，我离开了熟悉的南京，来到了北京的工作，成为了一名“进城务工人员”。每次从南京回北京的时候，我都笑称自己又要去进城务工了。",
+    "url": "https://segmentfault.com/a/1190000021390351",
+    "author": "刘小夕",
+    "home_url": "https://segmentfault.com/u/liuyan666",
+    "votes": "27",
+    "rank": 13
+  },
+  {
+    "title": "关于大厂面试中问到的二十几个 HTTP 面试题",
+    "description": "我在 github 上新建了一个仓库 日问，每天一道面试题，有关前端，后端，devops以及软技能，促进职业成长，敲开大厂之门，欢迎交流",
+    "url": "https://segmentfault.com/a/1190000021379246",
+    "author": "shanyue",
+    "home_url": "https://segmentfault.com/u/xiange",
+    "votes": "28",
+    "rank": 14
+  },
+  {
+    "title": "深入细枝末节，字体反爬虫到底怎么一回事",
+    "description": "内容选自即将出版的《Python3 反爬虫原理与绕过实战》，本次公开书稿范围为第 6 章——文本混淆反爬虫。本篇为第 6 章中的第 4 小节，其余小节将逐步放送。",
+    "url": "https://segmentfault.com/a/1190000021403816",
+    "author": "夜幕韦世东",
+    "home_url": "https://segmentfault.com/u/sfhfpc",
+    "votes": "8",
+    "rank": 15
+  },
+  {
+    "title": "年度文章集合 | 最全微前端集合【建议收藏】",
+    "description": "微前端是一种类似于微服务的架构，它将微服务的理念应用于浏览器端，即将 Web 应用由单一的单体应用转变为多个小型前端应用聚合为一的应用。各个前端应用还可以独立运行、独立开发、独立部署。",
+    "url": "https://segmentfault.com/a/1190000021382262",
+    "author": "semlinker",
+    "home_url": "https://segmentfault.com/u/angular4",
+    "votes": "21",
+    "rank": 16
+  },
+  {
+    "title": "权威发布 | SegmentFault 思否 2019 中国技术品牌影响力企业榜",
+    "description": "2019 匆匆进入尾声，经济整体低迷下“核心技术”被提到新的高度。5G 商用牌照正式发放，国际 Wi-Fi 联盟发布 Wi-Fi 6 标准，智慧屏品类横空出世，国产操作系统打破巨头垄断，……",
+    "url": "https://segmentfault.com/a/1190000021395952",
+    "author": "SegmentFault",
+    "home_url": "https://segmentfault.com/u/segmentfault",
+    "votes": "11",
+    "rank": 17
   },
   {
     "title": "也来盘盘前端脚手架的那些事儿",
@@ -203,61 +158,115 @@
     "url": "https://segmentfault.com/a/1190000021390776",
     "author": "BWrong",
     "home_url": "https://segmentfault.com/u/wrong",
-    "votes": "11",
+    "votes": "25",
+    "rank": 18
+  },
+  {
+    "title": "值得关注的 Vue.js开源项目",
+    "description": "Vue.js 的另一个大优点是易于理解和学习。可以在 Vue 框架的帮助下创建任何 Web 应用。因此我建议你了解一些 Vue 开源项目。",
+    "url": "https://segmentfault.com/a/1190000021323095",
+    "author": "疯狂的技术宅",
+    "home_url": "https://segmentfault.com/u/evilboy",
+    "votes": "86",
+    "rank": 19
+  },
+  {
+    "title": "Electron+Vue开发跨平台桌面应用",
+    "description": "虽然B/S是目前开发的主流，但是C/S仍然有很大的市场需求。受限于浏览器的沙盒限制，网页应用无法满足某些场景下的使用需求，而桌面应用可以读写本地文件、调用更多系统资源，再加上Web开发的低成本、高效率的优势...",
+    "url": "https://segmentfault.com/a/1190000021376934",
+    "author": "xiangzhihong",
+    "home_url": "https://segmentfault.com/u/xiangzhihong",
+    "votes": "38",
+    "rank": 20
+  },
+  {
+    "title": "讲给前端的正则表达式(4)：避免灾难性回溯",
+    "description": "作者：wanago翻译：疯狂的技术宅 原文：[链接]未经允许严禁转载 前文： 讲给前端的正则表达式(1)：基本概念 讲给前端的正则表达式(2)：写出更优雅、更精确的正则表达式 讲给前端的正则表达式(3)：使用 ES6 特性 ...",
+    "url": "https://segmentfault.com/a/1190000021394276",
+    "author": "疯狂的技术宅",
+    "home_url": "https://segmentfault.com/u/evilboy",
+    "votes": "16",
+    "rank": 21
+  },
+  {
+    "title": "手码两万余字，SpringMVC 包教包会",
+    "description": "Spring Web MVC 是一种基于 Java 的实现了 Web MVC 设计模式的请求驱动类型的轻量级 Web 框架，即使用了 MVC 架构模式的思想，将 web 层进行职责解耦，基于请求驱动指的就是使用请求-响应模型，框架的目的就是帮...",
+    "url": "https://segmentfault.com/a/1190000021405959",
+    "author": "江南一点雨",
+    "home_url": "https://segmentfault.com/u/lenve",
+    "votes": "16",
+    "rank": 22
+  },
+  {
+    "title": "2019 年 JavaScript 现状调查报告",
+    "description": "2003 年，保罗·格雷厄姆（Paul Graham） 曾撰文提到，他的公司决定使用 Lisp。在该文章中他将 Lisp 描绘成计算机语言界的法语，它独特、深邃，能够表达难以描述的事物。",
+    "url": "https://segmentfault.com/a/1190000021371254",
+    "author": "徐九",
+    "home_url": "https://segmentfault.com/u/weepie",
+    "votes": "27",
     "rank": 23
   },
   {
-    "title": "JavaScript 引擎「V8」发布 8.0 版本，内存占用量大幅下降",
-    "description": "上周，JavaScript 引擎「V8」的开发团队在该项目官方网站上正式宣布推出最新的 8.0 版本。这次更新的重点主要集中在错误修复及性能改善上，正式的版本将在数周后随着谷歌 Chrome 80 稳定版一起发布。",
-    "url": "https://segmentfault.com/a/1190000021373691",
-    "author": "羽飞",
-    "home_url": "https://segmentfault.com/u/vectre",
-    "votes": "12",
+    "title": "从 Fetch 到 Streams —— 以流的角度处理网络请求",
+    "description": "自第一个实现的浏览器开始计算，Fetch API 已经快要五岁了。这五年 Chrome 和 Firefox 刷了不少版本号，IE 也不知死了多少年，而它的继任者更是上演了一出名为《Edge: Become Chromium》的好剧。再加上 ES6+ 的普...",
+    "url": "https://segmentfault.com/a/1190000021367378",
+    "author": "云音乐前端团队",
+    "home_url": "https://segmentfault.com/u/musicfe",
+    "votes": "34",
     "rank": 24
   },
   {
-    "title": "面试官：聊聊对Vue.js框架的理解",
-    "description": "今年OKR定了一条KR是每一个季度进行一次前端相关技术的分享，还有十几天就到2020年了，一直忙于业务开发，没有时间准备和学习高端话题，迫于无奈，那就讲讲平时使用频率较高，却没有真正认真的了解其内部原理的 V...",
-    "url": "https://segmentfault.com/a/1190000021290972",
-    "author": "_杨溜溜",
-    "home_url": "https://segmentfault.com/u/_yangliuliu",
-    "votes": "58",
+    "title": "Mpx 小程序框架技术揭秘",
+    "description": "与目前业内的几个小程序框架相比较而言，mpx 开发设计的出发点就是基于原生的小程序去做功能增强。所以从开发框架的角度来说，是没有任何“包袱”，围绕着原生小程序这个 core 去做不同功能的 patch 工作，使得开发...",
+    "url": "https://segmentfault.com/a/1190000021398658",
+    "author": "滴滴出行前端团队",
+    "home_url": "https://segmentfault.com/u/didiwangyuecheqianduan",
+    "votes": "13",
     "rank": 25
   },
   {
-    "title": "Kafka 的这些原理你知道吗",
-    "description": "如果只是为了开发 Kafka 应用程序，或者只是在生产环境使用 Kafka，那么了解 Kafka 的内部工作原理不是必须的。不过，了解 Kafka 的内部工作原理有助于理解 Kafka 的行为，也利用快速诊断问题。下面我们来探讨一...",
-    "url": "https://segmentfault.com/a/1190000021370626",
-    "author": "cxuan",
-    "home_url": "https://segmentfault.com/u/cxuan",
-    "votes": "16",
+    "title": "加入 SegmentFault 的第 1 年，我的 2019 年",
+    "description": "2019 对我来说是很重要的一年——这一年我正式加入 SegmentFault；对未来有了更多规划；在忙碌中迷失也在忙碌中逐渐实现自我的价值……",
+    "url": "https://segmentfault.com/a/1190000021398851",
+    "author": "波波Nadia",
+    "home_url": "https://segmentfault.com/u/bobonadia",
+    "votes": "15",
     "rank": 26
   },
   {
-    "title": "一文看懂浏览器事件循环",
-    "description": "实际上浏览器的事件循环标准是由 HTML 标准规定的，具体来说就是由whatwg规定的，具体内容可以参考event-loops in browser。而NodeJS中事件循环其实也略有不同，具体可以参考event-loops in nodejs",
-    "url": "https://segmentfault.com/a/1190000021295911",
-    "author": "lucifer",
-    "home_url": "https://segmentfault.com/u/shuohaodeyixuene",
-    "votes": "50",
+    "title": "css垂直水平居中常用方法",
+    "description": "父元素：position:relative;子元素：position:absolute;top:50%;left:50%;margin-top:-子元素高度一半;margin-left:-子元素宽度一半;",
+    "url": "https://segmentfault.com/a/1190000021386293",
+    "author": "三更半夜写代码",
+    "home_url": "https://segmentfault.com/u/laozhang97",
+    "votes": "16",
     "rank": 27
   },
   {
-    "title": "CSS实现自适应分隔线的N种方法",
-    "description": "分割线是网页中比较常见的一类设计了，比如说知乎的更多回答 这里的自适应是指两边的横线会随着文字的个数和父级的宽度自适应 偷偷的看了一下知乎的实现，很显然是用一块白色背景覆盖的，加一点背景就露馅了 心想...",
-    "url": "https://segmentfault.com/a/1190000021327814",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "44",
+    "title": "如何在团队中做好Code Review",
+    "description": "通过Code Review，对于同样的功能实现，有经验的工程师可以给经验尚浅的工程师提供合理的优化建议。经验尚浅的工程师可以通过阅读优质代码，快速学习相关技术运用的最佳实践。如果大家技术实力相当，可能就是互相...",
+    "url": "https://segmentfault.com/a/1190000021368303",
+    "author": "ken_io",
+    "home_url": "https://segmentfault.com/u/ken_io",
+    "votes": "21",
     "rank": 28
   },
   {
-    "title": "万字长文，20-50K前端工程师部分面试题集锦 - 附答案",
-    "description": "​ 现在20-50K的招聘，我们先看看是什么要求？ 蚂蚁金服招聘要求： 虾皮招聘： 腾讯： 明源云： 毫无疑问，这些公司都是招聘的大前端技术栈的职位，之前文章提到过2020年大前端最理想的技术栈，其实真的弄得很明白...",
-    "url": "https://segmentfault.com/a/1190000021102583",
-    "author": "Peter谭金杰",
-    "home_url": "https://segmentfault.com/u/jerrytanjinjie",
-    "votes": "167",
+    "title": "你不知道的 JSON.stringify() 的威力",
+    "description": "其实有很多有用的东西，当时学习了，也记住了，但是时间久了就是记不住，所以导致在日常开发中总是想不起来原来这个东西可以这么用，而去选择了更加复杂和麻烦的方式。其实我们日常学习的知识就是拿来用的，即使...",
+    "url": "https://segmentfault.com/a/1190000021230185",
+    "author": "弹铁蛋",
+    "home_url": "https://segmentfault.com/u/dantiedan",
+    "votes": "73",
     "rank": 29
+  },
+  {
+    "title": "基于 HTML5 + WebGL 的太阳系 3D 展示系统",
+    "description": "近年来随着引力波的发现、黑洞照片的拍摄、火星上存在水的证据发现等科学上的突破，以及文学影视作品中诸如《三体》、《流浪地球》、《星际穿越》等的传播普及，宇宙空间中那些原本遥不可及的事物离我们越来越近...",
+    "url": "https://segmentfault.com/a/1190000021401237",
+    "author": "hightopo",
+    "home_url": "https://segmentfault.com/u/hightopo",
+    "votes": "12",
+    "rank": 30
   }
 ]
