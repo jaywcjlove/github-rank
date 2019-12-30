@@ -30,6 +30,16 @@
     "homeUrl": "/subjects/4"
   },
   {
+    "title": "惊讶！我定的日志规范被 CTO 在全公司推广了",
+    "description": "打印日志是一门艺术，但长期被开发同学所忽视。日志就像车辆保险，没人愿意为保险付钱，但是一旦出了问题都又想有保险可用。我们打印日志的时候都很随意，可是用的时候会吐槽各种 SB 包括自...",
+    "votes": "35",
+    "url": "/k/em581ls",
+    "avatar": "https://img.toutiao.io/subject%2Ffcd1137867a2413880689043418675a7",
+    "avatarAlt": "猿天地 - 独家号",
+    "subjectName": "猿天地",
+    "homeUrl": "/subjects/6491"
+  },
+  {
     "title": "余额宝背后的服务治理架构",
     "description": "微服务化架构下，面临服务治理问题的企业越来越多，这就像一场“暗夜长征”，只有找到正确的治理方向，才能坚持到底，看到胜利的曙光。希望这篇根据ArchSummit2019北京站两场演讲...",
     "votes": "26",
@@ -80,6 +90,16 @@
     "homeUrl": "/subjects/33419"
   },
   {
+    "title": "什么？你项目还在用 Date 表示时间",
+    "description": " 为啥会有这篇文章 最近接手了一个别人的老项目，拿到代码，导入IDEA的那一瞬间，我哭出了声 . . .我瞥了一眼代码，就知道这次肯定遇到了屎山！因为我看到了这种代码：我擦，这都什...",
+    "votes": "51",
+    "url": "/k/wiun5v6",
+    "avatar": "https://img.toutiao.io/subject%2Fac9927f2564545b1a462e16886afbaca",
+    "avatarAlt": "CodeSheep - 独家号",
+    "subjectName": "CodeSheep",
+    "homeUrl": "/subjects/264797"
+  },
+  {
     "title": "查询太慢？看看 ES 是如何把索引的性能压榨到极致的",
     "description": "推荐原创专栏  大叔的大数据杂谈【每日五分钟学习大数据】系列 No.20上一篇文章简单地介绍过了ES的相关概念，还没看的同学快去复习下：ES是什么？看完这篇就不要再问这种低级问题了...",
     "votes": "16",
@@ -102,22 +122,12 @@
   {
     "title": "探探如何三个月完成微服务改造，以及踩过的 “坑”",
     "description": "在探探创建之初，单体架构很好满足了业务的发展与迭代，但随着业务和流量的快速增长，传统的单体架构受到了巨大的挑战，从而需要进行微服务重构以满足开发及公司发展需求。本文主要分享探探微服...",
-    "votes": "23",
+    "votes": "24",
     "url": "/k/940ata9",
     "avatar": "https://img.toutiao.io/subject%2Faec59e3752174268802557e3e7afcb33",
     "avatarAlt": "不错的好文 - 独家号",
     "subjectName": "不错的好文",
     "homeUrl": "/subjects/5551"
-  },
-  {
-    "title": "什么？你项目还在用 Date 表示时间",
-    "description": " 为啥会有这篇文章 最近接手了一个别人的老项目，拿到代码，导入IDEA的那一瞬间，我哭出了声 . . .我瞥了一眼代码，就知道这次肯定遇到了屎山！因为我看到了这种代码：我擦，这都什...",
-    "votes": "50",
-    "url": "/k/wiun5v6",
-    "avatar": "https://img.toutiao.io/subject%2Fac9927f2564545b1a462e16886afbaca",
-    "avatarAlt": "CodeSheep - 独家号",
-    "subjectName": "CodeSheep",
-    "homeUrl": "/subjects/264797"
   },
   {
     "title": "4000 字详解 TCP 超时与重传，看完没收获算我输",
@@ -130,14 +140,14 @@
     "homeUrl": "/subjects/110643"
   },
   {
-    "title": "图解 Redis 五种数据结构底层实现",
-    "description": "redis有五种基本数据结构：字符串、hash、set、zset、list。但是你知道构成这五种结构的底层数据结构是怎样的吗？今天我们来花费五分钟的时间了解一下。(目前redis版...",
-    "votes": "16",
-    "url": "/k/s614gsy",
-    "avatar": "https://img.toutiao.io/subject%2F97447fa2afe34a0f8b78e000eebbcea3",
-    "avatarAlt": "RyuGou的独家号 - 独家号",
-    "subjectName": "RyuGou的独家号",
-    "homeUrl": "/subjects/182586"
+    "title": "这样查生产问题，不做背锅侠",
+    "description": "一大早就被微信群炸醒，开发短信服务的猿妹子，在公司微信群里说：短信的生产环境服务器， CPU 占用率过高，疯狂报警，应该是你们昨天上线看门狗导致的（看门狗：守护短信服务的监控应用，...",
+    "votes": "31",
+    "url": "/k/05gyzd8",
+    "avatar": "https://img.toutiao.io/subject%2F180d026f85274c998656474cd1988d0f",
+    "avatarAlt": "四猿外 - 独家号",
+    "subjectName": "四猿外",
+    "homeUrl": "/subjects/426740"
   },
   {
     "title": "Redis 崩了，我成功把锅甩给了隔壁组（记一次 Redis 连接超限排查）",
@@ -150,24 +160,14 @@
     "homeUrl": "/subjects/420717"
   },
   {
-    "title": "毕业 10 年才懂，会升层思考，工作有多轻松？",
-    "description": "阿里妹导读：从学生开始老师就教导我们什么是问题？如何找出标准答案。然而，经过十几年的学习，大多数人依然没有理解问题的本质。正确定义问题是成功的开始，更是成功架构师的必要条件。今天，...",
-    "votes": "26",
-    "url": "/k/qcc4pgo",
-    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
-    "avatarAlt": "ASCE1885的互联网之路 - 独家号",
-    "subjectName": "ASCE1885的互联网之路",
-    "homeUrl": "/subjects/4829"
-  },
-  {
-    "title": "关于 Kafka 的一些面试题目",
-    "description": "上周客串了一下面试官，在这里就简单记录一下期间我问到的一些关于 Kafka 的面试题目，这些都是我平时在学习 Kafka 的一些总结要点。谈谈你对 kafka 的整体认识？问这个问...",
-    "votes": "9",
-    "url": "/k/11cpbr2",
-    "avatar": "https://img.toutiao.io/subject%2F7e103ce7918f469ea72f971f1c7333ad",
-    "avatarAlt": "公众号「后端进阶」 - 独家号",
-    "subjectName": "公众号「后端进阶」",
-    "homeUrl": "/subjects/151340"
+    "title": "图解 Redis 五种数据结构底层实现",
+    "description": "redis有五种基本数据结构：字符串、hash、set、zset、list。但是你知道构成这五种结构的底层数据结构是怎样的吗？今天我们来花费五分钟的时间了解一下。(目前redis版...",
+    "votes": "16",
+    "url": "/k/s614gsy",
+    "avatar": "https://img.toutiao.io/subject%2F97447fa2afe34a0f8b78e000eebbcea3",
+    "avatarAlt": "RyuGou的独家号 - 独家号",
+    "subjectName": "RyuGou的独家号",
+    "homeUrl": "/subjects/182586"
   },
   {
     "title": "软件工程六大设计原则总结，案例演示",
@@ -180,6 +180,26 @@
     "homeUrl": "/subjects/416733"
   },
   {
+    "title": "毕业 10 年才懂，会升层思考，工作有多轻松？",
+    "description": "阿里妹导读：从学生开始老师就教导我们什么是问题？如何找出标准答案。然而，经过十几年的学习，大多数人依然没有理解问题的本质。正确定义问题是成功的开始，更是成功架构师的必要条件。今天，...",
+    "votes": "26",
+    "url": "/k/qcc4pgo",
+    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
+    "avatarAlt": "ASCE1885的互联网之路 - 独家号",
+    "subjectName": "ASCE1885的互联网之路",
+    "homeUrl": "/subjects/4829"
+  },
+  {
+    "title": "Java 工程师该如何编写高效代码？",
+    "description": " 阿里妹导读：世界上只有两种物质：高效率和低效率；世界上只有两种人：高效率的人和低效率的人。——萧伯纳 同理，世界上只有两种代码：高效代码和低效代码；世界上只有两种人：编写高效代码...",
+    "votes": "22",
+    "url": "/k/jl0ynud",
+    "avatar": "https://img.toutiao.io/subject%2Fde644bbb42b34c618fad49fb47759970",
+    "avatarAlt": "4k咖啡豆 - 独家号",
+    "subjectName": "4k咖啡豆",
+    "homeUrl": "/subjects/158649"
+  },
+  {
     "title": "Golang 写的即时通讯服务器 gim",
     "description": "README.md简要介绍gim是一个即时通讯服务器，代码全部使用golang完成。主要功能1.离线消息同步2.多业务接入3.单用户多设备同时在线4.单聊，群聊，以及超大群聊天场景...",
     "votes": "29",
@@ -190,6 +210,16 @@
     "homeUrl": "/subjects/294070"
   },
   {
+    "title": "腾讯万亿级 Elasticsearch 技术解密",
+    "description": "作者： johngqjiang，腾讯 TEG 云架构平台部研发工程师Elasticsearch（ES）作为开源首选的分布式搜索分析引擎，通过一套系统轻松满足用户的日志实时分析、全文...",
+    "votes": "15",
+    "url": "/k/lzigaqt",
+    "avatar": "https://img.toutiao.io/subject%2F6ee3bb205b3248c2b746c1506548181a",
+    "avatarAlt": "大数据生态 - 独家号",
+    "subjectName": "大数据生态",
+    "homeUrl": "/subjects/136176"
+  },
+  {
     "title": "Java 程序员必读核心书单（基础版）",
     "description": "新爷的地盘(xin-zone)：关注JAVA编程及大数据，注重经验分享及个人成长。张三丰在武当山教张无忌太极功夫时候说了一句话，你有九阳神功护体，学什么武功都会很快的。果真，张无忌...",
     "votes": "23",
@@ -198,26 +228,6 @@
     "avatarAlt": "hellofrank - 独家号",
     "subjectName": "hellofrank",
     "homeUrl": "/subjects/419901"
-  },
-  {
-    "title": "分享 GitHub 上有趣、入门的开源项目：《HelloGitHub》第 44 期",
-    "description": "兴趣是最好的老师，HelloGitHub 就是帮你找到兴趣！ 简介  分享 GitHub 上有趣、入门级的开源项目。这是一个面向编程新手、热爱编程、对开源社区感兴趣 人群的月刊，月...",
-    "votes": "17",
-    "url": "/k/sjx4i5m",
-    "avatar": "https://img.toutiao.io/subject%2Fb751657c3aaa4ac59db50c07db41e538",
-    "avatarAlt": "HelloGitHub - 独家号",
-    "subjectName": "HelloGitHub",
-    "homeUrl": "/subjects/175527"
-  },
-  {
-    "title": "Java 工程师该如何编写高效代码？",
-    "description": " 阿里妹导读：世界上只有两种物质：高效率和低效率；世界上只有两种人：高效率的人和低效率的人。——萧伯纳 同理，世界上只有两种代码：高效代码和低效代码；世界上只有两种人：编写高效代码...",
-    "votes": "21",
-    "url": "/k/jl0ynud",
-    "avatar": "https://img.toutiao.io/subject%2Fde644bbb42b34c618fad49fb47759970",
-    "avatarAlt": "4k咖啡豆 - 独家号",
-    "subjectName": "4k咖啡豆",
-    "homeUrl": "/subjects/158649"
   },
   {
     "title": "答应我，别再 if/else 走天下了可以吗",
@@ -238,15 +248,5 @@
     "avatarAlt": "东溪陈姓少年 - 独家号",
     "subjectName": "东溪陈姓少年",
     "homeUrl": "/subjects/188747"
-  },
-  {
-    "title": "对开发人员有用的定律、理论、原则和模式",
-    "description": " 这篇文章包含对一些定律、原则以及模式的解释，但不提倡其中任何一个。它们的应用始终存在着争论，并且很大程度上取决于你正在做什么。一、定律1、布鲁克斯法则这个定律表明，在许多情况下，...",
-    "votes": "19",
-    "url": "/k/deftwuz",
-    "avatar": "https://img.toutiao.io/subject%2F031045bd63a049f0be798c6b6d344a80",
-    "avatarAlt": "JAVA程序员技术分享 - 独家号",
-    "subjectName": "JAVA程序员技术分享",
-    "homeUrl": "/subjects/1996"
   }
 ]
