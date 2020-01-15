@@ -12,7 +12,7 @@
   {
     "title": "阿里技术专家详解 DDD 系列",
     "description": "作者|殷浩出品|阿里巴巴新零售淘系技术部导读：对于一个架构师来说，在软件开发中如何降低系统复杂度是一个永恒的挑战，无论是 94 年 GoF 的 Design Patterns ， ...",
-    "votes": "38",
+    "votes": "40",
     "url": "/k/ju5u3bb",
     "avatar": "https://img.toutiao.io/subject%2F1a197bcacc0346c186be58be1aaf34bd",
     "avatarAlt": "Java后端技术 - 独家号",
@@ -40,6 +40,16 @@
     "homeUrl": "/subjects/431306"
   },
   {
+    "title": "2020 年最新阿里和美团面经",
+    "description": "2019年12月30号投了几个简历，收到了杭州阿里和北京美团的面邀阿里，31号电面，2020年元旦中午1点在线编程。最后挂了，面试官大哥说等我工作满三年再捞我北京美团2020年1月...",
+    "votes": "27",
+    "url": "/k/hkh28rn",
+    "avatar": "https://img.toutiao.io/subject%2Fbc7a7656ebf14b4783a839a8ff4e60a9",
+    "avatarAlt": "Java学习录 - 独家号",
+    "subjectName": "Java学习录",
+    "homeUrl": "/subjects/334055"
+  },
+  {
     "title": "2019 年终黑客工具盘点（推荐篇）",
     "description": "黑客技术一度被认为是一个神秘的特有领域，随着技术的进步和领域环境的进步，它已经成为一种非常普遍的现象。一款好的工具，会让工作事半功倍。黑客工具就成为黑客手里的神兵利器。今天华盟君给...",
     "votes": "38",
@@ -60,26 +70,6 @@
     "homeUrl": "/subjects/110643"
   },
   {
-    "title": "2020 年最新阿里和美团面经",
-    "description": "2019年12月30号投了几个简历，收到了杭州阿里和北京美团的面邀阿里，31号电面，2020年元旦中午1点在线编程。最后挂了，面试官大哥说等我工作满三年再捞我北京美团2020年1月...",
-    "votes": "27",
-    "url": "/k/hkh28rn",
-    "avatar": "https://img.toutiao.io/subject%2Fbc7a7656ebf14b4783a839a8ff4e60a9",
-    "avatarAlt": "Java学习录 - 独家号",
-    "subjectName": "Java学习录",
-    "homeUrl": "/subjects/334055"
-  },
-  {
-    "title": "深入理解 Linux I/O 复用之 epoll 机制",
-    "description": "0.概述 通过本篇文章将了解到以下内容: I/O复用的定义和产生背景 Linux系统的I/O复用工具 epoll设计的基本构成epoll高性能的底层实现epoll的ET模式和LT模...",
-    "votes": "40",
-    "url": "/k/sa1c0p1",
-    "avatar": "https://img.toutiao.io/subject%2F52501806a5d8487a92b253fd813048ec",
-    "avatarAlt": "后端技术指南针 - 独家号",
-    "subjectName": "后端技术指南针",
-    "homeUrl": "/subjects/378173"
-  },
-  {
     "title": "2019 读过的好书推荐",
     "description": "1. 引言2019 年即将过去，每年都会有个习惯把回顾一下读过的书，并把觉得比较好的书列成书单。今年也读了不少书，读的书比较杂，大部分是在微信读书上完成，有些书让人受益匪浅，下面是...",
     "votes": "37",
@@ -90,6 +80,16 @@
     "homeUrl": "/subjects/24970"
   },
   {
+    "title": "深入理解 Linux I/O 复用之 epoll 机制",
+    "description": "0.概述 通过本篇文章将了解到以下内容: I/O复用的定义和产生背景 Linux系统的I/O复用工具 epoll设计的基本构成epoll高性能的底层实现epoll的ET模式和LT模...",
+    "votes": "41",
+    "url": "/k/sa1c0p1",
+    "avatar": "https://img.toutiao.io/subject%2F52501806a5d8487a92b253fd813048ec",
+    "avatarAlt": "后端技术指南针 - 独家号",
+    "subjectName": "后端技术指南针",
+    "homeUrl": "/subjects/378173"
+  },
+  {
     "title": "什么？你项目还在用 Date 表示时间",
     "description": " 为啥会有这篇文章 最近接手了一个别人的老项目，拿到代码，导入IDEA的那一瞬间，我哭出了声 . . .我瞥了一眼代码，就知道这次肯定遇到了屎山！因为我看到了这种代码：我擦，这都什...",
     "votes": "55",
@@ -98,6 +98,36 @@
     "avatarAlt": "CodeSheep - 独家号",
     "subjectName": "CodeSheep",
     "homeUrl": "/subjects/264797"
+  },
+  {
+    "title": "Nginx 的负载均衡策略及其配置",
+    "description": "本文介绍了Nginx的负载均衡策略，一致性hash分配原理，及常用的故障节点的摘除与恢复配置。文章来源：宜信技术学院 & 宜信支付结算团队技术分享第一期-宜信支付结算八方数据团队高...",
+    "votes": "20",
+    "url": "/k/eymnia6",
+    "avatar": "https://img.toutiao.io/subject%2F9e445363a947488fbab8dffd1f03f9b5",
+    "avatarAlt": "异步社区 - 独家号",
+    "subjectName": "异步社区",
+    "homeUrl": "/subjects/66204"
+  },
+  {
+    "title": "头条高级面试题：请谈谈 Redis 9 种数据结构以及它们的内部编码实现",
+    "description": "90%的人知道Redis 5种最基本的数据结构，只有不到10%的人知道8种基本数据结构（5种基本+bitmap+GeoHash+HyperLogLog），只有不到5%的人知道9种基...",
+    "votes": "13",
+    "url": "/k/p2s9fdq",
+    "avatar": "https://img.toutiao.io/subject%2F8d1f295bddfb45d49f267769db5cea39",
+    "avatarAlt": "公众号-阿飞的博客 - 独家号",
+    "subjectName": "公众号-阿飞的博客",
+    "homeUrl": "/subjects/363970"
+  },
+  {
+    "title": "如何写一份有效的技术简历？",
+    "description": "现在找工作的程序员很多，都需要写简历。我见过很多简历，写得很糟糕，看不出这个人的亮点在哪里。一个人总是有亮点的，对不对。一些同学私下找我，让我帮忙修改简历。我在这里把自己的看法写出...",
+    "votes": "13",
+    "url": "/k/7clswtw",
+    "avatar": "https://img.toutiao.io/user/b618677591aa49b3972ece0c7d26b473/thumb",
+    "avatarAlt": "数据淘金 - 独家号",
+    "subjectName": "数据淘金",
+    "homeUrl": "/subjects/120437"
   },
   {
     "title": "探探如何三个月完成微服务改造，以及踩过的 “坑”",
@@ -120,64 +150,14 @@
     "homeUrl": "/subjects/136176"
   },
   {
-    "title": "头条高级面试题：请谈谈 Redis 9 种数据结构以及它们的内部编码实现",
-    "description": "90%的人知道Redis 5种最基本的数据结构，只有不到10%的人知道8种基本数据结构（5种基本+bitmap+GeoHash+HyperLogLog），只有不到5%的人知道9种基...",
-    "votes": "13",
-    "url": "/k/p2s9fdq",
-    "avatar": "https://img.toutiao.io/subject%2F8d1f295bddfb45d49f267769db5cea39",
-    "avatarAlt": "公众号-阿飞的博客 - 独家号",
-    "subjectName": "公众号-阿飞的博客",
-    "homeUrl": "/subjects/363970"
-  },
-  {
-    "title": "这样查生产问题，不做背锅侠",
-    "description": "一大早就被微信群炸醒，开发短信服务的猿妹子，在公司微信群里说：短信的生产环境服务器， CPU 占用率过高，疯狂报警，应该是你们昨天上线看门狗导致的（看门狗：守护短信服务的监控应用，...",
-    "votes": "34",
-    "url": "/k/05gyzd8",
-    "avatar": "https://img.toutiao.io/subject%2F180d026f85274c998656474cd1988d0f",
-    "avatarAlt": "四猿外 - 独家号",
-    "subjectName": "四猿外",
-    "homeUrl": "/subjects/426740"
-  },
-  {
-    "title": "如何写一份有效的技术简历？",
-    "description": "现在找工作的程序员很多，都需要写简历。我见过很多简历，写得很糟糕，看不出这个人的亮点在哪里。一个人总是有亮点的，对不对。一些同学私下找我，让我帮忙修改简历。我在这里把自己的看法写出...",
-    "votes": "13",
-    "url": "/k/7clswtw",
-    "avatar": "https://img.toutiao.io/user/b618677591aa49b3972ece0c7d26b473/thumb",
-    "avatarAlt": "数据淘金 - 独家号",
-    "subjectName": "数据淘金",
-    "homeUrl": "/subjects/120437"
-  },
-  {
-    "title": "4000 字详解 TCP 超时与重传，看完没收获算我输",
-    "description": "上一篇介绍 TCP 的文章「TCP 三次握手，四次挥手和一些细节」反馈还不错，还是蛮开心的，这次接着讲一讲关于超时和重传那一部分。我们都知道 TCP 协议具有重传机制，也就是说，如...",
-    "votes": "21",
-    "url": "/k/eyy5675",
-    "avatar": "https://img.toutiao.io/subject%2Fd00b380edf1f4c5c989adc712d44de7b",
-    "avatarAlt": "乱学派 - 独家号",
-    "subjectName": "乱学派",
-    "homeUrl": "/subjects/110643"
-  },
-  {
-    "title": "评审代码时，这样写就不会被怼了",
-    "description": "   在JDK版本普遍升级到8之后，最近参与了几次代码，好多人对JDK8中的用法不是特别熟熟悉，用的不对或者干脆用错的常有，代码评审时经常被说到，这里整理一波实用的技巧，希望大家举...",
-    "votes": "21",
-    "url": "/k/hlqfcdp",
-    "avatar": "https://img.toutiao.io/subject%2F31b8532422d54ee983ce3bd89ff88c12",
-    "avatarAlt": "技术人技术事 - 独家号",
-    "subjectName": "技术人技术事",
-    "homeUrl": "/subjects/388075"
-  },
-  {
-    "title": "[译] 图解 Kubernetes",
-    "description": "容器在了解 Kubernetes 之前，让我们先了解一个容器。因为如果不了解容器就没法聊容器编排。 容器就是...一个你塞入所有材料的容器。“材料”是指你的应用代码、依赖库，以及直...",
-    "votes": "33",
-    "url": "/k/eixd57q",
-    "avatar": "https://img.toutiao.io/subject%2F34a8080276c94c04a9660da45c688190",
-    "avatarAlt": "性能与架构 - 独家号",
-    "subjectName": "性能与架构",
-    "homeUrl": "/subjects/429228"
+    "title": "2020 年 Java 程序员应该学习的 10 大技术",
+    "description": "对于Java开发人员来说，最近几年的时间中，Java生态诞生了很多东西。每6个月更新一次Java版本，以及发布很多流行的框架，如Spring 5、Spring Security 5...",
+    "votes": "39",
+    "url": "/k/54k6zaa",
+    "avatar": "https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e",
+    "avatarAlt": "JAVA干货 - 独家号",
+    "subjectName": "JAVA干货",
+    "homeUrl": "/subjects/51515"
   },
   {
     "title": "五年 Java 经验，面试还是说不出日志该怎么写更好？（日志规范与最佳实践篇）",
@@ -190,6 +170,56 @@
     "homeUrl": "/subjects/431697"
   },
   {
+    "title": "这样查生产问题，不做背锅侠",
+    "description": "一大早就被微信群炸醒，开发短信服务的猿妹子，在公司微信群里说：短信的生产环境服务器， CPU 占用率过高，疯狂报警，应该是你们昨天上线看门狗导致的（看门狗：守护短信服务的监控应用，...",
+    "votes": "35",
+    "url": "/k/05gyzd8",
+    "avatar": "https://img.toutiao.io/subject%2F180d026f85274c998656474cd1988d0f",
+    "avatarAlt": "四猿外 - 独家号",
+    "subjectName": "四猿外",
+    "homeUrl": "/subjects/426740"
+  },
+  {
+    "title": "4000 字详解 TCP 超时与重传，看完没收获算我输",
+    "description": "上一篇介绍 TCP 的文章「TCP 三次握手，四次挥手和一些细节」反馈还不错，还是蛮开心的，这次接着讲一讲关于超时和重传那一部分。我们都知道 TCP 协议具有重传机制，也就是说，如...",
+    "votes": "21",
+    "url": "/k/eyy5675",
+    "avatar": "https://img.toutiao.io/subject%2Fd00b380edf1f4c5c989adc712d44de7b",
+    "avatarAlt": "乱学派 - 独家号",
+    "subjectName": "乱学派",
+    "homeUrl": "/subjects/110643"
+  },
+  {
+    "title": "[译] 图解 Kubernetes",
+    "description": "容器在了解 Kubernetes 之前，让我们先了解一个容器。因为如果不了解容器就没法聊容器编排。 容器就是...一个你塞入所有材料的容器。“材料”是指你的应用代码、依赖库，以及直...",
+    "votes": "34",
+    "url": "/k/eixd57q",
+    "avatar": "https://img.toutiao.io/subject%2F34a8080276c94c04a9660da45c688190",
+    "avatarAlt": "性能与架构 - 独家号",
+    "subjectName": "性能与架构",
+    "homeUrl": "/subjects/429228"
+  },
+  {
+    "title": "评审代码时，这样写就不会被怼了",
+    "description": "   在JDK版本普遍升级到8之后，最近参与了几次代码，好多人对JDK8中的用法不是特别熟熟悉，用的不对或者干脆用错的常有，代码评审时经常被说到，这里整理一波实用的技巧，希望大家举...",
+    "votes": "21",
+    "url": "/k/hlqfcdp",
+    "avatar": "https://img.toutiao.io/subject%2F31b8532422d54ee983ce3bd89ff88c12",
+    "avatarAlt": "技术人技术事 - 独家号",
+    "subjectName": "技术人技术事",
+    "homeUrl": "/subjects/388075"
+  },
+  {
+    "title": "Java 工程师该如何编写高效代码？",
+    "description": " 阿里妹导读：世界上只有两种物质：高效率和低效率；世界上只有两种人：高效率的人和低效率的人。——萧伯纳 同理，世界上只有两种代码：高效代码和低效代码；世界上只有两种人：编写高效代码...",
+    "votes": "25",
+    "url": "/k/jl0ynud",
+    "avatar": "https://img.toutiao.io/subject%2Fde644bbb42b34c618fad49fb47759970",
+    "avatarAlt": "4k咖啡豆 - 独家号",
+    "subjectName": "4k咖啡豆",
+    "homeUrl": "/subjects/158649"
+  },
+  {
     "title": "Redis 崩了，我成功把锅甩给了隔壁组（记一次 Redis 连接超限排查）",
     "description": "记一次Redis连接超限问题排查经过.文章地址: https://blog.piaoruiqing.com/2019/12/15/max-number-of-clients-rea...",
     "votes": "37",
@@ -198,16 +228,6 @@
     "avatarAlt": "代码如诗 - 独家号",
     "subjectName": "代码如诗",
     "homeUrl": "/subjects/420717"
-  },
-  {
-    "title": "Java 工程师该如何编写高效代码？",
-    "description": " 阿里妹导读：世界上只有两种物质：高效率和低效率；世界上只有两种人：高效率的人和低效率的人。——萧伯纳 同理，世界上只有两种代码：高效代码和低效代码；世界上只有两种人：编写高效代码...",
-    "votes": "24",
-    "url": "/k/jl0ynud",
-    "avatar": "https://img.toutiao.io/subject%2Fde644bbb42b34c618fad49fb47759970",
-    "avatarAlt": "4k咖啡豆 - 独家号",
-    "subjectName": "4k咖啡豆",
-    "homeUrl": "/subjects/158649"
   },
   {
     "title": "软件工程六大设计原则总结，案例演示",
@@ -220,33 +240,13 @@
     "homeUrl": "/subjects/416733"
   },
   {
-    "title": "Nginx 的负载均衡策略及其配置",
-    "description": "本文介绍了Nginx的负载均衡策略，一致性hash分配原理，及常用的故障节点的摘除与恢复配置。文章来源：宜信技术学院 & 宜信支付结算团队技术分享第一期-宜信支付结算八方数据团队高...",
-    "votes": "17",
-    "url": "/k/eymnia6",
-    "avatar": "https://img.toutiao.io/subject%2F9e445363a947488fbab8dffd1f03f9b5",
-    "avatarAlt": "异步社区 - 独家号",
-    "subjectName": "异步社区",
-    "homeUrl": "/subjects/66204"
-  },
-  {
     "title": "[译] 2020 年软件开发趋势",
     "description": "基础设施：终将上云现在云服务越来越普及了，不光是创业公司在使用云服务，连一些很保守的公司，和一些对很重视安全的公司都开始上云了，2020年上云的势头将更猛，各种体积的公司、各种类型...",
-    "votes": "27",
+    "votes": "28",
     "url": "/k/9eltrwf",
     "avatar": "https://img.toutiao.io/subject%2F34a8080276c94c04a9660da45c688190",
     "avatarAlt": "性能与架构 - 独家号",
     "subjectName": "性能与架构",
     "homeUrl": "/subjects/429228"
-  },
-  {
-    "title": "Golang 写的即时通讯服务器 gim",
-    "description": "README.md简要介绍gim是一个即时通讯服务器，代码全部使用golang完成。主要功能1.离线消息同步2.多业务接入3.单用户多设备同时在线4.单聊，群聊，以及超大群聊天场景...",
-    "votes": "29",
-    "url": "/k/btzwpcf",
-    "avatar": "https://img.toutiao.io/user/43e1628abb8b4e26b9668f1775b51a57/thumb",
-    "avatarAlt": "thinking in go - 独家号",
-    "subjectName": "thinking in go",
-    "homeUrl": "/subjects/294070"
   }
 ]

@@ -2,7 +2,7 @@
   {
     "title": "阿里技术专家详解 DDD 系列",
     "description": "作者|殷浩出品|阿里巴巴新零售淘系技术部导读：对于一个架构师来说，在软件开发中如何降低系统复杂度是一个永恒的挑战，无论是 94 年 GoF 的 Design Patterns ， ...",
-    "votes": "38",
+    "votes": "40",
     "url": "/k/ju5u3bb",
     "avatar": "https://img.toutiao.io/subject%2F1a197bcacc0346c186be58be1aaf34bd",
     "avatarAlt": "Java后端技术 - 独家号",
@@ -10,14 +10,14 @@
     "homeUrl": "/subjects/63673"
   },
   {
-    "title": "2020 年最新阿里和美团面经",
-    "description": "2019年12月30号投了几个简历，收到了杭州阿里和北京美团的面邀阿里，31号电面，2020年元旦中午1点在线编程。最后挂了，面试官大哥说等我工作满三年再捞我北京美团2020年1月...",
-    "votes": "27",
-    "url": "/k/hkh28rn",
-    "avatar": "https://img.toutiao.io/subject%2Fbc7a7656ebf14b4783a839a8ff4e60a9",
-    "avatarAlt": "Java学习录 - 独家号",
-    "subjectName": "Java学习录",
-    "homeUrl": "/subjects/334055"
+    "title": "Nginx 的负载均衡策略及其配置",
+    "description": "本文介绍了Nginx的负载均衡策略，一致性hash分配原理，及常用的故障节点的摘除与恢复配置。文章来源：宜信技术学院 & 宜信支付结算团队技术分享第一期-宜信支付结算八方数据团队高...",
+    "votes": "20",
+    "url": "/k/eymnia6",
+    "avatar": "https://img.toutiao.io/subject%2F9e445363a947488fbab8dffd1f03f9b5",
+    "avatarAlt": "异步社区 - 独家号",
+    "subjectName": "异步社区",
+    "homeUrl": "/subjects/66204"
   },
   {
     "title": "如何写一份有效的技术简历？",
@@ -30,6 +30,16 @@
     "homeUrl": "/subjects/120437"
   },
   {
+    "title": "2020 年 Java 程序员应该学习的 10 大技术",
+    "description": "对于Java开发人员来说，最近几年的时间中，Java生态诞生了很多东西。每6个月更新一次Java版本，以及发布很多流行的框架，如Spring 5、Spring Security 5...",
+    "votes": "39",
+    "url": "/k/54k6zaa",
+    "avatar": "https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e",
+    "avatarAlt": "JAVA干货 - 独家号",
+    "subjectName": "JAVA干货",
+    "homeUrl": "/subjects/51515"
+  },
+  {
     "title": "五年 Java 经验，面试还是说不出日志该怎么写更好？（日志规范与最佳实践篇）",
     "description": "本文是一个系列，欢迎关注查看上一篇文章可以扫描文章下方的二维码，点击往期回顾-日志系列即可查看所有相关文章概览 上一篇我们讨论了为什么要使用日志框架，这次我们深入问题的根源，为什么...",
     "votes": "17",
@@ -40,24 +50,24 @@
     "homeUrl": "/subjects/431697"
   },
   {
-    "title": "Nginx 的负载均衡策略及其配置",
-    "description": "本文介绍了Nginx的负载均衡策略，一致性hash分配原理，及常用的故障节点的摘除与恢复配置。文章来源：宜信技术学院 & 宜信支付结算团队技术分享第一期-宜信支付结算八方数据团队高...",
-    "votes": "17",
-    "url": "/k/eymnia6",
-    "avatar": "https://img.toutiao.io/subject%2F9e445363a947488fbab8dffd1f03f9b5",
-    "avatarAlt": "异步社区 - 独家号",
-    "subjectName": "异步社区",
-    "homeUrl": "/subjects/66204"
-  },
-  {
     "title": "[译] MySQL：如何查询出每个 Group 的 Top n 条记录？",
     "description": "问题描述 需求：查询出每月order_amount（订单金额）排行前3的记录。例如对于2019-02，查询结果中就应该是这3条： 解决方法MySQL 5.7 和 MySQL 8.0...",
-    "votes": "8",
+    "votes": "10",
     "url": "/k/kyynype",
     "avatar": "https://img.toutiao.io/subject%2F34a8080276c94c04a9660da45c688190",
     "avatarAlt": "性能与架构 - 独家号",
     "subjectName": "性能与架构",
     "homeUrl": "/subjects/429228"
+  },
+  {
+    "title": "RabbitMQ 如何保证消息可靠性",
+    "description": "作者 | 黄永灿后端开发攻城狮，关注服务端技术与性能优化。RabbitMQ 的消息发送机制在讨论 RabbitMQ 的消息可靠性之前，我们先来回顾一下消息在 RabbitMQ 中是...",
+    "votes": "17",
+    "url": "/k/3bd0l88",
+    "avatar": "https://img.toutiao.io/subject%2F2200d388e46e44128cf378d4d4920a40",
+    "avatarAlt": "杏仁技术站 - 独家号",
+    "subjectName": "杏仁技术站",
+    "homeUrl": "/subjects/206366"
   },
   {
     "title": "如何为项目编写良好 README",
@@ -90,79 +100,69 @@
     "homeUrl": "/subjects/5551"
   },
   {
-    "title": "为什么 TCP 会被 UDP 取代",
-    "description": "拥塞控制三次握手重传机制总结为什么这么设计（Why’s THE Design）是一系列关于计算机领域中程序设计决策的文章，我们在这个系列的每一篇文章中都会提出一个具体的问题并从不同...",
+    "title": "作为阿里的面试官，我有话想说",
+    "description": "面试，面试官比候选人还难近期面试了许多，真的是许多同学，讲道理其实我是比较有耐心的面试官，但是还是忍不住想要吐槽，因此写下这篇文章，一方面希望可以帮助到正在面试，或者在来面试路上的...",
+    "votes": "37",
+    "url": "/k/m9uyh7y",
+    "avatar": "https://img.toutiao.io/subject%2F732cb6a567b6447aa876ed179c0e89c7",
+    "avatarAlt": "Fundebug - 独家号",
+    "subjectName": "Fundebug",
+    "homeUrl": "/subjects/216955"
+  },
+  {
+    "title": "TCP 四次挥手，你熟了！那意外情况呢？恶意攻击呢？单端跑路呢？",
+    "description": "头图 @Craig Adderley一、序当我们聊到 TCP 协议的时候，聊的最多的就是三次握手与四次挥手，但是你有没有想过，三次握手或者四次挥手时，如果发生异常了，是如何处理的？...",
     "votes": "13",
-    "url": "/k/7mffpmo",
-    "avatar": "https://img.toutiao.io/subject%2Fb74e6991f2de41dbb21d7eef58177d64",
-    "avatarAlt": "面向信仰编程 - 独家号",
-    "subjectName": "面向信仰编程",
-    "homeUrl": "/subjects/90130"
+    "url": "/k/1597lfh",
+    "avatar": "https://img.toutiao.io/subject%2F89ee4c4a6ee648388935c4f8514712b8",
+    "avatarAlt": "承香墨影的独家号 - 独家号",
+    "subjectName": "承香墨影的独家号",
+    "homeUrl": "/subjects/16900"
   },
   {
-    "title": "Service Mesh 到底是什么鬼？看不懂你打我",
-    "description": "Photo By Instagram wonderful_placesService Mesh作为下一代微服务技术的代名词，初出茅庐却深得人心一鸣惊人，大有一统微服务时代的趋势。那...",
-    "votes": "26",
-    "url": "/k/tmlmsaj",
-    "avatar": "https://img.toutiao.io/subject%2Fa230436fb557435d83cb65173bd1c2ee",
-    "avatarAlt": "攻克技术面试 - 独家号",
-    "subjectName": "攻克技术面试",
-    "homeUrl": "/subjects/432514"
+    "title": "看完这篇 HTTP，跟面试官扯皮就没问题了",
+    "description": "点击蓝色“Java建设者”关注我哟加个“星标”，一起快乐成长这是 Java 建设者的第 57 篇原创文章我是一名程序员，我的主要编程语言是 Java，我更是一名 Web 开发人员，...",
+    "votes": "10",
+    "url": "/k/te1yxg8",
+    "avatar": "https://img.toutiao.io/subject%2F80fe40a92fdb49718e7cb228509c0d51",
+    "avatarAlt": "cxuan的独家号 - 独家号",
+    "subjectName": "cxuan的独家号",
+    "homeUrl": "/subjects/432885"
   },
   {
-    "title": "Go GC 20 问",
-    "description": "本文作者欧长坤，德国慕尼黑大学在读博士，Go/etcd/Tensorflow contributor，开源书籍《Go 语言原本》作者，《Go 夜读》SIG 成员/讲师，对 Go 有...",
+    "title": "我接到了诈骗电话，顺藤摸瓜揪出幕后黑手",
+    "description": "转自：Hack 大家好，我是九歌。  今天我和大家聊一聊诈骗的事。 朋友上个月送了我一张免实名的电话卡，于是我插到手机里用来注册网站APP使用，有趣的是，前几天我这张电话卡在短短几...",
+    "votes": "64",
+    "url": "/k/blmhyap",
+    "avatar": "https://img.toutiao.io/subject%2Ffcd1137867a2413880689043418675a7",
+    "avatarAlt": "猿天地 - 独家号",
+    "subjectName": "猿天地",
+    "homeUrl": "/subjects/6491"
+  },
+  {
+    "title": "Prometheus 与 Grafana：监控报警系统中的银弹",
+    "description": "监控报警是服务稳定的基础，是性能优化的重要依据，是可以未雨绸缪的重大利器。现代系统赋予了监控报警重要地位，近年来随着微服务设计理念不断成熟与广泛使用，做为系统方案的设计者，监控的选...",
     "votes": "13",
-    "url": "/k/kz0sbcz",
-    "avatar": "https://img.toutiao.io/subject%2F6a017995d8424765ab042213593cb4a9",
-    "avatarAlt": "码农桃花源 - 独家号",
-    "subjectName": "码农桃花源",
-    "homeUrl": "/subjects/393157"
+    "url": "/k/ybqi7dp",
+    "avatar": "https://img.toutiao.io/subject%2F08c3200c43064a1babec277646669298",
+    "avatarAlt": "黑夜路人 - 独家号",
+    "subjectName": "黑夜路人",
+    "homeUrl": "/subjects/17093"
   },
   {
-    "title": "最近从 0 学习 Git，详细分类总结了这份 Git 命令宝典",
-    "description": "来源：帅地玩编程作者：帅地虽然之前学过 Git，不过用的比较少，很多原理也不是很清楚，所以最近是买了个视频，静下心来从零学习了下 Git，不过 Git 用来用去其实也就那几个命令，...",
-    "votes": "8",
-    "url": "/k/i2lm7d6",
-    "avatar": "https://img.toutiao.io/subject%2Fd00b380edf1f4c5c989adc712d44de7b",
-    "avatarAlt": "乱学派 - 独家号",
-    "subjectName": "乱学派",
-    "homeUrl": "/subjects/110643"
-  },
-  {
-    "title": "还在手动安装 JDK，不用 SDKMAN ! 你就 out 了",
-    "description": " 现在JDK的发布版本如此之多，半年一次的发布周期，加上AdoptOpenJDK、SAP、Amazon、Azul Systems这些公司的发布版本。安装JDK的时候去这些版本的网站...",
-    "votes": "18",
-    "url": "/k/crer8qj",
-    "avatar": "https://img.toutiao.io/subject%2F169a1f976ea447ebbb94ef2b7e9c6d03",
-    "avatarAlt": "灵动代码 - 独家号",
-    "subjectName": "灵动代码",
-    "homeUrl": "/subjects/428962"
-  },
-  {
-    "title": "Java 日志体系居然这么复杂？（架构篇）",
-    "description": "本文是一个系列，欢迎关注公众号获得后续更新日志到底是何方神圣？为什么要使用日志？想必大家都有过使用System.out来进行输出调试，开发开发环境下这样做当然很方便，但是线上这样做...",
-    "votes": "8",
-    "url": "/k/75ffa1d",
-    "avatar": "https://img.toutiao.io/subject%2F51dae571e16c485aa8f19a143c1000ff",
-    "avatarAlt": "鸡员外 - 独家号",
-    "subjectName": "鸡员外",
-    "homeUrl": "/subjects/431697"
-  },
-  {
-    "title": "19 年下半年读书清单一览",
-    "description": "19年已经过去了好几天，年初给自己制定的计划是19年阅读50本书，由于各种各样的事情打扰，最终还是差一点，于心有愧。这里，把自己19年下半年的读书清单做个分享吧， 加以提醒。。。概...",
-    "votes": "17",
-    "url": "/k/hspqn7o",
-    "avatar": "https://img.toutiao.io/subject%2F1227f0343a1546ee8e3c535cce14aa4c",
-    "avatarAlt": "I Am Tester - 独家号",
-    "subjectName": "I Am Tester",
-    "homeUrl": "/subjects/188023"
+    "title": "[译] 有效的微服务：10 个最佳实践",
+    "description": "推荐阅读：架构设计原则 - 高并发使用 Canal 实现数据异构MySQL中一条SQL语句是如何执行的？阿里开源的分布式事务框架 SeataZooKeeper 并不适合做注册中心1...",
+    "votes": "14",
+    "url": "/k/s9v54do",
+    "avatar": "https://img.toutiao.io/subject%2F34a8080276c94c04a9660da45c688190",
+    "avatarAlt": "性能与架构 - 独家号",
+    "subjectName": "性能与架构",
+    "homeUrl": "/subjects/429228"
   },
   {
     "title": "[译] 高效程序员的七个习惯",
     "description": " 【推荐阅读】撸了今年阿里、腾讯和美团的面试，我有一个重要发现... 软件工程师花费大量时间通过练习leet code问题和完善简历来获得更好的面试通过可能。一旦他们最终被谷歌、亚...",
-    "votes": "9",
+    "votes": "10",
     "url": "/k/6n914go",
     "avatar": "https://img.toutiao.io/subject%2F3526fabe1649407aa94a88d207df8cbb",
     "avatarAlt": "程序猿DD - 独家号",
@@ -170,14 +170,14 @@
     "homeUrl": "/subjects/236702"
   },
   {
-    "title": "我接到了诈骗电话，顺藤摸瓜揪出幕后黑手",
-    "description": "转自：Hack 大家好，我是九歌。  今天我和大家聊一聊诈骗的事。 朋友上个月送了我一张免实名的电话卡，于是我插到手机里用来注册网站APP使用，有趣的是，前几天我这张电话卡在短短几...",
-    "votes": "44",
-    "url": "/k/blmhyap",
-    "avatar": "https://img.toutiao.io/subject%2Ffcd1137867a2413880689043418675a7",
-    "avatarAlt": "猿天地 - 独家号",
-    "subjectName": "猿天地",
-    "homeUrl": "/subjects/6491"
+    "title": "一文读懂原码、反码与补码",
+    "description": "一、二进制二进制和十进制一样，也是一种进位计数制，但是它的基数是 2。二进制表达式中 0 和 1 的位置不同，它所代表的数值也不同。例如，二进制数0000 1010表示十进制数 1...",
+    "votes": "6",
+    "url": "/k/arshyke",
+    "avatar": "https://img.toutiao.io/subject%2F9cd866310cd142e1bfd7caf648a0f2cd",
+    "avatarAlt": "全栈修仙之路 - 独家号",
+    "subjectName": "全栈修仙之路",
+    "homeUrl": "/subjects/219103"
   },
   {
     "title": "Redis 5 新特性 Streams 作消息队列",
@@ -190,13 +190,13 @@
     "homeUrl": "/subjects/411378"
   },
   {
-    "title": "一文读懂原码、反码与补码",
-    "description": "一、二进制二进制和十进制一样，也是一种进位计数制，但是它的基数是 2。二进制表达式中 0 和 1 的位置不同，它所代表的数值也不同。例如，二进制数0000 1010表示十进制数 1...",
-    "votes": "5",
-    "url": "/k/arshyke",
-    "avatar": "https://img.toutiao.io/subject%2F9cd866310cd142e1bfd7caf648a0f2cd",
-    "avatarAlt": "全栈修仙之路 - 独家号",
-    "subjectName": "全栈修仙之路",
-    "homeUrl": "/subjects/219103"
+    "title": "大数据安全分析平台搭建 & 相关经验分享",
+    "description": "在大数据应用普及以及信息安全上升为国家高度后，信息安全能力落地的挑战日益增多。一方面，企业内部的安全体系架构日益复杂，各式各样的安全数据越来越多，传统分析方法难以奏效。另一方面，传...",
+    "votes": "7",
+    "url": "/k/l8o22yl",
+    "avatar": "https://img.toutiao.io/subject%2Fab225f76a1344c82acd5de490243c1fb",
+    "avatarAlt": "安全奇点 - 独家号",
+    "subjectName": "安全奇点",
+    "homeUrl": "/subjects/6127"
   }
 ]
