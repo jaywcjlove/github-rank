@@ -5,8 +5,8 @@
   "scripts": {
     "start": "node lib/build.js",
     "get:toutiao": "node lib/geToutiao.js",
-    "get": "npm run get:users && npm run get:users:china && npm run get:users:info && npm run get:repos",
-    "get:o": "npm run get:trending && npm run get:sifou && npm run get:36kr && npm run get:toutiao",
+    "get": "npm run get:users && npm run get:users:china && npm run get:users:info",
+    "get:o": "npm run get:trending && npm run get:repos && npm run get:sifou && npm run get:36kr && npm run get:toutiao",
     "star": "node lib/getUserInfoStars.js",
     "get:users:info": "node lib/getUserInfo.js",
     "get:36kr": "node lib/get36Kr.js",
