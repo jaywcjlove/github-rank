@@ -110,6 +110,16 @@
     "homeUrl": "/subjects/66204"
   },
   {
+    "title": "2020 年 Java 程序员应该学习的 10 大技术",
+    "description": "对于Java开发人员来说，最近几年的时间中，Java生态诞生了很多东西。每6个月更新一次Java版本，以及发布很多流行的框架，如Spring 5、Spring Security 5...",
+    "votes": "39",
+    "url": "/k/54k6zaa",
+    "avatar": "https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e",
+    "avatarAlt": "JAVA干货 - 独家号",
+    "subjectName": "JAVA干货",
+    "homeUrl": "/subjects/51515"
+  },
+  {
     "title": "头条高级面试题：请谈谈 Redis 9 种数据结构以及它们的内部编码实现",
     "description": "90%的人知道Redis 5种最基本的数据结构，只有不到10%的人知道8种基本数据结构（5种基本+bitmap+GeoHash+HyperLogLog），只有不到5%的人知道9种基...",
     "votes": "13",
@@ -130,16 +140,6 @@
     "homeUrl": "/subjects/120437"
   },
   {
-    "title": "探探如何三个月完成微服务改造，以及踩过的 “坑”",
-    "description": "在探探创建之初，单体架构很好满足了业务的发展与迭代，但随着业务和流量的快速增长，传统的单体架构受到了巨大的挑战，从而需要进行微服务重构以满足开发及公司发展需求。本文主要分享探探微服...",
-    "votes": "25",
-    "url": "/k/940ata9",
-    "avatar": "https://img.toutiao.io/subject%2Faec59e3752174268802557e3e7afcb33",
-    "avatarAlt": "不错的好文 - 独家号",
-    "subjectName": "不错的好文",
-    "homeUrl": "/subjects/5551"
-  },
-  {
     "title": "腾讯万亿级 Elasticsearch 技术解密",
     "description": "作者： johngqjiang，腾讯 TEG 云架构平台部研发工程师Elasticsearch（ES）作为开源首选的分布式搜索分析引擎，通过一套系统轻松满足用户的日志实时分析、全文...",
     "votes": "16",
@@ -148,16 +148,6 @@
     "avatarAlt": "大数据生态 - 独家号",
     "subjectName": "大数据生态",
     "homeUrl": "/subjects/136176"
-  },
-  {
-    "title": "2020 年 Java 程序员应该学习的 10 大技术",
-    "description": "对于Java开发人员来说，最近几年的时间中，Java生态诞生了很多东西。每6个月更新一次Java版本，以及发布很多流行的框架，如Spring 5、Spring Security 5...",
-    "votes": "39",
-    "url": "/k/54k6zaa",
-    "avatar": "https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e",
-    "avatarAlt": "JAVA干货 - 独家号",
-    "subjectName": "JAVA干货",
-    "homeUrl": "/subjects/51515"
   },
   {
     "title": "五年 Java 经验，面试还是说不出日志该怎么写更好？（日志规范与最佳实践篇）",
@@ -172,22 +162,12 @@
   {
     "title": "这样查生产问题，不做背锅侠",
     "description": "一大早就被微信群炸醒，开发短信服务的猿妹子，在公司微信群里说：短信的生产环境服务器， CPU 占用率过高，疯狂报警，应该是你们昨天上线看门狗导致的（看门狗：守护短信服务的监控应用，...",
-    "votes": "35",
+    "votes": "36",
     "url": "/k/05gyzd8",
     "avatar": "https://img.toutiao.io/subject%2F180d026f85274c998656474cd1988d0f",
     "avatarAlt": "四猿外 - 独家号",
     "subjectName": "四猿外",
     "homeUrl": "/subjects/426740"
-  },
-  {
-    "title": "4000 字详解 TCP 超时与重传，看完没收获算我输",
-    "description": "上一篇介绍 TCP 的文章「TCP 三次握手，四次挥手和一些细节」反馈还不错，还是蛮开心的，这次接着讲一讲关于超时和重传那一部分。我们都知道 TCP 协议具有重传机制，也就是说，如...",
-    "votes": "21",
-    "url": "/k/eyy5675",
-    "avatar": "https://img.toutiao.io/subject%2Fd00b380edf1f4c5c989adc712d44de7b",
-    "avatarAlt": "乱学派 - 独家号",
-    "subjectName": "乱学派",
-    "homeUrl": "/subjects/110643"
   },
   {
     "title": "[译] 图解 Kubernetes",
@@ -200,6 +180,16 @@
     "homeUrl": "/subjects/429228"
   },
   {
+    "title": "4000 字详解 TCP 超时与重传，看完没收获算我输",
+    "description": "上一篇介绍 TCP 的文章「TCP 三次握手，四次挥手和一些细节」反馈还不错，还是蛮开心的，这次接着讲一讲关于超时和重传那一部分。我们都知道 TCP 协议具有重传机制，也就是说，如...",
+    "votes": "21",
+    "url": "/k/eyy5675",
+    "avatar": "https://img.toutiao.io/subject%2Fd00b380edf1f4c5c989adc712d44de7b",
+    "avatarAlt": "乱学派 - 独家号",
+    "subjectName": "乱学派",
+    "homeUrl": "/subjects/110643"
+  },
+  {
     "title": "评审代码时，这样写就不会被怼了",
     "description": "   在JDK版本普遍升级到8之后，最近参与了几次代码，好多人对JDK8中的用法不是特别熟熟悉，用的不对或者干脆用错的常有，代码评审时经常被说到，这里整理一波实用的技巧，希望大家举...",
     "votes": "21",
@@ -208,16 +198,6 @@
     "avatarAlt": "技术人技术事 - 独家号",
     "subjectName": "技术人技术事",
     "homeUrl": "/subjects/388075"
-  },
-  {
-    "title": "Java 工程师该如何编写高效代码？",
-    "description": " 阿里妹导读：世界上只有两种物质：高效率和低效率；世界上只有两种人：高效率的人和低效率的人。——萧伯纳 同理，世界上只有两种代码：高效代码和低效代码；世界上只有两种人：编写高效代码...",
-    "votes": "25",
-    "url": "/k/jl0ynud",
-    "avatar": "https://img.toutiao.io/subject%2Fde644bbb42b34c618fad49fb47759970",
-    "avatarAlt": "4k咖啡豆 - 独家号",
-    "subjectName": "4k咖啡豆",
-    "homeUrl": "/subjects/158649"
   },
   {
     "title": "Redis 崩了，我成功把锅甩给了隔壁组（记一次 Redis 连接超限排查）",
@@ -230,14 +210,14 @@
     "homeUrl": "/subjects/420717"
   },
   {
-    "title": "软件工程六大设计原则总结，案例演示",
-    "description": "一、单一职责原则 1、概念描述 对类来说的，即一个类应该只负责一项职责。如果一个类负责两个职责，可能存在职责1变化，引起职责2变化的情况。可以基于抽象逻辑，或者业务逻辑对类进行细化...",
-    "votes": "31",
-    "url": "/k/bk1d65h",
-    "avatar": "https://img.toutiao.io/subject%2F652f30d4f8ed4f198281774399a49076",
-    "avatarAlt": "知了一笑 - 独家号",
-    "subjectName": "知了一笑",
-    "homeUrl": "/subjects/416733"
+    "title": "Java 工程师该如何编写高效代码？",
+    "description": " 阿里妹导读：世界上只有两种物质：高效率和低效率；世界上只有两种人：高效率的人和低效率的人。——萧伯纳 同理，世界上只有两种代码：高效代码和低效代码；世界上只有两种人：编写高效代码...",
+    "votes": "25",
+    "url": "/k/jl0ynud",
+    "avatar": "https://img.toutiao.io/subject%2Fde644bbb42b34c618fad49fb47759970",
+    "avatarAlt": "4k咖啡豆 - 独家号",
+    "subjectName": "4k咖啡豆",
+    "homeUrl": "/subjects/158649"
   },
   {
     "title": "[译] 2020 年软件开发趋势",
@@ -248,5 +228,25 @@
     "avatarAlt": "性能与架构 - 独家号",
     "subjectName": "性能与架构",
     "homeUrl": "/subjects/429228"
+  },
+  {
+    "title": "[译] MySQL：如何查询出每个 Group 的 Top n 条记录？",
+    "description": "问题描述 需求：查询出每月order_amount（订单金额）排行前3的记录。例如对于2019-02，查询结果中就应该是这3条： 解决方法MySQL 5.7 和 MySQL 8.0...",
+    "votes": "10",
+    "url": "/k/kyynype",
+    "avatar": "https://img.toutiao.io/subject%2F34a8080276c94c04a9660da45c688190",
+    "avatarAlt": "性能与架构 - 独家号",
+    "subjectName": "性能与架构",
+    "homeUrl": "/subjects/429228"
+  },
+  {
+    "title": "Spring Boot 中的定时任务 @Scheduled 的使用详情及可能出现的坑",
+    "description": " 点击上方“小码宋”，关注“设为星标” 技术文章第一时间送达！   1.@Scheduled注解 在SpringBoot项目中使用定时任务时可以使用@Scheduled标注在需要定...",
+    "votes": "31",
+    "url": "/k/yyuq981",
+    "avatar": "https://img.toutiao.io/subject%2F99288638a9584744aad39522d4db0eca",
+    "avatarAlt": "小码宋 - 独家号",
+    "subjectName": "小码宋",
+    "homeUrl": "/subjects/430554"
   }
 ]
