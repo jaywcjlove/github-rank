@@ -92,3 +92,16 @@ import users from '@wcj/github-rank';
   }
 ]
 ```
+
+## 获取数据
+
+```bash
+# 获取 Github (中国/全球)用户排行榜(Top 500)
+npm run get
+
+# Github 用户获取中途失败，接着获取剩余用户信息
+npm run get:users:info
+
+# 获取 Github 趋势榜，Github 仓库排行(Top 500), sifou，36kr，toutiao 的数据
+npm run get:o
+```
