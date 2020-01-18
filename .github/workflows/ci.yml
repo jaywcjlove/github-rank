@@ -14,13 +14,16 @@ jobs:
       with:
         node-version: 12
         registry-url: https://registry.npmjs.org/
-      env: 
-        ID: ${{ secrets.GITHUB_ID }}
-        SECRET: ${{ secrets.GITHUB_SECRET }}
 
     - run: npm ci
     - run: npm run get:o
+      env: 
+        ID: ${{ secrets.GITHUB_ID }}
+        SECRET: ${{ secrets.GITHUB_SECRET }}
     - run: npm run get
+      env: 
+        ID: ${{ secrets.GITHUB_ID }}
+        SECRET: ${{ secrets.GITHUB_SECRET }}
     - run: npm run start
 
     - name: Build and Deploy
