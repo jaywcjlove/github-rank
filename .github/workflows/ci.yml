@@ -1,4 +1,4 @@
-name: GitHub Actions Build and Deploy
+name: Build and Deploy Github Rank
 on:
   push:
     branches:
@@ -12,19 +12,15 @@ jobs:
     - name: Setup Node
       uses: actions/setup-node@v1
       with:
-        node-version: '10.x'
+        node-version: 12
+        registry-url: https://registry.npmjs.org/
+      env: 
+        ID: ${{ secrets.GITHUB_ID }}
+        SECRET: ${{ secrets.GITHUB_SECRET }}
 
-    # - name: Cache dependencies
-    #   uses: actions/cache@v1
-    #   with:
-    #     path: ~/.npm
-    #     key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-    #     restore-keys: |
-    #       ${{ runner.os }}-node-
-
-    - run: npm install
-    - run: npm run build
-
+    - run: npm ci
+    - run: npm run get:o
+    - run: npm run get
     - run: npm run start
 
     - name: Build and Deploy
