@@ -1,8 +1,10 @@
 name: Build and Deploy Github Rank
 on:
   push:
-    branches:
-      - master
+    # branches:
+    #   - master
+    tags:
+      - v*
 jobs:
   build-deploy:
     runs-on: ubuntu-18.04
@@ -25,6 +27,9 @@ jobs:
         ID: ${{ secrets.GITHUB_ID }}
         SECRET: ${{ secrets.GITHUB_SECRET }}
     - run: npm run start
+    - run: npm publish --access public
+      env:
+        NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
     - name: Build and Deploy
       uses: peaceiris/actions-gh-pages@v2.5.0
