@@ -32,7 +32,7 @@
   {
     "title": "2020 年，陆奇 59 岁：我给 20、30、40 岁年轻人的建议",
     "description": " 013 作者 l 粥左罗 来源 l 粥左罗的好奇心（ID：fangdushe007） 转载请联系授权（微信ID：shoujirym8754） 大家好，我是粥左罗，最近想写一篇文章...",
-    "votes": "74",
+    "votes": "75",
     "url": "/k/5cpcki7",
     "avatar": "https://img.toutiao.io/user/b90973d7c4024ee59b73c442a1098134/thumb",
     "avatarAlt": "顾林海的独家号 - 独家号",
@@ -42,7 +42,7 @@
   {
     "title": "2020 年最新阿里和美团面经",
     "description": "2019年12月30号投了几个简历，收到了杭州阿里和北京美团的面邀阿里，31号电面，2020年元旦中午1点在线编程。最后挂了，面试官大哥说等我工作满三年再捞我北京美团2020年1月...",
-    "votes": "27",
+    "votes": "28",
     "url": "/k/hkh28rn",
     "avatar": "https://img.toutiao.io/subject%2Fbc7a7656ebf14b4783a839a8ff4e60a9",
     "avatarAlt": "Java学习录 - 独家号",
@@ -72,22 +72,12 @@
   {
     "title": "2019 读过的好书推荐",
     "description": "1. 引言2019 年即将过去，每年都会有个习惯把回顾一下读过的书，并把觉得比较好的书列成书单。今年也读了不少书，读的书比较杂，大部分是在微信读书上完成，有些书让人受益匪浅，下面是...",
-    "votes": "37",
+    "votes": "38",
     "url": "/k/b0y3e9o",
     "avatar": "https://img.toutiao.io/subject%2F81bac1d8c81c4523a1037648a39d6ae3",
     "avatarAlt": "mason技术记录 - 独家号",
     "subjectName": "mason技术记录",
     "homeUrl": "/subjects/24970"
-  },
-  {
-    "title": "深入理解 Linux I/O 复用之 epoll 机制",
-    "description": "0.概述 通过本篇文章将了解到以下内容: I/O复用的定义和产生背景 Linux系统的I/O复用工具 epoll设计的基本构成epoll高性能的底层实现epoll的ET模式和LT模...",
-    "votes": "41",
-    "url": "/k/sa1c0p1",
-    "avatar": "https://img.toutiao.io/subject%2F52501806a5d8487a92b253fd813048ec",
-    "avatarAlt": "后端技术指南针 - 独家号",
-    "subjectName": "后端技术指南针",
-    "homeUrl": "/subjects/378173"
   },
   {
     "title": "什么？你项目还在用 Date 表示时间",
@@ -102,7 +92,7 @@
   {
     "title": "Nginx 的负载均衡策略及其配置",
     "description": "本文介绍了Nginx的负载均衡策略，一致性hash分配原理，及常用的故障节点的摘除与恢复配置。文章来源：宜信技术学院 & 宜信支付结算团队技术分享第一期-宜信支付结算八方数据团队高...",
-    "votes": "20",
+    "votes": "22",
     "url": "/k/eymnia6",
     "avatar": "https://img.toutiao.io/subject%2F9e445363a947488fbab8dffd1f03f9b5",
     "avatarAlt": "异步社区 - 独家号",
@@ -112,7 +102,7 @@
   {
     "title": "2020 年 Java 程序员应该学习的 10 大技术",
     "description": "对于Java开发人员来说，最近几年的时间中，Java生态诞生了很多东西。每6个月更新一次Java版本，以及发布很多流行的框架，如Spring 5、Spring Security 5...",
-    "votes": "39",
+    "votes": "40",
     "url": "/k/54k6zaa",
     "avatar": "https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e",
     "avatarAlt": "JAVA干货 - 独家号",
@@ -152,7 +142,7 @@
   {
     "title": "五年 Java 经验，面试还是说不出日志该怎么写更好？（日志规范与最佳实践篇）",
     "description": "本文是一个系列，欢迎关注查看上一篇文章可以扫描文章下方的二维码，点击往期回顾-日志系列即可查看所有相关文章概览 上一篇我们讨论了为什么要使用日志框架，这次我们深入问题的根源，为什么...",
-    "votes": "17",
+    "votes": "18",
     "url": "/k/wfa79rg",
     "avatar": "https://img.toutiao.io/subject%2F51dae571e16c485aa8f19a143c1000ff",
     "avatarAlt": "鸡员外 - 独家号",
@@ -170,6 +160,16 @@
     "homeUrl": "/subjects/426740"
   },
   {
+    "title": "Linux 进程、线程、文件描述符的底层原理",
+    "description": "说到进程，恐怕面试中最常见的问题就是线程和进程的关系了，那么先说一下答案：在 Linux 系统中，进程和线程几乎没有区别。Linux 中的进程其实就是一个数据结构，顺带可以理解文件...",
+    "votes": "32",
+    "url": "/k/n4056ic",
+    "avatar": "https://img.toutiao.io/subject%2F08c3200c43064a1babec277646669298",
+    "avatarAlt": "黑夜路人 - 独家号",
+    "subjectName": "黑夜路人",
+    "homeUrl": "/subjects/17093"
+  },
+  {
     "title": "[译] 图解 Kubernetes",
     "description": "容器在了解 Kubernetes 之前，让我们先了解一个容器。因为如果不了解容器就没法聊容器编排。 容器就是...一个你塞入所有材料的容器。“材料”是指你的应用代码、依赖库，以及直...",
     "votes": "34",
@@ -180,16 +180,6 @@
     "homeUrl": "/subjects/429228"
   },
   {
-    "title": "4000 字详解 TCP 超时与重传，看完没收获算我输",
-    "description": "上一篇介绍 TCP 的文章「TCP 三次握手，四次挥手和一些细节」反馈还不错，还是蛮开心的，这次接着讲一讲关于超时和重传那一部分。我们都知道 TCP 协议具有重传机制，也就是说，如...",
-    "votes": "21",
-    "url": "/k/eyy5675",
-    "avatar": "https://img.toutiao.io/subject%2Fd00b380edf1f4c5c989adc712d44de7b",
-    "avatarAlt": "乱学派 - 独家号",
-    "subjectName": "乱学派",
-    "homeUrl": "/subjects/110643"
-  },
-  {
     "title": "评审代码时，这样写就不会被怼了",
     "description": "   在JDK版本普遍升级到8之后，最近参与了几次代码，好多人对JDK8中的用法不是特别熟熟悉，用的不对或者干脆用错的常有，代码评审时经常被说到，这里整理一波实用的技巧，希望大家举...",
     "votes": "21",
@@ -198,16 +188,6 @@
     "avatarAlt": "技术人技术事 - 独家号",
     "subjectName": "技术人技术事",
     "homeUrl": "/subjects/388075"
-  },
-  {
-    "title": "Redis 崩了，我成功把锅甩给了隔壁组（记一次 Redis 连接超限排查）",
-    "description": "记一次Redis连接超限问题排查经过.文章地址: https://blog.piaoruiqing.com/2019/12/15/max-number-of-clients-rea...",
-    "votes": "37",
-    "url": "/k/028lnz5",
-    "avatar": "https://img.toutiao.io/subject%2F2ce5552a7e784f9b8786e60edd64baf2",
-    "avatarAlt": "代码如诗 - 独家号",
-    "subjectName": "代码如诗",
-    "homeUrl": "/subjects/420717"
   },
   {
     "title": "Java 工程师该如何编写高效代码？",
@@ -230,6 +210,16 @@
     "homeUrl": "/subjects/429228"
   },
   {
+    "title": "一文读懂 HTTP/1、HTTP/2、HTTP/3",
+    "description": "作者：charryhuang，腾讯 CSIG 前端开发工程师 从 1989 年万维网（www）诞生，HTTP（HyperText Transfer Protocol）经历了众多版本...",
+    "votes": "16",
+    "url": "/k/4sf6xwq",
+    "avatar": "https://img.toutiao.io/subject%2Faec59e3752174268802557e3e7afcb33",
+    "avatarAlt": "不错的好文 - 独家号",
+    "subjectName": "不错的好文",
+    "homeUrl": "/subjects/5551"
+  },
+  {
     "title": "[译] MySQL：如何查询出每个 Group 的 Top n 条记录？",
     "description": "问题描述 需求：查询出每月order_amount（订单金额）排行前3的记录。例如对于2019-02，查询结果中就应该是这3条： 解决方法MySQL 5.7 和 MySQL 8.0...",
     "votes": "10",
@@ -248,5 +238,15 @@
     "avatarAlt": "小码宋 - 独家号",
     "subjectName": "小码宋",
     "homeUrl": "/subjects/430554"
+  },
+  {
+    "title": "作为阿里的面试官，我有话想说",
+    "description": "面试，面试官比候选人还难近期面试了许多，真的是许多同学，讲道理其实我是比较有耐心的面试官，但是还是忍不住想要吐槽，因此写下这篇文章，一方面希望可以帮助到正在面试，或者在来面试路上的...",
+    "votes": "41",
+    "url": "/k/m9uyh7y",
+    "avatar": "https://img.toutiao.io/subject%2F732cb6a567b6447aa876ed179c0e89c7",
+    "avatarAlt": "Fundebug - 独家号",
+    "subjectName": "Fundebug",
+    "homeUrl": "/subjects/216955"
   }
 ]

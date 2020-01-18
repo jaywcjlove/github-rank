@@ -2,7 +2,7 @@
   {
     "title": "Nginx 的负载均衡策略及其配置",
     "description": "本文介绍了Nginx的负载均衡策略，一致性hash分配原理，及常用的故障节点的摘除与恢复配置。文章来源：宜信技术学院 & 宜信支付结算团队技术分享第一期-宜信支付结算八方数据团队高...",
-    "votes": "20",
+    "votes": "22",
     "url": "/k/eymnia6",
     "avatar": "https://img.toutiao.io/subject%2F9e445363a947488fbab8dffd1f03f9b5",
     "avatarAlt": "异步社区 - 独家号",
@@ -12,7 +12,7 @@
   {
     "title": "2020 年 Java 程序员应该学习的 10 大技术",
     "description": "对于Java开发人员来说，最近几年的时间中，Java生态诞生了很多东西。每6个月更新一次Java版本，以及发布很多流行的框架，如Spring 5、Spring Security 5...",
-    "votes": "39",
+    "votes": "40",
     "url": "/k/54k6zaa",
     "avatar": "https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e",
     "avatarAlt": "JAVA干货 - 独家号",
@@ -20,34 +20,34 @@
     "homeUrl": "/subjects/51515"
   },
   {
-    "title": "如何写一份有效的技术简历？",
-    "description": "现在找工作的程序员很多，都需要写简历。我见过很多简历，写得很糟糕，看不出这个人的亮点在哪里。一个人总是有亮点的，对不对。一些同学私下找我，让我帮忙修改简历。我在这里把自己的看法写出...",
-    "votes": "13",
-    "url": "/k/7clswtw",
-    "avatar": "https://img.toutiao.io/user/b618677591aa49b3972ece0c7d26b473/thumb",
-    "avatarAlt": "数据淘金 - 独家号",
-    "subjectName": "数据淘金",
-    "homeUrl": "/subjects/120437"
+    "title": "Linux 进程、线程、文件描述符的底层原理",
+    "description": "说到进程，恐怕面试中最常见的问题就是线程和进程的关系了，那么先说一下答案：在 Linux 系统中，进程和线程几乎没有区别。Linux 中的进程其实就是一个数据结构，顺带可以理解文件...",
+    "votes": "32",
+    "url": "/k/n4056ic",
+    "avatar": "https://img.toutiao.io/subject%2F08c3200c43064a1babec277646669298",
+    "avatarAlt": "黑夜路人 - 独家号",
+    "subjectName": "黑夜路人",
+    "homeUrl": "/subjects/17093"
   },
   {
-    "title": "五年 Java 经验，面试还是说不出日志该怎么写更好？（日志规范与最佳实践篇）",
-    "description": "本文是一个系列，欢迎关注查看上一篇文章可以扫描文章下方的二维码，点击往期回顾-日志系列即可查看所有相关文章概览 上一篇我们讨论了为什么要使用日志框架，这次我们深入问题的根源，为什么...",
-    "votes": "17",
-    "url": "/k/wfa79rg",
-    "avatar": "https://img.toutiao.io/subject%2F51dae571e16c485aa8f19a143c1000ff",
-    "avatarAlt": "鸡员外 - 独家号",
-    "subjectName": "鸡员外",
-    "homeUrl": "/subjects/431697"
+    "title": "一文读懂 HTTP/1、HTTP/2、HTTP/3",
+    "description": "作者：charryhuang，腾讯 CSIG 前端开发工程师 从 1989 年万维网（www）诞生，HTTP（HyperText Transfer Protocol）经历了众多版本...",
+    "votes": "16",
+    "url": "/k/4sf6xwq",
+    "avatar": "https://img.toutiao.io/subject%2Faec59e3752174268802557e3e7afcb33",
+    "avatarAlt": "不错的好文 - 独家号",
+    "subjectName": "不错的好文",
+    "homeUrl": "/subjects/5551"
   },
   {
-    "title": "[译] MySQL：如何查询出每个 Group 的 Top n 条记录？",
-    "description": "问题描述 需求：查询出每月order_amount（订单金额）排行前3的记录。例如对于2019-02，查询结果中就应该是这3条： 解决方法MySQL 5.7 和 MySQL 8.0...",
-    "votes": "10",
-    "url": "/k/kyynype",
-    "avatar": "https://img.toutiao.io/subject%2F34a8080276c94c04a9660da45c688190",
-    "avatarAlt": "性能与架构 - 独家号",
-    "subjectName": "性能与架构",
-    "homeUrl": "/subjects/429228"
+    "title": "作为阿里的面试官，我有话想说",
+    "description": "面试，面试官比候选人还难近期面试了许多，真的是许多同学，讲道理其实我是比较有耐心的面试官，但是还是忍不住想要吐槽，因此写下这篇文章，一方面希望可以帮助到正在面试，或者在来面试路上的...",
+    "votes": "41",
+    "url": "/k/m9uyh7y",
+    "avatar": "https://img.toutiao.io/subject%2F732cb6a567b6447aa876ed179c0e89c7",
+    "avatarAlt": "Fundebug - 独家号",
+    "subjectName": "Fundebug",
+    "homeUrl": "/subjects/216955"
   },
   {
     "title": "RabbitMQ 如何保证消息可靠性",
@@ -58,36 +58,6 @@
     "avatarAlt": "杏仁技术站 - 独家号",
     "subjectName": "杏仁技术站",
     "homeUrl": "/subjects/206366"
-  },
-  {
-    "title": "作为阿里的面试官，我有话想说",
-    "description": "面试，面试官比候选人还难近期面试了许多，真的是许多同学，讲道理其实我是比较有耐心的面试官，但是还是忍不住想要吐槽，因此写下这篇文章，一方面希望可以帮助到正在面试，或者在来面试路上的...",
-    "votes": "39",
-    "url": "/k/m9uyh7y",
-    "avatar": "https://img.toutiao.io/subject%2F732cb6a567b6447aa876ed179c0e89c7",
-    "avatarAlt": "Fundebug - 独家号",
-    "subjectName": "Fundebug",
-    "homeUrl": "/subjects/216955"
-  },
-  {
-    "title": "如何为项目编写良好 README",
-    "description": "README，它是别人对项目了解、印象的第一来源；尤其是针对开源项目，相当之重要：好比颜值之于一个人，主页之于一个公司；但很多项目并未重视这一点；各种仓库，浩如烟海，没有简洁、明晰...",
-    "votes": "24",
-    "url": "/k/rrbl7da",
-    "avatar": "https://img.toutiao.io/subject%2F423aa3b32219428999cfffd48b4f3ea2",
-    "avatarAlt": "Web前端静轩苑 - 独家号",
-    "subjectName": "Web前端静轩苑",
-    "homeUrl": "/subjects/79906"
-  },
-  {
-    "title": "探探长链接项目的 Go 语言实践",
-    "description": "长链接服务处于网络接入层，这个领域非常适合用Go语言发挥其多协程并行，异步IO特点。探探自长链接项目上线以后，对服务进行了多次优化：GC从5ms降到100微秒（Go版本均为1.9以...",
-    "votes": "10",
-    "url": "/k/rxbl6j7",
-    "avatar": "https://img.toutiao.io/subject%2Faec59e3752174268802557e3e7afcb33",
-    "avatarAlt": "不错的好文 - 独家号",
-    "subjectName": "不错的好文",
-    "homeUrl": "/subjects/5551"
   },
   {
     "title": "TCP 四次挥手，你熟了！那意外情况呢？恶意攻击呢？单端跑路呢？",
@@ -110,16 +80,6 @@
     "homeUrl": "/subjects/432885"
   },
   {
-    "title": "我接到了诈骗电话，顺藤摸瓜揪出幕后黑手",
-    "description": "转自：Hack 大家好，我是九歌。  今天我和大家聊一聊诈骗的事。 朋友上个月送了我一张免实名的电话卡，于是我插到手机里用来注册网站APP使用，有趣的是，前几天我这张电话卡在短短几...",
-    "votes": "64",
-    "url": "/k/blmhyap",
-    "avatar": "https://img.toutiao.io/subject%2Ffcd1137867a2413880689043418675a7",
-    "avatarAlt": "猿天地 - 独家号",
-    "subjectName": "猿天地",
-    "homeUrl": "/subjects/6491"
-  },
-  {
     "title": "[译] 有效的微服务：10 个最佳实践",
     "description": "推荐阅读：架构设计原则 - 高并发使用 Canal 实现数据异构MySQL中一条SQL语句是如何执行的？阿里开源的分布式事务框架 SeataZooKeeper 并不适合做注册中心1...",
     "votes": "14",
@@ -130,44 +90,14 @@
     "homeUrl": "/subjects/429228"
   },
   {
-    "title": "Prometheus 与 Grafana：监控报警系统中的银弹",
-    "description": "监控报警是服务稳定的基础，是性能优化的重要依据，是可以未雨绸缪的重大利器。现代系统赋予了监控报警重要地位，近年来随着微服务设计理念不断成熟与广泛使用，做为系统方案的设计者，监控的选...",
-    "votes": "13",
-    "url": "/k/ybqi7dp",
-    "avatar": "https://img.toutiao.io/subject%2F08c3200c43064a1babec277646669298",
-    "avatarAlt": "黑夜路人 - 独家号",
-    "subjectName": "黑夜路人",
-    "homeUrl": "/subjects/17093"
-  },
-  {
-    "title": "推荐书单 3.0：软件工程师蜕变之路",
-    "description": "每年年末都会将自己阅读过的觉得不错的书，整理一份清单并推荐。内容较杂，有技术、产品、社科、管理、心理学、认知成长等类型。跳转门：2017年-推荐书单1.0：测试工程师成长之路、20...",
-    "votes": "13",
-    "url": "/k/y9nvraq",
-    "avatar": "https://img.toutiao.io/subject%2F1227f0343a1546ee8e3c535cce14aa4c",
-    "avatarAlt": "I Am Tester - 独家号",
-    "subjectName": "I Am Tester",
-    "homeUrl": "/subjects/188023"
-  },
-  {
-    "title": "拥有 GitHub 开源项目的小伙伴，免费申请 JetBrains 全家桶的全流程详解",
-    "description": "工欲善其事，必先利其器。如果您想要学习 Java、PHP、Ruby、Python、JavaScript、Objective-C、.NET 中的任何一种开发技术，国际知名且屡获殊荣的...",
-    "votes": "9",
-    "url": "/k/h9441zp",
-    "avatar": "https://img.toutiao.io/subject%2Fb751657c3aaa4ac59db50c07db41e538",
-    "avatarAlt": "HelloGitHub - 独家号",
-    "subjectName": "HelloGitHub",
-    "homeUrl": "/subjects/175527"
-  },
-  {
-    "title": "一文读懂原码、反码与补码",
-    "description": "一、二进制二进制和十进制一样，也是一种进位计数制，但是它的基数是 2。二进制表达式中 0 和 1 的位置不同，它所代表的数值也不同。例如，二进制数0000 1010表示十进制数 1...",
-    "votes": "7",
-    "url": "/k/arshyke",
-    "avatar": "https://img.toutiao.io/subject%2F9cd866310cd142e1bfd7caf648a0f2cd",
-    "avatarAlt": "全栈修仙之路 - 独家号",
-    "subjectName": "全栈修仙之路",
-    "homeUrl": "/subjects/219103"
+    "title": "我接到了诈骗电话，顺藤摸瓜揪出幕后黑手",
+    "description": "转自：Hack 大家好，我是九歌。  今天我和大家聊一聊诈骗的事。 朋友上个月送了我一张免实名的电话卡，于是我插到手机里用来注册网站APP使用，有趣的是，前几天我这张电话卡在短短几...",
+    "votes": "64",
+    "url": "/k/blmhyap",
+    "avatar": "https://img.toutiao.io/subject%2Ffcd1137867a2413880689043418675a7",
+    "avatarAlt": "猿天地 - 独家号",
+    "subjectName": "猿天地",
+    "homeUrl": "/subjects/6491"
   },
   {
     "title": "基于 Redis 的分布式锁和 Redlock 算法",
@@ -180,6 +110,36 @@
     "homeUrl": "/subjects/378173"
   },
   {
+    "title": "推荐书单 3.0：软件工程师蜕变之路",
+    "description": "每年年末都会将自己阅读过的觉得不错的书，整理一份清单并推荐。内容较杂，有技术、产品、社科、管理、心理学、认知成长等类型。跳转门：2017年-推荐书单1.0：测试工程师成长之路、20...",
+    "votes": "15",
+    "url": "/k/y9nvraq",
+    "avatar": "https://img.toutiao.io/subject%2F1227f0343a1546ee8e3c535cce14aa4c",
+    "avatarAlt": "I Am Tester - 独家号",
+    "subjectName": "I Am Tester",
+    "homeUrl": "/subjects/188023"
+  },
+  {
+    "title": "拥有 GitHub 开源项目的小伙伴，免费申请 JetBrains 全家桶的全流程详解",
+    "description": "工欲善其事，必先利其器。如果您想要学习 Java、PHP、Ruby、Python、JavaScript、Objective-C、.NET 中的任何一种开发技术，国际知名且屡获殊荣的...",
+    "votes": "10",
+    "url": "/k/h9441zp",
+    "avatar": "https://img.toutiao.io/subject%2Fb751657c3aaa4ac59db50c07db41e538",
+    "avatarAlt": "HelloGitHub - 独家号",
+    "subjectName": "HelloGitHub",
+    "homeUrl": "/subjects/175527"
+  },
+  {
+    "title": "恕我直言，牛逼哄哄的 MongoDB 你可能只会 30%",
+    "description": "MongoDB 闪亮登场 自我介绍 MongoDB 是一个基于分布式文件存储的数据库。由 C++ 语言编写。旨在为 WEB 应用提供可扩展的高性能数据存储解决方案。 MongoDB...",
+    "votes": "15",
+    "url": "/k/q7kf8df",
+    "avatar": "https://img.toutiao.io/subject%2Ffcd1137867a2413880689043418675a7",
+    "avatarAlt": "猿天地 - 独家号",
+    "subjectName": "猿天地",
+    "homeUrl": "/subjects/6491"
+  },
+  {
     "title": "日志规范化落地方案",
     "description": "日志规范化落地方案问题背景程序日志规范化的必要性，相信很多人早就意识到了，但是接下来马上就会面临如何快速简单的落地日志规范的问题。本文主要介绍一下我们是如何解决这个问题的规范当然首...",
     "votes": "6",
@@ -190,13 +150,53 @@
     "homeUrl": "/subjects/432318"
   },
   {
-    "title": "大数据安全分析平台搭建 & 相关经验分享",
-    "description": "在大数据应用普及以及信息安全上升为国家高度后，信息安全能力落地的挑战日益增多。一方面，企业内部的安全体系架构日益复杂，各式各样的安全数据越来越多，传统分析方法难以奏效。另一方面，传...",
-    "votes": "7",
-    "url": "/k/l8o22yl",
-    "avatar": "https://img.toutiao.io/subject%2Fab225f76a1344c82acd5de490243c1fb",
-    "avatarAlt": "安全奇点 - 独家号",
-    "subjectName": "安全奇点",
-    "homeUrl": "/subjects/6127"
+    "title": "一篇文章讲清楚 VO, BO, PO, DO, DTO 的区别",
+    "description": "随着编程工业化水平的不断加深，各种编程模型层出不穷（比如MVC，MVP等等），伴随着这些编程模型，又有一大批新的概念蜂拥而至，什么VO，BO，PO，DO，DTO之类的，这些新的概念...",
+    "votes": "8",
+    "url": "/k/d69xsp4",
+    "avatar": "https://img.toutiao.io/user/6275a6445a8f4fa2ba4dc435fbf0f2db/thumb",
+    "avatarAlt": "建安七子独家号 - 独家号",
+    "subjectName": "建安七子独家号",
+    "homeUrl": "/subjects/389340"
+  },
+  {
+    "title": "MySQL 持久化保障机制：redo 日志",
+    "description": "点击上方“平头哥的技术博文”，选择“关注公众号”技术文章第一时间送达！我们在 你可能知道事务的四大特性，但是你不一定知道事务的实现原理 中提到了 redo 日志，redo 日志是用...",
+    "votes": "10",
+    "url": "/k/uux6jwa",
+    "avatar": "https://img.toutiao.io/subject%2F5d898d2cd50442c09f705c2d765c1aa1",
+    "avatarAlt": "平头哥的技术博文 - 独家号",
+    "subjectName": "平头哥的技术博文",
+    "homeUrl": "/subjects/419565"
+  },
+  {
+    "title": "程序员的精益成长指南（三）：不得不知道的 13 个问题",
+    "description": "点击上方“做工程师不做码农”，并“置顶公众号”第一时间接收精彩文章如何进行主动学习与被动学习？深度学习为什么十分重要？读文档还是读代码？这篇文章给出了你最关心的13个问题，希望对你...",
+    "votes": "11",
+    "url": "/k/k11qadd",
+    "avatar": "https://img.toutiao.io/subject%2F863a2a7b6d2c4bf7b17908270e59fb29",
+    "avatarAlt": "做工程师不做码农 - 独家号",
+    "subjectName": "做工程师不做码农",
+    "homeUrl": "/subjects/125297"
+  },
+  {
+    "title": "一条 SQL 注入引出的惊天大案（二）：无限战争",
+    "description": "前情回顾：经过黑衣人和老周的合作，终于清除了入侵Linux帝国的网页病毒，并修复了漏洞。不曾想激怒了幕后的黑手，一场新的风雨即将来临。详情参见：一条SQL注入引出的惊天大案1风云再...",
+    "votes": "24",
+    "url": "/k/j4poj9q",
+    "avatar": "https://img.toutiao.io/subject%2F5af50c4f38c94e2b942f685137b37271",
+    "avatarAlt": "编程技术宇宙 - 独家号",
+    "subjectName": "编程技术宇宙",
+    "homeUrl": "/subjects/433070"
+  },
+  {
+    "title": "有赞灰度发布与蓝绿发布实践",
+    "description": "点击关注“有赞coder”获取更多技术干货哦～作者：飘石团队：基础保障背景近几年，随着有赞用户的迅速增长和业务的快速发展，对业务开发人员要求越来越高，一方面要求为用户提供稳定的服务...",
+    "votes": "6",
+    "url": "/k/di6n7gu",
+    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
+    "avatarAlt": "ASCE1885 - 独家号",
+    "subjectName": "ASCE1885",
+    "homeUrl": "/subjects/4829"
   }
 ]
