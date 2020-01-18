@@ -7,6 +7,7 @@ import { getUserData, sleep } from './utils';
   try {
     let users: IUserData[] = [];
     let data = await getUserData(1, true) as IResultUserData;
+    console.log('data:', data)
     let length = data.items.length;
     users = users.concat(data.items);
     console.log(`-> 获取到第1页，中国用户共${length}条数据！`);
