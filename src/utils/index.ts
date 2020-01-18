@@ -19,13 +19,11 @@ let oauth: string = '';
 if (FS.pathExistsSync(path.join(process.cwd(), '.env'))) {
   const conf = dotenv.config() as DotenvParse;
   if (conf.parsed && conf.parsed.ID && conf.parsed.SECRET) {
-    console.log('--->dotenv<----')
     oauth = `client_id=${conf.parsed.ID}&client_secret=${conf.parsed.SECRET}`;
   }
 }
 
 if (process.env.ID && process.env.SECRET) {
-  console.log('--->process<----')
   oauth = `client_id=${process.env.ID}&client_secret=${process.env.SECRET}`;
 }
 
