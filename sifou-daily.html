@@ -15,7 +15,7 @@
     body { text-align: center; }
     a { color: #333; text-decoration: none; transition: all .2s ease-in; }
     a:hover { color: #1600ff; }
-    a.github-corner:hover .octo-arm { animation: octocat-wave 560ms ease-in-out; }
+    a.github-corner:hover .octo-arm { animation: octocat-wave 560ms infinite linear; }
     a.github-corner svg { fill: #f1f1f1; color: #000; position: absolute; top: 0; border: 0; right: 0; z-index: 99; width: 70px; height: 70px; }
     a.github-corner { position: fixed; z-index: 9999; top: 0; right: 0; }
     .title { padding: 46px 0 0 0; font-size: 18px; line-height: 24px; }
@@ -47,22 +47,21 @@
     .list li > div.info i { color: #717171; }
     .list li > div.info a:hover i { color: #333; }
     .list li div.sub-title { color: #333; margin: 4px 0 0 3px;}
-    .list li a.language,
-    .list li span.star { height: 18px; background: #e2e2e2; display: inline-block; padding: 2px 4px; border-radius: 3px; }
-    .list li div.followers { font-size: 12px; color: #7d7d7d; white-space:nowrap; padding-left: 5px; padding-top: 2px; border-radius: 3px; }
-    .list li div.followers a { color: #545454; }
-    .list li div.followers * { vertical-align: middle; }
-    .list li div.followers svg { vertical-align: text-top; display: inline-block; fill: #9E9E9E; width: 14px; height: 14px; }
+    
+    
     .list .select { float: right; line-height: 14px; line-height: 16px; }
     .list .select .active { color: #333; font-weight: bold; }
-    .list.repos.trending .language > span { border-radius: 50%; display: inline-block; position: relative; height: 10px; width: 10px; vertical-align: middle; top: -1px; margin-right: 4px; }
-    .list.repos li div.followers { display: inline-block; padding-right: 5px; }
-    .list.repos li div.details { width: 100%; }
-    @keyframes octocat-wave{
+    
+    
+    
+    
+    @keyframes octocat-wave {
       0%,100%{-webkit-transform:rotate(0); transform:rotate(0);}
       20%,60%{-webkit-transform:rotate(-25deg); transform:rotate(-25deg);}
       40%,80%{-webkit-transform:rotate(10deg); transform:rotate(10deg);}
     }
+  </style>
+  <style>
   </style>
 </head>
 <body>
@@ -74,7 +73,7 @@
     </svg>
   </a>
   <h1 class="title"> Segmentfault 思否热门 </h1>
-  <div class="time">Last cache created on 2020/1/18 by Github API v3.</div>
+  <div class="time">Last cache created on 2020/1/19 by Github API v3.</div>
   <div class="tabs">
     <a class="" href="index.html">Users</a>
     <a class="" href="repos.html">Repos</a>
@@ -97,7 +96,7 @@
       <div class="info">
         <div class="rank">
           <span title="Ranking 1">1</span>
-          <a href="https://segmentfault.com/a/1190000020494592" target="_blank" title="如何解决 Render Props 的回调地狱">如何解决 Render Props 的回调地狱</a>
+          <a href="https://segmentfault.com/a/1190000021616450" target="_blank" title="leetcode525. Contiguous Array">leetcode525. Contiguous Array</a>
         </div>
         <div class="sub-title followers">
           
@@ -111,12 +110,12 @@
             <span>1</span>
           </span>
           &nbsp;
-          <a target="_blank" href="https://segmentfault.com/u/minnanitkong"  title="Programming Language">
-            <span>前端小智</span>
+          <a target="_blank" href="https://segmentfault.com/u/raledong"  title="Programming Language">
+            <span>raledong</span>
           </a>
         </div>
         <div class="details">
-          点赞再看，养成习惯本文 GitHub [链接] 上已经收录，更多往期高赞文章的分类，也整理了很多我的文档，和教程资料。欢迎Star和完善，大家面试可以参照考点复习，希望我们一起有点东西。
+          Given a binary array, find the maximum length of a contiguous subarray with equal number of 0 and 1.
         </div>
       </div>
     </li>
@@ -125,6 +124,34 @@
       <div class="info">
         <div class="rank">
           <span title="Ranking 2">2</span>
+          <a href="https://segmentfault.com/a/1190000021614307" target="_blank" title="hexo+github搭建博客(超级详细版，精细入微)">hexo+github搭建博客(超级详细版，精细入微)</a>
+        </div>
+        <div class="sub-title followers">
+          
+          <span title="Stargazers Count">
+            <svg width="12" height="12" viewBox="0 0 16 16">
+              <g fill="none" fill-rule="evenodd">
+                <path d="M0 0h16v16H0z"/>
+                <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+              </g>
+            </svg>
+            <span>5</span>
+          </span>
+          &nbsp;
+          <a target="_blank" href="https://segmentfault.com/u/baixiaobai_5b6a4161d6643"  title="Programming Language">
+            <span>白小白</span>
+          </a>
+        </div>
+        <div class="details">
+          你了解Hexo吗？ Hexo是一个静态博客框架，基于Node.js，将Markdown文章通过渲染引擎，生成一个静态网页，再结合Git命令（ssh），Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解...
+        </div>
+      </div>
+    </li>
+    
+    <li>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 3">3</span>
           <a href="https://segmentfault.com/a/1190000021615174" target="_blank" title="重学前端之JavaScript(二)JavaScript的语句">重学前端之JavaScript(二)JavaScript的语句</a>
         </div>
         <div class="sub-title followers">
@@ -152,36 +179,8 @@
     <li>
       <div class="info">
         <div class="rank">
-          <span title="Ranking 3">3</span>
-          <a href="https://segmentfault.com/a/1190000021614307" target="_blank" title="hexo+github搭建博客(超级详细版，精细入微)">hexo+github搭建博客(超级详细版，精细入微)</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <span title="Stargazers Count">
-            <svg width="12" height="12" viewBox="0 0 16 16">
-              <g fill="none" fill-rule="evenodd">
-                <path d="M0 0h16v16H0z"/>
-                <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
-              </g>
-            </svg>
-            <span>3</span>
-          </span>
-          &nbsp;
-          <a target="_blank" href="https://segmentfault.com/u/baixiaobai_5b6a4161d6643"  title="Programming Language">
-            <span>白小白</span>
-          </a>
-        </div>
-        <div class="details">
-          你了解Hexo吗？ Hexo是一个静态博客框架，基于Node.js，将Markdown文章通过渲染引擎，生成一个静态网页，再结合Git命令（ssh），Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解...
-        </div>
-      </div>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
           <span title="Ranking 4">4</span>
-          <a href="https://segmentfault.com/a/1190000021613707" target="_blank" title="封装Vue组件并发布到npm（完美解决组件中的静态文件引用）">封装Vue组件并发布到npm（完美解决组件中的静态文件引用）</a>
+          <a href="https://segmentfault.com/a/1190000021618060" target="_blank" title="宝宝也能看懂的 leetcode 周赛 - 171 - 3">宝宝也能看懂的 leetcode 周赛 - 171 - 3</a>
         </div>
         <div class="sub-title followers">
           
@@ -192,15 +191,15 @@
                 <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
               </g>
             </svg>
-            <span>1</span>
+            <span>0</span>
           </span>
           &nbsp;
-          <a target="_blank" href="https://segmentfault.com/u/vict911"  title="Programming Language">
-            <span>Vict911</span>
+          <a target="_blank" href="https://segmentfault.com/u/poppinlp"  title="Programming Language">
+            <span>张小猪粉鼻子</span>
           </a>
         </div>
         <div class="details">
-          不少前端开发者学习到一定阶段都会去封装一些自己的组件并将其开源。笔者在学习过程中发现，发布的资源包基本分为两类：
+          用以太网线缆将 n 台计算机连接成一个网络，计算机的编号从 0 到 n-1。线缆用 connections 表示，其中 connections[i] = [a, b] 连接了计算机 a 和 b。
         </div>
       </div>
     </li>
@@ -209,7 +208,7 @@
       <div class="info">
         <div class="rank">
           <span title="Ranking 5">5</span>
-          <a href="https://segmentfault.com/a/1190000021613428" target="_blank" title="H5录音音频可视化-实时波形频谱绘制、频率直方图">H5录音音频可视化-实时波形频谱绘制、频率直方图</a>
+          <a href="https://segmentfault.com/a/1190000021617844" target="_blank" title="java 支持分词的高性能拼音转换工具，速度是 pinyin4j 的两倍">java 支持分词的高性能拼音转换工具，速度是 pinyin4j 的两倍</a>
         </div>
         <div class="sub-title followers">
           
@@ -220,15 +219,15 @@
                 <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
               </g>
             </svg>
-            <span>2</span>
+            <span>1</span>
           </span>
           &nbsp;
-          <a target="_blank" href="https://segmentfault.com/u/xiangyuecn"  title="Programming Language">
-            <span>高坚果</span>
+          <a target="_blank" href="https://segmentfault.com/u/houbinbin"  title="Programming Language">
+            <span>叶止水</span>
           </a>
         </div>
         <div class="details">
-          这段时间给GitHub Recorder开源库添加了两个新的音频可视化功能，比以前单一的动态波形显示丰富了好多（下图后两行是不是比第一行看起来丰满些）；趁热打铁写了一个音频可视化相关扩展测试代码，下面这张就是测试...
+          pinyin pinyin 是 java 实现的高性能中文拼音转换工具。 变更日志 创作目的 想为 java 设计一款便捷易用的拼音工具。 如何为 java 设计一款高性能的拼音转换工具 pinyin4j 特性 性能是 pinyin4j 的两倍 极简的 ap...
         </div>
       </div>
     </li>
@@ -237,7 +236,7 @@
       <div class="info">
         <div class="rank">
           <span title="Ranking 6">6</span>
-          <a href="https://segmentfault.com/a/1190000021613404" target="_blank" title="搞定SpringBoot多数据源(2)：动态数据源">搞定SpringBoot多数据源(2)：动态数据源</a>
+          <a href="https://segmentfault.com/a/1190000021617092" target="_blank" title="深圳月薪32K的C++工程师真实一天生活">深圳月薪32K的C++工程师真实一天生活</a>
         </div>
         <div class="sub-title followers">
           
@@ -248,15 +247,15 @@
                 <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
               </g>
             </svg>
-            <span>1</span>
+            <span>0</span>
           </span>
           &nbsp;
-          <a target="_blank" href="https://segmentfault.com/u/masonli"  title="Programming Language">
-            <span>masonli</span>
+          <a target="_blank" href="https://segmentfault.com/u/jerrytanjinjie"  title="Programming Language">
+            <span>Peter谭金杰</span>
           </a>
         </div>
         <div class="details">
-          对于多个数据库的处理，上一篇文章《搞定SpringBoot多数据源(1)：多套源策略》已有提及，有多套数据源、动态数据源、参数化变更数据源等方式，本文是第二篇：“动态数据源”。动态数据源可以解决多套数据源的处理不...
+          ** 采访对象 29岁的C++工程师，目前在深圳游戏公司上班的小A同志，是我以前的同事～ 工作时间：996 起床时间： 每天9点起床，9点半出发，10点到公司泡上枸杞，看某本书上还是某人说过，上午10点应该把最难的工作...
         </div>
       </div>
     </li>
@@ -265,7 +264,7 @@
       <div class="info">
         <div class="rank">
           <span title="Ranking 7">7</span>
-          <a href="https://segmentfault.com/a/1190000021612638" target="_blank" title="零拷贝">零拷贝</a>
+          <a href="https://segmentfault.com/a/1190000021615779" target="_blank" title="为什么有红黑树？什么是红黑树？看完这篇你就明白了">为什么有红黑树？什么是红黑树？看完这篇你就明白了</a>
         </div>
         <div class="sub-title followers">
           
@@ -279,12 +278,12 @@
             <span>1</span>
           </span>
           &nbsp;
-          <a target="_blank" href="https://segmentfault.com/u/kailaisi_5e19d52018e90"  title="Programming Language">
-            <span>kailaisi</span>
+          <a target="_blank" href="https://segmentfault.com/u/chaoyuerensheng"  title="Programming Language">
+            <span>超悦人生</span>
           </a>
         </div>
         <div class="details">
-          零拷贝CPU不执行数据从一个存储区域到另一个存储区域的任务。所以同一个存储区域之间的拷贝也属于零拷贝。
+          想必大家对二叉树搜索树都不陌生，首先看一下二叉搜索树的定义：二叉搜索树（Binary Search Tree），或者是一棵空树，或者是具有下列性质的二叉树： 若它的左子树不空，则左子树上所有结点的值均小于它的根结点的...
         </div>
       </div>
     </li>
@@ -305,7 +304,7 @@
         <img src="https://img.shields.io/npm/v/@wcj/github-rank.svg?label=unpkg">
       </a>
     </p>
-    <div class="time">Last cache created on 2020/1/18 by Github API v3.</div>
+    <div class="time">Last cache created on 2020/1/19 by Github API v3.</div>
     Create by <a href="https://github.com/jaywcjlove" target="_blank">小弟调调™</a>.
   </div>
 </body>
