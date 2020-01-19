@@ -5,7 +5,6 @@ import { getUserData, sleep } from './utils';
 
 (async () => {
   try {
-    await sleep(2000);
     let users: IUserData[] = [];
     let data = await getUserData(1, true) as IResultUserData;
     users = users.concat(data.items);
