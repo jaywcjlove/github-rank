@@ -109,7 +109,7 @@ export interface IResultReposData {
  * @param page Page number
  */
 export function getReposData(page: number): Promise<IResultReposData> {
-  return fetch(`https://api.github.com/search/repositories?q=stars:>8000&page=${page}&per_page=100`)
+  return fetch(`https://api.github.com/search/repositories?q=stars:>8000&page=${page}&per_page=100&${oauth}`)
     .then(res => {
       console.log(`   Github API 获取仓库Star排行计数: ${res.headers.get('x-ratelimit-limit')}/${res.headers.get('x-ratelimit-remaining')}`);
       console.log('   时间:', `${res.headers.get('x-ratelimit-reset')}000\n`);
