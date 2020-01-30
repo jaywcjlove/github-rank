@@ -5,8 +5,8 @@ on:
     #   - master
     tags:
       - v*
-  # schedule:
-  #   - cron:  '0 0 22,23 * * ? *'
+  schedule:
+    - cron:  '0 0 22,23 * * ? *'
 jobs:
   build-deploy:
     runs-on: ubuntu-18.04
