@@ -6,7 +6,7 @@ on:
     tags:
       - v*
   schedule:
-    - cron:  '0 0 22,23 * * ? *'
+    - cron:  '0 0 * * *'
 jobs:
   build-deploy:
     runs-on: ubuntu-18.04
