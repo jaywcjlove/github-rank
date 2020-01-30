@@ -5,6 +5,8 @@ on:
     #   - master
     tags:
       - v*
+  # schedule:
+  #   - cron:  '0 0 22,23 * * ? *'
 jobs:
   build-deploy:
     runs-on: ubuntu-18.04
@@ -18,14 +20,22 @@ jobs:
         registry-url: https://registry.npmjs.org/
 
     - run: npm ci
+
+    - name: Modify Version
+      shell: bash
+      run: |
+        node -e 'var pkg = require("./package.json"); pkg.version= (new Date().getFullYear().toString().substr(2)) + "." + (new Date().getMonth() + 1) + "." + (new Date().getDate()); require("fs").writeFileSync("./package.json", JSON.stringify(pkg, null, 2))'
+
     - run: npm run get:o
       env: 
         ID: ${{ secrets.GITHUB_ID }}
         SECRET: ${{ secrets.GITHUB_SECRET }}
+
     - run: npm run get
       env: 
         ID: ${{ secrets.GITHUB_ID }}
         SECRET: ${{ secrets.GITHUB_SECRET }}
+
     - run: npm run start
     - run: npm publish --access public
       env:
