@@ -8,7 +8,7 @@ import { saveUsersData } from './utils/saveUsersData';
 ;(async () => {
   try {
     // 获取【全球】用户数据排行榜
-    const users: IUserData[] = await saveUsersData(usersDist as IUserData[], usersCache, '');
+    const users: IUserData[] = await saveUsersData(usersDist as IUserData[], usersCache as IUserData[], '');
     if (usersCache.length === 0) {
       console.log(`-> 获取【全球】数据完成！${users.length}`);
     } else {
