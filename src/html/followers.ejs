@@ -10,7 +10,7 @@
       </span>
     </li>
     <% users.forEach(function(user, idx){ const isUnActive = ((Date.now() - new Date(user.updated_at || '')) / 86400000) > 100;%>
-    <li class="<%= isUnActive ? 'unactive' : '' %>">
+    <li class="<%= isUnActive ? 'unactive' : '' %>" id="<%=user.login%>">
       <div>
         <a href="<%=user.html_url%>" target="_blank">
           <img src="<%=user.avatar_url%>&s=60" loading="lazy" title="<%=user.name || user.login%>" alt="<%=user.name || user.login%>" />
