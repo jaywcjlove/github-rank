@@ -4,6 +4,7 @@ import dotenv, { DotenvConfigOutput, DotenvParseOutput } from 'dotenv';
 import FS from 'fs-extra';
 import { IResultUserData, IGithubUserInfoData } from '../common/props';
 import cheerio from 'cheerio';
+import { resolve as resolveUrl } from 'url'
 
 interface DotenvParsedOption extends DotenvParseOutput{
   ID: string;
@@ -130,7 +131,9 @@ export interface ITrendingData {
 }
 
 export function getTrendingData(type: string = 'daily') {
-  return fetch(`https://github.com/trending?since=${type}`)
+  const apiUrl = `https://github.com/trending?since=${type}`
+  
+  return fetch(apiUrl)
     .then(res => res.buffer())
     .then((data) => {
       const resultData: ITrendingData[] = [];
@@ -157,12 +160,12 @@ export function getTrendingData(type: string = 'daily') {
         }
 
         let forked = '-';
-        node = $(item).find('svg[aria-label="repo-forked"].octicon.octicon-repo-forked');
+        node = $(item).find('svg[aria-label="fork"].octicon.octicon-repo-forked');
         if (node) {
           forked = node[0].next.data.replace(/(\n|\s|,)/g, '');
         }
 
-        resultData.push({ full_name: fullName, language, color, description, forked, stargazers_count: parseInt(stargazersCount, 10), todayStar, html_url: href, rank: idx + 1 });
+        resultData.push({ full_name: fullName, language, color, description, forked, stargazers_count: parseInt(stargazersCount, 10), todayStar, html_url: resolveUrl(apiUrl, href), rank: idx + 1 });
       });
       return resultData;
     });
