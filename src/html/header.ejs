@@ -68,6 +68,7 @@
     <% } %>
     <% if (tabCls === 'users') { %>
     .list li.unactive > div { opacity: 0.46; }
+    .list li.unactive.death > div { opacity: 1; filter: grayscale(100%); }
     <% } %>
     @keyframes octocat-wave {
       0%,100%{-webkit-transform:rotate(0); transform:rotate(0);}

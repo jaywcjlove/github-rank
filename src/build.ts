@@ -11,6 +11,7 @@ import {
 import { ISifou } from './utils/getSifou';
 import usersDone from '../dist/users.json';
 import usersChinaDone from '../dist/users.china.json';
+import usersRIP from '../dist/users.rip.json';
 import reposData from '../dist/repos.json';
 import trendingDailyData from '../dist/trending-daily.json';
 import trendingWeeklyData from '../dist/trending-weekly.json';
@@ -26,14 +27,29 @@ import toutiao90 from '../dist/toutiao-90.json';
 
 import krData from '../dist/36kr.json';
 
+function markDeath(data: ICreateFollowersHTML[] = []) {
+  return data.map(item => {
+    const findUser = usersRIP.find(e => e.username === item.login);
+    if (findUser) {
+      item['death'] = findUser.date;
+    }
+    return item;
+  });
+}
+
 (async () => {
   try {
     let users: ICreateFollowersHTML[] = [...usersDone];
+
+    users = markDeath(users);
+    
     let html: string = creatFollowersHTML(users, 'global');
     FS.outputFileSync(path.join(process.cwd(), 'web', 'index.html'), html);
     console.log(`> 全球用户 Follower 排行榜，页面生成成功！共${users.length}条数据！`);
 
     users = [...usersChinaDone];
+    users = markDeath(users);
+    
     html = creatFollowersHTML(users, 'china');
     FS.outputFileSync(path.join(process.cwd(), 'web', 'users.china.html'), html);
     console.log(`> 中国用户 Follower 排行榜，页面生成成功！共${users.length}条数据！`);
