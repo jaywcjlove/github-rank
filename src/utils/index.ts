@@ -1,42 +1,34 @@
 import fetch from 'node-fetch';
-import path from 'path';
-import dotenv, { DotenvConfigOutput, DotenvParseOutput } from 'dotenv';
-import FS from 'fs-extra';
-import { IResultUserData, IGithubUserInfoData } from '../common/props';
+import dotenv from 'dotenv';
 import cheerio from 'cheerio';
-import { resolve as resolveUrl } from 'url'
+import { resolve as resolveUrl } from 'url';
+import { request } from "@octokit/request";
+import formatter from '@uiw/formatter';
+import { UsersDataBase, UsersData, RepoData } from '../common/props';
 
-interface DotenvParsedOption extends DotenvParseOutput{
-  ID: string;
-  SECRET: string;
-}
+dotenv.config();
 
-interface DotenvParse extends DotenvConfigOutput {
-  parsed?: DotenvParsedOption;
-}
-
-let oauth: string = '';
-
-if (FS.pathExistsSync(path.join(process.cwd(), '.env'))) {
-  const conf = dotenv.config() as DotenvParse;
-  if (conf.parsed && conf.parsed.ID && conf.parsed.SECRET) {
-    oauth = `client_id=${conf.parsed.ID}&client_secret=${conf.parsed.SECRET}`;
+export async function getUserData(page: number, isChina?: boolean): Promise<UsersDataBase[]> {
+  const headers: { authorization?: string; } = {};
+  if (process.env.ACCESS_TOKEN) {
+    headers.authorization = `token ${process.env.ACCESS_TOKEN}`
   }
-}
-
-if (process.env.ID && process.env.SECRET) {
-  oauth = `client_id=${process.env.ID}&client_secret=${process.env.SECRET}`;
-}
-
-export function getUserData(page: number, isChina?: boolean): Promise<IResultUserData> {
-  return fetch(`https://api.github.com/search/users?page=${page}&per_page=100&q=${isChina ? 'location:China' : 'followers:>1000'}${oauth && `&${oauth}`}`)
-    .then(res => {
-      console.log(`   Github API 获取用户计数: ${res.headers.get('x-ratelimit-limit')}/${res.headers.get('x-ratelimit-remaining')}`);
-      console.log('   时间:', `${res.headers.get('x-ratelimit-reset')}000`);
-      return res.json();
-    }).catch((error) => {
-      console.log(error);
+  try {
+    const dt = await request('GET /search/users', {
+      ...{ headers },
+      q: `followers:>1000${isChina ? '+location:China' : ''}`,
+      page: page,
+      per_page: 100,
     });
+    if (dt && dt.data && dt.data.items) {
+      console.log(`   Github API 获取用户计数: ${dt.headers['x-ratelimit-limit']}/${dt.headers['x-ratelimit-remaining']}`);
+      console.log('   时间:', `${formatter('YYYY年MM月DD日 HH:mm:ss', new Date(Number(`${dt.headers['x-ratelimit-reset']}000`)))}`);
+      return dt.data.items;
+    }
+    return [];
+  } catch (error) {
+    throw error.message || error;
+  }
 }
 
 /**
@@ -47,75 +39,51 @@ export function getUserData(page: number, isChina?: boolean): Promise<IResultUse
  * `X-RateLimit-Remaining` The number of requests remaining in the current rate limit window.
  * `X-RateLimit-Reset` The time at which the current rate limit window resets in UTC epoch seconds.
  */
-export function getUserInfoData(username: string, client_id?: string, client_secret?: string): Promise<IGithubUserInfoData> {
-  if (client_id && client_secret) {
-    oauth = `client_id=${client_id}&client_secret=${client_secret}`;
+export async function getUserInfoData(username: string, client_id?: string, client_secret?: string): Promise<UsersData> {
+  const headers: { authorization?: string; } = {};
+  if (process.env.ACCESS_TOKEN) {
+    headers.authorization = `token ${process.env.ACCESS_TOKEN}`
   }
-  return fetch(`https://api.github.com/users/${username}?${oauth}`)
-    .then(res => {
-      console.log(`   Github API 获取用户计数: ${res.headers.get('x-ratelimit-limit')}/${res.headers.get('x-ratelimit-remaining')}`);
-      console.log('   时间:', `${res.headers.get('x-ratelimit-reset')}000`);
-      return res.json();
+  try {
+    const dt = await request(`GET /users/${username}`, {
+      ...{ headers },
     });
-}
-
-/**
- * Get the total count of stars.
- * @param username 
- * @param page 
- */
-export async function getUserStarsData(username: string, repos: number, count: number = 0) {
-  if (!repos) {
-    console.log(`  仓库总数不存在无法获取 star 总数！`)
-    return count
-  }
-  
-  const pages = Math.ceil(repos / 100);
-  const page = pages === 1 ? repos : 100;
-  let i = pages;
-  let reposData: IReposData[] = [];
-
-  while (i--) {
-    await fetch(`https://api.github.com/users/${username}/repos?per_page=${page}&page=${i + 1}?${oauth}`)
-      .then(res => {
-        console.log(`   Github API 获取用户总 Star 计数: ${res.headers.get('x-ratelimit-limit')}/${res.headers.get('x-ratelimit-remaining')}`);
-        console.log('   时间:', `${res.headers.get('x-ratelimit-reset')}000`);
-        return res.json();
-      }).then((data: IReposData[]) => {
-        reposData = reposData.concat(data);
-      });
-  }
-  reposData.forEach((item: IReposData) => {
-    if (item.stargazers_count) {
-      count += item.stargazers_count;
+    if (dt && dt.data) {
+      console.log(`   Github API 获取用户详情计数: ${dt.headers['x-ratelimit-limit']}/${dt.headers['x-ratelimit-remaining']}`);
+      console.log('   时间:', `${formatter('YYYY年MM月DD日 HH:mm:ss', new Date(Number(`${dt.headers['x-ratelimit-reset']}000`)))}`);
+      return dt.data;
     }
-  });
-  return count;
-}
-
-
-export interface IReposData {
-  stargazers_count?: number;
-  [key: string]: any;
-}
-
-export interface IResultReposData {
-  total_count: number;
-  incomplete_results: boolean;
-  items: IReposData[];
+    throw '没有获取到用户信息';
+  } catch (error) {
+    throw error.message || error;
+  }
 }
 
 /**
  * Get repositories data
  * @param page Page number
  */
-export function getReposData(page: number): Promise<IResultReposData> {
-  return fetch(`https://api.github.com/search/repositories?q=stars:>8000&page=${page}&per_page=100&${oauth}`)
-    .then(res => {
-      console.log(`   Github API 获取仓库Star排行计数: ${res.headers.get('x-ratelimit-limit')}/${res.headers.get('x-ratelimit-remaining')}`);
-      console.log('   时间:', `${res.headers.get('x-ratelimit-reset')}000\n`);
-      return res.json();
+export async function getReposData(page: number): Promise<RepoData[]> {
+  const headers: { authorization?: string; } = {};
+  if (process.env.ACCESS_TOKEN) {
+    headers.authorization = `token ${process.env.ACCESS_TOKEN}`
+  }
+  try {
+    const dt = await request(`GET /search/repositories`, {
+      ...{ headers },
+      q: 'stars:>8000',
+      page: page,
+      per_page: 100,
     });
+    if (dt && dt.data && dt.data.items) {
+      console.log(`   Github API 获取仓库Star排行计数: ${dt.headers['x-ratelimit-limit']}/${dt.headers['x-ratelimit-remaining']}`);
+      console.log('   时间:', `${formatter('YYYY年MM月DD日 HH:mm:ss', new Date(Number(`${dt.headers['x-ratelimit-reset']}000`)))}`);
+      return dt.data.items;
+    }
+    throw '没有获取到用户信息';
+  } catch (error) {
+    throw error.message || error;
+  }
 }
 
 export interface ITrendingData {
@@ -131,8 +99,7 @@ export interface ITrendingData {
 }
 
 export function getTrendingData(type: string = 'daily') {
-  const apiUrl = `https://github.com/trending?since=${type}`
-  
+  const apiUrl = `https://github.com/trending?since=${type}`;
   return fetch(apiUrl)
     .then(res => res.buffer())
     .then((data) => {

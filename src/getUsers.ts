@@ -1,36 +1,36 @@
 import FS from 'fs-extra';
 import path from 'path';
-import { IResultUserData, IUserData } from './common/props';
 import { getUserData, sleep } from './utils';
+import { UsersDataBase } from './common/props';
 
 (async () => {
   try {
-    let users: IUserData[] = [];
-    let data = await getUserData(1) as IResultUserData;
-    users = users.concat(data.items);
-    console.log(`-> 获取到第1页，共${data.items.length}条数据！`);
+    let users: UsersDataBase[] = [];
+    let data = await getUserData(1);
+    users = users.concat(data);
+    console.log(`-> 获取到第1页，共${data.length}条数据！`);
     await sleep(1000);
 
-    data = await getUserData(2) as IResultUserData;
-    users = users.concat(data.items);
-    console.log(`-> 获取到第2页，共${data.items.length}条数据！`);
+    data = await getUserData(2);
+    users = users.concat(data);
+    console.log(`-> 获取到第2页，共${data.length}条数据！`);
     await sleep(1000);
 
-    data = await getUserData(3) as IResultUserData;
-    users = users.concat(data.items);
-    console.log(`-> 获取到第3页，共${data.items.length}条数据！`);
+    data = await getUserData(3);
+    users = users.concat(data);
+    console.log(`-> 获取到第3页，共${data.length}条数据！`);
     await sleep(1000);
 
-    data = await getUserData(4) as IResultUserData;
-    users = users.concat(data.items);
-    console.log(`-> 获取到第3页，共${data.items.length}条数据！`);
+    data = await getUserData(4);
+    users = users.concat(data);
+    console.log(`-> 获取到第3页，共${data.length}条数据！`);
     await sleep(1000);
 
-    data = await getUserData(5) as IResultUserData;
-    users = users.concat(data.items);
-    console.log(`-> 获取到第3页，共${data.items.length}条数据！`);
+    data = await getUserData(5);
+    users = users.concat(data);
+    console.log(`-> 获取到第3页，共${data.length}条数据！`);
 
-    users = users.map((item: IUserData, idx: number) => {
+    users = users.map((item: UsersDataBase, idx: number) => {
       item.rank = idx + 1;
       return item;
     }).slice(0, 500);
