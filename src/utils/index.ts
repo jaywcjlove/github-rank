@@ -142,6 +142,28 @@ export function sleep(ms: number) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+/**
+ * Get User Stars
+ * https://github-readme-stats.vercel.app/api?username=jaywcjlove
+ * @param username User Name
+ */
+export function getUserStar(username: string): Promise<string> {
+  return fetch(`https://github-readme-stats.vercel.app/api?username=${username}`)
+    .then(res => res.buffer())
+    .then((data) => {
+      const html = data.toString();
+      const $ = cheerio.load(html);
+      let star = '';
+      $('svg svg text.stat').each((idx, item) => {
+        const testid = $(item).data('testid');
+        if (testid === 'stars') {
+          star = $(item).html() || '';
+        }
+      });
+      return star
+    });
+}
+
 export interface IToutiaoData {
   title: string;
   description: string;

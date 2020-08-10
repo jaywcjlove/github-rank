@@ -1,7 +1,7 @@
 import FS from 'fs-extra';
 import path from 'path';
 import { UsersDataBase, UsersData } from '../common/props';
-import { sleep, getUserInfoData } from './';
+import { sleep, getUserInfoData, getUserStar } from './';
 
 /**
  * 用于更新用户数据，最终数据
@@ -31,7 +31,9 @@ async function getInfo(arr: UsersDataBase[], type: string = '', globalUsers: Use
   let findUser: UsersData = globalUsers.find(item => item.login === user.login);
   if (!findUser) {
     isLocalData = false;
-    findUser = await getUserInfoData(user.login) as UsersData;
+    findUser = await getUserInfoData(user.login);
+    const str = await getUserStar(user.login);
+    findUser._stars = str;
     if (findUser.message && findUser.documentation_url) {
       console.log(`<- 还剩 ${arr.length} 个用户信息！error: ${findUser.message} -> ${findUser.documentation_url}`);
       return;
