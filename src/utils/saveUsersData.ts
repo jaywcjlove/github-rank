@@ -32,8 +32,6 @@ async function getInfo(arr: UsersDataBase[], type: string = '', globalUsers: Use
   if (!findUser) {
     isLocalData = false;
     findUser = await getUserInfoData(user.login);
-    const str = await getUserStar(user.login);
-    findUser._stars = str;
     if (findUser.message && findUser.documentation_url) {
       console.log(`<- 还剩 ${arr.length} 个用户信息！error: ${findUser.message} -> ${findUser.documentation_url}`);
       return;
@@ -43,6 +41,11 @@ async function getInfo(arr: UsersDataBase[], type: string = '', globalUsers: Use
       await getInfo(arr, type, globalUsers);
       return;
     }
+  }
+  
+  if (!findUser._stars) {
+    const str = await getUserStar(user.login);
+    findUser._stars = str;
   }
 
   const userFilter = usersStore.find(item => (findUser && item.login === findUser.login) as boolean);
