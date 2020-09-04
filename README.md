@@ -7,6 +7,9 @@ Preview: [Github](http://jaywcjlove.github.io/github-rank/) | [Gitee](http://jay
 </p>
 
 <p align="center">
+  <a href="https://github.com/jaywcjlove/github-rank">
+    <img src="https://github.com/jaywcjlove/github-rank/workflows/Build%20and%20Deploy%20Github%20Rank/badge.svg">
+  </a>
   <a href="https://github.com/jaywcjlove/github-rank/issues">
     <img src="https://img.shields.io/github/issues/jaywcjlove/github-rank.svg">
   </a>
@@ -20,7 +23,6 @@ Preview: [Github](http://jaywcjlove.github.io/github-rank/) | [Gitee](http://jay
     <img src="https://img.shields.io/npm/v/@wcj/github-rank.svg">
   </a>
 </p>
-
 
 Github 中国用户排名，全球仓库 Star 最多排名，通过 Github API v3 来生成页面数据，[排行榜预览](http://jaywcjlove.github.io/github-rank/)，最近还添加了 [SegmentFault 思否近期热门](http://jaywcjlove.github.io/github-rank/sifou-daily.html)、[开发者头条最近热门分享](http://jaywcjlove.github.io/github-rank/toutiao-7.html)、[36Kr 快讯预览](http://jaywcjlove.github.io/github-rank/36kr.html)。
 
