@@ -14,7 +14,6 @@
     "get:users:china": "node lib/getUsersChina.js",
     "get:repos": "node lib/getRepos.js",
     "get:trending": "node lib/getTrending.js",
-    "deploy": "node lib/deploy.js",
     "prepare": "npm run build",
     "types": "tsbb types",
     "types:watch": "tsbb types --watch",
@@ -57,7 +56,6 @@
     "dotenv": "8.2.0",
     "ejs": "3.0.2",
     "fs-extra": "9.0.1",
-    "gh-pages": "2.2.0",
     "node-fetch": "2.6.1",
     "tsbb": "1.7.6"
   }
