@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/x-icon" href="https://github.githubassets.com/favicon.ico">
+  <title> 开发者头条 - 最近7天热门分享 </title>
+  <meta name="description" content="开发者头条 - 最近7天热门分享">
+  <style>
+    * { box-sizing: border-box; }
+    html, body, ul, li, h1 { margin: 0; padding: 0 }
+    html, body { font-size: 16px; font-family: -apple-system,"Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","WenQuanYi Micro Hei","Microsoft Yahei",sans-serif; }
+    ul { list-style: none; }
+    body { text-align: center; }
+    a { color: #333; text-decoration: none; transition: all .2s ease-in; }
+    a:hover { color: #1600ff; }
+    a.github-corner:hover .octo-arm { animation: octocat-wave 560ms infinite linear; }
+    a.github-corner svg { fill: #f1f1f1; color: #000; position: absolute; top: 0; border: 0; right: 0; z-index: 99; width: 70px; height: 70px; }
+    a.github-corner { position: fixed; z-index: 9999; top: 0; right: 0; }
+    .title { padding: 46px 0 0 0; font-size: 18px; line-height: 24px; }
+    .time, .footer { padding: 5px 0 2px 0; font-size: 12px; color: #adadad; }
+    .tabs { padding: 10px 0 15px 0;}
+    .tabs a { background: #e2e2e2; display: inline-block; padding: 3px 7px; font-size: 12px; line-height: 16px; color: #0366d6; }
+    .tabs a.active { background: #696969; color: #efefef; }
+    .footer { padding: 10px 0 30px 0; }
+    .list { text-align: left; max-width: 470px; margin: 0 auto; padding-bottom: 10px; background-color: #efefef; border-radius: 5px; overflow: hidden; }
+    .list img { width: 36px; height: 36px; border-radius: 3px; display: block; margin: 0 auto; background-color: #e2e2e2; border: 0; overflow: hidden; }
+    .list a { color: #0366d6; }
+    .list a:hover { color: #1600ff; }
+    .list li { padding: 5px; margin: 0 8px; transition: all .3s; border-bottom: 1px solid #d8d8d8; }
+    .list li.rank-title { background-color: #e2e2e2; margin: 0; padding: 7px 13px; margin-bottom: 10px; border-radius: 0; font-size: 14px; line-height: 16px; }
+    .list li.rank-title:hover { background: #e2e2e2; }
+    .list li:last-child, .list li.rank-title { border-bottom: 0; }
+    .list li:hover { background: rgba(255, 255, 255, 0.56); }
+    .list li > div { display: table-cell; vertical-align: top; font-size: 14px; }
+    .list li div.rank { padding: 0 8px; }
+    .list li div.rank span { font-weight: bold; }
+    .list li div.details { padding: 2px 0 0 9px; font-size: 12px; float: left; color: #b9b9b9; }
+    .list li div.details a { color: #b9b9b9; transition: all .3s; }
+    .list li div.details a:hover { color: #1600ff; }
+    .list li div.details a:hover svg { fill: #1600ff; }
+    .list li div.details * { vertical-align: middle; }
+    .list li div.details .localtion { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; max-width: 150px; display: inline-block; height: 14px; }
+    .list li div.details svg { width: 12px; height: 12px; margin-top: 0; margin-right: 2px; fill: #b9b9b9; display: inline-block; }
+    .list li > div.info { width: 100%; }
+    .list li > div.info i { color: #717171; }
+    .list li > div.info a:hover i { color: #333; }
+    .list li div.sub-title { color: #333; margin: 4px 0 0 3px;}
+    
+    
+    .list .select { float: right; line-height: 14px; line-height: 16px; }
+    .list .select .active { color: #333; font-weight: bold; }
+    
+    
+    .list li div.followers { font-size: 12px; color: #7d7d7d; white-space:nowrap; padding-left: 5px; padding-top: 2px; border-radius: 3px; }
+    .list li div.followers a { color: #545454; }
+    .list li div.followers * { vertical-align: middle; }
+    .list li div.followers svg { vertical-align: text-top; display: inline-block; fill: #9E9E9E; width: 14px; height: 14px; }
+    
+    
+    
+    @keyframes octocat-wave {
+      0%,100%{-webkit-transform:rotate(0); transform:rotate(0);}
+      20%,60%{-webkit-transform:rotate(-25deg); transform:rotate(-25deg);}
+      40%,80%{-webkit-transform:rotate(10deg); transform:rotate(10deg);}
+    }
+  </style>
+  <style>
+  </style>
+</head>
+<body>
+  <a href="https://github.com/jaywcjlove/github-rank" target="_blank" class="github-corner">
+    <svg viewBox="0 0 250 250">
+      <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+      <path class="octo-arm" fill="currentColor" style="transform-origin: 130px 106px;" d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"></path>
+      <path fill="currentColor" class="octo-body" d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"></path>
+    </svg>
+  </a>
+  <h1 class="title"> 开发者头条 - 最近7天热门分享 </h1>
+  <div class="time">Last cache created on 2020/11/7 by Github API v3.</div>
+  <div class="tabs">
+    <a class="" href="index.html">Users</a>
+    <a class="" href="repos.html">Repos</a>
+    <a class="" href="trending.html">Trending</a>
+    <a class="" href="sifou-daily.html">Sifou</a>
+    <a class="active" href="toutiao-7.html">开发头条</a>
+    <a class="" href="36kr.html">36Kr</a>
+  </div>
+<ul class="list">
+    <li class="rank-title">
+      <a href="https://toutiao.io/posts/hot/7" target="_blank">头条 热门分享</a>
+      <span class="select">
+        <a class="active" href="toutiao-7.html">7天</a>
+        <a class="" href="toutiao-30.html">30天</a>
+        <a class="" href="toutiao-90.html">90天</a>
+      </span>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/26578" target="_blank">
+          <img src="https://img.toutiao.io/subject%2F8e12ef64799649acbfd936883ef16c3c" loading="lazy" title="服务架构及中台 - 独家号" alt="服务架构及中台 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 1">1</span>
+          <a href="https://toutiao.io/k/vunm1k6" target="_blank" title="阿里终面：分布式事务原理">阿里终面：分布式事务原理</a>
+        </div>
+      
+        <div class="details">
+          本文提纲如下前言单数据源事务 &amp; 多数据源事务常见分布式事务解决方案2.1. 分布式事务模型2.2. 二将军问题和幂等性2.3. 两阶段提交（2PC） &amp; 三阶段提交（3PC）方案...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>6</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/426740" target="_blank">
+          <img src="https://img.toutiao.io/subject%2F180d026f85274c998656474cd1988d0f" loading="lazy" title="四猿外 - 独家号" alt="四猿外 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 2">2</span>
+          <a href="https://toutiao.io/k/gk7ay10" target="_blank" title="一个技术总监的忠告：精通那么多技术，你为何还是受不到重用？">一个技术总监的忠告：精通那么多技术，你为何还是受不到重用？</a>
+        </div>
+      
+        <div class="details">
+          这篇文章我们继续说架构师大刘的故事：老田升职了，年薪涨到了百万级别！这是大刘在加班搞技术攻坚的时候，听别的同事聊了那么一嘴。大刘心里不是滋味儿。老田和大刘其实在这家公司之前就是同事...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>21</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/133906" target="_blank">
+          <img src="https://img.toutiao.io/subject%2Fd01bf67f1b3243aeabb1e486544fd44c" loading="lazy" title="Go语言中文网 - 独家号" alt="Go语言中文网 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 3">3</span>
+          <a href="https://toutiao.io/k/s3pgs9r" target="_blank" title="爱了！一个现代化的 Git CLI 客户端，一堆命令不用记了">爱了！一个现代化的 Git CLI 客户端，一堆命令不用记了</a>
+        </div>
+      
+        <div class="details">
+          关注公众号 “转角遇到GitHub” ，每天推荐给你优秀开源项目 大家好，我是欧盆索思（opensource），每天为你带来优秀的开源项目！先看一张动图： 今天推荐的这个工具是：b...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>13</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/120437" target="_blank">
+          <img src="https://img.toutiao.io/user/b618677591aa49b3972ece0c7d26b473/thumb" loading="lazy" title="数据淘金 - 独家号" alt="数据淘金 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 4">4</span>
+          <a href="https://toutiao.io/k/nvbge2t" target="_blank" title="Docker 底层原理浅析">Docker 底层原理浅析</a>
+        </div>
+      
+        <div class="details">
+          作者：vitovzhong，腾讯 TEG 应用开发工程师容器的实质是进程，与宿主机上的其他进程是共用一个内核，但与直接在宿主机执行的进程不同，容器进程运行在属于自己的独立的命名空间...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>6</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/153891" target="_blank">
+          <img src="https://img.toutiao.io/subject%2F0b42d8ae8c1e454caa2896f41961b7a3" loading="lazy" title="全栈以及Golang - 独家号" alt="全栈以及Golang - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 5">5</span>
+          <a href="https://toutiao.io/k/gfxnfbk" target="_blank" title="25 张图让你彻底掌握分布式事务原理">25 张图让你彻底掌握分布式事务原理</a>
+        </div>
+      
+        <div class="details">
+          本文提纲如下0. 前言1. 单数据源事务 &amp; 多数据源事务2. 常见分布式事务解决方案2.1. 分布式事务模型2.2. 二将军问题和幂等性2.3. 两阶段提交（2PC） &amp; 三阶段...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>9</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/136176" target="_blank">
+          <img src="https://img.toutiao.io/subject%2F6ee3bb205b3248c2b746c1506548181a" loading="lazy" title="大数据生态 - 独家号" alt="大数据生态 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 6">6</span>
+          <a href="https://toutiao.io/k/rtixudv" target="_blank" title="网易云音乐基于 Flink + Kafka 的实时数仓建设实践">网易云音乐基于 Flink + Kafka 的实时数仓建设实践</a>
+        </div>
+      
+        <div class="details">
+          简介：本文由网易云音乐实时计算平台研发工程师岳猛分享，主要从以下四个部分将为大家介绍 Flink + Kafka 在网易云音乐的应用实战：背景Flink + Kafka 平台化设计...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>7</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/72425" target="_blank">
+          <img src="https://img.toutiao.io/subject%2Fdd437c8fe19542088ec51e69a79c158c" loading="lazy" title="最佳实践 - 独家号" alt="最佳实践 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 7">7</span>
+          <a href="https://toutiao.io/k/1y6vsef" target="_blank" title="MySQL 的这几个坑你踩过没？真是防不胜防">MySQL 的这几个坑你踩过没？真是防不胜防</a>
+        </div>
+      
+        <div class="details">
+          一、前言 对于从事互联网开发的同学来说，mysql可谓是再熟悉不过的了。无论是DBA、开发或测试，基本上天天要跟它打交道，很多同学可能已经身经百战了。但是，笔者遇到过的这些坑不知道...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>3</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/343446" target="_blank">
+          <img src="https://img.toutiao.io/user/01ec77a3ddbb4158afed606b24af1c87/thumb" loading="lazy" title="Go学习之路 - 独家号" alt="Go学习之路 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 8">8</span>
+          <a href="https://toutiao.io/k/0zyeufv" target="_blank" title="为什么 Go 占用那么多的虚拟内存？">为什么 Go 占用那么多的虚拟内存？</a>
+        </div>
+      
+        <div class="details">
+          前段时间，某同学说某服务的容器因为超出内存限制，不断地重启，问我们是不是有内存泄露，赶紧排查，然后解决掉，省的出问题。我们大为震惊，赶紧查看监控+报警系统和性能分析，发现应用指标压...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>8</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/450130" target="_blank">
+          <img src="https://img.toutiao.io/subject%2F374071a9593e473c9f625a613d130218" loading="lazy" title="爱笑的架构师 - 独家号" alt="爱笑的架构师 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 9">9</span>
+          <a href="https://toutiao.io/k/f9kkb5t" target="_blank" title="13 张图彻底搞懂分布式系统服务注册与发现原理">13 张图彻底搞懂分布式系统服务注册与发现原理</a>
+        </div>
+      
+        <div class="details">
+          在微服务架构或分布式环境下，服务注册与发现技术不可或缺，这也是程序员进阶之路必须要掌握的核心技术之一，本文通过图解的方式带领大家轻轻松松掌握。引入服务注册与发现组件的原因先来看一个...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>2</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/443906" target="_blank">
+          <img src="https://img.toutiao.io/subject%2F71da457007fd4b67a45253b271a25eee" loading="lazy" title="yes的练级攻略 - 独家号" alt="yes的练级攻略 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 10">10</span>
+          <a href="https://toutiao.io/k/ypwk0no" target="_blank" title="面试官：说说你知道的几种负载均衡分类">面试官：说说你知道的几种负载均衡分类</a>
+        </div>
+      
+        <div class="details">
+          负载均衡其实就是任务的分发，使得任务能按照你的预想分配到各个计算单元上，它能提高服务对外的性能，避免单点失效场景。这里要注意的一点是虽说叫负载均衡，但是有时候我们的分配算法就是不是...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>5</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/447978" target="_blank">
+          <img src="https://img.toutiao.io/subject%2F967329410fda4a55b2bf84673d48ebfe" loading="lazy" title="asong2020 - 独家号" alt="asong2020 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 11">11</span>
+          <a href="https://toutiao.io/k/cfr4egg" target="_blank" title="消息队列和任务队列有什么区别？">消息队列和任务队列有什么区别？</a>
+        </div>
+      
+        <div class="details">
+          前言 昨天发了一篇文章是关于machinery的入门教程，有一位读者在留言中问我 这个和kafka有什么区别？一时我也有点懵，这两个的概念很近，到底有什么不同呢？根据我自己的理解，...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>7</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/444692" target="_blank">
+          <img src="https://img.toutiao.io/subject%2Ff4c7daceb79a4dd58b3f5c9ce93a7ae2" loading="lazy" title="Java旅途 - 独家号" alt="Java旅途 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 12">12</span>
+          <a href="https://toutiao.io/k/iam44fb" target="_blank" title="Redis 五大数据类型使用场景">Redis 五大数据类型使用场景</a>
+        </div>
+      
+        <div class="details">
+          Redis是一种基于键值对的NoSQL数据库，它的值主要由string（字符串），hash（哈希），list（列表），set（集合），zset（有序集合）五种基本数据结构构成，除此...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>4</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/395621" target="_blank">
+          <img src="https://img.toutiao.io/subject%2Fe869abb8b126449695234f519888025d" loading="lazy" title="并发笔记 - 独家号" alt="并发笔记 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 13">13</span>
+          <a href="https://toutiao.io/k/r6571za" target="_blank" title="分布式一致性协议：ZAB">分布式一致性协议：ZAB</a>
+        </div>
+      
+        <div class="details">
+          ZAB 背景学习ZAB，非常有必要聊聊它诞生的背景。因为在paxos的光芒下，还有必要折腾这样类似的算法吗？这个问题是我们初步了解ZAB关键。看到这里，我断定大家都使用过zooke...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>4</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/4" target="_blank">
+          <img src="https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b" loading="lazy" title="头条精选 - 独家号" alt="头条精选 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 14">14</span>
+          <a href="https://toutiao.io/k/v08ikpz" target="_blank" title="什么是真正的程序员？| 码农周刊第 323 期">什么是真正的程序员？| 码农周刊第 323 期</a>
+        </div>
+      
+        <div class="details">
+          ☞ 薪资翻番如何实现？程序员的涨薪秘诀商务合作 程序设计成为「码农周刊 VIP 会员」，查看更多「程序设计」内容 「码农周刊 VIP 会员专属邮件周报」每周五发送，自订购之日算起，...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>7</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/24912" target="_blank">
+          <img src="https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2" loading="lazy" title="进击的程序猿 - 独家号" alt="进击的程序猿 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 15">15</span>
+          <a href="https://toutiao.io/k/1oh6ekv" target="_blank" title="某行两地三中心多活设计实践">某行两地三中心多活设计实践</a>
+        </div>
+      
+        <div class="details">
+          数据大集中之后，企业的经营活动越来越依赖于数据中心与网络等IT基础设施，IT的7*24全天业务连续运营成为大型企业IT建设运营与企业经营追求的目标。如何实现减少甚至消除正常和非正常...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>9</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/24912" target="_blank">
+          <img src="https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2" loading="lazy" title="进击的程序猿 - 独家号" alt="进击的程序猿 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 16">16</span>
+          <a href="https://toutiao.io/k/y490i6z" target="_blank" title="4 万字全面掌握数据库、数据仓库、数据集市、数据湖、数据中台">4 万字全面掌握数据库、数据仓库、数据集市、数据湖、数据中台</a>
+        </div>
+      
+        <div class="details">
+          如今，随着诸如互联网以及物联网等技术的不断发展，越来越多的数据被生产出来-据统计，每天大约有超过2.5亿亿字节的各种各样数据产生。这些数据需要被存储起来并且能够被方便的分析和利用。...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>2</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/265833" target="_blank">
+          <img src="https://img.toutiao.io/subject%2F5b6349f06e5a4140b242dcbd7010690d" loading="lazy" title="麒思妙想 - 独家号" alt="麒思妙想 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 17">17</span>
+          <a href="https://toutiao.io/k/bq2loro" target="_blank" title="分布式系统课程笔记（一）：绪论">分布式系统课程笔记（一）：绪论</a>
+        </div>
+      
+        <div class="details">
+          是的，我又开新坑了，一直想系统的学学6.824，总是有这样那样的理由就放下了，看到现在开个坑，欢迎大家监督打脸，这个系列会以视频笔记，以及实现Lab为主。个人非常喜欢 Robert...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>4</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/8973" target="_blank">
+          <img src="https://img.toutiao.io/user/5a7a70a7ff844188be76ef25c0a082d7/thumb" loading="lazy" title="ThoughtWorks - 独家号" alt="ThoughtWorks - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 18">18</span>
+          <a href="https://toutiao.io/k/5ujf5sy" target="_blank" title="项目是否健康，做个盘点就够了">项目是否健康，做个盘点就够了</a>
+        </div>
+      
+        <div class="details">
+          我做项目管理的时候会周期性的给项目做盘点，把我做盘点的工具和过程和大家分享一下，这个工具的灵感来自于新精英的生涯平衡轮。最近和几个项目经理聊天，大家普遍关注一个问题：我的项目做了这...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>4</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/281562" target="_blank">
+          <img src="https://img.toutiao.io/subject%2Ff0d9d86551ef49c0b64e71d0d33ae465" loading="lazy" title="白程序员的自习室 - 独家号" alt="白程序员的自习室 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 19">19</span>
+          <a href="https://toutiao.io/k/wyi8d8m" target="_blank" title="Kafka 浅谈：什么是 AR、OSR、ISR、HW 和 LEO 以及之间的关系">Kafka 浅谈：什么是 AR、OSR、ISR、HW 和 LEO 以及之间的关系</a>
+        </div>
+      
+        <div class="details">
+          kafka 多副本Kafka 为分区引入了多副本（Replica）机制，通过增加副本数量可以提升容灾能力。同一分区的不同副本中保存的是相同的消息（当然在同一时刻，副本之间可能并非完...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>5</span>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+        <a href="https://toutiao.io/subjects/6491" target="_blank">
+          <img src="https://img.toutiao.io/subject%2Ffcd1137867a2413880689043418675a7" loading="lazy" title="猿天地 - 独家号" alt="猿天地 - 独家号" />
+        </a>
+      </div>
+      <div class="info">
+        <div class="rank">
+          <span title="Ranking 20">20</span>
+          <a href="https://toutiao.io/k/9fxs5uq" target="_blank" title="天天说要做性能优化，到底在优化什么？">天天说要做性能优化，到底在优化什么？</a>
+        </div>
+      
+        <div class="details">
+          面试过程中经常被问到：你做过性能优化吗?优化了哪些方面？怎么做优化的？优化的效果如何？连环炮问下来，对于有做过优化的老司机来说，肯定能抗住。对于没有真正做过优化的小白来说，肯定扛不...
+        </div>
+      </div>
+      <div class="followers" title="followers">
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h16v16H0z"/>
+            <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+          </g>
+        </svg><span>1</span>
+      </div>
+    </li>
+    
+</ul>
+  <div class="footer">
+    <p>
+      <a href="https://github.com/jaywcjlove/github-rank/network" target="_blank">
+        <img src="https://img.shields.io/github/forks/jaywcjlove/github-rank.svg">
+      </a>
+      <a href="https://github.com/jaywcjlove/github-rank/stargazers" target="_blank">
+        <img src="https://img.shields.io/github/stars/jaywcjlove/github-rank.svg">
+      </a>
+      <a href="https://www.npmjs.com/package/@wcj/github-rank" target="_blank">
+        <img src="https://img.shields.io/npm/v/@wcj/github-rank.svg">
+      </a>
+      <a href="https://unpkg.com/@wcj/github-rank/web/index.html" target="_blank">
+        <img src="https://img.shields.io/npm/v/@wcj/github-rank.svg?label=unpkg">
+      </a>
+    </p>
+    <div class="time">Last cache created on 2020/11/7 by Github API v3.</div>
+    Create by <a href="https://github.com/jaywcjlove" target="_blank">小弟调调™</a>.
+  </div>
+</body>
+</html>
