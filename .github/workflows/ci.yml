@@ -1,8 +1,8 @@
 name: Build and Deploy Github Rank
 on:
   push:
-    branches:
-      - master
+    # branches:
+    #   - master
     tags:
       - v*
   schedule:
