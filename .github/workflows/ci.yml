@@ -1,4 +1,4 @@
-name: Build and Deploy Github Rank
+name: Build & Deploy
 on:
   push:
     # branches:
@@ -39,6 +39,8 @@ jobs:
         SECRET: ${{ secrets.GITHUB_SECRET }}
 
     - run: npm run start
+    - run: mkdir -p web/data
+    - run: cp -rf dist/* web/data
     - name: Build and Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
