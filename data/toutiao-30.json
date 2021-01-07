@@ -1,0 +1,252 @@
+[
+  {
+    "title": "漫画：一台 Linux 服务器最多能支撑多少个 TCP 连接？",
+    "description": "困惑很多人的并发问题 在网络开发中，我发现有很多同学对一个基础问题始终是没有彻底搞明白。那就是一台服务器最大究竟能支持多少个网络连接？我想我有必要单独发一篇文章来好好说一下这个问题...",
+    "votes": "35",
+    "url": "/k/7fcauc4",
+    "avatar": "https://img.toutiao.io/subject%2Fdb1c6bd2f712426fb485a625edaa803d",
+    "avatarAlt": "php饭米粒 - 独家号",
+    "subjectName": "php饭米粒",
+    "homeUrl": "/subjects/56197"
+  },
+  {
+    "title": "硬核 Redis 总结，看这篇就够了",
+    "description": "高清思维导图已同步Git：https://github.com/SoWhat1412/xmindfile总感觉哪里不对，但是又说不上来1、基本类型及底层实现 1.1、String ...",
+    "votes": "26",
+    "url": "/k/z01bcz5",
+    "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
+    "avatarAlt": "进击的程序猿 - 独家号",
+    "subjectName": "进击的程序猿",
+    "homeUrl": "/subjects/24912"
+  },
+  {
+    "title": "MySQL 索引知识点总结",
+    "description": "作者：fanili，腾讯 WXG 后台开发工程师知其然知其所以然！本文介绍索引的数据结构、查找算法、常见的索引概念和索引失效场景。什么是索引？ 在关系数据库中，索引是一种单独的、物...",
+    "votes": "23",
+    "url": "/k/u9plzvk",
+    "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
+    "avatarAlt": "进击的程序猿 - 独家号",
+    "subjectName": "进击的程序猿",
+    "homeUrl": "/subjects/24912"
+  },
+  {
+    "title": "美团 Commit Log 规范",
+    "description": "一、背景 Git每次提交代码都需要写commit message，一般来说，commit message应该清晰明了，说明本次提交的目的，具体做了什么操作等。但是在日常开发中，开发...",
+    "votes": "19",
+    "url": "/k/r6tsfdv",
+    "avatar": "https://img.toutiao.io/subject%2Fea8976fb047b483dacc34fd01e51d47e",
+    "avatarAlt": "Java研发 - 独家号",
+    "subjectName": "Java研发",
+    "homeUrl": "/subjects/2079"
+  },
+  {
+    "title": "MySQL 优化神器",
+    "description": "前言 ❝ 今天逛github时，发现了这款对 SQL 进行优化和改写的自动化工具sora。感觉挺不错的，就下载学习了一下。这个工具支持的功能比较多，可以作为我们日常开发中的一款辅助...",
+    "votes": "11",
+    "url": "/k/qg5adh5",
+    "avatar": "https://img.toutiao.io/subject%2F967329410fda4a55b2bf84673d48ebfe",
+    "avatarAlt": "asong2020 - 独家号",
+    "subjectName": "asong2020",
+    "homeUrl": "/subjects/447978"
+  },
+  {
+    "title": "工程师职级胜任力框架",
+    "description": " 一、前言尽管这些年国内的IT行业发展迅速，但是仍然欠缺一套比较综合性的面向工程师的职级胜任力框架，造成国内很多工程师大都一心只想成为技术大牛，而忽视了自己全方位的工程师职业素养和...",
+    "votes": "21",
+    "url": "/k/rxxemhb",
+    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
+    "avatarAlt": "ASCE1885 - 独家号",
+    "subjectName": "ASCE1885",
+    "homeUrl": "/subjects/4829"
+  },
+  {
+    "title": "万字 Java 知识地图助你成为 Offer 收割机",
+    "description": "点击关注\"爱笑的架构师\"右上角\"设为星标\"好文章送达比别人快最近很多读者在问：Java 怎么学习啊？有没有什么学习路线？我相信这些读者或多或少都有一些 Java 基础，但由于看不到...",
+    "votes": "8",
+    "url": "/k/sdna90o",
+    "avatar": "https://img.toutiao.io/subject%2F374071a9593e473c9f625a613d130218",
+    "avatarAlt": "爱笑的架构师 - 独家号",
+    "subjectName": "爱笑的架构师",
+    "homeUrl": "/subjects/450130"
+  },
+  {
+    "title": "分布式搜索引擎 Elasticsearch 的架构分析",
+    "description": "一、写在前面ES（Elasticsearch下文统一称为ES）越来越多的企业在业务场景是使用ES存储自己的非结构化数据，例如电商业务实现商品站内搜索，数据指标分析，日志分析等，ES...",
+    "votes": "11",
+    "url": "/k/j4aoyho",
+    "avatar": "https://img.toutiao.io/subject%2F8adc26cdcf7d45f4a73580f3be4285f2",
+    "avatarAlt": "vivo互联网技术 - 独家号",
+    "subjectName": "vivo互联网技术",
+    "homeUrl": "/subjects/392760"
+  },
+  {
+    "title": "深度解析 Raft 分布式一致性协议",
+    "description": "笔者期望通过一篇权威靠谱、清晰易懂的系统性文章，帮助读者深入理解 Raft 算法，并能付诸于工程实践中，同时解读不易理解或容易误解的关键点。本文是 Raft 实战系列理论内容的整合...",
+    "votes": "9",
+    "url": "/k/am8mql2",
+    "avatar": "https://img.toutiao.io/subject%2F58549cfff083434f8fea6f4e99a28393",
+    "avatarAlt": "Q的博客 - 独家号",
+    "subjectName": "Q的博客",
+    "homeUrl": "/subjects/293369"
+  },
+  {
+    "title": "支撑 700 亿数据量的 ClickHouse 高可用架构实践",
+    "description": " 本文根据蔡岳毅老师在〖2020 Gdevops全球敏捷运维峰会〗现场演讲内容整理而成。  （点击文末“阅读原文”可获取完整PPT） 讲师介绍蔡岳毅，携程旅行网酒店研发中心高级研发...",
+    "votes": "9",
+    "url": "/k/f5v4m55",
+    "avatar": "https://img.toutiao.io/subject%2F6ee3bb205b3248c2b746c1506548181a",
+    "avatarAlt": "大数据生态 - 独家号",
+    "subjectName": "大数据生态",
+    "homeUrl": "/subjects/136176"
+  },
+  {
+    "title": "微服务架构 10 个最重要的设计模式",
+    "description": "自从软件开发的早期(1960年代)以来，解决大型软件系统中的复杂性一直是一项艰巨的任务。多年来，软件工程师和架构师为解决软件系统的复杂性进行了许多尝试：David Parnas的模...",
+    "votes": "8",
+    "url": "/k/krsjiu0",
+    "avatar": "https://img.toutiao.io/subject%2F1ecd558bf4a24bc780d2c3a0ab6e69f2",
+    "avatarAlt": "分布式系统 - 独家号",
+    "subjectName": "分布式系统",
+    "homeUrl": "/subjects/8411"
+  },
+  {
+    "title": "IntelliJ 超级实用的 8 个插件",
+    "description": " 1. IDE Features Trainer这是 IntelliJ 官方推出的一个插件，可以帮助我们快速学习 IntelliJ 的功能特性，更好的使用它。 2. CodotaC...",
+    "votes": "10",
+    "url": "/k/vx0h11u",
+    "avatar": "https://img.toutiao.io/subject%2F34a8080276c94c04a9660da45c688190",
+    "avatarAlt": "性能与架构 - 独家号",
+    "subjectName": "性能与架构",
+    "homeUrl": "/subjects/429228"
+  },
+  {
+    "title": "肝了 3 版才满意：分布式系统之 CAP 理论，我们对它的理解和误解",
+    "description": "引言 CAP 理论，相信很多人都听过，它是指：一个分布式系统最多只能同时满足一致性（Consistency）、可用性（Availability）和分区容错性（Partition t...",
+    "votes": "11",
+    "url": "/k/q2fkii4",
+    "avatar": "https://img.toutiao.io/subject%2F180d026f85274c998656474cd1988d0f",
+    "avatarAlt": "四猿外 - 独家号",
+    "subjectName": "四猿外",
+    "homeUrl": "/subjects/426740"
+  },
+  {
+    "title": "生产力工具",
+    "description": "生产力工具\"当下什么才是最重要的?\"\"是时间, 我加了时间  \"省下时间才能做更多事情, 所以提高生产力才是王道啊! 文章内容均来自本人真实体验和观点, 分享一些我常用的生产力工具...",
+    "votes": "17",
+    "url": "/k/ltecz1p",
+    "avatar": "https://img.toutiao.io/subject%2F7da7214a1ebe414897d592f73fea92c8",
+    "avatarAlt": "AllenNote - 独家号",
+    "subjectName": "AllenNote",
+    "homeUrl": "/subjects/453393"
+  },
+  {
+    "title": "你在教我做事啊？Mac 节约生命的使用方法",
+    "description": "1、阅读本文预计需要 7 分钟，并提供了资源下载。2、本文是「电脑爱好者」专题C10篇的首次更新。3、第一时间获取更新，欢迎关注「奔跑中的奶酪」。 导读 对于习惯 Windows ...",
+    "votes": "11",
+    "url": "/k/ptpyv1n",
+    "avatar": "https://img.toutiao.io/subject%2Fdd437c8fe19542088ec51e69a79c158c",
+    "avatarAlt": "最佳实践 - 独家号",
+    "subjectName": "最佳实践",
+    "homeUrl": "/subjects/72425"
+  },
+  {
+    "title": "广告系统架构解密",
+    "description": "博客园 x 丝芙兰 , build 更美的你广告、增值服务、佣金，是互联网企业最常见的三种盈利手段。在这3大经典中，又以广告所占的市场份额最大，几乎是绝大部分互联网平台最主要的营收...",
+    "votes": "12",
+    "url": "/k/3ydgnwy",
+    "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
+  },
+  {
+    "title": "年轻人不讲武德，乱用索引，你到底走了多少弯路？",
+    "description": "前言 继上一篇《explain | 索引优化的这把绝世好剑，你真的会用吗？》之后，本篇是索引相关的第2篇文章。上一篇重点介绍的是使用explain执行计划查看索引执行情况，以便于快...",
+    "votes": "17",
+    "url": "/k/ipqw7m5",
+    "avatar": "https://img.toutiao.io/subject%2F0aae3536b7d44492b1974b1077394f7d",
+    "avatarAlt": "苏三说技术 - 独家号",
+    "subjectName": "苏三说技术",
+    "homeUrl": "/subjects/453205"
+  },
+  {
+    "title": "求你了，别再随便打日志了，教你动态修改日志级别",
+    "description": "GitHub 17k Star 的Java工程师成神之路，不来了解一下吗！ 之前写过一篇文章《明明有自动清理，日志还是把我的服务干爆了！》，介绍过一次大促故障，是因为日志量激增，导...",
+    "votes": "24",
+    "url": "/k/8bity1f",
+    "avatar": "https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e",
+    "avatarAlt": "JAVA干货 - 独家号",
+    "subjectName": "JAVA干货",
+    "homeUrl": "/subjects/51515"
+  },
+  {
+    "title": "性能提高 15 倍！只是把 MySQL 换成了 ClickHouse",
+    "description": "简介我们需要存储结构化时序数据，时间间隔为5分钟或1分钟，计算95峰值、995峰值、最值等指标，并且在网页中展示。MySQL项目开发初期，为了快速开发原型，验证产品，我们使用MyS...",
+    "votes": "15",
+    "url": "/k/221a7sh",
+    "avatar": "https://img.toutiao.io/subject%2Fe466711b0e584426bfa3e3bd8bccbe01",
+    "avatarAlt": "机器学习与系统 - 独家号",
+    "subjectName": "机器学习与系统",
+    "homeUrl": "/subjects/412364"
+  },
+  {
+    "title": "大话后端开发的奇淫技巧（二）",
+    "description": "从事服务端工作，已经有大几年了，从懵懂的小菜鸡，成长为可以自由飞翔的秃鹰，那些逝去青春和的头发见证了自己的成长或许，这就是高手的应该有样子吧这里将会把类似的问题/业务场景的解决方案...",
+    "votes": "12",
+    "url": "/k/7eacn7b",
+    "avatar": "https://img.toutiao.io/subject%2F4b2efdbeb33b4013afbc8609a6c09b87",
+    "avatarAlt": "大话WEB开发 - 独家号",
+    "subjectName": "大话WEB开发",
+    "homeUrl": "/subjects/93719"
+  },
+  {
+    "title": "终于明白了，一文彻底理解 I/O 多路复用",
+    "description": "本篇是高性能、高并发系列的第三篇，承接上文《读取文件时程序经历了什么》，在讲解了进程、线程以及I/O后，我们来到了高并发中又一关键技术，即I/O多路复用。在讲解该技术之前，我们需要...",
+    "votes": "11",
+    "url": "/k/8c12y1i",
+    "avatar": "https://img.toutiao.io/subject%2Fdb1c6bd2f712426fb485a625edaa803d",
+    "avatarAlt": "php饭米粒 - 独家号",
+    "subjectName": "php饭米粒",
+    "homeUrl": "/subjects/56197"
+  },
+  {
+    "title": "关于中台的思考和尝试",
+    "description": "这周末在QCon上海做关于架构师的独立思考的主题演讲， 其中用中台做案例。 因为演讲时间有限， 关于中台的思考没办法讲得非常透彻， 这里就多花时间描述一下， 做为补充。也期望能与大...",
+    "votes": "15",
+    "url": "/k/t4shd8f",
+    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
+    "avatarAlt": "ASCE1885 - 独家号",
+    "subjectName": "ASCE1885",
+    "homeUrl": "/subjects/4829"
+  },
+  {
+    "title": "HTTP/2 做错了什么？刚刚辉煌 2 年就要被弃用了！？",
+    "description": "GitHub 17k Star 的Java工程师成神之路，不来了解一下吗！ 最近一段时间以来，关于HTTP/3的新闻有很多，越来越多的国际大公司已经开始使用HTTP/3了。  所以...",
+    "votes": "28",
+    "url": "/k/v5mm32h",
+    "avatar": "https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e",
+    "avatarAlt": "JAVA干货 - 独家号",
+    "subjectName": "JAVA干货",
+    "homeUrl": "/subjects/51515"
+  },
+  {
+    "title": "爱奇艺微服务标准技术架构实践",
+    "description": "为数以亿计的用户提供优质的视频服务的爱奇艺技术产品团队，为了适应业务的快速迭代和创新，并支撑海量的用户请求，很多团队都对各自的业务系统自发地进行了微服务架构的改造。在微服务化的过程...",
+    "votes": "6",
+    "url": "/k/nm97hxh",
+    "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
+    "avatarAlt": "进击的程序猿 - 独家号",
+    "subjectName": "进击的程序猿",
+    "homeUrl": "/subjects/24912"
+  },
+  {
+    "title": "常见算法模版总结（二）",
+    "description": "怪化猫本次233酱介绍下单调栈、单调队列、并查集、KMP算法，欢迎交流指正～单调栈「单调栈」首先是一种基于栈的数据结构，只不过通过栈来维护的是单调递增或单调递减的数据。入栈和出栈都...",
+    "votes": "7",
+    "url": "/k/s66geea",
+    "avatar": "https://img.toutiao.io/subject%2F32c4a1da247d4118bdf21bd8017cfebb",
+    "avatarAlt": "233酱的公众号：码农知识点 - 独家号",
+    "subjectName": "233酱的公众号：码农知识点",
+    "homeUrl": "/subjects/445783"
+  }
+]

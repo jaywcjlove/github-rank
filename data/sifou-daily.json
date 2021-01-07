@@ -1,0 +1,263 @@
+[
+  {
+    "title": "纵观 Excel 演化史，开发者如何通过“表格技术”提升企业生产力",
+    "description": "不仅仅是数据存储，团队中的信息共享也需依赖于表格这一数据结构。文档、报告、凭证以及基础数据的汇总计算，大部分是在表格的形式中完成分析与决策的。即便表格的应用场景已经十分广泛，但随着业务的发展，用户...",
+    "url": "https://segmentfault.com/a/1190000038838303",
+    "author": "阿遂_Asui",
+    "home_url": "https://segmentfault.com/u/weepie",
+    "votes": "12",
+    "rank": 1
+  },
+  {
+    "title": "forEach跳出循环体",
+    "description": "在forEach中，不能使用 continue 和 break ，可以使用 return 或 return false 跳出循环，效果与 for 中 continue 一样。注意该方法无法一次结束所有循环。",
+    "url": "https://segmentfault.com/a/1190000038854657",
+    "author": "浅夏晴空",
+    "home_url": "https://segmentfault.com/u/qianxiaqingkong",
+    "votes": "6",
+    "rank": 2
+  },
+  {
+    "title": "天才黑客 Flanker 疑因拒绝「信息犯罪」，被拼多多开除错失上亿股票",
+    "description": "近日，拼多多被曝光在员工即将可以拿到股票时将其开除，这位被开除的人还大有来头，是前拼多多安全团队老大，也是 15岁上浙大、22 岁获得世界黑客大赛冠军的天才黑客 Flanker。",
+    "url": "https://segmentfault.com/a/1190000038847911",
+    "author": "宗恩",
+    "home_url": "https://segmentfault.com/u/yzn",
+    "votes": "6",
+    "rank": 3
+  },
+  {
+    "title": "android上实现0.5px线条",
+    "description": "由于安卓手机无法识别border: 0.5px，因此我们要用0.5px的话必须要借助css3中的-webkit-transform:scale缩放来实现。",
+    "url": "https://segmentfault.com/a/1190000038854589",
+    "author": "浅夏晴空",
+    "home_url": "https://segmentfault.com/u/qianxiaqingkong",
+    "votes": "3",
+    "rank": 4
+  },
+  {
+    "title": "Vue3.0面试题",
+    "description": "Vue为MVVM框架，当数据模型data变化时，页面视图会得到响应更新，其原理对data的getter/setter方法进行拦截（Object.defineProperty或者Proxy），利用发布订阅的设计模式，在getter方法中进行订阅，在setter方法...",
+    "url": "https://segmentfault.com/a/1190000038848131",
+    "author": "亲爱的阿乾",
+    "home_url": "https://segmentfault.com/u/woshiyigezifuchuan",
+    "votes": "4",
+    "rank": 5
+  },
+  {
+    "title": "14 年征程，ECUG 有这样一群初心不改的技术人",
+    "description": "14 年前的 2007，你在哪里？在做什么？看姚明、听周杰伦、等奥运？读书考试、初入职场、混沌度日？2007 年好像离我们很远，但总有人在十四年的时光中，坚持坚守，初心不变。",
+    "url": "https://segmentfault.com/a/1190000038848433",
+    "author": "芒果果",
+    "home_url": "https://segmentfault.com/u/wangying_5ea4fb9de961c",
+    "votes": "4",
+    "rank": 6
+  },
+  {
+    "title": "Fit 健身 APP 与 HarmonyOS 创新合作，打造全新在线健身体验",
+    "description": "如今，繁忙的工作抽干了大部分都市人的生活时间，拼命工作之余，如何选择健康的生活方式越来越受到打工人的重视，除了夜跑、去健身房锻炼之外，借助健身应用在家健身成为新的运动方式。 在众多健身应用中，Fit 私...",
+    "url": "https://segmentfault.com/a/1190000038852790",
+    "author": "思否编辑部",
+    "home_url": "https://segmentfault.com/u/writers",
+    "votes": "2",
+    "rank": 7
+  },
+  {
+    "title": "介绍两种 CSS 方法论",
+    "description": "说起 CSS 命名规范，大家应该都很熟悉，或者应该听说过 BEM 。BEM 是由 Yandex 团队提出的一种 CSS Class 命名方法，旨在帮助开发人员创建更好的且结构一致的 CSS 模块。",
+    "url": "https://segmentfault.com/a/1190000038838730",
+    "author": "Shenfq",
+    "home_url": "https://segmentfault.com/u/shenfq",
+    "votes": "4",
+    "rank": 8
+  },
+  {
+    "title": "前端异常监控 Sentry 的私有化部署和使用",
+    "description": "Sentry 为一套开源的应用监控和错误追踪的解决方案。这套解决方案由对应各种语言的 SDK 和一套庞大的数据后台服务组成。应用需要通过与之绑定的 token 接入 Sentry SDK 完成数据上报的配置。通过 Sentry SDK 的配...",
+    "url": "https://segmentfault.com/a/1190000038839629",
+    "author": "智联大前端",
+    "home_url": "https://segmentfault.com/u/zpfe",
+    "votes": "8",
+    "rank": 9
+  },
+  {
+    "title": "Swoole v4.6.0 版本发布，支持原生 curl 协程客户端",
+    "description": "Swoole v4.6.0 版本发布了，同样也是 2021 年的首个版本更新。作为一个 y 版本发布，此次更新也包含了不兼容的修改以及许多的新功能，下面就来看一看都有哪些改动？向下不兼容改动从 v4.6.0 版本开始将不再支持 P...",
+    "url": "https://segmentfault.com/a/1190000038848791",
+    "author": "沈唁",
+    "home_url": "https://segmentfault.com/u/sy_records",
+    "votes": "2",
+    "rank": 10
+  },
+  {
+    "title": "TypeScript与React中如何使用ref",
+    "description": "父组件在父组件中，编写如下：类中定义child,用于存放子组件的作用域 {代码...} 绑定子组件作用域 {代码...} 子组件上绑定ref {代码...} onRef 绑定this(第3步，不使用箭头函数的情况) {代码...} 子组件在子组件...",
+    "url": "https://segmentfault.com/a/1190000038852949",
+    "author": "浅夏晴空",
+    "home_url": "https://segmentfault.com/u/qianxiaqingkong",
+    "votes": "2",
+    "rank": 11
+  },
+  {
+    "title": "聊聊风口上的 eBPF",
+    "description": "eBPF 是一个用于访问 Linux 内核服务和硬件的新技术，由于其灵活性和高性能等特点，被迅速用于网络、出错、跟踪以及防火墙等多场景。目前国内已有少数企业开始尝试将 eBPF 引入生产实践，又拍云也是其中一个。专...",
+    "url": "https://segmentfault.com/a/1190000038839573",
+    "author": "云叔_又拍云",
+    "home_url": "https://segmentfault.com/u/yunshu_blog",
+    "votes": "3",
+    "rank": 12
+  },
+  {
+    "title": "node中使用shell脚本",
+    "description": "背景在开发中我们在特定的场合下可能需要一些脚本来批量处理我们的业务逻辑，在nodejs如何调用shell脚本呢？新建项目下新建脚本文件touch newFile.sh修改文件权限chmod 777 newFile.sh 修改文件为可读可写可执行n...",
+    "url": "https://segmentfault.com/a/1190000038842643",
+    "author": "浅夏晴空",
+    "home_url": "https://segmentfault.com/u/qianxiaqingkong",
+    "votes": "3",
+    "rank": 13
+  },
+  {
+    "title": "不用「拉人头」，营销活动这样办，大家当然会踊跃参加",
+    "description": "今时今日，「流量」意味着一切……只要你能引来足够大的流量，无论是产品推广或是直播带货，这种事情做起来简直就是小菜一碟。然而对于企业营销人员来说，最惨的事情莫过于辛辛苦苦规划并举办的营销活动，到最后无...",
+    "url": "https://segmentfault.com/a/1190000038853636",
+    "author": "AWS_AI开发者社区",
+    "home_url": "https://segmentfault.com/u/aws_aidevcommunity",
+    "votes": "1",
+    "rank": 14
+  },
+  {
+    "title": "揭秘QUIC的性能与安全",
+    "description": "在当代网络通讯中，高速且安全的网络接入服务已为互联网厂商的共同追求。针对传统的TCP + TLS的安全互联网服务，在各大头部互联网厂商中反响激烈，如google有提出各种升级和补丁方案，例如TCP fastopen, TLS1.3等...",
+    "url": "https://segmentfault.com/a/1190000038852325",
+    "author": "OPPO互联网技术",
+    "home_url": "https://segmentfault.com/u/oppo_internet_tech",
+    "votes": "1",
+    "rank": 15
+  },
+  {
+    "title": "阿里云技术专家解读：2021 年六大容器技术发展趋势",
+    "description": "2020 终于过去。在这一年，特殊的环境让企业的生存和发展充满着不确定性。在持续应对由变化带来的挑战过程中，数字化创新能力对于企业来说似乎比以往任何时候都更加重要。",
+    "url": "https://segmentfault.com/a/1190000038847827",
+    "author": "阿里巴巴云原生",
+    "home_url": "https://segmentfault.com/u/alixitongruanjianjishu",
+    "votes": "1",
+    "rank": 16
+  },
+  {
+    "title": "ES6 新特征之Symbol",
+    "description": "ES6 中除了 JavaScript 中几种基本的数据类型，Number 、String、Boolean、Object、null、undefined 以外，还新引入了一种新的原始数据类型 Symbol，表示独一无二的值，属于类字符串数据类型，可以用来定义对象的...",
+    "url": "https://segmentfault.com/a/1190000038845481",
+    "author": "知否",
+    "home_url": "https://segmentfault.com/u/zhifou_5cf8bb7bcc249",
+    "votes": "1",
+    "rank": 17
+  },
+  {
+    "title": "审计 Linux 系统的操作行为的 5 种方案对比",
+    "description": "很多时候我们为了安全审计或者故障跟踪排错，可能会记录分析主机系统的操作行为。比如在系统中新增了一个用户，修改了一个文件名，或者执行了一些命令等等，理论上记录的越详细, 越有利于审计和排错的目的。不过...",
+    "url": "https://segmentfault.com/a/1190000038842943",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "2",
+    "rank": 18
+  },
+  {
+    "title": "【每日一荐月刊】2020-12",
+    "description": "每天给你推荐一个新奇，好玩，高品质的开源库，好文，观点或言论等。项目主页维护当前月份的内容，想看往期内容，可以翻到下方历史汇总部分，然后选择自己感兴趣的月份点进去即可。在线阅读：[链接]电子书文件太...",
+    "url": "https://segmentfault.com/a/1190000038855080",
+    "author": "lucifer",
+    "home_url": "https://segmentfault.com/u/shuohaodeyixuene",
+    "votes": "1",
+    "rank": 19
+  },
+  {
+    "title": "一个SAP成都研究院开发工程师的2020年度总结：未知生，焉知死",
+    "description": "转眼间，又到了2020年末写年度总结的时候了。我一直觉得，对于像Jerry这样，年复一年整天两点一线，除了编程还是编程的程序员来说，年度总结可以增加一些生活的仪式感。",
+    "url": "https://segmentfault.com/a/1190000038844253",
+    "author": "JerryWang_汪子熙",
+    "home_url": "https://segmentfault.com/u/jerrywangsap",
+    "votes": "1",
+    "rank": 20
+  },
+  {
+    "title": "GitHub上的开源复刻：暗黑破坏神2",
+    "description": "该游戏上市的时候，国内个人家用电脑还没有那么普及，网络游戏也没有那么风靡，现在的孩子可能无法想象，那时候网吧里的很多人都是在玩这款单机游戏！",
+    "url": "https://segmentfault.com/a/1190000038839567",
+    "author": "程序猿DD",
+    "home_url": "https://segmentfault.com/u/coderdd",
+    "votes": "2",
+    "rank": 21
+  },
+  {
+    "title": "使用 R8 压缩您的应用",
+    "description": "人们更倾向于安装并保留较小和安装占用空间更小的应用，在新兴市场中尤为明显。有了 R8 编译器，您可以通过压缩、混淆和优化，更全面的缩小应用体积。",
+    "url": "https://segmentfault.com/a/1190000038843537",
+    "author": "Android开发者",
+    "home_url": "https://segmentfault.com/u/androiddevs",
+    "votes": "1",
+    "rank": 22
+  },
+  {
+    "title": "如何在Spring Boot项目中集成微信支付V3",
+    "description": "Payment Spring Boot 是微信支付V3的Java实现，仅仅依赖Spring内置的一些类库。配置简单方便，可以让开发者快速为Spring Boot应用接入微信支付。",
+    "url": "https://segmentfault.com/a/1190000038838537",
+    "author": "码农小胖哥",
+    "home_url": "https://segmentfault.com/u/10000000",
+    "votes": "2",
+    "rank": 23
+  },
+  {
+    "title": "js 去除字符串中的html标签",
+    "description": "1.去除字符串中的html标签 {代码...} 记录一些js的小方法， 持续更新...",
+    "url": "https://segmentfault.com/a/1190000038852566",
+    "author": "ayanamirei0",
+    "home_url": "https://segmentfault.com/u/ayanamirei0",
+    "votes": "1",
+    "rank": 24
+  },
+  {
+    "title": "从代码到部署微服务实战（一）",
+    "description": "当前微服务已经成为服务端开发的主流架构，而Go语言因其简单易学、内置高并发、快速编译、占用内存小等特点也越来越受到开发者的青睐，微服务实战系列文章将从实战的角度和大家一起学习微服务相关的知识。本系列...",
+    "url": "https://segmentfault.com/a/1190000038837401",
+    "author": "kevinwan",
+    "home_url": "https://segmentfault.com/u/kevinwan",
+    "votes": "2",
+    "rank": 25
+  },
+  {
+    "title": "2020年一线互联网大厂最喜欢问的22道spring boot面试题，你竟然还不会！",
+    "description": "Spring Boot 面试题1、什么是 Spring Boot？2、Spring Boot 有哪些优点？3、什么是 JavaConfig？4、如何重新加载 Spring Boot 上的更改，而无需重新启动服务器？5、Spring Boot 中的监视器是什么？6、如何在 Spri...",
+    "url": "https://segmentfault.com/a/1190000038847627",
+    "author": "Java攻城师",
+    "home_url": "https://segmentfault.com/u/javagongchengshi_5fa8ea3fc325a",
+    "votes": "1",
+    "rank": 26
+  },
+  {
+    "title": "京东面试：说说MySQL的架构体系",
+    "description": "关注“Java后端技术全栈”回复“面试”获取全套面试资料字数：3620，阅读耗时：4分35秒最近群里一位兄弟在面试中被问到：「MySQL的架构体系是什么」。虽然他搞java开发好几年了，也一直使用的是MySQL数据库，但是面...",
+    "url": "https://segmentfault.com/a/1190000038844134",
+    "author": "田维常",
+    "home_url": "https://segmentfault.com/u/javahouduanjishuquanzhan",
+    "votes": "1",
+    "rank": 27
+  },
+  {
+    "title": "Python 入门系列 —— 18. Tuple 的 CURD 操作",
+    "description": "访问 tuple可以使用 index 的方式对 tuple 进行访问,比如下面访问 tuple 中的第二个元素。 {代码...} 负数 index负数索引意味着从后往前计算，比如说： -1 表示最后一项， -2 表示倒数第二项，代码如下： {代码.....",
+    "url": "https://segmentfault.com/a/1190000038843085",
+    "author": "一线码农",
+    "home_url": "https://segmentfault.com/u/huangxincheng",
+    "votes": "1",
+    "rank": 28
+  },
+  {
+    "title": "Python 入门系列 —— 17. tuple 简介",
+    "description": "tuple 常用来将多个 item 放在一个变量中，同时tuple也是python 4个集合类型之一，其他的三个是：List,Set,Dictionary，它们都有自己的用途和场景。",
+    "url": "https://segmentfault.com/a/1190000038843003",
+    "author": "一线码农",
+    "home_url": "https://segmentfault.com/u/huangxincheng",
+    "votes": "1",
+    "rank": 29
+  }
+]

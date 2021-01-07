@@ -1,0 +1,252 @@
+[
+  {
+    "title": "一篇教会你写 90% 的 Shell 脚本",
+    "description": "shell是外壳的意思，就是操作系统的外壳。我们可以通过shell命令来操作和控制操作系统，比如Linux中的Shell命令就包括ls、cd、pwd等等。总结来说，Shell是一个...",
+    "votes": "39",
+    "url": "/k/l216gug",
+    "avatar": "https://img.toutiao.io/subject%2F7950b62a884849aaaa2c7d9fb03f3051",
+    "avatarAlt": "大前端&机器学习 - 独家号",
+    "subjectName": "大前端&机器学习",
+    "homeUrl": "/subjects/7076"
+  },
+  {
+    "title": "漫画：一台 Linux 服务器最多能支撑多少个 TCP 连接？",
+    "description": "困惑很多人的并发问题 在网络开发中，我发现有很多同学对一个基础问题始终是没有彻底搞明白。那就是一台服务器最大究竟能支持多少个网络连接？我想我有必要单独发一篇文章来好好说一下这个问题...",
+    "votes": "35",
+    "url": "/k/7fcauc4",
+    "avatar": "https://img.toutiao.io/subject%2Fdb1c6bd2f712426fb485a625edaa803d",
+    "avatarAlt": "php饭米粒 - 独家号",
+    "subjectName": "php饭米粒",
+    "homeUrl": "/subjects/56197"
+  },
+  {
+    "title": "阿里终面：分布式事务原理",
+    "description": "本文提纲如下前言单数据源事务 & 多数据源事务常见分布式事务解决方案2.1. 分布式事务模型2.2. 二将军问题和幂等性2.3. 两阶段提交（2PC） & 三阶段提交（3PC）方案...",
+    "votes": "12",
+    "url": "/k/vunm1k6",
+    "avatar": "https://img.toutiao.io/subject%2F8e12ef64799649acbfd936883ef16c3c",
+    "avatarAlt": "服务架构及中台 - 独家号",
+    "subjectName": "服务架构及中台",
+    "homeUrl": "/subjects/26578"
+  },
+  {
+    "title": "硬核 Redis 总结，看这篇就够了",
+    "description": "高清思维导图已同步Git：https://github.com/SoWhat1412/xmindfile总感觉哪里不对，但是又说不上来1、基本类型及底层实现 1.1、String ...",
+    "votes": "26",
+    "url": "/k/z01bcz5",
+    "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
+    "avatarAlt": "进击的程序猿 - 独家号",
+    "subjectName": "进击的程序猿",
+    "homeUrl": "/subjects/24912"
+  },
+  {
+    "title": "理解完这些基本上能解决面试中 MySQL 的事务问题",
+    "description": "欢迎关注公众号【Ccww技术博客】，原创技术文章第一时间推出越努力，越幸运，本文已收藏在GitHub中JavaCommunity, 里面有面试分享、源码分析系列文章，欢迎收藏，点赞...",
+    "votes": "18",
+    "url": "/k/szxq5t8",
+    "avatar": "https://img.toutiao.io/subject%2F36ba6cca33c74069b0141b60a64963b8",
+    "avatarAlt": "Ccww架构之旅 - 独家号",
+    "subjectName": "Ccww架构之旅",
+    "homeUrl": "/subjects/367406"
+  },
+  {
+    "title": "从面试角度一文学完 Kafka",
+    "description": "Kafka 是一个优秀的分布式消息中间件，许多系统中都会使用到 Kafka 来做消息通信。对分布式消息系统的了解和使用几乎成为一个后台开发人员必备的技能。今天码哥字节就从常见的 K...",
+    "votes": "13",
+    "url": "/k/ugyvu7i",
+    "avatar": "https://img.toutiao.io/subject%2Fdd437c8fe19542088ec51e69a79c158c",
+    "avatarAlt": "最佳实践 - 独家号",
+    "subjectName": "最佳实践",
+    "homeUrl": "/subjects/72425"
+  },
+  {
+    "title": "MySQL 索引知识点总结",
+    "description": "作者：fanili，腾讯 WXG 后台开发工程师知其然知其所以然！本文介绍索引的数据结构、查找算法、常见的索引概念和索引失效场景。什么是索引？ 在关系数据库中，索引是一种单独的、物...",
+    "votes": "23",
+    "url": "/k/u9plzvk",
+    "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
+    "avatarAlt": "进击的程序猿 - 独家号",
+    "subjectName": "进击的程序猿",
+    "homeUrl": "/subjects/24912"
+  },
+  {
+    "title": "美团 Commit Log 规范",
+    "description": "一、背景 Git每次提交代码都需要写commit message，一般来说，commit message应该清晰明了，说明本次提交的目的，具体做了什么操作等。但是在日常开发中，开发...",
+    "votes": "19",
+    "url": "/k/r6tsfdv",
+    "avatar": "https://img.toutiao.io/subject%2Fea8976fb047b483dacc34fd01e51d47e",
+    "avatarAlt": "Java研发 - 独家号",
+    "subjectName": "Java研发",
+    "homeUrl": "/subjects/2079"
+  },
+  {
+    "title": "架构师之路：微服务技术选型",
+    "description": "作为一名架构师，需要规划产品技术路线，负责技术选型。而技术栈选型主要参考以下几个标准：安全稳定，不能经常被爆出安全漏洞开源社区活跃度，加入Apache的组件优先考虑一线互联网公司落...",
+    "votes": "15",
+    "url": "/k/bxvxty9",
+    "avatar": "https://img.toutiao.io/subject%2F51ad25ebdf8b4a15895a07d5bce2b1e4",
+    "avatarAlt": "JAVA日知录 - 独家号",
+    "subjectName": "JAVA日知录",
+    "homeUrl": "/subjects/205182"
+  },
+  {
+    "title": "Java 开发人员必知的常用类库，这些你都知道吗？",
+    "description": "作为一名程序员，我们要避免重复发明轮子，尽可能使用一些成熟、优秀、稳定的的第三方库，站在巨人的肩膀上搭建可靠、稳定的系统。本篇我整理了Java开发人员经常会使用到的第三方类库，可能...",
+    "votes": "19",
+    "url": "/k/rxo1rll",
+    "avatar": "https://img.toutiao.io/subject%2F1c73154dc104436babf48224a6ed1626",
+    "avatarAlt": "Java实战技术 - 独家号",
+    "subjectName": "Java实战技术",
+    "homeUrl": "/subjects/22887"
+  },
+  {
+    "title": "MySQL 优化神器",
+    "description": "前言 ❝ 今天逛github时，发现了这款对 SQL 进行优化和改写的自动化工具sora。感觉挺不错的，就下载学习了一下。这个工具支持的功能比较多，可以作为我们日常开发中的一款辅助...",
+    "votes": "11",
+    "url": "/k/qg5adh5",
+    "avatar": "https://img.toutiao.io/subject%2F967329410fda4a55b2bf84673d48ebfe",
+    "avatarAlt": "asong2020 - 独家号",
+    "subjectName": "asong2020",
+    "homeUrl": "/subjects/447978"
+  },
+  {
+    "title": "一个技术总监的忠告：精通那么多技术，你为何还是受不到重用？",
+    "description": "这篇文章我们继续说架构师大刘的故事：老田升职了，年薪涨到了百万级别！这是大刘在加班搞技术攻坚的时候，听别的同事聊了那么一嘴。大刘心里不是滋味儿。老田和大刘其实在这家公司之前就是同事...",
+    "votes": "31",
+    "url": "/k/gk7ay10",
+    "avatar": "https://img.toutiao.io/subject%2F180d026f85274c998656474cd1988d0f",
+    "avatarAlt": "四猿外 - 独家号",
+    "subjectName": "四猿外",
+    "homeUrl": "/subjects/426740"
+  },
+  {
+    "title": "《我想进大厂》之 JVM 夺命连环 10 问",
+    "description": "（给ImportNew加星标，提高Java技能）作者： 科技缪缪（本文来自作者投稿）1. 说说 JVM 的内存布局？Java 虚拟机主要包含几个区域：堆：堆是 Java 虚拟机中最...",
+    "votes": "16",
+    "url": "/k/swi8lo6",
+    "avatar": "https://img.toutiao.io/subject%2Fd9b0b833d7e44d38b958e8a6003d36b4",
+    "avatarAlt": "浪客用react,java全栈 - 独家号",
+    "subjectName": "浪客用react,java全栈",
+    "homeUrl": "/subjects/132403"
+  },
+  {
+    "title": "这些开源项目，让你轻松应对十大工作场景",
+    "description": "俗话说得好，工欲善其事必先利其器。本文阿宝哥将介绍一些优秀的开源项目，利用这些开源项目，你将能能轻松应对以下十个工作场景：文件上传、图片处理、文档处理、网络请求、数据存储、微前端、...",
+    "votes": "9",
+    "url": "/k/wpo96pp",
+    "avatar": "https://img.toutiao.io/subject%2F9cd866310cd142e1bfd7caf648a0f2cd",
+    "avatarAlt": "全栈修仙之路 - 独家号",
+    "subjectName": "全栈修仙之路",
+    "homeUrl": "/subjects/219103"
+  },
+  {
+    "title": "分布式一致性协议 Raft",
+    "description": "学习raft之前，给大家推荐一个网站，这个网站动画描述raft运行过程。在看文章时对照该网站，可以帮助更好的理解raft。http://thesecretlivesofdata.c...",
+    "votes": "14",
+    "url": "/k/xydtpak",
+    "avatar": "https://img.toutiao.io/subject%2Fe869abb8b126449695234f519888025d",
+    "avatarAlt": "并发笔记 - 独家号",
+    "subjectName": "并发笔记",
+    "homeUrl": "/subjects/395621"
+  },
+  {
+    "title": "工程师职级胜任力框架",
+    "description": " 一、前言尽管这些年国内的IT行业发展迅速，但是仍然欠缺一套比较综合性的面向工程师的职级胜任力框架，造成国内很多工程师大都一心只想成为技术大牛，而忽视了自己全方位的工程师职业素养和...",
+    "votes": "21",
+    "url": "/k/rxxemhb",
+    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
+    "avatarAlt": "ASCE1885 - 独家号",
+    "subjectName": "ASCE1885",
+    "homeUrl": "/subjects/4829"
+  },
+  {
+    "title": "面试官：如何写出让 CPU 跑得更快的代码？",
+    "description": "前言代码都是由 CPU 跑起来的，我们代码写的好与坏就决定了 CPU 的执行效率，特别是在编写计算密集型的程序，更要注重 CPU 的执行效率，否则将会大大影响系统性能。CPU 内部...",
+    "votes": "18",
+    "url": "/k/l6chi61",
+    "avatar": "https://img.toutiao.io/subject%2Fdd437c8fe19542088ec51e69a79c158c",
+    "avatarAlt": "最佳实践 - 独家号",
+    "subjectName": "最佳实践",
+    "homeUrl": "/subjects/72425"
+  },
+  {
+    "title": "万字 Java 知识地图助你成为 Offer 收割机",
+    "description": "点击关注\"爱笑的架构师\"右上角\"设为星标\"好文章送达比别人快最近很多读者在问：Java 怎么学习啊？有没有什么学习路线？我相信这些读者或多或少都有一些 Java 基础，但由于看不到...",
+    "votes": "8",
+    "url": "/k/sdna90o",
+    "avatar": "https://img.toutiao.io/subject%2F374071a9593e473c9f625a613d130218",
+    "avatarAlt": "爱笑的架构师 - 独家号",
+    "subjectName": "爱笑的架构师",
+    "homeUrl": "/subjects/450130"
+  },
+  {
+    "title": "Docker 底层原理浅析",
+    "description": "作者：vitovzhong，腾讯 TEG 应用开发工程师容器的实质是进程，与宿主机上的其他进程是共用一个内核，但与直接在宿主机执行的进程不同，容器进程运行在属于自己的独立的命名空间...",
+    "votes": "12",
+    "url": "/k/nvbge2t",
+    "avatar": "https://img.toutiao.io/user/b618677591aa49b3972ece0c7d26b473/thumb",
+    "avatarAlt": "数据淘金 - 独家号",
+    "subjectName": "数据淘金",
+    "homeUrl": "/subjects/120437"
+  },
+  {
+    "title": "好的自我介绍，面试成功一大半",
+    "description": "大家好，我是Z哥。关于面试时的自我介绍，我想大家遇到的情况都差不多，大部分面试的第一个环节基本都是这个。每个人也都知道留下好的第一印象很重要，但我估计很多人对这件事的解决方式，也就...",
+    "votes": "15",
+    "url": "/k/lpyu6km",
+    "avatar": "https://img.toutiao.io/subject%2Fc992e775e6344583abd8a49f632b3e13",
+    "avatarAlt": "跨界架构师 - 独家号",
+    "subjectName": "跨界架构师",
+    "homeUrl": "/subjects/268968"
+  },
+  {
+    "title": "面试官：你说说互斥锁、自旋锁、读写锁、悲观锁、乐观锁的应用场景",
+    "description": "（给数据分析与开发加星标，提升数据技能）  转自：小林Coding 前言 生活中用到的锁，用途都比较简单粗暴，上锁基本是为了防止外人进来、电动车被偷等等。 但生活中也不是没有 BU...",
+    "votes": "11",
+    "url": "/k/vhisgi9",
+    "avatar": "https://img.toutiao.io/subject%2Fad3da7db4aeb4924adba40f7036c43ee",
+    "avatarAlt": "老瘦家儿子 - 独家号",
+    "subjectName": "老瘦家儿子",
+    "homeUrl": "/subjects/102436"
+  },
+  {
+    "title": "分布式一致性协议：ZAB",
+    "description": "ZAB 背景学习ZAB，非常有必要聊聊它诞生的背景。因为在paxos的光芒下，还有必要折腾这样类似的算法吗？这个问题是我们初步了解ZAB关键。看到这里，我断定大家都使用过zooke...",
+    "votes": "7",
+    "url": "/k/r6571za",
+    "avatar": "https://img.toutiao.io/subject%2Fe869abb8b126449695234f519888025d",
+    "avatarAlt": "并发笔记 - 独家号",
+    "subjectName": "并发笔记",
+    "homeUrl": "/subjects/395621"
+  },
+  {
+    "title": "高并发高性能服务器是如何实现的",
+    "description": "当在读这篇文章的时候，你有没有想过，服务器是怎么把这篇文章发送给你的呢？ 说简单也简单，不就是一个用户请求吗？服务器根据请求从数据库中捞出这篇文章，然后通过网络发回去。 说复杂也复...",
+    "votes": "16",
+    "url": "/k/e3xq8ad",
+    "avatar": "https://img.toutiao.io/user/b618677591aa49b3972ece0c7d26b473/thumb",
+    "avatarAlt": "数据淘金 - 独家号",
+    "subjectName": "数据淘金",
+    "homeUrl": "/subjects/120437"
+  },
+  {
+    "title": "分布式搜索引擎 Elasticsearch 的架构分析",
+    "description": "一、写在前面ES（Elasticsearch下文统一称为ES）越来越多的企业在业务场景是使用ES存储自己的非结构化数据，例如电商业务实现商品站内搜索，数据指标分析，日志分析等，ES...",
+    "votes": "11",
+    "url": "/k/j4aoyho",
+    "avatar": "https://img.toutiao.io/subject%2F8adc26cdcf7d45f4a73580f3be4285f2",
+    "avatarAlt": "vivo互联网技术 - 独家号",
+    "subjectName": "vivo互联网技术",
+    "homeUrl": "/subjects/392760"
+  },
+  {
+    "title": "程序员成为高级管理者的三次跃升",
+    "description": "▲ 点击上方\"pointers\"关注公众号  成长&认知 丨 作者 / 袁吴范 这是pointers公众号分享的第15篇原创文章 我的粉丝中很多人都跟我谈过他们的职业困惑，其中有一...",
+    "votes": "11",
+    "url": "/k/6y7eq6s",
+    "avatar": "https://img.toutiao.io/subject%2F2d6acb5e10d74d418b835f039664ab16",
+    "avatarAlt": "pointers - 独家号",
+    "subjectName": "pointers",
+    "homeUrl": "/subjects/451915"
+  }
+]
