@@ -1,21 +1,75 @@
 [
   {
+    "title": "从一个优秀开源项目来谈前端架构",
+    "description": "系统架构师是一个最终确认和评估系统需求，给出开发规范，搭建系统实现的核心构架，并澄清技术细节、扫清主要难点的技术人员。主要着眼于系统的“技术实现”。因此他/她应该是特定的开发平台、语言、工具的大师，对...",
+    "url": "https://segmentfault.com/a/1190000038876394",
+    "author": "Peter谭老师",
+    "home_url": "https://segmentfault.com/u/jerrytanjinjie",
+    "votes": "8",
+    "rank": 1
+  },
+  {
+    "title": "万字详解！Git 入门最佳实践",
+    "description": "Git 是一种分布式版本控制系统，它可以不受网络连接的限制，加上其它众多优点，目前已经成为程序开发人员做项目版本管理时的首选，非开发人员也可以用 Git 来做自己的文档版本管理工具。",
+    "url": "https://segmentfault.com/a/1190000038867025",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "18",
+    "rank": 2
+  },
+  {
     "title": "纵观 Excel 演化史，开发者如何通过“表格技术”提升企业生产力",
     "description": "不仅仅是数据存储，团队中的信息共享也需依赖于表格这一数据结构。文档、报告、凭证以及基础数据的汇总计算，大部分是在表格的形式中完成分析与决策的。即便表格的应用场景已经十分广泛，但随着业务的发展，用户...",
     "url": "https://segmentfault.com/a/1190000038838303",
     "author": "阿遂_Asui",
     "home_url": "https://segmentfault.com/u/weepie",
-    "votes": "12",
-    "rank": 1
+    "votes": "14",
+    "rank": 3
   },
   {
-    "title": "try..catch 不能捕获的错误有哪些？注意事项又有哪些？",
-    "description": "点赞再看，微信搜索【大迁世界】,B站关注【前端小智】这个没有大厂背景，但有着一股向上积极心态人。本文 GitHub [链接] 上已经收录，文章的已分类，也整理了很多我的文档，和教程资料。**",
-    "url": "https://segmentfault.com/a/1190000038245614",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "9",
-    "rank": 2
+    "title": "天才黑客 Flanker 疑因拒绝「信息犯罪」，被拼多多开除错失上亿股票",
+    "description": "近日，拼多多被曝光在员工即将可以拿到股票时将其开除，这位被开除的人还大有来头，是前拼多多安全团队老大，也是 15岁上浙大、22 岁获得世界黑客大赛冠军的天才黑客 Flanker。",
+    "url": "https://segmentfault.com/a/1190000038847911",
+    "author": "宗恩",
+    "home_url": "https://segmentfault.com/u/yzn",
+    "votes": "7",
+    "rank": 4
+  },
+  {
+    "title": "如何优雅的获取Form表单数据？",
+    "description": "先看一个简单的例子比如这里有一个简单的 form 表单 {代码...} 页面如下现在，随便输入点内容如果提交，表单会触发默认行为，直接以get方式提交到当前页可以看到这些参数正是我们输入的参数。表单的默认行为通常...",
+    "url": "https://segmentfault.com/a/1190000038877495",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "5",
+    "rank": 5
+  },
+  {
+    "title": "Fit 健身 APP 与 HarmonyOS 创新合作，打造全新在线健身体验",
+    "description": "如今，繁忙的工作抽干了大部分都市人的生活时间，拼命工作之余，如何选择健康的生活方式越来越受到打工人的重视，除了夜跑、去健身房锻炼之外，借助健身应用在家健身成为新的运动方式。 在众多健身应用中，Fit 私...",
+    "url": "https://segmentfault.com/a/1190000038852790",
+    "author": "思否编辑部",
+    "home_url": "https://segmentfault.com/u/writers",
+    "votes": "2",
+    "rank": 6
+  },
+  {
+    "title": "Vue3.0面试题",
+    "description": "Vue为MVVM框架，当数据模型data变化时，页面视图会得到响应更新，其原理对data的getter/setter方法进行拦截（Object.defineProperty或者Proxy），利用发布订阅的设计模式，在getter方法中进行订阅，在setter方法...",
+    "url": "https://segmentfault.com/a/1190000038848131",
+    "author": "亲爱的阿乾",
+    "home_url": "https://segmentfault.com/u/woshiyigezifuchuan",
+    "votes": "15",
+    "rank": 7
+  },
+  {
+    "title": "前端异常监控 Sentry 的私有化部署和使用",
+    "description": "Sentry 为一套开源的应用监控和错误追踪的解决方案。这套解决方案由对应各种语言的 SDK 和一套庞大的数据后台服务组成。应用需要通过与之绑定的 token 接入 Sentry SDK 完成数据上报的配置。通过 Sentry SDK 的配...",
+    "url": "https://segmentfault.com/a/1190000038839629",
+    "author": "智联大前端",
+    "home_url": "https://segmentfault.com/u/zpfe",
+    "votes": "12",
+    "rank": 8
   },
   {
     "title": "10个很棒的 JavaScript 字符串技巧",
@@ -23,8 +77,26 @@
     "url": "https://segmentfault.com/a/1190000038542256",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "18",
-    "rank": 3
+    "votes": "19",
+    "rank": 9
+  },
+  {
+    "title": "try..catch 不能捕获的错误有哪些？注意事项又有哪些？",
+    "description": "点赞再看，微信搜索【大迁世界】,B站关注【前端小智】这个没有大厂背景，但有着一股向上积极心态人。本文 GitHub [链接] 上已经收录，文章的已分类，也整理了很多我的文档，和教程资料。**",
+    "url": "https://segmentfault.com/a/1190000038245614",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "10",
+    "rank": 10
+  },
+  {
+    "title": "万恶的前端内存泄漏及万善的解决方案",
+    "description": "最近收到测试人员的反馈说我们开发的页面偶现卡死，点击无反应的情况，特别是打开页面较久的时候发生概率较高。打开任务管理器，看到内存占有率已经很高了，初步判断可能存在内存泄漏的情况。下面排查内存泄漏的...",
+    "url": "https://segmentfault.com/a/1190000038816646",
+    "author": "lzg9527",
+    "home_url": "https://segmentfault.com/u/michael_5c03399eed011",
+    "votes": "21",
+    "rank": 11
   },
   {
     "title": "为什么要用 setTimeout 模拟 setInterval ？",
@@ -32,8 +104,8 @@
     "url": "https://segmentfault.com/a/1190000038829248",
     "author": "张优秀",
     "home_url": "https://segmentfault.com/u/lengluo",
-    "votes": "9",
-    "rank": 4
+    "votes": "11",
+    "rank": 12
   },
   {
     "title": "从 re:Invent 看 AWS 对开源和社区的新贡献",
@@ -42,34 +114,25 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "17",
-    "rank": 5
+    "rank": 13
   },
   {
-    "title": "编写高质量 JS 变量的5种最佳做法",
-    "description": "点赞再看，微信搜索【大迁世界】,B站关注【前端小智】这个没有大厂背景，但有着一股向上积极心态人。本文 GitHub [链接] 上已经收录，文章的已分类，也整理了很多我的文档，和教程资料。",
-    "url": "https://segmentfault.com/a/1190000038372228",
+    "title": "理解JavaScript中的数据结构(链表)",
+    "description": "点赞再看，微信搜索【大迁世界】,B站关注【前端小智】这个没有大厂背景，但有着一股向上积极心态人。本文 GitHub [链接] 上已经收录，文章的已分类，也整理了很多我的文档，和教程资料。**",
+    "url": "https://segmentfault.com/a/1190000024565634",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "5",
-    "rank": 6
-  },
-  {
-    "title": "万恶的前端内存泄漏及万善的解决方案",
-    "description": "最近收到测试人员的反馈说我们开发的页面偶现卡死，点击无反应的情况，特别是打开页面较久的时候发生概率较高。打开任务管理器，看到内存占有率已经很高了，初步判断可能存在内存泄漏的情况。下面排查内存泄漏的...",
-    "url": "https://segmentfault.com/a/1190000038816646",
-    "author": "lzg9527",
-    "home_url": "https://segmentfault.com/u/michael_5c03399eed011",
-    "votes": "18",
-    "rank": 7
-  },
-  {
-    "title": "forEach跳出循环体",
-    "description": "在forEach中，不能使用 continue 和 break ，可以使用 return 或 return false 跳出循环，效果与 for 中 continue 一样。注意该方法无法一次结束所有循环。",
-    "url": "https://segmentfault.com/a/1190000038854657",
-    "author": "浅夏晴空",
-    "home_url": "https://segmentfault.com/u/qianxiaqingkong",
     "votes": "6",
-    "rank": 8
+    "rank": 14
+  },
+  {
+    "title": "工作都是公司的，技术才是自己的！| 底层技术人的2020年度总结",
+    "description": "昨日听闻某公司98年姑娘的噩耗，再结合自己的经历，深感：工作都是公司的，健康和技术这些才是自己的!拼命为资本打工，到头来不过是肥了资本家，苦了自己！愿天堂没有资本家的压榨!",
+    "url": "https://segmentfault.com/a/1190000038817904",
+    "author": "蒋鹏飞",
+    "home_url": "https://segmentfault.com/u/jiangpengfei_5ecce944a3d8a",
+    "votes": "19",
+    "rank": 15
   },
   {
     "title": "使用mono-repo实现跨项目组件共享",
@@ -77,98 +140,8 @@
     "url": "https://segmentfault.com/a/1190000038801642",
     "author": "蒋鹏飞",
     "home_url": "https://segmentfault.com/u/jiangpengfei_5ecce944a3d8a",
-    "votes": "25",
-    "rank": 9
-  },
-  {
-    "title": "SegmentFault 思否 2020 年度 Top Writer",
-    "description": "日新月异的技术革命，数字经济的新一轮爆发，背后是无数开发者夜以继日的付出。他们信奉技术力量，敢于技术创新，践行技术信仰，他们是技术先锋，探索改变世界的方向。",
-    "url": "https://segmentfault.com/a/1190000038796132",
-    "author": "SegmentFault",
-    "home_url": "https://segmentfault.com/u/segmentfault",
-    "votes": "19",
-    "rank": 10
-  },
-  {
-    "title": "天才黑客 Flanker 疑因拒绝「信息犯罪」，被拼多多开除错失上亿股票",
-    "description": "近日，拼多多被曝光在员工即将可以拿到股票时将其开除，这位被开除的人还大有来头，是前拼多多安全团队老大，也是 15岁上浙大、22 岁获得世界黑客大赛冠军的天才黑客 Flanker。",
-    "url": "https://segmentfault.com/a/1190000038847911",
-    "author": "宗恩",
-    "home_url": "https://segmentfault.com/u/yzn",
-    "votes": "6",
-    "rank": 11
-  },
-  {
-    "title": "谁说明天上线，这货压根不知道开发流程！",
-    "description": "互联网中一个项目的上线会需要各个工种间的配合，以研发为视角上会承接产品需求，下会交给测试验证，最终完成项目交付上线。其实除此之外，还会有业务、运营、UI设计、运维，来配合项目的发起、使用和运维维护。",
-    "url": "https://segmentfault.com/a/1190000038793048",
-    "author": "小傅哥",
-    "home_url": "https://segmentfault.com/u/fuzhengwei",
-    "votes": "23",
-    "rank": 12
-  },
-  {
-    "title": "web视频基础教程",
-    "description": "前言提到网页播放视频，大部分前端首先想到的肯定是: {代码...} 的确，一个简单的video标签就可以轻松实现视频播放功能但是，当视频的文件很大时，使用video的播放效果就不是很理想:播放不流畅(尤其在：首次初始...",
-    "url": "https://segmentfault.com/a/1190000038788218",
-    "author": "深红",
-    "home_url": "https://segmentfault.com/u/deepred5",
-    "votes": "22",
-    "rank": 13
-  },
-  {
-    "title": "仅使用CSS就可以提高页面渲染速度的4个技巧",
-    "description": "用户喜欢快速的网络应用，他们希望页面加载速度快，功能流畅。如果在滚动时有破损的动画或滞后，用户很有可能会离开你的网站。作为一名开发者，你可以做很多事情来改善用户体验。本文将重点介绍4个可以用来提高页...",
-    "url": "https://segmentfault.com/a/1190000038810622",
-    "author": "杜尼卜",
-    "home_url": "https://segmentfault.com/u/dunizb",
-    "votes": "13",
-    "rank": 14
-  },
-  {
-    "title": "2020回顾-个人web分享JavaScript面试题附加回答",
-    "description": "对于在JavaScript中的字符串，对象，数组是没有固定大小的，只有当对他们进行动态分配存储时，解释器就会分配内存来存储这些数据，当JavaScript的解释器消耗完系统中所有可用的内存时，就会造成系统崩溃。",
-    "url": "https://segmentfault.com/a/1190000038787900",
-    "author": "程序员哆啦A梦",
-    "home_url": "https://segmentfault.com/u/dashucoding",
-    "votes": "25",
-    "rank": 15
-  },
-  {
-    "title": "面试官：webpack原理都不会？",
-    "description": "前一段时间我把webpack源码大概读了一遍，webpack 到4.x版本后，其源码已经比较庞大，对各种开发场景进行了高度抽象，阅读成本也愈发昂贵。",
-    "url": "https://segmentfault.com/a/1190000038795207",
-    "author": "前端森林",
-    "home_url": "https://segmentfault.com/u/fengshuan",
-    "votes": "17",
+    "votes": "27",
     "rank": 16
-  },
-  {
-    "title": "Vue3.0面试题",
-    "description": "Vue为MVVM框架，当数据模型data变化时，页面视图会得到响应更新，其原理对data的getter/setter方法进行拦截（Object.defineProperty或者Proxy），利用发布订阅的设计模式，在getter方法中进行订阅，在setter方法...",
-    "url": "https://segmentfault.com/a/1190000038848131",
-    "author": "亲爱的阿乾",
-    "home_url": "https://segmentfault.com/u/woshiyigezifuchuan",
-    "votes": "4",
-    "rank": 17
-  },
-  {
-    "title": "【机器学习笔记】：大话线性回归（一）",
-    "description": "线性回归作为监督学习中经典的回归模型之一，是初学者入门非常好的开始。宏观上考虑理解性的概念，我想我们在初中可能就接触过，y=ax，x为自变量，y为因变量，a为系数也是斜率。如果我们知道了a系数，那么给我一...",
-    "url": "https://segmentfault.com/a/1190000038829138",
-    "author": "东哥起飞",
-    "home_url": "https://segmentfault.com/u/xiaoyusmd",
-    "votes": "3",
-    "rank": 18
-  },
-  {
-    "title": "android上实现0.5px线条",
-    "description": "由于安卓手机无法识别border: 0.5px，因此我们要用0.5px的话必须要借助css3中的-webkit-transform:scale缩放来实现。",
-    "url": "https://segmentfault.com/a/1190000038854589",
-    "author": "浅夏晴空",
-    "home_url": "https://segmentfault.com/u/qianxiaqingkong",
-    "votes": "3",
-    "rank": 19
   },
   {
     "title": "14 年征程，ECUG 有这样一群初心不改的技术人",
@@ -177,87 +150,123 @@
     "author": "芒果果",
     "home_url": "https://segmentfault.com/u/wangying_5ea4fb9de961c",
     "votes": "4",
+    "rank": 17
+  },
+  {
+    "title": "SegmentFault 思否 2020 年度 Top Writer",
+    "description": "日新月异的技术革命，数字经济的新一轮爆发，背后是无数开发者夜以继日的付出。他们信奉技术力量，敢于技术创新，践行技术信仰，他们是技术先锋，探索改变世界的方向。",
+    "url": "https://segmentfault.com/a/1190000038796132",
+    "author": "SegmentFault",
+    "home_url": "https://segmentfault.com/u/segmentfault",
+    "votes": "20",
+    "rank": 18
+  },
+  {
+    "title": "forEach跳出循环体",
+    "description": "在forEach中，不能使用 continue 和 break ，可以使用 return 或 return false 跳出循环，效果与 for 中 continue 一样。注意该方法无法一次结束所有循环。",
+    "url": "https://segmentfault.com/a/1190000038854657",
+    "author": "浅夏晴空",
+    "home_url": "https://segmentfault.com/u/qianxiaqingkong",
+    "votes": "9",
+    "rank": 19
+  },
+  {
+    "title": "一行 CSS 代码的魅力",
+    "description": "之前在知乎看到一个很有意思的讨论 一行代码可以做什么？那么，一行 CSS 代码又能不能搞点事情呢？CSS Battle首先，这让我想到了，年初的时候沉迷的一个网站 CSS Battle 。这个网站是核心玩法就是：官方给出一张...",
+    "url": "https://segmentfault.com/a/1190000038875789",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "6",
     "rank": 20
   },
   {
-    "title": "权威发布 | SegmentFault 思否 2020 年度技术团队",
-    "description": "日新月异的技术革命，数字经济的新一轮爆发，背后是无数开发者夜以继日的付出。他们信奉技术力量，敢于技术创新，践行技术信仰，他们是技术先锋，探索改变世界的方向。",
-    "url": "https://segmentfault.com/a/1190000038817365",
-    "author": "SegmentFault",
-    "home_url": "https://segmentfault.com/u/segmentfault",
-    "votes": "6",
+    "title": "Swoole v4.6.0 版本发布，支持原生 curl 协程客户端",
+    "description": "Swoole v4.6.0 版本发布了，同样也是 2021 年的首个版本更新。作为一个 y 版本发布，此次更新也包含了不兼容的修改以及许多的新功能，下面就来看一看都有哪些改动？向下不兼容改动从 v4.6.0 版本开始将不再支持 P...",
+    "url": "https://segmentfault.com/a/1190000038848791",
+    "author": "沈唁",
+    "home_url": "https://segmentfault.com/u/sy_records",
+    "votes": "4",
     "rank": 21
   },
   {
-    "title": "我的 2020 个人成长回顾：花足够长的时间，有智慧地做 “无用功”",
-    "description": "2020 太魔幻了，一晃而过，回想起去年坐在办公室写年终总结的我，仿佛就在昨天。大家都说 2020 很糟糕，但对技术圈来说，可能也还不错，艰难中透出了曙光。",
-    "url": "https://segmentfault.com/a/1190000038772531",
-    "author": "波波Nadia",
-    "home_url": "https://segmentfault.com/u/bobonadia",
-    "votes": "14",
+    "title": "谁说明天上线，这货压根不知道开发流程！",
+    "description": "互联网中一个项目的上线会需要各个工种间的配合，以研发为视角上会承接产品需求，下会交给测试验证，最终完成项目交付上线。其实除此之外，还会有业务、运营、UI设计、运维，来配合项目的发起、使用和运维维护。",
+    "url": "https://segmentfault.com/a/1190000038793048",
+    "author": "小傅哥",
+    "home_url": "https://segmentfault.com/u/fuzhengwei",
+    "votes": "26",
     "rank": 22
   },
   {
-    "title": "Node.js 服务性能翻倍的秘密（一）",
-    "description": "用过 Node.js 开发过的同学肯定都上手过 koa，因为他简单优雅的写法，再加上丰富的社区生态，而且现存的许多 Node.js 框架都是基于 koa 进行二次封装的。但是说到性能，就不得不提到一个知名框架： fastify ，听...",
-    "url": "https://segmentfault.com/a/1190000038817174",
-    "author": "Shenfq",
-    "home_url": "https://segmentfault.com/u/shenfq",
-    "votes": "5",
+    "title": "2021 书单推荐 | 15 本高分 AI 书籍，统统免费读",
+    "description": "内容提要：目前，市面上的人工智能书籍并不少，作为一名人工智能爱好者，该如何筛选书单？新年伊始，KDnuggets 整理了一份 AI 书单，请大家按需取用。",
+    "url": "https://segmentfault.com/a/1190000038868090",
+    "author": "超神经HyperAI",
+    "home_url": "https://segmentfault.com/u/chaoshenjinghyperai",
+    "votes": "3",
     "rank": 23
   },
   {
-    "title": "【git】真神操作，持续部署到私有服务器",
-    "description": "概述最近要高效的把前端 react 项目部署到私有服务器上，研究了好几种持续部署方案，这里简单描述一下。总的部署思路分两种：编译后的文件部署源码部署编译后的文件部署，就是先在本地进行npm run build打包，生...",
-    "url": "https://segmentfault.com/a/1190000038825132",
-    "author": "杨成功",
-    "home_url": "https://segmentfault.com/u/ruidoc",
-    "votes": "4",
+    "title": "编写高质量 JS 变量的5种最佳做法",
+    "description": "点赞再看，微信搜索【大迁世界】,B站关注【前端小智】这个没有大厂背景，但有着一股向上积极心态人。本文 GitHub [链接] 上已经收录，文章的已分类，也整理了很多我的文档，和教程资料。",
+    "url": "https://segmentfault.com/a/1190000038372228",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "6",
     "rank": 24
   },
   {
-    "title": "工作都是公司的，技术才是自己的！| 底层技术人的2020年度总结",
-    "description": "昨日听闻某公司98年姑娘的噩耗，再结合自己的经历，深感：工作都是公司的，健康和技术这些才是自己的!拼命为资本打工，到头来不过是肥了资本家，苦了自己！愿天堂没有资本家的压榨!",
-    "url": "https://segmentfault.com/a/1190000038817904",
-    "author": "蒋鹏飞",
-    "home_url": "https://segmentfault.com/u/jiangpengfei_5ecce944a3d8a",
-    "votes": "14",
+    "title": "换一种方式来实现CSS评分组件",
+    "description": "通过 flex-direction: row-reverse 或者其他手段（dirction:rtl、transform:scaleX(-1)），将元素位置翻转",
+    "url": "https://segmentfault.com/a/1190000038877740",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "2",
     "rank": 25
   },
   {
-    "title": "vue-cli4首次加载速度优化",
-    "description": "GZIP压缩有动态跟静态两种可以将由前端打包GZIP,通过 gzip_static:on会寻找以.gz结尾的文件，直接返回，不会占用cpu进行压缩，如果找不到则不进行压缩",
-    "url": "https://segmentfault.com/a/1190000038821956",
-    "author": "waker",
-    "home_url": "https://segmentfault.com/u/waker_59bde55a019d9",
-    "votes": "6",
+    "title": "web视频基础教程",
+    "description": "前言提到网页播放视频，大部分前端首先想到的肯定是: {代码...} 的确，一个简单的video标签就可以轻松实现视频播放功能但是，当视频的文件很大时，使用video的播放效果就不是很理想:播放不流畅(尤其在：首次初始...",
+    "url": "https://segmentfault.com/a/1190000038788218",
+    "author": "深红",
+    "home_url": "https://segmentfault.com/u/deepred5",
+    "votes": "22",
     "rank": 26
   },
   {
-    "title": "比例类数据的差异性检验与AB测试的终止点",
-    "description": "在实际业务中，我们经常会遇到频率类事件的假设检验，这类数据包括：留存率、点击率、转化率。我们甚至可以把大多数AB测试类的场景都理解为「频率的假设检验」。本文试图创建一个一般性的频率假设检验工具的EXCEL...",
-    "url": "https://segmentfault.com/a/1190000038825855",
-    "author": "三次方根",
-    "home_url": "https://segmentfault.com/u/sancifanggen",
-    "votes": "10",
+    "title": "介绍两种 CSS 方法论",
+    "description": "说起 CSS 命名规范，大家应该都很熟悉，或者应该听说过 BEM 。BEM 是由 Yandex 团队提出的一种 CSS Class 命名方法，旨在帮助开发人员创建更好的且结构一致的 CSS 模块。",
+    "url": "https://segmentfault.com/a/1190000038838730",
+    "author": "Shenfq",
+    "home_url": "https://segmentfault.com/u/shenfq",
+    "votes": "5",
     "rank": 27
   },
   {
-    "title": "前端面试零碎知识点整理",
-    "description": "前端面试无非包括css、js、框架、项目等几大方面。以下是自己在面试过程中关于js被问到的问题，有的偏基础，也有比较深入的，理解这些问题不仅仅有助于面试，最重要的是能够在实际过程中尽可能少开发些BUG。现在...",
-    "url": "https://segmentfault.com/a/1190000038829342",
-    "author": "星不克",
-    "home_url": "https://segmentfault.com/u/dugujiujian18",
-    "votes": "2",
+    "title": "面试官：webpack原理都不会？",
+    "description": "前一段时间我把webpack源码大概读了一遍，webpack 到4.x版本后，其源码已经比较庞大，对各种开发场景进行了高度抽象，阅读成本也愈发昂贵。",
+    "url": "https://segmentfault.com/a/1190000038795207",
+    "author": "前端森林",
+    "home_url": "https://segmentfault.com/u/fengshuan",
+    "votes": "19",
     "rank": 28
   },
   {
-    "title": "2021 前端开发手册",
-    "description": "简介这是一份 2021 年前端开发手册，列举前端开发相关技术，提供相关技术的学习资源。下面的项目不用全部学习，可以选其中一些学习。欢迎补充！项目地址：2021-frontend-handbook目录HTMLCSSJavaScript前端框架前...",
-    "url": "https://segmentfault.com/a/1190000038774393",
-    "author": "StephenTian",
-    "home_url": "https://segmentfault.com/u/stephentian",
-    "votes": "42",
+    "title": "2020回顾-个人web分享JavaScript面试题附加回答",
+    "description": "对于在JavaScript中的字符串，对象，数组是没有固定大小的，只有当对他们进行动态分配存储时，解释器就会分配内存来存储这些数据，当JavaScript的解释器消耗完系统中所有可用的内存时，就会造成系统崩溃。",
+    "url": "https://segmentfault.com/a/1190000038787900",
+    "author": "程序员哆啦A梦",
+    "home_url": "https://segmentfault.com/u/dashucoding",
+    "votes": "26",
     "rank": 29
+  },
+  {
+    "title": "仅使用CSS就可以提高页面渲染速度的4个技巧",
+    "description": "用户喜欢快速的网络应用，他们希望页面加载速度快，功能流畅。如果在滚动时有破损的动画或滞后，用户很有可能会离开你的网站。作为一名开发者，你可以做很多事情来改善用户体验。本文将重点介绍4个可以用来提高页...",
+    "url": "https://segmentfault.com/a/1190000038810622",
+    "author": "杜尼卜",
+    "home_url": "https://segmentfault.com/u/dunizb",
+    "votes": "14",
+    "rank": 30
   }
 ]
