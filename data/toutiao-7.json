@@ -2,7 +2,7 @@
   {
     "title": "微服务架构 10 个最重要的设计模式",
     "description": "自从软件开发的早期(1960年代)以来，解决大型软件系统中的复杂性一直是一项艰巨的任务。多年来，软件工程师和架构师为解决软件系统的复杂性进行了许多尝试：David Parnas的模...",
-    "votes": "11",
+    "votes": "12",
     "url": "/k/krsjiu0",
     "avatar": "https://img.toutiao.io/subject%2F1ecd558bf4a24bc780d2c3a0ab6e69f2",
     "avatarAlt": "分布式系统 - 独家号",
@@ -42,12 +42,22 @@
   {
     "title": "高并发服务遇 Redis 瓶颈引发的事故",
     "description": "元旦期间订单业务线告知推送系统无法正常收发消息，作为推送系统维护者的我正外面潇洒，无法第一时间回去，直接让 ops 帮忙重启服务，一切好了起来，重启果然是个大杀器。由于推送系统本身...",
-    "votes": "8",
+    "votes": "10",
     "url": "/k/mg8zd72",
     "avatar": "https://img.toutiao.io/subject%2F6a017995d8424765ab042213593cb4a9",
     "avatarAlt": "码农桃花源 - 独家号",
     "subjectName": "码农桃花源",
     "homeUrl": "/subjects/393157"
+  },
+  {
+    "title": "当年，我的架构师之路差点完蛋，幸亏了它",
+    "description": "这次和大家讲讲分布式事务的 BASE 理论，保证通俗易懂。为了阅读顺畅，开始之前先请大家记住几个名词：BASE——Basically Available（基本可用），Soft st...",
+    "votes": "9",
+    "url": "/k/10zqtkl",
+    "avatar": "https://img.toutiao.io/subject%2F180d026f85274c998656474cd1988d0f",
+    "avatarAlt": "四猿外 - 独家号",
+    "subjectName": "四猿外",
+    "homeUrl": "/subjects/426740"
   },
   {
     "title": "几乎刷完了力扣所有的堆题，我发现了这些东西",
@@ -60,39 +70,9 @@
     "homeUrl": "/subjects/324664"
   },
   {
-    "title": "当年，我的架构师之路差点完蛋，幸亏了它",
-    "description": "这次和大家讲讲分布式事务的 BASE 理论，保证通俗易懂。为了阅读顺畅，开始之前先请大家记住几个名词：BASE——Basically Available（基本可用），Soft st...",
-    "votes": "8",
-    "url": "/k/10zqtkl",
-    "avatar": "https://img.toutiao.io/subject%2F180d026f85274c998656474cd1988d0f",
-    "avatarAlt": "四猿外 - 独家号",
-    "subjectName": "四猿外",
-    "homeUrl": "/subjects/426740"
-  },
-  {
-    "title": "挑战 Redis 单实例内存最大极限，“遭遇” NUMA 陷阱",
-    "description": " 我们公司的基础架构部有个云Redis平台，其中Redis实例在申请的时候可以自由选择需要的内存的大小。然后就引发了我的一个思考，Redis单实例内存最大申请到多大比较合适？假设母...",
-    "votes": "8",
-    "url": "/k/4mnda7r",
-    "avatar": "https://img.toutiao.io/subject%2Fdb1c6bd2f712426fb485a625edaa803d",
-    "avatarAlt": "php饭米粒 - 独家号",
-    "subjectName": "php饭米粒",
-    "homeUrl": "/subjects/56197"
-  },
-  {
-    "title": "软件架构基础（一）：架构师的 8 大核心能力",
-    "description": "▲ 点击上方\"多颗糖\"关注公众号 《软件架构基础（Fundamentals of Software Architecture）》被誉为和《设计数据密集型应用》一样经典的后端书籍，架...",
-    "votes": "3",
-    "url": "/k/mk9kqnq",
-    "avatar": "https://img.toutiao.io/user/4a9a9e41962e4b238bdebfaf160b5034/thumb",
-    "avatarAlt": "强力研分布式系统 - 独家号",
-    "subjectName": "强力研分布式系统",
-    "homeUrl": "/subjects/1983"
-  },
-  {
     "title": "如何优雅地重试",
     "description": "背景在微服务架构中，一个大系统被拆分成多个小服务，小服务之间大量 RPC 调用，经常可能因为网络抖动等原因导致 RPC 调用失败，这时候使用重试机制可以提高请求的最终成功率，减少故...",
-    "votes": "5",
+    "votes": "7",
     "url": "/k/z3j5ni9",
     "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
     "avatarAlt": "ASCE1885 - 独家号",
@@ -100,34 +80,14 @@
     "homeUrl": "/subjects/4829"
   },
   {
-    "title": "一个 Java 对象占用多大内存空间",
-    "description": "这个问题一般会出现在稍微高端一点的 Java 面试环节。要求面试者不仅对 Java 基础知识熟悉，更重要的是要了解内存模型。Java 对象模型HotSpot JVM 使用名为 oo...",
-    "votes": "5",
-    "url": "/k/m12n691",
-    "avatar": "https://img.toutiao.io/default-avatar.png",
-    "avatarAlt": "u578065的独家号 - 独家号",
-    "subjectName": "u578065的独家号",
-    "homeUrl": "/subjects/454231"
-  },
-  {
-    "title": "API 分页设计与实现",
-    "description": "对于设计和实现 API 来说，当结果集包含成千上万条记录时，返回一个查询的所有结果可能是一个挑战，它给服务器、客户端和网络带来了不必要的压力，于是就有了分页的功能。通常我们通过一个...",
+    "title": "软件架构基础（一）：架构师的 8 大核心能力",
+    "description": "▲ 点击上方\"多颗糖\"关注公众号 《软件架构基础（Fundamentals of Software Architecture）》被誉为和《设计数据密集型应用》一样经典的后端书籍，架...",
     "votes": "4",
-    "url": "/k/ctzfa8v",
-    "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
-    "avatarAlt": "Bloomingroses - 独家号",
-    "subjectName": "Bloomingroses",
-    "homeUrl": "/subjects/98777"
-  },
-  {
-    "title": "Golang 调试分析的高阶技巧",
-    "description": " 大纲 Golang toolsnmcompileobjdumppproftrace单元测试执行单元测试统计代码覆盖率程序 Debugdlv 调试用法gdb 调试小技巧不知道怎么断...",
-    "votes": "5",
-    "url": "/k/9egd20y",
-    "avatar": "https://img.toutiao.io/subject%2F714c39310b5a4f3c8bc285becbe1aeeb",
-    "avatarAlt": "小道消息 - 独家号",
-    "subjectName": "小道消息",
-    "homeUrl": "/subjects/146415"
+    "url": "/k/mk9kqnq",
+    "avatar": "https://img.toutiao.io/user/4a9a9e41962e4b238bdebfaf160b5034/thumb",
+    "avatarAlt": "强力研分布式系统 - 独家号",
+    "subjectName": "强力研分布式系统",
+    "homeUrl": "/subjects/1983"
   },
   {
     "title": "一个产品需求的研发流程是怎样的？",
@@ -140,14 +100,14 @@
     "homeUrl": "/subjects/313799"
   },
   {
-    "title": "让你看透世界的 8 个底层逻辑",
-    "description": "什么是底层逻辑？简单的说就是思考问题和解决问题的方法。思维层次越高，你的价值就越高；底层逻辑越坚固，解决问题的能力越强，发展机会就越多，成就也就越大。一句话：他能让你能够1秒钟看透...",
-    "votes": "4",
-    "url": "/k/wae3wjn",
-    "avatar": "https://img.toutiao.io/subject%2F2d6acb5e10d74d418b835f039664ab16",
-    "avatarAlt": "pointers - 独家号",
-    "subjectName": "pointers",
-    "homeUrl": "/subjects/451915"
+    "title": "一个 Java 对象占用多大内存空间",
+    "description": "这个问题一般会出现在稍微高端一点的 Java 面试环节。要求面试者不仅对 Java 基础知识熟悉，更重要的是要了解内存模型。Java 对象模型HotSpot JVM 使用名为 oo...",
+    "votes": "5",
+    "url": "/k/m12n691",
+    "avatar": "https://img.toutiao.io/default-avatar.png",
+    "avatarAlt": "u578065的独家号 - 独家号",
+    "subjectName": "u578065的独家号",
+    "homeUrl": "/subjects/454231"
   },
   {
     "title": "看完这篇还不懂高并发中的线程与线程池你来打我（内含 20 张图）",
@@ -160,14 +120,24 @@
     "homeUrl": "/subjects/146415"
   },
   {
-    "title": "解读 Go 语言的 2020：变革前夜",
-    "description": "作者 | 郝林策划 | 张晓楠 本文是 InfoQ“解读 2020”年终技术盘点系列文章之一。 在作者去年年底撰写《解读 Go 语言的 2019》的时候，绝没有想到 2020 年将...",
-    "votes": "6",
-    "url": "/k/ifhix9t",
-    "avatar": "https://img.toutiao.io/subject%2F3f69ffc3bdf6496e86439348166e3ed7",
-    "avatarAlt": "GoHackers - 独家号",
-    "subjectName": "GoHackers",
-    "homeUrl": "/subjects/1385"
+    "title": "让你看透世界的 8 个底层逻辑",
+    "description": "什么是底层逻辑？简单的说就是思考问题和解决问题的方法。思维层次越高，你的价值就越高；底层逻辑越坚固，解决问题的能力越强，发展机会就越多，成就也就越大。一句话：他能让你能够1秒钟看透...",
+    "votes": "5",
+    "url": "/k/wae3wjn",
+    "avatar": "https://img.toutiao.io/subject%2F2d6acb5e10d74d418b835f039664ab16",
+    "avatarAlt": "pointers - 独家号",
+    "subjectName": "pointers",
+    "homeUrl": "/subjects/451915"
+  },
+  {
+    "title": "基于 Flink 构建实时数仓实践",
+    "description": " 导读 随着公司用户增长业务快速发展，陆续孵化出 部落、同镇、C 端会员、游戏等非常多的业务板块。与此同时产品及运营对实时数据需求逐渐增多，帮助他们更快的做出决策，更好的进行产品迭...",
+    "votes": "3",
+    "url": "/k/fzv3l96",
+    "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
+    "avatarAlt": "进击的程序猿 - 独家号",
+    "subjectName": "进击的程序猿",
+    "homeUrl": "/subjects/24912"
   },
   {
     "title": "一文读懂微内核架构",
@@ -178,6 +148,16 @@
     "avatarAlt": "JAVA日知录 - 独家号",
     "subjectName": "JAVA日知录",
     "homeUrl": "/subjects/205182"
+  },
+  {
+    "title": "Go 语言高性能编程",
+    "description": "源代码/数据集已上传到 Github - high-performance-go  这个系列的由来我使用 Go 作为主力编程语言已经有一年多的时间了，主要的工作职责是开发一些效率工...",
+    "votes": "7",
+    "url": "/k/7k98lk7",
+    "avatar": "https://img.toutiao.io/subject%2F0496eb659e7d46c799fbc42f3df956d3",
+    "avatarAlt": "极客兔兔 - 独家号",
+    "subjectName": "极客兔兔",
+    "homeUrl": "/subjects/326453"
   },
   {
     "title": "靠写作杀出一条 “血” 路：我的 2020 年终总结",
@@ -198,5 +178,25 @@
     "avatarAlt": "未读代码的独家号 - 独家号",
     "subjectName": "未读代码的独家号",
     "homeUrl": "/subjects/365875"
+  },
+  {
+    "title": "数据中台到底包括什么内容？一文详解架构设计与组成",
+    "description": " 导读：《终于有人把数据中台讲明白了》一文讲到数据中台的定义和价值，本文将介绍数据中台到底包括什么内容。企业建设数据中台的过程中哪些能力是必选项，哪些是可选的，将在本文一一揭晓。 ...",
+    "votes": "2",
+    "url": "/k/1f4hc01",
+    "avatar": "https://img.toutiao.io/subject%2F2d3d99522c644729948fa3e529e11b48",
+    "avatarAlt": "架构一加一 - 独家号",
+    "subjectName": "架构一加一",
+    "homeUrl": "/subjects/314175"
+  },
+  {
+    "title": "Go 并发编程（八）：深入理解 sync.Once",
+    "description": "Week03: Go并发编程(八) 深入理解 sync.Once本系列为极客时间 Go 进阶训练营笔记，同步直播更新，预计一周更新 1 ~ 2 篇文章，到 202103 月更新完成...",
+    "votes": "7",
+    "url": "/k/vxx4z19",
+    "avatar": "https://img.toutiao.io/subject%2F19b4668c3a91453fbff660ea36243691",
+    "avatarAlt": "不会前端的后端不是一个好厨师 - 独家号",
+    "subjectName": "不会前端的后端不是一个好厨师",
+    "homeUrl": "/subjects/387401"
   }
 ]
