@@ -40,16 +40,6 @@
     "homeUrl": "/subjects/2079"
   },
   {
-    "title": "MySQL 优化神器",
-    "description": "前言 ❝ 今天逛github时，发现了这款对 SQL 进行优化和改写的自动化工具sora。感觉挺不错的，就下载学习了一下。这个工具支持的功能比较多，可以作为我们日常开发中的一款辅助...",
-    "votes": "11",
-    "url": "/k/qg5adh5",
-    "avatar": "https://img.toutiao.io/subject%2F967329410fda4a55b2bf84673d48ebfe",
-    "avatarAlt": "asong2020 - 独家号",
-    "subjectName": "asong2020",
-    "homeUrl": "/subjects/447978"
-  },
-  {
     "title": "微服务架构 10 个最重要的设计模式",
     "description": "自从软件开发的早期(1960年代)以来，解决大型软件系统中的复杂性一直是一项艰巨的任务。多年来，软件工程师和架构师为解决软件系统的复杂性进行了许多尝试：David Parnas的模...",
     "votes": "12",
@@ -80,19 +70,9 @@
     "homeUrl": "/subjects/450130"
   },
   {
-    "title": "深度解析 Raft 分布式一致性协议",
-    "description": "笔者期望通过一篇权威靠谱、清晰易懂的系统性文章，帮助读者深入理解 Raft 算法，并能付诸于工程实践中，同时解读不易理解或容易误解的关键点。本文是 Raft 实战系列理论内容的整合...",
-    "votes": "9",
-    "url": "/k/am8mql2",
-    "avatar": "https://img.toutiao.io/subject%2F58549cfff083434f8fea6f4e99a28393",
-    "avatarAlt": "Q的博客 - 独家号",
-    "subjectName": "Q的博客",
-    "homeUrl": "/subjects/293369"
-  },
-  {
     "title": "肝了 3 版才满意：分布式系统之 CAP 理论，我们对它的理解和误解",
     "description": "引言 CAP 理论，相信很多人都听过，它是指：一个分布式系统最多只能同时满足一致性（Consistency）、可用性（Availability）和分区容错性（Partition t...",
-    "votes": "12",
+    "votes": "13",
     "url": "/k/q2fkii4",
     "avatar": "https://img.toutiao.io/subject%2F180d026f85274c998656474cd1988d0f",
     "avatarAlt": "四猿外 - 独家号",
@@ -102,12 +82,22 @@
   {
     "title": "支撑 700 亿数据量的 ClickHouse 高可用架构实践",
     "description": " 本文根据蔡岳毅老师在〖2020 Gdevops全球敏捷运维峰会〗现场演讲内容整理而成。  （点击文末“阅读原文”可获取完整PPT） 讲师介绍蔡岳毅，携程旅行网酒店研发中心高级研发...",
-    "votes": "9",
+    "votes": "10",
     "url": "/k/f5v4m55",
     "avatar": "https://img.toutiao.io/subject%2F6ee3bb205b3248c2b746c1506548181a",
     "avatarAlt": "大数据生态 - 独家号",
     "subjectName": "大数据生态",
     "homeUrl": "/subjects/136176"
+  },
+  {
+    "title": "深度解析 Raft 分布式一致性协议",
+    "description": "笔者期望通过一篇权威靠谱、清晰易懂的系统性文章，帮助读者深入理解 Raft 算法，并能付诸于工程实践中，同时解读不易理解或容易误解的关键点。本文是 Raft 实战系列理论内容的整合...",
+    "votes": "9",
+    "url": "/k/am8mql2",
+    "avatar": "https://img.toutiao.io/subject%2F58549cfff083434f8fea6f4e99a28393",
+    "avatarAlt": "Q的博客 - 独家号",
+    "subjectName": "Q的博客",
+    "homeUrl": "/subjects/293369"
   },
   {
     "title": "IntelliJ 超级实用的 8 个插件",
@@ -202,7 +192,7 @@
   {
     "title": "终于明白了，一文彻底理解 I/O 多路复用",
     "description": "本篇是高性能、高并发系列的第三篇，承接上文《读取文件时程序经历了什么》，在讲解了进程、线程以及I/O后，我们来到了高并发中又一关键技术，即I/O多路复用。在讲解该技术之前，我们需要...",
-    "votes": "11",
+    "votes": "12",
     "url": "/k/8c12y1i",
     "avatar": "https://img.toutiao.io/subject%2Fdb1c6bd2f712426fb485a625edaa803d",
     "avatarAlt": "php饭米粒 - 独家号",
@@ -210,24 +200,14 @@
     "homeUrl": "/subjects/56197"
   },
   {
-    "title": "HTTP/2 做错了什么？刚刚辉煌 2 年就要被弃用了！？",
-    "description": "GitHub 17k Star 的Java工程师成神之路，不来了解一下吗！ 最近一段时间以来，关于HTTP/3的新闻有很多，越来越多的国际大公司已经开始使用HTTP/3了。  所以...",
-    "votes": "28",
-    "url": "/k/v5mm32h",
-    "avatar": "https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e",
-    "avatarAlt": "JAVA干货 - 独家号",
-    "subjectName": "JAVA干货",
-    "homeUrl": "/subjects/51515"
-  },
-  {
-    "title": "爱奇艺微服务标准技术架构实践",
-    "description": "为数以亿计的用户提供优质的视频服务的爱奇艺技术产品团队，为了适应业务的快速迭代和创新，并支撑海量的用户请求，很多团队都对各自的业务系统自发地进行了微服务架构的改造。在微服务化的过程...",
-    "votes": "6",
-    "url": "/k/nm97hxh",
-    "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
-    "avatarAlt": "进击的程序猿 - 独家号",
-    "subjectName": "进击的程序猿",
-    "homeUrl": "/subjects/24912"
+    "title": "如何优雅地重试",
+    "description": "背景在微服务架构中，一个大系统被拆分成多个小服务，小服务之间大量 RPC 调用，经常可能因为网络抖动等原因导致 RPC 调用失败，这时候使用重试机制可以提高请求的最终成功率，减少故...",
+    "votes": "7",
+    "url": "/k/z3j5ni9",
+    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
+    "avatarAlt": "ASCE1885 - 独家号",
+    "subjectName": "ASCE1885",
+    "homeUrl": "/subjects/4829"
   },
   {
     "title": "2020 年，我在编程时遇见的几个好物",
@@ -240,13 +220,33 @@
     "homeUrl": "/subjects/381811"
   },
   {
-    "title": "常见算法模版总结（二）",
-    "description": "怪化猫本次233酱介绍下单调栈、单调队列、并查集、KMP算法，欢迎交流指正～单调栈「单调栈」首先是一种基于栈的数据结构，只不过通过栈来维护的是单调递增或单调递减的数据。入栈和出栈都...",
-    "votes": "7",
-    "url": "/k/s66geea",
-    "avatar": "https://img.toutiao.io/subject%2F32c4a1da247d4118bdf21bd8017cfebb",
-    "avatarAlt": "233酱的公众号：码农知识点 - 独家号",
-    "subjectName": "233酱的公众号：码农知识点",
-    "homeUrl": "/subjects/445783"
+    "title": "HTTP/2 做错了什么？刚刚辉煌 2 年就要被弃用了！？",
+    "description": "GitHub 17k Star 的Java工程师成神之路，不来了解一下吗！ 最近一段时间以来，关于HTTP/3的新闻有很多，越来越多的国际大公司已经开始使用HTTP/3了。  所以...",
+    "votes": "28",
+    "url": "/k/v5mm32h",
+    "avatar": "https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e",
+    "avatarAlt": "JAVA干货 - 独家号",
+    "subjectName": "JAVA干货",
+    "homeUrl": "/subjects/51515"
+  },
+  {
+    "title": "啥，听说你用了 Spring Boot，但是开发的接口还在裸奔？",
+    "description": "Popular MVC框架传送门Gitee源码地址：https://gitee.com/danyuanblog/PopularMVC演示地址：http://www.danyuanb...",
+    "votes": "13",
+    "url": "/k/gtkn1lp",
+    "avatar": "https://img.toutiao.io/subject%2F015592a08a8e4a8ab63c3d8054e2f73d",
+    "avatarAlt": "popularmvc使用系列教程 - 独家号",
+    "subjectName": "popularmvc使用系列教程",
+    "homeUrl": "/subjects/454115"
+  },
+  {
+    "title": "爱奇艺微服务标准技术架构实践",
+    "description": "为数以亿计的用户提供优质的视频服务的爱奇艺技术产品团队，为了适应业务的快速迭代和创新，并支撑海量的用户请求，很多团队都对各自的业务系统自发地进行了微服务架构的改造。在微服务化的过程...",
+    "votes": "6",
+    "url": "/k/nm97hxh",
+    "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
+    "avatarAlt": "进击的程序猿 - 独家号",
+    "subjectName": "进击的程序猿",
+    "homeUrl": "/subjects/24912"
   }
 ]

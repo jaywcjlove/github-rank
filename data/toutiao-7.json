@@ -10,34 +10,14 @@
     "homeUrl": "/subjects/8411"
   },
   {
-    "title": "工程师职级胜任力框架",
-    "description": " 一、前言尽管这些年国内的IT行业发展迅速，但是仍然欠缺一套比较综合性的面向工程师的职级胜任力框架，造成国内很多工程师大都一心只想成为技术大牛，而忽视了自己全方位的工程师职业素养和...",
-    "votes": "21",
-    "url": "/k/rxxemhb",
+    "title": "如何优雅地重试",
+    "description": "背景在微服务架构中，一个大系统被拆分成多个小服务，小服务之间大量 RPC 调用，经常可能因为网络抖动等原因导致 RPC 调用失败，这时候使用重试机制可以提高请求的最终成功率，减少故...",
+    "votes": "7",
+    "url": "/k/z3j5ni9",
     "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
     "avatarAlt": "ASCE1885 - 独家号",
     "subjectName": "ASCE1885",
     "homeUrl": "/subjects/4829"
-  },
-  {
-    "title": "支撑 700 亿数据量的 ClickHouse 高可用架构实践",
-    "description": " 本文根据蔡岳毅老师在〖2020 Gdevops全球敏捷运维峰会〗现场演讲内容整理而成。  （点击文末“阅读原文”可获取完整PPT） 讲师介绍蔡岳毅，携程旅行网酒店研发中心高级研发...",
-    "votes": "9",
-    "url": "/k/f5v4m55",
-    "avatar": "https://img.toutiao.io/subject%2F6ee3bb205b3248c2b746c1506548181a",
-    "avatarAlt": "大数据生态 - 独家号",
-    "subjectName": "大数据生态",
-    "homeUrl": "/subjects/136176"
-  },
-  {
-    "title": "2020 年，我在编程时遇见的几个好物",
-    "description": "年年都写年终总结，确实没什么新意，虽然今年也做了总结，但写完之后总觉得过于悲观，只是到了年底应该要有些什么表示，想着今年是该换个花样了，于是便有了这篇《2020 年，我在编程时遇到...",
-    "votes": "11",
-    "url": "/k/ezq0qnu",
-    "avatar": "https://img.toutiao.io/subject%2Ff49e289c00224ce994449b70f3c6cd5c",
-    "avatarAlt": "二进制 - 独家号",
-    "subjectName": "二进制",
-    "homeUrl": "/subjects/381811"
   },
   {
     "title": "高并发服务遇 Redis 瓶颈引发的事故",
@@ -50,6 +30,16 @@
     "homeUrl": "/subjects/393157"
   },
   {
+    "title": "9 条消除 if...else 的锦囊妙计，助你写出更优雅的代码",
+    "description": "前言 最近在做代码重构，发现了很多代码的烂味道。其他的不多说，今天主要说说那些又臭又长的if...else要如何重构。在介绍更更优雅的编程之前，让我们一起回顾一下，不好的if......",
+    "votes": "13",
+    "url": "/k/6o9uhdv",
+    "avatar": "https://img.toutiao.io/subject%2F0aae3536b7d44492b1974b1077394f7d",
+    "avatarAlt": "苏三说技术 - 独家号",
+    "subjectName": "苏三说技术",
+    "homeUrl": "/subjects/453205"
+  },
+  {
     "title": "当年，我的架构师之路差点完蛋，幸亏了它",
     "description": "这次和大家讲讲分布式事务的 BASE 理论，保证通俗易懂。为了阅读顺畅，开始之前先请大家记住几个名词：BASE——Basically Available（基本可用），Soft st...",
     "votes": "9",
@@ -60,29 +50,9 @@
     "homeUrl": "/subjects/426740"
   },
   {
-    "title": "几乎刷完了力扣所有的堆题，我发现了这些东西",
-    "description": "点击蓝色“力扣加加”关注我哟 加个“星标”，带你揭开算法的神秘面纱！ ❝ 这是力扣加加第「37」篇原创文章 大家好，我是 lucifer。今天给大家带来的是《堆》专题。先上下本文的...",
-    "votes": "9",
-    "url": "/k/im0exw3",
-    "avatar": "https://img.toutiao.io/subject%2F535bf01014ce4334b9ad5276d10b58bb",
-    "avatarAlt": "力扣加加 - 独家号",
-    "subjectName": "力扣加加",
-    "homeUrl": "/subjects/324664"
-  },
-  {
-    "title": "如何优雅地重试",
-    "description": "背景在微服务架构中，一个大系统被拆分成多个小服务，小服务之间大量 RPC 调用，经常可能因为网络抖动等原因导致 RPC 调用失败，这时候使用重试机制可以提高请求的最终成功率，减少故...",
-    "votes": "7",
-    "url": "/k/z3j5ni9",
-    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
-    "avatarAlt": "ASCE1885 - 独家号",
-    "subjectName": "ASCE1885",
-    "homeUrl": "/subjects/4829"
-  },
-  {
     "title": "软件架构基础（一）：架构师的 8 大核心能力",
     "description": "▲ 点击上方\"多颗糖\"关注公众号 《软件架构基础（Fundamentals of Software Architecture）》被誉为和《设计数据密集型应用》一样经典的后端书籍，架...",
-    "votes": "4",
+    "votes": "5",
     "url": "/k/mk9kqnq",
     "avatar": "https://img.toutiao.io/user/4a9a9e41962e4b238bdebfaf160b5034/thumb",
     "avatarAlt": "强力研分布式系统 - 独家号",
@@ -100,19 +70,9 @@
     "homeUrl": "/subjects/313799"
   },
   {
-    "title": "一个 Java 对象占用多大内存空间",
-    "description": "这个问题一般会出现在稍微高端一点的 Java 面试环节。要求面试者不仅对 Java 基础知识熟悉，更重要的是要了解内存模型。Java 对象模型HotSpot JVM 使用名为 oo...",
-    "votes": "5",
-    "url": "/k/m12n691",
-    "avatar": "https://img.toutiao.io/default-avatar.png",
-    "avatarAlt": "u578065的独家号 - 独家号",
-    "subjectName": "u578065的独家号",
-    "homeUrl": "/subjects/454231"
-  },
-  {
     "title": "看完这篇还不懂高并发中的线程与线程池你来打我（内含 20 张图）",
     "description": "从这篇开始将会开启高性能、高并发系列，本篇是该系列的开篇，主要关注多线程以及线程池。一切要从CPU说起你可能会有疑问，讲多线程为什么要从CPU说起呢？原因很简单，在这里没有那些时髦...",
-    "votes": "3",
+    "votes": "4",
     "url": "/k/ylzj4m2",
     "avatar": "https://img.toutiao.io/subject%2F714c39310b5a4f3c8bc285becbe1aeeb",
     "avatarAlt": "小道消息 - 独家号",
@@ -130,6 +90,16 @@
     "homeUrl": "/subjects/451915"
   },
   {
+    "title": "MySQL 索引优化",
+    "description": "千万不要看到 WHERE 条件中出现的字段就直接创建索引，因为创建太多的单列索引，反而会造成性能降低。无需一开始就创建索引，可以等到业务场景明确后，或者是数据量超过 1 万、查询变...",
+    "votes": "2",
+    "url": "/k/wwi18sc",
+    "avatar": "https://img.toutiao.io/subject%2F15346fc59d474403a2f5abe4cc13658a",
+    "avatarAlt": "Web开发 - 独家号",
+    "subjectName": "Web开发",
+    "homeUrl": "/subjects/100131"
+  },
+  {
     "title": "基于 Flink 构建实时数仓实践",
     "description": " 导读 随着公司用户增长业务快速发展，陆续孵化出 部落、同镇、C 端会员、游戏等非常多的业务板块。与此同时产品及运营对实时数据需求逐渐增多，帮助他们更快的做出决策，更好的进行产品迭...",
     "votes": "3",
@@ -140,9 +110,39 @@
     "homeUrl": "/subjects/24912"
   },
   {
+    "title": "如何写出一篇技术博客",
+    "description": "引子众所周知，写博客是一种入门门槛低，疗效好，还能带来长期影响力的过程。几乎每一位爱上写博客的开发者总是乐于向其他人分享写博客的乐趣和益处，但即便如此，身边的人还是很难体会到写博客...",
+    "votes": "7",
+    "url": "/k/gaqteq9",
+    "avatar": "https://img.toutiao.io/subject%2F0e6fd0887f9046ed9bec490e8d807dd1",
+    "avatarAlt": "码闻强识 - 独家号",
+    "subjectName": "码闻强识",
+    "homeUrl": "/subjects/137286"
+  },
+  {
+    "title": "2020 读过的好书推荐",
+    "description": "1.引言2020年也读了不少书，是时候回顾一下，把好书列成书单，作为今年的一个小总结。大部分是在平时上下班通勤路上完成阅读，主要分为IT技术类，经管励志类和人文社科类。2.好书推荐...",
+    "votes": "5",
+    "url": "/k/ocr2mmk",
+    "avatar": "https://img.toutiao.io/subject%2F81bac1d8c81c4523a1037648a39d6ae3",
+    "avatarAlt": "mason技术记录 - 独家号",
+    "subjectName": "mason技术记录",
+    "homeUrl": "/subjects/24970"
+  },
+  {
+    "title": "性能优化那些事",
+    "description": "性能在软件工程诞生时就占据着非常重要的位置，如何用更少的硬件资源来支撑更多的功能、来完成更多的任务是软件工程师的职责，也是用来衡量一个软件工程师技艺高低的标准。这跟炒菜是一个道理，...",
+    "votes": "2",
+    "url": "/k/ml4lzrd",
+    "avatar": "https://img.toutiao.io/user/5a7a70a7ff844188be76ef25c0a082d7/thumb",
+    "avatarAlt": "ThoughtWorks - 独家号",
+    "subjectName": "ThoughtWorks",
+    "homeUrl": "/subjects/8973"
+  },
+  {
     "title": "一文读懂微内核架构",
     "description": "什么是微内核架构？ 微内核是一种典型的架构模式 ，区别于普通的设计模式，架构模式是一种高层模式，用于描述系统级的结构组成、相互关系及相关约束。微内核架构在开源框架中的应用非常广泛，...",
-    "votes": "4",
+    "votes": "5",
     "url": "/k/c7mebu3",
     "avatar": "https://img.toutiao.io/subject%2F51ad25ebdf8b4a15895a07d5bce2b1e4",
     "avatarAlt": "JAVA日知录 - 独家号",
@@ -150,39 +150,9 @@
     "homeUrl": "/subjects/205182"
   },
   {
-    "title": "Go 语言高性能编程",
-    "description": "源代码/数据集已上传到 Github - high-performance-go  这个系列的由来我使用 Go 作为主力编程语言已经有一年多的时间了，主要的工作职责是开发一些效率工...",
-    "votes": "7",
-    "url": "/k/7k98lk7",
-    "avatar": "https://img.toutiao.io/subject%2F0496eb659e7d46c799fbc42f3df956d3",
-    "avatarAlt": "极客兔兔 - 独家号",
-    "subjectName": "极客兔兔",
-    "homeUrl": "/subjects/326453"
-  },
-  {
-    "title": "靠写作杀出一条 “血” 路：我的 2020 年终总结",
-    "description": "对于金融行业来说，2020年是撕裂的一年，巴菲特面对熔断如是说：我活了89岁了，只见过四次熔断，第一次是1997年，其他几次都在2020年......对于体育行业来说，2020年是...",
-    "votes": "12",
-    "url": "/k/793f4p0",
-    "avatar": "https://img.toutiao.io/subject%2F7f9bd07a03204905a3b6f56806be158d",
-    "avatarAlt": "Elasticsearch - 独家号",
-    "subjectName": "Elasticsearch",
-    "homeUrl": "/subjects/272620"
-  },
-  {
-    "title": "Spring Boot 的多数据源配置",
-    "description": "2020-12-29 杭州 雪最近在项目开发中，需要为一个使用 MySQL 数据库的 SpringBoot 项目，新添加一个 PLSQL 数据库数据源，那么就需要进行 Spring...",
-    "votes": "4",
-    "url": "/k/blpm04h",
-    "avatar": "https://img.toutiao.io/subject%2F4b05eabbfd3b46ce862825715a31b6f4",
-    "avatarAlt": "未读代码的独家号 - 独家号",
-    "subjectName": "未读代码的独家号",
-    "homeUrl": "/subjects/365875"
-  },
-  {
     "title": "数据中台到底包括什么内容？一文详解架构设计与组成",
     "description": " 导读：《终于有人把数据中台讲明白了》一文讲到数据中台的定义和价值，本文将介绍数据中台到底包括什么内容。企业建设数据中台的过程中哪些能力是必选项，哪些是可选的，将在本文一一揭晓。 ...",
-    "votes": "2",
+    "votes": "3",
     "url": "/k/1f4hc01",
     "avatar": "https://img.toutiao.io/subject%2F2d3d99522c644729948fa3e529e11b48",
     "avatarAlt": "架构一加一 - 独家号",
@@ -190,13 +160,43 @@
     "homeUrl": "/subjects/314175"
   },
   {
-    "title": "Go 并发编程（八）：深入理解 sync.Once",
-    "description": "Week03: Go并发编程(八) 深入理解 sync.Once本系列为极客时间 Go 进阶训练营笔记，同步直播更新，预计一周更新 1 ~ 2 篇文章，到 202103 月更新完成...",
-    "votes": "7",
-    "url": "/k/vxx4z19",
-    "avatar": "https://img.toutiao.io/subject%2F19b4668c3a91453fbff660ea36243691",
-    "avatarAlt": "不会前端的后端不是一个好厨师 - 独家号",
-    "subjectName": "不会前端的后端不是一个好厨师",
-    "homeUrl": "/subjects/387401"
+    "title": "揭秘 QUIC 的性能与安全",
+    "description": "在当代网络通讯中，高速且安全的网络接入服务已为互联网厂商的共同追求。针对传统的TCP + TLS的安全互联网服务，在各大头部互联网厂商中反响激烈，如google有提出各种升级和补丁...",
+    "votes": "8",
+    "url": "/k/c0c23kp",
+    "avatar": "https://img.toutiao.io/subject%2F382aa7e72a41496eb13f47c23571066a",
+    "avatarAlt": "OPPO互联网技术 - 独家号",
+    "subjectName": "OPPO互联网技术",
+    "homeUrl": "/subjects/429344"
+  },
+  {
+    "title": "双十一聊聊低时延利器：QUIC",
+    "description": "又值一年一度的“双十一购物节”之际，大家都在乐此不疲的聊着大流量高并发场景下的处理解决方案。提到抢购，总结就一个“快”字，筛选要快，下单要快，付款要快...  一切顺利操作之后，才...",
+    "votes": "3",
+    "url": "/k/4d4kugo",
+    "avatar": "https://img.toutiao.io/subject%2F071476c43e0d42cf95f3e77f046c814b",
+    "avatarAlt": "架构精进之路 - 独家号",
+    "subjectName": "架构精进之路",
+    "homeUrl": "/subjects/452638"
+  },
+  {
+    "title": "假期三天，我肝了万字的 Java 垃圾回收，看完你还敢说不会？",
+    "description": "大家好，我是狂聊，上一篇已经把 Jvm 的运行区数据和类加载机制聊完了。今天来说说 Java 垃圾回收，高频面试问题。提纲附上，话不多说，直接干货 1、什么是垃圾回收？ 垃圾回收（...",
+    "votes": "2",
+    "url": "/k/utfqhul",
+    "avatar": "https://img.toutiao.io/subject%2F10ed109665054fb9b4f19c91997e8160",
+    "avatarAlt": "狂聊Java - 独家号",
+    "subjectName": "狂聊Java",
+    "homeUrl": "/subjects/454196"
+  },
+  {
+    "title": "Java 并发编程之 JMM & volatile 详解 ",
+    "description": "本文从计算机模型开始，以及CPU与内存、IO总线之间的交互关系到CPU缓存一致性协议的逻辑进行了阐述，并对JMM的思想与作用进行了详细的说明。针对volatile关键字从字节码以及...",
+    "votes": "2",
+    "url": "/k/imzo6m8",
+    "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
+    "avatarAlt": "进击的程序猿 - 独家号",
+    "subjectName": "进击的程序猿",
+    "homeUrl": "/subjects/24912"
   }
 ]

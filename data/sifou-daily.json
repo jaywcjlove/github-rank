@@ -1,218 +1,47 @@
 [
   {
-    "title": "技术杂谈 | Flutter 的性能分析、工程架构与细节处理",
-    "description": "出品/ 有道智云编辑/ Ryan来源：有道技术团队（ID：youdaotech）一、为何 Flutter跨端技术众多，为何选择 Flutter？它能带来哪些优势，有哪些缺点？先看看具体的工程效果：Flutter 工程效果​v.qq.comweb 端效果体...",
-    "url": "https://segmentfault.com/a/1190000038890411",
-    "author": "有道技术团队",
-    "home_url": "https://segmentfault.com/u/youdaotec",
-    "votes": "6",
+    "title": "axios用法总结",
+    "description": "这一段，信息量很大：比如： axios.post(url[, data[, config]]) axios.post（）的第一个参数是url，第2个参数是data参数（即post的body），第三个参数是config对象。",
+    "url": "https://segmentfault.com/a/1190000038921080",
+    "author": "joychenke",
+    "home_url": "https://segmentfault.com/u/joychenke",
+    "votes": "2",
     "rank": 1
   },
   {
-    "title": "思否有约丨@皮小蛋：深漂多年，只想早日上岸",
-    "description": "访谈嘉宾：@皮小蛋访谈编辑：芒果果能不能接受 996？回老家还是去大城市？要去大企业还是小公司？ …... 年轻人面临的艰难选择太多了，每一个不同的决定都有可能带你走上完全不同的人生轨迹。行业内卷严重，新人如...",
-    "url": "https://segmentfault.com/a/1190000038898341",
-    "author": "芒果果",
-    "home_url": "https://segmentfault.com/u/wangying_5ea4fb9de961c",
-    "votes": "7",
+    "title": "一张脑图整理Docker常用命令",
+    "description": "镜像（Image）：Docker 镜像是一个特殊的文件系统，除了提供容器运行时所需的程序、库、资源、配置等文件外，还包含了一些为运行时准备的一些配置参数（如匿名卷、环境变量、用户等）。镜像不包含任何动态数据，...",
+    "url": "https://segmentfault.com/a/1190000038921337",
+    "author": "三分恶",
+    "home_url": "https://segmentfault.com/u/fighter3",
+    "votes": "1",
     "rank": 2
   },
   {
-    "title": "极为细致的Vue的Diff流程详解——以流程图表达",
-    "description": "网上看了一些diff的算法，但是感觉看完之后，还是那么的一知半解，为什么一个简单的diff算法，不能直接画个流程图就简单的明了了呢，说动就动，下面的是本人基于vue版本2.6.11源码为各位读友进行的解析",
-    "url": "https://segmentfault.com/a/1190000038894967",
-    "author": "广工小成",
-    "home_url": "https://segmentfault.com/u/guanggongxiaocheng",
-    "votes": "6",
+    "title": "云开发实战：实现短信跳小程序",
+    "description": "如何实现短信跳转小程序？先看效果[链接]小程序支持短信跳转小程序了，可以说是打开了一个巨大的流量入口。效果过程分析从短信到网页从网页到小程序那么就涉及到两个点发送短信网页跳转实现步骤分析先要有个网页...",
+    "url": "https://segmentfault.com/a/1190000038916415",
+    "author": "陈宇明",
+    "home_url": "https://segmentfault.com/u/cymchad",
+    "votes": "1",
     "rank": 3
   },
   {
-    "title": "vue使用腾讯位置服务获取当前位置",
-    "description": "前言实现此功能，首先请先看下腾讯位置服务的开发指南。实现本文使用的是方法一（通过iframe内嵌调用）：参照文档写的例子来用就行，关键是看您拿到数据怎么处理：组件里面的内容：验证步骤验证地址：[链接]开发...",
-    "url": "https://segmentfault.com/a/1190000038888352",
-    "author": "腾讯位置服务",
-    "home_url": "https://segmentfault.com/u/tengxunweizhifuwu",
-    "votes": "3",
+    "title": "为什么我们不应该写长方法",
+    "description": "初学者在学习了语法和一堆的 API 之后，就会尝试自己写一些具有完整功能的程序。这个过程当中很容易养成写一个上百行甚至几百行的方法的习惯。总的来说，这是思维当中缺少抽象、设计和封装的表现。随着编程经验的...",
+    "url": "https://segmentfault.com/a/1190000038920481",
+    "author": "捏造的信仰",
+    "home_url": "https://segmentfault.com/u/yidinghe",
+    "votes": "1",
     "rank": 4
   },
   {
-    "title": "657页前端面试题+答案，分类学习整理，良心制作，持续更新中~",
-    "description": "alt 是是图片内容的等价描述，用于图片无法加载时显示、读屏器阅读图片。可提图片高可访问性，除了纯装饰图片外都必须设置有意义的值，搜索引擎会重点分析。",
-    "url": "https://segmentfault.com/a/1190000038897538",
-    "author": "前端老飘",
-    "home_url": "https://segmentfault.com/u/qianduanlaopiao",
-    "votes": "4",
+    "title": "移动端调试大法",
+    "description": "谷歌浏览器是我们前端开发中必不可少的利器，跳样式，打断点，看网络请求，看性能等，基本上你能想到的，谷歌都能满足你，在移动端调试方面也是一样，我们可以利用谷歌浏览器的手机模式，如下图, 点击这个右侧红...",
+    "url": "https://segmentfault.com/a/1190000038913466",
+    "author": "林子大了4",
+    "home_url": "https://segmentfault.com/u/linzidaliao4",
+    "votes": "1",
     "rank": 5
-  },
-  {
-    "title": "useEffect引起的React Hooks深入了解",
-    "description": "前言参考文章 react源码，useEffect 完整指南，呕心沥血，一文看懂 react hooks，react官网在进入正式阅读之前，最好先思考一下下面的问题：React Hooks真的有生命周期吗？React Hooks的函数里面定义的函数或者变...",
-    "url": "https://segmentfault.com/a/1190000038896974",
-    "author": "广工小成",
-    "home_url": "https://segmentfault.com/u/guanggongxiaocheng",
-    "votes": "5",
-    "rank": 6
-  },
-  {
-    "title": "zangeci的2020年度报告",
-    "description": "吾本布衣，躬耕思否，苟全性命于问答，不求闻达于社区。编辑小姐姐不以吾卑微，猥自枉屈，私信于吾。方知被评上了TopWriter，当时也是一脸懵逼，自觉并无较大作为，怎就突然榜上提名？",
-    "url": "https://segmentfault.com/a/1190000038886989",
-    "author": "zangeci",
-    "home_url": "https://segmentfault.com/u/zangeci",
-    "votes": "5",
-    "rank": 7
-  },
-  {
-    "title": "链家程序员删库跑路失败！最终被判 7 年",
-    "description": "还记得 2020 年 2 月微盟员工恶意破坏公司数据的案件么，他凭一己之力直接让微盟的市值一天之内蒸发了超 10 亿元。当时，那个删库跑路的程序员被判了 6 年。",
-    "url": "https://segmentfault.com/a/1190000038887805",
-    "author": "芒果果",
-    "home_url": "https://segmentfault.com/u/wangying_5ea4fb9de961c",
-    "votes": "4",
-    "rank": 8
-  },
-  {
-    "title": "啃碎JDK源码(七)：AbstractQueuedSynchronizer（AQS)",
-    "description": "今天我们正式开始介绍juc包下面的类，也就是和多线程打交道的地方，和锁打交道的类用的比较的的无非就是 ReentrantLock 和 ReentrantReadWriteLock 等，但是我们今天要介绍的是 AbstractQueuedSynchronizer 这个...",
-    "url": "https://segmentfault.com/a/1190000038775841",
-    "author": "超大只乌龟",
-    "home_url": "https://segmentfault.com/u/chenwugui",
-    "votes": "1",
-    "rank": 9
-  },
-  {
-    "title": "TypeScript 高级类型总结（含代码案例）",
-    "description": "代码中的 IntersectionType ”组合了两种类型： LeftType 和 RightType，并使用 & 符号来构造交 intersection 类型。",
-    "url": "https://segmentfault.com/a/1190000038869363",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "8",
-    "rank": 10
-  },
-  {
-    "title": "Linux 系统 inodes 资源耗尽，如何解决？",
-    "description": "Linux系统下文件数据储存在\"块\"中，文件的元信息，例如文件的创建者、文件的创建日期、文件的大小等。这种储存文件元信息的区域就叫做inode，中文译名为\"索引节点\"。inode也占用硬盘空间，硬盘格式化的时候，操作...",
-    "url": "https://segmentfault.com/a/1190000038890149",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "2",
-    "rank": 11
-  },
-  {
-    "title": "go mod graph 可视化——gmchart",
-    "description": "之前构建 golang 遇到个问题，就是明明指定了依赖的包版本，在构建时，又自动把版本号给升上去了，当时不知道为什么。后面知道有个 go mod graph 的命令能列出所有的依赖，试了下，一点都不直观，还得复制到文本...",
-    "url": "https://segmentfault.com/a/1190000038897207",
-    "author": "小白要生发",
-    "home_url": "https://segmentfault.com/u/xiaobaiyaoshengfa",
-    "votes": "1",
-    "rank": 12
-  },
-  {
-    "title": "HTTP2的一点浅显理解",
-    "description": "2.0 性能增强的核心在于全新的二进制分帧层，它定义了如何封装http消息并在客户端和服务端之间传输。1.x 中以换行符作为分隔符，2.0 将信息分割为更小的消息和帧，并进行二进制编码，再将这些独立的帧交错发送，...",
-    "url": "https://segmentfault.com/a/1190000038893602",
-    "author": "cvSoldier",
-    "home_url": "https://segmentfault.com/u/cvsoldier",
-    "votes": "1",
-    "rank": 13
-  },
-  {
-    "title": "10分钟搞定让你困惑的 Jenkins 环境变量",
-    "description": "Jenkins， DevOps 技术栈的核心之一，CI/CD 离不开编写 Pipeline 脚本，上手 Jenkins ，简单查一下文档，你就应该不会被 agent，stages，step 这类关键词弄懵，也能很快构建出 pipeline 的骨架",
-    "url": "https://segmentfault.com/a/1190000038885050",
-    "author": "日拱一兵",
-    "home_url": "https://segmentfault.com/u/tanrigongyibing",
-    "votes": "2",
-    "rank": 14
-  },
-  {
-    "title": "水平垂直居中深入挖掘",
-    "description": "当然，CSS 中实现水平垂直居中的方式很多。别看到水平垂直居中就准备右上角 x 掉，本文的重点不是罗列有多少种方式实现水平垂直居中方式，而是探讨一下常见的几种水平垂直居中的方式的利弊。",
-    "url": "https://segmentfault.com/a/1190000038886308",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "3",
-    "rank": 15
-  },
-  {
-    "title": "3.多用户博客网站开发实战之创建数据库",
-    "description": "如果你觉得这篇文章还不错，请动动小指头点赞、收藏和关注哦！若本文带给你很大帮助，也可以打赏博主一杯可乐ღゝ◡╹)ノ♡摘繁华版权所有，转发或引用请附上原文链接哦！",
-    "url": "https://segmentfault.com/a/1190000038883321",
-    "author": "摘繁华",
-    "home_url": "https://segmentfault.com/u/zhaifanhua",
-    "votes": "1",
-    "rank": 16
-  },
-  {
-    "title": "ZooTeam 前端周刊｜第 116 期",
-    "description": "ZooTeam 前端周刊｜第 116 期浏览更多往期周刊，请访问： [链接]【第2169期】盒马中后台跨端方案探索涉及到跨端的业务多么？如何建设灰度跨端监控 | D2分享视频+文章监控，安全生产的第一战线，是如何发现线上问...",
-    "url": "https://segmentfault.com/a/1190000038897977",
-    "author": "政采云前端团队",
-    "home_url": "https://segmentfault.com/u/zhengcaiyunqianduantuandui",
-    "votes": "1",
-    "rank": 17
-  },
-  {
-    "title": "5本经典著作描绘学习路线图带你飞过C++",
-    "description": "C++ 难学易用，多少人曾经爱过恨过，相关书籍之多，人人都想找到一份辟邪剑谱这里由浅入深的罗列5本传世经典著作跟随本书单打好基础、开阔视野、学好C++▊《Essential C++中文版》【美】Stanley B. Lippman 著侯捷...",
-    "url": "https://segmentfault.com/a/1190000038895496",
-    "author": "欣小七",
-    "home_url": "https://segmentfault.com/u/xinxiaoqi",
-    "votes": "0",
-    "rank": 18
-  },
-  {
-    "title": "有几个用的 C++ 在线工具就是不一样",
-    "description": "支持多种编程语言 * 多个编译器版本在线编译运行的网站。可以在这里做方便、快速地一些小实验、尝试一些编程语言的新特性，比如 C++20。WandboxQuick C++ Benchmark[2]可以快速对一些 C++ 代码片段进行 benchmark...",
-    "url": "https://segmentfault.com/a/1190000038894201",
-    "author": "欣小七",
-    "home_url": "https://segmentfault.com/u/xinxiaoqi",
-    "votes": "0",
-    "rank": 19
-  },
-  {
-    "title": "Java对象属性复制组件-Mapstruct项目改造指南",
-    "description": "下面给大家介绍下Java对象属性复制组件（MapStruct），以及项目中引入遇到的坑。问题背景日常编程中，经常会碰到对象属性复制的场景，就比如下面这样一个常见的三层MVC架构。前端请求通过VO对象接收，并通过DTO对...",
-    "url": "https://segmentfault.com/a/1190000038893153",
-    "author": "欣小七",
-    "home_url": "https://segmentfault.com/u/xinxiaoqi",
-    "votes": "0",
-    "rank": 20
-  },
-  {
-    "title": "Python爬虫要学什么？写给小白的Python爬虫必备技能",
-    "description": "Python爬虫要学什么？写给小白的Python爬虫必备技能Python在爬虫方面用得比较多，所以你如果能掌握以下内容，找工作的时候就会顺利很多：1、Python不是唯一可以做爬虫的，很多语言都可以，尤其是Java,同时掌握它...",
-    "url": "https://segmentfault.com/a/1190000038891716",
-    "author": "python小知识",
-    "home_url": "https://segmentfault.com/u/pythonxiaozhishi",
-    "votes": "0",
-    "rank": 21
-  },
-  {
-    "title": "这种 React 渐进过渡效果怎么样",
-    "description": "segmentfault 对图片解析很垃圾，图片加载不出来，请查看 完整原文新项目中，使用 Typescript + React(Hooks) 进行开发。项目需要使用图片懒加载功能，就对之前封装的 react-lazyimg-component(v0.0.2) 组件进行...",
-    "url": "https://segmentfault.com/a/1190000038890646",
-    "author": "zhansingsong",
-    "home_url": "https://segmentfault.com/u/zhansingsong",
-    "votes": "0",
-    "rank": 22
-  },
-  {
-    "title": "Focus 聚焦社区 v0.1.0 beta，GoFrame 开源社区项目",
-    "description": "Focus聚焦社区是GoFrame社区项目，采用了简洁强大的GoFrame作为后端WEB框架， 由于前台系统需要SEO因此使用了GF自带template模板引擎，数据库用MySQL，前端使用jQuery/bootstrap框架。",
-    "url": "https://segmentfault.com/a/1190000038888796",
-    "author": "John",
-    "home_url": "https://segmentfault.com/u/johng",
-    "votes": "1",
-    "rank": 23
-  },
-  {
-    "title": "vue-cli3使用svg图标的详细步骤",
-    "description": "(注：可以直接下载svg文件，改名为fullscreen.svg;也可以先创建fullscreen.svg文件，然后在阿里字体复制svg代码黏贴进去，效果是一样的)",
-    "url": "https://segmentfault.com/a/1190000038883444",
-    "author": "webxEJIr",
-    "home_url": "https://segmentfault.com/u/webxejir",
-    "votes": "1",
-    "rank": 24
   }
 ]
