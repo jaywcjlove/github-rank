@@ -32,7 +32,7 @@
   {
     "title": "Java 线程池总结",
     "description": "背景 Java线程池的写法和参数是面试中出现频率很高的基础题。越是基础的东西，特别是对高阶职位的面试者，需要回答的符合自己面试的职位等级。这里也不能说是一个多么好的答案，只是说如果...",
-    "votes": "14",
+    "votes": "16",
     "url": "/k/4z3o5gw",
     "avatar": "https://img.toutiao.io/subject%2F4325865040b44c0b9e2d8d80a83d1d11",
     "avatarAlt": "编程一生 - 独家号",
@@ -50,19 +50,9 @@
     "homeUrl": "/subjects/24970"
   },
   {
-    "title": "如何写出一篇技术博客",
-    "description": "引子众所周知，写博客是一种入门门槛低，疗效好，还能带来长期影响力的过程。几乎每一位爱上写博客的开发者总是乐于向其他人分享写博客的乐趣和益处，但即便如此，身边的人还是很难体会到写博客...",
-    "votes": "8",
-    "url": "/k/gaqteq9",
-    "avatar": "https://img.toutiao.io/subject%2F0e6fd0887f9046ed9bec490e8d807dd1",
-    "avatarAlt": "码闻强识 - 独家号",
-    "subjectName": "码闻强识",
-    "homeUrl": "/subjects/137286"
-  },
-  {
     "title": "GitHub 访问加速指南",
     "description": "不知道什么时候开始，GitHub里面的图片也无法加载出来，本来页面也加载缓慢，这下更是雪上加霜，好在还是有简单的方式加速GitHub的访问。通过设置hosts就是一个低成本的方案，...",
-    "votes": "7",
+    "votes": "8",
     "url": "/k/5mauvie",
     "avatar": "https://img.toutiao.io/subject%2Fa3f94f1ba1134bcaab4ebc9b404e652f",
     "avatarAlt": "湖中剑 - 独家号",
@@ -70,24 +60,24 @@
     "homeUrl": "/subjects/423680"
   },
   {
+    "title": "Spring 中这些能升华代码的技巧，可能会让你爱不释手",
+    "description": "前言 最近越来越多的读者认可我的文章，还是件挺让人高兴的事情。有些读者私信我说希望后面多分享spring方面的文章，这样能够在实际工作中派上用场。正好我对spring源码有过一定的...",
+    "votes": "13",
+    "url": "/k/d374mr5",
+    "avatar": "https://img.toutiao.io/subject%2F0aae3536b7d44492b1974b1077394f7d",
+    "avatarAlt": "苏三说技术 - 独家号",
+    "subjectName": "苏三说技术",
+    "homeUrl": "/subjects/453205"
+  },
+  {
     "title": "最近的一些 Java 面试小结",
     "description": "前言 前段时间陆续面试了一些大中小公司，踩了不少坑，挂了很多，同时也有不少感悟和收获。这里想把那段经历记录一下，如果能对亲们有所帮助就再好不过了。面试的过程其实也是一个自我认识和学...",
-    "votes": "6",
+    "votes": "7",
     "url": "/k/ffm07xa",
     "avatar": "https://img.toutiao.io/subject%2Ffcb66c6130f8452a8da43228c8360019",
     "avatarAlt": "WriteOnRead - 独家号",
     "subjectName": "WriteOnRead",
     "homeUrl": "/subjects/313799"
-  },
-  {
-    "title": "MySQL 索引优化",
-    "description": "千万不要看到 WHERE 条件中出现的字段就直接创建索引，因为创建太多的单列索引，反而会造成性能降低。无需一开始就创建索引，可以等到业务场景明确后，或者是数据量超过 1 万、查询变...",
-    "votes": "3",
-    "url": "/k/wwi18sc",
-    "avatar": "https://img.toutiao.io/subject%2F15346fc59d474403a2f5abe4cc13658a",
-    "avatarAlt": "Web开发 - 独家号",
-    "subjectName": "Web开发",
-    "homeUrl": "/subjects/100131"
   },
   {
     "title": "面试官：能说一说 MySQL 缓存池吗？",
@@ -100,14 +90,24 @@
     "homeUrl": "/subjects/454196"
   },
   {
-    "title": "前端进阶不可错过的 10 个 GitHub 仓库",
-    "description": "2021 年已经来了，相信有一些小伙伴已经开始立 2021 年的 flag 了。在 2020 年有一些小伙伴，私下问阿宝哥有没有前端的学习资料。为了统一回答这个问题，阿宝哥在元旦期...",
-    "votes": "6",
-    "url": "/k/2eo05hp",
-    "avatar": "https://img.toutiao.io/subject%2F9cd866310cd142e1bfd7caf648a0f2cd",
-    "avatarAlt": "全栈修仙之路 - 独家号",
-    "subjectName": "全栈修仙之路",
-    "homeUrl": "/subjects/219103"
+    "title": "MySQL 索引优化",
+    "description": "千万不要看到 WHERE 条件中出现的字段就直接创建索引，因为创建太多的单列索引，反而会造成性能降低。无需一开始就创建索引，可以等到业务场景明确后，或者是数据量超过 1 万、查询变...",
+    "votes": "3",
+    "url": "/k/wwi18sc",
+    "avatar": "https://img.toutiao.io/subject%2F15346fc59d474403a2f5abe4cc13658a",
+    "avatarAlt": "Web开发 - 独家号",
+    "subjectName": "Web开发",
+    "homeUrl": "/subjects/100131"
+  },
+  {
+    "title": "面试：Redis 为什么快呢？查询为何会变慢？",
+    "description": "欢迎关注公众号【Ccww技术博客】，原创技术文章第一时间推出 越努力，越幸运， 本文已收藏在GitHub中JavaCommunity, 里面有面试分享、源码分析系列文章，欢迎收藏，...",
+    "votes": "9",
+    "url": "/k/uktnxye",
+    "avatar": "https://img.toutiao.io/subject%2F36ba6cca33c74069b0141b60a64963b8",
+    "avatarAlt": "Ccww架构之旅 - 独家号",
+    "subjectName": "Ccww架构之旅",
+    "homeUrl": "/subjects/367406"
   },
   {
     "title": "性能优化那些事",
@@ -120,16 +120,6 @@
     "homeUrl": "/subjects/8973"
   },
   {
-    "title": "面试：Redis 为什么快呢？查询为何会变慢？",
-    "description": "欢迎关注公众号【Ccww技术博客】，原创技术文章第一时间推出 越努力，越幸运， 本文已收藏在GitHub中JavaCommunity, 里面有面试分享、源码分析系列文章，欢迎收藏，...",
-    "votes": "8",
-    "url": "/k/uktnxye",
-    "avatar": "https://img.toutiao.io/subject%2F36ba6cca33c74069b0141b60a64963b8",
-    "avatarAlt": "Ccww架构之旅 - 独家号",
-    "subjectName": "Ccww架构之旅",
-    "homeUrl": "/subjects/367406"
-  },
-  {
     "title": "Java 并发编程之 JMM & volatile 详解 ",
     "description": "本文从计算机模型开始，以及CPU与内存、IO总线之间的交互关系到CPU缓存一致性协议的逻辑进行了阐述，并对JMM的思想与作用进行了详细的说明。针对volatile关键字从字节码以及...",
     "votes": "2",
@@ -140,34 +130,24 @@
     "homeUrl": "/subjects/24912"
   },
   {
-    "title": "揭秘 QUIC 的性能与安全",
-    "description": "在当代网络通讯中，高速且安全的网络接入服务已为互联网厂商的共同追求。针对传统的TCP + TLS的安全互联网服务，在各大头部互联网厂商中反响激烈，如google有提出各种升级和补丁...",
-    "votes": "8",
-    "url": "/k/c0c23kp",
-    "avatar": "https://img.toutiao.io/subject%2F382aa7e72a41496eb13f47c23571066a",
-    "avatarAlt": "OPPO互联网技术 - 独家号",
-    "subjectName": "OPPO互联网技术",
-    "homeUrl": "/subjects/429344"
+    "title": "Kubernetes 存储原理解析",
+    "description": "前面的章节中我们介绍了在 Kubernetes 中的持久化存储的使用，了解了 PV、PVC 以及 StorageClass 的使用方法，从本地存储到 Ceph 共享存储都有学习，到...",
+    "votes": "4",
+    "url": "/k/mhbru1t",
+    "avatar": "https://img.toutiao.io/user/3943308450344795bcfac38c2805adf8/thumb",
+    "avatarAlt": "u539609的独家号 - 独家号",
+    "subjectName": "u539609的独家号",
+    "homeUrl": "/subjects/415805"
   },
   {
-    "title": "Spring 中这些能升华代码的技巧，可能会让你爱不释手",
-    "description": "前言 最近越来越多的读者认可我的文章，还是件挺让人高兴的事情。有些读者私信我说希望后面多分享spring方面的文章，这样能够在实际工作中派上用场。正好我对spring源码有过一定的...",
-    "votes": "8",
-    "url": "/k/d374mr5",
-    "avatar": "https://img.toutiao.io/subject%2F0aae3536b7d44492b1974b1077394f7d",
-    "avatarAlt": "苏三说技术 - 独家号",
-    "subjectName": "苏三说技术",
-    "homeUrl": "/subjects/453205"
-  },
-  {
-    "title": "MySQL 慢查询（上）：你知道为啥会慢么？",
-    "description": " 正文共： 2487字  6图 预计阅读时间： 7分钟 发现的一些问题问题1 在过去的半年时间里，研发团队内部尝试抓了一波儿慢查询SQL跟进处理率。发现有些同学对于慢查询处理的思路...",
-    "votes": "2",
-    "url": "/k/32satxx",
-    "avatar": "https://img.toutiao.io/subject%2F071476c43e0d42cf95f3e77f046c814b",
-    "avatarAlt": "架构精进之路 - 独家号",
-    "subjectName": "架构精进之路",
-    "homeUrl": "/subjects/452638"
+    "title": "抓包神器 Wireshark，帮你快速定位线上网络故障（五）",
+    "description": "1 引子 Wireshark 就像网络世界的显微镜，我们可以在它的帮助下了解网络中发生的一切。上次分享借助 Wireshark 对 QQ 音乐进行抓取 HTTPS 包，并谈了谈如何...",
+    "votes": "3",
+    "url": "/k/oxyi4m9",
+    "avatar": "https://img.toutiao.io/subject%2Fb4777bbb5fa24a528ca72184edd23114",
+    "avatarAlt": "一猿小讲 - 独家号",
+    "subjectName": "一猿小讲",
+    "homeUrl": "/subjects/413084"
   },
   {
     "title": "软件架构基础（二）：架构思维",
@@ -180,6 +160,36 @@
     "homeUrl": "/subjects/1983"
   },
   {
+    "title": "如何做好一场技术分享，100% 纯干货输出",
+    "description": "正文共：2042字  4图 预计阅读时间：6分钟对于每个技术同学都可能存在同一个问题：如何做好一场技术分享呢？在现实生活中，在我们自己看来，可能会存在很多因素会导致我们可能做不好一...",
+    "votes": "4",
+    "url": "/k/koecfqz",
+    "avatar": "https://img.toutiao.io/subject%2F071476c43e0d42cf95f3e77f046c814b",
+    "avatarAlt": "架构精进之路 - 独家号",
+    "subjectName": "架构精进之路",
+    "homeUrl": "/subjects/452638"
+  },
+  {
+    "title": "面试被吊打系列：Redis 缓存血崩",
+    "description": "小张兴冲冲去面试，结果因为redis的缓存雪崩问题被面试官拒绝！小张：面试官，你好。我是来参加面试的。面试官：你好，小张。我看了你的简历，你们平时在项目中用了redis，能说一下你...",
+    "votes": "4",
+    "url": "/k/ud17b39",
+    "avatar": "https://img.toutiao.io/subject%2F51ad25ebdf8b4a15895a07d5bce2b1e4",
+    "avatarAlt": "JAVA日知录 - 独家号",
+    "subjectName": "JAVA日知录",
+    "homeUrl": "/subjects/205182"
+  },
+  {
+    "title": "你的 Spring Boot 应用到底启动了哪些 Bean？这两种方式可以帮你获取",
+    "description": "1. 概述  在本文中，我们将探索在容器中获取所有spring管理的bean的相关技术。这有神马用？主要是用于排查问题。一般都是我们创建的某一个bean没有启动的问题。毕竟工作中总...",
+    "votes": "7",
+    "url": "/k/3kq9pp8",
+    "avatar": "https://img.toutiao.io/subject%2Fbd89e8256a704647b6c665d760b80db4",
+    "avatarAlt": "愚公要移山 - 独家号",
+    "subjectName": "愚公要移山",
+    "homeUrl": "/subjects/454369"
+  },
+  {
     "title": "分布式一致性协议：EPaxos",
     "description": "总结epaxos作为paxos族中的一员，并不是单独存在的。所以我在文中开篇给出总结，罗列与basic-paxos、mutli-paxos之间的区别。带着目的学习，可能相对容易理解...",
     "votes": "4",
@@ -188,15 +198,5 @@
     "avatarAlt": "并发笔记 - 独家号",
     "subjectName": "并发笔记",
     "homeUrl": "/subjects/395621"
-  },
-  {
-    "title": "抓包神器 Wireshark，帮你快速定位线上网络故障（一）",
-    "description": "1 开篇：吊足胃口 「初入职场的菜菜同学」一心想靠 Java 技术来改变世界，未成想被网络环境问题缠身，于是抱着电脑，满怀希望的去找运维同事寻求帮助。菜菜问：运维大佬，帮忙看看这是...",
-    "votes": "3",
-    "url": "/k/5b2dh6z",
-    "avatar": "https://img.toutiao.io/subject%2Fb4777bbb5fa24a528ca72184edd23114",
-    "avatarAlt": "一猿小讲 - 独家号",
-    "subjectName": "一猿小讲",
-    "homeUrl": "/subjects/413084"
   }
 ]
