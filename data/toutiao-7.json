@@ -2,7 +2,7 @@
   {
     "title": "9 条消除 if...else 的锦囊妙计，助你写出更优雅的代码",
     "description": "前言 最近在做代码重构，发现了很多代码的烂味道。其他的不多说，今天主要说说那些又臭又长的if...else要如何重构。在介绍更更优雅的编程之前，让我们一起回顾一下，不好的if......",
-    "votes": "23",
+    "votes": "24",
     "url": "/k/6o9uhdv",
     "avatar": "https://img.toutiao.io/subject%2F0aae3536b7d44492b1974b1077394f7d",
     "avatarAlt": "苏三说技术 - 独家号",
@@ -32,12 +32,32 @@
   {
     "title": "Java 线程池总结",
     "description": "背景 Java线程池的写法和参数是面试中出现频率很高的基础题。越是基础的东西，特别是对高阶职位的面试者，需要回答的符合自己面试的职位等级。这里也不能说是一个多么好的答案，只是说如果...",
-    "votes": "16",
+    "votes": "17",
     "url": "/k/4z3o5gw",
     "avatar": "https://img.toutiao.io/subject%2F4325865040b44c0b9e2d8d80a83d1d11",
     "avatarAlt": "编程一生 - 独家号",
     "subjectName": "编程一生",
     "homeUrl": "/subjects/350352"
+  },
+  {
+    "title": "GitHub 访问加速指南",
+    "description": "不知道什么时候开始，GitHub里面的图片也无法加载出来，本来页面也加载缓慢，这下更是雪上加霜，好在还是有简单的方式加速GitHub的访问。通过设置hosts就是一个低成本的方案，...",
+    "votes": "10",
+    "url": "/k/5mauvie",
+    "avatar": "https://img.toutiao.io/subject%2Fa3f94f1ba1134bcaab4ebc9b404e652f",
+    "avatarAlt": "湖中剑 - 独家号",
+    "subjectName": "湖中剑",
+    "homeUrl": "/subjects/423680"
+  },
+  {
+    "title": "Spring 中这些能升华代码的技巧，可能会让你爱不释手",
+    "description": "前言 最近越来越多的读者认可我的文章，还是件挺让人高兴的事情。有些读者私信我说希望后面多分享spring方面的文章，这样能够在实际工作中派上用场。正好我对spring源码有过一定的...",
+    "votes": "15",
+    "url": "/k/d374mr5",
+    "avatar": "https://img.toutiao.io/subject%2F0aae3536b7d44492b1974b1077394f7d",
+    "avatarAlt": "苏三说技术 - 独家号",
+    "subjectName": "苏三说技术",
+    "homeUrl": "/subjects/453205"
   },
   {
     "title": "2020 读过的好书推荐",
@@ -48,26 +68,6 @@
     "avatarAlt": "mason技术记录 - 独家号",
     "subjectName": "mason技术记录",
     "homeUrl": "/subjects/24970"
-  },
-  {
-    "title": "GitHub 访问加速指南",
-    "description": "不知道什么时候开始，GitHub里面的图片也无法加载出来，本来页面也加载缓慢，这下更是雪上加霜，好在还是有简单的方式加速GitHub的访问。通过设置hosts就是一个低成本的方案，...",
-    "votes": "8",
-    "url": "/k/5mauvie",
-    "avatar": "https://img.toutiao.io/subject%2Fa3f94f1ba1134bcaab4ebc9b404e652f",
-    "avatarAlt": "湖中剑 - 独家号",
-    "subjectName": "湖中剑",
-    "homeUrl": "/subjects/423680"
-  },
-  {
-    "title": "Spring 中这些能升华代码的技巧，可能会让你爱不释手",
-    "description": "前言 最近越来越多的读者认可我的文章，还是件挺让人高兴的事情。有些读者私信我说希望后面多分享spring方面的文章，这样能够在实际工作中派上用场。正好我对spring源码有过一定的...",
-    "votes": "13",
-    "url": "/k/d374mr5",
-    "avatar": "https://img.toutiao.io/subject%2F0aae3536b7d44492b1974b1077394f7d",
-    "avatarAlt": "苏三说技术 - 独家号",
-    "subjectName": "苏三说技术",
-    "homeUrl": "/subjects/453205"
   },
   {
     "title": "最近的一些 Java 面试小结",
@@ -90,16 +90,6 @@
     "homeUrl": "/subjects/454196"
   },
   {
-    "title": "MySQL 索引优化",
-    "description": "千万不要看到 WHERE 条件中出现的字段就直接创建索引，因为创建太多的单列索引，反而会造成性能降低。无需一开始就创建索引，可以等到业务场景明确后，或者是数据量超过 1 万、查询变...",
-    "votes": "3",
-    "url": "/k/wwi18sc",
-    "avatar": "https://img.toutiao.io/subject%2F15346fc59d474403a2f5abe4cc13658a",
-    "avatarAlt": "Web开发 - 独家号",
-    "subjectName": "Web开发",
-    "homeUrl": "/subjects/100131"
-  },
-  {
     "title": "面试：Redis 为什么快呢？查询为何会变慢？",
     "description": "欢迎关注公众号【Ccww技术博客】，原创技术文章第一时间推出 越努力，越幸运， 本文已收藏在GitHub中JavaCommunity, 里面有面试分享、源码分析系列文章，欢迎收藏，...",
     "votes": "9",
@@ -110,24 +100,14 @@
     "homeUrl": "/subjects/367406"
   },
   {
-    "title": "性能优化那些事",
-    "description": "性能在软件工程诞生时就占据着非常重要的位置，如何用更少的硬件资源来支撑更多的功能、来完成更多的任务是软件工程师的职责，也是用来衡量一个软件工程师技艺高低的标准。这跟炒菜是一个道理，...",
-    "votes": "2",
-    "url": "/k/ml4lzrd",
-    "avatar": "https://img.toutiao.io/user/5a7a70a7ff844188be76ef25c0a082d7/thumb",
-    "avatarAlt": "ThoughtWorks - 独家号",
-    "subjectName": "ThoughtWorks",
-    "homeUrl": "/subjects/8973"
-  },
-  {
-    "title": "Java 并发编程之 JMM & volatile 详解 ",
-    "description": "本文从计算机模型开始，以及CPU与内存、IO总线之间的交互关系到CPU缓存一致性协议的逻辑进行了阐述，并对JMM的思想与作用进行了详细的说明。针对volatile关键字从字节码以及...",
-    "votes": "2",
-    "url": "/k/imzo6m8",
-    "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
-    "avatarAlt": "进击的程序猿 - 独家号",
-    "subjectName": "进击的程序猿",
-    "homeUrl": "/subjects/24912"
+    "title": "如何成为快乐高产的程序员",
+    "description": "前言身为 IT 中人，我和我身边的朋友们有以下这些痛点：书上说的那些好习惯：早起、冥想、瑜伽、读书，总是坚持不下来。每天总会有乱七八糟的事情打乱规划，而这些乱入的工作由于涉及上层的...",
+    "votes": "7",
+    "url": "/k/pfv4tyx",
+    "avatar": "https://img.toutiao.io/user/c4b0a6dd73634edba21e7ef41b5622a3/thumb",
+    "avatarAlt": "软件匠艺社区 - 独家号",
+    "subjectName": "软件匠艺社区",
+    "homeUrl": "/subjects/58319"
   },
   {
     "title": "Kubernetes 存储原理解析",
@@ -150,16 +130,6 @@
     "homeUrl": "/subjects/413084"
   },
   {
-    "title": "软件架构基础（二）：架构思维",
-    "description": "▲ 点击上方\"多颗糖\"关注公众号架构思维指用架构的眼光和观点来看待事物，主要包括：理解软件架构和软件设计的区别，知道与开发团队合作，并让架构发挥作用。拥有技术广度的同时，保持一定的...",
-    "votes": "2",
-    "url": "/k/9elmti3",
-    "avatar": "https://img.toutiao.io/user/4a9a9e41962e4b238bdebfaf160b5034/thumb",
-    "avatarAlt": "强力研分布式系统 - 独家号",
-    "subjectName": "强力研分布式系统",
-    "homeUrl": "/subjects/1983"
-  },
-  {
     "title": "如何做好一场技术分享，100% 纯干货输出",
     "description": "正文共：2042字  4图 预计阅读时间：6分钟对于每个技术同学都可能存在同一个问题：如何做好一场技术分享呢？在现实生活中，在我们自己看来，可能会存在很多因素会导致我们可能做不好一...",
     "votes": "4",
@@ -170,14 +140,44 @@
     "homeUrl": "/subjects/452638"
   },
   {
-    "title": "面试被吊打系列：Redis 缓存血崩",
-    "description": "小张兴冲冲去面试，结果因为redis的缓存雪崩问题被面试官拒绝！小张：面试官，你好。我是来参加面试的。面试官：你好，小张。我看了你的简历，你们平时在项目中用了redis，能说一下你...",
-    "votes": "4",
-    "url": "/k/ud17b39",
-    "avatar": "https://img.toutiao.io/subject%2F51ad25ebdf8b4a15895a07d5bce2b1e4",
-    "avatarAlt": "JAVA日知录 - 独家号",
-    "subjectName": "JAVA日知录",
-    "homeUrl": "/subjects/205182"
+    "title": "软件架构基础（二）：架构思维",
+    "description": "▲ 点击上方\"多颗糖\"关注公众号架构思维指用架构的眼光和观点来看待事物，主要包括：理解软件架构和软件设计的区别，知道与开发团队合作，并让架构发挥作用。拥有技术广度的同时，保持一定的...",
+    "votes": "2",
+    "url": "/k/9elmti3",
+    "avatar": "https://img.toutiao.io/user/4a9a9e41962e4b238bdebfaf160b5034/thumb",
+    "avatarAlt": "强力研分布式系统 - 独家号",
+    "subjectName": "强力研分布式系统",
+    "homeUrl": "/subjects/1983"
+  },
+  {
+    "title": "网络抓包大法好，tcpdump 和 Wireshark 少不了",
+    "description": "前言  在网络编程中，有两大抓包利器，就是tcpdump和Wireshark，它们就好比《倚天屠龙记》里的倚天剑和屠龙刀得之者得天下。在网络编程的世界中，可以说 『得Tcpdump...",
+    "votes": "2",
+    "url": "/k/5ssh1zt",
+    "avatar": "https://img.toutiao.io/subject%2F1119a483787d4c78a2237dde56c56c08",
+    "avatarAlt": "蛇叔编程心法 - 独家号",
+    "subjectName": "蛇叔编程心法",
+    "homeUrl": "/subjects/310769"
+  },
+  {
+    "title": "一文带你解密 Go 语言之通道 channel",
+    "description": "大家好，我是煎鱼。今天这篇文章主要是针对 Go channel 的重点分析，一开始写的时候以为范围不会太大，但洋洋洒洒还是写破了万字，成为了一篇覆盖面较广和有一定深度的长文分析。大...",
+    "votes": "7",
+    "url": "/k/jhyptjc",
+    "avatar": "https://img.toutiao.io/user/01ec77a3ddbb4158afed606b24af1c87/thumb",
+    "avatarAlt": "Go学习之路 - 独家号",
+    "subjectName": "Go学习之路",
+    "homeUrl": "/subjects/343446"
+  },
+  {
+    "title": "怎么提升写代码的能力",
+    "description": "对于程序员而言，我始终认为代码是展现能力的关键，一个优秀程序员写的代码，和一个普通程序员写的代码是很容易看出差别的，代码作为程序员的硬实力和名片的展示，怎么提升写代码的能力始终是一...",
+    "votes": "6",
+    "url": "/k/4s7vb65",
+    "avatar": "https://img.toutiao.io/subject%2F4c72971aff5c4e73821ac59b18ff5dd6",
+    "avatarAlt": "程序员的朋友圈 - 独家号",
+    "subjectName": "程序员的朋友圈",
+    "homeUrl": "/subjects/378"
   },
   {
     "title": "你的 Spring Boot 应用到底启动了哪些 Bean？这两种方式可以帮你获取",
@@ -190,13 +190,13 @@
     "homeUrl": "/subjects/454369"
   },
   {
-    "title": "分布式一致性协议：EPaxos",
-    "description": "总结epaxos作为paxos族中的一员，并不是单独存在的。所以我在文中开篇给出总结，罗列与basic-paxos、mutli-paxos之间的区别。带着目的学习，可能相对容易理解...",
-    "votes": "4",
-    "url": "/k/odbscty",
-    "avatar": "https://img.toutiao.io/subject%2Fe869abb8b126449695234f519888025d",
-    "avatarAlt": "并发笔记 - 独家号",
-    "subjectName": "并发笔记",
-    "homeUrl": "/subjects/395621"
+    "title": "我在拼多多的三年",
+    "description": "# background首发于浙江大学cc98论坛和个人博客，如果转载请联系cc98官方或者联系本人，字数1w+，阅读时间约为10分钟。本文目的是【希望学弟学妹们千万不要去拼多多】...",
+    "votes": "18",
+    "url": "/k/jkvyo8g",
+    "avatar": "https://img.toutiao.io/subject%2F9a97933f431d4553ba4a1d1838f48143",
+    "avatarAlt": "Python猫技术花园 - 独家号",
+    "subjectName": "Python猫技术花园",
+    "homeUrl": "/subjects/14371"
   }
 ]

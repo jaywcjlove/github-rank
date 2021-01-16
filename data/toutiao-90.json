@@ -72,7 +72,7 @@
   {
     "title": "美团 Commit Log 规范",
     "description": "一、背景 Git每次提交代码都需要写commit message，一般来说，commit message应该清晰明了，说明本次提交的目的，具体做了什么操作等。但是在日常开发中，开发...",
-    "votes": "20",
+    "votes": "21",
     "url": "/k/r6tsfdv",
     "avatar": "https://img.toutiao.io/subject%2Fea8976fb047b483dacc34fd01e51d47e",
     "avatarAlt": "Java研发 - 独家号",
@@ -140,6 +140,16 @@
     "homeUrl": "/subjects/132403"
   },
   {
+    "title": "支撑 700 亿数据量的 ClickHouse 高可用架构实践",
+    "description": " 本文根据蔡岳毅老师在〖2020 Gdevops全球敏捷运维峰会〗现场演讲内容整理而成。  （点击文末“阅读原文”可获取完整PPT） 讲师介绍蔡岳毅，携程旅行网酒店研发中心高级研发...",
+    "votes": "11",
+    "url": "/k/f5v4m55",
+    "avatar": "https://img.toutiao.io/subject%2F6ee3bb205b3248c2b746c1506548181a",
+    "avatarAlt": "大数据生态 - 独家号",
+    "subjectName": "大数据生态",
+    "homeUrl": "/subjects/136176"
+  },
+  {
     "title": "这些开源项目，让你轻松应对十大工作场景",
     "description": "俗话说得好，工欲善其事必先利其器。本文阿宝哥将介绍一些优秀的开源项目，利用这些开源项目，你将能能轻松应对以下十个工作场景：文件上传、图片处理、文档处理、网络请求、数据存储、微前端、...",
     "votes": "9",
@@ -148,6 +158,16 @@
     "avatarAlt": "全栈修仙之路 - 独家号",
     "subjectName": "全栈修仙之路",
     "homeUrl": "/subjects/219103"
+  },
+  {
+    "title": "肝了 3 版才满意：分布式系统之 CAP 理论，我们对它的理解和误解",
+    "description": "引言 CAP 理论，相信很多人都听过，它是指：一个分布式系统最多只能同时满足一致性（Consistency）、可用性（Availability）和分区容错性（Partition t...",
+    "votes": "15",
+    "url": "/k/q2fkii4",
+    "avatar": "https://img.toutiao.io/subject%2F180d026f85274c998656474cd1988d0f",
+    "avatarAlt": "四猿外 - 独家号",
+    "subjectName": "四猿外",
+    "homeUrl": "/subjects/426740"
   },
   {
     "title": "万字 Java 知识地图助你成为 Offer 收割机",
@@ -170,26 +190,6 @@
     "homeUrl": "/subjects/395621"
   },
   {
-    "title": "肝了 3 版才满意：分布式系统之 CAP 理论，我们对它的理解和误解",
-    "description": "引言 CAP 理论，相信很多人都听过，它是指：一个分布式系统最多只能同时满足一致性（Consistency）、可用性（Availability）和分区容错性（Partition t...",
-    "votes": "15",
-    "url": "/k/q2fkii4",
-    "avatar": "https://img.toutiao.io/subject%2F180d026f85274c998656474cd1988d0f",
-    "avatarAlt": "四猿外 - 独家号",
-    "subjectName": "四猿外",
-    "homeUrl": "/subjects/426740"
-  },
-  {
-    "title": "支撑 700 亿数据量的 ClickHouse 高可用架构实践",
-    "description": " 本文根据蔡岳毅老师在〖2020 Gdevops全球敏捷运维峰会〗现场演讲内容整理而成。  （点击文末“阅读原文”可获取完整PPT） 讲师介绍蔡岳毅，携程旅行网酒店研发中心高级研发...",
-    "votes": "11",
-    "url": "/k/f5v4m55",
-    "avatar": "https://img.toutiao.io/subject%2F6ee3bb205b3248c2b746c1506548181a",
-    "avatarAlt": "大数据生态 - 独家号",
-    "subjectName": "大数据生态",
-    "homeUrl": "/subjects/136176"
-  },
-  {
     "title": "面试官：如何写出让 CPU 跑得更快的代码？",
     "description": "前言代码都是由 CPU 跑起来的，我们代码写的好与坏就决定了 CPU 的执行效率，特别是在编写计算密集型的程序，更要注重 CPU 的执行效率，否则将会大大影响系统性能。CPU 内部...",
     "votes": "18",
@@ -198,6 +198,16 @@
     "avatarAlt": "最佳实践 - 独家号",
     "subjectName": "最佳实践",
     "homeUrl": "/subjects/72425"
+  },
+  {
+    "title": "深度解析 Raft 分布式一致性协议",
+    "description": "笔者期望通过一篇权威靠谱、清晰易懂的系统性文章，帮助读者深入理解 Raft 算法，并能付诸于工程实践中，同时解读不易理解或容易误解的关键点。本文是 Raft 实战系列理论内容的整合...",
+    "votes": "9",
+    "url": "/k/am8mql2",
+    "avatar": "https://img.toutiao.io/subject%2F58549cfff083434f8fea6f4e99a28393",
+    "avatarAlt": "Q的博客 - 独家号",
+    "subjectName": "Q的博客",
+    "homeUrl": "/subjects/293369"
   },
   {
     "title": "Docker 底层原理浅析",
@@ -218,16 +228,6 @@
     "avatarAlt": "跨界架构师 - 独家号",
     "subjectName": "跨界架构师",
     "homeUrl": "/subjects/268968"
-  },
-  {
-    "title": "深度解析 Raft 分布式一致性协议",
-    "description": "笔者期望通过一篇权威靠谱、清晰易懂的系统性文章，帮助读者深入理解 Raft 算法，并能付诸于工程实践中，同时解读不易理解或容易误解的关键点。本文是 Raft 实战系列理论内容的整合...",
-    "votes": "9",
-    "url": "/k/am8mql2",
-    "avatar": "https://img.toutiao.io/subject%2F58549cfff083434f8fea6f4e99a28393",
-    "avatarAlt": "Q的博客 - 独家号",
-    "subjectName": "Q的博客",
-    "homeUrl": "/subjects/293369"
   },
   {
     "title": "面试官：你说说互斥锁、自旋锁、读写锁、悲观锁、乐观锁的应用场景",
