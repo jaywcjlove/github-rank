@@ -1,23 +1,23 @@
 [
   {
-    "title": "DDD 实现之路",
-    "description": "编者按：这篇文章最早撰写于2014年，作者也是《实现领域驱动设计》的译者。几年过去了，DDD在坊间依然方兴未艾，然而它的复杂性所引发的误解也层出不穷。对于一些基本概念的澄清甚至溯源...",
-    "votes": "163",
-    "url": "/k/9r5qrcy",
-    "avatar": "https://img.toutiao.io/user/5a7a70a7ff844188be76ef25c0a082d7/thumb",
-    "avatarAlt": "ThoughtWorks - 独家号",
-    "subjectName": "ThoughtWorks",
-    "homeUrl": "/subjects/8973"
-  },
-  {
     "title": "如何做好技术 Team Leader？",
     "description": "曾子曰：吾日三省吾身，反思是人类进化出来的一项异常宝贵的能力。我在阿里带团队也有四年多的时间，有必要总结一下此间得失；另外，前几天和一个刚开始带团队的同学聊天，他觉得角色转变对于他...",
-    "votes": "128",
+    "votes": "135",
     "url": "/k/7lfbxyd",
     "avatar": "https://img.toutiao.io/subject%2Fca0b9d7ac72842a3babe77c85e71aeda",
     "avatarAlt": "阿里云Edge Plus - 独家号",
     "subjectName": "阿里云Edge Plus",
     "homeUrl": "/subjects/455078"
+  },
+  {
+    "title": "基于开源技术打造 DevSecOps 工具链",
+    "description": "前言 在落地DevSecOps过程中，核心的一个部分是安全工具链，通过工具化集成将安全活动内嵌到DevOps研发运营一体化中。下面，我们来谈一下，从计划阶段的威胁建模，创建阶段的I...",
+    "votes": "103",
+    "url": "/k/8dcb5n8",
+    "avatar": "https://img.toutiao.io/subject%2Fab225f76a1344c82acd5de490243c1fb",
+    "avatarAlt": "安全奇点 - 独家号",
+    "subjectName": "安全奇点",
+    "homeUrl": "/subjects/6127"
   },
   {
     "title": "阿里面试官：接口的幂等性怎么设计？",
@@ -30,19 +30,9 @@
     "homeUrl": "/subjects/454196"
   },
   {
-    "title": "基于开源技术打造 DevSecOps 工具链",
-    "description": "前言 在落地DevSecOps过程中，核心的一个部分是安全工具链，通过工具化集成将安全活动内嵌到DevOps研发运营一体化中。下面，我们来谈一下，从计划阶段的威胁建模，创建阶段的I...",
-    "votes": "96",
-    "url": "/k/8dcb5n8",
-    "avatar": "https://img.toutiao.io/subject%2Fab225f76a1344c82acd5de490243c1fb",
-    "avatarAlt": "安全奇点 - 独家号",
-    "subjectName": "安全奇点",
-    "homeUrl": "/subjects/6127"
-  },
-  {
     "title": "金字塔思维，所有厉害的人都在用",
     "description": "成长&认知 丨 作者 / 袁吴范这是pointers公众号的第43篇原创文章不知道大家有没有遇到过这样让人头疼的情况：公司几个部门的人围在一起开会，各自从自己的角度出发，想要说服彼...",
-    "votes": "97",
+    "votes": "98",
     "url": "/k/j22t4lx",
     "avatar": "https://img.toutiao.io/subject%2F2d6acb5e10d74d418b835f039664ab16",
     "avatarAlt": "pointers - 独家号",
@@ -52,7 +42,7 @@
   {
     "title": "几乎刷完了力扣所有的堆题，我发现了这些东西（第二弹）",
     "description": "一点题外话 上次在我的公众号给大家做了一个小调查《投出你想要的题解编程语言吧~》。以下是调查的结果：投票结果而关于其他，则大多数是 Go 语言。投其他的人都写了什么？由于 Java...",
-    "votes": "78",
+    "votes": "82",
     "url": "/k/x15jtei",
     "avatar": "https://img.toutiao.io/subject%2F535bf01014ce4334b9ad5276d10b58bb",
     "avatarAlt": "力扣加加 - 独家号",
@@ -60,14 +50,14 @@
     "homeUrl": "/subjects/324664"
   },
   {
-    "title": "跳表：会跳的链表原来这么 diao",
-    "description": "点击上方bigsai 关注我前言跳表是面试常问的一种数据结构，它在很多中间件和语言中得到应用，我们最最熟知的就有Redis跳表(zset)。并且在面试的很多场景可能会问到，偶尔还会...",
-    "votes": "75",
-    "url": "/k/fobkj0c",
-    "avatar": "https://img.toutiao.io/subject%2F662b0e169470458dbd61ffa5a7923bed",
-    "avatarAlt": "bigsai - 独家号",
-    "subjectName": "bigsai",
-    "homeUrl": "/subjects/451932"
+    "title": "Redis 在 Linux 系统的配置优化",
+    "description": "通常来看，Redis开发和运维人员更加关注的是Redis本身的一些配置优化，例如AOF和RDB的配置优化、数据结构的配置优化等，但是对于操作系统是否需要针对Redis做一些配置优化...",
+    "votes": "76",
+    "url": "/k/cgfim2o",
+    "avatar": "https://img.toutiao.io/subject%2F7099419508b548428645eec6ee3e7c5b",
+    "avatarAlt": "数据智能 - 独家号",
+    "subjectName": "数据智能",
+    "homeUrl": "/subjects/1"
   },
   {
     "title": "又一个大数据相关项目成为顶级项目",
@@ -82,7 +72,7 @@
   {
     "title": "做业务系统研发如何做到认真负责？",
     "description": "相信大家都有这样的问题，天天写业务代码的程序员，怎么成为技术大牛？下面给大家分享下我对这个问题的看法，仅代表个人看法，比较粗浅，希望大家不要介意。程序员大部分在做这两种事情，一是通...",
-    "votes": "72",
+    "votes": "78",
     "url": "/k/6iusrlx",
     "avatar": "https://img.toutiao.io/subject%2Fbf13817488764502ae746a0a4798478d",
     "avatarAlt": "新亮笔记 - 独家号",
@@ -92,7 +82,7 @@
   {
     "title": "线程池实时管理与监控工具的实现与思考",
     "description": "0. 前言Java线程池作为最常使用到的并发工具，大多数同学都有使用的经验，但你确定你是在正确的使用线程池吗？阿里Java代码规范要求我们不使用 Executors来快速创建线程池...",
-    "votes": "62",
+    "votes": "66",
     "url": "/k/3yigd21",
     "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
     "avatarAlt": "ASCE1885 - 独家号",
@@ -100,9 +90,19 @@
     "homeUrl": "/subjects/4829"
   },
   {
+    "title": "分布式延时任务调度系统设计与 Golang 实现",
+    "description": "延时应用场景之前的文章分享了分布式任务调度系统负载均衡方案：分布式任务调度系统分发及负载均衡实现方案。一个完整的任务调度系统，对延时任务的支持必不可少。延时任务、延迟消息、延迟队列...",
+    "votes": "65",
+    "url": "/k/y4y7pl1",
+    "avatar": "https://img.toutiao.io/subject%2F0b42d8ae8c1e454caa2896f41961b7a3",
+    "avatarAlt": "全栈以及Golang - 独家号",
+    "subjectName": "全栈以及Golang",
+    "homeUrl": "/subjects/153891"
+  },
+  {
     "title": "漫画：理解了 TCP 连接的实现以后，客户端的并发也爆发了",
     "description": " echo \"5000 65000\" > /proc/sys/net/ipv4/ip_local_port_range 连接1：192.168.1.101 5000 192.168...",
-    "votes": "58",
+    "votes": "59",
     "url": "/k/zvcfkca",
     "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
     "avatarAlt": "Bloomingroses - 独家号",
@@ -110,14 +110,14 @@
     "homeUrl": "/subjects/98777"
   },
   {
-    "title": "分布式延时任务调度系统设计与 Golang 实现",
-    "description": "延时应用场景之前的文章分享了分布式任务调度系统负载均衡方案：分布式任务调度系统分发及负载均衡实现方案。一个完整的任务调度系统，对延时任务的支持必不可少。延时任务、延迟消息、延迟队列...",
-    "votes": "63",
-    "url": "/k/y4y7pl1",
-    "avatar": "https://img.toutiao.io/subject%2F0b42d8ae8c1e454caa2896f41961b7a3",
-    "avatarAlt": "全栈以及Golang - 独家号",
-    "subjectName": "全栈以及Golang",
-    "homeUrl": "/subjects/153891"
+    "title": "价值百万的技术人创业复盘",
+    "description": "朝九晚五上下班的人体会不到创业的激情，创过业的人反而更能体会工作中带来的成长，如果你准备创业，看看下面这几条心得体会，也许能少走一些弯路。别人的成功无法复制，但别人的失败，可以给你...",
+    "votes": "67",
+    "url": "/k/z91auhw",
+    "avatar": "https://img.toutiao.io/subject%2F0e6fd0887f9046ed9bec490e8d807dd1",
+    "avatarAlt": "码闻强识 - 独家号",
+    "subjectName": "码闻强识",
+    "homeUrl": "/subjects/137286"
   },
   {
     "title": "来，一起品品 Google 的 Code Review 规范",
@@ -130,34 +130,54 @@
     "homeUrl": "/subjects/454593"
   },
   {
-    "title": "Redis 在 Linux 系统的配置优化",
-    "description": "通常来看，Redis开发和运维人员更加关注的是Redis本身的一些配置优化，例如AOF和RDB的配置优化、数据结构的配置优化等，但是对于操作系统是否需要针对Redis做一些配置优化...",
-    "votes": "57",
-    "url": "/k/cgfim2o",
-    "avatar": "https://img.toutiao.io/subject%2F7099419508b548428645eec6ee3e7c5b",
-    "avatarAlt": "数据智能 - 独家号",
-    "subjectName": "数据智能",
-    "homeUrl": "/subjects/1"
-  },
-  {
-    "title": "价值百万的技术人创业复盘",
-    "description": "朝九晚五上下班的人体会不到创业的激情，创过业的人反而更能体会工作中带来的成长，如果你准备创业，看看下面这几条心得体会，也许能少走一些弯路。别人的成功无法复制，但别人的失败，可以给你...",
-    "votes": "62",
-    "url": "/k/z91auhw",
-    "avatar": "https://img.toutiao.io/subject%2F0e6fd0887f9046ed9bec490e8d807dd1",
-    "avatarAlt": "码闻强识 - 独家号",
-    "subjectName": "码闻强识",
-    "homeUrl": "/subjects/137286"
-  },
-  {
     "title": "Go 精妙的互斥锁设计",
     "description": "Some people, when confronted with a problem, think, “I know, I’ll use threads,” and then t...",
-    "votes": "55",
+    "votes": "61",
     "url": "/k/bitszv2",
     "avatar": "https://img.toutiao.io/subject%2Fd01bf67f1b3243aeabb1e486544fd44c",
     "avatarAlt": "Go语言中文网 - 独家号",
     "subjectName": "Go语言中文网",
     "homeUrl": "/subjects/133906"
+  },
+  {
+    "title": "RESTful API 如何进行版本控制",
+    "description": "本文将帮助您理解为什么需要版本控制，以及如何对REST API进行版本控制。我们将讨论4种版本控制的方法，并比较不同的方法。您将学到为什么我们需要对RESTful API 进行版本...",
+    "votes": "45",
+    "url": "/k/na04wzq",
+    "avatar": "https://img.toutiao.io/subject%2F51ad25ebdf8b4a15895a07d5bce2b1e4",
+    "avatarAlt": "JAVA日知录 - 独家号",
+    "subjectName": "JAVA日知录",
+    "homeUrl": "/subjects/205182"
+  },
+  {
+    "title": "我的 top 私人珍藏开发工具集",
+    "description": "程序员应该用高效，炫酷的工具，这样不仅能快速工作，也能让生活更开心！1. Ubuntu Linuxwindows 不太适合程序员吧，劝 windows 的换个操作系统，用 ubun...",
+    "votes": "50",
+    "url": "/k/pq2o3oh",
+    "avatar": "https://img.toutiao.io/subject%2Fdc973eeee39640669e958347f0bb7775",
+    "avatarAlt": "求知久久 - 独家号",
+    "subjectName": "求知久久",
+    "homeUrl": "/subjects/124922"
+  },
+  {
+    "title": "Spring 中那些让你爱不释手的代码技巧（续集）",
+    "description": "大家好，我是苏三，又和大家见面了。最近听说井上雄彦已经官宣：《灌篮高手》要出电影版了，这条消息让我激动不已。篮球，青春，热血，爱情，友情，遗憾。。。爷青回。前言上一篇文章《spri...",
+    "votes": "42",
+    "url": "/k/qk22gxk",
+    "avatar": "https://img.toutiao.io/subject%2F0aae3536b7d44492b1974b1077394f7d",
+    "avatarAlt": "苏三说技术 - 独家号",
+    "subjectName": "苏三说技术",
+    "homeUrl": "/subjects/453205"
+  },
+  {
+    "title": "大流量场景下如何云淡风轻地进行线上发布？",
+    "description": "  前言 本文，我们继续聊聊《揭秘大流量场景下发布如丝般顺滑背后的原因》中的另外一环，灰度发布，也叫金丝雀发布。很多互联网公司在半夜发布的另外一个重要原因是不具备可灰度能力，新版本...",
+    "votes": "43",
+    "url": "/k/mg7l9r4",
+    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
+    "avatarAlt": "ASCE1885 - 独家号",
+    "subjectName": "ASCE1885",
+    "homeUrl": "/subjects/4829"
   },
   {
     "title": "一天狂揽 3000 Star！程序员考公指南登上 GitHub 热榜",
@@ -178,25 +198,5 @@
     "avatarAlt": "架构精进之路 - 独家号",
     "subjectName": "架构精进之路",
     "homeUrl": "/subjects/452638"
-  },
-  {
-    "title": "RESTful API 如何进行版本控制",
-    "description": "本文将帮助您理解为什么需要版本控制，以及如何对REST API进行版本控制。我们将讨论4种版本控制的方法，并比较不同的方法。您将学到为什么我们需要对RESTful API 进行版本...",
-    "votes": "40",
-    "url": "/k/na04wzq",
-    "avatar": "https://img.toutiao.io/subject%2F51ad25ebdf8b4a15895a07d5bce2b1e4",
-    "avatarAlt": "JAVA日知录 - 独家号",
-    "subjectName": "JAVA日知录",
-    "homeUrl": "/subjects/205182"
-  },
-  {
-    "title": "敏捷管理系列：学习实践 Scrum，看这一篇就够了",
-    "description": " 敏捷管理系列-四种常见研发模式 一文介绍了常见的四种研发模式，适用场景及优缺点。  笔者有幸参与由瀑布模型到敏捷管理变革尝试的全过程。传统项目管理采用PMP模式，有严格的评审和产...",
-    "votes": "41",
-    "url": "/k/wd0phnm",
-    "avatar": "https://img.toutiao.io/subject%2F2248057e0e2a467da939386bba6f0a57",
-    "avatarAlt": "云栈技术CSTC - 独家号",
-    "subjectName": "云栈技术CSTC",
-    "homeUrl": "/subjects/206"
   }
 ]
