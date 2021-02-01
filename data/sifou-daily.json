@@ -1,29 +1,83 @@
 [
   {
-    "title": "nuxt构建项目",
-    "description": "一、引入并创建nuxt项目确认已经安装 npx ( npx 依附于 npm 5.2.0 安装引入) {代码...} 或者在 npm v6.1版本后 可以这样创建: {代码...} 或者用： yarn: {代码...} 二、引入axios库1、使用nuxt自带模块 {代码...}...",
-    "url": "https://segmentfault.com/a/1190000039131163",
-    "author": "万年打野易大师",
-    "home_url": "https://segmentfault.com/u/faker_5acebe0256c30",
-    "votes": "3",
+    "title": "一文串联 HTTP / [0.9 | 1.0 | 1.1 | 2 | 3]",
+    "description": "在 30 多年的历史中，HTTP 协议本身有比较大的发展，同时，还有一些重大的变动也在酝酿之中。这些演化使得这个协议的表现力更强，性能更好，更能满足日新月异的应用需求。本文就来回顾和展望一下 HTTP 的历史和未...",
+    "url": "https://segmentfault.com/a/1190000039134645",
+    "author": "孟思行",
+    "home_url": "https://segmentfault.com/u/mengsixing",
+    "votes": "9",
     "rank": 1
   },
   {
-    "title": "理解闭包与内存泄漏",
-    "description": "闭包，是指有权访问另一个函数作用域中变量的函数。从定义上我们可以知道，闭包是函数，并且是被另一个函数包裹的函数。所以需要用一个函数去包裹另一个函数，即在函数内部定义函数。被包裹的函数则称为闭包函数...",
-    "url": "https://segmentfault.com/a/1190000039132414",
-    "author": "JS_Even_JS",
-    "home_url": "https://segmentfault.com/u/js_even_js",
-    "votes": "1",
+    "title": "使用 webpack 代码分割和魔术注释提升应用性能",
+    "description": "关于 Web 应用性能优化，有一点是毫无疑问的：「页面加载越久，用户体验就越差」。我们几乎可以说 Web 应用性能优化的关键之处就在于：减少页面初载时，所需加载资源的「数量」和「体积」。",
+    "url": "https://segmentfault.com/a/1190000039134142",
+    "author": "libinfs",
+    "home_url": "https://segmentfault.com/u/libinfs",
+    "votes": "5",
     "rank": 2
   },
   {
-    "title": "Redis-第六章节-事务",
-    "description": "目录简介执行过程特点案例watch简介事务（Transaction），一般是指要做的或所做的事情。在计算机术语中是指访问并可能更新数据库中各种数据项的一个程序执行单元(unit)。执行过程开始事务 -> 命令入队 -> ...",
-    "url": "https://segmentfault.com/a/1190000039131964",
-    "author": "李栋",
-    "home_url": "https://segmentfault.com/u/lidong_58afb57096f8c",
+    "title": "object.assgin导致的vue双向数据绑失效",
+    "description": "前几天在写一个后台项目的时候使用object.assgin时出现了一个很奇怪的bug，特写了一个简单的demo探究一下。demo为一个基础表单：",
+    "url": "https://segmentfault.com/a/1190000039136809",
+    "author": "到底",
+    "home_url": "https://segmentfault.com/u/daodi",
     "votes": "1",
     "rank": 3
+  },
+  {
+    "title": "每天学一个 Linux 命令（33）：uniq",
+    "description": "昨日推荐：每天学一个 Linux 命令（32）：sort命令简介uniq 命令用于去除文件中重复行，一般与 sort 命令结合使用。语法格式 {代码...} {代码...} 选项说明 {代码...} 应用举例 {代码...} 每天学一个 Linux 命令...",
+    "url": "https://segmentfault.com/a/1190000039136985",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "1",
+    "rank": 4
+  },
+  {
+    "title": "React中的高优先级任务插队机制",
+    "description": "在React的concurrent模式下，低优先级任务执行过程中，一旦有更高优先级的任务进来，那么这个低优先级的任务会被取消，优先执行高优先级任务。等高优先级任务做完了，低优先级任务会被重新做一遍。",
+    "url": "https://segmentfault.com/a/1190000039134817",
+    "author": "nero",
+    "home_url": "https://segmentfault.com/u/neronero",
+    "votes": "1",
+    "rank": 5
+  },
+  {
+    "title": "Spring 动态代理时是如何解决循环依赖的？为什么要使用三级缓存？",
+    "description": "前言在研究 『 Spring 是如何解决循环依赖的 』 的时候，了解到 Spring 是借助三级缓存来解决循环依赖的。同样在上一节留下了疑问：循环依赖为什么要使用三级缓存？而不是使用二级缓存？AOP 动态代理对循环依赖的...",
+    "url": "https://segmentfault.com/a/1190000039134606",
+    "author": "程序员小航",
+    "home_url": "https://segmentfault.com/u/liuzhihangs",
+    "votes": "1",
+    "rank": 6
+  },
+  {
+    "title": "基于SpringBoot实现一个简单的权限控制注解",
+    "description": "注解是 JDK 5.0 引入的一种注释机制。注解可以作用在类型（类、接口、枚举等）、属性、方法、参数等不同位置，具体的 JDK 版本所支持的注解位置可参考 java.lang.annotation.ElementType 。此外还有注解的策略，...",
+    "url": "https://segmentfault.com/a/1190000039134345",
+    "author": "ly931003",
+    "home_url": "https://segmentfault.com/u/ly931003",
+    "votes": "1",
+    "rank": 7
+  },
+  {
+    "title": "【初级】个人分享Vue前端开发教程笔记 | 打卡每天一份劝退技能",
+    "description": "每天学习编程，让你离梦想更新一步，感谢不负每一份热爱编程的程序员，不论知识点多么奇葩，和我一起，让那一颗四处流荡的心定下来，一直走下去，加油，2021加油！欢迎关注，欢迎点赞、收藏和评论",
+    "url": "https://segmentfault.com/a/1190000039138283",
+    "author": "程序员哆啦A梦",
+    "home_url": "https://segmentfault.com/u/dashucoding",
+    "votes": "1",
+    "rank": 8
+  },
+  {
+    "title": "java多线程-volatile的使用",
+    "description": "volatile关键字主要作用：​ 1.保证数据之间的可见性。​ 2.禁止指令重排序。1.可见性2.做个小的测试 {代码...} 结果： {代码...} 我们可以发现,第二个线程将flag改成false,但是第一个线程并没有停止运行。1.多线程...",
+    "url": "https://segmentfault.com/a/1190000039134602",
+    "author": "超级大咸鱼",
+    "home_url": "https://segmentfault.com/u/chaojidaxianyu",
+    "votes": "1",
+    "rank": 9
   }
 ]
