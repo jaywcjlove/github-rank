@@ -2,7 +2,7 @@
   {
     "title": "Spring 中那些让你爱不释手的代码技巧",
     "description": "前言 最近越来越多的读者认可我的文章，还是件挺让人高兴的事情。有些读者私信我说希望后面多分享spring方面的文章，这样能够在实际工作中派上用场。正好我对spring源码有过一定的...",
-    "votes": "182",
+    "votes": "184",
     "url": "/k/lev94mm",
     "avatar": "https://img.toutiao.io/subject%2F2897d48b5341479ba9a75cd95cffa9d4",
     "avatarAlt": "第五维度 - 独家号",
@@ -12,7 +12,7 @@
   {
     "title": "硬核 Redis 总结，看这篇就够了",
     "description": "高清思维导图已同步Git：https://github.com/SoWhat1412/xmindfile总感觉哪里不对，但是又说不上来1、基本类型及底层实现 1.1、String ...",
-    "votes": "37",
+    "votes": "39",
     "url": "/k/z01bcz5",
     "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
     "avatarAlt": "进击的程序猿 - 独家号",
@@ -82,7 +82,7 @@
   {
     "title": "DDD 实现之路",
     "description": "编者按：这篇文章最早撰写于2014年，作者也是《实现领域驱动设计》的译者。几年过去了，DDD在坊间依然方兴未艾，然而它的复杂性所引发的误解也层出不穷。对于一些基本概念的澄清甚至溯源...",
-    "votes": "180",
+    "votes": "183",
     "url": "/k/9r5qrcy",
     "avatar": "https://img.toutiao.io/user/5a7a70a7ff844188be76ef25c0a082d7/thumb",
     "avatarAlt": "ThoughtWorks - 独家号",
@@ -170,6 +170,16 @@
     "homeUrl": "/subjects/395621"
   },
   {
+    "title": "如何做好技术 Team Leader？",
+    "description": "曾子曰：吾日三省吾身，反思是人类进化出来的一项异常宝贵的能力。我在阿里带团队也有四年多的时间，有必要总结一下此间得失；另外，前几天和一个刚开始带团队的同学聊天，他觉得角色转变对于他...",
+    "votes": "152",
+    "url": "/k/7lfbxyd",
+    "avatar": "https://img.toutiao.io/subject%2Fca0b9d7ac72842a3babe77c85e71aeda",
+    "avatarAlt": "阿里云Edge Plus - 独家号",
+    "subjectName": "阿里云Edge Plus",
+    "homeUrl": "/subjects/455078"
+  },
+  {
     "title": "深度解析 Raft 分布式一致性协议",
     "description": "笔者期望通过一篇权威靠谱、清晰易懂的系统性文章，帮助读者深入理解 Raft 算法，并能付诸于工程实践中，同时解读不易理解或容易误解的关键点。本文是 Raft 实战系列理论内容的整合...",
     "votes": "12",
@@ -180,24 +190,14 @@
     "homeUrl": "/subjects/293369"
   },
   {
-    "title": "如何做好技术 Team Leader？",
-    "description": "曾子曰：吾日三省吾身，反思是人类进化出来的一项异常宝贵的能力。我在阿里带团队也有四年多的时间，有必要总结一下此间得失；另外，前几天和一个刚开始带团队的同学聊天，他觉得角色转变对于他...",
-    "votes": "149",
-    "url": "/k/7lfbxyd",
-    "avatar": "https://img.toutiao.io/subject%2Fca0b9d7ac72842a3babe77c85e71aeda",
-    "avatarAlt": "阿里云Edge Plus - 独家号",
-    "subjectName": "阿里云Edge Plus",
-    "homeUrl": "/subjects/455078"
-  },
-  {
-    "title": "Docker 底层原理浅析",
-    "description": "作者：vitovzhong，腾讯 TEG 应用开发工程师容器的实质是进程，与宿主机上的其他进程是共用一个内核，但与直接在宿主机执行的进程不同，容器进程运行在属于自己的独立的命名空间...",
-    "votes": "14",
-    "url": "/k/nvbge2t",
-    "avatar": "https://img.toutiao.io/user/b618677591aa49b3972ece0c7d26b473/thumb",
-    "avatarAlt": "数据淘金 - 独家号",
-    "subjectName": "数据淘金",
-    "homeUrl": "/subjects/120437"
+    "title": "9 条消除 if...else 的锦囊妙计，助你写出更优雅的代码",
+    "description": "前言 最近在做代码重构，发现了很多代码的烂味道。其他的不多说，今天主要说说那些又臭又长的if...else要如何重构。在介绍更更优雅的编程之前，让我们一起回顾一下，不好的if......",
+    "votes": "31",
+    "url": "/k/6o9uhdv",
+    "avatar": "https://img.toutiao.io/subject%2F0aae3536b7d44492b1974b1077394f7d",
+    "avatarAlt": "苏三说技术 - 独家号",
+    "subjectName": "苏三说技术",
+    "homeUrl": "/subjects/453205"
   },
   {
     "title": "分布式一致性协议：ZAB",
@@ -208,26 +208,6 @@
     "avatarAlt": "并发笔记 - 独家号",
     "subjectName": "并发笔记",
     "homeUrl": "/subjects/395621"
-  },
-  {
-    "title": "9 条消除 if...else 的锦囊妙计，助你写出更优雅的代码",
-    "description": "前言 最近在做代码重构，发现了很多代码的烂味道。其他的不多说，今天主要说说那些又臭又长的if...else要如何重构。在介绍更更优雅的编程之前，让我们一起回顾一下，不好的if......",
-    "votes": "30",
-    "url": "/k/6o9uhdv",
-    "avatar": "https://img.toutiao.io/subject%2F0aae3536b7d44492b1974b1077394f7d",
-    "avatarAlt": "苏三说技术 - 独家号",
-    "subjectName": "苏三说技术",
-    "homeUrl": "/subjects/453205"
-  },
-  {
-    "title": "4 万字全面掌握数据库、数据仓库、数据集市、数据湖、数据中台",
-    "description": "如今，随着诸如互联网以及物联网等技术的不断发展，越来越多的数据被生产出来-据统计，每天大约有超过2.5亿亿字节的各种各样数据产生。这些数据需要被存储起来并且能够被方便的分析和利用。...",
-    "votes": "11",
-    "url": "/k/y490i6z",
-    "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
-    "avatarAlt": "进击的程序猿 - 独家号",
-    "subjectName": "进击的程序猿",
-    "homeUrl": "/subjects/24912"
   },
   {
     "title": "分布式搜索引擎 Elasticsearch 的架构分析",
@@ -248,5 +228,25 @@
     "avatarAlt": "数据淘金 - 独家号",
     "subjectName": "数据淘金",
     "homeUrl": "/subjects/120437"
+  },
+  {
+    "title": "程序员成为高级管理者的三次跃升",
+    "description": "▲ 点击上方\"pointers\"关注公众号  成长&认知 丨 作者 / 袁吴范 这是pointers公众号分享的第15篇原创文章 我的粉丝中很多人都跟我谈过他们的职业困惑，其中有一...",
+    "votes": "12",
+    "url": "/k/6y7eq6s",
+    "avatar": "https://img.toutiao.io/subject%2F2d6acb5e10d74d418b835f039664ab16",
+    "avatarAlt": "pointers - 独家号",
+    "subjectName": "pointers",
+    "homeUrl": "/subjects/451915"
+  },
+  {
+    "title": "可能是说的最分明的 IaaS, PaaS, FaaS, SaaS, MicroService, Serverless 了",
+    "description": "絮语如果说哪个行业最会起名字，那么互联网和软件行业称第二的话，估计没人敢称第一，比如什么复盘，赋能，组合拳，引爆点，泛用型，强化认知….等等这些让你听了是耳濡目旋的，高大上，我完全...",
+    "votes": "30",
+    "url": "/k/p2q8xl8",
+    "avatar": "https://img.toutiao.io/subject%2F8a8f3e13ec2941f086510bd7c5453dec",
+    "avatarAlt": "崇丕软件头条 - 独家号",
+    "subjectName": "崇丕软件头条",
+    "homeUrl": "/subjects/201317"
   }
 ]
