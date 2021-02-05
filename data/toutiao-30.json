@@ -2,22 +2,12 @@
   {
     "title": "Spring 中那些让你爱不释手的代码技巧",
     "description": "前言 最近越来越多的读者认可我的文章，还是件挺让人高兴的事情。有些读者私信我说希望后面多分享spring方面的文章，这样能够在实际工作中派上用场。正好我对spring源码有过一定的...",
-    "votes": "184",
+    "votes": "187",
     "url": "/k/lev94mm",
     "avatar": "https://img.toutiao.io/subject%2F2897d48b5341479ba9a75cd95cffa9d4",
     "avatarAlt": "第五维度 - 独家号",
     "subjectName": "第五维度",
     "homeUrl": "/subjects/258758"
-  },
-  {
-    "title": "微服务架构 10 个最重要的设计模式",
-    "description": "自从软件开发的早期(1960年代)以来，解决大型软件系统中的复杂性一直是一项艰巨的任务。多年来，软件工程师和架构师为解决软件系统的复杂性进行了许多尝试：David Parnas的模...",
-    "votes": "21",
-    "url": "/k/krsjiu0",
-    "avatar": "https://img.toutiao.io/subject%2F1ecd558bf4a24bc780d2c3a0ab6e69f2",
-    "avatarAlt": "分布式系统 - 独家号",
-    "subjectName": "分布式系统",
-    "homeUrl": "/subjects/8411"
   },
   {
     "title": "闯过这 54 关，点亮你的 Git 技能树",
@@ -32,7 +22,7 @@
   {
     "title": "DDD 实现之路",
     "description": "编者按：这篇文章最早撰写于2014年，作者也是《实现领域驱动设计》的译者。几年过去了，DDD在坊间依然方兴未艾，然而它的复杂性所引发的误解也层出不穷。对于一些基本概念的澄清甚至溯源...",
-    "votes": "183",
+    "votes": "184",
     "url": "/k/9r5qrcy",
     "avatar": "https://img.toutiao.io/user/5a7a70a7ff844188be76ef25c0a082d7/thumb",
     "avatarAlt": "ThoughtWorks - 独家号",
@@ -42,7 +32,7 @@
   {
     "title": "使用了这个神器，让我的代码 bug 少了一半",
     "description": "  最近一段时间，我们团队在生产环境出现了几次线上问题，有部分比较严重，直接影响用户功能的使用，惹得领导不高兴了，让我想办法提升代码质量，这时候项目工程代码质量检测神器——Sona...",
-    "votes": "155",
+    "votes": "157",
     "url": "/k/w8zvjee",
     "avatar": "https://img.toutiao.io/subject%2F0aae3536b7d44492b1974b1077394f7d",
     "avatarAlt": "苏三说技术 - 独家号",
@@ -52,7 +42,7 @@
   {
     "title": "如何做好技术 Team Leader？",
     "description": "曾子曰：吾日三省吾身，反思是人类进化出来的一项异常宝贵的能力。我在阿里带团队也有四年多的时间，有必要总结一下此间得失；另外，前几天和一个刚开始带团队的同学聊天，他觉得角色转变对于他...",
-    "votes": "152",
+    "votes": "153",
     "url": "/k/7lfbxyd",
     "avatar": "https://img.toutiao.io/subject%2Fca0b9d7ac72842a3babe77c85e71aeda",
     "avatarAlt": "阿里云Edge Plus - 独家号",
@@ -68,6 +58,16 @@
     "avatarAlt": "苏三说技术 - 独家号",
     "subjectName": "苏三说技术",
     "homeUrl": "/subjects/453205"
+  },
+  {
+    "title": "我对技术架构的理解与架构师角色的思考",
+    "description": "我叫道延， 2014 年加入阿里，在阿里通信工作了近两年。2016 年年底加入业务平台团队，当时 Leader 找我的第一件事就是要解决大促的问题，第二件事就是解决安全生产的问题。...",
+    "votes": "132",
+    "url": "/k/crw00du",
+    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
+    "avatarAlt": "ASCE1885 - 独家号",
+    "subjectName": "ASCE1885",
+    "homeUrl": "/subjects/4829"
   },
   {
     "title": "可能是说的最分明的 IaaS, PaaS, FaaS, SaaS, MicroService, Serverless 了",
@@ -90,16 +90,6 @@
     "homeUrl": "/subjects/102436"
   },
   {
-    "title": "我对技术架构的理解与架构师角色的思考",
-    "description": "我叫道延， 2014 年加入阿里，在阿里通信工作了近两年。2016 年年底加入业务平台团队，当时 Leader 找我的第一件事就是要解决大促的问题，第二件事就是解决安全生产的问题。...",
-    "votes": "125",
-    "url": "/k/crw00du",
-    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
-    "avatarAlt": "ASCE1885 - 独家号",
-    "subjectName": "ASCE1885",
-    "homeUrl": "/subjects/4829"
-  },
-  {
     "title": "Java 线程池总结",
     "description": "背景 Java线程池的写法和参数是面试中出现频率很高的基础题。越是基础的东西，特别是对高阶职位的面试者，需要回答的符合自己面试的职位等级。这里也不能说是一个多么好的答案，只是说如果...",
     "votes": "29",
@@ -112,7 +102,7 @@
   {
     "title": "基于开源技术打造 DevSecOps 工具链",
     "description": "前言 在落地DevSecOps过程中，核心的一个部分是安全工具链，通过工具化集成将安全活动内嵌到DevOps研发运营一体化中。下面，我们来谈一下，从计划阶段的威胁建模，创建阶段的I...",
-    "votes": "125",
+    "votes": "127",
     "url": "/k/8dcb5n8",
     "avatar": "https://img.toutiao.io/subject%2Fab225f76a1344c82acd5de490243c1fb",
     "avatarAlt": "安全奇点 - 独家号",
@@ -122,7 +112,7 @@
   {
     "title": "微服务实现简单的分布式日志追踪",
     "description": "最近想给项目添加一个简单的分布式请求跟踪功能，从前端发起请求到网关，再从网关调用 SpringCloud 的微服务，这些过程中希望能从日志中看到一个分布式 ID 的链路，通过请求的...",
-    "votes": "122",
+    "votes": "123",
     "url": "/k/s7af3dl",
     "avatar": "https://img.toutiao.io/subject%2Fc0fcca1841d3492a9c6a91e8af2a5c87",
     "avatarAlt": "技术杂谈 - 独家号",
@@ -220,16 +210,6 @@
     "homeUrl": "/subjects/423680"
   },
   {
-    "title": "高并发服务遇 Redis 瓶颈引发的事故",
-    "description": "元旦期间订单业务线告知推送系统无法正常收发消息，作为推送系统维护者的我正外面潇洒，无法第一时间回去，直接让 ops 帮忙重启服务，一切好了起来，重启果然是个大杀器。由于推送系统本身...",
-    "votes": "16",
-    "url": "/k/mg8zd72",
-    "avatar": "https://img.toutiao.io/subject%2F6a017995d8424765ab042213593cb4a9",
-    "avatarAlt": "码农桃花源 - 独家号",
-    "subjectName": "码农桃花源",
-    "homeUrl": "/subjects/393157"
-  },
-  {
     "title": "讲解 Zookeeper 的五个核心知识点",
     "description": "1 ZooKeeper简介ZooKeeper 是一个开源的分布式协调框架，它的定位是为分布式应用提供一致性服务，是整个大数据体系的管理员。ZooKeeper 会封装好复杂易出错的关...",
     "votes": "64",
@@ -248,5 +228,25 @@
     "avatarAlt": "软件匠艺社区 - 独家号",
     "subjectName": "软件匠艺社区",
     "homeUrl": "/subjects/58319"
+  },
+  {
+    "title": "软件架构基础（一）：架构师的 8 大核心能力",
+    "description": "▲ 点击上方\"多颗糖\"关注公众号 《软件架构基础（Fundamentals of Software Architecture）》被誉为和《设计数据密集型应用》一样经典的后端书籍，架...",
+    "votes": "12",
+    "url": "/k/mk9kqnq",
+    "avatar": "https://img.toutiao.io/user/4a9a9e41962e4b238bdebfaf160b5034/thumb",
+    "avatarAlt": "强力研分布式系统 - 独家号",
+    "subjectName": "强力研分布式系统",
+    "homeUrl": "/subjects/1983"
+  },
+  {
+    "title": "基于 SSD 的 Kafka 应用层缓存架构设计与实现",
+    "description": " 总第432篇 2021年 第002篇  Kafka在美团数据平台承担着统一的数据缓存和分发的角色，针对因PageCache互相污染，进而引发PageCache竞争导致实时作业被延...",
+    "votes": "32",
+    "url": "/k/ddgxe6s",
+    "avatar": "https://img.toutiao.io/subject%2F9f2f107b71194e418f7dc2cc301aa452",
+    "avatarAlt": "美团技术团队 - 独家号",
+    "subjectName": "美团技术团队",
+    "homeUrl": "/subjects/117027"
   }
 ]

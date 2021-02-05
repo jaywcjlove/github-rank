@@ -2,7 +2,7 @@
   {
     "title": "我对技术架构的理解与架构师角色的思考",
     "description": "我叫道延， 2014 年加入阿里，在阿里通信工作了近两年。2016 年年底加入业务平台团队，当时 Leader 找我的第一件事就是要解决大促的问题，第二件事就是解决安全生产的问题。...",
-    "votes": "125",
+    "votes": "132",
     "url": "/k/crw00du",
     "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
     "avatarAlt": "ASCE1885 - 独家号",
@@ -10,19 +10,9 @@
     "homeUrl": "/subjects/4829"
   },
   {
-    "title": "Redis 在 Linux 系统的配置优化",
-    "description": "通常来看，Redis开发和运维人员更加关注的是Redis本身的一些配置优化，例如AOF和RDB的配置优化、数据结构的配置优化等，但是对于操作系统是否需要针对Redis做一些配置优化...",
-    "votes": "112",
-    "url": "/k/cgfim2o",
-    "avatar": "https://img.toutiao.io/subject%2F7099419508b548428645eec6ee3e7c5b",
-    "avatarAlt": "数据智能 - 独家号",
-    "subjectName": "数据智能",
-    "homeUrl": "/subjects/1"
-  },
-  {
     "title": "Elasticsearch 聚合性能优化六大猛招",
     "description": "1、问题引出默认情况下，Elasticsearch 已针对大多数用例进行了优化，确保在写入性能和查询性能之间取得平衡。我们将介绍一些聚合性能优化的可配置参数，其中部分改进是以牺牲写...",
-    "votes": "86",
+    "votes": "95",
     "url": "/k/otz7tnk",
     "avatar": "https://img.toutiao.io/subject%2F7f9bd07a03204905a3b6f56806be158d",
     "avatarAlt": "Elasticsearch - 独家号",
@@ -32,7 +22,7 @@
   {
     "title": "Docker 镜像瘦身",
     "description": "Docker 是一个用于开发，交付和运行应用程序的开发平台。它能够将应用程序和基础架构分开，保证开发，测试， 部署的环境完全一致，从而达到快速交付的目的。但是在实际项目中，会对项目...",
-    "votes": "91",
+    "votes": "94",
     "url": "/k/t92f0ah",
     "avatar": "https://img.toutiao.io/subject%2F4b0893abf1ca42e1baf7ab28ca49e6e9",
     "avatarAlt": "coder-party - 独家号",
@@ -42,12 +32,22 @@
   {
     "title": "18 张图解密新时代内存分配器 TCMalloc",
     "description": "系列导读本系列基于64位平台、1Page=8KB本文为《Go语言轻松系列》第二章「内存与垃圾回收」第二篇。关于「内存与垃圾回收」章节，大体从如下三大部分展开：知识预备(为后续的内容...",
-    "votes": "60",
+    "votes": "66",
     "url": "/k/zwzin8t",
     "avatar": "https://img.toutiao.io/subject%2F9164e3cc824f44169e06b1774b815ba5",
     "avatarAlt": "TIGERB的技术博客 - 独家号",
     "subjectName": "TIGERB的技术博客",
     "homeUrl": "/subjects/77815"
+  },
+  {
+    "title": "快速了解云原生架构",
+    "description": " 作者 | 潘义文（空易）  起源 1. 云原生（Cloud Native）的由来 云原生的概念最早开始于 2010 年，在当时 Paul Fremantle 的一篇博客中被提及，...",
+    "votes": "69",
+    "url": "/k/zz0ckz0",
+    "avatar": "https://img.toutiao.io/subject%2Fde644bbb42b34c618fad49fb47759970",
+    "avatarAlt": "4k咖啡豆 - 独家号",
+    "subjectName": "4k咖啡豆",
+    "homeUrl": "/subjects/158649"
   },
   {
     "title": "大流量场景下如何云淡风轻地进行线上发布？",
@@ -70,19 +70,9 @@
     "homeUrl": "/subjects/114561"
   },
   {
-    "title": "我的 top 私人珍藏开发工具集",
-    "description": "程序员应该用高效，炫酷的工具，这样不仅能快速工作，也能让生活更开心！1. Ubuntu Linuxwindows 不太适合程序员吧，劝 windows 的换个操作系统，用 ubun...",
-    "votes": "60",
-    "url": "/k/pq2o3oh",
-    "avatar": "https://img.toutiao.io/subject%2Fdc973eeee39640669e958347f0bb7775",
-    "avatarAlt": "求知久久 - 独家号",
-    "subjectName": "求知久久",
-    "homeUrl": "/subjects/124922"
-  },
-  {
     "title": "Spring Boot 2.0 中 HikariCP 数据库连接池原理解析",
     "description": "作为后台服务开发，在日常工作中我们天天都在跟数据库打交道，一直在进行各种CRUD操作，都会使用到数据库连接池。按照发展历程，业界知名的数据库连接池有以下几种：c3p0、DBCP、T...",
-    "votes": "57",
+    "votes": "59",
     "url": "/k/c42bstk",
     "avatar": "https://img.toutiao.io/subject%2F8adc26cdcf7d45f4a73580f3be4285f2",
     "avatarAlt": "vivo互联网技术 - 独家号",
@@ -90,14 +80,34 @@
     "homeUrl": "/subjects/392760"
   },
   {
-    "title": "快速了解云原生架构",
-    "description": " 作者 | 潘义文（空易）  起源 1. 云原生（Cloud Native）的由来 云原生的概念最早开始于 2010 年，在当时 Paul Fremantle 的一篇博客中被提及，...",
-    "votes": "53",
-    "url": "/k/zz0ckz0",
-    "avatar": "https://img.toutiao.io/subject%2Fde644bbb42b34c618fad49fb47759970",
-    "avatarAlt": "4k咖啡豆 - 独家号",
-    "subjectName": "4k咖啡豆",
-    "homeUrl": "/subjects/158649"
+    "title": "硬不硬你说了算！近 40 张图解被问千百遍的 TCP 三次握手和四次挥手面试题",
+    "description": "欢迎关注公众号【Ccww技术博客】，原创技术文章第一时间推出越努力，越幸运，本文已收藏在GitHub中JavaCommunity, 里面有面试分享、源码分析系列文章，欢迎收藏，点赞...",
+    "votes": "54",
+    "url": "/k/3a36mkk",
+    "avatar": "https://img.toutiao.io/subject%2F36ba6cca33c74069b0141b60a64963b8",
+    "avatarAlt": "Ccww架构之旅 - 独家号",
+    "subjectName": "Ccww架构之旅",
+    "homeUrl": "/subjects/367406"
+  },
+  {
+    "title": "缓存原理与微服务缓存自动管理",
+    "description": "为什么需要缓存？先从一个老生常谈的问题开始谈起：我们的程序是如何运行起来的？程序存储在 disk 中程序是运行在 RAM 之中，也就是我们所说的 main memory程序的计算逻...",
+    "votes": "56",
+    "url": "/k/t2bvzew",
+    "avatar": "https://img.toutiao.io/subject%2F795a5b24ad04493b8cbfa7d673b526f2",
+    "avatarAlt": "微服务实践 - 独家号",
+    "subjectName": "微服务实践",
+    "homeUrl": "/subjects/90602"
+  },
+  {
+    "title": "玩转 IDEA 项目结构 Project Structure，打 Jar 包、模块/依赖管理全搞定",
+    "description": "前言 你好，我是A哥(YourBatman)。如何给Module模块单独增加依赖？如何知道哪些Module模块用了Spring框架，哪些是web工程？IDEA如何打Jar包？打Wa...",
+    "votes": "52",
+    "url": "/k/5wyta6s",
+    "avatar": "https://img.toutiao.io/subject%2Fc0dcc515db9f446695846c96cc158ed6",
+    "avatarAlt": "BAT的乌托邦 - 独家号",
+    "subjectName": "BAT的乌托邦",
+    "homeUrl": "/subjects/166186"
   },
   {
     "title": "再议 DDD 分层",
@@ -110,49 +120,9 @@
     "homeUrl": "/subjects/26578"
   },
   {
-    "title": "玩转 IDEA 项目结构 Project Structure，打 Jar 包、模块/依赖管理全搞定",
-    "description": "前言 你好，我是A哥(YourBatman)。如何给Module模块单独增加依赖？如何知道哪些Module模块用了Spring框架，哪些是web工程？IDEA如何打Jar包？打Wa...",
-    "votes": "49",
-    "url": "/k/5wyta6s",
-    "avatar": "https://img.toutiao.io/subject%2Fc0dcc515db9f446695846c96cc158ed6",
-    "avatarAlt": "BAT的乌托邦 - 独家号",
-    "subjectName": "BAT的乌托邦",
-    "homeUrl": "/subjects/166186"
-  },
-  {
-    "title": "深入 Spring Boot（十六）：从源码分析自动配置原理",
-    "description": "切换Druid连接池在分析SpringBoot自动配置实现原理之前，先来看一下在使用SpringBoot开发的项目代码中如何将数据库连接池切换成Druid。对于数据库连接池的选择，...",
-    "votes": "54",
-    "url": "/k/wnr557l",
-    "avatar": "https://img.toutiao.io/subject%2F1c73154dc104436babf48224a6ed1626",
-    "avatarAlt": "Java实战技术 - 独家号",
-    "subjectName": "Java实战技术",
-    "homeUrl": "/subjects/22887"
-  },
-  {
-    "title": "万字学习总结线程池",
-    "description": "本文目录为什么要使用线程池？线程池参数详解6种常见的线程池为什么不能直接自动创建线程如果自定义合适的线程池?如何正确关闭线程池?线程池实现线程复用原理 为什么要使用线程池？为什么要...",
-    "votes": "49",
-    "url": "/k/of88w7j",
-    "avatar": "https://img.toutiao.io/default-avatar.png",
-    "avatarAlt": "u579157的独家号 - 独家号",
-    "subjectName": "u579157的独家号",
-    "homeUrl": "/subjects/455318"
-  },
-  {
-    "title": "令牌桶、漏斗、冷启动限流在 sentinel 的应用",
-    "description": " 分布式系统为了保证系统稳定性，在服务治理的限流中会根据不同场景进行限流操作，常见的限流算法有：令牌桶：可容忍一定突发流量的速率的限流，令牌桶算法的原理是系统以恒定的速率产生令牌，...",
-    "votes": "40",
-    "url": "/k/23smctm",
-    "avatar": "https://img.toutiao.io/subject%2Fbfe558caecf64a0f942782a86f60fce2",
-    "avatarAlt": "ToBeTopCoder - 独家号",
-    "subjectName": "ToBeTopCoder",
-    "homeUrl": "/subjects/137785"
-  },
-  {
     "title": "从 0-1 构建指标体系",
     "description": "关注微信公众号：一个数据人的自留地 作者介绍 @猫耳朵数据产品经理萌新。开发经验丰富，专注于数据产品。—————— BEGIN —————— 假设豆豆在小区附近开了一家小型超市，花...",
-    "votes": "38",
+    "votes": "53",
     "url": "/k/xp21fbf",
     "avatar": "https://img.toutiao.io/subject%2F8e12ef64799649acbfd936883ef16c3c",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -160,19 +130,39 @@
     "homeUrl": "/subjects/26578"
   },
   {
-    "title": "9 张图详解 Yarn 的工作机制，惊艳阿里面试官",
-    "description": "点击上方 \"大数据肌肉猿\"关注, 星标一起成长 后台回复【加群】，进入高质量学习交流群 2021年大数据肌肉猿公众号奖励制度  我们知道 YARN 是 Hadoop 资源管理器，无...",
-    "votes": "34",
-    "url": "/k/4h0e5it",
-    "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
-    "avatarAlt": "进击的程序猿 - 独家号",
-    "subjectName": "进击的程序猿",
-    "homeUrl": "/subjects/24912"
+    "title": "令牌桶、漏斗、冷启动限流在 sentinel 的应用",
+    "description": " 分布式系统为了保证系统稳定性，在服务治理的限流中会根据不同场景进行限流操作，常见的限流算法有：令牌桶：可容忍一定突发流量的速率的限流，令牌桶算法的原理是系统以恒定的速率产生令牌，...",
+    "votes": "46",
+    "url": "/k/23smctm",
+    "avatar": "https://img.toutiao.io/subject%2Fbfe558caecf64a0f942782a86f60fce2",
+    "avatarAlt": "ToBeTopCoder - 独家号",
+    "subjectName": "ToBeTopCoder",
+    "homeUrl": "/subjects/137785"
+  },
+  {
+    "title": "条分缕析 Raft 算法",
+    "description": "▲ 点击上方\"多颗糖\"关注公众号本文整理自 Ongaro 在 Youtube 上的视频。目标Raft 的目标（或者说是分布式共识算法的目标）是：保证 log 完全相同地复制到多台服...",
+    "votes": "42",
+    "url": "/k/pa5a9hf",
+    "avatar": "https://img.toutiao.io/user/4a9a9e41962e4b238bdebfaf160b5034/thumb",
+    "avatarAlt": "强力研分布式系统 - 独家号",
+    "subjectName": "强力研分布式系统",
+    "homeUrl": "/subjects/1983"
+  },
+  {
+    "title": "[译] 50+ 有用的 DevOps 工具（四）",
+    "description": "原文: https://dzone.com/articles/50-useful-devops-tools?edition=627291&utm_medium=email&utm_...",
+    "votes": "38",
+    "url": "/k/xj75ci5",
+    "avatar": "https://img.toutiao.io/subject%2F848b486e60a74f51ad7eefdd7dd022de",
+    "avatarAlt": "麦芽面包 - 独家号",
+    "subjectName": "麦芽面包",
+    "homeUrl": "/subjects/11977"
   },
   {
     "title": "分布式任务调度系统之任务编排及工作流实现原理与 Golang 实践",
     "description": "I.内容提要 定时调度系统（定时任务、定时执行）算是工作中经常依赖的中间件系统，简单使用操作系统的 crontab，或基于 Quartz，xxl-job 来搭建任务调度平台，行业有...",
-    "votes": "39",
+    "votes": "43",
     "url": "/k/cpo3wsw",
     "avatar": "https://img.toutiao.io/subject%2F0b42d8ae8c1e454caa2896f41961b7a3",
     "avatarAlt": "全栈以及Golang - 独家号",
@@ -182,7 +172,7 @@
   {
     "title": "Go 优雅追踪堆栈错误包",
     "description": " Golang tracks stack error package. 优雅追踪堆栈错误包安装(Install) go get github.com/yezihack/e介绍(In...",
-    "votes": "33",
+    "votes": "34",
     "url": "/k/5r0gx7i",
     "avatar": "https://img.toutiao.io/subject%2Fcf141cf3491d4d09aac037034a6dd381",
     "avatarAlt": "百里的独家号 - 独家号",
@@ -190,13 +180,23 @@
     "homeUrl": "/subjects/395932"
   },
   {
-    "title": "[译] 50+ 有用的 DevOps 工具（四）",
-    "description": "原文: https://dzone.com/articles/50-useful-devops-tools?edition=627291&utm_medium=email&utm_...",
-    "votes": "32",
-    "url": "/k/xj75ci5",
-    "avatar": "https://img.toutiao.io/subject%2F848b486e60a74f51ad7eefdd7dd022de",
-    "avatarAlt": "麦芽面包 - 独家号",
-    "subjectName": "麦芽面包",
-    "homeUrl": "/subjects/11977"
+    "title": "架构六大思维养成记",
+    "description": " 允许我老生常谈，先从什么是架构说起。 当谈到软件架构的时候你不能只想到spirng、springmvc、mysql，你也真不应该想到它们，虽然它们是你落地的载体。至少你不能先想到...",
+    "votes": "29",
+    "url": "/k/qhykhzm",
+    "avatar": "https://img.toutiao.io/subject%2F4c72971aff5c4e73821ac59b18ff5dd6",
+    "avatarAlt": "程序员的朋友圈 - 独家号",
+    "subjectName": "程序员的朋友圈",
+    "homeUrl": "/subjects/378"
+  },
+  {
+    "title": "Spring Boot 集成 Kafka",
+    "description": "Kafka 是由 Apache 软件基金会开发的一个开源流处理平台，由 Scala 和 Java 编写。 Kafka 是一种高吞吐量的分布式发布订阅消息系统，它可以处理消费者在网站...",
+    "votes": "29",
+    "url": "/k/j47hymr",
+    "avatar": "https://img.toutiao.io/subject%2F2f19911250184f8aa256ef469e41539c",
+    "avatarAlt": "攻城狮·正 - 独家号",
+    "subjectName": "攻城狮·正",
+    "homeUrl": "/subjects/890"
   }
 ]

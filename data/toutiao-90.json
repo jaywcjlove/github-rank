@@ -2,7 +2,7 @@
   {
     "title": "Spring 中那些让你爱不释手的代码技巧",
     "description": "前言 最近越来越多的读者认可我的文章，还是件挺让人高兴的事情。有些读者私信我说希望后面多分享spring方面的文章，这样能够在实际工作中派上用场。正好我对spring源码有过一定的...",
-    "votes": "184",
+    "votes": "187",
     "url": "/k/lev94mm",
     "avatar": "https://img.toutiao.io/subject%2F2897d48b5341479ba9a75cd95cffa9d4",
     "avatarAlt": "第五维度 - 独家号",
@@ -52,7 +52,7 @@
   {
     "title": "美团 Commit Log 规范",
     "description": "一、背景 Git每次提交代码都需要写commit message，一般来说，commit message应该清晰明了，说明本次提交的目的，具体做了什么操作等。但是在日常开发中，开发...",
-    "votes": "22",
+    "votes": "24",
     "url": "/k/r6tsfdv",
     "avatar": "https://img.toutiao.io/subject%2Fea8976fb047b483dacc34fd01e51d47e",
     "avatarAlt": "Java研发 - 独家号",
@@ -82,7 +82,7 @@
   {
     "title": "DDD 实现之路",
     "description": "编者按：这篇文章最早撰写于2014年，作者也是《实现领域驱动设计》的译者。几年过去了，DDD在坊间依然方兴未艾，然而它的复杂性所引发的误解也层出不穷。对于一些基本概念的澄清甚至溯源...",
-    "votes": "183",
+    "votes": "184",
     "url": "/k/9r5qrcy",
     "avatar": "https://img.toutiao.io/user/5a7a70a7ff844188be76ef25c0a082d7/thumb",
     "avatarAlt": "ThoughtWorks - 独家号",
@@ -102,7 +102,7 @@
   {
     "title": "使用了这个神器，让我的代码 bug 少了一半",
     "description": "  最近一段时间，我们团队在生产环境出现了几次线上问题，有部分比较严重，直接影响用户功能的使用，惹得领导不高兴了，让我想办法提升代码质量，这时候项目工程代码质量检测神器——Sona...",
-    "votes": "155",
+    "votes": "157",
     "url": "/k/w8zvjee",
     "avatar": "https://img.toutiao.io/subject%2F0aae3536b7d44492b1974b1077394f7d",
     "avatarAlt": "苏三说技术 - 独家号",
@@ -122,7 +122,7 @@
   {
     "title": "支撑 700 亿数据量的 ClickHouse 高可用架构实践",
     "description": " 本文根据蔡岳毅老师在〖2020 Gdevops全球敏捷运维峰会〗现场演讲内容整理而成。  （点击文末“阅读原文”可获取完整PPT） 讲师介绍蔡岳毅，携程旅行网酒店研发中心高级研发...",
-    "votes": "16",
+    "votes": "17",
     "url": "/k/f5v4m55",
     "avatar": "https://img.toutiao.io/subject%2F6ee3bb205b3248c2b746c1506548181a",
     "avatarAlt": "大数据生态 - 独家号",
@@ -172,7 +172,7 @@
   {
     "title": "如何做好技术 Team Leader？",
     "description": "曾子曰：吾日三省吾身，反思是人类进化出来的一项异常宝贵的能力。我在阿里带团队也有四年多的时间，有必要总结一下此间得失；另外，前几天和一个刚开始带团队的同学聊天，他觉得角色转变对于他...",
-    "votes": "152",
+    "votes": "153",
     "url": "/k/7lfbxyd",
     "avatar": "https://img.toutiao.io/subject%2Fca0b9d7ac72842a3babe77c85e71aeda",
     "avatarAlt": "阿里云Edge Plus - 独家号",
@@ -198,16 +198,6 @@
     "avatarAlt": "苏三说技术 - 独家号",
     "subjectName": "苏三说技术",
     "homeUrl": "/subjects/453205"
-  },
-  {
-    "title": "分布式一致性协议：ZAB",
-    "description": "ZAB 背景学习ZAB，非常有必要聊聊它诞生的背景。因为在paxos的光芒下，还有必要折腾这样类似的算法吗？这个问题是我们初步了解ZAB关键。看到这里，我断定大家都使用过zooke...",
-    "votes": "8",
-    "url": "/k/r6571za",
-    "avatar": "https://img.toutiao.io/subject%2Fe869abb8b126449695234f519888025d",
-    "avatarAlt": "并发笔记 - 独家号",
-    "subjectName": "并发笔记",
-    "homeUrl": "/subjects/395621"
   },
   {
     "title": "分布式搜索引擎 Elasticsearch 的架构分析",
@@ -238,6 +228,16 @@
     "avatarAlt": "pointers - 独家号",
     "subjectName": "pointers",
     "homeUrl": "/subjects/451915"
+  },
+  {
+    "title": "我对技术架构的理解与架构师角色的思考",
+    "description": "我叫道延， 2014 年加入阿里，在阿里通信工作了近两年。2016 年年底加入业务平台团队，当时 Leader 找我的第一件事就是要解决大促的问题，第二件事就是解决安全生产的问题。...",
+    "votes": "132",
+    "url": "/k/crw00du",
+    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
+    "avatarAlt": "ASCE1885 - 独家号",
+    "subjectName": "ASCE1885",
+    "homeUrl": "/subjects/4829"
   },
   {
     "title": "可能是说的最分明的 IaaS, PaaS, FaaS, SaaS, MicroService, Serverless 了",
