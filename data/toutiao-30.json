@@ -2,7 +2,7 @@
   {
     "title": "Spring 中那些让你爱不释手的代码技巧",
     "description": "前言 最近越来越多的读者认可我的文章，还是件挺让人高兴的事情。有些读者私信我说希望后面多分享spring方面的文章，这样能够在实际工作中派上用场。正好我对spring源码有过一定的...",
-    "votes": "187",
+    "votes": "188",
     "url": "/k/lev94mm",
     "avatar": "https://img.toutiao.io/subject%2F2897d48b5341479ba9a75cd95cffa9d4",
     "avatarAlt": "第五维度 - 独家号",
@@ -42,7 +42,7 @@
   {
     "title": "如何做好技术 Team Leader？",
     "description": "曾子曰：吾日三省吾身，反思是人类进化出来的一项异常宝贵的能力。我在阿里带团队也有四年多的时间，有必要总结一下此间得失；另外，前几天和一个刚开始带团队的同学聊天，他觉得角色转变对于他...",
-    "votes": "153",
+    "votes": "154",
     "url": "/k/7lfbxyd",
     "avatar": "https://img.toutiao.io/subject%2Fca0b9d7ac72842a3babe77c85e71aeda",
     "avatarAlt": "阿里云Edge Plus - 独家号",
@@ -50,24 +50,24 @@
     "homeUrl": "/subjects/455078"
   },
   {
-    "title": "9 条消除 if...else 的锦囊妙计，助你写出更优雅的代码",
-    "description": "前言 最近在做代码重构，发现了很多代码的烂味道。其他的不多说，今天主要说说那些又臭又长的if...else要如何重构。在介绍更更优雅的编程之前，让我们一起回顾一下，不好的if......",
-    "votes": "31",
-    "url": "/k/6o9uhdv",
-    "avatar": "https://img.toutiao.io/subject%2F0aae3536b7d44492b1974b1077394f7d",
-    "avatarAlt": "苏三说技术 - 独家号",
-    "subjectName": "苏三说技术",
-    "homeUrl": "/subjects/453205"
-  },
-  {
     "title": "我对技术架构的理解与架构师角色的思考",
     "description": "我叫道延， 2014 年加入阿里，在阿里通信工作了近两年。2016 年年底加入业务平台团队，当时 Leader 找我的第一件事就是要解决大促的问题，第二件事就是解决安全生产的问题。...",
-    "votes": "132",
+    "votes": "140",
     "url": "/k/crw00du",
     "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
     "avatarAlt": "ASCE1885 - 独家号",
     "subjectName": "ASCE1885",
     "homeUrl": "/subjects/4829"
+  },
+  {
+    "title": "9 条消除 if...else 的锦囊妙计，助你写出更优雅的代码",
+    "description": "前言 最近在做代码重构，发现了很多代码的烂味道。其他的不多说，今天主要说说那些又臭又长的if...else要如何重构。在介绍更更优雅的编程之前，让我们一起回顾一下，不好的if......",
+    "votes": "32",
+    "url": "/k/6o9uhdv",
+    "avatar": "https://img.toutiao.io/subject%2F0aae3536b7d44492b1974b1077394f7d",
+    "avatarAlt": "苏三说技术 - 独家号",
+    "subjectName": "苏三说技术",
+    "homeUrl": "/subjects/453205"
   },
   {
     "title": "可能是说的最分明的 IaaS, PaaS, FaaS, SaaS, MicroService, Serverless 了",
@@ -92,7 +92,7 @@
   {
     "title": "Java 线程池总结",
     "description": "背景 Java线程池的写法和参数是面试中出现频率很高的基础题。越是基础的东西，特别是对高阶职位的面试者，需要回答的符合自己面试的职位等级。这里也不能说是一个多么好的答案，只是说如果...",
-    "votes": "29",
+    "votes": "31",
     "url": "/k/4z3o5gw",
     "avatar": "https://img.toutiao.io/subject%2F4325865040b44c0b9e2d8d80a83d1d11",
     "avatarAlt": "编程一生 - 独家号",
@@ -102,7 +102,7 @@
   {
     "title": "基于开源技术打造 DevSecOps 工具链",
     "description": "前言 在落地DevSecOps过程中，核心的一个部分是安全工具链，通过工具化集成将安全活动内嵌到DevOps研发运营一体化中。下面，我们来谈一下，从计划阶段的威胁建模，创建阶段的I...",
-    "votes": "127",
+    "votes": "129",
     "url": "/k/8dcb5n8",
     "avatar": "https://img.toutiao.io/subject%2Fab225f76a1344c82acd5de490243c1fb",
     "avatarAlt": "安全奇点 - 独家号",
@@ -130,16 +130,6 @@
     "homeUrl": "/subjects/137286"
   },
   {
-    "title": "如何优雅地重试",
-    "description": "背景在微服务架构中，一个大系统被拆分成多个小服务，小服务之间大量 RPC 调用，经常可能因为网络抖动等原因导致 RPC 调用失败，这时候使用重试机制可以提高请求的最终成功率，减少故...",
-    "votes": "12",
-    "url": "/k/z3j5ni9",
-    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
-    "avatarAlt": "ASCE1885 - 独家号",
-    "subjectName": "ASCE1885",
-    "homeUrl": "/subjects/4829"
-  },
-  {
     "title": "技术人如何加速成长？提升你的思维和学习方式",
     "description": "阿里妹导读：每个人都会经历一个新人的阶段，不管是初入职场，还是到一个新的工作环境。作为技术新人，我们常常会面临哪些困惑？普通人和非凡人的差异在哪里？除了体力上的勤奋，还有哪些方法可...",
     "votes": "28",
@@ -152,7 +142,7 @@
   {
     "title": "我竟然被 “双亲委派” 给虐了",
     "description": "GitHub 17k Star 的Java工程师成神之路，不来了解一下吗！ 最近一段时间，我在面试的过程中，很喜欢问双亲委派的一些问题，因为我发现这个问题真的可以帮助我全方位的了解...",
-    "votes": "42",
+    "votes": "43",
     "url": "/k/l9vnnm6",
     "avatar": "https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e",
     "avatarAlt": "JAVA干货 - 独家号",
@@ -172,7 +162,7 @@
   {
     "title": "Redis 在 Linux 系统的配置优化",
     "description": "通常来看，Redis开发和运维人员更加关注的是Redis本身的一些配置优化，例如AOF和RDB的配置优化、数据结构的配置优化等，但是对于操作系统是否需要针对Redis做一些配置优化...",
-    "votes": "112",
+    "votes": "113",
     "url": "/k/cgfim2o",
     "avatar": "https://img.toutiao.io/subject%2F7099419508b548428645eec6ee3e7c5b",
     "avatarAlt": "数据智能 - 独家号",
@@ -220,6 +210,26 @@
     "homeUrl": "/subjects/26578"
   },
   {
+    "title": "Elasticsearch 聚合性能优化六大猛招",
+    "description": "1、问题引出默认情况下，Elasticsearch 已针对大多数用例进行了优化，确保在写入性能和查询性能之间取得平衡。我们将介绍一些聚合性能优化的可配置参数，其中部分改进是以牺牲写...",
+    "votes": "105",
+    "url": "/k/otz7tnk",
+    "avatar": "https://img.toutiao.io/subject%2F7f9bd07a03204905a3b6f56806be158d",
+    "avatarAlt": "Elasticsearch - 独家号",
+    "subjectName": "Elasticsearch",
+    "homeUrl": "/subjects/272620"
+  },
+  {
+    "title": "基于 SSD 的 Kafka 应用层缓存架构设计与实现",
+    "description": " 总第432篇 2021年 第002篇  Kafka在美团数据平台承担着统一的数据缓存和分发的角色，针对因PageCache互相污染，进而引发PageCache竞争导致实时作业被延...",
+    "votes": "34",
+    "url": "/k/ddgxe6s",
+    "avatar": "https://img.toutiao.io/subject%2F9f2f107b71194e418f7dc2cc301aa452",
+    "avatarAlt": "美团技术团队 - 独家号",
+    "subjectName": "美团技术团队",
+    "homeUrl": "/subjects/117027"
+  },
+  {
     "title": "如何成为快乐高产的程序员",
     "description": "前言身为 IT 中人，我和我身边的朋友们有以下这些痛点：书上说的那些好习惯：早起、冥想、瑜伽、读书，总是坚持不下来。每天总会有乱七八糟的事情打乱规划，而这些乱入的工作由于涉及上层的...",
     "votes": "29",
@@ -230,23 +240,13 @@
     "homeUrl": "/subjects/58319"
   },
   {
-    "title": "软件架构基础（一）：架构师的 8 大核心能力",
-    "description": "▲ 点击上方\"多颗糖\"关注公众号 《软件架构基础（Fundamentals of Software Architecture）》被誉为和《设计数据密集型应用》一样经典的后端书籍，架...",
-    "votes": "12",
-    "url": "/k/mk9kqnq",
-    "avatar": "https://img.toutiao.io/user/4a9a9e41962e4b238bdebfaf160b5034/thumb",
-    "avatarAlt": "强力研分布式系统 - 独家号",
-    "subjectName": "强力研分布式系统",
-    "homeUrl": "/subjects/1983"
-  },
-  {
-    "title": "基于 SSD 的 Kafka 应用层缓存架构设计与实现",
-    "description": " 总第432篇 2021年 第002篇  Kafka在美团数据平台承担着统一的数据缓存和分发的角色，针对因PageCache互相污染，进而引发PageCache竞争导致实时作业被延...",
-    "votes": "32",
-    "url": "/k/ddgxe6s",
-    "avatar": "https://img.toutiao.io/subject%2F9f2f107b71194e418f7dc2cc301aa452",
-    "avatarAlt": "美团技术团队 - 独家号",
-    "subjectName": "美团技术团队",
-    "homeUrl": "/subjects/117027"
+    "title": "金字塔思维，所有厉害的人都在用",
+    "description": "成长&认知 丨 作者 / 袁吴范这是pointers公众号的第43篇原创文章不知道大家有没有遇到过这样让人头疼的情况：公司几个部门的人围在一起开会，各自从自己的角度出发，想要说服彼...",
+    "votes": "105",
+    "url": "/k/j22t4lx",
+    "avatar": "https://img.toutiao.io/subject%2F2d6acb5e10d74d418b835f039664ab16",
+    "avatarAlt": "pointers - 独家号",
+    "subjectName": "pointers",
+    "homeUrl": "/subjects/451915"
   }
 ]
