@@ -1,56 +1,137 @@
 [
   {
-    "title": "重磅发布丨2021年OpenAtom XuperChain 开源技术路径",
-    "description": "2020 年，国家发改委公布了加强新型基础设施建设发展的顶层设计，区块链作为新技术基础设施首次被写入新基建发展规划之中。同时，美国将区块链技术列入国家安全技术清单，未来将对区块链核心技术形成卡脖子问题。",
-    "url": "https://segmentfault.com/a/1190000039183029",
-    "author": "王治治",
-    "home_url": "https://segmentfault.com/u/wangdazhi_sifou",
-    "votes": "10",
+    "title": "F2C能否让前端像运营配置一样开发？",
+    "description": "之前在《2021前端会有什么新的变化？》一篇 10万+ 的回答中有提到iMove，大家对这个开源项目颇为感兴趣，这里将它背后的设计思路和背景做一下介绍，从概念到实践，各种曲折也是颇有思考的。",
+    "url": "https://segmentfault.com/a/1190000039183946",
+    "author": "小石头若海",
+    "home_url": "https://segmentfault.com/u/xiaoshitouruohai",
+    "votes": "4",
     "rank": 1
   },
   {
-    "title": "我是如何在 72 小时内复刻 ClubHouse 的",
-    "description": "大家好，我是白宦成（@bestony），前几天在 B 站直播写 ClubHouse 复刻版的开发者。当然，除了这个身份，在真实生活中，我还是 Linux 中国开源社区的技术负责人，负责开发我们自己的自用工具和平台。",
-    "url": "https://segmentfault.com/a/1190000039183228",
-    "author": "白宦成",
-    "home_url": "https://segmentfault.com/u/xiqingongzi",
-    "votes": "9",
+    "title": "2021 年前端趋势预测",
+    "description": "作者：狼叔知乎上，有人提问《2021前端会有什么新的变化？》狼叔的回答二天超过6.1万+阅读量，目前444个赞同，2个专业徽章，整体上看，这篇回答大家还是相当认可的。诚如很多大V所讲，确实是2020年，前端圈带来具...",
+    "url": "https://segmentfault.com/a/1190000039184240",
+    "author": "小石头若海",
+    "home_url": "https://segmentfault.com/u/xiaoshitouruohai",
+    "votes": "3",
     "rank": 2
   },
   {
-    "title": "golang依赖注入工具wire指南",
-    "description": "Wire 是一个的Golang依赖注入工具，通过自动生成代码的方式在编译期完成依赖注入，Java体系中最出名的Spring框架采用运行时注入，个人认为这是wire和其他依赖注入最大的不同之处。",
-    "url": "https://segmentfault.com/a/1190000039185137",
-    "author": "xialeistudio",
-    "home_url": "https://segmentfault.com/u/xialeistudio",
-    "votes": "1",
+    "title": "iMove 基于 X6 + form-render 背后的思考",
+    "description": "最近，我们的项目 iMove 在 github 上的 star 数增长较快，想必是有值得大家肯定的地方的。设计这款工具的初衷是为了提高开发者的开发效率，通过面向业务逻辑的可视化编排提高逻辑元件（如 ui、 api、 function）...",
+    "url": "https://segmentfault.com/a/1190000039184124",
+    "author": "小石头若海",
+    "home_url": "https://segmentfault.com/u/xiaoshitouruohai",
+    "votes": "2",
     "rank": 3
   },
   {
-    "title": "JVM内存分配机制",
-    "description": "对象创建的主要流程内存分配主要流程分代GC主要流程",
-    "url": "https://segmentfault.com/a/1190000039184764",
-    "author": "Roy",
-    "home_url": "https://segmentfault.com/u/roy_6018a9c8dd4c2",
-    "votes": "2",
+    "title": "浅谈对 React Fiber 的理解",
+    "description": "本文作为自己深入学习 React Fiber (Reactv16.8.6)的理解，本篇仅介绍大致流程，Fiber 详细源码本文不作细节描述。",
+    "url": "https://segmentfault.com/a/1190000039189408",
+    "author": "JackySummer",
+    "home_url": "https://segmentfault.com/u/jackysummer",
+    "votes": "1",
     "rank": 4
   },
   {
-    "title": "2021还不会flex？试试这个方法，分分钟精通flex布局。",
-    "description": "现在大前端中被使用最多的布局方式非flex莫属，像h5、pc、小程序、rn、甚至native都在使用flex布局，可见掌握好flex布局是多的重要。",
-    "url": "https://segmentfault.com/a/1190000039182285",
-    "author": "zz_jesse",
-    "home_url": "https://segmentfault.com/u/hahage",
+    "title": "Linux 重定向与管道符",
+    "description": "重定向与管道符重定向作用： 将命令的执行结果输出到指定的文件中，而不是直接显示在屏幕上0 标准输入 键盘 stdin 仅读取1 标准输出 终端 stdout 仅写入2 标准错误 终端 stderr 仅写入3+ filename 其他文件 读/写...",
+    "url": "https://segmentfault.com/a/1190000039191545",
+    "author": "若尘",
+    "home_url": "https://segmentfault.com/u/ruochen_601e547530d74",
     "votes": "1",
     "rank": 5
   },
   {
-    "title": "小程序省市区选择器，对接公司的地址数据",
-    "description": "公司开始做小程序了，小程序的省市区三级联动picker组件mode=\"region\",之前也有接触过，这一次一上来先尝试了一下，发现不能和之前公司的地址库结合，因为之前项目都是和后端通过地区编码来交互的，这个自带的无...",
-    "url": "https://segmentfault.com/a/1190000039183917",
-    "author": "文心雕刺",
-    "home_url": "https://segmentfault.com/u/wenxindiaoci",
-    "votes": "2",
+    "title": "30行代码实现蚂蚁森林自动偷能量",
+    "description": "@[toc]虽然我支付宝加了好多好友，平时有很多能量可以偷，但由于太懒，至今一棵树都没种成，所以心心念念把偷能量这事自动化。之前通过用代码模拟手机点按的方式，实现了朋友圈自动点赞，但当时蚂蚁森林的操作流...",
+    "url": "https://segmentfault.com/a/1190000039186401",
+    "author": "xindoo",
+    "home_url": "https://segmentfault.com/u/xindoo",
+    "votes": "3",
     "rank": 6
+  },
+  {
+    "title": "思否有约 | @码哥字节 ：两耳不闻窗外事，一心只想搞钱来",
+    "description": "访谈嘉宾：@码哥字节访谈编辑：袁钰涵 一开始努力想绕开搞钱的小编： 为什么想写文章？——多个搞钱的机会。是什么让你坚持下来写文章的？——总有一天能以此搞钱。为什么会成为一名程序员？——这个比较容易搞钱。在程...",
+    "url": "https://segmentfault.com/a/1190000039187748",
+    "author": "袁钰涵",
+    "home_url": "https://segmentfault.com/u/yuanhan_5f5f19f9dabdc",
+    "votes": "7",
+    "rank": 7
+  },
+  {
+    "title": "为什么说 TypeScript 是开发大型前端项目的必备语言",
+    "description": "可能很多软件工程师都或多或少知道或了解 TypeScript（简写 TS），使用过 TypeScript 的前端开发者们也出奇一致的对 TypeScript 抱有好感。如果你在搜索引擎里搜索 TypeScript，会发现几乎铺天盖地都是称赞或表扬...",
+    "url": "https://segmentfault.com/a/1190000039189724",
+    "author": "MarvinZhang",
+    "home_url": "https://segmentfault.com/u/marvzhang",
+    "votes": "1",
+    "rank": 8
+  },
+  {
+    "title": "一段代码，两倍时差，直击并发编程伪共享",
+    "description": "【闲话开篇】：这段时间项目接近尾声，我终于闲了一点，又拿起了早先未看完的书《JAVA高并发程序设计》。看到其中介绍《无锁的缓存框架：Disruptor》时，接触到了一个概念——伪共享(false sharing)，说是会影响并...",
+    "url": "https://segmentfault.com/a/1190000039188960",
+    "author": "大道七哥",
+    "home_url": "https://segmentfault.com/u/dadaoqige",
+    "votes": "1",
+    "rank": 9
+  },
+  {
+    "title": "浏览器端js主导的导出动态数据",
+    "description": "当一个系统需要导出动态数据时，有时候首选方案是：由服务端实时生成csv或Excel格式的文件，然后用二进制流的形式返回给前端。比如这里说的方法： nodejs+koa以流的形式返回数据这时候会遇到一些问题。其中最大的...",
+    "url": "https://segmentfault.com/a/1190000039188827",
+    "author": "黒之染",
+    "home_url": "https://segmentfault.com/u/haua",
+    "votes": "2",
+    "rank": 10
+  },
+  {
+    "title": "使用 CSS Viewport  完成响应式布局",
+    "description": "点赞再看，微信搜索【大迁世界】,B站关注【前端小智】这个没有大厂背景，但有着一股向上积极心态人。本文 GitHub [链接] 上已经收录，文章的已分类，也整理了很多我的文档，和教程资料。",
+    "url": "https://segmentfault.com/a/1190000039186172",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "3",
+    "rank": 11
+  },
+  {
+    "title": "Spring Boot 微服务性能下降九成！使用 Arthas 定位根因",
+    "description": "作者 | 王瑞显  掌门教育基础架构部研发工程师来源|阿里巴巴云原生公众号背景接收到公司业务部门的开发反馈，应用在升级公司内部框架后，UAT（预生产）环境接口性能压测不达标。升级前压测报告：升级后压测报告：...",
+    "url": "https://segmentfault.com/a/1190000039186875",
+    "author": "阿里巴巴云原生",
+    "home_url": "https://segmentfault.com/u/alixitongruanjianjishu",
+    "votes": "2",
+    "rank": 12
+  },
+  {
+    "title": "跨年都在更新的 vite 到底有多香?",
+    "description": "有没有很震惊！跨年礼物vite2.0，我也真服啊，尤大你假期就不能打打游戏刷刷剧吗？看到了更新，我还忍不住去官方文档一探究竟，跟着看了几天，就在我差不多看完文档的时候，GitHub 那边传来了噩耗，三天时间，提...",
+    "url": "https://segmentfault.com/a/1190000039187791",
+    "author": "西岭老湿",
+    "home_url": "https://segmentfault.com/u/xiling",
+    "votes": "1",
+    "rank": 13
+  },
+  {
+    "title": "Mac上本地编译Chrome浏览器踩坑笔记（2021.02最新）",
+    "description": "科普：Google Chrome浏览器是基于开源项目Chromium构建的，因此Chromium项目构建出来的产物就是Chrome浏览器本尊。",
+    "url": "https://segmentfault.com/a/1190000039187933",
+    "author": "zhuyingda",
+    "home_url": "https://segmentfault.com/u/zhuyingda",
+    "votes": "1",
+    "rank": 14
+  },
+  {
+    "title": "基于区块开发（三）：VSCode插件",
+    "description": "欢迎关注我的公众号睿Talk，获取我最新的文章：一、前言在 上一篇文章 中，我介绍了服务于区块开发的命令行工具是如何实现的，本文将沿着区块开发这一主题继续讲解 VSCode 插件的实现方式。二、区块列表展示如果...",
+    "url": "https://segmentfault.com/a/1190000039190286",
+    "author": "dabai",
+    "home_url": "https://segmentfault.com/u/dabai_5955b2921e87d",
+    "votes": "1",
+    "rank": 15
   }
 ]
