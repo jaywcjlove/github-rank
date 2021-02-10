@@ -2,7 +2,7 @@
   {
     "title": "Spring 中那些让你爱不释手的代码技巧",
     "description": "前言 最近越来越多的读者认可我的文章，还是件挺让人高兴的事情。有些读者私信我说希望后面多分享spring方面的文章，这样能够在实际工作中派上用场。正好我对spring源码有过一定的...",
-    "votes": "190",
+    "votes": "191",
     "url": "/k/lev94mm",
     "avatar": "https://img.toutiao.io/subject%2F2897d48b5341479ba9a75cd95cffa9d4",
     "avatarAlt": "第五维度 - 独家号",
@@ -22,7 +22,7 @@
   {
     "title": "漫画：一台 Linux 服务器最多能支撑多少个 TCP 连接？",
     "description": "困惑很多人的并发问题 在网络开发中，我发现有很多同学对一个基础问题始终是没有彻底搞明白。那就是一台服务器最大究竟能支持多少个网络连接？我想我有必要单独发一篇文章来好好说一下这个问题...",
-    "votes": "39",
+    "votes": "40",
     "url": "/k/7fcauc4",
     "avatar": "https://img.toutiao.io/subject%2Fdb1c6bd2f712426fb485a625edaa803d",
     "avatarAlt": "php饭米粒 - 独家号",
@@ -52,7 +52,7 @@
   {
     "title": "美团 Commit Log 规范",
     "description": "一、背景 Git每次提交代码都需要写commit message，一般来说，commit message应该清晰明了，说明本次提交的目的，具体做了什么操作等。但是在日常开发中，开发...",
-    "votes": "24",
+    "votes": "25",
     "url": "/k/r6tsfdv",
     "avatar": "https://img.toutiao.io/subject%2Fea8976fb047b483dacc34fd01e51d47e",
     "avatarAlt": "Java研发 - 独家号",
@@ -160,6 +160,16 @@
     "homeUrl": "/subjects/219103"
   },
   {
+    "title": "我对技术架构的理解与架构师角色的思考",
+    "description": "我叫道延， 2014 年加入阿里，在阿里通信工作了近两年。2016 年年底加入业务平台团队，当时 Leader 找我的第一件事就是要解决大促的问题，第二件事就是解决安全生产的问题。...",
+    "votes": "147",
+    "url": "/k/crw00du",
+    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
+    "avatarAlt": "ASCE1885 - 独家号",
+    "subjectName": "ASCE1885",
+    "homeUrl": "/subjects/4829"
+  },
+  {
     "title": "分布式一致性协议 Raft",
     "description": "学习raft之前，给大家推荐一个网站，这个网站动画描述raft运行过程。在看文章时对照该网站，可以帮助更好的理解raft。http://thesecretlivesofdata.c...",
     "votes": "16",
@@ -180,16 +190,6 @@
     "homeUrl": "/subjects/455078"
   },
   {
-    "title": "我对技术架构的理解与架构师角色的思考",
-    "description": "我叫道延， 2014 年加入阿里，在阿里通信工作了近两年。2016 年年底加入业务平台团队，当时 Leader 找我的第一件事就是要解决大促的问题，第二件事就是解决安全生产的问题。...",
-    "votes": "144",
-    "url": "/k/crw00du",
-    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
-    "avatarAlt": "ASCE1885 - 独家号",
-    "subjectName": "ASCE1885",
-    "homeUrl": "/subjects/4829"
-  },
-  {
     "title": "深度解析 Raft 分布式一致性协议",
     "description": "笔者期望通过一篇权威靠谱、清晰易懂的系统性文章，帮助读者深入理解 Raft 算法，并能付诸于工程实践中，同时解读不易理解或容易误解的关键点。本文是 Raft 实战系列理论内容的整合...",
     "votes": "12",
@@ -202,7 +202,7 @@
   {
     "title": "9 条消除 if...else 的锦囊妙计，助你写出更优雅的代码",
     "description": "前言 最近在做代码重构，发现了很多代码的烂味道。其他的不多说，今天主要说说那些又臭又长的if...else要如何重构。在介绍更更优雅的编程之前，让我们一起回顾一下，不好的if......",
-    "votes": "34",
+    "votes": "35",
     "url": "/k/6o9uhdv",
     "avatar": "https://img.toutiao.io/subject%2F0aae3536b7d44492b1974b1077394f7d",
     "avatarAlt": "苏三说技术 - 独家号",
@@ -220,19 +220,9 @@
     "homeUrl": "/subjects/392760"
   },
   {
-    "title": "高并发高性能服务器是如何实现的",
-    "description": "当在读这篇文章的时候，你有没有想过，服务器是怎么把这篇文章发送给你的呢？ 说简单也简单，不就是一个用户请求吗？服务器根据请求从数据库中捞出这篇文章，然后通过网络发回去。 说复杂也复...",
-    "votes": "18",
-    "url": "/k/e3xq8ad",
-    "avatar": "https://img.toutiao.io/user/b618677591aa49b3972ece0c7d26b473/thumb",
-    "avatarAlt": "数据淘金 - 独家号",
-    "subjectName": "数据淘金",
-    "homeUrl": "/subjects/120437"
-  },
-  {
     "title": "可能是说的最分明的 IaaS, PaaS, FaaS, SaaS, MicroService, Serverless 了",
     "description": "絮语如果说哪个行业最会起名字，那么互联网和软件行业称第二的话，估计没人敢称第一，比如什么复盘，赋能，组合拳，引爆点，泛用型，强化认知….等等这些让你听了是耳濡目旋的，高大上，我完全...",
-    "votes": "32",
+    "votes": "33",
     "url": "/k/p2q8xl8",
     "avatar": "https://img.toutiao.io/subject%2F8a8f3e13ec2941f086510bd7c5453dec",
     "avatarAlt": "崇丕软件头条 - 独家号",
@@ -242,11 +232,21 @@
   {
     "title": "把 VSCode 打造成技术写作神器",
     "description": "作为技术开发，大家平时肯定需要记录技术笔记。甚至有的同学还开通可自己的技术博客或者技术公众号进行创作。这个时候有套趁手的写作工具尤为重要，节省下时间好好休息一下，对于咱们程序员来说...",
-    "votes": "143",
+    "votes": "144",
     "url": "/k/4n0p7ex",
     "avatar": "https://img.toutiao.io/subject%2Fad3da7db4aeb4924adba40f7036c43ee",
     "avatarAlt": "码匠赵铁柱 - 独家号",
     "subjectName": "码匠赵铁柱",
     "homeUrl": "/subjects/102436"
+  },
+  {
+    "title": "Java 线程池总结",
+    "description": "背景 Java线程池的写法和参数是面试中出现频率很高的基础题。越是基础的东西，特别是对高阶职位的面试者，需要回答的符合自己面试的职位等级。这里也不能说是一个多么好的答案，只是说如果...",
+    "votes": "32",
+    "url": "/k/4z3o5gw",
+    "avatar": "https://img.toutiao.io/subject%2F4325865040b44c0b9e2d8d80a83d1d11",
+    "avatarAlt": "编程一生 - 独家号",
+    "subjectName": "编程一生",
+    "homeUrl": "/subjects/350352"
   }
 ]
