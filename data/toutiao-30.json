@@ -2,7 +2,7 @@
   {
     "title": "Spring 中那些让你爱不释手的代码技巧",
     "description": "前言 最近越来越多的读者认可我的文章，还是件挺让人高兴的事情。有些读者私信我说希望后面多分享spring方面的文章，这样能够在实际工作中派上用场。正好我对spring源码有过一定的...",
-    "votes": "194",
+    "votes": "195",
     "url": "/k/lev94mm",
     "avatar": "https://img.toutiao.io/subject%2F2897d48b5341479ba9a75cd95cffa9d4",
     "avatarAlt": "第五维度 - 独家号",
@@ -102,7 +102,7 @@
   {
     "title": "我的 2020 年阅读书单",
     "description": "把2020年读过的书单简单整理下分个类，把一些值得推荐的书列出来（技术书籍除外），给大家作个参考。其中有些书目，特别想推荐大家的，在之前的推文也都单独成文。为什么都是不列技术书，反...",
-    "votes": "81",
+    "votes": "82",
     "url": "/k/e83kg1a",
     "avatar": "https://img.toutiao.io/subject%2F0e6fd0887f9046ed9bec490e8d807dd1",
     "avatarAlt": "码闻强识 - 独家号",
@@ -122,7 +122,7 @@
   {
     "title": "我竟然被 “双亲委派” 给虐了",
     "description": "GitHub 17k Star 的Java工程师成神之路，不来了解一下吗！ 最近一段时间，我在面试的过程中，很喜欢问双亲委派的一些问题，因为我发现这个问题真的可以帮助我全方位的了解...",
-    "votes": "45",
+    "votes": "46",
     "url": "/k/l9vnnm6",
     "avatar": "https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e",
     "avatarAlt": "JAVA干货 - 独家号",
@@ -160,16 +160,6 @@
     "homeUrl": "/subjects/24912"
   },
   {
-    "title": "GitHub 访问加速指南",
-    "description": "不知道什么时候开始，GitHub里面的图片也无法加载出来，本来页面也加载缓慢，这下更是雪上加霜，好在还是有简单的方式加速GitHub的访问。通过设置hosts就是一个低成本的方案，...",
-    "votes": "23",
-    "url": "/k/5mauvie",
-    "avatar": "https://img.toutiao.io/subject%2Fa3f94f1ba1134bcaab4ebc9b404e652f",
-    "avatarAlt": "湖中剑 - 独家号",
-    "subjectName": "湖中剑",
-    "homeUrl": "/subjects/423680"
-  },
-  {
     "title": "讲解 Zookeeper 的五个核心知识点",
     "description": "1 ZooKeeper简介ZooKeeper 是一个开源的分布式协调框架，它的定位是为分布式应用提供一致性服务，是整个大数据体系的管理员。ZooKeeper 会封装好复杂易出错的关...",
     "votes": "66",
@@ -178,6 +168,26 @@
     "avatarAlt": "服务架构及中台 - 独家号",
     "subjectName": "服务架构及中台",
     "homeUrl": "/subjects/26578"
+  },
+  {
+    "title": "Git 全栈开发使用指南",
+    "description": "一、Git基础在这里插入图片描述1、Git简介 Git是一种分布式版本控制系统，由Linux之父Linus开发。所谓分布式版本管理系统，就是在每一台机器上都有一个完整的仓库。ima...",
+    "votes": "108",
+    "url": "/k/v4gks4h",
+    "avatar": "https://img.toutiao.io/user/10e18dc2646f46d1aa9745c1b49c31f4/thumb",
+    "avatarAlt": "三分恶 - 独家号",
+    "subjectName": "三分恶",
+    "homeUrl": "/subjects/454266"
+  },
+  {
+    "title": "金字塔思维，所有厉害的人都在用",
+    "description": "成长&认知 丨 作者 / 袁吴范这是pointers公众号的第43篇原创文章不知道大家有没有遇到过这样让人头疼的情况：公司几个部门的人围在一起开会，各自从自己的角度出发，想要说服彼...",
+    "votes": "109",
+    "url": "/k/j22t4lx",
+    "avatar": "https://img.toutiao.io/subject%2F2d6acb5e10d74d418b835f039664ab16",
+    "avatarAlt": "pointers - 独家号",
+    "subjectName": "pointers",
+    "homeUrl": "/subjects/451915"
   },
   {
     "title": "如何成为快乐高产的程序员",
@@ -200,16 +210,6 @@
     "homeUrl": "/subjects/117027"
   },
   {
-    "title": "金字塔思维，所有厉害的人都在用",
-    "description": "成长&认知 丨 作者 / 袁吴范这是pointers公众号的第43篇原创文章不知道大家有没有遇到过这样让人头疼的情况：公司几个部门的人围在一起开会，各自从自己的角度出发，想要说服彼...",
-    "votes": "108",
-    "url": "/k/j22t4lx",
-    "avatar": "https://img.toutiao.io/subject%2F2d6acb5e10d74d418b835f039664ab16",
-    "avatarAlt": "pointers - 独家号",
-    "subjectName": "pointers",
-    "homeUrl": "/subjects/451915"
-  },
-  {
     "title": "几乎刷完了力扣所有的堆题，我发现了这些东西（第二弹）",
     "description": "一点题外话 上次在我的公众号给大家做了一个小调查《投出你想要的题解编程语言吧~》。以下是调查的结果：投票结果而关于其他，则大多数是 Go 语言。投其他的人都写了什么？由于 Java...",
     "votes": "99",
@@ -230,23 +230,23 @@
     "homeUrl": "/subjects/455404"
   },
   {
-    "title": "Git 全栈开发使用指南",
-    "description": "一、Git基础在这里插入图片描述1、Git简介 Git是一种分布式版本控制系统，由Linux之父Linus开发。所谓分布式版本管理系统，就是在每一台机器上都有一个完整的仓库。ima...",
-    "votes": "103",
-    "url": "/k/v4gks4h",
-    "avatar": "https://img.toutiao.io/user/10e18dc2646f46d1aa9745c1b49c31f4/thumb",
-    "avatarAlt": "三分恶 - 独家号",
-    "subjectName": "三分恶",
-    "homeUrl": "/subjects/454266"
-  },
-  {
     "title": "引入 Gateway 网关，这些坑一定要学会避开",
     "description": " Spring cloud gateway是替代zuul的网关产品，基于Spring 5、Spring boot 2.0以上、Reactor, 提供任意的路由匹配和断言、过滤功能。...",
-    "votes": "97",
+    "votes": "98",
     "url": "/k/60gr6a8",
     "avatar": "https://img.toutiao.io/subject%2F8e12ef64799649acbfd936883ef16c3c",
     "avatarAlt": "服务架构及中台 - 独家号",
     "subjectName": "服务架构及中台",
     "homeUrl": "/subjects/26578"
+  },
+  {
+    "title": "最终一致性，一致只会迟到，但绝不会缺席",
+    "description": "又是这个封面，最近这个封面出现的比较频繁，别问为什么？问就是，这个封面 = 内容牛B这篇文章我们继续聊分布式相关的内容。提到分布式系统，就一定绕不开“一致性”，这次我们说说：最终一...",
+    "votes": "92",
+    "url": "/k/9q7yxnu",
+    "avatar": "https://img.toutiao.io/subject%2F180d026f85274c998656474cd1988d0f",
+    "avatarAlt": "四猿外 - 独家号",
+    "subjectName": "四猿外",
+    "homeUrl": "/subjects/426740"
   }
 ]

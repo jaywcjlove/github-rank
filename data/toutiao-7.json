@@ -2,7 +2,7 @@
   {
     "title": "Git 全栈开发使用指南",
     "description": "一、Git基础在这里插入图片描述1、Git简介 Git是一种分布式版本控制系统，由Linux之父Linus开发。所谓分布式版本管理系统，就是在每一台机器上都有一个完整的仓库。ima...",
-    "votes": "103",
+    "votes": "108",
     "url": "/k/v4gks4h",
     "avatar": "https://img.toutiao.io/user/10e18dc2646f46d1aa9745c1b49c31f4/thumb",
     "avatarAlt": "三分恶 - 独家号",
@@ -12,7 +12,7 @@
   {
     "title": "引入 Gateway 网关，这些坑一定要学会避开",
     "description": " Spring cloud gateway是替代zuul的网关产品，基于Spring 5、Spring boot 2.0以上、Reactor, 提供任意的路由匹配和断言、过滤功能。...",
-    "votes": "97",
+    "votes": "98",
     "url": "/k/60gr6a8",
     "avatar": "https://img.toutiao.io/subject%2F8e12ef64799649acbfd936883ef16c3c",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -22,7 +22,7 @@
   {
     "title": "深入了解 SSH",
     "description": "SSH 是每一台电脑的标准配置，Linux 就不必说了，连 windows[1] 也从 2018 年开始自带 OpenSSH 了。它主要的用途是登陆到远程电脑中执行命令，在云开发的...",
-    "votes": "82",
+    "votes": "84",
     "url": "/k/8y463n2",
     "avatar": "https://img.toutiao.io/subject%2F4b0893abf1ca42e1baf7ab28ca49e6e9",
     "avatarAlt": "coder-party - 独家号",
@@ -32,7 +32,7 @@
   {
     "title": "Redis 集群搭建很 easy",
     "description": "前言  哨兵模式虽然让读写分离更加高可用，但单台服务器由于本身的内存和CPU瓶颈，对于高并发和大数据业务的应用场景还是远远不能满足；对于这种情况，有点经验的小伙伴会毫不犹豫的想到集...",
-    "votes": "66",
+    "votes": "69",
     "url": "/k/m4mw3sc",
     "avatar": "https://img.toutiao.io/subject%2Fd00b380edf1f4c5c989adc712d44de7b",
     "avatarAlt": "乱学派 - 独家号",
@@ -40,19 +40,9 @@
     "homeUrl": "/subjects/110643"
   },
   {
-    "title": "如何提升系统可用性？",
-    "description": " 相传魏文王和名医扁鹊之间曾经发生过这样一段对话：魏文王：“你们兄弟三人，谁是医术是最好的呢? ”扁鹊：“大哥最好，二哥差些，我是三人中最差的一个。”魏文王：“那为什么你的名气最大...",
-    "votes": "49",
-    "url": "/k/4whx0p6",
-    "avatar": "https://img.toutiao.io/user/5a7a70a7ff844188be76ef25c0a082d7/thumb",
-    "avatarAlt": "ThoughtWorks - 独家号",
-    "subjectName": "ThoughtWorks",
-    "homeUrl": "/subjects/8973"
-  },
-  {
     "title": "3+1 保障：高可用系统稳定性是如何炼成的？",
     "description": " 阿里妹导读：影响系统稳定性的架构设计有哪些？一个可持续保障的研发运维流程机制是怎样的？如何培养团队技术人员的意识和能力？本文作者以团队技术负责人的视角，从三大技术要素和一个业务要...",
-    "votes": "51",
+    "votes": "56",
     "url": "/k/u8lcu6b",
     "avatar": "https://img.toutiao.io/subject%2Fae2b74c589814b769c1bebad92c2fb9a",
     "avatarAlt": "架构之美 - 独家号",
@@ -60,24 +50,34 @@
     "homeUrl": "/subjects/42200"
   },
   {
-    "title": "Lucene 倒排索引原理",
-    "description": "点击蓝字 关注我们  高沛 2018年7月加入去哪儿网，目前负责酒店搜索、门票搜索、大搜等搜索相关业务，曾参与基于Lucene的搜索召回服务搭建，个人对搜索引擎、分布式技术比较感兴...",
+    "title": "Redis 遇到的那些坑",
+    "description": " 前言  Redis 作为当前最流行的 NoSQL 之一，想必很多人都用过。Redis 有五种常见的数据类型：string、list、hash、set、zset。讲真，我以前只用过...",
     "votes": "54",
-    "url": "/k/ew5ozjp",
-    "avatar": "https://img.toutiao.io/subject%2Ff05a135abc844e719541593cad4f8c57",
-    "avatarAlt": "不错的好文 - 独家号",
-    "subjectName": "不错的好文",
-    "homeUrl": "/subjects/5551"
+    "url": "/k/k4blfqn",
+    "avatar": "https://img.toutiao.io/subject%2Ffcb66c6130f8452a8da43228c8360019",
+    "avatarAlt": "WriteOnRead - 独家号",
+    "subjectName": "WriteOnRead",
+    "homeUrl": "/subjects/313799"
   },
   {
-    "title": "我提升开发效率的经验",
-    "description": "大家好，我是流沙，一名近六年工作经验的程序员。我的工作经历里，包含了整体文化、氛围差别非常大的公司，和很多不同类型的人合作过，观察到过很多没效率的现象。同时，我一直觉得我自己的开发...",
-    "votes": "61",
-    "url": "/k/eesee1q",
-    "avatar": "https://img.toutiao.io/subject%2F4dfe01622bf94a97a3ecd1d781905956",
-    "avatarAlt": "wilde fox - 独家号",
-    "subjectName": "wilde fox",
-    "homeUrl": "/subjects/12597"
+    "title": "阅读源码的真正价值",
+    "description": "这里是Z哥的个人公众号每周五11：45 按时送达当然了，也会时不时加个餐～我的第「179」篇原创敬上大家好，我是Z哥。最近有位小伙伴求职遇到一些挫折，来找到我聊，其中有问到一个涉及...",
+    "votes": "48",
+    "url": "/k/yupb5ya",
+    "avatar": "https://img.toutiao.io/subject%2Fc992e775e6344583abd8a49f632b3e13",
+    "avatarAlt": "跨界架构师 - 独家号",
+    "subjectName": "跨界架构师",
+    "homeUrl": "/subjects/268968"
+  },
+  {
+    "title": "每个程序员都应该知道的 latency time",
+    "description": "Photo by Denny Müller on Unsplash 如果你是计算机系毕业的，可以不会修电脑，但应该了解几组关于 “Latency time” 的数字，诸如：L1 c...",
+    "votes": "53",
+    "url": "/k/ol06bm3",
+    "avatar": "https://img.toutiao.io/subject%2F229425fce44447e4ba9f4a9331ffe064",
+    "avatarAlt": "人人都是面试官 - 独家号",
+    "subjectName": "人人都是面试官",
+    "homeUrl": "/subjects/454593"
   },
   {
     "title": "Go 工程化（一）：架构整洁之道阅读笔记",
@@ -100,29 +100,9 @@
     "homeUrl": "/subjects/796"
   },
   {
-    "title": "阅读源码的真正价值",
-    "description": "这里是Z哥的个人公众号每周五11：45 按时送达当然了，也会时不时加个餐～我的第「179」篇原创敬上大家好，我是Z哥。最近有位小伙伴求职遇到一些挫折，来找到我聊，其中有问到一个涉及...",
-    "votes": "43",
-    "url": "/k/yupb5ya",
-    "avatar": "https://img.toutiao.io/subject%2Fc992e775e6344583abd8a49f632b3e13",
-    "avatarAlt": "跨界架构师 - 独家号",
-    "subjectName": "跨界架构师",
-    "homeUrl": "/subjects/268968"
-  },
-  {
-    "title": "Redis 遇到的那些坑",
-    "description": " 前言  Redis 作为当前最流行的 NoSQL 之一，想必很多人都用过。Redis 有五种常见的数据类型：string、list、hash、set、zset。讲真，我以前只用过...",
-    "votes": "42",
-    "url": "/k/k4blfqn",
-    "avatar": "https://img.toutiao.io/subject%2Ffcb66c6130f8452a8da43228c8360019",
-    "avatarAlt": "WriteOnRead - 独家号",
-    "subjectName": "WriteOnRead",
-    "homeUrl": "/subjects/313799"
-  },
-  {
     "title": "etcd：从应用场景到实现原理的全方位解读（修订版）",
     "description": "随着 CoreOS 和 Kubernetes 等项目在开源社区日益火热，它们项目中都用到的 etcd 组件作为一个高可用强一致性的服务发现存储仓库，渐渐为开发人员所关注。在云计算时...",
-    "votes": "40",
+    "votes": "41",
     "url": "/k/u032bu3",
     "avatar": "https://img.toutiao.io/subject%2F2633bd8663d9433fb04f0dea81cb2ec2",
     "avatarAlt": "sunsky303 - 独家号",
@@ -130,44 +110,14 @@
     "homeUrl": "/subjects/48071"
   },
   {
-    "title": "2021 年 Elasticsearch 生态和技术峰会干货总结",
-    "description": "1、引言 2021年 Elasticsearch 生态和技术峰会已完美闭幕，本次峰会可谓大咖云集，精彩纷呈。 本文仅就下午场技术部分做一下梳理、提炼、总结，希望对没有来得及参加线上...",
-    "votes": "35",
-    "url": "/k/mwjay43",
-    "avatar": "https://img.toutiao.io/subject%2F7f9bd07a03204905a3b6f56806be158d",
-    "avatarAlt": "Elasticsearch - 独家号",
-    "subjectName": "Elasticsearch",
-    "homeUrl": "/subjects/272620"
-  },
-  {
     "title": "美团图数据库平台建设及业务实践",
     "description": "本文为 #nLive vol.001｜美团图数据库平台建设及业务实践# 主题演讲的文字稿，可前往 B站 观看本次视频 大家好，我是来自美团的赵登昌，今天我给大家分享下美团图数据库平...",
-    "votes": "32",
+    "votes": "34",
     "url": "/k/c4zr3qj",
     "avatar": "https://img.toutiao.io/user/aa375a5041b146e39b13c0602557f9ed/thumb",
     "avatarAlt": "u560981的独家号 - 独家号",
     "subjectName": "u560981的独家号",
     "homeUrl": "/subjects/437156"
-  },
-  {
-    "title": "前端八大灵感设计，代码变为现实",
-    "description": "我们都知道掌握编程技术是一项很难的事情，没有捷径可走。需要我们在日复一日的工作中去锻炼。如果想要达到擅长甚至需要长年累月的积累。 下面列举了一些可以给你带来编码灵感的例子，相信你看...",
-    "votes": "33",
-    "url": "/k/rgcqaw6",
-    "avatar": "https://img.toutiao.io/subject%2F2661709a3af44375b6f3b7522ac60189",
-    "avatarAlt": "太空编程 - 独家号",
-    "subjectName": "太空编程",
-    "homeUrl": "/subjects/454552"
-  },
-  {
-    "title": "图片上传系统在淘系中的实践",
-    "description": " 传统图片信息的上传渠道一般在pc端的后台或者客户端上直接上传，但是如何在移动端的webview上快速上传图片，并保证图片安全下载这一直是一个挑战。名词解释 阿里云oss：阿里云对...",
-    "votes": "26",
-    "url": "/k/ojx0cck",
-    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
-    "avatarAlt": "ASCE1885 - 独家号",
-    "subjectName": "ASCE1885",
-    "homeUrl": "/subjects/4829"
   },
   {
     "title": "如何改变 Docker 的数据目录",
@@ -178,6 +128,16 @@
     "avatarAlt": "HowTos - 独家号",
     "subjectName": "HowTos",
     "homeUrl": "/subjects/455423"
+  },
+  {
+    "title": "面试中 LRU / LFU 的青铜与王者",
+    "description": " 面试中 LRU / LFU 的青铜与王者已经 0202 年了，大厂面试手撸算法题已经是标配。第一轮就遇到手撸 LRU / LFU 的几率还是挺大的。LeetCode 上146. ...",
+    "votes": "24",
+    "url": "/k/o9kubh1",
+    "avatar": "https://img.toutiao.io/subject%2F7099419508b548428645eec6ee3e7c5b",
+    "avatarAlt": "数据智能 - 独家号",
+    "subjectName": "数据智能",
+    "homeUrl": "/subjects/1"
   },
   {
     "title": "不要让追求完美阻碍你做决策",
@@ -198,5 +158,45 @@
     "avatarAlt": "ThoughtWorks - 独家号",
     "subjectName": "ThoughtWorks",
     "homeUrl": "/subjects/8973"
+  },
+  {
+    "title": "开源了！从 0 到 1 实现 “合成大西瓜”",
+    "description": "转自：shymeanwww.shymean.com/article/使用cocos实现一个合成大西瓜 最近微博上曝出了很多瓜，\"合成大西瓜\"这个游戏也很火热，玩了一阵还挺有意思的。...",
+    "votes": "23",
+    "url": "/k/jpidpq7",
+    "avatar": "https://img.toutiao.io/subject%2F92f8abdd29be4693ad1e6c99e5203c1b",
+    "avatarAlt": "开源前哨 - 独家号",
+    "subjectName": "开源前哨",
+    "homeUrl": "/subjects/451797"
+  },
+  {
+    "title": "快手基于 RocketMQ 的在线消息系统建设实践",
+    "description": " 作者：黄理，10 多年软件开发和架构经验，热衷于代码和性能优化，开发和参与过多个开源项目。曾在淘宝任业务架构师多年，当前在快手负责在线消息系统建设工作。  为什么建设在线消息系统...",
+    "votes": "19",
+    "url": "/k/i4aznl2",
+    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
+    "avatarAlt": "ASCE1885 - 独家号",
+    "subjectName": "ASCE1885",
+    "homeUrl": "/subjects/4829"
+  },
+  {
+    "title": "Spring Boot 集成 Elasticsearch",
+    "description": "Elasticsearch (简称ES) 是一个基于 Lucene 的分布式、高扩展、高实时的搜索与数据分析引擎。本章介绍 Spring Boot 应用集成 Elasticsear...",
+    "votes": "19",
+    "url": "/k/6k6f3fk",
+    "avatar": "https://img.toutiao.io/subject%2F2f19911250184f8aa256ef469e41539c",
+    "avatarAlt": "攻城狮·正 - 独家号",
+    "subjectName": "攻城狮·正",
+    "homeUrl": "/subjects/890"
+  },
+  {
+    "title": "Doris SQL 原理解析",
+    "description": "文|汪细勖小米云平台工程师、负责小米Apache Doris项目的开发和运维、专注于OLAP计算引擎的SQL解析和优化 导读 本文主要介绍了Doris SQL解析的原理。 重点讲述...",
+    "votes": "19",
+    "url": "/k/vn9hzv2",
+    "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
+    "avatarAlt": "进击的程序猿 - 独家号",
+    "subjectName": "进击的程序猿",
+    "homeUrl": "/subjects/24912"
   }
 ]
