@@ -1,38 +1,11 @@
 [
   {
-    "title": "ts映射类型",
-    "description": "在映射类型里，新类型以相同的形式去转换旧类型的每个属性。Partial将每个属性转换为可选属性 {代码...} 例子： {代码...} Readonly将每个属性转换为只读属性 {代码...} 例子： {代码...} Nullable转换为旧类型和...",
-    "url": "https://segmentfault.com/a/1190000039207115",
-    "author": "duck2u",
-    "home_url": "https://segmentfault.com/u/duck2u",
-    "votes": "2",
-    "rank": 1
-  },
-  {
-    "title": "Need For Speed: Nodejs Module In C++",
-    "description": "According to a simple test between node-uuid and C++ uuid, the truth was told: C++ is faster.",
-    "url": "https://segmentfault.com/a/1190000039206897",
-    "author": "igame2000",
-    "home_url": "https://segmentfault.com/u/igame2000",
-    "votes": "1",
-    "rank": 2
-  },
-  {
-    "title": "用 Python 动态模拟太阳系运转",
-    "description": "提到太阳系，大家可能会想到哥白尼和他的日心说，或是捍卫、发展日心说的斗士布鲁诺，他们像一缕光一样照亮了那个时代的夜空，对历史感兴趣的小伙伴可以深入了解一下，这里就不多说了。",
-    "url": "https://segmentfault.com/a/1190000039206792",
+    "title": "用 Python 写个计算器",
+    "description": "我们常见的计算辅助工具有两种，一种是古人发明的算盘，另一种就是我们现代人发明的计算器，与算盘相比，计算器无论是便利性还是计算速度都是优于算盘的，本文我们使用 Python 来实现一个简易的计算器。",
+    "url": "https://segmentfault.com/a/1190000039208477",
     "author": "Python小二",
     "home_url": "https://segmentfault.com/u/ityard",
-    "votes": "1",
-    "rank": 3
-  },
-  {
-    "title": "JS运行机制",
-    "description": "当遇到基本类型时，数据值会存储在当前作用域下，直接在当前作用域（栈内存）内开辟空间存储值，比如 var age = 18，(1)浏览器会在当前作用域内开辟一个存储空间18，(2)然后在作用域内声明一个变量 age。(3)最后...",
-    "url": "https://segmentfault.com/a/1190000039206755",
-    "author": "林一一",
-    "home_url": "https://segmentfault.com/u/user_p5fejtxs",
-    "votes": "1",
-    "rank": 4
+    "votes": "2",
+    "rank": 1
   }
 ]

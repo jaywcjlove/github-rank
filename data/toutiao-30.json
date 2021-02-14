@@ -2,7 +2,7 @@
   {
     "title": "Spring 中那些让你爱不释手的代码技巧",
     "description": "前言 最近越来越多的读者认可我的文章，还是件挺让人高兴的事情。有些读者私信我说希望后面多分享spring方面的文章，这样能够在实际工作中派上用场。正好我对spring源码有过一定的...",
-    "votes": "195",
+    "votes": "196",
     "url": "/k/lev94mm",
     "avatar": "https://img.toutiao.io/subject%2F2897d48b5341479ba9a75cd95cffa9d4",
     "avatarAlt": "第五维度 - 独家号",
@@ -82,7 +82,7 @@
   {
     "title": "基于开源技术打造 DevSecOps 工具链",
     "description": "前言 在落地DevSecOps过程中，核心的一个部分是安全工具链，通过工具化集成将安全活动内嵌到DevOps研发运营一体化中。下面，我们来谈一下，从计划阶段的威胁建模，创建阶段的I...",
-    "votes": "131",
+    "votes": "132",
     "url": "/k/8dcb5n8",
     "avatar": "https://img.toutiao.io/subject%2Fab225f76a1344c82acd5de490243c1fb",
     "avatarAlt": "安全奇点 - 独家号",
@@ -92,7 +92,7 @@
   {
     "title": "微服务实现简单的分布式日志追踪",
     "description": "最近想给项目添加一个简单的分布式请求跟踪功能，从前端发起请求到网关，再从网关调用 SpringCloud 的微服务，这些过程中希望能从日志中看到一个分布式 ID 的链路，通过请求的...",
-    "votes": "126",
+    "votes": "127",
     "url": "/k/s7af3dl",
     "avatar": "https://img.toutiao.io/subject%2Fc0fcca1841d3492a9c6a91e8af2a5c87",
     "avatarAlt": "技术杂谈 - 独家号",
@@ -150,6 +150,16 @@
     "homeUrl": "/subjects/454196"
   },
   {
+    "title": "Git 全栈开发使用指南",
+    "description": "一、Git基础在这里插入图片描述1、Git简介 Git是一种分布式版本控制系统，由Linux之父Linus开发。所谓分布式版本管理系统，就是在每一台机器上都有一个完整的仓库。ima...",
+    "votes": "116",
+    "url": "/k/v4gks4h",
+    "avatar": "https://img.toutiao.io/user/10e18dc2646f46d1aa9745c1b49c31f4/thumb",
+    "avatarAlt": "三分恶 - 独家号",
+    "subjectName": "三分恶",
+    "homeUrl": "/subjects/454266"
+  },
+  {
     "title": "三万字，Spark 学习笔记",
     "description": "Spark 基础  Spark特性 Spark使用简练优雅的Scala语言编写，基于Scala提供了交互式编程体验，同时提供多种方便易用的API。Spark遵循“一个软件栈满足不同...",
     "votes": "30",
@@ -158,16 +168,6 @@
     "avatarAlt": "进击的程序猿 - 独家号",
     "subjectName": "进击的程序猿",
     "homeUrl": "/subjects/24912"
-  },
-  {
-    "title": "Git 全栈开发使用指南",
-    "description": "一、Git基础在这里插入图片描述1、Git简介 Git是一种分布式版本控制系统，由Linux之父Linus开发。所谓分布式版本管理系统，就是在每一台机器上都有一个完整的仓库。ima...",
-    "votes": "113",
-    "url": "/k/v4gks4h",
-    "avatar": "https://img.toutiao.io/user/10e18dc2646f46d1aa9745c1b49c31f4/thumb",
-    "avatarAlt": "三分恶 - 独家号",
-    "subjectName": "三分恶",
-    "homeUrl": "/subjects/454266"
   },
   {
     "title": "讲解 Zookeeper 的五个核心知识点",
@@ -190,16 +190,6 @@
     "homeUrl": "/subjects/451915"
   },
   {
-    "title": "如何成为快乐高产的程序员",
-    "description": "前言身为 IT 中人，我和我身边的朋友们有以下这些痛点：书上说的那些好习惯：早起、冥想、瑜伽、读书，总是坚持不下来。每天总会有乱七八糟的事情打乱规划，而这些乱入的工作由于涉及上层的...",
-    "votes": "32",
-    "url": "/k/pfv4tyx",
-    "avatar": "https://img.toutiao.io/user/c4b0a6dd73634edba21e7ef41b5622a3/thumb",
-    "avatarAlt": "软件匠艺社区 - 独家号",
-    "subjectName": "软件匠艺社区",
-    "homeUrl": "/subjects/58319"
-  },
-  {
     "title": "基于 SSD 的 Kafka 应用层缓存架构设计与实现",
     "description": " 总第432篇 2021年 第002篇  Kafka在美团数据平台承担着统一的数据缓存和分发的角色，针对因PageCache互相污染，进而引发PageCache竞争导致实时作业被延...",
     "votes": "35",
@@ -208,6 +198,16 @@
     "avatarAlt": "美团技术团队 - 独家号",
     "subjectName": "美团技术团队",
     "homeUrl": "/subjects/117027"
+  },
+  {
+    "title": "引入 Gateway 网关，这些坑一定要学会避开",
+    "description": " Spring cloud gateway是替代zuul的网关产品，基于Spring 5、Spring boot 2.0以上、Reactor, 提供任意的路由匹配和断言、过滤功能。...",
+    "votes": "106",
+    "url": "/k/60gr6a8",
+    "avatar": "https://img.toutiao.io/subject%2F8e12ef64799649acbfd936883ef16c3c",
+    "avatarAlt": "服务架构及中台 - 独家号",
+    "subjectName": "服务架构及中台",
+    "homeUrl": "/subjects/26578"
   },
   {
     "title": "Docker 镜像瘦身",
@@ -230,16 +230,6 @@
     "homeUrl": "/subjects/324664"
   },
   {
-    "title": "引入 Gateway 网关，这些坑一定要学会避开",
-    "description": " Spring cloud gateway是替代zuul的网关产品，基于Spring 5、Spring boot 2.0以上、Reactor, 提供任意的路由匹配和断言、过滤功能。...",
-    "votes": "102",
-    "url": "/k/60gr6a8",
-    "avatar": "https://img.toutiao.io/subject%2F8e12ef64799649acbfd936883ef16c3c",
-    "avatarAlt": "服务架构及中台 - 独家号",
-    "subjectName": "服务架构及中台",
-    "homeUrl": "/subjects/26578"
-  },
-  {
     "title": "最终一致性，一致只会迟到，但绝不会缺席",
     "description": "又是这个封面，最近这个封面出现的比较频繁，别问为什么？问就是，这个封面 = 内容牛B这篇文章我们继续聊分布式相关的内容。提到分布式系统，就一定绕不开“一致性”，这次我们说说：最终一...",
     "votes": "92",
@@ -248,5 +238,15 @@
     "avatarAlt": "四猿外 - 独家号",
     "subjectName": "四猿外",
     "homeUrl": "/subjects/426740"
+  },
+  {
+    "title": "快速了解云原生架构",
+    "description": " 作者 | 潘义文（空易）  起源 1. 云原生（Cloud Native）的由来 云原生的概念最早开始于 2010 年，在当时 Paul Fremantle 的一篇博客中被提及，...",
+    "votes": "90",
+    "url": "/k/zz0ckz0",
+    "avatar": "https://img.toutiao.io/subject%2Fde644bbb42b34c618fad49fb47759970",
+    "avatarAlt": "4k咖啡豆 - 独家号",
+    "subjectName": "4k咖啡豆",
+    "homeUrl": "/subjects/158649"
   }
 ]
