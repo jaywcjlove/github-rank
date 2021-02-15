@@ -5,7 +5,7 @@
     "url": "https://segmentfault.com/a/1190000039168072",
     "author": "三余",
     "home_url": "https://segmentfault.com/u/johnyu_",
-    "votes": "40",
+    "votes": "43",
     "rank": 1
   },
   {
@@ -59,7 +59,7 @@
     "url": "https://segmentfault.com/a/1190000039200998",
     "author": "Chor",
     "home_url": "https://segmentfault.com/u/chor",
-    "votes": "18",
+    "votes": "19",
     "rank": 7
   },
   {
@@ -99,40 +99,22 @@
     "rank": 11
   },
   {
-    "title": "我是如何在 72 小时内复刻 ClubHouse 的",
-    "description": "大家好，我是白宦成（@bestony），前几天在 B 站直播写 ClubHouse 复刻版的开发者。当然，除了这个身份，在真实生活中，我还是 Linux 中国开源社区的技术负责人，负责开发我们自己的自用工具和平台。",
-    "url": "https://segmentfault.com/a/1190000039183228",
-    "author": "白宦成",
-    "home_url": "https://segmentfault.com/u/xiqingongzi",
-    "votes": "11",
-    "rank": 12
-  },
-  {
-    "title": "CSS奇思妙想 -- 使用 background 创造各种美妙的背景",
-    "description": "本文属于 CSS 绘图技巧其中一篇，系列文章：在 CSS 中使用三角函数绘制曲线图形及展示动画CSS奇思妙想 -- 使用 CSS 创造艺术将介绍一些利用 CSS 中的 background、mix-blend-mode、mask 及一些相关属性，制作一些...",
-    "url": "https://segmentfault.com/a/1190000039176483",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "14",
-    "rank": 13
-  },
-  {
-    "title": "从推荐算法到前端开发，字节跳动技术 Leader 们都在学什么？",
-    "description": "为了回答这个问题，技术范儿找到了多媒体、推荐算法、计算机视觉、强化学习、机器翻译、知识图谱、安卓、iOS、前端等几个方向的 Leader，推荐了各个技术方向的自学资源。",
-    "url": "https://segmentfault.com/a/1190000039196256",
-    "author": "王治治",
-    "home_url": "https://segmentfault.com/u/wangdazhi_sifou",
-    "votes": "12",
-    "rank": 14
-  },
-  {
     "title": "歪门邪道性能优化：魔改三方库源码，性能提高几十倍！",
     "description": "本文会分享一个React性能优化的故事，这也是我在工作中真实遇到的故事，最终我们是通过魔改第三方库源码将它性能提高了几十倍。这个第三方库也是很有名的，在GitHub上有4.5k star，这就是：react-big-calendar。",
     "url": "https://segmentfault.com/a/1190000039113678",
     "author": "蒋鹏飞",
     "home_url": "https://segmentfault.com/u/jiangpengfei_5ecce944a3d8a",
     "votes": "29",
-    "rank": 15
+    "rank": 12
+  },
+  {
+    "title": "我是如何在 72 小时内复刻 ClubHouse 的",
+    "description": "大家好，我是白宦成（@bestony），前几天在 B 站直播写 ClubHouse 复刻版的开发者。当然，除了这个身份，在真实生活中，我还是 Linux 中国开源社区的技术负责人，负责开发我们自己的自用工具和平台。",
+    "url": "https://segmentfault.com/a/1190000039183228",
+    "author": "白宦成",
+    "home_url": "https://segmentfault.com/u/xiqingongzi",
+    "votes": "11",
+    "rank": 13
   },
   {
     "title": "历时 10 个多月，学习了这 132 个CSS 特效，还不来学习，实鼠不易，牛气冲天！",
@@ -141,34 +123,34 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "52",
+    "rank": 14
+  },
+  {
+    "title": "CSS奇思妙想 -- 使用 background 创造各种美妙的背景",
+    "description": "本文属于 CSS 绘图技巧其中一篇，系列文章：在 CSS 中使用三角函数绘制曲线图形及展示动画CSS奇思妙想 -- 使用 CSS 创造艺术将介绍一些利用 CSS 中的 background、mix-blend-mode、mask 及一些相关属性，制作一些...",
+    "url": "https://segmentfault.com/a/1190000039176483",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "14",
+    "rank": 15
+  },
+  {
+    "title": "从推荐算法到前端开发，字节跳动技术 Leader 们都在学什么？",
+    "description": "为了回答这个问题，技术范儿找到了多媒体、推荐算法、计算机视觉、强化学习、机器翻译、知识图谱、安卓、iOS、前端等几个方向的 Leader，推荐了各个技术方向的自学资源。",
+    "url": "https://segmentfault.com/a/1190000039196256",
+    "author": "王治治",
+    "home_url": "https://segmentfault.com/u/wangdazhi_sifou",
+    "votes": "13",
     "rank": 16
   },
   {
-    "title": "1分钟内的Linux性能分析法",
-    "description": "在Netflix，我们拥有庞大的Linux EC2云实例，以及大量的性能分析工具来监视和调查它们的性能。这些工具包括Atlas和Vector。Atlas用于全云监控，Vector用于按需实例分析。这些工具能帮助我们解决大部分问题，但有...",
-    "url": "https://segmentfault.com/a/1190000039204218",
-    "author": "新世界杂货铺",
-    "home_url": "https://segmentfault.com/u/yidianyihengchang",
-    "votes": "3",
+    "title": "JS+CSS自适应屏幕",
+    "description": "Media Query（媒体查询）：现在比较主流的适配方案，可根据视口不同编写不同样式达到适应效果，比如框架Bootstrap，它能完成大部分项目需求，但是编写过于复杂。",
+    "url": "https://segmentfault.com/a/1190000039187530",
+    "author": "逡橙",
+    "home_url": "https://segmentfault.com/u/cheng_5ff55fa48ee68",
+    "votes": "18",
     "rank": 17
-  },
-  {
-    "title": "ts映射类型",
-    "description": "在映射类型里，新类型以相同的形式去转换旧类型的每个属性。Partial将每个属性转换为可选属性 {代码...} 例子： {代码...} Readonly将每个属性转换为只读属性 {代码...} 例子： {代码...} Nullable转换为旧类型和...",
-    "url": "https://segmentfault.com/a/1190000039207115",
-    "author": "duck2u",
-    "home_url": "https://segmentfault.com/u/duck2u",
-    "votes": "2",
-    "rank": 18
-  },
-  {
-    "title": "云原生中间件的下一站",
-    "description": "于雨(github @AlexStocks)，dubbogo 社区负责人，一个有十年服务端基础架构和中间件研发一线工作经验的程序员，陆续参与和改进过 Redis/Pika/Muduo/dubbo-go/Sentinel-go 等知名项目，目前在蚂蚁金服可信原生部从...",
-    "url": "https://segmentfault.com/a/1190000039200760",
-    "author": "dubbo_go",
-    "home_url": "https://segmentfault.com/u/dubbo_go",
-    "votes": "4",
-    "rank": 19
   },
   {
     "title": "TypeScript 中提升幸福感的 10 个高级技巧",
@@ -177,6 +159,24 @@
     "author": "夜尽天明",
     "home_url": "https://segmentfault.com/u/biaochenxuying",
     "votes": "42",
+    "rank": 18
+  },
+  {
+    "title": "用 Python 写个计算器",
+    "description": "我们常见的计算辅助工具有两种，一种是古人发明的算盘，另一种就是我们现代人发明的计算器，与算盘相比，计算器无论是便利性还是计算速度都是优于算盘的，本文我们使用 Python 来实现一个简易的计算器。",
+    "url": "https://segmentfault.com/a/1190000039208477",
+    "author": "Python小二",
+    "home_url": "https://segmentfault.com/u/ityard",
+    "votes": "2",
+    "rank": 19
+  },
+  {
+    "title": "高性能 Nginx HTTPS 调优！为 HTTPS 提速 30%",
+    "description": "Nginx 常作为最常见的服务器，常被用作负载均衡 (Load Balancer)、反向代理 (Reverse Proxy)，以及网关 (Gateway) 等等。一个配置得当的 Nginx 服务器单机应该可以期望承受住 50K 到 80K 左右每秒的请求，同时将 ...",
+    "url": "https://segmentfault.com/a/1190000039073842",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "36",
     "rank": 20
   },
   {
@@ -185,25 +185,25 @@
     "url": "https://segmentfault.com/a/1190000039197624",
     "author": "卤代烃",
     "home_url": "https://segmentfault.com/u/skychx",
-    "votes": "6",
+    "votes": "8",
     "rank": 21
   },
   {
-    "title": "Go - 实现项目内链路追踪(二)",
-    "description": "上篇文章 Go - 实现项目内链路追踪 分享了，通过 链路 ID 可以将 请求信息、响应信息、调用第三方接口的信息、调试信息、执行的 SQL 信息、执行的 Redis 信息 串起来，记录的具体参数在文件中都有介绍。",
-    "url": "https://segmentfault.com/a/1190000039204225",
-    "author": "新亮",
-    "home_url": "https://segmentfault.com/u/xinliangcoder",
-    "votes": "3",
+    "title": "使用RoughViz可视化Vue.js中的草绘图表",
+    "description": "图表是数据的图形表示，用于使数据集更易于阅读，并且易于区分各部分。虽然大多数用户习惯于看到简洁而正式的图表，但一些用户更喜欢看到手绘或素描的图表，这就是roughViz的用武之地。",
+    "url": "https://segmentfault.com/a/1190000039208156",
+    "author": "杜尼卜",
+    "home_url": "https://segmentfault.com/u/dunizb",
+    "votes": "2",
     "rank": 22
   },
   {
-    "title": "前端性能优化（一）",
-    "description": "为什么要做性能优化？性能优化有多重要？网站的性能对于用户的留存率、转化率有很大的影响，直白的说，提高网站的性能可以直接提高网站带来的收益。性能优化的分类前端的性能优化主要分为两类：加载时优化；运行...",
-    "url": "https://segmentfault.com/a/1190000039171422",
-    "author": "huangsh",
-    "home_url": "https://segmentfault.com/u/huangsh",
-    "votes": "17",
+    "title": "前端攻略-全栈系列（图谱）",
+    "description": "前端知识体系（图谱）前端工程化体系node主流技术栈大纲ReactVueAngularJavaScriptTypeScript跨平台技术大纲跨端技术发展的三个阶段HybridReactNativeFlutterweex小程序快应用ionicCordova性能优化和监控",
+    "url": "https://segmentfault.com/a/1190000039085813",
+    "author": "浅夏晴空",
+    "home_url": "https://segmentfault.com/u/qianxiaqingkong",
+    "votes": "34",
     "rank": 23
   },
   {
@@ -216,39 +216,39 @@
     "rank": 24
   },
   {
-    "title": "高性能 Nginx HTTPS 调优！为 HTTPS 提速 30%",
-    "description": "Nginx 常作为最常见的服务器，常被用作负载均衡 (Load Balancer)、反向代理 (Reverse Proxy)，以及网关 (Gateway) 等等。一个配置得当的 Nginx 服务器单机应该可以期望承受住 50K 到 80K 左右每秒的请求，同时将 ...",
-    "url": "https://segmentfault.com/a/1190000039073842",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "36",
+    "title": "前端性能优化（一）",
+    "description": "为什么要做性能优化？性能优化有多重要？网站的性能对于用户的留存率、转化率有很大的影响，直白的说，提高网站的性能可以直接提高网站带来的收益。性能优化的分类前端的性能优化主要分为两类：加载时优化；运行...",
+    "url": "https://segmentfault.com/a/1190000039171422",
+    "author": "huangsh",
+    "home_url": "https://segmentfault.com/u/huangsh",
+    "votes": "17",
     "rank": 25
   },
   {
-    "title": "jenkins+docker 实现前端和nodejs服务端自动化发布",
-    "description": "现代软件工程都强调持续集成的能力，而持续集成的一个重要组成部分持续部署。也就是本文的重点，自动化部署。本文会从零开始讲述每个环节的原理和实现方法。",
-    "url": "https://segmentfault.com/a/1190000039207951",
-    "author": "hhm1999",
-    "home_url": "https://segmentfault.com/u/hhm19999",
-    "votes": "1",
+    "title": "1分钟内的Linux性能分析法",
+    "description": "在Netflix，我们拥有庞大的Linux EC2云实例，以及大量的性能分析工具来监视和调查它们的性能。这些工具包括Atlas和Vector。Atlas用于全云监控，Vector用于按需实例分析。这些工具能帮助我们解决大部分问题，但有...",
+    "url": "https://segmentfault.com/a/1190000039204218",
+    "author": "新世界杂货铺",
+    "home_url": "https://segmentfault.com/u/yidianyihengchang",
+    "votes": "3",
     "rank": 26
   },
   {
-    "title": "JS+CSS自适应屏幕",
-    "description": "Media Query（媒体查询）：现在比较主流的适配方案，可根据视口不同编写不同样式达到适应效果，比如框架Bootstrap，它能完成大部分项目需求，但是编写过于复杂。",
-    "url": "https://segmentfault.com/a/1190000039187530",
-    "author": "逡橙",
-    "home_url": "https://segmentfault.com/u/cheng_5ff55fa48ee68",
-    "votes": "16",
+    "title": "云原生中间件的下一站",
+    "description": "于雨(github @AlexStocks)，dubbogo 社区负责人，一个有十年服务端基础架构和中间件研发一线工作经验的程序员，陆续参与和改进过 Redis/Pika/Muduo/dubbo-go/Sentinel-go 等知名项目，目前在蚂蚁金服可信原生部从...",
+    "url": "https://segmentfault.com/a/1190000039200760",
+    "author": "dubbo_go",
+    "home_url": "https://segmentfault.com/u/dubbo_go",
+    "votes": "4",
     "rank": 27
   },
   {
-    "title": "前端攻略-全栈系列（图谱）",
-    "description": "前端知识体系（图谱）前端工程化体系node主流技术栈大纲ReactVueAngularJavaScriptTypeScript跨平台技术大纲跨端技术发展的三个阶段HybridReactNativeFlutterweex小程序快应用ionicCordova性能优化和监控",
-    "url": "https://segmentfault.com/a/1190000039085813",
-    "author": "浅夏晴空",
-    "home_url": "https://segmentfault.com/u/qianxiaqingkong",
-    "votes": "34",
+    "title": "一个合格的初级前端工程师需要掌握的模块笔记",
+    "description": "Github来源：一个合格的初级前端工程师需要掌握的模块笔记 | 求星星 ✨ | 给个❤️关注，❤️点赞，❤️鼓励一下作者大家好，我是魔王哪吒，很高兴认识你~~哪吒人生信条：如果你所学的东西 处于喜欢 才会有强大的动力支...",
+    "url": "https://segmentfault.com/a/1190000039166908",
+    "author": "程序员哆啦A梦",
+    "home_url": "https://segmentfault.com/u/dashucoding",
+    "votes": "16",
     "rank": 28
   },
   {
