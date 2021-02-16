@@ -1,74 +1,47 @@
 [
   {
-    "title": "【C++并发与多线程】 11_std::atomic叙谈、std::launch(std::async) 深入",
-    "description": "std::atomic 叙谈原子类模板完全专用于基本整数类型（bool除外），以及 <cstdint> 中 typedef 所需的任何扩展整数类型。专用的基本数据类型： {代码...} 附加的成员函数： {代码...} 对于 bool 实例化，仅...",
-    "url": "https://segmentfault.com/a/1190000039211405",
-    "author": "TianSong",
-    "home_url": "https://segmentfault.com/u/tiansong",
-    "votes": "1",
+    "title": "可视化拖拽组件库一些技术要点原理分析（三）",
+    "description": "本文是可视化拖拽系列的第三篇，之前的两篇文章一共对 17 个功能点的技术原理进行了分析：编辑器自定义组件拖拽删除组件、调整图层层级放大缩小撤消、重做组件属性设置吸附预览、保存代码绑定事件绑定动画导入 PS...",
+    "url": "https://segmentfault.com/a/1190000039212575",
+    "author": "谭光志",
+    "home_url": "https://segmentfault.com/u/woai3c",
+    "votes": "5",
     "rank": 1
   },
   {
-    "title": "前端菜鸟初入公司必备的Git知识",
-    "description": "City of stars,are you shining just for me?City of stars,there's so much that I can't see.Who knows,is this the start of something wonderful and new,or one more dream that I cannot make true?",
-    "url": "https://segmentfault.com/a/1190000039212042",
-    "author": "Oscarwillberich",
-    "home_url": "https://segmentfault.com/u/wuyungui",
-    "votes": "1",
+    "title": "全世界第二受欢迎的 React UI 组件库，一夜之间不见了...",
+    "description": "据 Ant Design 官方账号表示，Ant Design 在 Github 上的仓库在没有任何原因的情况下突然消失了，团队正在联系 GitHub 官方寻求帮助和反馈。",
+    "url": "https://segmentfault.com/a/1190000039213106",
+    "author": "王治治",
+    "home_url": "https://segmentfault.com/u/wangdazhi_sifou",
+    "votes": "3",
     "rank": 2
   },
   {
-    "title": "It's magic！",
-    "description": "js是世界上最好的语言！！今天在v站看到一个帖子，问道： {代码...} “块级作用域，10！”，我看完便冷笑道。然而Google Chrome Version 88.0.4324.150 输出的99却狠狠地打了我的脸。来不及多想，就看到底下有老哥...",
-    "url": "https://segmentfault.com/a/1190000039211410",
-    "author": "HaHa",
-    "home_url": "https://segmentfault.com/u/fehaha",
+    "title": "JS也可以这么浪漫，用JS写下一个世界（VR）",
+    "description": "先上图感受一下，以迪士尼城堡为例。心动了吗？你以为实现这个炫酷特效会很复杂？不不不，实现这个特效只有两个步骤需要一张全景图使用 photo-sphere-viewer.js 进行配置 (一个用来来显示全景图JavaScript库)可以...",
+    "url": "https://segmentfault.com/a/1190000039213301",
+    "author": "蓝色的秋风",
+    "home_url": "https://segmentfault.com/u/qiufeng_5a07f6cb96ee0",
     "votes": "1",
     "rank": 3
   },
   {
-    "title": "Github域名加上`1s`，在线VS Code阅读源码神器诞生",
-    "description": "近日，一款域名为 github1s 开源项目诞生了，正如他的名字所说，只要在 github 地址上面加上 1s，就能秒级用在线 VS Code 打开 github 项目，这可以说为开发者带来了巨大的便利！！！",
-    "url": "https://segmentfault.com/a/1190000039210833",
-    "author": "蓝色的秋风",
-    "home_url": "https://segmentfault.com/u/qiufeng_5a07f6cb96ee0",
-    "votes": "4",
+    "title": "深入理解gradle中的task",
+    "description": "在之前的文章中，我们讲到了如何使用gradle创建一个简单的task，以及task之间怎么依赖，甚至使用了程序来创建task。在本文中，我们会更加深入的去了解一下gradle中的task。",
+    "url": "https://segmentfault.com/a/1190000039212504",
+    "author": "flydean",
+    "home_url": "https://segmentfault.com/u/flydean",
+    "votes": "1",
     "rank": 4
   },
   {
-    "title": "前端模块化",
-    "description": "一、模块化的理解1.什么是模块?将一个复杂的程序依据一定的规则(规范)封装成几个块(文件), 并进行组合在一起块的内部数据与实现是私有的, 只是向外部暴露一些接口(方法)与外部其它模块通信2.模块化的进化过程全局...",
-    "url": "https://segmentfault.com/a/1190000039211448",
-    "author": "ToSmile",
-    "home_url": "https://segmentfault.com/u/tosmile",
+    "title": "手撸golang 基本数据结构与算法  链表",
+    "description": "手撸golang 基本数据结构与算法 链表缘起最近阅读<<我的第一本算法书>>(【日】石田保辉；宫崎修一)本系列笔记拟采用golang练习之链表 {代码...} 目标实现一个链表, 提供与数组类似的线性访问接口设计...",
+    "url": "https://segmentfault.com/a/1190000039213617",
+    "author": "ioly",
+    "home_url": "https://segmentfault.com/u/iolygg",
     "votes": "1",
     "rank": 5
-  },
-  {
-    "title": "今年春晚不一样，XR技术如何打造移步换景",
-    "description": "不知道大家发现没有，相比前几届春晚，《2021年春节联欢晚会》的视觉效果可谓焕然一新，很多节目都可以看到新科技的东西，比如AR、XR、电影特效技术等将现实舞台上无法完成的效果精彩呈现，融通虚拟空间与现实世界。",
-    "url": "https://segmentfault.com/a/1190000039210711",
-    "author": "xiangzhihong",
-    "home_url": "https://segmentfault.com/u/xiangzhihong",
-    "votes": "2",
-    "rank": 6
-  },
-  {
-    "title": "MySQL数据库DDL、DML详解",
-    "description": "一、MySQL数据库数据类型<1> MySQL数据库中支持多种数据类型数值型字符型日期型<2> 常用的数据类型整型int：整型，存储整数int(M): M表示预期值，与存储大小和数值的范围无关id int                 ...",
-    "url": "https://segmentfault.com/a/1190000039210672",
-    "author": "若尘",
-    "home_url": "https://segmentfault.com/u/ruochen_601e547530d74",
-    "votes": "1",
-    "rank": 7
-  },
-  {
-    "title": "大数据开发-linux后台运行，关闭，查看后台任务",
-    "description": "在日常开发过程中，除了例行调度的任务和直接在开发环境下比如Scripts，开发，很多情况下是shell下直接搞起（小公司一般是这样），看一下常见的linux后台运行和关闭的命令，这里做一个总结，主要包括：fg、bg、jo...",
-    "url": "https://segmentfault.com/a/1190000039211536",
-    "author": "Hoult丶吴邪",
-    "home_url": "https://segmentfault.com/u/hulichao",
-    "votes": "1",
-    "rank": 8
   }
 ]
