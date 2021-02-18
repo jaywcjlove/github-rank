@@ -102,7 +102,7 @@
   {
     "title": "Git 全栈开发使用指南",
     "description": "一、Git基础在这里插入图片描述1、Git简介 Git是一种分布式版本控制系统，由Linux之父Linus开发。所谓分布式版本管理系统，就是在每一台机器上都有一个完整的仓库。ima...",
-    "votes": "125",
+    "votes": "127",
     "url": "/k/v4gks4h",
     "avatar": "https://img.toutiao.io/subject%2F785b9391ccd74d88bfc5ccd391fb4365",
     "avatarAlt": "三分恶 - 独家号",
@@ -112,7 +112,7 @@
   {
     "title": "Redis 在 Linux 系统的配置优化",
     "description": "通常来看，Redis开发和运维人员更加关注的是Redis本身的一些配置优化，例如AOF和RDB的配置优化、数据结构的配置优化等，但是对于操作系统是否需要针对Redis做一些配置优化...",
-    "votes": "118",
+    "votes": "120",
     "url": "/k/cgfim2o",
     "avatar": "https://img.toutiao.io/subject%2F7099419508b548428645eec6ee3e7c5b",
     "avatarAlt": "数据智能 - 独家号",
@@ -132,7 +132,7 @@
   {
     "title": "2021 春节书单：110 位 CEO 心中的 NO.1",
     "description": " 写在前面：马上就是春节，准备一些假期的书是常规动作（不管实际有没有读）。前两天突然想，为什么不邀请身边的朋友们一起做一个书单，然后分享给大家？于是我找了100多位朋友，请他们帮我...",
-    "votes": "103",
+    "votes": "104",
     "url": "/k/p6kzudl",
     "avatar": "https://img.toutiao.io/subject%2F4c72971aff5c4e73821ac59b18ff5dd6",
     "avatarAlt": "程序员的朋友圈 - 独家号",
@@ -150,6 +150,26 @@
     "homeUrl": "/subjects/26578"
   },
   {
+    "title": "引入 Gateway 网关，这些坑一定要学会避开",
+    "description": " Spring cloud gateway是替代zuul的网关产品，基于Spring 5、Spring boot 2.0以上、Reactor, 提供任意的路由匹配和断言、过滤功能。...",
+    "votes": "108",
+    "url": "/k/60gr6a8",
+    "avatar": "https://img.toutiao.io/subject%2F8e12ef64799649acbfd936883ef16c3c",
+    "avatarAlt": "服务架构及中台 - 独家号",
+    "subjectName": "服务架构及中台",
+    "homeUrl": "/subjects/26578"
+  },
+  {
+    "title": "几乎刷完了力扣所有的堆题，我发现了这些东西（第二弹）",
+    "description": "一点题外话 上次在我的公众号给大家做了一个小调查《投出你想要的题解编程语言吧~》。以下是调查的结果：投票结果而关于其他，则大多数是 Go 语言。投其他的人都写了什么？由于 Java...",
+    "votes": "102",
+    "url": "/k/x15jtei",
+    "avatar": "https://img.toutiao.io/subject%2F535bf01014ce4334b9ad5276d10b58bb",
+    "avatarAlt": "力扣加加 - 独家号",
+    "subjectName": "力扣加加",
+    "homeUrl": "/subjects/324664"
+  },
+  {
     "title": "金字塔思维，所有厉害的人都在用",
     "description": "成长&认知 丨 作者 / 袁吴范这是pointers公众号的第43篇原创文章不知道大家有没有遇到过这样让人头疼的情况：公司几个部门的人围在一起开会，各自从自己的角度出发，想要说服彼...",
     "votes": "109",
@@ -158,36 +178,6 @@
     "avatarAlt": "pointers - 独家号",
     "subjectName": "pointers",
     "homeUrl": "/subjects/451915"
-  },
-  {
-    "title": "引入 Gateway 网关，这些坑一定要学会避开",
-    "description": " Spring cloud gateway是替代zuul的网关产品，基于Spring 5、Spring boot 2.0以上、Reactor, 提供任意的路由匹配和断言、过滤功能。...",
-    "votes": "107",
-    "url": "/k/60gr6a8",
-    "avatar": "https://img.toutiao.io/subject%2F8e12ef64799649acbfd936883ef16c3c",
-    "avatarAlt": "服务架构及中台 - 独家号",
-    "subjectName": "服务架构及中台",
-    "homeUrl": "/subjects/26578"
-  },
-  {
-    "title": "基于 SSD 的 Kafka 应用层缓存架构设计与实现",
-    "description": " 总第432篇 2021年 第002篇  Kafka在美团数据平台承担着统一的数据缓存和分发的角色，针对因PageCache互相污染，进而引发PageCache竞争导致实时作业被延...",
-    "votes": "35",
-    "url": "/k/ddgxe6s",
-    "avatar": "https://img.toutiao.io/subject%2F9f2f107b71194e418f7dc2cc301aa452",
-    "avatarAlt": "美团技术团队 - 独家号",
-    "subjectName": "美团技术团队",
-    "homeUrl": "/subjects/117027"
-  },
-  {
-    "title": "几乎刷完了力扣所有的堆题，我发现了这些东西（第二弹）",
-    "description": "一点题外话 上次在我的公众号给大家做了一个小调查《投出你想要的题解编程语言吧~》。以下是调查的结果：投票结果而关于其他，则大多数是 Go 语言。投其他的人都写了什么？由于 Java...",
-    "votes": "101",
-    "url": "/k/x15jtei",
-    "avatar": "https://img.toutiao.io/subject%2F535bf01014ce4334b9ad5276d10b58bb",
-    "avatarAlt": "力扣加加 - 独家号",
-    "subjectName": "力扣加加",
-    "homeUrl": "/subjects/324664"
   },
   {
     "title": "Docker 镜像瘦身",
@@ -222,12 +212,32 @@
   {
     "title": "硬不硬你说了算！近 40 张图解被问千百遍的 TCP 三次握手和四次挥手面试题",
     "description": "欢迎关注公众号【Ccww技术博客】，原创技术文章第一时间推出越努力，越幸运，本文已收藏在GitHub中JavaCommunity, 里面有面试分享、源码分析系列文章，欢迎收藏，点赞...",
-    "votes": "90",
+    "votes": "92",
     "url": "/k/3a36mkk",
     "avatar": "https://img.toutiao.io/subject%2F36ba6cca33c74069b0141b60a64963b8",
     "avatarAlt": "Ccww架构之旅 - 独家号",
     "subjectName": "Ccww架构之旅",
     "homeUrl": "/subjects/367406"
+  },
+  {
+    "title": "堪称神器的命令行工具系列之 curl",
+    "description": "   curl 非常有用的命令行工具库，用于通过 URL 传输数据。它的名字就是客户端（client）的 URL 工具的意思（command line tool and libra...",
+    "votes": "98",
+    "url": "/k/paa1opr",
+    "avatar": "https://img.toutiao.io/subject%2F423aa3b32219428999cfffd48b4f3ea2",
+    "avatarAlt": "Web前端静轩苑 - 独家号",
+    "subjectName": "Web前端静轩苑",
+    "homeUrl": "/subjects/79906"
+  },
+  {
+    "title": "Redis 集群搭建很 easy",
+    "description": "前言  哨兵模式虽然让读写分离更加高可用，但单台服务器由于本身的内存和CPU瓶颈，对于高并发和大数据业务的应用场景还是远远不能满足；对于这种情况，有点经验的小伙伴会毫不犹豫的想到集...",
+    "votes": "86",
+    "url": "/k/m4mw3sc",
+    "avatar": "https://img.toutiao.io/subject%2Fd00b380edf1f4c5c989adc712d44de7b",
+    "avatarAlt": "乱学派 - 独家号",
+    "subjectName": "乱学派",
+    "homeUrl": "/subjects/110643"
   },
   {
     "title": "做业务系统研发如何做到认真负责？",
@@ -238,15 +248,5 @@
     "avatarAlt": "新亮笔记 - 独家号",
     "subjectName": "新亮笔记",
     "homeUrl": "/subjects/135111"
-  },
-  {
-    "title": "换个角度，聊聊全链路压测",
-    "description": "前言之前自己也写过好几篇关于全链路压测的文章或者博客，最近看了infoQ上infoQ-数列科技杨德华的专栏，复盘了下自己以往在全链路压测实施方面的工作，发觉还有很多可以做的更好的地...",
-    "votes": "54",
-    "url": "/k/46w7ldx",
-    "avatar": "https://img.toutiao.io/subject%2F1227f0343a1546ee8e3c535cce14aa4c",
-    "avatarAlt": "工程师的自我修养之路 - 独家号",
-    "subjectName": "工程师的自我修养之路",
-    "homeUrl": "/subjects/188023"
   }
 ]

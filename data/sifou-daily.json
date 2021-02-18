@@ -1,47 +1,29 @@
 [
   {
-    "title": "在 Linux 服务器中创建假桌面运行模拟浏览器有头模式",
-    "description": "经常使用 Selenium 或者 Puppeteer 的同学都知道，他们启动的 Chrome 浏览器分为有头模式和无头模式。在自己电脑上操作时，如果是有头模式，会弹出一个 Chrome 浏览器窗口，然后你能看到这个浏览器里面在自动操作...",
-    "url": "https://segmentfault.com/a/1190000039215415",
-    "author": "青南",
-    "home_url": "https://segmentfault.com/u/qingnan",
-    "votes": "1",
+    "title": "手写一个基于 Proxy 的缓存库",
+    "description": "两年前，我写了一篇关于业务缓存的博客 前端 api 请求缓存方案, 这篇博客反响还不错，其中介绍了如何缓存数据，Promise 以及如何超时删除（也包括如何构建修饰器）。如果对此不够了解，可以阅读博客进行学习。",
+    "url": "https://segmentfault.com/a/1190000039217566",
+    "author": "jump__jump",
+    "home_url": "https://segmentfault.com/u/jump_and_jump",
+    "votes": "3",
     "rank": 1
   },
   {
-    "title": "yarn 中国镜像代理",
-    "description": "{代码...}",
-    "url": "https://segmentfault.com/a/1190000039215376",
-    "author": "Hole",
-    "home_url": "https://segmentfault.com/u/hole",
+    "title": "Tailwind CSS （可能）是名过其实的",
+    "description": "Tailwind CSS 是一个工具集 CSS 框架，网上很多文章已对其有详尽的介绍。本文不是官方文档的复述，也不是系列优点的罗列，作者 Gerard 会从另一个角度出发，在尽力保持客观的前提下，立足于实际开发的场景，指出 ...",
+    "url": "https://segmentfault.com/a/1190000039218688",
+    "author": "Chor",
+    "home_url": "https://segmentfault.com/u/chor",
     "votes": "1",
     "rank": 2
   },
   {
-    "title": "vue+xlsx实现前端导入、导出功能",
-    "description": "1、安装依赖cnpm i xlsx --D2、某个模块中引入或者全局引入import XLSX from 'xlsx'3、导入excelcommonjs(公共函数) {代码...} html {代码...} js {代码...} 4、导出exceljs {代码...}",
-    "url": "https://segmentfault.com/a/1190000039215072",
-    "author": "阿星",
-    "home_url": "https://segmentfault.com/u/axing_5c525b0294141",
-    "votes": "2",
-    "rank": 3
-  },
-  {
-    "title": "这是我的第一次JavaScript初级技巧",
-    "description": "每天学习编程，让你离梦想更新一步，感谢不负每一份热爱编程的程序员，不论知识点多么奇葩，和我一起，让那一颗四处流荡的心定下来，一直走下去，加油，2021加油！欢迎关注加我vx:xiaoda0423，欢迎点赞、收藏和评论",
-    "url": "https://segmentfault.com/a/1190000039215059",
-    "author": "程序员哆啦A梦",
-    "home_url": "https://segmentfault.com/u/dashucoding",
+    "title": "如何上手学习 Alpine.js",
+    "description": "Alpine.js 是由开发者 Caleb Porzio 开发的一款响应式前端框架。和过去人们所熟悉的 Vue.js、React、Angular 不同的是，Alpine.js 不需要你对于现有的应用进行高成本的改造，也没有 VDom 的概念，直接可以在现有...",
+    "url": "https://segmentfault.com/a/1190000039218018",
+    "author": "白宦成",
+    "home_url": "https://segmentfault.com/u/xiqingongzi",
     "votes": "1",
-    "rank": 4
-  },
-  {
-    "title": "Oracle  ---- 同一个SQL文在RAC环境多个节点的结果一定相同吗？",
-    "description": "昨天遇到一个有趣的问题：同一个SQL文在RAC环境多个节点的结果一定相同吗？答案是：that depends依存什么呢？ 当然是SQL文本身了。举个简单的例子: {代码...} 在上面的SQL文中，首先检索出来的是满足\" T1.c1 >...",
-    "url": "https://segmentfault.com/a/1190000039214726",
-    "author": "Scott",
-    "home_url": "https://segmentfault.com/u/db_perf",
-    "votes": "3",
-    "rank": 5
+    "rank": 3
   }
 ]

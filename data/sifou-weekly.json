@@ -1,12 +1,57 @@
 [
   {
+    "title": "手写一个基于 Proxy 的缓存库",
+    "description": "两年前，我写了一篇关于业务缓存的博客 前端 api 请求缓存方案, 这篇博客反响还不错，其中介绍了如何缓存数据，Promise 以及如何超时删除（也包括如何构建修饰器）。如果对此不够了解，可以阅读博客进行学习。",
+    "url": "https://segmentfault.com/a/1190000039217566",
+    "author": "jump__jump",
+    "home_url": "https://segmentfault.com/u/jump_and_jump",
+    "votes": "3",
+    "rank": 1
+  },
+  {
+    "title": "在 Linux 服务器中创建假桌面运行模拟浏览器有头模式",
+    "description": "经常使用 Selenium 或者 Puppeteer 的同学都知道，他们启动的 Chrome 浏览器分为有头模式和无头模式。在自己电脑上操作时，如果是有头模式，会弹出一个 Chrome 浏览器窗口，然后你能看到这个浏览器里面在自动操作...",
+    "url": "https://segmentfault.com/a/1190000039215415",
+    "author": "青南",
+    "home_url": "https://segmentfault.com/u/qingnan",
+    "votes": "4",
+    "rank": 2
+  },
+  {
     "title": "可视化拖拽组件库一些技术要点原理分析（三）",
     "description": "本文是可视化拖拽系列的第三篇，之前的两篇文章一共对 17 个功能点的技术原理进行了分析：编辑器自定义组件拖拽删除组件、调整图层层级放大缩小撤消、重做组件属性设置吸附预览、保存代码绑定事件绑定动画导入 PS...",
     "url": "https://segmentfault.com/a/1190000039212575",
     "author": "谭光志",
     "home_url": "https://segmentfault.com/u/woai3c",
-    "votes": "10",
-    "rank": 1
+    "votes": "12",
+    "rank": 3
+  },
+  {
+    "title": "mini-react新版本fiber架构",
+    "description": "从我上面连接这篇文章我们可以知道：React 16 之前的版本比对更新 VirtualDOM 的过程是采用循环加递归实现的，这种比对方式有一个问题，就是一旦任务开始进行就无法中断，如果应用中组件数量庞大，主线程被长期占...",
+    "url": "https://segmentfault.com/a/1190000039216190",
+    "author": "Charon",
+    "home_url": "https://segmentfault.com/u/charon_5f4765a39cea7",
+    "votes": "1",
+    "rank": 4
+  },
+  {
+    "title": "这是我的第一次JavaScript初级技巧",
+    "description": "每天学习编程，让你离梦想更新一步，感谢不负每一份热爱编程的程序员，不论知识点多么奇葩，和我一起，让那一颗四处流荡的心定下来，一直走下去，加油，2021加油！欢迎关注加我vx:xiaoda0423，欢迎点赞、收藏和评论",
+    "url": "https://segmentfault.com/a/1190000039215059",
+    "author": "程序员哆啦A梦",
+    "home_url": "https://segmentfault.com/u/dashucoding",
+    "votes": "3",
+    "rank": 5
+  },
+  {
+    "title": "从零搭建 React 开发环境",
+    "description": "大概在 2019 年，自己搭建 React 开发环境的想法萌芽，到目前为止，公司的很多项目上，也在使用中，比较稳定。为什么要自己造轮子？起初是因为自己并不满意市面上的脚手架。另外，造轮子对于自己也有一些技术上的...",
+    "url": "https://segmentfault.com/a/1190000039214166",
+    "author": "发声的沉默者",
+    "home_url": "https://segmentfault.com/u/thomas_5b0e5d1b64584",
+    "votes": "8",
+    "rank": 6
   },
   {
     "title": "JS也可以这么浪漫，用JS写下一个世界（VR）",
@@ -15,7 +60,7 @@
     "author": "蓝色的秋风",
     "home_url": "https://segmentfault.com/u/qiufeng_5a07f6cb96ee0",
     "votes": "4",
-    "rank": 2
+    "rank": 7
   },
   {
     "title": "全世界第二受欢迎的 React UI 组件库，一夜之间不见了...",
@@ -24,196 +69,16 @@
     "author": "王治治",
     "home_url": "https://segmentfault.com/u/wangdazhi_sifou",
     "votes": "4",
-    "rank": 3
-  },
-  {
-    "title": "从零搭建 React 开发环境",
-    "description": "大概在 2019 年，自己搭建 React 开发环境的想法萌芽，到目前为止，公司的很多项目上，也在使用中，比较稳定。为什么要自己造轮子？起初是因为自己并不满意市面上的脚手架。另外，造轮子对于自己也有一些技术上的...",
-    "url": "https://segmentfault.com/a/1190000039214166",
-    "author": "发声的沉默者",
-    "home_url": "https://segmentfault.com/u/thomas_5b0e5d1b64584",
-    "votes": "5",
-    "rank": 4
-  },
-  {
-    "title": "小程序自定义下拉刷新组件（为应对头部有非滚动区的情况）",
-    "description": "效果动图：小程序是有其下拉刷新api的，然而头部或者尾部有非滚动区域的情况下，是应对不了的，相关问题在微信开放社区已经是老生常谈了，比如：onPullDownRefresh 下拉刷新在安卓手机上会带动头部fixed元素一起...",
-    "url": "https://segmentfault.com/a/1190000039211823",
-    "author": "文心雕刺",
-    "home_url": "https://segmentfault.com/u/wenxindiaoci",
-    "votes": "2",
-    "rank": 5
-  },
-  {
-    "title": "【译文】工作六年后，我对软件开发的认知转变",
-    "description": "前言大家好，在下蛮咕咕（我是“鸽”王），好久不见啊。最近我司已经放假过年了，在家里就不免会多逛一些“稀奇古怪”的网站，通过阮一峰的每周新闻，发现了一篇比较不错的英文文章。里面的大部分观点我都比较认同，...",
-    "url": "https://segmentfault.com/a/1190000039214312",
-    "author": "qqxx6661",
-    "home_url": "https://segmentfault.com/u/qqxx6661",
-    "votes": "2",
-    "rank": 6
-  },
-  {
-    "title": "【C++并发与多线程】 11_std::atomic叙谈、std::launch(std::async) 深入",
-    "description": "std::atomic 叙谈原子类模板完全专用于基本整数类型（bool除外），以及 <cstdint> 中 typedef 所需的任何扩展整数类型。专用的基本数据类型： {代码...} 附加的成员函数： {代码...} 对于 bool 实例化，仅...",
-    "url": "https://segmentfault.com/a/1190000039211405",
-    "author": "TianSong",
-    "home_url": "https://segmentfault.com/u/tiansong",
-    "votes": "1",
-    "rank": 7
-  },
-  {
-    "title": "Github域名加上`1s`，在线VS Code阅读源码神器诞生",
-    "description": "近日，一款域名为 github1s 开源项目诞生了，正如他的名字所说，只要在 github 地址上面加上 1s，就能秒级用在线 VS Code 打开 github 项目，这可以说为开发者带来了巨大的便利！！！",
-    "url": "https://segmentfault.com/a/1190000039210833",
-    "author": "蓝色的秋风",
-    "home_url": "https://segmentfault.com/u/qiufeng_5a07f6cb96ee0",
-    "votes": "8",
     "rank": 8
   },
   {
-    "title": "深入理解gradle中的task",
-    "description": "在之前的文章中，我们讲到了如何使用gradle创建一个简单的task，以及task之间怎么依赖，甚至使用了程序来创建task。在本文中，我们会更加深入的去了解一下gradle中的task。",
-    "url": "https://segmentfault.com/a/1190000039212504",
-    "author": "flydean",
-    "home_url": "https://segmentfault.com/u/flydean",
+    "title": "Tailwind CSS （可能）是名过其实的",
+    "description": "Tailwind CSS 是一个工具集 CSS 框架，网上很多文章已对其有详尽的介绍。本文不是官方文档的复述，也不是系列优点的罗列，作者 Gerard 会从另一个角度出发，在尽力保持客观的前提下，立足于实际开发的场景，指出 ...",
+    "url": "https://segmentfault.com/a/1190000039218688",
+    "author": "Chor",
+    "home_url": "https://segmentfault.com/u/chor",
     "votes": "1",
     "rank": 9
-  },
-  {
-    "title": "手撸golang 基本数据结构与算法  链表",
-    "description": "手撸golang 基本数据结构与算法 链表缘起最近阅读<<我的第一本算法书>>(【日】石田保辉；宫崎修一)本系列笔记拟采用golang练习之链表 {代码...} 目标实现一个链表, 提供与数组类似的线性访问接口设计...",
-    "url": "https://segmentfault.com/a/1190000039213617",
-    "author": "ioly",
-    "home_url": "https://segmentfault.com/u/iolygg",
-    "votes": "1",
-    "rank": 10
-  },
-  {
-    "title": "It's magic！",
-    "description": "js是世界上最好的语言！！今天在v站看到一个帖子，问道： {代码...} “块级作用域，10！”，我看完便冷笑道。然而Google Chrome Version 88.0.4324.150 输出的99却狠狠地打了我的脸。来不及多想，就看到底下有老哥...",
-    "url": "https://segmentfault.com/a/1190000039211410",
-    "author": "HaHa",
-    "home_url": "https://segmentfault.com/u/fehaha",
-    "votes": "2",
-    "rank": 11
-  },
-  {
-    "title": "前端菜鸟初入公司必备的Git知识",
-    "description": "City of stars,are you shining just for me?City of stars,there's so much that I can't see.Who knows,is this the start of something wonderful and new,or one more dream that I cannot make true?",
-    "url": "https://segmentfault.com/a/1190000039212042",
-    "author": "Oscarwillberich",
-    "home_url": "https://segmentfault.com/u/wuyungui",
-    "votes": "1",
-    "rank": 12
-  },
-  {
-    "title": "今年春晚不一样，XR技术如何打造移步换景",
-    "description": "不知道大家发现没有，相比前几届春晚，《2021年春节联欢晚会》的视觉效果可谓焕然一新，很多节目都可以看到新科技的东西，比如AR、XR、电影特效技术等将现实舞台上无法完成的效果精彩呈现，融通虚拟空间与现实世界。",
-    "url": "https://segmentfault.com/a/1190000039210711",
-    "author": "xiangzhihong",
-    "home_url": "https://segmentfault.com/u/xiangzhihong",
-    "votes": "3",
-    "rank": 13
-  },
-  {
-    "title": "在 Linux 服务器中创建假桌面运行模拟浏览器有头模式",
-    "description": "经常使用 Selenium 或者 Puppeteer 的同学都知道，他们启动的 Chrome 浏览器分为有头模式和无头模式。在自己电脑上操作时，如果是有头模式，会弹出一个 Chrome 浏览器窗口，然后你能看到这个浏览器里面在自动操作...",
-    "url": "https://segmentfault.com/a/1190000039215415",
-    "author": "青南",
-    "home_url": "https://segmentfault.com/u/qingnan",
-    "votes": "1",
-    "rank": 14
-  },
-  {
-    "title": "前端模块化",
-    "description": "一、模块化的理解1.什么是模块?将一个复杂的程序依据一定的规则(规范)封装成几个块(文件), 并进行组合在一起块的内部数据与实现是私有的, 只是向外部暴露一些接口(方法)与外部其它模块通信2.模块化的进化过程全局...",
-    "url": "https://segmentfault.com/a/1190000039211448",
-    "author": "ToSmile",
-    "home_url": "https://segmentfault.com/u/tosmile",
-    "votes": "2",
-    "rank": 15
-  },
-  {
-    "title": "【Flutter 3-2】Flutter进阶教程——路由Router和导航Navigator以及传值",
-    "description": "在移动开发中，我们管页面之间的跳转叫做路由。在iOS中指的就是ViewController之间的跳转，在Android中就是Activity之间的跳转。路由是在移动端开发中非常重要的概念，它负责管理着各个页面之间的跳转还有传值工...",
-    "url": "https://segmentfault.com/a/1190000039211566",
-    "author": "弗拉德",
-    "home_url": "https://segmentfault.com/u/fulade",
-    "votes": "1",
-    "rank": 16
-  },
-  {
-    "title": "1分钟内的Linux性能分析法",
-    "description": "在Netflix，我们拥有庞大的Linux EC2云实例，以及大量的性能分析工具来监视和调查它们的性能。这些工具包括Atlas和Vector。Atlas用于全云监控，Vector用于按需实例分析。这些工具能帮助我们解决大部分问题，但有...",
-    "url": "https://segmentfault.com/a/1190000039204218",
-    "author": "新世界杂货铺",
-    "home_url": "https://segmentfault.com/u/yidianyihengchang",
-    "votes": "6",
-    "rank": 17
-  },
-  {
-    "title": "MySQL数据库DDL、DML详解",
-    "description": "一、MySQL数据库数据类型<1> MySQL数据库中支持多种数据类型数值型字符型日期型<2> 常用的数据类型整型int：整型，存储整数int(M): M表示预期值，与存储大小和数值的范围无关id int                 ...",
-    "url": "https://segmentfault.com/a/1190000039210672",
-    "author": "若尘",
-    "home_url": "https://segmentfault.com/u/ruochen_601e547530d74",
-    "votes": "1",
-    "rank": 18
-  },
-  {
-    "title": "大数据开发-linux后台运行，关闭，查看后台任务",
-    "description": "在日常开发过程中，除了例行调度的任务和直接在开发环境下比如Scripts，开发，很多情况下是shell下直接搞起（小公司一般是这样），看一下常见的linux后台运行和关闭的命令，这里做一个总结，主要包括：fg、bg、jo...",
-    "url": "https://segmentfault.com/a/1190000039211536",
-    "author": "Hoult丶吴邪",
-    "home_url": "https://segmentfault.com/u/hulichao",
-    "votes": "1",
-    "rank": 19
-  },
-  {
-    "title": "我们和外国人的差距到底在哪",
-    "description": "外国人真的是太傻了…新冠确诊破亿，就感觉外国人都太傻了，他们真的不怕死吗？不，是无知。和国内比起来很明显是实实在在的文化水平上的差距。但是，反观几乎同时发生的芯片断供，实体清单，高校被禁用MATLAB等事...",
-    "url": "https://segmentfault.com/a/1190000039212172",
-    "author": "FREEJY",
-    "home_url": "https://segmentfault.com/u/f148lhwy",
-    "votes": "0",
-    "rank": 20
-  },
-  {
-    "title": "使用RoughViz可视化Vue.js中的草绘图表",
-    "description": "图表是数据的图形表示，用于使数据集更易于阅读，并且易于区分各部分。虽然大多数用户习惯于看到简洁而正式的图表，但一些用户更喜欢看到手绘或素描的图表，这就是roughViz的用武之地。",
-    "url": "https://segmentfault.com/a/1190000039208156",
-    "author": "杜尼卜",
-    "home_url": "https://segmentfault.com/u/dunizb",
-    "votes": "2",
-    "rank": 21
-  },
-  {
-    "title": "用 Python 写个计算器",
-    "description": "我们常见的计算辅助工具有两种，一种是古人发明的算盘，另一种就是我们现代人发明的计算器，与算盘相比，计算器无论是便利性还是计算速度都是优于算盘的，本文我们使用 Python 来实现一个简易的计算器。",
-    "url": "https://segmentfault.com/a/1190000039208477",
-    "author": "Python小二",
-    "home_url": "https://segmentfault.com/u/ityard",
-    "votes": "2",
-    "rank": 22
-  },
-  {
-    "title": "jenkins+docker 实现前端和nodejs服务端自动化发布",
-    "description": "现代软件工程都强调持续集成的能力，而持续集成的一个重要组成部分持续部署。也就是本文的重点，自动化部署。本文会从零开始讲述每个环节的原理和实现方法。",
-    "url": "https://segmentfault.com/a/1190000039207951",
-    "author": "hhm1999",
-    "home_url": "https://segmentfault.com/u/hhm19999",
-    "votes": "1",
-    "rank": 23
-  },
-  {
-    "title": "Go - 实现项目内链路追踪(二)",
-    "description": "上篇文章 Go - 实现项目内链路追踪 分享了，通过 链路 ID 可以将 请求信息、响应信息、调用第三方接口的信息、调试信息、执行的 SQL 信息、执行的 Redis 信息 串起来，记录的具体参数在文件中都有介绍。",
-    "url": "https://segmentfault.com/a/1190000039204225",
-    "author": "新亮",
-    "home_url": "https://segmentfault.com/u/xinliangcoder",
-    "votes": "3",
-    "rank": 24
   },
   {
     "title": "yarn 中国镜像代理",
@@ -222,33 +87,168 @@
     "author": "Hole",
     "home_url": "https://segmentfault.com/u/hole",
     "votes": "1",
+    "rank": 10
+  },
+  {
+    "title": "vue+xlsx实现前端导入、导出功能",
+    "description": "1、安装依赖cnpm i xlsx --D2、某个模块中引入或者全局引入import XLSX from 'xlsx'3、导入excelcommonjs(公共函数) {代码...} html {代码...} js {代码...} 4、导出exceljs {代码...}",
+    "url": "https://segmentfault.com/a/1190000039215072",
+    "author": "风流才子",
+    "home_url": "https://segmentfault.com/u/axing_5c525b0294141",
+    "votes": "2",
+    "rank": 11
+  },
+  {
+    "title": "利用 go/ast 语法树做代码生成",
+    "description": "go.uber.org/zap 日志包性能很好，但是用起来很不方便，虽然新版本添加了 global 方法，但仍然别扭：zap.S().Info()。",
+    "url": "https://segmentfault.com/a/1190000039215176",
+    "author": "无风",
+    "home_url": "https://segmentfault.com/u/atwqh",
+    "votes": "1",
+    "rank": 12
+  },
+  {
+    "title": "【译文】工作六年后，我对软件开发的认知转变",
+    "description": "前言大家好，在下蛮咕咕（我是“鸽”王），好久不见啊。最近我司已经放假过年了，在家里就不免会多逛一些“稀奇古怪”的网站，通过阮一峰的每周新闻，发现了一篇比较不错的英文文章。里面的大部分观点我都比较认同，...",
+    "url": "https://segmentfault.com/a/1190000039214312",
+    "author": "qqxx6661",
+    "home_url": "https://segmentfault.com/u/qqxx6661",
+    "votes": "2",
+    "rank": 13
+  },
+  {
+    "title": "Oracle  ---- 同一个SQL文在RAC环境多个节点的结果一定相同吗？",
+    "description": "昨天遇到一个有趣的问题：同一个SQL文在RAC环境多个节点的结果一定相同吗？答案是：that depends依存什么呢？ 当然是SQL文本身了。举个简单的例子: {代码...} 在上面的SQL文中，首先检索出来的是满足\" T1.c1 >...",
+    "url": "https://segmentfault.com/a/1190000039214726",
+    "author": "Scott",
+    "home_url": "https://segmentfault.com/u/db_perf",
+    "votes": "3",
+    "rank": 14
+  },
+  {
+    "title": "小程序自定义下拉刷新组件（为应对头部有非滚动区的情况）",
+    "description": "效果动图：小程序是有其下拉刷新api的，然而头部或者尾部有非滚动区域的情况下，是应对不了的，相关问题在微信开放社区已经是老生常谈了，比如：onPullDownRefresh 下拉刷新在安卓手机上会带动头部fixed元素一起...",
+    "url": "https://segmentfault.com/a/1190000039211823",
+    "author": "文心雕刺",
+    "home_url": "https://segmentfault.com/u/wenxindiaoci",
+    "votes": "2",
+    "rank": 15
+  },
+  {
+    "title": "机器学习(四)：通俗理解支持向量机SVM及代码实践",
+    "description": "上一篇文章我们介绍了使用逻辑回归来处理分类问题，本文我们讲一个更强大的分类模型。本文依旧侧重代码实践，你会发现我们解决问题的手段越来越丰富，问题处理起来越来越简单。",
+    "url": "https://segmentfault.com/a/1190000039213271",
+    "author": "caiyongji",
+    "home_url": "https://segmentfault.com/u/caiyongji",
+    "votes": "1",
+    "rank": 16
+  },
+  {
+    "title": "Github域名加上`1s`，在线VS Code阅读源码神器诞生",
+    "description": "近日，一款域名为 github1s 开源项目诞生了，正如他的名字所说，只要在 github 地址上面加上 1s，就能秒级用在线 VS Code 打开 github 项目，这可以说为开发者带来了巨大的便利！！！",
+    "url": "https://segmentfault.com/a/1190000039210833",
+    "author": "蓝色的秋风",
+    "home_url": "https://segmentfault.com/u/qiufeng_5a07f6cb96ee0",
+    "votes": "9",
+    "rank": 17
+  },
+  {
+    "title": "【C++并发与多线程】 11_std::atomic叙谈、std::launch(std::async) 深入",
+    "description": "std::atomic 叙谈原子类模板完全专用于基本整数类型（bool除外），以及 <cstdint> 中 typedef 所需的任何扩展整数类型。专用的基本数据类型： {代码...} 附加的成员函数： {代码...} 对于 bool 实例化，仅...",
+    "url": "https://segmentfault.com/a/1190000039211405",
+    "author": "TianSong",
+    "home_url": "https://segmentfault.com/u/tiansong",
+    "votes": "1",
+    "rank": 18
+  },
+  {
+    "title": "如何上手学习 Alpine.js",
+    "description": "Alpine.js 是由开发者 Caleb Porzio 开发的一款响应式前端框架。和过去人们所熟悉的 Vue.js、React、Angular 不同的是，Alpine.js 不需要你对于现有的应用进行高成本的改造，也没有 VDom 的概念，直接可以在现有...",
+    "url": "https://segmentfault.com/a/1190000039218018",
+    "author": "白宦成",
+    "home_url": "https://segmentfault.com/u/xiqingongzi",
+    "votes": "1",
+    "rank": 19
+  },
+  {
+    "title": "手撸golang 基本数据结构与算法  链表",
+    "description": "手撸golang 基本数据结构与算法 链表缘起最近阅读<<我的第一本算法书>>(【日】石田保辉；宫崎修一)本系列笔记拟采用golang练习之链表 {代码...} 目标实现一个链表, 提供与数组类似的线性访问接口设计...",
+    "url": "https://segmentfault.com/a/1190000039213617",
+    "author": "ioly",
+    "home_url": "https://segmentfault.com/u/iolygg",
+    "votes": "1",
+    "rank": 20
+  },
+  {
+    "title": "It's magic！",
+    "description": "js是世界上最好的语言！！今天在v站看到一个帖子，问道： {代码...} “块级作用域，10！”，我看完便冷笑道。然而Google Chrome Version 88.0.4324.150 输出的99却狠狠地打了我的脸。来不及多想，就看到底下有老哥...",
+    "url": "https://segmentfault.com/a/1190000039211410",
+    "author": "HaHa",
+    "home_url": "https://segmentfault.com/u/fehaha",
+    "votes": "2",
+    "rank": 21
+  },
+  {
+    "title": "深入理解gradle中的task",
+    "description": "在之前的文章中，我们讲到了如何使用gradle创建一个简单的task，以及task之间怎么依赖，甚至使用了程序来创建task。在本文中，我们会更加深入的去了解一下gradle中的task。",
+    "url": "https://segmentfault.com/a/1190000039212504",
+    "author": "flydean",
+    "home_url": "https://segmentfault.com/u/flydean",
+    "votes": "1",
+    "rank": 22
+  },
+  {
+    "title": "今年春晚不一样，XR技术如何打造移步换景",
+    "description": "不知道大家发现没有，相比前几届春晚，《2021年春节联欢晚会》的视觉效果可谓焕然一新，很多节目都可以看到新科技的东西，比如AR、XR、电影特效技术等将现实舞台上无法完成的效果精彩呈现，融通虚拟空间与现实世界。",
+    "url": "https://segmentfault.com/a/1190000039210711",
+    "author": "xiangzhihong",
+    "home_url": "https://segmentfault.com/u/xiangzhihong",
+    "votes": "3",
+    "rank": 23
+  },
+  {
+    "title": "前端菜鸟初入公司必备的Git知识",
+    "description": "City of stars,are you shining just for me?City of stars,there's so much that I can't see.Who knows,is this the start of something wonderful and new,or one more dream that I cannot make true?",
+    "url": "https://segmentfault.com/a/1190000039212042",
+    "author": "Oscarwillberich",
+    "home_url": "https://segmentfault.com/u/wuyungui",
+    "votes": "1",
+    "rank": 24
+  },
+  {
+    "title": "【译】NodeJS and Good Practices",
+    "description": "引子文章 《The Single Responsibility Principle》 是从《NodeJS and Good Practices》里面看到的，继续翻译记录。翻译原文：NodeJS and Good PracticesOriginMy GitHub正文软件总是处于随时变化中，而有助于衡...",
+    "url": "https://segmentfault.com/a/1190000039216313",
+    "author": "XXHolic",
+    "home_url": "https://segmentfault.com/u/xxholic",
+    "votes": "1",
     "rank": 25
   },
   {
-    "title": "ts映射类型",
-    "description": "在映射类型里，新类型以相同的形式去转换旧类型的每个属性。Partial将每个属性转换为可选属性 {代码...} 例子： {代码...} Readonly将每个属性转换为只读属性 {代码...} 例子： {代码...} Nullable转换为旧类型和...",
-    "url": "https://segmentfault.com/a/1190000039207115",
-    "author": "duck2u",
-    "home_url": "https://segmentfault.com/u/duck2u",
+    "title": "前端模块化",
+    "description": "一、模块化的理解1.什么是模块?将一个复杂的程序依据一定的规则(规范)封装成几个块(文件), 并进行组合在一起块的内部数据与实现是私有的, 只是向外部暴露一些接口(方法)与外部其它模块通信2.模块化的进化过程全局...",
+    "url": "https://segmentfault.com/a/1190000039211448",
+    "author": "ToSmile",
+    "home_url": "https://segmentfault.com/u/tosmile",
     "votes": "2",
     "rank": 26
   },
   {
-    "title": "为什么CTO、技术总监、架构师都不写代码，还那么强？",
-    "description": "其实，这个问题本身就错了。就好比问：导演、制片人为什么不懂演戏，还能指导演员，好像比演员厉害似的？其实不难理解，导演、制片人的核心能力并不是演戏，又怎么能跟演员作比较呢？",
-    "url": "https://segmentfault.com/a/1190000039202906",
-    "author": "宗恩",
-    "home_url": "https://segmentfault.com/u/yzn",
-    "votes": "5",
+    "title": "【Flutter 3-2】Flutter进阶教程——路由Router和导航Navigator以及传值",
+    "description": "在移动开发中，我们管页面之间的跳转叫做路由。在iOS中指的就是ViewController之间的跳转，在Android中就是Activity之间的跳转。路由是在移动端开发中非常重要的概念，它负责管理着各个页面之间的跳转还有传值工...",
+    "url": "https://segmentfault.com/a/1190000039211566",
+    "author": "弗拉德",
+    "home_url": "https://segmentfault.com/u/fulade",
+    "votes": "1",
     "rank": 27
   },
   {
-    "title": "只有lisp能做——欧拉计划第66题",
-    "description": "欧拉计划（Project Euler）就像LeetCode，是一个编程答题的网站。不同于LeetCode的是，欧拉计划只要求用户提交最终答案即可（一般是一个数字），而不需要完整代码。因此，可以尽情地使用自己喜欢的编程语言——不少...",
-    "url": "https://segmentfault.com/a/1190000039206364",
-    "author": "Liutos",
-    "home_url": "https://segmentfault.com/u/liutos",
-    "votes": "5",
+    "title": "MySQL数据库DDL、DML详解",
+    "description": "一、MySQL数据库数据类型<1> MySQL数据库中支持多种数据类型数值型字符型日期型<2> 常用的数据类型整型int：整型，存储整数int(M): M表示预期值，与存储大小和数值的范围无关id int                 ...",
+    "url": "https://segmentfault.com/a/1190000039210672",
+    "author": "若尘",
+    "home_url": "https://segmentfault.com/u/ruochen_601e547530d74",
+    "votes": "1",
     "rank": 28
   }
 ]
