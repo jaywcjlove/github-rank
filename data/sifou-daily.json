@@ -1,272 +1,38 @@
 [
   {
-    "title": "使用 mask 实现视频弹幕人物遮罩过滤",
-    "description": "经常看一些 LOL 比赛直播的小伙伴，肯定都知道，在一些弹幕网站（Bilibili、虎牙）中，当人物与弹幕出现在一起的时候，弹幕会“巧妙”的躲到人物的下面，看着非常的智能。",
-    "url": "https://segmentfault.com/a/1190000039236765",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "17",
+    "title": "从MySQL开始聊聊“树”结构 （上）",
+    "description": "嗨喽，大家好，我是CrazyCodes, 近一年写的文章，都是一些广度方面的思考，新的一年，在技术深度上也需要有更多的探索，感谢各位的持续支持！",
+    "url": "https://segmentfault.com/a/1190000039245060",
+    "author": "CrazyCodes",
+    "home_url": "https://segmentfault.com/u/crazycodes",
+    "votes": "3",
     "rank": 1
   },
   {
-    "title": "11 个对开发有帮助的 JS 技巧，进收藏夹当小词典吧！",
-    "description": "点赞再看，微信搜索【大迁世界】,B站关注【前端小智】这个没有大厂背景，但有着一股向上积极心态人。本文 GitHub [链接] 上已经收录，文章的已分类，也整理了很多我的文档，和教程资料。",
-    "url": "https://segmentfault.com/a/1190000039122988",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "18",
+    "title": "22 个拓展程序员技术与视野的国外网站！奇怪的知识又增加了！",
+    "description": "大家新年好呀，我是你们的 猫哥，我又回来啦 ~相信大家过年都过得开心吧过得开心，那么就开始学习了哈 ~关于猫哥，大家可以看看我的年终总结 前端工程师的 2020 年终总结 - 乾坤未定，你我皆黑马。前言初级前端与...",
+    "url": "https://segmentfault.com/a/1190000039247043",
+    "author": "夜尽天明",
+    "home_url": "https://segmentfault.com/u/biaochenxuying",
+    "votes": "2",
     "rank": 2
   },
   {
-    "title": "5个不常提及的HTML技巧",
-    "description": "Web开发人员都在广泛的使用HTML。无论你使用什么框架或者选择哪个后端语言，框架在变，但是HTML始终如一。尽管被广泛使用，但还是有一些标签或者属性是大部分开发者不熟知的。虽然现在有很多的模版引擎供我们使用...",
-    "url": "https://segmentfault.com/a/1190000039240225",
-    "author": "冷星",
-    "home_url": "https://segmentfault.com/u/lengxing",
-    "votes": "11",
+    "title": "工业绿色环保发展：风力发电场管理监测可视化系统",
+    "description": "在“十四五”“十五五”期间，我国将持续优化风电和太阳能发电发展布局，在继续推进集中式基地建设的同时，全力支持分布式风电、光伏发展，鼓励有条件的地区大力发展海上风电。",
+    "url": "https://segmentfault.com/a/1190000039246280",
+    "author": "hightopo",
+    "home_url": "https://segmentfault.com/u/hightopo",
+    "votes": "1",
     "rank": 3
   },
   {
-    "title": "Git版本管理工具常用命令整理和说明",
-    "description": "暂存区：英文叫stage, 或index。一般存放在 \".git目录下\" 下的index文件（.git/index）中，所以我们把暂存区有时也叫作索引（index)。",
-    "url": "https://segmentfault.com/a/1190000039242714",
-    "author": "你好2007",
-    "home_url": "https://segmentfault.com/u/hai2007",
-    "votes": "2",
+    "title": "前端面试每日 3+1 —— 第677天",
+    "description": "今天的知识点 (2021.02.21) —— 第677天 (我也要出题)[html] 在页面中如何实现触发某一场景时有声音提醒[css] 使用纯css画一个径向渐变的背景[js] 写一个方法探测CPU占比情况[软技能] 如何在浏览器中播放pcm裸流音...",
+    "url": "https://segmentfault.com/a/1190000039245079",
+    "author": "浪子神剑",
+    "home_url": "https://segmentfault.com/u/haizlin",
+    "votes": "1",
     "rank": 4
-  },
-  {
-    "title": "input或textarea中关于光标移动问题",
-    "description": "输入框结点input=document.getElementById('#input')有二个属性： selectionStart、selectionEnd，分别代表选区开始位置，选区结束位置。",
-    "url": "https://segmentfault.com/a/1190000039242698",
-    "author": "你好2007",
-    "home_url": "https://segmentfault.com/u/hai2007",
-    "votes": "2",
-    "rank": 5
-  },
-  {
-    "title": "cookie知识总结",
-    "description": "最近，清除cookie的时候，使用了document.cookie = ''，然后就发现没有作用。于是，带着上述疑问，找个时间研究了下cookie。本文主要是基于我遇到问题，然后解决问题的思路写的，并不是以从0到1讲述cookie的思路...",
-    "url": "https://segmentfault.com/a/1190000039242085",
-    "author": "luckness",
-    "home_url": "https://segmentfault.com/u/luckness",
-    "votes": "3",
-    "rank": 6
-  },
-  {
-    "title": "ElasticSearch 的映射管理",
-    "description": "提交映射 {代码...} 同时提交映射到多个索引 {代码...} 在已存在的对象字段中添加新属性 {代码...} 在已存在的字段中添加多字段 {代码...} 在已存在的字段中修改支持的映射参数 {代码...} 在已存在的字段中修改映...",
-    "url": "https://segmentfault.com/a/1190000039242880",
-    "author": "小伍",
-    "home_url": "https://segmentfault.com/u/xiaowu_5f6c53de1e44c",
-    "votes": "1",
-    "rank": 7
-  },
-  {
-    "title": "javascript判断浏览器访问，刷新，返回",
-    "description": "转载于本人博客园[链接] {代码...}",
-    "url": "https://segmentfault.com/a/1190000039242789",
-    "author": "kensoz",
-    "home_url": "https://segmentfault.com/u/kensoz",
-    "votes": "1",
-    "rank": 8
-  },
-  {
-    "title": "聊聊前端日志库在 SaaS 产品中的应用与设计",
-    "description": "笔者所在的公司业务主要是为企业提供全流程的企业服务和一整套 SaaS 解决方案。对于企业服务 SaaS 产品来说，客户完成购买并不意味着产品价值已经完全交付，因为客户在首次购买产品时，往往需要经过一系列培训并...",
-    "url": "https://segmentfault.com/a/1190000039239079",
-    "author": "网易云信",
-    "home_url": "https://segmentfault.com/u/neteaseyunxin",
-    "votes": "1",
-    "rank": 9
-  },
-  {
-    "title": "Transform + Transitions + Animation",
-    "description": "transform: none | transform-functions;【通过设置该属性的值，我们可以对元素使用转换，具体的属性值在下面会专门介绍。】",
-    "url": "https://segmentfault.com/a/1190000039238447",
-    "author": "你好2007",
-    "home_url": "https://segmentfault.com/u/hai2007",
-    "votes": "2",
-    "rank": 10
-  },
-  {
-    "title": "二进制数据（ArrayBuffer + TypedArray + DataView）",
-    "description": "简单的说，ArrayBuffer就代表了内存中的一段二进制数据，不可以直接读写，只可以通过在上面建立TypedArray视图或DataView视图来操作这段二进制数据，TypedArray视图主要用来操作简单类型的二进制数据，DataView用...",
-    "url": "https://segmentfault.com/a/1190000039238316",
-    "author": "你好2007",
-    "home_url": "https://segmentfault.com/u/hai2007",
-    "votes": "2",
-    "rank": 11
-  },
-  {
-    "title": "奇怪的知识——位掩码",
-    "description": "我们知道，在计算机中数据其实都是以二进制的形式所储存的，而位运算符则可以对二进制数据进行操作。举个简单的例子，给定两个二进制数据（其中 0b 是二进制数据的前缀）：",
-    "url": "https://segmentfault.com/a/1190000039239875",
-    "author": "jrainlau",
-    "home_url": "https://segmentfault.com/u/jrainlau",
-    "votes": "2",
-    "rank": 12
-  },
-  {
-    "title": "JavaScript数组反转教程",
-    "description": "在工作面试和编码测试中，反转具有特定限制的数组是最常见的挑战之一。本教程将向您展示在JavaScript中使用和不使用 reverse 方法来反转数组的五种方法，以及可以使用的代码段。如何使用Reverse方法反转JavaScrip...",
-    "url": "https://segmentfault.com/a/1190000039241929",
-    "author": "杜尼卜",
-    "home_url": "https://segmentfault.com/u/dunizb",
-    "votes": "3",
-    "rank": 13
-  },
-  {
-    "title": "margin 外边距",
-    "description": "margin有许多需要注意的地方，比如块级元素垂直相邻外边距会合并，行内元素实际上不占上下外边距，左右外边距也不会合并，浮动元素的外边距也不会合并。",
-    "url": "https://segmentfault.com/a/1190000039238463",
-    "author": "你好2007",
-    "home_url": "https://segmentfault.com/u/hai2007",
-    "votes": "1",
-    "rank": 14
-  },
-  {
-    "title": "z-index 层叠上下文和层叠水平",
-    "description": "层叠上下文是一个概念上的东西，学过编译原理的人应该对这里的上下文很清楚，而层叠不过就是一个词罢了，解释一下就是，根据层叠规则决定位置的一个环境。还需要注意的一点是，具有层叠上下文的元素比普通元素要...",
-    "url": "https://segmentfault.com/a/1190000039238432",
-    "author": "你好2007",
-    "home_url": "https://segmentfault.com/u/hai2007",
-    "votes": "1",
-    "rank": 15
-  },
-  {
-    "title": "vertical-align:垂直对齐方式相关说明",
-    "description": "为什么明明说的是垂直对齐方式，开始却要说盒子模型，还是行内盒子模型，因为垂直对齐方式控制的对象就是这个模型，因此我们先了解一下控制的环境，再看如何控制。",
-    "url": "https://segmentfault.com/a/1190000039238424",
-    "author": "你好2007",
-    "home_url": "https://segmentfault.com/u/hai2007",
-    "votes": "1",
-    "rank": 16
-  },
-  {
-    "title": "关于CSS中设置overflow属性的值为hidden的相关理解",
-    "description": "根据对CSS2.1规范的理解，可以这样表述：如果一个元素的包含块的overflow属性设置为hidden，那么超过这个包含块部分的内容就会被剪裁。",
-    "url": "https://segmentfault.com/a/1190000039238411",
-    "author": "你好2007",
-    "home_url": "https://segmentfault.com/u/hai2007",
-    "votes": "1",
-    "rank": 17
-  },
-  {
-    "title": "Symbol + Generator函数 + Promise",
-    "description": "简单的说，Symbol就是一个绝对唯一的key值，类似之前obj['key']='value'这种操作的字符串'key'，好处是绝对不会重复，避免覆盖之前的值。",
-    "url": "https://segmentfault.com/a/1190000039238369",
-    "author": "你好2007",
-    "home_url": "https://segmentfault.com/u/hai2007",
-    "votes": "1",
-    "rank": 18
-  },
-  {
-    "title": "理解prototype和__proto__（继承与原型链）",
-    "description": "从关系图中可以看出来，ECMAScript中创建一个对象是通过new构造函数实现的，而本质上来说这个对象其实是以构造函数的属性prototype指向的对象为基本模板的，因此新对象的__proto__属性表明了自己来源于谁。",
-    "url": "https://segmentfault.com/a/1190000039238212",
-    "author": "你好2007",
-    "home_url": "https://segmentfault.com/u/hai2007",
-    "votes": "1",
-    "rank": 19
-  },
-  {
-    "title": "React - hooks + hoc 实现权限校验系统（按钮、页面等权限）",
-    "description": "前置条件react，这里使用 umiJs脚手架使用redux数据流，这里使用 dvaJS数据流创建页面 「TestPage」，作为例子页面创建按钮组件「MyInput」，作为例子按钮部分代码目录 {代码...} 思路如何校验权限？我们将需要校...",
-    "url": "https://segmentfault.com/a/1190000039240661",
-    "author": "liaoxinyu",
-    "home_url": "https://segmentfault.com/u/mengyou_5cca239173973",
-    "votes": "1",
-    "rank": 20
-  },
-  {
-    "title": "vscode常用插件以及html&vue标签自动补全配置",
-    "description": "个人常用的18个vscode插件，具体功能自行百度。html&vue标签自动补全配置ps:找了好久找到这个玩意，蛋疼ing。。。1-先安装HTML Snippets插件2-点击 文件-首选项-设置，然后根据以下操作3-然后在setting.json...",
-    "url": "https://segmentfault.com/a/1190000039240976",
-    "author": "白日梦想家",
-    "home_url": "https://segmentfault.com/u/wangyuxing",
-    "votes": "1",
-    "rank": 21
-  },
-  {
-    "title": "生成二维码插件---qrcode",
-    "description": "用法:1.下包: npm install --save qrcode2.导包: import QRCode from 'qrcode'3.用包: {代码...} 链接:npm-qrcode:[链接]",
-    "url": "https://segmentfault.com/a/1190000039241378",
-    "author": "代码搬运工",
-    "home_url": "https://segmentfault.com/u/wanglicode",
-    "votes": "1",
-    "rank": 22
-  },
-  {
-    "title": "Github Action 快速上手指南",
-    "description": "Github之前更新了一个Action功能（应该是很久以前了），可以实现很多自动化操作。用来替代用户自己设置的自动化脚本（比如：钩子+Jenkins）。",
-    "url": "https://segmentfault.com/a/1190000039241099",
-    "author": "qqxx6661",
-    "home_url": "https://segmentfault.com/u/qqxx6661",
-    "votes": "1",
-    "rank": 23
-  },
-  {
-    "title": "Vue 中computed 和 watch 的区别",
-    "description": "在vue的项目中，我们时常会需要对data的改变做出处理，这时候就需要用到watch和computed这两个属性，既然都是数值改变触发改变的属性，他们之间又有什么异同呢？",
-    "url": "https://segmentfault.com/a/1190000039240834",
-    "author": "小范范",
-    "home_url": "https://segmentfault.com/u/xiaofanfan_5990251fe4211",
-    "votes": "1",
-    "rank": 24
-  },
-  {
-    "title": "腾讯一面问我SQL语句中where条件为什么写上1=1",
-    "description": "在项目编写中，经常会在代码中使用到“where 1=1”，这是为什么呢？目录where后面加\"1=1\"还是不加不用where 1=1 在多条件查询的困惑使用where 1=1 的好处使用where 1=1 的坏处where后面加\"1=1\"还是不加比如现在有一...",
-    "url": "https://segmentfault.com/a/1190000039237866",
-    "author": "迈莫coding",
-    "home_url": "https://segmentfault.com/u/maimocoding",
-    "votes": "2",
-    "rank": 25
-  },
-  {
-    "title": "IBM壮士断臂砍掉前AI明星的沃森业务，全力发展混合云",
-    "description": "来自外媒消息，据知情人士透露 IBM 即将出售 IBM Watson Health（沃森健康） 业务，目的是精简公司，并提升其在云计算领域的竞争力。最大的可能是出售给一家私人股权公司或行业参与者，不过也有可能以 SPAC （特...",
-    "url": "https://segmentfault.com/a/1190000039237783",
-    "author": "宗恩",
-    "home_url": "https://segmentfault.com/u/yzn",
-    "votes": "1",
-    "rank": 26
-  },
-  {
-    "title": "React Context用法总结",
-    "description": "React中，父子组件通信的机制，父子组件的通信是通过props进行数据的传递。Context提供了一种方式，能够让数据跨越组件层级来传递，不再需要一层一层的传递",
-    "url": "https://segmentfault.com/a/1190000039240180",
-    "author": "小范范",
-    "home_url": "https://segmentfault.com/u/xiaofanfan_5990251fe4211",
-    "votes": "1",
-    "rank": 27
-  },
-  {
-    "title": "使用docker部署简单的项目",
-    "description": "目的：记录一下学习docker部署简单项目的思路思路：使用docker pull拉取相应的镜像源创建Dockerfile文件，编写配置文件docker build 运行Dockerfile文件，使用其配置创建新的镜像docker run 创建容器并运行此处借...",
-    "url": "https://segmentfault.com/a/1190000039239790",
-    "author": "懂漾",
-    "home_url": "https://segmentfault.com/u/dongyang_5847ce45b74f1",
-    "votes": "1",
-    "rank": 28
-  },
-  {
-    "title": "动态polyfill和import",
-    "description": "以前都是通过 babel-polyfill 一把梭，不管能不能用到，都全量处理，这样虽然方便，但也会造成资源浪费，所以出来了一个动态 polyfill 概念，根据项目需要指定要 polyfill 的特性，而且会根据浏览器是否支持来决...",
-    "url": "https://segmentfault.com/a/1190000039237060",
-    "author": "zhangqh",
-    "home_url": "https://segmentfault.com/u/zhangqh",
-    "votes": "1",
-    "rank": 29
-  },
-  {
-    "title": "SpringBoot 2.x 系列：快速入门",
-    "description": "Spring Boot使创建独立的、生产级的基于Spring的应用程序变得很容易，您可以“直接运行”这些应用程序。Spring Boot优先于配置的惯例，旨在让您尽快启动和运行。基于Spring Framework基础之上，是新一代的Web应用程...",
-    "url": "https://segmentfault.com/a/1190000039236565",
-    "author": "黑色的灯塔",
-    "home_url": "https://segmentfault.com/u/lilong_59dda59ba59ca",
-    "votes": "2",
-    "rank": 30
   }
 ]
