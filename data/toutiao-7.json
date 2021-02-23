@@ -2,7 +2,7 @@
   {
     "title": "这些不可不知的 JVM 知识，我都用思维导图整理好了",
     "description": "❝JVM是面试中必问的部分，本文通过思维导图以面向面试的角度整理JVM中不可不知的知识。先上图：JVM必备知识1、JVM基本概念 1.1、JVM是什么 JVM 的全称是 「Java...",
-    "votes": "151",
+    "votes": "176",
     "url": "/k/vxuckw2",
     "avatar": "https://img.toutiao.io/subject%2F785b9391ccd74d88bfc5ccd391fb4365",
     "avatarAlt": "三分恶 - 独家号",
@@ -12,7 +12,7 @@
   {
     "title": "年轻人，看看 Redisson 分布式锁——可重入锁吧！太重要了",
     "description": "1.引言作为后端开发，对于所谓的线程安全、高并发等一系列名词肯定都不会陌生，相关的一些概念及技术框架是面试中的宠儿，也是工作中解决一些特定场景下的技术问题的银弹。今天我们就来聊聊这...",
-    "votes": "126",
+    "votes": "132",
     "url": "/k/5xy8o0x",
     "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
     "avatarAlt": "ASCE1885 - 独家号",
@@ -20,19 +20,9 @@
     "homeUrl": "/subjects/4829"
   },
   {
-    "title": "堪称神器的命令行工具系列之 curl",
-    "description": "   curl 非常有用的命令行工具库，用于通过 URL 传输数据。它的名字就是客户端（client）的 URL 工具的意思（command line tool and libra...",
-    "votes": "132",
-    "url": "/k/paa1opr",
-    "avatar": "https://img.toutiao.io/subject%2F423aa3b32219428999cfffd48b4f3ea2",
-    "avatarAlt": "Web前端静轩苑 - 独家号",
-    "subjectName": "Web前端静轩苑",
-    "homeUrl": "/subjects/79906"
-  },
-  {
     "title": "一周上线百万级高并发系统！鹅厂真实爆肝经验分享",
     "description": "本文是鱼皮在腾讯实习期间，从零开始一周紧急上线百万高并发系统的相关经验、思路及感悟，分享给大家。花 5 分钟阅读本文，你将收获：1. 加深对实际工作环境、工作状态的了解2. 学习高...",
-    "votes": "134",
+    "votes": "141",
     "url": "/k/ojer153",
     "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
     "avatarAlt": "Bloomingroses - 独家号",
@@ -40,9 +30,19 @@
     "homeUrl": "/subjects/98777"
   },
   {
+    "title": "著名的 Java 并发编程大师都这么说了，你还不知道伪共享么",
+    "description": "本文首发于公众号【看点代码再上班】，欢迎围观，第一时间获取最新文章。记得关注我，订阅更多好文！全文共计2163字18图，预计阅读时间13分钟大家好，我是tin，这是我的第7篇原创文...",
+    "votes": "62",
+    "url": "/k/3q7ujrr",
+    "avatar": "https://avatars3.githubusercontent.com/u/76833200?v=4",
+    "avatarAlt": "u578509的独家号 - 独家号",
+    "subjectName": "u578509的独家号",
+    "homeUrl": "/subjects/454673"
+  },
+  {
     "title": "Redis 专题：万字长文详解持久化原理",
     "description": "本文将从以下几个方面介绍Redis持久化机制： 写在前面本文从整体上详细介绍Redis的两种持久化方式，包含工作原理、持久化流程及实践策略，以及背后的一些理论知识。上一篇文章仅介绍...",
-    "votes": "60",
+    "votes": "62",
     "url": "/k/9d3bawg",
     "avatar": "https://img.toutiao.io/subject%2F66420d9904954744886dce5e9d45f757",
     "avatarAlt": "码路印记 - 独家号",
@@ -52,7 +52,7 @@
   {
     "title": "Java 中那些让你傻傻分不清楚的小细节",
     "description": "扩展右上角“设为星标”能第一时间看到好文章大家好，我是苏三，又和大家见面了。祝大家新年快乐，身体健康，财源滚滚，万事如意。最近有篇文章在开源中国上火了，让我挺惊喜的。我以前在上面发...",
-    "votes": "54",
+    "votes": "56",
     "url": "/k/mj4pi93",
     "avatar": "https://img.toutiao.io/subject%2F0aae3536b7d44492b1974b1077394f7d",
     "avatarAlt": "苏三说技术 - 独家号",
@@ -62,7 +62,7 @@
   {
     "title": "条分缕析 Raft 算法（续）：日志压缩和性能优化",
     "description": "▲ 点击上方\"多颗糖\"关注公众号在上篇《条分缕析 Raft 算法》中推导和梳理了 Raft 算法，但仍有一些细节没有包含到，这篇文章作为补充。1 日志压缩随着时间推移，存储的日志会...",
-    "votes": "42",
+    "votes": "50",
     "url": "/k/sfxw3o1",
     "avatar": "https://img.toutiao.io/user/4a9a9e41962e4b238bdebfaf160b5034/thumb",
     "avatarAlt": "强力研分布式系统 - 独家号",
@@ -72,7 +72,7 @@
   {
     "title": "​微服务 CI/CD 实践：GitOps 完整设计与实现",
     "description": "感谢这安静的环境，没有它们我是无法完成这篇文章的。单应用与环境多应用与环境CI持续集成  首先准备一个代码库：https://github.com/DevOpsCICDCourse...",
-    "votes": "41",
+    "votes": "47",
     "url": "/k/ch5kfo9",
     "avatar": "https://img.toutiao.io/subject%2F2d3d99522c644729948fa3e529e11b48",
     "avatarAlt": "架构一加一 - 独家号",
@@ -82,7 +82,7 @@
   {
     "title": "几年前，我撸了一套 RabbitMQ 的客户端",
     "description": "不好意思，又好多天没更文章了……眼看着离过年越来越近了，很多工作都要在年前冲刺、收个尾。比如：工作总结、绩效考核、奖金、确定今年 KPI……由于我负责的部门一百多人，虽然有下面的各...",
-    "votes": "43",
+    "votes": "52",
     "url": "/k/7sdt779",
     "avatar": "https://img.toutiao.io/subject%2F180d026f85274c998656474cd1988d0f",
     "avatarAlt": "四猿外 - 独家号",
@@ -90,9 +90,39 @@
     "homeUrl": "/subjects/426740"
   },
   {
+    "title": "比起 “数据中台”，数据湖更应该被重视",
+    "description": "作者介绍火雪挺，腾研识者、腾讯CSIG资深架构师。一件事物若能经得起时间的推敲，经得起历史的选择，回过头去看仍能矗立在长河之中，那我们通常会称它为“经典”。10年前，Pentaho...",
+    "votes": "41",
+    "url": "/k/rq92ntz",
+    "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
+  },
+  {
+    "title": "生产力至少提升 5 倍，大厂火拼的低代码平台究竟还有哪些坑？",
+    "description": "随着数字化转型的不断加速，企业对IT系统的敏捷性要求越来越高，但开发人员的缺口一直补不上，无代码/低代码的开发技术优势逐渐凸显出来。根据 Gartner 数据，到2024年，65%...",
+    "votes": "39",
+    "url": "/k/ipuno05",
+    "avatar": "https://img.toutiao.io/subject%2F4c72971aff5c4e73821ac59b18ff5dd6",
+    "avatarAlt": "程序员的朋友圈 - 独家号",
+    "subjectName": "程序员的朋友圈",
+    "homeUrl": "/subjects/378"
+  },
+  {
+    "title": "gRPC 的 4 种基础通信模式",
+    "description": "题图 |  from freepik 本文将讨论 gRPC 应用程序的 4 种基础通信模式：一元 RPC、服务器端流 RPC、客户端流 RPC 以及双向流 RPC。在这个过程中，我...",
+    "votes": "34",
+    "url": "/k/3sn14va",
+    "avatar": "https://img.toutiao.io/subject%2F3f69ffc3bdf6496e86439348166e3ed7",
+    "avatarAlt": "GoHackers - 独家号",
+    "subjectName": "GoHackers",
+    "homeUrl": "/subjects/1385"
+  },
+  {
     "title": "[译] 《软件架构》缓存技术",
     "description": "本文源自并发编程网的翻译邀请，翻译的是 Jakob Jenkov 的 《软件架构》 中关于缓存技术的内容，虽然是 2014 年的文章，但是从软件架构层面上，并不过时。缓存缓存是一种...",
-    "votes": "33",
+    "votes": "35",
     "url": "/k/djqw1c8",
     "avatar": "https://img.toutiao.io/subject%2F9a97933f431d4553ba4a1d1838f48143",
     "avatarAlt": "Python猫技术花园 - 独家号",
@@ -100,29 +130,29 @@
     "homeUrl": "/subjects/14371"
   },
   {
-    "title": "如何判断一个员工是潜力无限，还是 “烂泥扶不上墙”？",
-    "description": "此篇文章写于2021.1.15，之前写了一半，所以拖到今天才发。拖延症发作了，尴尬。好了，下面进入正文吧。 2020年结束了，想必大家都在做各种总结吧，我们部门也一样，一封封总结邮...",
-    "votes": "37",
-    "url": "/k/cga5vsn",
-    "avatar": "https://img.toutiao.io/subject%2F2d6acb5e10d74d418b835f039664ab16",
-    "avatarAlt": "pointers - 独家号",
-    "subjectName": "pointers",
-    "homeUrl": "/subjects/451915"
+    "title": "Go 语言中时间轮的实现",
+    "description": "转载请声明出处哦~，本篇文章发布于luozhiyun的博客：https://www.luozhiyun.com/archives/444 最近在工作中有一个需求，简单来说就是在短时...",
+    "votes": "32",
+    "url": "/k/rdyr6nl",
+    "avatar": "https://img.toutiao.io/subject%2F714c39310b5a4f3c8bc285becbe1aeeb",
+    "avatarAlt": "小道消息 - 独家号",
+    "subjectName": "小道消息",
+    "homeUrl": "/subjects/146415"
   },
   {
-    "title": "阿里研究员：线下环境为何不稳定？怎么破",
-    "description": " 这篇文章想讲两件事： 为什么线下环境[1]的不稳定是必然的？ 我们怎么办？怎么让它尽量稳定一点？ 此外，还会谈一谈如何理解线下环境和线上环境的区别。如果没有时间读完全文的话，这里...",
-    "votes": "33",
-    "url": "/k/45uco2u",
-    "avatar": "https://img.toutiao.io/default-avatar.png",
-    "avatarAlt": "u561252的独家号 - 独家号",
-    "subjectName": "u561252的独家号",
-    "homeUrl": "/subjects/437428"
+    "title": "面试官问：在读多写少的情况下，如果优化 MySQL 的数据查询方案",
+    "description": " 面试官问：假设你负责的某业务在双十一期间要搞运营活动，公司投入了大量的营销费用进行推广，此举会带来巨大的流量，如果你作为架构师或者技术负责人，要如何设计方案来优化 MySQL，从...",
+    "votes": "36",
+    "url": "/k/kvgofut",
+    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
+    "avatarAlt": "ASCE1885 - 独家号",
+    "subjectName": "ASCE1885",
+    "homeUrl": "/subjects/4829"
   },
   {
     "title": "如何培养你的团队？",
     "description": "不少小伙伴都问过我这样的题：你如何培养你的团队？先弄清楚为什么要培养，才能知道如何去培养。为什么要培养？因为团队成员希望从团队中技能得到提升，薪资得到提高，职位空间成长更大，而自己...",
-    "votes": "31",
+    "votes": "34",
     "url": "/k/vnl0hl2",
     "avatar": "https://img.toutiao.io/subject%2F0e6fd0887f9046ed9bec490e8d807dd1",
     "avatarAlt": "码闻强识 - 独家号",
@@ -132,7 +162,7 @@
   {
     "title": "中国最著名的黑客排行榜",
     "description": "“黑客”算是一个外来词，是“hacker”的中文翻译。原意是指一些热衷于计算机和网络技术的人。这些人为计算机和网络世界而发狂，对任何有趣的问题都会去研究，他们的精神是一般人所不能领...",
-    "votes": "36",
+    "votes": "37",
     "url": "/k/gcdt8gi",
     "avatar": "https://img.toutiao.io/subject%2Fb0ec5378cebe47c48f5add49964caf25",
     "avatarAlt": "360安全团队 - 独家号",
@@ -140,39 +170,19 @@
     "homeUrl": "/subjects/456046"
   },
   {
-    "title": "比起 “数据中台”，数据湖更应该被重视",
-    "description": "作者介绍火雪挺，腾研识者、腾讯CSIG资深架构师。一件事物若能经得起时间的推敲，经得起历史的选择，回过头去看仍能矗立在长河之中，那我们通常会称它为“经典”。10年前，Pentaho...",
-    "votes": "32",
-    "url": "/k/rq92ntz",
-    "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
-    "avatarAlt": "Bloomingroses - 独家号",
-    "subjectName": "Bloomingroses",
-    "homeUrl": "/subjects/98777"
-  },
-  {
-    "title": "Go 语言中时间轮的实现",
-    "description": "转载请声明出处哦~，本篇文章发布于luozhiyun的博客：https://www.luozhiyun.com/archives/444 最近在工作中有一个需求，简单来说就是在短时...",
-    "votes": "27",
-    "url": "/k/rdyr6nl",
-    "avatar": "https://img.toutiao.io/subject%2F714c39310b5a4f3c8bc285becbe1aeeb",
-    "avatarAlt": "小道消息 - 独家号",
-    "subjectName": "小道消息",
-    "homeUrl": "/subjects/146415"
-  },
-  {
-    "title": "敏捷团队实践",
-    "description": "业务实践介绍完了，现在该聊聊团队实践了。团队实践支配着团队成员之间的关系，以及团队成员与他们所创造的产品之间的关系。这些实践有助于小型团队表现得像真正的团队。他们帮助团队建立交流的...",
-    "votes": "24",
-    "url": "/k/6mfogkx",
-    "avatar": "https://img.toutiao.io/subject%2F083e5f6a710d4bf38431e553a7d9ddf9",
-    "avatarAlt": "山猿 - 独家号",
-    "subjectName": "山猿",
-    "homeUrl": "/subjects/435075"
+    "title": "一秒钟打开在线 VS Code 阅读 GitHub 代码！真的只需 +1s",
+    "description": "GitHub Codespaces 的到来，把 VS Code 带入了浏览器。微软宣布 Visual Studio Codespaces 将停用，其功能将被整合到 GitHub C...",
+    "votes": "28",
+    "url": "/k/wz04au9",
+    "avatar": "https://img.toutiao.io/subject%2F7950b62a884849aaaa2c7d9fb03f3051",
+    "avatarAlt": "大前端&机器学习 - 独家号",
+    "subjectName": "大前端&机器学习",
+    "homeUrl": "/subjects/7076"
   },
   {
     "title": "内存耗尽后 Redis 会发生什么？",
     "description": "前言作为一台服务器来说，内存并不是无限的，所以总会存在内存耗尽的情况，那么当Redis服务器的内存耗尽后，如果继续执行请求命令，Redis会如何处理呢？内存回收使用Redis服务时...",
-    "votes": "25",
+    "votes": "29",
     "url": "/k/jaa74k6",
     "avatar": "https://img.toutiao.io/subject%2F9a97933f431d4553ba4a1d1838f48143",
     "avatarAlt": "Python猫技术花园 - 独家号",
@@ -180,23 +190,13 @@
     "homeUrl": "/subjects/14371"
   },
   {
-    "title": "机器学习 15 种常用数学符号",
-    "description": "↑↑↑关注后\"星标\"Datawhale每日干货 & 每月组队学习，不错过 Datawhale干货 作者：小雨姑娘，康涅狄格大学，Datawhale成员这三天复现一个论文实验结果不正...",
-    "votes": "23",
-    "url": "/k/26p3go6",
-    "avatar": "https://img.toutiao.io/subject%2Fc8a60287ae464b8db21221a59774ceb3",
-    "avatarAlt": "AIHackers - 独家号",
-    "subjectName": "AIHackers",
-    "homeUrl": "/subjects/300686"
-  },
-  {
-    "title": "gRPC 的 4 种基础通信模式",
-    "description": "题图 |  from freepik 本文将讨论 gRPC 应用程序的 4 种基础通信模式：一元 RPC、服务器端流 RPC、客户端流 RPC 以及双向流 RPC。在这个过程中，我...",
-    "votes": "22",
-    "url": "/k/3sn14va",
-    "avatar": "https://img.toutiao.io/subject%2F3f69ffc3bdf6496e86439348166e3ed7",
-    "avatarAlt": "GoHackers - 独家号",
-    "subjectName": "GoHackers",
-    "homeUrl": "/subjects/1385"
+    "title": "刨根问底儿，看我如何处理 Too many open files 错误",
+    "description": "！点击上方蓝字\"开发内功修炼\"，关注并设为星标飞哥的硬核文章将第一时间送达~~~如果你的项目中支持高并发，或者是测试过比较多的并发连接。那么相信你一定遇到过“Too many op...",
+    "votes": "32",
+    "url": "/k/fua9yvy",
+    "avatar": "https://img.toutiao.io/subject%2Fdb1c6bd2f712426fb485a625edaa803d",
+    "avatarAlt": "php饭米粒 - 独家号",
+    "subjectName": "php饭米粒",
+    "homeUrl": "/subjects/56197"
   }
 ]

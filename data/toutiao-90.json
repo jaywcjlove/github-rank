@@ -2,7 +2,7 @@
   {
     "title": "Spring 中那些让你爱不释手的代码技巧",
     "description": "前言 最近越来越多的读者认可我的文章，还是件挺让人高兴的事情。有些读者私信我说希望后面多分享spring方面的文章，这样能够在实际工作中派上用场。正好我对spring源码有过一定的...",
-    "votes": "198",
+    "votes": "200",
     "url": "/k/lev94mm",
     "avatar": "https://img.toutiao.io/subject%2F2897d48b5341479ba9a75cd95cffa9d4",
     "avatarAlt": "第五维度 - 独家号",
@@ -42,7 +42,7 @@
   {
     "title": "MySQL 索引知识点总结",
     "description": "作者：fanili，腾讯 WXG 后台开发工程师知其然知其所以然！本文介绍索引的数据结构、查找算法、常见的索引概念和索引失效场景。什么是索引？ 在关系数据库中，索引是一种单独的、物...",
-    "votes": "28",
+    "votes": "29",
     "url": "/k/u9plzvk",
     "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
     "avatarAlt": "进击的程序猿 - 独家号",
@@ -70,16 +70,6 @@
     "homeUrl": "/subjects/58319"
   },
   {
-    "title": "架构师之路：微服务技术选型",
-    "description": "作为一名架构师，需要规划产品技术路线，负责技术选型。而技术栈选型主要参考以下几个标准：安全稳定，不能经常被爆出安全漏洞开源社区活跃度，加入Apache的组件优先考虑一线互联网公司落...",
-    "votes": "21",
-    "url": "/k/bxvxty9",
-    "avatar": "https://img.toutiao.io/subject%2F51ad25ebdf8b4a15895a07d5bce2b1e4",
-    "avatarAlt": "JAVA日知录 - 独家号",
-    "subjectName": "JAVA日知录",
-    "homeUrl": "/subjects/205182"
-  },
-  {
     "title": "DDD 实现之路",
     "description": "编者按：这篇文章最早撰写于2014年，作者也是《实现领域驱动设计》的译者。几年过去了，DDD在坊间依然方兴未艾，然而它的复杂性所引发的误解也层出不穷。对于一些基本概念的澄清甚至溯源...",
     "votes": "188",
@@ -88,6 +78,16 @@
     "avatarAlt": "ThoughtWorks - 独家号",
     "subjectName": "ThoughtWorks",
     "homeUrl": "/subjects/8973"
+  },
+  {
+    "title": "这些不可不知的 JVM 知识，我都用思维导图整理好了",
+    "description": "❝JVM是面试中必问的部分，本文通过思维导图以面向面试的角度整理JVM中不可不知的知识。先上图：JVM必备知识1、JVM基本概念 1.1、JVM是什么 JVM 的全称是 「Java...",
+    "votes": "176",
+    "url": "/k/vxuckw2",
+    "avatar": "https://img.toutiao.io/subject%2F785b9391ccd74d88bfc5ccd391fb4365",
+    "avatarAlt": "三分恶 - 独家号",
+    "subjectName": "三分恶",
+    "homeUrl": "/subjects/454266"
   },
   {
     "title": "MySQL 优化神器",
@@ -142,7 +142,7 @@
   {
     "title": "我对技术架构的理解与架构师角色的思考",
     "description": "我叫道延， 2014 年加入阿里，在阿里通信工作了近两年。2016 年年底加入业务平台团队，当时 Leader 找我的第一件事就是要解决大促的问题，第二件事就是解决安全生产的问题。...",
-    "votes": "154",
+    "votes": "156",
     "url": "/k/crw00du",
     "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
     "avatarAlt": "ASCE1885 - 独家号",
@@ -160,19 +160,9 @@
     "homeUrl": "/subjects/455078"
   },
   {
-    "title": "这些不可不知的 JVM 知识，我都用思维导图整理好了",
-    "description": "❝JVM是面试中必问的部分，本文通过思维导图以面向面试的角度整理JVM中不可不知的知识。先上图：JVM必备知识1、JVM基本概念 1.1、JVM是什么 JVM 的全称是 「Java...",
-    "votes": "151",
-    "url": "/k/vxuckw2",
-    "avatar": "https://img.toutiao.io/subject%2F785b9391ccd74d88bfc5ccd391fb4365",
-    "avatarAlt": "三分恶 - 独家号",
-    "subjectName": "三分恶",
-    "homeUrl": "/subjects/454266"
-  },
-  {
     "title": "肝了 3 版才满意：分布式系统之 CAP 理论，我们对它的理解和误解",
     "description": "引言 CAP 理论，相信很多人都听过，它是指：一个分布式系统最多只能同时满足一致性（Consistency）、可用性（Availability）和分区容错性（Partition t...",
-    "votes": "17",
+    "votes": "18",
     "url": "/k/q2fkii4",
     "avatar": "https://img.toutiao.io/subject%2F180d026f85274c998656474cd1988d0f",
     "avatarAlt": "四猿外 - 独家号",
@@ -182,7 +172,7 @@
   {
     "title": "这些开源项目，让你轻松应对十大工作场景",
     "description": "俗话说得好，工欲善其事必先利其器。本文阿宝哥将介绍一些优秀的开源项目，利用这些开源项目，你将能能轻松应对以下十个工作场景：文件上传、图片处理、文档处理、网络请求、数据存储、微前端、...",
-    "votes": "10",
+    "votes": "11",
     "url": "/k/wpo96pp",
     "avatar": "https://img.toutiao.io/subject%2F9cd866310cd142e1bfd7caf648a0f2cd",
     "avatarAlt": "全栈修仙之路 - 独家号",
@@ -192,7 +182,7 @@
   {
     "title": "深度解析 Raft 分布式一致性协议",
     "description": "笔者期望通过一篇权威靠谱、清晰易懂的系统性文章，帮助读者深入理解 Raft 算法，并能付诸于工程实践中，同时解读不易理解或容易误解的关键点。本文是 Raft 实战系列理论内容的整合...",
-    "votes": "12",
+    "votes": "13",
     "url": "/k/am8mql2",
     "avatar": "https://img.toutiao.io/subject%2F58549cfff083434f8fea6f4e99a28393",
     "avatarAlt": "Q的博客 - 独家号",
@@ -210,6 +200,16 @@
     "homeUrl": "/subjects/453205"
   },
   {
+    "title": "Git 全栈开发使用指南",
+    "description": "一、Git基础在这里插入图片描述1、Git简介 Git是一种分布式版本控制系统，由Linux之父Linus开发。所谓分布式版本管理系统，就是在每一台机器上都有一个完整的仓库。ima...",
+    "votes": "143",
+    "url": "/k/v4gks4h",
+    "avatar": "https://img.toutiao.io/subject%2F785b9391ccd74d88bfc5ccd391fb4365",
+    "avatarAlt": "三分恶 - 独家号",
+    "subjectName": "三分恶",
+    "homeUrl": "/subjects/454266"
+  },
+  {
     "title": "分布式搜索引擎 Elasticsearch 的架构分析",
     "description": "一、写在前面ES（Elasticsearch下文统一称为ES）越来越多的企业在业务场景是使用ES存储自己的非结构化数据，例如电商业务实现商品站内搜索，数据指标分析，日志分析等，ES...",
     "votes": "13",
@@ -220,14 +220,14 @@
     "homeUrl": "/subjects/392760"
   },
   {
-    "title": "Git 全栈开发使用指南",
-    "description": "一、Git基础在这里插入图片描述1、Git简介 Git是一种分布式版本控制系统，由Linux之父Linus开发。所谓分布式版本管理系统，就是在每一台机器上都有一个完整的仓库。ima...",
-    "votes": "139",
-    "url": "/k/v4gks4h",
-    "avatar": "https://img.toutiao.io/subject%2F785b9391ccd74d88bfc5ccd391fb4365",
-    "avatarAlt": "三分恶 - 独家号",
-    "subjectName": "三分恶",
-    "homeUrl": "/subjects/454266"
+    "title": "2021 春节书单：110 位 CEO 心中的 NO.1",
+    "description": " 写在前面：马上就是春节，准备一些假期的书是常规动作（不管实际有没有读）。前两天突然想，为什么不邀请身边的朋友们一起做一个书单，然后分享给大家？于是我找了100多位朋友，请他们帮我...",
+    "votes": "131",
+    "url": "/k/p6kzudl",
+    "avatar": "https://img.toutiao.io/subject%2F4c72971aff5c4e73821ac59b18ff5dd6",
+    "avatarAlt": "程序员的朋友圈 - 独家号",
+    "subjectName": "程序员的朋友圈",
+    "homeUrl": "/subjects/378"
   },
   {
     "title": "把 VSCode 打造成技术写作神器",

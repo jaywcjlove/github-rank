@@ -1,18 +1,18 @@
 [
   {
-    "title": "DDD 实现之路",
-    "description": "编者按：这篇文章最早撰写于2014年，作者也是《实现领域驱动设计》的译者。几年过去了，DDD在坊间依然方兴未艾，然而它的复杂性所引发的误解也层出不穷。对于一些基本概念的澄清甚至溯源...",
-    "votes": "188",
-    "url": "/k/9r5qrcy",
-    "avatar": "https://img.toutiao.io/user/5a7a70a7ff844188be76ef25c0a082d7/thumb",
-    "avatarAlt": "ThoughtWorks - 独家号",
-    "subjectName": "ThoughtWorks",
-    "homeUrl": "/subjects/8973"
+    "title": "这些不可不知的 JVM 知识，我都用思维导图整理好了",
+    "description": "❝JVM是面试中必问的部分，本文通过思维导图以面向面试的角度整理JVM中不可不知的知识。先上图：JVM必备知识1、JVM基本概念 1.1、JVM是什么 JVM 的全称是 「Java...",
+    "votes": "176",
+    "url": "/k/vxuckw2",
+    "avatar": "https://img.toutiao.io/subject%2F785b9391ccd74d88bfc5ccd391fb4365",
+    "avatarAlt": "三分恶 - 独家号",
+    "subjectName": "三分恶",
+    "homeUrl": "/subjects/454266"
   },
   {
     "title": "我对技术架构的理解与架构师角色的思考",
     "description": "我叫道延， 2014 年加入阿里，在阿里通信工作了近两年。2016 年年底加入业务平台团队，当时 Leader 找我的第一件事就是要解决大促的问题，第二件事就是解决安全生产的问题。...",
-    "votes": "154",
+    "votes": "156",
     "url": "/k/crw00du",
     "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
     "avatarAlt": "ASCE1885 - 独家号",
@@ -30,24 +30,44 @@
     "homeUrl": "/subjects/455078"
   },
   {
-    "title": "这些不可不知的 JVM 知识，我都用思维导图整理好了",
-    "description": "❝JVM是面试中必问的部分，本文通过思维导图以面向面试的角度整理JVM中不可不知的知识。先上图：JVM必备知识1、JVM基本概念 1.1、JVM是什么 JVM 的全称是 「Java...",
-    "votes": "151",
-    "url": "/k/vxuckw2",
+    "title": "Git 全栈开发使用指南",
+    "description": "一、Git基础在这里插入图片描述1、Git简介 Git是一种分布式版本控制系统，由Linux之父Linus开发。所谓分布式版本管理系统，就是在每一台机器上都有一个完整的仓库。ima...",
+    "votes": "143",
+    "url": "/k/v4gks4h",
     "avatar": "https://img.toutiao.io/subject%2F785b9391ccd74d88bfc5ccd391fb4365",
     "avatarAlt": "三分恶 - 独家号",
     "subjectName": "三分恶",
     "homeUrl": "/subjects/454266"
   },
   {
-    "title": "Git 全栈开发使用指南",
-    "description": "一、Git基础在这里插入图片描述1、Git简介 Git是一种分布式版本控制系统，由Linux之父Linus开发。所谓分布式版本管理系统，就是在每一台机器上都有一个完整的仓库。ima...",
-    "votes": "139",
-    "url": "/k/v4gks4h",
-    "avatar": "https://img.toutiao.io/subject%2F785b9391ccd74d88bfc5ccd391fb4365",
-    "avatarAlt": "三分恶 - 独家号",
-    "subjectName": "三分恶",
-    "homeUrl": "/subjects/454266"
+    "title": "2021 春节书单：110 位 CEO 心中的 NO.1",
+    "description": " 写在前面：马上就是春节，准备一些假期的书是常规动作（不管实际有没有读）。前两天突然想，为什么不邀请身边的朋友们一起做一个书单，然后分享给大家？于是我找了100多位朋友，请他们帮我...",
+    "votes": "131",
+    "url": "/k/p6kzudl",
+    "avatar": "https://img.toutiao.io/subject%2F4c72971aff5c4e73821ac59b18ff5dd6",
+    "avatarAlt": "程序员的朋友圈 - 独家号",
+    "subjectName": "程序员的朋友圈",
+    "homeUrl": "/subjects/378"
+  },
+  {
+    "title": "年轻人，看看 Redisson 分布式锁——可重入锁吧！太重要了",
+    "description": "1.引言作为后端开发，对于所谓的线程安全、高并发等一系列名词肯定都不会陌生，相关的一些概念及技术框架是面试中的宠儿，也是工作中解决一些特定场景下的技术问题的银弹。今天我们就来聊聊这...",
+    "votes": "132",
+    "url": "/k/5xy8o0x",
+    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
+    "avatarAlt": "ASCE1885 - 独家号",
+    "subjectName": "ASCE1885",
+    "homeUrl": "/subjects/4829"
+  },
+  {
+    "title": "一周上线百万级高并发系统！鹅厂真实爆肝经验分享",
+    "description": "本文是鱼皮在腾讯实习期间，从零开始一周紧急上线百万高并发系统的相关经验、思路及感悟，分享给大家。花 5 分钟阅读本文，你将收获：1. 加深对实际工作环境、工作状态的了解2. 学习高...",
+    "votes": "141",
+    "url": "/k/ojer153",
+    "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
   },
   {
     "title": "基于开源技术打造 DevSecOps 工具链",
@@ -60,14 +80,14 @@
     "homeUrl": "/subjects/6127"
   },
   {
-    "title": "2021 春节书单：110 位 CEO 心中的 NO.1",
-    "description": " 写在前面：马上就是春节，准备一些假期的书是常规动作（不管实际有没有读）。前两天突然想，为什么不邀请身边的朋友们一起做一个书单，然后分享给大家？于是我找了100多位朋友，请他们帮我...",
-    "votes": "124",
-    "url": "/k/p6kzudl",
-    "avatar": "https://img.toutiao.io/subject%2F4c72971aff5c4e73821ac59b18ff5dd6",
-    "avatarAlt": "程序员的朋友圈 - 独家号",
-    "subjectName": "程序员的朋友圈",
-    "homeUrl": "/subjects/378"
+    "title": "堪称神器的命令行工具系列之 curl",
+    "description": "   curl 非常有用的命令行工具库，用于通过 URL 传输数据。它的名字就是客户端（client）的 URL 工具的意思（command line tool and libra...",
+    "votes": "136",
+    "url": "/k/paa1opr",
+    "avatar": "https://img.toutiao.io/subject%2F423aa3b32219428999cfffd48b4f3ea2",
+    "avatarAlt": "Web前端静轩苑 - 独家号",
+    "subjectName": "Web前端静轩苑",
+    "homeUrl": "/subjects/79906"
   },
   {
     "title": "Elasticsearch 聚合性能优化六大猛招",
@@ -78,36 +98,6 @@
     "avatarAlt": "Elasticsearch - 独家号",
     "subjectName": "Elasticsearch",
     "homeUrl": "/subjects/272620"
-  },
-  {
-    "title": "年轻人，看看 Redisson 分布式锁——可重入锁吧！太重要了",
-    "description": "1.引言作为后端开发，对于所谓的线程安全、高并发等一系列名词肯定都不会陌生，相关的一些概念及技术框架是面试中的宠儿，也是工作中解决一些特定场景下的技术问题的银弹。今天我们就来聊聊这...",
-    "votes": "126",
-    "url": "/k/5xy8o0x",
-    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
-    "avatarAlt": "ASCE1885 - 独家号",
-    "subjectName": "ASCE1885",
-    "homeUrl": "/subjects/4829"
-  },
-  {
-    "title": "堪称神器的命令行工具系列之 curl",
-    "description": "   curl 非常有用的命令行工具库，用于通过 URL 传输数据。它的名字就是客户端（client）的 URL 工具的意思（command line tool and libra...",
-    "votes": "132",
-    "url": "/k/paa1opr",
-    "avatar": "https://img.toutiao.io/subject%2F423aa3b32219428999cfffd48b4f3ea2",
-    "avatarAlt": "Web前端静轩苑 - 独家号",
-    "subjectName": "Web前端静轩苑",
-    "homeUrl": "/subjects/79906"
-  },
-  {
-    "title": "一周上线百万级高并发系统！鹅厂真实爆肝经验分享",
-    "description": "本文是鱼皮在腾讯实习期间，从零开始一周紧急上线百万高并发系统的相关经验、思路及感悟，分享给大家。花 5 分钟阅读本文，你将收获：1. 加深对实际工作环境、工作状态的了解2. 学习高...",
-    "votes": "134",
-    "url": "/k/ojer153",
-    "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
-    "avatarAlt": "Bloomingroses - 独家号",
-    "subjectName": "Bloomingroses",
-    "homeUrl": "/subjects/98777"
   },
   {
     "title": "Redis 在 Linux 系统的配置优化",
@@ -132,7 +122,7 @@
   {
     "title": "引入 Gateway 网关，这些坑一定要学会避开",
     "description": " Spring cloud gateway是替代zuul的网关产品，基于Spring 5、Spring boot 2.0以上、Reactor, 提供任意的路由匹配和断言、过滤功能。...",
-    "votes": "112",
+    "votes": "113",
     "url": "/k/60gr6a8",
     "avatar": "https://img.toutiao.io/subject%2F8e12ef64799649acbfd936883ef16c3c",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -142,7 +132,7 @@
   {
     "title": "金字塔思维，所有厉害的人都在用",
     "description": "成长&认知 丨 作者 / 袁吴范这是pointers公众号的第43篇原创文章不知道大家有没有遇到过这样让人头疼的情况：公司几个部门的人围在一起开会，各自从自己的角度出发，想要说服彼...",
-    "votes": "110",
+    "votes": "111",
     "url": "/k/j22t4lx",
     "avatar": "https://img.toutiao.io/subject%2F2d6acb5e10d74d418b835f039664ab16",
     "avatarAlt": "pointers - 独家号",
@@ -162,7 +152,7 @@
   {
     "title": "Docker 镜像瘦身",
     "description": "Docker 是一个用于开发，交付和运行应用程序的开发平台。它能够将应用程序和基础架构分开，保证开发，测试， 部署的环境完全一致，从而达到快速交付的目的。但是在实际项目中，会对项目...",
-    "votes": "106",
+    "votes": "107",
     "url": "/k/t92f0ah",
     "avatar": "https://img.toutiao.io/subject%2F4b0893abf1ca42e1baf7ab28ca49e6e9",
     "avatarAlt": "coder-party - 独家号",
@@ -172,7 +162,7 @@
   {
     "title": "硬不硬你说了算！近 40 张图解被问千百遍的 TCP 三次握手和四次挥手面试题",
     "description": "欢迎关注公众号【Ccww技术博客】，原创技术文章第一时间推出越努力，越幸运，本文已收藏在GitHub中JavaCommunity, 里面有面试分享、源码分析系列文章，欢迎收藏，点赞...",
-    "votes": "99",
+    "votes": "101",
     "url": "/k/3a36mkk",
     "avatar": "https://img.toutiao.io/subject%2F36ba6cca33c74069b0141b60a64963b8",
     "avatarAlt": "Ccww架构之旅 - 独家号",
@@ -182,7 +172,7 @@
   {
     "title": "快速了解云原生架构",
     "description": " 作者 | 潘义文（空易）  起源 1. 云原生（Cloud Native）的由来 云原生的概念最早开始于 2010 年，在当时 Paul Fremantle 的一篇博客中被提及，...",
-    "votes": "96",
+    "votes": "97",
     "url": "/k/zz0ckz0",
     "avatar": "https://img.toutiao.io/subject%2Fde644bbb42b34c618fad49fb47759970",
     "avatarAlt": "4k咖啡豆 - 独家号",
@@ -192,7 +182,7 @@
   {
     "title": "Redis 集群搭建很 easy",
     "description": "前言  哨兵模式虽然让读写分离更加高可用，但单台服务器由于本身的内存和CPU瓶颈，对于高并发和大数据业务的应用场景还是远远不能满足；对于这种情况，有点经验的小伙伴会毫不犹豫的想到集...",
-    "votes": "90",
+    "votes": "92",
     "url": "/k/m4mw3sc",
     "avatar": "https://img.toutiao.io/subject%2Fd00b380edf1f4c5c989adc712d44de7b",
     "avatarAlt": "乱学派 - 独家号",
@@ -202,7 +192,7 @@
   {
     "title": "缓存原理与微服务缓存自动管理",
     "description": "为什么需要缓存？先从一个老生常谈的问题开始谈起：我们的程序是如何运行起来的？程序存储在 disk 中程序是运行在 RAM 之中，也就是我们所说的 main memory程序的计算逻...",
-    "votes": "94",
+    "votes": "96",
     "url": "/k/t2bvzew",
     "avatar": "https://img.toutiao.io/subject%2F795a5b24ad04493b8cbfa7d673b526f2",
     "avatarAlt": "微服务实践 - 独家号",
@@ -230,16 +220,6 @@
     "homeUrl": "/subjects/77815"
   },
   {
-    "title": "跳表：会跳的链表原来这么 diao",
-    "description": "点击上方bigsai 关注我前言跳表是面试常问的一种数据结构，它在很多中间件和语言中得到应用，我们最最熟知的就有Redis跳表(zset)。并且在面试的很多场景可能会问到，偶尔还会...",
-    "votes": "85",
-    "url": "/k/fobkj0c",
-    "avatar": "https://img.toutiao.io/subject%2F662b0e169470458dbd61ffa5a7923bed",
-    "avatarAlt": "bigsai - 独家号",
-    "subjectName": "bigsai",
-    "homeUrl": "/subjects/451932"
-  },
-  {
     "title": "Redis 遇到的那些坑",
     "description": " 前言  Redis 作为当前最流行的 NoSQL 之一，想必很多人都用过。Redis 有五种常见的数据类型：string、list、hash、set、zset。讲真，我以前只用过...",
     "votes": "85",
@@ -248,5 +228,25 @@
     "avatarAlt": "WriteOnRead - 独家号",
     "subjectName": "WriteOnRead",
     "homeUrl": "/subjects/313799"
+  },
+  {
+    "title": "深入了解 SSH",
+    "description": "SSH 是每一台电脑的标准配置，Linux 就不必说了，连 windows[1] 也从 2018 年开始自带 OpenSSH 了。它主要的用途是登陆到远程电脑中执行命令，在云开发的...",
+    "votes": "95",
+    "url": "/k/8y463n2",
+    "avatar": "https://img.toutiao.io/subject%2F4b0893abf1ca42e1baf7ab28ca49e6e9",
+    "avatarAlt": "coder-party - 独家号",
+    "subjectName": "coder-party",
+    "homeUrl": "/subjects/455404"
+  },
+  {
+    "title": "一文带你了解推荐系统之标签体系",
+    "description": "点击标题下「搜索与推荐Wiki」可快速关注▼相关推荐▼1、腾讯2020广告大赛冠军解决方案带来的思考2、结合论文看Youtube推荐系统中召回和排序的演进之路3、深度学习Keras...",
+    "votes": "81",
+    "url": "/k/nyb3xq7",
+    "avatar": "https://img.toutiao.io/subject%2F62130f3f0fbe445c8360361ee4a0f055",
+    "avatarAlt": "搜索与推荐Wiki - 独家号",
+    "subjectName": "搜索与推荐Wiki",
+    "homeUrl": "/subjects/104739"
   }
 ]
