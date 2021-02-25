@@ -2,7 +2,7 @@
   {
     "title": "Spring 中那些让你爱不释手的代码技巧",
     "description": "前言 最近越来越多的读者认可我的文章，还是件挺让人高兴的事情。有些读者私信我说希望后面多分享spring方面的文章，这样能够在实际工作中派上用场。正好我对spring源码有过一定的...",
-    "votes": "200",
+    "votes": "201",
     "url": "/k/lev94mm",
     "avatar": "https://img.toutiao.io/subject%2F2897d48b5341479ba9a75cd95cffa9d4",
     "avatarAlt": "第五维度 - 独家号",
@@ -40,9 +40,19 @@
     "homeUrl": "/subjects/8411"
   },
   {
+    "title": "这些不可不知的 JVM 知识，我都用思维导图整理好了",
+    "description": "❝JVM是面试中必问的部分，本文通过思维导图以面向面试的角度整理JVM中不可不知的知识。先上图：JVM必备知识1、JVM基本概念 1.1、JVM是什么 JVM 的全称是 「Java...",
+    "votes": "193",
+    "url": "/k/vxuckw2",
+    "avatar": "https://img.toutiao.io/subject%2F785b9391ccd74d88bfc5ccd391fb4365",
+    "avatarAlt": "三分恶 - 独家号",
+    "subjectName": "三分恶",
+    "homeUrl": "/subjects/454266"
+  },
+  {
     "title": "MySQL 索引知识点总结",
     "description": "作者：fanili，腾讯 WXG 后台开发工程师知其然知其所以然！本文介绍索引的数据结构、查找算法、常见的索引概念和索引失效场景。什么是索引？ 在关系数据库中，索引是一种单独的、物...",
-    "votes": "29",
+    "votes": "30",
     "url": "/k/u9plzvk",
     "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
     "avatarAlt": "进击的程序猿 - 独家号",
@@ -52,7 +62,7 @@
   {
     "title": "美团 Commit Log 规范",
     "description": "一、背景 Git每次提交代码都需要写commit message，一般来说，commit message应该清晰明了，说明本次提交的目的，具体做了什么操作等。但是在日常开发中，开发...",
-    "votes": "25",
+    "votes": "27",
     "url": "/k/r6tsfdv",
     "avatar": "https://img.toutiao.io/subject%2Fea8976fb047b483dacc34fd01e51d47e",
     "avatarAlt": "Java研发 - 独家号",
@@ -68,16 +78,6 @@
     "avatarAlt": "软件匠艺社区 - 独家号",
     "subjectName": "软件匠艺社区",
     "homeUrl": "/subjects/58319"
-  },
-  {
-    "title": "这些不可不知的 JVM 知识，我都用思维导图整理好了",
-    "description": "❝JVM是面试中必问的部分，本文通过思维导图以面向面试的角度整理JVM中不可不知的知识。先上图：JVM必备知识1、JVM基本概念 1.1、JVM是什么 JVM 的全称是 「Java...",
-    "votes": "185",
-    "url": "/k/vxuckw2",
-    "avatar": "https://img.toutiao.io/subject%2F785b9391ccd74d88bfc5ccd391fb4365",
-    "avatarAlt": "三分恶 - 独家号",
-    "subjectName": "三分恶",
-    "homeUrl": "/subjects/454266"
   },
   {
     "title": "DDD 实现之路",
@@ -142,7 +142,7 @@
   {
     "title": "我对技术架构的理解与架构师角色的思考",
     "description": "我叫道延， 2014 年加入阿里，在阿里通信工作了近两年。2016 年年底加入业务平台团队，当时 Leader 找我的第一件事就是要解决大促的问题，第二件事就是解决安全生产的问题。...",
-    "votes": "156",
+    "votes": "157",
     "url": "/k/crw00du",
     "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
     "avatarAlt": "ASCE1885 - 独家号",
@@ -190,6 +190,16 @@
     "homeUrl": "/subjects/453205"
   },
   {
+    "title": "我用 Kafka 两年踩过的一些非比寻常的坑",
+    "description": " 大家好，我是苏三，又和大家见面了。 前言我的上家公司是做餐饮系统的，每天中午和晚上用餐高峰期，系统的并发量不容小觑。为了保险起见，公司规定各部门都要在吃饭的时间轮流值班，防止出现...",
+    "votes": "146",
+    "url": "/k/95yxept",
+    "avatar": "https://img.toutiao.io/subject%2F0aae3536b7d44492b1974b1077394f7d",
+    "avatarAlt": "苏三说技术 - 独家号",
+    "subjectName": "苏三说技术",
+    "homeUrl": "/subjects/453205"
+  },
+  {
     "title": "Git 全栈开发使用指南",
     "description": "一、Git基础在这里插入图片描述1、Git简介 Git是一种分布式版本控制系统，由Linux之父Linus开发。所谓分布式版本管理系统，就是在每一台机器上都有一个完整的仓库。ima...",
     "votes": "144",
@@ -200,6 +210,36 @@
     "homeUrl": "/subjects/454266"
   },
   {
+    "title": "一周上线百万级高并发系统！鹅厂真实爆肝经验分享",
+    "description": "本文是鱼皮在腾讯实习期间，从零开始一周紧急上线百万高并发系统的相关经验、思路及感悟，分享给大家。花 5 分钟阅读本文，你将收获：1. 加深对实际工作环境、工作状态的了解2. 学习高...",
+    "votes": "149",
+    "url": "/k/ojer153",
+    "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
+  },
+  {
+    "title": "2021 春节书单：110 位 CEO 心中的 NO.1",
+    "description": " 写在前面：马上就是春节，准备一些假期的书是常规动作（不管实际有没有读）。前两天突然想，为什么不邀请身边的朋友们一起做一个书单，然后分享给大家？于是我找了100多位朋友，请他们帮我...",
+    "votes": "136",
+    "url": "/k/p6kzudl",
+    "avatar": "https://img.toutiao.io/subject%2F4c72971aff5c4e73821ac59b18ff5dd6",
+    "avatarAlt": "程序员的朋友圈 - 独家号",
+    "subjectName": "程序员的朋友圈",
+    "homeUrl": "/subjects/378"
+  },
+  {
+    "title": "年轻人，看看 Redisson 分布式锁——可重入锁吧！太重要了",
+    "description": "1.引言作为后端开发，对于所谓的线程安全、高并发等一系列名词肯定都不会陌生，相关的一些概念及技术框架是面试中的宠儿，也是工作中解决一些特定场景下的技术问题的银弹。今天我们就来聊聊这...",
+    "votes": "137",
+    "url": "/k/5xy8o0x",
+    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
+    "avatarAlt": "ASCE1885 - 独家号",
+    "subjectName": "ASCE1885",
+    "homeUrl": "/subjects/4829"
+  },
+  {
     "title": "分布式搜索引擎 Elasticsearch 的架构分析",
     "description": "一、写在前面ES（Elasticsearch下文统一称为ES）越来越多的企业在业务场景是使用ES存储自己的非结构化数据，例如电商业务实现商品站内搜索，数据指标分析，日志分析等，ES...",
     "votes": "13",
@@ -208,45 +248,5 @@
     "avatarAlt": "vivo互联网技术 - 独家号",
     "subjectName": "vivo互联网技术",
     "homeUrl": "/subjects/392760"
-  },
-  {
-    "title": "2021 春节书单：110 位 CEO 心中的 NO.1",
-    "description": " 写在前面：马上就是春节，准备一些假期的书是常规动作（不管实际有没有读）。前两天突然想，为什么不邀请身边的朋友们一起做一个书单，然后分享给大家？于是我找了100多位朋友，请他们帮我...",
-    "votes": "133",
-    "url": "/k/p6kzudl",
-    "avatar": "https://img.toutiao.io/subject%2F4c72971aff5c4e73821ac59b18ff5dd6",
-    "avatarAlt": "程序员的朋友圈 - 独家号",
-    "subjectName": "程序员的朋友圈",
-    "homeUrl": "/subjects/378"
-  },
-  {
-    "title": "把 VSCode 打造成技术写作神器",
-    "description": "作为技术开发，大家平时肯定需要记录技术笔记。甚至有的同学还开通可自己的技术博客或者技术公众号进行创作。这个时候有套趁手的写作工具尤为重要，节省下时间好好休息一下，对于咱们程序员来说...",
-    "votes": "146",
-    "url": "/k/4n0p7ex",
-    "avatar": "https://img.toutiao.io/subject%2Fad3da7db4aeb4924adba40f7036c43ee",
-    "avatarAlt": "码匠赵铁柱 - 独家号",
-    "subjectName": "码匠赵铁柱",
-    "homeUrl": "/subjects/102436"
-  },
-  {
-    "title": "年轻人，看看 Redisson 分布式锁——可重入锁吧！太重要了",
-    "description": "1.引言作为后端开发，对于所谓的线程安全、高并发等一系列名词肯定都不会陌生，相关的一些概念及技术框架是面试中的宠儿，也是工作中解决一些特定场景下的技术问题的银弹。今天我们就来聊聊这...",
-    "votes": "135",
-    "url": "/k/5xy8o0x",
-    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
-    "avatarAlt": "ASCE1885 - 独家号",
-    "subjectName": "ASCE1885",
-    "homeUrl": "/subjects/4829"
-  },
-  {
-    "title": "Java 线程池总结",
-    "description": "背景 Java线程池的写法和参数是面试中出现频率很高的基础题。越是基础的东西，特别是对高阶职位的面试者，需要回答的符合自己面试的职位等级。这里也不能说是一个多么好的答案，只是说如果...",
-    "votes": "37",
-    "url": "/k/4z3o5gw",
-    "avatar": "https://img.toutiao.io/subject%2F4325865040b44c0b9e2d8d80a83d1d11",
-    "avatarAlt": "编程一生 - 独家号",
-    "subjectName": "编程一生",
-    "homeUrl": "/subjects/350352"
   }
 ]
