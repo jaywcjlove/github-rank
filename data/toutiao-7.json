@@ -2,7 +2,7 @@
   {
     "title": "国内有哪些顶级技术团队的博客值得推荐？",
     "description": " 这个周末基本 90%的时间都在弄星球的《Java 面试进阶指北》这个小册。 晚上纠结了半天，不知道写点啥。突然想到很多小伙伴都非常好奇我都订阅了哪些技术团队的博客。于是，我便写下...",
-    "votes": "130",
+    "votes": "150",
     "url": "/k/j7v5pee",
     "avatar": "https://img.toutiao.io/subject%2Ff834a19bb9e24261a813b7a1ebc03a11",
     "avatarAlt": "JavaGuide - 独家号",
@@ -12,7 +12,7 @@
   {
     "title": "硬核！漫画图解 HTTP 基础 + 面试题",
     "description": "文章持续更新，可以微信搜一搜「golang小白成长记」第一时间阅读，回复【教程】获golang免费视频教程。本文已经收录在GitHub https://github.com/xia...",
-    "votes": "131",
+    "votes": "138",
     "url": "/k/rmckht1",
     "avatar": "https://img.toutiao.io/subject%2Fd13a4f2d944240bb911d4444b492ca02",
     "avatarAlt": "golang小白成长记 - 独家号",
@@ -22,7 +22,7 @@
   {
     "title": "2021 阿里淘系工程师推荐书单",
     "description": "读书有点像机器学习从初始参数开始的局部最小化。无论是数学、科学、技术、管理，还是历史、文学，读书的过程，就是根据一维的文字流，在立体的思维空间中重新建构。这种建构的意义，将我们自身...",
-    "votes": "95",
+    "votes": "102",
     "url": "/k/txzl2gg",
     "avatar": "https://img.toutiao.io/subject%2F4c72971aff5c4e73821ac59b18ff5dd6",
     "avatarAlt": "程序员的朋友圈 - 独家号",
@@ -30,19 +30,9 @@
     "homeUrl": "/subjects/378"
   },
   {
-    "title": "流量复制方案对比：TCPCopy vs Goreplay",
-    "description": "「流量复制」常常应用在准生产环境的测试中，将线上的流量复制到一个准生产环境服务中，测试新功能和服务的承压能力。流量复制可以完全模拟线上的流量，对复杂的业务场景进行真实的服务测试，又...",
-    "votes": "90",
-    "url": "/k/cpf8p4q",
-    "avatar": "https://img.toutiao.io/subject%2F7958264f05514e8e8fadebb53ac4d096",
-    "avatarAlt": "码农吴先生 - 独家号",
-    "subjectName": "码农吴先生",
-    "homeUrl": "/subjects/59893"
-  },
-  {
     "title": "副业刚需：在 GitHub 上也能年入百万？",
     "description": " 编者荐语： 大家好，我是你们的朋友 耳东双月。 转自：机器之心  （张倩、蛋酱）原文链接：https://calebporzio.com/i-just-hit-dollar-10...",
-    "votes": "94",
+    "votes": "97",
     "url": "/k/r9tqaw3",
     "avatar": "https://img.toutiao.io/subject%2Fa2c7feaedfa64ce08a685e8535b7a316",
     "avatarAlt": "大话.NET平台 - 独家号",
@@ -50,29 +40,9 @@
     "homeUrl": "/subjects/116492"
   },
   {
-    "title": "帮助阅读源码的 8 个技巧",
-    "description": "大家好，我是Z哥。之前写了一篇关于阅读源码到底有多少价值的文章《阅读源码的真正价值》，反响还不错。在文中我向你阐明了阅读源码5个价值。面试在工作中更快地上手新项目给自己创造用新技术...",
-    "votes": "102",
-    "url": "/k/9v93x32",
-    "avatar": "https://img.toutiao.io/subject%2Fc992e775e6344583abd8a49f632b3e13",
-    "avatarAlt": "跨界架构师 - 独家号",
-    "subjectName": "跨界架构师",
-    "homeUrl": "/subjects/268968"
-  },
-  {
-    "title": "Tomcat 性能调优应该注意什么？",
-    "description": "1，并发参数配置 在 Tomcat 的配置中，主要的性能调优配置集中在 server.xml 文件中进行调优配置。而在这个文件中通过这个标签 <Connector></Connec...",
-    "votes": "78",
-    "url": "/k/kldrkzc",
-    "avatar": "https://img.toutiao.io/subject%2F71af5013503a4cc68fba9d2419abcf31",
-    "avatarAlt": "老王说编程 - 独家号",
-    "subjectName": "老王说编程",
-    "homeUrl": "/subjects/266787"
-  },
-  {
     "title": "Golang 性能诊断看这篇就够了",
     "description": "点击上方蓝字关注我们  我们日常接触性能诊断问题，一般分为两种情况，一是线上应用真的出现性能问题；二是我们需要对准备上线的系统进行性能预估；后者需要压力测试辅助进行，此处不表。针对...",
-    "votes": "66",
+    "votes": "85",
     "url": "/k/3loin1u",
     "avatar": "https://img.toutiao.io/subject%2F2af74070672947a89801325c8545f2ac",
     "avatarAlt": "光华路程序猿 - 独家号",
@@ -80,9 +50,19 @@
     "homeUrl": "/subjects/456748"
   },
   {
+    "title": "Tomcat 性能调优应该注意什么？",
+    "description": "1，并发参数配置 在 Tomcat 的配置中，主要的性能调优配置集中在 server.xml 文件中进行调优配置。而在这个文件中通过这个标签 <Connector></Connec...",
+    "votes": "81",
+    "url": "/k/kldrkzc",
+    "avatar": "https://img.toutiao.io/subject%2F71af5013503a4cc68fba9d2419abcf31",
+    "avatarAlt": "老王说编程 - 独家号",
+    "subjectName": "老王说编程",
+    "homeUrl": "/subjects/266787"
+  },
+  {
     "title": "高并发系统的限流策略：漏桶和令牌桶（附源码剖析）",
     "description": "前言 哈喽，大家好，我是正在学习PS技术的asong，这是我并发编程系列的第5篇文章，今天与大家聊一聊高并发系统中的限流技术，限流又称为流量控制，是指限制到达系统的并发请求数，当达...",
-    "votes": "62",
+    "votes": "66",
     "url": "/k/x6ro69m",
     "avatar": "https://img.toutiao.io/subject%2F967329410fda4a55b2bf84673d48ebfe",
     "avatarAlt": "asong2020 - 独家号",
@@ -92,7 +72,7 @@
   {
     "title": "Redis 专题：深入解读哨兵模式",
     "description": "Sentinel是Redis在主从复制基础上构建的一套高可用解决方案，本文将从下图几个方面来介绍Redis的Sentinel模式。 写在前面上一篇文章《Redis专题：一文搞懂主从...",
-    "votes": "65",
+    "votes": "68",
     "url": "/k/tm4wyb0",
     "avatar": "https://img.toutiao.io/subject%2F66420d9904954744886dce5e9d45f757",
     "avatarAlt": "码路印记 - 独家号",
@@ -100,19 +80,9 @@
     "homeUrl": "/subjects/187787"
   },
   {
-    "title": "面试 Redis 没底？这 40 道面试题让你不再慌（附答案）",
-    "description": "‍  ‍‍‍‍‍‍我是架构精进之路，点击上方“关注”，坚持每天为你分享技术干货，私信我回复“01”，送你一份程序员成长进阶大礼包。  金三银四面试季，为了做好大家面试路上的助攻手，...",
-    "votes": "56",
-    "url": "/k/0b1v2v6",
-    "avatar": "https://img.toutiao.io/subject%2F071476c43e0d42cf95f3e77f046c814b",
-    "avatarAlt": "架构精进之路 - 独家号",
-    "subjectName": "架构精进之路",
-    "homeUrl": "/subjects/452638"
-  },
-  {
     "title": "中高级前端须注意的 40 条移动端 H5 坑位指南（网易三年实践）",
     "description": "前言 不知不觉在网易已有三年半，占了一半时间都在与移动端打交道，整个阶段都是遇坑填坑的学习过程。移动端开发在前端里像神一样地存在，不是说它多难而是说它坑位实在太多了，怎样填都填不完...",
-    "votes": "61",
+    "votes": "66",
     "url": "/k/ix2e9ja",
     "avatar": "https://img.toutiao.io/subject%2Fc9bc51847b0c4b49aca52d0eaa087ed1",
     "avatarAlt": "冷星前端圈 - 独家号",
@@ -122,7 +92,7 @@
   {
     "title": "做一个很出色的程序员",
     "description": "架构师大刘的故事，断更有一段日子了，别着急，今天我们续上：今年春节大刘响应国家号召，过年没有回老家。春节假期里，大刘约了许久不见的、同样也没回老家的小马吃了顿饭。小马是大刘以前的同...",
-    "votes": "63",
+    "votes": "69",
     "url": "/k/g6xlwp2",
     "avatar": "https://img.toutiao.io/subject%2F180d026f85274c998656474cd1988d0f",
     "avatarAlt": "四猿外 - 独家号",
@@ -130,19 +100,19 @@
     "homeUrl": "/subjects/426740"
   },
   {
-    "title": "Spring Boot 异步调用",
-    "description": "@2.1、无返回值的异步方法2.1、有返回值的异步方法3.1、方法级别重写Executor3.2、应用级别重写Executor3.3、自定义线程池配置“异步调用”对应的是“同步调用...",
-    "votes": "55",
-    "url": "/k/xxk05uj",
-    "avatar": "https://img.toutiao.io/subject%2F785b9391ccd74d88bfc5ccd391fb4365",
-    "avatarAlt": "三分恶 - 独家号",
-    "subjectName": "三分恶",
-    "homeUrl": "/subjects/454266"
+    "title": "万字长文聊缓存（下）：应用级缓存",
+    "description": "摘要 在上一篇文章 万字长文聊缓存（上）中，我们主要如何围绕着Http做缓存优化，在后端服务器的应用层同样有很多地方可以做缓存，提高服务的效率；本篇我们就来继续聊聊应用级的缓存。缓...",
+    "votes": "56",
+    "url": "/k/c1uc4c2",
+    "avatar": "https://img.toutiao.io/subject%2Fcf73e0d43ba244d0b40c1bcfa2fc87b4",
+    "avatarAlt": "贝塔学Java - 独家号",
+    "subjectName": "贝塔学Java",
+    "homeUrl": "/subjects/456107"
   },
   {
     "title": "雪花算法、原理及 Java 版实现",
     "description": " SnowFlake 算法是 Twitter 开源的分布式 id 生成算法。其核心思想就是：使用一个 64 bit 的 long 型的数字作为全局唯一 id。在分布式系统中的应用十...",
-    "votes": "53",
+    "votes": "56",
     "url": "/k/ozeh0rs",
     "avatar": "https://img.toutiao.io/subject%2F071476c43e0d42cf95f3e77f046c814b",
     "avatarAlt": "架构精进之路 - 独家号",
@@ -152,7 +122,7 @@
   {
     "title": "内存管理设计精要",
     "description": "持久存储的磁盘在今天已经不是稀缺的资源了，但是 CPU 和内存仍然是相对比较昂贵的资源，作者在 调度系统设计精要 中曾经介绍操作系统和编程语言对 CPU 资源的调度策略和原理，本文...",
-    "votes": "45",
+    "votes": "48",
     "url": "/k/4f2u3c5",
     "avatar": "https://img.toutiao.io/subject%2Fb74e6991f2de41dbb21d7eef58177d64",
     "avatarAlt": "面向信仰编程 - 独家号",
@@ -162,7 +132,7 @@
   {
     "title": "领域驱动设计 (DDD) 在爱奇艺打赏业务的实践",
     "description": "领域驱动设计(Domain-Driven Design，以下简称DDD)思潮的形成要追述到30几年前，17年前，Eirc Evans定义了领域驱动设计的概念。DDD一直为传统行业的...",
-    "votes": "44",
+    "votes": "50",
     "url": "/k/goesj1r",
     "avatar": "https://img.toutiao.io/subject%2F2d3d99522c644729948fa3e529e11b48",
     "avatarAlt": "架构一加一 - 独家号",
@@ -170,9 +140,29 @@
     "homeUrl": "/subjects/314175"
   },
   {
+    "title": "快手超大规模集群调度优化实践",
+    "description": "分享嘉宾：房孝敬 快手 大数据架构师编辑整理：齐来军出品平台：DataFunTalk导读：随着公司业务的快速发展，离线计算集群规模和提交的作业量持续增长，如何支撑超大规模集群，如何...",
+    "votes": "48",
+    "url": "/k/671eano",
+    "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
+    "avatarAlt": "进击的程序猿 - 独家号",
+    "subjectName": "进击的程序猿",
+    "homeUrl": "/subjects/24912"
+  },
+  {
+    "title": "MySQL 索引从基础到原理，看这一篇就够了",
+    "description": "❝ 索引是SQL优化中最重要的手段之一，本文从基础到原理，带你深度掌握索引。❞ 索引思维导图一、索引基础 1、什么是索引 MySQL官方对索引的定义为：索引（Index）是帮助My...",
+    "votes": "45",
+    "url": "/k/hueiax0",
+    "avatar": "https://img.toutiao.io/subject%2F785b9391ccd74d88bfc5ccd391fb4365",
+    "avatarAlt": "三分恶 - 独家号",
+    "subjectName": "三分恶",
+    "homeUrl": "/subjects/454266"
+  },
+  {
     "title": "最值得阅读的数据仓库书籍推荐",
     "description": "从事数仓工作几年了，在工作学习过程也看了很多数据仓库方面的，此处整理了对自己帮助较大的部分，给大家推荐一下，希望能帮助到大家。SQL必知必会 《SQL必知必会 第4版(图灵出品）》...",
-    "votes": "43",
+    "votes": "45",
     "url": "/k/l28dnm9",
     "avatar": "https://img.toutiao.io/subject%2Ff0d9d86551ef49c0b64e71d0d33ae465",
     "avatarAlt": "白程序员的自习室 - 独家号",
@@ -180,23 +170,33 @@
     "homeUrl": "/subjects/281562"
   },
   {
-    "title": "Flink 在又拍云日志批处理中的实践",
-    "description": "大家好，我是来自又拍云的张召，今天主要分享又拍云多数据源日志处理选型 Flink 的考量，以及 Flink 落地过程中遇到的问题和解决方案。为什么用 Flink 做批处理在选用 F...",
-    "votes": "37",
-    "url": "/k/upxcdey",
-    "avatar": "https://img.toutiao.io/subject%2F4f9b8a1b9ad34bf3b815671f8461ff25",
-    "avatarAlt": "又拍云 - 独家号",
-    "subjectName": "又拍云",
-    "homeUrl": "/subjects/182218"
+    "title": "[译] 构建微服务的十大 Go 框架/库",
+    "description": "点击上方蓝色“Go语言中文网”关注，每天一起学 Go现在，很多开源库都支持构建应用程序。我应该向你推荐一些库，它们可以帮助启动具有简单设计、干净代码和良好性能的项目。01 CLI ...",
+    "votes": "44",
+    "url": "/k/44rsmt3",
+    "avatar": "https://img.toutiao.io/subject%2F3f69ffc3bdf6496e86439348166e3ed7",
+    "avatarAlt": "GoHackers - 独家号",
+    "subjectName": "GoHackers",
+    "homeUrl": "/subjects/1385"
   },
   {
-    "title": "MySQL 索引从基础到原理，看这一篇就够了",
-    "description": "❝ 索引是SQL优化中最重要的手段之一，本文从基础到原理，带你深度掌握索引。❞ 索引思维导图一、索引基础 1、什么是索引 MySQL官方对索引的定义为：索引（Index）是帮助My...",
-    "votes": "37",
-    "url": "/k/hueiax0",
-    "avatar": "https://img.toutiao.io/subject%2F785b9391ccd74d88bfc5ccd391fb4365",
-    "avatarAlt": "三分恶 - 独家号",
-    "subjectName": "三分恶",
-    "homeUrl": "/subjects/454266"
+    "title": "数据治理：90% 的人搞不清的事情",
+    "description": "某君请领导吃饭，领导婉拒。他本想回“好的”。却回成了“妈的”。结果，他失业时才五十多岁！某女给男同事发微信：“你是同事中最出色的，跟你在一起，真的很开心！”因为不细心，少打了个“出...",
+    "votes": "41",
+    "url": "/k/mvyb9c2",
+    "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
+  },
+  {
+    "title": "2021 年 10 款优质 Chrome 浏览器插件推荐",
+    "description": "Chrome插件像一个个小帮手，帮我们提升效率，完成一些有价值的事情。其实有很多这样的优质实用插件，很多人并不知道它们的存在，下面就特意为大家整理10款非常有用的插件。1、哔哩哔哩...",
+    "votes": "38",
+    "url": "/k/9h1strj",
+    "avatar": "https://img.toutiao.io/subject%2F3fb00b07ad814fce8baab2f445b3a2c8",
+    "avatarAlt": "web前端开发知识 - 独家号",
+    "subjectName": "web前端开发知识",
+    "homeUrl": "/subjects/7315"
   }
 ]
