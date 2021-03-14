@@ -1,209 +1,47 @@
 [
   {
-    "title": "首位中国人！吴晟当选 Apache 软件基金会新一任董事",
-    "description": "技术编辑：鸣飞丨发自 思否编辑部思否报道丨公众号：SegmentFault开源社联合创始人、理事，ASF Member 刘天栋对本文亦有贡献",
-    "url": "https://segmentfault.com/a/1190000039399094",
-    "author": "鸣飞",
-    "home_url": "https://segmentfault.com/u/mf",
-    "votes": "4",
+    "title": "130 个相见恨晚的超实用网站，一次性分享出来",
+    "description": "我的公众号：MarkerHub，网站：[链接]小Hub领读：收藏就对了，我最爱哔哩哔哩，哈哈哈~作者：藏冰[链接]搞学习知乎：www.zhihu.com大学资源网：[链接]简答题：[链接]网易公开课：[链接]网易云课堂：[链接]中国大...",
+    "url": "https://segmentfault.com/a/1190000039406137",
+    "author": "MarkerHub",
+    "home_url": "https://segmentfault.com/u/markerhub",
+    "votes": "5",
     "rank": 1
   },
   {
-    "title": "小技巧！CSS 整块文本溢出省略特性探究",
-    "description": "今天的文章很有意思，讲一讲整块文本溢出省略打点的一些有意思的细节。文本超长打点我们都知道，到今天（2021/03/06），CSS 提供了两种方式便于我们进行文本超长的打点省略。对于单行文本，使用单行省略： {代码....",
-    "url": "https://segmentfault.com/a/1190000039399159",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "12",
+    "title": "一道面试题让你更加了解事件队列",
+    "description": "该题定义了一个同步函数对传入的数组进行遍历乘二操作，同时每执行一次就会给 executeCount 累加。最终我们需要实现一个 batcher 函数，使用其对该同步函数包装后，实现每次调用依旧返回预期的二倍结果，同时还需...",
+    "url": "https://segmentfault.com/a/1190000039406198",
+    "author": "公子",
+    "home_url": "https://segmentfault.com/u/lizheming",
+    "votes": "1",
     "rank": 2
   },
   {
-    "title": "San CLI 的实现原理",
-    "description": "导读：上期我们讨论了 San CLI 的使用，这期我们再深入一点，来看看 San CLI 的实现原理。一、核心模块和核心概念为了方便理解下文的 San CLI 的整体工作流程（主流程），我们先来看下 San CLI 的核心模块和核心...",
-    "url": "https://segmentfault.com/a/1190000039403965",
-    "author": "百度架构师",
-    "home_url": "https://segmentfault.com/u/baidujiagoushi",
-    "votes": "3",
+    "title": "每天学一个 Linux 命令（62）：ping",
+    "description": "ping 是一种向网络上的另一台计算机发送网络数据并从其接收网络数据的简单方法。它通常用于测试与另一个系统是否可以通过网络访问，如果可以，则需要花费多少时间来交换该数据。",
+    "url": "https://segmentfault.com/a/1190000039407622",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "1",
     "rank": 3
   },
   {
-    "title": "每天学一个 Linux 命令（60）：scp",
-    "description": "scp命令常用于在Linux系统下两个不同主机之间传输文件，其功能与cp命令相似，但是不同是，cp命令只能用于在本机环境下传输或复制拷贝文件，scp命令可以跨越不同主机，而scp传输文件是加密的。",
-    "url": "https://segmentfault.com/a/1190000039401308",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "3",
+    "title": "封装一个performance监控类",
+    "description": "前端性能监控，设置监控超时的任务，回传到服务器完整代码如下 {代码...} 为了监测工具不占用主线程的 JavaScript 解析时间。因此，最好在页面触发 onload 事件后，采用异步加载的方式： {代码...}",
+    "url": "https://segmentfault.com/a/1190000039409139",
+    "author": "万年打野易大师",
+    "home_url": "https://segmentfault.com/u/faker_5acebe0256c30",
+    "votes": "1",
     "rank": 4
   },
   {
-    "title": "Cocos Creator 实现点击透明区穿透的解决方案",
-    "description": "最近有初学CocosCreator的小伙伴问到一个点击穿透的问题，正好整理些方案一起来看下。通常在制作课件的过程中，会遇到点击或拖拽多边图形的需求，很多时候就会不可避免的遇到一个问题：两个图形的叠加在...",
-    "url": "https://segmentfault.com/a/1190000039402029",
-    "author": "LeapFE",
-    "home_url": "https://segmentfault.com/u/leapfe",
-    "votes": "3",
+    "title": "这 5 种常用运维监控工具都不会？你算啥运维人",
+    "description": "运维监控工具千千万，仅开源的解决方案就有流量监控（MRTG、Cacti、SmokePing、Graphite 等）和性能告警（Nagios、Zabbix、Zenoss Core、Ganglia、OpenTSDB等）可供选择。面试装逼系列｜这篇文章，让运维监控不再...",
+    "url": "https://segmentfault.com/a/1190000039408540",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "1",
     "rank": 5
-  },
-  {
-    "title": "金三银四了，掌握 JS 这 36 个概念，助你一臂之力",
-    "description": "点赞再看，微信搜索【大迁世界】,B站关注【前端小智】这个没有大厂背景，但有着一股向上积极心态人。本文 GitHub [链接] 上已经收录，文章的已分类，也整理了很多我的文档，和教程资料。",
-    "url": "https://segmentfault.com/a/1190000039397842",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "12",
-    "rank": 6
-  },
-  {
-    "title": "二、SpringBoot 整合 Dubbo 进阶，Provider 不使用 web 容器启动",
-    "description": "demo github 地址0、docker 启动 zkdocker-compose.yml {代码...} {代码...} 1、创建父 pom {代码...} 2、创建 API maven 工程 {代码...} 3、创建 Provider maven 工程pom.xml {代码...} dubbo-provider.properti...",
-    "url": "https://segmentfault.com/a/1190000039405654",
-    "author": "心无私天地宽",
-    "home_url": "https://segmentfault.com/u/xinwusitiandikuan",
-    "votes": "1",
-    "rank": 7
-  },
-  {
-    "title": "Dart 2.12 现已发布",
-    "description": "Dart 2.12 现已发布，其中包含 健全的空安全 和 Dart FFI 的稳定版。空安全是我们最新主打的一项生产力强化功能，意在帮助您规避空值错误，以前这种错误通常很难被发现，您可以观看下面这支视频了解详情。FFI 则...",
-    "url": "https://segmentfault.com/a/1190000039405038",
-    "author": "Flutter",
-    "home_url": "https://segmentfault.com/u/flutter",
-    "votes": "1",
-    "rank": 8
-  },
-  {
-    "title": "得物技术聊聊推荐系统是如何做排序的",
-    "description": "信息时代到来以后，我们被各种各样海量的信息所淹没，从新闻、广告、电商、直播、短视频等各种涉及这些场景的APP中，大量个性化的信息被推送到我们眼前。例如在使用得物APP购物的过程中，我们也常常会听到这样的...",
-    "url": "https://segmentfault.com/a/1190000039404377",
-    "author": "得物技术",
-    "home_url": "https://segmentfault.com/u/dewujishu",
-    "votes": "2",
-    "rank": 9
-  },
-  {
-    "title": "node+vue.js实现微信支付(沙箱)完整版,亲测可用",
-    "description": "网上很多资料文档都是残次不全的,没几个真正有用的，我这记录下可用的实现方式微信的沙箱的区别就是在正常的所有api前面加一个sandboxnew。demo 请狠狠的戳这里  [链接]支付宝支付请用力点这里 [链接]1，事前准备...",
-    "url": "https://segmentfault.com/a/1190000039401866",
-    "author": "lllomh",
-    "home_url": "https://segmentfault.com/u/lllomh",
-    "votes": "2",
-    "rank": 10
-  },
-  {
-    "title": "你以为在做的是微服务？不！你只是做了个比单体还糟糕的分布式单体！",
-    "description": "昨晚睡觉前，顺手撸了几个群聊的聊天记录。发现一个很有意思的名词“分布式单体”，顺藤摸瓜看了一下之前的聊天记录，由于内容骂骂咧咧，我就不贴出来了。。。大致内容就是某公司在做微服务改造，但改的不伦不类，...",
-    "url": "https://segmentfault.com/a/1190000039399255",
-    "author": "程序猿DD",
-    "home_url": "https://segmentfault.com/u/coderdd",
-    "votes": "3",
-    "rank": 11
-  },
-  {
-    "title": "简述「培优呼叫平台」系统演进过程",
-    "description": "我们知道，在一个技术领域里，随着技术的发展，最优解永远在变化。同样，一个业务系统也一样，从初期创建到承接的业务量和业务场景的不断变化，在不同阶段时，面临的问题和系统的设计思路也是不断变化的。",
-    "url": "https://segmentfault.com/a/1190000039402867",
-    "author": "好未来技术团队",
-    "home_url": "https://segmentfault.com/u/haoweilaijishutuandui",
-    "votes": "1",
-    "rank": 12
-  },
-  {
-    "title": "Vue 路由组件传参的 8 种方式",
-    "description": "我们在开发单页面应用时，有时需要进入某个路由后基于参数从服务器获取数据，那么我们首先要获取路由传递过来的参数，从而完成服务器请求，所以，我们需要了解路由传参的几种方式，以下方式同 vue-router@4。",
-    "url": "https://segmentfault.com/a/1190000039398462",
-    "author": "破晓L",
-    "home_url": "https://segmentfault.com/u/webinfoq",
-    "votes": "6",
-    "rank": 13
-  },
-  {
-    "title": "【真香】我同事开发了一款媲美postMan的免费api管理工具",
-    "description": "各位看官，好久不见，我又来了。今天我给大家带来一个好消息，我同事（老孟）的api接口管理工具终于开发完成，正式发布上线了。喜大普奔，秦爱德发来贺电yeah~~~",
-    "url": "https://segmentfault.com/a/1190000039398917",
-    "author": "秦爱德",
-    "home_url": "https://segmentfault.com/u/maoduolikuaipao",
-    "votes": "4",
-    "rank": 14
-  },
-  {
-    "title": "网易游戏基于 Flink 的流式 ETL 建设",
-    "description": "网易游戏资深开发工程师林小铂为大家带来网易游戏基于 Flink 的流式 ETL 建设的介绍。内容包括：业务背景专用 ETLEntryX 通用 ETL调优实践未来规划",
-    "url": "https://segmentfault.com/a/1190000039403901",
-    "author": "ApacheFlink",
-    "home_url": "https://segmentfault.com/u/ververica",
-    "votes": "1",
-    "rank": 15
-  },
-  {
-    "title": "springboot常用注解",
-    "description": "@SpringBootTest -此注解描述的类为springboot工程中的单元测试类@Component(\"abc\") -该注解指当我们组件不好归类时，就可以使用该注解进行标注,这里的abc为bean的名字@Lazy //spring框架提供的一个用于定义延迟...",
-    "url": "https://segmentfault.com/a/1190000039403603",
-    "author": "三四五的三",
-    "home_url": "https://segmentfault.com/u/sansiwudesan",
-    "votes": "1",
-    "rank": 16
-  },
-  {
-    "title": "小程序实现接口请求",
-    "description": "1.接口资源1)通常可以找免费的接口资源进行开发测试调用,例如\" 聚合接口 \"网站:www.juhe.cn2)注册登录后,选择免费的接口进行使用例如:天气查询接口该接口中会说明接口地址、必须填写的请求参数、接口的key值2.实...",
-    "url": "https://segmentfault.com/a/1190000039403196",
-    "author": "聚合数据",
-    "home_url": "https://segmentfault.com/u/juheshuju",
-    "votes": "1",
-    "rank": 17
-  },
-  {
-    "title": "60秒定位问题，十倍程序员的Debug日常",
-    "description": "这是我在 2020 年 5 月写的一篇内部博客，当时是希望研发和技术支持同学能够帮助用户快速定位 Bug，解决问题。2020 年 12 月我又迭代了一版，并还针对此进行了内部的培训。这段时间我也一直在关注微信群中的提问...",
-    "url": "https://segmentfault.com/a/1190000039399730",
-    "author": "涛思数据",
-    "home_url": "https://segmentfault.com/u/taosishuju",
-    "votes": "1",
-    "rank": 18
-  },
-  {
-    "title": "统一404异常",
-    "description": "%DATE% %TIME%2021年03月11日 16:18自定义统一异常处理方式，这里直接抛出 {代码...} 在异常处理类中新增对应处理 {代码...} 本文由博客群发一文多发等运营工具平台 OpenWrite 发布",
-    "url": "https://segmentfault.com/a/1190000039402971",
-    "author": "朱永胜",
-    "home_url": "https://segmentfault.com/u/zhuyongsheng",
-    "votes": "1",
-    "rank": 19
-  },
-  {
-    "title": "两行代码纯css实现条纹图案",
-    "description": "在一些购衣网站往往可以通过搜索“条纹”关键词搜索到对应的条纹衫。然而条纹衫的下面有一个选择条纹款式的选项，如下图是优衣库的一个选择截图。通过F12可以看到他们的前端人员是直接粘一张图片上去。但是我个人觉...",
-    "url": "https://segmentfault.com/a/1190000039402409",
-    "author": "阳哥",
-    "home_url": "https://segmentfault.com/u/yangge_5c6804373b5a0",
-    "votes": "1",
-    "rank": 20
-  },
-  {
-    "title": "登录方案总结",
-    "description": "概览最近在重构公司一个项目的登录系统，正好趁这个机会总结一下前端的登录系统方案目前比较常见的几种登录方案：Cookie + Session 登录Token 登录SSO 单点登录OAuth 第三方登录下面就从 Cookie + Session 说起一...",
-    "url": "https://segmentfault.com/a/1190000039402273",
-    "author": "阳123456",
-    "home_url": "https://segmentfault.com/u/yang123456_5df1db2820240",
-    "votes": "3",
-    "rank": 21
-  },
-  {
-    "title": "性能优化思路与经验",
-    "description": "性能优化流程同样的服务器，同样的业务代码，别人完成功能后，并发量只有500，而你是2000。老板不给你加薪，给谁加？在一线互联网公司，面试问的内容，往往也是围绕着这个展开的。 !性能优化图谱",
-    "url": "https://segmentfault.com/a/1190000039401955",
-    "author": "waker",
-    "home_url": "https://segmentfault.com/u/waker_59bde55a019d9",
-    "votes": "1",
-    "rank": 22
-  },
-  {
-    "title": "Gartner：到 2025 年将有 75% 的风险投资人使用 AI 和数据分析做出投资决策",
-    "description": "Gartner 最新调查数据显示，到 2025 年，将有超过 75% 的风险投资人使用 AI 和数据分析做出投资决策。根据 Gartner 的新白皮书预测，在未来四年中，配备 AI 和数据科学的投资者将变得司空见惯。",
-    "url": "https://segmentfault.com/a/1190000039399939",
-    "author": "芒果果",
-    "home_url": "https://segmentfault.com/u/wangying_5ea4fb9de961c",
-    "votes": "1",
-    "rank": 23
   }
 ]
