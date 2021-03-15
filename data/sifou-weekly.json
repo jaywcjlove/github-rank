@@ -1,21 +1,30 @@
 [
   {
-    "title": "小技巧！CSS 整块文本溢出省略特性探究",
-    "description": "今天的文章很有意思，讲一讲整块文本溢出省略打点的一些有意思的细节。文本超长打点我们都知道，到今天（2021/03/06），CSS 提供了两种方式便于我们进行文本超长的打点省略。对于单行文本，使用单行省略： {代码....",
-    "url": "https://segmentfault.com/a/1190000039399159",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "13",
+    "title": "CSS 技巧集合 | 思否技术周刊",
+    "description": "CSS 是一种用来表现 HTML 或 XML 等文件样式的计算机语言，相信朋友们对它都不陌生，今日给大家整理一个与 CSS 小技巧相关的合集，希望为大家提供一些设计新思路~",
+    "url": "https://segmentfault.com/a/1190000039410682",
+    "author": "袁钰涵",
+    "home_url": "https://segmentfault.com/u/yuanhan_5f5f19f9dabdc",
+    "votes": "11",
     "rank": 1
   },
   {
-    "title": "首位中国人！吴晟当选 Apache 软件基金会新一任董事",
-    "description": "技术编辑：鸣飞丨发自 思否编辑部思否报道丨公众号：SegmentFault开源社联合创始人、理事，ASF Member 刘天栋对本文亦有贡献",
-    "url": "https://segmentfault.com/a/1190000039399094",
-    "author": "鸣飞",
-    "home_url": "https://segmentfault.com/u/mf",
-    "votes": "4",
+    "title": "node.js+vue实现支付宝支付(沙箱)完整版,亲测可用",
+    "description": "沙箱环境 (Beta) 是协助开发者进行接口功能开发及主要功能联调的辅助环境，模拟了开放平台部分产品的主要功能和主要逻辑。可用于在产品上线前了解环境、组合和调试各种接口。",
+    "url": "https://segmentfault.com/a/1190000039370713",
+    "author": "lllomh",
+    "home_url": "https://segmentfault.com/u/lllomh",
+    "votes": "17",
     "rank": 2
+  },
+  {
+    "title": "nginx使用certbot免费ssl证书，https很简单",
+    "description": "很早就申请了很多域名，但是访问起来浏览器老是显示一个不安全，看着真的是不爽，因为自己的网站也没什么内容就没配置https,主要还是看了网上的教程退缩了，觉得比较麻烦。很多证书还要钱，自己也就学习性质地做...",
+    "url": "https://segmentfault.com/a/1190000039396911",
+    "author": "akez",
+    "home_url": "https://segmentfault.com/u/akez",
+    "votes": "9",
+    "rank": 3
   },
   {
     "title": "使用这些 CSS 属性，布局效率又提高了一个层次！",
@@ -24,7 +33,16 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "45",
-    "rank": 3
+    "rank": 4
+  },
+  {
+    "title": "小技巧！CSS 整块文本溢出省略特性探究",
+    "description": "今天的文章很有意思，讲一讲整块文本溢出省略打点的一些有意思的细节。文本超长打点我们都知道，到今天（2021/03/06），CSS 提供了两种方式便于我们进行文本超长的打点省略。对于单行文本，使用单行省略： {代码....",
+    "url": "https://segmentfault.com/a/1190000039399159",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "13",
+    "rank": 5
   },
   {
     "title": "原来CSS的background还可以这么玩",
@@ -32,62 +50,8 @@
     "url": "https://segmentfault.com/a/1190000039393841",
     "author": "邓占勇",
     "home_url": "https://segmentfault.com/u/dengzhanyong",
-    "votes": "14",
-    "rank": 4
-  },
-  {
-    "title": "node.js+vue实现支付宝支付(沙箱)完整版,亲测可用",
-    "description": "沙箱环境 (Beta) 是协助开发者进行接口功能开发及主要功能联调的辅助环境，模拟了开放平台部分产品的主要功能和主要逻辑。可用于在产品上线前了解环境、组合和调试各种接口。",
-    "url": "https://segmentfault.com/a/1190000039370713",
-    "author": "lllomh",
-    "home_url": "https://segmentfault.com/u/lllomh",
-    "votes": "16",
-    "rank": 5
-  },
-  {
-    "title": "金三银四了，掌握 JS 这 36 个概念，助你一臂之力",
-    "description": "点赞再看，微信搜索【大迁世界】,B站关注【前端小智】这个没有大厂背景，但有着一股向上积极心态人。本文 GitHub [链接] 上已经收录，文章的已分类，也整理了很多我的文档，和教程资料。",
-    "url": "https://segmentfault.com/a/1190000039397842",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "14",
+    "votes": "15",
     "rank": 6
-  },
-  {
-    "title": "你以为在做的是微服务？不！你只是做了个比单体还糟糕的分布式单体！",
-    "description": "昨晚睡觉前，顺手撸了几个群聊的聊天记录。发现一个很有意思的名词“分布式单体”，顺藤摸瓜看了一下之前的聊天记录，由于内容骂骂咧咧，我就不贴出来了。。。大致内容就是某公司在做微服务改造，但改的不伦不类，...",
-    "url": "https://segmentfault.com/a/1190000039399255",
-    "author": "程序猿DD",
-    "home_url": "https://segmentfault.com/u/coderdd",
-    "votes": "5",
-    "rank": 7
-  },
-  {
-    "title": "7个关于\"this\"面试题，你能回答上来吗？",
-    "description": "点赞再看，微信搜索【大迁世界】,B站关注【前端小智】这个没有大厂背景，但有着一股向上积极心态人。本文 GitHub [链接] 上已经收录，文章的已分类，也整理了很多我的文档，和教程资料。",
-    "url": "https://segmentfault.com/a/1190000039341385",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "16",
-    "rank": 8
-  },
-  {
-    "title": "每天学一个 Linux 命令（60）：scp",
-    "description": "scp命令常用于在Linux系统下两个不同主机之间传输文件，其功能与cp命令相似，但是不同是，cp命令只能用于在本机环境下传输或复制拷贝文件，scp命令可以跨越不同主机，而scp传输文件是加密的。",
-    "url": "https://segmentfault.com/a/1190000039401308",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "3",
-    "rank": 9
-  },
-  {
-    "title": "手摸手教你用VUE封装日历组件",
-    "description": "Hello, 各位勇敢的小伙伴, 大家好, 我是你们的嘴强王者小五, 身体健康, 脑子没病. 本人有丰富的脱发技巧, 能让你一跃成为资深大咖.一看就会一写就废是本人的主旨, 菜到抠脚是本人的特点, 卑微中透着一丝丝刚强, ...",
-    "url": "https://segmentfault.com/a/1190000039370231",
-    "author": "黄刀小五",
-    "home_url": "https://segmentfault.com/u/jichidewoniu",
-    "votes": "27",
-    "rank": 10
   },
   {
     "title": "130 个相见恨晚的超实用网站，一次性分享出来",
@@ -96,7 +60,25 @@
     "author": "MarkerHub",
     "home_url": "https://segmentfault.com/u/markerhub",
     "votes": "5",
-    "rank": 11
+    "rank": 7
+  },
+  {
+    "title": "搞懂日志采集利器 Filebeat 并不难！",
+    "description": "之前也介绍过：超强干货！通过filebeat、logstash、rsyslog 几种方式采集 nginx 日志。本文使用的Filebeat是7.7.0的版本，文章将从如下几个方面说明：Filebeat简介Filebeat和Beats的关系首先Filebeat是Beats中的...",
+    "url": "https://segmentfault.com/a/1190000039410506",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "4",
+    "rank": 8
+  },
+  {
+    "title": "首位中国人！吴晟当选 Apache 软件基金会新一任董事",
+    "description": "技术编辑：鸣飞丨发自 思否编辑部思否报道丨公众号：SegmentFault开源社联合创始人、理事，ASF Member 刘天栋对本文亦有贡献",
+    "url": "https://segmentfault.com/a/1190000039399094",
+    "author": "鸣飞",
+    "home_url": "https://segmentfault.com/u/mf",
+    "votes": "4",
+    "rank": 9
   },
   {
     "title": "奇思妙想 CSS 文字动画",
@@ -104,62 +86,89 @@
     "url": "https://segmentfault.com/a/1190000039362755",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "29",
+    "votes": "31",
+    "rank": 10
+  },
+  {
+    "title": "金三银四了，掌握 JS 这 36 个概念，助你一臂之力",
+    "description": "点赞再看，微信搜索【大迁世界】,B站关注【前端小智】这个没有大厂背景，但有着一股向上积极心态人。本文 GitHub [链接] 上已经收录，文章的已分类，也整理了很多我的文档，和教程资料。",
+    "url": "https://segmentfault.com/a/1190000039397842",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "14",
+    "rank": 11
+  },
+  {
+    "title": "7个关于\"this\"面试题，你能回答上来吗？",
+    "description": "点赞再看，微信搜索【大迁世界】,B站关注【前端小智】这个没有大厂背景，但有着一股向上积极心态人。本文 GitHub [链接] 上已经收录，文章的已分类，也整理了很多我的文档，和教程资料。",
+    "url": "https://segmentfault.com/a/1190000039341385",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "16",
     "rank": 12
   },
   {
-    "title": "Cocos Creator 实现点击透明区穿透的解决方案",
-    "description": "最近有初学CocosCreator的小伙伴问到一个点击穿透的问题，正好整理些方案一起来看下。通常在制作课件的过程中，会遇到点击或拖拽多边图形的需求，很多时候就会不可避免的遇到一个问题：两个图形的叠加在...",
-    "url": "https://segmentfault.com/a/1190000039402029",
-    "author": "LeapFE",
-    "home_url": "https://segmentfault.com/u/leapfe",
-    "votes": "3",
+    "title": "海康威视监控使用html播放",
+    "description": "hls可以在网页播放，也不需要插件和flash的支持，但是缺点在于hls将网页进行切片传输，每次切片都会造成时间的延迟，而且在网络不好的地方，视频会有克顿和无法播放的现象。",
+    "url": "https://segmentfault.com/a/1190000039409507",
+    "author": "ximikang",
+    "home_url": "https://segmentfault.com/u/ximikang",
+    "votes": "2",
     "rank": 13
   },
   {
-    "title": "Vue 路由组件传参的 8 种方式",
-    "description": "我们在开发单页面应用时，有时需要进入某个路由后基于参数从服务器获取数据，那么我们首先要获取路由传递过来的参数，从而完成服务器请求，所以，我们需要了解路由传参的几种方式，以下方式同 vue-router@4。",
-    "url": "https://segmentfault.com/a/1190000039398462",
-    "author": "破晓L",
-    "home_url": "https://segmentfault.com/u/webinfoq",
-    "votes": "7",
+    "title": "手摸手教你用VUE封装日历组件",
+    "description": "Hello, 各位勇敢的小伙伴, 大家好, 我是你们的嘴强王者小五, 身体健康, 脑子没病. 本人有丰富的脱发技巧, 能让你一跃成为资深大咖.一看就会一写就废是本人的主旨, 菜到抠脚是本人的特点, 卑微中透着一丝丝刚强, ...",
+    "url": "https://segmentfault.com/a/1190000039370231",
+    "author": "黄刀小五",
+    "home_url": "https://segmentfault.com/u/jichidewoniu",
+    "votes": "27",
     "rank": 14
   },
   {
-    "title": "nginx使用certbot免费ssl证书，https很简单",
-    "description": "很早就申请了很多域名，但是访问起来浏览器老是显示一个不安全，看着真的是不爽，因为自己的网站也没什么内容就没配置https,主要还是看了网上的教程退缩了，觉得比较麻烦。很多证书还要钱，自己也就学习性质地做...",
-    "url": "https://segmentfault.com/a/1190000039396911",
-    "author": "akez",
-    "home_url": "https://segmentfault.com/u/akez",
-    "votes": "8",
+    "title": "你以为在做的是微服务？不！你只是做了个比单体还糟糕的分布式单体！",
+    "description": "昨晚睡觉前，顺手撸了几个群聊的聊天记录。发现一个很有意思的名词“分布式单体”，顺藤摸瓜看了一下之前的聊天记录，由于内容骂骂咧咧，我就不贴出来了。。。大致内容就是某公司在做微服务改造，但改的不伦不类，...",
+    "url": "https://segmentfault.com/a/1190000039399255",
+    "author": "程序猿DD",
+    "home_url": "https://segmentfault.com/u/coderdd",
+    "votes": "5",
     "rank": 15
   },
   {
-    "title": "node+vue.js实现微信支付(沙箱)完整版,亲测可用",
-    "description": "网上很多资料文档都是残次不全的,没几个真正有用的，我这记录下可用的实现方式微信的沙箱的区别就是在正常的所有api前面加一个sandboxnew。demo 请狠狠的戳这里  [链接]支付宝支付请用力点这里 [链接]1，事前准备...",
-    "url": "https://segmentfault.com/a/1190000039401866",
-    "author": "lllomh",
-    "home_url": "https://segmentfault.com/u/lllomh",
+    "title": "每天学一个 Linux 命令（60）：scp",
+    "description": "scp命令常用于在Linux系统下两个不同主机之间传输文件，其功能与cp命令相似，但是不同是，cp命令只能用于在本机环境下传输或复制拷贝文件，scp命令可以跨越不同主机，而scp传输文件是加密的。",
+    "url": "https://segmentfault.com/a/1190000039401308",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "3",
     "rank": 16
   },
   {
-    "title": "San CLI 的实现原理",
-    "description": "导读：上期我们讨论了 San CLI 的使用，这期我们再深入一点，来看看 San CLI 的实现原理。一、核心模块和核心概念为了方便理解下文的 San CLI 的整体工作流程（主流程），我们先来看下 San CLI 的核心模块和核心...",
-    "url": "https://segmentfault.com/a/1190000039403965",
-    "author": "百度架构师",
-    "home_url": "https://segmentfault.com/u/baidujiagoushi",
-    "votes": "3",
+    "title": "每天学一个 Linux 命令（62）：ping",
+    "description": "ping 是一种向网络上的另一台计算机发送网络数据并从其接收网络数据的简单方法。它通常用于测试与另一个系统是否可以通过网络访问，如果可以，则需要花费多少时间来交换该数据。",
+    "url": "https://segmentfault.com/a/1190000039407622",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "2",
     "rank": 17
   },
   {
-    "title": "再见 FTP/SFTP！是时候拥抱下一代文件传输利器 Croc 了！",
-    "description": "两台电脑之间该如何传送档案，其实方法有超多种的，像是 FTP 或透过 SSH 方式来传送档案，但是这些方法步骤都有点复杂，FTP 需要搭建 FTP 服务，SSH 要学习 SCP 指令，那有没有更好的方式从单一电脑点对点传送档...",
-    "url": "https://segmentfault.com/a/1190000039393131",
+    "title": "备战金三银四跳槽季！面试准备事项与面试题总结已撸完（Linux系统运维篇）！快要爆肝了。。。",
+    "description": "“金三银四”指的是在3月、4月，尤其是3月是应届生求职、也是在职人员跳槽到更满意职位的黄金时期。求职、跳槽，说到底，本质上就是职场人员和工作职位匹配的过程，一个萝卜一个坑，此坑不适合，自有留爷处。",
+    "url": "https://segmentfault.com/a/1190000039408574",
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "10",
+    "votes": "2",
     "rank": 18
+  },
+  {
+    "title": "一道面试题让你更加了解事件队列",
+    "description": "该题定义了一个同步函数对传入的数组进行遍历乘二操作，同时每执行一次就会给 executeCount 累加。最终我们需要实现一个 batcher 函数，使用其对该同步函数包装后，实现每次调用依旧返回预期的二倍结果，同时还需...",
+    "url": "https://segmentfault.com/a/1190000039406198",
+    "author": "公子",
+    "home_url": "https://segmentfault.com/u/lizheming",
+    "votes": "1",
+    "rank": 19
   },
   {
     "title": "使用 Phaser3+Matter.js 实现“合成大西瓜”游戏",
@@ -168,16 +177,34 @@
     "author": "凹凸实验室",
     "home_url": "https://segmentfault.com/u/o2team",
     "votes": "12",
-    "rank": 19
+    "rank": 20
   },
   {
-    "title": "【真香】我同事开发了一款媲美postMan的免费api管理工具",
-    "description": "各位看官，好久不见，我又来了。今天我给大家带来一个好消息，我同事（老孟）的api接口管理工具终于开发完成，正式发布上线了。喜大普奔，秦爱德发来贺电yeah~~~",
-    "url": "https://segmentfault.com/a/1190000039398917",
-    "author": "秦爱德",
-    "home_url": "https://segmentfault.com/u/maoduolikuaipao",
-    "votes": "4",
-    "rank": 20
+    "title": "这 5 种常用运维监控工具都不会？你算啥运维人",
+    "description": "运维监控工具千千万，仅开源的解决方案就有流量监控（MRTG、Cacti、SmokePing、Graphite 等）和性能告警（Nagios、Zabbix、Zenoss Core、Ganglia、OpenTSDB等）可供选择。面试装逼系列｜这篇文章，让运维监控不再...",
+    "url": "https://segmentfault.com/a/1190000039408540",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "1",
+    "rank": 21
+  },
+  {
+    "title": "再见 FTP/SFTP！是时候拥抱下一代文件传输利器 Croc 了！",
+    "description": "两台电脑之间该如何传送档案，其实方法有超多种的，像是 FTP 或透过 SSH 方式来传送档案，但是这些方法步骤都有点复杂，FTP 需要搭建 FTP 服务，SSH 要学习 SCP 指令，那有没有更好的方式从单一电脑点对点传送档...",
+    "url": "https://segmentfault.com/a/1190000039393131",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "10",
+    "rank": 22
+  },
+  {
+    "title": "Cocos Creator 实现点击透明区穿透的解决方案",
+    "description": "最近有初学CocosCreator的小伙伴问到一个点击穿透的问题，正好整理些方案一起来看下。通常在制作课件的过程中，会遇到点击或拖拽多边图形的需求，很多时候就会不可避免的遇到一个问题：两个图形的叠加在...",
+    "url": "https://segmentfault.com/a/1190000039402029",
+    "author": "LeapFE",
+    "home_url": "https://segmentfault.com/u/leapfe",
+    "votes": "3",
+    "rank": 23
   },
   {
     "title": "从零开始的electron开发-主进程-窗口关闭与托盘处理",
@@ -186,51 +213,24 @@
     "author": "陌路凡歌",
     "home_url": "https://segmentfault.com/u/molufange",
     "votes": "8",
-    "rank": 21
-  },
-  {
-    "title": "性能优化思路与经验",
-    "description": "性能优化流程同样的服务器，同样的业务代码，别人完成功能后，并发量只有500，而你是2000。老板不给你加薪，给谁加？在一线互联网公司，面试问的内容，往往也是围绕着这个展开的。 !性能优化图谱",
-    "url": "https://segmentfault.com/a/1190000039401955",
-    "author": "waker",
-    "home_url": "https://segmentfault.com/u/waker_59bde55a019d9",
-    "votes": "3",
-    "rank": 22
-  },
-  {
-    "title": "得物技术聊聊推荐系统是如何做排序的",
-    "description": "信息时代到来以后，我们被各种各样海量的信息所淹没，从新闻、广告、电商、直播、短视频等各种涉及这些场景的APP中，大量个性化的信息被推送到我们眼前。例如在使用得物APP购物的过程中，我们也常常会听到这样的...",
-    "url": "https://segmentfault.com/a/1190000039404377",
-    "author": "得物技术",
-    "home_url": "https://segmentfault.com/u/dewujishu",
-    "votes": "2",
-    "rank": 23
-  },
-  {
-    "title": "二、SpringBoot 整合 Dubbo 进阶，Provider 不使用 web 容器启动",
-    "description": "demo github 地址0、docker 启动 zkdocker-compose.yml {代码...} {代码...} 1、创建父 pom {代码...} 2、创建 API maven 工程 {代码...} 3、创建 Provider maven 工程pom.xml {代码...} dubbo-provider.properti...",
-    "url": "https://segmentfault.com/a/1190000039405654",
-    "author": "心无私天地宽",
-    "home_url": "https://segmentfault.com/u/xinwusitiandikuan",
-    "votes": "1",
     "rank": 24
   },
   {
-    "title": "Dart 2.12 现已发布",
-    "description": "Dart 2.12 现已发布，其中包含 健全的空安全 和 Dart FFI 的稳定版。空安全是我们最新主打的一项生产力强化功能，意在帮助您规避空值错误，以前这种错误通常很难被发现，您可以观看下面这支视频了解详情。FFI 则...",
-    "url": "https://segmentfault.com/a/1190000039405038",
-    "author": "Flutter",
-    "home_url": "https://segmentfault.com/u/flutter",
-    "votes": "1",
+    "title": "Vue 路由组件传参的 8 种方式",
+    "description": "我们在开发单页面应用时，有时需要进入某个路由后基于参数从服务器获取数据，那么我们首先要获取路由传递过来的参数，从而完成服务器请求，所以，我们需要了解路由传参的几种方式，以下方式同 vue-router@4。",
+    "url": "https://segmentfault.com/a/1190000039398462",
+    "author": "破晓L",
+    "home_url": "https://segmentfault.com/u/webinfoq",
+    "votes": "7",
     "rank": 25
   },
   {
-    "title": "请务必收藏！Nginx 五大常见应用场景",
-    "description": "Nginx是Apache服务不错的替代品。其特点是占有内存少，并发能力强，事实上nginx的并发能力在同类型的网页服务器中表现较好，因此国内知名大厂例如：淘宝，京东，百度，新浪，网易，腾讯等等都在使用Nginx网站。",
-    "url": "https://segmentfault.com/a/1190000039374787",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "13",
+    "title": "新的颜色对比度算法-感知对比度算法APCA",
+    "description": "灵感的源泉来源于不断的接受新鲜事物。Chrome 89 新功能一览，性能提升明显，大量 DevTools 新特性！文章中的新特性，掌握了对日常开发，很受益，赶紧更新浏览器版本吧。谈谈其中提到的：新的颜色对比度算法-先进...",
+    "url": "https://segmentfault.com/a/1190000039410639",
+    "author": "慕晗",
+    "home_url": "https://segmentfault.com/u/mu_5c8b69a7ec402",
+    "votes": "2",
     "rank": 26
   }
 ]

@@ -12,7 +12,7 @@
   {
     "title": "这些不可不知的 JVM 知识，我都用思维导图整理好了",
     "description": "❝JVM是面试中必问的部分，本文通过思维导图以面向面试的角度整理JVM中不可不知的知识。先上图：JVM必备知识1、JVM基本概念 1.1、JVM是什么 JVM 的全称是 「Java...",
-    "votes": "218",
+    "votes": "219",
     "url": "/k/vxuckw2",
     "avatar": "https://img.toutiao.io/subject%2F785b9391ccd74d88bfc5ccd391fb4365",
     "avatarAlt": "三分恶 - 独家号",
@@ -32,7 +32,7 @@
   {
     "title": "国内有哪些顶级技术团队的博客值得推荐？",
     "description": " 这个周末基本 90%的时间都在弄星球的《Java 面试进阶指北》这个小册。 晚上纠结了半天，不知道写点啥。突然想到很多小伙伴都非常好奇我都订阅了哪些技术团队的博客。于是，我便写下...",
-    "votes": "179",
+    "votes": "182",
     "url": "/k/j7v5pee",
     "avatar": "https://img.toutiao.io/subject%2Ff834a19bb9e24261a813b7a1ebc03a11",
     "avatarAlt": "JavaGuide - 独家号",
@@ -82,7 +82,7 @@
   {
     "title": "Golang 性能诊断看这篇就够了",
     "description": "点击上方蓝字关注我们  我们日常接触性能诊断问题，一般分为两种情况，一是线上应用真的出现性能问题；二是我们需要对准备上线的系统进行性能预估；后者需要压力测试辅助进行，此处不表。针对...",
-    "votes": "130",
+    "votes": "132",
     "url": "/k/3loin1u",
     "avatar": "https://img.toutiao.io/subject%2F2af74070672947a89801325c8545f2ac",
     "avatarAlt": "光华路程序猿 - 独家号",
@@ -102,12 +102,22 @@
   {
     "title": "2021 阿里淘系工程师推荐书单",
     "description": "读书有点像机器学习从初始参数开始的局部最小化。无论是数学、科学、技术、管理，还是历史、文学，读书的过程，就是根据一维的文字流，在立体的思维空间中重新建构。这种建构的意义，将我们自身...",
-    "votes": "124",
+    "votes": "125",
     "url": "/k/txzl2gg",
     "avatar": "https://img.toutiao.io/subject%2F4c72971aff5c4e73821ac59b18ff5dd6",
     "avatarAlt": "程序员的朋友圈 - 独家号",
     "subjectName": "程序员的朋友圈",
     "homeUrl": "/subjects/378"
+  },
+  {
+    "title": "这几款 JVM 故障诊断处理工具你还不会？",
+    "description": "前言 前几天中午正在和同事最近聊股市较好，这几天每天都可以喝点肉汤，心里还是挺高兴的；正在这个时候收到了线上告警邮件和运维同学的消息，“你们有服务挂了！”，心里一紧，立马打开电脑看...",
+    "votes": "126",
+    "url": "/k/dux0ogl",
+    "avatar": "https://img.toutiao.io/subject%2Fcf73e0d43ba244d0b40c1bcfa2fc87b4",
+    "avatarAlt": "贝塔学Java - 独家号",
+    "subjectName": "贝塔学Java",
+    "homeUrl": "/subjects/456107"
   },
   {
     "title": "一次 MySQL 线上死锁分析实战",
@@ -118,16 +128,6 @@
     "avatarAlt": "是小桔啦 - 独家号",
     "subjectName": "是小桔啦",
     "homeUrl": "/subjects/442426"
-  },
-  {
-    "title": "这几款 JVM 故障诊断处理工具你还不会？",
-    "description": "前言 前几天中午正在和同事最近聊股市较好，这几天每天都可以喝点肉汤，心里还是挺高兴的；正在这个时候收到了线上告警邮件和运维同学的消息，“你们有服务挂了！”，心里一紧，立马打开电脑看...",
-    "votes": "120",
-    "url": "/k/dux0ogl",
-    "avatar": "https://img.toutiao.io/subject%2Fcf73e0d43ba244d0b40c1bcfa2fc87b4",
-    "avatarAlt": "贝塔学Java - 独家号",
-    "subjectName": "贝塔学Java",
-    "homeUrl": "/subjects/456107"
   },
   {
     "title": "互联网架构演进之路",
@@ -142,7 +142,7 @@
   {
     "title": "8 张图带你了解大型应用架构演进历程",
     "description": "前言 几乎所有的大型应用都是从一个小应用开始的，好的互联网产品是慢慢运营出来的，不是一开始就开发好的，所以本篇我们来聊聊应用架构的演进历程。如何打造一个高可用，高性能，易扩展的应用...",
-    "votes": "125",
+    "votes": "131",
     "url": "/k/xuv7rlf",
     "avatar": "https://img.toutiao.io/subject%2Fcf73e0d43ba244d0b40c1bcfa2fc87b4",
     "avatarAlt": "贝塔学Java - 独家号",
@@ -152,7 +152,7 @@
   {
     "title": "Tomcat 性能调优应该注意什么？",
     "description": "1，并发参数配置 在 Tomcat 的配置中，主要的性能调优配置集中在 server.xml 文件中进行调优配置。而在这个文件中通过这个标签 <Connector></Connec...",
-    "votes": "103",
+    "votes": "104",
     "url": "/k/kldrkzc",
     "avatar": "https://img.toutiao.io/subject%2F580a2ecb1d5649ea82c630298294c8fe",
     "avatarAlt": "Python 集中营 - 独家号",
@@ -178,6 +178,16 @@
     "avatarAlt": "大话.NET平台 - 独家号",
     "subjectName": "大话.NET平台",
     "homeUrl": "/subjects/116492"
+  },
+  {
+    "title": "Redis 教程：Redis 知识体系详解",
+    "description": "著作权归https://www.pdai.tech所有。链接：https://www.pdai.tech/md/db/nosql-redis/db-redis-overview.h...",
+    "votes": "101",
+    "url": "/k/av396i0",
+    "avatar": "https://img.toutiao.io/subject%2Fbcb663e36b0c406c9533cb76104b3227",
+    "avatarAlt": "Java全栈知识体系 - 独家号",
+    "subjectName": "Java全栈知识体系",
+    "homeUrl": "/subjects/319391"
   },
   {
     "title": "流量复制方案对比：TCPCopy vs Goreplay",
@@ -218,16 +228,6 @@
     "avatarAlt": "进击的程序猿 - 独家号",
     "subjectName": "进击的程序猿",
     "homeUrl": "/subjects/24912"
-  },
-  {
-    "title": "一文带你了解推荐系统之标签体系",
-    "description": "点击标题下「搜索与推荐Wiki」可快速关注▼相关推荐▼1、腾讯2020广告大赛冠军解决方案带来的思考2、结合论文看Youtube推荐系统中召回和排序的演进之路3、深度学习Keras...",
-    "votes": "90",
-    "url": "/k/nyb3xq7",
-    "avatar": "https://img.toutiao.io/subject%2F62130f3f0fbe445c8360361ee4a0f055",
-    "avatarAlt": "搜索与推荐Wiki - 独家号",
-    "subjectName": "搜索与推荐Wiki",
-    "homeUrl": "/subjects/104739"
   },
   {
     "title": "Java 实现大文件多线程下载，提速 30 倍！想学？我教你啊",

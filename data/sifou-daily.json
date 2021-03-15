@@ -1,47 +1,83 @@
 [
   {
-    "title": "130 个相见恨晚的超实用网站，一次性分享出来",
-    "description": "我的公众号：MarkerHub，网站：[链接]小Hub领读：收藏就对了，我最爱哔哩哔哩，哈哈哈~作者：藏冰[链接]搞学习知乎：www.zhihu.com大学资源网：[链接]简答题：[链接]网易公开课：[链接]网易云课堂：[链接]中国大...",
-    "url": "https://segmentfault.com/a/1190000039406137",
-    "author": "MarkerHub",
-    "home_url": "https://segmentfault.com/u/markerhub",
-    "votes": "5",
+    "title": "CSS 技巧集合 | 思否技术周刊",
+    "description": "CSS 是一种用来表现 HTML 或 XML 等文件样式的计算机语言，相信朋友们对它都不陌生，今日给大家整理一个与 CSS 小技巧相关的合集，希望为大家提供一些设计新思路~",
+    "url": "https://segmentfault.com/a/1190000039410682",
+    "author": "袁钰涵",
+    "home_url": "https://segmentfault.com/u/yuanhan_5f5f19f9dabdc",
+    "votes": "11",
     "rank": 1
   },
   {
-    "title": "一道面试题让你更加了解事件队列",
-    "description": "该题定义了一个同步函数对传入的数组进行遍历乘二操作，同时每执行一次就会给 executeCount 累加。最终我们需要实现一个 batcher 函数，使用其对该同步函数包装后，实现每次调用依旧返回预期的二倍结果，同时还需...",
-    "url": "https://segmentfault.com/a/1190000039406198",
-    "author": "公子",
-    "home_url": "https://segmentfault.com/u/lizheming",
-    "votes": "1",
+    "title": "搞懂日志采集利器 Filebeat 并不难！",
+    "description": "之前也介绍过：超强干货！通过filebeat、logstash、rsyslog 几种方式采集 nginx 日志。本文使用的Filebeat是7.7.0的版本，文章将从如下几个方面说明：Filebeat简介Filebeat和Beats的关系首先Filebeat是Beats中的...",
+    "url": "https://segmentfault.com/a/1190000039410506",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "4",
     "rank": 2
   },
   {
-    "title": "每天学一个 Linux 命令（62）：ping",
-    "description": "ping 是一种向网络上的另一台计算机发送网络数据并从其接收网络数据的简单方法。它通常用于测试与另一个系统是否可以通过网络访问，如果可以，则需要花费多少时间来交换该数据。",
-    "url": "https://segmentfault.com/a/1190000039407622",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "1",
+    "title": "新的颜色对比度算法-感知对比度算法APCA",
+    "description": "灵感的源泉来源于不断的接受新鲜事物。Chrome 89 新功能一览，性能提升明显，大量 DevTools 新特性！文章中的新特性，掌握了对日常开发，很受益，赶紧更新浏览器版本吧。谈谈其中提到的：新的颜色对比度算法-先进...",
+    "url": "https://segmentfault.com/a/1190000039410639",
+    "author": "慕晗",
+    "home_url": "https://segmentfault.com/u/mu_5c8b69a7ec402",
+    "votes": "2",
     "rank": 3
   },
   {
-    "title": "封装一个performance监控类",
-    "description": "前端性能监控，设置监控超时的任务，回传到服务器完整代码如下 {代码...} 为了监测工具不占用主线程的 JavaScript 解析时间。因此，最好在页面触发 onload 事件后，采用异步加载的方式： {代码...}",
-    "url": "https://segmentfault.com/a/1190000039409139",
-    "author": "万年打野易大师",
-    "home_url": "https://segmentfault.com/u/faker_5acebe0256c30",
-    "votes": "1",
+    "title": "你不知道的 HTML（1）",
+    "description": "有的时候 React、Vue、antd 等框架和库用的多了，对原生的 html 标签反而不熟悉了。事实上，原生的 html 标签也支持表单的必填校验，设置 required 属性为 true 即可。",
+    "url": "https://segmentfault.com/a/1190000039411483",
+    "author": "Cygra",
+    "home_url": "https://segmentfault.com/u/cygra",
+    "votes": "2",
     "rank": 4
   },
   {
-    "title": "这 5 种常用运维监控工具都不会？你算啥运维人",
-    "description": "运维监控工具千千万，仅开源的解决方案就有流量监控（MRTG、Cacti、SmokePing、Graphite 等）和性能告警（Nagios、Zabbix、Zenoss Core、Ganglia、OpenTSDB等）可供选择。面试装逼系列｜这篇文章，让运维监控不再...",
-    "url": "https://segmentfault.com/a/1190000039408540",
+    "title": "这可能是最清晰易懂的 G1 GC 资料",
+    "description": "G1 (Garbage-First) 于JDK 6u14版本发布，JDK 7u4版本发行时被正式推出，在JDK9时已经成了默认的垃圾回收器，算是CMS回收器的替代 方案（CMS在JDK9以后已经废弃）",
+    "url": "https://segmentfault.com/a/1190000039411521",
+    "author": "空无",
+    "home_url": "https://segmentfault.com/u/kongwu",
+    "votes": "1",
+    "rank": 5
+  },
+  {
+    "title": "我是如何打造出自己私有云存储的",
+    "description": "今天给大家分享下我的NAS搭建方案，去年双十一的时候入手了一套NAS设备，用了几个月时间，好用是好用，但确实还没发挥出其价值，目前它最大的功能就是给我的mac做time-machine备份，要是没这个备份的话，它就是家...",
+    "url": "https://segmentfault.com/a/1190000039410988",
+    "author": "xindoo",
+    "home_url": "https://segmentfault.com/u/xindoo",
+    "votes": "1",
+    "rank": 6
+  },
+  {
+    "title": "《进击吧！Blazor！》系列入门教程 第一章 7.图表",
+    "description": "《进击吧！Blazor！》是本人与张善友老师合作的Blazor零基础入门教程视频，此教程能让一个从未接触过Blazor的程序员掌握开发Blazor应用的能力。视频地址：[链接]Blazor WebAssembly 是单页应用 (SPA) 框架，用于...",
+    "url": "https://segmentfault.com/a/1190000039411989",
+    "author": "MicrosoftReactor",
+    "home_url": "https://segmentfault.com/u/microsoftreactor",
+    "votes": "1",
+    "rank": 7
+  },
+  {
+    "title": "Redis 是如何实现点赞、取消点赞的？",
+    "description": "点赞是个频率比较高的事件，也不是特别重要的记录，使用缓存来存储还是比较合理的，另外像排行榜、热议等都可以使用缓存，先来看看点赞是如何实现的吧，详细代码可以clone看下哈，跟紧脚步，学技术~​",
+    "url": "https://segmentfault.com/a/1190000039411871",
+    "author": "MarkerHub",
+    "home_url": "https://segmentfault.com/u/markerhub",
+    "votes": "1",
+    "rank": 8
+  },
+  {
+    "title": "每天学一个 Linux 命令（63）：route",
+    "description": "route 命令用来显示并设置 Linux 内核中的网络路由表，route 命令设置的路由主要是静态路由。在 Linux、BSD 和其他类似 Unix 的系统上，route 命令用于查看和更改内核路由表。在不同的系统上，命令语法不同。",
+    "url": "https://segmentfault.com/a/1190000039410494",
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "1",
-    "rank": 5
+    "rank": 9
   }
 ]
