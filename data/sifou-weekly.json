@@ -1,21 +1,12 @@
 [
   {
-    "title": "2021年要了解的34种JavaScript简写优化技术",
-    "description": "开发者的生活总是在学习新的东西，跟上变化不应该比现在更难，我的动机是介绍所有JavaScript的最佳实践，比如简写功能，作为一个前端开发者，我们必须知道，让我们的生活在2021年变得更轻松。",
-    "url": "https://segmentfault.com/a/1190000039417765",
-    "author": "杜尼卜",
-    "home_url": "https://segmentfault.com/u/dunizb",
-    "votes": "53",
+    "title": "彻夜怒肝！Docker 常见疑难杂症解决方案已撸完，快要裂开了。。。",
+    "description": "这里主要是为了记录在使用 Docker 的时候遇到的问题及其处理解决方法。1.Docker 迁移存储目录默认情况系统会将 Docker 容器存放在/var/lib/docker 目录下问题起因:今天通过监控系统，发现公司其中一台服务器的磁...",
+    "url": "https://segmentfault.com/a/1190000039426040",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "22",
     "rank": 1
-  },
-  {
-    "title": "【讨论帖】这个金三银四，你计划跳槽吗？",
-    "description": "@折腾不止的追梦人、@thinkwei、@fising、@axuebin、@敲键盘的猫、@三掌柜、@北枳、@Meathill、@Armey、@五行缺钱",
-    "url": "https://segmentfault.com/a/1190000039420127",
-    "author": "思否编辑部",
-    "home_url": "https://segmentfault.com/u/writers",
-    "votes": "15",
-    "rank": 2
   },
   {
     "title": "关于从入门three.js到做出3d地球这件事(第一篇: 通俗易懂的入门)",
@@ -23,26 +14,8 @@
     "url": "https://segmentfault.com/a/1190000039647481",
     "author": "lulu_up",
     "home_url": "https://segmentfault.com/u/lulu_up",
-    "votes": "29",
-    "rank": 3
-  },
-  {
-    "title": "webpack核心模块tapable用法解析",
-    "description": "前不久写了一篇webpack基本原理和AST用法的文章，本来想接着写webpack plugin的原理的，但是发现webpack plugin高度依赖tapable这个库，不清楚tapable而直接去看webpack plugin始终有点雾里看花的意思。所以就先...",
-    "url": "https://segmentfault.com/a/1190000039418800",
-    "author": "蒋鹏飞",
-    "home_url": "https://segmentfault.com/u/jiangpengfei_5ecce944a3d8a",
-    "votes": "10",
-    "rank": 4
-  },
-  {
-    "title": "彻夜怒肝！Docker 常见疑难杂症解决方案已撸完，快要裂开了。。。",
-    "description": "这里主要是为了记录在使用 Docker 的时候遇到的问题及其处理解决方法。1.Docker 迁移存储目录默认情况系统会将 Docker 容器存放在/var/lib/docker 目录下问题起因:今天通过监控系统，发现公司其中一台服务器的磁...",
-    "url": "https://segmentfault.com/a/1190000039426040",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "18",
-    "rank": 5
+    "votes": "31",
+    "rank": 2
   },
   {
     "title": "即将发布的 ES2021（ES12）中有哪些有趣的功能",
@@ -50,17 +23,8 @@
     "url": "https://segmentfault.com/a/1190000039366784",
     "author": "疯狂的技术宅",
     "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "12",
-    "rank": 6
-  },
-  {
-    "title": "关于 JavaScript 中的方法的全部知识点都在这了",
-    "description": "1. 什么是方法首先让我们定义并调用常规函数： {代码...} 常规函数定义的形式为关键字 function 后跟名称、参数和函数体：function greet(who) {...} 。greet('World') 是常规函数调用。函数 greet('World') 从参...",
-    "url": "https://segmentfault.com/a/1190000039366733",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "12",
-    "rank": 7
+    "votes": "13",
+    "rank": 3
   },
   {
     "title": "reduce方法高级使用",
@@ -69,34 +33,16 @@
     "author": "万年打野易大师",
     "home_url": "https://segmentfault.com/u/faker_5acebe0256c30",
     "votes": "13",
-    "rank": 8
+    "rank": 4
   },
   {
-    "title": "万字长文：彻底搞懂容器镜像构建",
-    "description": "这里我们先从宏观上对 Docker 有个大概的认识，它整体上是个 C/S 架构；我们平时使用的 docker 命令就是它的 CLI 客户端，而它的服务端是 dockerd 在 Linux 系统中，通常我们是使用 systemd 进行管理，所以我们可...",
-    "url": "https://segmentfault.com/a/1190000039415992",
-    "author": "张晋涛",
-    "home_url": "https://segmentfault.com/u/moelove",
-    "votes": "8",
-    "rank": 9
-  },
-  {
-    "title": "前端必要懂的，完整的 HTTP cookie 指南",
-    "description": "点赞再看，微信搜索【大迁世界】,B站关注【前端小智】这个没有大厂背景，但有着一股向上积极心态人。本文 GitHub [链接] 上已经收录，文章的已分类，也整理了很多我的文档，和教程资料。",
-    "url": "https://segmentfault.com/a/1190000039413496",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "12",
-    "rank": 10
-  },
-  {
-    "title": "回顾 12 个面向 Web 开发人员的在线代码编辑器",
-    "description": "一些在线代码编辑器具有与文本编辑器更相似的基本特性，而另一些则像完整的集成开发环境(Integrated Development environment，IDE)。在本文中，我们将介绍这两种类型。",
-    "url": "https://segmentfault.com/a/1190000039415795",
-    "author": "芒果果",
-    "home_url": "https://segmentfault.com/u/wangying_5ea4fb9de961c",
-    "votes": "7",
-    "rank": 11
+    "title": "六个问题助你理解 React Fiber",
+    "description": "React Fiber 是Facebook花费两年余时间对 React 做出的一个重大改变与优化，是对 React 核心算法的一次重新实现。从Facebook在 React Conf 2017会议上确认，React Fiber 会在React 16 版本发布至今，也已过去三年...",
+    "url": "https://segmentfault.com/a/1190000039682751",
+    "author": "独钓寒江雪",
+    "home_url": "https://segmentfault.com/u/king_hcj",
+    "votes": "21",
+    "rank": 5
   },
   {
     "title": "超详细讲解！10 种常见的软件架构模式",
@@ -104,26 +50,17 @@
     "url": "https://segmentfault.com/a/1190000039653303",
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "8",
-    "rank": 12
+    "votes": "10",
+    "rank": 6
   },
   {
-    "title": "常见排序算法总结和 Go 标准库排序源码分析",
-    "description": "排序算法是数组相关算法的基础知识之一，它们的经典思想可以用于很多算法之中。这里详细介绍和总结 7 种最常见排序算法，并用 Go 做了实现，同时对比这几种算法的时间复杂度、空间复杂度和稳定性 。后一部分是对 ...",
-    "url": "https://segmentfault.com/a/1190000039668324",
-    "author": "lryong",
-    "home_url": "https://segmentfault.com/u/lryong",
-    "votes": "6",
-    "rank": 13
-  },
-  {
-    "title": "牛逼！用 GitLab 做 CI/CD 是什么感觉，太强了",
-    "description": "GitLab CI/CD 是一个内置在 GitLab 中的工具，用于通过持续方法进行软件开发：Continuous Integration（CI）：持续集成Continuous Delivery（CD）：持续交付Continuous Deployment（CD）：持续部署持续集成的工作...",
-    "url": "https://segmentfault.com/a/1190000039667610",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "8",
-    "rank": 14
+    "title": "Redis 高可用篇：你管这叫主从架构数据同步原理？",
+    "description": "在《Redis 核心篇：唯快不破的秘密》中，「码哥」揭秘了 Redis 五大数据类型底层的数据结构、IO 模型、线程模型、渐进式 rehash 掌握了 Redis 快的本质原因。",
+    "url": "https://segmentfault.com/a/1190000039670541",
+    "author": "码哥字节",
+    "home_url": "https://segmentfault.com/u/magebyte",
+    "votes": "11",
+    "rank": 7
   },
   {
     "title": "这 7 道关于闭包的面试题，你能答对几个？",
@@ -131,8 +68,44 @@
     "url": "https://segmentfault.com/a/1190000039366748",
     "author": "疯狂的技术宅",
     "home_url": "https://segmentfault.com/u/evilboy",
+    "votes": "11",
+    "rank": 8
+  },
+  {
+    "title": "常见排序算法总结和 Go 标准库排序源码分析",
+    "description": "排序算法是数组相关算法的基础知识之一，它们的经典思想可以用于很多算法之中。这里详细介绍和总结 7 种最常见排序算法，并用 Go 做了实现，同时对比这几种算法的时间复杂度、空间复杂度和稳定性 。后一部分是对 ...",
+    "url": "https://segmentfault.com/a/1190000039668324",
+    "author": "lryong",
+    "home_url": "https://segmentfault.com/u/lryong",
+    "votes": "7",
+    "rank": 9
+  },
+  {
+    "title": "牛逼！用 GitLab 做 CI/CD 是什么感觉，太强了",
+    "description": "GitLab CI/CD 是一个内置在 GitLab 中的工具，用于通过持续方法进行软件开发：Continuous Integration（CI）：持续集成Continuous Delivery（CD）：持续交付Continuous Deployment（CD）：持续部署持续集成的工作...",
+    "url": "https://segmentfault.com/a/1190000039667610",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "10",
-    "rank": 15
+    "rank": 10
+  },
+  {
+    "title": "探索 Snabbdom 模块系统原理",
+    "description": "近几年随着 React、Vue 等前端框架不断兴起，Virtual DOM 概念也越来越火，被用到越来越多的框架、库中。Virtual DOM 是基于真实 DOM 的一层抽象，用简单的 JS 对象描述真实 DOM。本文要介绍的 Snabbdom 就是 Vir...",
+    "url": "https://segmentfault.com/a/1190000039668230",
+    "author": "pingan8787",
+    "home_url": "https://segmentfault.com/u/pingan8787",
+    "votes": "5",
+    "rank": 11
+  },
+  {
+    "title": "前端搞工程化：揭秘自动化部署系统（一）",
+    "description": "发 npm 包对于稍微大点的厂来说都是个频繁需求，因此本地执行计算版本命令以及 npm publish 都是不大可行的，大都会有一个单独的部署系统去自动帮助我们完成这个事情。",
+    "url": "https://segmentfault.com/a/1190000039653744",
+    "author": "y_ck",
+    "home_url": "https://segmentfault.com/u/user_ngjv5fmp",
+    "votes": "6",
+    "rank": 12
   },
   {
     "title": "用户体验细化，增强型的 <input type=number>",
@@ -141,25 +114,25 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "6",
-    "rank": 16
+    "rank": 13
   },
   {
-    "title": "探索 Snabbdom 模块系统原理",
-    "description": "近几年随着 React、Vue 等前端框架不断兴起，Virtual DOM 概念也越来越火，被用到越来越多的框架、库中。Virtual DOM 是基于真实 DOM 的一层抽象，用简单的 JS 对象描述真实 DOM。本文要介绍的 Snabbdom 就是 Vir...",
-    "url": "https://segmentfault.com/a/1190000039668230",
-    "author": "pingan8787",
-    "home_url": "https://segmentfault.com/u/pingan8787",
+    "title": "用装饰器模式增强 fetch()",
+    "description": "fetch() 的用法非常简单：通过调用 fetch('/movies.json') 启动请求，请求完成后得到一个 Response 对象，然后从中提取数据。",
+    "url": "https://segmentfault.com/a/1190000039366767",
+    "author": "疯狂的技术宅",
+    "home_url": "https://segmentfault.com/u/evilboy",
     "votes": "4",
-    "rank": 17
+    "rank": 14
   },
   {
-    "title": "聊聊Javascript 垃圾回收机制-(一)",
-    "description": "都需要分配内存，而当这些值不再被使用的时候，js就需要在合适的时候将这部分的内存进行回收，这就是垃圾回收机制，对于一些大型应用程序来说，垃圾回收可以有效提高性能。在js里，执行垃圾回收是自动执行的，不...",
-    "url": "https://segmentfault.com/a/1190000039419812",
-    "author": "安歌",
-    "home_url": "https://segmentfault.com/u/linlinma",
-    "votes": "8",
-    "rank": 18
+    "title": "超全面的权限系统设计方案！",
+    "description": "我的公众号：MarkerHub，Java网站：[链接]更多精选文章请点击：Java笔记大全.md小Hub解读：没想到小小角色权限系统也这么多内容，不过通常我都是直接找个开源权限系统作为基础开发业务，不过权限系统怎么设计的，...",
+    "url": "https://segmentfault.com/a/1190000039676989",
+    "author": "MarkerHub",
+    "home_url": "https://segmentfault.com/u/markerhub",
+    "votes": "10",
+    "rank": 15
   },
   {
     "title": "前端 VS 后端？程序员该如何进行职业选择",
@@ -168,25 +141,25 @@
     "author": "芒果果",
     "home_url": "https://segmentfault.com/u/wangying_5ea4fb9de961c",
     "votes": "5",
-    "rank": 19
+    "rank": 16
   },
   {
-    "title": "Redis 高可用篇：你管这叫主从架构数据同步原理？",
-    "description": "在《Redis 核心篇：唯快不破的秘密》中，「码哥」揭秘了 Redis 五大数据类型底层的数据结构、IO 模型、线程模型、渐进式 rehash 掌握了 Redis 快的本质原因。",
-    "url": "https://segmentfault.com/a/1190000039670541",
-    "author": "码哥字节",
-    "home_url": "https://segmentfault.com/u/magebyte",
-    "votes": "6",
-    "rank": 20
+    "title": "如何编写更好的 JS 代码！",
+    "description": "点赞再看，微信搜索【大迁世界】,B站关注【前端小智】这个没有大厂背景，但有着一股向上积极心态人。本文 GitHub [链接] 上已经收录，文章的已分类，也整理了很多我的文档，和教程资料。",
+    "url": "https://segmentfault.com/a/1190000039182201",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "8",
+    "rank": 17
   },
   {
-    "title": "前端爱好者周刊第3期：各大厂 webpack5 实践",
-    "description": "前端爱好者周刊 (Github: shfshanyue/weekly)，每周记录关于前端的开源工具、优秀文章、重大库版本发布记录等等，周刊中优秀文章会在公众号全栈成长之路逐一推送。每周一发布，订阅平台如下，欢迎订阅。",
-    "url": "https://segmentfault.com/a/1190000039413868",
-    "author": "shanyue",
-    "home_url": "https://segmentfault.com/u/xiange",
+    "title": "关于 Node.js 中的异步迭代器",
+    "description": "异步迭代器实际上是以前迭代器的异步版本。当我们不知道迭代的值和最终状态时，可以使用异步迭代器。两者不同的地方在于，我们得到的 promise 最终将被分解为普通的 { value: any, done: boolean } 对象，另外可...",
+    "url": "https://segmentfault.com/a/1190000039366803",
+    "author": "疯狂的技术宅",
+    "home_url": "https://segmentfault.com/u/evilboy",
     "votes": "5",
-    "rank": 21
+    "rank": 18
   },
   {
     "title": "聊聊Javascript 垃圾回收机制(二)-V8引擎下的垃圾回收机制",
@@ -195,7 +168,7 @@
     "author": "安歌",
     "home_url": "https://segmentfault.com/u/linlinma",
     "votes": "10",
-    "rank": 22
+    "rank": 19
   },
   {
     "title": "基于UE4/Unity绘制地图 - 确定展示区域",
@@ -204,7 +177,7 @@
     "author": "腾讯位置服务",
     "home_url": "https://segmentfault.com/u/tengxunweizhifuwu",
     "votes": "3",
-    "rank": 23
+    "rank": 20
   },
   {
     "title": "如何在CSS中映射的鼠标位置，并实现通过鼠标移动控制页面元素效果",
@@ -213,34 +186,25 @@
     "author": "dragonir",
     "home_url": "https://segmentfault.com/u/dragonir",
     "votes": "7",
-    "rank": 24
+    "rank": 21
   },
   {
-    "title": "学习国家 OKR！技术人视角看十四五规划和 2035 年远景目标纲要",
-    "description": "2021 年 3 月 13 日，《中华人民共和国国民经济和社会发展第十四个五年规划和 2035 年远景目标纲要》（以下简称“目标纲要”，点击此处阅读全文）正式发布。",
-    "url": "https://segmentfault.com/a/1190000039416007",
-    "author": "鸣飞",
-    "home_url": "https://segmentfault.com/u/mf",
-    "votes": "4",
-    "rank": 25
-  },
-  {
-    "title": "如何编写更好的 JS 代码！",
-    "description": "点赞再看，微信搜索【大迁世界】,B站关注【前端小智】这个没有大厂背景，但有着一股向上积极心态人。本文 GitHub [链接] 上已经收录，文章的已分类，也整理了很多我的文档，和教程资料。",
-    "url": "https://segmentfault.com/a/1190000039182201",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "title": "如何实现深浅拷贝",
+    "description": "本文github地址，欢迎star在平时开发中，一般处理两种数据类型:基本数据类型引用数据类型基本数据类型存在栈中，引用数据类型存放在堆中。在谈到深浅拷贝时，也是围绕这两种数据类型展开的。浅拷贝创建一个对象，...",
+    "url": "https://segmentfault.com/a/1190000039679103",
+    "author": "春天的风夏天的雨",
+    "home_url": "https://segmentfault.com/u/chuntiandefengxiatiandeyu",
     "votes": "7",
-    "rank": 26
+    "rank": 22
   },
   {
-    "title": "京东数科面试真题：常见的 IO 模型有哪些？Java 中的 BIO、NIO、AIO 有啥区别？",
-    "description": "IO 模型这块确实挺难理解的，需要太多计算机底层知识。写这篇文章用了挺久，就非常希望能把我所知道的讲出来吧!希望朋友们能有收货！为了写这篇文章，还翻看了一下《UNIX 网络编程》这本书，太难了，我滴乖乖！心痛~",
-    "url": "https://segmentfault.com/a/1190000039420231",
-    "author": "JavaGuide",
-    "home_url": "https://segmentfault.com/u/javaguide",
-    "votes": "5",
-    "rank": 27
+    "title": "Flutter Web在美团外卖的实践",
+    "description": "美团外卖商家端业务围绕数百万商家，在 PC 和 App 上分别提供了交易履约、运营、广告、营销等一系列功能，且经常有外投 H5 的场景（如外卖学院、商家社区、营销活动等）。在这种多形态的业务场景下，如何保障多端...",
+    "url": "https://segmentfault.com/a/1190000039672515",
+    "author": "美团技术团队",
+    "home_url": "https://segmentfault.com/u/meituanjishutuandui",
+    "votes": "6",
+    "rank": 23
   },
   {
     "title": "从头写一个 React-like 框架：工程搭建",
@@ -249,7 +213,7 @@
     "author": "Showonne",
     "home_url": "https://segmentfault.com/u/showonne",
     "votes": "5",
-    "rank": 28
+    "rank": 24
   },
   {
     "title": "设置PHP，PHP-FPM和NGINX以在Docker上进行本地开发",
@@ -258,15 +222,42 @@
     "author": "Yujiaao",
     "home_url": "https://segmentfault.com/u/yujiaao",
     "votes": "4",
-    "rank": 29
+    "rank": 25
   },
   {
-    "title": "前端搞工程化：揭秘自动化部署系统（一）",
-    "description": "发 npm 包对于稍微大点的厂来说都是个频繁需求，因此本地执行计算版本命令以及 npm publish 都是不大可行的，大都会有一个单独的部署系统去自动帮助我们完成这个事情。",
-    "url": "https://segmentfault.com/a/1190000039653744",
-    "author": "y_ck",
-    "home_url": "https://segmentfault.com/u/user_ngjv5fmp",
+    "title": "从零开始的electron开发-托盘与消息通知",
+    "description": "托盘与消息通知上一期简单介绍了托盘的退出，这一期呢说一下托盘的消息处理。 先说说本期的目标：实现微信对话的消息通知及处理。windows：当有新消息推送过来时，托盘闪动，任务栏闪烁，左下角推送消息（简化处...",
+    "url": "https://segmentfault.com/a/1190000039662887",
+    "author": "陌路凡歌",
+    "home_url": "https://segmentfault.com/u/molufange",
+    "votes": "3",
+    "rank": 26
+  },
+  {
+    "title": "useEffect, useCallback, useMemo三者有何区别？",
+    "description": "背景在目前的react开发中，很多新项目都采用函数组件，因此，我们免不了会接触到hooks。此外，Hooks也是前端面试中react方面的一个高频考点，需要掌握常用的几种hooks。常用的有基本：useState, useEffect, useCo...",
+    "url": "https://segmentfault.com/a/1190000039657107",
+    "author": "sprina",
+    "home_url": "https://segmentfault.com/u/sprina1997",
+    "votes": "5",
+    "rank": 27
+  },
+  {
+    "title": "Docker部署Prometheus+Grafana监控系统",
+    "description": "Prometheus使用Go语言开发，是Google BorgMon监控系统的开源版本。2016年由Google发起Linux基金会旗下的原生云基金会(Cloud Native Computing Foundation), 将Prometheus纳入其下第二大开源项目。Prometheus目前...",
+    "url": "https://segmentfault.com/a/1190000039671651",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "5",
+    "rank": 28
+  },
+  {
+    "title": "搞懂这 9 步，DNS 访问原理就明明白白了",
+    "description": "又到了招聘季了，前两天遇到一个面试的小伙伴，他说面试官和他聊得很投机，无意中谈到了DNS请求的过程。他一时语塞随便应付了两句，虽然对方没有追问的意思，但最后面试结果也并不理想。本着边面试边学习的态度，...",
+    "url": "https://segmentfault.com/a/1190000039650564",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "4",
-    "rank": 30
+    "rank": 29
   }
 ]

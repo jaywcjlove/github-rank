@@ -62,7 +62,7 @@
   {
     "title": "我用 Kafka 两年踩过的一些非比寻常的坑",
     "description": " 大家好，我是苏三，又和大家见面了。 前言我的上家公司是做餐饮系统的，每天中午和晚上用餐高峰期，系统的并发量不容小觑。为了保险起见，公司规定各部门都要在吃饭的时间轮流值班，防止出现...",
-    "votes": "191",
+    "votes": "192",
     "url": "/k/95yxept",
     "avatar": "https://img.toutiao.io/subject%2F0aae3536b7d44492b1974b1077394f7d",
     "avatarAlt": "苏三说技术 - 独家号",
@@ -92,7 +92,7 @@
   {
     "title": "你对天天挂在嘴边的高并发，怕是有什么误解吧？",
     "description": "高并发，几乎是每个程序员都想拥有的经验。原因很简单：随着流量变大，会遇到各种各样的技术问题，比如接口响应超时、CPU load升高、GC频繁、死锁、大数据量存储等等，这些问题能推动...",
-    "votes": "178",
+    "votes": "182",
     "url": "/k/xpyufe6",
     "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
     "avatarAlt": "Bloomingroses - 独家号",
@@ -112,12 +112,32 @@
   {
     "title": "Java 工程师核心书单，阿里大佬看了都说好",
     "description": "随便打开一个招聘网站，看看对高级Java工程师的技能要求。image-20210312224908529抛开其它的经验能力等等，单纯从技术，或者说知识上来讲，可以发现一些共通的地方...",
-    "votes": "165",
+    "votes": "171",
     "url": "/k/5apgnxp",
     "avatar": "https://img.toutiao.io/subject%2F785b9391ccd74d88bfc5ccd391fb4365",
     "avatarAlt": "三分恶 - 独家号",
     "subjectName": "三分恶",
     "homeUrl": "/subjects/454266"
+  },
+  {
+    "title": "Redis 不是一直号称单线程效率也很高吗，为什么又采用多线程了？",
+    "description": "GitHub 19k Star 的Java工程师成神之路，不来了解一下吗！ Redis是目前广为人知的一个内存数据库，在各个场景中都有着非常丰富的应用，前段时间Redis推出了6....",
+    "votes": "192",
+    "url": "/k/vsxwjpf",
+    "avatar": "https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e",
+    "avatarAlt": "JAVA干货 - 独家号",
+    "subjectName": "JAVA干货",
+    "homeUrl": "/subjects/51515"
+  },
+  {
+    "title": "Redis 教程：Redis 知识体系详解",
+    "description": "著作权归https://www.pdai.tech所有。链接：https://www.pdai.tech/md/db/nosql-redis/db-redis-overview.h...",
+    "votes": "171",
+    "url": "/k/av396i0",
+    "avatar": "https://img.toutiao.io/subject%2Fbcb663e36b0c406c9533cb76104b3227",
+    "avatarAlt": "Java全栈知识体系 - 独家号",
+    "subjectName": "Java全栈知识体系",
+    "homeUrl": "/subjects/319391"
   },
   {
     "title": "工程师职级胜任力框架",
@@ -130,16 +150,6 @@
     "homeUrl": "/subjects/4829"
   },
   {
-    "title": "Redis 不是一直号称单线程效率也很高吗，为什么又采用多线程了？",
-    "description": "GitHub 19k Star 的Java工程师成神之路，不来了解一下吗！ Redis是目前广为人知的一个内存数据库，在各个场景中都有着非常丰富的应用，前段时间Redis推出了6....",
-    "votes": "187",
-    "url": "/k/vsxwjpf",
-    "avatar": "https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e",
-    "avatarAlt": "JAVA干货 - 独家号",
-    "subjectName": "JAVA干货",
-    "homeUrl": "/subjects/51515"
-  },
-  {
     "title": "支撑 700 亿数据量的 ClickHouse 高可用架构实践",
     "description": " 本文根据蔡岳毅老师在〖2020 Gdevops全球敏捷运维峰会〗现场演讲内容整理而成。  （点击文末“阅读原文”可获取完整PPT） 讲师介绍蔡岳毅，携程旅行网酒店研发中心高级研发...",
     "votes": "19",
@@ -148,16 +158,6 @@
     "avatarAlt": "大数据生态 - 独家号",
     "subjectName": "大数据生态",
     "homeUrl": "/subjects/136176"
-  },
-  {
-    "title": "Redis 教程：Redis 知识体系详解",
-    "description": "著作权归https://www.pdai.tech所有。链接：https://www.pdai.tech/md/db/nosql-redis/db-redis-overview.h...",
-    "votes": "169",
-    "url": "/k/av396i0",
-    "avatar": "https://img.toutiao.io/subject%2Fbcb663e36b0c406c9533cb76104b3227",
-    "avatarAlt": "Java全栈知识体系 - 独家号",
-    "subjectName": "Java全栈知识体系",
-    "homeUrl": "/subjects/319391"
   },
   {
     "title": "我对技术架构的理解与架构师角色的思考",
@@ -230,16 +230,6 @@
     "homeUrl": "/subjects/454266"
   },
   {
-    "title": "深度解析 Raft 分布式一致性协议",
-    "description": "笔者期望通过一篇权威靠谱、清晰易懂的系统性文章，帮助读者深入理解 Raft 算法，并能付诸于工程实践中，同时解读不易理解或容易误解的关键点。本文是 Raft 实战系列理论内容的整合...",
-    "votes": "14",
-    "url": "/k/am8mql2",
-    "avatar": "https://img.toutiao.io/subject%2F58549cfff083434f8fea6f4e99a28393",
-    "avatarAlt": "Q的博客 - 独家号",
-    "subjectName": "Q的博客",
-    "homeUrl": "/subjects/293369"
-  },
-  {
     "title": "年轻人，看看 Redisson 分布式锁——可重入锁吧！太重要了",
     "description": "1.引言作为后端开发，对于所谓的线程安全、高并发等一系列名词肯定都不会陌生，相关的一些概念及技术框架是面试中的宠儿，也是工作中解决一些特定场景下的技术问题的银弹。今天我们就来聊聊这...",
     "votes": "145",
@@ -248,5 +238,15 @@
     "avatarAlt": "ASCE1885 - 独家号",
     "subjectName": "ASCE1885",
     "homeUrl": "/subjects/4829"
+  },
+  {
+    "title": "2021 春节书单：110 位 CEO 心中的 NO.1",
+    "description": " 写在前面：马上就是春节，准备一些假期的书是常规动作（不管实际有没有读）。前两天突然想，为什么不邀请身边的朋友们一起做一个书单，然后分享给大家？于是我找了100多位朋友，请他们帮我...",
+    "votes": "143",
+    "url": "/k/p6kzudl",
+    "avatar": "https://img.toutiao.io/subject%2F4c72971aff5c4e73821ac59b18ff5dd6",
+    "avatarAlt": "程序员的朋友圈 - 独家号",
+    "subjectName": "程序员的朋友圈",
+    "homeUrl": "/subjects/378"
   }
 ]
