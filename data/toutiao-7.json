@@ -1,18 +1,8 @@
 [
   {
-    "title": "如何写出高质量的技术文章？",
-    "description": "对于一个从小不喜欢语文、不喜欢阅读、作文很少及格的理科生来说，做梦也没想到，有一天我会写一篇文章教人如何写文章  :)一  为什么要写文章懂了，不一定能说出来，说得出来，不一定能写...",
-    "votes": "96",
-    "url": "/k/ozl31qb",
-    "avatar": "https://img.toutiao.io/subject%2F9a97933f431d4553ba4a1d1838f48143",
-    "avatarAlt": "Python猫技术花园 - 独家号",
-    "subjectName": "Python猫技术花园",
-    "homeUrl": "/subjects/14371"
-  },
-  {
     "title": "架构实践全景图",
     "description": " 业务架构是跨系统的业务架构蓝图，应用架构、数据架构、技术架构是解决方案的不同方面。多年来，全球业界已在业务架构、应用架构、数据架构、技术架构方面积累了大量经验。近几年，数字化转型...",
-    "votes": "83",
+    "votes": "96",
     "url": "/k/nu45i3g",
     "avatar": "https://img.toutiao.io/subject%2F11cc495ae64e477a9b099c30e240143f",
     "avatarAlt": "程序猿读书雷达 - 独家号",
@@ -20,19 +10,9 @@
     "homeUrl": "/subjects/114561"
   },
   {
-    "title": "万字长文：彻底搞懂容器镜像构建",
-    "description": "大家好，我是张晋涛。我将在这篇文章中深入 Docker 的源码，与你聊聊镜像构建的原理。Docker 架构 这里我们先从宏观上对Docker有个大概的认识，它整体上是个 C/S 架...",
-    "votes": "73",
-    "url": "/k/le19zdx",
-    "avatar": "https://img.toutiao.io/subject%2Fea5239391eda46c1a8fd8a0299f5a0bf",
-    "avatarAlt": "k8s生态 - 独家号",
-    "subjectName": "k8s生态",
-    "homeUrl": "/subjects/55496"
-  },
-  {
     "title": "Spring Boot 中优雅的使用 Swagger 2（史上最全注解篇）",
     "description": "上篇文章讲到SpringBoot中优雅的使用Swagger2-【1/2】，还不会使用Swagger的小伙伴可以先去看上期文章。注解API使用说明作用范围APIAPI常用参数作用位置...",
-    "votes": "66",
+    "votes": "81",
     "url": "/k/2qkwu5f",
     "avatar": "https://img.toutiao.io/subject%2F9186f498f8cc465eb14818d037414109",
     "avatarAlt": "Madison龙少 - 独家号",
@@ -40,9 +20,29 @@
     "homeUrl": "/subjects/457446"
   },
   {
+    "title": "万字长文：彻底搞懂容器镜像构建",
+    "description": "大家好，我是张晋涛。我将在这篇文章中深入 Docker 的源码，与你聊聊镜像构建的原理。Docker 架构 这里我们先从宏观上对Docker有个大概的认识，它整体上是个 C/S 架...",
+    "votes": "77",
+    "url": "/k/le19zdx",
+    "avatar": "https://img.toutiao.io/subject%2Fea5239391eda46c1a8fd8a0299f5a0bf",
+    "avatarAlt": "k8s生态 - 独家号",
+    "subjectName": "k8s生态",
+    "homeUrl": "/subjects/55496"
+  },
+  {
+    "title": "浅谈分库分表那些事儿",
+    "description": " 本文适合：需要从单库单表改造为多库多表的新手。本文主要阐述在分库分表改造过程中需要考虑的因素以及对应的解法，还有踩过的那些坑。一  前言我们既然要做分库分表，那总要有个做事的动机...",
+    "votes": "75",
+    "url": "/k/vulmd0h",
+    "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
+  },
+  {
     "title": "权限体系设计：网易有数 BI 功能品鉴",
     "description": "权限体系是所有BI产品都会涉及的一个重要组成部分，目的是对不同的人访问资源进行权限控制，避免因权限控制缺失或操作不当引发的风险，如隐私数据泄露等问题。有数BI权限体系设计的初衷，希...",
-    "votes": "59",
+    "votes": "62",
     "url": "/k/nvr0l12",
     "avatar": "https://img.toutiao.io/subject%2F8e12ef64799649acbfd936883ef16c3c",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -52,7 +52,7 @@
   {
     "title": "加密技术的未来：从服务端密码存储到用户数据加密方案",
     "description": "经作者授权转载，原文链接，作者：Roronoa Zoro本文主要讲常见场景的数据加密方案，以及对未来加密技术的展望，先看几条新闻：Facebook 明文存储用户密码：Hundred...",
-    "votes": "64",
+    "votes": "65",
     "url": "/k/lq6l2fa",
     "avatar": "https://img.toutiao.io/default-avatar.png",
     "avatarAlt": "u581010的独家号 - 独家号",
@@ -60,19 +60,9 @@
     "homeUrl": "/subjects/457154"
   },
   {
-    "title": "为什么 Kubernetes 要替换 Docker",
-    "description": "Kubernetes 是今天容器编排领域的事实标准，而 Docker 从诞生之日到今天都在容器中扮演着举足轻重的地位，也都是 Kubernetes 中的默认容器引擎。然而在 202...",
-    "votes": "54",
-    "url": "/k/uhmrz9z",
-    "avatar": "https://img.toutiao.io/subject%2Fb74e6991f2de41dbb21d7eef58177d64",
-    "avatarAlt": "面向信仰编程 - 独家号",
-    "subjectName": "面向信仰编程",
-    "homeUrl": "/subjects/90130"
-  },
-  {
     "title": "面试官常问的垃圾回收器，这次全搞懂",
     "description": "❝ 本文已被Github仓库收录 https://github.com/silently9527/JavaCore❞ 前言 前几天写了一篇《JVM性能调优实战：让你的Intelli...",
-    "votes": "48",
+    "votes": "49",
     "url": "/k/7aczn5o",
     "avatar": "https://img.toutiao.io/subject%2Fcf73e0d43ba244d0b40c1bcfa2fc87b4",
     "avatarAlt": "贝塔学Java - 独家号",
@@ -80,14 +70,24 @@
     "homeUrl": "/subjects/456107"
   },
   {
-    "title": "Synchronized 升级到重量级锁之后就下不来了？你错了",
-    "description": "你好，我是 yes。昨天的一篇关于 Synchronized 的一个点，网上99%的文章都错了发了之后有很多读者私聊我，感觉打破了对轻量级锁升级的一个认知。然后有一位读者的留言倒是...",
-    "votes": "47",
-    "url": "/k/puahuvi",
-    "avatar": "https://img.toutiao.io/subject%2F71da457007fd4b67a45253b271a25eee",
-    "avatarAlt": "yes的练级攻略 - 独家号",
-    "subjectName": "yes的练级攻略",
-    "homeUrl": "/subjects/443906"
+    "title": "我成长最快的那五年",
+    "description": "本次分享的经历是我在上海从2013-2018年的工作过程记录，这 5年是我成长最快速的阶段。初入职场<2013-2014>在去上海找工作之前，我加了很多技术交流群，问过里面参加工作...",
+    "votes": "57",
+    "url": "/k/6mcd3q3",
+    "avatar": "https://img.toutiao.io/subject%2F4ec01fe4f2db4a7e8b002bf408b128ed",
+    "avatarAlt": "码个蛋 - 独家号",
+    "subjectName": "码个蛋",
+    "homeUrl": "/subjects/102848"
+  },
+  {
+    "title": "如何构建你的沟通场域",
+    "description": "这是我的第41篇原创  很荣幸，昨天作为特邀嘉宾给奈学教育的架构师们分享一些跨部门沟通协调心得，全部是实操干货，每一个动作都能帮助你解决实际问题。一共50页ppt，咱开始吧！ OK...",
+    "votes": "44",
+    "url": "/k/dujfhzb",
+    "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
+    "avatarAlt": "进击的程序猿 - 独家号",
+    "subjectName": "进击的程序猿",
+    "homeUrl": "/subjects/24912"
   },
   {
     "title": "如何优雅的让 3 个线程打印 ABC",
@@ -100,39 +100,9 @@
     "homeUrl": "/subjects/137785"
   },
   {
-    "title": "我成长最快的那五年",
-    "description": "本次分享的经历是我在上海从2013-2018年的工作过程记录，这 5年是我成长最快速的阶段。初入职场<2013-2014>在去上海找工作之前，我加了很多技术交流群，问过里面参加工作...",
-    "votes": "51",
-    "url": "/k/6mcd3q3",
-    "avatar": "https://img.toutiao.io/subject%2F4ec01fe4f2db4a7e8b002bf408b128ed",
-    "avatarAlt": "码个蛋 - 独家号",
-    "subjectName": "码个蛋",
-    "homeUrl": "/subjects/102848"
-  },
-  {
-    "title": "如何构建你的沟通场域",
-    "description": "这是我的第41篇原创  很荣幸，昨天作为特邀嘉宾给奈学教育的架构师们分享一些跨部门沟通协调心得，全部是实操干货，每一个动作都能帮助你解决实际问题。一共50页ppt，咱开始吧！ OK...",
-    "votes": "40",
-    "url": "/k/dujfhzb",
-    "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
-    "avatarAlt": "进击的程序猿 - 独家号",
-    "subjectName": "进击的程序猿",
-    "homeUrl": "/subjects/24912"
-  },
-  {
-    "title": "直播与 RTC 融合",
-    "description": "1. 背景介绍直播和RTC（Real Time Communication）技术一直是以两种完全不同的形态发展的。直播通常应用于广播电视、体育赛事直播、游戏直播、秀场直播等场合，而...",
-    "votes": "42",
-    "url": "/k/lexvyfc",
-    "avatar": "https://img.toutiao.io/subject%2F4c72971aff5c4e73821ac59b18ff5dd6",
-    "avatarAlt": "程序员的朋友圈 - 独家号",
-    "subjectName": "程序员的朋友圈",
-    "homeUrl": "/subjects/378"
-  },
-  {
     "title": "OCTO 2.0：美团基于 Service Mesh 的服务治理系统详解",
     "description": "总第438篇2021年 第008篇OCTO 2.0是美团下一代分布式服务治理系统，它基于美团现有服务治理系统OCTO 1.0与Service Mesh通信基础设施层的结合，是命名服...",
-    "votes": "41",
+    "votes": "43",
     "url": "/k/mms9xqu",
     "avatar": "https://img.toutiao.io/subject%2F9f2f107b71194e418f7dc2cc301aa452",
     "avatarAlt": "美团技术团队 - 独家号",
@@ -140,39 +110,19 @@
     "homeUrl": "/subjects/117027"
   },
   {
-    "title": "看的书多，就有用吗？",
-    "description": "大家好，我是袁吴范。最近面试，我问的最多的问题就是：你的职业规划是什么？你打算准备怎么去实现？第一个问题，基本上都能回答的上来。想要成为技术大牛，或者成为技术管理者等等。第二个问题...",
-    "votes": "48",
-    "url": "/k/4xmlwst",
-    "avatar": "https://img.toutiao.io/subject%2F2d6acb5e10d74d418b835f039664ab16",
-    "avatarAlt": "pointers - 独家号",
-    "subjectName": "pointers",
-    "homeUrl": "/subjects/451915"
-  },
-  {
-    "title": "业务开发的价值",
-    "description": "说一下我个人的经历，其实在我刚毕业的第一家公司里，做的就是底层的中间件开发。但是做的过程中，觉得并不喜欢这种远离实际业务的感觉，所以后来换工作的时候就有意的选择了业务部门。所以，今...",
-    "votes": "38",
-    "url": "/k/s8mmugr",
-    "avatar": "https://img.toutiao.io/subject%2F4dfe01622bf94a97a3ecd1d781905956",
-    "avatarAlt": "wilde fox - 独家号",
-    "subjectName": "wilde fox",
-    "homeUrl": "/subjects/12597"
-  },
-  {
-    "title": "聊聊项目打包发布到 maven 私仓常见的几种方式",
-    "description": " 点击上方蓝字关注我们01前言 在早期没有使用maven之前，我们引用一些公有jar或者api jar，我们可能会采用这样的方式，通过手动导入这些jar到项目的classpath路...",
-    "votes": "27",
-    "url": "/k/7sexyoc",
-    "avatar": "https://img.toutiao.io/subject%2Ff13d5c901ebe4d5f9509d20e36f1ee33",
-    "avatarAlt": "linyb极客之路 - 独家号",
-    "subjectName": "linyb极客之路",
-    "homeUrl": "/subjects/406737"
+    "title": "直播与 RTC 融合",
+    "description": "1. 背景介绍直播和RTC（Real Time Communication）技术一直是以两种完全不同的形态发展的。直播通常应用于广播电视、体育赛事直播、游戏直播、秀场直播等场合，而...",
+    "votes": "44",
+    "url": "/k/lexvyfc",
+    "avatar": "https://img.toutiao.io/subject%2F4c72971aff5c4e73821ac59b18ff5dd6",
+    "avatarAlt": "程序员的朋友圈 - 独家号",
+    "subjectName": "程序员的朋友圈",
+    "homeUrl": "/subjects/378"
   },
   {
     "title": "[译] 如何优雅地关闭 Kubernetes 集群中的 Pod",
     "description": "原文标题：Gracefully Shutting Down Pods in a Kubernetes Cluster发布时间：Jan 26, 2019原文链接：https://bl...",
-    "votes": "26",
+    "votes": "36",
     "url": "/k/2n1unis",
     "avatar": "https://img.toutiao.io/subject%2F5a80999e5b844812b72eedbc7f5fb5be",
     "avatarAlt": "网管叨bi叨 - 独家号",
@@ -180,23 +130,73 @@
     "homeUrl": "/subjects/437466"
   },
   {
-    "title": "如何将 Canvas 绘制过程转为视频",
-    "description": "如果我们用 Canvas 实现了一些动画效果，需要将它回放出来，很多人通常就是用录屏工具将屏幕内容录下来播放，很少有人知道，Canvas 可以直接通过现代浏览器支持的 Media ...",
-    "votes": "33",
-    "url": "/k/eg2ql65",
-    "avatar": "https://img.toutiao.io/subject%2F2661709a3af44375b6f3b7522ac60189",
-    "avatarAlt": "太空编程 - 独家号",
-    "subjectName": "太空编程",
-    "homeUrl": "/subjects/454552"
+    "title": "看的书多，就有用吗？",
+    "description": "大家好，我是袁吴范。最近面试，我问的最多的问题就是：你的职业规划是什么？你打算准备怎么去实现？第一个问题，基本上都能回答的上来。想要成为技术大牛，或者成为技术管理者等等。第二个问题...",
+    "votes": "50",
+    "url": "/k/4xmlwst",
+    "avatar": "https://img.toutiao.io/subject%2F2d6acb5e10d74d418b835f039664ab16",
+    "avatarAlt": "pointers - 独家号",
+    "subjectName": "pointers",
+    "homeUrl": "/subjects/451915"
+  },
+  {
+    "title": "卧槽，线上数据删错了，差点被老板开除",
+    "description": " 前言无论是开发、测试，还是DBA，都难免会涉及到数据库的操作，比如：创建某张表，添加某个字段、添加数据、更新数据、删除数据、查询数据等等。正常情况下还好，但如果操作数据库时出现失...",
+    "votes": "34",
+    "url": "/k/exd77nu",
+    "avatar": "https://img.toutiao.io/subject%2F0aae3536b7d44492b1974b1077394f7d",
+    "avatarAlt": "苏三说技术 - 独家号",
+    "subjectName": "苏三说技术",
+    "homeUrl": "/subjects/453205"
+  },
+  {
+    "title": "[译] ClickHouse 在日志存储与分析方面作为 ElasticSearch 和 MySQL 的替代方案",
+    "description": "2018年，我写过一篇关于Clickhouse的文章，这段内容在互联网上仍然很流行，甚至被多次翻译。现在已经过去两年多，同时 Clickhouse 的开发节奏仍然活跃: 上个月有 ...",
+    "votes": "29",
+    "url": "/k/cccopgf",
+    "avatar": "https://img.toutiao.io/subject%2F17c0544998e140628615896d2fc161b8",
+    "avatarAlt": "雨后天空的独家号 - 独家号",
+    "subjectName": "雨后天空的独家号",
+    "homeUrl": "/subjects/382106"
+  },
+  {
+    "title": "聊聊项目打包发布到 maven 私仓常见的几种方式",
+    "description": " 点击上方蓝字关注我们01前言 在早期没有使用maven之前，我们引用一些公有jar或者api jar，我们可能会采用这样的方式，通过手动导入这些jar到项目的classpath路...",
+    "votes": "29",
+    "url": "/k/7sexyoc",
+    "avatar": "https://img.toutiao.io/subject%2Ff13d5c901ebe4d5f9509d20e36f1ee33",
+    "avatarAlt": "linyb极客之路 - 独家号",
+    "subjectName": "linyb极客之路",
+    "homeUrl": "/subjects/406737"
+  },
+  {
+    "title": "业务开发的价值",
+    "description": "说一下我个人的经历，其实在我刚毕业的第一家公司里，做的就是底层的中间件开发。但是做的过程中，觉得并不喜欢这种远离实际业务的感觉，所以后来换工作的时候就有意的选择了业务部门。所以，今...",
+    "votes": "40",
+    "url": "/k/s8mmugr",
+    "avatar": "https://img.toutiao.io/subject%2F4dfe01622bf94a97a3ecd1d781905956",
+    "avatarAlt": "wilde fox - 独家号",
+    "subjectName": "wilde fox",
+    "homeUrl": "/subjects/12597"
   },
   {
     "title": "数仓已死？数据湖当立",
     "description": "前言前两天，我详细剖析了一下这两天脉脉上很火的数据建模帖子。指出来帖子里百度小哥“只见宽表不见建模”的核心原因是整个数据圈的核心逻辑变了。 然后就引起了建模群里一帮人在疯狂吐槽。 ...",
-    "votes": "25",
+    "votes": "26",
     "url": "/k/tpejrbn",
     "avatar": "https://img.toutiao.io/subject%2Fd84454c59ea74fa294fc36c49d2713be",
     "avatarAlt": "彭老师的小助理 - 独家号",
     "subjectName": "彭老师的小助理",
     "homeUrl": "/subjects/457085"
+  },
+  {
+    "title": "一文搞懂 Kubernetes 网络策略（上）",
+    "description": " 今天zouyee为大家带来《一文搞懂Kubernetes网络策略（上）》，其中《kuberneter调度由浅入深：框架》正在编写中，敬请期待，当前涉及版本均为1.20.+。一、N...",
+    "votes": "29",
+    "url": "/k/j889c3j",
+    "avatar": "https://img.toutiao.io/default-avatar.png",
+    "avatarAlt": "DCOS - 独家号",
+    "subjectName": "DCOS",
+    "homeUrl": "/subjects/457350"
   }
 ]

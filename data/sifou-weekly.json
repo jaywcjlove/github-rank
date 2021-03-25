@@ -5,7 +5,7 @@
     "url": "https://segmentfault.com/a/1190000039682751",
     "author": "独钓寒江雪",
     "home_url": "https://segmentfault.com/u/king_hcj",
-    "votes": "28",
+    "votes": "31",
     "rank": 1
   },
   {
@@ -14,7 +14,7 @@
     "url": "https://segmentfault.com/a/1190000039691166",
     "author": "夜尽天明",
     "home_url": "https://segmentfault.com/u/biaochenxuying",
-    "votes": "23",
+    "votes": "27",
     "rank": 2
   },
   {
@@ -32,7 +32,7 @@
     "url": "https://segmentfault.com/a/1190000039665794",
     "author": "万年打野易大师",
     "home_url": "https://segmentfault.com/u/faker_5acebe0256c30",
-    "votes": "15",
+    "votes": "17",
     "rank": 4
   },
   {
@@ -41,8 +41,26 @@
     "url": "https://segmentfault.com/a/1190000039684460",
     "author": "wuwhs",
     "home_url": "https://segmentfault.com/u/wuwhs",
-    "votes": "16",
+    "votes": "17",
     "rank": 5
+  },
+  {
+    "title": "SeaTable 开发者版可以运行 Python 了，开发自定义数据处理流程更方便",
+    "description": "又填新功能了！从 1.8.0 版开始，SeaTable 开发者版加入了运行 Python 的能力（具体配置请查看使用手册），我们可以更方便地快速开发自定义数据处理流程了，让开发小应用变得更简单更有想象力。",
+    "url": "https://segmentfault.com/a/1190000039692901",
+    "author": "SeaTable开发者版",
+    "home_url": "https://segmentfault.com/u/seatable",
+    "votes": "9",
+    "rank": 6
+  },
+  {
+    "title": "Redis 高可用篇：你管这叫主从架构数据同步原理？",
+    "description": "在《Redis 核心篇：唯快不破的秘密》中，「码哥」揭秘了 Redis 五大数据类型底层的数据结构、IO 模型、线程模型、渐进式 rehash 掌握了 Redis 快的本质原因。",
+    "url": "https://segmentfault.com/a/1190000039670541",
+    "author": "码哥字节",
+    "home_url": "https://segmentfault.com/u/magebyte",
+    "votes": "15",
+    "rank": 7
   },
   {
     "title": "这 7 道关于 this 的面试题，你能答对几个？",
@@ -51,42 +69,24 @@
     "author": "疯狂的技术宅",
     "home_url": "https://segmentfault.com/u/evilboy",
     "votes": "14",
-    "rank": 6
-  },
-  {
-    "title": "超详细讲解！10 种常见的软件架构模式",
-    "description": "想知道如何设计大型企业级的系统吗？在开始主要的代码开发之前，我们必须选择一种合适的体系架构，它将为我们提供所需的功能和质量属性。因此，在将它们应用到我们的设计之前，应该先了解不同的体系结构。",
-    "url": "https://segmentfault.com/a/1190000039653303",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "10",
-    "rank": 7
-  },
-  {
-    "title": "前端搞工程化：揭秘自动化部署系统（一）",
-    "description": "发 npm 包对于稍微大点的厂来说都是个频繁需求，因此本地执行计算版本命令以及 npm publish 都是不大可行的，大都会有一个单独的部署系统去自动帮助我们完成这个事情。",
-    "url": "https://segmentfault.com/a/1190000039653744",
-    "author": "y_ck",
-    "home_url": "https://segmentfault.com/u/user_ngjv5fmp",
-    "votes": "7",
     "rank": 8
   },
   {
-    "title": "Redis 高可用篇：你管这叫主从架构数据同步原理？",
-    "description": "在《Redis 核心篇：唯快不破的秘密》中，「码哥」揭秘了 Redis 五大数据类型底层的数据结构、IO 模型、线程模型、渐进式 rehash 掌握了 Redis 快的本质原因。",
-    "url": "https://segmentfault.com/a/1190000039670541",
-    "author": "码哥字节",
-    "home_url": "https://segmentfault.com/u/magebyte",
-    "votes": "13",
+    "title": "Fes.js for Vue3，简洁却不简单",
+    "description": "Fes.js 是一套优秀的中后台前端解决方案。提供初始项目，开发调试，模拟接口，编译打包的命令行工具。内置布局，权限，数据字典，状态管理，存储，API 等多个模块。以约定，配置化，组件化的设计思想，让用户只需...",
+    "url": "https://segmentfault.com/a/1190000039688151",
+    "author": "微众开源",
+    "home_url": "https://segmentfault.com/u/webankopensource",
+    "votes": "11",
     "rank": 9
   },
   {
-    "title": "常见排序算法总结和 Go 标准库排序源码分析",
-    "description": "排序算法是数组相关算法的基础知识之一，它们的经典思想可以用于很多算法之中。这里详细介绍和总结 7 种最常见排序算法，并用 Go 做了实现，同时对比这几种算法的时间复杂度、空间复杂度和稳定性 。后一部分是对 ...",
-    "url": "https://segmentfault.com/a/1190000039668324",
-    "author": "lryong",
-    "home_url": "https://segmentfault.com/u/lryong",
-    "votes": "8",
+    "title": "超全整理！Linux 性能分析工具汇总",
+    "description": "出于对Linux操作系统的兴趣，以及对底层知识的强烈欲望，因此整理了这篇文章。本文也可以作为检验基础知识的指标，另外文章涵盖了一个系统的方方面面。如果没有完善的计算机系统知识，网络知识和操作系统知识，文...",
+    "url": "https://segmentfault.com/a/1190000039686348",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "11",
     "rank": 10
   },
   {
@@ -95,16 +95,16 @@
     "url": "https://segmentfault.com/a/1190000039676989",
     "author": "MarkerHub",
     "home_url": "https://segmentfault.com/u/markerhub",
-    "votes": "13",
+    "votes": "14",
     "rank": 11
   },
   {
-    "title": "议题征集！中国首届开发者生态峰会来了",
-    "description": "中国开发者生态峰会 Developer Ecosystem Summit China 是由 SegmentFault 思否发起的，面向 to D Marketing、开发者运营、开发者关系从业者的交流活动，首届中国开发者生态峰会将于 2021 年 5 月底通过线上直播 ...",
-    "url": "https://segmentfault.com/a/1190000039694523",
-    "author": "SegmentFault",
-    "home_url": "https://segmentfault.com/u/segmentfault",
-    "votes": "4",
+    "title": "ES2019 中 8 个非常有用的功能",
+    "description": "ES2019 规范是对 JavaScript的小规模扩展，但仍带来了一些有趣的功能。本文向你展示八个 ES2019 的功能，这些功能可以使你的开发变得更轻松。",
+    "url": "https://segmentfault.com/a/1190000039366852",
+    "author": "疯狂的技术宅",
+    "home_url": "https://segmentfault.com/u/evilboy",
+    "votes": "8",
     "rank": 12
   },
   {
@@ -113,8 +113,44 @@
     "url": "https://segmentfault.com/a/1190000039667610",
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "10",
+    "votes": "11",
     "rank": 13
+  },
+  {
+    "title": "关于从入门three.js到做出3d地球这件事(第二篇: 开发必备的辅助技能)",
+    "description": "开发3d效果的时候, 不能每次都通过刷新页面来更新图像, 我们工程师当然会发明出相应的工具辅助开发工作, 这一篇我们一起学习三个好用的工具, 让我们的开发更畅快。",
+    "url": "https://segmentfault.com/a/1190000039683111",
+    "author": "lulu_up",
+    "home_url": "https://segmentfault.com/u/lulu_up",
+    "votes": "17",
+    "rank": 14
+  },
+  {
+    "title": "常见排序算法总结和 Go 标准库排序源码分析",
+    "description": "排序算法是数组相关算法的基础知识之一，它们的经典思想可以用于很多算法之中。这里详细介绍和总结 7 种最常见排序算法，并用 Go 做了实现，同时对比这几种算法的时间复杂度、空间复杂度和稳定性 。后一部分是对 ...",
+    "url": "https://segmentfault.com/a/1190000039668324",
+    "author": "lryong",
+    "home_url": "https://segmentfault.com/u/lryong",
+    "votes": "8",
+    "rank": 15
+  },
+  {
+    "title": "议题征集！中国首届开发者生态峰会来了",
+    "description": "中国开发者生态峰会 Developer Ecosystem Summit China 是由 SegmentFault 思否发起的，面向 to D Marketing、开发者运营、开发者关系从业者的交流活动，首届中国开发者生态峰会将于 2021 年 6 月初通过线上直播 ...",
+    "url": "https://segmentfault.com/a/1190000039694523",
+    "author": "SegmentFault",
+    "home_url": "https://segmentfault.com/u/segmentfault",
+    "votes": "4",
+    "rank": 16
+  },
+  {
+    "title": "如何编写更好的 JS 代码！",
+    "description": "点赞再看，微信搜索【大迁世界】,B站关注【前端小智】这个没有大厂背景，但有着一股向上积极心态人。本文 GitHub [链接] 上已经收录，文章的已分类，也整理了很多我的文档，和教程资料。",
+    "url": "https://segmentfault.com/a/1190000039182201",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "11",
+    "rank": 17
   },
   {
     "title": "探索 Snabbdom 模块系统原理",
@@ -123,42 +159,6 @@
     "author": "pingan8787",
     "home_url": "https://segmentfault.com/u/pingan8787",
     "votes": "5",
-    "rank": 14
-  },
-  {
-    "title": "如何编写更好的 JS 代码！",
-    "description": "点赞再看，微信搜索【大迁世界】,B站关注【前端小智】这个没有大厂背景，但有着一股向上积极心态人。本文 GitHub [链接] 上已经收录，文章的已分类，也整理了很多我的文档，和教程资料。",
-    "url": "https://segmentfault.com/a/1190000039182201",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "10",
-    "rank": 15
-  },
-  {
-    "title": "如何在CSS中映射的鼠标位置，并实现通过鼠标移动控制页面元素效果",
-    "description": "映射鼠标位置或实现拖拽效果，我们可以在 JavaScript 中做到这一点。但实际上，在CSS中有更加简洁的方法，我们可以在不使用JavaScript 的情况下，仍然可以实现相同的功能！",
-    "url": "https://segmentfault.com/a/1190000039670133",
-    "author": "dragonir",
-    "home_url": "https://segmentfault.com/u/dragonir",
-    "votes": "10",
-    "rank": 16
-  },
-  {
-    "title": "Fes.js for Vue3，简洁却不简单",
-    "description": "Fes.js 是一套优秀的中后台前端解决方案。提供初始项目，开发调试，模拟接口，编译打包的命令行工具。内置布局，权限，数据字典，状态管理，存储，API 等多个模块。以约定，配置化，组件化的设计思想，让用户只需...",
-    "url": "https://segmentfault.com/a/1190000039688151",
-    "author": "微众开源",
-    "home_url": "https://segmentfault.com/u/webankopensource",
-    "votes": "9",
-    "rank": 17
-  },
-  {
-    "title": "用户体验细化，增强型的 <input type=number>",
-    "description": "点赞再看，微信搜索【大迁世界】,B站关注【前端小智】这个没有大厂背景，但有着一股向上积极心态人。本文 GitHub [链接] 上已经收录，文章的已分类，也整理了很多我的文档，和教程资料。",
-    "url": "https://segmentfault.com/a/1190000039648640",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "6",
     "rank": 18
   },
   {
@@ -167,26 +167,53 @@
     "url": "https://segmentfault.com/a/1190000039684203",
     "author": "小傅哥",
     "home_url": "https://segmentfault.com/u/fuzhengwei",
-    "votes": "14",
+    "votes": "15",
     "rank": 19
   },
   {
-    "title": "超全整理！Linux 性能分析工具汇总",
-    "description": "出于对Linux操作系统的兴趣，以及对底层知识的强烈欲望，因此整理了这篇文章。本文也可以作为检验基础知识的指标，另外文章涵盖了一个系统的方方面面。如果没有完善的计算机系统知识，网络知识和操作系统知识，文...",
-    "url": "https://segmentfault.com/a/1190000039686348",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "8",
+    "title": "Flutter Web在美团外卖的实践",
+    "description": "美团外卖商家端业务围绕数百万商家，在 PC 和 App 上分别提供了交易履约、运营、广告、营销等一系列功能，且经常有外投 H5 的场景（如外卖学院、商家社区、营销活动等）。在这种多形态的业务场景下，如何保障多端...",
+    "url": "https://segmentfault.com/a/1190000039672515",
+    "author": "美团技术团队",
+    "home_url": "https://segmentfault.com/u/meituanjishutuandui",
+    "votes": "7",
     "rank": 20
   },
   {
-    "title": "用装饰器模式增强 fetch()",
-    "description": "fetch() 的用法非常简单：通过调用 fetch('/movies.json') 启动请求，请求完成后得到一个 Response 对象，然后从中提取数据。",
-    "url": "https://segmentfault.com/a/1190000039366767",
+    "title": "写TypeScript代码的10种坏习惯",
+    "description": "近几年 TypeScript 和 JavaScript 一直在稳步发展。我们在过去写代码时养成了一些习惯，而有些习惯却没有什么意义。以下是我们都应该改正的 10 个坏习惯。",
+    "url": "https://segmentfault.com/a/1190000039368534",
     "author": "疯狂的技术宅",
     "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "4",
+    "votes": "16",
     "rank": 21
+  },
+  {
+    "title": "如何在CSS中映射的鼠标位置，并实现通过鼠标移动控制页面元素效果",
+    "description": "映射鼠标位置或实现拖拽效果，我们可以在 JavaScript 中做到这一点。但实际上，在CSS中有更加简洁的方法，我们可以在不使用JavaScript 的情况下，仍然可以实现相同的功能！",
+    "url": "https://segmentfault.com/a/1190000039670133",
+    "author": "dragonir",
+    "home_url": "https://segmentfault.com/u/dragonir",
+    "votes": "10",
+    "rank": 22
+  },
+  {
+    "title": "Docker部署Prometheus+Grafana监控系统",
+    "description": "Prometheus使用Go语言开发，是Google BorgMon监控系统的开源版本。2016年由Google发起Linux基金会旗下的原生云基金会(Cloud Native Computing Foundation), 将Prometheus纳入其下第二大开源项目。Prometheus目前...",
+    "url": "https://segmentfault.com/a/1190000039671651",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "7",
+    "rank": 23
+  },
+  {
+    "title": "从头写一个 React-like 框架：工程搭建",
+    "description": "最近在网上看到了 Build your own React 这篇文章，作者从零开始实现了一个简易类 React 框架，虽然没有过多的优化，但 React 中的核心思想 Concurrent Mode，Fiber Reconciler 等都有实现，看完后对理解 React ...",
+    "url": "https://segmentfault.com/a/1190000039668066",
+    "author": "Showonne",
+    "home_url": "https://segmentfault.com/u/showonne",
+    "votes": "6",
+    "rank": 24
   },
   {
     "title": "前端 VS 后端？程序员该如何进行职业选择",
@@ -195,7 +222,7 @@
     "author": "芒果果",
     "home_url": "https://segmentfault.com/u/wangying_5ea4fb9de961c",
     "votes": "5",
-    "rank": 22
+    "rank": 25
   },
   {
     "title": "如何实现深浅拷贝",
@@ -204,16 +231,7 @@
     "author": "春天的风夏天的雨",
     "home_url": "https://segmentfault.com/u/chuntiandefengxiatiandeyu",
     "votes": "7",
-    "rank": 23
-  },
-  {
-    "title": "关于从入门three.js到做出3d地球这件事(第二篇: 开发必备的辅助技能)",
-    "description": "开发3d效果的时候, 不能每次都通过刷新页面来更新图像, 我们工程师当然会发明出相应的工具辅助开发工作, 这一篇我们一起学习三个好用的工具, 让我们的开发更畅快。",
-    "url": "https://segmentfault.com/a/1190000039683111",
-    "author": "lulu_up",
-    "home_url": "https://segmentfault.com/u/lulu_up",
-    "votes": "15",
-    "rank": 24
+    "rank": 26
   },
   {
     "title": "关于 Node.js 中的异步迭代器",
@@ -222,24 +240,6 @@
     "author": "疯狂的技术宅",
     "home_url": "https://segmentfault.com/u/evilboy",
     "votes": "5",
-    "rank": 25
-  },
-  {
-    "title": "聊聊Javascript 垃圾回收机制(二)-V8引擎下的垃圾回收机制",
-    "description": "上文大概介绍了垃圾回收的机制和标记清除法的核心思路， 接下来准备深入介绍下v8引擎里的垃圾回收算法。 既然是算法类的介绍，那自然是比较枯燥的，如果想完全弄懂，可以收藏下来，多看几遍（!·_·!）。",
-    "url": "https://segmentfault.com/a/1190000039658911",
-    "author": "安歌",
-    "home_url": "https://segmentfault.com/u/linlinma",
-    "votes": "10",
-    "rank": 26
-  },
-  {
-    "title": "Docker部署Prometheus+Grafana监控系统",
-    "description": "Prometheus使用Go语言开发，是Google BorgMon监控系统的开源版本。2016年由Google发起Linux基金会旗下的原生云基金会(Cloud Native Computing Foundation), 将Prometheus纳入其下第二大开源项目。Prometheus目前...",
-    "url": "https://segmentfault.com/a/1190000039671651",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "6",
     "rank": 27
   },
   {
@@ -252,20 +252,20 @@
     "rank": 28
   },
   {
-    "title": "Flutter Web在美团外卖的实践",
-    "description": "美团外卖商家端业务围绕数百万商家，在 PC 和 App 上分别提供了交易履约、运营、广告、营销等一系列功能，且经常有外投 H5 的场景（如外卖学院、商家社区、营销活动等）。在这种多形态的业务场景下，如何保障多端...",
-    "url": "https://segmentfault.com/a/1190000039672515",
-    "author": "美团技术团队",
-    "home_url": "https://segmentfault.com/u/meituanjishutuandui",
-    "votes": "6",
+    "title": "Chrome浏览器地址栏配置二维码自动生成工具",
+    "description": "打开Chrome浏览器新开一个窗口地址栏输入 chrome://flags/ 搜索qr code 下拉框选择Enable选项 重启浏览器即可 点击需要生成二维码的网页地址栏 出现如下图标 点击小图标即可吧当前网址生成二维码",
+    "url": "https://segmentfault.com/a/1190000039694830",
+    "author": "浅夏晴空",
+    "home_url": "https://segmentfault.com/u/qianxiaqingkong",
+    "votes": "5",
     "rank": 29
   },
   {
-    "title": "从头写一个 React-like 框架：工程搭建",
-    "description": "最近在网上看到了 Build your own React 这篇文章，作者从零开始实现了一个简易类 React 框架，虽然没有过多的优化，但 React 中的核心思想 Concurrent Mode，Fiber Reconciler 等都有实现，看完后对理解 React ...",
-    "url": "https://segmentfault.com/a/1190000039668066",
-    "author": "Showonne",
-    "home_url": "https://segmentfault.com/u/showonne",
+    "title": "有哪些道理是我当了程序员后才知道的？",
+    "description": "前几天在知乎给我推送了一个话题：有哪些道理是你当了程序员后才知道的？然后当时我就花了几分钟的时间去回答了一下。嘿，你猜怎么着？我发现我一个知乎小透明，给这个回答点赞的人还挺多：我也在公众号里面给大...",
+    "url": "https://segmentfault.com/a/1190000039685994",
+    "author": "why技术",
+    "home_url": "https://segmentfault.com/u/whyjishu",
     "votes": "5",
     "rank": 30
   }
