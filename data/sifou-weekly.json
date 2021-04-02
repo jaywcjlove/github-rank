@@ -9,31 +9,13 @@
     "rank": 1
   },
   {
-    "title": "那些年错过的React组件单元测试（上）",
-    "description": "关于前端单元测试，其实两年前我就已经关注了，但那时候只是简单的知道断言，想着也不是太难的东西，项目中也没有用到，然后就想当然的认为自己就会了。",
-    "url": "https://segmentfault.com/a/1190000039710016",
-    "author": "前端森林",
-    "home_url": "https://segmentfault.com/u/fengshuan",
-    "votes": "20",
-    "rank": 2
-  },
-  {
     "title": "灵魂拷问！浏览器输入「xxxxhub」的背后.....",
     "description": "到现在为止，我们算是把应用层、运输层、网络层和数据链路层都介绍完了，那么现在是时候把这些内容都串起来，做一个全面的回顾了。那么我这就以 Web 页面的请求历程为例，来和你聊聊计算机网络中这些协议是怎样工...",
     "url": "https://segmentfault.com/a/1190000039738922",
     "author": "程序员cxuan",
     "home_url": "https://segmentfault.com/u/cxuan",
-    "votes": "15",
-    "rank": 3
-  },
-  {
-    "title": "专访中科院副总工程师武延军：“参与开源人数变多是好事，但要小心「开源踩踏事件」”",
-    "description": "不久前，「一源初始，开放共创」开放原子开源基金会 2020 年度峰会于北京圆满落幕。峰会由开放原子开源基金会主办，阿里巴巴、百度、华为、趣链科技、SegmentFault 思否、招商银行等开源项目代表单位及开源社区协...",
-    "url": "https://segmentfault.com/a/1190000039711332",
-    "author": "阿遂_Asui",
-    "home_url": "https://segmentfault.com/u/asui_83x0",
-    "votes": "11",
-    "rank": 4
+    "votes": "18",
+    "rank": 2
   },
   {
     "title": "关于从入门three.js到做出3d地球这件事(第三篇: 光与影)",
@@ -41,8 +23,8 @@
     "url": "https://segmentfault.com/a/1190000039724667",
     "author": "lulu_up",
     "home_url": "https://segmentfault.com/u/lulu_up",
-    "votes": "18",
-    "rank": 5
+    "votes": "21",
+    "rank": 3
   },
   {
     "title": "常见的8个前端防御性编程方案",
@@ -50,8 +32,8 @@
     "url": "https://segmentfault.com/a/1190000039737887",
     "author": "Peter谭老师",
     "home_url": "https://segmentfault.com/u/jerrytanjinjie",
-    "votes": "9",
-    "rank": 6
+    "votes": "10",
+    "rank": 4
   },
   {
     "title": "专访 Tetrate.io 创始工程师吴晟：开源领域需要 40+ 的开发者，也需要更张扬的年轻人",
@@ -60,7 +42,16 @@
     "author": "阿遂_Asui",
     "home_url": "https://segmentfault.com/u/asui_83x0",
     "votes": "8",
-    "rank": 7
+    "rank": 5
+  },
+  {
+    "title": "浏览器存储那些事",
+    "description": "随着移动网络的发展与演化，我们手机上现在除了有原生 App，还能跑“WebApp”——它即开即用，用完即走。一个优秀的 WebApp 甚至可以拥有和原生 App 媲美的功能和体验。WebApp 优异的性能表现，有一部分原因要归功于...",
+    "url": "https://segmentfault.com/a/1190000039738537",
+    "author": "星野",
+    "home_url": "https://segmentfault.com/u/qqlcx5",
+    "votes": "11",
+    "rank": 6
   },
   {
     "title": "Web 安全简明入门指南",
@@ -69,7 +60,7 @@
     "author": "疯狂的技术宅",
     "home_url": "https://segmentfault.com/u/evilboy",
     "votes": "10",
-    "rank": 8
+    "rank": 7
   },
   {
     "title": "拖拽、平移、缩放在个性化海报中的应用",
@@ -78,25 +69,25 @@
     "author": "LeapFE",
     "home_url": "https://segmentfault.com/u/leapfe",
     "votes": "15",
+    "rank": 8
+  },
+  {
+    "title": "CSS 实现优惠券的技巧",
+    "description": "在实际 Web 开发过程中，总会遇到各种各样的布局。有公司同事问我这样一种布局有没有什么好的实现方式，就是一种在活动充值页非常普遍的优惠券效果，如下",
+    "url": "https://segmentfault.com/a/1190000039742398",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "9",
     "rank": 9
   },
   {
-    "title": "95后程序员\"财富自由\"，离职后去做......",
-    "description": "当大家看到这个视频或者文章的时候我想我应该已经离开老东家一段时间了，先对我身边的朋友和关心我的读者说一声抱歉，一直拖到现在才告诉你们这个消息。这大半年鸽了大家不少内容，没想到回归后最认真的一次更新...",
-    "url": "https://segmentfault.com/a/1190000039707705",
-    "author": "敖丙",
-    "home_url": "https://segmentfault.com/u/aobing",
-    "votes": "10",
+    "title": "Vue2.x 的双向绑定原理及实现",
+    "description": "Vue 数据双向绑定原理Vue 是利用的 Object.defineProperty() 方法进行的数据劫持，利用 set、get 来检测数据的读写。[链接]MVVM 框架主要包含两个方面，数据变化更新视图，视图变化更新数据。视图变化更新数据，...",
+    "url": "https://segmentfault.com/a/1190000039750996",
+    "author": "九旬",
+    "home_url": "https://segmentfault.com/u/ansonznl",
+    "votes": "12",
     "rank": 10
-  },
-  {
-    "title": "华为将发布六大重磅创新产品和技术，投入超 2 亿美元建设开发者生态",
-    "description": "3月25日，华为开发者大会 2021（Cloud）（简称HDC.Cloud 2021）媒体预沟通会在京召开，SegmentFault 思否作为开发者领域的垂直媒体受邀参加了此次活动。",
-    "url": "https://segmentfault.com/a/1190000039713637",
-    "author": "阿遂_Asui",
-    "home_url": "https://segmentfault.com/u/asui_83x0",
-    "votes": "7",
-    "rank": 11
   },
   {
     "title": "微信小程序类快递自动填写收发货地址功能",
@@ -105,25 +96,25 @@
     "author": "腾讯位置服务",
     "home_url": "https://segmentfault.com/u/tengxunweizhifuwu",
     "votes": "4",
+    "rank": 11
+  },
+  {
+    "title": "go语言happens-before原则及应用",
+    "description": "先抛开你所熟知的信号量、锁、同步原语等技术，思考这个问题：如何保证并发读写的准确性？一个没有任何并发编程经验的程序员可能会觉得很简单：这有什么问题呢，同时读写能有什么问题，最多就是读到过期的数据而...",
+    "url": "https://segmentfault.com/a/1190000039729417",
+    "author": "不加香菜",
+    "home_url": "https://segmentfault.com/u/chensk_605b06b9d6f8c",
+    "votes": "6",
     "rank": 12
   },
   {
-    "title": "CSS 实现优惠券的技巧",
-    "description": "在实际 Web 开发过程中，总会遇到各种各样的布局。有公司同事问我这样一种布局有没有什么好的实现方式，就是一种在活动充值页非常普遍的优惠券效果，如下",
-    "url": "https://segmentfault.com/a/1190000039742398",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "8",
+    "title": "Node交互式命令行工具开发——自动化文档工具",
+    "description": "nodejs开发命令行工具，流程相对简单，但一套完整的命令行程序开发流程下来，还是需要下点功夫，网上资料大多零散，这篇教程意在整合一下完整的开发流程。　　npm上命令行开发相关包很多，例如minimist、optimist...",
+    "url": "https://segmentfault.com/a/1190000039749423",
+    "author": "小磊",
+    "home_url": "https://segmentfault.com/u/xiaolei_599661330c0cb",
+    "votes": "6",
     "rank": 13
-  },
-  {
-    "title": "浏览器存储那些事",
-    "description": "随着移动网络的发展与演化，我们手机上现在除了有原生 App，还能跑“WebApp”——它即开即用，用完即走。一个优秀的 WebApp 甚至可以拥有和原生 App 媲美的功能和体验。WebApp 优异的性能表现，有一部分原因要归功于...",
-    "url": "https://segmentfault.com/a/1190000039738537",
-    "author": "星野",
-    "home_url": "https://segmentfault.com/u/qqlcx5",
-    "votes": "8",
-    "rank": 14
   },
   {
     "title": "刚火了的中台转头就拆，一大波公司放不下又拿不起来！",
@@ -132,34 +123,7 @@
     "author": "小傅哥",
     "home_url": "https://segmentfault.com/u/fuzhengwei",
     "votes": "3",
-    "rank": 15
-  },
-  {
-    "title": "go语言happens-before原则及应用",
-    "description": "先抛开你所熟知的信号量、锁、同步原语等技术，思考这个问题：如何保证并发读写的准确性？一个没有任何并发编程经验的程序员可能会觉得很简单：这有什么问题呢，同时读写能有什么问题，最多就是读到过期的数据而...",
-    "url": "https://segmentfault.com/a/1190000039729417",
-    "author": "不加香菜",
-    "home_url": "https://segmentfault.com/u/chensk_605b06b9d6f8c",
-    "votes": "5",
-    "rank": 16
-  },
-  {
-    "title": "一条推文就卖出290万美元！为什么别人的朋友圈那么值钱？",
-    "description": "3月22日，由社交媒体“推特”(Twitter)联合创始人、首席执行官杰克·多西(Jack Dorsey)发出的第一条推文，以非同质化代币(NFT)的形式拍卖，最终以超过290万美元的价格出售。",
-    "url": "https://segmentfault.com/a/1190000039709446",
-    "author": "白小白",
-    "home_url": "https://segmentfault.com/u/blpliz",
-    "votes": "2",
-    "rank": 17
-  },
-  {
-    "title": "js 引擎是怎样将 var 转换为 JIT 的",
-    "description": "对于现代 Web 程序，浏览器首先看到的 JavaScript 通常不是前端程序员写的。相反，它很可能是由 webpack 之类的工具产生的捆绑包，而且可能是一个相当大的捆绑包，其中包含 UI 框架，例如 React，各种 polyfills...",
-    "url": "https://segmentfault.com/a/1190000039710475",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "3",
-    "rank": 18
+    "rank": 14
   },
   {
     "title": "首次针对亚太时区的 ApacheCon 在线会议 ApacheCon Asia 2021 来了！演讲征集中……",
@@ -168,7 +132,16 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "1",
-    "rank": 19
+    "rank": 15
+  },
+  {
+    "title": "进程、线程、进程池、进程三态、同步、异步、并发、并行、串行",
+    "description": "进程什么是进程?开发写的代码我们称为程序，那么将开发的代码运行起来。我们称为进程。明白点: 当我们运行一个程序，那么我们将运行的程序叫进程。精简重点进程是申请一块内存空间,将数据放到内存空间中去, 是申...",
+    "url": "https://segmentfault.com/a/1190000039748153",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "6",
+    "rank": 16
   },
   {
     "title": "有意思！不规则边框的生成方案",
@@ -177,7 +150,7 @@
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
     "votes": "4",
-    "rank": 20
+    "rank": 17
   },
   {
     "title": "弄死 Node.js 进程有几种方法",
@@ -186,79 +159,7 @@
     "author": "疯狂的技术宅",
     "home_url": "https://segmentfault.com/u/evilboy",
     "votes": "3",
-    "rank": 21
-  },
-  {
-    "title": "从零开始掌握 HAProxy，也不难嘛！！！",
-    "description": "HAProxy提供了L4(TCP)和L7(HTTP)两种负载均衡能力，具备丰富的功能。HAProxy的社区非常活跃，版本更新快速（最新稳定版1.7.2于2017/01/13推出）。最关键的是，HAProxy具备媲美商用负载均衡器的性能和稳定性。",
-    "url": "https://segmentfault.com/a/1190000039713086",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "5",
-    "rank": 22
-  },
-  {
-    "title": "得物技术出价组DDD分层模型总结",
-    "description": "在五彩石项目启动伊始，就决定采用领域驱动模型来设计业务框架，但是由于当时好多人对该模型的不熟悉，以及对一些设定的难以理解，导致初版的代码还是存在不少mvc的影子的。随着大家对该模型的逐渐了解，一致认为...",
-    "url": "https://segmentfault.com/a/1190000039721342",
-    "author": "得物技术",
-    "home_url": "https://segmentfault.com/u/dewujishu",
-    "votes": "5",
-    "rank": 23
-  },
-  {
-    "title": "新励步课件体系介绍",
-    "description": "想必很多“投身于教育行业”的前端工程师们都绕不过“课件”这个话题，对于前端来说，课件项目是教育公司相比互联网公司特有的需求之一，对于公司来说也是及其重要的。目前教育行业我了解到的生产 h5 课件的方式大致...",
-    "url": "https://segmentfault.com/a/1190000039721399",
-    "author": "LeapFE",
-    "home_url": "https://segmentfault.com/u/leapfe",
-    "votes": "4",
-    "rank": 24
-  },
-  {
-    "title": "你一定踩过的微信H5的坑",
-    "description": "1. IOS的input光标高度问题问题：IOS的input框高度会默认占满父盒子的高度，导致光标也会撑满整个input框解决：父盒子使用上下padding撑开，不使用行高(line-height)居中2. IOS微信h5页面上下滑动时卡顿，页面缺...",
-    "url": "https://segmentfault.com/a/1190000039738460",
-    "author": "叫我欧文就好",
-    "home_url": "https://segmentfault.com/u/jiaowoouwenjiuhao",
-    "votes": "6",
-    "rank": 25
-  },
-  {
-    "title": "学习HTML-第一章HTML基础",
-    "description": "结构：(xhtml ,xml)表现：(css)ECMA制定的行为的标准;行为：（DOM ,ECMASCRIPT）结构和表现标准：1.W3C( World Wide Web Consortium )万维网联盟，创建于1994年是Web技术领域最具权威和影响力的国际中立性技术标...",
-    "url": "https://segmentfault.com/a/1190000039727481",
-    "author": "MrWang",
-    "home_url": "https://segmentfault.com/u/mrwang_5aefec8fc0f13",
-    "votes": "2",
-    "rank": 26
-  },
-  {
-    "title": "10 个最常见的 Javascript 问题",
-    "description": "作者：Duomly译者：前端小智来源：dev点赞再看，微信搜索【大迁世界】,B站关注【前端小智】这个没有大厂背景，但有着一股向上积极心态人。本文 GitHub [链接] 上已经收录，文章的已分类，也整理了很多我的文档，...",
-    "url": "https://segmentfault.com/a/1190000039738166",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "9",
-    "rank": 27
-  },
-  {
-    "title": "关于 v-model 你需要知道的这一切！",
-    "description": "点赞再看，微信搜索【大迁世界】,B站关注【前端小智】这个没有大厂背景，但有着一股向上积极心态人。本文 GitHub [链接] 上已经收录，文章的已分类，也整理了很多我的文档，和教程资料。",
-    "url": "https://segmentfault.com/a/1190000039219503",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "4",
-    "rank": 28
-  },
-  {
-    "title": "mongoose数据查询or、and、where等用法",
-    "description": "or为 $or 条件指定参数； {代码...} 数据筛选or是或查询满足下面的条件其中之一就可以查询出相关数据如果数据库参数是数组，直接会从数组里面匹配是否包含相关数据 如上：memberand为 $and 条件指定参数； {代码....",
-    "url": "https://segmentfault.com/a/1190000039721009",
-    "author": "浅夏晴空",
-    "home_url": "https://segmentfault.com/u/qianxiaqingkong",
-    "votes": "2",
-    "rank": 29
+    "rank": 18
   },
   {
     "title": "CTO 说了，再发现谁用 kill -9 关闭程序就开除",
@@ -267,6 +168,105 @@
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "4",
+    "rank": 19
+  },
+  {
+    "title": "得物技术出价组DDD分层模型总结",
+    "description": "在五彩石项目启动伊始，就决定采用领域驱动模型来设计业务框架，但是由于当时好多人对该模型的不熟悉，以及对一些设定的难以理解，导致初版的代码还是存在不少mvc的影子的。随着大家对该模型的逐渐了解，一致认为...",
+    "url": "https://segmentfault.com/a/1190000039721342",
+    "author": "得物技术",
+    "home_url": "https://segmentfault.com/u/dewujishu",
+    "votes": "5",
+    "rank": 20
+  },
+  {
+    "title": "你一定踩过的微信H5的坑",
+    "description": "1. IOS的input光标高度问题问题：IOS的input框高度会默认占满父盒子的高度，导致光标也会撑满整个input框解决：父盒子使用上下padding撑开，不使用行高(line-height)居中2. IOS微信h5页面上下滑动时卡顿，页面缺...",
+    "url": "https://segmentfault.com/a/1190000039738460",
+    "author": "叫我欧文就好",
+    "home_url": "https://segmentfault.com/u/jiaowoouwenjiuhao",
+    "votes": "5",
+    "rank": 21
+  },
+  {
+    "title": "学习HTML-第一章HTML基础",
+    "description": "结构：(xhtml ,xml)表现：(css)ECMA制定的行为的标准;行为：（DOM ,ECMASCRIPT）结构和表现标准：1.W3C( World Wide Web Consortium )万维网联盟，创建于1994年是Web技术领域最具权威和影响力的国际中立性技术标...",
+    "url": "https://segmentfault.com/a/1190000039727481",
+    "author": "MrWang",
+    "home_url": "https://segmentfault.com/u/mrwang_5aefec8fc0f13",
+    "votes": "2",
+    "rank": 22
+  },
+  {
+    "title": "用 WebGL 创建一个在线画廊",
+    "description": "作者：Luis Henrique Bizarro翻译：疯狂的技术宅原文：[链接]下载源代码: [链接]在本文中，我们将基于 WebGL 与 OGL 来实现一个无限循环画廊。本文中所用到的大多数套路也可以用在其他 WebGL 库中，例如 Three.js...",
+    "url": "https://segmentfault.com/a/1190000039710535",
+    "author": "疯狂的技术宅",
+    "home_url": "https://segmentfault.com/u/evilboy",
+    "votes": "3",
+    "rank": 23
+  },
+  {
+    "title": "10 个最常见的 Javascript 问题",
+    "description": "作者：Duomly译者：前端小智来源：dev点赞再看，微信搜索【大迁世界】,B站关注【前端小智】这个没有大厂背景，但有着一股向上积极心态人。本文 GitHub [链接] 上已经收录，文章的已分类，也整理了很多我的文档，...",
+    "url": "https://segmentfault.com/a/1190000039738166",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "10",
+    "rank": 24
+  },
+  {
+    "title": "新励步课件体系介绍",
+    "description": "想必很多“投身于教育行业”的前端工程师们都绕不过“课件”这个话题，对于前端来说，课件项目是教育公司相比互联网公司特有的需求之一，对于公司来说也是及其重要的。目前教育行业我了解到的生产 h5 课件的方式大致...",
+    "url": "https://segmentfault.com/a/1190000039721399",
+    "author": "LeapFE",
+    "home_url": "https://segmentfault.com/u/leapfe",
+    "votes": "5",
+    "rank": 25
+  },
+  {
+    "title": "关于 v-model 你需要知道的这一切！",
+    "description": "点赞再看，微信搜索【大迁世界】,B站关注【前端小智】这个没有大厂背景，但有着一股向上积极心态人。本文 GitHub [链接] 上已经收录，文章的已分类，也整理了很多我的文档，和教程资料。",
+    "url": "https://segmentfault.com/a/1190000039219503",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "4",
+    "rank": 26
+  },
+  {
+    "title": "酷工作丨半导体EDA软件工程师/全栈工程师、涂鸦智能Java研发工程师、众安保险多岗位招聘",
+    "description": "SegmentFault 思否社区致力于成为科技企业和开发者沟通的桥梁。为此特设「酷工作板块」，以便企业发布相关招聘信息，也为社区开发者提供招聘信息参考。",
+    "url": "https://segmentfault.com/a/1190000039717768",
+    "author": "白小白",
+    "home_url": "https://segmentfault.com/u/blpliz",
+    "votes": "1",
+    "rank": 27
+  },
+  {
+    "title": "mongoose数据查询or、and、where等用法",
+    "description": "or为 $or 条件指定参数； {代码...} 数据筛选or是或查询满足下面的条件其中之一就可以查询出相关数据如果数据库参数是数组，直接会从数组里面匹配是否包含相关数据 如上：memberand为 $and 条件指定参数； {代码....",
+    "url": "https://segmentfault.com/a/1190000039721009",
+    "author": "浅夏晴空",
+    "home_url": "https://segmentfault.com/u/qianxiaqingkong",
+    "votes": "2",
+    "rank": 28
+  },
+  {
+    "title": "Android内存泄露检测 LeakCanary2.0（Kotlin版）的实现原理",
+    "description": "本文介绍了开源Android内存泄漏监控工具LeakCanary2.0版本的实现原理，同时介绍了新版本新增的hprof文件解析模块的实现原理，包括hprof文件协议格式、部分实现源码等。",
+    "url": "https://segmentfault.com/a/1190000039741902",
+    "author": "vivo互联网技术",
+    "home_url": "https://segmentfault.com/u/vivo_tech",
+    "votes": "2",
+    "rank": 29
+  },
+  {
+    "title": "设计稿（UI视图）自动生成代码方案的探索",
+    "description": "设计稿（UI视图）转代码是前端工程师日常不断重复的工作，这部分工作复杂度较低但工作占比较高，所以提升设计稿转代码的效率一直是前端工程师追求的方向之一。此前，前端工程师尝试过将业务组件模块化构建成通用...",
+    "url": "https://segmentfault.com/a/1190000039719007",
+    "author": "美团技术团队",
+    "home_url": "https://segmentfault.com/u/meituanjishutuandui",
+    "votes": "3",
     "rank": 30
   }
 ]
