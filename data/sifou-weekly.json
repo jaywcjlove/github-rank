@@ -1,21 +1,12 @@
 [
   {
-    "title": "猛增 110K Star！年增长数最多的 10 大顶级前端学习资源项目！",
-    "description": "大家好，我是你们的 猫哥，那个不喜欢吃鱼、又不喜欢喵 的超级猫 ~关于猫哥，大家可以看看我的年终总结 前端工程师的 2020 年终总结 - 乾坤未定，你我皆黑马。今天给大家推荐 2020 年增长数最多的 10 大顶级前端...",
-    "url": "https://segmentfault.com/a/1190000039729227",
-    "author": "夜尽天明",
-    "home_url": "https://segmentfault.com/u/biaochenxuying",
-    "votes": "45",
-    "rank": 1
-  },
-  {
     "title": "灵魂拷问！浏览器输入「xxxxhub」的背后.....",
     "description": "到现在为止，我们算是把应用层、运输层、网络层和数据链路层都介绍完了，那么现在是时候把这些内容都串起来，做一个全面的回顾了。那么我这就以 Web 页面的请求历程为例，来和你聊聊计算机网络中这些协议是怎样工...",
     "url": "https://segmentfault.com/a/1190000039738922",
     "author": "程序员cxuan",
     "home_url": "https://segmentfault.com/u/cxuan",
     "votes": "22",
-    "rank": 2
+    "rank": 1
   },
   {
     "title": "常见的8个前端防御性编程方案",
@@ -24,6 +15,15 @@
     "author": "Peter谭老师",
     "home_url": "https://segmentfault.com/u/jerrytanjinjie",
     "votes": "10",
+    "rank": 2
+  },
+  {
+    "title": "webpack核心模块tapable源码解析",
+    "description": "上一篇文章我写了tapable的基本用法，我们知道他是一个增强版版的发布订阅模式，本文想来学习下他的源码。tapable的源码我读了一下，发现他的抽象程度比较高，直接扎进去反而会让人云里雾里的，所以本文会从最简...",
+    "url": "https://segmentfault.com/a/1190000039757900",
+    "author": "蒋鹏飞",
+    "home_url": "https://segmentfault.com/u/jiangpengfei_5ecce944a3d8a",
+    "votes": "9",
     "rank": 3
   },
   {
@@ -32,7 +32,7 @@
     "url": "https://segmentfault.com/a/1190000039750996",
     "author": "九旬",
     "home_url": "https://segmentfault.com/u/ansonznl",
-    "votes": "13",
+    "votes": "14",
     "rank": 4
   },
   {
@@ -45,12 +45,12 @@
     "rank": 5
   },
   {
-    "title": "webpack核心模块tapable源码解析",
-    "description": "上一篇文章我写了tapable的基本用法，我们知道他是一个增强版版的发布订阅模式，本文想来学习下他的源码。tapable的源码我读了一下，发现他的抽象程度比较高，直接扎进去反而会让人云里雾里的，所以本文会从最简...",
-    "url": "https://segmentfault.com/a/1190000039757900",
-    "author": "蒋鹏飞",
-    "home_url": "https://segmentfault.com/u/jiangpengfei_5ecce944a3d8a",
-    "votes": "8",
+    "title": "你还在用 Logback？Log4j2 的异步性能已经无敌了，还不快试试",
+    "description": "Logback 算是 JAVA 里一个老牌的日志框架，从 06 年开始第一个版本，迭代至今也十几年了。不过 logback 最近一个稳定版本还停留在 2017 年，好几年都没有更新；logback 的兄弟 slf4j 最近一个稳定版也是 2017 年...",
+    "url": "https://segmentfault.com/a/1190000039751787",
+    "author": "空无",
+    "home_url": "https://segmentfault.com/u/kongwu",
+    "votes": "11",
     "rank": 6
   },
   {
@@ -63,31 +63,13 @@
     "rank": 7
   },
   {
-    "title": "你还在用 Logback？Log4j2 的异步性能已经无敌了，还不快试试",
-    "description": "Logback 算是 JAVA 里一个老牌的日志框架，从 06 年开始第一个版本，迭代至今也十几年了。不过 logback 最近一个稳定版本还停留在 2017 年，好几年都没有更新；logback 的兄弟 slf4j 最近一个稳定版也是 2017 年...",
-    "url": "https://segmentfault.com/a/1190000039751787",
-    "author": "空无",
-    "home_url": "https://segmentfault.com/u/kongwu",
-    "votes": "10",
-    "rank": 8
-  },
-  {
-    "title": "go语言happens-before原则及应用",
-    "description": "先抛开你所熟知的信号量、锁、同步原语等技术，思考这个问题：如何保证并发读写的准确性？一个没有任何并发编程经验的程序员可能会觉得很简单：这有什么问题呢，同时读写能有什么问题，最多就是读到过期的数据而...",
-    "url": "https://segmentfault.com/a/1190000039729417",
-    "author": "不加香菜",
-    "home_url": "https://segmentfault.com/u/chensk_605b06b9d6f8c",
-    "votes": "7",
-    "rank": 9
-  },
-  {
     "title": "CSS 实现优惠券的技巧",
     "description": "在实际 Web 开发过程中，总会遇到各种各样的布局。有公司同事问我这样一种布局有没有什么好的实现方式，就是一种在活动充值页非常普遍的优惠券效果，如下",
     "url": "https://segmentfault.com/a/1190000039742398",
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
     "votes": "10",
-    "rank": 10
+    "rank": 8
   },
   {
     "title": "svg 项目实践——添加可编辑的 svg 图片",
@@ -96,7 +78,7 @@
     "author": "LeapFE",
     "home_url": "https://segmentfault.com/u/leapfe",
     "votes": "10",
-    "rank": 11
+    "rank": 9
   },
   {
     "title": "宝宝巴士与HarmonyOS携手打造更具交互性的早教体验",
@@ -105,7 +87,7 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "2",
-    "rank": 12
+    "rank": 10
   },
   {
     "title": "刚火了的中台转头就拆，一大波公司放不下又拿不起来！",
@@ -114,7 +96,7 @@
     "author": "小傅哥",
     "home_url": "https://segmentfault.com/u/fuzhengwei",
     "votes": "3",
-    "rank": 13
+    "rank": 11
   },
   {
     "title": "进程、线程、进程池、进程三态、同步、异步、并发、并行、串行",
@@ -123,7 +105,16 @@
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "6",
-    "rank": 14
+    "rank": 12
+  },
+  {
+    "title": "CTO 说了，再发现谁用 kill -9 关闭程序就开除",
+    "description": "kill可将指定的信息送至程序。预设的信息为SIGTERM(15)，可将指定程序终止。若仍无法终止该程序，可使用SIGKILL(9)信息尝试强制删除程序。程序或工作的编号可利用ps指令或jobs指令查看。",
+    "url": "https://segmentfault.com/a/1190000039743786",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "6",
+    "rank": 13
   },
   {
     "title": "腾讯位置服务Flutter业务实践——地图SDK Flutter插件实现(一)",
@@ -132,15 +123,24 @@
     "author": "腾讯位置服务",
     "home_url": "https://segmentfault.com/u/tengxunweizhifuwu",
     "votes": "3",
+    "rank": 14
+  },
+  {
+    "title": "学习HTML-第二章css基础",
+    "description": "cascading style sheets    汉译层叠样式表,WEB标准中的表现标准语言,表现标准语言在网页中主要对网页信息的显示进行控制，简单说就是如何修饰网页信息的显示样式。目前推荐遵循的是W3C发布的CSS3.0.用来表现XHTM...",
+    "url": "https://segmentfault.com/a/1190000039753695",
+    "author": "MrWang",
+    "home_url": "https://segmentfault.com/u/mrwang_5aefec8fc0f13",
+    "votes": "3",
     "rank": 15
   },
   {
-    "title": "CTO 说了，再发现谁用 kill -9 关闭程序就开除",
-    "description": "kill可将指定的信息送至程序。预设的信息为SIGTERM(15)，可将指定程序终止。若仍无法终止该程序，可使用SIGKILL(9)信息尝试强制删除程序。程序或工作的编号可利用ps指令或jobs指令查看。",
-    "url": "https://segmentfault.com/a/1190000039743786",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "5",
+    "title": "Javascript 高效开发工具库",
+    "description": "前端开发中经常会遇到Array、Object、String、Number等数据处理，或者是防抖节流函数等性能优化亦或是 URL 参数处理、类型判断等等操作，为了提高开发效率，我将这些常见公共方法进行抽离并封装好，发布在 npm 上...",
+    "url": "https://segmentfault.com/a/1190000039754188",
+    "author": "星野",
+    "home_url": "https://segmentfault.com/u/qqlcx5",
+    "votes": "7",
     "rank": 16
   },
   {
@@ -158,8 +158,17 @@
     "url": "https://segmentfault.com/a/1190000039757986",
     "author": "LeapFE",
     "home_url": "https://segmentfault.com/u/leapfe",
-    "votes": "13",
+    "votes": "14",
     "rank": 18
+  },
+  {
+    "title": "得物技术谈谈前端工程师要知道的Nginx知识",
+    "description": "平常我们在工作之中，遇到的许多问题其实都是与Nginx有关的问题，例如 跨域问题、请求过滤、配置gzip、负载均衡、或者与静态资源服务器有关等等的问题。",
+    "url": "https://segmentfault.com/a/1190000039766929",
+    "author": "得物技术",
+    "home_url": "https://segmentfault.com/u/dewujishu",
+    "votes": "10",
+    "rank": 19
   },
   {
     "title": "最新图灵奖颁给了所有程序员都该感谢的两个人",
@@ -168,7 +177,7 @@
     "author": "宗恩",
     "home_url": "https://segmentfault.com/u/yzn",
     "votes": "5",
-    "rank": 19
+    "rank": 20
   },
   {
     "title": "弄死 Node.js 进程有几种方法",
@@ -177,15 +186,6 @@
     "author": "疯狂的技术宅",
     "home_url": "https://segmentfault.com/u/evilboy",
     "votes": "3",
-    "rank": 20
-  },
-  {
-    "title": "Javascript 高效开发工具库",
-    "description": "前端开发中经常会遇到Array、Object、String、Number等数据处理，或者是防抖节流函数等性能优化亦或是 URL 参数处理、类型判断等等操作，为了提高开发效率，我将这些常见公共方法进行抽离并封装好，发布在 npm 上...",
-    "url": "https://segmentfault.com/a/1190000039754188",
-    "author": "星野",
-    "home_url": "https://segmentfault.com/u/qqlcx5",
-    "votes": "6",
     "rank": 21
   },
   {
@@ -198,21 +198,21 @@
     "rank": 22
   },
   {
-    "title": "你一定踩过的微信H5的坑",
-    "description": "1. IOS的input光标高度问题问题：IOS的input框高度会默认占满父盒子的高度，导致光标也会撑满整个input框解决：父盒子使用上下padding撑开，不使用行高(line-height)居中2. IOS微信h5页面上下滑动时卡顿，页面缺...",
-    "url": "https://segmentfault.com/a/1190000039738460",
-    "author": "叫我欧文就好",
-    "home_url": "https://segmentfault.com/u/jiaowoouwenjiuhao",
-    "votes": "5",
-    "rank": 23
-  },
-  {
     "title": "带你走进->影子元素(Shadow DOM)&浏览器原生组件开发(Web Components API )",
     "description": "习惯了使用vue与react等框架来开发组件, 但其实我们可以不依赖任何框架, 直接原生开发组件, 所以这个原生api的一大优点就是可以不依赖任何的框架。",
     "url": "https://segmentfault.com/a/1190000039760364",
     "author": "lulu_up",
     "home_url": "https://segmentfault.com/u/lulu_up",
     "votes": "10",
+    "rank": 23
+  },
+  {
+    "title": "你一定踩过的微信H5的坑",
+    "description": "1. IOS的input光标高度问题问题：IOS的input框高度会默认占满父盒子的高度，导致光标也会撑满整个input框解决：父盒子使用上下padding撑开，不使用行高(line-height)居中2. IOS微信h5页面上下滑动时卡顿，页面缺...",
+    "url": "https://segmentfault.com/a/1190000039738460",
+    "author": "叫我欧文就好",
+    "home_url": "https://segmentfault.com/u/jiaowoouwenjiuhao",
+    "votes": "5",
     "rank": 24
   },
   {
@@ -221,17 +221,8 @@
     "url": "https://segmentfault.com/a/1190000039710535",
     "author": "疯狂的技术宅",
     "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "3",
+    "votes": "4",
     "rank": 25
-  },
-  {
-    "title": "学习HTML-第一章HTML基础",
-    "description": "结构：(xhtml ,xml)表现：(css)ECMA制定的行为的标准;行为：（DOM ,ECMASCRIPT）结构和表现标准：1.W3C( World Wide Web Consortium )万维网联盟，创建于1994年是Web技术领域最具权威和影响力的国际中立性技术标...",
-    "url": "https://segmentfault.com/a/1190000039727481",
-    "author": "MrWang",
-    "home_url": "https://segmentfault.com/u/mrwang_5aefec8fc0f13",
-    "votes": "2",
-    "rank": 26
   },
   {
     "title": "10 个最常见的 Javascript 问题",
@@ -240,7 +231,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "10",
-    "rank": 27
+    "rank": 26
   },
   {
     "title": "Sass / SCSS简明入门",
@@ -249,6 +240,15 @@
     "author": "疯狂的技术宅",
     "home_url": "https://segmentfault.com/u/evilboy",
     "votes": "4",
+    "rank": 27
+  },
+  {
+    "title": "超详细！无坑部署最小化 K8S 集群，收藏了",
+    "description": "虽然网上有大量从零搭建 K8S 的文章，但大都针对老版本，若直接照搬去安装最新的 1.20 版本会遇到一堆问题。故此将我的安装步骤记录下来，希望能为读者提供 copy and paste 式的集群搭建帮助。",
+    "url": "https://segmentfault.com/a/1190000039749272",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "3",
     "rank": 28
   },
   {

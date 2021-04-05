@@ -1,11 +1,38 @@
 [
   {
-    "title": "ARM 公布全新 Armv9 架构：10 年最大更新、不受制于美国出口管理条例",
-    "description": "当今世界正处于快速变革之中，而变革的主要焦点就在于人工智能的发展，人工智能的发展又离不开算力、算法和大数据，算力的发展更离不开芯片的进步，近日 Arm 最新架构Armv9 正式推出，Arm 希望这个架构在未来十年...",
-    "url": "https://segmentfault.com/a/1190000039768599",
-    "author": "宗恩",
-    "home_url": "https://segmentfault.com/u/yzn",
+    "title": "Java并发——基石篇（上）",
+    "description": "并行是这个时代的主旋律，也是很多现代操作系统需要提供的必备功能，在过去摩尔定律催生下，单个CPU核心计算的速度越来越快。但是随着产业的发展，单个CPU核心的计算上限已经难以突破，传统的加强单核的思维模式...",
+    "url": "https://segmentfault.com/a/1190000039771963",
+    "author": "柠檬时间",
+    "home_url": "https://segmentfault.com/u/ningmengshijian",
     "votes": "2",
     "rank": 1
+  },
+  {
+    "title": "CSS 模块化方案探讨（BEM、OOCSS、CSS Modules、CSS-in-JS ...）",
+    "description": "众所周知，CSS 根据选择器名称去全局匹配元素，它没有作用域可言，比如你在页面的两个不同的地方使用了一个相同的类名，先定义的样式就会被覆盖掉。CSS 一直缺乏模块化的概念，命名冲突的问题会持续困扰着你。每...",
+    "url": "https://segmentfault.com/a/1190000039772466",
+    "author": "白小明",
+    "home_url": "https://segmentfault.com/u/baixiaoming",
+    "votes": "1",
+    "rank": 2
+  },
+  {
+    "title": "Java并发——基石篇（下）",
+    "description": "Java Object类提供了一个基于native实现的wait和notify线程间通讯的方式，这是除了synchronized之外的另外一块独立的并发基础部分，有关wait和notify·的部分内容，我们在上面分析monitor的exit的时候已经有一些涉...",
+    "url": "https://segmentfault.com/a/1190000039771973",
+    "author": "柠檬时间",
+    "home_url": "https://segmentfault.com/u/ningmengshijian",
+    "votes": "1",
+    "rank": 3
+  },
+  {
+    "title": "Java并发——基石篇（中）",
+    "description": "这其实是javac在编译时将synchronized同步块的前后插入montor进入和退出的字节码指令，因此，我们想探索synchronized的实现机制，就需要探索monitorenter和monitorexit指令的执行过程。",
+    "url": "https://segmentfault.com/a/1190000039771970",
+    "author": "柠檬时间",
+    "home_url": "https://segmentfault.com/u/ningmengshijian",
+    "votes": "1",
+    "rank": 4
   }
 ]
