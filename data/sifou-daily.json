@@ -1,155 +1,47 @@
 [
   {
-    "title": "Apache DolphinScheduler 毕业成为 Apache 首个由国人主导的大数据工作流调度领域顶级项目",
-    "description": "全球最大的开源软件基金会 Apache 软件基金会（以下简称 Apache）于北京时间 2021 年 4 月 9 日在官方渠道宣布 Apache DolphinScheduler 毕业成为 Apache 顶级项目。这是首个由国人主导并贡献到 Apache 的大数据...",
-    "url": "https://segmentfault.com/a/1190000039798162",
-    "author": "鸣飞",
-    "home_url": "https://segmentfault.com/u/mf",
-    "votes": "3",
+    "title": "事务进阶--快照读与当前读",
+    "description": "这就涉及到mysql的多版本并发控制技术, 简称MVCC(Multi-Version Concurrency Control)。基于上边的例子，我们可以理解为当开启一个事务的时候，会对事务设置一个版本号，且版本号逐个递增，同时对每行数据进行新...",
+    "url": "https://segmentfault.com/a/1190000039803792",
+    "author": "小强Zzz",
+    "home_url": "https://segmentfault.com/u/zhaokaiqiang",
+    "votes": "1",
     "rank": 1
   },
   {
-    "title": "基于腾讯地图定位组件实现周边公用厕所远近排序分布图",
-    "description": "地图应用非常广泛，目前地图服务，都提供地图操作、标注、地点搜索、出行规划、地址解析、街景等接口，功能非常丰富。在实际开发过程中，各有优劣。本次基于需求，使用腾讯位置服务作为一个公用厕所位置标注的H5...",
-    "url": "https://segmentfault.com/a/1190000039798190",
-    "author": "腾讯位置服务",
-    "home_url": "https://segmentfault.com/u/tengxunweizhifuwu",
-    "votes": "3",
+    "title": "springboot枚举类型传递",
+    "description": "在本周写项目时，需要将枚举类型作为参数进行传递。测试首先先建立一个枚举类: {代码...} 再建立一个枚举api接口: {代码...} 进行测试，使用枚举名发送数据:使用枚举序号发送数据:由此可见，在springboot默认请求...",
+    "url": "https://segmentfault.com/a/1190000039803020",
+    "author": "鲸冬香",
+    "home_url": "https://segmentfault.com/u/jingdongxiang",
+    "votes": "1",
     "rank": 2
   },
   {
-    "title": "⚡️ React Native 启动速度优化——Native 篇（内含源码分析）",
-    "description": "据我考据这个问题起码有十年历史了。在日新月异学不动的前端圈子里，这个问题能一直被问，就是因为因为它是个非常好的问题，涉及非常多的知识点，平时做一些性能优化，都可以从这个问题出发，分析性能瓶颈，然后...",
-    "url": "https://segmentfault.com/a/1190000039797508",
-    "author": "卤代烃",
-    "home_url": "https://segmentfault.com/u/skychx",
-    "votes": "6",
+    "title": "华为云再变动！徐直军任华为云董事长，余承东任华为云CEO",
+    "description": "SegmentFault 思否消息，4月9日，来自多个信源消息称华为内部发文：任命徐直军为华为云董事长，余承东为华为云CEO。同时Cloud BU新增两个副主任，彭中阳和陶景文分别负责企业业务和流程IT。",
+    "url": "https://segmentfault.com/a/1190000039802897",
+    "author": "宗恩",
+    "home_url": "https://segmentfault.com/u/yzn",
+    "votes": "1",
     "rank": 3
   },
   {
-    "title": "深夜12点，头秃的那家伙，还在用 CSS 处理图片上的文字",
-    "description": "点赞再看，养成习惯本文 GitHub [链接] 上已经收录，更多往期高赞文章的分类，也整理了很多我的文档，和教程资料。欢迎Star和完善，大家面试可以参照考点复习，希望我们一起有点东西。",
-    "url": "https://segmentfault.com/a/1190000039761418",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "6",
+    "title": "使用Portainer部署Docker容器实践",
+    "description": "最近在使用rancher2.5.5部署Redis主从复制的时候，发现rancher会产生很多iptables的规则，这些规则导致我们在部署了rancher的机器上无法使用Redis的主从复制功能，因为我对rancher和k8s的了解也仅限于了解网络架...",
+    "url": "https://segmentfault.com/a/1190000039803577",
+    "author": "汤青松",
+    "home_url": "https://segmentfault.com/u/songboy",
+    "votes": "1",
     "rank": 4
   },
   {
-    "title": "Swoole v4.6.5 版本发布，增加原生curl multi支持",
-    "description": "v4.6.5 版本没有向下不兼容改动，主要对原生 curl hook 进行了一些增强，支持了 curl multi支持原生 curl multi使用原生 curl hook 的前提是在编译 Swoole 扩展时开启--enable-swoole-curl选项可以使用以下代码进...",
-    "url": "https://segmentfault.com/a/1190000039801306",
-    "author": "沈唁",
-    "home_url": "https://segmentfault.com/u/sy_records",
-    "votes": "3",
+    "title": "每天学一个 Linux 命令（106）：openssl",
+    "description": "openssl 命令是强大的安全套接字层密码库。OpenSSL 是一种开源命令行工具，通常用于生成私钥，创建 CSR，安装 SSL / TLS 证书以及标识证书信息。",
+    "url": "https://segmentfault.com/a/1190000039802409",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "1",
     "rank": 5
-  },
-  {
-    "title": "你不知道的 「 import type 」",
-    "description": "背景TypeScript 3.8 带来了一个新特性：仅仅导入 / 导出声明。在上一篇文章中， 我们使用了这个特性，解决了: 引入类型文件报错的问题。其实这个特性并不复杂，但是我们需要了解其背后的机制原理，并了解 Babel ...",
-    "url": "https://segmentfault.com/a/1190000039800522",
-    "author": "皮小蛋",
-    "home_url": "https://segmentfault.com/u/scaukk",
-    "votes": "1",
-    "rank": 6
-  },
-  {
-    "title": "Element Ui图片预览组件通过按钮触发图片预览",
-    "description": "我们可以把这个默认预览的小图用一个统一的图片进行代替，提前放在项目的静态文件中，然后把这个图片定位到按钮的上方，再将图片的透明度设置为0,这样点击按钮其实是点击了按钮上方的小图",
-    "url": "https://segmentfault.com/a/1190000039797531",
-    "author": "MrWang",
-    "home_url": "https://segmentfault.com/u/mrwang_5aefec8fc0f13",
-    "votes": "1",
-    "rank": 7
-  },
-  {
-    "title": "山月周刊第6期：React 学习路线图",
-    "description": "前端爱好者周刊 (Github: shfshanyue/weekly)，每周记录关于前端的开源工具、优秀文章、重大库版本发布记录等等。每周一发布，订阅平台如下，欢迎订阅。",
-    "url": "https://segmentfault.com/a/1190000039796677",
-    "author": "shanyue",
-    "home_url": "https://segmentfault.com/u/xiange",
-    "votes": "3",
-    "rank": 8
-  },
-  {
-    "title": "一文看懂：如何从源头防止数据隐私泄露",
-    "description": "今天我们来讲一讲大家的隐私如何从源头得到保护？一直以来，我们生活在现实世界互联网的出现创造了连接「平行宇宙」的通道 我们开始在虚拟的数字世界有了新生活网上冲浪成为了生活的一部分线上的生活方式构成了人...",
-    "url": "https://segmentfault.com/a/1190000039800242",
-    "author": "矩阵元技术团队",
-    "home_url": "https://segmentfault.com/u/juzhenyuanjishutuandui",
-    "votes": "1",
-    "rank": 9
-  },
-  {
-    "title": "SpringMVC框架搭建过程",
-    "description": "一 创建maven工程，选中webapp，修改项名二 补全目录结构三 导入依赖 {代码...} {代码...} {代码...} {代码...} {代码...} {代码...} 四 创建ContextConfiguration.xml 五 配置web.xml {代码...} 六 创建Collecto...",
-    "url": "https://segmentfault.com/a/1190000039800461",
-    "author": "dali",
-    "home_url": "https://segmentfault.com/u/dali_606c14eb96f0d",
-    "votes": "1",
-    "rank": 10
-  },
-  {
-    "title": "ZooTeam 前端周刊｜第 129 期",
-    "description": "这篇文章给大家分享一个业内一款出色的包管理器——pnpm。目前 GitHub 已经有 star 9.8k，现在已经相对成熟且稳定了。它由 npm/yarn 衍生而来，但却解决了 npm/yarn 内部潜在的 bug，并且极大了地优化了性能，扩展...",
-    "url": "https://segmentfault.com/a/1190000039800428",
-    "author": "政采云前端团队",
-    "home_url": "https://segmentfault.com/u/zhengcaiyunqianduantuandui",
-    "votes": "1",
-    "rank": 11
-  },
-  {
-    "title": "3步玩转链路追踪，快速排查微服务各种问题！",
-    "description": "在现有的微服务体系架构下，一套大型软件系统可能涵盖几十种服务单元，各服务之间的调用错综复杂，可能1个客户请求需要调用N个服务才能形成业务闭环。遇到 bug 时，开发人员不得不对各服务日志一一进行排查，整个...",
-    "url": "https://segmentfault.com/a/1190000039800087",
-    "author": "驻云DataFlux",
-    "home_url": "https://segmentfault.com/u/zhuyundataflux",
-    "votes": "1",
-    "rank": 12
-  },
-  {
-    "title": "Vue-cli3.0项目---蜘蛛电影（步骤解析）",
-    "description": "项目简介 {代码...} 项目开发环境 {代码...} 项目开发流程 {代码...} 创建项目 {代码...} 在gitee创建项目对应的远程仓库将本地库与远程库进行关联把master分支中初始的项目文件/目录都推送到远程仓库中创建并切...",
-    "url": "https://segmentfault.com/a/1190000039798803",
-    "author": "Tap? taq",
-    "home_url": "https://segmentfault.com/u/tap_taq",
-    "votes": "1",
-    "rank": 13
-  },
-  {
-    "title": "超酷的开源任务协作系统，我粉了",
-    "description": "大家好，我是为广大程序员兄弟操碎了心的小编，每天推荐一个小工具/源码，装满你的收藏夹，每天分享一个小技巧，让你轻松节省开发效率，实现不加班不熬夜不掉头发，是我的目标！",
-    "url": "https://segmentfault.com/a/1190000039797192",
-    "author": "Github导航站",
-    "home_url": "https://segmentfault.com/u/github2",
-    "votes": "1",
-    "rank": 14
-  },
-  {
-    "title": "PHP的内置WEB服务器",
-    "description": "在很多时候，我们需要简单的运行一个小 demo 来验证一些代码或者轮子是否可用，是否可以运行起来，但是去配 nginx 或者 apache 都很麻烦，其实，PHP CLI 已经提供了一个简单的测试服务器，我们直接就可以运行起来...",
-    "url": "https://segmentfault.com/a/1190000039796932",
-    "author": "硬核项目经理",
-    "home_url": "https://segmentfault.com/u/zyblog",
-    "votes": "1",
-    "rank": 15
-  },
-  {
-    "title": "Migrate From Vue-cli to Vite",
-    "description": "背景我最近将一些 Vue2 项目从 vue-cli(webpack)迁移到了 vite。在第三次这样做之后，我对迁移过程做了一些详细的记录，并将在这篇文章中进行总结。文章目录：package.jsonindex.htmlvite.config.js测试用例Lint...",
-    "url": "https://segmentfault.com/a/1190000039801848",
-    "author": "皮小蛋",
-    "home_url": "https://segmentfault.com/u/scaukk",
-    "votes": "1",
-    "rank": 16
-  },
-  {
-    "title": "Spring cloud gateway nacos实现动态路由",
-    "description": "Spring cloud gateway的三个核心概念route 路由可以理解为一条转发规则，包含：id目标url断言（predicate）过滤器（filter）若断言为true，则请求将经由 filter 被路由到目标 url。predicate 断言可以理解为一个...",
-    "url": "https://segmentfault.com/a/1190000039801016",
-    "author": "麦穗儿",
-    "home_url": "https://segmentfault.com/u/maisuier",
-    "votes": "1",
-    "rank": 17
   }
 ]

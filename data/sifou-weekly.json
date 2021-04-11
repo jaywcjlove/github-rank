@@ -5,7 +5,7 @@
     "url": "https://segmentfault.com/a/1190000039783802",
     "author": "y_ck",
     "home_url": "https://segmentfault.com/u/user_ngjv5fmp",
-    "votes": "31",
+    "votes": "32",
     "rank": 1
   },
   {
@@ -14,7 +14,7 @@
     "url": "https://segmentfault.com/a/1190000039795956",
     "author": "皮小蛋",
     "home_url": "https://segmentfault.com/u/scaukk",
-    "votes": "17",
+    "votes": "18",
     "rank": 2
   },
   {
@@ -36,22 +36,13 @@
     "rank": 4
   },
   {
-    "title": "尤雨溪深夜官宣：Vue 3 将不再支持 IE11",
-    "description": "早在开发之初，尤雨溪便计划在 Vue 3 发布并稳定后兼容 IE11。如今 Vue 3 ，已发布多时，但 IE11 的全球使用率却呈明显下降趋势。Vue 3 是否还会针对 IE11 开发兼容版本？",
-    "url": "https://segmentfault.com/a/1190000039769749",
-    "author": "思否编辑部",
-    "home_url": "https://segmentfault.com/u/writers",
-    "votes": "8",
-    "rank": 5
-  },
-  {
     "title": "硬核图解红黑树并手写实现",
     "description": "在上一篇中我们通过二叉树作为了Map的实现，最后也分析了该版本的时间复杂度以及最糟糕的情况；本篇我们将会使用红黑树来实现Map，改善上一篇中二叉树版本的不足；对于Map接口的定义以及已经实现的公用方法将不会...",
     "url": "https://segmentfault.com/a/1190000039774810",
     "author": "Silently9527",
     "home_url": "https://segmentfault.com/u/silently9527",
     "votes": "12",
-    "rank": 6
+    "rank": 5
   },
   {
     "title": "动手写一个简单的编译器：在JavaScript中使用Swift的尾闭包语法",
@@ -60,7 +51,7 @@
     "author": "dreamapplehappy",
     "home_url": "https://segmentfault.com/u/dreamapplehappy",
     "votes": "9",
-    "rank": 7
+    "rank": 6
   },
   {
     "title": "记得有一次面试被虐的题，Promise 完整指南",
@@ -69,7 +60,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "14",
-    "rank": 8
+    "rank": 7
   },
   {
     "title": "团队协作中，如何写出让同事赞不绝口的代码",
@@ -78,7 +69,7 @@
     "author": "有道技术团队",
     "home_url": "https://segmentfault.com/u/youdaotec",
     "votes": "9",
-    "rank": 9
+    "rank": 8
   },
   {
     "title": "给顶级开源项目 Spring Boot 贡献代码是一种什么样的体验？",
@@ -86,6 +77,15 @@
     "url": "https://segmentfault.com/a/1190000039785482",
     "author": "空无",
     "home_url": "https://segmentfault.com/u/kongwu",
+    "votes": "13",
+    "rank": 9
+  },
+  {
+    "title": "给在座各位“打工人”分享33款提高工作效率的vscode插件",
+    "description": "在之前的给在座各位“老划水员”分享10款提高幸福指数的vscode“摸鱼神器”这篇文章发布之后，也收获了很多小伙伴的点赞，咱们也不能一天天光摸鱼，还是得干点正事。特此，我整理了一些好用的vscode插件，如果觉得不...",
+    "url": "https://segmentfault.com/a/1190000039784036",
+    "author": "前端秦爱德",
+    "home_url": "https://segmentfault.com/u/maoduolikuaipao",
     "votes": "13",
     "rank": 10
   },
@@ -99,22 +99,13 @@
     "rank": 11
   },
   {
-    "title": "给在座各位“打工人”分享33款提高工作效率的vscode插件",
-    "description": "在之前的给在座各位“老划水员”分享10款提高幸福指数的vscode“摸鱼神器”这篇文章发布之后，也收获了很多小伙伴的点赞，咱们也不能一天天光摸鱼，还是得干点正事。特此，我整理了一些好用的vscode插件，如果觉得不...",
-    "url": "https://segmentfault.com/a/1190000039784036",
-    "author": "秦爱德",
-    "home_url": "https://segmentfault.com/u/maoduolikuaipao",
-    "votes": "12",
-    "rank": 12
-  },
-  {
     "title": "精读《DOM diff 原理详解》",
     "description": "为什么 Jquery 时代不需要 Dom diff？因为 Dom diff 交给业务处理了，我们调用 .append 或者 .move 之类 Dom 操作函数，就是显式申明了如何做 Dom diff，这种方案是最高效的，因为怎么移动 Dom 只有业务最清楚。",
     "url": "https://segmentfault.com/a/1190000039775869",
     "author": "黄子毅",
     "home_url": "https://segmentfault.com/u/aoyangyudakong",
     "votes": "9",
-    "rank": 13
+    "rank": 12
   },
   {
     "title": "手把手教你接入微信支付",
@@ -123,16 +114,43 @@
     "author": "Java旅途",
     "home_url": "https://segmentfault.com/u/javatrip",
     "votes": "9",
+    "rank": 13
+  },
+  {
+    "title": "基于腾讯地图定位组件实现周边公用厕所远近排序分布图",
+    "description": "地图应用非常广泛，目前地图服务，都提供地图操作、标注、地点搜索、出行规划、地址解析、街景等接口，功能非常丰富。在实际开发过程中，各有优劣。本次基于需求，使用腾讯位置服务作为一个公用厕所位置标注的H5...",
+    "url": "https://segmentfault.com/a/1190000039798190",
+    "author": "腾讯位置服务",
+    "home_url": "https://segmentfault.com/u/tengxunweizhifuwu",
+    "votes": "3",
     "rank": 14
   },
   {
-    "title": "如何使用toString将INT转换为字符串",
-    "description": "该toString()方法是JavaScriptNumber对象的内置方法，可让您将任何number类型值转换为其string类型表示形式。",
-    "url": "https://segmentfault.com/a/1190000039778594",
-    "author": "MrWang",
-    "home_url": "https://segmentfault.com/u/mrwang_5aefec8fc0f13",
+    "title": "竞拍系统设计（秒杀系统知识迁移）",
+    "description": "一、实现商品、竞拍场次和订单的CRUD;二、定时将秒杀场次、商品、库存等信息提前写入redis；三、配置Redis持久化；四、实现秒杀下单逻辑；五、秒杀过程redis优化；六、使用golang并发编程模拟秒杀。",
+    "url": "https://segmentfault.com/a/1190000039796542",
+    "author": "sengerlion",
+    "home_url": "https://segmentfault.com/u/sengerlion",
     "votes": "4",
     "rank": 15
+  },
+  {
+    "title": "树+8道前端算法面试高频题解",
+    "description": "树的相关名词科普根节点叶子节点父节点子节点兄弟节点高度深度层A 是 根节点。C、D、F、G 是 叶子节点。A 是 B 和 E 的 父节点。B 和 E 是 A 的 子节点。B、E 之间是 兄弟节点。高度、深度、层 如上图所示。为了...",
+    "url": "https://segmentfault.com/a/1190000039782926",
+    "author": "童欧巴",
+    "home_url": "https://segmentfault.com/u/tongouba",
+    "votes": "12",
+    "rank": 16
+  },
+  {
+    "title": "学会 Git 这 11 条使用技巧，你离大拿就不远了！",
+    "description": "只有在遇到问题的时候，才体会到技巧带来的好处！常见企业工作流程主要介绍，企业中常用的 Git 工作流程！Git Flow主干分支稳定分支开发分支补丁分支修改分支Github Flow创建分支添加提交提交 PR 请求讨论和评估...",
+    "url": "https://segmentfault.com/a/1190000039777520",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "8",
+    "rank": 17
   },
   {
     "title": "Apache DolphinScheduler 毕业成为 Apache 首个由国人主导的大数据工作流调度领域顶级项目",
@@ -141,7 +159,16 @@
     "author": "鸣飞",
     "home_url": "https://segmentfault.com/u/mf",
     "votes": "3",
-    "rank": 16
+    "rank": 18
+  },
+  {
+    "title": "如何使用toString将INT转换为字符串",
+    "description": "该toString()方法是JavaScriptNumber对象的内置方法，可让您将任何number类型值转换为其string类型表示形式。",
+    "url": "https://segmentfault.com/a/1190000039778594",
+    "author": "MrWang",
+    "home_url": "https://segmentfault.com/u/mrwang_5aefec8fc0f13",
+    "votes": "4",
+    "rank": 19
   },
   {
     "title": "面试克星！吐血整理前端面试要点难点基础版",
@@ -150,42 +177,15 @@
     "author": "straydog",
     "home_url": "https://segmentfault.com/u/straydog",
     "votes": "8",
-    "rank": 17
-  },
-  {
-    "title": "树+8道前端算法面试高频题解",
-    "description": "树的相关名词科普根节点叶子节点父节点子节点兄弟节点高度深度层A 是 根节点。C、D、F、G 是 叶子节点。A 是 B 和 E 的 父节点。B 和 E 是 A 的 子节点。B、E 之间是 兄弟节点。高度、深度、层 如上图所示。为了...",
-    "url": "https://segmentfault.com/a/1190000039782926",
-    "author": "童欧巴",
-    "home_url": "https://segmentfault.com/u/tongouba",
-    "votes": "11",
-    "rank": 18
-  },
-  {
-    "title": "Android 高频面试之必考Java基础",
-    "description": "如果大家去面Android客户端岗位，那么必问Java基础和Kotlin基础，所以，我打算花3，4篇文章的样子来给大家总结下Android面试中会问到的一些Java基础知识。",
-    "url": "https://segmentfault.com/a/1190000039784484",
-    "author": "xiangzhihong",
-    "home_url": "https://segmentfault.com/u/xiangzhihong",
-    "votes": "3",
-    "rank": 19
-  },
-  {
-    "title": "学会 Git 这 11 条使用技巧，你离大拿就不远了！",
-    "description": "只有在遇到问题的时候，才体会到技巧带来的好处！常见企业工作流程主要介绍，企业中常用的 Git 工作流程！Git Flow主干分支稳定分支开发分支补丁分支修改分支Github Flow创建分支添加提交提交 PR 请求讨论和评估...",
-    "url": "https://segmentfault.com/a/1190000039777520",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "7",
     "rank": 20
   },
   {
-    "title": "CSS 文字装饰 text-decoration & text-emphasis",
-    "description": "本文将讲讲两个比较新的文字装饰的概念 text-decoration 与 text-emphasis，在最后，还会讲解使用 background 模拟文字下划线的一些有趣的动效。",
-    "url": "https://segmentfault.com/a/1190000039776169",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "8",
+    "title": "⚡️ React Native 启动速度优化——Native 篇（内含源码分析）",
+    "description": "据我考据这个问题起码有十年历史了。在日新月异学不动的前端圈子里，这个问题能一直被问，就是因为因为它是个非常好的问题，涉及非常多的知识点，平时做一些性能优化，都可以从这个问题出发，分析性能瓶颈，然后...",
+    "url": "https://segmentfault.com/a/1190000039797508",
+    "author": "卤代烃",
+    "home_url": "https://segmentfault.com/u/skychx",
+    "votes": "6",
     "rank": 21
   },
   {
@@ -194,8 +194,26 @@
     "url": "https://segmentfault.com/a/1190000039771963",
     "author": "柠檬时间",
     "home_url": "https://segmentfault.com/u/ningmengshijian",
-    "votes": "5",
+    "votes": "7",
     "rank": 22
+  },
+  {
+    "title": "Android 高频面试之必考Java基础",
+    "description": "如果大家去面Android客户端岗位，那么必问Java基础和Kotlin基础，所以，我打算花3，4篇文章的样子来给大家总结下Android面试中会问到的一些Java基础知识。",
+    "url": "https://segmentfault.com/a/1190000039784484",
+    "author": "xiangzhihong",
+    "home_url": "https://segmentfault.com/u/xiangzhihong",
+    "votes": "3",
+    "rank": 23
+  },
+  {
+    "title": "CSS 文字装饰 text-decoration & text-emphasis",
+    "description": "本文将讲讲两个比较新的文字装饰的概念 text-decoration 与 text-emphasis，在最后，还会讲解使用 background 模拟文字下划线的一些有趣的动效。",
+    "url": "https://segmentfault.com/a/1190000039776169",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "8",
+    "rank": 24
   },
   {
     "title": "武汉最最最牛逼的 IT 公司全在这了",
@@ -204,24 +222,6 @@
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "4",
-    "rank": 23
-  },
-  {
-    "title": "JavaScript Map –如何使用JS.map()函数",
-    "description": "有时，你可能需要获取一个数组并将一些操作应用于其子项，以便获得具有已修改元素的新数组。无需使用循环手动遍历数组，你可以简单地使用内置Array.map()方法。该Array.map()方法允许你遍历数组并使用回调函数修...",
-    "url": "https://segmentfault.com/a/1190000039778492",
-    "author": "MrWang",
-    "home_url": "https://segmentfault.com/u/mrwang_5aefec8fc0f13",
-    "votes": "3",
-    "rank": 24
-  },
-  {
-    "title": "彻底搞懂JavaScript中的作用域和闭包",
-    "description": "一、作用域作用域是什么几乎所有的编程语言都有一个基本功能，就是能够存储变量的值，并且能在之后对这个值进行访问和修改。那这些变量存储在哪里？怎么找到它？因为只有找到它才能对它进行访问和修改。简单来说...",
-    "url": "https://segmentfault.com/a/1190000039783263",
-    "author": "叫我欧文就好",
-    "home_url": "https://segmentfault.com/u/jiaowoouwenjiuhao",
-    "votes": "6",
     "rank": 25
   },
   {
@@ -230,17 +230,26 @@
     "url": "https://segmentfault.com/a/1190000039782908",
     "author": "童欧巴",
     "home_url": "https://segmentfault.com/u/tongouba",
-    "votes": "9",
+    "votes": "10",
     "rank": 26
   },
   {
-    "title": "Go 群友提问：Goroutine 数量控制在多少合适，会影响 GC 和调度？",
-    "description": "若有任何问题或建议，欢迎及时交流和碰撞。我的公众号是 【脑子进煎鱼了】，GitHub 地址：[链接]。大家好，我是煎鱼。前几天在读者交流群里看到一位小伙伴，发出了一个致命提问，那就是：“单机的 goroutine 数量...",
-    "url": "https://segmentfault.com/a/1190000039773754",
-    "author": "煎鱼",
-    "home_url": "https://segmentfault.com/u/eddycjy",
-    "votes": "2",
+    "title": "浅探 Web Worker 与 JavaScript 沙箱",
+    "description": "本文并不会从头开始介绍 Web Worker 的基础知识和基本 API 的使用等（只是部分有涉及），若还未了解过 Web Worker，可参考查阅 W3C 标准 Workers 文档 中的相关介绍。",
+    "url": "https://segmentfault.com/a/1190000039795656",
+    "author": "ES2049",
+    "home_url": "https://segmentfault.com/u/alisecued",
+    "votes": "6",
     "rank": 27
+  },
+  {
+    "title": "JavaScript Map –如何使用JS.map()函数",
+    "description": "有时，你可能需要获取一个数组并将一些操作应用于其子项，以便获得具有已修改元素的新数组。无需使用循环手动遍历数组，你可以简单地使用内置Array.map()方法。该Array.map()方法允许你遍历数组并使用回调函数修...",
+    "url": "https://segmentfault.com/a/1190000039778492",
+    "author": "MrWang",
+    "home_url": "https://segmentfault.com/u/mrwang_5aefec8fc0f13",
+    "votes": "3",
+    "rank": 28
   },
   {
     "title": "这款 Web SSH 客户端工具超牛逼！爱了",
@@ -249,23 +258,14 @@
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "7",
-    "rank": 28
-  },
-  {
-    "title": "强劲迷你，Safari 14.0 的功臣你不来看看么？",
-    "description": "俗话说：一图胜千言。在网上，图片虽然可以让用户更加简单明了地看到更多信息，但是图片体积也可以抵过上千字节甚至更多。研究表明，打开一个 HTTP 网页，其中图片平均占比为 64%。在图片占比如此高的情况下，用...",
-    "url": "https://segmentfault.com/a/1190000039784350",
-    "author": "云叔_又拍云",
-    "home_url": "https://segmentfault.com/u/yunshu_blog",
-    "votes": "3",
     "rank": 29
   },
   {
-    "title": "H5 页面列表缓存方案",
-    "description": "在 H5 日常开发中，会经常遇到列表点击进入详情页面然后返回列表的情况，对于电商类平台尤为常见，像我们平常用的淘宝、京东等电商平台都是做了缓存，而且不只是列表，很多地方都用到了缓存。但刚才说的都是 App...",
-    "url": "https://segmentfault.com/a/1190000039782981",
-    "author": "政采云前端团队",
-    "home_url": "https://segmentfault.com/u/zhengcaiyunqianduantuandui",
+    "title": "在JavaScript中实现队列",
+    "description": "如果你喜欢四处旅行，肯定在火车站经历过检票这道手续。如果有很多人要坐火车，那么很自然地会形成一个队列。刚进入车站的人加入队列。另一边刚刚通过检票的人从队列中走出。这就是队列的一个例子，与队列数据结...",
+    "url": "https://segmentfault.com/a/1190000039710606",
+    "author": "疯狂的技术宅",
+    "home_url": "https://segmentfault.com/u/evilboy",
     "votes": "5",
     "rank": 30
   }
