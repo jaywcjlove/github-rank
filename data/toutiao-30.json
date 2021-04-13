@@ -12,12 +12,22 @@
   {
     "title": "Java 工程师核心书单，阿里大佬看了都说好",
     "description": "随便打开一个招聘网站，看看对高级Java工程师的技能要求。image-20210312224908529抛开其它的经验能力等等，单纯从技术，或者说知识上来讲，可以发现一些共通的地方...",
-    "votes": "199",
+    "votes": "200",
     "url": "/k/5apgnxp",
     "avatar": "https://img.toutiao.io/subject%2F785b9391ccd74d88bfc5ccd391fb4365",
     "avatarAlt": "三分恶 - 独家号",
     "subjectName": "三分恶",
     "homeUrl": "/subjects/454266"
+  },
+  {
+    "title": "Redis 不是一直号称单线程效率也很高吗，为什么又采用多线程了？",
+    "description": "GitHub 19k Star 的Java工程师成神之路，不来了解一下吗！ Redis是目前广为人知的一个内存数据库，在各个场景中都有着非常丰富的应用，前段时间Redis推出了6....",
+    "votes": "216",
+    "url": "/k/vsxwjpf",
+    "avatar": "https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e",
+    "avatarAlt": "JAVA干货 - 独家号",
+    "subjectName": "JAVA干货",
+    "homeUrl": "/subjects/51515"
   },
   {
     "title": "你对天天挂在嘴边的高并发，怕是有什么误解吧？",
@@ -30,24 +40,24 @@
     "homeUrl": "/subjects/98777"
   },
   {
-    "title": "Redis 不是一直号称单线程效率也很高吗，为什么又采用多线程了？",
-    "description": "GitHub 19k Star 的Java工程师成神之路，不来了解一下吗！ Redis是目前广为人知的一个内存数据库，在各个场景中都有着非常丰富的应用，前段时间Redis推出了6....",
-    "votes": "215",
-    "url": "/k/vsxwjpf",
-    "avatar": "https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e",
-    "avatarAlt": "JAVA干货 - 独家号",
-    "subjectName": "JAVA干货",
-    "homeUrl": "/subjects/51515"
-  },
-  {
     "title": "其实，每次面试的问题都逃不过这几方面",
     "description": "你好， 我是 yes。因为最近在主攻的面试方面的文章。自己在网上翻阅了很多面经，也建立了面试题交流群（想入群的私我）。所以看了很多真实的、新鲜的面试题。再结合下自己的面试经历、自己...",
-    "votes": "146",
+    "votes": "147",
     "url": "/k/hti1ill",
     "avatar": "https://img.toutiao.io/subject%2F71da457007fd4b67a45253b271a25eee",
     "avatarAlt": "yes的练级攻略 - 独家号",
     "subjectName": "yes的练级攻略",
     "homeUrl": "/subjects/443906"
+  },
+  {
+    "title": "我在架构设计和代码开发中的一些常用原则",
+    "description": "不管我一生中取得了多大的成功，其主要原因都不是我知道多少事情，而是我知道在无知的情况下自己应该怎么做。我一生中学到的最重要的东西是一种以原则为基础的生活方式，是它帮助我发现真相是什...",
+    "votes": "149",
+    "url": "/k/sso4l2l",
+    "avatar": "https://img.toutiao.io/subject%2Fae2b74c589814b769c1bebad92c2fb9a",
+    "avatarAlt": "架构之美 - 独家号",
+    "subjectName": "架构之美",
+    "homeUrl": "/subjects/42200"
   },
   {
     "title": "高并发下如何保证接口的幂等性？",
@@ -58,16 +68,6 @@
     "avatarAlt": "苏三说技术 - 独家号",
     "subjectName": "苏三说技术",
     "homeUrl": "/subjects/453205"
-  },
-  {
-    "title": "我在架构设计和代码开发中的一些常用原则",
-    "description": "不管我一生中取得了多大的成功，其主要原因都不是我知道多少事情，而是我知道在无知的情况下自己应该怎么做。我一生中学到的最重要的东西是一种以原则为基础的生活方式，是它帮助我发现真相是什...",
-    "votes": "148",
-    "url": "/k/sso4l2l",
-    "avatar": "https://img.toutiao.io/subject%2Fae2b74c589814b769c1bebad92c2fb9a",
-    "avatarAlt": "架构之美 - 独家号",
-    "subjectName": "架构之美",
-    "homeUrl": "/subjects/42200"
   },
   {
     "title": "浅谈分库分表那些事儿",
@@ -170,6 +170,16 @@
     "homeUrl": "/subjects/382106"
   },
   {
+    "title": "从需求出发设计一条开源持续部署流水线",
+    "description": "本次实践从需求出发到部署，采用大部分开源工具链Jira+GitLab+Jenkins+Spinnaker. Jira作为需求和任务管理工具，集成GitLab实现需求与代码关联，自动...",
+    "votes": "95",
+    "url": "/k/we8gr61",
+    "avatar": "https://img.toutiao.io/subject%2F2d3d99522c644729948fa3e529e11b48",
+    "avatarAlt": "架构一加一 - 独家号",
+    "subjectName": "架构一加一",
+    "homeUrl": "/subjects/314175"
+  },
+  {
     "title": "Spring Boot 中优雅的使用 Swagger 2（史上最全注解篇）",
     "description": "上篇文章讲到SpringBoot中优雅的使用Swagger2-【1/2】，还不会使用Swagger的小伙伴可以先去看上期文章。注解API使用说明作用范围APIAPI常用参数作用位置...",
     "votes": "99",
@@ -178,16 +188,6 @@
     "avatarAlt": "Madison龙少 - 独家号",
     "subjectName": "Madison龙少",
     "homeUrl": "/subjects/457446"
-  },
-  {
-    "title": "从需求出发设计一条开源持续部署流水线",
-    "description": "本次实践从需求出发到部署，采用大部分开源工具链Jira+GitLab+Jenkins+Spinnaker. Jira作为需求和任务管理工具，集成GitLab实现需求与代码关联，自动...",
-    "votes": "94",
-    "url": "/k/we8gr61",
-    "avatar": "https://img.toutiao.io/subject%2F2d3d99522c644729948fa3e529e11b48",
-    "avatarAlt": "架构一加一 - 独家号",
-    "subjectName": "架构一加一",
-    "homeUrl": "/subjects/314175"
   },
   {
     "title": "[译] 新老手必备的 34 种 JavaScript 简写优化技术",
@@ -200,6 +200,26 @@
     "homeUrl": "/subjects/125297"
   },
   {
+    "title": "教你从头写游戏服务器框架",
+    "description": "前言大概已经有差不多一年没写技术文章了，原因是今年投入了一些具体游戏项目的开发。这些新的游戏项目，比较接近独立游戏的开发方式。我觉得公司的“祖传”服务器框架技术不太适合，所以从头写...",
+    "votes": "99",
+    "url": "/k/906zu1i",
+    "avatar": "https://img.toutiao.io/user/bd796912b9f5494ea160b5228bb91e83/thumb",
+    "avatarAlt": "u582116的独家号 - 独家号",
+    "subjectName": "u582116的独家号",
+    "homeUrl": "/subjects/458260"
+  },
+  {
+    "title": "使用 Git 丢失代码的 N 种操作，您中招了吗？",
+    "description": "摘要：无意翻出这篇写于两年前的手稿，当时交付的几家私有云大客户以及公有云客户均频繁遇到此问题，虽然现象千奇百怪，但是无非是错误的操作导致的代码丢失，秉承着开放、自由、分享的开源精神...",
+    "votes": "92",
+    "url": "/k/oa4amzb",
+    "avatar": "https://img.toutiao.io/subject%2F7cabeffc3787447f830b72f4bdcfa91c",
+    "avatarAlt": "Zoker 随笔 - 独家号",
+    "subjectName": "Zoker 随笔",
+    "homeUrl": "/subjects/226163"
+  },
+  {
     "title": "万字长文：彻底搞懂容器镜像构建",
     "description": "大家好，我是张晋涛。我将在这篇文章中深入 Docker 的源码，与你聊聊镜像构建的原理。Docker 架构 这里我们先从宏观上对Docker有个大概的认识，它整体上是个 C/S 架...",
     "votes": "87",
@@ -208,16 +228,6 @@
     "avatarAlt": "k8s生态 - 独家号",
     "subjectName": "k8s生态",
     "homeUrl": "/subjects/55496"
-  },
-  {
-    "title": "使用 Git 丢失代码的 N 种操作，您中招了吗？",
-    "description": "摘要：无意翻出这篇写于两年前的手稿，当时交付的几家私有云大客户以及公有云客户均频繁遇到此问题，虽然现象千奇百怪，但是无非是错误的操作导致的代码丢失，秉承着开放、自由、分享的开源精神...",
-    "votes": "90",
-    "url": "/k/oa4amzb",
-    "avatar": "https://img.toutiao.io/subject%2F7cabeffc3787447f830b72f4bdcfa91c",
-    "avatarAlt": "Zoker 随笔 - 独家号",
-    "subjectName": "Zoker 随笔",
-    "homeUrl": "/subjects/226163"
   },
   {
     "title": "这 30 个我精选的含答案的面试题，硬不硬你说吧",
@@ -230,23 +240,13 @@
     "homeUrl": "/subjects/443906"
   },
   {
-    "title": "GitHub 加速指南进阶版",
-    "description": "这个有什么用？最直观的效果是GitHub图片可以正常加载，网页也稳定了。GitHub Hosts主要是通过修改host的方式加速GitHub访问，解决图片无法加载以及访问速度慢的问...",
+    "title": "我很久没写代码了，但我是个好架构师",
+    "description": "这篇文章还是架构师大刘的故事。故事之前先说个题外话，最近到了金三银四跳槽季，有不少读者问我一些简历、面试的问题，这些问题大部分在之前的一篇硬核文章里都写过，传送门在这里：最全干货：...",
     "votes": "81",
-    "url": "/k/ygnbct1",
-    "avatar": "https://img.toutiao.io/subject%2Fa3f94f1ba1134bcaab4ebc9b404e652f",
-    "avatarAlt": "湖中剑 - 独家号",
-    "subjectName": "湖中剑",
-    "homeUrl": "/subjects/423680"
-  },
-  {
-    "title": "如何吃透一个 Java 项目？（附学习实践）",
-    "description": " 先说一下自己的情况：就是对着视频敲Java项目，其中遇到的BUG还能解决，但就是每次敲完一个项目，就感觉很空虚，项目里面的知识点感觉懂了但又好像没懂，我应该怎样才能掌握一个项目所...",
-    "votes": "84",
-    "url": "/k/cifpaoe",
-    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
-    "avatarAlt": "ASCE1885 - 独家号",
-    "subjectName": "ASCE1885",
-    "homeUrl": "/subjects/4829"
+    "url": "/k/gauwubg",
+    "avatar": "https://img.toutiao.io/subject%2F180d026f85274c998656474cd1988d0f",
+    "avatarAlt": "四猿外 - 独家号",
+    "subjectName": "四猿外",
+    "homeUrl": "/subjects/426740"
   }
 ]
