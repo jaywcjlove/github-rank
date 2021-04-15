@@ -2,7 +2,7 @@
   {
     "title": "教你从头写游戏服务器框架",
     "description": "前言大概已经有差不多一年没写技术文章了，原因是今年投入了一些具体游戏项目的开发。这些新的游戏项目，比较接近独立游戏的开发方式。我觉得公司的“祖传”服务器框架技术不太适合，所以从头写...",
-    "votes": "111",
+    "votes": "112",
     "url": "/k/906zu1i",
     "avatar": "https://img.toutiao.io/user/bd796912b9f5494ea160b5228bb91e83/thumb",
     "avatarAlt": "u582116的独家号 - 独家号",
@@ -10,19 +10,19 @@
     "homeUrl": "/subjects/458260"
   },
   {
-    "title": "我很久没写代码了，但我是个好架构师",
-    "description": "这篇文章还是架构师大刘的故事。故事之前先说个题外话，最近到了金三银四跳槽季，有不少读者问我一些简历、面试的问题，这些问题大部分在之前的一篇硬核文章里都写过，传送门在这里：最全干货：...",
-    "votes": "86",
-    "url": "/k/gauwubg",
-    "avatar": "https://img.toutiao.io/subject%2F180d026f85274c998656474cd1988d0f",
-    "avatarAlt": "四猿外 - 独家号",
-    "subjectName": "四猿外",
-    "homeUrl": "/subjects/426740"
+    "title": "Git 分支管理策略与工作流程",
+    "description": "Git是目前世界上最先进的分布式版本控制系统。它使我们更方便的跟踪，管理和组织代码。也帮助了我们更好的与其他开发者进行协作开发。但是没有规矩不成方圆。协作开发必须有一个规范来约束各...",
+    "votes": "91",
+    "url": "/k/82eogba",
+    "avatar": "https://img.toutiao.io/user/5201fb246cb84281b3954be03a699793/thumb",
+    "avatarAlt": "JavaScript之禅 - 独家号",
+    "subjectName": "JavaScript之禅",
+    "homeUrl": "/subjects/263792"
   },
   {
     "title": "两次被裁之后，我终于解决了数据库缓存一致性问题",
     "description": "一我是一名毕业两年的程序员。算上实习，工作三年了，正是一个程序员的黄金时代，这让我普通而自信。但是从实习期，我就被辞退两次了。今天是我的又一场面试，而且是大厂面试。我要一洗前耻，证...",
-    "votes": "89",
+    "votes": "97",
     "url": "/k/feyaceo",
     "avatar": "https://img.toutiao.io/subject%2F50a36eb7322d42b9b9452097f39be371",
     "avatarAlt": "一路走来微软.net - 独家号",
@@ -30,39 +30,29 @@
     "homeUrl": "/subjects/134649"
   },
   {
-    "title": "有哪些可以提高代码质量的书籍推荐？",
-    "description": "这篇文章的内容其实很早就写了，并且，我也已经同步在了我的 Github 的一个仓库中（仓库内容还在继续完善中），地址：https://github.com/CodingDocs/a...",
-    "votes": "77",
-    "url": "/k/pmlwnuy",
-    "avatar": "https://img.toutiao.io/subject%2Ff834a19bb9e24261a813b7a1ebc03a11",
-    "avatarAlt": "JavaGuide - 独家号",
-    "subjectName": "JavaGuide",
-    "homeUrl": "/subjects/352853"
+    "title": "我很久没写代码了，但我是个好架构师",
+    "description": "这篇文章还是架构师大刘的故事。故事之前先说个题外话，最近到了金三银四跳槽季，有不少读者问我一些简历、面试的问题，这些问题大部分在之前的一篇硬核文章里都写过，传送门在这里：最全干货：...",
+    "votes": "88",
+    "url": "/k/gauwubg",
+    "avatar": "https://img.toutiao.io/subject%2F180d026f85274c998656474cd1988d0f",
+    "avatarAlt": "四猿外 - 独家号",
+    "subjectName": "四猿外",
+    "homeUrl": "/subjects/426740"
   },
   {
-    "title": "Git 分支管理策略与工作流程",
-    "description": "Git是目前世界上最先进的分布式版本控制系统。它使我们更方便的跟踪，管理和组织代码。也帮助了我们更好的与其他开发者进行协作开发。但是没有规矩不成方圆。协作开发必须有一个规范来约束各...",
-    "votes": "56",
-    "url": "/k/82eogba",
-    "avatar": "https://img.toutiao.io/user/ff77d289f108402b8c9a9dc46b4befbd/thumb",
-    "avatarAlt": "JavaScript之禅 - 独家号",
-    "subjectName": "JavaScript之禅",
-    "homeUrl": "/subjects/263792"
-  },
-  {
-    "title": "一文读懂，DDD 落地数据库设计实战",
-    "description": "作者范钢，曾任航天信息首席架构师，《大话重构》一书的作者。本文根据具体实例详细描述了DDD 落实到数据库设计的整个过程阅读本文之前建议先阅读上一篇文章《万字长文，结合电商支付业务一...",
-    "votes": "57",
-    "url": "/k/6aau0fc",
-    "avatar": "https://img.toutiao.io/subject%2Fd00b380edf1f4c5c989adc712d44de7b",
-    "avatarAlt": "乱学派 - 独家号",
-    "subjectName": "乱学派",
-    "homeUrl": "/subjects/110643"
+    "title": "谈谈 MySQL 锁",
+    "description": "一、前言 MySQL 的并发控制是在数据安全性和并发处理能力之间的权衡，通过不同的锁策略来决定对系统开销和性能的影响。只要存在多个客户端同时修改更新数据，就会存在并发问题，MySQ...",
+    "votes": "66",
+    "url": "/k/z5c0vp0",
+    "avatar": "https://img.toutiao.io/subject%2F6abc3302fa1f4fde83555bade1fa5d02",
+    "avatarAlt": "郭儿的跋涉 - 独家号",
+    "subjectName": "郭儿的跋涉",
+    "homeUrl": "/subjects/450903"
   },
   {
     "title": "职场：工作五年之后，对技术和业务的思考",
     "description": "苦海无边，回头无岸。01 晃晃悠悠的，在互联网行业工作了五年，默然回首，你看哪里像灯火阑珊处？初入职场，大部分程序员会觉得苦学技术，以后会顺风顺水升职加薪，这样的想法没有错，但是不...",
-    "votes": "65",
+    "votes": "72",
     "url": "/k/zpo0xd7",
     "avatar": "https://img.toutiao.io/subject%2F652f30d4f8ed4f198281774399a49076",
     "avatarAlt": "知了一笑 - 独家号",
@@ -70,14 +60,34 @@
     "homeUrl": "/subjects/416733"
   },
   {
-    "title": "架构设计方法论",
-    "description": "掌握一套架构方法论，掌握规范的设计方法，设计出更好、更稳定的架构设计。 概念解析 在文章开始之前需要先理解几个概念：什么是方法论？我们拿到一个输入，然后根据这个输入预期一个输出，把...",
-    "votes": "64",
-    "url": "/k/68q4m1v",
-    "avatar": "https://img.toutiao.io/subject%2F51ad25ebdf8b4a15895a07d5bce2b1e4",
-    "avatarAlt": "JAVA日知录 - 独家号",
-    "subjectName": "JAVA日知录",
-    "homeUrl": "/subjects/205182"
+    "title": "一文读懂，DDD 落地数据库设计实战",
+    "description": "作者范钢，曾任航天信息首席架构师，《大话重构》一书的作者。本文根据具体实例详细描述了DDD 落实到数据库设计的整个过程阅读本文之前建议先阅读上一篇文章《万字长文，结合电商支付业务一...",
+    "votes": "61",
+    "url": "/k/6aau0fc",
+    "avatar": "https://img.toutiao.io/subject%2Fd00b380edf1f4c5c989adc712d44de7b",
+    "avatarAlt": "乱学派 - 独家号",
+    "subjectName": "乱学派",
+    "homeUrl": "/subjects/110643"
+  },
+  {
+    "title": "InnoDB 解决幻读的方案：LBCC & MVCC",
+    "description": " 最近要在公司内做一次技术分享，思来想去不知道该分享些什么，最后在朋友的提示下，准备分享一下MySQL的InnoDB引擎下的事务幻读问题与解决方案--LBCC&MVCC。经过好几天...",
+    "votes": "65",
+    "url": "/k/omkb9gy",
+    "avatar": "https://img.toutiao.io/subject%2F04598310d2b449419e15d3ca712b17b4",
+    "avatarAlt": "阿Q说代码 - 独家号",
+    "subjectName": "阿Q说代码",
+    "homeUrl": "/subjects/457975"
+  },
+  {
+    "title": "免费正版 IntelliJ IDEA license 详细指南",
+    "description": "点击上方“陶陶技术笔记”关注我回复“资料”获取作者整理的大量学习资料！一、前言  IntelliJ IDEA一直是我非常喜欢的 IDE 自从用上之后就回不了头了，但是Ultimat...",
+    "votes": "61",
+    "url": "/k/3bv147y",
+    "avatar": "https://img.toutiao.io/subject%2F669b39ba3005429ea2ffc929debc32c2",
+    "avatarAlt": "陶陶技术笔记 - 独家号",
+    "subjectName": "陶陶技术笔记",
+    "homeUrl": "/subjects/419569"
   },
   {
     "title": "基于 OpenResty 长连接推送的演进",
@@ -90,14 +100,14 @@
     "homeUrl": "/subjects/428768"
   },
   {
-    "title": "谈谈 MySQL 锁",
-    "description": "一、前言 MySQL 的并发控制是在数据安全性和并发处理能力之间的权衡，通过不同的锁策略来决定对系统开销和性能的影响。只要存在多个客户端同时修改更新数据，就会存在并发问题，MySQ...",
+    "title": "JVM 进阶之路（九）：性能监控工具（可视化工具篇）",
+    "description": "在前面已经学习了JVM性能监控的命令行工具，接下来学习JVM性能监控的命令行工具，通过可视化工具可以更直观地监控JVM性能、处理JVM相关问题。1、JConsole JConsol...",
     "votes": "50",
-    "url": "/k/z5c0vp0",
-    "avatar": "https://img.toutiao.io/subject%2F6abc3302fa1f4fde83555bade1fa5d02",
-    "avatarAlt": "郭儿的跋涉 - 独家号",
-    "subjectName": "郭儿的跋涉",
-    "homeUrl": "/subjects/450903"
+    "url": "/k/7uw9l2r",
+    "avatar": "https://img.toutiao.io/subject%2F785b9391ccd74d88bfc5ccd391fb4365",
+    "avatarAlt": "三分恶 - 独家号",
+    "subjectName": "三分恶",
+    "homeUrl": "/subjects/454266"
   },
   {
     "title": "手摸手教你阅读和调试大型开源项目 ZooKeeper",
@@ -110,39 +120,9 @@
     "homeUrl": "/subjects/175527"
   },
   {
-    "title": "JVM 进阶之路（九）：性能监控工具（可视化工具篇）",
-    "description": "在前面已经学习了JVM性能监控的命令行工具，接下来学习JVM性能监控的命令行工具，通过可视化工具可以更直观地监控JVM性能、处理JVM相关问题。1、JConsole JConsol...",
-    "votes": "43",
-    "url": "/k/7uw9l2r",
-    "avatar": "https://img.toutiao.io/subject%2F785b9391ccd74d88bfc5ccd391fb4365",
-    "avatarAlt": "三分恶 - 独家号",
-    "subjectName": "三分恶",
-    "homeUrl": "/subjects/454266"
-  },
-  {
-    "title": "免费正版 IntelliJ IDEA license 详细指南",
-    "description": "点击上方“陶陶技术笔记”关注我回复“资料”获取作者整理的大量学习资料！一、前言  IntelliJ IDEA一直是我非常喜欢的 IDE 自从用上之后就回不了头了，但是Ultimat...",
-    "votes": "46",
-    "url": "/k/3bv147y",
-    "avatar": "https://img.toutiao.io/subject%2F669b39ba3005429ea2ffc929debc32c2",
-    "avatarAlt": "陶陶技术笔记 - 独家号",
-    "subjectName": "陶陶技术笔记",
-    "homeUrl": "/subjects/419569"
-  },
-  {
-    "title": "除了甘特图，你还应该了解些什么软件项目管理知识",
-    "description": "前言 ❝A bad plan is better than no plan.坏计划也好过没有计划。--彼得·蒂尔《从0到1》❞ 在软件开发工程中，很少会有单打独斗的程序员。这是因为...",
-    "votes": "40",
-    "url": "/k/0hklbup",
-    "avatar": "https://img.toutiao.io/subject%2F165bda489eaa4e0ebe4b3fcdc2a6d464",
-    "avatarAlt": "Crawlab开发组 - 独家号",
-    "subjectName": "Crawlab开发组",
-    "homeUrl": "/subjects/297963"
-  },
-  {
     "title": "Spring Boot 集成 Kafka",
     "description": "Spring Boot 作为主流微服务框架，拥有成熟的社区生态。市场应用广泛，为了方便大家，整理了一个基于spring boot的常用中间件快速集成入门系列手册，涉及RPC、缓存、...",
-    "votes": "38",
+    "votes": "42",
     "url": "/k/bd6mhey",
     "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
     "avatarAlt": "微观技术 - 独家号",
@@ -150,19 +130,29 @@
     "homeUrl": "/subjects/348507"
   },
   {
-    "title": "商业银行安全架构设计实践",
-    "description": "本公众号发布的文章均转载自互联网或经作者投稿授权的原创，文末已注明出处，其内容和图片版权归原网站或作者本人所有，并不代表安世加的观点，若有无意侵权或转载不当之处请联系我们处理，谢谢...",
-    "votes": "31",
-    "url": "/k/idcm9zk",
-    "avatar": "https://img.toutiao.io/subject%2F378e77470970490b9e51050078d80e34",
-    "avatarAlt": "安全屋 - 独家号",
-    "subjectName": "安全屋",
-    "homeUrl": "/subjects/27565"
+    "title": "笔记：5 种网络 IO 模型",
+    "description": "点击上方蓝色字关注我们~01 阻塞I/O blocking i/o  ①等待数据：需要等待数据拷贝进内核 ②需要等内核将数据复制到用户空间。 ◇优点：①能够及时返回数据，无延迟。②...",
+    "votes": "43",
+    "url": "/k/v9bis1a",
+    "avatar": "https://img.toutiao.io/subject%2F445f12f30e3940b2b52eac3d48d07389",
+    "avatarAlt": "搬运工来架构 - 独家号",
+    "subjectName": "搬运工来架构",
+    "homeUrl": "/subjects/176399"
+  },
+  {
+    "title": "学会这 10 种定时任务，我有点飘了",
+    "description": "大家好我是苏三，又跟大家见面了。前言 最近有几个读者私信给我，问我他们的业务场景，要用什么样的定时任务。确实，在不用的业务场景下要用不同的定时任务，其实我们的选择还是挺多的。我今天...",
+    "votes": "42",
+    "url": "/k/811or1j",
+    "avatar": "https://img.toutiao.io/subject%2F0aae3536b7d44492b1974b1077394f7d",
+    "avatarAlt": "苏三说技术 - 独家号",
+    "subjectName": "苏三说技术",
+    "homeUrl": "/subjects/453205"
   },
   {
     "title": "谈谈动态规划的本质",
     "description": " 前言  在上一篇动态规划的文章中，我们先由 Fibonacci 例子引入到了动态规划中，然后借助兑换零钱的例子，分析了动态规划最主要的三个性质，即：重叠子问题最优子结构状态转移方...",
-    "votes": "29",
+    "votes": "33",
     "url": "/k/7jr7mwy",
     "avatar": "https://img.toutiao.io/subject%2F98196c0464cf48eb909d3000af80fa28",
     "avatarAlt": "dotnet - 独家号",
@@ -170,14 +160,14 @@
     "homeUrl": "/subjects/348014"
   },
   {
-    "title": "笔记：5 种网络 IO 模型",
-    "description": "点击上方蓝色字关注我们~01 阻塞I/O blocking i/o  ①等待数据：需要等待数据拷贝进内核 ②需要等内核将数据复制到用户空间。 ◇优点：①能够及时返回数据，无延迟。②...",
-    "votes": "34",
-    "url": "/k/v9bis1a",
-    "avatar": "https://img.toutiao.io/subject%2F445f12f30e3940b2b52eac3d48d07389",
-    "avatarAlt": "搬运工来架构 - 独家号",
-    "subjectName": "搬运工来架构",
-    "homeUrl": "/subjects/176399"
+    "title": "商业银行安全架构设计实践",
+    "description": "本公众号发布的文章均转载自互联网或经作者投稿授权的原创，文末已注明出处，其内容和图片版权归原网站或作者本人所有，并不代表安世加的观点，若有无意侵权或转载不当之处请联系我们处理，谢谢...",
+    "votes": "33",
+    "url": "/k/idcm9zk",
+    "avatar": "https://img.toutiao.io/subject%2F378e77470970490b9e51050078d80e34",
+    "avatarAlt": "安全屋 - 独家号",
+    "subjectName": "安全屋",
+    "homeUrl": "/subjects/27565"
   },
   {
     "title": "跟读者聊 Goroutine 泄露的 N 种方法，真刺激",
@@ -190,13 +180,23 @@
     "homeUrl": "/subjects/343446"
   },
   {
-    "title": "JVM 合集之开篇点题",
-    "description": "“ 阅读本文大概需要 5 分钟。大家在平时的开发过程中是否遇到过StackOverflowError、OutOfMemoryError等类似的内存溢出错误呢？大家又是怎么解决这个问...",
-    "votes": "34",
-    "url": "/k/11ajx2d",
-    "avatar": "https://img.toutiao.io/subject%2F04598310d2b449419e15d3ca712b17b4",
-    "avatarAlt": "阿Q说代码 - 独家号",
-    "subjectName": "阿Q说代码",
-    "homeUrl": "/subjects/457975"
+    "title": "ZooKeeper 设计原理",
+    "description": "▲ 点击上方\"多颗糖\"关注公众号本周学习 ZooKeeper，主要讨论以下两个问题：分布式协调系统可以有一个独立的通用服务来处理吗？API 应该是什么样的？其他分布式应用程序如何使...",
+    "votes": "32",
+    "url": "/k/otdc5oi",
+    "avatar": "https://img.toutiao.io/user/4a9a9e41962e4b238bdebfaf160b5034/thumb",
+    "avatarAlt": "强力研分布式系统 - 独家号",
+    "subjectName": "强力研分布式系统",
+    "homeUrl": "/subjects/1983"
+  },
+  {
+    "title": "美团弹性伸缩系统的技术演进与落地实践",
+    "description": " 总第443篇 2021年 第013篇  弹性伸缩具有应突发、省成本、自动化的业务价值。平台侧将各业务零散、闲置资源进行整合，形成一个大规模资源池，通过弹性调度、库存管控技术在公司...",
+    "votes": "33",
+    "url": "/k/cdkjc3r",
+    "avatar": "https://img.toutiao.io/subject%2F9f2f107b71194e418f7dc2cc301aa452",
+    "avatarAlt": "美团技术团队 - 独家号",
+    "subjectName": "美团技术团队",
+    "homeUrl": "/subjects/117027"
   }
 ]
