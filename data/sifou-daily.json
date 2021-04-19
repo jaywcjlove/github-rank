@@ -1,29 +1,92 @@
 [
   {
-    "title": "JavaScript高级  原型",
-    "description": "函数的 原型（prototype）函数的protot属性每个函数都有一个prototype属性，它默认指向一个object空对象（即称为：原型对象）原型对象中有一个属性constructor，它指向函数对象给原型对象添加属性（一般都是方法...",
-    "url": "https://segmentfault.com/a/1190000039841293",
-    "author": "秦国盖聂",
-    "home_url": "https://segmentfault.com/u/qinguogainie",
-    "votes": "2",
+    "title": "ES6 系列六：set和map",
+    "description": "在开始学习之前，我们想要告诉您的是，本文章是对阮一峰《ECMAScript6 入门》一书中 \"Set 和 Map\" 章节的总结，如果您已掌握下面知识事项，则可跳过此环节直接进入题目练习",
+    "url": "https://segmentfault.com/a/1190000039844333",
+    "author": "小和山的菜鸟们",
+    "home_url": "https://segmentfault.com/u/xhsrookes",
+    "votes": "7",
     "rank": 1
   },
   {
-    "title": "捕获代码错误的正确姿势（一）",
-    "description": "不知道小伙伴们是否有这样的体验，本地开发项目调试时一切正常，一旦发布到线上就会出现各种奇怪的问题，原因也是多种多样，环境变量不同，宿主环境不同，接口返回的数据格式不同，代码逻辑问题等等。",
-    "url": "https://segmentfault.com/a/1190000039840371",
-    "author": "裤裆三重奏",
-    "home_url": "https://segmentfault.com/u/kusanzhongzou",
-    "votes": "2",
+    "title": "最新、最全、最详细的 K8S 学习笔记总结（2021最新版）！建议收藏",
+    "description": "虽然 Docker 已经很强大了，但是在实际使用上还是有诸多不便，比如集群管理、资源调度、文件管理等等。那么在这样一个百花齐放的容器时代涌现出了很多解决方案，比如 Mesos、Swarm、Kubernetes 等等，其中谷歌开...",
+    "url": "https://segmentfault.com/a/1190000039844000",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "6",
     "rank": 2
   },
   {
-    "title": "手写Promise，通过Promise/A+的872个测试",
-    "description": "github博客Promise的声明当我们使用Promise的时候，通常都是new Promise((resolve, reject) => {})。因此我们可以看出：Promise是一个类；Promise类的构造函数的第一个参数是函数，这个函数叫处理器函数（exec...",
-    "url": "https://segmentfault.com/a/1190000039841372",
-    "author": "欧怼怼",
-    "home_url": "https://segmentfault.com/u/ouduidui",
-    "votes": "1",
+    "title": "ES6 系列五：数组的扩展",
+    "description": "在开始学习之前，我们想要告诉您的是，本文章是对阮一峰《ECMAScript6 入门》一书中 \"数组的扩展\" 章节的总结，如果您已掌握下面知识事项，则可跳过此环节直接进入题目练习",
+    "url": "https://segmentfault.com/a/1190000039844097",
+    "author": "小和山的菜鸟们",
+    "home_url": "https://segmentfault.com/u/xhsrookes",
+    "votes": "6",
     "rank": 3
+  },
+  {
+    "title": "全网最新、最全、最详细的 MySQL 数据库学习笔记总结（2021最新版）",
+    "description": "数据库是什么数据库管理系统，简称为DBMS（Database Management System），是用来存储数据的管理系统。DBMS 的重要性无法多人共享数据无法提供操作大量数据所需的格式实现读取自动化需要编程技术能力无法应对突发...",
+    "url": "https://segmentfault.com/a/1190000039844562",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "9",
+    "rank": 4
+  },
+  {
+    "title": "常用git命令要常用",
+    "description": "请放弃IDE中git的傻瓜式操作，下面通过移步换景的方式熟悉常用git命令，然后爱不释手。场景1 上传代码到远程仓库 {代码...} 以上操作完成后，代码就顺利上传到远程仓库了。场景2 查看操作记录 {代码...} git log...",
+    "url": "https://segmentfault.com/a/1190000039844144",
+    "author": "JaredWang",
+    "home_url": "https://segmentfault.com/u/duck2u",
+    "votes": "4",
+    "rank": 5
+  },
+  {
+    "title": "【操作系统—并发】常见并发问题与事件并发模型",
+    "description": "多年来，研究人员花了大量的时间和精力研究并发编程的缺陷。并发缺陷有很多常见的模式，从大的方面来说可以分为两类：非死锁缺陷和死锁缺陷。了解这些模式是写出健壮、正确程序的第一步。",
+    "url": "https://segmentfault.com/a/1190000039844939",
+    "author": "与昊",
+    "home_url": "https://segmentfault.com/u/yu_5e842f4043ba6",
+    "votes": "1",
+    "rank": 6
+  },
+  {
+    "title": "spring boot 整合 es 报错",
+    "description": "最近由于一些原因需要升级 spring boot 版本，项目原来的版本是 spring boot 2.1.2.RELEASE，现在把版本升级到 spring boot 2.4.1，项目一启动就报如下错误，通过查阅官方文档，一步一步解决了这个问题，在这里记...",
+    "url": "https://segmentfault.com/a/1190000039844861",
+    "author": "惜鸟",
+    "home_url": "https://segmentfault.com/u/xiniao_6051dfcd5b5e8",
+    "votes": "1",
+    "rank": 7
+  },
+  {
+    "title": "【操作系统—并发】条件变量与信号量",
+    "description": "之前我们介绍了锁，然而锁并不是并发程序设计中所需的唯一原语。在很多情况下，线程需要检查某一条件（condition）满足之后，才会继续运行。例如，父线程需要检查子线程是否执行完毕。这种等待如何实现呢？",
+    "url": "https://segmentfault.com/a/1190000039844055",
+    "author": "与昊",
+    "home_url": "https://segmentfault.com/u/yu_5e842f4043ba6",
+    "votes": "2",
+    "rank": 8
+  },
+  {
+    "title": "SHELL 语法以及实例",
+    "description": "Bash，Unix shell的一种，在1987年由布莱恩·福克斯为了GNU计划而编写。1989年发布第一个正式版本，原先是计划用在GNU操作系统上，但能运行于大多数类Unix系统的操作系统之上，包括Linux与Mac OS X v10.4起至macOS...",
+    "url": "https://segmentfault.com/a/1190000039846441",
+    "author": "Grewer",
+    "home_url": "https://segmentfault.com/u/grewer",
+    "votes": "1",
+    "rank": 9
+  },
+  {
+    "title": "纪念我的第一个金三银四",
+    "description": "坦白讲在最初并没有想着一定要来上海工作，一切起源于去年10月的一次面试，记得面试了契约锁和千图网两家公司，当时只是想通过面试看看自己的水平以及自己有没有和主流脱节，当时的面试结果是：契约锁挂了，千图...",
+    "url": "https://segmentfault.com/a/1190000039846338",
+    "author": "Alchemist",
+    "home_url": "https://segmentfault.com/u/nero_hero",
+    "votes": "1",
+    "rank": 10
   }
 ]
