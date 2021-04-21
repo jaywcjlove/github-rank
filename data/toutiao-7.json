@@ -2,7 +2,7 @@
   {
     "title": "RESTful API 设计最佳实践",
     "description": "简介RESTful API 是目前最流行的API设计规范，它用于Web数据接口的设计。它允许包括浏览器在内的各种客户端与服务器进行通信。因此正确是设计我们的RESTful是相当重要...",
-    "votes": "100",
+    "votes": "104",
     "url": "/k/4zqz7k1",
     "avatar": "https://img.toutiao.io/user/5201fb246cb84281b3954be03a699793/thumb",
     "avatarAlt": "JavaScript之禅 - 独家号",
@@ -10,29 +10,19 @@
     "homeUrl": "/subjects/263792"
   },
   {
-    "title": "InnoDB 解决幻读的方案：LBCC & MVCC",
-    "description": " 最近要在公司内做一次技术分享，思来想去不知道该分享些什么，最后在朋友的提示下，准备分享一下MySQL的InnoDB引擎下的事务幻读问题与解决方案--LBCC&MVCC。经过好几天...",
-    "votes": "98",
-    "url": "/k/omkb9gy",
-    "avatar": "https://img.toutiao.io/subject%2F04598310d2b449419e15d3ca712b17b4",
-    "avatarAlt": "阿Q说代码 - 独家号",
-    "subjectName": "阿Q说代码",
-    "homeUrl": "/subjects/457975"
-  },
-  {
-    "title": "学会这 10 种定时任务，我有点飘了",
-    "description": "大家好我是苏三，又跟大家见面了。前言 最近有几个读者私信给我，问我他们的业务场景，要用什么样的定时任务。确实，在不用的业务场景下要用不同的定时任务，其实我们的选择还是挺多的。我今天...",
-    "votes": "73",
-    "url": "/k/811or1j",
-    "avatar": "https://img.toutiao.io/subject%2F0aae3536b7d44492b1974b1077394f7d",
-    "avatarAlt": "苏三说技术 - 独家号",
-    "subjectName": "苏三说技术",
-    "homeUrl": "/subjects/453205"
+    "title": "一文搞懂分布式锁的原理与实现",
+    "description": " 前言对于锁，大家应该都不陌生，手机上可以加锁，想用时候解锁，不用的时候上锁，那自行车、房门同样可以加把锁，道理属于类似的情况。 在日常开发工作中，我们为了保证资源操作的最终一致性...",
+    "votes": "78",
+    "url": "/k/j7fdh6h",
+    "avatar": "https://img.toutiao.io/subject%2F071476c43e0d42cf95f3e77f046c814b",
+    "avatarAlt": "架构精进之路 - 独家号",
+    "subjectName": "架构精进之路",
+    "homeUrl": "/subjects/452638"
   },
   {
     "title": "这 11 款 Chrome 神器，用起来爽到爆",
     "description": "前言对于从事IT行业的我们来说，几乎无时无刻都在用chrome浏览器，因为它给我们的工作和生活带来了极大的便利。今天给大家分享我用过的11款牛逼的chrome插件，你看完前3个可能...",
-    "votes": "61",
+    "votes": "74",
     "url": "/k/czntgsa",
     "avatar": "https://img.toutiao.io/subject%2F0aae3536b7d44492b1974b1077394f7d",
     "avatarAlt": "苏三说技术 - 独家号",
@@ -42,7 +32,7 @@
   {
     "title": "超级详细的 Spring Boot 注解总结",
     "description": "大家好，我是狼王，一个爱打球的程序员日常编程中我相信大家肯定都用过spring，也用过spring的注解，哪怕面试的时候也经常会被问到一些spring和spring boot注解的...",
-    "votes": "60",
+    "votes": "61",
     "url": "/k/zxa65u1",
     "avatar": "https://img.toutiao.io/subject%2F8e12ef64799649acbfd936883ef16c3c",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -60,29 +50,9 @@
     "homeUrl": "/subjects/348507"
   },
   {
-    "title": "Redis 入门：Redis 概念和基础",
-    "description": "Redis是一种支持key-value等多种数据结构的存储系统。可用于缓存，事件发布或订阅，高速队列等场景。支持网络，提供字符串，哈希，列表，队列，集合结构直接存取，基于内存，可持...",
-    "votes": "50",
-    "url": "/k/47fg3nq",
-    "avatar": "https://img.toutiao.io/subject%2Fbcb663e36b0c406c9533cb76104b3227",
-    "avatarAlt": "Java全栈知识体系 - 独家号",
-    "subjectName": "Java全栈知识体系",
-    "homeUrl": "/subjects/319391"
-  },
-  {
-    "title": "海量数据业务有哪些优化手段？",
-    "description": "互联网时代，亿级用户各种网络行为产生大量数据，如何解决海量数据存储？如何高性能读写？解决思路有哪些，本文列举了常用的解决方案：缓存加速读写分离垂直拆分分库分表冷热数据分离ES助力复...",
-    "votes": "53",
-    "url": "/k/ae23a9e",
-    "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
-    "avatarAlt": "微观技术 - 独家号",
-    "subjectName": "微观技术",
-    "homeUrl": "/subjects/348507"
-  },
-  {
     "title": "面向 K8s 设计误区",
     "description": " K8s 设计模式  Kubernetes 是一个具有普遍意义的容器编排工具，它提供了一套基于容器构建分布式系统的基础依赖，其意义等同于 Linux 在操作系统中的地位，可以认为是...",
-    "votes": "39",
+    "votes": "48",
     "url": "/k/iebk207",
     "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
     "avatarAlt": "ASCE1885 - 独家号",
@@ -90,19 +60,39 @@
     "homeUrl": "/subjects/4829"
   },
   {
-    "title": "Kafka 消息存储机制",
-    "description": " Kafka 消息以 Partition 作为存储单元，那么在 Partition 内消息是以什么样的格式存储的呢，如何处理 Partition 中的消息，又有哪些安全策略来保证消...",
-    "votes": "40",
-    "url": "/k/jen5rcs",
-    "avatar": "https://img.toutiao.io/subject%2F71f9941cb38e4fd7b0d4cf7edf850b2b",
-    "avatarAlt": "无籽水稻研发 - 独家号",
-    "subjectName": "无籽水稻研发",
-    "homeUrl": "/subjects/454231"
+    "title": "海量数据业务有哪些优化手段？",
+    "description": "互联网时代，亿级用户各种网络行为产生大量数据，如何解决海量数据存储？如何高性能读写？解决思路有哪些，本文列举了常用的解决方案：缓存加速读写分离垂直拆分分库分表冷热数据分离ES助力复...",
+    "votes": "55",
+    "url": "/k/ae23a9e",
+    "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
+    "avatarAlt": "微观技术 - 独家号",
+    "subjectName": "微观技术",
+    "homeUrl": "/subjects/348507"
+  },
+  {
+    "title": "Redis 入门：Redis 概念和基础",
+    "description": "Redis是一种支持key-value等多种数据结构的存储系统。可用于缓存，事件发布或订阅，高速队列等场景。支持网络，提供字符串，哈希，列表，队列，集合结构直接存取，基于内存，可持...",
+    "votes": "51",
+    "url": "/k/47fg3nq",
+    "avatar": "https://img.toutiao.io/subject%2Fbcb663e36b0c406c9533cb76104b3227",
+    "avatarAlt": "Java全栈知识体系 - 独家号",
+    "subjectName": "Java全栈知识体系",
+    "homeUrl": "/subjects/319391"
+  },
+  {
+    "title": "洞察设计模式的底层逻辑",
+    "description": "设计模式是开发同学经常聊到的话题，也经常被用到实际的开发项目中，熟练的人可以做到信手拈来，不熟悉的人陷入苦思冥想中。笔者认为，不仅仅要掌握设计模式的用法，更要洞察设计模式的底层逻辑...",
+    "votes": "42",
+    "url": "/k/ot335il",
+    "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
   },
   {
     "title": "看过这篇剖析，你还不懂 Go sync.Map 吗？",
     "description": "hi, 大家好，我是 haohongfan。本篇文章会从使用方式和源码角度剖析 sync.Map。不过不管是日常开发还是开源项目中，好像 sync.Map 并没有得到很好的利用，大...",
-    "votes": "38",
+    "votes": "42",
     "url": "/k/x1rnpcx",
     "avatar": "https://img.toutiao.io/subject%2F27dc41301606439ea24437841df6cffe",
     "avatarAlt": "HHFCodeRv - 独家号",
@@ -112,7 +102,7 @@
   {
     "title": "聊聊 Raft 协议",
     "description": "版权声明 本站原创文章 由 萌叔 发表转载请注明 萌叔 | http://vearne.cc1. 参考资料1.1 In Search of an UnderstandableCon...",
-    "votes": "35",
+    "votes": "39",
     "url": "/k/zb7loam",
     "avatar": "https://img.toutiao.io/subject%2F7c016973c0bb4e13a28ab338153e7d12",
     "avatarAlt": "萌叔 - 独家号",
@@ -122,22 +112,12 @@
   {
     "title": "Go 可用性（五）：自适应限流",
     "description": "Go可用性(五) 限流4: 自适应限流本系列为 Go 进阶训练营 笔记，预计 2021Q2 完成更新，访问 博客: Go进阶训练营, 即可查看当前更新进度，部分文章篇幅较长，使用 ...",
-    "votes": "34",
+    "votes": "35",
     "url": "/k/8rglg7c",
     "avatar": "https://img.toutiao.io/subject%2F19b4668c3a91453fbff660ea36243691",
     "avatarAlt": "lailin.xyz - 独家号",
     "subjectName": "lailin.xyz",
     "homeUrl": "/subjects/387401"
-  },
-  {
-    "title": "洞察设计模式的底层逻辑",
-    "description": "设计模式是开发同学经常聊到的话题，也经常被用到实际的开发项目中，熟练的人可以做到信手拈来，不熟悉的人陷入苦思冥想中。笔者认为，不仅仅要掌握设计模式的用法，更要洞察设计模式的底层逻辑...",
-    "votes": "35",
-    "url": "/k/ot335il",
-    "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
-    "avatarAlt": "Bloomingroses - 独家号",
-    "subjectName": "Bloomingroses",
-    "homeUrl": "/subjects/98777"
   },
   {
     "title": "详解 Go 程序的启动流程，你知道 g0，m0 是什么吗？",
@@ -160,14 +140,14 @@
     "homeUrl": "/subjects/389295"
   },
   {
-    "title": "编码编成翔的十八般兵器",
-    "description": "今天愚人节，可以皮一下，可以开点玩笑，所以我决定这篇文章开启嘲讽模式。程序员最怕读别人的代码，比这个更可怕的是什么？从别人那里接手一个老项目 前任程序员或者是编码能力不行，或者是跳...",
-    "votes": "31",
-    "url": "/k/k5cbxm5",
-    "avatar": "https://img.toutiao.io/subject%2F180d026f85274c998656474cd1988d0f",
-    "avatarAlt": "四猿外 - 独家号",
-    "subjectName": "四猿外",
-    "homeUrl": "/subjects/426740"
+    "title": "用 Go struct 不能犯的一个低级错误",
+    "description": "大家好，我是煎鱼。前段时间我分享了 《手撕 Go 面试官：Go 结构体是否可以比较，为什么？》的文章，把基本 Go struct 的比较依据研究了一番。这不，最近有一位读者，遇到了...",
+    "votes": "35",
+    "url": "/k/5gpirgo",
+    "avatar": "https://img.toutiao.io/user/01ec77a3ddbb4158afed606b24af1c87/thumb",
+    "avatarAlt": "脑子进煎鱼了 - 独家号",
+    "subjectName": "脑子进煎鱼了",
+    "homeUrl": "/subjects/343446"
   },
   {
     "title": "Redis 入门-数据类型：3 种特殊类型详解",
@@ -180,23 +160,43 @@
     "homeUrl": "/subjects/319391"
   },
   {
-    "title": "两万字总结《C++ Primer》要点",
-    "description": " 以下文章来源于Jacen的技术笔记 ，作者Jacen 对于想要入门C++的同学来说，《C++ Primer》是一本不能错过的入门书籍，它用平易近人的实例化教学激发学生的学习兴趣，...",
-    "votes": "30",
-    "url": "/k/p3nl5uo",
-    "avatar": "https://img.toutiao.io/subject%2F11cc495ae64e477a9b099c30e240143f",
-    "avatarAlt": "程序猿读书雷达 - 独家号",
-    "subjectName": "程序猿读书雷达",
-    "homeUrl": "/subjects/114561"
+    "title": "好代码实践：基于 Redis 的轻量级分布式均衡消费队列",
+    "description": "一  我对好代码的看法1  什么是好代码如果你读过《设计模式之美》，你可能会觉得玩转各种设计模式，符合设计模式的6大基本原则的代码就是好代码；如果读过《clean code》，你可...",
+    "votes": "32",
+    "url": "/k/mg4sote",
+    "avatar": "https://img.toutiao.io/subject%2Fae2b74c589814b769c1bebad92c2fb9a",
+    "avatarAlt": "架构之美 - 独家号",
+    "subjectName": "架构之美",
+    "homeUrl": "/subjects/42200"
   },
   {
-    "title": "谷歌是如何做应急响应的",
-    "description": "简介Google 如何帮助保护客户数据应急响应团队架构应急响应流程识别协调处置完成持续改进总结参考资料简介为客户数据维护安全的环境是 Google Cloud 的首要任务。Goog...",
-    "votes": "27",
-    "url": "/k/nubisvh",
-    "avatar": "https://img.toutiao.io/subject%2F378e77470970490b9e51050078d80e34",
-    "avatarAlt": "安全屋 - 独家号",
-    "subjectName": "安全屋",
-    "homeUrl": "/subjects/27565"
+    "title": "ConcurrentHashMap 有十个提升性能的地方，你都知道吗？",
+    "description": "往期热门文章： 1、《往期精选优秀博文都在这里了！》2、Java 中的 Switch 都支持 String 了，为什么不支持 long？3、为什么数据库字段要使用NOT NULL？...",
+    "votes": "28",
+    "url": "/k/yjh1gaw",
+    "avatar": "https://img.toutiao.io/subject%2Fabb81231169a4a03b7f3f71216eee91b",
+    "avatarAlt": "小飞侠～ - 独家号",
+    "subjectName": "小飞侠～",
+    "homeUrl": "/subjects/382080"
+  },
+  {
+    "title": "数据调度组件：基于 Azkaban 协调时序任务执行",
+    "description": "一、Azkaban概述 1、任务时序 在数据服务的业务场景中，很常见的业务流程就是日志文件经过大数据分析，再向业务输出结果数据；在该过程中会有很多任务需要执行，并且很难精准把握任务...",
+    "votes": "31",
+    "url": "/k/a7u76ek",
+    "avatar": "https://img.toutiao.io/subject%2F652f30d4f8ed4f198281774399a49076",
+    "avatarAlt": "知了一笑 - 独家号",
+    "subjectName": "知了一笑",
+    "homeUrl": "/subjects/416733"
+  },
+  {
+    "title": "写给开发人员的实用密码学：数字证书",
+    "description": "在数字签名部分，我们讲到数字签名可以起到“防抵赖”的作用。然而，在开放的互联网环境中，通信的双方通常是互不相识，数字签名并不能解决身份认证的问题。比如在数字签名中，私钥签名，公钥验...",
+    "votes": "30",
+    "url": "/k/nvqjbvt",
+    "avatar": "https://img.toutiao.io/subject%2F466151cc6e134a419166b8d478ad412d",
+    "avatarAlt": "云水木石的网络安全研究 - 独家号",
+    "subjectName": "云水木石的网络安全研究",
+    "homeUrl": "/subjects/437207"
   }
 ]
