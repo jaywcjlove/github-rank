@@ -1,18 +1,8 @@
 [
   {
-    "title": "RESTful API 设计最佳实践",
-    "description": "简介RESTful API 是目前最流行的API设计规范，它用于Web数据接口的设计。它允许包括浏览器在内的各种客户端与服务器进行通信。因此正确是设计我们的RESTful是相当重要...",
-    "votes": "104",
-    "url": "/k/4zqz7k1",
-    "avatar": "https://img.toutiao.io/user/5201fb246cb84281b3954be03a699793/thumb",
-    "avatarAlt": "JavaScript之禅 - 独家号",
-    "subjectName": "JavaScript之禅",
-    "homeUrl": "/subjects/263792"
-  },
-  {
     "title": "一文搞懂分布式锁的原理与实现",
     "description": " 前言对于锁，大家应该都不陌生，手机上可以加锁，想用时候解锁，不用的时候上锁，那自行车、房门同样可以加把锁，道理属于类似的情况。 在日常开发工作中，我们为了保证资源操作的最终一致性...",
-    "votes": "78",
+    "votes": "93",
     "url": "/k/j7fdh6h",
     "avatar": "https://img.toutiao.io/subject%2F071476c43e0d42cf95f3e77f046c814b",
     "avatarAlt": "架构精进之路 - 独家号",
@@ -20,29 +10,29 @@
     "homeUrl": "/subjects/452638"
   },
   {
+    "title": "为什么放弃 Kafka，选择 Pulsar?",
+    "description": "Spring Boot 作为主流微服务框架，拥有成熟的社区生态。市场应用广泛，为了方便大家，整理了一个基于spring boot的常用中间件快速集成入门系列手册，涉及RPC、缓存、...",
+    "votes": "84",
+    "url": "/k/wxrneux",
+    "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
+    "avatarAlt": "微观技术 - 独家号",
+    "subjectName": "微观技术",
+    "homeUrl": "/subjects/348507"
+  },
+  {
     "title": "这 11 款 Chrome 神器，用起来爽到爆",
     "description": "前言对于从事IT行业的我们来说，几乎无时无刻都在用chrome浏览器，因为它给我们的工作和生活带来了极大的便利。今天给大家分享我用过的11款牛逼的chrome插件，你看完前3个可能...",
-    "votes": "74",
+    "votes": "90",
     "url": "/k/czntgsa",
-    "avatar": "https://img.toutiao.io/subject%2F0aae3536b7d44492b1974b1077394f7d",
+    "avatar": "https://img.toutiao.io/subject%2F96c1af0d2a0b441ca9740ee13c3e37f3",
     "avatarAlt": "苏三说技术 - 独家号",
     "subjectName": "苏三说技术",
     "homeUrl": "/subjects/453205"
   },
   {
-    "title": "超级详细的 Spring Boot 注解总结",
-    "description": "大家好，我是狼王，一个爱打球的程序员日常编程中我相信大家肯定都用过spring，也用过spring的注解，哪怕面试的时候也经常会被问到一些spring和spring boot注解的...",
-    "votes": "61",
-    "url": "/k/zxa65u1",
-    "avatar": "https://img.toutiao.io/subject%2F8e12ef64799649acbfd936883ef16c3c",
-    "avatarAlt": "服务架构及中台 - 独家号",
-    "subjectName": "服务架构及中台",
-    "homeUrl": "/subjects/26578"
-  },
-  {
     "title": "OpenResty 实现限流",
     "description": "目前限流的解决方案有很多，从分布式角度来看，限流可分为分布式限流（比如基于Sentinel或者 Redis的集群限流）和单机限流。从算法实现角度来看，限流算法可分为计数器算法、滑动...",
-    "votes": "58",
+    "votes": "63",
     "url": "/k/syxnrph",
     "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
     "avatarAlt": "微观技术 - 独家号",
@@ -50,9 +40,19 @@
     "homeUrl": "/subjects/348507"
   },
   {
+    "title": "超级详细的 Spring Boot 注解总结",
+    "description": "大家好，我是狼王，一个爱打球的程序员日常编程中我相信大家肯定都用过spring，也用过spring的注解，哪怕面试的时候也经常会被问到一些spring和spring boot注解的...",
+    "votes": "62",
+    "url": "/k/zxa65u1",
+    "avatar": "https://img.toutiao.io/subject%2F8e12ef64799649acbfd936883ef16c3c",
+    "avatarAlt": "服务架构及中台 - 独家号",
+    "subjectName": "服务架构及中台",
+    "homeUrl": "/subjects/26578"
+  },
+  {
     "title": "面向 K8s 设计误区",
     "description": " K8s 设计模式  Kubernetes 是一个具有普遍意义的容器编排工具，它提供了一套基于容器构建分布式系统的基础依赖，其意义等同于 Linux 在操作系统中的地位，可以认为是...",
-    "votes": "48",
+    "votes": "50",
     "url": "/k/iebk207",
     "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
     "avatarAlt": "ASCE1885 - 独家号",
@@ -70,19 +70,19 @@
     "homeUrl": "/subjects/348507"
   },
   {
-    "title": "Redis 入门：Redis 概念和基础",
-    "description": "Redis是一种支持key-value等多种数据结构的存储系统。可用于缓存，事件发布或订阅，高速队列等场景。支持网络，提供字符串，哈希，列表，队列，集合结构直接存取，基于内存，可持...",
-    "votes": "51",
-    "url": "/k/47fg3nq",
-    "avatar": "https://img.toutiao.io/subject%2Fbcb663e36b0c406c9533cb76104b3227",
-    "avatarAlt": "Java全栈知识体系 - 独家号",
-    "subjectName": "Java全栈知识体系",
-    "homeUrl": "/subjects/319391"
+    "title": "协程切换会引起什么问题",
+    "description": "在微信的业务中协程被大规模应用，在使用的过程中遇到了一些和业务场景相关的问题。本文自下而上从 CPU 中断到 Linux 内核态、再到用户态进程、最后到协程，由这种视角去分析协程切...",
+    "votes": "47",
+    "url": "/k/xkhaihd",
+    "avatar": "https://img.toutiao.io/subject%2F4dda7587bcfb4a5a88ce2cd330fdd8d7",
+    "avatarAlt": "兔之技术笔记 - 独家号",
+    "subjectName": "兔之技术笔记",
+    "homeUrl": "/subjects/22406"
   },
   {
     "title": "洞察设计模式的底层逻辑",
     "description": "设计模式是开发同学经常聊到的话题，也经常被用到实际的开发项目中，熟练的人可以做到信手拈来，不熟悉的人陷入苦思冥想中。笔者认为，不仅仅要掌握设计模式的用法，更要洞察设计模式的底层逻辑...",
-    "votes": "42",
+    "votes": "45",
     "url": "/k/ot335il",
     "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
     "avatarAlt": "Bloomingroses - 独家号",
@@ -92,7 +92,7 @@
   {
     "title": "看过这篇剖析，你还不懂 Go sync.Map 吗？",
     "description": "hi, 大家好，我是 haohongfan。本篇文章会从使用方式和源码角度剖析 sync.Map。不过不管是日常开发还是开源项目中，好像 sync.Map 并没有得到很好的利用，大...",
-    "votes": "42",
+    "votes": "43",
     "url": "/k/x1rnpcx",
     "avatar": "https://img.toutiao.io/subject%2F27dc41301606439ea24437841df6cffe",
     "avatarAlt": "HHFCodeRv - 独家号",
@@ -102,7 +102,7 @@
   {
     "title": "聊聊 Raft 协议",
     "description": "版权声明 本站原创文章 由 萌叔 发表转载请注明 萌叔 | http://vearne.cc1. 参考资料1.1 In Search of an UnderstandableCon...",
-    "votes": "39",
+    "votes": "41",
     "url": "/k/zb7loam",
     "avatar": "https://img.toutiao.io/subject%2F7c016973c0bb4e13a28ab338153e7d12",
     "avatarAlt": "萌叔 - 独家号",
@@ -120,24 +120,54 @@
     "homeUrl": "/subjects/387401"
   },
   {
-    "title": "详解 Go 程序的启动流程，你知道 g0，m0 是什么吗？",
-    "description": "大家好，我是煎鱼。自古应用程序均从 Hello World 开始，你我所写的 Go 语言亦然：import \"fmt\"func main() { fmt.Println(\"hell...",
-    "votes": "32",
-    "url": "/k/twm9mo2",
-    "avatar": "https://img.toutiao.io/user/01ec77a3ddbb4158afed606b24af1c87/thumb",
-    "avatarAlt": "脑子进煎鱼了 - 独家号",
-    "subjectName": "脑子进煎鱼了",
-    "homeUrl": "/subjects/343446"
+    "title": "好代码实践：基于 Redis 的轻量级分布式均衡消费队列",
+    "description": "一  我对好代码的看法1  什么是好代码如果你读过《设计模式之美》，你可能会觉得玩转各种设计模式，符合设计模式的6大基本原则的代码就是好代码；如果读过《clean code》，你可...",
+    "votes": "36",
+    "url": "/k/mg4sote",
+    "avatar": "https://img.toutiao.io/subject%2Fae2b74c589814b769c1bebad92c2fb9a",
+    "avatarAlt": "架构之美 - 独家号",
+    "subjectName": "架构之美",
+    "homeUrl": "/subjects/42200"
   },
   {
-    "title": "ElasticSearch 如何使用 ik 进行中文分词？",
-    "description": " 大家好，我是历小冰。在《为什么 ElasticSearch 比 MySQL 更适合复杂条件搜索》 一文中，我们讲解了 ElasticSearch 如何在数据存储方面支持全文搜索和...",
-    "votes": "29",
-    "url": "/k/ehhe1vm",
-    "avatar": "https://img.toutiao.io/subject%2Fb3fe2c24c18d4affa84e34b23e31a5f9",
-    "avatarAlt": "程序员历小冰 - 独家号",
-    "subjectName": "程序员历小冰",
-    "homeUrl": "/subjects/389295"
+    "title": "Java 8 中的 Stream 流式操作：入门篇",
+    "description": "作者：汤圆个人博客：javalover.cc前言之前总是朋友朋友的叫，感觉有套近乎的嫌疑，所以后面还是给大家改个称呼吧因为大家是来看东西的，所以暂且叫做官人吧（灵感来自于民间流传的...",
+    "votes": "38",
+    "url": "/k/w7xb2nj",
+    "avatar": "https://img.toutiao.io/user/4e114bdc35ab48ef949d3246083c5818/thumb",
+    "avatarAlt": "汤圆学Java - 独家号",
+    "subjectName": "汤圆学Java",
+    "homeUrl": "/subjects/357541"
+  },
+  {
+    "title": "写给开发人员的实用密码学：数字证书",
+    "description": "在数字签名部分，我们讲到数字签名可以起到“防抵赖”的作用。然而，在开放的互联网环境中，通信的双方通常是互不相识，数字签名并不能解决身份认证的问题。比如在数字签名中，私钥签名，公钥验...",
+    "votes": "32",
+    "url": "/k/nvqjbvt",
+    "avatar": "https://img.toutiao.io/subject%2F466151cc6e134a419166b8d478ad412d",
+    "avatarAlt": "云水木石的网络安全研究 - 独家号",
+    "subjectName": "云水木石的网络安全研究",
+    "homeUrl": "/subjects/437207"
+  },
+  {
+    "title": "MyBatis 优秀的设计总结",
+    "description": "背景 在《mybatis的本质和原理》中，我简单介绍了怎么写出一个简化版的mybatis。这个简化版的mybatis已经可以将传统的手动拼接sql的调用数据库方式转化成面向对象的方...",
+    "votes": "35",
+    "url": "/k/k81cs3j",
+    "avatar": "https://img.toutiao.io/subject%2F4325865040b44c0b9e2d8d80a83d1d11",
+    "avatarAlt": "编程一生 - 独家号",
+    "subjectName": "编程一生",
+    "homeUrl": "/subjects/350352"
+  },
+  {
+    "title": "架构模式之分层架构总结",
+    "description": "背景 一个问题，我们要把它搞清楚。需要深入的思考，从演进出发，从核心出发，探索它的本质。这样才能在工作中举一反三。探索本质的思想，对于架构者来说尤其重要。本文想探讨架构模式之分层设...",
+    "votes": "31",
+    "url": "/k/fwtxydd",
+    "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
   },
   {
     "title": "用 Go struct 不能犯的一个低级错误",
@@ -150,24 +180,14 @@
     "homeUrl": "/subjects/343446"
   },
   {
-    "title": "Redis 入门-数据类型：3 种特殊类型详解",
-    "description": "Redis除了上文中5种基础数据类型，还有三种特殊的数据类型，分别是 HyperLogLogs（基数统计）， Bitmaps (位图) 和 geospatial （地理位置）。@p...",
-    "votes": "28",
-    "url": "/k/4xposai",
-    "avatar": "https://img.toutiao.io/subject%2Fbcb663e36b0c406c9533cb76104b3227",
-    "avatarAlt": "Java全栈知识体系 - 独家号",
-    "subjectName": "Java全栈知识体系",
-    "homeUrl": "/subjects/319391"
-  },
-  {
-    "title": "好代码实践：基于 Redis 的轻量级分布式均衡消费队列",
-    "description": "一  我对好代码的看法1  什么是好代码如果你读过《设计模式之美》，你可能会觉得玩转各种设计模式，符合设计模式的6大基本原则的代码就是好代码；如果读过《clean code》，你可...",
-    "votes": "32",
-    "url": "/k/mg4sote",
-    "avatar": "https://img.toutiao.io/subject%2Fae2b74c589814b769c1bebad92c2fb9a",
-    "avatarAlt": "架构之美 - 独家号",
-    "subjectName": "架构之美",
-    "homeUrl": "/subjects/42200"
+    "title": "谷歌是如何做应急响应的",
+    "description": "简介Google 如何帮助保护客户数据应急响应团队架构应急响应流程识别协调处置完成持续改进总结参考资料简介为客户数据维护安全的环境是 Google Cloud 的首要任务。Goog...",
+    "votes": "29",
+    "url": "/k/nubisvh",
+    "avatar": "https://img.toutiao.io/subject%2F378e77470970490b9e51050078d80e34",
+    "avatarAlt": "安全屋 - 独家号",
+    "subjectName": "安全屋",
+    "homeUrl": "/subjects/27565"
   },
   {
     "title": "ConcurrentHashMap 有十个提升性能的地方，你都知道吗？",
@@ -178,25 +198,5 @@
     "avatarAlt": "小飞侠～ - 独家号",
     "subjectName": "小飞侠～",
     "homeUrl": "/subjects/382080"
-  },
-  {
-    "title": "数据调度组件：基于 Azkaban 协调时序任务执行",
-    "description": "一、Azkaban概述 1、任务时序 在数据服务的业务场景中，很常见的业务流程就是日志文件经过大数据分析，再向业务输出结果数据；在该过程中会有很多任务需要执行，并且很难精准把握任务...",
-    "votes": "31",
-    "url": "/k/a7u76ek",
-    "avatar": "https://img.toutiao.io/subject%2F652f30d4f8ed4f198281774399a49076",
-    "avatarAlt": "知了一笑 - 独家号",
-    "subjectName": "知了一笑",
-    "homeUrl": "/subjects/416733"
-  },
-  {
-    "title": "写给开发人员的实用密码学：数字证书",
-    "description": "在数字签名部分，我们讲到数字签名可以起到“防抵赖”的作用。然而，在开放的互联网环境中，通信的双方通常是互不相识，数字签名并不能解决身份认证的问题。比如在数字签名中，私钥签名，公钥验...",
-    "votes": "30",
-    "url": "/k/nvqjbvt",
-    "avatar": "https://img.toutiao.io/subject%2F466151cc6e134a419166b8d478ad412d",
-    "avatarAlt": "云水木石的网络安全研究 - 独家号",
-    "subjectName": "云水木石的网络安全研究",
-    "homeUrl": "/subjects/437207"
   }
 ]
