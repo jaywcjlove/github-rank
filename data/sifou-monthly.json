@@ -5,7 +5,7 @@
     "url": "https://segmentfault.com/a/1190000039806000",
     "author": "我的名字豌豆",
     "home_url": "https://segmentfault.com/u/liu_namepea",
-    "votes": "51",
+    "votes": "53",
     "rank": 1
   },
   {
@@ -14,7 +14,7 @@
     "url": "https://segmentfault.com/a/1190000039729227",
     "author": "夜尽天明",
     "home_url": "https://segmentfault.com/u/biaochenxuying",
-    "votes": "52",
+    "votes": "53",
     "rank": 2
   },
   {
@@ -32,7 +32,7 @@
     "url": "https://segmentfault.com/a/1190000039767791",
     "author": "叫我欧文就好",
     "home_url": "https://segmentfault.com/u/jiaowoouwenjiuhao",
-    "votes": "37",
+    "votes": "38",
     "rank": 4
   },
   {
@@ -90,12 +90,12 @@
     "rank": 10
   },
   {
-    "title": "Promise知识汇总和面试情况",
-    "description": "Javascript异步编程先后经历了四个阶段，分别是Callback阶段，Promise阶段，Generator阶段和Async/Await阶段。Callback很快就被发现存在回调地狱和控制权问题，Promise就是在这个时间出现，用以解决这些问题，Pro...",
-    "url": "https://segmentfault.com/a/1190000039699000",
-    "author": "小磊",
-    "home_url": "https://segmentfault.com/u/xiaolei_599661330c0cb",
-    "votes": "27",
+    "title": "浅探 Web Worker 与 JavaScript 沙箱",
+    "description": "本文并不会从头开始介绍 Web Worker 的基础知识和基本 API 的使用等（只是部分有涉及），若还未了解过 Web Worker，可参考查阅 W3C 标准 Workers 文档 中的相关介绍。",
+    "url": "https://segmentfault.com/a/1190000039795656",
+    "author": "ES2049",
+    "home_url": "https://segmentfault.com/u/alisecued",
+    "votes": "19",
     "rank": 11
   },
   {
@@ -108,22 +108,13 @@
     "rank": 12
   },
   {
-    "title": "浅探 Web Worker 与 JavaScript 沙箱",
-    "description": "本文并不会从头开始介绍 Web Worker 的基础知识和基本 API 的使用等（只是部分有涉及），若还未了解过 Web Worker，可参考查阅 W3C 标准 Workers 文档 中的相关介绍。",
-    "url": "https://segmentfault.com/a/1190000039795656",
-    "author": "ES2049",
-    "home_url": "https://segmentfault.com/u/alisecued",
-    "votes": "19",
-    "rank": 13
-  },
-  {
     "title": "setState详解与React性能优化",
     "description": "开发中我们并不能直接通过修改 state 的值来让界面发生更新：因为我们修改了 state 之后, 希望 React 根据最新的 Stete 来重新渲染界面, 但是这种方式的修改 React 并不知道数据发生了变化",
     "url": "https://segmentfault.com/a/1190000039776687",
     "author": "风不识途",
     "home_url": "https://segmentfault.com/u/tudou_5e2d76940fbaa",
     "votes": "22",
-    "rank": 14
+    "rank": 13
   },
   {
     "title": "写TypeScript代码的10种坏习惯",
@@ -132,7 +123,7 @@
     "author": "疯狂的技术宅",
     "home_url": "https://segmentfault.com/u/evilboy",
     "votes": "22",
-    "rank": 15
+    "rank": 14
   },
   {
     "title": "关于从入门three.js到做出3d地球这件事(第三篇: 光与影)",
@@ -141,7 +132,7 @@
     "author": "lulu_up",
     "home_url": "https://segmentfault.com/u/lulu_up",
     "votes": "29",
-    "rank": 16
+    "rank": 15
   },
   {
     "title": "Vue2.x 的双向绑定原理及实现",
@@ -150,7 +141,7 @@
     "author": "九旬",
     "home_url": "https://segmentfault.com/u/ansonznl",
     "votes": "25",
-    "rank": 17
+    "rank": 16
   },
   {
     "title": "Vue 3 组件开发：搭建基于SpreadJS的表格编辑系统（环境搭建）",
@@ -159,7 +150,7 @@
     "author": "葡萄城技术团队",
     "home_url": "https://segmentfault.com/u/grapecity",
     "votes": "20",
-    "rank": 18
+    "rank": 17
   },
   {
     "title": "建议收藏！看完全面掌握，最详细的Redis总结（2021最新版）",
@@ -167,7 +158,16 @@
     "url": "https://segmentfault.com/a/1190000039832613",
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "21",
+    "votes": "22",
+    "rank": 18
+  },
+  {
+    "title": "四两拨千斤——你不知道的VScode编码TypeScript的技巧",
+    "description": "如果你体验过JAVA这种强类型语言带来的便利，包括其丰富的类型变量、抽象与接口，转而使用JavaScript时，一定会觉得不够满意。尤其是JavaScript声明的变量Number可以轻而易举的分配给String，IDE如何执行任何类型...",
+    "url": "https://segmentfault.com/a/1190000039860273",
+    "author": "葡萄城技术团队",
+    "home_url": "https://segmentfault.com/u/grapecity",
+    "votes": "15",
     "rank": 19
   },
   {
@@ -189,22 +189,13 @@
     "rank": 21
   },
   {
-    "title": "ES2019 中 8 个非常有用的功能",
-    "description": "ES2019 规范是对 JavaScript的小规模扩展，但仍带来了一些有趣的功能。本文向你展示八个 ES2019 的功能，这些功能可以使你的开发变得更轻松。",
-    "url": "https://segmentfault.com/a/1190000039366852",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "13",
-    "rank": 22
-  },
-  {
     "title": "有意思！强大的 SVG 滤镜",
     "description": "想写一篇关于 SVG 滤镜的文章已久，SVG 滤镜的存在，让本来就非常强大的 CSS 如虎添翼。让仅仅使用 CSS/HTML/SVG 创作的效果更上一层楼。题图为袁川老师使用 SVG 滤镜实现的云彩效果 -- CodePen Demo -- Cloud (S...",
     "url": "https://segmentfault.com/a/1190000039700192",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
     "votes": "14",
-    "rank": 23
+    "rank": 22
   },
   {
     "title": "常见的8个前端防御性编程方案",
@@ -213,7 +204,7 @@
     "author": "Peter谭老师",
     "home_url": "https://segmentfault.com/u/jerrytanjinjie",
     "votes": "13",
-    "rank": 24
+    "rank": 23
   },
   {
     "title": "墙裂推荐！看完全面掌握，最详细的 Docker 学习笔记总结（2021最新版）",
@@ -222,16 +213,16 @@
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "18",
-    "rank": 25
+    "rank": 24
   },
   {
-    "title": "JS常用的15个操作数组的方法",
-    "description": "JS中那些常用的数组方法：数组的增删改查：**push(插入的元素<可传多个>) 作用：往数组的尾部插入元素** {代码...} **unshift(插入的元素<可传多个>) 作用：往数组的头部插入元素** {代码...} **pop(...",
-    "url": "https://segmentfault.com/a/1190000039691598",
-    "author": "叫我欧文就好",
-    "home_url": "https://segmentfault.com/u/jiaowoouwenjiuhao",
-    "votes": "20",
-    "rank": 26
+    "title": "春游“记”去哪玩？ SF思否小姐姐带你游社区，还有礼物拿哦",
+    "description": "春游“记”去哪玩？ 带你游社区，还有礼物拿哦🚩 第一站：【问答】站刷问答打卡来咯 ~ 回答问题还能领取大奖！🎁 奖品完成至少 20 个符合要求的问答即可获得奖品：超大内存云盘回答前三的用户还可获得 ：思否定制文化...",
+    "url": "https://segmentfault.com/a/1190000039855240",
+    "author": "SegmentFault",
+    "home_url": "https://segmentfault.com/u/segmentfault",
+    "votes": "14",
+    "rank": 25
   },
   {
     "title": "Node交互式命令行工具开发——自动化文档工具",
@@ -240,16 +231,7 @@
     "author": "小磊",
     "home_url": "https://segmentfault.com/u/xiaolei_599661330c0cb",
     "votes": "15",
-    "rank": 27
-  },
-  {
-    "title": "SeaTable 开发者版可以运行 Python 了，开发自定义数据处理流程更方便",
-    "description": "又填新功能了！从 1.8.0 版开始，SeaTable 开发者版加入了运行 Python 的能力（具体配置请查看使用手册），我们可以更方便地快速开发自定义数据处理流程了，让开发小应用变得更简单更有想象力。",
-    "url": "https://segmentfault.com/a/1190000039692901",
-    "author": "SeaTable开发者版",
-    "home_url": "https://segmentfault.com/u/seatable",
-    "votes": "13",
-    "rank": 28
+    "rank": 26
   },
   {
     "title": "JDK/Dubbo/Spring 三种 SPI 机制，谁更好？",
@@ -258,7 +240,7 @@
     "author": "空无",
     "home_url": "https://segmentfault.com/u/kongwu",
     "votes": "18",
-    "rank": 29
+    "rank": 27
   },
   {
     "title": "许式伟：相比 Python，我们可能更需要 Go+",
@@ -266,6 +248,24 @@
     "url": "https://segmentfault.com/a/1190000039805037",
     "author": "鸣飞",
     "home_url": "https://segmentfault.com/u/mf",
+    "votes": "18",
+    "rank": 28
+  },
+  {
+    "title": "硬核图解红黑树并手写实现",
+    "description": "在上一篇中我们通过二叉树作为了Map的实现，最后也分析了该版本的时间复杂度以及最糟糕的情况；本篇我们将会使用红黑树来实现Map，改善上一篇中二叉树版本的不足；对于Map接口的定义以及已经实现的公用方法将不会...",
+    "url": "https://segmentfault.com/a/1190000039774810",
+    "author": "Silently9527",
+    "home_url": "https://segmentfault.com/u/silently9527",
+    "votes": "15",
+    "rank": 29
+  },
+  {
+    "title": "svg 项目实践——添加可编辑的 svg 图片",
+    "description": "最近的项目中遇到一个需求，在页面上添加一个可以自由拖拽、缩放、编辑颜色的 svg 图片，项目中引用了两个现有的插件，对插件进行解读之后略有心得，与大家分享一下。",
+    "url": "https://segmentfault.com/a/1190000039754124",
+    "author": "LeapFE",
+    "home_url": "https://segmentfault.com/u/leapfe",
     "votes": "17",
     "rank": 30
   }
