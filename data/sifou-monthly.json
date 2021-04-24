@@ -23,7 +23,7 @@
     "url": "https://segmentfault.com/a/1190000039783802",
     "author": "y_ck",
     "home_url": "https://segmentfault.com/u/user_ngjv5fmp",
-    "votes": "53",
+    "votes": "54",
     "rank": 3
   },
   {
@@ -36,13 +36,22 @@
     "rank": 4
   },
   {
+    "title": "中小型前端团队代码规范工程化最佳实践 - ESLint",
+    "description": "前言There are a thousand Hamlets in a thousand people's eyes.一千个程序员，就有一千种代码风格。在前端开发中，有几个至今还在争论的代码风格差异：单引号还是双引号？代码行结束是否需要分号？两个空格还是...",
+    "url": "https://segmentfault.com/a/1190000039814304",
+    "author": "axuebin",
+    "home_url": "https://segmentfault.com/u/axuebin",
+    "votes": "33",
+    "rank": 5
+  },
+  {
     "title": "[项目实战] Webpack to Vite， 为开发提速！",
     "description": "背景最近，就 前端开发过程中的痛点及可优化项 做了一次收集。 其中，构建耗时、项目编译速度慢 的字眼出现了好几次。随着业务的快速发展，我们很多项目的体积也快速膨胀。 随之而来的， 就是打包变慢等问题。提...",
     "url": "https://segmentfault.com/a/1190000039795956",
     "author": "皮小蛋",
     "home_url": "https://segmentfault.com/u/scaukk",
-    "votes": "29",
-    "rank": 5
+    "votes": "30",
+    "rank": 6
   },
   {
     "title": "CSS @property，让不可能变可能",
@@ -50,16 +59,7 @@
     "url": "https://segmentfault.com/a/1190000039826626",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "28",
-    "rank": 6
-  },
-  {
-    "title": "中小型前端团队代码规范工程化最佳实践 - ESLint",
-    "description": "前言There are a thousand Hamlets in a thousand people's eyes.一千个程序员，就有一千种代码风格。在前端开发中，有几个至今还在争论的代码风格差异：单引号还是双引号？代码行结束是否需要分号？两个空格还是...",
-    "url": "https://segmentfault.com/a/1190000039814304",
-    "author": "axuebin",
-    "home_url": "https://segmentfault.com/u/axuebin",
-    "votes": "30",
+    "votes": "29",
     "rank": 7
   },
   {
@@ -68,7 +68,7 @@
     "url": "https://segmentfault.com/a/1190000039827138",
     "author": "边城",
     "home_url": "https://segmentfault.com/u/jamesfancy",
-    "votes": "23",
+    "votes": "24",
     "rank": 8
   },
   {
@@ -117,12 +117,12 @@
     "rank": 13
   },
   {
-    "title": "写TypeScript代码的10种坏习惯",
-    "description": "近几年 TypeScript 和 JavaScript 一直在稳步发展。我们在过去写代码时养成了一些习惯，而有些习惯却没有什么意义。以下是我们都应该改正的 10 个坏习惯。",
-    "url": "https://segmentfault.com/a/1190000039368534",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
-    "votes": "22",
+    "title": "四两拨千斤——你不知道的VScode编码TypeScript的技巧",
+    "description": "如果你体验过JAVA这种强类型语言带来的便利，包括其丰富的类型变量、抽象与接口，转而使用JavaScript时，一定会觉得不够满意。尤其是JavaScript声明的变量Number可以轻而易举的分配给String，IDE如何执行任何类型...",
+    "url": "https://segmentfault.com/a/1190000039860273",
+    "author": "葡萄城技术团队",
+    "home_url": "https://segmentfault.com/u/grapecity",
+    "votes": "18",
     "rank": 14
   },
   {
@@ -162,58 +162,22 @@
     "rank": 18
   },
   {
-    "title": "四两拨千斤——你不知道的VScode编码TypeScript的技巧",
-    "description": "如果你体验过JAVA这种强类型语言带来的便利，包括其丰富的类型变量、抽象与接口，转而使用JavaScript时，一定会觉得不够满意。尤其是JavaScript声明的变量Number可以轻而易举的分配给String，IDE如何执行任何类型...",
-    "url": "https://segmentfault.com/a/1190000039860273",
-    "author": "葡萄城技术团队",
-    "home_url": "https://segmentfault.com/u/grapecity",
-    "votes": "15",
-    "rank": 19
-  },
-  {
-    "title": "vue3常用的API实用型",
-    "description": "vue3.x已经发布了这么久，相关的生态也慢慢起来了，包括vite这个新的打包工具，在vue3.0学习过程中有一些实用性的api对比，希望能在开发中给大家做个示范，准确的使用对应的api去完成我们的项目开发",
-    "url": "https://segmentfault.com/a/1190000039706353",
-    "author": "万年打野易大师",
-    "home_url": "https://segmentfault.com/u/faker_5acebe0256c30",
-    "votes": "16",
-    "rank": 20
-  },
-  {
     "title": "vue项目'微前端'qiankun.js的实战攻略",
     "description": "关于微前端的大概念大家应该听过太多了, 这里我就大白话阐述一下, 比如我们新建三个vue工程a、b、c, a负责导航模块, b负责列表页面, c负责详情页面, 然后我们可以通过微前端技术把他们组合在一起形成一个完...",
     "url": "https://segmentfault.com/a/1190000039783062",
     "author": "lulu_up",
     "home_url": "https://segmentfault.com/u/lulu_up",
     "votes": "18",
-    "rank": 21
+    "rank": 19
   },
   {
-    "title": "有意思！强大的 SVG 滤镜",
-    "description": "想写一篇关于 SVG 滤镜的文章已久，SVG 滤镜的存在，让本来就非常强大的 CSS 如虎添翼。让仅仅使用 CSS/HTML/SVG 创作的效果更上一层楼。题图为袁川老师使用 SVG 滤镜实现的云彩效果 -- CodePen Demo -- Cloud (S...",
-    "url": "https://segmentfault.com/a/1190000039700192",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "14",
-    "rank": 22
-  },
-  {
-    "title": "常见的8个前端防御性编程方案",
-    "description": "关于前端防御性编程我们大多数情况可能遇到过，后端的由于同时请求人数过多，或者数据量过大，又或者是因为异常导致服务异常，接口请求失败，然后前端出现白屏或者报错还有一种情况，是前端自身写的代码存在一些...",
-    "url": "https://segmentfault.com/a/1190000039737887",
-    "author": "Peter谭老师",
-    "home_url": "https://segmentfault.com/u/jerrytanjinjie",
-    "votes": "13",
-    "rank": 23
-  },
-  {
-    "title": "墙裂推荐！看完全面掌握，最详细的 Docker 学习笔记总结（2021最新版）",
-    "description": "Docker 是一个开源的容器引擎，可以轻松的为任何应用创建一个轻量级的、可移植的、自给自足的容器。开发者和系统管理员在笔记本上编译测试通过的容器可以批量地在生产环境中部署，包括 VMs（虚拟机）、bare metal...",
-    "url": "https://segmentfault.com/a/1190000039838620",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "18",
-    "rank": 24
+    "title": "使用JavaScript学习设计模式",
+    "description": "之后紧接着买了这本JavaScript 设计模式核⼼原理与应⽤实践，刚好最近有小册免费学的活动，就赶紧把这篇笔记整理出来了，并且补充了小册子中的没有写到的其余设计模式，学习过程中结合 JavaScript 编写的例子，以...",
+    "url": "https://segmentfault.com/a/1190000039810309",
+    "author": "九旬",
+    "home_url": "https://segmentfault.com/u/ansonznl",
+    "votes": "15",
+    "rank": 20
   },
   {
     "title": "春游“记”去哪玩？ SF思否小姐姐带你游社区，还有礼物拿哦",
@@ -222,7 +186,25 @@
     "author": "SegmentFault",
     "home_url": "https://segmentfault.com/u/segmentfault",
     "votes": "14",
-    "rank": 25
+    "rank": 21
+  },
+  {
+    "title": "常见的8个前端防御性编程方案",
+    "description": "关于前端防御性编程我们大多数情况可能遇到过，后端的由于同时请求人数过多，或者数据量过大，又或者是因为异常导致服务异常，接口请求失败，然后前端出现白屏或者报错还有一种情况，是前端自身写的代码存在一些...",
+    "url": "https://segmentfault.com/a/1190000039737887",
+    "author": "Peter谭老师",
+    "home_url": "https://segmentfault.com/u/jerrytanjinjie",
+    "votes": "13",
+    "rank": 22
+  },
+  {
+    "title": "墙裂推荐！看完全面掌握，最详细的 Docker 学习笔记总结（2021最新版）",
+    "description": "Docker 是一个开源的容器引擎，可以轻松的为任何应用创建一个轻量级的、可移植的、自给自足的容器。开发者和系统管理员在笔记本上编译测试通过的容器可以批量地在生产环境中部署，包括 VMs（虚拟机）、bare metal...",
+    "url": "https://segmentfault.com/a/1190000039838620",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "18",
+    "rank": 23
   },
   {
     "title": "Node交互式命令行工具开发——自动化文档工具",
@@ -231,7 +213,7 @@
     "author": "小磊",
     "home_url": "https://segmentfault.com/u/xiaolei_599661330c0cb",
     "votes": "15",
-    "rank": 26
+    "rank": 24
   },
   {
     "title": "JDK/Dubbo/Spring 三种 SPI 机制，谁更好？",
@@ -240,7 +222,7 @@
     "author": "空无",
     "home_url": "https://segmentfault.com/u/kongwu",
     "votes": "18",
-    "rank": 27
+    "rank": 25
   },
   {
     "title": "许式伟：相比 Python，我们可能更需要 Go+",
@@ -249,7 +231,16 @@
     "author": "鸣飞",
     "home_url": "https://segmentfault.com/u/mf",
     "votes": "18",
-    "rank": 28
+    "rank": 26
+  },
+  {
+    "title": "用了很多动效，介绍 4个很  Nice 的 Veu 路由过渡动效！",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000039802609",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "16",
+    "rank": 27
   },
   {
     "title": "硬核图解红黑树并手写实现",
@@ -258,7 +249,7 @@
     "author": "Silently9527",
     "home_url": "https://segmentfault.com/u/silently9527",
     "votes": "15",
-    "rank": 29
+    "rank": 28
   },
   {
     "title": "svg 项目实践——添加可编辑的 svg 图片",
@@ -267,6 +258,15 @@
     "author": "LeapFE",
     "home_url": "https://segmentfault.com/u/leapfe",
     "votes": "17",
+    "rank": 29
+  },
+  {
+    "title": "分享一个提升 Loading 体验的小工具",
+    "description": "今天看到一个不错的动画网站：[链接]可以自己编辑生成动画，并且能十分方便的引入到你的项目中。比如上图的猫咪动画： {代码...} 借用这个能力， 我们可以让loading效果更有趣味：网站中还有大量的素材可以免费使...",
+    "url": "https://segmentfault.com/a/1190000039816348",
+    "author": "皮小蛋",
+    "home_url": "https://segmentfault.com/u/scaukk",
+    "votes": "20",
     "rank": 30
   }
 ]
