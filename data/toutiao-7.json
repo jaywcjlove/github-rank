@@ -2,7 +2,7 @@
   {
     "title": "Redis 进阶笔记",
     "description": "导语 | Redis 大家用的不少，但是我们大多数人可能都只是关注业务本身，对于底层的细节则经常忽略，久而久之，对个人的成长帮助甚少。本文为大家总结了关于 Redis 常见用法的进...",
-    "votes": "107",
+    "votes": "123",
     "url": "/k/ti0gb8i",
     "avatar": "https://img.toutiao.io/subject%2F8e12ef64799649acbfd936883ef16c3c",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -12,7 +12,7 @@
   {
     "title": "为什么放弃 Kafka，选择 Pulsar?",
     "description": "Spring Boot 作为主流微服务框架，拥有成熟的社区生态。市场应用广泛，为了方便大家，整理了一个基于spring boot的常用中间件快速集成入门系列手册，涉及RPC、缓存、...",
-    "votes": "98",
+    "votes": "100",
     "url": "/k/wxrneux",
     "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
     "avatarAlt": "微观技术 - 独家号",
@@ -22,7 +22,7 @@
   {
     "title": "一文搞懂分布式锁的原理与实现",
     "description": " 前言对于锁，大家应该都不陌生，手机上可以加锁，想用时候解锁，不用的时候上锁，那自行车、房门同样可以加把锁，道理属于类似的情况。 在日常开发工作中，我们为了保证资源操作的最终一致性...",
-    "votes": "105",
+    "votes": "109",
     "url": "/k/j7fdh6h",
     "avatar": "https://img.toutiao.io/subject%2F071476c43e0d42cf95f3e77f046c814b",
     "avatarAlt": "架构精进之路 - 独家号",
@@ -32,7 +32,7 @@
   {
     "title": "这 11 款 Chrome 神器，用起来爽到爆",
     "description": "前言对于从事IT行业的我们来说，几乎无时无刻都在用chrome浏览器，因为它给我们的工作和生活带来了极大的便利。今天给大家分享我用过的11款牛逼的chrome插件，你看完前3个可能...",
-    "votes": "104",
+    "votes": "107",
     "url": "/k/czntgsa",
     "avatar": "https://img.toutiao.io/subject%2F96c1af0d2a0b441ca9740ee13c3e37f3",
     "avatarAlt": "苏三说技术 - 独家号",
@@ -42,12 +42,32 @@
   {
     "title": "用户画像的基础、原理、方法论（模型）和应用",
     "description": "用户画像（User Profile）的本质是用户需求描述，一种刻画用户需求的模型。用户画像在推荐系统、广告系统、商业分析、数据分析、用户增长、用户研究、产品设计、数据化运营、精准营...",
-    "votes": "61",
+    "votes": "83",
     "url": "/k/nrdp4oq",
     "avatar": "https://img.toutiao.io/subject%2F7099419508b548428645eec6ee3e7c5b",
     "avatarAlt": "数据智能 - 独家号",
     "subjectName": "数据智能",
     "homeUrl": "/subjects/1"
+  },
+  {
+    "title": "书单丨“1 本抵 10 本” 的好书，建议收藏",
+    "description": "距离上一次发文已过了很久。中间有一些老读者在后台问我什么时候更新，为什么还不更新。所以，我先来“汇报”一下这段时间的收获。在2019年年底，我转行了，成为了一位听书稿编辑，日常工作...",
+    "votes": "68",
+    "url": "/k/08uadl6",
+    "avatar": "https://img.toutiao.io/subject%2F9a97933f431d4553ba4a1d1838f48143",
+    "avatarAlt": "Python猫技术花园 - 独家号",
+    "subjectName": "Python猫技术花园",
+    "homeUrl": "/subjects/14371"
+  },
+  {
+    "title": "如何设计一个高性能的秒杀系统",
+    "description": "秒杀系统要如何架构，在做技术方案时要注意哪些问题，搞了个秒杀专辑，专门收集秒杀系列文章。当你去一家公司面试时，很多面试官都会问你如何设计一个高性能秒杀系统。秒杀涉及的技术域从客户端...",
+    "votes": "64",
+    "url": "/k/6z3uu2m",
+    "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
+    "avatarAlt": "微观技术 - 独家号",
+    "subjectName": "微观技术",
+    "homeUrl": "/subjects/348507"
   },
   {
     "title": "协程切换会引起什么问题",
@@ -60,19 +80,19 @@
     "homeUrl": "/subjects/22406"
   },
   {
-    "title": "面向 K8s 设计误区",
-    "description": " K8s 设计模式  Kubernetes 是一个具有普遍意义的容器编排工具，它提供了一套基于容器构建分布式系统的基础依赖，其意义等同于 Linux 在操作系统中的地位，可以认为是...",
+    "title": "ClickHouse 在 Bilibili 用户行为分析的实践",
+    "description": "视频直播回放链接 : https://www.bilibili.com/video/BV1hU4y1W71L                  关注 「 ClickHouse开发者...",
     "votes": "53",
-    "url": "/k/iebk207",
-    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
-    "avatarAlt": "ASCE1885 - 独家号",
-    "subjectName": "ASCE1885",
-    "homeUrl": "/subjects/4829"
+    "url": "/k/90vs9kg",
+    "avatar": "https://img.toutiao.io/subject%2F6ee3bb205b3248c2b746c1506548181a",
+    "avatarAlt": "大数据生态 - 独家号",
+    "subjectName": "大数据生态",
+    "homeUrl": "/subjects/136176"
   },
   {
     "title": "架构模式之分层架构总结",
     "description": "背景 一个问题，我们要把它搞清楚。需要深入的思考，从演进出发，从核心出发，探索它的本质。这样才能在工作中举一反三。探索本质的思想，对于架构者来说尤其重要。本文想探讨架构模式之分层设...",
-    "votes": "47",
+    "votes": "48",
     "url": "/k/fwtxydd",
     "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
     "avatarAlt": "Bloomingroses - 独家号",
@@ -82,7 +102,7 @@
   {
     "title": "看过这篇剖析，你还不懂 Go sync.Map 吗？",
     "description": "hi, 大家好，我是 haohongfan。本篇文章会从使用方式和源码角度剖析 sync.Map。不过不管是日常开发还是开源项目中，好像 sync.Map 并没有得到很好的利用，大...",
-    "votes": "50",
+    "votes": "51",
     "url": "/k/x1rnpcx",
     "avatar": "https://img.toutiao.io/subject%2F27dc41301606439ea24437841df6cffe",
     "avatarAlt": "HHFCodeRv - 独家号",
@@ -90,29 +110,9 @@
     "homeUrl": "/subjects/458598"
   },
   {
-    "title": "ClickHouse 在 Bilibili 用户行为分析的实践",
-    "description": "视频直播回放链接 : https://www.bilibili.com/video/BV1hU4y1W71L                  关注 「 ClickHouse开发者...",
-    "votes": "43",
-    "url": "/k/90vs9kg",
-    "avatar": "https://img.toutiao.io/subject%2F6ee3bb205b3248c2b746c1506548181a",
-    "avatarAlt": "大数据生态 - 独家号",
-    "subjectName": "大数据生态",
-    "homeUrl": "/subjects/136176"
-  },
-  {
-    "title": "如何设计一个高性能的秒杀系统",
-    "description": "秒杀系统要如何架构，在做技术方案时要注意哪些问题，搞了个秒杀专辑，专门收集秒杀系列文章。当你去一家公司面试时，很多面试官都会问你如何设计一个高性能秒杀系统。秒杀涉及的技术域从客户端...",
-    "votes": "45",
-    "url": "/k/6z3uu2m",
-    "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
-    "avatarAlt": "微观技术 - 独家号",
-    "subjectName": "微观技术",
-    "homeUrl": "/subjects/348507"
-  },
-  {
     "title": "谈谈 Kubernetes 的问题和局限性",
     "description": "2014 年发布的 Kubernetes 在今天俨然已成为容器编排领域的事实标准，相信谈到 Kubernetes 的开发者都会一再复述上述现象。如下图所示，今天的大多数个人或者团队...",
-    "votes": "45",
+    "votes": "46",
     "url": "/k/0t3be9z",
     "avatar": "https://img.toutiao.io/subject%2Fb74e6991f2de41dbb21d7eef58177d64",
     "avatarAlt": "面向信仰编程 - 独家号",
@@ -120,9 +120,19 @@
     "homeUrl": "/subjects/90130"
   },
   {
+    "title": "把 Redis 当作队列来用，真的合适吗？",
+    "description": "阅读本文大约需要 15 分钟。我经常听到很多人讨论，关于「把 Redis 当作队列来用是否合适」的问题。有些人表示赞成，他们认为 Redis 很轻量，用作队列很方便。也些人则反对，...",
+    "votes": "52",
+    "url": "/k/2aonyjp",
+    "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
+  },
+  {
     "title": "聊聊 Raft 协议",
     "description": "版权声明 本站原创文章 由 萌叔 发表转载请注明 萌叔 | http://vearne.cc1. 参考资料1.1 In Search of an UnderstandableCon...",
-    "votes": "43",
+    "votes": "45",
     "url": "/k/zb7loam",
     "avatar": "https://img.toutiao.io/subject%2F7c016973c0bb4e13a28ab338153e7d12",
     "avatarAlt": "萌叔 - 独家号",
@@ -142,7 +152,7 @@
   {
     "title": "好代码实践：基于 Redis 的轻量级分布式均衡消费队列",
     "description": "一  我对好代码的看法1  什么是好代码如果你读过《设计模式之美》，你可能会觉得玩转各种设计模式，符合设计模式的6大基本原则的代码就是好代码；如果读过《clean code》，你可...",
-    "votes": "40",
+    "votes": "41",
     "url": "/k/mg4sote",
     "avatar": "https://img.toutiao.io/subject%2Fae2b74c589814b769c1bebad92c2fb9a",
     "avatarAlt": "架构之美 - 独家号",
@@ -152,7 +162,7 @@
   {
     "title": "Java 8 中的 Stream 流式操作：入门篇",
     "description": "作者：汤圆个人博客：javalover.cc前言之前总是朋友朋友的叫，感觉有套近乎的嫌疑，所以后面还是给大家改个称呼吧因为大家是来看东西的，所以暂且叫做官人吧（灵感来自于民间流传的...",
-    "votes": "40",
+    "votes": "43",
     "url": "/k/w7xb2nj",
     "avatar": "https://img.toutiao.io/user/4e114bdc35ab48ef949d3246083c5818/thumb",
     "avatarAlt": "汤圆学Java - 独家号",
@@ -162,7 +172,7 @@
   {
     "title": "动态规划到底有多难？",
     "description": " 动态规划是一个从其他行业借鉴过来的词语。它的大概意思先将一件事情分成「若干阶段」，然后通过阶段之间的「转移」达到目标。由于转移的方向通常是多个，因此这个时候就需要「决策」选择具体...",
-    "votes": "34",
+    "votes": "38",
     "url": "/k/lj0lgn0",
     "avatar": "https://img.toutiao.io/subject%2F535bf01014ce4334b9ad5276d10b58bb",
     "avatarAlt": "力扣加加 - 独家号",
@@ -170,19 +180,9 @@
     "homeUrl": "/subjects/324664"
   },
   {
-    "title": "写给开发人员的实用密码学：数字证书",
-    "description": "在数字签名部分，我们讲到数字签名可以起到“防抵赖”的作用。然而，在开放的互联网环境中，通信的双方通常是互不相识，数字签名并不能解决身份认证的问题。比如在数字签名中，私钥签名，公钥验...",
-    "votes": "33",
-    "url": "/k/nvqjbvt",
-    "avatar": "https://img.toutiao.io/subject%2F466151cc6e134a419166b8d478ad412d",
-    "avatarAlt": "云水木石的网络安全研究 - 独家号",
-    "subjectName": "云水木石的网络安全研究",
-    "homeUrl": "/subjects/437207"
-  },
-  {
     "title": "Seata 搭建与分布式事务入门",
     "description": "在单体架构下，我们大多使用的是单体数据库，通过数据库的ACID特性支持，实现了本地事务。但是在微服务架构下复杂的业务关系中，分布式事务是不可避免的问题之一。Seata是Spring...",
-    "votes": "30",
+    "votes": "35",
     "url": "/k/n0npgg0",
     "avatar": "https://img.toutiao.io/subject%2Fd958b6b7b252470c838a8189621b3709",
     "avatarAlt": "码农参上 - 独家号",
@@ -190,13 +190,13 @@
     "homeUrl": "/subjects/457899"
   },
   {
-    "title": "代码审查 (Code Review) 的本质",
-    "description": " 什么是代码审查？代码审查是一个过程，即代码只有经过非作者本人评审后才能进入代码仓库。代码审查的目的但是大家为什么要做代码审查？不同团队的原因是各不相同的。笔者假设大家进行代码审查...",
-    "votes": "29",
-    "url": "/k/xqvnsdu",
-    "avatar": "https://img.toutiao.io/subject%2Fcadea37d81e5498fa35c8382270dbb95",
-    "avatarAlt": "老翟杂谈 - 独家号",
-    "subjectName": "老翟杂谈",
-    "homeUrl": "/subjects/349081"
+    "title": "深入 AQS 源码，搞懂核心思想",
+    "description": "本文重点 前情提要 之前文章中写到了 JDK 中synchronized关键字可以实现同步锁，并且详细分析了底层的实现原理。Synchronized 原理及锁升级分析虽然synch...",
+    "votes": "30",
+    "url": "/k/2se9osh",
+    "avatar": "https://img.toutiao.io/subject%2F6abc3302fa1f4fde83555bade1fa5d02",
+    "avatarAlt": "郭儿的跋涉 - 独家号",
+    "subjectName": "郭儿的跋涉",
+    "homeUrl": "/subjects/450903"
   }
 ]
