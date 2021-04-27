@@ -2,7 +2,7 @@
   {
     "title": "Redis 进阶笔记",
     "description": "导语 | Redis 大家用的不少，但是我们大多数人可能都只是关注业务本身，对于底层的细节则经常忽略，久而久之，对个人的成长帮助甚少。本文为大家总结了关于 Redis 常见用法的进...",
-    "votes": "129",
+    "votes": "133",
     "url": "/k/ti0gb8i",
     "avatar": "https://img.toutiao.io/subject%2F8e12ef64799649acbfd936883ef16c3c",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -10,19 +10,9 @@
     "homeUrl": "/subjects/26578"
   },
   {
-    "title": "一文搞懂分布式锁的原理与实现",
-    "description": " 前言对于锁，大家应该都不陌生，手机上可以加锁，想用时候解锁，不用的时候上锁，那自行车、房门同样可以加把锁，道理属于类似的情况。 在日常开发工作中，我们为了保证资源操作的最终一致性...",
-    "votes": "113",
-    "url": "/k/j7fdh6h",
-    "avatar": "https://img.toutiao.io/subject%2F071476c43e0d42cf95f3e77f046c814b",
-    "avatarAlt": "架构精进之路 - 独家号",
-    "subjectName": "架构精进之路",
-    "homeUrl": "/subjects/452638"
-  },
-  {
     "title": "为什么放弃 Kafka，选择 Pulsar?",
     "description": "Spring Boot 作为主流微服务框架，拥有成熟的社区生态。市场应用广泛，为了方便大家，整理了一个基于spring boot的常用中间件快速集成入门系列手册，涉及RPC、缓存、...",
-    "votes": "100",
+    "votes": "103",
     "url": "/k/wxrneux",
     "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
     "avatarAlt": "微观技术 - 独家号",
@@ -30,24 +20,24 @@
     "homeUrl": "/subjects/348507"
   },
   {
-    "title": "用户画像的基础、原理、方法论（模型）和应用",
-    "description": "用户画像（User Profile）的本质是用户需求描述，一种刻画用户需求的模型。用户画像在推荐系统、广告系统、商业分析、数据分析、用户增长、用户研究、产品设计、数据化运营、精准营...",
-    "votes": "90",
-    "url": "/k/nrdp4oq",
-    "avatar": "https://img.toutiao.io/subject%2F7099419508b548428645eec6ee3e7c5b",
-    "avatarAlt": "数据智能 - 独家号",
-    "subjectName": "数据智能",
-    "homeUrl": "/subjects/1"
-  },
-  {
     "title": "书单丨“1 本抵 10 本” 的好书，建议收藏",
     "description": "距离上一次发文已过了很久。中间有一些老读者在后台问我什么时候更新，为什么还不更新。所以，我先来“汇报”一下这段时间的收获。在2019年年底，我转行了，成为了一位听书稿编辑，日常工作...",
-    "votes": "90",
+    "votes": "101",
     "url": "/k/08uadl6",
     "avatar": "https://img.toutiao.io/subject%2F9a97933f431d4553ba4a1d1838f48143",
     "avatarAlt": "Python猫技术花园 - 独家号",
     "subjectName": "Python猫技术花园",
     "homeUrl": "/subjects/14371"
+  },
+  {
+    "title": "用户画像的基础、原理、方法论（模型）和应用",
+    "description": "用户画像（User Profile）的本质是用户需求描述，一种刻画用户需求的模型。用户画像在推荐系统、广告系统、商业分析、数据分析、用户增长、用户研究、产品设计、数据化运营、精准营...",
+    "votes": "95",
+    "url": "/k/nrdp4oq",
+    "avatar": "https://img.toutiao.io/subject%2F7099419508b548428645eec6ee3e7c5b",
+    "avatarAlt": "数据智能 - 独家号",
+    "subjectName": "数据智能",
+    "homeUrl": "/subjects/1"
   },
   {
     "title": "如何设计一个高性能的秒杀系统",
@@ -72,7 +62,7 @@
   {
     "title": "ClickHouse 在 Bilibili 用户行为分析的实践",
     "description": "视频直播回放链接 : https://www.bilibili.com/video/BV1hU4y1W71L                  关注 「 ClickHouse开发者...",
-    "votes": "58",
+    "votes": "59",
     "url": "/k/90vs9kg",
     "avatar": "https://img.toutiao.io/subject%2F6ee3bb205b3248c2b746c1506548181a",
     "avatarAlt": "大数据生态 - 独家号",
@@ -102,7 +92,7 @@
   {
     "title": "把 Redis 当作队列来用，真的合适吗？",
     "description": "阅读本文大约需要 15 分钟。我经常听到很多人讨论，关于「把 Redis 当作队列来用是否合适」的问题。有些人表示赞成，他们认为 Redis 很轻量，用作队列很方便。也些人则反对，...",
-    "votes": "58",
+    "votes": "60",
     "url": "/k/2aonyjp",
     "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
     "avatarAlt": "Bloomingroses - 独家号",
@@ -110,19 +100,9 @@
     "homeUrl": "/subjects/98777"
   },
   {
-    "title": "MyBatis 优秀的设计总结",
-    "description": "背景 在《mybatis的本质和原理》中，我简单介绍了怎么写出一个简化版的mybatis。这个简化版的mybatis已经可以将传统的手动拼接sql的调用数据库方式转化成面向对象的方...",
-    "votes": "47",
-    "url": "/k/k81cs3j",
-    "avatar": "https://img.toutiao.io/subject%2F4325865040b44c0b9e2d8d80a83d1d11",
-    "avatarAlt": "编程一生 - 独家号",
-    "subjectName": "编程一生",
-    "homeUrl": "/subjects/350352"
-  },
-  {
     "title": "动态规划到底有多难？",
     "description": " 动态规划是一个从其他行业借鉴过来的词语。它的大概意思先将一件事情分成「若干阶段」，然后通过阶段之间的「转移」达到目标。由于转移的方向通常是多个，因此这个时候就需要「决策」选择具体...",
-    "votes": "44",
+    "votes": "46",
     "url": "/k/lj0lgn0",
     "avatar": "https://img.toutiao.io/subject%2F535bf01014ce4334b9ad5276d10b58bb",
     "avatarAlt": "力扣加加 - 独家号",
@@ -130,19 +110,9 @@
     "homeUrl": "/subjects/324664"
   },
   {
-    "title": "Java 8 中的 Stream 流式操作：入门篇",
-    "description": "作者：汤圆个人博客：javalover.cc前言之前总是朋友朋友的叫，感觉有套近乎的嫌疑，所以后面还是给大家改个称呼吧因为大家是来看东西的，所以暂且叫做官人吧（灵感来自于民间流传的...",
-    "votes": "43",
-    "url": "/k/w7xb2nj",
-    "avatar": "https://img.toutiao.io/user/4e114bdc35ab48ef949d3246083c5818/thumb",
-    "avatarAlt": "汤圆学Java - 独家号",
-    "subjectName": "汤圆学Java",
-    "homeUrl": "/subjects/357541"
-  },
-  {
     "title": "Seata 搭建与分布式事务入门",
     "description": "在单体架构下，我们大多使用的是单体数据库，通过数据库的ACID特性支持，实现了本地事务。但是在微服务架构下复杂的业务关系中，分布式事务是不可避免的问题之一。Seata是Spring...",
-    "votes": "37",
+    "votes": "38",
     "url": "/k/n0npgg0",
     "avatar": "https://img.toutiao.io/subject%2Fd958b6b7b252470c838a8189621b3709",
     "avatarAlt": "码农参上 - 独家号",
@@ -150,14 +120,74 @@
     "homeUrl": "/subjects/457899"
   },
   {
+    "title": "Rust 开源：24 个绝佳框架、项目及资料库",
+    "description": "关注「Rust编程指北」，一起学习 Rust，给未来投资 为了方便阅读，本文采用中英文对照的方式，英文颜色浅一些。 Rust has a very lively and fast-...",
+    "votes": "38",
+    "url": "/k/b2sfp14",
+    "avatar": "https://img.toutiao.io/subject%2Fde644bbb42b34c618fad49fb47759970",
+    "avatarAlt": "4k咖啡豆 - 独家号",
+    "subjectName": "4k咖啡豆",
+    "homeUrl": "/subjects/158649"
+  },
+  {
     "title": "工作中沟通的 4 点感悟",
     "description": "背景在技术领域，大家在致力于从具体的技术中跳出来，升维为模式。而模式是解决方案，满足锤子定律，只有遇到特定问题时才被需要。而沟通则是基本功，在工作中时时刻刻都需要。一个人的沟通能力...",
-    "votes": "33",
+    "votes": "39",
     "url": "/k/tsqw03z",
     "avatar": "https://img.toutiao.io/subject%2F4325865040b44c0b9e2d8d80a83d1d11",
     "avatarAlt": "编程一生 - 独家号",
     "subjectName": "编程一生",
     "homeUrl": "/subjects/350352"
+  },
+  {
+    "title": "做架构的四个思路",
+    "description": "大家好，我是Z哥。很多在一线做coding工作多年的程序员朋友好像对「架构」有着一股特殊的情感。一方面是自己长期在一线的各种项目中coding，好像除了业务代码以外，「架构」就是体...",
+    "votes": "37",
+    "url": "/k/1tfa2fk",
+    "avatar": "https://img.toutiao.io/subject%2Fc992e775e6344583abd8a49f632b3e13",
+    "avatarAlt": "跨界架构师 - 独家号",
+    "subjectName": "跨界架构师",
+    "homeUrl": "/subjects/268968"
+  },
+  {
+    "title": "Kafka：这次分享我只想把原理讲清楚",
+    "description": "前言:1.由来为什么使用消息队列？从系统之间有通信需求开始，就自然产生了消息队列。在计算机科学中，消息队列（英语：Message queue）是一种进程间通信或同一进程的不同线程间...",
+    "votes": "36",
+    "url": "/k/0etokja",
+    "avatar": "https://img.toutiao.io/subject%2F12f67622459d4db9ba5c3410495a7e50",
+    "avatarAlt": "bugcoder - 独家号",
+    "subjectName": "bugcoder",
+    "homeUrl": "/subjects/451944"
+  },
+  {
+    "title": "重构项目",
+    "description": "最近这段时间工作重点是技术优化，包含代码圈复杂度、代码缺陷优化，项目重构等。重构的项目包括获取机构配置服务、离线对账脚本。获取机构配置每天 4000W+ 访问，对账脚本又涉及到大量...",
+    "votes": "36",
+    "url": "/k/2hs8quz",
+    "avatar": "https://img.toutiao.io/subject%2F4dda7587bcfb4a5a88ce2cd330fdd8d7",
+    "avatarAlt": "兔之技术笔记 - 独家号",
+    "subjectName": "兔之技术笔记",
+    "homeUrl": "/subjects/22406"
+  },
+  {
+    "title": "细数分布式 ID 生成策略",
+    "description": "对于一般应用来说，通常会需要用到业务唯一编码，比如订单流水号、操作记录流水号，关于它的生成方式有多种可以选择。 1、UUID UUID 使用非常简单，全球唯一、本地生成，缺点是没有...",
+    "votes": "36",
+    "url": "/k/gs9x659",
+    "avatar": "https://img.toutiao.io/subject%2F6abc3302fa1f4fde83555bade1fa5d02",
+    "avatarAlt": "郭儿的跋涉 - 独家号",
+    "subjectName": "郭儿的跋涉",
+    "homeUrl": "/subjects/450903"
+  },
+  {
+    "title": "实时数仓中的消息队列技术深度对比",
+    "description": " 公众号推文规则变了，点击上方 \"数据社\", 设为星标 后台回复【加群】，申请加入数据学习交流群 大家好，我是一哥，昨天分享了实时数仓的架构《网易实时数仓1.0 2.0 3.0 架...",
+    "votes": "34",
+    "url": "/k/us38se6",
+    "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
   },
   {
     "title": "面试必备常见存储引擎与锁的分类，请查收",
@@ -168,35 +198,5 @@
     "avatarAlt": "阿Q说代码 - 独家号",
     "subjectName": "阿Q说代码",
     "homeUrl": "/subjects/457975"
-  },
-  {
-    "title": "如何正确新增字段",
-    "description": "最近运维执行 DB 变更，给业务表 T_pay 新增字段 F_id，引起 DAO 模块读数据接口 GetBillInfo 出现大量找不到记录的失败。为什么只是新增 MySQL 字段...",
-    "votes": "36",
-    "url": "/k/13htx1u",
-    "avatar": "https://img.toutiao.io/subject%2F4dda7587bcfb4a5a88ce2cd330fdd8d7",
-    "avatarAlt": "兔之技术笔记 - 独家号",
-    "subjectName": "兔之技术笔记",
-    "homeUrl": "/subjects/22406"
-  },
-  {
-    "title": "细数分布式 ID 生成策略",
-    "description": "对于一般应用来说，通常会需要用到业务唯一编码，比如订单流水号、操作记录流水号，关于它的生成方式有多种可以选择。 1、UUID UUID 使用非常简单，全球唯一、本地生成，缺点是没有...",
-    "votes": "32",
-    "url": "/k/gs9x659",
-    "avatar": "https://img.toutiao.io/subject%2F6abc3302fa1f4fde83555bade1fa5d02",
-    "avatarAlt": "郭儿的跋涉 - 独家号",
-    "subjectName": "郭儿的跋涉",
-    "homeUrl": "/subjects/450903"
-  },
-  {
-    "title": "深入 AQS 源码，搞懂核心思想",
-    "description": "本文重点 前情提要 之前文章中写到了 JDK 中synchronized关键字可以实现同步锁，并且详细分析了底层的实现原理。Synchronized 原理及锁升级分析虽然synch...",
-    "votes": "30",
-    "url": "/k/2se9osh",
-    "avatar": "https://img.toutiao.io/subject%2F6abc3302fa1f4fde83555bade1fa5d02",
-    "avatarAlt": "郭儿的跋涉 - 独家号",
-    "subjectName": "郭儿的跋涉",
-    "homeUrl": "/subjects/450903"
   }
 ]
