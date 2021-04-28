@@ -10,16 +10,6 @@
     "homeUrl": "/subjects/443906"
   },
   {
-    "title": "我在架构设计和代码开发中的一些常用原则",
-    "description": "不管我一生中取得了多大的成功，其主要原因都不是我知道多少事情，而是我知道在无知的情况下自己应该怎么做。我一生中学到的最重要的东西是一种以原则为基础的生活方式，是它帮助我发现真相是什...",
-    "votes": "155",
-    "url": "/k/sso4l2l",
-    "avatar": "https://img.toutiao.io/subject%2Fae2b74c589814b769c1bebad92c2fb9a",
-    "avatarAlt": "架构之美 - 独家号",
-    "subjectName": "架构之美",
-    "homeUrl": "/subjects/42200"
-  },
-  {
     "title": "高并发下如何保证接口的幂等性？",
     "description": "前言接口幂等性问题，对于开发人员来说，是一个跟语言无关的公共问题。本文分享了一些解决这类问题非常实用的办法，绝大部分内容我在项目中实践过的，给有需要的小伙伴一个参考。不知道你有没有...",
     "votes": "169",
@@ -42,7 +32,7 @@
   {
     "title": "Redis 进阶笔记",
     "description": "导语 | Redis 大家用的不少，但是我们大多数人可能都只是关注业务本身，对于底层的细节则经常忽略，久而久之，对个人的成长帮助甚少。本文为大家总结了关于 Redis 常见用法的进...",
-    "votes": "133",
+    "votes": "136",
     "url": "/k/ti0gb8i",
     "avatar": "https://img.toutiao.io/subject%2F8e12ef64799649acbfd936883ef16c3c",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -70,6 +60,16 @@
     "homeUrl": "/subjects/458260"
   },
   {
+    "title": "RESTful API 设计最佳实践",
+    "description": "简介RESTful API 是目前最流行的API设计规范，它用于Web数据接口的设计。它允许包括浏览器在内的各种客户端与服务器进行通信。因此正确是设计我们的RESTful是相当重要...",
+    "votes": "113",
+    "url": "/k/4zqz7k1",
+    "avatar": "https://img.toutiao.io/user/5201fb246cb84281b3954be03a699793/thumb",
+    "avatarAlt": "JavaScript之禅 - 独家号",
+    "subjectName": "JavaScript之禅",
+    "homeUrl": "/subjects/263792"
+  },
+  {
     "title": "Go 应用优化指北",
     "description": "为什么要做优化 这是一个速度决定一切的时代，我们的生活在不断地数字化，线下的流程依然在持续向线上转移，转移过程中，作为工程师，我们会碰到各种各样的性能问题。互联网公司本质是将用户共...",
     "votes": "110",
@@ -80,14 +80,14 @@
     "homeUrl": "/subjects/1385"
   },
   {
-    "title": "RESTful API 设计最佳实践",
-    "description": "简介RESTful API 是目前最流行的API设计规范，它用于Web数据接口的设计。它允许包括浏览器在内的各种客户端与服务器进行通信。因此正确是设计我们的RESTful是相当重要...",
-    "votes": "112",
-    "url": "/k/4zqz7k1",
-    "avatar": "https://img.toutiao.io/user/5201fb246cb84281b3954be03a699793/thumb",
-    "avatarAlt": "JavaScript之禅 - 独家号",
-    "subjectName": "JavaScript之禅",
-    "homeUrl": "/subjects/263792"
+    "title": "这 11 款 Chrome 神器，用起来爽到爆",
+    "description": "前言对于从事IT行业的我们来说，几乎无时无刻都在用chrome浏览器，因为它给我们的工作和生活带来了极大的便利。今天给大家分享我用过的11款牛逼的chrome插件，你看完前3个可能...",
+    "votes": "119",
+    "url": "/k/czntgsa",
+    "avatar": "https://img.toutiao.io/subject%2F96c1af0d2a0b441ca9740ee13c3e37f3",
+    "avatarAlt": "苏三说技术 - 独家号",
+    "subjectName": "苏三说技术",
+    "homeUrl": "/subjects/453205"
   },
   {
     "title": "两次被裁之后，我终于解决了数据库缓存一致性问题",
@@ -98,16 +98,6 @@
     "avatarAlt": "一路走来微软.net - 独家号",
     "subjectName": "一路走来微软.net",
     "homeUrl": "/subjects/134649"
-  },
-  {
-    "title": "这 11 款 Chrome 神器，用起来爽到爆",
-    "description": "前言对于从事IT行业的我们来说，几乎无时无刻都在用chrome浏览器，因为它给我们的工作和生活带来了极大的便利。今天给大家分享我用过的11款牛逼的chrome插件，你看完前3个可能...",
-    "votes": "117",
-    "url": "/k/czntgsa",
-    "avatar": "https://img.toutiao.io/subject%2F96c1af0d2a0b441ca9740ee13c3e37f3",
-    "avatarAlt": "苏三说技术 - 独家号",
-    "subjectName": "苏三说技术",
-    "homeUrl": "/subjects/453205"
   },
   {
     "title": "21 张图详解网络基础知识",
@@ -130,14 +120,34 @@
     "homeUrl": "/subjects/452638"
   },
   {
+    "title": "用户画像的基础、原理、方法论（模型）和应用",
+    "description": "用户画像（User Profile）的本质是用户需求描述，一种刻画用户需求的模型。用户画像在推荐系统、广告系统、商业分析、数据分析、用户增长、用户研究、产品设计、数据化运营、精准营...",
+    "votes": "101",
+    "url": "/k/nrdp4oq",
+    "avatar": "https://img.toutiao.io/subject%2F7099419508b548428645eec6ee3e7c5b",
+    "avatarAlt": "数据智能 - 独家号",
+    "subjectName": "数据智能",
+    "homeUrl": "/subjects/1"
+  },
+  {
     "title": "为什么放弃 Kafka，选择 Pulsar?",
     "description": "Spring Boot 作为主流微服务框架，拥有成熟的社区生态。市场应用广泛，为了方便大家，整理了一个基于spring boot的常用中间件快速集成入门系列手册，涉及RPC、缓存、...",
-    "votes": "103",
+    "votes": "104",
     "url": "/k/wxrneux",
     "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
     "avatarAlt": "微观技术 - 独家号",
     "subjectName": "微观技术",
     "homeUrl": "/subjects/348507"
+  },
+  {
+    "title": "书单丨“1 本抵 10 本” 的好书，建议收藏",
+    "description": "距离上一次发文已过了很久。中间有一些老读者在后台问我什么时候更新，为什么还不更新。所以，我先来“汇报”一下这段时间的收获。在2019年年底，我转行了，成为了一位听书稿编辑，日常工作...",
+    "votes": "104",
+    "url": "/k/08uadl6",
+    "avatar": "https://img.toutiao.io/subject%2F9a97933f431d4553ba4a1d1838f48143",
+    "avatarAlt": "Python猫技术花园 - 独家号",
+    "subjectName": "Python猫技术花园",
+    "homeUrl": "/subjects/14371"
   },
   {
     "title": "从需求出发设计一条开源持续部署流水线",
@@ -148,26 +158,6 @@
     "avatarAlt": "架构一加一 - 独家号",
     "subjectName": "架构一加一",
     "homeUrl": "/subjects/314175"
-  },
-  {
-    "title": "书单丨“1 本抵 10 本” 的好书，建议收藏",
-    "description": "距离上一次发文已过了很久。中间有一些老读者在后台问我什么时候更新，为什么还不更新。所以，我先来“汇报”一下这段时间的收获。在2019年年底，我转行了，成为了一位听书稿编辑，日常工作...",
-    "votes": "101",
-    "url": "/k/08uadl6",
-    "avatar": "https://img.toutiao.io/subject%2F9a97933f431d4553ba4a1d1838f48143",
-    "avatarAlt": "Python猫技术花园 - 独家号",
-    "subjectName": "Python猫技术花园",
-    "homeUrl": "/subjects/14371"
-  },
-  {
-    "title": "用户画像的基础、原理、方法论（模型）和应用",
-    "description": "用户画像（User Profile）的本质是用户需求描述，一种刻画用户需求的模型。用户画像在推荐系统、广告系统、商业分析、数据分析、用户增长、用户研究、产品设计、数据化运营、精准营...",
-    "votes": "95",
-    "url": "/k/nrdp4oq",
-    "avatar": "https://img.toutiao.io/subject%2F7099419508b548428645eec6ee3e7c5b",
-    "avatarAlt": "数据智能 - 独家号",
-    "subjectName": "数据智能",
-    "homeUrl": "/subjects/1"
   },
   {
     "title": "InnoDB 解决幻读的方案：LBCC & MVCC",
@@ -210,19 +200,9 @@
     "homeUrl": "/subjects/352853"
   },
   {
-    "title": "这 30 个我精选的含答案的面试题，硬不硬你说吧",
-    "description": "你好，我是最近写累了的 yes。面霸系列第二篇来了，满满当当 31 题。上一篇面霸我看阅读完成率就 34.53%，不知道这篇能有多少，因为这篇比那篇还长。所以我先把一些话放到开头来...",
-    "votes": "86",
-    "url": "/k/v9aar7o",
-    "avatar": "https://img.toutiao.io/subject%2F71da457007fd4b67a45253b271a25eee",
-    "avatarAlt": "yes的练级攻略 - 独家号",
-    "subjectName": "yes的练级攻略",
-    "homeUrl": "/subjects/443906"
-  },
-  {
     "title": "谈谈 MySQL 锁",
     "description": "一、前言 MySQL 的并发控制是在数据安全性和并发处理能力之间的权衡，通过不同的锁策略来决定对系统开销和性能的影响。只要存在多个客户端同时修改更新数据，就会存在并发问题，MySQ...",
-    "votes": "85",
+    "votes": "87",
     "url": "/k/z5c0vp0",
     "avatar": "https://img.toutiao.io/subject%2F6abc3302fa1f4fde83555bade1fa5d02",
     "avatarAlt": "郭儿的跋涉 - 独家号",
@@ -248,5 +228,25 @@
     "avatarAlt": "Madison龙少 - 独家号",
     "subjectName": "Madison龙少",
     "homeUrl": "/subjects/457446"
+  },
+  {
+    "title": "一文读懂，DDD 落地数据库设计实战",
+    "description": "作者范钢，曾任航天信息首席架构师，《大话重构》一书的作者。本文根据具体实例详细描述了DDD 落实到数据库设计的整个过程阅读本文之前建议先阅读上一篇文章《万字长文，结合电商支付业务一...",
+    "votes": "84",
+    "url": "/k/6aau0fc",
+    "avatar": "https://img.toutiao.io/subject%2Fd00b380edf1f4c5c989adc712d44de7b",
+    "avatarAlt": "乱学派 - 独家号",
+    "subjectName": "乱学派",
+    "homeUrl": "/subjects/110643"
+  },
+  {
+    "title": "职场：工作五年之后，对技术和业务的思考",
+    "description": "苦海无边，回头无岸。01 晃晃悠悠的，在互联网行业工作了五年，默然回首，你看哪里像灯火阑珊处？初入职场，大部分程序员会觉得苦学技术，以后会顺风顺水升职加薪，这样的想法没有错，但是不...",
+    "votes": "93",
+    "url": "/k/zpo0xd7",
+    "avatar": "https://img.toutiao.io/subject%2F652f30d4f8ed4f198281774399a49076",
+    "avatarAlt": "知了一笑 - 独家号",
+    "subjectName": "知了一笑",
+    "homeUrl": "/subjects/416733"
   }
 ]
