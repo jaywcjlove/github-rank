@@ -10,14 +10,14 @@
     "homeUrl": "/subjects/443906"
   },
   {
-    "title": "高并发下如何保证接口的幂等性？",
-    "description": "前言接口幂等性问题，对于开发人员来说，是一个跟语言无关的公共问题。本文分享了一些解决这类问题非常实用的办法，绝大部分内容我在项目中实践过的，给有需要的小伙伴一个参考。不知道你有没有...",
-    "votes": "169",
-    "url": "/k/f0361xm",
-    "avatar": "https://img.toutiao.io/subject%2F96c1af0d2a0b441ca9740ee13c3e37f3",
-    "avatarAlt": "苏三说技术 - 独家号",
-    "subjectName": "苏三说技术",
-    "homeUrl": "/subjects/453205"
+    "title": "Redis 进阶笔记",
+    "description": "导语 | Redis 大家用的不少，但是我们大多数人可能都只是关注业务本身，对于底层的细节则经常忽略，久而久之，对个人的成长帮助甚少。本文为大家总结了关于 Redis 常见用法的进...",
+    "votes": "141",
+    "url": "/k/ti0gb8i",
+    "avatar": "https://img.toutiao.io/subject%2F8e12ef64799649acbfd936883ef16c3c",
+    "avatarAlt": "服务架构及中台 - 独家号",
+    "subjectName": "服务架构及中台",
+    "homeUrl": "/subjects/26578"
   },
   {
     "title": "Git 分支管理策略与工作流程",
@@ -30,16 +30,6 @@
     "homeUrl": "/subjects/263792"
   },
   {
-    "title": "Redis 进阶笔记",
-    "description": "导语 | Redis 大家用的不少，但是我们大多数人可能都只是关注业务本身，对于底层的细节则经常忽略，久而久之，对个人的成长帮助甚少。本文为大家总结了关于 Redis 常见用法的进...",
-    "votes": "136",
-    "url": "/k/ti0gb8i",
-    "avatar": "https://img.toutiao.io/subject%2F8e12ef64799649acbfd936883ef16c3c",
-    "avatarAlt": "服务架构及中台 - 独家号",
-    "subjectName": "服务架构及中台",
-    "homeUrl": "/subjects/26578"
-  },
-  {
     "title": "GitHub 太慢？9 种方案可提速",
     "description": " △点击上方“Python猫”关注 ，回复“1”领取电子书  因为某些原因，Github 访问速度确实太慢了，图片经常刷不出来，甚至会出现项目无法下载的情况。 码云虽好，可目前还是...",
     "votes": "120",
@@ -48,6 +38,16 @@
     "avatarAlt": "学学Java - 独家号",
     "subjectName": "学学Java",
     "homeUrl": "/subjects/456195"
+  },
+  {
+    "title": "用户画像的基础、原理、方法论（模型）和应用",
+    "description": "用户画像（User Profile）的本质是用户需求描述，一种刻画用户需求的模型。用户画像在推荐系统、广告系统、商业分析、数据分析、用户增长、用户研究、产品设计、数据化运营、精准营...",
+    "votes": "112",
+    "url": "/k/nrdp4oq",
+    "avatar": "https://img.toutiao.io/subject%2F7099419508b548428645eec6ee3e7c5b",
+    "avatarAlt": "数据智能 - 独家号",
+    "subjectName": "数据智能",
+    "homeUrl": "/subjects/1"
   },
   {
     "title": "教你从头写游戏服务器框架",
@@ -80,9 +80,19 @@
     "homeUrl": "/subjects/1385"
   },
   {
+    "title": "书单丨“1 本抵 10 本” 的好书，建议收藏",
+    "description": "距离上一次发文已过了很久。中间有一些老读者在后台问我什么时候更新，为什么还不更新。所以，我先来“汇报”一下这段时间的收获。在2019年年底，我转行了，成为了一位听书稿编辑，日常工作...",
+    "votes": "112",
+    "url": "/k/08uadl6",
+    "avatar": "https://img.toutiao.io/subject%2F9a97933f431d4553ba4a1d1838f48143",
+    "avatarAlt": "Python猫技术花园 - 独家号",
+    "subjectName": "Python猫技术花园",
+    "homeUrl": "/subjects/14371"
+  },
+  {
     "title": "这 11 款 Chrome 神器，用起来爽到爆",
     "description": "前言对于从事IT行业的我们来说，几乎无时无刻都在用chrome浏览器，因为它给我们的工作和生活带来了极大的便利。今天给大家分享我用过的11款牛逼的chrome插件，你看完前3个可能...",
-    "votes": "119",
+    "votes": "121",
     "url": "/k/czntgsa",
     "avatar": "https://img.toutiao.io/subject%2F96c1af0d2a0b441ca9740ee13c3e37f3",
     "avatarAlt": "苏三说技术 - 独家号",
@@ -92,7 +102,7 @@
   {
     "title": "两次被裁之后，我终于解决了数据库缓存一致性问题",
     "description": "一我是一名毕业两年的程序员。算上实习，工作三年了，正是一个程序员的黄金时代，这让我普通而自信。但是从实习期，我就被辞退两次了。今天是我的又一场面试，而且是大厂面试。我要一洗前耻，证...",
-    "votes": "114",
+    "votes": "115",
     "url": "/k/feyaceo",
     "avatar": "https://img.toutiao.io/subject%2F50a36eb7322d42b9b9452097f39be371",
     "avatarAlt": "一路走来微软.net - 独家号",
@@ -120,34 +130,14 @@
     "homeUrl": "/subjects/452638"
   },
   {
-    "title": "用户画像的基础、原理、方法论（模型）和应用",
-    "description": "用户画像（User Profile）的本质是用户需求描述，一种刻画用户需求的模型。用户画像在推荐系统、广告系统、商业分析、数据分析、用户增长、用户研究、产品设计、数据化运营、精准营...",
-    "votes": "101",
-    "url": "/k/nrdp4oq",
-    "avatar": "https://img.toutiao.io/subject%2F7099419508b548428645eec6ee3e7c5b",
-    "avatarAlt": "数据智能 - 独家号",
-    "subjectName": "数据智能",
-    "homeUrl": "/subjects/1"
-  },
-  {
     "title": "为什么放弃 Kafka，选择 Pulsar?",
     "description": "Spring Boot 作为主流微服务框架，拥有成熟的社区生态。市场应用广泛，为了方便大家，整理了一个基于spring boot的常用中间件快速集成入门系列手册，涉及RPC、缓存、...",
-    "votes": "104",
+    "votes": "107",
     "url": "/k/wxrneux",
     "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
     "avatarAlt": "微观技术 - 独家号",
     "subjectName": "微观技术",
     "homeUrl": "/subjects/348507"
-  },
-  {
-    "title": "书单丨“1 本抵 10 本” 的好书，建议收藏",
-    "description": "距离上一次发文已过了很久。中间有一些老读者在后台问我什么时候更新，为什么还不更新。所以，我先来“汇报”一下这段时间的收获。在2019年年底，我转行了，成为了一位听书稿编辑，日常工作...",
-    "votes": "104",
-    "url": "/k/08uadl6",
-    "avatar": "https://img.toutiao.io/subject%2F9a97933f431d4553ba4a1d1838f48143",
-    "avatarAlt": "Python猫技术花园 - 独家号",
-    "subjectName": "Python猫技术花园",
-    "homeUrl": "/subjects/14371"
   },
   {
     "title": "从需求出发设计一条开源持续部署流水线",
@@ -202,12 +192,22 @@
   {
     "title": "谈谈 MySQL 锁",
     "description": "一、前言 MySQL 的并发控制是在数据安全性和并发处理能力之间的权衡，通过不同的锁策略来决定对系统开销和性能的影响。只要存在多个客户端同时修改更新数据，就会存在并发问题，MySQ...",
-    "votes": "87",
+    "votes": "88",
     "url": "/k/z5c0vp0",
     "avatar": "https://img.toutiao.io/subject%2F6abc3302fa1f4fde83555bade1fa5d02",
     "avatarAlt": "郭儿的跋涉 - 独家号",
     "subjectName": "郭儿的跋涉",
     "homeUrl": "/subjects/450903"
+  },
+  {
+    "title": "程序员应该掌握的常用网络问题定位工具",
+    "description": "原创：花括号MC(微信公众号：huakuohao-mc)。关注JAVA基础编程及大数据，注重经验分享及个人成长。项目日常运维的过程中，经常会遇到各种奇奇怪怪的网络问题。那么排查网络...",
+    "votes": "86",
+    "url": "/k/upefap5",
+    "avatar": "https://img.toutiao.io/subject%2Fdef09a8ec7754069803823535702f3ed",
+    "avatarAlt": "花括号MC - 独家号",
+    "subjectName": "花括号MC",
+    "homeUrl": "/subjects/419901"
   },
   {
     "title": "GitHub 加速指南进阶版",
@@ -230,6 +230,16 @@
     "homeUrl": "/subjects/457446"
   },
   {
+    "title": "码云 Gitee：高并发大存储下的架构演进之路",
+    "description": "码云 Gitee 自2013年推出以来，每年的数据量都是倍增的，截止到2021年3月份，Gitee 上已经有了600万+的开发者，超1500万的仓库，成为了国内首屈一指的研发协作平...",
+    "votes": "93",
+    "url": "/k/bi1fr9y",
+    "avatar": "https://img.toutiao.io/subject%2F7cabeffc3787447f830b72f4bdcfa91c",
+    "avatarAlt": "Zoker 随笔 - 独家号",
+    "subjectName": "Zoker 随笔",
+    "homeUrl": "/subjects/226163"
+  },
+  {
     "title": "一文读懂，DDD 落地数据库设计实战",
     "description": "作者范钢，曾任航天信息首席架构师，《大话重构》一书的作者。本文根据具体实例详细描述了DDD 落实到数据库设计的整个过程阅读本文之前建议先阅读上一篇文章《万字长文，结合电商支付业务一...",
     "votes": "84",
@@ -238,15 +248,5 @@
     "avatarAlt": "乱学派 - 独家号",
     "subjectName": "乱学派",
     "homeUrl": "/subjects/110643"
-  },
-  {
-    "title": "职场：工作五年之后，对技术和业务的思考",
-    "description": "苦海无边，回头无岸。01 晃晃悠悠的，在互联网行业工作了五年，默然回首，你看哪里像灯火阑珊处？初入职场，大部分程序员会觉得苦学技术，以后会顺风顺水升职加薪，这样的想法没有错，但是不...",
-    "votes": "93",
-    "url": "/k/zpo0xd7",
-    "avatar": "https://img.toutiao.io/subject%2F652f30d4f8ed4f198281774399a49076",
-    "avatarAlt": "知了一笑 - 独家号",
-    "subjectName": "知了一笑",
-    "homeUrl": "/subjects/416733"
   }
 ]
