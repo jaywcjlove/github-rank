@@ -12,7 +12,7 @@
   {
     "title": "Redis 进阶笔记",
     "description": "导语 | Redis 大家用的不少，但是我们大多数人可能都只是关注业务本身，对于底层的细节则经常忽略，久而久之，对个人的成长帮助甚少。本文为大家总结了关于 Redis 常见用法的进...",
-    "votes": "146",
+    "votes": "149",
     "url": "/k/ti0gb8i",
     "avatar": "https://img.toutiao.io/subject%2F8e12ef64799649acbfd936883ef16c3c",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -22,7 +22,7 @@
   {
     "title": "Git 分支管理策略与工作流程",
     "description": "Git是目前世界上最先进的分布式版本控制系统。它使我们更方便的跟踪，管理和组织代码。也帮助了我们更好的与其他开发者进行协作开发。但是没有规矩不成方圆。协作开发必须有一个规范来约束各...",
-    "votes": "133",
+    "votes": "134",
     "url": "/k/82eogba",
     "avatar": "https://img.toutiao.io/user/5201fb246cb84281b3954be03a699793/thumb",
     "avatarAlt": "JavaScript之禅 - 独家号",
@@ -30,9 +30,19 @@
     "homeUrl": "/subjects/263792"
   },
   {
+    "title": "程序员应该掌握的常用网络问题定位工具",
+    "description": "原创：花括号MC(微信公众号：huakuohao-mc)。关注JAVA基础编程及大数据，注重经验分享及个人成长。项目日常运维的过程中，经常会遇到各种奇奇怪怪的网络问题。那么排查网络...",
+    "votes": "136",
+    "url": "/k/upefap5",
+    "avatar": "https://img.toutiao.io/subject%2Fdef09a8ec7754069803823535702f3ed",
+    "avatarAlt": "花括号MC - 独家号",
+    "subjectName": "花括号MC",
+    "homeUrl": "/subjects/419901"
+  },
+  {
     "title": "用户画像的基础、原理、方法论（模型）和应用",
     "description": "用户画像（User Profile）的本质是用户需求描述，一种刻画用户需求的模型。用户画像在推荐系统、广告系统、商业分析、数据分析、用户增长、用户研究、产品设计、数据化运营、精准营...",
-    "votes": "115",
+    "votes": "118",
     "url": "/k/nrdp4oq",
     "avatar": "https://img.toutiao.io/subject%2F7099419508b548428645eec6ee3e7c5b",
     "avatarAlt": "数据智能 - 独家号",
@@ -50,19 +60,9 @@
     "homeUrl": "/subjects/458260"
   },
   {
-    "title": "程序员应该掌握的常用网络问题定位工具",
-    "description": "原创：花括号MC(微信公众号：huakuohao-mc)。关注JAVA基础编程及大数据，注重经验分享及个人成长。项目日常运维的过程中，经常会遇到各种奇奇怪怪的网络问题。那么排查网络...",
-    "votes": "114",
-    "url": "/k/upefap5",
-    "avatar": "https://img.toutiao.io/subject%2Fdef09a8ec7754069803823535702f3ed",
-    "avatarAlt": "花括号MC - 独家号",
-    "subjectName": "花括号MC",
-    "homeUrl": "/subjects/419901"
-  },
-  {
     "title": "书单丨“1 本抵 10 本” 的好书，建议收藏",
     "description": "距离上一次发文已过了很久。中间有一些老读者在后台问我什么时候更新，为什么还不更新。所以，我先来“汇报”一下这段时间的收获。在2019年年底，我转行了，成为了一位听书稿编辑，日常工作...",
-    "votes": "113",
+    "votes": "116",
     "url": "/k/08uadl6",
     "avatar": "https://img.toutiao.io/subject%2F9a97933f431d4553ba4a1d1838f48143",
     "avatarAlt": "Python猫技术花园 - 独家号",
@@ -72,7 +72,7 @@
   {
     "title": "这 11 款 Chrome 神器，用起来爽到爆",
     "description": "前言对于从事IT行业的我们来说，几乎无时无刻都在用chrome浏览器，因为它给我们的工作和生活带来了极大的便利。今天给大家分享我用过的11款牛逼的chrome插件，你看完前3个可能...",
-    "votes": "122",
+    "votes": "123",
     "url": "/k/czntgsa",
     "avatar": "https://img.toutiao.io/subject%2F96c1af0d2a0b441ca9740ee13c3e37f3",
     "avatarAlt": "苏三说技术 - 独家号",
@@ -110,34 +110,24 @@
     "homeUrl": "/subjects/134649"
   },
   {
-    "title": "21 张图详解网络基础知识",
-    "description": "目录网络协议  我们用手机连接上网的时候，会用到许多网络协议。从手机连接 WiFi 开始，使用的是 802.11 （即 WLAN ）协议；手机自动获取网络配置，使用的是 DHCP ...",
-    "votes": "113",
-    "url": "/k/9uox6mg",
-    "avatar": "https://img.toutiao.io/subject%2F17c0544998e140628615896d2fc161b8",
-    "avatarAlt": "雨后天空的独家号 - 独家号",
-    "subjectName": "雨后天空的独家号",
-    "homeUrl": "/subjects/382106"
-  },
-  {
-    "title": "一文搞懂分布式锁的原理与实现",
-    "description": " 前言对于锁，大家应该都不陌生，手机上可以加锁，想用时候解锁，不用的时候上锁，那自行车、房门同样可以加把锁，道理属于类似的情况。 在日常开发工作中，我们为了保证资源操作的最终一致性...",
-    "votes": "114",
-    "url": "/k/j7fdh6h",
-    "avatar": "https://img.toutiao.io/subject%2F071476c43e0d42cf95f3e77f046c814b",
-    "avatarAlt": "架构精进之路 - 独家号",
-    "subjectName": "架构精进之路",
-    "homeUrl": "/subjects/452638"
-  },
-  {
     "title": "为什么放弃 Kafka，选择 Pulsar?",
     "description": "Spring Boot 作为主流微服务框架，拥有成熟的社区生态。市场应用广泛，为了方便大家，整理了一个基于spring boot的常用中间件快速集成入门系列手册，涉及RPC、缓存、...",
-    "votes": "107",
+    "votes": "109",
     "url": "/k/wxrneux",
     "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
     "avatarAlt": "微观技术 - 独家号",
     "subjectName": "微观技术",
     "homeUrl": "/subjects/348507"
+  },
+  {
+    "title": "一文搞懂分布式锁的原理与实现",
+    "description": " 前言对于锁，大家应该都不陌生，手机上可以加锁，想用时候解锁，不用的时候上锁，那自行车、房门同样可以加把锁，道理属于类似的情况。 在日常开发工作中，我们为了保证资源操作的最终一致性...",
+    "votes": "115",
+    "url": "/k/j7fdh6h",
+    "avatar": "https://img.toutiao.io/subject%2F071476c43e0d42cf95f3e77f046c814b",
+    "avatarAlt": "架构精进之路 - 独家号",
+    "subjectName": "架构精进之路",
+    "homeUrl": "/subjects/452638"
   },
   {
     "title": "从需求出发设计一条开源持续部署流水线",
@@ -170,6 +160,16 @@
     "homeUrl": "/subjects/426740"
   },
   {
+    "title": "如何设计一个高性能的秒杀系统",
+    "description": "秒杀系统要如何架构，在做技术方案时要注意哪些问题，搞了个秒杀专辑，专门收集秒杀系列文章。当你去一家公司面试时，很多面试官都会问你如何设计一个高性能秒杀系统。秒杀涉及的技术域从客户端...",
+    "votes": "94",
+    "url": "/k/6z3uu2m",
+    "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
+    "avatarAlt": "微观技术 - 独家号",
+    "subjectName": "微观技术",
+    "homeUrl": "/subjects/348507"
+  },
+  {
     "title": "使用 Git 丢失代码的 N 种操作，您中招了吗？",
     "description": "摘要：无意翻出这篇写于两年前的手稿，当时交付的几家私有云大客户以及公有云客户均频繁遇到此问题，虽然现象千奇百怪，但是无非是错误的操作导致的代码丢失，秉承着开放、自由、分享的开源精神...",
     "votes": "96",
@@ -190,6 +190,16 @@
     "homeUrl": "/subjects/352853"
   },
   {
+    "title": "2.7w 字！Java 基础面试题/知识点总结（2021 最新版）",
+    "description": "这篇《Java 基础知识总结》是 JavaGuide 上阅读量最高的一篇文章，由于我对其进行了重构完善并且修复了很多小问题，所以，在公号再同步一下！文章内容比较多，公号不太适合长文...",
+    "votes": "90",
+    "url": "/k/0iue4f4",
+    "avatar": "https://img.toutiao.io/subject%2Ff834a19bb9e24261a813b7a1ebc03a11",
+    "avatarAlt": "JavaGuide - 独家号",
+    "subjectName": "JavaGuide",
+    "homeUrl": "/subjects/352853"
+  },
+  {
     "title": "谈谈 MySQL 锁",
     "description": "一、前言 MySQL 的并发控制是在数据安全性和并发处理能力之间的权衡，通过不同的锁策略来决定对系统开销和性能的影响。只要存在多个客户端同时修改更新数据，就会存在并发问题，MySQ...",
     "votes": "88",
@@ -200,24 +210,14 @@
     "homeUrl": "/subjects/450903"
   },
   {
-    "title": "如何设计一个高性能的秒杀系统",
-    "description": "秒杀系统要如何架构，在做技术方案时要注意哪些问题，搞了个秒杀专辑，专门收集秒杀系列文章。当你去一家公司面试时，很多面试官都会问你如何设计一个高性能秒杀系统。秒杀涉及的技术域从客户端...",
-    "votes": "89",
-    "url": "/k/6z3uu2m",
-    "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
-    "avatarAlt": "微观技术 - 独家号",
-    "subjectName": "微观技术",
-    "homeUrl": "/subjects/348507"
-  },
-  {
-    "title": "GitHub 加速指南进阶版",
-    "description": "这个有什么用？最直观的效果是GitHub图片可以正常加载，网页也稳定了。GitHub Hosts主要是通过修改host的方式加速GitHub访问，解决图片无法加载以及访问速度慢的问...",
-    "votes": "87",
-    "url": "/k/ygnbct1",
-    "avatar": "https://img.toutiao.io/subject%2Fa3f94f1ba1134bcaab4ebc9b404e652f",
-    "avatarAlt": "湖中剑 - 独家号",
-    "subjectName": "湖中剑",
-    "homeUrl": "/subjects/423680"
+    "title": "一文读懂，DDD 落地数据库设计实战",
+    "description": "作者范钢，曾任航天信息首席架构师，《大话重构》一书的作者。本文根据具体实例详细描述了DDD 落实到数据库设计的整个过程阅读本文之前建议先阅读上一篇文章《万字长文，结合电商支付业务一...",
+    "votes": "85",
+    "url": "/k/6aau0fc",
+    "avatar": "https://img.toutiao.io/subject%2Fd00b380edf1f4c5c989adc712d44de7b",
+    "avatarAlt": "乱学派 - 独家号",
+    "subjectName": "乱学派",
+    "homeUrl": "/subjects/110643"
   },
   {
     "title": "史上最全教程：idea 将 Java 项目打包 Jar 包，并生成 exe 可执行文件",
@@ -240,13 +240,13 @@
     "homeUrl": "/subjects/226163"
   },
   {
-    "title": "一文读懂，DDD 落地数据库设计实战",
-    "description": "作者范钢，曾任航天信息首席架构师，《大话重构》一书的作者。本文根据具体实例详细描述了DDD 落实到数据库设计的整个过程阅读本文之前建议先阅读上一篇文章《万字长文，结合电商支付业务一...",
-    "votes": "84",
-    "url": "/k/6aau0fc",
-    "avatar": "https://img.toutiao.io/subject%2Fd00b380edf1f4c5c989adc712d44de7b",
-    "avatarAlt": "乱学派 - 独家号",
-    "subjectName": "乱学派",
-    "homeUrl": "/subjects/110643"
+    "title": "职场：工作五年之后，对技术和业务的思考",
+    "description": "苦海无边，回头无岸。01 晃晃悠悠的，在互联网行业工作了五年，默然回首，你看哪里像灯火阑珊处？初入职场，大部分程序员会觉得苦学技术，以后会顺风顺水升职加薪，这样的想法没有错，但是不...",
+    "votes": "94",
+    "url": "/k/zpo0xd7",
+    "avatar": "https://img.toutiao.io/subject%2F652f30d4f8ed4f198281774399a49076",
+    "avatarAlt": "知了一笑 - 独家号",
+    "subjectName": "知了一笑",
+    "homeUrl": "/subjects/416733"
   }
 ]
