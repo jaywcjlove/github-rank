@@ -1,20 +1,101 @@
 [
   {
-    "title": "Java并发-同步容器篇",
-    "description": "作者：汤圆个人博客：javalover.cc前言官人们好啊，我是汤圆，今天给大家带来的是《Java并发-同步容器篇》，希望有所帮助，谢谢文章如果有问题，欢迎大家批评指正，在此谢过啦简介同步容器主要分两类，一种是Vect...",
-    "url": "https://segmentfault.com/a/1190000039948597",
-    "author": "汤圆学Java",
-    "home_url": "https://segmentfault.com/u/jalon2015",
-    "votes": "1",
+    "title": "10个提高开发效率的  VS Code 快捷键！",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000039863001",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "7",
     "rank": 1
   },
   {
-    "title": "Spring Cloud面试题（2021最新版）",
-    "description": "不论是商业应用还是用户应用，在业务初期都很简单，我们通常会把它实现为单体结构的应用。但是，随着业务逐渐发展，产品思想会变得越来越复杂，单体结构的应用也会越来越复杂。这就会给应用带来如下的几个问题：",
-    "url": "https://segmentfault.com/a/1190000039947850",
-    "author": "老炮说Java",
-    "home_url": "https://segmentfault.com/u/zhiqingchun_5f05a5d69bd9e",
-    "votes": "1",
+    "title": "使用 axios 拦截器解决「 前端并发冲突 」 问题",
+    "description": "背景并发冲突问题， 是日常开发中一个比较常见的问题。不同用户在较短时间间隔内变更数据，或者某一个用户进行的重复提交操作都可能导致并发冲突。并发场景在开发和测试阶段难以排查全面，出现线上 bug 以后定位...",
+    "url": "https://segmentfault.com/a/1190000039951332",
+    "author": "皮小蛋",
+    "home_url": "https://segmentfault.com/u/scaukk",
+    "votes": "10",
     "rank": 2
+  },
+  {
+    "title": "MySQL 主从复制解决了什么问题？出现同步延迟如何解决？",
+    "description": "主从复制解决的问题数据分布：通过复制将数据分布到不同地理位置负载均衡：读写分离以及将读负载到多台从库备份：可作为实时备份高可用性：利用主主复制实现高可用复制原理复制的原理其实很简单，仅分为以下三步...",
+    "url": "https://segmentfault.com/a/1190000039950440",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "4",
+    "rank": 3
+  },
+  {
+    "title": "写给初用Nestj做项目的你(第二篇: 配置gitlab-runner&操作gitlab)",
+    "description": "我们平时会使用一些CI/CD持续集成, 比如上传到gitlab上的dev分支代码每次更新, 但这些功能可不是CI来做的, 我们都会直接进行打包并发布到测试环境, 那么接下来我们就来配置这个功能模块。",
+    "url": "https://segmentfault.com/a/1190000039949575",
+    "author": "lulu_up",
+    "home_url": "https://segmentfault.com/u/lulu_up",
+    "votes": "3",
+    "rank": 4
+  },
+  {
+    "title": "关于DevOps CI/CD Pipeline，看这篇就够了 | IDCF",
+    "description": "提到DevOps，很多人就想到了CI/CD Pipeline，甚至很多个人或者企业认为完成了CI/CD Pipeline就等于实现了DevOps，虽然这种观点有失偏颇，但是从侧面反映了CI/CD Pipeline在DevOps中扮演着举足轻重的地位。CI/CD ...",
+    "url": "https://segmentfault.com/a/1190000039948815",
+    "author": "IDCF",
+    "home_url": "https://segmentfault.com/u/idcf",
+    "votes": "2",
+    "rank": 5
+  },
+  {
+    "title": "开发插件集合",
+    "description": "Day.js，Moment.js 的 2kB 轻量化方案，拥有同样强大的 APIFileSaver.js，HTML5文件保存html2canvas，Screenshots with JavaScript，html转换为canvasSimpleMDE Markdown EditorLayui，开源模块化前端 UI 框架Bet...",
+    "url": "https://segmentfault.com/a/1190000039954207",
+    "author": "whjin",
+    "home_url": "https://segmentfault.com/u/whjin",
+    "votes": "1",
+    "rank": 6
+  },
+  {
+    "title": "JS校验身份证号",
+    "description": "原文链接: js最全身份证号码校验 {代码...} {代码...} {代码...} {代码...} {代码...} {代码...} {代码...}",
+    "url": "https://segmentfault.com/a/1190000039951477",
+    "author": "whjin",
+    "home_url": "https://segmentfault.com/u/whjin",
+    "votes": "1",
+    "rank": 7
+  },
+  {
+    "title": "「 工具篇 」关于 VS Code - 你想知道的都在这里",
+    "description": "背景之前部门想要统一代码编辑器， 最后决定统一用 VS Code。我之前也有写这篇文章的想法，于是就主动报了名。所以就有了今天这篇，一篇详细介绍 VS Code 的文章。中间参考了不少资料，如有错误，欢迎留言指出 :)...",
+    "url": "https://segmentfault.com/a/1190000039954632",
+    "author": "皮小蛋",
+    "home_url": "https://segmentfault.com/u/scaukk",
+    "votes": "1",
+    "rank": 8
+  },
+  {
+    "title": "从设计角度，深入分析 Spring 循环依赖的解决思路",
+    "description": "Spring 的循环依赖已经被说烂了，可能很多人也看吐了。但很多博客上说的还是不够清楚，没有完整的表达出 Spring 的设计目的。只介绍了 What ，对于 Why 的介绍却不太够。",
+    "url": "https://segmentfault.com/a/1190000039950353",
+    "author": "空无",
+    "home_url": "https://segmentfault.com/u/kongwu",
+    "votes": "1",
+    "rank": 9
+  },
+  {
+    "title": "展开说说，Spring Bean IOC、AOP 循环依赖",
+    "description": "大学有四年时间，但几乎所有人都是临近毕业才发现找一份好工作费劲，尤其是我能非常熟悉的软件开发行业，即使是毕业了还需要额外花钱到培训机构，在学一遍编程技术才能出去找工作。好像在校这几年压根就没学到什么！",
+    "url": "https://segmentfault.com/a/1190000039949856",
+    "author": "小傅哥",
+    "home_url": "https://segmentfault.com/u/fuzhengwei",
+    "votes": "2",
+    "rank": 10
+  },
+  {
+    "title": "CentOS 之父创造的 Rocky Linux 8.3 发布了！内附下载链接及安装教程",
+    "description": "CentOS 项目去年（2020年12月20日）宣布了「 CentOS 战略的转变」：CentOS 8 将于2021年结束。说明在这之后不会出现CentOS 9系统了，取而代之是CentOS Stream这个叫滚动发行版本。在这不久之前才刚刚宣布「CentOS...",
+    "url": "https://segmentfault.com/a/1190000039950550",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "1",
+    "rank": 11
   }
 ]
