@@ -14,7 +14,7 @@
     "url": "https://segmentfault.com/a/1190000039806000",
     "author": "我的名字豌豆",
     "home_url": "https://segmentfault.com/u/liu_namepea",
-    "votes": "56",
+    "votes": "58",
     "rank": 2
   },
   {
@@ -36,21 +36,21 @@
     "rank": 4
   },
   {
+    "title": "CSS @property，让不可能变可能",
+    "description": "根据 MDN -- CSS Property，@property CSS at-rule 是 CSS Houdini API 的一部分, 它允许开发者显式地定义他们的 CSS 自定义属性，允许进行属性类型检查、设定默认值以及定义该自定义属性是否可以被继承。",
+    "url": "https://segmentfault.com/a/1190000039826626",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "36",
+    "rank": 5
+  },
+  {
     "title": "安全地在前后端之间传输数据 - 「1」技术预研",
     "description": "已经不是第一次写这个主题了，最近有朋友拿 5 年前的《Web 应用中保证密码传输安全》来问我：“为什么按你说的一步步做下来，后端解不出来呢？”加解密这种事情，差之毫厘谬以千里，我认为多半就是什么参数没整对，...",
     "url": "https://segmentfault.com/a/1190000039827138",
     "author": "边城",
     "home_url": "https://segmentfault.com/u/jamesfancy",
     "votes": "32",
-    "rank": 5
-  },
-  {
-    "title": "CSS @property，让不可能变可能",
-    "description": "根据 MDN -- CSS Property，@property CSS at-rule 是 CSS Houdini API 的一部分, 它允许开发者显式地定义他们的 CSS 自定义属性，允许进行属性类型检查、设定默认值以及定义该自定义属性是否可以被继承。",
-    "url": "https://segmentfault.com/a/1190000039826626",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "35",
     "rank": 6
   },
   {
@@ -68,7 +68,7 @@
     "url": "https://segmentfault.com/a/1190000039921701",
     "author": "皮小蛋",
     "home_url": "https://segmentfault.com/u/scaukk",
-    "votes": "35",
+    "votes": "37",
     "rank": 8
   },
   {
@@ -77,8 +77,26 @@
     "url": "https://segmentfault.com/a/1190000039795956",
     "author": "皮小蛋",
     "home_url": "https://segmentfault.com/u/scaukk",
-    "votes": "31",
+    "votes": "32",
     "rank": 9
+  },
+  {
+    "title": "从零到一搭建React组件库",
+    "description": "最近一直在捣鼓如何搭建React组件库，至于为什么会产生这个想法，主要是因为组件库对于前端生态来说究极重要，每一个着眼于长远发展、看重开发效率的的互联网公司基本上都会量身定制自己的组件库，它的好处不用多...",
+    "url": "https://segmentfault.com/a/1190000039852833",
+    "author": "pony",
+    "home_url": "https://segmentfault.com/u/tosmile",
+    "votes": "29",
+    "rank": 10
+  },
+  {
+    "title": "22个有用的JavaScript单行程序",
+    "description": "全世界有超过1000万的Javascript开发人员，而且这个数字每天都在增加。尽管JavaScript更出名的是它的动态特性，但它也有许多其他很棒的特性。在这篇博客中，我们将看到20个你应该知道的JavaScript单行程序。",
+    "url": "https://segmentfault.com/a/1190000039888528",
+    "author": "杜尼卜",
+    "home_url": "https://segmentfault.com/u/dunizb",
+    "votes": "35",
+    "rank": 11
   },
   {
     "title": "浅探 Web Worker 与 JavaScript 沙箱",
@@ -87,24 +105,6 @@
     "author": "ES2049",
     "home_url": "https://segmentfault.com/u/alisecued",
     "votes": "22",
-    "rank": 10
-  },
-  {
-    "title": "从零到一搭建React组件库",
-    "description": "最近一直在捣鼓如何搭建React组件库，至于为什么会产生这个想法，主要是因为组件库对于前端生态来说究极重要，每一个着眼于长远发展、看重开发效率的的互联网公司基本上都会量身定制自己的组件库，它的好处不用多...",
-    "url": "https://segmentfault.com/a/1190000039852833",
-    "author": "pony",
-    "home_url": "https://segmentfault.com/u/tosmile",
-    "votes": "26",
-    "rank": 11
-  },
-  {
-    "title": "22个有用的JavaScript单行程序",
-    "description": "全世界有超过1000万的Javascript开发人员，而且这个数字每天都在增加。尽管JavaScript更出名的是它的动态特性，但它也有许多其他很棒的特性。在这篇博客中，我们将看到20个你应该知道的JavaScript单行程序。",
-    "url": "https://segmentfault.com/a/1190000039888528",
-    "author": "杜尼卜",
-    "home_url": "https://segmentfault.com/u/dunizb",
-    "votes": "33",
     "rank": 12
   },
   {
@@ -126,22 +126,13 @@
     "rank": 14
   },
   {
-    "title": "setState详解与React性能优化",
-    "description": "开发中我们并不能直接通过修改 state 的值来让界面发生更新：因为我们修改了 state 之后, 希望 React 根据最新的 Stete 来重新渲染界面, 但是这种方式的修改 React 并不知道数据发生了变化",
-    "url": "https://segmentfault.com/a/1190000039776687",
-    "author": "风不识途",
-    "home_url": "https://segmentfault.com/u/tudou_5e2d76940fbaa",
-    "votes": "26",
-    "rank": 15
-  },
-  {
     "title": "前端性能优化",
     "description": "性能优化是把双刃剑，有好的一面也有坏的一面。好的一面就是能提升网站性能，坏的一面就是配置麻烦，或者要遵守的规则太多。并且某些性能优化规则并不适用所有场景，需要谨慎使用，请读者带着批判性的眼光来阅读...",
     "url": "https://segmentfault.com/a/1190000039930076",
     "author": "浅夏晴空",
     "home_url": "https://segmentfault.com/u/qianxiaqingkong",
-    "votes": "25",
-    "rank": 16
+    "votes": "27",
+    "rank": 15
   },
   {
     "title": "春游“记”去哪玩？ SF思否小姐姐带你游社区，还有礼物拿哦",
@@ -150,7 +141,7 @@
     "author": "SegmentFault",
     "home_url": "https://segmentfault.com/u/segmentfault",
     "votes": "18",
-    "rank": 17
+    "rank": 16
   },
   {
     "title": "安全地在前后端之间传输数据 - 「3」真的安全吗？",
@@ -159,7 +150,7 @@
     "author": "边城",
     "home_url": "https://segmentfault.com/u/jamesfancy",
     "votes": "23",
-    "rank": 18
+    "rank": 17
   },
   {
     "title": "前端常用图片文件下载上传方法",
@@ -168,6 +159,15 @@
     "author": "JenK",
     "home_url": "https://segmentfault.com/u/mrwang_5aefec8fc0f13",
     "votes": "22",
+    "rank": 18
+  },
+  {
+    "title": "最新、最全、最详细的 Git 学习笔记总结（2021最新版）",
+    "description": "集中化的版本控制系统，诸如 CVS，Subversion 等，都有一个单一的集中管理的服务器，保存所有文件的修订版本，而协同工作的人们都通过客户端连到这台服务器，取出最新的文件或者提交更新。",
+    "url": "https://segmentfault.com/a/1190000039921595",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "29",
     "rank": 19
   },
   {
@@ -180,22 +180,13 @@
     "rank": 20
   },
   {
-    "title": "最新、最全、最详细的 Git 学习笔记总结（2021最新版）",
-    "description": "集中化的版本控制系统，诸如 CVS，Subversion 等，都有一个单一的集中管理的服务器，保存所有文件的修订版本，而协同工作的人们都通过客户端连到这台服务器，取出最新的文件或者提交更新。",
-    "url": "https://segmentfault.com/a/1190000039921595",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "29",
-    "rank": 21
-  },
-  {
     "title": "2020 中国独立开发者生存现状调研报告",
     "description": "谁是独立开发者？其实独立开发者归属于自由职业者，是自由职业者中从事和软件开发相关工作的一支人群，更严格来说一般是“从产品立项、设计、开发、推广、到盈利闭环全部独立完成的人”。",
     "url": "https://segmentfault.com/a/1190000039910514",
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "21",
-    "rank": 22
+    "rank": 21
   },
   {
     "title": "墙裂推荐！看完全面掌握，最详细的 Docker 学习笔记总结（2021最新版）",
@@ -204,16 +195,7 @@
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "20",
-    "rank": 23
-  },
-  {
-    "title": "vue项目'微前端'qiankun.js的实战攻略",
-    "description": "关于微前端的大概念大家应该听过太多了, 这里我就大白话阐述一下, 比如我们新建三个vue工程a、b、c, a负责导航模块, b负责列表页面, c负责详情页面, 然后我们可以通过微前端技术把他们组合在一起形成一个完...",
-    "url": "https://segmentfault.com/a/1190000039783062",
-    "author": "lulu_up",
-    "home_url": "https://segmentfault.com/u/lulu_up",
-    "votes": "19",
-    "rank": 24
+    "rank": 22
   },
   {
     "title": "TS实用工具类型",
@@ -222,7 +204,7 @@
     "author": "forceddd",
     "home_url": "https://segmentfault.com/u/forceddd",
     "votes": "16",
-    "rank": 25
+    "rank": 23
   },
   {
     "title": "使用JavaScript学习设计模式",
@@ -231,7 +213,7 @@
     "author": "九旬",
     "home_url": "https://segmentfault.com/u/ansonznl",
     "votes": "16",
-    "rank": 26
+    "rank": 24
   },
   {
     "title": "TypeScript Interface vs Type知多少",
@@ -240,7 +222,7 @@
     "author": "阳呀呀",
     "home_url": "https://segmentfault.com/u/yangyaya",
     "votes": "18",
-    "rank": 27
+    "rank": 25
   },
   {
     "title": "安全地在前后端之间传输数据 - 「2」注册和登录示例",
@@ -249,7 +231,7 @@
     "author": "边城",
     "home_url": "https://segmentfault.com/u/jamesfancy",
     "votes": "12",
-    "rank": 28
+    "rank": 26
   },
   {
     "title": "JDK/Dubbo/Spring 三种 SPI 机制，谁更好？",
@@ -258,7 +240,7 @@
     "author": "空无",
     "home_url": "https://segmentfault.com/u/kongwu",
     "votes": "19",
-    "rank": 29
+    "rank": 27
   },
   {
     "title": "用了很多动效，介绍 4个很  Nice 的 Veu 路由过渡动效！",
@@ -267,6 +249,24 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "18",
+    "rank": 28
+  },
+  {
+    "title": "358 页，11.5 W字！120 个《 Linux 系统常用命令 》 肝完了！完整版 PDF 开源，免费分享给大家",
+    "description": "去年，民工哥的新书出版之后，就有不少读者经常来加我微信好友，一起探讨如何入门与学习Linux系统运维？？其实，这也是很多读者面临的问题之一，大家都知道，系统是应用技术运用的底层基础，所以，无论是运维、开...",
+    "url": "https://segmentfault.com/a/1190000039881193",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "20",
+    "rank": 29
+  },
+  {
+    "title": "C 代码是如何跑起来的",
+    "description": "上一篇「CPU 提供了什么」中，我们了解了物理的层面的 CPU，为我们提供了什么。本篇，我们介绍下高级语言「C 语言」是如何在物理 CPU 上面跑起来的。C 语言提供了什么C 语言作为高级语言，为程序员提供了更友好的...",
+    "url": "https://segmentfault.com/a/1190000039890899",
+    "author": "doujiang24",
+    "home_url": "https://segmentfault.com/u/doujiang24",
+    "votes": "13",
     "rank": 30
   }
 ]
