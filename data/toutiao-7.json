@@ -2,7 +2,7 @@
   {
     "title": "架构师必看：架构设计的四大思维支柱",
     "description": "笔者在 InfoQ 前文《关于架构演进发展的探讨》和《架构演进的第四个趋势：行业级标准化》中，提出了笔者对架构发展趋势的一些浅见，也介绍了企业级业务架构方法论的来龙去脉，本文拟基于...",
-    "votes": "128",
+    "votes": "129",
     "url": "/k/ss8h91v",
     "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
     "avatarAlt": "进击的程序猿 - 独家号",
@@ -22,7 +22,7 @@
   {
     "title": "吊炸天的 Docker 图形化工具 Portainer，必须推荐给你",
     "description": "之前操作Docker的时候，一直使用的是命令行的形式。命令行虽说看起来挺炫酷，但有时候还是挺麻烦的。今天给大家推荐一个Docker图形化工具Portainer，轻量级又好用，希望对...",
-    "votes": "94",
+    "votes": "96",
     "url": "/k/ca8fe6d",
     "avatar": "https://img.toutiao.io/subject%2F92f8abdd29be4693ad1e6c99e5203c1b",
     "avatarAlt": "开源前哨 - 独家号",
@@ -32,7 +32,7 @@
   {
     "title": "RabbitMQ、Kafka、RocketMQ 是如何实现高可用的？",
     "description": "本文从高可用的角度观察一下 RabbitMQ、Kafka、RocketMQ，看看它们各自的实现思路。1. RabbitMQRabbitMQ 有 3 种部署模式：单机模式普通集群模式...",
-    "votes": "74",
+    "votes": "75",
     "url": "/k/2tnj5np",
     "avatar": "https://img.toutiao.io/subject%2F34a8080276c94c04a9660da45c688190",
     "avatarAlt": "性能与架构 - 独家号",
@@ -42,7 +42,7 @@
   {
     "title": "微服务设计原则",
     "description": "良好的微服务设计可以使后期的升级维护更加轻松，否则将会令人非常头疼。下面几个设计原则强烈建议采用：单一职责高内聚低耦合隐藏内部实现避免代码库共享避免数据过度暴露避免数据库共享最小化...",
-    "votes": "66",
+    "votes": "67",
     "url": "/k/4sywkcm",
     "avatar": "https://img.toutiao.io/subject%2F34a8080276c94c04a9660da45c688190",
     "avatarAlt": "性能与架构 - 独家号",
@@ -52,7 +52,7 @@
   {
     "title": "数据分析十年，我只推荐这些书",
     "description": "来源：玩转数据分析作者：李梅花今天文章重点是，推荐这几年，对我帮助比较大的书籍，特别是数据分析相关的，都是我看过的，而且是对我有帮助的，也得感谢领导提的需求，让我推荐书，不然我可能...",
-    "votes": "64",
+    "votes": "67",
     "url": "/k/gc13z71",
     "avatar": "https://img.toutiao.io/subject%2Ff1bea9d65a714e2484751d26ca724bf5",
     "avatarAlt": "DataGeek - 独家号",
@@ -112,7 +112,7 @@
   {
     "title": "还不会使用分布式锁？从零开始基于 etcd 实现分布式锁",
     "description": "为什么需要分布式锁？在单进程的系统中，当存在多个线程可以同时改变某个变量时，就需要对变量或代码块做同步，使其在修改这种变量时能够线性执行消除并发修改变量。而同步本质上通过锁来实现。...",
-    "votes": "44",
+    "votes": "45",
     "url": "/k/5xw6p4n",
     "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
     "avatarAlt": "ASCE1885 - 独家号",
@@ -170,6 +170,16 @@
     "homeUrl": "/subjects/392760"
   },
   {
+    "title": "75 张图带你了解网络设备、网络地址规划、静态路由、实战演练 ",
+    "description": " 上帝视角网络设备  大刘的电脑 A 和小美的电脑 B 可以通过网线连接起来，组成一个网络。A 发出来数据，B 都能接收到。反之 A 可以接收 B 发出来的所有数据。网线交换机 没...",
+    "votes": "38",
+    "url": "/k/pfig936",
+    "avatar": "https://img.toutiao.io/subject%2F9c7fdde2d20641a59a92e10fd5fe4715",
+    "avatarAlt": "码农StayUp - 独家号",
+    "subjectName": "码农StayUp",
+    "homeUrl": "/subjects/418351"
+  },
+  {
     "title": "细说 Kafka Partition 分区",
     "description": "Partition（分区）是 Kafka 的核心角色，对于 Kafka 的存储结构、消息的生产消费方式都至关重要。掌握好 Partition 就可以更快的理解 Kafka。本文会讲...",
     "votes": "37",
@@ -180,23 +190,13 @@
     "homeUrl": "/subjects/429228"
   },
   {
-    "title": "75 张图带你了解网络设备、网络地址规划、静态路由、实战演练 ",
-    "description": " 上帝视角网络设备  大刘的电脑 A 和小美的电脑 B 可以通过网线连接起来，组成一个网络。A 发出来数据，B 都能接收到。反之 A 可以接收 B 发出来的所有数据。网线交换机 没...",
+    "title": "如何低侵入的记录调用日志",
+    "description": " 01前言 前阵子朋友他老大叫他实现这么一个功能，就是低侵入的记录接口每次的请求响应日志，然后并统计每次请求调用的成功、失败次数以及响应耗时，当时朋友的实现思路是在每个业务的con...",
     "votes": "37",
-    "url": "/k/pfig936",
-    "avatar": "https://img.toutiao.io/subject%2F9c7fdde2d20641a59a92e10fd5fe4715",
-    "avatarAlt": "码农StayUp - 独家号",
-    "subjectName": "码农StayUp",
-    "homeUrl": "/subjects/418351"
-  },
-  {
-    "title": "如何做一场高质量的分享",
-    "description": "最近我发现一些同学的分享越来越趋于“念稿”式。我一边看着分享的同学在上面念稿，另一边看着几十号人在下面看电脑看手机，我心里就特别着急。恨不得我自己上去讲，也恨不得没收了大家的电脑手...",
-    "votes": "33",
-    "url": "/k/96xpug6",
-    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
-    "avatarAlt": "ASCE1885 - 独家号",
-    "subjectName": "ASCE1885",
-    "homeUrl": "/subjects/4829"
+    "url": "/k/fqomx6r",
+    "avatar": "https://img.toutiao.io/subject%2Ff13d5c901ebe4d5f9509d20e36f1ee33",
+    "avatarAlt": "linyb极客之路 - 独家号",
+    "subjectName": "linyb极客之路",
+    "homeUrl": "/subjects/406737"
   }
 ]
