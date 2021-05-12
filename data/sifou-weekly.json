@@ -1,21 +1,12 @@
 [
   {
-    "title": "关于从入门three.js到做出3d地球这件事(第五篇: 以点成面矢量地球)有图解",
-    "description": "本篇我们要绘制一个矢量地球, 那我们先要知道矢量地球是由什么组成的, 比如说要绘制'中国', 那么我们只要知道中国边界上所有的点的坐标, 再逐一把这些点链接起来就是一个中国的轮廓了, 由于每个点相距很近所...",
-    "url": "https://segmentfault.com/a/1190000039945517",
-    "author": "lulu_up",
-    "home_url": "https://segmentfault.com/u/lulu_up",
-    "votes": "20",
-    "rank": 1
-  },
-  {
     "title": "使用 axios 拦截器解决「 前端并发冲突 」 问题",
     "description": "背景并发冲突问题， 是日常开发中一个比较常见的问题。不同用户在较短时间间隔内变更数据，或者某一个用户进行的重复提交操作都可能导致并发冲突。并发场景在开发和测试阶段难以排查全面，出现线上 bug 以后定位...",
     "url": "https://segmentfault.com/a/1190000039951332",
     "author": "皮小蛋",
     "home_url": "https://segmentfault.com/u/scaukk",
-    "votes": "15",
-    "rank": 2
+    "votes": "18",
+    "rank": 1
   },
   {
     "title": "我是如何突围传统行业的？",
@@ -23,8 +14,26 @@
     "url": "https://segmentfault.com/a/1190000039955253",
     "author": "发声的沉默者",
     "home_url": "https://segmentfault.com/u/thomas_5b0e5d1b64584",
+    "votes": "17",
+    "rank": 2
+  },
+  {
+    "title": "Vue3 全家桶 + TS+ Vite2 + element-plus 搭建简洁时尚的博客网站实战及踩坑记",
+    "description": "五一期间，花了 3 天时间，边学 Vue3 和 Vite2，边重构自己的项目，终于都用 Vue3 + TypeScript + Vite2 + Vuex4 + Vue-Router4 + element-plus 重构完啦！",
+    "url": "https://segmentfault.com/a/1190000039954905",
+    "author": "夜尽天明",
+    "home_url": "https://segmentfault.com/u/biaochenxuying",
     "votes": "13",
     "rank": 3
+  },
+  {
+    "title": "【你不知道的canvas】之更换绿屏视频背景",
+    "description": "width：图片宽度，单位是像素height：图片高度，单位是像素data：Uint8ClampedArray类型的一维数组，包含着RGBA格式的整型数据，范围在0至255之间（包括255）。",
+    "url": "https://segmentfault.com/a/1190000039975476",
+    "author": "JenK",
+    "home_url": "https://segmentfault.com/u/mrwang_5aefec8fc0f13",
+    "votes": "8",
+    "rank": 4
   },
   {
     "title": "前端优秀实践不完全指南",
@@ -32,8 +41,8 @@
     "url": "https://segmentfault.com/a/1190000039958183",
     "author": "浅夏晴空",
     "home_url": "https://segmentfault.com/u/qianxiaqingkong",
-    "votes": "9",
-    "rank": 4
+    "votes": "10",
+    "rank": 5
   },
   {
     "title": "Android 面试之必问Android基础",
@@ -41,16 +50,7 @@
     "url": "https://segmentfault.com/a/1190000039960026",
     "author": "xiangzhihong",
     "home_url": "https://segmentfault.com/u/xiangzhihong",
-    "votes": "6",
-    "rank": 5
-  },
-  {
-    "title": "写给初用Nestj做项目的你(初篇: 项目架构与前端零基础搭建gitlab)",
-    "description": "公司派我去做一个外省的项目, 这个项目人员比较紧缺所以我负责后端部分, 并且大家手头都有其他任务导致工作很辛苦, 这个项目里面使用的是nest框架来编写后端代码, 由于同事都不在一起导致沟通不便还是踩了很...",
-    "url": "https://segmentfault.com/a/1190000039949573",
-    "author": "lulu_up",
-    "home_url": "https://segmentfault.com/u/lulu_up",
-    "votes": "10",
+    "votes": "7",
     "rank": 6
   },
   {
@@ -59,15 +59,15 @@
     "url": "https://segmentfault.com/a/1190000039954632",
     "author": "皮小蛋",
     "home_url": "https://segmentfault.com/u/scaukk",
-    "votes": "13",
+    "votes": "15",
     "rank": 7
   },
   {
-    "title": "Vue3 全家桶 + TS+ Vite2 + element-plus 搭建简洁时尚的博客网站实战及踩坑记",
-    "description": "五一期间，花了 3 天时间，边学 Vue3 和 Vite2，边重构自己的项目，终于都用 Vue3 + TypeScript + Vite2 + Vuex4 + Vue-Router4 + element-plus 重构完啦！",
-    "url": "https://segmentfault.com/a/1190000039954905",
-    "author": "夜尽天明",
-    "home_url": "https://segmentfault.com/u/biaochenxuying",
+    "title": "写给初用Nestj做项目的你(初篇: 项目架构与前端零基础搭建gitlab)",
+    "description": "公司派我去做一个外省的项目, 这个项目人员比较紧缺所以我负责后端部分, 并且大家手头都有其他任务导致工作很辛苦, 这个项目里面使用的是nest框架来编写后端代码, 由于同事都不在一起导致沟通不便还是踩了很...",
+    "url": "https://segmentfault.com/a/1190000039949573",
+    "author": "lulu_up",
+    "home_url": "https://segmentfault.com/u/lulu_up",
     "votes": "11",
     "rank": 8
   },
@@ -77,8 +77,17 @@
     "url": "https://segmentfault.com/a/1190000039956437",
     "author": "范文杰",
     "home_url": "https://segmentfault.com/u/fanwenjie",
-    "votes": "14",
+    "votes": "15",
     "rank": 9
+  },
+  {
+    "title": "10个提高开发效率的  VS Code 快捷键！",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000039863001",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "10",
+    "rank": 10
   },
   {
     "title": "微信小程序用户授权之最佳实践",
@@ -87,7 +96,16 @@
     "author": "九旬",
     "home_url": "https://segmentfault.com/u/ansonznl",
     "votes": "12",
-    "rank": 10
+    "rank": 11
+  },
+  {
+    "title": "我给网站做了一场性能手术",
+    "description": "风和日丽: 我正笑嘻嘻地抓着我炫酷的ikbc键盘疯狂的敲着Bug. 晴天霹雳: 被拉进了一个群,产品说我做的网站很卡,需要做性能优化. 难以置信: 我可是用尊贵的Vue3+Ts开发的呢 (手动狗头). 十分抗拒: 迫于yin威,我给网...",
+    "url": "https://segmentfault.com/a/1190000039955953",
+    "author": "null仔",
+    "home_url": "https://segmentfault.com/u/xiaoqianduan_58b28cfebff36",
+    "votes": "8",
+    "rank": 12
   },
   {
     "title": "React hooks与Faced pattern",
@@ -95,26 +113,26 @@
     "url": "https://segmentfault.com/a/1190000039950489",
     "author": "Peter谭老师",
     "home_url": "https://segmentfault.com/u/jerrytanjinjie",
-    "votes": "4",
-    "rank": 11
-  },
-  {
-    "title": "10个提高开发效率的  VS Code 快捷键！",
-    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000039863001",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "8",
-    "rank": 12
-  },
-  {
-    "title": "面试官：MySQL 默认最大连接数多少？如何修改？",
-    "description": "上午刚工作10分左右，同事说在使用jira时出现问题，具体截图如下：通过上图的报错信息：定位为 mysql 数据库连接数的问题。解决方法1.登录mysql进行查看 {代码...} 很奇怪，最大连接数怎么是151呢，mysql默认的最...",
-    "url": "https://segmentfault.com/a/1190000039945162",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "5",
     "rank": 13
+  },
+  {
+    "title": "Laravel8.x+Vue+AntDesign前后端分离后台管理系统",
+    "description": "基于 Laravel8.x+AntDesign+Vue 开发的权限架构及内容管理框架，采用全新的前端UI框架，支持多主题切换，前端UI框架完全适配手机端、PAD终端以及PC电脑终端，框架内置完整的权限架构体系以及常规基础模块：用户管...",
+    "url": "https://segmentfault.com/a/1190000039969207",
+    "author": "9gxzciha",
+    "home_url": "https://segmentfault.com/u/9gxzciha",
+    "votes": "4",
+    "rank": 14
+  },
+  {
+    "title": "2D矩阵：这都是什么妖魔鬼怪啊！",
+    "description": "头“秃”来自“the book of shader”今天我的文章可能会有点抽象。我尽量“有图有真相”，不让大家的大脑内存泄漏！本文会讲到：transform 2D变换背后的数学原理如何直观理解一个矩阵齐次变换是什么？可能会涉及一些：...",
+    "url": "https://segmentfault.com/a/1190000039953248",
+    "author": "这是上帝的杰作",
+    "home_url": "https://segmentfault.com/u/master_yoda",
+    "votes": "4",
+    "rank": 15
   },
   {
     "title": "Java内存模型（JMM）面试回答，包过！",
@@ -123,7 +141,7 @@
     "author": "老刘",
     "home_url": "https://segmentfault.com/u/javatuanchang",
     "votes": "3",
-    "rank": 14
+    "rank": 16
   },
   {
     "title": "MySQL 主从复制解决了什么问题？出现同步延迟如何解决？",
@@ -132,7 +150,7 @@
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "5",
-    "rank": 15
+    "rank": 17
   },
   {
     "title": "html单行、多行文本溢出隐藏",
@@ -141,7 +159,7 @@
     "author": "JenK",
     "home_url": "https://segmentfault.com/u/mrwang_5aefec8fc0f13",
     "votes": "5",
-    "rank": 16
+    "rank": 18
   },
   {
     "title": "es6-快速掌握Proxy、Reflect",
@@ -150,7 +168,7 @@
     "author": "greet_eason",
     "home_url": "https://segmentfault.com/u/aichendesiyangyuan",
     "votes": "5",
-    "rank": 17
+    "rank": 19
   },
   {
     "title": "ES6  exports 与 import 使用",
@@ -159,7 +177,34 @@
     "author": "时倾",
     "home_url": "https://segmentfault.com/u/shiqing_5e690563e48cc",
     "votes": "5",
-    "rank": 18
+    "rank": 20
+  },
+  {
+    "title": "【如何优雅的快速消除打包后的 console】自写babel插件",
+    "description": "黑魔法 babel 基于 ast，之前简单看过一些 ast相关的知识点，想到一个较为实际的场景例子，console 在开发中常用，但是 上线是后可能 会遗漏删除，造成 代码不安全（外面人可能会依靠这个console信息点来反推你的...",
+    "url": "https://segmentfault.com/a/1190000039972086",
+    "author": "方糖先生",
+    "home_url": "https://segmentfault.com/u/fangtangxiansheng",
+    "votes": "5",
+    "rank": 21
+  },
+  {
+    "title": "CSS新特性contain，控制页面的重绘与重排",
+    "description": "contain 属性允许我们指定特定的 DOM 元素和它的子元素，让它们能够独立于整个 DOM 树结构之外。目的是能够让浏览器有能力只对部分元素进行重绘、重排，而不必每次都针对整个页面。",
+    "url": "https://segmentfault.com/a/1190000039950464",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "3",
+    "rank": 22
+  },
+  {
+    "title": "【单页面应用 】发版后如何【通知用户端更新】",
+    "description": "产生原因： 每次打包发版【代码有变化】，index.html,网站即入口文件是变化的。 但是在单页面应用，页面跳转，都在同一个浏览器线程中，不会再一次请求index.html 资源，即使你对 index.html 资源不缓存策略，即...",
+    "url": "https://segmentfault.com/a/1190000039968885",
+    "author": "方糖先生",
+    "home_url": "https://segmentfault.com/u/fangtangxiansheng",
+    "votes": "8",
+    "rank": 23
   },
   {
     "title": "写给初用Nestj做项目的你(第二篇: 配置gitlab-runner&操作gitlab)",
@@ -168,52 +213,25 @@
     "author": "lulu_up",
     "home_url": "https://segmentfault.com/u/lulu_up",
     "votes": "5",
-    "rank": 19
-  },
-  {
-    "title": "我给网站做了一场性能手术",
-    "description": "风和日丽: 我正笑嘻嘻地抓着我炫酷的ikbc键盘疯狂的敲着Bug. 晴天霹雳: 被拉进了一个群,产品说我做的网站很卡,需要做性能优化. 难以置信: 我可是用尊贵的Vue3+Ts开发的呢 (手动狗头). 十分抗拒: 迫于yin威,我给网...",
-    "url": "https://segmentfault.com/a/1190000039955953",
-    "author": "null仔",
-    "home_url": "https://segmentfault.com/u/xiaoqianduan_58b28cfebff36",
-    "votes": "5",
-    "rank": 20
-  },
-  {
-    "title": "Laravel8.x+Vue+AntDesign前后端分离后台管理系统",
-    "description": "基于 Laravel8.x+AntDesign+Vue 开发的权限架构及内容管理框架，采用全新的前端UI框架，支持多主题切换，前端UI框架完全适配手机端、PAD终端以及PC电脑终端，框架内置完整的权限架构体系以及常规基础模块：用户管...",
-    "url": "https://segmentfault.com/a/1190000039969207",
-    "author": "9gxzciha",
-    "home_url": "https://segmentfault.com/u/9gxzciha",
-    "votes": "3",
-    "rank": 21
-  },
-  {
-    "title": "面试必问！10 道经典 MySQL 面试题",
-    "description": "truncate和delete只删除数据不删除表的结构。drop语句将删除表的结构被依赖的约(constrain),触发器(trigger),依赖于该表的存储过程/函数将保留,但是变为 invalid 状态。",
-    "url": "https://segmentfault.com/a/1190000039948971",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "4",
-    "rank": 22
-  },
-  {
-    "title": "【你不知道的canvas】之更换绿屏视频背景",
-    "description": "width：图片宽度，单位是像素height：图片高度，单位是像素data：Uint8ClampedArray类型的一维数组，包含着RGBA格式的整型数据，范围在0至255之间（包括255）。",
-    "url": "https://segmentfault.com/a/1190000039975476",
-    "author": "JenK",
-    "home_url": "https://segmentfault.com/u/mrwang_5aefec8fc0f13",
-    "votes": "6",
-    "rank": 23
-  },
-  {
-    "title": "据说 99% 的人不知道 vue-devtools 还能直接打开对应组件文件？本文原理揭秘",
-    "description": "你好，我是若川，微信搜索「若川视野」关注我，专注前端技术分享，一个愿景是帮助5年内前端开阔视野走向前列的公众号。欢迎加我微信ruochuan12，长期交流学习。这是学习源码整体架构系列 之 launch-editor 源码（...",
-    "url": "https://segmentfault.com/a/1190000039955654",
-    "author": "若川",
-    "home_url": "https://segmentfault.com/u/lxchuan12",
-    "votes": "3",
     "rank": 24
+  },
+  {
+    "title": "一次搞懂-JS事件循环之宏任务和微任务",
+    "description": "众所周知，JS 是一门单线程语言，可是浏览器又能很好的处理异步请求，那么到底是为什么呢？JS 的执行环境一般是浏览器和 Node.js，两者稍有不同，这里只讨论浏览器环境下的情况。JS 执行过程中会产生两种任务，分...",
+    "url": "https://segmentfault.com/a/1190000039971920",
+    "author": "九旬",
+    "home_url": "https://segmentfault.com/u/ansonznl",
+    "votes": "7",
+    "rank": 25
+  },
+  {
+    "title": "开发插件集合",
+    "description": "Day.js，Moment.js 的 2kB 轻量化方案，拥有同样强大的 APIFileSaver.js，HTML5文件保存html2canvas，Screenshots with JavaScript，html转换为canvasSimpleMDE Markdown EditorLayui，开源模块化前端 UI 框架Bet...",
+    "url": "https://segmentfault.com/a/1190000039954207",
+    "author": "whjin",
+    "home_url": "https://segmentfault.com/u/whjin",
+    "votes": "4",
+    "rank": 26
   },
   {
     "title": "如何使用 JS 动态合并两个对象的属性",
@@ -222,34 +240,25 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "4",
-    "rank": 25
-  },
-  {
-    "title": "CSS新特性contain，控制页面的重绘与重排",
-    "description": "contain 属性允许我们指定特定的 DOM 元素和它的子元素，让它们能够独立于整个 DOM 树结构之外。目的是能够让浏览器有能力只对部分元素进行重绘、重排，而不必每次都针对整个页面。",
-    "url": "https://segmentfault.com/a/1190000039950464",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "2",
-    "rank": 26
-  },
-  {
-    "title": "JS校验身份证号",
-    "description": "原文链接: js最全身份证号码校验 {代码...} {代码...} {代码...} {代码...} {代码...} {代码...} {代码...}",
-    "url": "https://segmentfault.com/a/1190000039951477",
-    "author": "whjin",
-    "home_url": "https://segmentfault.com/u/whjin",
-    "votes": "4",
     "rank": 27
   },
   {
-    "title": "从 CSS 开始学习数据可视化",
-    "description": "可视化领域是目前（泛）前端中最火热的分支之一。无论是面向普通用户的可视化大屏展示数据信息，还是企业服务中数据统计概览或者调度服务，乃至于国家大力推动的智慧建设（智慧大脑，智慧城市）等项目，都重度使...",
-    "url": "https://segmentfault.com/a/1190000039962299",
-    "author": "jump__jump",
-    "home_url": "https://segmentfault.com/u/jump_and_jump",
-    "votes": "3",
+    "title": "面试必问！10 道经典 MySQL 面试题",
+    "description": "truncate和delete只删除数据不删除表的结构。drop语句将删除表的结构被依赖的约(constrain),触发器(trigger),依赖于该表的存储过程/函数将保留,但是变为 invalid 状态。",
+    "url": "https://segmentfault.com/a/1190000039948971",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "4",
     "rank": 28
+  },
+  {
+    "title": "据说 99% 的人不知道 vue-devtools 还能直接打开对应组件文件？本文原理揭秘",
+    "description": "你好，我是若川，微信搜索「若川视野」关注我，专注前端技术分享，一个愿景是帮助5年内前端开阔视野走向前列的公众号。欢迎加我微信ruochuan12，长期交流学习。这是学习源码整体架构系列 之 launch-editor 源码（...",
+    "url": "https://segmentfault.com/a/1190000039955654",
+    "author": "若川",
+    "home_url": "https://segmentfault.com/u/lxchuan12",
+    "votes": "3",
+    "rank": 29
   },
   {
     "title": "讲真的，etcd 服务入门一篇文章足够了！",
@@ -258,15 +267,6 @@
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "4",
-    "rank": 29
-  },
-  {
-    "title": "Vue3 与 Vue2 的Props、全局组件的异同点！",
-    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000039863033",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "3",
     "rank": 30
   }
 ]
