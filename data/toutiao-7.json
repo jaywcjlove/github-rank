@@ -2,7 +2,7 @@
   {
     "title": "吊炸天的 Docker 图形化工具 Portainer，必须推荐给你",
     "description": "之前操作Docker的时候，一直使用的是命令行的形式。命令行虽说看起来挺炫酷，但有时候还是挺麻烦的。今天给大家推荐一个Docker图形化工具Portainer，轻量级又好用，希望对...",
-    "votes": "123",
+    "votes": "138",
     "url": "/k/ca8fe6d",
     "avatar": "https://img.toutiao.io/subject%2F92f8abdd29be4693ad1e6c99e5203c1b",
     "avatarAlt": "开源前哨 - 独家号",
@@ -12,7 +12,7 @@
   {
     "title": "RabbitMQ、Kafka、RocketMQ 是如何实现高可用的？",
     "description": "本文从高可用的角度观察一下 RabbitMQ、Kafka、RocketMQ，看看它们各自的实现思路。1. RabbitMQRabbitMQ 有 3 种部署模式：单机模式普通集群模式...",
-    "votes": "91",
+    "votes": "101",
     "url": "/k/2tnj5np",
     "avatar": "https://img.toutiao.io/subject%2F34a8080276c94c04a9660da45c688190",
     "avatarAlt": "性能与架构 - 独家号",
@@ -22,7 +22,7 @@
   {
     "title": "微服务设计原则",
     "description": "良好的微服务设计可以使后期的升级维护更加轻松，否则将会令人非常头疼。下面几个设计原则强烈建议采用：单一职责高内聚低耦合隐藏内部实现避免代码库共享避免数据过度暴露避免数据库共享最小化...",
-    "votes": "75",
+    "votes": "83",
     "url": "/k/4sywkcm",
     "avatar": "https://img.toutiao.io/subject%2F34a8080276c94c04a9660da45c688190",
     "avatarAlt": "性能与架构 - 独家号",
@@ -32,7 +32,7 @@
   {
     "title": "数据分析十年，我只推荐这些书",
     "description": "来源：玩转数据分析作者：李梅花今天文章重点是，推荐这几年，对我帮助比较大的书籍，特别是数据分析相关的，都是我看过的，而且是对我有帮助的，也得感谢领导提的需求，让我推荐书，不然我可能...",
-    "votes": "75",
+    "votes": "79",
     "url": "/k/gc13z71",
     "avatar": "https://img.toutiao.io/subject%2Ff1bea9d65a714e2484751d26ca724bf5",
     "avatarAlt": "DataGeek - 独家号",
@@ -40,24 +40,34 @@
     "homeUrl": "/subjects/372612"
   },
   {
-    "title": "程序员必备基础：10 种常见安全漏洞浅析",
-    "description": "前言 我们日常开发中，很多小伙伴容易忽视安全漏洞问题，认为只要正常实现业务逻辑就可以了。其实，安全性才是最重要的。本文将跟大家一起学习常见的安全漏洞问题，希望对大家有帮助哈。如果本...",
-    "votes": "66",
-    "url": "/k/7v2gnx6",
-    "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
-    "avatarAlt": "Bloomingroses - 独家号",
-    "subjectName": "Bloomingroses",
-    "homeUrl": "/subjects/98777"
+    "title": "36 张图详解网络基础知识",
+    "description": "前言网络协议  我们用手机连接上网的时候，会用到许多网络协议。从手机连接 WiFi 开始，使用的是 802.11 （即 WLAN ）协议，通过 WLAN 接入网络；手机自动获取网络...",
+    "votes": "64",
+    "url": "/k/bjis3t4",
+    "avatar": "https://img.toutiao.io/subject%2F9c7fdde2d20641a59a92e10fd5fe4715",
+    "avatarAlt": "码农StayUp - 独家号",
+    "subjectName": "码农StayUp",
+    "homeUrl": "/subjects/418351"
   },
   {
     "title": "轻轻松松打印网页并生成 pdf 文档",
     "description": "chromedp是一个更快更简单的支持Chrome DevTools Protocol协议的Go库，它是目前最流行的headless浏览器库之一，你可以使用它做很多只能通过浏览器才...",
-    "votes": "58",
+    "votes": "60",
     "url": "/k/gs6z30z",
     "avatar": "https://img.toutiao.io/user/1c3583c21dff4a4d9865d093c5fba132/thumb",
     "avatarAlt": "一亩三分地 - 独家号",
     "subjectName": "一亩三分地",
     "homeUrl": "/subjects/796"
+  },
+  {
+    "title": "我，管理 100 多人技术团队的二三事",
+    "description": "我负责的技术团队，现在有 100 人出头。团队里包括了：前端、后端、测试、运维&DBA、还有几个客户端和 AI 工程师。曾经团队有 150 多人，后来公司裁了一些人，最近金三银四跳...",
+    "votes": "58",
+    "url": "/k/moooo7c",
+    "avatar": "https://img.toutiao.io/subject%2F180d026f85274c998656474cd1988d0f",
+    "avatarAlt": "四猿外 - 独家号",
+    "subjectName": "四猿外",
+    "homeUrl": "/subjects/426740"
   },
   {
     "title": "聊聊如何在 Spring 事务中正确进行远程调用",
@@ -70,34 +80,34 @@
     "homeUrl": "/subjects/406737"
   },
   {
-    "title": "我，管理 100 多人技术团队的二三事",
-    "description": "我负责的技术团队，现在有 100 人出头。团队里包括了：前端、后端、测试、运维&DBA、还有几个客户端和 AI 工程师。曾经团队有 150 多人，后来公司裁了一些人，最近金三银四跳...",
-    "votes": "53",
-    "url": "/k/moooo7c",
-    "avatar": "https://img.toutiao.io/subject%2F180d026f85274c998656474cd1988d0f",
-    "avatarAlt": "四猿外 - 独家号",
-    "subjectName": "四猿外",
-    "homeUrl": "/subjects/426740"
-  },
-  {
-    "title": "36 张图详解网络基础知识",
-    "description": "前言网络协议  我们用手机连接上网的时候，会用到许多网络协议。从手机连接 WiFi 开始，使用的是 802.11 （即 WLAN ）协议，通过 WLAN 接入网络；手机自动获取网络...",
-    "votes": "49",
-    "url": "/k/bjis3t4",
-    "avatar": "https://img.toutiao.io/subject%2F9c7fdde2d20641a59a92e10fd5fe4715",
-    "avatarAlt": "码农StayUp - 独家号",
-    "subjectName": "码农StayUp",
-    "homeUrl": "/subjects/418351"
-  },
-  {
     "title": "还不会使用分布式锁？从零开始基于 etcd 实现分布式锁",
     "description": "为什么需要分布式锁？在单进程的系统中，当存在多个线程可以同时改变某个变量时，就需要对变量或代码块做同步，使其在修改这种变量时能够线性执行消除并发修改变量。而同步本质上通过锁来实现。...",
-    "votes": "45",
+    "votes": "47",
     "url": "/k/5xw6p4n",
     "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
     "avatarAlt": "ASCE1885 - 独家号",
     "subjectName": "ASCE1885",
     "homeUrl": "/subjects/4829"
+  },
+  {
+    "title": "如何低侵入的记录调用日志",
+    "description": " 01前言 前阵子朋友他老大叫他实现这么一个功能，就是低侵入的记录接口每次的请求响应日志，然后并统计每次请求调用的成功、失败次数以及响应耗时，当时朋友的实现思路是在每个业务的con...",
+    "votes": "46",
+    "url": "/k/fqomx6r",
+    "avatar": "https://img.toutiao.io/subject%2Ff13d5c901ebe4d5f9509d20e36f1ee33",
+    "avatarAlt": "linyb极客之路 - 独家号",
+    "subjectName": "linyb极客之路",
+    "homeUrl": "/subjects/406737"
+  },
+  {
+    "title": "哈啰在分布式消息治理和微服务治理中的实践",
+    "description": "背景介绍哈啰已进化为包括两轮出行（哈啰单车、哈啰助力车、哈啰电动车、小哈换电）、四轮出行（哈啰顺风车、全网叫车、哈啰打车）等的综合化移动出行平台，并向酒店、到店团购等众多本地生活化...",
+    "votes": "54",
+    "url": "/k/k1o0w99",
+    "avatar": "https://img.toutiao.io/subject%2F8e12ef64799649acbfd936883ef16c3c",
+    "avatarAlt": "服务架构及中台 - 独家号",
+    "subjectName": "服务架构及中台",
+    "homeUrl": "/subjects/26578"
   },
   {
     "title": "简单了解一下 K8S，并搭建自己的集群",
@@ -110,29 +120,9 @@
     "homeUrl": "/subjects/117900"
   },
   {
-    "title": "技术之外的工程师另类成长指南",
-    "description": "前言 今年是我从事软件测试工作的第七年，之间经历过实体零售、银行、互联网电商等行业，遇到过不少挫折和挑战，也遇到了不少好的同事和领导，总归还是收获满满。之前读了一本书：《软技能：代...",
-    "votes": "45",
-    "url": "/k/fsnuhkp",
-    "avatar": "https://img.toutiao.io/subject%2F1227f0343a1546ee8e3c535cce14aa4c",
-    "avatarAlt": "工程师的自我修养之路 - 独家号",
-    "subjectName": "工程师的自我修养之路",
-    "homeUrl": "/subjects/188023"
-  },
-  {
-    "title": "如何低侵入的记录调用日志",
-    "description": " 01前言 前阵子朋友他老大叫他实现这么一个功能，就是低侵入的记录接口每次的请求响应日志，然后并统计每次请求调用的成功、失败次数以及响应耗时，当时朋友的实现思路是在每个业务的con...",
-    "votes": "42",
-    "url": "/k/fqomx6r",
-    "avatar": "https://img.toutiao.io/subject%2Ff13d5c901ebe4d5f9509d20e36f1ee33",
-    "avatarAlt": "linyb极客之路 - 独家号",
-    "subjectName": "linyb极客之路",
-    "homeUrl": "/subjects/406737"
-  },
-  {
     "title": "75 张图带你了解网络设备、网络地址规划、静态路由、实战演练 ",
     "description": " 上帝视角网络设备  大刘的电脑 A 和小美的电脑 B 可以通过网线连接起来，组成一个网络。A 发出来数据，B 都能接收到。反之 A 可以接收 B 发出来的所有数据。网线交换机 没...",
-    "votes": "42",
+    "votes": "45",
     "url": "/k/pfig936",
     "avatar": "https://img.toutiao.io/subject%2F9c7fdde2d20641a59a92e10fd5fe4715",
     "avatarAlt": "码农StayUp - 独家号",
@@ -140,19 +130,19 @@
     "homeUrl": "/subjects/418351"
   },
   {
-    "title": "某小公司：MySQL 连环问",
-    "description": "大家好，我是yes。MySQL 面试题开始要更新啦！请接招。你们公司数据库有备份的吧？ 我：有的，因为单点故障的情况不可避免，所以我们公司有主从。面试官：那你知道主备、主从、主主有...",
-    "votes": "46",
-    "url": "/k/qqqjn8a",
-    "avatar": "https://img.toutiao.io/subject%2F71da457007fd4b67a45253b271a25eee",
-    "avatarAlt": "yes的练级攻略 - 独家号",
-    "subjectName": "yes的练级攻略",
-    "homeUrl": "/subjects/443906"
+    "title": "优化技术专题（一）：Java 虚拟机优化案例系列",
+    "description": "问题总结内存多占1G左右，CPU利用率没有明显变化，但随着CMS收集抖动，最高达40%，CPU load平均高出1.0左右。几乎0停顿，相比于之前每隔5分钟应用停顿3-4s，调优后...",
+    "votes": "43",
+    "url": "/k/qaw4y76",
+    "avatar": "https://img.toutiao.io/subject%2F2f10cf936f6e435187ab1db7c1745f67",
+    "avatarAlt": "技术研究院 - 独家号",
+    "subjectName": "技术研究院",
+    "homeUrl": "/subjects/325405"
   },
   {
     "title": "如何做一场高质量的分享",
     "description": "最近我发现一些同学的分享越来越趋于“念稿”式。我一边看着分享的同学在上面念稿，另一边看着几十号人在下面看电脑看手机，我心里就特别着急。恨不得我自己上去讲，也恨不得没收了大家的电脑手...",
-    "votes": "36",
+    "votes": "39",
     "url": "/k/96xpug6",
     "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
     "avatarAlt": "ASCE1885 - 独家号",
@@ -160,9 +150,19 @@
     "homeUrl": "/subjects/4829"
   },
   {
+    "title": "某小公司：MySQL 连环问",
+    "description": "大家好，我是yes。MySQL 面试题开始要更新啦！请接招。你们公司数据库有备份的吧？ 我：有的，因为单点故障的情况不可避免，所以我们公司有主从。面试官：那你知道主备、主从、主主有...",
+    "votes": "47",
+    "url": "/k/qqqjn8a",
+    "avatar": "https://img.toutiao.io/subject%2F71da457007fd4b67a45253b271a25eee",
+    "avatarAlt": "yes的练级攻略 - 独家号",
+    "subjectName": "yes的练级攻略",
+    "homeUrl": "/subjects/443906"
+  },
+  {
     "title": "玩转直播系列之从 0 到 1 构建简单直播系统（一）",
     "description": "作者：vivo 互联网服务器团队-Li Guolin一、前言随着5G时代的到来，音视频行业也可能迎来一个行业的春天，直播则是新视频行业一直以来的一个重要的产品形态，从最初的秀场直播...",
-    "votes": "36",
+    "votes": "39",
     "url": "/k/5irppk8",
     "avatar": "https://img.toutiao.io/subject%2F8adc26cdcf7d45f4a73580f3be4285f2",
     "avatarAlt": "vivo互联网技术 - 独家号",
@@ -170,19 +170,19 @@
     "homeUrl": "/subjects/392760"
   },
   {
-    "title": "哈啰在分布式消息治理和微服务治理中的实践",
-    "description": "背景介绍哈啰已进化为包括两轮出行（哈啰单车、哈啰助力车、哈啰电动车、小哈换电）、四轮出行（哈啰顺风车、全网叫车、哈啰打车）等的综合化移动出行平台，并向酒店、到店团购等众多本地生活化...",
-    "votes": "44",
-    "url": "/k/k1o0w99",
-    "avatar": "https://img.toutiao.io/subject%2F8e12ef64799649acbfd936883ef16c3c",
-    "avatarAlt": "服务架构及中台 - 独家号",
-    "subjectName": "服务架构及中台",
-    "homeUrl": "/subjects/26578"
+    "title": "20 张图助你了解 JVM 运行时数据区，你还觉得枯燥吗？",
+    "description": "我们的JVM系列已经断更好几天了，小伙伴们在后台疯狂私信阿Q，想看后续内容，今天它来了。相信大家在上篇文章中已经对类加载子系统有了清晰的认识，接下来就让我们来揭开“运行时数据区”的...",
+    "votes": "41",
+    "url": "/k/ejpxgkx",
+    "avatar": "https://img.toutiao.io/subject%2F04598310d2b449419e15d3ca712b17b4",
+    "avatarAlt": "阿Q说代码 - 独家号",
+    "subjectName": "阿Q说代码",
+    "homeUrl": "/subjects/457975"
   },
   {
     "title": "细说 Kafka Partition 分区",
     "description": "Partition（分区）是 Kafka 的核心角色，对于 Kafka 的存储结构、消息的生产消费方式都至关重要。掌握好 Partition 就可以更快的理解 Kafka。本文会讲...",
-    "votes": "37",
+    "votes": "39",
     "url": "/k/kw76t1v",
     "avatar": "https://img.toutiao.io/subject%2F34a8080276c94c04a9660da45c688190",
     "avatarAlt": "性能与架构 - 独家号",
@@ -190,13 +190,13 @@
     "homeUrl": "/subjects/429228"
   },
   {
-    "title": "Go 工程师必学：Go 大杀器之跟踪剖析 trace",
-    "description": "大家好，我是煎鱼。‍‍‍‍‍‍‍‍‍前段时间分享了《Go 程序崩了？煎鱼教你用 PProf 工具来救火！》，但有时候单单使用 pprof 还不一定足够完整观查并解决问题，因为在真实...",
-    "votes": "33",
-    "url": "/k/uku37tq",
-    "avatar": "https://img.toutiao.io/user/01ec77a3ddbb4158afed606b24af1c87/thumb",
-    "avatarAlt": "脑子进煎鱼了 - 独家号",
-    "subjectName": "脑子进煎鱼了",
-    "homeUrl": "/subjects/343446"
+    "title": "我面试几乎必问：你设计索引的原则是什么？怎么避免索引失效？",
+    "description": "GitHub 19k Star 的Java工程师成神之路，不来了解一下吗！之前我们已经详细介绍了关于索引的原理和索引的查询的原则，所谓工欲善其事必先利其器，各位在学习阶段一定要要循...",
+    "votes": "40",
+    "url": "/k/09d6esg",
+    "avatar": "https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e",
+    "avatarAlt": "JAVA干货 - 独家号",
+    "subjectName": "JAVA干货",
+    "homeUrl": "/subjects/51515"
   }
 ]
