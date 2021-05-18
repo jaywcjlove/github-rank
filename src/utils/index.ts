@@ -114,7 +114,7 @@ export function getTrendingData(type: string = 'daily') {
         const language = $(item).find('span[itemprop=programmingLanguage]').text().replace(/(\n|\s)/g, '');
         const languageColor = $(item).find('span.repo-language-color');
         const todayStar = $(item).find('span.float-sm-right').text().replace(/(\n|,)/g, '').trim();
-        const description = $(item).find('p.text-gray').text().replace(/(\n)/g, '').trim();
+        const description = $(item).find('p.color-text-secondary').text().replace(/(\n)/g, '').trim();
         /* eslint-enable */
         let color = '';
         if (language && languageColor && languageColor.css) {
