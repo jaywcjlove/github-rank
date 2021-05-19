@@ -5,7 +5,7 @@
     "url": "https://segmentfault.com/a/1190000039873208",
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "154",
+    "votes": "156",
     "rank": 1
   },
   {
@@ -41,7 +41,7 @@
     "url": "https://segmentfault.com/a/1190000039888528",
     "author": "杜尼卜",
     "home_url": "https://segmentfault.com/u/dunizb",
-    "votes": "36",
+    "votes": "37",
     "rank": 5
   },
   {
@@ -68,7 +68,7 @@
     "url": "https://segmentfault.com/a/1190000039921595",
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "34",
+    "votes": "35",
     "rank": 8
   },
   {
@@ -95,7 +95,7 @@
     "url": "https://segmentfault.com/a/1190000039955253",
     "author": "发声的沉默者",
     "home_url": "https://segmentfault.com/u/thomas_5b0e5d1b64584",
-    "votes": "29",
+    "votes": "30",
     "rank": 11
   },
   {
@@ -117,12 +117,12 @@
     "rank": 13
   },
   {
-    "title": "TS实用工具类型",
-    "description": "Partial<Type>构造类型Type，并将它所有的属性设置为可选的。它的返回类型表示输入类型的所有子类型。例子 {代码...} Readonly<Type>构造类型Type，并将它所有的属性设置为readonly，也就是说构造出...",
-    "url": "https://segmentfault.com/a/1190000039868550",
-    "author": "forceddd",
-    "home_url": "https://segmentfault.com/u/forceddd",
-    "votes": "17",
+    "title": "学会这20+个JavaScript单行代码，可以让你的代码更加骚气",
+    "description": "JavaScript不断发展壮大，因为它是最容易上手的语言之一，因此为市场上的新成为技术怪才打开了大门。（问号脸？）的确，JavaScript可以做很多出色的事情！还有很多东西要学习。而且，无论你是JavaScript的新手还...",
+    "url": "https://segmentfault.com/a/1190000039994479",
+    "author": "JenK",
+    "home_url": "https://segmentfault.com/u/wangzc996",
+    "votes": "24",
     "rank": 14
   },
   {
@@ -131,8 +131,26 @@
     "url": "https://segmentfault.com/a/1190000039985669",
     "author": "葡萄城技术团队",
     "home_url": "https://segmentfault.com/u/grapecity",
-    "votes": "18",
+    "votes": "19",
     "rank": 15
+  },
+  {
+    "title": "TS实用工具类型",
+    "description": "Partial<Type>构造类型Type，并将它所有的属性设置为可选的。它的返回类型表示输入类型的所有子类型。例子 {代码...} Readonly<Type>构造类型Type，并将它所有的属性设置为readonly，也就是说构造出...",
+    "url": "https://segmentfault.com/a/1190000039868550",
+    "author": "forceddd",
+    "home_url": "https://segmentfault.com/u/forceddd",
+    "votes": "17",
+    "rank": 16
+  },
+  {
+    "title": "Vue适配PC+大屏，手机+ipad适配",
+    "description": "PC+大屏适配可适配 1400px以上的屏幕查看演示项目地址设置设计稿-转换rem我们的设计稿是3840px宽度，所以widthOfDesignLayout设置3840 {代码...} 设置根节点字体在main.js下，保证在屏幕缩放的过程中也是16:9的比...",
+    "url": "https://segmentfault.com/a/1190000039997533",
+    "author": "vipbic",
+    "home_url": "https://segmentfault.com/u/yangxiansheng_5a1b9b93a3a44",
+    "votes": "21",
+    "rank": 17
   },
   {
     "title": "C 代码是如何跑起来的",
@@ -141,7 +159,7 @@
     "author": "doujiang24",
     "home_url": "https://segmentfault.com/u/doujiang24",
     "votes": "17",
-    "rank": 16
+    "rank": 18
   },
   {
     "title": "程序员为什么不写文档？",
@@ -150,16 +168,7 @@
     "author": "小魔",
     "home_url": "https://segmentfault.com/u/lu_607eaefc582e8",
     "votes": "17",
-    "rank": 17
-  },
-  {
-    "title": "学会这20+个JavaScript单行代码，可以让你的代码更加骚气",
-    "description": "JavaScript不断发展壮大，因为它是最容易上手的语言之一，因此为市场上的新成为技术怪才打开了大门。（问号脸？）的确，JavaScript可以做很多出色的事情！还有很多东西要学习。而且，无论你是JavaScript的新手还...",
-    "url": "https://segmentfault.com/a/1190000039994479",
-    "author": "JenK",
-    "home_url": "https://segmentfault.com/u/wangzc996",
-    "votes": "22",
-    "rank": 18
+    "rank": 19
   },
   {
     "title": "你应该知道的前端趋势——前端技术浪潮与应用",
@@ -168,15 +177,6 @@
     "author": "独钓寒江雪",
     "home_url": "https://segmentfault.com/u/king_hcj",
     "votes": "23",
-    "rank": 19
-  },
-  {
-    "title": "关于从入门three.js到做出3d地球这件事(第五篇: 以点成面矢量地球)有图解",
-    "description": "本篇我们要绘制一个矢量地球, 那我们先要知道矢量地球是由什么组成的, 比如说要绘制'中国', 那么我们只要知道中国边界上所有的点的坐标, 再逐一把这些点链接起来就是一个中国的轮廓了, 由于每个点相距很近所...",
-    "url": "https://segmentfault.com/a/1190000039945517",
-    "author": "lulu_up",
-    "home_url": "https://segmentfault.com/u/lulu_up",
-    "votes": "22",
     "rank": 20
   },
   {
@@ -189,13 +189,22 @@
     "rank": 21
   },
   {
+    "title": "关于从入门three.js到做出3d地球这件事(第五篇: 以点成面矢量地球)有图解",
+    "description": "本篇我们要绘制一个矢量地球, 那我们先要知道矢量地球是由什么组成的, 比如说要绘制'中国', 那么我们只要知道中国边界上所有的点的坐标, 再逐一把这些点链接起来就是一个中国的轮廓了, 由于每个点相距很近所...",
+    "url": "https://segmentfault.com/a/1190000039945517",
+    "author": "lulu_up",
+    "home_url": "https://segmentfault.com/u/lulu_up",
+    "votes": "22",
+    "rank": 22
+  },
+  {
     "title": "安全地在前后端之间传输数据 - 「2」注册和登录示例",
     "description": "为了不切换开发环境，前后端都使用 JavaScript 开发。采用了前后端分离的模式，但没有引入构建过程，避免项目分离，这样在 VSCode 中可以把前后端的内容组织在同一个目录下，不用操心发布位置的问题。具体的技术...",
     "url": "https://segmentfault.com/a/1190000039844746",
     "author": "边城",
     "home_url": "https://segmentfault.com/u/jamesfancy",
     "votes": "12",
-    "rank": 22
+    "rank": 23
   },
   {
     "title": "使用 axios 拦截器解决「 前端并发冲突 」 问题",
@@ -204,7 +213,7 @@
     "author": "皮小蛋",
     "home_url": "https://segmentfault.com/u/scaukk",
     "votes": "20",
-    "rank": 23
+    "rank": 24
   },
   {
     "title": "Java多线程-线程的概念和创建",
@@ -213,15 +222,6 @@
     "author": "GG_龙马",
     "home_url": "https://segmentfault.com/u/lingxinhuixing",
     "votes": "21",
-    "rank": 24
-  },
-  {
-    "title": "Vue适配PC+大屏，手机+ipad适配",
-    "description": "PC+大屏适配可适配 1400px以上的屏幕查看演示项目地址设置设计稿-转换rem我们的设计稿是3840px宽度，所以widthOfDesignLayout设置3840 {代码...} 设置根节点字体在main.js下，保证在屏幕缩放的过程中也是16:9的比...",
-    "url": "https://segmentfault.com/a/1190000039997533",
-    "author": "vipbic",
-    "home_url": "https://segmentfault.com/u/yangxiansheng_5a1b9b93a3a44",
-    "votes": "17",
     "rank": 25
   },
   {
@@ -234,13 +234,31 @@
     "rank": 26
   },
   {
+    "title": "入选 Apache 孵化器 4 年多，阿里捐赠的 Weex 项目未能成功毕业",
+    "description": "近日，由阿里开发并捐赠给 Apache 软件基金会（ASF）的 Weex 项目未从 Apache 孵化器成功毕业，目前 Weex 的孵化器状态已更改为「retired」。根据 Apache 软件基金会「Guide to Retirement」，retirement（退出）...",
+    "url": "https://segmentfault.com/a/1190000040004367",
+    "author": "小魔",
+    "home_url": "https://segmentfault.com/u/lu_607eaefc582e8",
+    "votes": "10",
+    "rank": 27
+  },
+  {
     "title": "🤩 对比三个强大的组件文档展示工具",
     "description": "背景前段时间， 部门在热火朝天的搞各类组件库。 做组件库，不可避免的就需要做组件的展示和说明， 要用到一些文档工具。我们项目里面也尝试了几种不同的文档工具，今天和大家分享一些经验， 希望对大家有所帮助...",
     "url": "https://segmentfault.com/a/1190000039931429",
     "author": "皮小蛋",
     "home_url": "https://segmentfault.com/u/scaukk",
     "votes": "19",
-    "rank": 27
+    "rank": 28
+  },
+  {
+    "title": "前端优秀实践不完全指南",
+    "description": "以下文章来源于iCSS前端趣闻 ，作者SbCocoiCSS前端趣闻 不止于 CSS本文略长，耐下心好好读读，应该会有所收获~其实标题应该叫，Web 用户体验设计提升指南。一个 Web 页面，一个 APP，想让别人用的爽，也就是所谓...",
+    "url": "https://segmentfault.com/a/1190000039958183",
+    "author": "浅夏晴空",
+    "home_url": "https://segmentfault.com/u/qianxiaqingkong",
+    "votes": "14",
+    "rank": 29
   },
   {
     "title": "阅读 JDK 源码：异步任务 FutureTask",
@@ -249,24 +267,6 @@
     "author": "Sumkor",
     "home_url": "https://segmentfault.com/u/sumkor",
     "votes": "13",
-    "rank": 28
-  },
-  {
-    "title": "一个诡异的MySQL查询超时问题，居然隐藏着存在了两年的BUG",
-    "description": "通过日志发现，从凌晨5：26分开始到5：56任务执行了三次，三次都因为SQL查询超时而执行失败，而诡异的是，任务到凌晨6：00多就执行成功了。",
-    "url": "https://segmentfault.com/a/1190000039848671",
-    "author": "CoderW",
-    "home_url": "https://segmentfault.com/u/coderw_5fd9998278d42",
-    "votes": "16",
-    "rank": 29
-  },
-  {
-    "title": "基于 vue3.x + vite + element plus，适配手机、平板、pc 的后台开源免费模板库",
-    "description": "vue-next-admin 基于 vue3.x + CompositionAPI + typescript + vite + element plus + vue-router-next + next.vuex，适配手机、平板、pc 的后台开源免费模板库（vue2.x版本请切换到 vue-prev-admin分支 ），希望...",
-    "url": "https://segmentfault.com/a/1190000039850907",
-    "author": "lytTop",
-    "home_url": "https://segmentfault.com/u/lyttop",
-    "votes": "15",
     "rank": 30
   }
 ]
