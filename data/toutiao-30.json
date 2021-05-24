@@ -22,12 +22,22 @@
   {
     "title": "日订单量达到 100 万单后，我们做了订单中心重构",
     "description": "作者简介：曾任职于阿里巴巴，每日优鲜等互联网公司，任技术总监。最近很多读者朋友留言，希望“二马”多写一些实际工作经历以及工作中遇到的问题和技术解决方案。应大家要求，本文介绍一次订单...",
-    "votes": "189",
+    "votes": "194",
     "url": "/k/0hjw87u",
     "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
     "avatarAlt": "Bloomingroses - 独家号",
     "subjectName": "Bloomingroses",
     "homeUrl": "/subjects/98777"
+  },
+  {
+    "title": "亿级系统的 Redis 缓存如何设计？",
+    "description": "知识分享，以技会友。大家好，我是Tom哥。阅读本文大约需要 15 分钟。缓存设计可谓老生常谈了，早些时候都是采用memcache，现在大家更多倾向使用redis，除了知晓常用的数据...",
+    "votes": "168",
+    "url": "/k/ep5e8sd",
+    "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
+    "avatarAlt": "微观技术 - 独家号",
+    "subjectName": "微观技术",
+    "homeUrl": "/subjects/348507"
   },
   {
     "title": "吊炸天的 Docker 图形化工具 Portainer，必须推荐给你",
@@ -50,34 +60,14 @@
     "homeUrl": "/subjects/419901"
   },
   {
-    "title": "亿级系统的 Redis 缓存如何设计？",
-    "description": "知识分享，以技会友。大家好，我是Tom哥。阅读本文大约需要 15 分钟。缓存设计可谓老生常谈了，早些时候都是采用memcache，现在大家更多倾向使用redis，除了知晓常用的数据...",
-    "votes": "146",
-    "url": "/k/ep5e8sd",
-    "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
-    "avatarAlt": "微观技术 - 独家号",
-    "subjectName": "微观技术",
-    "homeUrl": "/subjects/348507"
-  },
-  {
     "title": "架构师必看：架构设计的四大思维支柱",
     "description": "笔者在 InfoQ 前文《关于架构演进发展的探讨》和《架构演进的第四个趋势：行业级标准化》中，提出了笔者对架构发展趋势的一些浅见，也介绍了企业级业务架构方法论的来龙去脉，本文拟基于...",
-    "votes": "144",
+    "votes": "145",
     "url": "/k/ss8h91v",
     "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
     "avatarAlt": "进击的程序猿 - 独家号",
     "subjectName": "进击的程序猿",
     "homeUrl": "/subjects/24912"
-  },
-  {
-    "title": "书单丨“1 本抵 10 本” 的好书，建议收藏",
-    "description": "距离上一次发文已过了很久。中间有一些老读者在后台问我什么时候更新，为什么还不更新。所以，我先来“汇报”一下这段时间的收获。在2019年年底，我转行了，成为了一位听书稿编辑，日常工作...",
-    "votes": "131",
-    "url": "/k/08uadl6",
-    "avatar": "https://img.toutiao.io/subject%2F9a97933f431d4553ba4a1d1838f48143",
-    "avatarAlt": "Python猫技术花园 - 独家号",
-    "subjectName": "Python猫技术花园",
-    "homeUrl": "/subjects/14371"
   },
   {
     "title": "RabbitMQ、Kafka、RocketMQ 是如何实现高可用的？",
@@ -110,6 +100,16 @@
     "homeUrl": "/subjects/382106"
   },
   {
+    "title": "微服务设计原则",
+    "description": "良好的微服务设计可以使后期的升级维护更加轻松，否则将会令人非常头疼。下面几个设计原则强烈建议采用：单一职责高内聚低耦合隐藏内部实现避免代码库共享避免数据过度暴露避免数据库共享最小化...",
+    "votes": "105",
+    "url": "/k/4sywkcm",
+    "avatar": "https://img.toutiao.io/subject%2F34a8080276c94c04a9660da45c688190",
+    "avatarAlt": "性能与架构 - 独家号",
+    "subjectName": "性能与架构",
+    "homeUrl": "/subjects/429228"
+  },
+  {
     "title": "36 张图详解网络基础知识",
     "description": "前言网络协议  我们用手机连接上网的时候，会用到许多网络协议。从手机连接 WiFi 开始，使用的是 802.11 （即 WLAN ）协议，通过 WLAN 接入网络；手机自动获取网络...",
     "votes": "107",
@@ -122,18 +122,8 @@
   {
     "title": "消息队列把消息弄丢了怎么办？",
     "description": "消息队列会丢失消息吗？答案是肯定的，所以对于业务严谨的数据，我们要确保其在消息队列中的安全，不能丢。要想解决不丢的问题，首先要弄清楚 消息是怎么丢的呢？丢消息的关键点有3个：Pro...",
-    "votes": "109",
+    "votes": "110",
     "url": "/k/w8wyj2e",
-    "avatar": "https://img.toutiao.io/subject%2F34a8080276c94c04a9660da45c688190",
-    "avatarAlt": "性能与架构 - 独家号",
-    "subjectName": "性能与架构",
-    "homeUrl": "/subjects/429228"
-  },
-  {
-    "title": "微服务设计原则",
-    "description": "良好的微服务设计可以使后期的升级维护更加轻松，否则将会令人非常头疼。下面几个设计原则强烈建议采用：单一职责高内聚低耦合隐藏内部实现避免代码库共享避免数据过度暴露避免数据库共享最小化...",
-    "votes": "102",
-    "url": "/k/4sywkcm",
     "avatar": "https://img.toutiao.io/subject%2F34a8080276c94c04a9660da45c688190",
     "avatarAlt": "性能与架构 - 独家号",
     "subjectName": "性能与架构",
@@ -170,19 +160,9 @@
     "homeUrl": "/subjects/71779"
   },
   {
-    "title": "撸代码前，写下设计方案",
-    "description": "什么是设计方案？解决一个复杂的问题，一般要经过几个不同的步骤。其中最重要的是问题发现阶段，分析阶段，和构建交付阶段。在分析阶段，工程师们研究哪些方案可以解决客户需求。一个设计方案，...",
-    "votes": "89",
-    "url": "/k/xdsox3x",
-    "avatar": "https://img.toutiao.io/subject%2Fabcacedb06d640b3934572320d73940e",
-    "avatarAlt": "技术管理者的自我修养 - 独家号",
-    "subjectName": "技术管理者的自我修养",
-    "homeUrl": "/subjects/299823"
-  },
-  {
     "title": "高并发，我把握不住啊",
     "description": "慎入，作者高并发搞得少（没搞过），这里面水太深，什么高并发，大流量的东西都是虚拟的，作者还太年轻，没有那个经历，把握不住。系统只有几QPS，开心快乐就行，不PK，文明PK。高并发，...",
-    "votes": "85",
+    "votes": "88",
     "url": "/k/wa52n1g",
     "avatar": "https://img.toutiao.io/subject%2F785b9391ccd74d88bfc5ccd391fb4365",
     "avatarAlt": "三分恶 - 独家号",
@@ -192,12 +172,22 @@
   {
     "title": "我把这个软件，推荐给了总监",
     "description": "你好，我是 yes。今天要来安利一款神器！「uTools」。对于我个人而言，它的用处在于：快速翻译备忘录快贴快速查找和打开文件Json 解析时间戳转换todo记录等等等等，还有太多...",
-    "votes": "88",
+    "votes": "93",
     "url": "/k/9yex08q",
     "avatar": "https://img.toutiao.io/subject%2F71da457007fd4b67a45253b271a25eee",
     "avatarAlt": "yes的练级攻略 - 独家号",
     "subjectName": "yes的练级攻略",
     "homeUrl": "/subjects/443906"
+  },
+  {
+    "title": "撸代码前，写下设计方案",
+    "description": "什么是设计方案？解决一个复杂的问题，一般要经过几个不同的步骤。其中最重要的是问题发现阶段，分析阶段，和构建交付阶段。在分析阶段，工程师们研究哪些方案可以解决客户需求。一个设计方案，...",
+    "votes": "89",
+    "url": "/k/xdsox3x",
+    "avatar": "https://img.toutiao.io/subject%2Fabcacedb06d640b3934572320d73940e",
+    "avatarAlt": "技术管理者的自我修养 - 独家号",
+    "subjectName": "技术管理者的自我修养",
+    "homeUrl": "/subjects/299823"
   },
   {
     "title": "殷浩详解 DDD：如何避免写流水账代码？",
@@ -230,6 +220,16 @@
     "homeUrl": "/subjects/98777"
   },
   {
+    "title": "WebRTC 的前世今生",
+    "description": "前言近几年实时音视频通信应用呈现出了大爆发的趋势。在这些实时通信技术的背后，有一项不得不提的技术——WebRTC。 今年 1 月，WebRTC 被 W3C 和 IETF 发布为正式...",
+    "votes": "72",
+    "url": "/k/r3kppel",
+    "avatar": "https://img.toutiao.io/subject%2Ffd0cf18fe51143358e50385c435ef9d6",
+    "avatarAlt": "实时音视频技术 - 独家号",
+    "subjectName": "实时音视频技术",
+    "homeUrl": "/subjects/117842"
+  },
+  {
     "title": "动图图解！既然 IP 层会分片，为什么 TCP 层也还要分段？",
     "description": "文章持续更新，可以微信搜一搜「golang小白成长记」第一时间阅读，回复【教程】获golang免费视频教程。本文已经收录在GitHub https://github.com/xia...",
     "votes": "72",
@@ -240,13 +240,13 @@
     "homeUrl": "/subjects/382051"
   },
   {
-    "title": "WebRTC 的前世今生",
-    "description": "前言近几年实时音视频通信应用呈现出了大爆发的趋势。在这些实时通信技术的背后，有一项不得不提的技术——WebRTC。 今年 1 月，WebRTC 被 W3C 和 IETF 发布为正式...",
-    "votes": "71",
-    "url": "/k/r3kppel",
-    "avatar": "https://img.toutiao.io/subject%2Ffd0cf18fe51143358e50385c435ef9d6",
-    "avatarAlt": "实时音视频技术 - 独家号",
-    "subjectName": "实时音视频技术",
-    "homeUrl": "/subjects/117842"
+    "title": "Spring Boot 开发秘籍：集成参数校验及高阶技巧",
+    "description": "对于web服务来说，为防止非法参数对业务造成影响，在Controller层一定要对参数进行校验！本章我们以SpringBoot项目为例，介绍参数校验的基本用法以及一些高级技巧，希望...",
+    "votes": "70",
+    "url": "/k/bzx7ri7",
+    "avatar": "https://img.toutiao.io/subject%2F51ad25ebdf8b4a15895a07d5bce2b1e4",
+    "avatarAlt": "JAVA日知录 - 独家号",
+    "subjectName": "JAVA日知录",
+    "homeUrl": "/subjects/205182"
   }
 ]
