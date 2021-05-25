@@ -1,15 +1,5 @@
 [
   {
-    "title": "看完这篇你一定能掌握 Linux",
-    "description": "原创：小姐姐味道（微信公众号ID：xjjdog），欢迎分享，转载请保留出处。有很多同学微信问我，Linux命令这么多，该怎么从入门到精通？其实，这个事情非常的simple，这篇文章...",
-    "votes": "254",
-    "url": "/k/ycdmy3y",
-    "avatar": "https://img.toutiao.io/subject%2F6b8e14b561b24dfeac075e2a8dac9bfd",
-    "avatarAlt": "小姐姐味道 - 独家号",
-    "subjectName": "小姐姐味道",
-    "homeUrl": "/subjects/351247"
-  },
-  {
     "title": "Redis 教程：Redis 知识体系详解",
     "description": "著作权归https://www.pdai.tech所有。链接：https://www.pdai.tech/md/db/nosql-redis/db-redis-overview.h...",
     "votes": "221",
@@ -42,7 +32,7 @@
   {
     "title": "Java 工程师核心书单，阿里大佬看了都说好",
     "description": "随便打开一个招聘网站，看看对高级Java工程师的技能要求。image-20210312224908529抛开其它的经验能力等等，单纯从技术，或者说知识上来讲，可以发现一些共通的地方...",
-    "votes": "206",
+    "votes": "207",
     "url": "/k/5apgnxp",
     "avatar": "https://img.toutiao.io/subject%2F785b9391ccd74d88bfc5ccd391fb4365",
     "avatarAlt": "三分恶 - 独家号",
@@ -62,7 +52,7 @@
   {
     "title": "万级并发：电商库存扣减如何设计？不超卖",
     "description": "随着中国消费认知的不断升级，网购走近千家万户，越来越被人们所接受。淘宝、唯品会、考拉、京东、拼多多等逐渐成为我们生活的重要组成部分。除了常规的购物下单外，这些电商平台还经常搞一些双...",
-    "votes": "208",
+    "votes": "209",
     "url": "/k/1nwsx5k",
     "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
     "avatarAlt": "微观技术 - 独家号",
@@ -82,7 +72,7 @@
   {
     "title": "日订单量达到 100 万单后，我们做了订单中心重构",
     "description": "作者简介：曾任职于阿里巴巴，每日优鲜等互联网公司，任技术总监。最近很多读者朋友留言，希望“二马”多写一些实际工作经历以及工作中遇到的问题和技术解决方案。应大家要求，本文介绍一次订单...",
-    "votes": "194",
+    "votes": "197",
     "url": "/k/0hjw87u",
     "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
     "avatarAlt": "Bloomingroses - 独家号",
@@ -92,12 +82,22 @@
   {
     "title": "国内有哪些顶级技术团队的博客值得推荐？",
     "description": " 这个周末基本 90%的时间都在弄星球的《Java 面试进阶指北》这个小册。 晚上纠结了半天，不知道写点啥。突然想到很多小伙伴都非常好奇我都订阅了哪些技术团队的博客。于是，我便写下...",
-    "votes": "195",
+    "votes": "196",
     "url": "/k/j7v5pee",
     "avatar": "https://img.toutiao.io/subject%2Ff834a19bb9e24261a813b7a1ebc03a11",
     "avatarAlt": "JavaGuide - 独家号",
     "subjectName": "JavaGuide",
     "homeUrl": "/subjects/352853"
+  },
+  {
+    "title": "亿级系统的 Redis 缓存如何设计？",
+    "description": "知识分享，以技会友。大家好，我是Tom哥。阅读本文大约需要 15 分钟。缓存设计可谓老生常谈了，早些时候都是采用memcache，现在大家更多倾向使用redis，除了知晓常用的数据...",
+    "votes": "185",
+    "url": "/k/ep5e8sd",
+    "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
+    "avatarAlt": "微观技术 - 独家号",
+    "subjectName": "微观技术",
+    "homeUrl": "/subjects/348507"
   },
   {
     "title": "Redis 进阶笔记",
@@ -110,19 +110,9 @@
     "homeUrl": "/subjects/26578"
   },
   {
-    "title": "亿级系统的 Redis 缓存如何设计？",
-    "description": "知识分享，以技会友。大家好，我是Tom哥。阅读本文大约需要 15 分钟。缓存设计可谓老生常谈了，早些时候都是采用memcache，现在大家更多倾向使用redis，除了知晓常用的数据...",
-    "votes": "168",
-    "url": "/k/ep5e8sd",
-    "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
-    "avatarAlt": "微观技术 - 独家号",
-    "subjectName": "微观技术",
-    "homeUrl": "/subjects/348507"
-  },
-  {
     "title": "吊炸天的 Docker 图形化工具 Portainer，必须推荐给你",
     "description": "之前操作Docker的时候，一直使用的是命令行的形式。命令行虽说看起来挺炫酷，但有时候还是挺麻烦的。今天给大家推荐一个Docker图形化工具Portainer，轻量级又好用，希望对...",
-    "votes": "167",
+    "votes": "168",
     "url": "/k/ca8fe6d",
     "avatar": "https://img.toutiao.io/subject%2F92f8abdd29be4693ad1e6c99e5203c1b",
     "avatarAlt": "开源前哨 - 独家号",
@@ -142,7 +132,7 @@
   {
     "title": "高并发下如何保证接口的幂等性？",
     "description": "前言接口幂等性问题，对于开发人员来说，是一个跟语言无关的公共问题。本文分享了一些解决这类问题非常实用的办法，绝大部分内容我在项目中实践过的，给有需要的小伙伴一个参考。不知道你有没有...",
-    "votes": "177",
+    "votes": "178",
     "url": "/k/f0361xm",
     "avatar": "https://img.toutiao.io/subject%2F96c1af0d2a0b441ca9740ee13c3e37f3",
     "avatarAlt": "苏三说技术 - 独家号",
@@ -242,11 +232,21 @@
   {
     "title": "书单：互联网企业面试案头书之架构师篇",
     "description": "当程序员的发展遇到一定的瓶颈时，很多人会选择架构师的发展路径。如果你也想从程序员晋升为架构师，那么希望今天分享的7本“架构”类图书能够帮到你！01▊《架构整洁之道》[美] Robe...",
-    "votes": "143",
+    "votes": "145",
     "url": "/k/mvtejua",
     "avatar": "https://img.toutiao.io/subject%2F11cc495ae64e477a9b099c30e240143f",
     "avatarAlt": "程序猿读书雷达 - 独家号",
     "subjectName": "程序猿读书雷达",
     "homeUrl": "/subjects/114561"
+  },
+  {
+    "title": "2021 阿里淘系工程师推荐书单",
+    "description": "读书有点像机器学习从初始参数开始的局部最小化。无论是数学、科学、技术、管理，还是历史、文学，读书的过程，就是根据一维的文字流，在立体的思维空间中重新建构。这种建构的意义，将我们自身...",
+    "votes": "134",
+    "url": "/k/txzl2gg",
+    "avatar": "https://img.toutiao.io/subject%2F4c72971aff5c4e73821ac59b18ff5dd6",
+    "avatarAlt": "程序员的朋友圈 - 独家号",
+    "subjectName": "程序员的朋友圈",
+    "homeUrl": "/subjects/378"
   }
 ]
