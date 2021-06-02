@@ -2,7 +2,7 @@
   {
     "title": "亿级系统的 Redis 缓存如何设计？",
     "description": "知识分享，以技会友。大家好，我是Tom哥。阅读本文大约需要 15 分钟。缓存设计可谓老生常谈了，早些时候都是采用memcache，现在大家更多倾向使用redis，除了知晓常用的数据...",
-    "votes": "229",
+    "votes": "234",
     "url": "/k/ep5e8sd",
     "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
     "avatarAlt": "微观技术 - 独家号",
@@ -22,7 +22,7 @@
   {
     "title": "超实用的 IDEA 插件推荐！百万级下载量",
     "description": " 超实用的30多款idea插件，有百万级下载量的优秀插件，你值得拥有！ 好的工具助你事半功倍，快速协助敲出更漂亮更有效率的代码。搬运工这里收集了很不错的IDEA插件，相信你一定会喜...",
-    "votes": "211",
+    "votes": "212",
     "url": "/k/47wemjf",
     "avatar": "https://img.toutiao.io/subject%2F445f12f30e3940b2b52eac3d48d07389",
     "avatarAlt": "搬运工来架构 - 独家号",
@@ -40,19 +40,9 @@
     "homeUrl": "/subjects/454593"
   },
   {
-    "title": "Java 工程师核心书单，阿里大佬看了都说好",
-    "description": "随便打开一个招聘网站，看看对高级Java工程师的技能要求。image-20210312224908529抛开其它的经验能力等等，单纯从技术，或者说知识上来讲，可以发现一些共通的地方...",
-    "votes": "208",
-    "url": "/k/5apgnxp",
-    "avatar": "https://img.toutiao.io/subject%2F785b9391ccd74d88bfc5ccd391fb4365",
-    "avatarAlt": "三分恶 - 独家号",
-    "subjectName": "三分恶",
-    "homeUrl": "/subjects/454266"
-  },
-  {
     "title": "日订单量达到 100 万单后，我们做了订单中心重构",
     "description": "作者简介：曾任职于阿里巴巴，每日优鲜等互联网公司，任技术总监。最近很多读者朋友留言，希望“二马”多写一些实际工作经历以及工作中遇到的问题和技术解决方案。应大家要求，本文介绍一次订单...",
-    "votes": "207",
+    "votes": "209",
     "url": "/k/0hjw87u",
     "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
     "avatarAlt": "Bloomingroses - 独家号",
@@ -60,9 +50,19 @@
     "homeUrl": "/subjects/98777"
   },
   {
+    "title": "Java 工程师核心书单，阿里大佬看了都说好",
+    "description": "随便打开一个招聘网站，看看对高级Java工程师的技能要求。image-20210312224908529抛开其它的经验能力等等，单纯从技术，或者说知识上来讲，可以发现一些共通的地方...",
+    "votes": "209",
+    "url": "/k/5apgnxp",
+    "avatar": "https://img.toutiao.io/subject%2F785b9391ccd74d88bfc5ccd391fb4365",
+    "avatarAlt": "三分恶 - 独家号",
+    "subjectName": "三分恶",
+    "homeUrl": "/subjects/454266"
+  },
+  {
     "title": "万级并发：电商库存扣减如何设计？不超卖",
     "description": "随着中国消费认知的不断升级，网购走近千家万户，越来越被人们所接受。淘宝、唯品会、考拉、京东、拼多多等逐渐成为我们生活的重要组成部分。除了常规的购物下单外，这些电商平台还经常搞一些双...",
-    "votes": "213",
+    "votes": "214",
     "url": "/k/1nwsx5k",
     "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
     "avatarAlt": "微观技术 - 独家号",
@@ -102,7 +102,7 @@
   {
     "title": "各厂三年 Go 面经，已入字节",
     "description": "作者：内推欢迎来撩链接：https://www.nowcoder.com/discuss/662296?source=rss#at来源：牛客网常见面试问题记录  包含的公司：映客、...",
-    "votes": "190",
+    "votes": "192",
     "url": "/k/5u1byn9",
     "avatar": "https://img.toutiao.io/subject%2F31015016fbbd4abd93b2e259aa945de5",
     "avatarAlt": "牛客网精华贴 - 独家号",
@@ -152,7 +152,7 @@
   {
     "title": "其实，每次面试的问题都逃不过这几方面",
     "description": "你好， 我是 yes。因为最近在主攻的面试方面的文章。自己在网上翻阅了很多面经，也建立了面试题交流群（想入群的私我）。所以看了很多真实的、新鲜的面试题。再结合下自己的面试经历、自己...",
-    "votes": "157",
+    "votes": "159",
     "url": "/k/hti1ill",
     "avatar": "https://img.toutiao.io/subject%2F71da457007fd4b67a45253b271a25eee",
     "avatarAlt": "yes的练级攻略 - 独家号",
@@ -180,6 +180,16 @@
     "homeUrl": "/subjects/456107"
   },
   {
+    "title": "掌门 MySQL 数据库规约落地及优化实战",
+    "description": " 前言MySQL 数据库承载了掌门绝大部分核心业务的数据存储，因此 MySQL 数据库的稳定运行至关重要。DBA 团队一直致力于保障数据库环境的平稳运行，编写有掌门 MySQL 数...",
+    "votes": "151",
+    "url": "/k/s8xgae9",
+    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
+    "avatarAlt": "ASCE1885 - 独家号",
+    "subjectName": "ASCE1885",
+    "homeUrl": "/subjects/4829"
+  },
+  {
     "title": "架构师必看：架构设计的四大思维支柱",
     "description": "笔者在 InfoQ 前文《关于架构演进发展的探讨》和《架构演进的第四个趋势：行业级标准化》中，提出了笔者对架构发展趋势的一些浅见，也介绍了企业级业务架构方法论的来龙去脉，本文拟基于...",
     "votes": "147",
@@ -200,6 +210,16 @@
     "homeUrl": "/subjects/456748"
   },
   {
+    "title": "Git 分支管理策略与工作流程",
+    "description": "Git是目前世界上最先进的分布式版本控制系统。它使我们更方便的跟踪，管理和组织代码。也帮助了我们更好的与其他开发者进行协作开发。但是没有规矩不成方圆。协作开发必须有一个规范来约束各...",
+    "votes": "137",
+    "url": "/k/82eogba",
+    "avatar": "https://img.toutiao.io/subject%2Fd6c7298b04034a949ca246ae8f18047b",
+    "avatarAlt": "刘星的个人网站 - 独家号",
+    "subjectName": "刘星的个人网站",
+    "homeUrl": "/subjects/263792"
+  },
+  {
     "title": "浅谈分库分表那些事儿",
     "description": " 本文适合：需要从单库单表改造为多库多表的新手。本文主要阐述在分库分表改造过程中需要考虑的因素以及对应的解法，还有踩过的那些坑。一  前言我们既然要做分库分表，那总要有个做事的动机...",
     "votes": "152",
@@ -208,26 +228,6 @@
     "avatarAlt": "Bloomingroses - 独家号",
     "subjectName": "Bloomingroses",
     "homeUrl": "/subjects/98777"
-  },
-  {
-    "title": "Git 分支管理策略与工作流程",
-    "description": "Git是目前世界上最先进的分布式版本控制系统。它使我们更方便的跟踪，管理和组织代码。也帮助了我们更好的与其他开发者进行协作开发。但是没有规矩不成方圆。协作开发必须有一个规范来约束各...",
-    "votes": "136",
-    "url": "/k/82eogba",
-    "avatar": "https://img.toutiao.io/subject%2Fd6c7298b04034a949ca246ae8f18047b",
-    "avatarAlt": "刘星的个人网站 - 独家号",
-    "subjectName": "刘星的个人网站",
-    "homeUrl": "/subjects/263792"
-  },
-  {
-    "title": "掌门 MySQL 数据库规约落地及优化实战",
-    "description": " 前言MySQL 数据库承载了掌门绝大部分核心业务的数据存储，因此 MySQL 数据库的稳定运行至关重要。DBA 团队一直致力于保障数据库环境的平稳运行，编写有掌门 MySQL 数...",
-    "votes": "146",
-    "url": "/k/s8xgae9",
-    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
-    "avatarAlt": "ASCE1885 - 独家号",
-    "subjectName": "ASCE1885",
-    "homeUrl": "/subjects/4829"
   },
   {
     "title": "8 张图带你了解大型应用架构演进历程",

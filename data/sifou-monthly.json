@@ -5,8 +5,17 @@
     "url": "https://segmentfault.com/a/1190000040030723",
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "107",
+    "votes": "109",
     "rank": 1
+  },
+  {
+    "title": "每个开发人员都应该知道的 10 个 GitHub 仓库",
+    "description": "GitHub 不仅是互联网上最有趣的开源项目的所在地，而且还是共享各种资源的好地方，从免费的书籍到 API ，产品路线图到项目思路到项目方案。",
+    "url": "https://segmentfault.com/a/1190000040055173",
+    "author": "LeanCloud",
+    "home_url": "https://segmentfault.com/u/leancloud",
+    "votes": "46",
+    "rank": 2
   },
   {
     "title": "40多个用于Web开发的高质量免费资源",
@@ -15,7 +24,7 @@
     "author": "JenK",
     "home_url": "https://segmentfault.com/u/wangzc996",
     "votes": "38",
-    "rank": 2
+    "rank": 3
   },
   {
     "title": "学会这20+个JavaScript单行代码，可以让你的代码更加骚气",
@@ -23,16 +32,7 @@
     "url": "https://segmentfault.com/a/1190000039994479",
     "author": "JenK",
     "home_url": "https://segmentfault.com/u/wangzc996",
-    "votes": "33",
-    "rank": 3
-  },
-  {
-    "title": "每个开发人员都应该知道的 10 个 GitHub 仓库",
-    "description": "GitHub 不仅是互联网上最有趣的开源项目的所在地，而且还是共享各种资源的好地方，从免费的书籍到 API ，产品路线图到项目思路到项目方案。",
-    "url": "https://segmentfault.com/a/1190000040055173",
-    "author": "LeanCloud",
-    "home_url": "https://segmentfault.com/u/leancloud",
-    "votes": "36",
+    "votes": "34",
     "rank": 4
   },
   {
@@ -50,7 +50,7 @@
     "url": "https://segmentfault.com/a/1190000040050379",
     "author": "童欧巴",
     "home_url": "https://segmentfault.com/u/tongouba",
-    "votes": "28",
+    "votes": "29",
     "rank": 6
   },
   {
@@ -108,13 +108,31 @@
     "rank": 12
   },
   {
+    "title": "一份工作4年前端的Git备忘指南",
+    "description": "刚毕业的时候用过极短时间的SVN，后面就一直在用Git来做代码的版本控制了，前前后后差不多4年的时间，期间做了一些在使用Git过程中的记录和心得，在这里分享给大家，大家或许可以从中吸收到一些有用的东西。",
+    "url": "https://segmentfault.com/a/1190000040085749",
+    "author": "趁你还年轻",
+    "home_url": "https://segmentfault.com/u/chennihuannianqing",
+    "votes": "25",
+    "rank": 13
+  },
+  {
     "title": "Vue3 中的脚手架工具Vite到底牛在哪, 一文全知道",
     "description": "Vue是一套用于构建用户界面的渐进式框架，与其它大型 JS 框架不同，Vue 被设计为可以自底向上逐层应用，更易上手，还便于与第三方库或既有项目整合，因此，Vue完全能够为复杂的单页应用提供驱动。",
     "url": "https://segmentfault.com/a/1190000039985669",
     "author": "葡萄城技术团队",
     "home_url": "https://segmentfault.com/u/grapecity",
     "votes": "20",
-    "rank": 13
+    "rank": 14
+  },
+  {
+    "title": "分享一些 PHP 中有用的知识和坑",
+    "description": "在一次偶然查看 PHP 文档的时候，发现了一些有趣的内容，随着阅读的增加，越发觉得有趣的内容或者说时坑越来越多，所以我决定记录下来，分享出去，下文中一些内容摘录自一些优秀的博客、PHP 文档的用户笔记，或者...",
+    "url": "https://segmentfault.com/a/1190000040084826",
+    "author": "唯一丶",
+    "home_url": "https://segmentfault.com/u/weiyi_5b04fb4aa815a",
+    "votes": "19",
+    "rank": 15
   },
   {
     "title": "[建议收藏] Webpack 4+ 优秀学习资料合集",
@@ -123,7 +141,7 @@
     "author": "范文杰",
     "home_url": "https://segmentfault.com/u/fanwenjie",
     "votes": "25",
-    "rank": 14
+    "rank": 16
   },
   {
     "title": "将 Google CDN 替换为国内源的 Chrome 扩展，实现网站加速⚡️",
@@ -131,8 +149,26 @@
     "url": "https://segmentfault.com/a/1190000039993704",
     "author": "justjavac",
     "home_url": "https://segmentfault.com/u/justjavac",
-    "votes": "16",
-    "rank": 15
+    "votes": "17",
+    "rank": 17
+  },
+  {
+    "title": "CSS filter 有哪些神奇用途",
+    "description": "CSS filter 属性将模糊或颜色偏移等图形效果应用于元素形成滤镜，滤镜通常用于调整图像，背景和边框的渲染。它的值可以为 filter 函数 <filter-function> 或使用 url 添加的svg滤镜。",
+    "url": "https://segmentfault.com/a/1190000040058430",
+    "author": "dragonir",
+    "home_url": "https://segmentfault.com/u/dragonir",
+    "votes": "17",
+    "rank": 18
+  },
+  {
+    "title": "在浏览器中本地运行Node.js",
+    "description": "几年前，StackBlitz意识到网络正朝着关键的拐点发展。WebAssembly和新功能API的出现使编写基于WebAssembly的操作系统似乎变得可能，该操作系统功能强大到可以完全在浏览器中运行Node.js。我们设想了一个比本地环...",
+    "url": "https://segmentfault.com/a/1190000040050241",
+    "author": "Peter谭老师",
+    "home_url": "https://segmentfault.com/u/jerrytanjinjie",
+    "votes": "14",
+    "rank": 19
   },
   {
     "title": "关于从入门three.js到做出3d地球这件事(第五篇: 以点成面矢量地球)有图解",
@@ -141,25 +177,16 @@
     "author": "lulu_up",
     "home_url": "https://segmentfault.com/u/lulu_up",
     "votes": "22",
-    "rank": 16
+    "rank": 20
   },
   {
-    "title": "CSS filter 有哪些神奇用途",
-    "description": "CSS filter 属性将模糊或颜色偏移等图形效果应用于元素形成滤镜，滤镜通常用于调整图像，背景和边框的渲染。它的值可以为 filter 函数 <filter-function> 或使用 url 添加的svg滤镜。",
-    "url": "https://segmentfault.com/a/1190000040058430",
-    "author": "dragonir",
-    "home_url": "https://segmentfault.com/u/dragonir",
-    "votes": "15",
-    "rank": 17
-  },
-  {
-    "title": "在浏览器中本地运行Node.js",
-    "description": "几年前，StackBlitz意识到网络正朝着关键的拐点发展。WebAssembly和新功能API的出现使编写基于WebAssembly的操作系统似乎变得可能，该操作系统功能强大到可以完全在浏览器中运行Node.js。我们设想了一个比本地环...",
-    "url": "https://segmentfault.com/a/1190000040050241",
-    "author": "Peter谭老师",
-    "home_url": "https://segmentfault.com/u/jerrytanjinjie",
-    "votes": "13",
-    "rank": 18
+    "title": "如何写一份好的前端面试简历?",
+    "description": "在写简历之前，我们必须清楚的了解一件事情，那就是简历是什么？它不是人生履历，不是项目清单，也不是技能大放送。简历的存在只有一个目的 —— 帮你约到面试。只要能达到这个目的，简历可以是一段视频，一个开源...",
+    "url": "https://segmentfault.com/a/1190000040063644",
+    "author": "Eno_Yao",
+    "home_url": "https://segmentfault.com/u/wscats",
+    "votes": "17",
+    "rank": 21
   },
   {
     "title": "仅用 CSS实现多彩、智能的阴影",
@@ -168,16 +195,16 @@
     "author": "dragonir",
     "home_url": "https://segmentfault.com/u/dragonir",
     "votes": "17",
-    "rank": 19
+    "rank": 22
   },
   {
-    "title": "一份工作4年前端的Git备忘指南",
-    "description": "刚毕业的时候用过极短时间的SVN，后面就一直在用Git来做代码的版本控制了，前前后后差不多4年的时间，期间做了一些在使用Git过程中的记录和心得，在这里分享给大家，大家或许可以从中吸收到一些有用的东西。",
-    "url": "https://segmentfault.com/a/1190000040085749",
-    "author": "趁你还年轻",
-    "home_url": "https://segmentfault.com/u/chennihuannianqing",
-    "votes": "22",
-    "rank": 20
+    "title": "最强整理！常用正则表达式速查手册",
+    "description": "一、校验数字的表达式数字：^[0-9]*$n位的数字：^\\d{n}$至少n位的数字：^\\d{n,}$m-n位的数字：^\\d{m,n}$零和非零开头的数字：^(0|[1-9][0-9]*)$非零开头的最多带两位小数的数字：^([1-9][0-9]*)+(.[0-9]{1,2})?$...",
+    "url": "https://segmentfault.com/a/1190000040086057",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "20",
+    "rank": 23
   },
   {
     "title": "入选 Apache 孵化器 4 年多，阿里捐赠的 Weex 项目未能成功毕业",
@@ -186,7 +213,7 @@
     "author": "小魔",
     "home_url": "https://segmentfault.com/u/lu_607eaefc582e8",
     "votes": "10",
-    "rank": 21
+    "rank": 24
   },
   {
     "title": "前端优秀实践不完全指南",
@@ -195,7 +222,7 @@
     "author": "浅夏晴空",
     "home_url": "https://segmentfault.com/u/qianxiaqingkong",
     "votes": "15",
-    "rank": 22
+    "rank": 25
   },
   {
     "title": "Vue3 全家桶 + TS+ Vite2 + element-plus 搭建简洁时尚的博客网站实战及踩坑记",
@@ -204,7 +231,7 @@
     "author": "夜尽天明",
     "home_url": "https://segmentfault.com/u/biaochenxuying",
     "votes": "16",
-    "rank": 23
+    "rank": 26
   },
   {
     "title": "阅读 JDK 源码：异步任务 FutureTask",
@@ -213,7 +240,7 @@
     "author": "Sumkor",
     "home_url": "https://segmentfault.com/u/sumkor",
     "votes": "14",
-    "rank": 24
+    "rank": 27
   },
   {
     "title": "[万字总结] 一文吃透 Webpack 核心原理",
@@ -222,7 +249,7 @@
     "author": "范文杰",
     "home_url": "https://segmentfault.com/u/fanwenjie",
     "votes": "23",
-    "rank": 25
+    "rank": 28
   },
   {
     "title": "页面白屏了？看看可选链操作符(?.)",
@@ -231,16 +258,7 @@
     "author": "皮小蛋",
     "home_url": "https://segmentfault.com/u/scaukk",
     "votes": "12",
-    "rank": 26
-  },
-  {
-    "title": "如何写一份好的前端面试简历?",
-    "description": "在写简历之前，我们必须清楚的了解一件事情，那就是简历是什么？它不是人生履历，不是项目清单，也不是技能大放送。简历的存在只有一个目的 —— 帮你约到面试。只要能达到这个目的，简历可以是一段视频，一个开源...",
-    "url": "https://segmentfault.com/a/1190000040063644",
-    "author": "Eno_Yao",
-    "home_url": "https://segmentfault.com/u/wscats",
-    "votes": "15",
-    "rank": 27
+    "rank": 29
   },
   {
     "title": "🤔 普通函数与箭头函数的区别是什么？",
@@ -249,24 +267,6 @@
     "author": "Chengbo",
     "home_url": "https://segmentfault.com/u/xiechengbo",
     "votes": "17",
-    "rank": 28
-  },
-  {
-    "title": "【你不知道的canvas】之更换绿屏视频背景",
-    "description": "width：图片宽度，单位是像素height：图片高度，单位是像素data：Uint8ClampedArray类型的一维数组，包含着RGBA格式的整型数据，范围在0至255之间（包括255）。",
-    "url": "https://segmentfault.com/a/1190000039975476",
-    "author": "JenK",
-    "home_url": "https://segmentfault.com/u/wangzc996",
-    "votes": "11",
-    "rank": 29
-  },
-  {
-    "title": "面试官：观察过 chrome 调试工具的请求体么？Form Data 和 Request Payload 有什么区别？",
-    "description": "application/x-www-form-urlencoded 和 application/json 有什么区别？开发中我们应该怎么选择？",
-    "url": "https://segmentfault.com/a/1190000040010880",
-    "author": "裤裆三重奏",
-    "home_url": "https://segmentfault.com/u/kusanzhongzou",
-    "votes": "16",
     "rank": 30
   }
 ]
