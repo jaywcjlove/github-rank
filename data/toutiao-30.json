@@ -2,7 +2,7 @@
   {
     "title": "亿级系统的 Redis 缓存如何设计？",
     "description": "知识分享，以技会友。大家好，我是Tom哥。阅读本文大约需要 15 分钟。缓存设计可谓老生常谈了，早些时候都是采用memcache，现在大家更多倾向使用redis，除了知晓常用的数据...",
-    "votes": "234",
+    "votes": "239",
     "url": "/k/ep5e8sd",
     "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
     "avatarAlt": "微观技术 - 独家号",
@@ -40,9 +40,29 @@
     "homeUrl": "/subjects/451797"
   },
   {
+    "title": "架构师图谱（上篇）",
+    "description": "1. 概述“架构师图谱”是一个很宏大的命题，特别是优秀的架构师自身也是“由点到面再到图”，一点点成长积累起来，尝试写这篇文章的目的更多的是结合自身的一些架构、研发、管理经验对现阶段...",
+    "votes": "149",
+    "url": "/k/xha1t37",
+    "avatar": "https://img.toutiao.io/user/dbc9de4e98fd4d27a4d938b77f9304fc/thumb",
+    "avatarAlt": "小笙_的独家号 - 独家号",
+    "subjectName": "小笙_的独家号",
+    "homeUrl": "/subjects/278262"
+  },
+  {
+    "title": "25 张图，一万字，拆解 Linux 网络包发送过程",
+    "description": "在开始今天的文章之前，我先来请大家思考几个小问题。问1：我们在查看内核发送数据消耗的 CPU 时，是应该看 sy 还是 si ？问2：为什么你服务器上的 /proc/softirq...",
+    "votes": "157",
+    "url": "/k/z26byeu",
+    "avatar": "https://img.toutiao.io/subject%2F001f8de223174684862d4c9e6c752cc7",
+    "avatarAlt": "PHPER—>架构 - 独家号",
+    "subjectName": "PHPER—>架构",
+    "homeUrl": "/subjects/25390"
+  },
+  {
     "title": "掌门 MySQL 数据库规约落地及优化实战",
     "description": " 前言MySQL 数据库承载了掌门绝大部分核心业务的数据存储，因此 MySQL 数据库的稳定运行至关重要。DBA 团队一直致力于保障数据库环境的平稳运行，编写有掌门 MySQL 数...",
-    "votes": "151",
+    "votes": "153",
     "url": "/k/s8xgae9",
     "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
     "avatarAlt": "ASCE1885 - 独家号",
@@ -68,26 +88,6 @@
     "avatarAlt": "性能与架构 - 独家号",
     "subjectName": "性能与架构",
     "homeUrl": "/subjects/429228"
-  },
-  {
-    "title": "25 张图，一万字，拆解 Linux 网络包发送过程",
-    "description": "在开始今天的文章之前，我先来请大家思考几个小问题。问1：我们在查看内核发送数据消耗的 CPU 时，是应该看 sy 还是 si ？问2：为什么你服务器上的 /proc/softirq...",
-    "votes": "139",
-    "url": "/k/z26byeu",
-    "avatar": "https://img.toutiao.io/subject%2F001f8de223174684862d4c9e6c752cc7",
-    "avatarAlt": "PHPER—>架构 - 独家号",
-    "subjectName": "PHPER—>架构",
-    "homeUrl": "/subjects/25390"
-  },
-  {
-    "title": "架构师图谱（上篇）",
-    "description": "1. 概述“架构师图谱”是一个很宏大的命题，特别是优秀的架构师自身也是“由点到面再到图”，一点点成长积累起来，尝试写这篇文章的目的更多的是结合自身的一些架构、研发、管理经验对现阶段...",
-    "votes": "123",
-    "url": "/k/xha1t37",
-    "avatar": "https://img.toutiao.io/user/dbc9de4e98fd4d27a4d938b77f9304fc/thumb",
-    "avatarAlt": "小笙_的独家号 - 独家号",
-    "subjectName": "小笙_的独家号",
-    "homeUrl": "/subjects/278262"
   },
   {
     "title": "36 张图详解网络基础知识",
@@ -122,7 +122,7 @@
   {
     "title": "微服务设计原则",
     "description": "良好的微服务设计可以使后期的升级维护更加轻松，否则将会令人非常头疼。下面几个设计原则强烈建议采用：单一职责高内聚低耦合隐藏内部实现避免代码库共享避免数据过度暴露避免数据库共享最小化...",
-    "votes": "106",
+    "votes": "107",
     "url": "/k/4sywkcm",
     "avatar": "https://img.toutiao.io/subject%2F34a8080276c94c04a9660da45c688190",
     "avatarAlt": "性能与架构 - 独家号",
@@ -142,7 +142,7 @@
   {
     "title": "“三次握手，四次挥手” 这么讲，保证你忘不了",
     "description": "TCP三次握手、四次挥手，在面试这锅滚油里，可谓是炸了千百遍的老油条。老油条我们都知道TCP是面向连接的，三次握手就是用来建立连接的，四次握手就是用来断开连接的。三次握手 先上图：...",
-    "votes": "110",
+    "votes": "114",
     "url": "/k/ngx4og0",
     "avatar": "https://img.toutiao.io/subject%2F785b9391ccd74d88bfc5ccd391fb4365",
     "avatarAlt": "三分恶 - 独家号",
@@ -170,6 +170,16 @@
     "homeUrl": "/subjects/372612"
   },
   {
+    "title": "高并发，我把握不住啊",
+    "description": "慎入，作者高并发搞得少（没搞过），这里面水太深，什么高并发，大流量的东西都是虚拟的，作者还太年轻，没有那个经历，把握不住。系统只有几QPS，开心快乐就行，不PK，文明PK。高并发，...",
+    "votes": "98",
+    "url": "/k/wa52n1g",
+    "avatar": "https://img.toutiao.io/subject%2F785b9391ccd74d88bfc5ccd391fb4365",
+    "avatarAlt": "三分恶 - 独家号",
+    "subjectName": "三分恶",
+    "homeUrl": "/subjects/454266"
+  },
+  {
     "title": "这款远程桌面软件开源了",
     "description": "相信在七八年前，大部分读者都使用 QQ 远程控制电脑。到后面，才接触到一些好用的远程控制产品，比如 Teamviewer、向日葵等。最近，自己装的远程控制产品试用期到了，便想到去 ...",
     "votes": "93",
@@ -178,16 +188,6 @@
     "avatarAlt": "近半生少年 - 独家号",
     "subjectName": "近半生少年",
     "homeUrl": "/subjects/403307"
-  },
-  {
-    "title": "高并发，我把握不住啊",
-    "description": "慎入，作者高并发搞得少（没搞过），这里面水太深，什么高并发，大流量的东西都是虚拟的，作者还太年轻，没有那个经历，把握不住。系统只有几QPS，开心快乐就行，不PK，文明PK。高并发，...",
-    "votes": "95",
-    "url": "/k/wa52n1g",
-    "avatar": "https://img.toutiao.io/subject%2F785b9391ccd74d88bfc5ccd391fb4365",
-    "avatarAlt": "三分恶 - 独家号",
-    "subjectName": "三分恶",
-    "homeUrl": "/subjects/454266"
   },
   {
     "title": "我把这个软件，推荐给了总监",
@@ -202,12 +202,22 @@
   {
     "title": "Spring Boot 开发秘籍：集成参数校验及高阶技巧",
     "description": "对于web服务来说，为防止非法参数对业务造成影响，在Controller层一定要对参数进行校验！本章我们以SpringBoot项目为例，介绍参数校验的基本用法以及一些高级技巧，希望...",
-    "votes": "97",
+    "votes": "99",
     "url": "/k/bzx7ri7",
     "avatar": "https://img.toutiao.io/subject%2F51ad25ebdf8b4a15895a07d5bce2b1e4",
     "avatarAlt": "JAVA日知录 - 独家号",
     "subjectName": "JAVA日知录",
     "homeUrl": "/subjects/205182"
+  },
+  {
+    "title": "高并发、高性能、高可用系统设计经验",
+    "description": "知识分享，以技会友。大家好，我是Tom哥。阅读本文大约需要 15 分钟。软件开发通常会提到一个名词 “三高”，即高并发、高性能、高可用。 具体的指标定义，如：高并发方面要求QPS ...",
+    "votes": "80",
+    "url": "/k/ybiw04u",
+    "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
+    "avatarAlt": "微观技术 - 独家号",
+    "subjectName": "微观技术",
+    "homeUrl": "/subjects/348507"
   },
   {
     "title": "Golang 内存管理分析",
@@ -230,23 +240,13 @@
     "homeUrl": "/subjects/117027"
   },
   {
-    "title": "高并发、高性能、高可用系统设计经验",
-    "description": "知识分享，以技会友。大家好，我是Tom哥。阅读本文大约需要 15 分钟。软件开发通常会提到一个名词 “三高”，即高并发、高性能、高可用。 具体的指标定义，如：高并发方面要求QPS ...",
-    "votes": "76",
-    "url": "/k/ybiw04u",
-    "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
-    "avatarAlt": "微观技术 - 独家号",
-    "subjectName": "微观技术",
-    "homeUrl": "/subjects/348507"
-  },
-  {
-    "title": "进程、线程与协程傻傻分不清？一文带你吃透",
-    "description": "前言 欢迎来到操作系统系列，依然采用图解 + 大白话的形式来讲解，让小白也能看懂，帮助大家快速科普入门本篇开始介绍进程、线程、协程，相信很多小白们对这几个概念理解的不清晰，这里全部...",
-    "votes": "79",
-    "url": "/k/cs2cbes",
-    "avatar": "https://img.toutiao.io/subject%2Fbd79d4909e3d49c485bc20d99b91a257",
-    "avatarAlt": "程序猿阿星 - 独家号",
-    "subjectName": "程序猿阿星",
-    "homeUrl": "/subjects/459978"
+    "title": "做一次黑客，入侵一次服务器",
+    "description": "前言前两天刚买了个腾讯服务器(CVM)，这次登陆上去的时候特别卡，通过top发现负载特别高，因为是刚搭建的环境，也没有运行什么应用程序，所以我觉得这有点不正常。我就想着把docke...",
+    "votes": "80",
+    "url": "/k/3tudqnj",
+    "avatar": "https://img.toutiao.io/subject%2Fe38f31f5a0954c88b26818751301da08",
+    "avatarAlt": "入门到放弃之路 - 独家号",
+    "subjectName": "入门到放弃之路",
+    "homeUrl": "/subjects/460144"
   }
 ]
