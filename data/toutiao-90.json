@@ -2,7 +2,7 @@
   {
     "title": "亿级系统的 Redis 缓存如何设计？",
     "description": "知识分享，以技会友。大家好，我是Tom哥。阅读本文大约需要 15 分钟。缓存设计可谓老生常谈了，早些时候都是采用memcache，现在大家更多倾向使用redis，除了知晓常用的数据...",
-    "votes": "239",
+    "votes": "240",
     "url": "/k/ep5e8sd",
     "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
     "avatarAlt": "微观技术 - 独家号",
@@ -42,22 +42,12 @@
   {
     "title": "日订单量达到 100 万单后，我们做了订单中心重构",
     "description": "作者简介：曾任职于阿里巴巴，每日优鲜等互联网公司，任技术总监。最近很多读者朋友留言，希望“二马”多写一些实际工作经历以及工作中遇到的问题和技术解决方案。应大家要求，本文介绍一次订单...",
-    "votes": "209",
+    "votes": "210",
     "url": "/k/0hjw87u",
     "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
     "avatarAlt": "Bloomingroses - 独家号",
     "subjectName": "Bloomingroses",
     "homeUrl": "/subjects/98777"
-  },
-  {
-    "title": "万级并发：电商库存扣减如何设计？不超卖",
-    "description": "随着中国消费认知的不断升级，网购走近千家万户，越来越被人们所接受。淘宝、唯品会、考拉、京东、拼多多等逐渐成为我们生活的重要组成部分。除了常规的购物下单外，这些电商平台还经常搞一些双...",
-    "votes": "214",
-    "url": "/k/1nwsx5k",
-    "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
-    "avatarAlt": "微观技术 - 独家号",
-    "subjectName": "微观技术",
-    "homeUrl": "/subjects/348507"
   },
   {
     "title": "Java 工程师核心书单，阿里大佬看了都说好",
@@ -68,6 +58,16 @@
     "avatarAlt": "三分恶 - 独家号",
     "subjectName": "三分恶",
     "homeUrl": "/subjects/454266"
+  },
+  {
+    "title": "万级并发：电商库存扣减如何设计？不超卖",
+    "description": "随着中国消费认知的不断升级，网购走近千家万户，越来越被人们所接受。淘宝、唯品会、考拉、京东、拼多多等逐渐成为我们生活的重要组成部分。除了常规的购物下单外，这些电商平台还经常搞一些双...",
+    "votes": "214",
+    "url": "/k/1nwsx5k",
+    "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
+    "avatarAlt": "微观技术 - 独家号",
+    "subjectName": "微观技术",
+    "homeUrl": "/subjects/348507"
   },
   {
     "title": "你对天天挂在嘴边的高并发，怕是有什么误解吧？",
@@ -92,12 +92,22 @@
   {
     "title": "各厂三年 Go 面经，已入字节",
     "description": "作者：内推欢迎来撩链接：https://www.nowcoder.com/discuss/662296?source=rss#at来源：牛客网常见面试问题记录  包含的公司：映客、...",
-    "votes": "192",
+    "votes": "193",
     "url": "/k/5u1byn9",
     "avatar": "https://img.toutiao.io/subject%2F31015016fbbd4abd93b2e259aa945de5",
     "avatarAlt": "牛客网精华贴 - 独家号",
     "subjectName": "牛客网精华贴",
     "homeUrl": "/subjects/17560"
+  },
+  {
+    "title": "架构师图谱（上篇）",
+    "description": "1. 概述“架构师图谱”是一个很宏大的命题，特别是优秀的架构师自身也是“由点到面再到图”，一点点成长积累起来，尝试写这篇文章的目的更多的是结合自身的一些架构、研发、管理经验对现阶段...",
+    "votes": "173",
+    "url": "/k/xha1t37",
+    "avatar": "https://img.toutiao.io/user/dbc9de4e98fd4d27a4d938b77f9304fc/thumb",
+    "avatarAlt": "小笙_的独家号 - 独家号",
+    "subjectName": "小笙_的独家号",
+    "homeUrl": "/subjects/278262"
   },
   {
     "title": "吊炸天的 Docker 图形化工具 Portainer，必须推荐给你",
@@ -150,6 +160,16 @@
     "homeUrl": "/subjects/443906"
   },
   {
+    "title": "25 张图，一万字，拆解 Linux 网络包发送过程",
+    "description": "在开始今天的文章之前，我先来请大家思考几个小问题。问1：我们在查看内核发送数据消耗的 CPU 时，是应该看 sy 还是 si ？问2：为什么你服务器上的 /proc/softirq...",
+    "votes": "164",
+    "url": "/k/z26byeu",
+    "avatar": "https://img.toutiao.io/subject%2F001f8de223174684862d4c9e6c752cc7",
+    "avatarAlt": "PHPER—>架构 - 独家号",
+    "subjectName": "PHPER—>架构",
+    "homeUrl": "/subjects/25390"
+  },
+  {
     "title": "我在架构设计和代码开发中的一些常用原则",
     "description": "不管我一生中取得了多大的成功，其主要原因都不是我知道多少事情，而是我知道在无知的情况下自己应该怎么做。我一生中学到的最重要的东西是一种以原则为基础的生活方式，是它帮助我发现真相是什...",
     "votes": "158",
@@ -160,14 +180,14 @@
     "homeUrl": "/subjects/42200"
   },
   {
-    "title": "架构师图谱（上篇）",
-    "description": "1. 概述“架构师图谱”是一个很宏大的命题，特别是优秀的架构师自身也是“由点到面再到图”，一点点成长积累起来，尝试写这篇文章的目的更多的是结合自身的一些架构、研发、管理经验对现阶段...",
-    "votes": "149",
-    "url": "/k/xha1t37",
-    "avatar": "https://img.toutiao.io/user/dbc9de4e98fd4d27a4d938b77f9304fc/thumb",
-    "avatarAlt": "小笙_的独家号 - 独家号",
-    "subjectName": "小笙_的独家号",
-    "homeUrl": "/subjects/278262"
+    "title": "掌门 MySQL 数据库规约落地及优化实战",
+    "description": " 前言MySQL 数据库承载了掌门绝大部分核心业务的数据存储，因此 MySQL 数据库的稳定运行至关重要。DBA 团队一直致力于保障数据库环境的平稳运行，编写有掌门 MySQL 数...",
+    "votes": "158",
+    "url": "/k/s8xgae9",
+    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
+    "avatarAlt": "ASCE1885 - 独家号",
+    "subjectName": "ASCE1885",
+    "homeUrl": "/subjects/4829"
   },
   {
     "title": "这几款 JVM 故障诊断处理工具你还不会？",
@@ -180,26 +200,6 @@
     "homeUrl": "/subjects/456107"
   },
   {
-    "title": "25 张图，一万字，拆解 Linux 网络包发送过程",
-    "description": "在开始今天的文章之前，我先来请大家思考几个小问题。问1：我们在查看内核发送数据消耗的 CPU 时，是应该看 sy 还是 si ？问2：为什么你服务器上的 /proc/softirq...",
-    "votes": "157",
-    "url": "/k/z26byeu",
-    "avatar": "https://img.toutiao.io/subject%2F001f8de223174684862d4c9e6c752cc7",
-    "avatarAlt": "PHPER—>架构 - 独家号",
-    "subjectName": "PHPER—>架构",
-    "homeUrl": "/subjects/25390"
-  },
-  {
-    "title": "掌门 MySQL 数据库规约落地及优化实战",
-    "description": " 前言MySQL 数据库承载了掌门绝大部分核心业务的数据存储，因此 MySQL 数据库的稳定运行至关重要。DBA 团队一直致力于保障数据库环境的平稳运行，编写有掌门 MySQL 数...",
-    "votes": "153",
-    "url": "/k/s8xgae9",
-    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
-    "avatarAlt": "ASCE1885 - 独家号",
-    "subjectName": "ASCE1885",
-    "homeUrl": "/subjects/4829"
-  },
-  {
     "title": "架构师必看：架构设计的四大思维支柱",
     "description": "笔者在 InfoQ 前文《关于架构演进发展的探讨》和《架构演进的第四个趋势：行业级标准化》中，提出了笔者对架构发展趋势的一些浅见，也介绍了企业级业务架构方法论的来龙去脉，本文拟基于...",
     "votes": "147",
@@ -208,16 +208,6 @@
     "avatarAlt": "进击的程序猿 - 独家号",
     "subjectName": "进击的程序猿",
     "homeUrl": "/subjects/24912"
-  },
-  {
-    "title": "Golang 性能诊断看这篇就够了",
-    "description": "点击上方蓝字关注我们  我们日常接触性能诊断问题，一般分为两种情况，一是线上应用真的出现性能问题；二是我们需要对准备上线的系统进行性能预估；后者需要压力测试辅助进行，此处不表。针对...",
-    "votes": "147",
-    "url": "/k/3loin1u",
-    "avatar": "https://img.toutiao.io/subject%2F2af74070672947a89801325c8545f2ac",
-    "avatarAlt": "光华路程序猿 - 独家号",
-    "subjectName": "光华路程序猿",
-    "homeUrl": "/subjects/456748"
   },
   {
     "title": "Git 分支管理策略与工作流程",
@@ -248,5 +238,15 @@
     "avatarAlt": "贝塔学Java - 独家号",
     "subjectName": "贝塔学Java",
     "homeUrl": "/subjects/456107"
+  },
+  {
+    "title": "书单：互联网企业面试案头书之架构师篇",
+    "description": "当程序员的发展遇到一定的瓶颈时，很多人会选择架构师的发展路径。如果你也想从程序员晋升为架构师，那么希望今天分享的7本“架构”类图书能够帮到你！01▊《架构整洁之道》[美] Robe...",
+    "votes": "145",
+    "url": "/k/mvtejua",
+    "avatar": "https://img.toutiao.io/subject%2F11cc495ae64e477a9b099c30e240143f",
+    "avatarAlt": "程序猿读书雷达 - 独家号",
+    "subjectName": "程序猿读书雷达",
+    "homeUrl": "/subjects/114561"
   }
 ]
