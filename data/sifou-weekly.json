@@ -1,39 +1,21 @@
 [
   {
-    "title": "分享一些 PHP 中有用的知识和坑",
-    "description": "在一次偶然查看 PHP 文档的时候，发现了一些有趣的内容，随着阅读的增加，越发觉得有趣的内容或者说时坑越来越多，所以我决定记录下来，分享出去，下文中一些内容摘录自一些优秀的博客、PHP 文档的用户笔记，或者...",
-    "url": "https://segmentfault.com/a/1190000040084826",
-    "author": "唯一丶",
-    "home_url": "https://segmentfault.com/u/weiyi_5b04fb4aa815a",
-    "votes": "28",
-    "rank": 1
-  },
-  {
-    "title": "一份工作4年前端的Git备忘指南",
-    "description": "刚毕业的时候用过极短时间的SVN，后面就一直在用Git来做代码的版本控制了，前前后后差不多4年的时间，期间做了一些在使用Git过程中的记录和心得，在这里分享给大家，大家或许可以从中吸收到一些有用的东西。",
-    "url": "https://segmentfault.com/a/1190000040085749",
-    "author": "趁你还年轻",
-    "home_url": "https://segmentfault.com/u/chennihuannianqing",
-    "votes": "32",
-    "rank": 2
-  },
-  {
-    "title": "最强整理！常用正则表达式速查手册",
-    "description": "一、校验数字的表达式数字：^[0-9]*$n位的数字：^\\d{n}$至少n位的数字：^\\d{n,}$m-n位的数字：^\\d{m,n}$零和非零开头的数字：^(0|[1-9][0-9]*)$非零开头的最多带两位小数的数字：^([1-9][0-9]*)+(.[0-9]{1,2})?$...",
-    "url": "https://segmentfault.com/a/1190000040086057",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "29",
-    "rank": 3
-  },
-  {
     "title": "SegmentFault 思否 9 周年丨代码不止，思否不止",
     "description": "2012年6月1日 - 2021年6月1日，SegmentFault 思否陪伴开发者走过了9年时光。从最初的技术问答社区，到如今集技术问答、专栏文章、技术资讯、技术课程为一体的综合性技术社区，SegmentFault 思否致力于为开发者提...",
     "url": "https://segmentfault.com/a/1190000040098074",
     "author": "SegmentFault",
     "home_url": "https://segmentfault.com/u/segmentfault",
     "votes": "15",
-    "rank": 4
+    "rank": 1
+  },
+  {
+    "title": "最新、最全的 MySQL 面试题整理，吊打面试官完全没问题了！（建议收藏）",
+    "description": "数据库基础知识为什么要使用数据库数据保存在内存优点： 存取速度快缺点： 数据不能永久保存数据保存在文件优点： 数据永久保存缺点：1）速度比内存操作慢，频繁的IO操作。2）查询数据不方便数据保存在数据库数据...",
+    "url": "https://segmentfault.com/a/1190000040112777",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "16",
+    "rank": 2
   },
   {
     "title": "CSS 揭秘",
@@ -42,16 +24,7 @@
     "author": "废废",
     "home_url": "https://segmentfault.com/u/feifei_5d9ace1c1d5a1",
     "votes": "16",
-    "rank": 5
-  },
-  {
-    "title": "最新、最全的 MySQL 面试题整理，吊打面试官完全没问题了！（建议收藏）",
-    "description": "数据库基础知识为什么要使用数据库数据保存在内存优点： 存取速度快缺点： 数据不能永久保存数据保存在文件优点： 数据永久保存缺点：1）速度比内存操作慢，频繁的IO操作。2）查询数据不方便数据保存在数据库数据...",
-    "url": "https://segmentfault.com/a/1190000040112777",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "13",
-    "rank": 6
+    "rank": 3
   },
   {
     "title": "精读《低代码逻辑编排》",
@@ -60,7 +33,7 @@
     "author": "黄子毅",
     "home_url": "https://segmentfault.com/u/aoyangyudakong",
     "votes": "8",
-    "rank": 7
+    "rank": 4
   },
   {
     "title": "官方揭秘！你的颜色是这样算出来的……",
@@ -69,7 +42,7 @@
     "author": "云音乐大前端团队",
     "home_url": "https://segmentfault.com/u/musicfe",
     "votes": "13",
-    "rank": 8
+    "rank": 5
   },
   {
     "title": "Spring 实例化方式有几种？为什么会用到 Cglib？",
@@ -78,7 +51,7 @@
     "author": "小傅哥",
     "home_url": "https://segmentfault.com/u/fuzhengwei",
     "votes": "9",
-    "rank": 9
+    "rank": 6
   },
   {
     "title": "一次搞懂-JavaScript之异步编程",
@@ -87,7 +60,7 @@
     "author": "九旬",
     "home_url": "https://segmentfault.com/u/ansonznl",
     "votes": "9",
-    "rank": 10
+    "rank": 7
   },
   {
     "title": "vue3与vue2使用的一些对比",
@@ -96,25 +69,7 @@
     "author": "JenK",
     "home_url": "https://segmentfault.com/u/wangzc996",
     "votes": "5",
-    "rank": 11
-  },
-  {
-    "title": "Vite 太快了，烦死了，是时候该小睡一会了。",
-    "description": "关于 QA 环节中对于 Vite 快的意义的提问似乎引发了大家的一些讨论，借此机会说说自己的浅见。我们有两个词，UX 和 DX，分别对应用户体验（User Experience）和开发者体验（Developer Experience）。的确某种程度...",
-    "url": "https://segmentfault.com/a/1190000040092002",
-    "author": "ssh_晨曦时梦见兮",
-    "home_url": "https://segmentfault.com/u/chenshimengjian",
-    "votes": "6",
-    "rank": 12
-  },
-  {
-    "title": "电信诈骗？一招让骗子血本无归！",
-    "description": "最近，二狗子也有幸参加了公司组织的防诈骗培训，警察小哥哥在培训中告诫大家：养成良好的上网习惯不轻易在网上录入个人信息对疑似诈骗的行为不轻信、不透露、不转账提高安全意识保护好自己的“钱袋子”为什么说不...",
-    "url": "https://segmentfault.com/a/1190000040106317",
-    "author": "云叔_又拍云",
-    "home_url": "https://segmentfault.com/u/yunshu_blog",
-    "votes": "6",
-    "rank": 13
+    "rank": 8
   },
   {
     "title": "腾讯大股东 Prosus 以 18 亿美元收购 Stack OverFlow",
@@ -123,7 +78,25 @@
     "author": "鸣飞",
     "home_url": "https://segmentfault.com/u/mf",
     "votes": "3",
-    "rank": 14
+    "rank": 9
+  },
+  {
+    "title": "电信诈骗？一招让骗子血本无归！",
+    "description": "最近，二狗子也有幸参加了公司组织的防诈骗培训，警察小哥哥在培训中告诫大家：养成良好的上网习惯不轻易在网上录入个人信息对疑似诈骗的行为不轻信、不透露、不转账提高安全意识保护好自己的“钱袋子”为什么说不...",
+    "url": "https://segmentfault.com/a/1190000040106317",
+    "author": "云叔_又拍云",
+    "home_url": "https://segmentfault.com/u/yunshu_blog",
+    "votes": "6",
+    "rank": 10
+  },
+  {
+    "title": "Vite 太快了，烦死了，是时候该小睡一会了。",
+    "description": "关于 QA 环节中对于 Vite 快的意义的提问似乎引发了大家的一些讨论，借此机会说说自己的浅见。我们有两个词，UX 和 DX，分别对应用户体验（User Experience）和开发者体验（Developer Experience）。的确某种程度...",
+    "url": "https://segmentfault.com/a/1190000040092002",
+    "author": "ssh_晨曦时梦见兮",
+    "home_url": "https://segmentfault.com/u/chenshimengjian",
+    "votes": "7",
+    "rank": 11
   },
   {
     "title": "前端API请求的各种骚操作",
@@ -132,7 +105,16 @@
     "author": "Dickens",
     "home_url": "https://segmentfault.com/u/dabai_5955b2921e87d",
     "votes": "6",
-    "rank": 15
+    "rank": 12
+  },
+  {
+    "title": "腾讯位置服务GPS轨迹回放-安卓篇",
+    "description": "当我们使用地图进行开发时，利用已经录制好的轨迹进行轨迹回放来检查导航的准确性是十分常用的手段，并且上一篇已经讲完了关于地图使用时GPS轨迹文件的录制，现在对于安卓系统下使用腾讯导航SDK进行轨迹回放做一...",
+    "url": "https://segmentfault.com/a/1190000040121056",
+    "author": "腾讯位置服务",
+    "home_url": "https://segmentfault.com/u/tengxunweizhifuwu",
+    "votes": "3",
+    "rank": 13
   },
   {
     "title": "Go 面试官：进程、线程都有 ID，为什么 Goroutine 没有 ID？",
@@ -141,7 +123,16 @@
     "author": "煎鱼",
     "home_url": "https://segmentfault.com/u/eddycjy",
     "votes": "3",
-    "rank": 16
+    "rank": 14
+  },
+  {
+    "title": "vue-esign签字板的使用步骤小demo",
+    "description": "在我们开发项目中，特别是流程审批类的项目，最后一步会提交审核，审核员看完相应信息以后，没问题就会签字通过审批。所以就要用到本篇文章中的vue-esign签字技术。vue-esign技术是基于html5代新特性，canvas技术...",
+    "url": "https://segmentfault.com/a/1190000040094946",
+    "author": "水冗水孚",
+    "home_url": "https://segmentfault.com/u/shuirongshui",
+    "votes": "7",
+    "rank": 15
   },
   {
     "title": "从一道毫无人性的刁钻面试题说起",
@@ -150,7 +141,7 @@
     "author": "疯狂的技术宅",
     "home_url": "https://segmentfault.com/u/evilboy",
     "votes": "5",
-    "rank": 17
+    "rank": 16
   },
   {
     "title": "【动图演示】头条和滴滴的一道面试题：smartRepeat 函数",
@@ -159,7 +150,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "6",
-    "rank": 18
+    "rank": 17
   },
   {
     "title": "如何设计 API 接口，实现统一格式返回？",
@@ -168,15 +159,24 @@
     "author": "新亮",
     "home_url": "https://segmentfault.com/u/xinliangcoder",
     "votes": "3",
+    "rank": 18
+  },
+  {
+    "title": "你应该知道的 5 种 TypeScript设计模式",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000040090520",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "7",
     "rank": 19
   },
   {
-    "title": "vue-esign签字板的使用步骤小demo",
-    "description": "在我们开发项目中，特别是流程审批类的项目，最后一步会提交审核，审核员看完相应信息以后，没问题就会签字通过审批。所以就要用到本篇文章中的vue-esign签字技术。vue-esign技术是基于html5代新特性，canvas技术...",
-    "url": "https://segmentfault.com/a/1190000040094946",
-    "author": "水冗水孚",
-    "home_url": "https://segmentfault.com/u/shuirongshui",
-    "votes": "6",
+    "title": "被思否官方各种关爱的点点滴滴 | SegmentFault 思否9周年",
+    "description": "值此SegmentFault 思否9周年来临之际，我谨代表三掌柜个人，向思否官方以及思否各路工作人员致以周年庆的问候，向长期以来关心支持思否社区建设的各路大佬们致以崇高的敬意，向每位为了梦想而熬夜肝文章的创作者...",
+    "url": "https://segmentfault.com/a/1190000040103036",
+    "author": "三掌柜",
+    "home_url": "https://segmentfault.com/u/sanzhanggui",
+    "votes": "3",
     "rank": 20
   },
   {
@@ -189,40 +189,13 @@
     "rank": 21
   },
   {
-    "title": "被思否官方各种关爱的点点滴滴 | SegmentFault 思否9周年",
-    "description": "值此SegmentFault 思否9周年来临之际，我谨代表三掌柜个人，向思否官方以及思否各路工作人员致以周年庆的问候，向长期以来关心支持思否社区建设的各路大佬们致以崇高的敬意，向每位为了梦想而熬夜肝文章的创作者...",
-    "url": "https://segmentfault.com/a/1190000040103036",
-    "author": "三掌柜",
-    "home_url": "https://segmentfault.com/u/sanzhanggui",
-    "votes": "3",
-    "rank": 22
-  },
-  {
-    "title": "你应该知道的 5 种 TypeScript设计模式",
-    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000040090520",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "7",
-    "rank": 23
-  },
-  {
     "title": "HarmonyOS应用开发（基础篇）",
     "description": "这不就是说，以后华为手机都是鸿蒙系统了嘛？鸿蒙还发出了一条视频，视频中显示2021年6月2号将开启鸿蒙操作系统及华为全场景新品发布会。预计现在支持EMUI11升级的机型，将全部支持升级鸿蒙系统。我这一瞅，这不...",
     "url": "https://segmentfault.com/a/1190000040099829",
     "author": "siberiawolf",
     "home_url": "https://segmentfault.com/u/siberiawolf",
     "votes": "3",
-    "rank": 24
-  },
-  {
-    "title": "美业微前端的落地",
-    "description": "2020年4月，有赞美业的前端团队历经7个月时间，完成了美业PC架构从单体SPA到微前端架构的设计、迁移工作。PPT在去年6月份就有了，现在再整理一下形成文章分享给大家。",
-    "url": "https://segmentfault.com/a/1190000040106401",
-    "author": "边城到此莫若",
-    "home_url": "https://segmentfault.com/u/bianchengdaocimoruo",
-    "votes": "9",
-    "rank": 25
+    "rank": 22
   },
   {
     "title": "vite+vue3+ts搭建通用后台管理系统",
@@ -231,7 +204,16 @@
     "author": "sky124380729",
     "home_url": "https://segmentfault.com/u/sky124380729",
     "votes": "5",
-    "rank": 26
+    "rank": 23
+  },
+  {
+    "title": "美业微前端的落地",
+    "description": "2020年4月，有赞美业的前端团队历经7个月时间，完成了美业PC架构从单体SPA到微前端架构的设计、迁移工作。PPT在去年6月份就有了，现在再整理一下形成文章分享给大家。",
+    "url": "https://segmentfault.com/a/1190000040106401",
+    "author": "边城到此莫若",
+    "home_url": "https://segmentfault.com/u/bianchengdaocimoruo",
+    "votes": "9",
+    "rank": 24
   },
   {
     "title": "OpenInfra基金会积极推动开源项目在中国市场的发展与应用",
@@ -240,6 +222,24 @@
     "author": "snakesss",
     "home_url": "https://segmentfault.com/u/snakesss",
     "votes": "1",
+    "rank": 25
+  },
+  {
+    "title": "大厂面试总结 CSS 篇",
+    "description": "01 如何实现一个元素的水平垂直居中<blockquote> 更多描述: 要求对行内元素、块状元素及不定宽高的块状元素均可适用：可打开 codepen 进行调试: [链接]，以下是布局代码 {代码...} {代码...} </blockquo...",
+    "url": "https://segmentfault.com/a/1190000040117955",
+    "author": "shanyue",
+    "home_url": "https://segmentfault.com/u/xiange",
+    "votes": "5",
+    "rank": 26
+  },
+  {
+    "title": "一些不好记却很好用的 CSS 属性",
+    "description": "在写过一点时间 CSS 之后，大家对于常见的属性应该都很熟了，例如最基本的 display、position、padding、margin、border、background 等等，在写 CSS 的时候不需要特别查什么东西，很顺的就可以写出来。",
+    "url": "https://segmentfault.com/a/1190000040098706",
+    "author": "疯狂的技术宅",
+    "home_url": "https://segmentfault.com/u/evilboy",
+    "votes": "8",
     "rank": 27
   },
   {
@@ -252,21 +252,21 @@
     "rank": 28
   },
   {
-    "title": "深入理解React Router：Context、Hooks、Refs、Memo特性讲解",
-    "description": "鉴于读者对React有一定的认识，且本书所有案例均使用React Hooks编写，以及在React Router源码中使用了Context等React特性，因此本章仅对React的Context、Hooks等部分特性进行介绍。对于其他React相关特性，读者...",
-    "url": "https://segmentfault.com/a/1190000040105325",
-    "author": "浅夏晴空",
-    "home_url": "https://segmentfault.com/u/qianxiaqingkong",
-    "votes": "3",
+    "title": "大拇指创新实验室月刊（第一期）",
+    "description": "新闻速报Babel发布7.14.0Node.js发布16.0.0Bootstrap 5发布ES2021/ES12新特性Chrome 89 devtools增加新特性前端生态微信新能力1. 小程序直播新增【智能助理】功能智能助理是由小程序直播与微信对话开放平台联合推...",
+    "url": "https://segmentfault.com/a/1190000040115630",
+    "author": "大宝剑",
+    "home_url": "https://segmentfault.com/u/qianduandabaojian",
+    "votes": "8",
     "rank": 29
   },
   {
-    "title": "阿里云宣布开源 PolarDB 数据库，推动云原生数据库 2.0 生态",
-    "description": "在5月29日2021阿里云峰会上，阿里云数据库业务负责人李飞飞进行了《云原生数据库2.0：一站式数据管理与服务》的主题演讲，在最后飞刀重磅发布了阿里云数据库开源计划，携手开源社区一起共建云原生分布式数据库生态。",
-    "url": "https://segmentfault.com/a/1190000040085804",
-    "author": "鸣飞",
-    "home_url": "https://segmentfault.com/u/mf",
-    "votes": "2",
+    "title": "TypeScript 学习笔记",
+    "description": "Hello, 各位勇敢的小伙伴, 大家好, 我是你们的嘴强王者小五, 身体健康, 脑子没病.本人有丰富的脱发技巧, 能让你一跃成为资深大咖.一看就会一写就废是本人的主旨, 菜到抠脚是本人的特点, 卑微中透着一丝丝刚强, 傻...",
+    "url": "https://segmentfault.com/a/1190000040114139",
+    "author": "黄刀小五",
+    "home_url": "https://segmentfault.com/u/jichidewoniu",
+    "votes": "5",
     "rank": 30
   }
 ]

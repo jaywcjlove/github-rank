@@ -2,7 +2,7 @@
   {
     "title": "亿级系统的 Redis 缓存如何设计？",
     "description": "知识分享，以技会友。大家好，我是Tom哥。阅读本文大约需要 15 分钟。缓存设计可谓老生常谈了，早些时候都是采用memcache，现在大家更多倾向使用redis，除了知晓常用的数据...",
-    "votes": "240",
+    "votes": "241",
     "url": "/k/ep5e8sd",
     "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
     "avatarAlt": "微观技术 - 独家号",
@@ -12,7 +12,7 @@
   {
     "title": "日订单量达到 100 万单后，我们做了订单中心重构",
     "description": "作者简介：曾任职于阿里巴巴，每日优鲜等互联网公司，任技术总监。最近很多读者朋友留言，希望“二马”多写一些实际工作经历以及工作中遇到的问题和技术解决方案。应大家要求，本文介绍一次订单...",
-    "votes": "210",
+    "votes": "211",
     "url": "/k/0hjw87u",
     "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
     "avatarAlt": "Bloomingroses - 独家号",
@@ -20,9 +20,19 @@
     "homeUrl": "/subjects/98777"
   },
   {
+    "title": "架构师图谱（上篇）",
+    "description": "1. 概述“架构师图谱”是一个很宏大的命题，特别是优秀的架构师自身也是“由点到面再到图”，一点点成长积累起来，尝试写这篇文章的目的更多的是结合自身的一些架构、研发、管理经验对现阶段...",
+    "votes": "190",
+    "url": "/k/xha1t37",
+    "avatar": "https://img.toutiao.io/user/dbc9de4e98fd4d27a4d938b77f9304fc/thumb",
+    "avatarAlt": "小笙_的独家号 - 独家号",
+    "subjectName": "小笙_的独家号",
+    "homeUrl": "/subjects/278262"
+  },
+  {
     "title": "各厂三年 Go 面经，已入字节",
     "description": "作者：内推欢迎来撩链接：https://www.nowcoder.com/discuss/662296?source=rss#at来源：牛客网常见面试问题记录  包含的公司：映客、...",
-    "votes": "194",
+    "votes": "195",
     "url": "/k/5u1byn9",
     "avatar": "https://img.toutiao.io/subject%2F31015016fbbd4abd93b2e259aa945de5",
     "avatarAlt": "牛客网精华贴 - 独家号",
@@ -30,14 +40,14 @@
     "homeUrl": "/subjects/17560"
   },
   {
-    "title": "架构师图谱（上篇）",
-    "description": "1. 概述“架构师图谱”是一个很宏大的命题，特别是优秀的架构师自身也是“由点到面再到图”，一点点成长积累起来，尝试写这篇文章的目的更多的是结合自身的一些架构、研发、管理经验对现阶段...",
-    "votes": "182",
-    "url": "/k/xha1t37",
-    "avatar": "https://img.toutiao.io/user/dbc9de4e98fd4d27a4d938b77f9304fc/thumb",
-    "avatarAlt": "小笙_的独家号 - 独家号",
-    "subjectName": "小笙_的独家号",
-    "homeUrl": "/subjects/278262"
+    "title": "25 张图，一万字，拆解 Linux 网络包发送过程",
+    "description": "在开始今天的文章之前，我先来请大家思考几个小问题。问1：我们在查看内核发送数据消耗的 CPU 时，是应该看 sy 还是 si ？问2：为什么你服务器上的 /proc/softirq...",
+    "votes": "180",
+    "url": "/k/z26byeu",
+    "avatar": "https://img.toutiao.io/subject%2F001f8de223174684862d4c9e6c752cc7",
+    "avatarAlt": "PHPER—>架构 - 独家号",
+    "subjectName": "PHPER—>架构",
+    "homeUrl": "/subjects/25390"
   },
   {
     "title": "吊炸天的 Docker 图形化工具 Portainer，必须推荐给你",
@@ -50,19 +60,9 @@
     "homeUrl": "/subjects/451797"
   },
   {
-    "title": "25 张图，一万字，拆解 Linux 网络包发送过程",
-    "description": "在开始今天的文章之前，我先来请大家思考几个小问题。问1：我们在查看内核发送数据消耗的 CPU 时，是应该看 sy 还是 si ？问2：为什么你服务器上的 /proc/softirq...",
-    "votes": "169",
-    "url": "/k/z26byeu",
-    "avatar": "https://img.toutiao.io/subject%2F001f8de223174684862d4c9e6c752cc7",
-    "avatarAlt": "PHPER—>架构 - 独家号",
-    "subjectName": "PHPER—>架构",
-    "homeUrl": "/subjects/25390"
-  },
-  {
     "title": "掌门 MySQL 数据库规约落地及优化实战",
     "description": " 前言MySQL 数据库承载了掌门绝大部分核心业务的数据存储，因此 MySQL 数据库的稳定运行至关重要。DBA 团队一直致力于保障数据库环境的平稳运行，编写有掌门 MySQL 数...",
-    "votes": "161",
+    "votes": "163",
     "url": "/k/s8xgae9",
     "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
     "avatarAlt": "ASCE1885 - 独家号",
@@ -80,6 +80,16 @@
     "homeUrl": "/subjects/429228"
   },
   {
+    "title": "36 张图详解网络基础知识",
+    "description": "前言网络协议  我们用手机连接上网的时候，会用到许多网络协议。从手机连接 WiFi 开始，使用的是 802.11 （即 WLAN ）协议，通过 WLAN 接入网络；手机自动获取网络...",
+    "votes": "113",
+    "url": "/k/bjis3t4",
+    "avatar": "https://img.toutiao.io/subject%2F9c7fdde2d20641a59a92e10fd5fe4715",
+    "avatarAlt": "码农StayUp - 独家号",
+    "subjectName": "码农StayUp",
+    "homeUrl": "/subjects/418351"
+  },
+  {
     "title": "“三次握手，四次挥手” 这么讲，保证你忘不了",
     "description": "TCP三次握手、四次挥手，在面试这锅滚油里，可谓是炸了千百遍的老油条。老油条我们都知道TCP是面向连接的，三次握手就是用来建立连接的，四次握手就是用来断开连接的。三次握手 先上图：...",
     "votes": "118",
@@ -88,16 +98,6 @@
     "avatarAlt": "三分恶 - 独家号",
     "subjectName": "三分恶",
     "homeUrl": "/subjects/454266"
-  },
-  {
-    "title": "36 张图详解网络基础知识",
-    "description": "前言网络协议  我们用手机连接上网的时候，会用到许多网络协议。从手机连接 WiFi 开始，使用的是 802.11 （即 WLAN ）协议，通过 WLAN 接入网络；手机自动获取网络...",
-    "votes": "112",
-    "url": "/k/bjis3t4",
-    "avatar": "https://img.toutiao.io/subject%2F9c7fdde2d20641a59a92e10fd5fe4715",
-    "avatarAlt": "码农StayUp - 独家号",
-    "subjectName": "码农StayUp",
-    "homeUrl": "/subjects/418351"
   },
   {
     "title": "消息队列把消息弄丢了怎么办？",
@@ -150,6 +150,16 @@
     "homeUrl": "/subjects/372612"
   },
   {
+    "title": "2.3 万 Star！直追微软 Visio，这个简洁实用的在线绘图工具必须推荐给你",
+    "description": "【导语】：一款简洁强大的绘图工具，功能上直追 Microsoft Visio。简介 http://Diagrams.net 是一款简洁强大的在线绘图工具，也许读者朋友们没听过这个工...",
+    "votes": "94",
+    "url": "/k/msg8jaf",
+    "avatar": "https://img.toutiao.io/subject%2F92f8abdd29be4693ad1e6c99e5203c1b",
+    "avatarAlt": "开源前哨 - 独家号",
+    "subjectName": "开源前哨",
+    "homeUrl": "/subjects/451797"
+  },
+  {
     "title": "这款远程桌面软件开源了",
     "description": "相信在七八年前，大部分读者都使用 QQ 远程控制电脑。到后面，才接触到一些好用的远程控制产品，比如 Teamviewer、向日葵等。最近，自己装的远程控制产品试用期到了，便想到去 ...",
     "votes": "94",
@@ -170,6 +180,16 @@
     "homeUrl": "/subjects/454266"
   },
   {
+    "title": "Spring Boot 开发秘籍：集成参数校验及高阶技巧",
+    "description": "对于web服务来说，为防止非法参数对业务造成影响，在Controller层一定要对参数进行校验！本章我们以SpringBoot项目为例，介绍参数校验的基本用法以及一些高级技巧，希望...",
+    "votes": "100",
+    "url": "/k/bzx7ri7",
+    "avatar": "https://img.toutiao.io/subject%2F51ad25ebdf8b4a15895a07d5bce2b1e4",
+    "avatarAlt": "JAVA日知录 - 独家号",
+    "subjectName": "JAVA日知录",
+    "homeUrl": "/subjects/205182"
+  },
+  {
     "title": "我把这个软件，推荐给了总监",
     "description": "你好，我是 yes。今天要来安利一款神器！「uTools」。对于我个人而言，它的用处在于：快速翻译备忘录快贴快速查找和打开文件Json 解析时间戳转换todo记录等等等等，还有太多...",
     "votes": "99",
@@ -180,29 +200,9 @@
     "homeUrl": "/subjects/443906"
   },
   {
-    "title": "Spring Boot 开发秘籍：集成参数校验及高阶技巧",
-    "description": "对于web服务来说，为防止非法参数对业务造成影响，在Controller层一定要对参数进行校验！本章我们以SpringBoot项目为例，介绍参数校验的基本用法以及一些高级技巧，希望...",
-    "votes": "99",
-    "url": "/k/bzx7ri7",
-    "avatar": "https://img.toutiao.io/subject%2F51ad25ebdf8b4a15895a07d5bce2b1e4",
-    "avatarAlt": "JAVA日知录 - 独家号",
-    "subjectName": "JAVA日知录",
-    "homeUrl": "/subjects/205182"
-  },
-  {
-    "title": "2.3 万 Star！直追微软 Visio，这个简洁实用的在线绘图工具必须推荐给你",
-    "description": "【导语】：一款简洁强大的绘图工具，功能上直追 Microsoft Visio。简介 http://Diagrams.net 是一款简洁强大的在线绘图工具，也许读者朋友们没听过这个工...",
-    "votes": "84",
-    "url": "/k/msg8jaf",
-    "avatar": "https://img.toutiao.io/subject%2F92f8abdd29be4693ad1e6c99e5203c1b",
-    "avatarAlt": "开源前哨 - 独家号",
-    "subjectName": "开源前哨",
-    "homeUrl": "/subjects/451797"
-  },
-  {
     "title": "高并发、高性能、高可用系统设计经验",
     "description": "知识分享，以技会友。大家好，我是Tom哥。阅读本文大约需要 15 分钟。软件开发通常会提到一个名词 “三高”，即高并发、高性能、高可用。 具体的指标定义，如：高并发方面要求QPS ...",
-    "votes": "83",
+    "votes": "86",
     "url": "/k/ybiw04u",
     "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
     "avatarAlt": "微观技术 - 独家号",
@@ -212,7 +212,7 @@
   {
     "title": "深入源码，深度解析 Java 线程池的实现原理",
     "description": "GitHub 19k Star 的Java工程师成神之路，不来了解一下吗！java 系统的运行归根到底是程序的运行，程序的运行归根到底是代码的执行，代码的执行归根到底是虚拟机的执行...",
-    "votes": "80",
+    "votes": "82",
     "url": "/k/sorcj5w",
     "avatar": "https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e",
     "avatarAlt": "JAVA干货 - 独家号",
@@ -220,33 +220,33 @@
     "homeUrl": "/subjects/51515"
   },
   {
-    "title": "Golang 内存管理分析",
-    "description": "“ golang的内存分析工具怎么用？内存和回收原理，这一篇就够了” 大纲1. 目录2. 由一个问题展开3. 名字说明4. 内存怎么采样？4.1 编译期间逃逸分析4.2 采样的简单...",
-    "votes": "79",
-    "url": "/k/5za3e5u",
-    "avatar": "https://img.toutiao.io/subject%2F519e3c20e3ff4bed893f14e691c3396c",
-    "avatarAlt": "有意思的东东 - 独家号",
-    "subjectName": "有意思的东东",
-    "homeUrl": "/subjects/3681"
-  },
-  {
-    "title": "百亿规模 API 网关服务 Shepherd 的设计与实现",
-    "description": "总第450篇2021年 第020篇在微服务架构下，服务拆分会让API的规模成倍增长，使用API网关来管理API逐渐成为一种趋势。美团统一API网关服务Shepherd就是在这种背景...",
-    "votes": "77",
-    "url": "/k/18gz8ap",
-    "avatar": "https://img.toutiao.io/subject%2F50e9b8208bfd488897fed22d15d9aa0e",
-    "avatarAlt": "美团技术团队 - 独家号",
-    "subjectName": "美团技术团队",
-    "homeUrl": "/subjects/117027"
+    "title": "进程、线程与协程傻傻分不清？一文带你吃透",
+    "description": "前言 欢迎来到操作系统系列，依然采用图解 + 大白话的形式来讲解，让小白也能看懂，帮助大家快速科普入门本篇开始介绍进程、线程、协程，相信很多小白们对这几个概念理解的不清晰，这里全部...",
+    "votes": "91",
+    "url": "/k/cs2cbes",
+    "avatar": "https://img.toutiao.io/subject%2Fbd79d4909e3d49c485bc20d99b91a257",
+    "avatarAlt": "程序猿阿星 - 独家号",
+    "subjectName": "程序猿阿星",
+    "homeUrl": "/subjects/459978"
   },
   {
     "title": "有了这款运维自动化神器，可以抛弃 Ansible 了",
     "description": "△点击上方“Python猫”关注 ，回复“1”领取电子书文末赠书作者：九净来源：NetDevOps加油站背景今天开始一个新的大坑，绝对是巨坑了，给大家安利一款网络运维自动化工具No...",
-    "votes": "76",
+    "votes": "78",
     "url": "/k/d139zzl",
     "avatar": "https://img.toutiao.io/subject%2F9a97933f431d4553ba4a1d1838f48143",
     "avatarAlt": "Python猫技术花园 - 独家号",
     "subjectName": "Python猫技术花园",
     "homeUrl": "/subjects/14371"
+  },
+  {
+    "title": "做一次黑客，入侵一次服务器",
+    "description": "前言前两天刚买了个腾讯服务器(CVM)，这次登陆上去的时候特别卡，通过top发现负载特别高，因为是刚搭建的环境，也没有运行什么应用程序，所以我觉得这有点不正常。我就想着把docke...",
+    "votes": "84",
+    "url": "/k/3tudqnj",
+    "avatar": "https://img.toutiao.io/subject%2Fe38f31f5a0954c88b26818751301da08",
+    "avatarAlt": "入门到放弃之路 - 独家号",
+    "subjectName": "入门到放弃之路",
+    "homeUrl": "/subjects/460144"
   }
 ]
