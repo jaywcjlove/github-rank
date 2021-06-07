@@ -1,29 +1,65 @@
 [
   {
-    "title": "加速 Nginx 响应的 5 个措施！赶紧用…",
-    "description": "通过优化网站，对 HTTP 服务器进行一些小的改动，可以减少用户使用的网络带宽和服务器上的负载，就可以给更多用户提供服务。这里，我们将介绍一些简单但功能强大的配置更改，这些改动操作步骤非常简单，但可以明...",
-    "url": "https://segmentfault.com/a/1190000040126050",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
+    "title": "Android 面试之必问性能优化",
+    "description": "对于Android开发者来说，懂得基本的应用开发技能往往是不够，因为不管是工作还是面试，都需要开发者懂得大量的性能优化，这对提升应用的体验是非常重要的。对于Android开发来说，性能优化主要围绕如下方面展开：...",
+    "url": "https://segmentfault.com/a/1190000040130054",
+    "author": "xiangzhihong",
+    "home_url": "https://segmentfault.com/u/xiangzhihong",
     "votes": "2",
     "rank": 1
   },
   {
-    "title": "Vite 开发插件并生成 .d.ts 类型声明文件",
-    "description": "随着 Vue3 生态的不断扩展与日渐成熟，Vue3 已从最开始的尝鲜阶段步入到投入生产项目中。随之而来的还有开发脚手架的更新换代，全新的 Vite 脚手架，基于 esbuild 利用 go 语言的性能优势，相较 Webpack 有着不在...",
-    "url": "https://segmentfault.com/a/1190000040127796",
-    "author": "未觉雨声",
-    "home_url": "https://segmentfault.com/u/weijueyusheng",
-    "votes": "1",
+    "title": "聊聊Svelte.js技术它做了什么以及如何实现的(下)",
+    "description": "聊聊Svelte.js技术它做了什么以及如何实现的(下)一. 循环语句     循环渲染这个我们肯定是离不开了, Svelte.js给我们提供了有趣的书写方式。 {代码...}      虽然Svelte.js没有虚拟dom, 但是循环的时候也需要key,...",
+    "url": "https://segmentfault.com/a/1190000040129854",
+    "author": "lulu_up",
+    "home_url": "https://segmentfault.com/u/lulu_up",
+    "votes": "3",
     "rank": 2
   },
   {
-    "title": "kafka源码学习：KafkaApis-LEADER_AND_ISR",
-    "description": "​ 每当controller发生状态变更时，都会通过调用sendRequestsToBrokers方法发送leaderAndIsrRequest请求，本文主要介绍kafka服务端处理该请求的逻辑和过程。",
-    "url": "https://segmentfault.com/a/1190000040127575",
-    "author": "小兵",
-    "home_url": "https://segmentfault.com/u/xiaobing_5b8f48ad691c3",
+    "title": "一文看懂JVM内存区域分布与作用",
+    "description": "那么我们在开始介绍Java内存区域之前，我们先放一张内存区域的图，方便我们后面介绍的时候可以对照着看。须知，本文是根据JDK8来介绍的。程序计数器首先它是线程私有的，它也称为代码的行号指示器，字节码解释器...",
+    "url": "https://segmentfault.com/a/1190000040129211",
+    "author": "bingfeng",
+    "home_url": "https://segmentfault.com/u/xiaotao_5c2cdb80411ca",
     "votes": "1",
     "rank": 3
+  },
+  {
+    "title": "聊聊 Redis 的过期键删除策略",
+    "description": "Redis 中都是键值对的存储形式，键都是字符串类型的，而值有很多种类型，如 string、list、hash、set、sorted set等类型。当设置键值对时我们还应该为其设置过期时间，通过 expire 以及 pexpire 命令；还可以通过...",
+    "url": "https://segmentfault.com/a/1190000040130962",
+    "author": "蘑菇睡不着",
+    "home_url": "https://segmentfault.com/u/yang_60ad0ec84ad57",
+    "votes": "1",
+    "rank": 4
+  },
+  {
+    "title": "[JS] 异步事件及promise运行机制探究",
+    "description": "宏任务1、新程序或子程序被直接执行，如<script>标签里的代码是程序被直接执行，控制台写代码也算程序直接执行。2、事件的回调函数，如onClick, onKeyup的回调函数。3、setTimeout()和setInterval()里面的...",
+    "url": "https://segmentfault.com/a/1190000040130691",
+    "author": "DiracKeeko",
+    "home_url": "https://segmentfault.com/u/dirackeeko",
+    "votes": "1",
+    "rank": 5
+  },
+  {
+    "title": "tiny-react助你看懂react源码",
+    "description": "tiny-react是一个为了简化react源码学习的库，和react17的区别就是少了很多功能，只实现了核心的逻辑，和preact这种react-like库有着根本区别,preact更像是一个和react有着相同的接口但是实现细节却不尽相同的rea...",
+    "url": "https://segmentfault.com/a/1190000040129685",
+    "author": "jsdeferred",
+    "home_url": "https://segmentfault.com/u/jsdeferred_5e8550229f194",
+    "votes": "1",
+    "rank": 6
+  },
+  {
+    "title": "主流分布式文件系统对比",
+    "description": "分布式文件系统是分布式领域的一个基础应用，其中最著名的毫无疑问是 HDFS/GFS。如今该领域已经趋向于成熟，但了解它的设计要点和思想，对我们将来面临类似场景/问题时，具有借鉴意义。",
+    "url": "https://segmentfault.com/a/1190000040129378",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "1",
+    "rank": 7
   }
 ]

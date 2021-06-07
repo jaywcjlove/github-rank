@@ -2,7 +2,7 @@
   {
     "title": "亿级系统的 Redis 缓存如何设计？",
     "description": "知识分享，以技会友。大家好，我是Tom哥。阅读本文大约需要 15 分钟。缓存设计可谓老生常谈了，早些时候都是采用memcache，现在大家更多倾向使用redis，除了知晓常用的数据...",
-    "votes": "241",
+    "votes": "242",
     "url": "/k/ep5e8sd",
     "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
     "avatarAlt": "微观技术 - 独家号",
@@ -52,7 +52,7 @@
   {
     "title": "万级并发：电商库存扣减如何设计？不超卖",
     "description": "随着中国消费认知的不断升级，网购走近千家万户，越来越被人们所接受。淘宝、唯品会、考拉、京东、拼多多等逐渐成为我们生活的重要组成部分。除了常规的购物下单外，这些电商平台还经常搞一些双...",
-    "votes": "217",
+    "votes": "218",
     "url": "/k/1nwsx5k",
     "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
     "avatarAlt": "微观技术 - 独家号",
@@ -70,6 +70,16 @@
     "homeUrl": "/subjects/454266"
   },
   {
+    "title": "架构师图谱（上篇）",
+    "description": "1. 概述“架构师图谱”是一个很宏大的命题，特别是优秀的架构师自身也是“由点到面再到图”，一点点成长积累起来，尝试写这篇文章的目的更多的是结合自身的一些架构、研发、管理经验对现阶段...",
+    "votes": "197",
+    "url": "/k/xha1t37",
+    "avatar": "https://img.toutiao.io/user/dbc9de4e98fd4d27a4d938b77f9304fc/thumb",
+    "avatarAlt": "小笙_的独家号 - 独家号",
+    "subjectName": "小笙_的独家号",
+    "homeUrl": "/subjects/278262"
+  },
+  {
     "title": "你对天天挂在嘴边的高并发，怕是有什么误解吧？",
     "description": "高并发，几乎是每个程序员都想拥有的经验。原因很简单：随着流量变大，会遇到各种各样的技术问题，比如接口响应超时、CPU load升高、GC频繁、死锁、大数据量存储等等，这些问题能推动...",
     "votes": "207",
@@ -78,16 +88,6 @@
     "avatarAlt": "Bloomingroses - 独家号",
     "subjectName": "Bloomingroses",
     "homeUrl": "/subjects/98777"
-  },
-  {
-    "title": "架构师图谱（上篇）",
-    "description": "1. 概述“架构师图谱”是一个很宏大的命题，特别是优秀的架构师自身也是“由点到面再到图”，一点点成长积累起来，尝试写这篇文章的目的更多的是结合自身的一些架构、研发、管理经验对现阶段...",
-    "votes": "190",
-    "url": "/k/xha1t37",
-    "avatar": "https://img.toutiao.io/user/dbc9de4e98fd4d27a4d938b77f9304fc/thumb",
-    "avatarAlt": "小笙_的独家号 - 独家号",
-    "subjectName": "小笙_的独家号",
-    "homeUrl": "/subjects/278262"
   },
   {
     "title": "Redis 不是一直号称单线程效率也很高吗，为什么又采用多线程了？",
@@ -102,7 +102,7 @@
   {
     "title": "各厂三年 Go 面经，已入字节",
     "description": "作者：内推欢迎来撩链接：https://www.nowcoder.com/discuss/662296?source=rss#at来源：牛客网常见面试问题记录  包含的公司：映客、...",
-    "votes": "195",
+    "votes": "196",
     "url": "/k/5u1byn9",
     "avatar": "https://img.toutiao.io/subject%2F31015016fbbd4abd93b2e259aa945de5",
     "avatarAlt": "牛客网精华贴 - 独家号",
@@ -112,7 +112,7 @@
   {
     "title": "25 张图，一万字，拆解 Linux 网络包发送过程",
     "description": "在开始今天的文章之前，我先来请大家思考几个小问题。问1：我们在查看内核发送数据消耗的 CPU 时，是应该看 sy 还是 si ？问2：为什么你服务器上的 /proc/softirq...",
-    "votes": "180",
+    "votes": "186",
     "url": "/k/z26byeu",
     "avatar": "https://img.toutiao.io/subject%2F001f8de223174684862d4c9e6c752cc7",
     "avatarAlt": "PHPER—>架构 - 独家号",
@@ -122,7 +122,7 @@
   {
     "title": "吊炸天的 Docker 图形化工具 Portainer，必须推荐给你",
     "description": "之前操作Docker的时候，一直使用的是命令行的形式。命令行虽说看起来挺炫酷，但有时候还是挺麻烦的。今天给大家推荐一个Docker图形化工具Portainer，轻量级又好用，希望对...",
-    "votes": "171",
+    "votes": "172",
     "url": "/k/ca8fe6d",
     "avatar": "https://img.toutiao.io/subject%2F92f8abdd29be4693ad1e6c99e5203c1b",
     "avatarAlt": "开源前哨 - 独家号",
@@ -160,6 +160,16 @@
     "homeUrl": "/subjects/453205"
   },
   {
+    "title": "其实，每次面试的问题都逃不过这几方面",
+    "description": "你好， 我是 yes。因为最近在主攻的面试方面的文章。自己在网上翻阅了很多面经，也建立了面试题交流群（想入群的私我）。所以看了很多真实的、新鲜的面试题。再结合下自己的面试经历、自己...",
+    "votes": "160",
+    "url": "/k/hti1ill",
+    "avatar": "https://img.toutiao.io/subject%2F71da457007fd4b67a45253b271a25eee",
+    "avatarAlt": "yes的练级攻略 - 独家号",
+    "subjectName": "yes的练级攻略",
+    "homeUrl": "/subjects/443906"
+  },
+  {
     "title": "掌门 MySQL 数据库规约落地及优化实战",
     "description": " 前言MySQL 数据库承载了掌门绝大部分核心业务的数据存储，因此 MySQL 数据库的稳定运行至关重要。DBA 团队一直致力于保障数据库环境的平稳运行，编写有掌门 MySQL 数...",
     "votes": "163",
@@ -168,16 +178,6 @@
     "avatarAlt": "ASCE1885 - 独家号",
     "subjectName": "ASCE1885",
     "homeUrl": "/subjects/4829"
-  },
-  {
-    "title": "其实，每次面试的问题都逃不过这几方面",
-    "description": "你好， 我是 yes。因为最近在主攻的面试方面的文章。自己在网上翻阅了很多面经，也建立了面试题交流群（想入群的私我）。所以看了很多真实的、新鲜的面试题。再结合下自己的面试经历、自己...",
-    "votes": "159",
-    "url": "/k/hti1ill",
-    "avatar": "https://img.toutiao.io/subject%2F71da457007fd4b67a45253b271a25eee",
-    "avatarAlt": "yes的练级攻略 - 独家号",
-    "subjectName": "yes的练级攻略",
-    "homeUrl": "/subjects/443906"
   },
   {
     "title": "我在架构设计和代码开发中的一些常用原则",
@@ -242,7 +242,7 @@
   {
     "title": "RabbitMQ、Kafka、RocketMQ 是如何实现高可用的？",
     "description": "本文从高可用的角度观察一下 RabbitMQ、Kafka、RocketMQ，看看它们各自的实现思路。1. RabbitMQRabbitMQ 有 3 种部署模式：单机模式普通集群模式...",
-    "votes": "130",
+    "votes": "131",
     "url": "/k/2tnj5np",
     "avatar": "https://img.toutiao.io/subject%2F34a8080276c94c04a9660da45c688190",
     "avatarAlt": "性能与架构 - 独家号",
