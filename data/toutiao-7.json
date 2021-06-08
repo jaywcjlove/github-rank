@@ -1,18 +1,8 @@
 [
   {
-    "title": "架构师图谱（上篇）",
-    "description": "1. 概述“架构师图谱”是一个很宏大的命题，特别是优秀的架构师自身也是“由点到面再到图”，一点点成长积累起来，尝试写这篇文章的目的更多的是结合自身的一些架构、研发、管理经验对现阶段...",
-    "votes": "197",
-    "url": "/k/xha1t37",
-    "avatar": "https://img.toutiao.io/user/dbc9de4e98fd4d27a4d938b77f9304fc/thumb",
-    "avatarAlt": "小笙_的独家号 - 独家号",
-    "subjectName": "小笙_的独家号",
-    "homeUrl": "/subjects/278262"
-  },
-  {
     "title": "2.3 万 Star！直追微软 Visio，这个简洁实用的在线绘图工具必须推荐给你",
     "description": "【导语】：一款简洁强大的绘图工具，功能上直追 Microsoft Visio。简介 http://Diagrams.net 是一款简洁强大的在线绘图工具，也许读者朋友们没听过这个工...",
-    "votes": "98",
+    "votes": "103",
     "url": "/k/msg8jaf",
     "avatar": "https://img.toutiao.io/subject%2F92f8abdd29be4693ad1e6c99e5203c1b",
     "avatarAlt": "开源前哨 - 独家号",
@@ -22,7 +12,7 @@
   {
     "title": "网络连接存在大量 time_wait 和 close_wait 的原因以及解决方法",
     "description": "如果对tcp中的握手挥手不了解的同学，请先看这篇博客：《关于三次握手与四次挥手你要知道这些》。 四次挥手过程：第一次挥手：主机A（可以是客户端，也可以是服务器端），设置Sequen...",
-    "votes": "86",
+    "votes": "105",
     "url": "/k/b9vlrcu",
     "avatar": "https://img.toutiao.io/subject%2F85512c92aa814f468f6b429b6eb70ba8",
     "avatarAlt": "服务器后端开发 - 独家号",
@@ -30,19 +20,19 @@
     "homeUrl": "/subjects/375484"
   },
   {
-    "title": "10 问 10 答：你真的了解线程池吗？",
-    "description": "《Java开发手册》中强调，线程资源必须通过线程池提供，而创建线程池必须使用ThreadPoolExecutor。手册主要强调利用线程池避免两个问题，一是线程过渡切换，二是避免请求...",
-    "votes": "84",
-    "url": "/k/b70jpzu",
-    "avatar": "https://img.toutiao.io/subject%2Fb9c73f469a224f428fa995bb6d0b7d9e",
-    "avatarAlt": "码小生 - 独家号",
-    "subjectName": "码小生",
-    "homeUrl": "/subjects/97644"
+    "title": "Linux 调度系统全景指南（终结篇）",
+    "description": "| 导语本文主要是讲Linux的调度系统, 本篇是终结篇，主要讲当前多核系统调度策略和调度优化，调度可以说是操作系统的灵魂，为了让CPU资源利用最大化，Linux设计了一套非常精细...",
+    "votes": "77",
+    "url": "/k/ow2rhiz",
+    "avatar": "https://img.toutiao.io/subject%2F17c0544998e140628615896d2fc161b8",
+    "avatarAlt": "雨后天空的独家号 - 独家号",
+    "subjectName": "雨后天空的独家号",
+    "homeUrl": "/subjects/382106"
   },
   {
     "title": "Spring Boot 在 K8s 下实现优雅停机",
     "description": " 在K8s中，当我们实现滚动升级之前，务必要实现应用级别的优雅停机。否则滚动升级时，还是会影响到业务。本文介绍SpringBoot应用实现优雅停机。此次教程基于SpringBoot...",
-    "votes": "66",
+    "votes": "68",
     "url": "/k/6tcdyp9",
     "avatar": "https://img.toutiao.io/subject%2Fcadea37d81e5498fa35c8382270dbb95",
     "avatarAlt": "持续交付实践指南 - 独家号",
@@ -52,7 +42,7 @@
   {
     "title": "惊！这个 Go 开源项目号称「不改一行代码做秒杀」",
     "description": "阅读本文大概需要 2 分钟。 大家好，我是 polarisxu。看到耗子叔发推文推荐了一个新开源的网关：Easegress。 打开看了下，这是一个 Go 语言实现的开源项目。它有如...",
-    "votes": "66",
+    "votes": "73",
     "url": "/k/qnyxbs9",
     "avatar": "https://img.toutiao.io/subject%2F001f8de223174684862d4c9e6c752cc7",
     "avatarAlt": "PHPER—>架构 - 独家号",
@@ -60,29 +50,19 @@
     "homeUrl": "/subjects/25390"
   },
   {
-    "title": "Linux 调度系统全景指南（终结篇）",
-    "description": "| 导语本文主要是讲Linux的调度系统, 本篇是终结篇，主要讲当前多核系统调度策略和调度优化，调度可以说是操作系统的灵魂，为了让CPU资源利用最大化，Linux设计了一套非常精细...",
-    "votes": "59",
-    "url": "/k/ow2rhiz",
-    "avatar": "https://img.toutiao.io/subject%2F17c0544998e140628615896d2fc161b8",
-    "avatarAlt": "雨后天空的独家号 - 独家号",
-    "subjectName": "雨后天空的独家号",
-    "homeUrl": "/subjects/382106"
-  },
-  {
-    "title": "搜狗面试题：IO 多路复用之 select、poll、epoll 的区别",
-    "description": "I/O多路复用（multiplexing）的本质是通过一种机制（系统内核缓冲I/O数据），让单个进程可以监视多个文件描述符，一旦某个描述符就绪（一般是读就绪或写就绪），能够通知程序...",
-    "votes": "54",
-    "url": "/k/d6e55fr",
-    "avatar": "https://img.toutiao.io/subject%2F445f12f30e3940b2b52eac3d48d07389",
-    "avatarAlt": "搬运工来架构 - 独家号",
-    "subjectName": "搬运工来架构",
-    "homeUrl": "/subjects/176399"
+    "title": "一文理解 Java 中的 SPI 机制",
+    "description": "SPI机制简介服务提供者接口（Service Provider Interface，简写为SPI）是JDK内置的一种服务提供发现机制。可以用来加载框架扩展和替换组件，主要是被框架的...",
+    "votes": "58",
+    "url": "/k/3xscqep",
+    "avatar": "https://img.toutiao.io/subject%2F85512c92aa814f468f6b429b6eb70ba8",
+    "avatarAlt": "服务器后端开发 - 独家号",
+    "subjectName": "服务器后端开发",
+    "homeUrl": "/subjects/375484"
   },
   {
     "title": "Redis 存储对象信息是用 Hash 还是 String",
     "description": "Redis 内部使用一个 RedisObject 对象来表示所有的 key 和 value，RedisObject 中的 type，则是代表一个 value 对象具体是何种数据类型...",
-    "votes": "55",
+    "votes": "62",
     "url": "/k/2rcud9q",
     "avatar": "https://img.toutiao.io/subject%2F4f9b8a1b9ad34bf3b815671f8461ff25",
     "avatarAlt": "又拍云 - 独家号",
@@ -102,7 +82,7 @@
   {
     "title": "JavaScript 中如何实现大文件并发上传？",
     "description": "在 JavaScript 中如何实现并发控制？ 这篇文章中，阿宝哥详细分析了 async-pool 这个库如何利用Promise.all和Promise.race函数实现异步任务的...",
-    "votes": "44",
+    "votes": "45",
     "url": "/k/pp7infh",
     "avatar": "https://img.toutiao.io/subject%2F9cd866310cd142e1bfd7caf648a0f2cd",
     "avatarAlt": "全栈修仙之路 - 独家号",
@@ -112,7 +92,7 @@
   {
     "title": "玩转直播系列之消息模块演进（三）",
     "description": "作者：vivo互联网技术-LinDu、Li Guolin一、背景即时消息(IM)系统是直播系统重要的组成部分，一个稳定的，有容错的，灵活的，支持高并发的消息模块是影响直播系统用户体...",
-    "votes": "38",
+    "votes": "43",
     "url": "/k/2deq8i8",
     "avatar": "https://img.toutiao.io/subject%2F8adc26cdcf7d45f4a73580f3be4285f2",
     "avatarAlt": "vivo互联网技术 - 独家号",
@@ -122,7 +102,7 @@
   {
     "title": "微服务快速开发框架",
     "description": "JPower只是刚起步，很多功能还在开发中敬请期待......JPower 简介JPower是由一款政府商业项目升级优化而来。采用前后端分离的模式，前端开源项目：jpower-ui...",
-    "votes": "39",
+    "votes": "43",
     "url": "/k/vnu4ffo",
     "avatar": "https://img.toutiao.io/subject%2F1e9f205aac9c4c68b33b32f650b72a0c",
     "avatarAlt": "mr.g_jpower - 独家号",
@@ -132,7 +112,7 @@
   {
     "title": "一文理解 JVM 线程属于用户态还是内核态",
     "description": "Linux操作系统的体系架构分为用户态和内核态（或者用户空间和内核）。 用户态与内核态内核从本质上看是一种软件——控制计算机的硬件资源，并提供上层应用程序运行的环境。用户态即上层应...",
-    "votes": "38",
+    "votes": "42",
     "url": "/k/gfo3iba",
     "avatar": "https://img.toutiao.io/subject%2F85512c92aa814f468f6b429b6eb70ba8",
     "avatarAlt": "服务器后端开发 - 独家号",
@@ -142,7 +122,7 @@
   {
     "title": "Spring 优雅注册 Bean 的方式",
     "description": "1、Spring 注册 Bean这篇先说明用法，下篇分析以下场景是如何将 Bean 注册进 IOC容器的。1.1、使用 @Bean 注解这种用法在项目中是非常常见的，基本上是必有。...",
-    "votes": "37",
+    "votes": "40",
     "url": "/k/7ikzqin",
     "avatar": "https://img.toutiao.io/subject%2Fe2ed59b98320405bbcd08ae53a4eff80",
     "avatarAlt": "简迅云 - 独家号",
@@ -150,14 +130,34 @@
     "homeUrl": "/subjects/460265"
   },
   {
-    "title": "消息队列解耦是骗小孩儿的",
-    "description": "有一个观点已经被说烂了：使用 MQ 可以帮助业务系统解耦。想法很简单，在业务状态流转时，如果没有 MQ，那么其它系统想要知道状态变了，那就需要核心流程系统去主动做通知。比如电商系统...",
-    "votes": "34",
-    "url": "/k/szkr8sy",
-    "avatar": "https://img.toutiao.io/user/8ceac00d29e7482c84e79b9fb248fefc/thumb",
-    "avatarAlt": "Xargin - 独家号",
-    "subjectName": "Xargin",
-    "homeUrl": "/subjects/346278"
+    "title": "一起玩 dubbo，万字长文揭秘服务暴露",
+    "description": "日常写组件，最近又接了一个需求，让我负责实现一个rpc组件，提高公司游戏跨服开发的效率，为了写好这个组件，算是将dubbo里里外外研究了一波，目前组件的实现也接近尾声了，因此打算给...",
+    "votes": "33",
+    "url": "/k/yrznu58",
+    "avatar": "https://img.toutiao.io/subject%2F8e12ef64799649acbfd936883ef16c3c",
+    "avatarAlt": "服务架构及中台 - 独家号",
+    "subjectName": "服务架构及中台",
+    "homeUrl": "/subjects/26578"
+  },
+  {
+    "title": "微服务拆分之道",
+    "description": "背景ALIWARE微服务在最近几年大行其道，很多公司的研发人员都在考虑微服务架构，同时，随着 Docker 容器技术和自动化运维等相关技术发展，微服务变得更容易管理，这给了微服务架...",
+    "votes": "32",
+    "url": "/k/mr1knwm",
+    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
+    "avatarAlt": "ASCE1885 - 独家号",
+    "subjectName": "ASCE1885",
+    "homeUrl": "/subjects/4829"
+  },
+  {
+    "title": "读写锁为什么那么快?（二）",
+    "description": "版权声明 本站原创文章 由 萌叔 发表转载请注明 萌叔 | http://vearne.cc1.前言在上一篇文章中，萌叔探讨了读写锁提高程序性能的原因。这一篇文章，萌叔将聊聊读写锁...",
+    "votes": "32",
+    "url": "/k/do1s28r",
+    "avatar": "https://img.toutiao.io/subject%2F7c016973c0bb4e13a28ab338153e7d12",
+    "avatarAlt": "萌叔 - 独家号",
+    "subjectName": "萌叔",
+    "homeUrl": "/subjects/334598"
   },
   {
     "title": "Mybatis-Plus 的应用场景及注入 SQL 原理分析",
@@ -180,23 +180,23 @@
     "homeUrl": "/subjects/452638"
   },
   {
-    "title": "读写锁为什么那么快?（二）",
-    "description": "版权声明 本站原创文章 由 萌叔 发表转载请注明 萌叔 | http://vearne.cc1.前言在上一篇文章中，萌叔探讨了读写锁提高程序性能的原因。这一篇文章，萌叔将聊聊读写锁...",
-    "votes": "30",
-    "url": "/k/do1s28r",
-    "avatar": "https://img.toutiao.io/subject%2F7c016973c0bb4e13a28ab338153e7d12",
-    "avatarAlt": "萌叔 - 独家号",
-    "subjectName": "萌叔",
-    "homeUrl": "/subjects/334598"
-  },
-  {
     "title": "分布式链路跟踪中的 traceid 和 spanid 代表什么？",
     "description": "在分布式服务架构下，一个 Web 请求从网关流入，有可能会调用多个服务对请求进行处理，拿到最终结果。这个过程中每个服务之间的通信又是单独的网络请求，无论请求经过的哪个服务出了故障或...",
-    "votes": "30",
+    "votes": "31",
     "url": "/k/et43dwl",
     "avatar": "https://img.toutiao.io/subject%2F5a80999e5b844812b72eedbc7f5fb5be",
     "avatarAlt": "网管叨bi叨 - 独家号",
     "subjectName": "网管叨bi叨",
     "homeUrl": "/subjects/437466"
+  },
+  {
+    "title": "如何设计 API 接口，实现统一格式返回？",
+    "description": "文章目录：前后端接口交互接口返回值约定返回值规范正确返回错误返回统一定义错误码错误码规范Controller 层如何用？正确返回错误返回详细代码实现错误码Controller总结问...",
+    "votes": "29",
+    "url": "/k/50n24x9",
+    "avatar": "https://img.toutiao.io/subject%2Fbf13817488764502ae746a0a4798478d",
+    "avatarAlt": "新亮笔记 - 独家号",
+    "subjectName": "新亮笔记",
+    "homeUrl": "/subjects/135111"
   }
 ]
