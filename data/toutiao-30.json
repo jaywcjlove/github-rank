@@ -2,7 +2,7 @@
   {
     "title": "亿级系统的 Redis 缓存如何设计？",
     "description": "知识分享，以技会友。大家好，我是Tom哥。阅读本文大约需要 15 分钟。缓存设计可谓老生常谈了，早些时候都是采用memcache，现在大家更多倾向使用redis，除了知晓常用的数据...",
-    "votes": "243",
+    "votes": "245",
     "url": "/k/ep5e8sd",
     "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
     "avatarAlt": "微观技术 - 独家号",
@@ -12,7 +12,7 @@
   {
     "title": "架构师图谱（上篇）",
     "description": "1. 概述“架构师图谱”是一个很宏大的命题，特别是优秀的架构师自身也是“由点到面再到图”，一点点成长积累起来，尝试写这篇文章的目的更多的是结合自身的一些架构、研发、管理经验对现阶段...",
-    "votes": "218",
+    "votes": "225",
     "url": "/k/xha1t37",
     "avatar": "https://img.toutiao.io/user/dbc9de4e98fd4d27a4d938b77f9304fc/thumb",
     "avatarAlt": "小笙_的独家号 - 独家号",
@@ -22,7 +22,7 @@
   {
     "title": "日订单量达到 100 万单后，我们做了订单中心重构",
     "description": "作者简介：曾任职于阿里巴巴，每日优鲜等互联网公司，任技术总监。最近很多读者朋友留言，希望“二马”多写一些实际工作经历以及工作中遇到的问题和技术解决方案。应大家要求，本文介绍一次订单...",
-    "votes": "211",
+    "votes": "213",
     "url": "/k/0hjw87u",
     "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
     "avatarAlt": "Bloomingroses - 独家号",
@@ -32,7 +32,7 @@
   {
     "title": "各厂三年 Go 面经，已入字节",
     "description": "作者：内推欢迎来撩链接：https://www.nowcoder.com/discuss/662296?source=rss#at来源：牛客网常见面试问题记录  包含的公司：映客、...",
-    "votes": "200",
+    "votes": "203",
     "url": "/k/5u1byn9",
     "avatar": "https://img.toutiao.io/subject%2F31015016fbbd4abd93b2e259aa945de5",
     "avatarAlt": "牛客网精华贴 - 独家号",
@@ -42,7 +42,7 @@
   {
     "title": "25 张图，一万字，拆解 Linux 网络包发送过程",
     "description": "在开始今天的文章之前，我先来请大家思考几个小问题。问1：我们在查看内核发送数据消耗的 CPU 时，是应该看 sy 还是 si ？问2：为什么你服务器上的 /proc/softirq...",
-    "votes": "190",
+    "votes": "192",
     "url": "/k/z26byeu",
     "avatar": "https://img.toutiao.io/subject%2F001f8de223174684862d4c9e6c752cc7",
     "avatarAlt": "PHPER—>架构 - 独家号",
@@ -50,19 +50,9 @@
     "homeUrl": "/subjects/25390"
   },
   {
-    "title": "吊炸天的 Docker 图形化工具 Portainer，必须推荐给你",
-    "description": "之前操作Docker的时候，一直使用的是命令行的形式。命令行虽说看起来挺炫酷，但有时候还是挺麻烦的。今天给大家推荐一个Docker图形化工具Portainer，轻量级又好用，希望对...",
-    "votes": "172",
-    "url": "/k/ca8fe6d",
-    "avatar": "https://img.toutiao.io/subject%2F92f8abdd29be4693ad1e6c99e5203c1b",
-    "avatarAlt": "开源前哨 - 独家号",
-    "subjectName": "开源前哨",
-    "homeUrl": "/subjects/451797"
-  },
-  {
     "title": "掌门 MySQL 数据库规约落地及优化实战",
     "description": " 前言MySQL 数据库承载了掌门绝大部分核心业务的数据存储，因此 MySQL 数据库的稳定运行至关重要。DBA 团队一直致力于保障数据库环境的平稳运行，编写有掌门 MySQL 数...",
-    "votes": "164",
+    "votes": "165",
     "url": "/k/s8xgae9",
     "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
     "avatarAlt": "ASCE1885 - 独家号",
@@ -70,19 +60,29 @@
     "homeUrl": "/subjects/4829"
   },
   {
-    "title": "RabbitMQ、Kafka、RocketMQ 是如何实现高可用的？",
-    "description": "本文从高可用的角度观察一下 RabbitMQ、Kafka、RocketMQ，看看它们各自的实现思路。1. RabbitMQRabbitMQ 有 3 种部署模式：单机模式普通集群模式...",
-    "votes": "131",
-    "url": "/k/2tnj5np",
-    "avatar": "https://img.toutiao.io/subject%2F34a8080276c94c04a9660da45c688190",
-    "avatarAlt": "性能与架构 - 独家号",
-    "subjectName": "性能与架构",
-    "homeUrl": "/subjects/429228"
+    "title": "网络连接存在大量 time_wait 和 close_wait 的原因以及解决方法",
+    "description": "如果对tcp中的握手挥手不了解的同学，请先看这篇博客：《关于三次握手与四次挥手你要知道这些》。 四次挥手过程：第一次挥手：主机A（可以是客户端，也可以是服务器端），设置Sequen...",
+    "votes": "121",
+    "url": "/k/b9vlrcu",
+    "avatar": "https://img.toutiao.io/subject%2F85512c92aa814f468f6b429b6eb70ba8",
+    "avatarAlt": "服务器后端开发 - 独家号",
+    "subjectName": "服务器后端开发",
+    "homeUrl": "/subjects/375484"
+  },
+  {
+    "title": "2.3 万 Star！直追微软 Visio，这个简洁实用的在线绘图工具必须推荐给你",
+    "description": "【导语】：一款简洁强大的绘图工具，功能上直追 Microsoft Visio。简介 http://Diagrams.net 是一款简洁强大的在线绘图工具，也许读者朋友们没听过这个工...",
+    "votes": "112",
+    "url": "/k/msg8jaf",
+    "avatar": "https://img.toutiao.io/subject%2F92f8abdd29be4693ad1e6c99e5203c1b",
+    "avatarAlt": "开源前哨 - 独家号",
+    "subjectName": "开源前哨",
+    "homeUrl": "/subjects/451797"
   },
   {
     "title": "“三次握手，四次挥手” 这么讲，保证你忘不了",
     "description": "TCP三次握手、四次挥手，在面试这锅滚油里，可谓是炸了千百遍的老油条。老油条我们都知道TCP是面向连接的，三次握手就是用来建立连接的，四次握手就是用来断开连接的。三次握手 先上图：...",
-    "votes": "120",
+    "votes": "121",
     "url": "/k/ngx4og0",
     "avatar": "https://img.toutiao.io/subject%2F785b9391ccd74d88bfc5ccd391fb4365",
     "avatarAlt": "三分恶 - 独家号",
@@ -92,7 +92,7 @@
   {
     "title": "36 张图详解网络基础知识",
     "description": "前言网络协议  我们用手机连接上网的时候，会用到许多网络协议。从手机连接 WiFi 开始，使用的是 802.11 （即 WLAN ）协议，通过 WLAN 接入网络；手机自动获取网络...",
-    "votes": "113",
+    "votes": "114",
     "url": "/k/bjis3t4",
     "avatar": "https://img.toutiao.io/subject%2F9c7fdde2d20641a59a92e10fd5fe4715",
     "avatarAlt": "码农StayUp - 独家号",
@@ -102,7 +102,7 @@
   {
     "title": "消息队列把消息弄丢了怎么办？",
     "description": "消息队列会丢失消息吗？答案是肯定的，所以对于业务严谨的数据，我们要确保其在消息队列中的安全，不能丢。要想解决不丢的问题，首先要弄清楚 消息是怎么丢的呢？丢消息的关键点有3个：Pro...",
-    "votes": "115",
+    "votes": "116",
     "url": "/k/w8wyj2e",
     "avatar": "https://img.toutiao.io/subject%2F34a8080276c94c04a9660da45c688190",
     "avatarAlt": "性能与架构 - 独家号",
@@ -110,29 +110,9 @@
     "homeUrl": "/subjects/429228"
   },
   {
-    "title": "2.3 万 Star！直追微软 Visio，这个简洁实用的在线绘图工具必须推荐给你",
-    "description": "【导语】：一款简洁强大的绘图工具，功能上直追 Microsoft Visio。简介 http://Diagrams.net 是一款简洁强大的在线绘图工具，也许读者朋友们没听过这个工...",
-    "votes": "107",
-    "url": "/k/msg8jaf",
-    "avatar": "https://img.toutiao.io/subject%2F92f8abdd29be4693ad1e6c99e5203c1b",
-    "avatarAlt": "开源前哨 - 独家号",
-    "subjectName": "开源前哨",
-    "homeUrl": "/subjects/451797"
-  },
-  {
-    "title": "网络连接存在大量 time_wait 和 close_wait 的原因以及解决方法",
-    "description": "如果对tcp中的握手挥手不了解的同学，请先看这篇博客：《关于三次握手与四次挥手你要知道这些》。 四次挥手过程：第一次挥手：主机A（可以是客户端，也可以是服务器端），设置Sequen...",
-    "votes": "111",
-    "url": "/k/b9vlrcu",
-    "avatar": "https://img.toutiao.io/subject%2F85512c92aa814f468f6b429b6eb70ba8",
-    "avatarAlt": "服务器后端开发 - 独家号",
-    "subjectName": "服务器后端开发",
-    "homeUrl": "/subjects/375484"
-  },
-  {
     "title": "企业微信万亿级日志检索系统",
     "description": " 作者：datonli，腾讯 WXG 后台开发工程师背景 开发在定位问题时需要查找日志，但企业微信业务模块日志存储在本机磁盘，这会造成以下问题：日志查找效率低下：一次用户请求涉及近...",
-    "votes": "106",
+    "votes": "107",
     "url": "/k/t1o49fm",
     "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
     "avatarAlt": "ASCE1885 - 独家号",
@@ -142,7 +122,7 @@
   {
     "title": "这个 GitHub 项目能克隆你的声音",
     "description": "今天推荐一个黑科技开源项目，只需要你 5 秒钟的声音对话，就能克隆出你的声音，而且能够实时的生成你任意语音。是不是很顶？我觉个例子，如果我这里有 300 条你说话的语音，我把你的语...",
-    "votes": "99",
+    "votes": "100",
     "url": "/k/3byclqk",
     "avatar": "https://img.toutiao.io/subject%2F03e210e126704d0ca23938746bbd4cec",
     "avatarAlt": "近半生少年 - 独家号",
@@ -152,7 +132,7 @@
   {
     "title": "这款远程桌面软件开源了",
     "description": "相信在七八年前，大部分读者都使用 QQ 远程控制电脑。到后面，才接触到一些好用的远程控制产品，比如 Teamviewer、向日葵等。最近，自己装的远程控制产品试用期到了，便想到去 ...",
-    "votes": "95",
+    "votes": "96",
     "url": "/k/osge9c2",
     "avatar": "https://img.toutiao.io/subject%2F03e210e126704d0ca23938746bbd4cec",
     "avatarAlt": "近半生少年 - 独家号",
@@ -162,7 +142,7 @@
   {
     "title": "高并发，我把握不住啊",
     "description": "慎入，作者高并发搞得少（没搞过），这里面水太深，什么高并发，大流量的东西都是虚拟的，作者还太年轻，没有那个经历，把握不住。系统只有几QPS，开心快乐就行，不PK，文明PK。高并发，...",
-    "votes": "98",
+    "votes": "99",
     "url": "/k/wa52n1g",
     "avatar": "https://img.toutiao.io/subject%2F785b9391ccd74d88bfc5ccd391fb4365",
     "avatarAlt": "三分恶 - 独家号",
@@ -182,7 +162,7 @@
   {
     "title": "Spring Boot 开发秘籍：集成参数校验及高阶技巧",
     "description": "对于web服务来说，为防止非法参数对业务造成影响，在Controller层一定要对参数进行校验！本章我们以SpringBoot项目为例，介绍参数校验的基本用法以及一些高级技巧，希望...",
-    "votes": "101",
+    "votes": "102",
     "url": "/k/bzx7ri7",
     "avatar": "https://img.toutiao.io/subject%2F51ad25ebdf8b4a15895a07d5bce2b1e4",
     "avatarAlt": "JAVA日知录 - 独家号",
@@ -192,7 +172,7 @@
   {
     "title": "深入源码，深度解析 Java 线程池的实现原理",
     "description": "GitHub 19k Star 的Java工程师成神之路，不来了解一下吗！java 系统的运行归根到底是程序的运行，程序的运行归根到底是代码的执行，代码的执行归根到底是虚拟机的执行...",
-    "votes": "88",
+    "votes": "89",
     "url": "/k/sorcj5w",
     "avatar": "https://img.toutiao.io/subject%2F59bde614a927485b94f20978dc26216e",
     "avatarAlt": "JAVA干货 - 独家号",
@@ -202,7 +182,7 @@
   {
     "title": "我把这个软件，推荐给了总监",
     "description": "你好，我是 yes。今天要来安利一款神器！「uTools」。对于我个人而言，它的用处在于：快速翻译备忘录快贴快速查找和打开文件Json 解析时间戳转换todo记录等等等等，还有太多...",
-    "votes": "99",
+    "votes": "100",
     "url": "/k/9yex08q",
     "avatar": "https://img.toutiao.io/subject%2F71da457007fd4b67a45253b271a25eee",
     "avatarAlt": "yes的练级攻略 - 独家号",
@@ -212,12 +192,32 @@
   {
     "title": "有了这款运维自动化神器，可以抛弃 Ansible 了",
     "description": "△点击上方“Python猫”关注 ，回复“1”领取电子书文末赠书作者：九净来源：NetDevOps加油站背景今天开始一个新的大坑，绝对是巨坑了，给大家安利一款网络运维自动化工具No...",
-    "votes": "82",
+    "votes": "83",
     "url": "/k/d139zzl",
     "avatar": "https://img.toutiao.io/subject%2F9a97933f431d4553ba4a1d1838f48143",
     "avatarAlt": "Python猫技术花园 - 独家号",
     "subjectName": "Python猫技术花园",
     "homeUrl": "/subjects/14371"
+  },
+  {
+    "title": "10 问 10 答：你真的了解线程池吗？",
+    "description": "《Java开发手册》中强调，线程资源必须通过线程池提供，而创建线程池必须使用ThreadPoolExecutor。手册主要强调利用线程池避免两个问题，一是线程过渡切换，二是避免请求...",
+    "votes": "94",
+    "url": "/k/b70jpzu",
+    "avatar": "https://img.toutiao.io/subject%2Fb9c73f469a224f428fa995bb6d0b7d9e",
+    "avatarAlt": "码小生 - 独家号",
+    "subjectName": "码小生",
+    "homeUrl": "/subjects/97644"
+  },
+  {
+    "title": "Linux 调度系统全景指南（终结篇）",
+    "description": "| 导语本文主要是讲Linux的调度系统, 本篇是终结篇，主要讲当前多核系统调度策略和调度优化，调度可以说是操作系统的灵魂，为了让CPU资源利用最大化，Linux设计了一套非常精细...",
+    "votes": "88",
+    "url": "/k/ow2rhiz",
+    "avatar": "https://img.toutiao.io/subject%2F17c0544998e140628615896d2fc161b8",
+    "avatarAlt": "雨后天空的独家号 - 独家号",
+    "subjectName": "雨后天空的独家号",
+    "homeUrl": "/subjects/382106"
   },
   {
     "title": "进程、线程与协程傻傻分不清？一文带你吃透",
@@ -230,23 +230,23 @@
     "homeUrl": "/subjects/459978"
   },
   {
-    "title": "百亿规模 API 网关服务 Shepherd 的设计与实现",
-    "description": "总第450篇2021年 第020篇在微服务架构下，服务拆分会让API的规模成倍增长，使用API网关来管理API逐渐成为一种趋势。美团统一API网关服务Shepherd就是在这种背景...",
-    "votes": "80",
-    "url": "/k/18gz8ap",
-    "avatar": "https://img.toutiao.io/subject%2F50e9b8208bfd488897fed22d15d9aa0e",
-    "avatarAlt": "美团技术团队 - 独家号",
-    "subjectName": "美团技术团队",
-    "homeUrl": "/subjects/117027"
+    "title": "一文理解 Redis 底层数据结构",
+    "description": "Redis的5种常见数据结构：字符串(String)、列表(List)、散列(Hash)、集合(Set)、有序集合(Sorted Set)。这些都是Redis对外暴露的数据结构，本...",
+    "votes": "88",
+    "url": "/k/a3gplbq",
+    "avatar": "https://img.toutiao.io/subject%2F85512c92aa814f468f6b429b6eb70ba8",
+    "avatarAlt": "服务器后端开发 - 独家号",
+    "subjectName": "服务器后端开发",
+    "homeUrl": "/subjects/375484"
   },
   {
-    "title": "Golang 内存管理分析",
-    "description": "“ golang的内存分析工具怎么用？内存和回收原理，这一篇就够了” 大纲1. 目录2. 由一个问题展开3. 名字说明4. 内存怎么采样？4.1 编译期间逃逸分析4.2 采样的简单...",
-    "votes": "81",
-    "url": "/k/5za3e5u",
-    "avatar": "https://img.toutiao.io/subject%2F519e3c20e3ff4bed893f14e691c3396c",
-    "avatarAlt": "有意思的东东 - 独家号",
-    "subjectName": "有意思的东东",
-    "homeUrl": "/subjects/3681"
+    "title": "惊！这个 Go 开源项目号称「不改一行代码做秒杀」",
+    "description": "阅读本文大概需要 2 分钟。 大家好，我是 polarisxu。看到耗子叔发推文推荐了一个新开源的网关：Easegress。 打开看了下，这是一个 Go 语言实现的开源项目。它有如...",
+    "votes": "90",
+    "url": "/k/qnyxbs9",
+    "avatar": "https://img.toutiao.io/subject%2F001f8de223174684862d4c9e6c752cc7",
+    "avatarAlt": "PHPER—>架构 - 独家号",
+    "subjectName": "PHPER—>架构",
+    "homeUrl": "/subjects/25390"
   }
 ]
