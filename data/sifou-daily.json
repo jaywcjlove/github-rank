@@ -1,209 +1,65 @@
 [
   {
-    "title": "萌新必看——10种客户端存储哪家强，一文读尽！",
-    "description": "数据持久指将内存中的数据模型转化为存储模型，和将存储模型转化为内存中的数据模型这一过程的统称。在普通情况下，我们存储的数据会一直保留，直到我们删除相关内容；或者是这些数据保存到浏览器会话结束，用户...",
-    "url": "https://segmentfault.com/a/1190000040147911",
-    "author": "葡萄城技术团队",
-    "home_url": "https://segmentfault.com/u/grapecity",
-    "votes": "9",
+    "title": "深入浅出聊聊 Rust WebAssembly（一）",
+    "description": "在 2019 年 12 月之前，如果你要编写一个web页面，那一定离不开 html、css、js 这三个好兄弟。在 2019 年 12 月之后 W3C 宣布 webassembly 加入了他们。为什么要在三兄弟后加入 webassembly ？它和之前的有什么区...",
+    "url": "https://segmentfault.com/a/1190000040154266",
+    "author": "云叔_又拍云",
+    "home_url": "https://segmentfault.com/u/yunshu_blog",
+    "votes": "10",
     "rank": 1
   },
   {
-    "title": "扒开“全自动软件工程”平台的外衣，发现竟然……",
-    "description": "“全自动软件工程”涵盖 “项目管理”、“智能开发”、“自动化测试”、“质量管理”、“自动化运维” 等核心板块，什么神仙产品能实现“软件工程全流程全自动”！？小编怎么就不大相信呢~",
-    "url": "https://segmentfault.com/a/1190000040146632",
-    "author": "小魔",
-    "home_url": "https://segmentfault.com/u/lu_607eaefc582e8",
-    "votes": "8",
+    "title": "[翻译]使用Spring Boot进行单元测试",
+    "description": "我们将带你学习如何以可测试的方式创建Spring Bean实例，然后讨论如何使用Mockito和AssertJ，这两个包在Spring Boot中都为了测试默认引用了。",
+    "url": "https://segmentfault.com/a/1190000040153568",
+    "author": "prepared",
+    "home_url": "https://segmentfault.com/u/prepared",
+    "votes": "4",
     "rank": 2
   },
   {
-    "title": "人均估值5000万RMB，53岁程序员能做到的，你也能！",
-    "description": "两周前，涛思数据正式宣布完成B轮4700万美元融资。一个40人的的团队，四年的时间，前后共获得了来自红杉、经纬、GGV、明势等近7000万美元的投资，估值已超3亿美元，人均估值超5000万RMB。消息公布后，迎来很多惊...",
-    "url": "https://segmentfault.com/a/1190000040147336",
-    "author": "涛思数据",
-    "home_url": "https://segmentfault.com/u/taosishuju",
-    "votes": "1",
-    "rank": 3
-  },
-  {
-    "title": "OceanBase-Client 等 5 个项目加入木兰开源社区孵化",
-    "description": "本次共有9名专家参与投票，全部持赞同意见，无弃权票和反对票，原则上满足进入孵化的条件，木兰开源社区旗下孵化项目采取多导师机制和开放治理架构。",
-    "url": "https://segmentfault.com/a/1190000040152538",
-    "author": "鸣飞",
-    "home_url": "https://segmentfault.com/u/mf",
-    "votes": "1",
-    "rank": 4
-  },
-  {
-    "title": "Webpack 系列第六篇：如何编写loader",
-    "description": "全文 5000 字，深度剖析 Webpack Loader 的特性、运行机制、开发技巧，欢迎点赞关注。写作不易，未经作者同意，禁止任何形式转载！！！",
-    "url": "https://segmentfault.com/a/1190000040146131",
-    "author": "范文杰",
-    "home_url": "https://segmentfault.com/u/fanwenjie",
-    "votes": "7",
-    "rank": 5
-  },
-  {
-    "title": "35 张图带你 MySQL 调优",
-    "description": "这是 MySQL 基础系列的第四篇文章，之前的三篇文章见如下链接138 张图带你 MySQL 入门47 张图带你 MySQL 进阶！！！炸裂！MySQL 82 张图带你飞一般传统互联网公司很少接触到 SQL 优化问题，其原因是数据量小，大...",
-    "url": "https://segmentfault.com/a/1190000040145951",
-    "author": "程序员cxuan",
-    "home_url": "https://segmentfault.com/u/cxuan",
-    "votes": "5",
-    "rank": 6
-  },
-  {
-    "title": "深入理解单例设计模式",
-    "description": "单例模式是面试中经常会被问到的一个问题，网上有大量的文章介绍单例模式的实现，本文也是参考那些优秀的文章来做一个总结，通过自己在学习过程中的理解进行记录，并补充完善一些内容，一方面巩固自己所学的内容...",
-    "url": "https://segmentfault.com/a/1190000040146574",
-    "author": "惜鸟",
-    "home_url": "https://segmentfault.com/u/xiniao_6051dfcd5b5e8",
-    "votes": "3",
-    "rank": 7
-  },
-  {
-    "title": "常见跨域解决办法，及实现原理(一)----JSONP",
-    "description": "一、什么是跨域？当协议、（主/子）域名、端口号中任意一个不相同时，都算作不同域，不同域之间互相请求资源，就称为跨域1、什么是同源策略及其限制内容？同源策略是一种约定，是指 协议、域名、端口 三者相同，...",
-    "url": "https://segmentfault.com/a/1190000040151181",
-    "author": "茴香",
-    "home_url": "https://segmentfault.com/u/xiang_5fa11c387540d",
-    "votes": "1",
-    "rank": 8
-  },
-  {
-    "title": "入门指南丨上手理解Deployment、Services和Ingress",
-    "description": "在之前的文章中，我们了解了Kubernetes中的基本概念，其硬件结构，不同的软件组件（例如Pod、Deployment、StatefulSet、Services、Ingress和Persistent Volumes），并了解了如何在服务之间与外部进行通信。",
-    "url": "https://segmentfault.com/a/1190000040148555",
-    "author": "Rancher",
-    "home_url": "https://segmentfault.com/u/rancher",
-    "votes": "1",
-    "rank": 9
-  },
-  {
-    "title": "第七周ARTS",
-    "description": "Algorithm。主要是为了编程训练和学习[链接]最好懂但是代码又臭又长，第一反应是怎么把数字给反转下，然后加上符号就行了。 {代码...} 注意：Math.pow(x,y) x 的 y 次幂的值使用Review：主要是为了学习英文，如果...",
-    "url": "https://segmentfault.com/a/1190000040146253",
-    "author": "tina666",
-    "home_url": "https://segmentfault.com/u/tina6661",
-    "votes": "1",
-    "rank": 10
-  },
-  {
-    "title": "我与思否的 3 年 | 写于思否 9 周年",
-    "description": "从 2018-12-08 加入思否社区，声望值 1465，获赞 230 个，粉丝数 538。回答了 133 个问题，发布了 48 篇文章，主页被浏览了10.4k次。初始初识 SegmentFault 社区也是因为工作原因，那会刚加入 Swoole 团队。。。...",
-    "url": "https://segmentfault.com/a/1190000040146033",
-    "author": "沈唁",
-    "home_url": "https://segmentfault.com/u/sy_records",
-    "votes": "1",
-    "rank": 11
-  },
-  {
-    "title": "你不知道的 Go 之 pprof",
-    "description": "简介Go 有非常多好用的工具，pprof 可以用来分析一个程序的性能。pprof 有以下 4 种类型：CPU profiling（CPU 性能分析）：这是最常使用的一种类型。用于分析函数或方法的执行耗时；Memory profiling：这种类型也...",
-    "url": "https://segmentfault.com/a/1190000040152398",
-    "author": "darjun",
-    "home_url": "https://segmentfault.com/u/guyu_5d2e806c57ac8",
-    "votes": "1",
-    "rank": 12
-  },
-  {
-    "title": "每日必回知识点",
-    "description": "20210609重点静态方法调用了一个方法,方法的返回值是什么?方法是谁调用的,是哪个类中的方法之间是如何跳转的新循环中三个值分别代表什么前端传递过来的请求是由谁传递过来,被谁接受,怎么去对应前端页面中name属性...",
-    "url": "https://segmentfault.com/a/1190000040151331",
-    "author": "李三岁",
-    "home_url": "https://segmentfault.com/u/lisansui_5fc7ad1078a9f",
-    "votes": "2",
-    "rank": 13
-  },
-  {
-    "title": "【OpenKruise v0.9.0】新增 Pod 重启、删除防护等重磅功能",
-    "description": "简介：OpenKruise 是阿里云开源的云原生应用自动化管理套件，也是当前托管在 Cloud Native Computing Foundation (CNCF) 下的 Sandbox 项目。它来自阿里巴巴多年来容器化、云原生的技术沉淀，是阿里内部生产环境...",
-    "url": "https://segmentfault.com/a/1190000040150771",
-    "author": "阿里云开发者",
-    "home_url": "https://segmentfault.com/u/alijishu",
-    "votes": "1",
-    "rank": 14
-  },
-  {
-    "title": "国内首篇云厂商 Serverless 论文入选全球顶会：突发流量下，如何加速容器启动？",
-    "description": "简介：USENIX ATC (USENIX Annual Technical Conference) 学术会议是计算机系统领域的顶级会议，入选中国计算机协会（CCF）推荐 A 类国际会议列表；本次会议共投稿 341 篇论文，接收 64 篇，录用率 18.8%。阿里云...",
-    "url": "https://segmentfault.com/a/1190000040149511",
-    "author": "阿里云开发者",
-    "home_url": "https://segmentfault.com/u/alijishu",
-    "votes": "1",
-    "rank": 15
-  },
-  {
-    "title": "【全球发布】乘云而上的阿里云MVP",
-    "description": "简介：阿里云最有价值专家，简称阿里云 MVP（Most Valuable Professional），是专注于帮助他人充分了解和使用阿里云的技术实践领袖。 第16期阿里云MVP正式全球发布，本期共有12位来自顶尖高等教育教学领域的专家...",
-    "url": "https://segmentfault.com/a/1190000040148638",
-    "author": "阿里云开发者",
-    "home_url": "https://segmentfault.com/u/alijishu",
-    "votes": "1",
-    "rank": 16
-  },
-  {
-    "title": "PyFlink 教程（三）：PyFlink DataStream API - state & timer",
-    "description": "Flink 1.13 已于近期正式发布，超过 200 名贡献者参与了 Flink 1.13 的开发，提交了超过 1000 个 commits，完成了若干重要功能。其中，PyFlink 模块在该版本中也新增了若干重要功能，比如支持了 state、自定义 wi...",
-    "url": "https://segmentfault.com/a/1190000040148457",
-    "author": "ApacheFlink",
-    "home_url": "https://segmentfault.com/u/ververica",
-    "votes": "1",
-    "rank": 17
-  },
-  {
-    "title": "发布会预告 | 多账号管控与网络安全集中化管理能力升级",
-    "description": "在数字化发展的大背景下，云在逐渐替代所有IT基础设施。云上的互联网企业不断壮大，教育、金融、政企、跨国公司（MNC）等企业机构开始将更多业务部署上云。由于组织架构和业务复杂等原因，企业客户通常拥有多个阿...",
-    "url": "https://segmentfault.com/a/1190000040148288",
-    "author": "阿里云开发者",
-    "home_url": "https://segmentfault.com/u/alijishu",
-    "votes": "1",
-    "rank": 18
-  },
-  {
-    "title": "没源码怎么排查问题？Arthas 暴力搜索内存对象，解决线上偶发耗时问题",
-    "description": "公司某个规则引擎系统，主要用来做一些费用计算和业务逻辑核验的功能。不过由于一些不可描述的历史原因，导致该系统没有文档也没有源码，就连配置方式都是靠口口相传。​",
-    "url": "https://segmentfault.com/a/1190000040148030",
+    "title": "hashCode 的值是怎么生成的？对象内存地址吗？",
+    "description": "先点赞再看，养成好习惯先看一个最简单的打印 {代码...} 会输出该类的全限定类名和一串字符串： {代码...} ​@符号后面的是什么？是 hashcode 还是对象的内存地址？还是其他的什么值？​其实@后面的只是对象的 hash...",
+    "url": "https://segmentfault.com/a/1190000040152594",
     "author": "空无",
     "home_url": "https://segmentfault.com/u/kongwu",
     "votes": "2",
-    "rank": 19
+    "rank": 3
   },
   {
-    "title": "前端需要掌握的Nginx知识点",
-    "description": "Nginx是一款免费开源的高性能HTTP服务器以及反向代理服务器（Reverse Proxy）,同时可以提供IMAP/POP3/SMATP代理服务等功能。能够快速的响应静态页面请求和支持第三方功能模块扩展。",
-    "url": "https://segmentfault.com/a/1190000040147460",
-    "author": "技术的爬行之旅",
-    "home_url": "https://segmentfault.com/u/blacklu",
+    "title": "都 2021 年了，你还在用 Jenkins ？赶快看看这些替代方案吧！",
+    "description": "Jenkins 是目前最常用的持续集成工具，拥有近 50% 的市场份额，它还是很多技术团队的第一个使用的自动化工具。但是随着自动化领域的持续发展，Jenkins 逐渐暴露出了一些问题，例如缺乏功能、维护问题、依赖关系和...",
+    "url": "https://segmentfault.com/a/1190000040154594",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "4",
+    "rank": 4
+  },
+  {
+    "title": "HMS Core 6.0即将发布 加码应用生态升级",
+    "description": "6月10日，2021华为HMS全球应用创新大赛开幕，以及以“打造精品应用，共创数智生活”为主题的华为HMS Core. Sparkle应用创新沙龙在华为开发者日（HDD）北京站举行。会上，华为正式宣布HMS Core 6.0即将发布，进一步...",
+    "url": "https://segmentfault.com/a/1190000040158006",
+    "author": "华为开发者论坛",
+    "home_url": "https://segmentfault.com/u/huawei_developer",
     "votes": "1",
-    "rank": 20
+    "rank": 5
   },
   {
-    "title": "Flink + Iceberg 在去哪儿的实时数仓实践",
-    "description": "本文介绍去哪儿数据平台在使用 Flink + Iceberg 0.11 的一些实践。内容包括：背景及痛点Iceberg 架构痛点一：Kafka 数据丢失痛点二：近实时 Hive 压力大Iceberg 优化实践总结",
-    "url": "https://segmentfault.com/a/1190000040147002",
-    "author": "ApacheFlink",
-    "home_url": "https://segmentfault.com/u/ververica",
-    "votes": "1",
-    "rank": 21
-  },
-  {
-    "title": "两年工作经验，离职了...",
-    "description": "当大家看到这篇文章的时候，我已经办完离职手续离开了蘑菇街。从19年初到蘑菇街实习，到现在不知不觉已经两年多了。两年时间说短不短，说长也不长。",
-    "url": "https://segmentfault.com/a/1190000040146913",
-    "author": "Java3y",
-    "home_url": "https://segmentfault.com/u/java_3y",
-    "votes": "1",
-    "rank": 22
-  },
-  {
-    "title": "每日灵魂一问nodejs-eventEmitte是啥？手动实现",
-    "description": "Node采用了事件驱动机制，而EventEmitter就是Node实现事件驱动的基础Node的events模块只提供了一个EventEmitter类，这个类实现了Node异步事件驱动架构的基本模式——观察者模式",
-    "url": "https://segmentfault.com/a/1190000040151137",
-    "author": "NANA",
-    "home_url": "https://segmentfault.com/u/nannan_59bb91e03a098",
+    "title": "[翻译]Spring Boot 中的集成测试",
+    "description": "我们将带你学习如何以可测试的方式创建Spring Bean实例，然后讨论如何使用Mockito和AssertJ，这两个包在Spring Boot中都为了测试默认引用了。",
+    "url": "https://segmentfault.com/a/1190000040153574",
+    "author": "prepared",
+    "home_url": "https://segmentfault.com/u/prepared",
     "votes": "2",
-    "rank": 23
+    "rank": 6
+  },
+  {
+    "title": "JavaScript异步发展历史",
+    "description": "在 MDN 的 JavaScript 系列中我们已经学习了 callback、promise、generator、async/await。而在这一篇文章中，作者将以实际样例阐述异步发展历史，介绍每种实现方式的优势与不足，以期帮助读者熟悉历史进程并把握...",
+    "url": "https://segmentfault.com/a/1190000040156178",
+    "author": "小和山的菜鸟们",
+    "home_url": "https://segmentfault.com/u/xhsrookes",
+    "votes": "2",
+    "rank": 7
   }
 ]
