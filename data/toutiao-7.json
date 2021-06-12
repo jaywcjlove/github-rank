@@ -2,7 +2,7 @@
   {
     "title": "网络连接存在大量 time_wait 和 close_wait 的原因以及解决方法",
     "description": "如果对tcp中的握手挥手不了解的同学，请先看这篇博客：《关于三次握手与四次挥手你要知道这些》。 四次挥手过程：第一次挥手：主机A（可以是客户端，也可以是服务器端），设置Sequen...",
-    "votes": "125",
+    "votes": "128",
     "url": "/k/b9vlrcu",
     "avatar": "https://img.toutiao.io/subject%2F85512c92aa814f468f6b429b6eb70ba8",
     "avatarAlt": "服务器后端开发 - 独家号",
@@ -12,7 +12,7 @@
   {
     "title": "杭州某大厂：MySQL 连环问",
     "description": "大家好，我是yes。MySQL 面试题又更新啦！请继续接招。说说分库分表？ 随着用户量的激增和时间的堆砌，存在数据库里面的数据越来越多，此时的数据库就会产生瓶颈，出现资源报警、查询...",
-    "votes": "90",
+    "votes": "98",
     "url": "/k/xjnx4kp",
     "avatar": "https://img.toutiao.io/subject%2F71da457007fd4b67a45253b271a25eee",
     "avatarAlt": "yes的练级攻略 - 独家号",
@@ -32,7 +32,7 @@
   {
     "title": "惊！这个 Go 开源项目号称「不改一行代码做秒杀」",
     "description": "阅读本文大概需要 2 分钟。 大家好，我是 polarisxu。看到耗子叔发推文推荐了一个新开源的网关：Easegress。 打开看了下，这是一个 Go 语言实现的开源项目。它有如...",
-    "votes": "94",
+    "votes": "97",
     "url": "/k/qnyxbs9",
     "avatar": "https://img.toutiao.io/subject%2F001f8de223174684862d4c9e6c752cc7",
     "avatarAlt": "PHPER—>架构 - 独家号",
@@ -42,7 +42,7 @@
   {
     "title": "一文理解 Java 中的 SPI 机制",
     "description": "SPI机制简介服务提供者接口（Service Provider Interface，简写为SPI）是JDK内置的一种服务提供发现机制。可以用来加载框架扩展和替换组件，主要是被框架的...",
-    "votes": "78",
+    "votes": "80",
     "url": "/k/3xscqep",
     "avatar": "https://img.toutiao.io/subject%2F85512c92aa814f468f6b429b6eb70ba8",
     "avatarAlt": "服务器后端开发 - 独家号",
@@ -52,7 +52,7 @@
   {
     "title": "面试题：MySQL 一棵 B+ 树能存多少条数据？",
     "description": "大家好，我是Tom哥~今日寄语：充满活力的新人，能让身边的人都重回初心，真是不可思议。mysql 的InnoDB存储引擎 一棵B+树可以存放多少行数据?（答案在文章中！！）要搞清楚...",
-    "votes": "72",
+    "votes": "73",
     "url": "/k/85kvlje",
     "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
     "avatarAlt": "微观技术 - 独家号",
@@ -62,7 +62,7 @@
   {
     "title": "微服务拆分之道",
     "description": "背景ALIWARE微服务在最近几年大行其道，很多公司的研发人员都在考虑微服务架构，同时，随着 Docker 容器技术和自动化运维等相关技术发展，微服务变得更容易管理，这给了微服务架...",
-    "votes": "55",
+    "votes": "61",
     "url": "/k/mr1knwm",
     "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
     "avatarAlt": "ASCE1885 - 独家号",
@@ -70,39 +70,9 @@
     "homeUrl": "/subjects/4829"
   },
   {
-    "title": "玩转直播系列之消息模块演进（三）",
-    "description": "作者：vivo互联网技术-LinDu、Li Guolin一、背景即时消息(IM)系统是直播系统重要的组成部分，一个稳定的，有容错的，灵活的，支持高并发的消息模块是影响直播系统用户体...",
-    "votes": "48",
-    "url": "/k/2deq8i8",
-    "avatar": "https://img.toutiao.io/subject%2F8adc26cdcf7d45f4a73580f3be4285f2",
-    "avatarAlt": "vivo互联网技术 - 独家号",
-    "subjectName": "vivo互联网技术",
-    "homeUrl": "/subjects/392760"
-  },
-  {
-    "title": "微服务快速开发框架",
-    "description": "JPower只是刚起步，很多功能还在开发中敬请期待......JPower 简介JPower是由一款政府商业项目升级优化而来。采用前后端分离的模式，前端开源项目：jpower-ui...",
-    "votes": "48",
-    "url": "/k/vnu4ffo",
-    "avatar": "https://img.toutiao.io/subject%2F1e9f205aac9c4c68b33b32f650b72a0c",
-    "avatarAlt": "mr.g_jpower - 独家号",
-    "subjectName": "mr.g_jpower",
-    "homeUrl": "/subjects/460508"
-  },
-  {
-    "title": "一起玩 dubbo，万字长文揭秘服务暴露",
-    "description": "日常写组件，最近又接了一个需求，让我负责实现一个rpc组件，提高公司游戏跨服开发的效率，为了写好这个组件，算是将dubbo里里外外研究了一波，目前组件的实现也接近尾声了，因此打算给...",
-    "votes": "37",
-    "url": "/k/yrznu58",
-    "avatar": "https://img.toutiao.io/subject%2F8e12ef64799649acbfd936883ef16c3c",
-    "avatarAlt": "服务架构及中台 - 独家号",
-    "subjectName": "服务架构及中台",
-    "homeUrl": "/subjects/26578"
-  },
-  {
     "title": "​手把手教你如何进行 Golang 单元测试",
     "description": " 作者：stevennzhou，腾讯 PCG 前端开发工程师本篇是对单元测试的一个总结，通过完整的单元测试手把手教学，能够让刚接触单元测试的开发者从整体上了解一个单元测试编写的全过...",
-    "votes": "34",
+    "votes": "37",
     "url": "/k/k1fr9de",
     "avatar": "https://img.toutiao.io/subject%2Fab225f76a1344c82acd5de490243c1fb",
     "avatarAlt": "安全奇点 - 独家号",
@@ -112,7 +82,7 @@
   {
     "title": "给老板解释解释，为什么要用 Spring Cloud Alibaba 作为微服务开发框架？",
     "description": " 大家好，我是飘渺Jam，一名来自三流城市三流公司的三流程序员，这是我们的第158篇原创文章，如果你喜欢我的文章请点赞转发支持一下。   什么是微服务 提到微服务不得不提Marti...",
-    "votes": "37",
+    "votes": "39",
     "url": "/k/pzyuz5d",
     "avatar": "https://img.toutiao.io/subject%2F51ad25ebdf8b4a15895a07d5bce2b1e4",
     "avatarAlt": "JAVA日知录 - 独家号",
@@ -122,12 +92,32 @@
   {
     "title": "被同事嘲笑说技术方案没深度？",
     "description": "大家好，我是Z哥。程序员群体中有个很好玩的现象。工作年限短的程序员热衷于设计“高大上”的技术方案，而工作年限长的则对技术方案好像不太感冒，上手就撸代码。然后呢，年限短的程序员们想的...",
-    "votes": "29",
+    "votes": "31",
     "url": "/k/jpbyt2n",
     "avatar": "https://img.toutiao.io/subject%2Fc992e775e6344583abd8a49f632b3e13",
     "avatarAlt": "跨界架构师 - 独家号",
     "subjectName": "跨界架构师",
     "homeUrl": "/subjects/268968"
+  },
+  {
+    "title": "一文理解 Kafka 如何保证消息顺序性",
+    "description": "要想实现消息有序，需要从Producer和Consumer两方面来考虑。如果对Kafka不了解的话，可以先看这篇博客《一文快速了解Kafka》。针对消息有序的业务需求，还分为全局有...",
+    "votes": "28",
+    "url": "/k/q41dfd0",
+    "avatar": "https://img.toutiao.io/subject%2F85512c92aa814f468f6b429b6eb70ba8",
+    "avatarAlt": "服务器后端开发 - 独家号",
+    "subjectName": "服务器后端开发",
+    "homeUrl": "/subjects/375484"
+  },
+  {
+    "title": "实践指南：网页生成 PDF",
+    "description": "一、背景 开发工作中，需要实现网页生成 PDF 的功能，生成的 PDF 需上传至服务端，将 PDF 地址作为参数请求外部接口，这个转换过程及转换后的 PDF 不需要在前端展示给用户...",
+    "votes": "25",
+    "url": "/k/4eehl9g",
+    "avatar": "https://img.toutiao.io/subject%2Fc9bc51847b0c4b49aca52d0eaa087ed1",
+    "avatarAlt": "冷星前端圈 - 独家号",
+    "subjectName": "冷星前端圈",
+    "homeUrl": "/subjects/380054"
   },
   {
     "title": "什么是线程安全？一文带你深入理解",
@@ -140,39 +130,29 @@
     "homeUrl": "/subjects/459978"
   },
   {
-    "title": "一文理解 Kafka 如何保证消息顺序性",
-    "description": "要想实现消息有序，需要从Producer和Consumer两方面来考虑。如果对Kafka不了解的话，可以先看这篇博客《一文快速了解Kafka》。针对消息有序的业务需求，还分为全局有...",
-    "votes": "26",
-    "url": "/k/q41dfd0",
-    "avatar": "https://img.toutiao.io/subject%2F85512c92aa814f468f6b429b6eb70ba8",
-    "avatarAlt": "服务器后端开发 - 独家号",
-    "subjectName": "服务器后端开发",
-    "homeUrl": "/subjects/375484"
+    "title": "Nacos 配置中心模块详解",
+    "description": "配置中心 业务上的配置，功能开关，服务治理上对弱依赖的降级，甚至数据库的密码等，都可能用到动态配置中心。在没有专门的配置中心组件时，我们使用硬编码、或配置文件、或数据库、缓存等方式...",
+    "votes": "27",
+    "url": "/k/5vic46a",
+    "avatar": "https://img.toutiao.io/subject%2F9635116a54eb4217a569629335a3ee45",
+    "avatarAlt": "公众号：捉虫大师 - 独家号",
+    "subjectName": "公众号：捉虫大师",
+    "homeUrl": "/subjects/324911"
   },
   {
-    "title": "实践指南：网页生成 PDF",
-    "description": "一、背景 开发工作中，需要实现网页生成 PDF 的功能，生成的 PDF 需上传至服务端，将 PDF 地址作为参数请求外部接口，这个转换过程及转换后的 PDF 不需要在前端展示给用户...",
+    "title": "使用 curl 进行网站测速",
+    "description": "网站访问可以分为下面几个阶段：DNS 域名解析通过SSL协议交换密钥（HTTPS)与服务端创建 TCP 访问连接客户端发起请求服务端收到请求并准备回应内容服务端回复回应内容当我们优...",
     "votes": "24",
-    "url": "/k/4eehl9g",
-    "avatar": "https://img.toutiao.io/subject%2Fc9bc51847b0c4b49aca52d0eaa087ed1",
-    "avatarAlt": "冷星前端圈 - 独家号",
-    "subjectName": "冷星前端圈",
-    "homeUrl": "/subjects/380054"
-  },
-  {
-    "title": "Golang 内存分配机制",
-    "description": "环境golang v1.16.364位系统分配器描述golang内存分配器原理与tcmalloc类似，通过维护一块大的全局内存，每个线程（golang中的P）维护一块小的私有内存，...",
-    "votes": "28",
-    "url": "/k/2a1s8lp",
-    "avatar": "https://img.toutiao.io/subject%2F301a1221d20b4694a8c753d91a169570",
-    "avatarAlt": "realjf - 独家号",
-    "subjectName": "realjf",
-    "homeUrl": "/subjects/375798"
+    "url": "/k/ix0c5uk",
+    "avatar": "https://img.toutiao.io/subject%2Fe76f4a6bf4fd49e6a38fd3ae57188995",
+    "avatarAlt": "杂说乱炖 - 独家号",
+    "subjectName": "杂说乱炖",
+    "homeUrl": "/subjects/33419"
   },
   {
     "title": "JSON 是什么",
     "description": "提起 JSON，作为如今最受欢迎的数据交换格式，可以说是无人不知、无人不晓了。JSON 全称 JavaScript Object Notation（ JS 对象简谱），自诞生之初的...",
-    "votes": "27",
+    "votes": "28",
     "url": "/k/ojtkz91",
     "avatar": "https://img.toutiao.io/subject%2Fb762b766520042c48543e2d2cc06cb2f",
     "avatarAlt": "魔笛手CTO - 独家号",
@@ -180,9 +160,29 @@
     "homeUrl": "/subjects/41394"
   },
   {
+    "title": "没源码怎么排查问题？Arthas 暴力内存搜索对象解决",
+    "description": "背景公司某个规则引擎系统，主要用来做一些费用计算和业务逻辑核验的功能。不过由于一些不可描述的历史原因，导致该系统没有文档也没有源码，就连配置方式都是靠口口相传。 虽然这个系统比较老...",
+    "votes": "26",
+    "url": "/k/yg6hxci",
+    "avatar": "https://img.toutiao.io/subject%2F4037e9a889c94841b38942df627c176e",
+    "avatarAlt": "横云断岭的专栏 - 独家号",
+    "subjectName": "横云断岭的专栏",
+    "homeUrl": "/subjects/385955"
+  },
+  {
+    "title": "Reactive Spring 实战：理解 Reactor 的设计与实现",
+    "description": "Reactor是Spring提供的非阻塞式响应式编程框架，实现了Reactive Streams规范。它提供了可组合的异步序列API，例如Flux（用于[N]个元素）和Mono（用...",
+    "votes": "25",
+    "url": "/k/s9it7l1",
+    "avatar": "https://img.toutiao.io/subject%2F3c49c2d9ba7743e592822b3cd3641711",
+    "avatarAlt": "binecy - 独家号",
+    "subjectName": "binecy",
+    "homeUrl": "/subjects/454050"
+  },
+  {
     "title": "原始套接字打造 ping 命令",
     "description": "早期文章：打造后台登录页面扫描工具Spring 拦截器流程及多个拦截器的顺序Docker常用命令Docker 使用 MySQLJWT库生成Token的使用与原理Java 项目中几个...",
-    "votes": "28",
+    "votes": "29",
     "url": "/k/zasa0zm",
     "avatar": "https://img.toutiao.io/subject%2F5c82ad4a8e96449d9506065649507766",
     "avatarAlt": "码农UP2U - 独家号",
@@ -190,13 +190,13 @@
     "homeUrl": "/subjects/435415"
   },
   {
-    "title": "假如 Go 能说话，听听 GMP 的心声",
-    "description": "大纲G 的心声M 的心声P 的心声操作系统内核的心声Golang 的心声程序猿的心声奇伢的心声前情提要最近发生了个大事件，Golang，G，M，P，程序猿，操作系统吵起来了，每个人...",
-    "votes": "27",
-    "url": "/k/9kcl6r7",
-    "avatar": "https://img.toutiao.io/subject%2F0b42d8ae8c1e454caa2896f41961b7a3",
-    "avatarAlt": "全栈以及Golang - 独家号",
-    "subjectName": "全栈以及Golang",
-    "homeUrl": "/subjects/153891"
+    "title": "工作多年，Linux 文件系统还不太了解？",
+    "description": "▲ 点击上方“架构精进之路”关注公众号回复“01”领取「程序员进阶大礼包」这是「架构精进之路」公众号的第67篇原创文章我们作为“码农”，每天都在接触编程，接触linux系统，那么常...",
+    "votes": "25",
+    "url": "/k/pcu7stg",
+    "avatar": "https://img.toutiao.io/subject%2F071476c43e0d42cf95f3e77f046c814b",
+    "avatarAlt": "架构精进之路 - 独家号",
+    "subjectName": "架构精进之路",
+    "homeUrl": "/subjects/452638"
   }
 ]
