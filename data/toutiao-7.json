@@ -90,6 +90,16 @@
     "homeUrl": "/subjects/205182"
   },
   {
+    "title": "一文理解 Kafka 如何保证消息顺序性",
+    "description": "要想实现消息有序，需要从Producer和Consumer两方面来考虑。如果对Kafka不了解的话，可以先看这篇博客《一文快速了解Kafka》。针对消息有序的业务需求，还分为全局有...",
+    "votes": "29",
+    "url": "/k/q41dfd0",
+    "avatar": "https://img.toutiao.io/subject%2F85512c92aa814f468f6b429b6eb70ba8",
+    "avatarAlt": "服务器后端开发 - 独家号",
+    "subjectName": "服务器后端开发",
+    "homeUrl": "/subjects/375484"
+  },
+  {
     "title": "被同事嘲笑说技术方案没深度？",
     "description": "大家好，我是Z哥。程序员群体中有个很好玩的现象。工作年限短的程序员热衷于设计“高大上”的技术方案，而工作年限长的则对技术方案好像不太感冒，上手就撸代码。然后呢，年限短的程序员们想的...",
     "votes": "31",
@@ -100,14 +110,24 @@
     "homeUrl": "/subjects/268968"
   },
   {
-    "title": "一文理解 Kafka 如何保证消息顺序性",
-    "description": "要想实现消息有序，需要从Producer和Consumer两方面来考虑。如果对Kafka不了解的话，可以先看这篇博客《一文快速了解Kafka》。针对消息有序的业务需求，还分为全局有...",
+    "title": "Nacos 配置中心模块详解",
+    "description": "配置中心 业务上的配置，功能开关，服务治理上对弱依赖的降级，甚至数据库的密码等，都可能用到动态配置中心。在没有专门的配置中心组件时，我们使用硬编码、或配置文件、或数据库、缓存等方式...",
     "votes": "28",
-    "url": "/k/q41dfd0",
-    "avatar": "https://img.toutiao.io/subject%2F85512c92aa814f468f6b429b6eb70ba8",
-    "avatarAlt": "服务器后端开发 - 独家号",
-    "subjectName": "服务器后端开发",
-    "homeUrl": "/subjects/375484"
+    "url": "/k/5vic46a",
+    "avatar": "https://img.toutiao.io/subject%2F9635116a54eb4217a569629335a3ee45",
+    "avatarAlt": "公众号：捉虫大师 - 独家号",
+    "subjectName": "公众号：捉虫大师",
+    "homeUrl": "/subjects/324911"
+  },
+  {
+    "title": "使用 curl 进行网站测速",
+    "description": "网站访问可以分为下面几个阶段：DNS 域名解析通过SSL协议交换密钥（HTTPS)与服务端创建 TCP 访问连接客户端发起请求服务端收到请求并准备回应内容服务端回复回应内容当我们优...",
+    "votes": "25",
+    "url": "/k/ix0c5uk",
+    "avatar": "https://img.toutiao.io/subject%2Fe76f4a6bf4fd49e6a38fd3ae57188995",
+    "avatarAlt": "杂说乱炖 - 独家号",
+    "subjectName": "杂说乱炖",
+    "homeUrl": "/subjects/33419"
   },
   {
     "title": "实践指南：网页生成 PDF",
@@ -130,24 +150,14 @@
     "homeUrl": "/subjects/459978"
   },
   {
-    "title": "Nacos 配置中心模块详解",
-    "description": "配置中心 业务上的配置，功能开关，服务治理上对弱依赖的降级，甚至数据库的密码等，都可能用到动态配置中心。在没有专门的配置中心组件时，我们使用硬编码、或配置文件、或数据库、缓存等方式...",
+    "title": "没源码怎么排查问题？Arthas 暴力内存搜索对象解决",
+    "description": "背景公司某个规则引擎系统，主要用来做一些费用计算和业务逻辑核验的功能。不过由于一些不可描述的历史原因，导致该系统没有文档也没有源码，就连配置方式都是靠口口相传。 虽然这个系统比较老...",
     "votes": "27",
-    "url": "/k/5vic46a",
-    "avatar": "https://img.toutiao.io/subject%2F9635116a54eb4217a569629335a3ee45",
-    "avatarAlt": "公众号：捉虫大师 - 独家号",
-    "subjectName": "公众号：捉虫大师",
-    "homeUrl": "/subjects/324911"
-  },
-  {
-    "title": "使用 curl 进行网站测速",
-    "description": "网站访问可以分为下面几个阶段：DNS 域名解析通过SSL协议交换密钥（HTTPS)与服务端创建 TCP 访问连接客户端发起请求服务端收到请求并准备回应内容服务端回复回应内容当我们优...",
-    "votes": "24",
-    "url": "/k/ix0c5uk",
-    "avatar": "https://img.toutiao.io/subject%2Fe76f4a6bf4fd49e6a38fd3ae57188995",
-    "avatarAlt": "杂说乱炖 - 独家号",
-    "subjectName": "杂说乱炖",
-    "homeUrl": "/subjects/33419"
+    "url": "/k/yg6hxci",
+    "avatar": "https://img.toutiao.io/subject%2F4037e9a889c94841b38942df627c176e",
+    "avatarAlt": "横云断岭的专栏 - 独家号",
+    "subjectName": "横云断岭的专栏",
+    "homeUrl": "/subjects/385955"
   },
   {
     "title": "JSON 是什么",
@@ -158,16 +168,6 @@
     "avatarAlt": "魔笛手CTO - 独家号",
     "subjectName": "魔笛手CTO",
     "homeUrl": "/subjects/41394"
-  },
-  {
-    "title": "没源码怎么排查问题？Arthas 暴力内存搜索对象解决",
-    "description": "背景公司某个规则引擎系统，主要用来做一些费用计算和业务逻辑核验的功能。不过由于一些不可描述的历史原因，导致该系统没有文档也没有源码，就连配置方式都是靠口口相传。 虽然这个系统比较老...",
-    "votes": "26",
-    "url": "/k/yg6hxci",
-    "avatar": "https://img.toutiao.io/subject%2F4037e9a889c94841b38942df627c176e",
-    "avatarAlt": "横云断岭的专栏 - 独家号",
-    "subjectName": "横云断岭的专栏",
-    "homeUrl": "/subjects/385955"
   },
   {
     "title": "Reactive Spring 实战：理解 Reactor 的设计与实现",
@@ -192,7 +192,7 @@
   {
     "title": "工作多年，Linux 文件系统还不太了解？",
     "description": "▲ 点击上方“架构精进之路”关注公众号回复“01”领取「程序员进阶大礼包」这是「架构精进之路」公众号的第67篇原创文章我们作为“码农”，每天都在接触编程，接触linux系统，那么常...",
-    "votes": "25",
+    "votes": "26",
     "url": "/k/pcu7stg",
     "avatar": "https://img.toutiao.io/subject%2F071476c43e0d42cf95f3e77f046c814b",
     "avatarAlt": "架构精进之路 - 独家号",
