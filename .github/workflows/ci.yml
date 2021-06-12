@@ -11,13 +11,10 @@ jobs:
   build-deploy:
     runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@master
-
-    - name: Setup Node
-      uses: actions/setup-node@v1
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
       with:
-        node-version: 12
-        registry-url: https://registry.npmjs.org/
+        node-version: 14
 
     - run: npm ci
 
@@ -41,11 +38,12 @@ jobs:
     - run: npm run start
     - run: mkdir -p web/data
     - run: cp -rf dist/* web/data
-    - name: Build and Deploy
+
+    - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
-        deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./web
-    - run: npm publish --access public
-      env:
-        NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+
+    - run: npm install @jsdevtools/npm-publish
+    - run: ./node_modules/.bin/npm-publish --token="${{ secrets.NPM_TOKEN }}" ./package.json
