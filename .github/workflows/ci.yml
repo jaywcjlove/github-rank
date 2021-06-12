@@ -45,5 +45,5 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./web
 
-    - run: npm install @jsdevtools/npm-publish
-    - run: ./node_modules/.bin/npm-publish --token="${{ secrets.NPM_TOKEN }}" ./package.json
+    - run: npm install @jsdevtools/npm-publish -g
+    - run: npm-publish --token="${{ secrets.NPM_TOKEN }}" ./package.json
