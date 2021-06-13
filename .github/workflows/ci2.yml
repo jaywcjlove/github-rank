@@ -16,7 +16,7 @@ jobs:
       with:
         node-version: 14
 
-    - run: npm ci
+    - run: npm install
 
     - name: Modify Version
       shell: bash
