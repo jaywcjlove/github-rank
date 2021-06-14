@@ -5,7 +5,7 @@
     "url": "https://segmentfault.com/a/1190000040147911",
     "author": "葡萄城技术团队",
     "home_url": "https://segmentfault.com/u/grapecity",
-    "votes": "12",
+    "votes": "13",
     "rank": 1
   },
   {
@@ -18,31 +18,13 @@
     "rank": 2
   },
   {
-    "title": "Android 面试之必问性能优化",
-    "description": "对于Android开发者来说，懂得基本的应用开发技能往往是不够，因为不管是工作还是面试，都需要开发者懂得大量的性能优化，这对提升应用的体验是非常重要的。对于Android开发来说，性能优化主要围绕如下方面展开：...",
-    "url": "https://segmentfault.com/a/1190000040130054",
-    "author": "xiangzhihong",
-    "home_url": "https://segmentfault.com/u/xiangzhihong",
-    "votes": "6",
-    "rank": 3
-  },
-  {
     "title": "淘系自研前端研发工具 AppWorks 正式发布",
     "description": "AppWorks 是社区受到开发者广泛关注的 VS Code 套件，在 VS Code 插件市场有 2w+ 的下载量，是 VS Code 插件市场受开发者喜爱的百佳套件之一，多次登陆 VS Code 插件市场周/月趋势榜。在淘宝内部，AppWorks 日均...",
     "url": "https://segmentfault.com/a/1190000040142501",
     "author": "鸣飞",
     "home_url": "https://segmentfault.com/u/mf",
     "votes": "9",
-    "rank": 4
-  },
-  {
-    "title": "加速 Nginx 响应的 5 个措施！赶紧用…",
-    "description": "通过优化网站，对 HTTP 服务器进行一些小的改动，可以减少用户使用的网络带宽和服务器上的负载，就可以给更多用户提供服务。这里，我们将介绍一些简单但功能强大的配置更改，这些改动操作步骤非常简单，但可以明...",
-    "url": "https://segmentfault.com/a/1190000040126050",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "9",
-    "rank": 5
+    "rank": 3
   },
   {
     "title": "Webpack 系列第六篇：如何编写loader",
@@ -50,26 +32,26 @@
     "url": "https://segmentfault.com/a/1190000040146131",
     "author": "范文杰",
     "home_url": "https://segmentfault.com/u/fanwenjie",
+    "votes": "12",
+    "rank": 4
+  },
+  {
+    "title": "如何理解WeakMap？",
+    "description": "If our parameter were an object (rather than a string, like it is above), we could use WeakMap instead of Map in modern browsers. The benefit of WeakMap is that it would automatically “clean up” th...",
+    "url": "https://segmentfault.com/a/1190000040163271",
+    "author": "趁你还年轻",
+    "home_url": "https://segmentfault.com/u/chennihuannianqing",
+    "votes": "8",
+    "rank": 5
+  },
+  {
+    "title": "这些node开源工具你值得拥有(上)",
+    "description": "前言：文章的灵感来源于，社群中某大佬分享一个自己耗时数月维护的github项目 awesome-nodejs 。或许你跟我一样会有一个疑惑，github上其实已经有个同类型的awesome-nodejs库且还高达41k⭐，重新维护一个新的意义...",
+    "url": "https://segmentfault.com/a/1190000040160836",
+    "author": "树酱",
+    "home_url": "https://segmentfault.com/u/shu_jshu_jiashu_jianshu_jiang",
     "votes": "10",
     "rank": 6
-  },
-  {
-    "title": "一文看懂JVM内存区域分布与作用",
-    "description": "那么我们在开始介绍Java内存区域之前，我们先放一张内存区域的图，方便我们后面介绍的时候可以对照着看。须知，本文是根据JDK8来介绍的。程序计数器首先它是线程私有的，它也称为代码的行号指示器，字节码解释器...",
-    "url": "https://segmentfault.com/a/1190000040129211",
-    "author": "bingfeng",
-    "home_url": "https://segmentfault.com/u/xiaotao_5c2cdb80411ca",
-    "votes": "6",
-    "rank": 7
-  },
-  {
-    "title": "扒开“全自动软件工程”平台的外衣，发现竟然……",
-    "description": "“全自动软件工程”涵盖 “项目管理”、“智能开发”、“自动化测试”、“质量管理”、“自动化运维” 等核心板块，什么神仙产品能实现“软件工程全流程全自动”！？小编怎么就不大相信呢~",
-    "url": "https://segmentfault.com/a/1190000040146632",
-    "author": "小魔",
-    "home_url": "https://segmentfault.com/u/lu_607eaefc582e8",
-    "votes": "9",
-    "rank": 8
   },
   {
     "title": "深入理解单例设计模式",
@@ -78,6 +60,24 @@
     "author": "惜鸟",
     "home_url": "https://segmentfault.com/u/xiniao_6051dfcd5b5e8",
     "votes": "12",
+    "rank": 7
+  },
+  {
+    "title": "仅用CSS几步实现赛博朋克2077风格视觉效果",
+    "description": "赛博朋克（Cyberpunk）是“控制论、神经机械学”与“朋克”的结合词，背景大都建立于“低端生活与高等科技的结合”，拥有先进的科学技术，再以一定程度崩坏的社会结构做对比；拥有五花八门的视觉冲击效果，如街头的霓虹...",
+    "url": "https://segmentfault.com/a/1190000040166704",
+    "author": "dragonir",
+    "home_url": "https://segmentfault.com/u/dragonir",
+    "votes": "9",
+    "rank": 8
+  },
+  {
+    "title": "扒开“全自动软件工程”平台的外衣，发现竟然……",
+    "description": "“全自动软件工程”涵盖 “项目管理”、“智能开发”、“自动化测试”、“质量管理”、“自动化运维” 等核心板块，什么神仙产品能实现“软件工程全流程全自动”！？小编怎么就不大相信呢~",
+    "url": "https://segmentfault.com/a/1190000040146632",
+    "author": "小魔",
+    "home_url": "https://segmentfault.com/u/lu_607eaefc582e8",
+    "votes": "9",
     "rank": 9
   },
   {
@@ -86,17 +86,8 @@
     "url": "https://segmentfault.com/a/1190000040137112",
     "author": "时倾",
     "home_url": "https://segmentfault.com/u/shiqing_5e690563e48cc",
-    "votes": "5",
+    "votes": "6",
     "rank": 10
-  },
-  {
-    "title": "从零开始了解 kubernetes，还有谁不会？",
-    "description": "kubernetes 已经成为容器编排领域的王者，它是基于容器的集群编排引擎，具备扩展集群、滚动升级回滚、弹性伸缩、自动治愈、服务发现等多种特性能力。更多关注Kubernetes的介绍请参阅旧文：Kubernetes 前世今生（ ...",
-    "url": "https://segmentfault.com/a/1190000040139913",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "10",
-    "rank": 11
   },
   {
     "title": "一文搞懂全排列、组合、子集问题(建议收藏)",
@@ -105,7 +96,25 @@
     "author": "bigsai",
     "home_url": "https://segmentfault.com/u/bigsai",
     "votes": "7",
+    "rank": 11
+  },
+  {
+    "title": "从零开始了解 kubernetes，还有谁不会？",
+    "description": "kubernetes 已经成为容器编排领域的王者，它是基于容器的集群编排引擎，具备扩展集群、滚动升级回滚、弹性伸缩、自动治愈、服务发现等多种特性能力。更多关注Kubernetes的介绍请参阅旧文：Kubernetes 前世今生（ ...",
+    "url": "https://segmentfault.com/a/1190000040139913",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "10",
     "rank": 12
+  },
+  {
+    "title": "35 张图带你 MySQL 调优",
+    "description": "这是 MySQL 基础系列的第四篇文章，之前的三篇文章见如下链接138 张图带你 MySQL 入门47 张图带你 MySQL 进阶！！！炸裂！MySQL 82 张图带你飞一般传统互联网公司很少接触到 SQL 优化问题，其原因是数据量小，大...",
+    "url": "https://segmentfault.com/a/1190000040145951",
+    "author": "程序员cxuan",
+    "home_url": "https://segmentfault.com/u/cxuan",
+    "votes": "9",
+    "rank": 13
   },
   {
     "title": "CSS 实现支持渐变的提示框（tooltips）",
@@ -114,16 +123,16 @@
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
     "votes": "11",
-    "rank": 13
+    "rank": 14
   },
   {
-    "title": "开发者点评一切，快来分享你的技术「好物」！思否 · 开发者点评等你来玩",
-    "description": "「开发者点评」 是 SegmentFault 思否旗下专业的开发者软件和服务点评社区，依托开发者真实的使用评价和 SF 指标，帮助开发者和企业选择合适的开发者软件和服务，解放开发者生产力。",
-    "url": "https://segmentfault.com/a/1190000040140927",
-    "author": "小魔",
-    "home_url": "https://segmentfault.com/u/lu_607eaefc582e8",
-    "votes": "4",
-    "rank": 14
+    "title": "腾讯位置服务定位打卡功能实现",
+    "description": "如何使用腾讯位置服务API1、注册成为开发者2、申请密钥，在如图位置创建新密钥3、进行配置官方Api使用示例（JavaScript）通过搜索接口找到个人公司位置：[链接] &key=你申请的key查询到公司位置为(31.329716,...",
+    "url": "https://segmentfault.com/a/1190000040161667",
+    "author": "腾讯位置服务",
+    "home_url": "https://segmentfault.com/u/tengxunweizhifuwu",
+    "votes": "3",
+    "rank": 15
   },
   {
     "title": "前端性能之压缩(拒绝各种没有试验的复制、粘贴)",
@@ -132,7 +141,34 @@
     "author": "寒水寺一禅",
     "home_url": "https://segmentfault.com/u/xiaolizideyitian",
     "votes": "5",
-    "rank": 15
+    "rank": 16
+  },
+  {
+    "title": "虚拟 DOM 与 Diff 算法的实现原理",
+    "description": "Vue 源码中虚拟 DOM 与 Diff 算法的实现借鉴了 snabbdom 这个库，snabbdom 是一个虚拟 DOM 库，它专注于简单，模块化，强大的功能和性能。要彻底明白虚拟 DOM 与 Diff 算法就得分析 snabbdom 这个库到底做了什么？",
+    "url": "https://segmentfault.com/a/1190000040142729",
+    "author": "废废",
+    "home_url": "https://segmentfault.com/u/feifei_5d9ace1c1d5a1",
+    "votes": "8",
+    "rank": 17
+  },
+  {
+    "title": "开发者点评一切，快来分享你的技术「好物」！思否 · 开发者点评等你来玩",
+    "description": "「开发者点评」 是 SegmentFault 思否旗下专业的开发者软件和服务点评社区，依托开发者真实的使用评价和 SF 指标，帮助开发者和企业选择合适的开发者软件和服务，解放开发者生产力。",
+    "url": "https://segmentfault.com/a/1190000040140927",
+    "author": "小魔",
+    "home_url": "https://segmentfault.com/u/lu_607eaefc582e8",
+    "votes": "4",
+    "rank": 18
+  },
+  {
+    "title": "JS 原生方法原理探究（六）：手写实现 30 个数组原生 API",
+    "description": "文章分为四个部分，分别介绍在数组原生 API 中，会修改原数组的方法、不会修改原数组的方法、用于遍历的方法以及静态方法，共计 30 个。在讲每个方法的具体实现之前，会简要介绍它们的用法（更详细的查阅 MDN 即...",
+    "url": "https://segmentfault.com/a/1190000040138580",
+    "author": "Chor",
+    "home_url": "https://segmentfault.com/u/chor",
+    "votes": "11",
+    "rank": 19
   },
   {
     "title": "咱们从头到尾说一次 Spring 事务管理（器）",
@@ -141,7 +177,7 @@
     "author": "空无",
     "home_url": "https://segmentfault.com/u/kongwu",
     "votes": "5",
-    "rank": 16
+    "rank": 20
   },
   {
     "title": "如何在angular中使用vue",
@@ -150,16 +186,7 @@
     "author": "JenK",
     "home_url": "https://segmentfault.com/u/wangzc996",
     "votes": "4",
-    "rank": 17
-  },
-  {
-    "title": "人均估值5000万RMB，53岁程序员能做到的，你也能！",
-    "description": "两周前，涛思数据正式宣布完成B轮4700万美元融资。一个40人的的团队，四年的时间，前后共获得了来自红杉、经纬、GGV、明势等近7000万美元的投资，估值已超3亿美元，人均估值超5000万RMB。消息公布后，迎来很多惊...",
-    "url": "https://segmentfault.com/a/1190000040147336",
-    "author": "涛思数据",
-    "home_url": "https://segmentfault.com/u/taosishuju",
-    "votes": "1",
-    "rank": 18
+    "rank": 21
   },
   {
     "title": "异构内存及其在机器学习系统的应用与优化",
@@ -168,42 +195,15 @@
     "author": "白玉兰开源",
     "home_url": "https://segmentfault.com/u/baiyulan_org",
     "votes": "1",
-    "rank": 19
-  },
-  {
-    "title": "虚拟 DOM 与 Diff 算法的实现原理",
-    "description": "Vue 源码中虚拟 DOM 与 Diff 算法的实现借鉴了 snabbdom 这个库，snabbdom 是一个虚拟 DOM 库，它专注于简单，模块化，强大的功能和性能。要彻底明白虚拟 DOM 与 Diff 算法就得分析 snabbdom 这个库到底做了什么？",
-    "url": "https://segmentfault.com/a/1190000040142729",
-    "author": "废废",
-    "home_url": "https://segmentfault.com/u/feifei_5d9ace1c1d5a1",
-    "votes": "7",
-    "rank": 20
-  },
-  {
-    "title": "JS 原生方法原理探究（六）：手写实现 30 个数组原生 API",
-    "description": "文章分为四个部分，分别介绍在数组原生 API 中，会修改原数组的方法、不会修改原数组的方法、用于遍历的方法以及静态方法，共计 30 个。在讲每个方法的具体实现之前，会简要介绍它们的用法（更详细的查阅 MDN 即...",
-    "url": "https://segmentfault.com/a/1190000040138580",
-    "author": "Chor",
-    "home_url": "https://segmentfault.com/u/chor",
-    "votes": "10",
-    "rank": 21
-  },
-  {
-    "title": "聊聊Svelte.js技术它做了什么以及如何实现的(下)",
-    "description": "聊聊Svelte.js技术它做了什么以及如何实现的(下)一. 循环语句     循环渲染这个我们肯定是离不开了, Svelte.js给我们提供了有趣的书写方式。 {代码...}      虽然Svelte.js没有虚拟dom, 但是循环的时候也需要key,...",
-    "url": "https://segmentfault.com/a/1190000040129854",
-    "author": "lulu_up",
-    "home_url": "https://segmentfault.com/u/lulu_up",
-    "votes": "7",
     "rank": 22
   },
   {
-    "title": "35 张图带你 MySQL 调优",
-    "description": "这是 MySQL 基础系列的第四篇文章，之前的三篇文章见如下链接138 张图带你 MySQL 入门47 张图带你 MySQL 进阶！！！炸裂！MySQL 82 张图带你飞一般传统互联网公司很少接触到 SQL 优化问题，其原因是数据量小，大...",
-    "url": "https://segmentfault.com/a/1190000040145951",
-    "author": "程序员cxuan",
-    "home_url": "https://segmentfault.com/u/cxuan",
-    "votes": "8",
+    "title": "人均估值5000万RMB，53岁程序员能做到的，你也能！",
+    "description": "两周前，涛思数据正式宣布完成B轮4700万美元融资。一个40人的的团队，四年的时间，前后共获得了来自红杉、经纬、GGV、明势等近7000万美元的投资，估值已超3亿美元，人均估值超5000万RMB。消息公布后，迎来很多惊...",
+    "url": "https://segmentfault.com/a/1190000040147336",
+    "author": "涛思数据",
+    "home_url": "https://segmentfault.com/u/taosishuju",
+    "votes": "1",
     "rank": 23
   },
   {
@@ -216,40 +216,31 @@
     "rank": 24
   },
   {
-    "title": "OceanBase-Client 等 5 个项目加入木兰开源社区孵化",
-    "description": "本次共有9名专家参与投票，全部持赞同意见，无弃权票和反对票，原则上满足进入孵化的条件，木兰开源社区旗下孵化项目采取多导师机制和开放治理架构。",
-    "url": "https://segmentfault.com/a/1190000040152538",
-    "author": "鸣飞",
-    "home_url": "https://segmentfault.com/u/mf",
-    "votes": "2",
-    "rank": 25
-  },
-  {
     "title": "Go 每日一库之 ants（源码赏析）",
     "description": "p, _ := ants.NewPool(cap)：这种方式创建的池子对象需要调用p.Submit(task)提交任务，任务是一个无参数无返回值的函数；",
     "url": "https://segmentfault.com/a/1190000040138176",
     "author": "darjun",
     "home_url": "https://segmentfault.com/u/guyu_5d2e806c57ac8",
     "votes": "2",
+    "rank": 25
+  },
+  {
+    "title": "都 2021 年了，你还在用 Jenkins ？赶快看看这些替代方案吧！",
+    "description": "Jenkins 是目前最常用的持续集成工具，拥有近 50% 的市场份额，它还是很多技术团队的第一个使用的自动化工具。但是随着自动化领域的持续发展，Jenkins 逐渐暴露出了一些问题，例如缺乏功能、维护问题、依赖关系和...",
+    "url": "https://segmentfault.com/a/1190000040154594",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "7",
     "rank": 26
   },
   {
-    "title": "tiny-react助你看懂react源码",
-    "description": "tiny-react是一个为了简化react源码学习的库，和react17的区别就是少了很多功能，只实现了核心的逻辑，和preact这种react-like库有着根本区别,preact更像是一个和react有着相同的接口但是实现细节却不尽相同的rea...",
-    "url": "https://segmentfault.com/a/1190000040129685",
-    "author": "jsdeferred",
-    "home_url": "https://segmentfault.com/u/jsdeferred_5e8550229f194",
-    "votes": "5",
+    "title": "OceanBase-Client 等 5 个项目加入木兰开源社区孵化",
+    "description": "本次共有9名专家参与投票，全部持赞同意见，无弃权票和反对票，原则上满足进入孵化的条件，木兰开源社区旗下孵化项目采取多导师机制和开放治理架构。",
+    "url": "https://segmentfault.com/a/1190000040152538",
+    "author": "鸣飞",
+    "home_url": "https://segmentfault.com/u/mf",
+    "votes": "2",
     "rank": 27
-  },
-  {
-    "title": "LeetCode上最热门的题目（easy级别）",
-    "description": "精选 100 道力扣（LeetCode）上最热门的题目，本篇文章只有 easy 级别的，适合初识算法与数据结构的新手和想要在短时间内高效提升的人。",
-    "url": "https://segmentfault.com/a/1190000040129893",
-    "author": "frank",
-    "home_url": "https://segmentfault.com/u/ru23",
-    "votes": "4",
-    "rank": 28
   },
   {
     "title": "两年工作经验，离职了...",
@@ -258,15 +249,24 @@
     "author": "Java3y",
     "home_url": "https://segmentfault.com/u/java_3y",
     "votes": "4",
+    "rank": 28
+  },
+  {
+    "title": "前端知识体系(2)-vue篇",
+    "description": "1. 简单说下vuevue是渐变式框架，根据自己的需求添加功能vue数据驱动采用mvvm模式，m是数据层，v是视图层，vm是调度者SPA单页面应用，只有一个页面，加载速率快组件化，复用性强那么，它有什么缺点？vue2底层基于...",
+    "url": "https://segmentfault.com/a/1190000040162878",
+    "author": "子树",
+    "home_url": "https://segmentfault.com/u/user_cf3crq1j",
+    "votes": "8",
     "rank": 29
   },
   {
-    "title": "rosedb 上 Github Trending 啦！",
-    "description": "昨天上午，我刚打开电脑，习惯性的逛了一下 Github ，点开了 Trending。因为 Github Trending 精选了一些最近比较活跃并且优质的开源项目，所以我没事的时候经常会看看，有时候也能够从别人的项目当中学习到很多。",
-    "url": "https://segmentfault.com/a/1190000040126750",
-    "author": "roseduan",
-    "home_url": "https://segmentfault.com/u/roseduan",
-    "votes": "3",
+    "title": "来自小姐姐的灵魂拷问：位运算是什么？",
+    "description": "前两天上班，突然小叶给我发消息：哥哥，你看这两段代码是什么意思啊？乍一看，感觉这代码既熟悉又陌生。好像在哪里见过，但平时好像又很少用到。我喝口水，冷静的想了 3s：咦，这个不就是那个位运算符吗？之前大...",
+    "url": "https://segmentfault.com/a/1190000040141185",
+    "author": "前端森林",
+    "home_url": "https://segmentfault.com/u/fengshuan",
+    "votes": "4",
     "rank": 30
   }
 ]
