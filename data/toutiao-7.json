@@ -2,7 +2,7 @@
   {
     "title": "杭州某大厂：MySQL 连环问",
     "description": "大家好，我是yes。MySQL 面试题又更新啦！请继续接招。说说分库分表？ 随着用户量的激增和时间的堆砌，存在数据库里面的数据越来越多，此时的数据库就会产生瓶颈，出现资源报警、查询...",
-    "votes": "105",
+    "votes": "110",
     "url": "/k/xjnx4kp",
     "avatar": "https://img.toutiao.io/subject%2F71da457007fd4b67a45253b271a25eee",
     "avatarAlt": "yes的练级攻略 - 独家号",
@@ -10,29 +10,9 @@
     "homeUrl": "/subjects/443906"
   },
   {
-    "title": "一文理解 Redis 底层数据结构",
-    "description": "Redis的5种常见数据结构：字符串(String)、列表(List)、散列(Hash)、集合(Set)、有序集合(Sorted Set)。这些都是Redis对外暴露的数据结构，本...",
-    "votes": "98",
-    "url": "/k/a3gplbq",
-    "avatar": "https://img.toutiao.io/subject%2F85512c92aa814f468f6b429b6eb70ba8",
-    "avatarAlt": "服务器后端开发 - 独家号",
-    "subjectName": "服务器后端开发",
-    "homeUrl": "/subjects/375484"
-  },
-  {
-    "title": "面试题：MySQL 一棵 B+ 树能存多少条数据？",
-    "description": "大家好，我是Tom哥~今日寄语：充满活力的新人，能让身边的人都重回初心，真是不可思议。mysql 的InnoDB存储引擎 一棵B+树可以存放多少行数据?（答案在文章中！！）要搞清楚...",
-    "votes": "76",
-    "url": "/k/85kvlje",
-    "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
-    "avatarAlt": "微观技术 - 独家号",
-    "subjectName": "微观技术",
-    "homeUrl": "/subjects/348507"
-  },
-  {
     "title": "有赞 TCP 网络编程最佳实践",
     "description": "概述本文是根据有赞中间件团队多年的TCP网络编程实践经验总结而来，目的是为了避免应用因各种网络异常而出现各种非预期行为，从而造成非预期的影响，影响系统稳定性与可靠性。本文不会涉及T...",
-    "votes": "68",
+    "votes": "91",
     "url": "/k/a7bxrhs",
     "avatar": "https://img.toutiao.io/subject%2F8e12ef64799649acbfd936883ef16c3c",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -40,9 +20,19 @@
     "homeUrl": "/subjects/26578"
   },
   {
+    "title": "利用 Kubernetes 搭建便携式开发环境之 MySQL 和 Redis",
+    "description": "之前给大家介绍过， 我自己用的开发环境都是容器化的，只不过前两年不会用K8，大部分都是用的 Docker 或者 Docker-Compose。随着这一年多对 K8 的学习和工作中的...",
+    "votes": "45",
+    "url": "/k/kkc4ght",
+    "avatar": "https://img.toutiao.io/subject%2F5a80999e5b844812b72eedbc7f5fb5be",
+    "avatarAlt": "网管叨bi叨 - 独家号",
+    "subjectName": "网管叨bi叨",
+    "homeUrl": "/subjects/437466"
+  },
+  {
     "title": "​手把手教你如何进行 Golang 单元测试",
     "description": " 作者：stevennzhou，腾讯 PCG 前端开发工程师本篇是对单元测试的一个总结，通过完整的单元测试手把手教学，能够让刚接触单元测试的开发者从整体上了解一个单元测试编写的全过...",
-    "votes": "41",
+    "votes": "45",
     "url": "/k/k1fr9de",
     "avatar": "https://img.toutiao.io/subject%2Fab225f76a1344c82acd5de490243c1fb",
     "avatarAlt": "安全奇点 - 独家号",
@@ -52,7 +42,7 @@
   {
     "title": "Flutter 电商项目最佳实践",
     "description": "该项目为Github开源项目，地址：https://github.com/simplezhli/flutter_deer 该项目非常适合作为个人学习Flutter的练习项目。通过设...",
-    "votes": "44",
+    "votes": "48",
     "url": "/k/aldjzoo",
     "avatar": "https://img.toutiao.io/subject%2F2661709a3af44375b6f3b7522ac60189",
     "avatarAlt": "太空编程 - 独家号",
@@ -62,7 +52,7 @@
   {
     "title": "给老板解释解释，为什么要用 Spring Cloud Alibaba 作为微服务开发框架？",
     "description": " 大家好，我是飘渺Jam，一名来自三流城市三流公司的三流程序员，这是我们的第158篇原创文章，如果你喜欢我的文章请点赞转发支持一下。   什么是微服务 提到微服务不得不提Marti...",
-    "votes": "41",
+    "votes": "42",
     "url": "/k/pzyuz5d",
     "avatar": "https://img.toutiao.io/subject%2F51ad25ebdf8b4a15895a07d5bce2b1e4",
     "avatarAlt": "JAVA日知录 - 独家号",
@@ -70,9 +60,29 @@
     "homeUrl": "/subjects/205182"
   },
   {
+    "title": "一文理解分布式锁的实现方式",
+    "description": "分布式锁的应用场景分布式锁的应用场景主要包括两类：处理效率提升：减少重复任务的执行，避免资源处理效率的浪费（例如幂等场景）。数据准确性保障：在数据资源的并发访问时，避免数据不一致情...",
+    "votes": "35",
+    "url": "/k/bqc2l84",
+    "avatar": "https://img.toutiao.io/subject%2F85512c92aa814f468f6b429b6eb70ba8",
+    "avatarAlt": "服务器后端开发 - 独家号",
+    "subjectName": "服务器后端开发",
+    "homeUrl": "/subjects/375484"
+  },
+  {
+    "title": "前端插件式可扩展架构设计心得",
+    "description": "引子大家可能不知道，鄙人之前人送外号“过度设计”。作为一个自信的研发人员，我总是希望我开发的系统可以解决之后所有的问题，用一套抽象可以覆盖之后所有的扩展场景。当然最终往往能够证明我...",
+    "votes": "37",
+    "url": "/k/avka7pr",
+    "avatar": "https://img.toutiao.io/subject%2Fc9bc51847b0c4b49aca52d0eaa087ed1",
+    "avatarAlt": "冷星前端圈 - 独家号",
+    "subjectName": "冷星前端圈",
+    "homeUrl": "/subjects/380054"
+  },
+  {
     "title": "Nacos 配置中心模块详解",
     "description": "配置中心 业务上的配置，功能开关，服务治理上对弱依赖的降级，甚至数据库的密码等，都可能用到动态配置中心。在没有专门的配置中心组件时，我们使用硬编码、或配置文件、或数据库、缓存等方式...",
-    "votes": "33",
+    "votes": "35",
     "url": "/k/5vic46a",
     "avatar": "https://img.toutiao.io/subject%2F9635116a54eb4217a569629335a3ee45",
     "avatarAlt": "公众号：捉虫大师 - 独家号",
@@ -82,7 +92,7 @@
   {
     "title": "云原生究竟是什么",
     "description": "要理解什么是云原生，就要从云原生的名字说起，云原生的英文名是cloud native, 很显然，其含义就包含云和原生两部分。云就是说应用是运行在云上，而非本地。原生，就是说应用要以...",
-    "votes": "38",
+    "votes": "40",
     "url": "/k/mjupr57",
     "avatar": "https://img.toutiao.io/subject%2F4dfe01622bf94a97a3ecd1d781905956",
     "avatarAlt": "wilde fox - 独家号",
@@ -90,39 +100,19 @@
     "homeUrl": "/subjects/12597"
   },
   {
-    "title": "被同事嘲笑说技术方案没深度？",
-    "description": "大家好，我是Z哥。程序员群体中有个很好玩的现象。工作年限短的程序员热衷于设计“高大上”的技术方案，而工作年限长的则对技术方案好像不太感冒，上手就撸代码。然后呢，年限短的程序员们想的...",
-    "votes": "33",
-    "url": "/k/jpbyt2n",
-    "avatar": "https://img.toutiao.io/subject%2Fc992e775e6344583abd8a49f632b3e13",
-    "avatarAlt": "跨界架构师 - 独家号",
-    "subjectName": "跨界架构师",
-    "homeUrl": "/subjects/268968"
-  },
-  {
-    "title": "前端插件式可扩展架构设计心得",
-    "description": "引子大家可能不知道，鄙人之前人送外号“过度设计”。作为一个自信的研发人员，我总是希望我开发的系统可以解决之后所有的问题，用一套抽象可以覆盖之后所有的扩展场景。当然最终往往能够证明我...",
-    "votes": "33",
-    "url": "/k/avka7pr",
-    "avatar": "https://img.toutiao.io/subject%2Fc9bc51847b0c4b49aca52d0eaa087ed1",
-    "avatarAlt": "冷星前端圈 - 独家号",
-    "subjectName": "冷星前端圈",
-    "homeUrl": "/subjects/380054"
-  },
-  {
-    "title": "一文理解分布式锁的实现方式",
-    "description": "分布式锁的应用场景分布式锁的应用场景主要包括两类：处理效率提升：减少重复任务的执行，避免资源处理效率的浪费（例如幂等场景）。数据准确性保障：在数据资源的并发访问时，避免数据不一致情...",
-    "votes": "29",
-    "url": "/k/bqc2l84",
-    "avatar": "https://img.toutiao.io/subject%2F85512c92aa814f468f6b429b6eb70ba8",
-    "avatarAlt": "服务器后端开发 - 独家号",
-    "subjectName": "服务器后端开发",
-    "homeUrl": "/subjects/375484"
+    "title": "深度剖析：Redis 分布式锁到底安全吗？看完这篇文章彻底懂了",
+    "description": "‍‍‍‍‍‍‍‍‍‍‍‍阅读本文大约需要 20 分钟。大家好，我是 Kaito。这篇文章我想和你聊一聊，关于 Redis 分布式锁的「安全性」问题。Redis 分布式锁的话题，很多...",
+    "votes": "34",
+    "url": "/k/15c6my9",
+    "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
   },
   {
     "title": "没源码怎么排查问题？Arthas 暴力内存搜索对象解决",
     "description": "背景公司某个规则引擎系统，主要用来做一些费用计算和业务逻辑核验的功能。不过由于一些不可描述的历史原因，导致该系统没有文档也没有源码，就连配置方式都是靠口口相传。 虽然这个系统比较老...",
-    "votes": "33",
+    "votes": "35",
     "url": "/k/yg6hxci",
     "avatar": "https://img.toutiao.io/subject%2F4037e9a889c94841b38942df627c176e",
     "avatarAlt": "横云断岭的专栏 - 独家号",
@@ -132,7 +122,7 @@
   {
     "title": "一文理解 Kafka 如何保证消息顺序性",
     "description": "要想实现消息有序，需要从Producer和Consumer两方面来考虑。如果对Kafka不了解的话，可以先看这篇博客《一文快速了解Kafka》。针对消息有序的业务需求，还分为全局有...",
-    "votes": "29",
+    "votes": "32",
     "url": "/k/q41dfd0",
     "avatar": "https://img.toutiao.io/subject%2F85512c92aa814f468f6b429b6eb70ba8",
     "avatarAlt": "服务器后端开发 - 独家号",
@@ -140,19 +130,9 @@
     "homeUrl": "/subjects/375484"
   },
   {
-    "title": "深度剖析：Redis 分布式锁到底安全吗？看完这篇文章彻底懂了",
-    "description": "‍‍‍‍‍‍‍‍‍‍‍‍阅读本文大约需要 20 分钟。大家好，我是 Kaito。这篇文章我想和你聊一聊，关于 Redis 分布式锁的「安全性」问题。Redis 分布式锁的话题，很多...",
-    "votes": "29",
-    "url": "/k/15c6my9",
-    "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
-    "avatarAlt": "Bloomingroses - 独家号",
-    "subjectName": "Bloomingroses",
-    "homeUrl": "/subjects/98777"
-  },
-  {
     "title": "使用 curl 进行网站测速",
     "description": "网站访问可以分为下面几个阶段：DNS 域名解析通过SSL协议交换密钥（HTTPS)与服务端创建 TCP 访问连接客户端发起请求服务端收到请求并准备回应内容服务端回复回应内容当我们优...",
-    "votes": "27",
+    "votes": "30",
     "url": "/k/ix0c5uk",
     "avatar": "https://img.toutiao.io/subject%2Fe76f4a6bf4fd49e6a38fd3ae57188995",
     "avatarAlt": "杂说乱炖 - 独家号",
@@ -162,7 +142,7 @@
   {
     "title": "工作多年，Linux 文件系统还不太了解？",
     "description": "▲ 点击上方“架构精进之路”关注公众号回复“01”领取「程序员进阶大礼包」这是「架构精进之路」公众号的第67篇原创文章我们作为“码农”，每天都在接触编程，接触linux系统，那么常...",
-    "votes": "29",
+    "votes": "32",
     "url": "/k/pcu7stg",
     "avatar": "https://img.toutiao.io/subject%2F071476c43e0d42cf95f3e77f046c814b",
     "avatarAlt": "架构精进之路 - 独家号",
@@ -170,19 +150,9 @@
     "homeUrl": "/subjects/452638"
   },
   {
-    "title": "JSON 是什么",
-    "description": "提起 JSON，作为如今最受欢迎的数据交换格式，可以说是无人不知、无人不晓了。JSON 全称 JavaScript Object Notation（ JS 对象简谱），自诞生之初的...",
-    "votes": "29",
-    "url": "/k/ojtkz91",
-    "avatar": "https://img.toutiao.io/subject%2Fb762b766520042c48543e2d2cc06cb2f",
-    "avatarAlt": "魔笛手CTO - 独家号",
-    "subjectName": "魔笛手CTO",
-    "homeUrl": "/subjects/41394"
-  },
-  {
     "title": "微信小程序基础架构浅析",
     "description": " 作者：billgong，腾讯IEG前端开发工程师。微信小程序，简称小程序，英文 mini program。是一种不需要下载安装即可在微信中使用的应用，用户扫描小程序码或搜索小程序...",
-    "votes": "27",
+    "votes": "31",
     "url": "/k/yzi0j3y",
     "avatar": "https://img.toutiao.io/subject%2Ff05a135abc844e719541593cad4f8c57",
     "avatarAlt": "不错的好文 - 独家号",
@@ -190,13 +160,43 @@
     "homeUrl": "/subjects/5551"
   },
   {
-    "title": "故事篇：终于给老婆讲明白什么是 Logback 了",
-    "description": "故事会迟到，但他从不会缺席。今天的故事开始了，你准备好了吗？前奏 简单介绍一下我的老婆：集智慧与美貌于一身的女子——阿狸，一句“我们心有灵犀，不是吗？”让我瞬间“沦陷”。正题 Lo...",
-    "votes": "46",
-    "url": "/k/0qku0g2",
-    "avatar": "https://img.toutiao.io/subject%2F04598310d2b449419e15d3ca712b17b4",
-    "avatarAlt": "阿Q说代码 - 独家号",
-    "subjectName": "阿Q说代码",
-    "homeUrl": "/subjects/457975"
+    "title": "JSON 是什么",
+    "description": "提起 JSON，作为如今最受欢迎的数据交换格式，可以说是无人不知、无人不晓了。JSON 全称 JavaScript Object Notation（ JS 对象简谱），自诞生之初的...",
+    "votes": "31",
+    "url": "/k/ojtkz91",
+    "avatar": "https://img.toutiao.io/subject%2Fb762b766520042c48543e2d2cc06cb2f",
+    "avatarAlt": "魔笛手CTO - 独家号",
+    "subjectName": "魔笛手CTO",
+    "homeUrl": "/subjects/41394"
+  },
+  {
+    "title": "数智时代，运维的出路在哪里？",
+    "description": "在运维工作中，经常被贴上这样的标签：背锅侠？电脑修理工？救火队员？35岁被退休？996/007等等，作为运维我们也经常这样自嘲。面对云计算、云原生等新生技术的快速发展，自动化和智能...",
+    "votes": "29",
+    "url": "/k/l2o49j6",
+    "avatar": "https://img.toutiao.io/subject%2F2248057e0e2a467da939386bba6f0a57",
+    "avatarAlt": "云栈技术CSTC - 独家号",
+    "subjectName": "云栈技术CSTC",
+    "homeUrl": "/subjects/206"
+  },
+  {
+    "title": "618 临阵磨刀：Flink 容器化与平台化建设少走弯路",
+    "description": "本文根据王康老师在〖deeplus直播第268期〗线上分享演讲内容整理而成。（文末有获取本期PPT&回放的方式，不要错过）  王康 唯品会 数据平台 高级开发工程师多年大数据实时计...",
+    "votes": "25",
+    "url": "/k/hv256a2",
+    "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
+  },
+  {
+    "title": "一文理解如何解决 Kafka 消息积压问题",
+    "description": "通常情况下，企业中会采取轮询或者随机的方式，通过Kafka的producer向Kafka集群生产数据，来尽可能保证Kafk分区之间的数据是均匀分布的。如果对Kafka不了解的话，可...",
+    "votes": "28",
+    "url": "/k/mljuhx6",
+    "avatar": "https://img.toutiao.io/subject%2F85512c92aa814f468f6b429b6eb70ba8",
+    "avatarAlt": "服务器后端开发 - 独家号",
+    "subjectName": "服务器后端开发",
+    "homeUrl": "/subjects/375484"
   }
 ]

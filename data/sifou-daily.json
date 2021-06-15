@@ -1,38 +1,65 @@
 [
   {
-    "title": "浏览器原理-浏览器缓存和本地存储篇",
-    "description": "大家好，我是林一一，这是一篇关于浏览器 缓存原理 和 本地存储 的文章，后续回持续推出关于，浏览器原理的文章。一、浏览器的缓存篇思维导图所谓浏览器的缓存，就是浏览器通过 HTTP 请求网络资源后将资源留在本...",
-    "url": "https://segmentfault.com/a/1190000040169855",
-    "author": "林一一",
-    "home_url": "https://segmentfault.com/u/user_p5fejtxs",
+    "title": "智能制造之 SMT 产线监控管理可视化",
+    "description": "随着《中国制造2025》的提出，制造业迎来了全新的发展机遇。更多的企业将制造业信息化技术进行广泛的应用，如 MES 系统、数字孪生以及生产管理可视化等技术的研究应用，已经成为社会各界共同关注的热点。",
+    "url": "https://segmentfault.com/a/1190000040173209",
+    "author": "htdaydayup",
+    "home_url": "https://segmentfault.com/u/htdaydayup_5da2d7a6d4888",
     "votes": "1",
     "rank": 1
   },
   {
-    "title": "前端性能优化篇之console.log",
-    "description": "前端程序员几乎每天不是在打log就是在打log的路上，最近就在自己真实项目中遇到了一个console.log的坑，由此记录一下console.log过程中你需要了解的知识，少走弯路。",
-    "url": "https://segmentfault.com/a/1190000040169270",
-    "author": "MangoGoing",
-    "home_url": "https://segmentfault.com/u/nulidexiaocongmang",
+    "title": "数据库的范式详解",
+    "description": "关系数据库设计之时是要遵守一定的规则的。尤其是数据库设计范式 现简单介绍1NF（第一范式），2NF（第二范式），3NF（第三范式）和BCNF，另有第四范式和第五范式留到以后再介绍。",
+    "url": "https://segmentfault.com/a/1190000040172352",
+    "author": "topologian",
+    "home_url": "https://segmentfault.com/u/topology",
     "votes": "1",
     "rank": 2
   },
   {
-    "title": "java 反射技巧",
-    "description": "如何获取方法返回值像List、Map中的泛型类型？ {代码...} java 通过反射填充属性 {代码...}",
-    "url": "https://segmentfault.com/a/1190000040169852",
-    "author": "SanPiBrother",
-    "home_url": "https://segmentfault.com/u/sanpibrother",
+    "title": "Nodejs实现复制内容到剪贴板",
+    "description": "需求如下:将index.txt 的内容进行格式转换后复制到剪贴板。index.txt {代码...} 转换后 {代码...} 流程如下读取index.txt中的内容生成一个copy.bat文件，写入 clip < result.txt 将转换后的内容保存到result.t...",
+    "url": "https://segmentfault.com/a/1190000040173190",
+    "author": "小遁哥",
+    "home_url": "https://segmentfault.com/u/laishidexiangyu",
     "votes": "1",
     "rank": 3
   },
   {
-    "title": "HTTP Post请求的四种编码方式",
-    "description": "HTTP协议规定 POST 提交的数据必须放在消息主体（entity-body）中，但协议并没有规定数据必须使用什么编码方式。实际上，开发者完全可以自己决定消息主体的格式，只要最后发送的 HTTP 请求满足上面的格式就可以。...",
-    "url": "https://segmentfault.com/a/1190000040169636",
-    "author": "Alfred",
-    "home_url": "https://segmentfault.com/u/alfred_5972f8006661f",
+    "title": "React@16.8.6源码阅读（一）Scheduler",
+    "description": "React也使用了好一段时间，最近才有空把源码阅读一下（真是惭愧），因为项目用的React版本比较老，所以找的版本也就对应项目使用的版本刚好是16.8.6，不过React源码分析的文章已经很多了，而且有很多也质量很高，...",
+    "url": "https://segmentfault.com/a/1190000040173121",
+    "author": "tain335",
+    "home_url": "https://segmentfault.com/u/tain335",
     "votes": "1",
     "rank": 4
+  },
+  {
+    "title": "MongoDB 只读权限设置",
+    "description": "微信公众号：[前端一锅煮]一点技术、一点思考。问题或建议，请公众号留言。相关命令查看本机 mongodb 版本：mongo -version查看本机运行的 mongodb：ps aux | grep mongodb连接本机数据库：mongo localhost:27017...",
+    "url": "https://segmentfault.com/a/1190000040172362",
+    "author": "前端一锅煮",
+    "home_url": "https://segmentfault.com/u/daqianduan",
+    "votes": "1",
+    "rank": 5
+  },
+  {
+    "title": "特色国风数字孪生智慧大坝 3D 可视化",
+    "description": "水利兴，五谷丰。水利作为国民经济稳定和谐的重要部分，不仅有防洪减灾、农业灌溉、城市供水调水、渔业外贸、旅游航运、生态环境等综合应用，水电资源也是至关重要的可持续能源之一。大坝与水库、水电站等水利枢...",
+    "url": "https://segmentfault.com/a/1190000040173231",
+    "author": "hightopo",
+    "home_url": "https://segmentfault.com/u/hightopo",
+    "votes": "1",
+    "rank": 6
+  },
+  {
+    "title": "Python 协程（Coroutine）体验",
+    "description": "本文通过运行一段Python小程序，模拟一个真实的任务。比较在多线程（Multi-thread）和在多协程（Coroutine）环境下的编程实现。发现和解释一些有趣的现象。以期为大家带来一些对协程的直观感受，加深对这种新鲜事...",
+    "url": "https://segmentfault.com/a/1190000040171674",
+    "author": "backofhan",
+    "home_url": "https://segmentfault.com/u/backofhan",
+    "votes": "1",
+    "rank": 7
   }
 ]
