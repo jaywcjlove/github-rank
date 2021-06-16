@@ -1,65 +1,254 @@
 [
   {
-    "title": "智能制造之 SMT 产线监控管理可视化",
-    "description": "随着《中国制造2025》的提出，制造业迎来了全新的发展机遇。更多的企业将制造业信息化技术进行广泛的应用，如 MES 系统、数字孪生以及生产管理可视化等技术的研究应用，已经成为社会各界共同关注的热点。",
-    "url": "https://segmentfault.com/a/1190000040173209",
-    "author": "htdaydayup",
-    "home_url": "https://segmentfault.com/u/htdaydayup_5da2d7a6d4888",
-    "votes": "1",
+    "title": "我与思否，七年之痒",
+    "description": "思否 9 周岁了 🎂🍾🎈！隐约记得我在思否的时间不短，去查了查，是 2014 年 9 月，教师节的前一天注册的，算下来在思否也有 7 年了。然后去查了下我在思否的第一篇博文，是篇「备忘」。所以一开始我是并不是冲着思否...",
+    "url": "https://segmentfault.com/a/1190000040174392",
+    "author": "边城",
+    "home_url": "https://segmentfault.com/u/jamesfancy",
+    "votes": "9",
     "rank": 1
   },
   {
-    "title": "数据库的范式详解",
-    "description": "关系数据库设计之时是要遵守一定的规则的。尤其是数据库设计范式 现简单介绍1NF（第一范式），2NF（第二范式），3NF（第三范式）和BCNF，另有第四范式和第五范式留到以后再介绍。",
-    "url": "https://segmentfault.com/a/1190000040172352",
-    "author": "topologian",
-    "home_url": "https://segmentfault.com/u/topology",
-    "votes": "1",
+    "title": "使用更具可读性的方式来设置 TypeScript 类型",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000040073700",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "2",
     "rank": 2
   },
   {
-    "title": "Nodejs实现复制内容到剪贴板",
-    "description": "需求如下:将index.txt 的内容进行格式转换后复制到剪贴板。index.txt {代码...} 转换后 {代码...} 流程如下读取index.txt中的内容生成一个copy.bat文件，写入 clip < result.txt 将转换后的内容保存到result.t...",
-    "url": "https://segmentfault.com/a/1190000040173190",
-    "author": "小遁哥",
-    "home_url": "https://segmentfault.com/u/laishidexiangyu",
-    "votes": "1",
+    "title": "CSS ::marker 让文字序号更有意思",
+    "description": "本文将介绍 CSS 中一个比较有意思的伪元素 ::marker，利用它，我们可以让我们的文字序号变得更加的有意思！什么是 ::markerCSS 伪元素 ::marker 是从 CSS Pseudo-Elements Level 3 开始新增，CSS Pseudo-Elements...",
+    "url": "https://segmentfault.com/a/1190000040175019",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "3",
     "rank": 3
   },
   {
-    "title": "React@16.8.6源码阅读（一）Scheduler",
-    "description": "React也使用了好一段时间，最近才有空把源码阅读一下（真是惭愧），因为项目用的React版本比较老，所以找的版本也就对应项目使用的版本刚好是16.8.6，不过React源码分析的文章已经很多了，而且有很多也质量很高，...",
-    "url": "https://segmentfault.com/a/1190000040173121",
-    "author": "tain335",
-    "home_url": "https://segmentfault.com/u/tain335",
-    "votes": "1",
+    "title": "网易有道开源EMLL：高性能端侧机器学习计算库，大幅提高计算性能",
+    "description": "在人工智能技术不断深入发展的今天，我们对于计算的性能要求越来越高。传统的计算处理多数是基于云侧的，把所有图像、音频等数据通过网络传输到云中心进行处理后将结果反馈。但是随着数据的指数式增长，依靠云侧...",
+    "url": "https://segmentfault.com/a/1190000040176377",
+    "author": "有道技术团队",
+    "home_url": "https://segmentfault.com/u/youdaotec",
+    "votes": "2",
     "rank": 4
   },
   {
-    "title": "MongoDB 只读权限设置",
-    "description": "微信公众号：[前端一锅煮]一点技术、一点思考。问题或建议，请公众号留言。相关命令查看本机 mongodb 版本：mongo -version查看本机运行的 mongodb：ps aux | grep mongodb连接本机数据库：mongo localhost:27017...",
-    "url": "https://segmentfault.com/a/1190000040172362",
-    "author": "前端一锅煮",
-    "home_url": "https://segmentfault.com/u/daqianduan",
-    "votes": "1",
+    "title": "Babel配置傻傻看不懂？",
+    "description": "前沿：文章起源在于，朋友跟树酱说在解决项目兼容IE11浏览器过程中，遇到“眼花缭乱”的babel配置和插件等，傻傻分不清配置间的区别、以及不了解如何引用babel插件才能让性能更佳，如果你也有这方面的疑虑，这篇文...",
+    "url": "https://segmentfault.com/a/1190000040174867",
+    "author": "树酱",
+    "home_url": "https://segmentfault.com/u/shu_jshu_jiashu_jianshu_jiang",
+    "votes": "3",
     "rank": 5
   },
   {
-    "title": "特色国风数字孪生智慧大坝 3D 可视化",
-    "description": "水利兴，五谷丰。水利作为国民经济稳定和谐的重要部分，不仅有防洪减灾、农业灌溉、城市供水调水、渔业外贸、旅游航运、生态环境等综合应用，水电资源也是至关重要的可持续能源之一。大坝与水库、水电站等水利枢...",
-    "url": "https://segmentfault.com/a/1190000040173231",
-    "author": "hightopo",
-    "home_url": "https://segmentfault.com/u/hightopo",
+    "title": "Docker 被K8S抛弃！别慌！分分钟转型 Containerd",
+    "description": "Kubernetes 官方发布公告，宣布自 v1.20 起放弃对 Docker 的支持。目前，Kubelet 中的 Docker 支持功能现已弃用，并将在之后的版本中被删除。",
+    "url": "https://segmentfault.com/a/1190000040178226",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "1",
     "rank": 6
   },
   {
-    "title": "Python 协程（Coroutine）体验",
-    "description": "本文通过运行一段Python小程序，模拟一个真实的任务。比较在多线程（Multi-thread）和在多协程（Coroutine）环境下的编程实现。发现和解释一些有趣的现象。以期为大家带来一些对协程的直观感受，加深对这种新鲜事...",
-    "url": "https://segmentfault.com/a/1190000040171674",
-    "author": "backofhan",
-    "home_url": "https://segmentfault.com/u/backofhan",
-    "votes": "1",
+    "title": "laravel-soar - 在 Laravel 中轻松容易的优化 sql 语句的扩展包",
+    "description": "laravel-soar - 在 Laravel 应用程序中轻松容易的优化 sql 语句的扩展包。功能支持基于启发式算法的语句优化支持复杂查询的多列索引优化（UPDATE, INSERT, DELETE, SELECT）支持 EXPLAIN 信息丰富解读支持 SQL 指...",
+    "url": "https://segmentfault.com/a/1190000040176697",
+    "author": "guanguans",
+    "home_url": "https://segmentfault.com/u/guanguans",
+    "votes": "2",
     "rank": 7
+  },
+  {
+    "title": "面向祖传代码 Debug，我挽回了一位准备跑路的程序员",
+    "description": "交流群的风格突然骤变，没有了往日的灌水扯淡，居然聊起了技术。看了大家的全部的聊天记录，发现问题并没解决。群里难得这么多人聊技术，抱着问答不断，必有回响的原则，主动勾搭一起看看是什么问题。大概了解其...",
+    "url": "https://segmentfault.com/a/1190000040175584",
+    "author": "周梦康",
+    "home_url": "https://segmentfault.com/u/zhoumengkang",
+    "votes": "2",
+    "rank": 8
+  },
+  {
+    "title": "精读《算法 - 滑动窗口》",
+    "description": "滑动窗口算法是较为入门题目的算法，一般是一些有规律数组问题的最优解，也就是说，如果一个数组问题可以用动态规划解，但又可以使用滑动窗口解决，那么往往滑动窗口的效率更高。",
+    "url": "https://segmentfault.com/a/1190000040174595",
+    "author": "黄子毅",
+    "home_url": "https://segmentfault.com/u/aoyangyudakong",
+    "votes": "2",
+    "rank": 9
+  },
+  {
+    "title": "技术人生——技术、业务、组织的一般规律及应对策略",
+    "description": "简介：本文讨论了如何让技术一号位能够从理论上、以宏观的视角看清日常工作息息相关的事物的发展规律，从而为顺应规律办事或者创造条件打破规律提供理论依据。",
+    "url": "https://segmentfault.com/a/1190000040176779",
+    "author": "阿里云开发者",
+    "home_url": "https://segmentfault.com/u/alijishu",
+    "votes": "2",
+    "rank": 10
+  },
+  {
+    "title": "npm安装遇到的各种失败的解决方案",
+    "description": "转载自：[链接]",
+    "url": "https://segmentfault.com/a/1190000040175103",
+    "author": "黒之染",
+    "home_url": "https://segmentfault.com/u/haua",
+    "votes": "2",
+    "rank": 11
+  },
+  {
+    "title": "下一代vue状态管理：Vanx",
+    "description": "现在让我们抛弃复杂，心智负担极重的Vuex, Flux, Redux等等等等之类的东西吧。单纯的面向对象，已经足以管理状态了，而且更好。更少的心智负担，更简单的公共接口。一眼就能看明白。",
+    "url": "https://segmentfault.com/a/1190000040174929",
+    "author": "OLong",
+    "home_url": "https://segmentfault.com/u/olong_597dcf0b95b62",
+    "votes": "2",
+    "rank": 12
+  },
+  {
+    "title": "运维：你们 JAVA 服务怎么又又又又出问题了！内存降不下来！",
+    "description": "运维：这个服务也是你们的吧，你看这个 JAVA 进程，内存占用都快 3 个 G 了，这机器才 4G，你们堆才配置 2G，都要告警了！这次是真的内存泄露了吧，不是我无知了吧！",
+    "url": "https://segmentfault.com/a/1190000040172857",
+    "author": "空无",
+    "home_url": "https://segmentfault.com/u/kongwu",
+    "votes": "1",
+    "rank": 13
+  },
+  {
+    "title": "源码篇：Flutter Bloc背后的思想，一篇纠结的文章",
+    "description": "前言看了Bloc源码后，心情有点复杂呀。。。说点积极的...用过Bloc的靓仔们，肯定能感受到，Bloc框架对开发页面，做了很清晰划分，框架强行定了俩种开发模式Bloc模式：该模式划分四层结构bloc：逻辑层state：数据...",
+    "url": "https://segmentfault.com/a/1190000040176214",
+    "author": "小呆呆666",
+    "home_url": "https://segmentfault.com/u/xdd666",
+    "votes": "1",
+    "rank": 14
+  },
+  {
+    "title": "JS执行上下文",
+    "description": "执行上下文（Execution Context），简称EC。网上有很多关于执行上下文定义的描述，简单理解一下，其实就是作用域，也就是运行这段JavaScript代码的一个环境。",
+    "url": "https://segmentfault.com/a/1190000040177827",
+    "author": "云溪",
+    "home_url": "https://segmentfault.com/u/cheng_5a90d02685a12",
+    "votes": "1",
+    "rank": 15
+  },
+  {
+    "title": "使用 TypeScript，React，ANTLR 和 Monaco Editor 创建一个自定义 Web 编辑器(二)",
+    "description": "欢迎阅读如何使用 TypeScript, React, ANTLR4, Monaco Editor 创建一个自定义 Web 编辑器系列的第二章节, 在这之前建议您阅读使用 TypeScript, React, ANTLR4, Monaco Editor 创建一个自定义 Web 编辑器(一)",
+    "url": "https://segmentfault.com/a/1190000040176753",
+    "author": "袋鼠云数栈前端",
+    "home_url": "https://segmentfault.com/u/daishuyunshuzhanqianduan",
+    "votes": "3",
+    "rank": 16
+  },
+  {
+    "title": "云钉一体应用创新：音视频如何带来灵活高效的协同体验",
+    "description": "简介：云钉一体的阿里云音视频解决方案，将音视频与协同各业务紧密结合，实现员工、业务及设备的全链接，为客户提供线上线下，软件端到会议室的端到端音视频协同办公体验。阿里云视频云负责人林昊与罗技战略产品...",
+    "url": "https://segmentfault.com/a/1190000040176604",
+    "author": "阿里云开发者",
+    "home_url": "https://segmentfault.com/u/alijishu",
+    "votes": "1",
+    "rank": 17
+  },
+  {
+    "title": "OceanBase时序数据库CeresDB正式商用",
+    "description": "近日，在数据库OceanBase3.0峰会上，OceanBase CEO杨冰宣布首个时序数据库产品CeresDB正式商用。该数据库将为用户提供安全可靠的数据查询和存储管理服务，解决监控运维、物联网等场景中，时间序列数据的高吞吐、...",
+    "url": "https://segmentfault.com/a/1190000040175887",
+    "author": "阿里云开发者",
+    "home_url": "https://segmentfault.com/u/alijishu",
+    "votes": "1",
+    "rank": 18
+  },
+  {
+    "title": "OceanBase首次阐述战略：继续坚持自研开放之路 开源300万行核心代码",
+    "description": "简介：在数据库OceanBase3.0峰会上，蚂蚁集团自主研发的分布式数据库OceanBase首次从技术、商业和生态三个维度对未来发展战略进行了系统性阐述。同时，OceanBase宣布正式开源，并成立OceanBase开源社区，社区官网...",
+    "url": "https://segmentfault.com/a/1190000040175613",
+    "author": "阿里云开发者",
+    "home_url": "https://segmentfault.com/u/alijishu",
+    "votes": "1",
+    "rank": 19
+  },
+  {
+    "title": "愿不负努力，所愿皆所求 --shopee入职闲叙",
+    "description": "入职shopee之后，导师有给到一个entry task，这个任务是实现一个事件机制。实现addEventListener，removeEventListener，dispatchEvent这三个方法。",
+    "url": "https://segmentfault.com/a/1190000040175546",
+    "author": "greet_eason",
+    "home_url": "https://segmentfault.com/u/aichendesiyangyuan",
+    "votes": "1",
+    "rank": 20
+  },
+  {
+    "title": "开源之夏 | 阿里开源近百任务上线",
+    "description": "2021年，由中国开源软件推进联盟COPU牵头发布了《2021中国开源发展蓝皮书》，涵盖当今全球开源的总体情况分析、开发者分析、项目分析、领域案例，绘制了一副\"开源数字生态地图\"。让我们全面地看到了开源领域的中...",
+    "url": "https://segmentfault.com/a/1190000040174732",
+    "author": "阿里云开发者",
+    "home_url": "https://segmentfault.com/u/alijishu",
+    "votes": "1",
+    "rank": 21
+  },
+  {
+    "title": "十载浮沉：数字化赋能与重塑 3D 打印等非标服务型制造业的几个底层思考及展望",
+    "description": "吾辈亦像鸟，躬身入局，飞往属于我们的山巅。谨以此文，记述过去两年间 Unionfab 优联智造团队（[链接]）共同奋斗、努力、探索，不断地实践印证、知行合一，不断地在诸多岔路丛中披荆斩棘，寻找属于我们自己道路...",
+    "url": "https://segmentfault.com/a/1190000040174618",
+    "author": "王下邀月熊_Chevalier",
+    "home_url": "https://segmentfault.com/u/wx_chevalier",
+    "votes": "1",
+    "rank": 22
+  },
+  {
+    "title": "切勿习惯性加班",
+    "description": "想到公司内经常说的一句话，不要「用战术上的勤奋掩盖战略上的懒惰/不足」，不要认为自己每天忙忙碌碌就是在进步，其实不然。忙忙碌碌之中没有思考是很可怕的事情，意味着很可能一直在原地踏步，没有让自己站到更...",
+    "url": "https://segmentfault.com/a/1190000040174286",
+    "author": "木易杨",
+    "home_url": "https://segmentfault.com/u/muyiyang_5bd9ae9ac7993",
+    "votes": "1",
+    "rank": 23
+  },
+  {
+    "title": "多入口 Webpack 热更新失效？",
+    "description": "Webpack 对于现代前端开发者，想必是相当熟悉了，在很多项目中，应用非常广泛，而 webpack-dev-server，相信大家应该也都接触过。最近，作者在配置多入口，热更新在单入口是好使的，结果到了多入口不好使？，然后...",
+    "url": "https://segmentfault.com/a/1190000040174129",
+    "author": "发声的沉默者",
+    "home_url": "https://segmentfault.com/u/thomas_5b0e5d1b64584",
+    "votes": "1",
+    "rank": 24
+  },
+  {
+    "title": "从零开始的electron开发-文件处理-本地文件加载",
+    "description": "我们在使用electron时，有时会涉及一些文件的处理，比如文件的下载，或者本地文件的加载（本地音乐，本地图片等），本章主要介绍electron本地文件的加载。 其实这个功能还是比较常见的，比如我们下载了某某皮肤主...",
+    "url": "https://segmentfault.com/a/1190000040174074",
+    "author": "陌路凡歌",
+    "home_url": "https://segmentfault.com/u/molufange",
+    "votes": "1",
+    "rank": 25
+  },
+  {
+    "title": "java_DateFormat类中format方法、parse方法使用",
+    "description": "DateFormat类java.text.DateFormat 是一个将Date（日期）转为Strting（文本）的类（抽象类 ）。格式化： Date转为String对象。解析： String转为Date对象。里面常用方法有format方法parse方法抽象类不能直接调用...",
+    "url": "https://segmentfault.com/a/1190000040178962",
+    "author": "嘻嘻硕",
+    "home_url": "https://segmentfault.com/u/wldenw2y",
+    "votes": "1",
+    "rank": 26
+  },
+  {
+    "title": "难受，nginx worker进程内存持续飘升！",
+    "description": "但是，好景不长。灰度没多久，使用top pod查看时，发现内存满了，最开始怀疑k8s的resources limit memory(2024Mi)分配小了，放大后(4096Mi)，重启pod，没多久又满了。",
+    "url": "https://segmentfault.com/a/1190000040178535",
+    "author": "WilburXu",
+    "home_url": "https://segmentfault.com/u/wilburxu",
+    "votes": "1",
+    "rank": 27
+  },
+  {
+    "title": "Dart 的编程语言之美 4 个超级特性",
+    "description": "老铁记得 转发 ，猫哥会呈现更多 Flutter 好文~~~~微信 Flutter 技术群 ducafecat原文[链接]参考[链接][链接][链接][链接]正文在阅读 Flutter 时，我读到最多的缺点之一就是使用 Dart 编程语言。它还没有 Kotlin ...",
+    "url": "https://segmentfault.com/a/1190000040173810",
+    "author": "会煮咖啡的猫",
+    "home_url": "https://segmentfault.com/u/ducafecat",
+    "votes": "1",
+    "rank": 28
   }
 ]
