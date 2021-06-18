@@ -2,7 +2,7 @@
   {
     "title": "亿级系统的 Redis 缓存如何设计？",
     "description": "知识分享，以技会友。大家好，我是Tom哥。阅读本文大约需要 15 分钟。缓存设计可谓老生常谈了，早些时候都是采用memcache，现在大家更多倾向使用redis，除了知晓常用的数据...",
-    "votes": "254",
+    "votes": "255",
     "url": "/k/ep5e8sd",
     "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
     "avatarAlt": "微观技术 - 独家号",
@@ -22,7 +22,7 @@
   {
     "title": "各厂三年 Go 面经，已入字节",
     "description": "作者：内推欢迎来撩链接：https://www.nowcoder.com/discuss/662296?source=rss#at来源：牛客网常见面试问题记录  包含的公司：映客、...",
-    "votes": "208",
+    "votes": "209",
     "url": "/k/5u1byn9",
     "avatar": "https://img.toutiao.io/subject%2F31015016fbbd4abd93b2e259aa945de5",
     "avatarAlt": "牛客网精华贴 - 独家号",
@@ -52,12 +52,22 @@
   {
     "title": "有赞 TCP 网络编程最佳实践",
     "description": "概述本文是根据有赞中间件团队多年的TCP网络编程实践经验总结而来，目的是为了避免应用因各种网络异常而出现各种非预期行为，从而造成非预期的影响，影响系统稳定性与可靠性。本文不会涉及T...",
-    "votes": "143",
+    "votes": "158",
     "url": "/k/a7bxrhs",
     "avatar": "https://img.toutiao.io/subject%2F8e12ef64799649acbfd936883ef16c3c",
     "avatarAlt": "服务架构及中台 - 独家号",
     "subjectName": "服务架构及中台",
     "homeUrl": "/subjects/26578"
+  },
+  {
+    "title": "95% 的算法都是基于这 6 种算法思想",
+    "description": "点击上方 三分钟学前端，关注公众号 回复交流，加入前端编程面试算法每日一题群 面试官也在看的前端面试资料 算法思想是解决问题的核心，万丈高楼起于平地，在算法中也是如此，95% 的算...",
+    "votes": "155",
+    "url": "/k/pbwl6pl",
+    "avatar": "https://img.toutiao.io/subject%2Fc9bc51847b0c4b49aca52d0eaa087ed1",
+    "avatarAlt": "冷星前端圈 - 独家号",
+    "subjectName": "冷星前端圈",
+    "homeUrl": "/subjects/380054"
   },
   {
     "title": "网络连接存在大量 time_wait 和 close_wait 的原因以及解决方法",
@@ -72,7 +82,7 @@
   {
     "title": "杭州某大厂：MySQL 连环问",
     "description": "大家好，我是yes。MySQL 面试题又更新啦！请继续接招。说说分库分表？ 随着用户量的激增和时间的堆砌，存在数据库里面的数据越来越多，此时的数据库就会产生瓶颈，出现资源报警、查询...",
-    "votes": "123",
+    "votes": "127",
     "url": "/k/xjnx4kp",
     "avatar": "https://img.toutiao.io/subject%2F71da457007fd4b67a45253b271a25eee",
     "avatarAlt": "yes的练级攻略 - 独家号",
@@ -238,15 +248,5 @@
     "avatarAlt": "入门到放弃之路 - 独家号",
     "subjectName": "入门到放弃之路",
     "homeUrl": "/subjects/460144"
-  },
-  {
-    "title": "Golang 内存管理分析",
-    "description": "“ golang的内存分析工具怎么用？内存和回收原理，这一篇就够了” 大纲1. 目录2. 由一个问题展开3. 名字说明4. 内存怎么采样？4.1 编译期间逃逸分析4.2 采样的简单...",
-    "votes": "82",
-    "url": "/k/5za3e5u",
-    "avatar": "https://img.toutiao.io/subject%2F519e3c20e3ff4bed893f14e691c3396c",
-    "avatarAlt": "有意思的东东 - 独家号",
-    "subjectName": "有意思的东东",
-    "homeUrl": "/subjects/3681"
   }
 ]

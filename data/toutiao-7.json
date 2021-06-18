@@ -2,7 +2,7 @@
   {
     "title": "有赞 TCP 网络编程最佳实践",
     "description": "概述本文是根据有赞中间件团队多年的TCP网络编程实践经验总结而来，目的是为了避免应用因各种网络异常而出现各种非预期行为，从而造成非预期的影响，影响系统稳定性与可靠性。本文不会涉及T...",
-    "votes": "143",
+    "votes": "158",
     "url": "/k/a7bxrhs",
     "avatar": "https://img.toutiao.io/subject%2F8e12ef64799649acbfd936883ef16c3c",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -10,9 +10,19 @@
     "homeUrl": "/subjects/26578"
   },
   {
+    "title": "95% 的算法都是基于这 6 种算法思想",
+    "description": "点击上方 三分钟学前端，关注公众号 回复交流，加入前端编程面试算法每日一题群 面试官也在看的前端面试资料 算法思想是解决问题的核心，万丈高楼起于平地，在算法中也是如此，95% 的算...",
+    "votes": "155",
+    "url": "/k/pbwl6pl",
+    "avatar": "https://img.toutiao.io/subject%2Fc9bc51847b0c4b49aca52d0eaa087ed1",
+    "avatarAlt": "冷星前端圈 - 独家号",
+    "subjectName": "冷星前端圈",
+    "homeUrl": "/subjects/380054"
+  },
+  {
     "title": "利用 Kubernetes 搭建便携式开发环境之 MySQL 和 Redis",
     "description": "之前给大家介绍过， 我自己用的开发环境都是容器化的，只不过前两年不会用K8，大部分都是用的 Docker 或者 Docker-Compose。随着这一年多对 K8 的学习和工作中的...",
-    "votes": "70",
+    "votes": "76",
     "url": "/k/kkc4ght",
     "avatar": "https://img.toutiao.io/subject%2F5a80999e5b844812b72eedbc7f5fb5be",
     "avatarAlt": "网管叨bi叨 - 独家号",
@@ -22,7 +32,7 @@
   {
     "title": "高吞吐、低延迟 Java 应用的 GC 优化实践",
     "description": "“以下信息节选自涤生的翻译内容”本篇原文作者是 LinkedIn 的 Swapnil Ghike，这篇文章讲述了 LinkedIn 的 Feed 产品的 GC 优化过程，虽然文章写...",
-    "votes": "73",
+    "votes": "77",
     "url": "/k/92nisj7",
     "avatar": "https://img.toutiao.io/subject%2Fb489a65c0dff4b0f81a8d15c7e6299df",
     "avatarAlt": "PerfMa性能领域垂直社区 - 独家号",
@@ -30,19 +40,9 @@
     "homeUrl": "/subjects/460611"
   },
   {
-    "title": "Flutter 电商项目最佳实践",
-    "description": "该项目为Github开源项目，地址：https://github.com/simplezhli/flutter_deer 该项目非常适合作为个人学习Flutter的练习项目。通过设...",
-    "votes": "51",
-    "url": "/k/aldjzoo",
-    "avatar": "https://img.toutiao.io/subject%2F2661709a3af44375b6f3b7522ac60189",
-    "avatarAlt": "太空编程 - 独家号",
-    "subjectName": "太空编程",
-    "homeUrl": "/subjects/454552"
-  },
-  {
     "title": "月薪两万程序员应该知道的编程模型",
     "description": "原创：花括号MC(微信公众号：huakuohao-mc)。关注JAVA基础编程及大数据，注重经验分享及个人成长。我承认这篇文章有标题党的嫌疑，看完这篇文章并不会让你月薪两万。如果想...",
-    "votes": "49",
+    "votes": "63",
     "url": "/k/3kwp297",
     "avatar": "https://img.toutiao.io/subject%2Fdef09a8ec7754069803823535702f3ed",
     "avatarAlt": "花括号MC - 独家号",
@@ -50,59 +50,19 @@
     "homeUrl": "/subjects/419901"
   },
   {
-    "title": "一文理解分布式锁的实现方式",
-    "description": "分布式锁的应用场景分布式锁的应用场景主要包括两类：处理效率提升：减少重复任务的执行，避免资源处理效率的浪费（例如幂等场景）。数据准确性保障：在数据资源的并发访问时，避免数据不一致情...",
-    "votes": "45",
-    "url": "/k/bqc2l84",
-    "avatar": "https://img.toutiao.io/subject%2F85512c92aa814f468f6b429b6eb70ba8",
-    "avatarAlt": "服务器后端开发 - 独家号",
-    "subjectName": "服务器后端开发",
-    "homeUrl": "/subjects/375484"
-  },
-  {
-    "title": "前端插件式可扩展架构设计心得",
-    "description": "引子大家可能不知道，鄙人之前人送外号“过度设计”。作为一个自信的研发人员，我总是希望我开发的系统可以解决之后所有的问题，用一套抽象可以覆盖之后所有的扩展场景。当然最终往往能够证明我...",
-    "votes": "49",
-    "url": "/k/avka7pr",
-    "avatar": "https://img.toutiao.io/subject%2Fc9bc51847b0c4b49aca52d0eaa087ed1",
-    "avatarAlt": "冷星前端圈 - 独家号",
-    "subjectName": "冷星前端圈",
-    "homeUrl": "/subjects/380054"
-  },
-  {
-    "title": "云原生究竟是什么",
-    "description": "要理解什么是云原生，就要从云原生的名字说起，云原生的英文名是cloud native, 很显然，其含义就包含云和原生两部分。云就是说应用是运行在云上，而非本地。原生，就是说应用要以...",
-    "votes": "50",
-    "url": "/k/mjupr57",
-    "avatar": "https://img.toutiao.io/subject%2F4dfe01622bf94a97a3ecd1d781905956",
-    "avatarAlt": "wilde fox - 独家号",
-    "subjectName": "wilde fox",
-    "homeUrl": "/subjects/12597"
-  },
-  {
-    "title": "Nacos 配置中心模块详解",
-    "description": "配置中心 业务上的配置，功能开关，服务治理上对弱依赖的降级，甚至数据库的密码等，都可能用到动态配置中心。在没有专门的配置中心组件时，我们使用硬编码、或配置文件、或数据库、缓存等方式...",
-    "votes": "40",
-    "url": "/k/5vic46a",
-    "avatar": "https://img.toutiao.io/subject%2F9635116a54eb4217a569629335a3ee45",
-    "avatarAlt": "公众号：捉虫大师 - 独家号",
-    "subjectName": "公众号：捉虫大师",
-    "homeUrl": "/subjects/324911"
-  },
-  {
-    "title": "深度剖析：Redis 分布式锁到底安全吗？看完这篇文章彻底懂了",
-    "description": "‍‍‍‍‍‍‍‍‍‍‍‍阅读本文大约需要 20 分钟。大家好，我是 Kaito。这篇文章我想和你聊一聊，关于 Redis 分布式锁的「安全性」问题。Redis 分布式锁的话题，很多...",
-    "votes": "37",
-    "url": "/k/15c6my9",
-    "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
-    "avatarAlt": "Bloomingroses - 独家号",
-    "subjectName": "Bloomingroses",
-    "homeUrl": "/subjects/98777"
+    "title": "Flutter 电商项目最佳实践",
+    "description": "该项目为Github开源项目，地址：https://github.com/simplezhli/flutter_deer 该项目非常适合作为个人学习Flutter的练习项目。通过设...",
+    "votes": "53",
+    "url": "/k/aldjzoo",
+    "avatar": "https://img.toutiao.io/subject%2F2661709a3af44375b6f3b7522ac60189",
+    "avatarAlt": "太空编程 - 独家号",
+    "subjectName": "太空编程",
+    "homeUrl": "/subjects/454552"
   },
   {
     "title": "JVM 源码分析之一个 Java 进程究竟能创建多少线程",
     "description": "概述虽然这篇文章的标题打着JVM源码分析的旗号，不过本文不仅仅从 JVM 源码角度来分析，更多的来自于 Linux Kernel 的源码分析，今天要说的是 JVM 里比较常见的一个...",
-    "votes": "36",
+    "votes": "43",
     "url": "/k/bshy7j1",
     "avatar": "https://img.toutiao.io/subject%2Fb489a65c0dff4b0f81a8d15c7e6299df",
     "avatarAlt": "PerfMa性能领域垂直社区 - 独家号",
@@ -112,7 +72,7 @@
   {
     "title": "提高 VS Code 编辑器性能的 5 个技巧",
     "description": "Visual Studio Code于2015年11月18日发布。五年过去了，它已经成为世界上最成功的编辑之一。它是在MIT许可下发布的，这使得它可以免费使用。其成功的关键是：多功...",
-    "votes": "38",
+    "votes": "44",
     "url": "/k/k62tnvn",
     "avatar": "https://img.toutiao.io/subject%2Ff2911e3881f84724953dfeaf339cdce8",
     "avatarAlt": "前端全栈开发者 - 独家号",
@@ -120,19 +80,19 @@
     "homeUrl": "/subjects/125297"
   },
   {
-    "title": "618 临阵磨刀：Flink 容器化与平台化建设少走弯路",
-    "description": "本文根据王康老师在〖deeplus直播第268期〗线上分享演讲内容整理而成。（文末有获取本期PPT&回放的方式，不要错过）  王康 唯品会 数据平台 高级开发工程师多年大数据实时计...",
-    "votes": "35",
-    "url": "/k/hv256a2",
-    "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
-    "avatarAlt": "Bloomingroses - 独家号",
-    "subjectName": "Bloomingroses",
-    "homeUrl": "/subjects/98777"
+    "title": "Spring Boot 引起的 “堆外内存泄漏”",
+    "description": "背景组内一个项目最近一直报swap区域使用过高异常，笔者被叫去帮忙查看原因。发现配置的4G堆内内存，但是实际使用的物理内存高达7G，确实有点不正常，JVM参数配置是：-XX:Met...",
+    "votes": "46",
+    "url": "/k/o802afr",
+    "avatar": "https://img.toutiao.io/subject%2Fb489a65c0dff4b0f81a8d15c7e6299df",
+    "avatarAlt": "PerfMa性能领域垂直社区 - 独家号",
+    "subjectName": "PerfMa性能领域垂直社区",
+    "homeUrl": "/subjects/460611"
   },
   {
     "title": "领域驱动设计、可视化与遗留系统的微服务改造",
     "description": "任何人类的设计都会腐化，很遗憾软件尤其会...其实，对于单体系统，也可以按照上下文拆分领域。如果这样做了，再把代码级的领域拆分为部署视角的微服务，也不是那么难的事情了。微服务架构的...",
-    "votes": "35",
+    "votes": "42",
     "url": "/k/96b5kbd",
     "avatar": "https://img.toutiao.io/user/1cd8af04ab2942e6b7867e31ef0eff5e/thumb",
     "avatarAlt": "坚持改革开放一百年不动摇的独家号 - 独家号",
@@ -140,39 +100,19 @@
     "homeUrl": "/subjects/408579"
   },
   {
-    "title": "没源码怎么排查问题？Arthas 暴力内存搜索对象解决",
-    "description": "背景公司某个规则引擎系统，主要用来做一些费用计算和业务逻辑核验的功能。不过由于一些不可描述的历史原因，导致该系统没有文档也没有源码，就连配置方式都是靠口口相传。 虽然这个系统比较老...",
+    "title": "618 临阵磨刀：Flink 容器化与平台化建设少走弯路",
+    "description": "本文根据王康老师在〖deeplus直播第268期〗线上分享演讲内容整理而成。（文末有获取本期PPT&回放的方式，不要错过）  王康 唯品会 数据平台 高级开发工程师多年大数据实时计...",
     "votes": "37",
-    "url": "/k/yg6hxci",
-    "avatar": "https://img.toutiao.io/subject%2F4037e9a889c94841b38942df627c176e",
-    "avatarAlt": "横云断岭的专栏 - 独家号",
-    "subjectName": "横云断岭的专栏",
-    "homeUrl": "/subjects/385955"
-  },
-  {
-    "title": "微信小程序基础架构浅析",
-    "description": " 作者：billgong，腾讯IEG前端开发工程师。微信小程序，简称小程序，英文 mini program。是一种不需要下载安装即可在微信中使用的应用，用户扫描小程序码或搜索小程序...",
-    "votes": "36",
-    "url": "/k/yzi0j3y",
-    "avatar": "https://img.toutiao.io/subject%2Ff05a135abc844e719541593cad4f8c57",
-    "avatarAlt": "不错的好文 - 独家号",
-    "subjectName": "不错的好文",
-    "homeUrl": "/subjects/5551"
-  },
-  {
-    "title": "一文理解如何解决 Kafka 消息积压问题",
-    "description": "通常情况下，企业中会采取轮询或者随机的方式，通过Kafka的producer向Kafka集群生产数据，来尽可能保证Kafk分区之间的数据是均匀分布的。如果对Kafka不了解的话，可...",
-    "votes": "40",
-    "url": "/k/mljuhx6",
-    "avatar": "https://img.toutiao.io/subject%2F85512c92aa814f468f6b429b6eb70ba8",
-    "avatarAlt": "服务器后端开发 - 独家号",
-    "subjectName": "服务器后端开发",
-    "homeUrl": "/subjects/375484"
+    "url": "/k/hv256a2",
+    "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
   },
   {
     "title": "一文读懂 Raft 一致性协议算法并理解其中的关键设计",
     "description": "什么是一致性算法 为了避免单个机器可能出现的数据丢失、单点故障等问题，人们想出了通过复制数据到多个机器上的方式来解决。但是有多个机器时，带来的另一个问题就是如何保证这些机器之间的数...",
-    "votes": "37",
+    "votes": "39",
     "url": "/k/c68ccw6",
     "avatar": "https://img.toutiao.io/subject%2F5c05b5bf20fc4a7d84ca0cc73ceb3b72",
     "avatarAlt": "bytejava - 独家号",
@@ -180,9 +120,19 @@
     "homeUrl": "/subjects/191320"
   },
   {
+    "title": "一文理解如何解决 Kafka 消息积压问题",
+    "description": "通常情况下，企业中会采取轮询或者随机的方式，通过Kafka的producer向Kafka集群生产数据，来尽可能保证Kafk分区之间的数据是均匀分布的。如果对Kafka不了解的话，可...",
+    "votes": "41",
+    "url": "/k/mljuhx6",
+    "avatar": "https://img.toutiao.io/subject%2F85512c92aa814f468f6b429b6eb70ba8",
+    "avatarAlt": "服务器后端开发 - 独家号",
+    "subjectName": "服务器后端开发",
+    "homeUrl": "/subjects/375484"
+  },
+  {
     "title": "数智时代，运维的出路在哪里？",
     "description": "在运维工作中，经常被贴上这样的标签：背锅侠？电脑修理工？救火队员？35岁被退休？996/007等等，作为运维我们也经常这样自嘲。面对云计算、云原生等新生技术的快速发展，自动化和智能...",
-    "votes": "34",
+    "votes": "36",
     "url": "/k/l2o49j6",
     "avatar": "https://img.toutiao.io/subject%2F2248057e0e2a467da939386bba6f0a57",
     "avatarAlt": "云栈技术CSTC - 独家号",
@@ -190,13 +140,63 @@
     "homeUrl": "/subjects/206"
   },
   {
+    "title": "为什么磁盘存储引擎用 b+树来作为索引结构？",
+    "description": "文末有端午福利。作者：jaydenwen，腾讯 PCG 后台开发工程师在数据库或者存储的世界里，存储引擎的角色一直处于核心位置。往简单了说，存储引擎主要负责数据如何读写。往复杂了说...",
+    "votes": "36",
+    "url": "/k/g6jgqyq",
+    "avatar": "https://img.toutiao.io/subject%2Ff05a135abc844e719541593cad4f8c57",
+    "avatarAlt": "不错的好文 - 独家号",
+    "subjectName": "不错的好文",
+    "homeUrl": "/subjects/5551"
+  },
+  {
+    "title": "细数 ThreadLocal 三大坑，内存泄露仅是小儿科",
+    "description": "我在参加Code Review的时候不止一次听到有同学说：我写的这个上下文工具没问题，在线上跑了好久了。其实这种想法是有问题的，ThreadLocal写错难，但是用错就很容易，本文...",
+    "votes": "32",
+    "url": "/k/gtp5csf",
+    "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
+  },
+  {
+    "title": "快速进行服务接口监控",
+    "description": "1. 背景在一些业务中，可能会出现以下几种情况：1.接口的不稳定导致APP/WEB端上的超时、抛错，而资源级监控不能达到业务健康状况监控的目的。 2.接口众多，服务部署后不知道是否...",
+    "votes": "38",
+    "url": "/k/ndgl5lb",
+    "avatar": "https://img.toutiao.io/subject%2F1e9f205aac9c4c68b33b32f650b72a0c",
+    "avatarAlt": "mr.g_jpower - 独家号",
+    "subjectName": "mr.g_jpower",
+    "homeUrl": "/subjects/460508"
+  },
+  {
     "title": "ClickHouse 物化视图在微信的实战经验",
     "description": "前言 ClickHouse广泛用于用户和系统日志查询场景中，借助腾讯云提供基础设施，微信也在分阶段逐步推进clickhouse的建设和应用，目前作为基础建设的一部分，主要针对于OL...",
-    "votes": "29",
+    "votes": "30",
     "url": "/k/dn8ypx4",
     "avatar": "https://img.toutiao.io/subject%2F6ee3bb205b3248c2b746c1506548181a",
     "avatarAlt": "大数据生态 - 独家号",
     "subjectName": "大数据生态",
     "homeUrl": "/subjects/136176"
+  },
+  {
+    "title": "要将 RocketMQ 中台化，有点小激动",
+    "description": "本文字数：4223字 预计阅读时间：13分钟 一、RocketMQ简介 RocketMQ是一个高可用、高性能、高可靠的分布式消息队列，相对于kafka更适合处理业务系统之间的消息。...",
+    "votes": "31",
+    "url": "/k/wxygtif",
+    "avatar": "https://img.toutiao.io/subject%2Ffcd1137867a2413880689043418675a7",
+    "avatarAlt": "猿天地 - 独家号",
+    "subjectName": "猿天地",
+    "homeUrl": "/subjects/6491"
+  },
+  {
+    "title": "性能优化：关于缓存的一些思考",
+    "description": " 利用缓存做性能优化的案例非常多，从基础的操作系统到数据库、分布式缓存、本地缓存等。它们表现形式各异，却有着共同的朴素的本质：弥补CPU的高算力和IO的慢读写之间巨大的鸿沟。和架构...",
+    "votes": "29",
+    "url": "/k/t5xrhfc",
+    "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
   }
 ]
