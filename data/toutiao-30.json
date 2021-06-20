@@ -1,15 +1,5 @@
 [
   {
-    "title": "亿级系统的 Redis 缓存如何设计？",
-    "description": "知识分享，以技会友。大家好，我是Tom哥。阅读本文大约需要 15 分钟。缓存设计可谓老生常谈了，早些时候都是采用memcache，现在大家更多倾向使用redis，除了知晓常用的数据...",
-    "votes": "257",
-    "url": "/k/ep5e8sd",
-    "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
-    "avatarAlt": "微观技术 - 独家号",
-    "subjectName": "微观技术",
-    "homeUrl": "/subjects/348507"
-  },
-  {
     "title": "架构师图谱（上篇）",
     "description": "1. 概述“架构师图谱”是一个很宏大的命题，特别是优秀的架构师自身也是“由点到面再到图”，一点点成长积累起来，尝试写这篇文章的目的更多的是结合自身的一些架构、研发、管理经验对现阶段...",
     "votes": "235",
@@ -20,6 +10,16 @@
     "homeUrl": "/subjects/278262"
   },
   {
+    "title": "95% 的算法都是基于这 6 种算法思想",
+    "description": "点击上方 三分钟学前端，关注公众号 回复交流，加入前端编程面试算法每日一题群 面试官也在看的前端面试资料 算法思想是解决问题的核心，万丈高楼起于平地，在算法中也是如此，95% 的算...",
+    "votes": "211",
+    "url": "/k/pbwl6pl",
+    "avatar": "https://img.toutiao.io/subject%2Fc9bc51847b0c4b49aca52d0eaa087ed1",
+    "avatarAlt": "冷星前端圈 - 独家号",
+    "subjectName": "冷星前端圈",
+    "homeUrl": "/subjects/380054"
+  },
+  {
     "title": "各厂三年 Go 面经，已入字节",
     "description": "作者：内推欢迎来撩链接：https://www.nowcoder.com/discuss/662296?source=rss#at来源：牛客网常见面试问题记录  包含的公司：映客、...",
     "votes": "209",
@@ -28,16 +28,6 @@
     "avatarAlt": "牛客网精华贴 - 独家号",
     "subjectName": "牛客网精华贴",
     "homeUrl": "/subjects/17560"
-  },
-  {
-    "title": "95% 的算法都是基于这 6 种算法思想",
-    "description": "点击上方 三分钟学前端，关注公众号 回复交流，加入前端编程面试算法每日一题群 面试官也在看的前端面试资料 算法思想是解决问题的核心，万丈高楼起于平地，在算法中也是如此，95% 的算...",
-    "votes": "198",
-    "url": "/k/pbwl6pl",
-    "avatar": "https://img.toutiao.io/subject%2Fc9bc51847b0c4b49aca52d0eaa087ed1",
-    "avatarAlt": "冷星前端圈 - 独家号",
-    "subjectName": "冷星前端圈",
-    "homeUrl": "/subjects/380054"
   },
   {
     "title": "25 张图，一万字，拆解 Linux 网络包发送过程",
@@ -62,12 +52,22 @@
   {
     "title": "有赞 TCP 网络编程最佳实践",
     "description": "概述本文是根据有赞中间件团队多年的TCP网络编程实践经验总结而来，目的是为了避免应用因各种网络异常而出现各种非预期行为，从而造成非预期的影响，影响系统稳定性与可靠性。本文不会涉及T...",
-    "votes": "163",
+    "votes": "168",
     "url": "/k/a7bxrhs",
     "avatar": "https://img.toutiao.io/subject%2F8e12ef64799649acbfd936883ef16c3c",
     "avatarAlt": "服务架构及中台 - 独家号",
     "subjectName": "服务架构及中台",
     "homeUrl": "/subjects/26578"
+  },
+  {
+    "title": "杭州某大厂：MySQL 连环问",
+    "description": "大家好，我是yes。MySQL 面试题又更新啦！请继续接招。说说分库分表？ 随着用户量的激增和时间的堆砌，存在数据库里面的数据越来越多，此时的数据库就会产生瓶颈，出现资源报警、查询...",
+    "votes": "130",
+    "url": "/k/xjnx4kp",
+    "avatar": "https://img.toutiao.io/subject%2F71da457007fd4b67a45253b271a25eee",
+    "avatarAlt": "yes的练级攻略 - 独家号",
+    "subjectName": "yes的练级攻略",
+    "homeUrl": "/subjects/443906"
   },
   {
     "title": "网络连接存在大量 time_wait 和 close_wait 的原因以及解决方法",
@@ -78,16 +78,6 @@
     "avatarAlt": "服务器后端开发 - 独家号",
     "subjectName": "服务器后端开发",
     "homeUrl": "/subjects/375484"
-  },
-  {
-    "title": "杭州某大厂：MySQL 连环问",
-    "description": "大家好，我是yes。MySQL 面试题又更新啦！请继续接招。说说分库分表？ 随着用户量的激增和时间的堆砌，存在数据库里面的数据越来越多，此时的数据库就会产生瓶颈，出现资源报警、查询...",
-    "votes": "129",
-    "url": "/k/xjnx4kp",
-    "avatar": "https://img.toutiao.io/subject%2F71da457007fd4b67a45253b271a25eee",
-    "avatarAlt": "yes的练级攻略 - 独家号",
-    "subjectName": "yes的练级攻略",
-    "homeUrl": "/subjects/443906"
   },
   {
     "title": "2.3 万 Star！直追微软 Visio，这个简洁实用的在线绘图工具必须推荐给你",
@@ -122,7 +112,7 @@
   {
     "title": "一文理解 Redis 底层数据结构",
     "description": "Redis的5种常见数据结构：字符串(String)、列表(List)、散列(Hash)、集合(Set)、有序集合(Sorted Set)。这些都是Redis对外暴露的数据结构，本...",
-    "votes": "103",
+    "votes": "104",
     "url": "/k/a3gplbq",
     "avatar": "https://img.toutiao.io/subject%2F85512c92aa814f468f6b429b6eb70ba8",
     "avatarAlt": "服务器后端开发 - 独家号",
@@ -140,19 +130,9 @@
     "homeUrl": "/subjects/348507"
   },
   {
-    "title": "这款远程桌面软件开源了",
-    "description": "相信在七八年前，大部分读者都使用 QQ 远程控制电脑。到后面，才接触到一些好用的远程控制产品，比如 Teamviewer、向日葵等。最近，自己装的远程控制产品试用期到了，便想到去 ...",
-    "votes": "97",
-    "url": "/k/osge9c2",
-    "avatar": "https://img.toutiao.io/subject%2F03e210e126704d0ca23938746bbd4cec",
-    "avatarAlt": "近半生少年 - 独家号",
-    "subjectName": "近半生少年",
-    "homeUrl": "/subjects/403307"
-  },
-  {
     "title": "Linux 调度系统全景指南（终结篇）",
     "description": "| 导语本文主要是讲Linux的调度系统, 本篇是终结篇，主要讲当前多核系统调度策略和调度优化，调度可以说是操作系统的灵魂，为了让CPU资源利用最大化，Linux设计了一套非常精细...",
-    "votes": "96",
+    "votes": "97",
     "url": "/k/ow2rhiz",
     "avatar": "https://img.toutiao.io/subject%2F17c0544998e140628615896d2fc161b8",
     "avatarAlt": "雨后天空的独家号 - 独家号",
@@ -248,5 +228,25 @@
     "avatarAlt": "有意思的东东 - 独家号",
     "subjectName": "有意思的东东",
     "homeUrl": "/subjects/3681"
+  },
+  {
+    "title": "利用 Kubernetes 搭建便携式开发环境之 MySQL 和 Redis",
+    "description": "之前给大家介绍过， 我自己用的开发环境都是容器化的，只不过前两年不会用K8，大部分都是用的 Docker 或者 Docker-Compose。随着这一年多对 K8 的学习和工作中的...",
+    "votes": "80",
+    "url": "/k/kkc4ght",
+    "avatar": "https://img.toutiao.io/subject%2F5a80999e5b844812b72eedbc7f5fb5be",
+    "avatarAlt": "网管叨bi叨 - 独家号",
+    "subjectName": "网管叨bi叨",
+    "homeUrl": "/subjects/437466"
+  },
+  {
+    "title": "一文通关苦涩难懂的 Java 泛型",
+    "description": "前言相信大家对Java泛型并不陌生，无论是开源框架还是JDK源码都能看到它，毫不夸张的说，泛型是通用设计上必不可少的元素，所以真正理解与正确使用泛型，是一门必修课，本文将解开大家对...",
+    "votes": "85",
+    "url": "/k/xhidp2b",
+    "avatar": "https://img.toutiao.io/subject%2Fbd79d4909e3d49c485bc20d99b91a257",
+    "avatarAlt": "程序猿阿星 - 独家号",
+    "subjectName": "程序猿阿星",
+    "homeUrl": "/subjects/459978"
   }
 ]
