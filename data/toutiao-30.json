@@ -2,7 +2,7 @@
   {
     "title": "架构师图谱（上篇）",
     "description": "1. 概述“架构师图谱”是一个很宏大的命题，特别是优秀的架构师自身也是“由点到面再到图”，一点点成长积累起来，尝试写这篇文章的目的更多的是结合自身的一些架构、研发、管理经验对现阶段...",
-    "votes": "235",
+    "votes": "238",
     "url": "/k/xha1t37",
     "avatar": "https://img.toutiao.io/user/dbc9de4e98fd4d27a4d938b77f9304fc/thumb",
     "avatarAlt": "小笙_的独家号 - 独家号",
@@ -12,7 +12,7 @@
   {
     "title": "95% 的算法都是基于这 6 种算法思想",
     "description": "点击上方 三分钟学前端，关注公众号 回复交流，加入前端编程面试算法每日一题群 面试官也在看的前端面试资料 算法思想是解决问题的核心，万丈高楼起于平地，在算法中也是如此，95% 的算...",
-    "votes": "211",
+    "votes": "243",
     "url": "/k/pbwl6pl",
     "avatar": "https://img.toutiao.io/subject%2Fc9bc51847b0c4b49aca52d0eaa087ed1",
     "avatarAlt": "冷星前端圈 - 独家号",
@@ -42,7 +42,7 @@
   {
     "title": "掌门 MySQL 数据库规约落地及优化实战",
     "description": " 前言MySQL 数据库承载了掌门绝大部分核心业务的数据存储，因此 MySQL 数据库的稳定运行至关重要。DBA 团队一直致力于保障数据库环境的平稳运行，编写有掌门 MySQL 数...",
-    "votes": "173",
+    "votes": "174",
     "url": "/k/s8xgae9",
     "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
     "avatarAlt": "ASCE1885 - 独家号",
@@ -100,16 +100,6 @@
     "homeUrl": "/subjects/454266"
   },
   {
-    "title": "企业微信万亿级日志检索系统",
-    "description": " 作者：datonli，腾讯 WXG 后台开发工程师背景 开发在定位问题时需要查找日志，但企业微信业务模块日志存储在本机磁盘，这会造成以下问题：日志查找效率低下：一次用户请求涉及近...",
-    "votes": "108",
-    "url": "/k/t1o49fm",
-    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
-    "avatarAlt": "ASCE1885 - 独家号",
-    "subjectName": "ASCE1885",
-    "homeUrl": "/subjects/4829"
-  },
-  {
     "title": "一文理解 Redis 底层数据结构",
     "description": "Redis的5种常见数据结构：字符串(String)、列表(List)、散列(Hash)、集合(Set)、有序集合(Sorted Set)。这些都是Redis对外暴露的数据结构，本...",
     "votes": "104",
@@ -138,6 +128,16 @@
     "avatarAlt": "雨后天空的独家号 - 独家号",
     "subjectName": "雨后天空的独家号",
     "homeUrl": "/subjects/382106"
+  },
+  {
+    "title": "一文通关苦涩难懂的 Java 泛型",
+    "description": "前言相信大家对Java泛型并不陌生，无论是开源框架还是JDK源码都能看到它，毫不夸张的说，泛型是通用设计上必不可少的元素，所以真正理解与正确使用泛型，是一门必修课，本文将解开大家对...",
+    "votes": "97",
+    "url": "/k/xhidp2b",
+    "avatar": "https://img.toutiao.io/subject%2Fbd79d4909e3d49c485bc20d99b91a257",
+    "avatarAlt": "程序猿阿星 - 独家号",
+    "subjectName": "程序猿阿星",
+    "homeUrl": "/subjects/459978"
   },
   {
     "title": "惊！这个 Go 开源项目号称「不改一行代码做秒杀」",
@@ -210,6 +210,16 @@
     "homeUrl": "/subjects/375484"
   },
   {
+    "title": "高吞吐、低延迟 Java 应用的 GC 优化实践",
+    "description": "“以下信息节选自涤生的翻译内容”本篇原文作者是 LinkedIn 的 Swapnil Ghike，这篇文章讲述了 LinkedIn 的 Feed 产品的 GC 优化过程，虽然文章写...",
+    "votes": "88",
+    "url": "/k/92nisj7",
+    "avatar": "https://img.toutiao.io/subject%2Fb489a65c0dff4b0f81a8d15c7e6299df",
+    "avatarAlt": "PerfMa性能领域垂直社区 - 独家号",
+    "subjectName": "PerfMa性能领域垂直社区",
+    "homeUrl": "/subjects/460611"
+  },
+  {
     "title": "做一次黑客，入侵一次服务器",
     "description": "前言前两天刚买了个腾讯服务器(CVM)，这次登陆上去的时候特别卡，通过top发现负载特别高，因为是刚搭建的环境，也没有运行什么应用程序，所以我觉得这有点不正常。我就想着把docke...",
     "votes": "88",
@@ -220,6 +230,16 @@
     "homeUrl": "/subjects/460144"
   },
   {
+    "title": "利用 Kubernetes 搭建便携式开发环境之 MySQL 和 Redis",
+    "description": "之前给大家介绍过， 我自己用的开发环境都是容器化的，只不过前两年不会用K8，大部分都是用的 Docker 或者 Docker-Compose。随着这一年多对 K8 的学习和工作中的...",
+    "votes": "81",
+    "url": "/k/kkc4ght",
+    "avatar": "https://img.toutiao.io/subject%2F5a80999e5b844812b72eedbc7f5fb5be",
+    "avatarAlt": "网管叨bi叨 - 独家号",
+    "subjectName": "网管叨bi叨",
+    "homeUrl": "/subjects/437466"
+  },
+  {
     "title": "Golang 内存管理分析",
     "description": "“ golang的内存分析工具怎么用？内存和回收原理，这一篇就够了” 大纲1. 目录2. 由一个问题展开3. 名字说明4. 内存怎么采样？4.1 编译期间逃逸分析4.2 采样的简单...",
     "votes": "82",
@@ -228,25 +248,5 @@
     "avatarAlt": "有意思的东东 - 独家号",
     "subjectName": "有意思的东东",
     "homeUrl": "/subjects/3681"
-  },
-  {
-    "title": "利用 Kubernetes 搭建便携式开发环境之 MySQL 和 Redis",
-    "description": "之前给大家介绍过， 我自己用的开发环境都是容器化的，只不过前两年不会用K8，大部分都是用的 Docker 或者 Docker-Compose。随着这一年多对 K8 的学习和工作中的...",
-    "votes": "80",
-    "url": "/k/kkc4ght",
-    "avatar": "https://img.toutiao.io/subject%2F5a80999e5b844812b72eedbc7f5fb5be",
-    "avatarAlt": "网管叨bi叨 - 独家号",
-    "subjectName": "网管叨bi叨",
-    "homeUrl": "/subjects/437466"
-  },
-  {
-    "title": "一文通关苦涩难懂的 Java 泛型",
-    "description": "前言相信大家对Java泛型并不陌生，无论是开源框架还是JDK源码都能看到它，毫不夸张的说，泛型是通用设计上必不可少的元素，所以真正理解与正确使用泛型，是一门必修课，本文将解开大家对...",
-    "votes": "85",
-    "url": "/k/xhidp2b",
-    "avatar": "https://img.toutiao.io/subject%2Fbd79d4909e3d49c485bc20d99b91a257",
-    "avatarAlt": "程序猿阿星 - 独家号",
-    "subjectName": "程序猿阿星",
-    "homeUrl": "/subjects/459978"
   }
 ]
