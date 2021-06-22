@@ -1,47 +1,128 @@
 [
   {
-    "title": "Redis数据结构底层实现",
-    "description": "Redis 有五种基本数据类型，可是大家知道这五种数据类型的底层是咋实现吗？接下就带大家了解一下 String、List、Hash、Set、Sorted Set 底层是如何实现的，在这之前，先来看下下面的基本数据结构，分别有简单动态...",
-    "url": "https://segmentfault.com/a/1190000040206818",
-    "author": "蘑菇睡不着",
-    "home_url": "https://segmentfault.com/u/yang_60ad0ec84ad57",
-    "votes": "1",
+    "title": "140+ 演讲，来 ApacheCon 首次亚洲会议与全球开发者欢聚一堂",
+    "description": "ApacheCon 是 Apache 软件基金会（ASF）的官方全球系列大会。作为久负盛名的开源盛宴，ApacheCon 在开源界备受关注，也是开源运动早期的知名活动之一。",
+    "url": "https://segmentfault.com/a/1190000040208966",
+    "author": "鸣飞",
+    "home_url": "https://segmentfault.com/u/mf",
+    "votes": "4",
     "rank": 1
   },
   {
-    "title": "下一代 Windows 界面曝光；Spring Native 0.10.0 发布 | 思否周刊",
-    "description": "40s 新闻速递字节跳动首披公司财务情况：2020 年收入 2366 亿元，经营亏损 147 亿元淘宝 12 亿条用户数据泄露,包括用户 ID 及电话号码macOS Monterey 移除了自带的 PHP下一代 Windows 界面曝光：新的开始菜单和任...",
-    "url": "https://segmentfault.com/a/1190000040205248",
-    "author": "snakesss",
-    "home_url": "https://segmentfault.com/u/snakesss",
+    "title": "优麒麟 20.04 LTS Pro 发布会成功举办！",
+    "description": "2021 年 6 月 20 日，由中国软件行业协会、中国开源软件推进联盟、中国科协科学技术传播中心、开放原子开源基金会、“科创中国”开源创新联合体主办，优麒麟开源社区和麒麟软件有限公司承办的《优麒麟 20.04 LTS Pr...",
+    "url": "https://segmentfault.com/a/1190000040211810",
+    "author": "小魔",
+    "home_url": "https://segmentfault.com/u/lu_607eaefc582e8",
     "votes": "1",
     "rank": 2
   },
   {
-    "title": "【C++内存管理】15_Loki allocator 源码分析",
-    "description": "Loki是由 Andrei 编写的一个与《Modern C++ Design》（C++设计新思维）一书配套发行的C++代码库。其中有两个文件 SmallObj.h 、SmallObj.cpp 进行内存管理，可以单独进行使用",
-    "url": "https://segmentfault.com/a/1190000040206098",
-    "author": "TianSong",
-    "home_url": "https://segmentfault.com/u/tiansong",
-    "votes": "1",
+    "title": "详解Apache Dubbo的SPI实现机制",
+    "description": "SPI全称为Service Provider Interface，对应中文为服务发现机制。SPI类似一种可插拔机制，首先需要定义一个接口或一个约定，然后不同的场景可以对其进行实现，调用方在使用的时候无需过多关注具体的实现细节。在J...",
+    "url": "https://segmentfault.com/a/1190000040208433",
+    "author": "vivo互联网技术",
+    "home_url": "https://segmentfault.com/u/vivo_tech",
+    "votes": "2",
     "rank": 3
   },
   {
-    "title": "Linux编程入门--正点原子Linux驱动开发指南学习2021W25",
-    "description": "编译后的 U-Boot 目录下有如下文件夹和文件，作用备注在后面| U-boot 自带的目录├── api ---与硬件无关的 API 函数。├── arch ---与架构体系有关的代码。├── board ---不同板子(开发板)的定制代码。├── cmd ---命...",
-    "url": "https://segmentfault.com/a/1190000040205147",
-    "author": "cheney",
-    "home_url": "https://segmentfault.com/u/cheney_c_wang",
+    "title": "浪潮云说 | 开源新势力—云溪数据库ZNBase",
+    "description": "随着云计算、大数据、AI、5G、量子计算等新兴技术的迅猛发展，社会各行业均面临着海量数据、高并发、超高峰值等场景的巨大冲击。暴露如下痛点传统关系型数据库遭遇“水平扩展”瓶颈，在海量数据时代，表现十分疲软...",
+    "url": "https://segmentfault.com/a/1190000040208240",
+    "author": "浪潮云",
+    "home_url": "https://segmentfault.com/u/langchaoyun",
     "votes": "1",
     "rank": 4
   },
   {
-    "title": "Linux之mkdir命令",
-    "description": "Linux用来创建指定名称的目录,注意创建目录的用户需要有当前所在目录的可写权限,否则创建没有权限创建目录,并且指定的目录不能是当前目录已经存在目录。",
-    "url": "https://segmentfault.com/a/1190000040206982",
-    "author": "入门小站",
-    "home_url": "https://segmentfault.com/u/rumenz",
-    "votes": "1",
+    "title": "你不知道的 VSCode 代码高亮原理",
+    "description": "全文5000字，解读 vscode 背后的代码高亮实现原理，欢迎点赞关注转发。Vscode 的代码高亮、代码补齐、错误诊断、跳转定义等语言功能由两种扩展方案协同实现，包括：基于词法分析技术，识别分词 token 并应用高亮...",
+    "url": "https://segmentfault.com/a/1190000040211606",
+    "author": "范文杰",
+    "home_url": "https://segmentfault.com/u/fanwenjie",
+    "votes": "3",
     "rank": 5
+  },
+  {
+    "title": "“改变世界”的万维网源代码将以 NFT 形式拍卖，起拍价 1000 美元",
+    "description": "万维网的设计师之一蒂姆-伯纳斯-李（Tim Berners-Lee）爵士正在以 NFT 的形式出售万维网的源代码。伯纳斯-李，是一位英国计算机科学家，于 1989 年发明了万维网，并在一年后为第一个网络浏览器编写了代码。他的发...",
+    "url": "https://segmentfault.com/a/1190000040209781",
+    "author": "鸣飞",
+    "home_url": "https://segmentfault.com/u/mf",
+    "votes": "3",
+    "rank": 6
+  },
+  {
+    "title": "聊聊 Redis 内存淘汰策略",
+    "description": "大家都知道 Redis 中的键会设置过期时间，当到达过期时间时会通过一定策略清除对应 key，但是 redis 内存是由上限的，当达到内存上限时，就要通过一定策略淘汰掉相应 kv 键值对。",
+    "url": "https://segmentfault.com/a/1190000040206857",
+    "author": "蘑菇睡不着",
+    "home_url": "https://segmentfault.com/u/yang_60ad0ec84ad57",
+    "votes": "1",
+    "rank": 7
+  },
+  {
+    "title": "Maven 各种花式构建，不用 SpringBoot 也能打出可执行 Jar 包",
+    "description": "Spring Boot 的打包插件用着很爽吧，直接把源码和所有依赖打成一个 Jar 包还能直接java -jar运行。那如果非 Spring Boot 项目，想打成一个可执行的 Jar 包该怎么办呢？",
+    "url": "https://segmentfault.com/a/1190000040207060",
+    "author": "空无",
+    "home_url": "https://segmentfault.com/u/kongwu",
+    "votes": "2",
+    "rank": 8
+  },
+  {
+    "title": "iPhone 连不上 WiFi，罪魁祸首竟是一串字符！",
+    "description": "每到一个地方先找 WiFi，已经是无数现代人的习惯了。但是，遇到奇奇怪怪的 WiFi 名（SSID）可要谨慎了。最近就有人在使用 iPhone 手机连接 WiFi 时遇到了麻烦。",
+    "url": "https://segmentfault.com/a/1190000040209425",
+    "author": "小魔",
+    "home_url": "https://segmentfault.com/u/lu_607eaefc582e8",
+    "votes": "1",
+    "rank": 9
+  },
+  {
+    "title": "JavaScript中对光标和选区的操作",
+    "description": "在一些业务场景，比如高亮文本、输入编辑、等场景中需要对光标和选区进行操作时，可以使用浏览器提供的 Selection 对象和 Range 对象来操作光标和选区。",
+    "url": "https://segmentfault.com/a/1190000040211043",
+    "author": "FEWY",
+    "home_url": "https://segmentfault.com/u/fewy",
+    "votes": "5",
+    "rank": 10
+  },
+  {
+    "title": "曝光一个网站，我周末就耗在上面了。",
+    "description": "这是why的第 107 篇原创文章你好呀，我是why。刚刚过去的周末你干啥了，是卷起来了，还是躺平了？我其实是想躺平的，但是无意间发现一个学习的网站，居然被这个网站吸引了，然后就跟着网站卷起来了。真是一个非常...",
+    "url": "https://segmentfault.com/a/1190000040209244",
+    "author": "why技术",
+    "home_url": "https://segmentfault.com/u/whyjishu",
+    "votes": "2",
+    "rank": 11
+  },
+  {
+    "title": "融合云（Unified IaaS），面向未来的IT基础设施架构选择",
+    "description": "随着数字化时代的到来，IT系统已成为人类社会正常运转不可或缺的组成部分。不远的未来，智能制造，5G和人工智能等技术将成为推动生产力发展的重要引擎，人类社会将面临前所未有的全面彻底的数字化浪潮。IT基础设...",
+    "url": "https://segmentfault.com/a/1190000040208915",
+    "author": "鸣飞",
+    "home_url": "https://segmentfault.com/u/mf",
+    "votes": "1",
+    "rank": 12
+  },
+  {
+    "title": "使用SpringBootCondition更自由地定义条件化配置",
+    "description": "我最新最全的文章都在 南瓜慢说 www.pkslow.com ，欢迎大家来喝茶！1 条件化配置Spring提供了多种实现化条件化配置的选择，如ConditionalOnProperty和ConditionalOnClass等。用法如下： {代码...} 还有： {代码.....",
+    "url": "https://segmentfault.com/a/1190000040211917",
+    "author": "南瓜慢说",
+    "home_url": "https://segmentfault.com/u/nanguamanshuo",
+    "votes": "1",
+    "rank": 13
+  },
+  {
+    "title": "我试了试用 SQL查 Linux日志，好用到飞起",
+    "description": "大家平时都怎么查Linux日志呢？像我平时会用tail、head、cat、sed、more、less这些经典系统命令，或者awk这类三方数据过滤工具，配合起来查询效率很高。但在使用过程中有一点让我比较头疼，那就是命令参数规则太...",
+    "url": "https://segmentfault.com/a/1190000040209974",
+    "author": "程序员内点事",
+    "home_url": "https://segmentfault.com/u/chengxy",
+    "votes": "1",
+    "rank": 14
   }
 ]
