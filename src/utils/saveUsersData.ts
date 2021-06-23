@@ -43,10 +43,10 @@ async function getInfo(arr: UsersDataBase[], type: string = '', globalUsers: Use
     }
   }
   
-  if (!findUser._stars) {
-    const str = await getUserStar(user.login);
-    findUser._stars = str;
-  }
+  // if (!findUser._stars) {
+  //   const str = await getUserStar(user.login);
+  //   findUser._stars = str;
+  // }
 
   const userFilter = usersStore.find(item => (findUser && item.login === findUser.login) as boolean);
   if (!userFilter) {
@@ -63,7 +63,8 @@ async function getInfo(arr: UsersDataBase[], type: string = '', globalUsers: Use
   // 获取成功删除第一条
   arr.shift();
   await saveCacheUserData(arr as unknown as UsersData[], type);
-  console.log(`<- 用户 [${user.login}, star:${findUser._stars}, followers:${findUser.followers}] 的数据获取完成！还剩 ${arr.length} 个用户信息！`);
+  console.log(`<- 用户 [${user.login}, followers:${findUser.followers}] 的数据获取完成！还剩 ${arr.length} 个用户信息！`);
+  // console.log(`<- 用户 [${user.login}, star:${findUser._stars}, followers:${findUser.followers}] 的数据获取完成！还剩 ${arr.length} 个用户信息！`);
   if (!isLocalData) {
     await sleep(1000);
   }
