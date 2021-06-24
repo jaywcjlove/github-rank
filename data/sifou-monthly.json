@@ -1,21 +1,12 @@
 [
   {
-    "title": "每个开发人员都应该知道的 10 个 GitHub 仓库",
-    "description": "GitHub 不仅是互联网上最有趣的开源项目的所在地，而且还是共享各种资源的好地方，从免费的书籍到 API ，产品路线图到项目思路到项目方案。",
-    "url": "https://segmentfault.com/a/1190000040055173",
-    "author": "LeanCloud",
-    "home_url": "https://segmentfault.com/u/leancloud",
-    "votes": "89",
-    "rank": 1
-  },
-  {
     "title": "最强整理！常用正则表达式速查手册",
     "description": "一、校验数字的表达式数字：^[0-9]*$n位的数字：^\\d{n}$至少n位的数字：^\\d{n,}$m-n位的数字：^\\d{m,n}$零和非零开头的数字：^(0|[1-9][0-9]*)$非零开头的最多带两位小数的数字：^([1-9][0-9]*)+(.[0-9]{1,2})?$...",
     "url": "https://segmentfault.com/a/1190000040086057",
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "47",
-    "rank": 2
+    "rank": 1
   },
   {
     "title": "分享一些 PHP 中有用的知识和坑",
@@ -24,6 +15,15 @@
     "author": "唯一丶",
     "home_url": "https://segmentfault.com/u/weiyi_5b04fb4aa815a",
     "votes": "34",
+    "rank": 2
+  },
+  {
+    "title": "SegmentFault 思否 9 周年丨代码不止，思否不止",
+    "description": "2012年6月1日 - 2021年6月1日，SegmentFault 思否陪伴开发者走过了9年时光。从最初的技术问答社区，到如今集技术问答、专栏文章、技术资讯、技术课程为一体的综合性技术社区，SegmentFault 思否致力于为开发者提...",
+    "url": "https://segmentfault.com/a/1190000040098074",
+    "author": "SegmentFault",
+    "home_url": "https://segmentfault.com/u/segmentfault",
+    "votes": "26",
     "rank": 3
   },
   {
@@ -36,12 +36,12 @@
     "rank": 4
   },
   {
-    "title": "SegmentFault 思否 9 周年丨代码不止，思否不止",
-    "description": "2012年6月1日 - 2021年6月1日，SegmentFault 思否陪伴开发者走过了9年时光。从最初的技术问答社区，到如今集技术问答、专栏文章、技术资讯、技术课程为一体的综合性技术社区，SegmentFault 思否致力于为开发者提...",
-    "url": "https://segmentfault.com/a/1190000040098074",
-    "author": "SegmentFault",
-    "home_url": "https://segmentfault.com/u/segmentfault",
-    "votes": "25",
+    "title": "令人眼前一亮的 Vue 实战技巧",
+    "description": "Vue 提供了 minxin 这种在组件内插入组件属性的方法，个人建议这货能少用就少用，但是有个场景则非常建议使用 minxin：当某段代码重复出现在多个组件中，并且这个重复的代码块很大的时候，将其作为一个 minxin 常...",
+    "url": "https://segmentfault.com/a/1190000040180294",
+    "author": "星野",
+    "home_url": "https://segmentfault.com/u/qqlcx5",
+    "votes": "35",
     "rank": 5
   },
   {
@@ -54,31 +54,13 @@
     "rank": 6
   },
   {
-    "title": "令人眼前一亮的 Vue 实战技巧",
-    "description": "Vue 提供了 minxin 这种在组件内插入组件属性的方法，个人建议这货能少用就少用，但是有个场景则非常建议使用 minxin：当某段代码重复出现在多个组件中，并且这个重复的代码块很大的时候，将其作为一个 minxin 常...",
-    "url": "https://segmentfault.com/a/1190000040180294",
-    "author": "星野",
-    "home_url": "https://segmentfault.com/u/qqlcx5",
-    "votes": "31",
+    "title": "CSS ::marker 让文字序号更有意思",
+    "description": "本文将介绍 CSS 中一个比较有意思的伪元素 ::marker，利用它，我们可以让我们的文字序号变得更加的有意思！什么是 ::markerCSS 伪元素 ::marker 是从 CSS Pseudo-Elements Level 3 开始新增，CSS Pseudo-Elements...",
+    "url": "https://segmentfault.com/a/1190000040175019",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "22",
     "rank": 7
-  },
-  {
-    "title": "Nginx 常用配置汇总！从入门到干活足矣",
-    "description": "众所周知，Nginx 是 Apache服务不错的替代品。其特点是占有内存少，并发能力强，事实上 Nginx 的并发能力在同类型的网页服务器中表现较好，因此国内知名大厂例如：淘宝，京东，百度，新浪，网易，腾讯等等都在使...",
-    "url": "https://segmentfault.com/a/1190000040054327",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "31",
-    "rank": 8
-  },
-  {
-    "title": "运维：你们 JAVA 服务内存占用太高，还只增不减！告警了，快来接锅",
-    "description": "先点赞再看，养成好习惯某天，运维老哥突然找我：“你们的某 JAVA 服务内存占用太高，告警了！GC 后也没释放，内存只增不减，是不是内存泄漏了！”",
-    "url": "https://segmentfault.com/a/1190000040050819",
-    "author": "空无",
-    "home_url": "https://segmentfault.com/u/kongwu",
-    "votes": "28",
-    "rank": 9
   },
   {
     "title": "这些node开源工具你值得拥有(上)",
@@ -87,7 +69,7 @@
     "author": "树酱",
     "home_url": "https://segmentfault.com/u/shu_jshu_jiashu_jianshu_jiang",
     "votes": "32",
-    "rank": 10
+    "rank": 8
   },
   {
     "title": "vue3与vue2使用的一些对比",
@@ -96,7 +78,7 @@
     "author": "JenK",
     "home_url": "https://segmentfault.com/u/wangzc996",
     "votes": "17",
-    "rank": 11
+    "rank": 9
   },
   {
     "title": "CSS filter 有哪些神奇用途",
@@ -105,16 +87,7 @@
     "author": "dragonir",
     "home_url": "https://segmentfault.com/u/dragonir",
     "votes": "22",
-    "rank": 12
-  },
-  {
-    "title": "CSS ::marker 让文字序号更有意思",
-    "description": "本文将介绍 CSS 中一个比较有意思的伪元素 ::marker，利用它，我们可以让我们的文字序号变得更加的有意思！什么是 ::markerCSS 伪元素 ::marker 是从 CSS Pseudo-Elements Level 3 开始新增，CSS Pseudo-Elements...",
-    "url": "https://segmentfault.com/a/1190000040175019",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "18",
-    "rank": 13
+    "rank": 10
   },
   {
     "title": "前端性能优化——图片篇",
@@ -123,7 +96,7 @@
     "author": "lzg9527",
     "home_url": "https://segmentfault.com/u/michael_5c03399eed011",
     "votes": "20",
-    "rank": 14
+    "rank": 11
   },
   {
     "title": "仅用CSS几步实现赛博朋克2077风格视觉效果",
@@ -132,7 +105,7 @@
     "author": "dragonir",
     "home_url": "https://segmentfault.com/u/dragonir",
     "votes": "21",
-    "rank": 15
+    "rank": 12
   },
   {
     "title": "我与思否，七年之痒",
@@ -140,8 +113,8 @@
     "url": "https://segmentfault.com/a/1190000040174392",
     "author": "边城",
     "home_url": "https://segmentfault.com/u/jamesfancy",
-    "votes": "17",
-    "rank": 16
+    "votes": "18",
+    "rank": 13
   },
   {
     "title": "CSS 揭秘",
@@ -150,7 +123,7 @@
     "author": "废废",
     "home_url": "https://segmentfault.com/u/feifei_5d9ace1c1d5a1",
     "votes": "19",
-    "rank": 17
+    "rank": 14
   },
   {
     "title": "如何写一份好的前端面试简历?",
@@ -159,16 +132,7 @@
     "author": "Eno_Yao",
     "home_url": "https://segmentfault.com/u/wscats",
     "votes": "18",
-    "rank": 18
-  },
-  {
-    "title": "聊一聊限流、降级、熔断",
-    "description": "小时候村里一到夏天，全村都开空调，村里总闸的保险丝就会因为用电量太大，自动熔断了，直接停服。股市也有一些极端情况开启熔断处理，不到万不得已，不会熔断。在 Web 工程中熔断的最小单元，也不一定是整个应用...",
-    "url": "https://segmentfault.com/a/1190000040057220",
-    "author": "周梦康",
-    "home_url": "https://segmentfault.com/u/zhoumengkang",
-    "votes": "16",
-    "rank": 19
+    "rank": 15
   },
   {
     "title": "Webpack 系列第六篇：如何编写loader",
@@ -177,7 +141,7 @@
     "author": "范文杰",
     "home_url": "https://segmentfault.com/u/fanwenjie",
     "votes": "17",
-    "rank": 20
+    "rank": 16
   },
   {
     "title": "大厂面试总结 CSS 篇",
@@ -186,7 +150,7 @@
     "author": "shanyue",
     "home_url": "https://segmentfault.com/u/xiange",
     "votes": "20",
-    "rank": 21
+    "rank": 17
   },
   {
     "title": "前端知识体系(2)-vue篇",
@@ -195,7 +159,7 @@
     "author": "子树",
     "home_url": "https://segmentfault.com/u/user_cf3crq1j",
     "votes": "23",
-    "rank": 22
+    "rank": 18
   },
   {
     "title": "如何理解WeakMap？",
@@ -204,7 +168,25 @@
     "author": "趁你还年轻",
     "home_url": "https://segmentfault.com/u/chennihuannianqing",
     "votes": "13",
-    "rank": 23
+    "rank": 19
+  },
+  {
+    "title": "国内首份！2021 中国开发者生态从业者现状调研报告发布",
+    "description": "伴随着信息技术的高速发展，国内一批云计算、数据库等以开发者为核心用户/客户的企业快速成长，开发者生态营销、开发者关系、技术品牌以及面向开发者这类专属人群的产品推广工作，正在成为新兴岗位。",
+    "url": "https://segmentfault.com/a/1190000040214261",
+    "author": "思否编辑部",
+    "home_url": "https://segmentfault.com/u/writers",
+    "votes": "9",
+    "rank": 20
+  },
+  {
+    "title": "你不知道的 VSCode 代码高亮原理",
+    "description": "全文5000字，解读 vscode 背后的代码高亮实现原理，欢迎点赞关注转发。Vscode 的代码高亮、代码补齐、错误诊断、跳转定义等语言功能由两种扩展方案协同实现，包括：基于词法分析技术，识别分词 token 并应用高亮...",
+    "url": "https://segmentfault.com/a/1190000040211606",
+    "author": "范文杰",
+    "home_url": "https://segmentfault.com/u/fanwenjie",
+    "votes": "13",
+    "rank": 21
   },
   {
     "title": "初窥鸿蒙",
@@ -213,7 +195,7 @@
     "author": "凹凸实验室",
     "home_url": "https://segmentfault.com/u/o2team",
     "votes": "9",
-    "rank": 24
+    "rank": 22
   },
   {
     "title": "萌新必看——10种客户端存储哪家强，一文读尽！",
@@ -222,7 +204,7 @@
     "author": "葡萄城技术团队",
     "home_url": "https://segmentfault.com/u/grapecity",
     "votes": "14",
-    "rank": 25
+    "rank": 23
   },
   {
     "title": "如何解决跨域问题",
@@ -231,7 +213,7 @@
     "author": "JenK",
     "home_url": "https://segmentfault.com/u/wangzc996",
     "votes": "10",
-    "rank": 26
+    "rank": 24
   },
   {
     "title": "深入浅出聊聊 Rust WebAssembly（一）",
@@ -240,7 +222,7 @@
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
     "votes": "13",
-    "rank": 27
+    "rank": 25
   },
   {
     "title": "Android 面试之必问性能优化",
@@ -249,7 +231,7 @@
     "author": "xiangzhihong",
     "home_url": "https://segmentfault.com/u/xiangzhihong",
     "votes": "8",
-    "rank": 28
+    "rank": 26
   },
   {
     "title": "淘系自研前端研发工具 AppWorks 正式发布",
@@ -258,15 +240,33 @@
     "author": "鸣飞",
     "home_url": "https://segmentfault.com/u/mf",
     "votes": "11",
+    "rank": 27
+  },
+  {
+    "title": "虚拟 DOM 与 Diff 算法的实现原理",
+    "description": "Vue 源码中虚拟 DOM 与 Diff 算法的实现借鉴了 snabbdom 这个库，snabbdom 是一个虚拟 DOM 库，它专注于简单，模块化，强大的功能和性能。要彻底明白虚拟 DOM 与 Diff 算法就得分析 snabbdom 这个库到底做了什么？",
+    "url": "https://segmentfault.com/a/1190000040142729",
+    "author": "废废",
+    "home_url": "https://segmentfault.com/u/feifei_5d9ace1c1d5a1",
+    "votes": "13",
+    "rank": 28
+  },
+  {
+    "title": "深入理解单例设计模式",
+    "description": "单例模式是面试中经常会被问到的一个问题，网上有大量的文章介绍单例模式的实现，本文也是参考那些优秀的文章来做一个总结，通过自己在学习过程中的理解进行记录，并补充完善一些内容，一方面巩固自己所学的内容...",
+    "url": "https://segmentfault.com/a/1190000040146574",
+    "author": "惜鸟",
+    "home_url": "https://segmentfault.com/u/xiniao_6051dfcd5b5e8",
+    "votes": "16",
     "rank": 29
   },
   {
-    "title": "精读《前端职业规划 - 2021 年》",
-    "description": "如果你是一位学生，你肯定对前端这个职业感到陌生，你虽然没有经验，但却对未来充满好奇，你有大把时间来思考，但可能摸不着方向，有种拳头打在棉花上的无力感。",
-    "url": "https://segmentfault.com/a/1190000040052388",
-    "author": "黄子毅",
-    "home_url": "https://segmentfault.com/u/aoyangyudakong",
-    "votes": "19",
+    "title": "推荐 12 个提升程序员软技能与效率的必备工具，爱了爱了 👍",
+    "description": "draw.io 是一款免费的在线图表编辑工具, 可以用来编辑工作流, BPM, org charts, UML, ER图, 网络拓朴图等，而且是免费的哦，创建的图表等可能无限哦。",
+    "url": "https://segmentfault.com/a/1190000040070107",
+    "author": "夜尽天明",
+    "home_url": "https://segmentfault.com/u/biaochenxuying",
+    "votes": "17",
     "rank": 30
   }
 ]

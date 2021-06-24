@@ -1,20 +1,20 @@
 [
   {
-    "title": "令人眼前一亮的 Vue 实战技巧",
-    "description": "Vue 提供了 minxin 这种在组件内插入组件属性的方法，个人建议这货能少用就少用，但是有个场景则非常建议使用 minxin：当某段代码重复出现在多个组件中，并且这个重复的代码块很大的时候，将其作为一个 minxin 常...",
-    "url": "https://segmentfault.com/a/1190000040180294",
-    "author": "星野",
-    "home_url": "https://segmentfault.com/u/qqlcx5",
-    "votes": "31",
-    "rank": 1
-  },
-  {
     "title": "国内首份！2021 中国开发者生态从业者现状调研报告发布",
     "description": "伴随着信息技术的高速发展，国内一批云计算、数据库等以开发者为核心用户/客户的企业快速成长，开发者生态营销、开发者关系、技术品牌以及面向开发者这类专属人群的产品推广工作，正在成为新兴岗位。",
     "url": "https://segmentfault.com/a/1190000040214261",
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
-    "votes": "6",
+    "votes": "9",
+    "rank": 1
+  },
+  {
+    "title": "你不知道的 VSCode 代码高亮原理",
+    "description": "全文5000字，解读 vscode 背后的代码高亮实现原理，欢迎点赞关注转发。Vscode 的代码高亮、代码补齐、错误诊断、跳转定义等语言功能由两种扩展方案协同实现，包括：基于词法分析技术，识别分词 token 并应用高亮...",
+    "url": "https://segmentfault.com/a/1190000040211606",
+    "author": "范文杰",
+    "home_url": "https://segmentfault.com/u/fanwenjie",
+    "votes": "13",
     "rank": 2
   },
   {
@@ -32,25 +32,25 @@
     "url": "https://segmentfault.com/a/1190000040155514",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "17",
+    "votes": "18",
     "rank": 4
   },
   {
-    "title": "你不知道的 VSCode 代码高亮原理",
-    "description": "全文5000字，解读 vscode 背后的代码高亮实现原理，欢迎点赞关注转发。Vscode 的代码高亮、代码补齐、错误诊断、跳转定义等语言功能由两种扩展方案协同实现，包括：基于词法分析技术，识别分词 token 并应用高亮...",
-    "url": "https://segmentfault.com/a/1190000040211606",
-    "author": "范文杰",
-    "home_url": "https://segmentfault.com/u/fanwenjie",
-    "votes": "9",
+    "title": "简单易懂的设计模式（上）",
+    "description": "当我们单击登录按钮时，页面中会出现一个登录的浮窗，而这个登录浮窗是唯一的，无论单击多少次登录按钮，这个浮窗都只会被创建一次，那么这个登录浮窗就适合用单例模式来创建。",
+    "url": "https://segmentfault.com/a/1190000040196515",
+    "author": "凹凸实验室",
+    "home_url": "https://segmentfault.com/u/o2team",
+    "votes": "12",
     "rank": 5
   },
   {
-    "title": "官网上线，议题征集！来 OpenInfra Days 聊聊开源基础设施的下一个十年",
-    "description": "OpenInfra Days China 2021 又开始了新的一年征程。过去的一年 COVID-19 肆虐，但没有阻挡全球的开源贡献者们合作和前进的脚步，我们的社区开源项目以及成员伙伴也创造出了很多响应当下云计算需求的新技术和新实...",
-    "url": "https://segmentfault.com/a/1190000040185830",
-    "author": "SegmentFault",
-    "home_url": "https://segmentfault.com/u/segmentfault",
-    "votes": "4",
+    "title": "源码级别了解 Redis 持久化",
+    "description": "大家都知道 Redis 是一个内存数据库，数据都存储在内存中，这也是 Redis 非常快的原因之一。虽然速度提上来了，但是如果数据一直放在内存中，是非常容易丢失的。比如 服务器关闭或宕机了，内存中的数据就木有了。...",
+    "url": "https://segmentfault.com/a/1190000040186654",
+    "author": "蘑菇睡不着",
+    "home_url": "https://segmentfault.com/u/yang_60ad0ec84ad57",
+    "votes": "10",
     "rank": 6
   },
   {
@@ -59,26 +59,44 @@
     "url": "https://segmentfault.com/a/1190000040193841",
     "author": "snakesss",
     "home_url": "https://segmentfault.com/u/snakesss",
-    "votes": "4",
+    "votes": "5",
     "rank": 7
   },
   {
-    "title": "详解 Go 程序的启动流程，你知道 g0，m0 是什么吗？",
-    "description": "这段程序的输出结果为 hello world.，就是这么的简单又直接。但这时候又不禁思考了起来，这个 hello world. 是怎么输出来，经历了什么过程。",
-    "url": "https://segmentfault.com/a/1190000040181868",
-    "author": "煎鱼",
-    "home_url": "https://segmentfault.com/u/eddycjy",
-    "votes": "5",
+    "title": "为什么TypeScript的Enum很有问题",
+    "description": "TypeScript引入了很多静态编译语言的特性，比如class（现在是JavaScript的一部分了），interface, generics和union types等。",
+    "url": "https://segmentfault.com/a/1190000040204561",
+    "author": "小红星闪啊闪",
+    "home_url": "https://segmentfault.com/u/dynamic_cell",
+    "votes": "4",
     "rank": 8
+  },
+  {
+    "title": "Android 面试之开源库分析",
+    "description": "有人说，现在的客户端面试越来越卷了，需要开发者掌握的内容也越来越多，从基础的Java基础、Android基础、Android系统原理、Android第三方库、混合开发、数据结构、算法，无一不问，要想得到一份好的工作机会，确...",
+    "url": "https://segmentfault.com/a/1190000040193824",
+    "author": "xiangzhihong",
+    "home_url": "https://segmentfault.com/u/xiangzhihong",
+    "votes": "5",
+    "rank": 9
   },
   {
     "title": "数据赋能，离不开嵌入式BI",
     "description": "晚高峰时段，导航软件总能找到路程最短、堵车最少的路线；运动过程中，穿戴式设备可以记录人的心率、速度等数据，进而判断最适合用户的锻炼方式…… 这些都离不开数据分析。",
     "url": "https://segmentfault.com/a/1190000040189730",
     "author": "小魔",
-    "home_url": "https://segmentfault.com/u/lu_607eaefc582e8",
+    "home_url": "https://segmentfault.com/u/lu",
     "votes": "9",
-    "rank": 9
+    "rank": 10
+  },
+  {
+    "title": "从 Flutter 和前端角度出发，聊聊单线程模型下如何保证 UI 流畅性",
+    "description": "文章主题是“单线程模型下如何保证 UI 的流畅性”。该话题针对的是 Flutter 性能原理展开的，但是 dart 语言就是 js 的延伸，很多概念和机制都是一样的。具体不细聊。此外 js 也是单线程模型，在界面展示和 IO 等方...",
+    "url": "https://segmentfault.com/a/1190000040206761",
+    "author": "fantasticbaby",
+    "home_url": "https://segmentfault.com/u/fantasticbaby",
+    "votes": "6",
+    "rank": 11
   },
   {
     "title": "专访 APISIX 温铭：「支流科技」再获数百万美金投资，APISIX 快速发展的秘诀",
@@ -87,25 +105,16 @@
     "author": "鸣飞",
     "home_url": "https://segmentfault.com/u/mf",
     "votes": "5",
-    "rank": 10
-  },
-  {
-    "title": "Android 面试之开源库分析",
-    "description": "有人说，现在的客户端面试越来越卷了，需要开发者掌握的内容也越来越多，从基础的Java基础、Android基础、Android系统原理、Android第三方库、混合开发、数据结构、算法，无一不问，要想得到一份好的工作机会，确...",
-    "url": "https://segmentfault.com/a/1190000040193824",
-    "author": "xiangzhihong",
-    "home_url": "https://segmentfault.com/u/xiangzhihong",
-    "votes": "4",
-    "rank": 11
-  },
-  {
-    "title": "源码级别了解 Redis 持久化",
-    "description": "大家都知道 Redis 是一个内存数据库，数据都存储在内存中，这也是 Redis 非常快的原因之一。虽然速度提上来了，但是如果数据一直放在内存中，是非常容易丢失的。比如 服务器关闭或宕机了，内存中的数据就木有了。...",
-    "url": "https://segmentfault.com/a/1190000040186654",
-    "author": "蘑菇睡不着",
-    "home_url": "https://segmentfault.com/u/yang_60ad0ec84ad57",
-    "votes": "8",
     "rank": 12
+  },
+  {
+    "title": "CSS 自动显示“全文”链接",
+    "description": "那么，有没有办法在不使用 js 的情况下实现呢？我一看就来了兴致，看着好像和之前这篇文章 CSS 实现多行文本“展开收起” (juejin.cn) 有点类似？不过这次的布局要简单的多，交互琢磨了半天发现也是可以完美实现的...",
+    "url": "https://segmentfault.com/a/1190000040216471",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "10",
+    "rank": 13
   },
   {
     "title": "140+ 演讲，来 ApacheCon 首次亚洲会议与全球开发者欢聚一堂",
@@ -114,43 +123,52 @@
     "author": "鸣飞",
     "home_url": "https://segmentfault.com/u/mf",
     "votes": "5",
-    "rank": 13
-  },
-  {
-    "title": "简单易懂的设计模式（上）",
-    "description": "当我们单击登录按钮时，页面中会出现一个登录的浮窗，而这个登录浮窗是唯一的，无论单击多少次登录按钮，这个浮窗都只会被创建一次，那么这个登录浮窗就适合用单例模式来创建。",
-    "url": "https://segmentfault.com/a/1190000040196515",
-    "author": "凹凸实验室",
-    "home_url": "https://segmentfault.com/u/o2team",
-    "votes": "10",
     "rank": 14
   },
   {
-    "title": "go-zero：开箱即用的微服务框架",
-    "description": "go-zero 是一个集成了各种工程实践的 Web 和 rpc 框架，它的弹性设计保障了大并发服务端的稳定性，并且已经经过了充分的实战检验。",
-    "url": "https://segmentfault.com/a/1190000040181185",
-    "author": "云叔_又拍云",
-    "home_url": "https://segmentfault.com/u/yunshu_blog",
-    "votes": "7",
+    "title": "开源项目的 5 年长跑，runc v1.0 终于正式发布！",
+    "description": "本文我来分享下与我们（搞容器化/K8S 从业者）息息相关的一个基础项目 runc 是如何自 2016 年发布了 v1.0.0-rc1 到现在历经 5 年长跑，从 rc1 一直到 rc95 ，如今终于正式发布 v1.0 版本的过程，及这中间的故事。",
+    "url": "https://segmentfault.com/a/1190000040223946",
+    "author": "张晋涛",
+    "home_url": "https://segmentfault.com/u/moelove",
+    "votes": "4",
     "rank": 15
   },
   {
-    "title": "为什么TypeScript的Enum很有问题",
-    "description": "TypeScript引入了很多静态编译语言的特性，比如class（现在是JavaScript的一部分了），interface, generics和union types等。",
-    "url": "https://segmentfault.com/a/1190000040204561",
-    "author": "小红星闪啊闪",
-    "home_url": "https://segmentfault.com/u/dynamic_cell",
-    "votes": "2",
+    "title": "1.5w字 + 24张图肝翻 TCP。",
+    "description": "如果你看过我之前写的关于网络层的一篇文章，你应该知道 TCP 的基本元素有四个：即发送方的 IP 地址、发送方的端口号、接收方的 IP 地址、接收方的端口号。而每一方的 IP + 端口号都可以看作是一个套接字，套接字...",
+    "url": "https://segmentfault.com/a/1190000040210475",
+    "author": "程序员cxuan",
+    "home_url": "https://segmentfault.com/u/cxuan",
+    "votes": "8",
     "rank": 16
+  },
+  {
+    "title": "【Flutter应用】Flutter仿抖音现支持Flutter Web",
+    "description": "前言：我升级了flutter_tiktok（仿抖音）开源项目，使用最新的flutter框架重新构建，并已支持flutter web，同时将代码迁移到了空安全。",
+    "url": "https://segmentfault.com/a/1190000040191651",
+    "author": "马嘉伦",
+    "home_url": "https://segmentfault.com/u/majialun",
+    "votes": "7",
+    "rank": 17
+  },
+  {
+    "title": "写给初用Nestj做项目的你(四篇:  TypeORM操作mysql数据库, 内附坑点罗列)",
+    "description": "简单理解他就是一款帮助我们操作数据库的工具, nest.js对他做了很好的集成, 虽然它的官网写的挺全的但是实际开发起来还是不太够, 并且里面有大坑我会把我知道的都列出来, 这篇也会把一些常见的解决方案写出来。",
+    "url": "https://segmentfault.com/a/1190000040207165",
+    "author": "lulu_up",
+    "home_url": "https://segmentfault.com/u/lulu_up",
+    "votes": "11",
+    "rank": 18
   },
   {
     "title": "优麒麟 20.04 LTS Pro 发布会成功举办！",
     "description": "2021 年 6 月 20 日，由中国软件行业协会、中国开源软件推进联盟、中国科协科学技术传播中心、开放原子开源基金会、“科创中国”开源创新联合体主办，优麒麟开源社区和麒麟软件有限公司承办的《优麒麟 20.04 LTS Pr...",
     "url": "https://segmentfault.com/a/1190000040211810",
     "author": "小魔",
-    "home_url": "https://segmentfault.com/u/lu_607eaefc582e8",
+    "home_url": "https://segmentfault.com/u/lu",
     "votes": "1",
-    "rank": 17
+    "rank": 19
   },
   {
     "title": "腾讯位置服务打车乘客端小车平滑移动-安卓篇",
@@ -159,16 +177,16 @@
     "author": "腾讯位置服务",
     "home_url": "https://segmentfault.com/u/tengxunweizhifuwu",
     "votes": "3",
-    "rank": 18
+    "rank": 20
   },
   {
-    "title": "从 Flutter 和前端角度出发，聊聊单线程模型下如何保证 UI 流畅性",
-    "description": "文章主题是“单线程模型下如何保证 UI 的流畅性”。该话题针对的是 Flutter 性能原理展开的，但是 dart 语言就是 js 的延伸，很多概念和机制都是一样的。具体不细聊。此外 js 也是单线程模型，在界面展示和 IO 等方...",
-    "url": "https://segmentfault.com/a/1190000040206761",
-    "author": "fantasticbaby",
-    "home_url": "https://segmentfault.com/u/fantasticbaby",
-    "votes": "4",
-    "rank": 19
+    "title": "号称下一代日志收集系统！来看看它有多强",
+    "description": "后面随着架构的优化与演进，又引入另一个轻量级的组件 Filebeat，Filebeat和Logstash一样属于日志收集处理工具，基于原先 Logstash-fowarder 的源码改造出来的。与Logstash相比，filebeat更加轻量，占用资源更少。",
+    "url": "https://segmentfault.com/a/1190000040190066",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "6",
+    "rank": 21
   },
   {
     "title": "瑞思拜！不愧是GitHub上最励志的计算机自学教程！",
@@ -177,7 +195,7 @@
     "author": "CodeSheep",
     "home_url": "https://segmentfault.com/u/hansonwang99",
     "votes": "7",
-    "rank": 20
+    "rank": 22
   },
   {
     "title": "阿里云资深专家崮德：谈谈我对华为HarmonyOS 2.0的看法",
@@ -186,7 +204,7 @@
     "author": "鸣飞",
     "home_url": "https://segmentfault.com/u/mf",
     "votes": "2",
-    "rank": 21
+    "rank": 23
   },
   {
     "title": "详解Apache Dubbo的SPI实现机制",
@@ -195,7 +213,16 @@
     "author": "vivo互联网技术",
     "home_url": "https://segmentfault.com/u/vivo_tech",
     "votes": "2",
-    "rank": 22
+    "rank": 24
+  },
+  {
+    "title": "高可用 | Xenon：后 MHA 时代的选择",
+    "description": "在 MySQL（5.5 及以下）传统复制的时代，MHA（Master High Availability）在 MySQL 高可用应用中非常成熟。在 MySQL（5.6）及 GTID 时代开启以后，MHA 却没有与新的 MySQL 一起顺应时潮。",
+    "url": "https://segmentfault.com/a/1190000040224940",
+    "author": "青云技术社区",
+    "home_url": "https://segmentfault.com/u/qingclouddevelopers",
+    "votes": "2",
+    "rank": 25
   },
   {
     "title": "从0到1开发工具库",
@@ -204,25 +231,16 @@
     "author": "树酱",
     "home_url": "https://segmentfault.com/u/shu_jshu_jiashu_jianshu_jiang",
     "votes": "7",
-    "rank": 23
+    "rank": 26
   },
   {
-    "title": "写给初用Nestj做项目的你(四篇:  TypeORM操作mysql数据库, 内附坑点罗列)",
-    "description": "简单理解他就是一款帮助我们操作数据库的工具, nest.js对他做了很好的集成, 虽然它的官网写的挺全的但是实际开发起来还是不太够, 并且里面有大坑我会把我知道的都列出来, 这篇也会把一些常见的解决方案写出来。",
-    "url": "https://segmentfault.com/a/1190000040207165",
-    "author": "lulu_up",
-    "home_url": "https://segmentfault.com/u/lulu_up",
+    "title": "JavaScript中对光标和选区的操作",
+    "description": "在一些业务场景，比如高亮文本、输入编辑、等场景中需要对光标和选区进行操作时，可以使用浏览器提供的 Selection 对象和 Range 对象来操作光标和选区。",
+    "url": "https://segmentfault.com/a/1190000040211043",
+    "author": "FEWY",
+    "home_url": "https://segmentfault.com/u/fewy",
     "votes": "9",
-    "rank": 24
-  },
-  {
-    "title": "号称下一代日志收集系统！来看看它有多强",
-    "description": "后面随着架构的优化与演进，又引入另一个轻量级的组件 Filebeat，Filebeat和Logstash一样属于日志收集处理工具，基于原先 Logstash-fowarder 的源码改造出来的。与Logstash相比，filebeat更加轻量，占用资源更少。",
-    "url": "https://segmentfault.com/a/1190000040190066",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "5",
-    "rank": 25
+    "rank": 27
   },
   {
     "title": "COPU 发布 2021 年中国开源优秀人物",
@@ -231,24 +249,6 @@
     "author": "鸣飞",
     "home_url": "https://segmentfault.com/u/mf",
     "votes": "1",
-    "rank": 26
-  },
-  {
-    "title": "【Flutter应用】Flutter仿抖音现支持Flutter Web",
-    "description": "前言：我升级了flutter_tiktok（仿抖音）开源项目，使用最新的flutter框架重新构建，并已支持flutter web，同时将代码迁移到了空安全。",
-    "url": "https://segmentfault.com/a/1190000040191651",
-    "author": "马嘉伦",
-    "home_url": "https://segmentfault.com/u/majialun",
-    "votes": "6",
-    "rank": 27
-  },
-  {
-    "title": "ES6 中 module 备忘清单，你可能知道 module 还可以这样用！",
-    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000040187607",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "5",
     "rank": 28
   },
   {
@@ -259,14 +259,5 @@
     "home_url": "https://segmentfault.com/u/langchaoyun",
     "votes": "1",
     "rank": 29
-  },
-  {
-    "title": "1.5w字 + 24张图肝翻 TCP。",
-    "description": "如果你看过我之前写的关于网络层的一篇文章，你应该知道 TCP 的基本元素有四个：即发送方的 IP 地址、发送方的端口号、接收方的 IP 地址、接收方的端口号。而每一方的 IP + 端口号都可以看作是一个套接字，套接字...",
-    "url": "https://segmentfault.com/a/1190000040210475",
-    "author": "程序员cxuan",
-    "home_url": "https://segmentfault.com/u/cxuan",
-    "votes": "6",
-    "rank": 30
   }
 ]
