@@ -1,39 +1,12 @@
 [
   {
-    "title": "最强整理！常用正则表达式速查手册",
-    "description": "一、校验数字的表达式数字：^[0-9]*$n位的数字：^\\d{n}$至少n位的数字：^\\d{n,}$m-n位的数字：^\\d{m,n}$零和非零开头的数字：^(0|[1-9][0-9]*)$非零开头的最多带两位小数的数字：^([1-9][0-9]*)+(.[0-9]{1,2})?$...",
-    "url": "https://segmentfault.com/a/1190000040086057",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "50",
-    "rank": 1
-  },
-  {
     "title": "令人眼前一亮的 Vue 实战技巧",
     "description": "Vue 提供了 minxin 这种在组件内插入组件属性的方法，个人建议这货能少用就少用，但是有个场景则非常建议使用 minxin：当某段代码重复出现在多个组件中，并且这个重复的代码块很大的时候，将其作为一个 minxin 常...",
     "url": "https://segmentfault.com/a/1190000040180294",
     "author": "星野",
     "home_url": "https://segmentfault.com/u/qqlcx5",
-    "votes": "43",
-    "rank": 2
-  },
-  {
-    "title": "分享一些 PHP 中有用的知识和坑",
-    "description": "在一次偶然查看 PHP 文档的时候，发现了一些有趣的内容，随着阅读的增加，越发觉得有趣的内容或者说时坑越来越多，所以我决定记录下来，分享出去，下文中一些内容摘录自一些优秀的博客、PHP 文档的用户笔记，或者...",
-    "url": "https://segmentfault.com/a/1190000040084826",
-    "author": "唯一丶",
-    "home_url": "https://segmentfault.com/u/weiyi_5b04fb4aa815a",
-    "votes": "34",
-    "rank": 3
-  },
-  {
-    "title": "一份工作4年前端的Git备忘指南",
-    "description": "刚毕业的时候用过极短时间的SVN，后面就一直在用Git来做代码的版本控制了，前前后后差不多4年的时间，期间做了一些在使用Git过程中的记录和心得，在这里分享给大家，大家或许可以从中吸收到一些有用的东西。",
-    "url": "https://segmentfault.com/a/1190000040085749",
-    "author": "趁你还年轻",
-    "home_url": "https://segmentfault.com/u/chennihuannianqing",
-    "votes": "45",
-    "rank": 4
+    "votes": "46",
+    "rank": 1
   },
   {
     "title": "SegmentFault 思否 9 周年丨代码不止，思否不止",
@@ -41,17 +14,8 @@
     "url": "https://segmentfault.com/a/1190000040098074",
     "author": "SegmentFault",
     "home_url": "https://segmentfault.com/u/segmentfault",
-    "votes": "27",
-    "rank": 5
-  },
-  {
-    "title": "最新、最全的 MySQL 面试题整理，吊打面试官完全没问题了！（建议收藏）",
-    "description": "数据库基础知识为什么要使用数据库数据保存在内存优点： 存取速度快缺点： 数据不能永久保存数据保存在文件优点： 数据永久保存缺点：1）速度比内存操作慢，频繁的IO操作。2）查询数据不方便数据保存在数据库数据...",
-    "url": "https://segmentfault.com/a/1190000040112777",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "30",
-    "rank": 6
+    "rank": 2
   },
   {
     "title": "CSS ::marker 让文字序号更有意思",
@@ -59,8 +23,17 @@
     "url": "https://segmentfault.com/a/1190000040175019",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "23",
-    "rank": 7
+    "votes": "26",
+    "rank": 3
+  },
+  {
+    "title": "最新、最全的 MySQL 面试题整理，吊打面试官完全没问题了！（建议收藏）",
+    "description": "数据库基础知识为什么要使用数据库数据保存在内存优点： 存取速度快缺点： 数据不能永久保存数据保存在文件优点： 数据永久保存缺点：1）速度比内存操作慢，频繁的IO操作。2）查询数据不方便数据保存在数据库数据...",
+    "url": "https://segmentfault.com/a/1190000040112777",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "31",
+    "rank": 4
   },
   {
     "title": "这些node开源工具你值得拥有(上)",
@@ -69,7 +42,7 @@
     "author": "树酱",
     "home_url": "https://segmentfault.com/u/shu_jshu_jiashu_jianshu_jiang",
     "votes": "32",
-    "rank": 8
+    "rank": 5
   },
   {
     "title": "vue3与vue2使用的一些对比",
@@ -78,7 +51,7 @@
     "author": "JenK",
     "home_url": "https://segmentfault.com/u/wangzc996",
     "votes": "17",
-    "rank": 9
+    "rank": 6
   },
   {
     "title": "我与思否，七年之痒 | 思否 9 周年",
@@ -87,7 +60,7 @@
     "author": "边城",
     "home_url": "https://segmentfault.com/u/jamesfancy",
     "votes": "19",
-    "rank": 10
+    "rank": 7
   },
   {
     "title": "如何平衡兴趣与收入 —— 听尤雨溪访谈有感",
@@ -95,8 +68,8 @@
     "url": "https://segmentfault.com/a/1190000040230988",
     "author": "卡颂",
     "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "18",
-    "rank": 11
+    "votes": "19",
+    "rank": 8
   },
   {
     "title": "仅用CSS几步实现赛博朋克2077风格视觉效果",
@@ -104,8 +77,8 @@
     "url": "https://segmentfault.com/a/1190000040166704",
     "author": "dragonir",
     "home_url": "https://segmentfault.com/u/dragonir",
-    "votes": "21",
-    "rank": 12
+    "votes": "22",
+    "rank": 9
   },
   {
     "title": "你不知道的 VSCode 代码高亮原理",
@@ -113,8 +86,8 @@
     "url": "https://segmentfault.com/a/1190000040211606",
     "author": "范文杰",
     "home_url": "https://segmentfault.com/u/fanwenjie",
-    "votes": "18",
-    "rank": 13
+    "votes": "19",
+    "rank": 10
   },
   {
     "title": "CSS 揭秘",
@@ -122,8 +95,8 @@
     "url": "https://segmentfault.com/a/1190000040092507",
     "author": "废废",
     "home_url": "https://segmentfault.com/u/feifei_5d9ace1c1d5a1",
-    "votes": "19",
-    "rank": 14
+    "votes": "20",
+    "rank": 11
   },
   {
     "title": "大厂面试总结 CSS 篇",
@@ -132,7 +105,7 @@
     "author": "shanyue",
     "home_url": "https://segmentfault.com/u/xiange",
     "votes": "21",
-    "rank": 15
+    "rank": 12
   },
   {
     "title": "Webpack 系列第六篇：如何编写loader",
@@ -141,7 +114,7 @@
     "author": "范文杰",
     "home_url": "https://segmentfault.com/u/fanwenjie",
     "votes": "17",
-    "rank": 16
+    "rank": 13
   },
   {
     "title": "前端知识体系(2)-vue篇",
@@ -150,7 +123,7 @@
     "author": "子树",
     "home_url": "https://segmentfault.com/u/user_cf3crq1j",
     "votes": "23",
-    "rank": 17
+    "rank": 14
   },
   {
     "title": "如何理解WeakMap？",
@@ -159,7 +132,7 @@
     "author": "趁你还年轻",
     "home_url": "https://segmentfault.com/u/chennihuannianqing",
     "votes": "14",
-    "rank": 18
+    "rank": 15
   },
   {
     "title": "萌新必看——10种客户端存储哪家强，一文读尽！",
@@ -168,7 +141,7 @@
     "author": "葡萄城技术团队",
     "home_url": "https://segmentfault.com/u/grapecity",
     "votes": "15",
-    "rank": 19
+    "rank": 16
   },
   {
     "title": "国内首份！2021 中国开发者生态从业者现状调研报告发布",
@@ -177,7 +150,7 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "9",
-    "rank": 20
+    "rank": 17
   },
   {
     "title": "初窥鸿蒙",
@@ -186,7 +159,7 @@
     "author": "凹凸实验室",
     "home_url": "https://segmentfault.com/u/o2team",
     "votes": "9",
-    "rank": 21
+    "rank": 18
   },
   {
     "title": "深入浅出聊聊 Rust WebAssembly（一）",
@@ -195,7 +168,7 @@
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
     "votes": "13",
-    "rank": 22
+    "rank": 19
   },
   {
     "title": "Android 面试之必问性能优化",
@@ -204,7 +177,7 @@
     "author": "xiangzhihong",
     "home_url": "https://segmentfault.com/u/xiangzhihong",
     "votes": "8",
-    "rank": 23
+    "rank": 20
   },
   {
     "title": "20个 Javascript 技巧，提高我们的摸鱼时间！",
@@ -212,8 +185,17 @@
     "url": "https://segmentfault.com/a/1190000040155514",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "21",
-    "rank": 24
+    "votes": "22",
+    "rank": 21
+  },
+  {
+    "title": "CSS 自动显示“全文”链接",
+    "description": "那么，有没有办法在不使用 js 的情况下实现呢？我一看就来了兴致，看着好像和之前这篇文章 CSS 实现多行文本“展开收起” (juejin.cn) 有点类似？不过这次的布局要简单的多，交互琢磨了半天发现也是可以完美实现的...",
+    "url": "https://segmentfault.com/a/1190000040216471",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "15",
+    "rank": 22
   },
   {
     "title": "淘系自研前端研发工具 AppWorks 正式发布",
@@ -221,7 +203,25 @@
     "url": "https://segmentfault.com/a/1190000040142501",
     "author": "鸣飞",
     "home_url": "https://segmentfault.com/u/mf",
+    "votes": "12",
+    "rank": 23
+  },
+  {
+    "title": "2021年，让我们手写一个mini版本的vue2.x和vue3.x框架",
+    "description": "mini版本的vue.js2.X版本框架模板代码首先我们看一下我们要实现的模板代码: {代码...} 逻辑代码然后就是我们要编写的javascript代码。 {代码...} 运行效果我们来看一下实际运行效果如下所示:思考一下，我们要实现...",
+    "url": "https://segmentfault.com/a/1190000040236708",
+    "author": "夕水",
+    "home_url": "https://segmentfault.com/u/xishui_5ac9a340a5484",
     "votes": "11",
+    "rank": 24
+  },
+  {
+    "title": "从零开始写 OS 内核 （序篇）",
+    "description": "操作系统是计算机专业的核心学科，但我想即使是很多大学的 CS 本科操作系统专业课，也未必会设置这样规模和难度的项目。我是在 CMU 读研时修了它们的本科 OS 课程 15-410，这是课程的最大一个项目作业。对于很多...",
+    "url": "https://segmentfault.com/a/1190000040124650",
+    "author": "hyuan",
+    "home_url": "https://segmentfault.com/u/hyuan_59cddabee3f82",
+    "votes": "14",
     "rank": 25
   },
   {
@@ -248,25 +248,25 @@
     "url": "https://segmentfault.com/a/1190000040140312",
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "17",
+    "votes": "18",
     "rank": 28
   },
   {
-    "title": "官方揭秘！你的颜色是这样算出来的……",
-    "description": "与此同时，有网友开始分析起了本次活动的计算逻辑，甚至反编译出了所有可能的颜色结果。作为本次活动的核心开发人员，接下来将为大家介绍颜色测试活动的技术细节。",
-    "url": "https://segmentfault.com/a/1190000040093575",
-    "author": "云音乐大前端团队",
-    "home_url": "https://segmentfault.com/u/musicfe",
-    "votes": "15",
+    "title": "SameSite 那些事",
+    "description": "在《Web 安全漏洞之 CSRF》中我们了解到，CSRF 的本质实际上是利用了 Cookie 会自动在请求中携带的特性，诱使用户在第三方站点发起请求的行为。除了文中说的一些解决方式之外，标准还专门为 Cookie 增加了 SameSi...",
+    "url": "https://segmentfault.com/a/1190000040161207",
+    "author": "公子",
+    "home_url": "https://segmentfault.com/u/lizheming",
+    "votes": "9",
     "rank": 29
   },
   {
-    "title": "代码中常见的 24 种坏味道及重构手法",
-    "description": "最近，小李感觉公司女生们看他的眼神不太对劲了，那种笑容好像是充满慈爱的、姨母般的笑容。作为一名老实本分的程序员，小李不太习惯这种被人过度关注的感觉，他不知道发生了什么。······小李和小王的关系似乎过...",
-    "url": "https://segmentfault.com/a/1190000040173635",
-    "author": "晒兜斯",
-    "home_url": "https://segmentfault.com/u/shadows_5b811ac2449a4",
-    "votes": "13",
+    "title": "Babel配置傻傻看不懂？",
+    "description": "前沿：文章起源在于，朋友跟树酱说在解决项目兼容IE11浏览器过程中，遇到“眼花缭乱”的babel配置和插件等，傻傻分不清配置间的区别、以及不了解如何引用babel插件才能让性能更佳，如果你也有这方面的疑虑，这篇文...",
+    "url": "https://segmentfault.com/a/1190000040174867",
+    "author": "树酱",
+    "home_url": "https://segmentfault.com/u/shu_jshu_jiashu_jianshu_jiang",
+    "votes": "10",
     "rank": 30
   }
 ]

@@ -5,17 +5,8 @@
     "url": "https://segmentfault.com/a/1190000040230988",
     "author": "卡颂",
     "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "18",
+    "votes": "19",
     "rank": 1
-  },
-  {
-    "title": "你不知道的 VSCode 代码高亮原理",
-    "description": "全文5000字，解读 vscode 背后的代码高亮实现原理，欢迎点赞关注转发。Vscode 的代码高亮、代码补齐、错误诊断、跳转定义等语言功能由两种扩展方案协同实现，包括：基于词法分析技术，识别分词 token 并应用高亮...",
-    "url": "https://segmentfault.com/a/1190000040211606",
-    "author": "范文杰",
-    "home_url": "https://segmentfault.com/u/fanwenjie",
-    "votes": "18",
-    "rank": 2
   },
   {
     "title": "国内首份！2021 中国开发者生态从业者现状调研报告发布",
@@ -24,7 +15,25 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "9",
+    "rank": 2
+  },
+  {
+    "title": "CSS 自动显示“全文”链接",
+    "description": "那么，有没有办法在不使用 js 的情况下实现呢？我一看就来了兴致，看着好像和之前这篇文章 CSS 实现多行文本“展开收起” (juejin.cn) 有点类似？不过这次的布局要简单的多，交互琢磨了半天发现也是可以完美实现的...",
+    "url": "https://segmentfault.com/a/1190000040216471",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "15",
     "rank": 3
+  },
+  {
+    "title": "2021年，让我们手写一个mini版本的vue2.x和vue3.x框架",
+    "description": "mini版本的vue.js2.X版本框架模板代码首先我们看一下我们要实现的模板代码: {代码...} 逻辑代码然后就是我们要编写的javascript代码。 {代码...} 运行效果我们来看一下实际运行效果如下所示:思考一下，我们要实现...",
+    "url": "https://segmentfault.com/a/1190000040236708",
+    "author": "夕水",
+    "home_url": "https://segmentfault.com/u/xishui_5ac9a340a5484",
+    "votes": "11",
+    "rank": 4
   },
   {
     "title": "开箱即用的微服务框架 Go-zero（进阶篇）",
@@ -33,34 +42,7 @@
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
     "votes": "10",
-    "rank": 4
-  },
-  {
-    "title": "2021年，让我们手写一个mini版本的vue2.x和vue3.x框架",
-    "description": "mini版本的vue.js2.X版本框架模板代码首先我们看一下我们要实现的模板代码: {代码...} 逻辑代码然后就是我们要编写的javascript代码。 {代码...} 运行效果我们来看一下实际运行效果如下所示:思考一下，我们要实现...",
-    "url": "https://segmentfault.com/a/1190000040236708",
-    "author": "夕水",
-    "home_url": "https://segmentfault.com/u/xishui_5ac9a340a5484",
-    "votes": "9",
     "rank": 5
-  },
-  {
-    "title": "JS常用工具函数整理",
-    "description": "3、isObject:判断数据是不是引用类型的数据（例如：array,function,object,regexe,new Number(),new String())",
-    "url": "https://segmentfault.com/a/1190000040224248",
-    "author": "小蘑菇",
-    "home_url": "https://segmentfault.com/u/xiaomogu_5f2124ad3ad42",
-    "votes": "15",
-    "rank": 6
-  },
-  {
-    "title": "CSS 自动显示“全文”链接",
-    "description": "那么，有没有办法在不使用 js 的情况下实现呢？我一看就来了兴致，看着好像和之前这篇文章 CSS 实现多行文本“展开收起” (juejin.cn) 有点类似？不过这次的布局要简单的多，交互琢磨了半天发现也是可以完美实现的...",
-    "url": "https://segmentfault.com/a/1190000040216471",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "12",
-    "rank": 7
   },
   {
     "title": "中科院发布国产 RISC-V 处理器“香山”：已成功运行 Linux/Debian",
@@ -68,17 +50,26 @@
     "url": "https://segmentfault.com/a/1190000040237477",
     "author": "鸣飞",
     "home_url": "https://segmentfault.com/u/mf",
-    "votes": "7",
-    "rank": 8
+    "votes": "8",
+    "rank": 6
   },
   {
-    "title": "1.5w字 + 24张图肝翻 TCP。",
-    "description": "如果你看过我之前写的关于网络层的一篇文章，你应该知道 TCP 的基本元素有四个：即发送方的 IP 地址、发送方的端口号、接收方的 IP 地址、接收方的端口号。而每一方的 IP + 端口号都可以看作是一个套接字，套接字...",
-    "url": "https://segmentfault.com/a/1190000040210475",
-    "author": "程序员cxuan",
-    "home_url": "https://segmentfault.com/u/cxuan",
-    "votes": "10",
-    "rank": 9
+    "title": "JS常用工具函数整理",
+    "description": "3、isObject:判断数据是不是引用类型的数据（例如：array,function,object,regexe,new Number(),new String())",
+    "url": "https://segmentfault.com/a/1190000040224248",
+    "author": "小蘑菇",
+    "home_url": "https://segmentfault.com/u/xiaomogu_5f2124ad3ad42",
+    "votes": "16",
+    "rank": 7
+  },
+  {
+    "title": "长风破浪会有时，直挂云帆济沧海——思否九周年，提点产品想法",
+    "description": "笔者有幸，与思否结缘较早，基本上见证了思否九年来的发展。从问答到专栏，再到后来的教程、报道，以及最近的视频、点评，思否不断再进步，不断在发展，不断给广大开发者带来更多有用好用的产品。",
+    "url": "https://segmentfault.com/a/1190000040247733",
+    "author": "Meathill",
+    "home_url": "https://segmentfault.com/u/meathill",
+    "votes": "11",
+    "rank": 8
   },
   {
     "title": "开源项目的 5 年长跑，runc v1.0 终于正式发布！",
@@ -87,7 +78,25 @@
     "author": "张晋涛",
     "home_url": "https://segmentfault.com/u/moelove",
     "votes": "5",
+    "rank": 9
+  },
+  {
+    "title": "硬核！高频Linux命令大总结，建议收藏~",
+    "description": "今天继续分享，最近花了不少时间把平时开发过程中常用的一些Linux系统命令给做了一个大整理，形成一个常用高频Linux速查备忘录。有了它，还怕Linux操作系统常用操作和命令记不住么？",
+    "url": "https://segmentfault.com/a/1190000040222932",
+    "author": "CodeSheep",
+    "home_url": "https://segmentfault.com/u/hansonwang99",
+    "votes": "13",
     "rank": 10
+  },
+  {
+    "title": "2021前端面试总结",
+    "description": "笔试开始有跳槽准备的想法开始刷 leetcode 到实际开始面试大概经历了两个半月。而我个人对于面试的前期准备按照以下几部分循序渐进的进行：",
+    "url": "https://segmentfault.com/a/1190000040236485",
+    "author": "玩弄心里的鬼",
+    "home_url": "https://segmentfault.com/u/lizongyuan",
+    "votes": "14",
+    "rank": 11
   },
   {
     "title": "社区与市场：两种关注点",
@@ -96,25 +105,7 @@
     "author": "tison",
     "home_url": "https://segmentfault.com/u/w4and0er96",
     "votes": "5",
-    "rank": 11
-  },
-  {
-    "title": "JavaScript中对光标和选区的操作",
-    "description": "在一些业务场景，比如高亮文本、输入编辑、等场景中需要对光标和选区进行操作时，可以使用浏览器提供的 Selection 对象和 Range 对象来操作光标和选区。",
-    "url": "https://segmentfault.com/a/1190000040211043",
-    "author": "FEWY",
-    "home_url": "https://segmentfault.com/u/fewy",
-    "votes": "11",
     "rank": 12
-  },
-  {
-    "title": "硬核！高频Linux命令大总结，建议收藏~",
-    "description": "今天继续分享，最近花了不少时间把平时开发过程中常用的一些Linux系统命令给做了一个大整理，形成一个常用高频Linux速查备忘录。有了它，还怕Linux操作系统常用操作和命令记不住么？",
-    "url": "https://segmentfault.com/a/1190000040222932",
-    "author": "CodeSheep",
-    "home_url": "https://segmentfault.com/u/hansonwang99",
-    "votes": "12",
-    "rank": 13
   },
   {
     "title": "使用springBoot实现服务端XML文件的前端读写",
@@ -123,16 +114,16 @@
     "author": "JenK",
     "home_url": "https://segmentfault.com/u/wangzc996",
     "votes": "5",
-    "rank": 14
+    "rank": 13
   },
   {
-    "title": "140+ 演讲，来 ApacheCon 首次亚洲会议与全球开发者欢聚一堂",
-    "description": "ApacheCon 是 Apache 软件基金会（ASF）的官方全球系列大会。作为久负盛名的开源盛宴，ApacheCon 在开源界备受关注，也是开源运动早期的知名活动之一。",
-    "url": "https://segmentfault.com/a/1190000040208966",
-    "author": "鸣飞",
-    "home_url": "https://segmentfault.com/u/mf",
-    "votes": "6",
-    "rank": 15
+    "title": "104道 CSS 面试题，助你查漏补缺",
+    "description": "最近在整理 CSS 的时候发现遇到了很多面试中常见的面试题，本部分主要原作者在 Github 等各大论坛收录的 CSS 相关知识和一些相关面试题时所做的笔记，分享这份总结给大家，对大家对 CSS 的可以来一次全方位的检漏...",
+    "url": "https://segmentfault.com/a/1190000040247622",
+    "author": "Eno_Yao",
+    "home_url": "https://segmentfault.com/u/wscats",
+    "votes": "21",
+    "rank": 14
   },
   {
     "title": "堵俊平：开放治理是开源社区的终极之路 | DEV. Together 2021 中国开发者生态峰会",
@@ -141,7 +132,7 @@
     "author": "Shirley",
     "home_url": "https://segmentfault.com/u/shirleyyd",
     "votes": "3",
-    "rank": 16
+    "rank": 15
   },
   {
     "title": "我陪伴一起思否成长的日子　 |　思否的九周年",
@@ -150,7 +141,7 @@
     "author": "Peter谭老师",
     "home_url": "https://segmentfault.com/u/jerrytanjinjie",
     "votes": "6",
-    "rank": 17
+    "rank": 16
   },
   {
     "title": "在思否的五年丨思否 9 周年",
@@ -159,7 +150,7 @@
     "author": "空无",
     "home_url": "https://segmentfault.com/u/kongwu",
     "votes": "3",
-    "rank": 18
+    "rank": 17
   },
   {
     "title": "网络安全先驱 John McAfee 狱中死亡，享年75岁",
@@ -168,25 +159,7 @@
     "author": "小魔",
     "home_url": "https://segmentfault.com/u/lu",
     "votes": "3",
-    "rank": 19
-  },
-  {
-    "title": "2021前端面试总结",
-    "description": "笔试开始有跳槽准备的想法开始刷 leetcode 到实际开始面试大概经历了两个半月。而我个人对于面试的前期准备按照以下几部分循序渐进的进行：",
-    "url": "https://segmentfault.com/a/1190000040236485",
-    "author": "玩弄心里的鬼",
-    "home_url": "https://segmentfault.com/u/lizongyuan",
-    "votes": "11",
-    "rank": 20
-  },
-  {
-    "title": "优麒麟 20.04 LTS Pro 发布会成功举办！",
-    "description": "2021 年 6 月 20 日，由中国软件行业协会、中国开源软件推进联盟、中国科协科学技术传播中心、开放原子开源基金会、“科创中国”开源创新联合体主办，优麒麟开源社区和麒麟软件有限公司承办的《优麒麟 20.04 LTS Pr...",
-    "url": "https://segmentfault.com/a/1190000040211810",
-    "author": "小魔",
-    "home_url": "https://segmentfault.com/u/lu",
-    "votes": "1",
-    "rank": 21
+    "rank": 18
   },
   {
     "title": "微软正式发布 Windows 11，支持 Android 应用，面向开发者友好",
@@ -195,7 +168,16 @@
     "author": "鸣飞",
     "home_url": "https://segmentfault.com/u/mf",
     "votes": "4",
-    "rank": 22
+    "rank": 19
+  },
+  {
+    "title": "前端白屏监控探索",
+    "description": "不知从什么时候开始，前端白屏问题成为一个非常普遍的话题，'白屏' 甚至成为了前端 bug 的代名词：_喂，你的页面白了。_而且，'白' 这一现象似乎对于用户体感上来说更加强，回忆起 windows 系统的崩溃 '蓝屏'：  ...",
+    "url": "https://segmentfault.com/a/1190000040236233",
+    "author": "ES2049",
+    "home_url": "https://segmentfault.com/u/alisecued",
+    "votes": "7",
+    "rank": 20
   },
   {
     "title": "Linux 内核维护者批华为开发者刷 KPI",
@@ -204,16 +186,16 @@
     "author": "小魔",
     "home_url": "https://segmentfault.com/u/lu",
     "votes": "1",
-    "rank": 23
+    "rank": 21
   },
   {
-    "title": "详解Apache Dubbo的SPI实现机制",
-    "description": "SPI全称为Service Provider Interface，对应中文为服务发现机制。SPI类似一种可插拔机制，首先需要定义一个接口或一个约定，然后不同的场景可以对其进行实现，调用方在使用的时候无需过多关注具体的实现细节。在J...",
-    "url": "https://segmentfault.com/a/1190000040208433",
-    "author": "vivo互联网技术",
-    "home_url": "https://segmentfault.com/u/vivo_tech",
-    "votes": "2",
-    "rank": 24
+    "title": "Web 动画原则及技巧浅析",
+    "description": "在 Web 动画方面，有一套非常经典的原则 -- Twelve basic principles of animation，也就是关于动画的 12 个基本原则（也称之为迪士尼动画原则），网上对它的解读延伸的文章也非常之多：",
+    "url": "https://segmentfault.com/a/1190000040223372",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "11",
+    "rank": 22
   },
   {
     "title": "高可用 | Xenon：后 MHA 时代的选择",
@@ -222,25 +204,7 @@
     "author": "青云技术社区",
     "home_url": "https://segmentfault.com/u/qingclouddevelopers",
     "votes": "2",
-    "rank": 25
-  },
-  {
-    "title": "Web 动画原则及技巧浅析",
-    "description": "在 Web 动画方面，有一套非常经典的原则 -- Twelve basic principles of animation，也就是关于动画的 12 个基本原则（也称之为迪士尼动画原则），网上对它的解读延伸的文章也非常之多：",
-    "url": "https://segmentfault.com/a/1190000040223372",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "10",
-    "rank": 26
-  },
-  {
-    "title": "聊聊 Redis 内存淘汰策略",
-    "description": "大家都知道 Redis 中的键会设置过期时间，当到达过期时间时会通过一定策略清除对应 key，但是 redis 内存是由上限的，当达到内存上限时，就要通过一定策略淘汰掉相应 kv 键值对。",
-    "url": "https://segmentfault.com/a/1190000040206857",
-    "author": "蘑菇睡不着",
-    "home_url": "https://segmentfault.com/u/yang_60ad0ec84ad57",
-    "votes": "5",
-    "rank": 27
+    "rank": 23
   },
   {
     "title": "私有化仓库的 GO 模块使用实践",
@@ -249,15 +213,60 @@
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
     "votes": "8",
+    "rank": 24
+  },
+  {
+    "title": "Windows 11 官宣，首次支持安卓 APP，全新应用商店机制抗衡苹果",
+    "description": "在 5 月底举办的微软 Build 2021 大会上，微软 CEO 萨提亚 · 纳德拉表示正在测试 Windows 系统，这将是过去十年 Windows 最重要的一次更新。",
+    "url": "https://segmentfault.com/a/1190000040239339",
+    "author": "小魔",
+    "home_url": "https://segmentfault.com/u/lu",
+    "votes": "4",
+    "rank": 25
+  },
+  {
+    "title": "使用 TypeScript 常见困惑：interface 和 type 的区别是什么？",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000040000381",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "3",
+    "rank": 26
+  },
+  {
+    "title": "JavaScript中关于null的一切",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000040222768",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "5",
+    "rank": 27
+  },
+  {
+    "title": "微软解释 Windows 11 为何强制 TPM 2.0 硬件支持；华为 P50 标准版规格曝光 | 思否周刊",
+    "description": "40s 新闻速递快手宣布 7 月起取消“大小周”：周末加班支付 2 倍工资网传字节跳动实习生删除 GB 以下所有机器学习模型：疑似被误删因提前泄露小米10 至尊版 博主赔偿 100 万人民币腾讯电子签新推「小合同」功能，快...",
+    "url": "https://segmentfault.com/a/1190000040247180",
+    "author": "snakesss",
+    "home_url": "https://segmentfault.com/u/snakesss",
+    "votes": "4",
     "rank": 28
   },
   {
-    "title": "浪潮云说 | 开源新势力—云溪数据库ZNBase",
-    "description": "随着云计算、大数据、AI、5G、量子计算等新兴技术的迅猛发展，社会各行业均面临着海量数据、高并发、超高峰值等场景的巨大冲击。暴露如下痛点传统关系型数据库遭遇“水平扩展”瓶颈，在海量数据时代，表现十分疲软...",
-    "url": "https://segmentfault.com/a/1190000040208240",
-    "author": "浪潮云",
-    "home_url": "https://segmentfault.com/u/langchaoyun",
-    "votes": "1",
+    "title": "『假如我是面试官』RabbitMQ我会这样问",
+    "description": "1. 为什么你们公司选择RabbitMQ作为消息中间件在消息队列选型时，我们调研了市场上比较常用ActiveMQ，RabbitMQ，RocketMQ，Kafka。RabbitMQ相对成熟稳定，这是我们选择它最主要的原因。社区比较活跃，有完善的资...",
+    "url": "https://segmentfault.com/a/1190000040218315",
+    "author": "Java旅途",
+    "home_url": "https://segmentfault.com/u/javatrip",
+    "votes": "7",
     "rank": 29
+  },
+  {
+    "title": "宝， 来学习一下CSS中的宽高比，让 h5 开发更想你的夜！",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000040194607",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "7",
+    "rank": 30
   }
 ]
