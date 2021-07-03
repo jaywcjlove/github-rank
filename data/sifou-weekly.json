@@ -18,13 +18,31 @@
     "rank": 2
   },
   {
+    "title": "React 并发功能体验-前端的并发模式已经到来。",
+    "description": "React 是一个开源 JavaScript 库，开发人员使用它来创建基于 Web 和移动的应用程序，并且支持构建交互式用户界面和 UI 组件。React 是由 Facebook 软件工程师 Jordan Walke 创建，React 的第一个版本在七年前问世...",
+    "url": "https://segmentfault.com/a/1190000040272535",
+    "author": "葡萄城技术团队",
+    "home_url": "https://segmentfault.com/u/grapecity",
+    "votes": "12",
+    "rank": 3
+  },
+  {
     "title": "没登录网页也能个性化推荐？一文详解浏览器指纹",
     "description": "日常生活中，生物识别技术已经是多数智能手机的标配，大多数手机具备人脸识别、指纹识别等功能，目前的指纹识别技术已经非常成熟。但我们今天要聊的并不是生物识别技术中的指纹识别，而是浏览器指纹。很多人对这...",
     "url": "https://segmentfault.com/a/1190000040263652",
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
     "votes": "12",
-    "rank": 3
+    "rank": 4
+  },
+  {
+    "title": "详解Redis主从复制",
+    "description": "Redis 的主从复制和 MySQL 差不多，主要起着 数据备份，读写分离等作用。所以说主从复制对 Redis 来说非常重要，而无论是面试还是工作总，了解 Redis主从复制 底层实现有非常有必要，那么接下来就和大家来看看 Re...",
+    "url": "https://segmentfault.com/a/1190000040248346",
+    "author": "蘑菇睡不着",
+    "home_url": "https://segmentfault.com/u/yang_60ad0ec84ad57",
+    "votes": "8",
+    "rank": 5
   },
   {
     "title": "关于技术资讯写作的零散经验分享",
@@ -33,7 +51,7 @@
     "author": "波波Nadia",
     "home_url": "https://segmentfault.com/u/bobonadia",
     "votes": "8",
-    "rank": 4
+    "rank": 6
   },
   {
     "title": "刷 KPI or 真实贡献？如何客观评价华为对 Linux kernel 的贡献情况？",
@@ -42,24 +60,6 @@
     "author": "鸣飞",
     "home_url": "https://segmentfault.com/u/mf",
     "votes": "6",
-    "rank": 5
-  },
-  {
-    "title": "详解Redis主从复制",
-    "description": "Redis 的主从复制和 MySQL 差不多，主要起着 数据备份，读写分离等作用。所以说主从复制对 Redis 来说非常重要，而无论是面试还是工作总，了解 Redis主从复制 底层实现有非常有必要，那么接下来就和大家来看看 Re...",
-    "url": "https://segmentfault.com/a/1190000040248346",
-    "author": "蘑菇睡不着",
-    "home_url": "https://segmentfault.com/u/yang_60ad0ec84ad57",
-    "votes": "7",
-    "rank": 6
-  },
-  {
-    "title": "一个 Hybrid SDK 设计与实现",
-    "description": "随着移动浪潮的兴起，各种 App 层出不穷，极速发展的业务拓展提升了团队对开发效率的要求，这个时候纯粹使用 Native 开发技术成本难免会更高一点。而 H5 的低成本、高效率、跨平台等特性马上被利用起来了，形成一...",
-    "url": "https://segmentfault.com/a/1190000040250804",
-    "author": "fantasticbaby",
-    "home_url": "https://segmentfault.com/u/fantasticbaby",
-    "votes": "7",
     "rank": 7
   },
   {
@@ -68,8 +68,26 @@
     "url": "https://segmentfault.com/a/1190000040255573",
     "author": "夜尽天明",
     "home_url": "https://segmentfault.com/u/biaochenxuying",
-    "votes": "12",
+    "votes": "13",
     "rank": 8
+  },
+  {
+    "title": "GitHub 携手 OpenAI 推出代码补全利器 Copilot，嵌入 VS Code 编辑器，支持多种语言",
+    "description": "GitHub 新产品 Copilot 来了！这款产品由 GitHub 与 OpenAI 联合开发，目前已上线技术预览版，该工具内嵌在 Visual Studio Code 编辑器中，可自动补全代码片段。",
+    "url": "https://segmentfault.com/a/1190000040264043",
+    "author": "小魔",
+    "home_url": "https://segmentfault.com/u/lu",
+    "votes": "7",
+    "rank": 9
+  },
+  {
+    "title": "一个 Hybrid SDK 设计与实现",
+    "description": "随着移动浪潮的兴起，各种 App 层出不穷，极速发展的业务拓展提升了团队对开发效率的要求，这个时候纯粹使用 Native 开发技术成本难免会更高一点。而 H5 的低成本、高效率、跨平台等特性马上被利用起来了，形成一...",
+    "url": "https://segmentfault.com/a/1190000040250804",
+    "author": "fantasticbaby",
+    "home_url": "https://segmentfault.com/u/fantasticbaby",
+    "votes": "8",
+    "rank": 10
   },
   {
     "title": "手把手带你入门Webpack Plugin",
@@ -78,16 +96,7 @@
     "author": "政采云前端团队",
     "home_url": "https://segmentfault.com/u/zhengcaiyunqianduantuandui",
     "votes": "5",
-    "rank": 9
-  },
-  {
-    "title": "GitHub 携手 OpenAI 推出代码补全利器 Copilot，嵌入 VS Code 编辑器，支持多种语言",
-    "description": "GitHub 新产品 Copilot 来了！这款产品由 GitHub 与 OpenAI 联合开发，目前已上线技术预览版，该工具内嵌在 Visual Studio Code 编辑器中，可自动补全代码片段。",
-    "url": "https://segmentfault.com/a/1190000040264043",
-    "author": "小魔",
-    "home_url": "https://segmentfault.com/u/lu",
-    "votes": "4",
-    "rank": 10
+    "rank": 11
   },
   {
     "title": "聊聊 Feign 的实现原理",
@@ -96,7 +105,16 @@
     "author": "mghio",
     "home_url": "https://segmentfault.com/u/mghio",
     "votes": "2",
-    "rank": 11
+    "rank": 12
+  },
+  {
+    "title": "Webpack 原理系列八：产物转译打包逻辑",
+    "description": "全文 6000 字，我们来聊聊打包闭环，欢迎点赞关注转发。回顾一下，在之前的文章《有点难的 webpack 知识点：Dependency Graph 深度解析》已经聊到，经过 构建(make)阶段 后，Webpack 解析出：module 内容module ...",
+    "url": "https://segmentfault.com/a/1190000040278327",
+    "author": "范文杰",
+    "home_url": "https://segmentfault.com/u/fanwenjie",
+    "votes": "3",
+    "rank": 13
   },
   {
     "title": "微软解释 Windows 11 为何强制 TPM 2.0 硬件支持；华为 P50 标准版规格曝光 | 思否周刊",
@@ -105,7 +123,7 @@
     "author": "snakesss",
     "home_url": "https://segmentfault.com/u/snakesss",
     "votes": "5",
-    "rank": 12
+    "rank": 14
   },
   {
     "title": "软件产品的技术门槛",
@@ -114,25 +132,16 @@
     "author": "刘超",
     "home_url": "https://segmentfault.com/u/liuchao_60dc8531f2a38",
     "votes": "5",
-    "rank": 13
-  },
-  {
-    "title": "Windows 11 官宣，首次支持安卓 APP，全新应用商店机制抗衡苹果",
-    "description": "在 5 月底举办的微软 Build 2021 大会上，微软 CEO 萨提亚 · 纳德拉表示正在测试 Windows 系统，这将是过去十年 Windows 最重要的一次更新。",
-    "url": "https://segmentfault.com/a/1190000040239339",
-    "author": "小魔",
-    "home_url": "https://segmentfault.com/u/lu",
-    "votes": "4",
-    "rank": 14
-  },
-  {
-    "title": "得物社区",
-    "description": "2021年是我司着重关注生产稳定性的一年，得物社区服务早期是由PHP语言构建的单体应用支撑着日活百万用户，随着高速的发展在性能跟业务上已逐渐不能满足未来的需求与规划，在第一阶段上社区与架构团队同学提供了ph...",
-    "url": "https://segmentfault.com/a/1190000040242428",
-    "author": "得物技术",
-    "home_url": "https://segmentfault.com/u/dewujishu",
-    "votes": "5",
     "rank": 15
+  },
+  {
+    "title": "【中奖名单】SegmentFault 思否 9 周年征文活动圆满结束啦！快来领取你的福利吧~",
+    "description": "盼望着，盼望着，赤日炎炎、热情似火的7月来了，SegmentFault 思否9周年征文活动的中奖名单也新鲜出炉咯！大家对 SegmentFault 思否的祝福和期盼我们都有收到，除了深深地感动，还要真诚地感谢大家一直以来的支持...",
+    "url": "https://segmentfault.com/a/1190000040270107",
+    "author": "SegmentFault思否",
+    "home_url": "https://segmentfault.com/u/segmentfault",
+    "votes": "8",
+    "rank": 16
   },
   {
     "title": "如何使用 Distroless 让你的容器更加安全",
@@ -141,16 +150,16 @@
     "author": "K8sCat",
     "home_url": "https://segmentfault.com/u/k8scat",
     "votes": "4",
-    "rank": 16
+    "rank": 17
   },
   {
-    "title": "我与思否的故事，转眼就过了三年。| 思否 9 周年",
-    "description": "回顾过去的 3 年里，一次又一次的成长变更，让我觉得我应该写的什么来回忆一下 “这段过去”，至此借思否 9 周年之际，来回忆一下在思否的三年。",
-    "url": "https://segmentfault.com/a/1190000040243069",
-    "author": "唯一丶",
-    "home_url": "https://segmentfault.com/u/weiyi_5b04fb4aa815a",
+    "title": "CSS 奇思妙想 | 全兼容的毛玻璃效果",
+    "description": "在至今不兼容 backdrop-filter 的 firefox 浏览器，如何利用一些技巧性的操作，巧妙的同样实现毛玻璃效果，让这个效果真正能运用在业务当中",
+    "url": "https://segmentfault.com/a/1190000040263452",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
     "votes": "5",
-    "rank": 17
+    "rank": 18
   },
   {
     "title": "维护一个开源项目25年是什么体验？",
@@ -158,15 +167,6 @@
     "url": "https://segmentfault.com/a/1190000040254774",
     "author": "卡颂",
     "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "3",
-    "rank": 18
-  },
-  {
-    "title": "我和思否的写作邂逅 | 思否9周年",
-    "description": "大学期间我就开始参与项目组，进行一些简单的政府项目开发工作，那个时候是自学的编程，学习资料也不是很丰富，不像现在B站学习资料百花齐放。自学的内容主要包括数据库、前端、C#、运维等等，诚如有些人在小公司...",
-    "url": "https://segmentfault.com/a/1190000040238762",
-    "author": "happlyfox",
-    "home_url": "https://segmentfault.com/u/huli_5f06b98ab5a44",
     "votes": "3",
     "rank": 19
   },
@@ -198,22 +198,13 @@
     "rank": 22
   },
   {
-    "title": "用来阻止你摸鱼，节省你的时间，提高你的工作和学习效率-我的Chrome插件",
-    "description": "chrome插件通过强制的手段禁止大家浪费时间摸鱼，在上班/学习期间下意识的打开摸鱼网站, 自动检测摸鱼网站, 提示激励信息后, 关闭摸鱼网站。",
-    "url": "https://segmentfault.com/a/1190000040237152",
-    "author": "OBKoro1",
-    "home_url": "https://segmentfault.com/u/obkoro1",
-    "votes": "2",
-    "rank": 23
-  },
-  {
     "title": "qiankun项目实践和优化(React+Vue)",
     "description": "qiankun微服务,将多个不同技术栈的系统(React,Vue,Angular,jQuery)等聚合成一个系统,各个系统又能各自独立部署运行,适用于大型团队和大型前端项目。",
     "url": "https://segmentfault.com/a/1190000040253968",
     "author": "czero1995",
     "home_url": "https://segmentfault.com/u/czero1995",
     "votes": "3",
-    "rank": 24
+    "rank": 23
   },
   {
     "title": "声网 Agora 上市一周年，从 RTC 到 RTE，重视开发者生态",
@@ -222,7 +213,7 @@
     "author": "鸣飞",
     "home_url": "https://segmentfault.com/u/mf",
     "votes": "2",
-    "rank": 25
+    "rank": 24
   },
   {
     "title": "北京某大公司：SpringBean生命周期",
@@ -231,25 +222,16 @@
     "author": "Java3y",
     "home_url": "https://segmentfault.com/u/java_3y",
     "votes": "3",
+    "rank": 25
+  },
+  {
+    "title": "几款超牛逼的 SSH 客户端工具！好用到爆",
+    "description": "想来占有量最大的操作系统，得非莫属了吧，相信 Windows 系统肯定是陪伴了很多小伙伴学习工作很长时间的系统了，不过笔者之所以会写这篇文章，也是由于 xshell这个软件破解的有限以及收费限制，类似还有 winscp ...",
+    "url": "https://segmentfault.com/a/1190000040263779",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "7",
     "rank": 26
-  },
-  {
-    "title": "WEB 三维引擎在高精地图数据生产的探索和实践",
-    "description": "高精地图（High Definition Map）作为自动驾驶安全性不可或缺的一部分，能有效强化自动驾驶的感知能力和决策能力，提升自动驾驶的等级。对于自动驾驶来说，高精地图主要是给机器用的，但是在制作和分析过程中依然...",
-    "url": "https://segmentfault.com/a/1190000040239935",
-    "author": "高德技术",
-    "home_url": "https://segmentfault.com/u/amap_tech",
-    "votes": "3",
-    "rank": 27
-  },
-  {
-    "title": "CSS 奇思妙想 | 全兼容的毛玻璃效果",
-    "description": "在至今不兼容 backdrop-filter 的 firefox 浏览器，如何利用一些技巧性的操作，巧妙的同样实现毛玻璃效果，让这个效果真正能运用在业务当中",
-    "url": "https://segmentfault.com/a/1190000040263452",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "4",
-    "rank": 28
   },
   {
     "title": "新人报到 初入思否",
@@ -258,15 +240,33 @@
     "author": "Ozelot_Vanilla",
     "home_url": "https://segmentfault.com/u/ozelotvanilla",
     "votes": "2",
+    "rank": 27
+  },
+  {
+    "title": "借助three.js实现全景图片360°预览",
+    "description": "上篇文章前端如何实现一个图片覆盖的球体，我们借助three.js实现了一个3D的旋转球体。这篇文章我们稍微改造下代码，实现一个全景图片预览示例。本文会使用three.js以及插件来实现3种demo",
+    "url": "https://segmentfault.com/a/1190000040279014",
+    "author": "JenK",
+    "home_url": "https://segmentfault.com/u/wangzc996",
+    "votes": "7",
+    "rank": 28
+  },
+  {
+    "title": "Pi Network黑客马拉松指南和议程： 6 月 28 日 — — 8 月 10 日",
+    "description": "奖品：每类奖金总计高达 50，000 美元和 50，000 Pi，这两个类别的奖金为 100，000 美元和 100，000 Pi。一等奖 = $20，000 + 20，000 Pi二等奖 = $15，000 + 15，000 Pi三等奖 = $10，000 + 10，000 Pi荣誉提及 ...",
+    "url": "https://segmentfault.com/a/1190000040256526",
+    "author": "区块达人",
+    "home_url": "https://segmentfault.com/u/jianchijiushishengli",
+    "votes": "2",
     "rank": 29
   },
   {
-    "title": "【中奖名单】SegmentFault 思否 9 周年征文活动圆满结束啦！快来领取你的福利吧~",
-    "description": "盼望着，盼望着，赤日炎炎、热情似火的7月来了，SegmentFault 思否9周年征文活动的中奖名单也新鲜出炉咯！大家对 SegmentFault 思否的祝福和期盼我们都有收到，除了深深地感动，还要真诚地感谢大家一直以来的支持...",
-    "url": "https://segmentfault.com/a/1190000040270107",
-    "author": "SegmentFault思否",
-    "home_url": "https://segmentfault.com/u/segmentfault",
-    "votes": "6",
+    "title": "2006-2021，哪些数据库最受欢迎？",
+    "description": "世界上使用最广泛、最流行的数据库管理系统 (DBMS) 有哪些？自 2006 年以来，它们都有哪些变化？最近，statistics&data 网站分析了自 2006 年到 2021 年最受欢迎的数据库。数据参考了 TOPDB 顶级数据库索引（...",
+    "url": "https://segmentfault.com/a/1190000040251366",
+    "author": "小魔",
+    "home_url": "https://segmentfault.com/u/lu",
+    "votes": "2",
     "rank": 30
   }
 ]
