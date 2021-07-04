@@ -1,128 +1,47 @@
 [
   {
-    "title": "Webpack 原理系列八：产物转译打包逻辑",
-    "description": "全文 6000 字，我们来聊聊打包闭环，欢迎点赞关注转发。回顾一下，在之前的文章《有点难的 webpack 知识点：Dependency Graph 深度解析》已经聊到，经过 构建(make)阶段 后，Webpack 解析出：module 内容module ...",
-    "url": "https://segmentfault.com/a/1190000040278327",
-    "author": "范文杰",
-    "home_url": "https://segmentfault.com/u/fanwenjie",
-    "votes": "3",
+    "title": "Copilot 侵犯隐私、抄袭代码、无视许可证…… 这届 GitHub 变了？",
+    "description": "这款号称“AI 结对编程队友”（Your AI pair programmer）基于一种叫做 OpenAI Codex 的新算法构建，并使用从 GitHub 上提取的万亿字节公开可用代码以及英语示例进行训练，能够自动补全整行代码或整段函数、基于注...",
+    "url": "https://segmentfault.com/a/1190000040282640",
+    "author": "小魔",
+    "home_url": "https://segmentfault.com/u/lu",
+    "votes": "5",
     "rank": 1
   },
   {
-    "title": "借助three.js实现全景图片360°预览",
-    "description": "上篇文章前端如何实现一个图片覆盖的球体，我们借助three.js实现了一个3D的旋转球体。这篇文章我们稍微改造下代码，实现一个全景图片预览示例。本文会使用three.js以及插件来实现3种demo",
-    "url": "https://segmentfault.com/a/1190000040279014",
-    "author": "JenK",
-    "home_url": "https://segmentfault.com/u/wangzc996",
-    "votes": "7",
+    "title": "Python3环境搭建",
+    "description": "Python环境搭建总体步骤如下：01 安装Python访问python官方网站下载安装包，[链接]点击下载python 3.9.5双击下载的python安装文件，按照默认设置进行安装02 安装Pycharm访问Pycharm官方网站下载安装包，[链接]Pro...",
+    "url": "https://segmentfault.com/a/1190000040283832",
+    "author": "爬虫实战笔记",
+    "home_url": "https://segmentfault.com/u/pachong23",
+    "votes": "1",
     "rank": 2
   },
   {
-    "title": "26 个 CSS 面试题目增强你的 CSS 基础",
-    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000040275871",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "4",
+    "title": "Deliverer 1.0.8 支持 PHP5 了",
+    "description": "因为是为了解决祖传代码的问题，也听到群友的一些声音，还是很有必要支持下 PHP5 的，所以这段时间一直在着力解决这个版本兼容问题，没想到问题比较我预计的要难很多。",
+    "url": "https://segmentfault.com/a/1190000040283667",
+    "author": "周梦康",
+    "home_url": "https://segmentfault.com/u/zhoumengkang",
+    "votes": "1",
     "rank": 3
   },
   {
-    "title": "批处理框架 Spring Batch 这么强，你会用吗？",
-    "description": "spring batch 是 spring 提供的一个数据处理框架。企业域中的许多应用程序需要批量处理才能在关键任务环境中执行业务操作。这些业务运营包括：",
-    "url": "https://segmentfault.com/a/1190000040279878",
-    "author": "MarkerHub",
-    "home_url": "https://segmentfault.com/u/markerhub",
-    "votes": "1",
+    "title": "北京最最最牛逼的 IT 企业全在这了",
+    "description": "以前民工哥收集过 武汉 成都 上海 合肥等城市，今天是北京，后面会陆续更新其他城市的。成都最最最牛逼的 IT 公司全在这了武汉最最最牛逼的 IT 公司全在这了上海有哪些牛逼的互联网公司？合肥最最最牛逼的 IT 公...",
+    "url": "https://segmentfault.com/a/1190000040282857",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "3",
     "rank": 4
   },
   {
-    "title": "Vite 的好与坏",
-    "description": "全文 3000 字，欢迎点赞关注转发一、Vite 是什么2020年4月，尤大大发了这么一个推：随后，2021年2月，Vite 2.0 它来了，上来就是一套组合拳：基于 esbuild 实现的极速开发体验多框架支持兼容 Rollup 的插件机制与...",
-    "url": "https://segmentfault.com/a/1190000040278828",
-    "author": "范文杰",
-    "home_url": "https://segmentfault.com/u/fanwenjie",
-    "votes": "2",
+    "title": "Vue3问题总结",
+    "description": "Uncaught DOMException: Failed to read the 'cssRules' property from 'CSSStyleSheet': Cannot access rulesvue3+vue-router4在使用过程中，通过composition api watch对router对象进行监听时，会出现这个问题...",
+    "url": "https://segmentfault.com/a/1190000040283451",
+    "author": "darkCode",
+    "home_url": "https://segmentfault.com/u/darkcode",
+    "votes": "1",
     "rank": 5
-  },
-  {
-    "title": "字节男休息室内卷现状研究",
-    "description": "大家好，我是卡·再熬夜就是狗·颂。我的工位在大门和男士休息室旁边，所以所有进出休息室的同学我都能观察到。久而久之，就发现一个很有意思的现象，我称其为字节男休息室内卷。本篇文章是我对这一现象成因的分析...",
-    "url": "https://segmentfault.com/a/1190000040278355",
-    "author": "卡颂",
-    "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "4",
-    "rank": 6
-  },
-  {
-    "title": "简单易懂的设计模式（下）",
-    "description": "当 body 节点被点击时，触发 alert(2)，从观察者模式来解释，就是我们订阅了 bdoy 节点的点击事件，当点击事件触发，我们就会收到通知。",
-    "url": "https://segmentfault.com/a/1190000040280687",
-    "author": "凹凸实验室",
-    "home_url": "https://segmentfault.com/u/o2team",
-    "votes": "1",
-    "rank": 7
-  },
-  {
-    "title": "开源黄金十年，论道AI开源技术趋势及落地实践",
-    "description": "6 月 26 日，亚马逊云科技 Community Day 在上海举办。亚马逊云科技首席开发者布道师、资深数据科学家、资深应用科学家以及亚马逊云科技 Machine Learning Hero 悉数到场，针对 AI 开源的技术趋势及落地实践项目...",
-    "url": "https://segmentfault.com/a/1190000040278325",
-    "author": "亚马逊云AI社区",
-    "home_url": "https://segmentfault.com/u/aws_aidevcommunity",
-    "votes": "1",
-    "rank": 8
-  },
-  {
-    "title": "隐藏在水印的秘密",
-    "description": "最近今天在测试火山引擎的ImageX处理的时候发现提供一种能力叫盲水印；看盲水印介绍内容：使用方法测试：在放访问某个url时候会自动添加上盲水印；添加完毕后，会重新提取图片里面的信息；我在其他公众号上看到这...",
-    "url": "https://segmentfault.com/a/1190000040280602",
-    "author": "小七",
-    "home_url": "https://segmentfault.com/u/xiaoqi_60b719bbbf33e",
-    "votes": "1",
-    "rank": 9
-  },
-  {
-    "title": "CRMEB 多商户系统单品运费模板说明",
-    "description": "单品运费模板计费方式分为：按件数计费、按重量计费、按体积计费【添加商品需设置商品的体积或重量】指定区域配送：添加区域后需填写首件商品运费及续件商品的运费指定条件包邮：设置指定地点，满足（X件/kg/m³+...",
-    "url": "https://segmentfault.com/a/1190000040278275",
-    "author": "CRMEB",
-    "home_url": "https://segmentfault.com/u/crmeb",
-    "votes": "1",
-    "rank": 10
-  },
-  {
-    "title": "华为前端工程师分享：查明网站访问故障原因，教你4招快速应对",
-    "description": "摘要：在第七届全球软件大会上，华为软件工程师杜志刚，就为广大开发者分享了华为云官网的高可用保障方案，深度分析了网站在各类极端重大灾难场景下，如何快速恢复的方案和工程化实践。",
-    "url": "https://segmentfault.com/a/1190000040276402",
-    "author": "华为云开发者社区",
-    "home_url": "https://segmentfault.com/u/huaweiyunkaifazheshequ",
-    "votes": "1",
-    "rank": 11
-  },
-  {
-    "title": "第三方API对接如何设计接口认证？",
-    "description": "例如订单下单后通过 延时任务 对接 物流系统 这种 异步 的场景，都是属于系统与系统之间的相互交互，不存在用户操作；所以认证时需要的不是用户凭证而是系统凭证，通常包括 app_id 与 app_secrect。",
-    "url": "https://segmentfault.com/a/1190000040275924",
-    "author": "zlt2000",
-    "home_url": "https://segmentfault.com/u/zlt2000",
-    "votes": "1",
-    "rank": 12
-  },
-  {
-    "title": "冷门的 text-emphasis有什么用呢？",
-    "description": "就一般而言，我们所做的页面并非对于文学类用户，因此也不太可能会接触到“着重号”这个符号。如果对于 word 不陌生的朋友应该会知道在 word 中有一个文本设置，就是设置“着重号”的。",
-    "url": "https://segmentfault.com/a/1190000040275633",
-    "author": "林小志",
-    "home_url": "https://segmentfault.com/u/linxz",
-    "votes": "1",
-    "rank": 13
-  },
-  {
-    "title": "MySQL底层索引深度解刨",
-    "description": "哈希表是一种以键 - 值（key-value）存储数据的结构，我们只要输入待查找的键即 key，就可以找到其对应的值即 Value。哈希的思路很简单，把值放在数组里，用一个哈希函数把 key 换算成一个确定的位置，然后把 val...",
-    "url": "https://segmentfault.com/a/1190000040278249",
-    "author": "猴赛雷技术交流",
-    "home_url": "https://segmentfault.com/u/suifengpiao_609f2c6de8358",
-    "votes": "1",
-    "rank": 14
   }
 ]
