@@ -2,7 +2,7 @@
   {
     "title": "后台开发面试必看：后台服务器开发高性能最佳实践",
     "description": "前言在互联网公司技术面试上，除了算法和网络、操作系统这种基础之外，还有一类系统设计和优化的问题。这类问题需要你有一个全局的技术视野，以及熟悉一些常用的系统优化方法论，也就是工程上的...",
-    "votes": "175",
+    "votes": "201",
     "url": "/k/w76nnho",
     "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
     "avatarAlt": "头条精选 - 独家号",
@@ -12,7 +12,7 @@
   {
     "title": "推荐 7 个牛哄哄 Spring Cloud 实战项目",
     "description": "把一个大型的单个应用程序和服务拆分为数个甚至数十个的支持微服务，这就是微服务架构的架构概念，通过将功能分解到各个离散的服务中以实现对解决方案的解耦。关于微服务相关的学习资料不多，而...",
-    "votes": "121",
+    "votes": "137",
     "url": "/k/016vv4f",
     "avatar": "https://img.toutiao.io/subject%2F1d5758f274fc447ca1989671a6b5d469",
     "avatarAlt": "迷路的程序员 - 独家号",
@@ -20,39 +20,9 @@
     "homeUrl": "/subjects/161574"
   },
   {
-    "title": "[译] 七个改变我生活的 Git 小技巧",
-    "description": "导读：这些有用的小技巧将改变你在当前最流行的版本控制系统下的工作方式。本文字数：3462，阅读时长大约：5分钟https://linux.cn/article-13529-1.ht...",
-    "votes": "97",
-    "url": "/k/kly6lxt",
-    "avatar": "https://img.toutiao.io/subject%2F91bf4c3bfce84fdb90e7dcb03217ca9f",
-    "avatarAlt": "前端技术分享小站 - 独家号",
-    "subjectName": "前端技术分享小站",
-    "homeUrl": "/subjects/361424"
-  },
-  {
-    "title": "携程最终一致和强一致性缓存实践",
-    "description": "作者简介 GSF，携程高级技术专家，关注高可用、高并发系统建设，致力于用技术驱动业务。一、前言 携程金融从成立至今，整体架构经历了从0到1再到10的变化，其中有多个场景使用了缓存来...",
-    "votes": "92",
-    "url": "/k/nvmnd0f",
-    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
-    "avatarAlt": "ASCE1885 - 独家号",
-    "subjectName": "ASCE1885",
-    "homeUrl": "/subjects/4829"
-  },
-  {
-    "title": "Java 知识点整理：Spring、MySQL",
-    "description": "Spring 10P1：Spring 框架Spring 是分层的企业级应用轻量级开源框架，以 IoC 和 AOP为内核。Spring 可以降低企业级应用开发的复杂性，对此主要采取了...",
-    "votes": "84",
-    "url": "/k/j4kd9qh",
-    "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
-    "avatarAlt": "头条精选 - 独家号",
-    "subjectName": "头条精选",
-    "homeUrl": "/subjects/4"
-  },
-  {
     "title": "Nginx 最全操作总结",
     "description": " 作者：chrootliu，腾讯 QQ 音乐前端开发工程师本文将会从：安装 -> 全局配置 -> 常用的各种配置 来书写，其中常用配置写的炒鸡详细，需要的童鞋可以直接滑倒相应的位置...",
-    "votes": "72",
+    "votes": "113",
     "url": "/k/0lvuhj9",
     "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
     "avatarAlt": "进击的程序猿 - 独家号",
@@ -60,9 +30,39 @@
     "homeUrl": "/subjects/24912"
   },
   {
+    "title": "[译] 七个改变我生活的 Git 小技巧",
+    "description": "导读：这些有用的小技巧将改变你在当前最流行的版本控制系统下的工作方式。本文字数：3462，阅读时长大约：5分钟https://linux.cn/article-13529-1.ht...",
+    "votes": "101",
+    "url": "/k/kly6lxt",
+    "avatar": "https://img.toutiao.io/subject%2F91bf4c3bfce84fdb90e7dcb03217ca9f",
+    "avatarAlt": "前端技术分享小站 - 独家号",
+    "subjectName": "前端技术分享小站",
+    "homeUrl": "/subjects/361424"
+  },
+  {
+    "title": "Java 知识点整理：Spring、MySQL",
+    "description": "Spring 10P1：Spring 框架Spring 是分层的企业级应用轻量级开源框架，以 IoC 和 AOP为内核。Spring 可以降低企业级应用开发的复杂性，对此主要采取了...",
+    "votes": "89",
+    "url": "/k/j4kd9qh",
+    "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
+    "avatarAlt": "头条精选 - 独家号",
+    "subjectName": "头条精选",
+    "homeUrl": "/subjects/4"
+  },
+  {
+    "title": "其实 Linux IO 模型没那么难",
+    "description": "IO 其实就是 Input 和 Output，在操作系统中就对应数据流的输入与输出。这个数据流的两端，可以是文件，也可以是网络的一台主机。但无论是文件，还是网络主机，其传输都是类似...",
+    "votes": "74",
+    "url": "/k/ihp2ujh",
+    "avatar": "https://img.toutiao.io/subject%2Fdc985e32ff464581afaa81f175880312",
+    "avatarAlt": "dotnet - 独家号",
+    "subjectName": "dotnet",
+    "homeUrl": "/subjects/348014"
+  },
+  {
     "title": "一些贼好用的开发原则",
     "description": "大家好，我是Z哥。不知道在看这篇文章的程序员伙计们平时是如何写代码的？有参照什么原则吗？还是说写到哪算哪？如果你在搜索引擎里搜一下「软件开发原则」，可以搜到N多种原则，每一个原则看...",
-    "votes": "78",
+    "votes": "81",
     "url": "/k/qphrwr6",
     "avatar": "https://img.toutiao.io/subject%2Fc992e775e6344583abd8a49f632b3e13",
     "avatarAlt": "跨界架构师 - 独家号",
@@ -72,7 +72,7 @@
   {
     "title": "go-zero：开箱即用的微服务框架",
     "description": "go-zero 是一个集成了各种工程实践的 Web 和 rpc 框架，它的弹性设计保障了大并发服务端的稳定性，并且已经经过了充分的实战检验。go-zero 在设计时遵循了 “工具大...",
-    "votes": "65",
+    "votes": "68",
     "url": "/k/f8q3xuq",
     "avatar": "https://img.toutiao.io/subject%2F4f9b8a1b9ad34bf3b815671f8461ff25",
     "avatarAlt": "又拍云 - 独家号",
@@ -82,7 +82,7 @@
   {
     "title": "我是怎么写 Git Commit message 的？",
     "description": "文章目录： 作用用的什么规范？typescopesubjectbodyfooter参考文章用的什么辅助工具？推荐阅读作用 编写格式化的commit message能够大大提高代码的...",
-    "votes": "67",
+    "votes": "69",
     "url": "/k/ku5u7q8",
     "avatar": "https://img.toutiao.io/subject%2Fbf13817488764502ae746a0a4798478d",
     "avatarAlt": "新亮笔记 - 独家号",
@@ -90,54 +90,54 @@
     "homeUrl": "/subjects/135111"
   },
   {
-    "title": "Google 官方强烈推荐 ROOM 数据库，为何放弃 ORMLite、GreenDao、SQLite？",
-    "description": "Google官方强烈推荐ROOM数据库，为何放弃ORMLite、GreenDao、SQLite？一、Room是什么？为何放弃SQLite？Room 在 SQLite 上提供了一个抽...",
-    "votes": "55",
-    "url": "/k/k8xvayl",
-    "avatar": "https://img.toutiao.io/subject%2F0cdd18c3f99041ed97b072271a9bc99e",
-    "avatarAlt": "公众号【Android开发编程】 - 独家号",
-    "subjectName": "公众号【Android开发编程】",
-    "homeUrl": "/subjects/186412"
-  },
-  {
-    "title": "其实 Linux IO 模型没那么难",
-    "description": "IO 其实就是 Input 和 Output，在操作系统中就对应数据流的输入与输出。这个数据流的两端，可以是文件，也可以是网络的一台主机。但无论是文件，还是网络主机，其传输都是类似...",
-    "votes": "53",
-    "url": "/k/ihp2ujh",
-    "avatar": "https://img.toutiao.io/subject%2Fdc985e32ff464581afaa81f175880312",
-    "avatarAlt": "dotnet - 独家号",
-    "subjectName": "dotnet",
-    "homeUrl": "/subjects/348014"
-  },
-  {
-    "title": "一文理解 ThreadLocal",
-    "description": "本文讲解ThreadLocal、InheritableThreadLocal与TransmittableThreadLocal。有关本文的实验代码，可以查看文末补充：“比较一下Th...",
-    "votes": "50",
-    "url": "/k/7jywmxc",
-    "avatar": "https://img.toutiao.io/subject%2F85512c92aa814f468f6b429b6eb70ba8",
-    "avatarAlt": "服务器后端开发 - 独家号",
-    "subjectName": "服务器后端开发",
-    "homeUrl": "/subjects/375484"
-  },
-  {
-    "title": "我为什么从算法岗转 Java 开发？",
-    "description": "数据结构和算法、操作系统、计算机网络、计算机组成原理后台回复 “计算机基础” 即可获取下载链接。欢迎关注 「CS指南」最近发现许多同学对算法岗好奇。一部分准研究生在思考读研以后是该...",
-    "votes": "53",
-    "url": "/k/syvodok",
-    "avatar": "https://img.toutiao.io/subject%2Ff834a19bb9e24261a813b7a1ebc03a11",
-    "avatarAlt": "JavaGuide - 独家号",
-    "subjectName": "JavaGuide",
-    "homeUrl": "/subjects/352853"
-  },
-  {
     "title": "工程师的成长",
     "description": "我们都需要成长，工程师也不例外。以下是我感觉对工程师的成长比较有帮助的点，供参考。要点积累信用货币（先把手头的事情做好，再聊你想做什么）提升影响力（注重输出；做能够影响更多部门/使...",
-    "votes": "49",
+    "votes": "55",
     "url": "/k/dvque43",
     "avatar": "https://img.toutiao.io/subject%2F7099419508b548428645eec6ee3e7c5b",
     "avatarAlt": "数据智能 - 独家号",
     "subjectName": "数据智能",
     "homeUrl": "/subjects/1"
+  },
+  {
+    "title": "把 Redis 当作队列来用，真的合适吗？",
+    "description": "阅读本文大约需要 15 分钟。我经常听到很多人讨论，关于「把 Redis 当作队列来用是否合适」的问题。有些人表示赞成，他们认为 Redis 很轻量，用作队列很方便。也些人则反对，...",
+    "votes": "47",
+    "url": "/k/3r6oq79",
+    "avatar": "https://img.toutiao.io/subject%2F5a80999e5b844812b72eedbc7f5fb5be",
+    "avatarAlt": "网管叨bi叨 - 独家号",
+    "subjectName": "网管叨bi叨",
+    "homeUrl": "/subjects/437466"
+  },
+  {
+    "title": "为什么程序员要学会作图？",
+    "description": "古语道，一图胜千言。如今则有，无图无真相。操作系统最开始是命令行，现在则是各种图形视窗。人们在2G时代聊天，到3G时代看图，到4G时代看视频。随着网速和带宽的不断提升，应用从文字进...",
+    "votes": "51",
+    "url": "/k/lr48ibz",
+    "avatar": "https://img.toutiao.io/user/a4f225144a274c78816150e0fcce2747/thumb",
+    "avatarAlt": "游戏开发杂谈 - 独家号",
+    "subjectName": "游戏开发杂谈",
+    "homeUrl": "/subjects/23583"
+  },
+  {
+    "title": "神秘的 “无服务器” 架构，怎么秃然火了？",
+    "description": "如果问云计算有哪些很火技术趋势，那么“无服务器”架构必属其一。但这个词儿很多人乍听都会一脸“懵逼”… 今天，我们把这项神秘的技术，聊深、聊透~~  到底什么是“无服务器”架构？ “...",
+    "votes": "46",
+    "url": "/k/eb1fjk4",
+    "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
+  },
+  {
+    "title": "颠覆认知：Redis 会遇到的 15 个 “坑”，你踩过几个？",
+    "description": "这篇文章，我想和你聊一聊在使用 Redis 时，可能会踩到的「坑」。如果你在使用 Redis 时，也遇到过以下这些「诡异」的场景，那很大概率是踩到「坑」了：明明一个 key 设置了...",
+    "votes": "43",
+    "url": "/k/5edfcac",
+    "avatar": "https://img.toutiao.io/subject%2Fad3da7db4aeb4924adba40f7036c43ee",
+    "avatarAlt": "码匠赵铁柱 - 独家号",
+    "subjectName": "码匠赵铁柱",
+    "homeUrl": "/subjects/102436"
   },
   {
     "title": "工具 | 一款基于 Java 的生产环境全链路压测平台",
@@ -150,19 +150,9 @@
     "homeUrl": "/subjects/4"
   },
   {
-    "title": "神秘的 “无服务器” 架构，怎么秃然火了？",
-    "description": "如果问云计算有哪些很火技术趋势，那么“无服务器”架构必属其一。但这个词儿很多人乍听都会一脸“懵逼”… 今天，我们把这项神秘的技术，聊深、聊透~~  到底什么是“无服务器”架构？ “...",
-    "votes": "44",
-    "url": "/k/eb1fjk4",
-    "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
-    "avatarAlt": "Bloomingroses - 独家号",
-    "subjectName": "Bloomingroses",
-    "homeUrl": "/subjects/98777"
-  },
-  {
     "title": "创业者需要知道的 13 种思维模型",
     "description": " 优秀的创业者擅长利用经过验证的模型指导自己的行动、检验自己的想法，从而提高创业成功的概率。这篇文章介绍了 13 个对创业者很有帮助的思维模型，特别是文中列出的参考链接，提供了非常...",
-    "votes": "39",
+    "votes": "42",
     "url": "/k/mf76vyg",
     "avatar": "https://img.toutiao.io/default-avatar.png",
     "avatarAlt": "俞凡的独家号 - 独家号",
@@ -170,19 +160,19 @@
     "homeUrl": "/subjects/460290"
   },
   {
-    "title": "颠覆认知：Redis 会遇到的 15 个 “坑”，你踩过几个？",
-    "description": "这篇文章，我想和你聊一聊在使用 Redis 时，可能会踩到的「坑」。如果你在使用 Redis 时，也遇到过以下这些「诡异」的场景，那很大概率是踩到「坑」了：明明一个 key 设置了...",
-    "votes": "38",
-    "url": "/k/5edfcac",
-    "avatar": "https://img.toutiao.io/subject%2Fad3da7db4aeb4924adba40f7036c43ee",
-    "avatarAlt": "码匠赵铁柱 - 独家号",
-    "subjectName": "码匠赵铁柱",
-    "homeUrl": "/subjects/102436"
+    "title": "一文理解 Kafka 如何做到高吞吐",
+    "description": "如果对Kafka不了解的话，可以先看这篇博客《一文快速了解Kafka》。其余有关Kakfa的文章如下：《一文理解Kafka的选举机制与Rebalance机制》《一文理解Kafka重...",
+    "votes": "47",
+    "url": "/k/hkxf0uy",
+    "avatar": "https://img.toutiao.io/subject%2F85512c92aa814f468f6b429b6eb70ba8",
+    "avatarAlt": "服务器后端开发 - 独家号",
+    "subjectName": "服务器后端开发",
+    "homeUrl": "/subjects/375484"
   },
   {
     "title": "为什么需要分布式 ID？大厂的分布式 ID 生成方案是什么样的？",
     "description": "下午好，我是 Guide哥！今天分享一道朋友去京东面试遇到的面试题：“为什么要分布式ID？你项目中是怎么做的？”。这篇文章我会说说自己的看法，详细介绍一下分布式ID相关的内容包括分...",
-    "votes": "36",
+    "votes": "42",
     "url": "/k/wekvon5",
     "avatar": "https://img.toutiao.io/subject%2Ff834a19bb9e24261a813b7a1ebc03a11",
     "avatarAlt": "JavaGuide - 独家号",
@@ -190,13 +180,23 @@
     "homeUrl": "/subjects/352853"
   },
   {
-    "title": "把 Redis 当作队列来用，真的合适吗？",
-    "description": "阅读本文大约需要 15 分钟。我经常听到很多人讨论，关于「把 Redis 当作队列来用是否合适」的问题。有些人表示赞成，他们认为 Redis 很轻量，用作队列很方便。也些人则反对，...",
-    "votes": "34",
-    "url": "/k/3r6oq79",
-    "avatar": "https://img.toutiao.io/subject%2F5a80999e5b844812b72eedbc7f5fb5be",
-    "avatarAlt": "网管叨bi叨 - 独家号",
-    "subjectName": "网管叨bi叨",
-    "homeUrl": "/subjects/437466"
+    "title": "Java 进阶：Proxy 动态代理机制详解",
+    "description": "一、Jvm加载对象 在说Java动态代理之前，还是要说一下Jvm加载对象的过程，这个依旧是理解动态代理的基础性原理： Java类即源代码程序.java类型文件，经过编译器编译之后就...",
+    "votes": "36",
+    "url": "/k/aqdoox6",
+    "avatar": "https://img.toutiao.io/subject%2F652f30d4f8ed4f198281774399a49076",
+    "avatarAlt": "知了一笑 - 独家号",
+    "subjectName": "知了一笑",
+    "homeUrl": "/subjects/416733"
+  },
+  {
+    "title": "零信任实战架构总结",
+    "description": "此报告主要参考了《零信任实战白皮书》，结合自己对零信任的理解，做了一个精简的总结，做参考。一、零信任认识 零信任解决的是由于传统边界模型过度信任造成的安全问题，重点是Trust A...",
+    "votes": "32",
+    "url": "/k/20ggekk",
+    "avatar": "https://img.toutiao.io/subject%2F378e77470970490b9e51050078d80e34",
+    "avatarAlt": "安全屋 - 独家号",
+    "subjectName": "安全屋",
+    "homeUrl": "/subjects/27565"
   }
 ]
