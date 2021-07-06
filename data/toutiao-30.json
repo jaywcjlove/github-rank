@@ -2,7 +2,7 @@
   {
     "title": "95% 的算法都是基于这 6 种算法思想",
     "description": "点击上方 三分钟学前端，关注公众号 回复交流，加入前端编程面试算法每日一题群 面试官也在看的前端面试资料 算法思想是解决问题的核心，万丈高楼起于平地，在算法中也是如此，95% 的算...",
-    "votes": "285",
+    "votes": "287",
     "url": "/k/pbwl6pl",
     "avatar": "https://img.toutiao.io/subject%2Fc9bc51847b0c4b49aca52d0eaa087ed1",
     "avatarAlt": "冷星前端圈 - 独家号",
@@ -22,7 +22,7 @@
   {
     "title": "后台开发面试必看：后台服务器开发高性能最佳实践",
     "description": "前言在互联网公司技术面试上，除了算法和网络、操作系统这种基础之外，还有一类系统设计和优化的问题。这类问题需要你有一个全局的技术视野，以及熟悉一些常用的系统优化方法论，也就是工程上的...",
-    "votes": "201",
+    "votes": "222",
     "url": "/k/w76nnho",
     "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
     "avatarAlt": "头条精选 - 独家号",
@@ -42,12 +42,22 @@
   {
     "title": "推荐 7 个牛哄哄 Spring Cloud 实战项目",
     "description": "把一个大型的单个应用程序和服务拆分为数个甚至数十个的支持微服务，这就是微服务架构的架构概念，通过将功能分解到各个离散的服务中以实现对解决方案的解耦。关于微服务相关的学习资料不多，而...",
-    "votes": "137",
+    "votes": "158",
     "url": "/k/016vv4f",
     "avatar": "https://img.toutiao.io/subject%2F1d5758f274fc447ca1989671a6b5d469",
     "avatarAlt": "迷路的程序员 - 独家号",
     "subjectName": "迷路的程序员",
     "homeUrl": "/subjects/161574"
+  },
+  {
+    "title": "Nginx 最全操作总结",
+    "description": " 作者：chrootliu，腾讯 QQ 音乐前端开发工程师本文将会从：安装 -> 全局配置 -> 常用的各种配置 来书写，其中常用配置写的炒鸡详细，需要的童鞋可以直接滑倒相应的位置...",
+    "votes": "152",
+    "url": "/k/0lvuhj9",
+    "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
+    "avatarAlt": "进击的程序猿 - 独家号",
+    "subjectName": "进击的程序猿",
+    "homeUrl": "/subjects/24912"
   },
   {
     "title": "杭州某大厂：MySQL 连环问",
@@ -58,16 +68,6 @@
     "avatarAlt": "yes的练级攻略 - 独家号",
     "subjectName": "yes的练级攻略",
     "homeUrl": "/subjects/443906"
-  },
-  {
-    "title": "网络连接存在大量 time_wait 和 close_wait 的原因以及解决方法",
-    "description": "如果对tcp中的握手挥手不了解的同学，请先看这篇博客：《关于三次握手与四次挥手你要知道这些》。 四次挥手过程：第一次挥手：主机A（可以是客户端，也可以是服务器端），设置Sequen...",
-    "votes": "133",
-    "url": "/k/b9vlrcu",
-    "avatar": "https://img.toutiao.io/subject%2F85512c92aa814f468f6b429b6eb70ba8",
-    "avatarAlt": "服务器后端开发 - 独家号",
-    "subjectName": "服务器后端开发",
-    "homeUrl": "/subjects/375484"
   },
   {
     "title": "Redis 最佳实践：7 个维度 + 43 条使用规范，带你彻底玩转 Redis（附实践清单）",
@@ -82,7 +82,7 @@
   {
     "title": "进程和线程这 19 个问题太强了",
     "description": " # 干了这碗鸡汤！ 我急切地盼望着可以经历一场放纵的快乐，纵使巨大的悲哀将接踵而至，我也在所不惜。-- 太宰治 《人间失格》大家好，这里是周日凌晨4点，仍在笔耕不辍的程序喵大人。...",
-    "votes": "116",
+    "votes": "117",
     "url": "/k/93vqd5f",
     "avatar": "https://img.toutiao.io/subject%2Fdc985e32ff464581afaa81f175880312",
     "avatarAlt": "dotnet - 独家号",
@@ -100,19 +100,9 @@
     "homeUrl": "/subjects/459978"
   },
   {
-    "title": "Nginx 最全操作总结",
-    "description": " 作者：chrootliu，腾讯 QQ 音乐前端开发工程师本文将会从：安装 -> 全局配置 -> 常用的各种配置 来书写，其中常用配置写的炒鸡详细，需要的童鞋可以直接滑倒相应的位置...",
-    "votes": "113",
-    "url": "/k/0lvuhj9",
-    "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
-    "avatarAlt": "进击的程序猿 - 独家号",
-    "subjectName": "进击的程序猿",
-    "homeUrl": "/subjects/24912"
-  },
-  {
     "title": "徒手用 Go 写个 Redis 服务器",
     "description": " 作者：HDT3213 今天给大家带来的开源项目是 Godis：一个用 Go 语言实现的 Redis 服务器。支持：5 种数据结构（string、list、hash、set、sor...",
-    "votes": "114",
+    "votes": "116",
     "url": "/k/t9ic9wp",
     "avatar": "https://img.toutiao.io/subject%2Fb751657c3aaa4ac59db50c07db41e538",
     "avatarAlt": "HelloGitHub - 独家号",
@@ -132,7 +122,7 @@
   {
     "title": "[译] 七个改变我生活的 Git 小技巧",
     "description": "导读：这些有用的小技巧将改变你在当前最流行的版本控制系统下的工作方式。本文字数：3462，阅读时长大约：5分钟https://linux.cn/article-13529-1.ht...",
-    "votes": "101",
+    "votes": "103",
     "url": "/k/kly6lxt",
     "avatar": "https://img.toutiao.io/subject%2F91bf4c3bfce84fdb90e7dcb03217ca9f",
     "avatarAlt": "前端技术分享小站 - 独家号",
@@ -140,19 +130,9 @@
     "homeUrl": "/subjects/361424"
   },
   {
-    "title": "惊！这个 Go 开源项目号称「不改一行代码做秒杀」",
-    "description": "阅读本文大概需要 2 分钟。 大家好，我是 polarisxu。看到耗子叔发推文推荐了一个新开源的网关：Easegress。 打开看了下，这是一个 Go 语言实现的开源项目。它有如...",
-    "votes": "104",
-    "url": "/k/qnyxbs9",
-    "avatar": "https://img.toutiao.io/subject%2F001f8de223174684862d4c9e6c752cc7",
-    "avatarAlt": "PHPER—>架构 - 独家号",
-    "subjectName": "PHPER—>架构",
-    "homeUrl": "/subjects/25390"
-  },
-  {
     "title": "Redis：我是如何与客户端进行通信的",
     "description": "江湖上说，天下武功，无坚不摧，唯快不破，这句话简直是为我量身定制。我是一个Redis服务，最引以为傲的就是我的速度，我的 QPS 能达到10万级别。在我的手下有数不清的小弟，他们会...",
-    "votes": "96",
+    "votes": "97",
     "url": "/k/dr4u4yt",
     "avatar": "https://img.toutiao.io/subject%2Fd958b6b7b252470c838a8189621b3709",
     "avatarAlt": "码农参上 - 独家号",
@@ -162,12 +142,22 @@
   {
     "title": "曝光了，清华计算机系最牛的课",
     "description": " 邓老师在清华大学2017级本科生开学典礼上发言，来源清华大学新闻网 背景 大家好，我是石头哥。今天这篇文章，墙裂建议想提高核心竞争力的程序员同学重点关注，并付出行动。我曾经在 从...",
-    "votes": "97",
+    "votes": "98",
     "url": "/k/71s8fte",
     "avatar": "https://img.toutiao.io/subject%2Fd31ccac46e5248eca4f670a38911ab59",
     "avatarAlt": "程序猿石头 - 独家号",
     "subjectName": "程序猿石头",
     "homeUrl": "/subjects/180954"
+  },
+  {
+    "title": "携程最终一致和强一致性缓存实践",
+    "description": "作者简介 GSF，携程高级技术专家，关注高可用、高并发系统建设，致力于用技术驱动业务。一、前言 携程金融从成立至今，整体架构经历了从0到1再到10的变化，其中有多个场景使用了缓存来...",
+    "votes": "96",
+    "url": "/k/nvmnd0f",
+    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
+    "avatarAlt": "ASCE1885 - 独家号",
+    "subjectName": "ASCE1885",
+    "homeUrl": "/subjects/4829"
   },
   {
     "title": "高吞吐、低延迟 Java 应用的 GC 优化实践",
@@ -190,16 +180,6 @@
     "homeUrl": "/subjects/375484"
   },
   {
-    "title": "携程最终一致和强一致性缓存实践",
-    "description": "作者简介 GSF，携程高级技术专家，关注高可用、高并发系统建设，致力于用技术驱动业务。一、前言 携程金融从成立至今，整体架构经历了从0到1再到10的变化，其中有多个场景使用了缓存来...",
-    "votes": "95",
-    "url": "/k/nvmnd0f",
-    "avatar": "https://img.toutiao.io/subject%2Fcc2d501408fd455d9b841cb6c8d95a6c",
-    "avatarAlt": "ASCE1885 - 独家号",
-    "subjectName": "ASCE1885",
-    "homeUrl": "/subjects/4829"
-  },
-  {
     "title": "微服务拆分之道",
     "description": "背景ALIWARE微服务在最近几年大行其道，很多公司的研发人员都在考虑微服务架构，同时，随着 Docker 容器技术和自动化运维等相关技术发展，微服务变得更容易管理，这给了微服务架...",
     "votes": "96",
@@ -208,6 +188,26 @@
     "avatarAlt": "ASCE1885 - 独家号",
     "subjectName": "ASCE1885",
     "homeUrl": "/subjects/4829"
+  },
+  {
+    "title": "Java 知识点整理：Spring、MySQL",
+    "description": "Spring 10P1：Spring 框架Spring 是分层的企业级应用轻量级开源框架，以 IoC 和 AOP为内核。Spring 可以降低企业级应用开发的复杂性，对此主要采取了...",
+    "votes": "93",
+    "url": "/k/j4kd9qh",
+    "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
+    "avatarAlt": "头条精选 - 独家号",
+    "subjectName": "头条精选",
+    "homeUrl": "/subjects/4"
+  },
+  {
+    "title": "利用 Kubernetes 搭建便携式开发环境之 MySQL 和 Redis",
+    "description": "之前给大家介绍过， 我自己用的开发环境都是容器化的，只不过前两年不会用K8，大部分都是用的 Docker 或者 Docker-Compose。随着这一年多对 K8 的学习和工作中的...",
+    "votes": "84",
+    "url": "/k/kkc4ght",
+    "avatar": "https://img.toutiao.io/subject%2F5a80999e5b844812b72eedbc7f5fb5be",
+    "avatarAlt": "网管叨bi叨 - 独家号",
+    "subjectName": "网管叨bi叨",
+    "homeUrl": "/subjects/437466"
   },
   {
     "title": "月薪两万程序员应该知道的编程模型",
@@ -220,24 +220,14 @@
     "homeUrl": "/subjects/419901"
   },
   {
-    "title": "利用 Kubernetes 搭建便携式开发环境之 MySQL 和 Redis",
-    "description": "之前给大家介绍过， 我自己用的开发环境都是容器化的，只不过前两年不会用K8，大部分都是用的 Docker 或者 Docker-Compose。随着这一年多对 K8 的学习和工作中的...",
-    "votes": "82",
-    "url": "/k/kkc4ght",
-    "avatar": "https://img.toutiao.io/subject%2F5a80999e5b844812b72eedbc7f5fb5be",
-    "avatarAlt": "网管叨bi叨 - 独家号",
-    "subjectName": "网管叨bi叨",
-    "homeUrl": "/subjects/437466"
-  },
-  {
-    "title": "Java 知识点整理：Spring、MySQL",
-    "description": "Spring 10P1：Spring 框架Spring 是分层的企业级应用轻量级开源框架，以 IoC 和 AOP为内核。Spring 可以降低企业级应用开发的复杂性，对此主要采取了...",
-    "votes": "89",
-    "url": "/k/j4kd9qh",
-    "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
-    "avatarAlt": "头条精选 - 独家号",
-    "subjectName": "头条精选",
-    "homeUrl": "/subjects/4"
+    "title": "其实 Linux IO 模型没那么难",
+    "description": "IO 其实就是 Input 和 Output，在操作系统中就对应数据流的输入与输出。这个数据流的两端，可以是文件，也可以是网络的一台主机。但无论是文件，还是网络主机，其传输都是类似...",
+    "votes": "83",
+    "url": "/k/ihp2ujh",
+    "avatar": "https://img.toutiao.io/subject%2Fdc985e32ff464581afaa81f175880312",
+    "avatarAlt": "dotnet - 独家号",
+    "subjectName": "dotnet",
+    "homeUrl": "/subjects/348014"
   },
   {
     "title": "面试题：MySQL 一棵 B+ 树能存多少条数据？",
@@ -248,5 +238,15 @@
     "avatarAlt": "微观技术 - 独家号",
     "subjectName": "微观技术",
     "homeUrl": "/subjects/348507"
+  },
+  {
+    "title": "近期做的稳定性建设总结",
+    "description": "背景近期业界频繁出现较大的稳定性事故，引发社会舆情。湖北十堰也发生了安全的大事故。海因里希法则告诉我们：一件重大事故的背后总是有29件轻微事故+300件潜在隐患。我们要把这些事件当...",
+    "votes": "80",
+    "url": "/k/ic0wg6u",
+    "avatar": "https://img.toutiao.io/subject%2F4325865040b44c0b9e2d8d80a83d1d11",
+    "avatarAlt": "编程一生 - 独家号",
+    "subjectName": "编程一生",
+    "homeUrl": "/subjects/350352"
   }
 ]
