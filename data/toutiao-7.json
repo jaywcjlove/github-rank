@@ -1,48 +1,18 @@
 [
   {
-    "title": "后台开发面试必看：后台服务器开发高性能最佳实践",
-    "description": "前言在互联网公司技术面试上，除了算法和网络、操作系统这种基础之外，还有一类系统设计和优化的问题。这类问题需要你有一个全局的技术视野，以及熟悉一些常用的系统优化方法论，也就是工程上的...",
-    "votes": "227",
-    "url": "/k/w76nnho",
-    "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
-    "avatarAlt": "头条精选 - 独家号",
-    "subjectName": "头条精选",
-    "homeUrl": "/subjects/4"
-  },
-  {
-    "title": "推荐 7 个牛哄哄 Spring Cloud 实战项目",
-    "description": "把一个大型的单个应用程序和服务拆分为数个甚至数十个的支持微服务，这就是微服务架构的架构概念，通过将功能分解到各个离散的服务中以实现对解决方案的解耦。关于微服务相关的学习资料不多，而...",
-    "votes": "172",
-    "url": "/k/016vv4f",
-    "avatar": "https://img.toutiao.io/subject%2F1d5758f274fc447ca1989671a6b5d469",
-    "avatarAlt": "迷路的程序员 - 独家号",
-    "subjectName": "迷路的程序员",
-    "homeUrl": "/subjects/161574"
-  },
-  {
-    "title": "Nginx 最全操作总结",
-    "description": " 作者：chrootliu，腾讯 QQ 音乐前端开发工程师本文将会从：安装 -> 全局配置 -> 常用的各种配置 来书写，其中常用配置写的炒鸡详细，需要的童鞋可以直接滑倒相应的位置...",
-    "votes": "163",
-    "url": "/k/0lvuhj9",
+    "title": "Java 线程池原理及最佳实践（1.5W 字，面试必问）",
+    "description": "1. 概述 1.1 线程池是什么 线程池（Thread Pool）是一种基于池化思想管理线程的工具，经常出现在多线程服务器中，如MySQL。创建线程本身开销大，反复创建并销毁，过多...",
+    "votes": "111",
+    "url": "/k/39edoom",
     "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
     "avatarAlt": "进击的程序猿 - 独家号",
     "subjectName": "进击的程序猿",
     "homeUrl": "/subjects/24912"
   },
   {
-    "title": "MySQL 索引连环 18 问",
-    "description": "MySQL作为互联网中非常热门的数据库，现在大厂面试题横竖绕不开MySQL，其中MySQL索引是大厂必考面试题。今天带来了MySQL索引的常考面试题，看看你能答对多少~这是本期的M...",
-    "votes": "94",
-    "url": "/k/x7420rp",
-    "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
-    "avatarAlt": "头条精选 - 独家号",
-    "subjectName": "头条精选",
-    "homeUrl": "/subjects/4"
-  },
-  {
     "title": "其实 Linux IO 模型没那么难",
     "description": "IO 其实就是 Input 和 Output，在操作系统中就对应数据流的输入与输出。这个数据流的两端，可以是文件，也可以是网络的一台主机。但无论是文件，还是网络主机，其传输都是类似...",
-    "votes": "85",
+    "votes": "92",
     "url": "/k/ihp2ujh",
     "avatar": "https://img.toutiao.io/subject%2Fdc985e32ff464581afaa81f175880312",
     "avatarAlt": "dotnet - 独家号",
@@ -50,19 +20,9 @@
     "homeUrl": "/subjects/348014"
   },
   {
-    "title": "go-zero：开箱即用的微服务框架",
-    "description": "go-zero 是一个集成了各种工程实践的 Web 和 rpc 框架，它的弹性设计保障了大并发服务端的稳定性，并且已经经过了充分的实战检验。go-zero 在设计时遵循了 “工具大...",
-    "votes": "71",
-    "url": "/k/f8q3xuq",
-    "avatar": "https://img.toutiao.io/subject%2F4f9b8a1b9ad34bf3b815671f8461ff25",
-    "avatarAlt": "又拍云 - 独家号",
-    "subjectName": "又拍云",
-    "homeUrl": "/subjects/182218"
-  },
-  {
     "title": "第三方 API 对接如何设计接口认证？",
     "description": "点击上方“陶陶技术笔记”关注我 回复“资料”获取作者整理的大量学习资料！  一、前言  在与第三方系统做接口对接时，往往需要考虑接口的安全性问题，本文主要分享几个常见的系统之间做接...",
-    "votes": "67",
+    "votes": "83",
     "url": "/k/wu7tc8w",
     "avatar": "https://img.toutiao.io/subject%2F669b39ba3005429ea2ffc929debc32c2",
     "avatarAlt": "陶陶技术笔记 - 独家号",
@@ -70,79 +30,9 @@
     "homeUrl": "/subjects/419569"
   },
   {
-    "title": "工程师的成长",
-    "description": "我们都需要成长，工程师也不例外。以下是我感觉对工程师的成长比较有帮助的点，供参考。要点积累信用货币（先把手头的事情做好，再聊你想做什么）提升影响力（注重输出；做能够影响更多部门/使...",
-    "votes": "65",
-    "url": "/k/dvque43",
-    "avatar": "https://img.toutiao.io/subject%2F7099419508b548428645eec6ee3e7c5b",
-    "avatarAlt": "数据智能 - 独家号",
-    "subjectName": "数据智能",
-    "homeUrl": "/subjects/1"
-  },
-  {
-    "title": "为什么程序员要学会作图？",
-    "description": "古语道，一图胜千言。如今则有，无图无真相。操作系统最开始是命令行，现在则是各种图形视窗。人们在2G时代聊天，到3G时代看图，到4G时代看视频。随着网速和带宽的不断提升，应用从文字进...",
-    "votes": "59",
-    "url": "/k/lr48ibz",
-    "avatar": "https://img.toutiao.io/user/a4f225144a274c78816150e0fcce2747/thumb",
-    "avatarAlt": "游戏开发杂谈 - 独家号",
-    "subjectName": "游戏开发杂谈",
-    "homeUrl": "/subjects/23583"
-  },
-  {
-    "title": "把 Redis 当作队列来用，真的合适吗？",
-    "description": "阅读本文大约需要 15 分钟。我经常听到很多人讨论，关于「把 Redis 当作队列来用是否合适」的问题。有些人表示赞成，他们认为 Redis 很轻量，用作队列很方便。也些人则反对，...",
-    "votes": "53",
-    "url": "/k/3r6oq79",
-    "avatar": "https://img.toutiao.io/subject%2F5a80999e5b844812b72eedbc7f5fb5be",
-    "avatarAlt": "网管叨bi叨 - 独家号",
-    "subjectName": "网管叨bi叨",
-    "homeUrl": "/subjects/437466"
-  },
-  {
-    "title": "如何开发一个文件文档在线预览的网站？",
-    "description": "最近公司有这样的一个需求，开发一个内部培训的系统，需要在线打开一些PPT或者视频文件的功能。做了一些调研，找到一个开源的方案供选择。github项目地址：https://githu...",
-    "votes": "50",
-    "url": "/k/p3i66hk",
-    "avatar": "https://img.toutiao.io/subject%2F2661709a3af44375b6f3b7522ac60189",
-    "avatarAlt": "太空编程 - 独家号",
-    "subjectName": "太空编程",
-    "homeUrl": "/subjects/454552"
-  },
-  {
-    "title": "Golang 官方限流器的用法详解",
-    "description": "限流器是提升服务稳定性的非常重要的组件，可以用来限制请求速率，保护服务，以免服务过载。限流器的实现方法有很多种，常见的限流算法有固定窗口、滑动窗口、漏桶、令牌桶，我在前面的文章 「...",
-    "votes": "47",
-    "url": "/k/xvjaiyz",
-    "avatar": "https://img.toutiao.io/subject%2F5a80999e5b844812b72eedbc7f5fb5be",
-    "avatarAlt": "网管叨bi叨 - 独家号",
-    "subjectName": "网管叨bi叨",
-    "homeUrl": "/subjects/437466"
-  },
-  {
-    "title": "职场新人如何快速融入团队",
-    "description": "前言每年金三银四时节，总有很多同学会跳槽加入新的公司，来获取职场或者物质上更好的发展空间和回报。加入一家新的公司，对公司的一些流程规范、业务前景大多都有自己的期待。但同时也会有困惑...",
-    "votes": "53",
-    "url": "/k/8dy9gg8",
-    "avatar": "https://img.toutiao.io/subject%2F1227f0343a1546ee8e3c535cce14aa4c",
-    "avatarAlt": "工程师的自我修养之路 - 独家号",
-    "subjectName": "工程师的自我修养之路",
-    "homeUrl": "/subjects/188023"
-  },
-  {
-    "title": "为什么需要分布式 ID？大厂的分布式 ID 生成方案是什么样的？",
-    "description": "下午好，我是 Guide哥！今天分享一道朋友去京东面试遇到的面试题：“为什么要分布式ID？你项目中是怎么做的？”。这篇文章我会说说自己的看法，详细介绍一下分布式ID相关的内容包括分...",
-    "votes": "51",
-    "url": "/k/wekvon5",
-    "avatar": "https://img.toutiao.io/subject%2Ff834a19bb9e24261a813b7a1ebc03a11",
-    "avatarAlt": "JavaGuide - 独家号",
-    "subjectName": "JavaGuide",
-    "homeUrl": "/subjects/352853"
-  },
-  {
     "title": "聊聊知乎订单系统迁移",
     "description": "本文主要介绍知乎订单系统后端语言栈的转型升级过程，包括其间踩过的一些坑和遇到的一些问题。一来是想通过本篇文章为其它应用服务转型提供借鉴经验，二来是总结对于订单系统的理解。鉴于文字功...",
-    "votes": "48",
+    "votes": "66",
     "url": "/k/5rfvjrx",
     "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
     "avatarAlt": "Bloomingroses - 独家号",
@@ -150,19 +40,59 @@
     "homeUrl": "/subjects/98777"
   },
   {
-    "title": "一文理解 Kafka 如何做到高吞吐",
-    "description": "如果对Kafka不了解的话，可以先看这篇博客《一文快速了解Kafka》。其余有关Kakfa的文章如下：《一文理解Kafka的选举机制与Rebalance机制》《一文理解Kafka重...",
-    "votes": "53",
-    "url": "/k/hkxf0uy",
-    "avatar": "https://img.toutiao.io/subject%2F85512c92aa814f468f6b429b6eb70ba8",
-    "avatarAlt": "服务器后端开发 - 独家号",
-    "subjectName": "服务器后端开发",
-    "homeUrl": "/subjects/375484"
+    "title": "Golang 官方限流器的用法详解",
+    "description": "限流器是提升服务稳定性的非常重要的组件，可以用来限制请求速率，保护服务，以免服务过载。限流器的实现方法有很多种，常见的限流算法有固定窗口、滑动窗口、漏桶、令牌桶，我在前面的文章 「...",
+    "votes": "61",
+    "url": "/k/xvjaiyz",
+    "avatar": "https://img.toutiao.io/subject%2F5a80999e5b844812b72eedbc7f5fb5be",
+    "avatarAlt": "网管叨bi叨 - 独家号",
+    "subjectName": "网管叨bi叨",
+    "homeUrl": "/subjects/437466"
+  },
+  {
+    "title": "2021 年 5 月大厂面试总结",
+    "description": "❝ 本文 9793 字，读完需要 30 分钟左右，适合在早高峰拥挤的地铁中阅读，你可能正在面试的路上，或者准备出去面试，无论怎样，本文都会给你带来不小的收获。我们也邀请了高飞来小道...",
+    "votes": "65",
+    "url": "/k/jzi9mfx",
+    "avatar": "https://img.toutiao.io/subject%2F4f83c9adf7724579826ecfe05ebcfbd8",
+    "avatarAlt": "测试之家 - 独家号",
+    "subjectName": "测试之家",
+    "homeUrl": "/subjects/21748"
+  },
+  {
+    "title": "如何开发一个文件文档在线预览的网站？",
+    "description": "最近公司有这样的一个需求，开发一个内部培训的系统，需要在线打开一些PPT或者视频文件的功能。做了一些调研，找到一个开源的方案供选择。github项目地址：https://githu...",
+    "votes": "60",
+    "url": "/k/p3i66hk",
+    "avatar": "https://img.toutiao.io/subject%2F2661709a3af44375b6f3b7522ac60189",
+    "avatarAlt": "太空编程 - 独家号",
+    "subjectName": "太空编程",
+    "homeUrl": "/subjects/454552"
+  },
+  {
+    "title": "为什么程序员要学会作图？",
+    "description": "古语道，一图胜千言。如今则有，无图无真相。操作系统最开始是命令行，现在则是各种图形视窗。人们在2G时代聊天，到3G时代看图，到4G时代看视频。随着网速和带宽的不断提升，应用从文字进...",
+    "votes": "63",
+    "url": "/k/lr48ibz",
+    "avatar": "https://img.toutiao.io/user/a4f225144a274c78816150e0fcce2747/thumb",
+    "avatarAlt": "游戏开发杂谈 - 独家号",
+    "subjectName": "游戏开发杂谈",
+    "homeUrl": "/subjects/23583"
+  },
+  {
+    "title": "职场新人如何快速融入团队",
+    "description": "前言每年金三银四时节，总有很多同学会跳槽加入新的公司，来获取职场或者物质上更好的发展空间和回报。加入一家新的公司，对公司的一些流程规范、业务前景大多都有自己的期待。但同时也会有困惑...",
+    "votes": "63",
+    "url": "/k/8dy9gg8",
+    "avatar": "https://img.toutiao.io/subject%2F1227f0343a1546ee8e3c535cce14aa4c",
+    "avatarAlt": "工程师的自我修养之路 - 独家号",
+    "subjectName": "工程师的自我修养之路",
+    "homeUrl": "/subjects/188023"
   },
   {
     "title": "工具 | 腾讯开源的一套运维脚本管理系统",
     "description": "大家好，我是周刊菌。 加入「码农周刊VIP会员」，一起牛起来！ 以下内容选自「码农周刊 VIP 会员」圈子，每日更新，精彩不断。  码农周刊是什么？ 码农周刊是一份专为广大程序员、...",
-    "votes": "43",
+    "votes": "54",
     "url": "/k/6b7chfm",
     "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
     "avatarAlt": "头条精选 - 独家号",
@@ -170,33 +100,103 @@
     "homeUrl": "/subjects/4"
   },
   {
-    "title": "双非渣本后端三个月逆袭字节",
-    "description": "个人背景介绍2017年毕业于一所不知名双非本科大学，毕业时就有着一颗想进大厂的心，但又想留在成都，不愿意去北上广，现在其实相当后悔。当年在成都的大厂少之又少，再加上校招时非常努力地...",
-    "votes": "49",
-    "url": "/k/faz5prg",
-    "avatar": "https://img.toutiao.io/subject%2Fd2f421bbe0be47369b6560e316a5153b",
-    "avatarAlt": "头条精选 - 独家号",
-    "subjectName": "头条精选",
-    "homeUrl": "/subjects/4"
+    "title": "分布式事务如何解决？一次讲清楚",
+    "description": "分布式事务基础事务 事务指的就是一个操作单元，在这个操作单元中的所有操作最终要保持一致的行为，要么所有操作都成功，要么所有的操作都被撤销。简单地说，事务提供一种“要么什么都不做，要...",
+    "votes": "56",
+    "url": "/k/fcm5li4",
+    "avatar": "https://img.toutiao.io/subject%2F51ad25ebdf8b4a15895a07d5bce2b1e4",
+    "avatarAlt": "JAVA日知录 - 独家号",
+    "subjectName": "JAVA日知录",
+    "homeUrl": "/subjects/205182"
   },
   {
-    "title": "一文了解数据拆分与分库分表",
-    "description": "数据库在业务体系不大的情况，一般都是单库出现，通过增加主从复制提高SLA。但当业务体量不断扩大，就需要考虑进行数据拆分来解决性能瓶颈问题。下面讨论的技术方案主要是从MySQL角度考...",
-    "votes": "43",
-    "url": "/k/uamr7qj",
+    "title": "一文理解 Kafka 如何做到高吞吐",
+    "description": "如果对Kafka不了解的话，可以先看这篇博客《一文快速了解Kafka》。其余有关Kakfa的文章如下：《一文理解Kafka的选举机制与Rebalance机制》《一文理解Kafka重...",
+    "votes": "56",
+    "url": "/k/hkxf0uy",
     "avatar": "https://img.toutiao.io/subject%2F85512c92aa814f468f6b429b6eb70ba8",
     "avatarAlt": "服务器后端开发 - 独家号",
     "subjectName": "服务器后端开发",
     "homeUrl": "/subjects/375484"
   },
   {
-    "title": "Java 进阶：Proxy 动态代理机制详解",
-    "description": "一、Jvm加载对象 在说Java动态代理之前，还是要说一下Jvm加载对象的过程，这个依旧是理解动态代理的基础性原理： Java类即源代码程序.java类型文件，经过编译器编译之后就...",
-    "votes": "39",
-    "url": "/k/aqdoox6",
-    "avatar": "https://img.toutiao.io/subject%2F652f30d4f8ed4f198281774399a49076",
-    "avatarAlt": "知了一笑 - 独家号",
-    "subjectName": "知了一笑",
-    "homeUrl": "/subjects/416733"
+    "title": "Java 日志的心路历程",
+    "description": "大家好，我是头发还很多的阿星今天来和大家聊聊Java日志体系，Java日志体系可以说是五花八门，眼花缭乱。导致很多小伙伴因为日志标准库之间复杂的关系而感到烦恼，不知道统一系统的日志...",
+    "votes": "48",
+    "url": "/k/ro9ee3j",
+    "avatar": "https://img.toutiao.io/subject%2Fbd79d4909e3d49c485bc20d99b91a257",
+    "avatarAlt": "程序猿阿星 - 独家号",
+    "subjectName": "程序猿阿星",
+    "homeUrl": "/subjects/459978"
+  },
+  {
+    "title": "分布式环境下如何保证 ID 的唯一性",
+    "description": "每天早上七点三十，准时推送干货前言首先说下我们为什么需要分布式 ID，以及分布式 ID 是用来解决什么问题的。当我们的项目还处于单体架构的时候，我们使用数据库的自增 ID 就可以解...",
+    "votes": "38",
+    "url": "/k/5b7ajtg",
+    "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
+    "avatarAlt": "进击的程序猿 - 独家号",
+    "subjectName": "进击的程序猿",
+    "homeUrl": "/subjects/24912"
+  },
+  {
+    "title": "Spring 中定义 bean 的 12 种方法，真的绝了",
+    "description": " 前言在庞大的java体系中，spring有着举足轻重的地位，它给每位开发者带来了极大的便利和惊喜。我们都知道spring是创建和管理bean的工厂，它提供了多种定义bean的方式...",
+    "votes": "38",
+    "url": "/k/88jw8t4",
+    "avatar": "https://img.toutiao.io/subject%2F96c1af0d2a0b441ca9740ee13c3e37f3",
+    "avatarAlt": "苏三说技术 - 独家号",
+    "subjectName": "苏三说技术",
+    "homeUrl": "/subjects/453205"
+  },
+  {
+    "title": "避免线上故障的 10 条建议",
+    "description": "背景 没用的不多说了，这10条建议条条都是血泪的教训。内容 1、谨慎大切面 引发问题示例： 之前有次故障，因为一个大切面里包含了一个无界队列，直接out of memory了。原理...",
+    "votes": "37",
+    "url": "/k/xw9mio8",
+    "avatar": "https://img.toutiao.io/subject%2F4325865040b44c0b9e2d8d80a83d1d11",
+    "avatarAlt": "编程一生 - 独家号",
+    "subjectName": "编程一生",
+    "homeUrl": "/subjects/350352"
+  },
+  {
+    "title": "全面分析 Uber 的高性能日志库 Zap",
+    "description": "简介 zap 是什么?⚡ZAP[1] 是uber 开源的提供快速，结构化，高性能的日志记录包。zap 高性能体现在哪里?在介绍zap包的优化部分之前，让我们看下zap日志库的工作流...",
+    "votes": "34",
+    "url": "/k/tnv8037",
+    "avatar": "https://img.toutiao.io/subject%2F3f69ffc3bdf6496e86439348166e3ed7",
+    "avatarAlt": "GoHackers - 独家号",
+    "subjectName": "GoHackers",
+    "homeUrl": "/subjects/1385"
+  },
+  {
+    "title": "面试高频题：讲讲项目中的技术难点？",
+    "description": "点击上方蓝色字体，选择“设为星标”  回复”学习资料“获取学习宝典   相信很多人都有类似的经历，在面试快要结束的时候经常会被问到一个问题：讲讲项目中的技术难点？ 这是一个比较开放...",
+    "votes": "36",
+    "url": "/k/f1ktph1",
+    "avatar": "https://img.toutiao.io/subject%2Ffcd1137867a2413880689043418675a7",
+    "avatarAlt": "猿天地 - 独家号",
+    "subjectName": "猿天地",
+    "homeUrl": "/subjects/6491"
+  },
+  {
+    "title": "谈谈零信任的那些事",
+    "description": "00 前言不知从何时开始，安全圈开始出现了\"造词\"运动，几乎每年的RSAC大会和Gartner年度报告，都会出现一些大家看不懂的新概念和新名词，如OSS、CSPM、ZTNA、ZTE...",
+    "votes": "33",
+    "url": "/k/edagica",
+    "avatar": "https://img.toutiao.io/subject%2F378e77470970490b9e51050078d80e34",
+    "avatarAlt": "安全屋 - 独家号",
+    "subjectName": "安全屋",
+    "homeUrl": "/subjects/27565"
+  },
+  {
+    "title": "没有大厂的命，得了大厂的病",
+    "description": "6 月的某个周五晚上，和前同事一起踢完夜场球，然后我拉着他去撸串……踢完球去撸串，仿佛回到了大学生活。哦，不对，大学那时候，身体耐操，踢球和撸串之间还会来一个凉水澡。我这个前同事两...",
+    "votes": "45",
+    "url": "/k/l96isr0",
+    "avatar": "https://img.toutiao.io/subject%2F180d026f85274c998656474cd1988d0f",
+    "avatarAlt": "四猿外 - 独家号",
+    "subjectName": "四猿外",
+    "homeUrl": "/subjects/426740"
   }
 ]
