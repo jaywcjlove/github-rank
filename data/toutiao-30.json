@@ -22,7 +22,7 @@
   {
     "title": "推荐 7 个牛哄哄 Spring Cloud 实战项目",
     "description": "把一个大型的单个应用程序和服务拆分为数个甚至数十个的支持微服务，这就是微服务架构的架构概念，通过将功能分解到各个离散的服务中以实现对解决方案的解耦。关于微服务相关的学习资料不多，而...",
-    "votes": "181",
+    "votes": "183",
     "url": "/k/016vv4f",
     "avatar": "https://img.toutiao.io/subject%2F1d5758f274fc447ca1989671a6b5d469",
     "avatarAlt": "迷路的程序员 - 独家号",
@@ -42,12 +42,22 @@
   {
     "title": "Nginx 最全操作总结",
     "description": " 作者：chrootliu，腾讯 QQ 音乐前端开发工程师本文将会从：安装 -> 全局配置 -> 常用的各种配置 来书写，其中常用配置写的炒鸡详细，需要的童鞋可以直接滑倒相应的位置...",
-    "votes": "177",
+    "votes": "178",
     "url": "/k/0lvuhj9",
     "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
     "avatarAlt": "进击的程序猿 - 独家号",
     "subjectName": "进击的程序猿",
     "homeUrl": "/subjects/24912"
+  },
+  {
+    "title": "2.5 万字详解：23 种设计模式",
+    "description": "本文简述了各大设计模式，并通过UML和代码详细说明。本文大约共 2.5W 字，建议收藏。下方是本文的目录：一、设计模式的认识二、设计模式的分类根据其目的根据范围三、设计模式的优点四...",
+    "votes": "159",
+    "url": "/k/bjjvhwf",
+    "avatar": "https://img.toutiao.io/subject%2Fd00b380edf1f4c5c989adc712d44de7b",
+    "avatarAlt": "乱学派 - 独家号",
+    "subjectName": "乱学派",
+    "homeUrl": "/subjects/110643"
   },
   {
     "title": "Redis 最佳实践：7 个维度 + 43 条使用规范，带你彻底玩转 Redis（附实践清单）",
@@ -58,6 +68,16 @@
     "avatarAlt": "码匠赵铁柱 - 独家号",
     "subjectName": "码匠赵铁柱",
     "homeUrl": "/subjects/102436"
+  },
+  {
+    "title": "Java 线程池原理及最佳实践（1.5W 字，面试必问）",
+    "description": "1. 概述 1.1 线程池是什么 线程池（Thread Pool）是一种基于池化思想管理线程的工具，经常出现在多线程服务器中，如MySQL。创建线程本身开销大，反复创建并销毁，过多...",
+    "votes": "126",
+    "url": "/k/39edoom",
+    "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
+    "avatarAlt": "进击的程序猿 - 独家号",
+    "subjectName": "进击的程序猿",
+    "homeUrl": "/subjects/24912"
   },
   {
     "title": "进程和线程这 19 个问题太强了",
@@ -80,6 +100,16 @@
     "homeUrl": "/subjects/459978"
   },
   {
+    "title": "[译] 七个改变我生活的 Git 小技巧",
+    "description": "导读：这些有用的小技巧将改变你在当前最流行的版本控制系统下的工作方式。本文字数：3462，阅读时长大约：5分钟https://linux.cn/article-13529-1.ht...",
+    "votes": "112",
+    "url": "/k/kly6lxt",
+    "avatar": "https://img.toutiao.io/subject%2F03b785f0f0f2412eb3b892b83111c0cd",
+    "avatarAlt": "前端技术分享小站 - 独家号",
+    "subjectName": "前端技术分享小站",
+    "homeUrl": "/subjects/361424"
+  },
+  {
     "title": "徒手用 Go 写个 Redis 服务器",
     "description": " 作者：HDT3213 今天给大家带来的开源项目是 Godis：一个用 Go 语言实现的 Redis 服务器。支持：5 种数据结构（string、list、hash、set、sor...",
     "votes": "118",
@@ -90,24 +120,14 @@
     "homeUrl": "/subjects/175527"
   },
   {
-    "title": "[译] 七个改变我生活的 Git 小技巧",
-    "description": "导读：这些有用的小技巧将改变你在当前最流行的版本控制系统下的工作方式。本文字数：3462，阅读时长大约：5分钟https://linux.cn/article-13529-1.ht...",
-    "votes": "111",
-    "url": "/k/kly6lxt",
-    "avatar": "https://img.toutiao.io/subject%2F03b785f0f0f2412eb3b892b83111c0cd",
-    "avatarAlt": "前端技术分享小站 - 独家号",
-    "subjectName": "前端技术分享小站",
-    "homeUrl": "/subjects/361424"
-  },
-  {
-    "title": "Java 线程池原理及最佳实践（1.5W 字，面试必问）",
-    "description": "1. 概述 1.1 线程池是什么 线程池（Thread Pool）是一种基于池化思想管理线程的工具，经常出现在多线程服务器中，如MySQL。创建线程本身开销大，反复创建并销毁，过多...",
-    "votes": "111",
-    "url": "/k/39edoom",
-    "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
-    "avatarAlt": "进击的程序猿 - 独家号",
-    "subjectName": "进击的程序猿",
-    "homeUrl": "/subjects/24912"
+    "title": "其实 Linux IO 模型没那么难",
+    "description": "IO 其实就是 Input 和 Output，在操作系统中就对应数据流的输入与输出。这个数据流的两端，可以是文件，也可以是网络的一台主机。但无论是文件，还是网络主机，其传输都是类似...",
+    "votes": "95",
+    "url": "/k/ihp2ujh",
+    "avatar": "https://img.toutiao.io/subject%2Fdc985e32ff464581afaa81f175880312",
+    "avatarAlt": "dotnet - 独家号",
+    "subjectName": "dotnet",
+    "homeUrl": "/subjects/348014"
   },
   {
     "title": "携程最终一致和强一致性缓存实践",
@@ -138,16 +158,6 @@
     "avatarAlt": "码农参上 - 独家号",
     "subjectName": "码农参上",
     "homeUrl": "/subjects/457899"
-  },
-  {
-    "title": "其实 Linux IO 模型没那么难",
-    "description": "IO 其实就是 Input 和 Output，在操作系统中就对应数据流的输入与输出。这个数据流的两端，可以是文件，也可以是网络的一台主机。但无论是文件，还是网络主机，其传输都是类似...",
-    "votes": "92",
-    "url": "/k/ihp2ujh",
-    "avatar": "https://img.toutiao.io/subject%2Fdc985e32ff464581afaa81f175880312",
-    "avatarAlt": "dotnet - 独家号",
-    "subjectName": "dotnet",
-    "homeUrl": "/subjects/348014"
   },
   {
     "title": "高吞吐、低延迟 Java 应用的 GC 优化实践",
@@ -238,15 +248,5 @@
     "avatarAlt": "开源前哨 - 独家号",
     "subjectName": "开源前哨",
     "homeUrl": "/subjects/451797"
-  },
-  {
-    "title": "领域驱动设计、可视化与遗留系统的微服务改造",
-    "description": "任何人类的设计都会腐化，很遗憾软件尤其会...其实，对于单体系统，也可以按照上下文拆分领域。如果这样做了，再把代码级的领域拆分为部署视角的微服务，也不是那么难的事情了。微服务架构的...",
-    "votes": "76",
-    "url": "/k/96b5kbd",
-    "avatar": "https://img.toutiao.io/user/1cd8af04ab2942e6b7867e31ef0eff5e/thumb",
-    "avatarAlt": "坚持改革开放一百年不动摇的独家号 - 独家号",
-    "subjectName": "坚持改革开放一百年不动摇的独家号",
-    "homeUrl": "/subjects/408579"
   }
 ]

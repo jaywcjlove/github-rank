@@ -1,23 +1,23 @@
 [
   {
+    "title": "2.5 万字详解：23 种设计模式",
+    "description": "本文简述了各大设计模式，并通过UML和代码详细说明。本文大约共 2.5W 字，建议收藏。下方是本文的目录：一、设计模式的认识二、设计模式的分类根据其目的根据范围三、设计模式的优点四...",
+    "votes": "159",
+    "url": "/k/bjjvhwf",
+    "avatar": "https://img.toutiao.io/subject%2Fd00b380edf1f4c5c989adc712d44de7b",
+    "avatarAlt": "乱学派 - 独家号",
+    "subjectName": "乱学派",
+    "homeUrl": "/subjects/110643"
+  },
+  {
     "title": "Java 线程池原理及最佳实践（1.5W 字，面试必问）",
     "description": "1. 概述 1.1 线程池是什么 线程池（Thread Pool）是一种基于池化思想管理线程的工具，经常出现在多线程服务器中，如MySQL。创建线程本身开销大，反复创建并销毁，过多...",
-    "votes": "111",
+    "votes": "126",
     "url": "/k/39edoom",
     "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
     "avatarAlt": "进击的程序猿 - 独家号",
     "subjectName": "进击的程序猿",
     "homeUrl": "/subjects/24912"
-  },
-  {
-    "title": "其实 Linux IO 模型没那么难",
-    "description": "IO 其实就是 Input 和 Output，在操作系统中就对应数据流的输入与输出。这个数据流的两端，可以是文件，也可以是网络的一台主机。但无论是文件，还是网络主机，其传输都是类似...",
-    "votes": "92",
-    "url": "/k/ihp2ujh",
-    "avatar": "https://img.toutiao.io/subject%2Fdc985e32ff464581afaa81f175880312",
-    "avatarAlt": "dotnet - 独家号",
-    "subjectName": "dotnet",
-    "homeUrl": "/subjects/348014"
   },
   {
     "title": "第三方 API 对接如何设计接口认证？",
@@ -30,9 +30,19 @@
     "homeUrl": "/subjects/419569"
   },
   {
+    "title": "代码写的烂，经常被同事怼，教你一招",
+    "description": "大家好，我是Tom哥~面对复杂的业务场景，千变万化的客户需求，如何以一变应万变，以最小的开发成本快速落地实现，同时保证系统有着较低的复杂度，能够保证系统后续de持续迭代能力，让系统...",
+    "votes": "69",
+    "url": "/k/4hdm0ni",
+    "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
+    "avatarAlt": "微观技术 - 独家号",
+    "subjectName": "微观技术",
+    "homeUrl": "/subjects/348507"
+  },
+  {
     "title": "聊聊知乎订单系统迁移",
     "description": "本文主要介绍知乎订单系统后端语言栈的转型升级过程，包括其间踩过的一些坑和遇到的一些问题。一来是想通过本篇文章为其它应用服务转型提供借鉴经验，二来是总结对于订单系统的理解。鉴于文字功...",
-    "votes": "66",
+    "votes": "70",
     "url": "/k/5rfvjrx",
     "avatar": "https://img.toutiao.io/subject%2F95de346f69a948879bfbec7ff2e0928a",
     "avatarAlt": "Bloomingroses - 独家号",
@@ -42,7 +52,7 @@
   {
     "title": "Golang 官方限流器的用法详解",
     "description": "限流器是提升服务稳定性的非常重要的组件，可以用来限制请求速率，保护服务，以免服务过载。限流器的实现方法有很多种，常见的限流算法有固定窗口、滑动窗口、漏桶、令牌桶，我在前面的文章 「...",
-    "votes": "61",
+    "votes": "66",
     "url": "/k/xvjaiyz",
     "avatar": "https://img.toutiao.io/subject%2F5a80999e5b844812b72eedbc7f5fb5be",
     "avatarAlt": "网管叨bi叨 - 独家号",
@@ -52,7 +62,7 @@
   {
     "title": "2021 年 5 月大厂面试总结",
     "description": "❝ 本文 9793 字，读完需要 30 分钟左右，适合在早高峰拥挤的地铁中阅读，你可能正在面试的路上，或者准备出去面试，无论怎样，本文都会给你带来不小的收获。我们也邀请了高飞来小道...",
-    "votes": "65",
+    "votes": "70",
     "url": "/k/jzi9mfx",
     "avatar": "https://img.toutiao.io/subject%2F4f83c9adf7724579826ecfe05ebcfbd8",
     "avatarAlt": "测试之家 - 独家号",
@@ -70,14 +80,24 @@
     "homeUrl": "/subjects/454552"
   },
   {
-    "title": "为什么程序员要学会作图？",
-    "description": "古语道，一图胜千言。如今则有，无图无真相。操作系统最开始是命令行，现在则是各种图形视窗。人们在2G时代聊天，到3G时代看图，到4G时代看视频。随着网速和带宽的不断提升，应用从文字进...",
-    "votes": "63",
-    "url": "/k/lr48ibz",
-    "avatar": "https://img.toutiao.io/user/a4f225144a274c78816150e0fcce2747/thumb",
-    "avatarAlt": "游戏开发杂谈 - 独家号",
-    "subjectName": "游戏开发杂谈",
-    "homeUrl": "/subjects/23583"
+    "title": "手痒想写项目？我挑了 10 个开源项目送你",
+    "description": " 我刚学完 Python 语法那会儿，手痒想写个项目展示自己的学习成果。但却不知道写个啥，经过几次失败的尝试和碰壁后认清了现实，发现到自己只是刚学会基本语法，想要从零写个项目还差得...",
+    "votes": "69",
+    "url": "/k/nw9yd13",
+    "avatar": "https://img.toutiao.io/subject%2Fb751657c3aaa4ac59db50c07db41e538",
+    "avatarAlt": "HelloGitHub - 独家号",
+    "subjectName": "HelloGitHub",
+    "homeUrl": "/subjects/175527"
+  },
+  {
+    "title": "分布式事务如何解决？一次讲清楚",
+    "description": "分布式事务基础事务 事务指的就是一个操作单元，在这个操作单元中的所有操作最终要保持一致的行为，要么所有操作都成功，要么所有的操作都被撤销。简单地说，事务提供一种“要么什么都不做，要...",
+    "votes": "61",
+    "url": "/k/fcm5li4",
+    "avatar": "https://img.toutiao.io/subject%2F51ad25ebdf8b4a15895a07d5bce2b1e4",
+    "avatarAlt": "JAVA日知录 - 独家号",
+    "subjectName": "JAVA日知录",
+    "homeUrl": "/subjects/205182"
   },
   {
     "title": "职场新人如何快速融入团队",
@@ -100,24 +120,34 @@
     "homeUrl": "/subjects/4"
   },
   {
-    "title": "分布式事务如何解决？一次讲清楚",
-    "description": "分布式事务基础事务 事务指的就是一个操作单元，在这个操作单元中的所有操作最终要保持一致的行为，要么所有操作都成功，要么所有的操作都被撤销。简单地说，事务提供一种“要么什么都不做，要...",
-    "votes": "56",
-    "url": "/k/fcm5li4",
-    "avatar": "https://img.toutiao.io/subject%2F51ad25ebdf8b4a15895a07d5bce2b1e4",
-    "avatarAlt": "JAVA日知录 - 独家号",
-    "subjectName": "JAVA日知录",
-    "homeUrl": "/subjects/205182"
+    "title": "全面分析 Uber 的高性能日志库 Zap",
+    "description": "简介 zap 是什么?⚡ZAP[1] 是uber 开源的提供快速，结构化，高性能的日志记录包。zap 高性能体现在哪里?在介绍zap包的优化部分之前，让我们看下zap日志库的工作流...",
+    "votes": "45",
+    "url": "/k/tnv8037",
+    "avatar": "https://img.toutiao.io/subject%2F3f69ffc3bdf6496e86439348166e3ed7",
+    "avatarAlt": "GoHackers - 独家号",
+    "subjectName": "GoHackers",
+    "homeUrl": "/subjects/1385"
   },
   {
-    "title": "一文理解 Kafka 如何做到高吞吐",
-    "description": "如果对Kafka不了解的话，可以先看这篇博客《一文快速了解Kafka》。其余有关Kakfa的文章如下：《一文理解Kafka的选举机制与Rebalance机制》《一文理解Kafka重...",
-    "votes": "56",
-    "url": "/k/hkxf0uy",
-    "avatar": "https://img.toutiao.io/subject%2F85512c92aa814f468f6b429b6eb70ba8",
-    "avatarAlt": "服务器后端开发 - 独家号",
-    "subjectName": "服务器后端开发",
-    "homeUrl": "/subjects/375484"
+    "title": "Spring 中定义 bean 的 12 种方法，真的绝了",
+    "description": " 前言在庞大的java体系中，spring有着举足轻重的地位，它给每位开发者带来了极大的便利和惊喜。我们都知道spring是创建和管理bean的工厂，它提供了多种定义bean的方式...",
+    "votes": "47",
+    "url": "/k/88jw8t4",
+    "avatar": "https://img.toutiao.io/subject%2F96c1af0d2a0b441ca9740ee13c3e37f3",
+    "avatarAlt": "苏三说技术 - 独家号",
+    "subjectName": "苏三说技术",
+    "homeUrl": "/subjects/453205"
+  },
+  {
+    "title": "面试高频题：讲讲项目中的技术难点？",
+    "description": "点击上方蓝色字体，选择“设为星标”  回复”学习资料“获取学习宝典   相信很多人都有类似的经历，在面试快要结束的时候经常会被问到一个问题：讲讲项目中的技术难点？ 这是一个比较开放...",
+    "votes": "39",
+    "url": "/k/f1ktph1",
+    "avatar": "https://img.toutiao.io/subject%2Ffcd1137867a2413880689043418675a7",
+    "avatarAlt": "猿天地 - 独家号",
+    "subjectName": "猿天地",
+    "homeUrl": "/subjects/6491"
   },
   {
     "title": "Java 日志的心路历程",
@@ -130,6 +160,16 @@
     "homeUrl": "/subjects/459978"
   },
   {
+    "title": "避免线上故障的 10 条建议",
+    "description": "背景 没用的不多说了，这10条建议条条都是血泪的教训。内容 1、谨慎大切面 引发问题示例： 之前有次故障，因为一个大切面里包含了一个无界队列，直接out of memory了。原理...",
+    "votes": "38",
+    "url": "/k/xw9mio8",
+    "avatar": "https://img.toutiao.io/subject%2F4325865040b44c0b9e2d8d80a83d1d11",
+    "avatarAlt": "编程一生 - 独家号",
+    "subjectName": "编程一生",
+    "homeUrl": "/subjects/350352"
+  },
+  {
     "title": "分布式环境下如何保证 ID 的唯一性",
     "description": "每天早上七点三十，准时推送干货前言首先说下我们为什么需要分布式 ID，以及分布式 ID 是用来解决什么问题的。当我们的项目还处于单体架构的时候，我们使用数据库的自增 ID 就可以解...",
     "votes": "38",
@@ -138,46 +178,6 @@
     "avatarAlt": "进击的程序猿 - 独家号",
     "subjectName": "进击的程序猿",
     "homeUrl": "/subjects/24912"
-  },
-  {
-    "title": "Spring 中定义 bean 的 12 种方法，真的绝了",
-    "description": " 前言在庞大的java体系中，spring有着举足轻重的地位，它给每位开发者带来了极大的便利和惊喜。我们都知道spring是创建和管理bean的工厂，它提供了多种定义bean的方式...",
-    "votes": "38",
-    "url": "/k/88jw8t4",
-    "avatar": "https://img.toutiao.io/subject%2F96c1af0d2a0b441ca9740ee13c3e37f3",
-    "avatarAlt": "苏三说技术 - 独家号",
-    "subjectName": "苏三说技术",
-    "homeUrl": "/subjects/453205"
-  },
-  {
-    "title": "避免线上故障的 10 条建议",
-    "description": "背景 没用的不多说了，这10条建议条条都是血泪的教训。内容 1、谨慎大切面 引发问题示例： 之前有次故障，因为一个大切面里包含了一个无界队列，直接out of memory了。原理...",
-    "votes": "37",
-    "url": "/k/xw9mio8",
-    "avatar": "https://img.toutiao.io/subject%2F4325865040b44c0b9e2d8d80a83d1d11",
-    "avatarAlt": "编程一生 - 独家号",
-    "subjectName": "编程一生",
-    "homeUrl": "/subjects/350352"
-  },
-  {
-    "title": "全面分析 Uber 的高性能日志库 Zap",
-    "description": "简介 zap 是什么?⚡ZAP[1] 是uber 开源的提供快速，结构化，高性能的日志记录包。zap 高性能体现在哪里?在介绍zap包的优化部分之前，让我们看下zap日志库的工作流...",
-    "votes": "34",
-    "url": "/k/tnv8037",
-    "avatar": "https://img.toutiao.io/subject%2F3f69ffc3bdf6496e86439348166e3ed7",
-    "avatarAlt": "GoHackers - 独家号",
-    "subjectName": "GoHackers",
-    "homeUrl": "/subjects/1385"
-  },
-  {
-    "title": "面试高频题：讲讲项目中的技术难点？",
-    "description": "点击上方蓝色字体，选择“设为星标”  回复”学习资料“获取学习宝典   相信很多人都有类似的经历，在面试快要结束的时候经常会被问到一个问题：讲讲项目中的技术难点？ 这是一个比较开放...",
-    "votes": "36",
-    "url": "/k/f1ktph1",
-    "avatar": "https://img.toutiao.io/subject%2Ffcd1137867a2413880689043418675a7",
-    "avatarAlt": "猿天地 - 独家号",
-    "subjectName": "猿天地",
-    "homeUrl": "/subjects/6491"
   },
   {
     "title": "谈谈零信任的那些事",
@@ -192,7 +192,7 @@
   {
     "title": "没有大厂的命，得了大厂的病",
     "description": "6 月的某个周五晚上，和前同事一起踢完夜场球，然后我拉着他去撸串……踢完球去撸串，仿佛回到了大学生活。哦，不对，大学那时候，身体耐操，踢球和撸串之间还会来一个凉水澡。我这个前同事两...",
-    "votes": "45",
+    "votes": "47",
     "url": "/k/l96isr0",
     "avatar": "https://img.toutiao.io/subject%2F180d026f85274c998656474cd1988d0f",
     "avatarAlt": "四猿外 - 独家号",

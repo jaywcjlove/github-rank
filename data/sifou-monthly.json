@@ -9,21 +9,21 @@
     "rank": 1
   },
   {
+    "title": "微前端解决方案",
+    "description": "随着技术的发展，前端应用承载的内容也日益复杂，基于此而产生的各种问题也应运而生，从MPA（Multi-Page Application，多页应用）到SPA（Single-Page Application，单页应用），虽然解决了切换体验的延迟问题，但...",
+    "url": "https://segmentfault.com/a/1190000040275586",
+    "author": "记得要微笑",
+    "home_url": "https://segmentfault.com/u/tosmile",
+    "votes": "34",
+    "rank": 2
+  },
+  {
     "title": "CSS ::marker 让文字序号更有意思",
     "description": "本文将介绍 CSS 中一个比较有意思的伪元素 ::marker，利用它，我们可以让我们的文字序号变得更加的有意思！什么是 ::markerCSS 伪元素 ::marker 是从 CSS Pseudo-Elements Level 3 开始新增，CSS Pseudo-Elements...",
     "url": "https://segmentfault.com/a/1190000040175019",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
     "votes": "30",
-    "rank": 2
-  },
-  {
-    "title": "微前端解决方案",
-    "description": "随着技术的发展，前端应用承载的内容也日益复杂，基于此而产生的各种问题也应运而生，从MPA（Multi-Page Application，多页应用）到SPA（Single-Page Application，单页应用），虽然解决了切换体验的延迟问题，但...",
-    "url": "https://segmentfault.com/a/1190000040275586",
-    "author": "pony",
-    "home_url": "https://segmentfault.com/u/tosmile",
-    "votes": "32",
     "rank": 3
   },
   {
@@ -50,8 +50,17 @@
     "url": "https://segmentfault.com/a/1190000040166704",
     "author": "dragonir",
     "home_url": "https://segmentfault.com/u/dragonir",
-    "votes": "25",
+    "votes": "26",
     "rank": 6
+  },
+  {
+    "title": "硬核！高频Linux命令大总结，建议收藏~",
+    "description": "今天继续分享，最近花了不少时间把平时开发过程中常用的一些Linux系统命令给做了一个大整理，形成一个常用高频Linux速查备忘录。有了它，还怕Linux操作系统常用操作和命令记不住么？",
+    "url": "https://segmentfault.com/a/1190000040222932",
+    "author": "CodeSheep",
+    "home_url": "https://segmentfault.com/u/hansonwang99",
+    "votes": "28",
+    "rank": 7
   },
   {
     "title": "CSS 自动显示“全文”链接",
@@ -60,7 +69,7 @@
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
     "votes": "25",
-    "rank": 7
+    "rank": 8
   },
   {
     "title": "我与思否，七年之痒 | 思否 9 周年",
@@ -69,16 +78,16 @@
     "author": "边城",
     "home_url": "https://segmentfault.com/u/jamesfancy",
     "votes": "21",
-    "rank": 8
+    "rank": 9
   },
   {
-    "title": "硬核！高频Linux命令大总结，建议收藏~",
-    "description": "今天继续分享，最近花了不少时间把平时开发过程中常用的一些Linux系统命令给做了一个大整理，形成一个常用高频Linux速查备忘录。有了它，还怕Linux操作系统常用操作和命令记不住么？",
-    "url": "https://segmentfault.com/a/1190000040222932",
-    "author": "CodeSheep",
-    "home_url": "https://segmentfault.com/u/hansonwang99",
-    "votes": "26",
-    "rank": 9
+    "title": "JS常用工具函数整理",
+    "description": "3、isObject:判断数据是不是引用类型的数据（例如：array,function,object,regexe,new Number(),new String())",
+    "url": "https://segmentfault.com/a/1190000040224248",
+    "author": "小蘑菇",
+    "home_url": "https://segmentfault.com/u/xiaomogu_5f2124ad3ad42",
+    "votes": "28",
+    "rank": 10
   },
   {
     "title": "你不知道的 VSCode 代码高亮原理",
@@ -87,15 +96,6 @@
     "author": "范文杰",
     "home_url": "https://segmentfault.com/u/fanwenjie",
     "votes": "21",
-    "rank": 10
-  },
-  {
-    "title": "JS常用工具函数整理",
-    "description": "3、isObject:判断数据是不是引用类型的数据（例如：array,function,object,regexe,new Number(),new String())",
-    "url": "https://segmentfault.com/a/1190000040224248",
-    "author": "小蘑菇",
-    "home_url": "https://segmentfault.com/u/xiaomogu_5f2124ad3ad42",
-    "votes": "27",
     "rank": 11
   },
   {
@@ -126,13 +126,22 @@
     "rank": 14
   },
   {
+    "title": "聊聊TypeScript类型声明那些最佳实践",
+    "description": "TypeScript 诞生已久，优缺点大家都知晓，它可以说是JavaScript静态类型校验和语法增强的利器，为了更好的代码可读性和可维护性，我们一个个老工程都坦然接受了用TypeScript 重构的命运。然而在改造的过程中，逐...",
+    "url": "https://segmentfault.com/a/1190000040288228",
+    "author": "jafeney",
+    "home_url": "https://segmentfault.com/u/jafeney",
+    "votes": "16",
+    "rank": 15
+  },
+  {
     "title": "Webpack 系列第六篇：如何编写loader",
     "description": "全文 5000 字，深度剖析 Webpack Loader 的特性、运行机制、开发技巧，欢迎点赞关注。写作不易，未经作者同意，禁止任何形式转载！！！",
     "url": "https://segmentfault.com/a/1190000040146131",
     "author": "范文杰",
     "home_url": "https://segmentfault.com/u/fanwenjie",
     "votes": "18",
-    "rank": 15
+    "rank": 16
   },
   {
     "title": "前端知识体系(2)-vue篇",
@@ -141,7 +150,7 @@
     "author": "子树",
     "home_url": "https://segmentfault.com/u/user_cf3crq1j",
     "votes": "24",
-    "rank": 16
+    "rank": 17
   },
   {
     "title": "萌新必看——10种客户端存储哪家强，一文读尽！",
@@ -150,7 +159,7 @@
     "author": "葡萄城技术团队",
     "home_url": "https://segmentfault.com/u/grapecity",
     "votes": "17",
-    "rank": 17
+    "rank": 18
   },
   {
     "title": "如何理解WeakMap？",
@@ -159,15 +168,6 @@
     "author": "趁你还年轻",
     "home_url": "https://segmentfault.com/u/chennihuannianqing",
     "votes": "14",
-    "rank": 18
-  },
-  {
-    "title": "聊聊TypeScript类型声明那些最佳实践",
-    "description": "TypeScript 诞生已久，优缺点大家都知晓，它可以说是JavaScript静态类型校验和语法增强的利器，为了更好的代码可读性和可维护性，我们一个个老工程都坦然接受了用TypeScript 重构的命运。然而在改造的过程中，逐...",
-    "url": "https://segmentfault.com/a/1190000040288228",
-    "author": "jafeney",
-    "home_url": "https://segmentfault.com/u/jafeney",
-    "votes": "12",
     "rank": 19
   },
   {
@@ -180,12 +180,12 @@
     "rank": 20
   },
   {
-    "title": "虚拟 DOM 与 Diff 算法的实现原理",
-    "description": "Vue 源码中虚拟 DOM 与 Diff 算法的实现借鉴了 snabbdom 这个库，snabbdom 是一个虚拟 DOM 库，它专注于简单，模块化，强大的功能和性能。要彻底明白虚拟 DOM 与 Diff 算法就得分析 snabbdom 这个库到底做了什么？",
-    "url": "https://segmentfault.com/a/1190000040142729",
-    "author": "废废",
-    "home_url": "https://segmentfault.com/u/feifei_5d9ace1c1d5a1",
-    "votes": "15",
+    "title": "没登录网页也能个性化推荐？一文详解浏览器指纹",
+    "description": "日常生活中，生物识别技术已经是多数智能手机的标配，大多数手机具备人脸识别、指纹识别等功能，目前的指纹识别技术已经非常成熟。但我们今天要聊的并不是生物识别技术中的指纹识别，而是浏览器指纹。很多人对这...",
+    "url": "https://segmentfault.com/a/1190000040263652",
+    "author": "云叔_又拍云",
+    "home_url": "https://segmentfault.com/u/yunshu_blog",
+    "votes": "16",
     "rank": 21
   },
   {
@@ -225,22 +225,13 @@
     "rank": 25
   },
   {
-    "title": "没登录网页也能个性化推荐？一文详解浏览器指纹",
-    "description": "日常生活中，生物识别技术已经是多数智能手机的标配，大多数手机具备人脸识别、指纹识别等功能，目前的指纹识别技术已经非常成熟。但我们今天要聊的并不是生物识别技术中的指纹识别，而是浏览器指纹。很多人对这...",
-    "url": "https://segmentfault.com/a/1190000040263652",
-    "author": "云叔_又拍云",
-    "home_url": "https://segmentfault.com/u/yunshu_blog",
-    "votes": "15",
+    "title": "Webpack 原理系列八：产物转译打包逻辑",
+    "description": "全文 6000 字，我们来聊聊打包闭环，欢迎点赞关注转发。回顾一下，在之前的文章《有点难的 webpack 知识点：Dependency Graph 深度解析》已经聊到，经过 构建(make)阶段 后，Webpack 解析出：module 内容module ...",
+    "url": "https://segmentfault.com/a/1190000040278327",
+    "author": "范文杰",
+    "home_url": "https://segmentfault.com/u/fanwenjie",
+    "votes": "10",
     "rank": 26
-  },
-  {
-    "title": "淘系自研前端研发工具 AppWorks 正式发布",
-    "description": "AppWorks 是社区受到开发者广泛关注的 VS Code 套件，在 VS Code 插件市场有 2w+ 的下载量，是 VS Code 插件市场受开发者喜爱的百佳套件之一，多次登陆 VS Code 插件市场周/月趋势榜。在淘宝内部，AppWorks 日均...",
-    "url": "https://segmentfault.com/a/1190000040142501",
-    "author": "鸣飞",
-    "home_url": "https://segmentfault.com/u/mf",
-    "votes": "13",
-    "rank": 27
   },
   {
     "title": "深入浅出聊聊 Rust WebAssembly（一）",
@@ -249,16 +240,16 @@
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
     "votes": "13",
-    "rank": 28
+    "rank": 27
   },
   {
-    "title": "“在线办公”再添新贵，葡萄城表格技术助力网易灵犀 “一点通”",
-    "description": "2020年，一场突发的黑天鹅事件让“在线办公”站上了风口，钉钉、企业微信、飞书等线上办公软件不断涌现，彻底颠覆了传统的企业管理模式，大幅提高了企业的办公效率。",
-    "url": "https://segmentfault.com/a/1190000040293653",
-    "author": "葡萄城技术团队",
-    "home_url": "https://segmentfault.com/u/grapecity",
-    "votes": "12",
-    "rank": 29
+    "title": "2021前端面试总结",
+    "description": "笔试开始有跳槽准备的想法开始刷 leetcode 到实际开始面试大概经历了两个半月。而我个人对于面试的前期准备按照以下几部分循序渐进的进行：",
+    "url": "https://segmentfault.com/a/1190000040236485",
+    "author": "玩弄心里的鬼",
+    "home_url": "https://segmentfault.com/u/lizongyuan",
+    "votes": "20",
+    "rank": 28
   },
   {
     "title": "简单易懂的设计模式（上）",
@@ -267,6 +258,15 @@
     "author": "凹凸实验室",
     "home_url": "https://segmentfault.com/u/o2team",
     "votes": "14",
+    "rank": 29
+  },
+  {
+    "title": "“在线办公”再添新贵，葡萄城表格技术助力网易灵犀 “一点通”",
+    "description": "2020年，一场突发的黑天鹅事件让“在线办公”站上了风口，钉钉、企业微信、飞书等线上办公软件不断涌现，彻底颠覆了传统的企业管理模式，大幅提高了企业的办公效率。",
+    "url": "https://segmentfault.com/a/1190000040293653",
+    "author": "葡萄城技术团队",
+    "home_url": "https://segmentfault.com/u/grapecity",
+    "votes": "12",
     "rank": 30
   }
 ]
