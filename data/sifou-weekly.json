@@ -153,22 +153,13 @@
     "rank": 17
   },
   {
-    "title": "动手写一个简易的 Virtual DOM，加强阅读源码的能力",
-    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000040120149",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "6",
-    "rank": 18
-  },
-  {
     "title": "JSDoc 快速上手",
     "description": "JSDoc 是在JS代码的注释里，以特定的格式标记变量的类型，函数的参数、返回值等，这样做可以避免调用函数的时候传错或少传参数，提高代码的健壮性，减少bug；再加上编辑器的支持，可以极大的提高编码的效率。",
     "url": "https://segmentfault.com/a/1190000040308360",
     "author": "Midqiu",
     "home_url": "https://segmentfault.com/u/midqiu",
     "votes": "7",
-    "rank": 19
+    "rank": 18
   },
   {
     "title": "怎样把箭头函数作为事件侦听器的回调",
@@ -177,7 +168,7 @@
     "author": "疯狂的技术宅",
     "home_url": "https://segmentfault.com/u/evilboy",
     "votes": "3",
-    "rank": 20
+    "rank": 19
   },
   {
     "title": "关于从入门three.js到做出3d地球这件事(第六篇: 装饰地球, 打点等操作)",
@@ -186,7 +177,7 @@
     "author": "lulu_up",
     "home_url": "https://segmentfault.com/u/lulu_up",
     "votes": "9",
-    "rank": 21
+    "rank": 20
   },
   {
     "title": "一周4大厂Java开发岗面试日记（已拿offer）",
@@ -195,7 +186,7 @@
     "author": "Java架构师",
     "home_url": "https://segmentfault.com/u/taozi_60b0b3c71b1a8",
     "votes": "3",
-    "rank": 22
+    "rank": 21
   },
   {
     "title": "《中华人民共和国数据安全法》颁布，9月1日开始施行",
@@ -204,7 +195,7 @@
     "author": "鸣飞",
     "home_url": "https://segmentfault.com/u/mf",
     "votes": "2",
-    "rank": 23
+    "rank": 22
   },
   {
     "title": "聊一聊我在 B 站自学 Java 的经历吧",
@@ -213,7 +204,7 @@
     "author": "程序员cxuan",
     "home_url": "https://segmentfault.com/u/cxuan",
     "votes": "6",
-    "rank": 24
+    "rank": 23
   },
   {
     "title": "必须知道的SQL语句不走索引时的排查利器",
@@ -222,7 +213,7 @@
     "author": "木子雷",
     "home_url": "https://segmentfault.com/u/muzilei_5e72d30d2c9fb",
     "votes": "3",
-    "rank": 25
+    "rank": 24
   },
   {
     "title": "以一己之力，生抗美团技术博客！",
@@ -231,7 +222,7 @@
     "author": "小傅哥",
     "home_url": "https://segmentfault.com/u/fuzhengwei",
     "votes": "4",
-    "rank": 26
+    "rank": 25
   },
   {
     "title": "数据库迁移搞炸了？？来试试这款超牛逼的开源工具",
@@ -240,7 +231,7 @@
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "7",
-    "rank": 27
+    "rank": 26
   },
   {
     "title": "10+款Redis容器化技术选型对比，K8S并非万金油",
@@ -249,7 +240,7 @@
     "author": "张晋涛",
     "home_url": "https://segmentfault.com/u/moelove",
     "votes": "3",
-    "rank": 28
+    "rank": 27
   },
   {
     "title": "记一次 Node.js http 服务的排障记录",
@@ -258,7 +249,7 @@
     "author": "贾顺名",
     "home_url": "https://segmentfault.com/u/jiasm",
     "votes": "3",
-    "rank": 29
+    "rank": 28
   },
   {
     "title": "微信小程序登录的坑",
@@ -267,6 +258,15 @@
     "author": "kumfo",
     "home_url": "https://segmentfault.com/u/kumfo",
     "votes": "3",
+    "rank": 29
+  },
+  {
+    "title": "redis 读写分离架构技术解析",
+    "description": "Redis 不管主从版还是集群规格，replica作为备库不对外提供服务，只有在发生HA的时候，replica提升为master后才承担读写流量。这种架构读写请求都在master上完成，一致性较高，但性能受到master数量的限制。经常...",
+    "url": "https://segmentfault.com/a/1190000040321194",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "5",
     "rank": 30
   }
 ]
