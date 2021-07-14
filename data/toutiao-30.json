@@ -12,7 +12,7 @@
   {
     "title": "2.5 万字详解：23 种设计模式",
     "description": "本文简述了各大设计模式，并通过UML和代码详细说明。本文大约共 2.5W 字，建议收藏。下方是本文的目录：一、设计模式的认识二、设计模式的分类根据其目的根据范围三、设计模式的优点四...",
-    "votes": "260",
+    "votes": "274",
     "url": "/k/bjjvhwf",
     "avatar": "https://img.toutiao.io/subject%2Fd00b380edf1f4c5c989adc712d44de7b",
     "avatarAlt": "乱学派 - 独家号",
@@ -32,7 +32,7 @@
   {
     "title": "推荐 7 个牛哄哄 Spring Cloud 实战项目",
     "description": "把一个大型的单个应用程序和服务拆分为数个甚至数十个的支持微服务，这就是微服务架构的架构概念，通过将功能分解到各个离散的服务中以实现对解决方案的解耦。关于微服务相关的学习资料不多，而...",
-    "votes": "194",
+    "votes": "197",
     "url": "/k/016vv4f",
     "avatar": "https://img.toutiao.io/subject%2F1d5758f274fc447ca1989671a6b5d469",
     "avatarAlt": "迷路的程序员 - 独家号",
@@ -42,7 +42,7 @@
   {
     "title": "Nginx 最全操作总结",
     "description": " 作者：chrootliu，腾讯 QQ 音乐前端开发工程师本文将会从：安装 -> 全局配置 -> 常用的各种配置 来书写，其中常用配置写的炒鸡详细，需要的童鞋可以直接滑倒相应的位置...",
-    "votes": "182",
+    "votes": "185",
     "url": "/k/0lvuhj9",
     "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
     "avatarAlt": "进击的程序猿 - 独家号",
@@ -52,7 +52,7 @@
   {
     "title": "Java 线程池原理及最佳实践（1.5W 字，面试必问）",
     "description": "1. 概述 1.1 线程池是什么 线程池（Thread Pool）是一种基于池化思想管理线程的工具，经常出现在多线程服务器中，如MySQL。创建线程本身开销大，反复创建并销毁，过多...",
-    "votes": "157",
+    "votes": "162",
     "url": "/k/39edoom",
     "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
     "avatarAlt": "进击的程序猿 - 独家号",
@@ -100,6 +100,16 @@
     "homeUrl": "/subjects/361424"
   },
   {
+    "title": "代码写的烂，经常被同事怼，教你一招",
+    "description": "大家好，我是Tom哥~面对复杂的业务场景，千变万化的客户需求，如何以一变应万变，以最小的开发成本快速落地实现，同时保证系统有着较低的复杂度，能够保证系统后续de持续迭代能力，让系统...",
+    "votes": "112",
+    "url": "/k/4hdm0ni",
+    "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
+    "avatarAlt": "微观技术 - 独家号",
+    "subjectName": "微观技术",
+    "homeUrl": "/subjects/348507"
+  },
+  {
     "title": "徒手用 Go 写个 Redis 服务器",
     "description": " 作者：HDT3213 今天给大家带来的开源项目是 Godis：一个用 Go 语言实现的 Redis 服务器。支持：5 种数据结构（string、list、hash、set、sor...",
     "votes": "120",
@@ -112,22 +122,12 @@
   {
     "title": "其实 Linux IO 模型没那么难",
     "description": "IO 其实就是 Input 和 Output，在操作系统中就对应数据流的输入与输出。这个数据流的两端，可以是文件，也可以是网络的一台主机。但无论是文件，还是网络主机，其传输都是类似...",
-    "votes": "100",
+    "votes": "102",
     "url": "/k/ihp2ujh",
     "avatar": "https://img.toutiao.io/subject%2Fdc985e32ff464581afaa81f175880312",
     "avatarAlt": "dotnet - 独家号",
     "subjectName": "dotnet",
     "homeUrl": "/subjects/348014"
-  },
-  {
-    "title": "代码写的烂，经常被同事怼，教你一招",
-    "description": "大家好，我是Tom哥~面对复杂的业务场景，千变万化的客户需求，如何以一变应万变，以最小的开发成本快速落地实现，同时保证系统有着较低的复杂度，能够保证系统后续de持续迭代能力，让系统...",
-    "votes": "101",
-    "url": "/k/4hdm0ni",
-    "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
-    "avatarAlt": "微观技术 - 独家号",
-    "subjectName": "微观技术",
-    "homeUrl": "/subjects/348507"
   },
   {
     "title": "携程最终一致和强一致性缓存实践",
@@ -172,7 +172,7 @@
   {
     "title": "第三方 API 对接如何设计接口认证？",
     "description": "点击上方“陶陶技术笔记”关注我 回复“资料”获取作者整理的大量学习资料！  一、前言  在与第三方系统做接口对接时，往往需要考虑接口的安全性问题，本文主要分享几个常见的系统之间做接...",
-    "votes": "97",
+    "votes": "98",
     "url": "/k/wu7tc8w",
     "avatar": "https://img.toutiao.io/subject%2F669b39ba3005429ea2ffc929debc32c2",
     "avatarAlt": "陶陶技术笔记 - 独家号",
@@ -182,7 +182,7 @@
   {
     "title": "手痒想写项目？我挑了 10 个开源项目送你",
     "description": " 我刚学完 Python 语法那会儿，手痒想写个项目展示自己的学习成果。但却不知道写个啥，经过几次失败的尝试和碰壁后认清了现实，发现到自己只是刚学会基本语法，想要从零写个项目还差得...",
-    "votes": "99",
+    "votes": "102",
     "url": "/k/nw9yd13",
     "avatar": "https://img.toutiao.io/subject%2Fb751657c3aaa4ac59db50c07db41e538",
     "avatarAlt": "HelloGitHub - 独家号",
@@ -198,16 +198,6 @@
     "avatarAlt": "Bloomingroses - 独家号",
     "subjectName": "Bloomingroses",
     "homeUrl": "/subjects/98777"
-  },
-  {
-    "title": "利用 Kubernetes 搭建便携式开发环境之 MySQL 和 Redis",
-    "description": "之前给大家介绍过， 我自己用的开发环境都是容器化的，只不过前两年不会用K8，大部分都是用的 Docker 或者 Docker-Compose。随着这一年多对 K8 的学习和工作中的...",
-    "votes": "85",
-    "url": "/k/kkc4ght",
-    "avatar": "https://img.toutiao.io/subject%2F5a80999e5b844812b72eedbc7f5fb5be",
-    "avatarAlt": "网管叨bi叨 - 独家号",
-    "subjectName": "网管叨bi叨",
-    "homeUrl": "/subjects/437466"
   },
   {
     "title": "月薪两万程序员应该知道的编程模型",
@@ -230,6 +220,16 @@
     "homeUrl": "/subjects/268968"
   },
   {
+    "title": "2021 年 5 月大厂面试总结",
+    "description": "❝ 本文 9793 字，读完需要 30 分钟左右，适合在早高峰拥挤的地铁中阅读，你可能正在面试的路上，或者准备出去面试，无论怎样，本文都会给你带来不小的收获。我们也邀请了高飞来小道...",
+    "votes": "85",
+    "url": "/k/jzi9mfx",
+    "avatar": "https://img.toutiao.io/subject%2F4f83c9adf7724579826ecfe05ebcfbd8",
+    "avatarAlt": "测试之家 - 独家号",
+    "subjectName": "测试之家",
+    "homeUrl": "/subjects/21748"
+  },
+  {
     "title": "近期做的稳定性建设总结",
     "description": "背景近期业界频繁出现较大的稳定性事故，引发社会舆情。湖北十堰也发生了安全的大事故。海因里希法则告诉我们：一件重大事故的背后总是有29件轻微事故+300件潜在隐患。我们要把这些事件当...",
     "votes": "81",
@@ -240,13 +240,13 @@
     "homeUrl": "/subjects/350352"
   },
   {
-    "title": "这可能是最轻量高效的运维监控工具：开源 WGCLOUD",
-    "description": "WGCLOUD设计思想为新一代极简运维监控系统，提倡快速部署，降低运维学习难度，全自动化运行，无模板和脚本。码云：https://gitee.com/wanghouhou/wgcl...",
-    "votes": "81",
-    "url": "/k/l55l3jp",
-    "avatar": "https://img.toutiao.io/default-avatar.png",
-    "avatarAlt": "u584675的独家号 - 独家号",
-    "subjectName": "u584675的独家号",
-    "homeUrl": "/subjects/460814"
+    "title": "十二张图，踹开消息队列的大门",
+    "description": "消息队列つ登场 大家好，我是老三，是一个电商公司的程序员，负责订单系统的开发。掉了不少头发之后，我完成了用户订单支付的开发。订单支付的业务是这样的。用户支付完成之后，我需要更新订单...",
+    "votes": "87",
+    "url": "/k/bfhn09h",
+    "avatar": "https://img.toutiao.io/subject%2F785b9391ccd74d88bfc5ccd391fb4365",
+    "avatarAlt": "三分恶 - 独家号",
+    "subjectName": "三分恶",
+    "homeUrl": "/subjects/454266"
   }
 ]
