@@ -14,7 +14,7 @@
     "url": "https://segmentfault.com/a/1190000040319089",
     "author": "大新",
     "home_url": "https://segmentfault.com/u/haijun_5e7e16c909f52",
-    "votes": "25",
+    "votes": "26",
     "rank": 2
   },
   {
@@ -23,7 +23,7 @@
     "url": "https://segmentfault.com/a/1190000040345272",
     "author": "葡萄城技术团队",
     "home_url": "https://segmentfault.com/u/grapecity",
-    "votes": "16",
+    "votes": "17",
     "rank": 3
   },
   {
@@ -41,7 +41,7 @@
     "url": "https://segmentfault.com/a/1190000040340016",
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
-    "votes": "14",
+    "votes": "15",
     "rank": 5
   },
   {
@@ -50,16 +50,16 @@
     "url": "https://segmentfault.com/a/1190000040346438",
     "author": "snakesss",
     "home_url": "https://segmentfault.com/u/snakesss",
-    "votes": "9",
+    "votes": "10",
     "rank": 6
   },
   {
-    "title": "国内外开源大咖云集，首次 Apache 亚洲会议主题演讲预告",
-    "description": "ApacheCon 是 Apache 软件基金会（ASF）的官方全球系列大会。作为久负盛名的开源盛宴，ApacheCon 在开源界备受关注，也是开源运动早期的知名活动之一。",
-    "url": "https://segmentfault.com/a/1190000040345893",
-    "author": "snakesss",
-    "home_url": "https://segmentfault.com/u/snakesss",
-    "votes": "4",
+    "title": "写给中高级前端关于性能优化的9大策略和6大指标 | 网易四年实践",
+    "description": "笔者近半年一直在参与项目重构，在重构过程中大量应用性能优化和设计模式两方面的知识。性能优化和设计模式两方面的知识不管在工作还是面试时都是高频应用场景，趁着这次参与大规模项目重构的机会，笔者认真梳理...",
+    "url": "https://segmentfault.com/a/1190000040343057",
+    "author": "JowayYoung",
+    "home_url": "https://segmentfault.com/u/yangzw",
+    "votes": "9",
     "rank": 7
   },
   {
@@ -68,15 +68,15 @@
     "url": "https://segmentfault.com/a/1190000040320852",
     "author": "范文杰",
     "home_url": "https://segmentfault.com/u/fanwenjie",
-    "votes": "6",
+    "votes": "7",
     "rank": 8
   },
   {
-    "title": "怎样把箭头函数作为事件侦听器的回调",
-    "description": "ES6 引入了箭头函数的概念，这是一种新的定义和编写函数的方法。虽然它看起来像是常规函数的句法糖，但它们之间的关键差异是对 this 的绑定方式。在本文中并不会涉及关于 this 的大量细节",
-    "url": "https://segmentfault.com/a/1190000040288856",
-    "author": "疯狂的技术宅",
-    "home_url": "https://segmentfault.com/u/evilboy",
+    "title": "国内外开源大咖云集，首次 Apache 亚洲会议主题演讲预告",
+    "description": "ApacheCon 是 Apache 软件基金会（ASF）的官方全球系列大会。作为久负盛名的开源盛宴，ApacheCon 在开源界备受关注，也是开源运动早期的知名活动之一。",
+    "url": "https://segmentfault.com/a/1190000040345893",
+    "author": "snakesss",
+    "home_url": "https://segmentfault.com/u/snakesss",
     "votes": "4",
     "rank": 9
   },
@@ -99,31 +99,22 @@
     "rank": 11
   },
   {
-    "title": "突破Hooks所有限制，只要50行代码",
-    "description": "大家好，我是卡颂。你是否很讨厌Hooks调用顺序的限制（Hooks不能写在条件语句里）？你是否遇到过在useEffect中使用了某个state，又忘记将其加入依赖项，导致useEffect回调执行时机出问题？怪自己粗心？怪自己不好...",
-    "url": "https://segmentfault.com/a/1190000040317048",
-    "author": "卡颂",
-    "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "5",
+    "title": "中国唯一一位女性 Apache Member 潘娟：我们还是要走出自己与众不同的 My Way",
+    "description": "ApacheCon 是 Apache 软件基金会（ASF）的官方全球系列大会。作为久负盛名的开源盛宴，ApacheCon 在开源界备受关注，也是开源运动早期的知名活动之一。",
+    "url": "https://segmentfault.com/a/1190000040352390",
+    "author": "思否编辑部",
+    "home_url": "https://segmentfault.com/u/writers",
+    "votes": "2",
     "rank": 12
   },
   {
-    "title": "微信小程序登录的坑",
-    "description": "一开始处理登录的时候，前端通过 wx.login 获取到 code，然后通过 wx.getUserInfo 获取用户相关的信息，一起传递给后端，后端进行 sha1 验证，但是每次登录的时候，第一次验证不通过，导致登录不成功，需要第二次...",
-    "url": "https://segmentfault.com/a/1190000040312021",
-    "author": "kumfo",
-    "home_url": "https://segmentfault.com/u/kumfo",
-    "votes": "5",
+    "title": "尤雨溪的5KB petite-vue源码解析",
+    "description": "写在开头近期尤雨溪发布了5kb的petite-vue,好奇的我,clone了他的源码，给大家解析一波。最近由于工作事情多，所以放缓了原创的脚步！大家谅解想看我往期手写源码+各种源码解析的可以关注我公众号看我的GitHub,基...",
+    "url": "https://segmentfault.com/a/1190000040344031",
+    "author": "Peter谭老师",
+    "home_url": "https://segmentfault.com/u/jerrytanjinjie",
+    "votes": "6",
     "rank": 13
-  },
-  {
-    "title": "一周4大厂Java开发岗面试日记（已拿offer）",
-    "description": "在老东家五年了，总共工作整七年，经历两家公司。2021-5-30日离职。公司规模较小，项目压力不大，因为不是985/211毕业，统招本科，计算机专业。目标：中大型公司，最好是大厂，哈哈哈，不过不抱希望，毕竟背景不...",
-    "url": "https://segmentfault.com/a/1190000040315620",
-    "author": "Java架构师",
-    "home_url": "https://segmentfault.com/u/taozi_60b0b3c71b1a8",
-    "votes": "3",
-    "rank": 14
   },
   {
     "title": "redis 读写分离架构技术解析",
@@ -132,7 +123,7 @@
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "6",
-    "rank": 15
+    "rank": 14
   },
   {
     "title": "CSS 计数器实现九宫格自动提示超出数量",
@@ -140,8 +131,8 @@
     "url": "https://segmentfault.com/a/1190000040333874",
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "8",
-    "rank": 16
+    "votes": "9",
+    "rank": 15
   },
   {
     "title": "带你用Go轻松完成一个分布式事务TCC，保姆级教程",
@@ -150,16 +141,7 @@
     "author": "叶东富",
     "home_url": "https://segmentfault.com/u/yedongfu",
     "votes": "4",
-    "rank": 17
-  },
-  {
-    "title": "高级码农设计的程序能解耦，是多么重要的一件事情！",
-    "description": "摔杯为号、看我眼色行事、见南面火起，这是在嘎哈么？这其实是在通过事物传播进行解耦引线和炸弹，仅仅是这样的一个解耦，它放到了多少村夫莽汉，劫了法场，篡了兵权！",
-    "url": "https://segmentfault.com/a/1190000040311352",
-    "author": "小傅哥",
-    "home_url": "https://segmentfault.com/u/fuzhengwei",
-    "votes": "5",
-    "rank": 18
+    "rank": 16
   },
   {
     "title": "JS 原生方法原理探究（九）如何实现浅拷贝和深拷贝？",
@@ -168,7 +150,34 @@
     "author": "Chor",
     "home_url": "https://segmentfault.com/u/chor",
     "votes": "5",
+    "rank": 17
+  },
+  {
+    "title": "从列表生成树 (JavaScript/TypeScript)",
+    "description": "多数情况下，从服务端拿到用于树形显示的数据，本身是平面的，也就是列表。这是因为关系型数据库是以“行”为单位保存数据，所以它保存了每一个节点的数据，而这个数据中包含了它与父节点之间的联系（比如 parentId...",
+    "url": "https://segmentfault.com/a/1190000040336164",
+    "author": "边城",
+    "home_url": "https://segmentfault.com/u/jamesfancy",
+    "votes": "5",
+    "rank": 18
+  },
+  {
+    "title": "B站崩了，如何防止类似事故的出现？",
+    "description": "昨天也不例外，我一洗漱完就飞奔坐在电脑前，打开B站舞蹈区准备学习咬人喵，欣小萌、小仙若他们新的舞蹈动作，不得不说老婆们跳的真好，连我这种内向的人也不自觉的跟着扭动了起来。",
+    "url": "https://segmentfault.com/a/1190000040343216",
+    "author": "敖丙",
+    "home_url": "https://segmentfault.com/u/aobing",
+    "votes": "4",
     "rank": 19
+  },
+  {
+    "title": "前端预览 PDF 文件（使用PDFJS）",
+    "description": "哈喽大家好啊。前半年还挺忙的，一直也没有发文章，有老哥想我了嘛。这两天发现老有人私信问我 PDF 相关的内容。那么好，为了我能安心摸鱼，我准备出一篇文章来介绍一下如何使用 PDFJS 。PDF.js 是什么？PDF.js ...",
+    "url": "https://segmentfault.com/a/1190000040331855",
+    "author": "linong",
+    "home_url": "https://segmentfault.com/u/linong",
+    "votes": "6",
+    "rank": 20
   },
   {
     "title": "JS 原生方法原理探究（七）：如何实现 Object.assign()？",
@@ -177,34 +186,7 @@
     "author": "Chor",
     "home_url": "https://segmentfault.com/u/chor",
     "votes": "4",
-    "rank": 20
-  },
-  {
-    "title": "从列表生成树 (JavaScript/TypeScript)",
-    "description": "多数情况下，从服务端拿到用于树形显示的数据，本身是平面的，也就是列表。这是因为关系型数据库是以“行”为单位保存数据，所以它保存了每一个节点的数据，而这个数据中包含了它与父节点之间的联系（比如 parentId...",
-    "url": "https://segmentfault.com/a/1190000040336164",
-    "author": "边城",
-    "home_url": "https://segmentfault.com/u/jamesfancy",
-    "votes": "4",
     "rank": 21
-  },
-  {
-    "title": "精读《React 18》",
-    "description": "React 18 带来了几个非常实用的新特性，同时也没有额外的升级成本，值得仔细看一看。下面是几个关键信息：React 18 工作小组。利用社区讨论 React 18 发布节奏与新特性。发布计划。目前还没有正式发布，不过 @alp...",
-    "url": "https://segmentfault.com/a/1190000040332783",
-    "author": "黄子毅",
-    "home_url": "https://segmentfault.com/u/aoyangyudakong",
-    "votes": "5",
-    "rank": 22
-  },
-  {
-    "title": "面试现场：遇到不会回答的问题，如何力挽狂澜 ？",
-    "description": "今天给大家讲讲面试过程当中最长遇到的窘境，也是最能体现一个候选人临场应变能力的地方，那就是当我们在面试的过程当中，遇到的问题回答不上来的时候，该怎么办。",
-    "url": "https://segmentfault.com/a/1190000040327351",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "3",
-    "rank": 23
   },
   {
     "title": "Bilibili，404 Not Found",
@@ -213,7 +195,34 @@
     "author": "鸣飞",
     "home_url": "https://segmentfault.com/u/mf",
     "votes": "2",
+    "rank": 22
+  },
+  {
+    "title": "MySQL 那些常见的错误设计规范",
+    "description": "依托于互联网的发达，我们可以随时随地利用一些等车或坐地铁的碎片时间学习以及了解资讯。同时发达的互联网也方便人们能够快速分享自己的知识，与相同爱好和需求的朋友们一起共同讨论。",
+    "url": "https://segmentfault.com/a/1190000040352010",
+    "author": "云叔_又拍云",
+    "home_url": "https://segmentfault.com/u/yunshu_blog",
+    "votes": "11",
+    "rank": 23
+  },
+  {
+    "title": "精读《React 18》",
+    "description": "React 18 带来了几个非常实用的新特性，同时也没有额外的升级成本，值得仔细看一看。下面是几个关键信息：React 18 工作小组。利用社区讨论 React 18 发布节奏与新特性。发布计划。目前还没有正式发布，不过 @alp...",
+    "url": "https://segmentfault.com/a/1190000040332783",
+    "author": "黄子毅",
+    "home_url": "https://segmentfault.com/u/aoyangyudakong",
+    "votes": "5",
     "rank": 24
+  },
+  {
+    "title": "面试现场：遇到不会回答的问题，如何力挽狂澜 ？",
+    "description": "今天给大家讲讲面试过程当中最长遇到的窘境，也是最能体现一个候选人临场应变能力的地方，那就是当我们在面试的过程当中，遇到的问题回答不上来的时候，该怎么办。",
+    "url": "https://segmentfault.com/a/1190000040327351",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "3",
+    "rank": 25
   },
   {
     "title": "使用 apng-js 控制 apng 动画的播放",
@@ -222,15 +231,6 @@
     "author": "jrainlau",
     "home_url": "https://segmentfault.com/u/jrainlau",
     "votes": "3",
-    "rank": 25
-  },
-  {
-    "title": "比 MySQL 快 801 倍！ClickHouse 这么牛逼吗？是的，简直开挂！",
-    "description": "随着业务的迅猛增长，Yandex.Metrica目前已经成为世界第三大Web流量分析平台，每天处理超过200亿个跟踪事件。能够拥有如此惊人的体量，在它背后提供支撑的ClickHouse功不可没。ClickHouse已经为Yandex.Metrica存...",
-    "url": "https://segmentfault.com/a/1190000040315173",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "2",
     "rank": 26
   },
   {
@@ -243,30 +243,30 @@
     "rank": 27
   },
   {
-    "title": "58RN 页面秒开方案与实践",
-    "description": "今天和大家分享的主题是《 58RN 页面秒开方案与实践》。先自我介绍一下，我叫蒋宏伟。我在 2015 年入职的 58，在 2016 年开始在 RN 方向上开始探索，这几年来，也推进不少 RN 性能方案的落地。在落地的过程中，一...",
-    "url": "https://segmentfault.com/a/1190000040319692",
-    "author": "穿越过来的键盘手",
-    "home_url": "https://segmentfault.com/u/timetravel",
-    "votes": "3",
-    "rank": 28
-  },
-  {
     "title": "如何设计实现H5营销页面搭建系统",
     "description": "其实这些名词都与搭建相关。其中一个应用最广的场景就是营销。我们知道无论是淘宝、京东这些电商巨头，亦或是携程、去哪儿这些OTA，每天 APP 上都承接着无数的活动页面。",
     "url": "https://segmentfault.com/a/1190000040337894",
     "author": "前端森林",
     "home_url": "https://segmentfault.com/u/fengshuan",
     "votes": "4",
+    "rank": 28
+  },
+  {
+    "title": "58RN 页面秒开方案与实践",
+    "description": "今天和大家分享的主题是《 58RN 页面秒开方案与实践》。先自我介绍一下，我叫蒋宏伟。我在 2015 年入职的 58，在 2016 年开始在 RN 方向上开始探索，这几年来，也推进不少 RN 性能方案的落地。在落地的过程中，一...",
+    "url": "https://segmentfault.com/a/1190000040319692",
+    "author": "穿越过来的键盘手",
+    "home_url": "https://segmentfault.com/u/timetravel",
+    "votes": "3",
     "rank": 29
   },
   {
-    "title": "深圳最最最牛逼的 IT 公司全在这了！",
-    "description": "以前民工哥收集过 武汉 成都 上海 合肥 北京 南京等城市，今天是深圳，后面会陆续更新其他城市的。成都最最最牛逼的 IT 公司全在这了武汉最最最牛逼的 IT 公司全在这了上海有哪些牛逼的互联网公司？合肥最最最牛...",
-    "url": "https://segmentfault.com/a/1190000040329490",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "3",
+    "title": "RabbitMQ教程 1.“Hello World”",
+    "description": "消息队列作为开发中常用的中间件，主要应用于处理削峰、异步、解耦等场景。RabbitMQ因其使用简单，配置灵活，管理方便而广受使用。为了方便小白快速入门，课代表翻译了官方教程原文供大家参考，以下为其第一篇：“...",
+    "url": "https://segmentfault.com/a/1190000040318748",
+    "author": "Java课代表",
+    "home_url": "https://segmentfault.com/u/zhengxl5566",
+    "votes": "4",
     "rank": 30
   }
 ]
