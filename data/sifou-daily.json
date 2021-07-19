@@ -1,56 +1,11 @@
 [
   {
-    "title": "【设计模式】软件设计的七大原则",
-    "description": "软件设计七大原则开闭原则定义：一个软件实体如类、模块和函数应该对扩展开放，对修改关闭。用抽象构建框架，用实现扩展细节。优点：提高软件系统的可复用性及可维护性。代码示例接口： {代码...} 基类： {代码.....",
-    "url": "https://segmentfault.com/a/1190000040362663",
-    "author": "Feyl",
-    "home_url": "https://segmentfault.com/u/meixuewansuanfabugaiming",
+    "title": "两周一个小组件之List组件",
+    "description": "两周一个组件系列文章将会介绍一个个 mini 版的 react 组件的建造过程及其中的一些心得感悟， mini 版的 react 组件会参考社区中优秀的开源组件库，理解其组件的实现原理，然后吸收其中的精华应用于我的 mini 版 ...",
+    "url": "https://segmentfault.com/a/1190000040364609",
+    "author": "Promise",
+    "home_url": "https://segmentfault.com/u/yz_chen",
     "votes": "1",
     "rank": 1
-  },
-  {
-    "title": "Java 23种设计模式之工厂模式",
-    "description": "一：定义工厂模式：定义一个创建产品对象的工厂接口，将产品产品对象的实际创建工作推迟到具体子工厂类当中。这满足创建型模式中要求的“创建与使用相分离”的特点按实际业务划分：简单工厂模式，工厂方法模式和抽...",
-    "url": "https://segmentfault.com/a/1190000040361589",
-    "author": "Rocky_ruan",
-    "home_url": "https://segmentfault.com/u/rocky_ruan",
-    "votes": "1",
-    "rank": 2
-  },
-  {
-    "title": "有了这款神器，轻松用 Python 写个 APP",
-    "description": "事实上，你只需要会 Python 代码就可以了，剩下的工作都可以交给一个工具。近日，Streamlit 联合创始人 Adrien Treuille 撰文介绍其开发的机器学习工具开发框架——Streamlit，这是一款专为机器学习工程师创建的免...",
-    "url": "https://segmentfault.com/a/1190000040361134",
-    "author": "开源前哨",
-    "home_url": "https://segmentfault.com/u/kaiyuanqianshao",
-    "votes": "1",
-    "rank": 3
-  },
-  {
-    "title": "v8 执行 js 的过程",
-    "description": "本文意在简单的介绍一下 V8 执行 JS 的过程，通过了解 V8 执行 JS 的过程，知道 JS 代码呈现在浏览器上到底做了什么。当然本人也是在陆续探索 V8 ，文章中如有不当之处，还望不吝指正，理性交流。",
-    "url": "https://segmentfault.com/a/1190000040361065",
-    "author": "政采云前端团队",
-    "home_url": "https://segmentfault.com/u/zhengcaiyunqianduantuandui",
-    "votes": "2",
-    "rank": 4
-  },
-  {
-    "title": "【PHP数据结构】在学数据结构和算法的时候我们究竟学的是啥？",
-    "description": "一说到数据结构与算法，大家都会避之不及。这本来是一门专业基础课，但是大部分人都并没有学好，更不用说我这种半路出家的码农了。说实话，还是很羡慕科班出身的程序员，因为你们在日常工作或者面试中，只需要复...",
-    "url": "https://segmentfault.com/a/1190000040360780",
-    "author": "硬核项目经理",
-    "home_url": "https://segmentfault.com/u/zyblog",
-    "votes": "1",
-    "rank": 5
-  },
-  {
-    "title": "【C入门】C语言中的数组",
-    "description": "3）数组的本质是一段连续的内存，用于存储数组元素；数组的大小可以通过sizeof获取，单位：字节；sizeof(arrName)。数组的元素个数：sizeof(arrName) / sizeof(arrName[0])",
-    "url": "https://segmentfault.com/a/1190000040362675",
-    "author": "bryson",
-    "home_url": "https://segmentfault.com/u/lala_60a20654d1aa3",
-    "votes": "1",
-    "rank": 6
   }
 ]
