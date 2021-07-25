@@ -1,65 +1,38 @@
 [
   {
-    "title": "Vue 组件通信的 8 种方式",
-    "description": "做了半年的公司系统，终于就在前天上线了。后期改BUG时间拖得太长了，出现的大部分BUG 是 前端 与后端 信息不对称导致的，逻辑性错误很不多，用户体验上稍微差点，毕竟第一次做这么大的系统(100w+)，通过这次系统...",
-    "url": "https://segmentfault.com/a/1190000040390222",
-    "author": "大新",
-    "home_url": "https://segmentfault.com/u/haijun_5e7e16c909f52",
-    "votes": "13",
+    "title": "用python轻松完成一个分布式事务TCC，保姆级教程",
+    "description": "什么是分布式事务？银行跨行转账业务是一个典型分布式事务场景，假设A需要跨行转账给B，那么就涉及两个银行的数据，无法通过一个数据库的本地事务保证转账的ACID，只能够通过分布式事务来解决。",
+    "url": "https://segmentfault.com/a/1190000040396649",
+    "author": "叶东富",
+    "home_url": "https://segmentfault.com/u/yedongfu",
+    "votes": "5",
     "rank": 1
   },
   {
-    "title": "学习了 Vue defineAsyncComponent Api，它教给我这些知识？",
-    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000040271233",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "title": "深入理解JVM - 阶段总结与回顾（一）",
+    "description": "​ 开设这个专栏的目的毫无疑问是给个人的成长做一个记录和归档，因为这段时间下来发现学东西一定要系统并且有目的循序渐进的学才有更快的成长，JVM的内容和细节是学不完的，所以要清楚学这个东西的作用是什么很关...",
+    "url": "https://segmentfault.com/a/1190000040397650",
+    "author": "lazytimes",
+    "home_url": "https://segmentfault.com/u/lazytimes",
     "votes": "1",
     "rank": 2
   },
   {
-    "title": "客户端请求服务端莫名出现超时",
-    "description": "背景：客户端请求服务端域名，进行查询操作，偶尔出现200ms+延迟，且对于该请求服务端执行速度4ms左右，此问题非常诡异，决定对此进行研究. 下面记录下当时详细的定位&解决流程问题定位：1、分析代码服务端系...",
-    "url": "https://segmentfault.com/a/1190000040394947",
-    "author": "ruanjianershu",
-    "home_url": "https://segmentfault.com/u/ruanjianershu",
+    "title": "新技术篇 - Array.prototype.at()函数",
+    "description": "<!-- TOC -->相对索引方法之.at函数对字符串的补充参考：社交信息 / Social Links:(Welcome to pay attention, 欢迎关注)<!-- /TOC -->Array.prototype 上的新的新方法 --- at 函数，可以让我们更加...",
+    "url": "https://segmentfault.com/a/1190000040398034",
+    "author": "前端学长Joshua",
+    "home_url": "https://segmentfault.com/u/c_z7wgq",
     "votes": "1",
     "rank": 3
   },
   {
-    "title": "Java笔记（4）",
-    "description": "继承是面向对象三大特征之一。可以使得子类具有父类的属性和方法，还可以在子类中重新定义，追加属性和方法。继承的格式：public class 子类名 extends 父类名{ } 范例：public class Zi extends Fu { }Fu：是父...",
-    "url": "https://segmentfault.com/a/1190000040394500",
-    "author": "aefwee",
-    "home_url": "https://segmentfault.com/u/luofujian",
+    "title": "小白式部署前端页面",
+    "description": "那什么又是跨域？跨域的起源是浏览器同源策略的限制。浏览器为了安全，会限制不同源（两个协议名，域名，端口号都相同的url才是同源）之间的DOM，数据，网络操作。",
+    "url": "https://segmentfault.com/a/1190000040397623",
+    "author": "Lingo",
+    "home_url": "https://segmentfault.com/u/lingo_5f10741b3904f",
     "votes": "1",
     "rank": 4
-  },
-  {
-    "title": "用GO写一个RPC框架 s01(服务内部注册实现)",
-    "description": "Dubbo/Dubbox、Google gRPC、RPCX、Spring Boot/Spring Cloud 如此多的RPC框架 我们当然要了解下他们的原理呀",
-    "url": "https://segmentfault.com/a/1190000040395769",
-    "author": "dollarkillerx",
-    "home_url": "https://segmentfault.com/u/dollarkillerx",
-    "votes": "1",
-    "rank": 5
-  },
-  {
-    "title": "得物技术开放平台进阶之路",
-    "description": "为什么需要使用开放平台对于商家对于规模较大的商家寻求出价、订单等处理效率是对商家经营较大的提升。这些商家不只是在得物平台进行商品出售，一般也会在其他电商如：天猫、京东等平台，保证操作体验统一对于商...",
-    "url": "https://segmentfault.com/a/1190000040395389",
-    "author": "得物技术",
-    "home_url": "https://segmentfault.com/u/dewujishu",
-    "votes": "2",
-    "rank": 6
-  },
-  {
-    "title": "maven 基础知识总结",
-    "description": "Maven 是一个项目管理工具，它包含了一个项目对象模型POM (Project Object Model)，一组标准集合，一个项目生命周期(Project Lifecycle)，一个依赖管理系统(Dependency Management System)和用来运行定义在生命周...",
-    "url": "https://segmentfault.com/a/1190000040394827",
-    "author": "惜鸟",
-    "home_url": "https://segmentfault.com/u/xiniao_6051dfcd5b5e8",
-    "votes": "1",
-    "rank": 7
   }
 ]
