@@ -1,38 +1,56 @@
 [
   {
-    "title": "用python轻松完成一个分布式事务TCC，保姆级教程",
-    "description": "什么是分布式事务？银行跨行转账业务是一个典型分布式事务场景，假设A需要跨行转账给B，那么就涉及两个银行的数据，无法通过一个数据库的本地事务保证转账的ACID，只能够通过分布式事务来解决。",
-    "url": "https://segmentfault.com/a/1190000040396649",
-    "author": "叶东富",
-    "home_url": "https://segmentfault.com/u/yedongfu",
-    "votes": "5",
+    "title": "如何永久使用Let's Encrypt颁发的免费SSL证书并配置nginx，将网站由不安全HTTP升级至安全的HTTPS",
+    "description": "如果你的站点对HTTPS有强需求——出于安全需要或者需要做微信小程序（要求必须HTTPS），同时你又不想一年花个大几千购买付费SSL证书，那么使用Let's Encrypt颁发的免费SSL证书可能就是一个很棒的选择。下面来说说如...",
+    "url": "https://segmentfault.com/a/1190000040399246",
+    "author": "大雀",
+    "home_url": "https://segmentfault.com/u/funnyque",
+    "votes": "4",
     "rank": 1
   },
   {
-    "title": "深入理解JVM - 阶段总结与回顾（一）",
-    "description": "​ 开设这个专栏的目的毫无疑问是给个人的成长做一个记录和归档，因为这段时间下来发现学东西一定要系统并且有目的循序渐进的学才有更快的成长，JVM的内容和细节是学不完的，所以要清楚学这个东西的作用是什么很关...",
-    "url": "https://segmentfault.com/a/1190000040397650",
-    "author": "lazytimes",
-    "home_url": "https://segmentfault.com/u/lazytimes",
-    "votes": "1",
+    "title": "Java 并发之 Fork/Join 框架",
+    "description": "Fork/Join 框架是一种在 JDK 7 引入的线程池，用于并行执行把一个大任务拆成多个小任务并行执行，最终汇总每个小任务结果得到大任务结果的特殊任务。通过其命名也很容易看出框架主要分为 Fork 和 Join 两个阶段，...",
+    "url": "https://segmentfault.com/a/1190000040400920",
+    "author": "mghio",
+    "home_url": "https://segmentfault.com/u/mghio",
+    "votes": "2",
     "rank": 2
   },
   {
-    "title": "新技术篇 - Array.prototype.at()函数",
-    "description": "<!-- TOC -->相对索引方法之.at函数对字符串的补充参考：社交信息 / Social Links:(Welcome to pay attention, 欢迎关注)<!-- /TOC -->Array.prototype 上的新的新方法 --- at 函数，可以让我们更加...",
-    "url": "https://segmentfault.com/a/1190000040398034",
-    "author": "前端学长Joshua",
-    "home_url": "https://segmentfault.com/u/c_z7wgq",
+    "title": "编译支持 spark 读写 oss（cdh 5.x)",
+    "description": "背景：使用 spark 读取 hdfs 文件写入到 osshadoop : 2.6.0-cdh5.15.1spark : 2.4.1主要参考链接：[链接]增加了注意点和坑点",
+    "url": "https://segmentfault.com/a/1190000040400555",
+    "author": "来世愿做友人_A",
+    "home_url": "https://segmentfault.com/u/laishiyuanzuoyouren_a",
     "votes": "1",
     "rank": 3
   },
   {
-    "title": "小白式部署前端页面",
-    "description": "那什么又是跨域？跨域的起源是浏览器同源策略的限制。浏览器为了安全，会限制不同源（两个协议名，域名，端口号都相同的url才是同源）之间的DOM，数据，网络操作。",
-    "url": "https://segmentfault.com/a/1190000040397623",
-    "author": "Lingo",
-    "home_url": "https://segmentfault.com/u/lingo_5f10741b3904f",
+    "title": "前后端传输Long类型数据不一致问题（精度丢失问题）",
+    "description": "前端接收到的数据：数据库中存储的数据：问题解决：[链接]",
+    "url": "https://segmentfault.com/a/1190000040400515",
+    "author": "Feyl",
+    "home_url": "https://segmentfault.com/u/feyl",
     "votes": "1",
     "rank": 4
+  },
+  {
+    "title": "【C入门】10、指针",
+    "description": "1）指针的本质是变量，特殊之处在于指针存储的值是内存地址（内存中每个存储单元的编号：计算机中的最小存储单元是1byte ，即每个字节的编号都是一个内存地址）",
+    "url": "https://segmentfault.com/a/1190000040400376",
+    "author": "bryson",
+    "home_url": "https://segmentfault.com/u/lala_60a20654d1aa3",
+    "votes": "2",
+    "rank": 5
+  },
+  {
+    "title": "【C入门】9、宏定义",
+    "description": "3）宏是C语言中代码复用的补充方式，是对函数的一种补充；函数和宏的关系，类似于生活中演员和替身的关系，只是用于某些特殊场景。在大部分情况仍然优先考虑函数。",
+    "url": "https://segmentfault.com/a/1190000040399818",
+    "author": "bryson",
+    "home_url": "https://segmentfault.com/u/lala_60a20654d1aa3",
+    "votes": "2",
+    "rank": 6
   }
 ]
