@@ -2,7 +2,7 @@
   {
     "title": "2.5 万字详解：23 种设计模式",
     "description": "本文简述了各大设计模式，并通过UML和代码详细说明。本文大约共 2.5W 字，建议收藏。下方是本文的目录：一、设计模式的认识二、设计模式的分类根据其目的根据范围三、设计模式的优点四...",
-    "votes": "334",
+    "votes": "337",
     "url": "/k/bjjvhwf",
     "avatar": "https://img.toutiao.io/subject%2Fd00b380edf1f4c5c989adc712d44de7b",
     "avatarAlt": "乱学派 - 独家号",
@@ -12,7 +12,7 @@
   {
     "title": "95% 的算法都是基于这 6 种算法思想",
     "description": "点击上方 三分钟学前端，关注公众号 回复交流，加入前端编程面试算法每日一题群 面试官也在看的前端面试资料 算法思想是解决问题的核心，万丈高楼起于平地，在算法中也是如此，95% 的算...",
-    "votes": "293",
+    "votes": "294",
     "url": "/k/pbwl6pl",
     "avatar": "https://img.toutiao.io/subject%2Fc9bc51847b0c4b49aca52d0eaa087ed1",
     "avatarAlt": "冷星前端圈 - 独家号",
@@ -22,7 +22,7 @@
   {
     "title": "亿级系统的 Redis 缓存如何设计？",
     "description": "知识分享，以技会友。大家好，我是Tom哥。阅读本文大约需要 15 分钟。缓存设计可谓老生常谈了，早些时候都是采用memcache，现在大家更多倾向使用redis，除了知晓常用的数据...",
-    "votes": "267",
+    "votes": "268",
     "url": "/k/ep5e8sd",
     "avatar": "https://img.toutiao.io/subject%2F83f7c83d300b4884a690ef12a32a86ab",
     "avatarAlt": "微观技术 - 独家号",
@@ -32,7 +32,7 @@
   {
     "title": "架构师图谱（上篇）",
     "description": "1. 概述“架构师图谱”是一个很宏大的命题，特别是优秀的架构师自身也是“由点到面再到图”，一点点成长积累起来，尝试写这篇文章的目的更多的是结合自身的一些架构、研发、管理经验对现阶段...",
-    "votes": "263",
+    "votes": "264",
     "url": "/k/xha1t37",
     "avatar": "https://img.toutiao.io/user/dbc9de4e98fd4d27a4d938b77f9304fc/thumb",
     "avatarAlt": "小笙_的独家号 - 独家号",
@@ -60,16 +60,6 @@
     "homeUrl": "/subjects/98777"
   },
   {
-    "title": "系统设计之路：如何设计一个 URL 短链服务",
-    "description": " 每当我们学习一门新的编程语言，做的第一件事情，就是写一个 “Hello world” 程序，先让它能 Run 起来，潘多拉魔盒打开之后，再深入学习语言的其他精髓。 同样，我们在准...",
-    "votes": "238",
-    "url": "/k/6mzds1m",
-    "avatar": "https://img.toutiao.io/subject%2F229425fce44447e4ba9f4a9331ffe064",
-    "avatarAlt": "人人都是面试官 - 独家号",
-    "subjectName": "人人都是面试官",
-    "homeUrl": "/subjects/454593"
-  },
-  {
     "title": "各厂三年 Go 面经，已入字节",
     "description": "作者：内推欢迎来撩链接：https://www.nowcoder.com/discuss/662296?source=rss#at来源：牛客网常见面试问题记录  包含的公司：映客、...",
     "votes": "222",
@@ -90,6 +80,16 @@
     "homeUrl": "/subjects/161574"
   },
   {
+    "title": "25 张图，一万字，拆解 Linux 网络包发送过程",
+    "description": "在开始今天的文章之前，我先来请大家思考几个小问题。问1：我们在查看内核发送数据消耗的 CPU 时，是应该看 sy 还是 si ？问2：为什么你服务器上的 /proc/softirq...",
+    "votes": "206",
+    "url": "/k/z26byeu",
+    "avatar": "https://img.toutiao.io/subject%2F001f8de223174684862d4c9e6c752cc7",
+    "avatarAlt": "PHPER—>架构 - 独家号",
+    "subjectName": "PHPER—>架构",
+    "homeUrl": "/subjects/25390"
+  },
+  {
     "title": "最近 GitHub 上很火的 7 个项目",
     "description": "本文盘点了最近比较火的几个开源项目，涉及 Java、Python、C++ 等，这些开源项目分别是：1. Java权限认证框架2. 凤凰架构3. XMind 版 CS 基础知识笔记4...",
     "votes": "206",
@@ -100,19 +100,9 @@
     "homeUrl": "/subjects/403307"
   },
   {
-    "title": "25 张图，一万字，拆解 Linux 网络包发送过程",
-    "description": "在开始今天的文章之前，我先来请大家思考几个小问题。问1：我们在查看内核发送数据消耗的 CPU 时，是应该看 sy 还是 si ？问2：为什么你服务器上的 /proc/softirq...",
-    "votes": "205",
-    "url": "/k/z26byeu",
-    "avatar": "https://img.toutiao.io/subject%2F001f8de223174684862d4c9e6c752cc7",
-    "avatarAlt": "PHPER—>架构 - 独家号",
-    "subjectName": "PHPER—>架构",
-    "homeUrl": "/subjects/25390"
-  },
-  {
     "title": "Nginx 最全操作总结",
     "description": " 作者：chrootliu，腾讯 QQ 音乐前端开发工程师本文将会从：安装 -> 全局配置 -> 常用的各种配置 来书写，其中常用配置写的炒鸡详细，需要的童鞋可以直接滑倒相应的位置...",
-    "votes": "193",
+    "votes": "194",
     "url": "/k/0lvuhj9",
     "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
     "avatarAlt": "进击的程序猿 - 独家号",
@@ -162,7 +152,7 @@
   {
     "title": "架构师必看：架构设计的四大思维支柱",
     "description": "笔者在 InfoQ 前文《关于架构演进发展的探讨》和《架构演进的第四个趋势：行业级标准化》中，提出了笔者对架构发展趋势的一些浅见，也介绍了企业级业务架构方法论的来龙去脉，本文拟基于...",
-    "votes": "157",
+    "votes": "158",
     "url": "/k/ss8h91v",
     "avatar": "https://img.toutiao.io/subject%2F0bd01d30f85345feb85424b2928d99b2",
     "avatarAlt": "进击的程序猿 - 独家号",
@@ -230,6 +220,16 @@
     "homeUrl": "/subjects/19934"
   },
   {
+    "title": "进程和线程这 19 个问题太强了",
+    "description": " # 干了这碗鸡汤！ 我急切地盼望着可以经历一场放纵的快乐，纵使巨大的悲哀将接踵而至，我也在所不惜。-- 太宰治 《人间失格》大家好，这里是周日凌晨4点，仍在笔耕不辍的程序喵大人。...",
+    "votes": "125",
+    "url": "/k/93vqd5f",
+    "avatar": "https://img.toutiao.io/subject%2Fdc985e32ff464581afaa81f175880312",
+    "avatarAlt": "dotnet - 独家号",
+    "subjectName": "dotnet",
+    "homeUrl": "/subjects/348014"
+  },
+  {
     "title": "代码写的烂，经常被同事怼，教你一招",
     "description": "大家好，我是Tom哥~面对复杂的业务场景，千变万化的客户需求，如何以一变应万变，以最小的开发成本快速落地实现，同时保证系统有着较低的复杂度，能够保证系统后续de持续迭代能力，让系统...",
     "votes": "125",
@@ -240,13 +240,13 @@
     "homeUrl": "/subjects/348507"
   },
   {
-    "title": "进程和线程这 19 个问题太强了",
-    "description": " # 干了这碗鸡汤！ 我急切地盼望着可以经历一场放纵的快乐，纵使巨大的悲哀将接踵而至，我也在所不惜。-- 太宰治 《人间失格》大家好，这里是周日凌晨4点，仍在笔耕不辍的程序喵大人。...",
+    "title": "值得收藏，揭秘 MySQL 多版本并发控制实现原理",
+    "description": "▲ 点击上方“架构精进之路”关注公众号回复“01”领取「程序员进阶大礼包」这是「架构精进之路」公众号的第73篇原创文章MySQL 中多版本并发控制（MVCC），是现代数据库引擎实现...",
     "votes": "124",
-    "url": "/k/93vqd5f",
-    "avatar": "https://img.toutiao.io/subject%2Fdc985e32ff464581afaa81f175880312",
-    "avatarAlt": "dotnet - 独家号",
-    "subjectName": "dotnet",
-    "homeUrl": "/subjects/348014"
+    "url": "/k/r59u142",
+    "avatar": "https://img.toutiao.io/subject%2F071476c43e0d42cf95f3e77f046c814b",
+    "avatarAlt": "架构精进之路 - 独家号",
+    "subjectName": "架构精进之路",
+    "homeUrl": "/subjects/452638"
   }
 ]
