@@ -2,7 +2,7 @@
   {
     "title": "盘点 7 月份 yyds 的开源项目",
     "description": "本文盘点了 7 月份比较火的几个开源项目，涉及 Java、Python、教程等，这些开源项目分别是：1. 主流技术栈原理2. 数据可视化分析工具3. Spring 手撸专栏4. 接...",
-    "votes": "175",
+    "votes": "181",
     "url": "/k/i4jzqp3",
     "avatar": "https://img.toutiao.io/subject/03e210e126704d0ca23938746bbd4cec/thumb",
     "avatarAlt": "近半生少年 - 独家号",
@@ -10,19 +10,9 @@
     "homeUrl": "/subjects/403307"
   },
   {
-    "title": "秒杀系统你必须知道的 9 个细节",
-    "description": "大家好，我是苏三，又跟大家见面了。前言 高并发下如何设计秒杀系统？这是一个高频面试题。这个问题看似简单，但是里面的水很深，它考查的是高并发场景下，从前端到后端多方面的知识。秒杀一般...",
-    "votes": "144",
-    "url": "/k/ghq07ln",
-    "avatar": "https://img.toutiao.io/subject/96c1af0d2a0b441ca9740ee13c3e37f3/thumb",
-    "avatarAlt": "苏三说技术 - 独家号",
-    "subjectName": "苏三说技术",
-    "homeUrl": "/subjects/453205"
-  },
-  {
     "title": "高效线上问题排查：套路化和工具化",
     "description": " 作者简介  丰富，携程高级技术专家，在性能优化、问题排查方面有较多的研究。  一、前言  线上问题排查相比于coding，是一个低频的工作，很多人不会经常遇到。一旦需要进行问题排...",
-    "votes": "110",
+    "votes": "116",
     "url": "/k/qgqrokh",
     "avatar": "https://img.toutiao.io/subject/78ecbc84d295418aaf6fee0905ccd7f0/thumb",
     "avatarAlt": "携程技术中心 - 独家号",
@@ -32,7 +22,7 @@
   {
     "title": "从 0 到 1 亿用户的架构设计",
     "description": " Kirill Sh@Unsplash 高可用架构设计最核心的就是两点：解耦和冗余。解耦包括业务状态分离（无状态架构设计）、分库分表等。冗余包括缓存、CDN、主从备份、主主备份、G...",
-    "votes": "89",
+    "votes": "94",
     "url": "/k/atd4obd",
     "avatar": "https://img.toutiao.io/default-avatar.png",
     "avatarAlt": "DeepNoMind - 独家号",
@@ -40,9 +30,19 @@
     "homeUrl": "/subjects/460290"
   },
   {
+    "title": "什么是布隆过滤器？如何解决高并发缓存穿透问题？",
+    "description": "大家好，我是Tom哥~日常开发中，大家经常使用缓存，但是你知道大型的互联网公司面对高并发流量，要注意缓存穿透问题吗!!! 本文会介绍布隆过滤器，空间换时间，以较低的内存空间、高效解...",
+    "votes": "75",
+    "url": "/k/8klo399",
+    "avatar": "https://img.toutiao.io/subject/83f7c83d300b4884a690ef12a32a86ab/thumb",
+    "avatarAlt": "微观技术 - 独家号",
+    "subjectName": "微观技术",
+    "homeUrl": "/subjects/348507"
+  },
+  {
     "title": "计算机网络：TCP 协议原理总结",
     "description": "本文总结 TCP 协议的原理，包括：TCP 概念和特点 可靠传输的基础机制 TCP 滑动窗口机制 TCP 重传机制 TCP 流量控制机制 TCP 拥塞控制机制 TCP 连接建立和释...",
-    "votes": "73",
+    "votes": "76",
     "url": "/k/2cf32un",
     "avatar": "https://img.toutiao.io/user/776a2999bca149088ebe52366451432a/thumb",
     "avatarAlt": "hit9 - 独家号",
@@ -52,7 +52,7 @@
   {
     "title": "MySQL 那些常见的错误设计规范",
     "description": "依托于互联网的发达，我们可以随时随地利用一些等车或坐地铁的碎片时间学习以及了解资讯。同时发达的互联网也方便人们能够快速分享自己的知识，与相同爱好和需求的朋友们一起共同讨论。但是过于...",
-    "votes": "67",
+    "votes": "69",
     "url": "/k/oaezq98",
     "avatar": "https://img.toutiao.io/subject/4f9b8a1b9ad34bf3b815671f8461ff25/thumb",
     "avatarAlt": "又拍云 - 独家号",
@@ -70,16 +70,6 @@
     "homeUrl": "/subjects/8973"
   },
   {
-    "title": "看了读者阿里面经，总结了这几个面试关键点",
-    "description": "你好，我是yes。上周末写文提到有一位读者朋友拿到了有赞阿里 offer 来感谢的事儿，他说主要是看我、艾总、安琪拉的文章，哈哈夹在两阿里P7之中的我瑟瑟发抖。今天他在艾总的公众号...",
-    "votes": "51",
-    "url": "/k/ndwzphu",
-    "avatar": "https://img.toutiao.io/subject/71da457007fd4b67a45253b271a25eee/thumb",
-    "avatarAlt": "yes的练级攻略 - 独家号",
-    "subjectName": "yes的练级攻略",
-    "homeUrl": "/subjects/443906"
-  },
-  {
     "title": "百度技术：“App 优化网络，先从 HTTPDNS 开始”",
     "description": " 一、前言 Hi，大家好，这里是承香墨影！当我们谈到优化时，一个通用的思路是将待优化的功能，拆分成一个个小的环节，再每个环节单独去分析有没有可以优化的点，App 的网络优化也是如此...",
     "votes": "50",
@@ -90,19 +80,19 @@
     "homeUrl": "/subjects/16900"
   },
   {
-    "title": "浅谈如何成为技术一号位？",
-    "description": " 前言 Aliware 绝大多数的人都有自己的思维定式，都有无形的枷锁束缚着自己的思维，从而导致行为也被束缚，所以在他人看来会有这样的现象：有些事情该做却没有做，有些事情不该做却做...",
-    "votes": "41",
-    "url": "/k/knfqsnx",
-    "avatar": "https://img.toutiao.io/subject/cc2d501408fd455d9b841cb6c8d95a6c/thumb",
-    "avatarAlt": "ASCE1885 - 独家号",
-    "subjectName": "ASCE1885",
-    "homeUrl": "/subjects/4829"
+    "title": "推荐两款超实用的 gRPC 客户端调试工具",
+    "description": "图片拍摄于2021年7月10日，湖州安吉。介绍正好看到董泽润老哥一篇关于使用WireShark分析gRPC流量的文章，学到了。原文地址:小技巧！Wireshark 让调试 grpc...",
+    "votes": "42",
+    "url": "/k/622rri2",
+    "avatar": "https://img.toutiao.io/subject/5a80999e5b844812b72eedbc7f5fb5be/thumb",
+    "avatarAlt": "网管叨bi叨 - 独家号",
+    "subjectName": "网管叨bi叨",
+    "homeUrl": "/subjects/437466"
   },
   {
     "title": "保姆级教学，22 张图揭开 ThreadLocal",
     "description": "前言图解方式来通关ThreadLocal，同时希望你们有一定的ＪＶＭ 基础，这样食用起来会更香。相信大伙对 ThreadLocal 并不陌生，工作中常用，同时也是面试高频题，但是大...",
-    "votes": "40",
+    "votes": "41",
     "url": "/k/098z7ei",
     "avatar": "https://img.toutiao.io/subject/bd79d4909e3d49c485bc20d99b91a257/thumb",
     "avatarAlt": "程序猿阿星 - 独家号",
@@ -110,34 +100,14 @@
     "homeUrl": "/subjects/459978"
   },
   {
-    "title": "测试开发知识图谱",
-    "description": "❝ 记录从单纯的测试或者技术小白如何一步步进阶成为一名合格的测试开发工程师❞ Tips文中如果有不当的地方欢迎大家指正有同学对某些点感兴趣的或者有想了解某些领域相关知识的欢迎留言和...",
-    "votes": "39",
-    "url": "/k/vz05cdo",
-    "avatar": "https://img.toutiao.io/subject/ada7dbc6e29049daa9026e4381aefe62/thumb",
-    "avatarAlt": "测开之道 - 独家号",
-    "subjectName": "测开之道",
-    "homeUrl": "/subjects/462716"
-  },
-  {
     "title": "基于 Codis 的冷热缓存优化",
     "description": "基于Codis的冷热缓存优化背景热数据运维挑战：缓存存储分别有memcache,redis,redis cluster,codis等缓存对维护和运维带来很大的挑战。冷数据成本挑战:...",
-    "votes": "36",
+    "votes": "39",
     "url": "/k/u9kv0o0",
     "avatar": "https://img.toutiao.io/subject/19c420d3b4d84959b00f29b13e475ced/thumb",
     "avatarAlt": "AggrxTech - 独家号",
     "subjectName": "AggrxTech",
     "homeUrl": "/subjects/425954"
-  },
-  {
-    "title": "如何优雅的设计 DWS 层？",
-    "description": "今天和大家聊一个老生常谈的话题，如何设计DWS层？对于数仓的分层，想必大家都不陌生。基于OneData方法论的三层数仓划分：数据引入层（ODS，Operational Data S...",
-    "votes": "33",
-    "url": "/k/guswjun",
-    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
-    "avatarAlt": "进击的程序猿 - 独家号",
-    "subjectName": "进击的程序猿",
-    "homeUrl": "/subjects/24912"
   },
   {
     "title": "前端单元测试技术方案总结",
@@ -180,9 +150,19 @@
     "homeUrl": "/subjects/191320"
   },
   {
+    "title": "Design for failure 常见的 12 种设计思想",
+    "description": "▲ 点击上方“架构精进之路”关注公众号回复“01”领取「程序员进阶大礼包」这是「架构精进之路」公众号的第76篇原创文章hello，大家好，我是张张，「架构精进之路」公号作者。通常情...",
+    "votes": "28",
+    "url": "/k/yrbuwue",
+    "avatar": "https://img.toutiao.io/subject/071476c43e0d42cf95f3e77f046c814b/thumb",
+    "avatarAlt": "架构精进之路 - 独家号",
+    "subjectName": "架构精进之路",
+    "homeUrl": "/subjects/452638"
+  },
+  {
     "title": "通俗易懂的 ReentrantLock，不懂你来砍我",
     "description": "前言自己开的坑，跪着也要填完，欢迎来到Java并发编程系列第五篇ReentrantLock，文章风格依然是图文并茂，通俗易懂，本文带读者们深入理解ReentrantLock设计思想...",
-    "votes": "28",
+    "votes": "29",
     "url": "/k/lhvmoos",
     "avatar": "https://img.toutiao.io/subject/bd79d4909e3d49c485bc20d99b91a257/thumb",
     "avatarAlt": "程序猿阿星 - 独家号",
@@ -190,13 +170,33 @@
     "homeUrl": "/subjects/459978"
   },
   {
+    "title": "iOS 程序员所有的资源",
+    "description": "对市面上几乎所有和 iOS 开发相关的资源文档进行重新整理、融合和补充，更适合国内开发者。您的 ✩ Star 是我们持续维护的最大动力！ 由于内容比较长，GitHub项目首页文档显...",
+    "votes": "31",
+    "url": "/k/sif3l68",
+    "avatar": "https://img.toutiao.io/subject/b966dd4ba8774541929611ffdb6a1e89/thumb",
+    "avatarAlt": "iOS开发面试干货合集 - 独家号",
+    "subjectName": "iOS开发面试干货合集",
+    "homeUrl": "/subjects/462534"
+  },
+  {
     "title": "3 年 3 款产品百万级增长方法论",
     "description": " 作者：xingtan，腾讯 PCG 产品策划做增长工作数年，从工具产品、内容产品再到社交产品，最终都收获了百万级的增长。这个过程中我深感增长方法之可拓展性：无论是做什么产品，都离...",
-    "votes": "23",
+    "votes": "25",
     "url": "/k/ajioit9",
     "avatar": "https://img.toutiao.io/subject/4c72971aff5c4e73821ac59b18ff5dd6/thumb",
     "avatarAlt": "程序员的朋友圈 - 独家号",
     "subjectName": "程序员的朋友圈",
     "homeUrl": "/subjects/378"
+  },
+  {
+    "title": "如何做分库分表，常见方案汇总",
+    "description": " 我是架构精进之路，大厂架构师，CSDN博客专家，点击上方“关注”，坚持每天为你分享技术干货，私信我回复“01”，送你一份程序员成长进阶大礼包。 一、为啥要分库分表不管是IO瓶颈，...",
+    "votes": "25",
+    "url": "/k/kqmy3hi",
+    "avatar": "https://img.toutiao.io/subject/071476c43e0d42cf95f3e77f046c814b/thumb",
+    "avatarAlt": "架构精进之路 - 独家号",
+    "subjectName": "架构精进之路",
+    "homeUrl": "/subjects/452638"
   }
 ]
