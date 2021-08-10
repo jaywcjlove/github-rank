@@ -1,18 +1,8 @@
 [
   {
-    "title": "高效线上问题排查：套路化和工具化",
-    "description": " 作者简介  丰富，携程高级技术专家，在性能优化、问题排查方面有较多的研究。  一、前言  线上问题排查相比于coding，是一个低频的工作，很多人不会经常遇到。一旦需要进行问题排...",
-    "votes": "129",
-    "url": "/k/qgqrokh",
-    "avatar": "https://img.toutiao.io/subject/78ecbc84d295418aaf6fee0905ccd7f0/thumb",
-    "avatarAlt": "携程技术中心 - 独家号",
-    "subjectName": "携程技术中心",
-    "homeUrl": "/subjects/119893"
-  },
-  {
     "title": "什么是布隆过滤器？如何解决高并发缓存穿透问题？",
     "description": "大家好，我是Tom哥~日常开发中，大家经常使用缓存，但是你知道大型的互联网公司面对高并发流量，要注意缓存穿透问题吗!!! 本文会介绍布隆过滤器，空间换时间，以较低的内存空间、高效解...",
-    "votes": "107",
+    "votes": "112",
     "url": "/k/8klo399",
     "avatar": "https://img.toutiao.io/subject/83f7c83d300b4884a690ef12a32a86ab/thumb",
     "avatarAlt": "微观技术 - 独家号",
@@ -20,19 +10,9 @@
     "homeUrl": "/subjects/348507"
   },
   {
-    "title": "从零设计可视化大屏搭建引擎",
-    "description": "相关文章: 从零开发一款可视化大屏制作平台 演示地址: V6可视化大屏编辑器 几个月前我写了一篇关于从零开发一款可视化大屏制作平台 的文章， 简单概述了一下可视化大屏搭建平台的一些...",
-    "votes": "68",
-    "url": "/k/662perp",
-    "avatar": "https://img.toutiao.io/subject/93af160555a645cf8c975529e41c3c5e/thumb",
-    "avatarAlt": "Java框架探索 - 独家号",
-    "subjectName": "Java框架探索",
-    "homeUrl": "/subjects/32544"
-  },
-  {
     "title": "简单的 Postman，还能玩出花？",
     "description": "Postman是一款我们在工作中使用频率非常高的API调试工具，估计很多童鞋在使用它时也比较粗暴，填好接口地址、参数，直接send就完事了，估计大家要说了，这么简单的东西还能玩出什...",
-    "votes": "59",
+    "votes": "76",
     "url": "/k/94q54nm",
     "avatar": "https://img.toutiao.io/subject/d958b6b7b252470c838a8189621b3709/thumb",
     "avatarAlt": "码农参上 - 独家号",
@@ -40,14 +20,34 @@
     "homeUrl": "/subjects/457899"
   },
   {
+    "title": "从零设计可视化大屏搭建引擎",
+    "description": "相关文章: 从零开发一款可视化大屏制作平台 演示地址: V6可视化大屏编辑器 几个月前我写了一篇关于从零开发一款可视化大屏制作平台 的文章， 简单概述了一下可视化大屏搭建平台的一些...",
+    "votes": "73",
+    "url": "/k/662perp",
+    "avatar": "https://img.toutiao.io/subject/93af160555a645cf8c975529e41c3c5e/thumb",
+    "avatarAlt": "Java框架探索 - 独家号",
+    "subjectName": "Java框架探索",
+    "homeUrl": "/subjects/32544"
+  },
+  {
     "title": "推荐两款超实用的 gRPC 客户端调试工具",
     "description": "图片拍摄于2021年7月10日，湖州安吉。介绍正好看到董泽润老哥一篇关于使用WireShark分析gRPC流量的文章，学到了。原文地址:小技巧！Wireshark 让调试 grpc...",
-    "votes": "52",
+    "votes": "54",
     "url": "/k/622rri2",
     "avatar": "https://img.toutiao.io/subject/5a80999e5b844812b72eedbc7f5fb5be/thumb",
     "avatarAlt": "网管叨bi叨 - 独家号",
     "subjectName": "网管叨bi叨",
     "homeUrl": "/subjects/437466"
+  },
+  {
+    "title": "[译] 图解 Go 微服务熔断器",
+    "description": "说明原文中Circuit Breakers这里翻译为了熔断器，大家也可以理解叫为断路器fallback本文翻译为兜底，大家也可以理解为容错补救。本文翻译自https://ioshe...",
+    "votes": "44",
+    "url": "/k/ewzp9hr",
+    "avatar": "https://img.toutiao.io/subject/3f69ffc3bdf6496e86439348166e3ed7/thumb",
+    "avatarAlt": "GoHackers - 独家号",
+    "subjectName": "GoHackers",
+    "homeUrl": "/subjects/1385"
   },
   {
     "title": "基于 Codis 的冷热缓存优化",
@@ -60,9 +60,19 @@
     "homeUrl": "/subjects/425954"
   },
   {
+    "title": "面试必问的 ThreadLocal 细节，其他文章里写的真的对吗？",
+    "description": "ThreadLocal的作用是什么？使用时有哪些注意事项？为什么ThreadLocalMap中的Entry要使用WeakReference？netty中FastThreadLoca...",
+    "votes": "42",
+    "url": "/k/12dqepa",
+    "avatar": "https://img.toutiao.io/subject/5c05b5bf20fc4a7d84ca0cc73ceb3b72/thumb",
+    "avatarAlt": "bytejava - 独家号",
+    "subjectName": "bytejava",
+    "homeUrl": "/subjects/191320"
+  },
+  {
     "title": "Design for failure 常见的 12 种设计思想",
     "description": "▲ 点击上方“架构精进之路”关注公众号回复“01”领取「程序员进阶大礼包」这是「架构精进之路」公众号的第76篇原创文章hello，大家好，我是张张，「架构精进之路」公号作者。通常情...",
-    "votes": "40",
+    "votes": "42",
     "url": "/k/yrbuwue",
     "avatar": "https://img.toutiao.io/subject/071476c43e0d42cf95f3e77f046c814b/thumb",
     "avatarAlt": "架构精进之路 - 独家号",
@@ -70,19 +80,9 @@
     "homeUrl": "/subjects/452638"
   },
   {
-    "title": "了解这些软件设计思想，你的思维至少上升一个段位",
-    "description": "每天早上七点三十，准时推送干货 一、介绍 在 1994 年，由 Erich Gamma、Richard Helm、Ralph Johnson 和 John Vlissides 四人...",
-    "votes": "35",
-    "url": "/k/mjj6g4o",
-    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
-    "avatarAlt": "进击的程序猿 - 独家号",
-    "subjectName": "进击的程序猿",
-    "homeUrl": "/subjects/24912"
-  },
-  {
     "title": "2021 年 Go 生态圈 rpc 框架 benchmark",
     "description": "有朋友问，每年年初的时候我会发布一个rpc的框架的大比拼，今年为啥没有了？ 有几个原因，一是我去年下半年换了一份工作，熟悉新的业务耗费了很大精力，导致博客文章相对少了，开源的贡献也...",
-    "votes": "39",
+    "votes": "46",
     "url": "/k/nwr0uyg",
     "avatar": "https://img.toutiao.io/user/1c3583c21dff4a4d9865d093c5fba132/thumb",
     "avatarAlt": "一亩三分地 - 独家号",
@@ -90,24 +90,14 @@
     "homeUrl": "/subjects/796"
   },
   {
-    "title": "通俗易懂的 ReentrantLock，不懂你来砍我",
-    "description": "前言自己开的坑，跪着也要填完，欢迎来到Java并发编程系列第五篇ReentrantLock，文章风格依然是图文并茂，通俗易懂，本文带读者们深入理解ReentrantLock设计思想...",
-    "votes": "36",
-    "url": "/k/lhvmoos",
-    "avatar": "https://img.toutiao.io/subject/bd79d4909e3d49c485bc20d99b91a257/thumb",
-    "avatarAlt": "程序猿阿星 - 独家号",
-    "subjectName": "程序猿阿星",
-    "homeUrl": "/subjects/459978"
-  },
-  {
-    "title": "3 年 3 款产品百万级增长方法论",
-    "description": " 作者：xingtan，腾讯 PCG 产品策划做增长工作数年，从工具产品、内容产品再到社交产品，最终都收获了百万级的增长。这个过程中我深感增长方法之可拓展性：无论是做什么产品，都离...",
-    "votes": "28",
-    "url": "/k/ajioit9",
-    "avatar": "https://img.toutiao.io/subject/4c72971aff5c4e73821ac59b18ff5dd6/thumb",
-    "avatarAlt": "程序员的朋友圈 - 独家号",
-    "subjectName": "程序员的朋友圈",
-    "homeUrl": "/subjects/378"
+    "title": "了解这些软件设计思想，你的思维至少上升一个段位",
+    "description": "每天早上七点三十，准时推送干货 一、介绍 在 1994 年，由 Erich Gamma、Richard Helm、Ralph Johnson 和 John Vlissides 四人...",
+    "votes": "39",
+    "url": "/k/mjj6g4o",
+    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
+    "avatarAlt": "进击的程序猿 - 独家号",
+    "subjectName": "进击的程序猿",
+    "homeUrl": "/subjects/24912"
   },
   {
     "title": "创业公司团队管理的四大挑战（裁人篇）",
@@ -118,6 +108,16 @@
     "avatarAlt": "数据智能 - 独家号",
     "subjectName": "数据智能",
     "homeUrl": "/subjects/1"
+  },
+  {
+    "title": "恐惧和自我偏见：成长的最大障碍",
+    "description": "我们每个人都有一些害怕的事情，成长就是克服恐惧，做到原来不敢做的事情。如果自己都不相信自己能做到，还有谁会相信我们呢？只有克服内心的恐惧和自我偏见，才能收获成长。原文链接：[Fea...",
+    "votes": "33",
+    "url": "/k/45ae6zg",
+    "avatar": "https://img.toutiao.io/default-avatar.png",
+    "avatarAlt": "DeepNoMind - 独家号",
+    "subjectName": "DeepNoMind",
+    "homeUrl": "/subjects/460290"
   },
   {
     "title": "ActiveMQ 架构设计与最佳实践，需要一万字",
@@ -152,7 +152,7 @@
   {
     "title": "从零开始写一个微前端框架（渲染篇）",
     "description": "前言自从微前端框架micro-app开源后，很多小伙伴都非常感兴趣，问我是如何实现的，但这并不是几句话可以说明白的。为了讲清楚其中的原理，我会从零开始实现一个简易的微前端框架，它的...",
-    "votes": "31",
+    "votes": "32",
     "url": "/k/1r35tnn",
     "avatar": "https://img.toutiao.io/user/055ac8d13e004edca71bafec54841f73/thumb",
     "avatarAlt": "u586562的独家号 - 独家号",
@@ -160,9 +160,29 @@
     "homeUrl": "/subjects/462687"
   },
   {
+    "title": "让后端写个 API 文档就有那么难吗？",
+    "description": "难，是真的难！程序员最讨厌的两件事：1. 写文档，2. 别人不写文档。大多数开发人员不愿意写 API 文档的原因：写文档短期收益远低于付出的成本，然而并不是所有人都能够坚持做有长期...",
+    "votes": "29",
+    "url": "/k/yvwewmr",
+    "avatar": "https://img.toutiao.io/subject/86d48939f6f04e859608c0890fb26dfd/thumb",
+    "avatarAlt": "狐哥说技术 - 独家号",
+    "subjectName": "狐哥说技术",
+    "homeUrl": "/subjects/445146"
+  },
+  {
+    "title": "自动化接口测试实践经验",
+    "description": "作者：faithchen，腾讯 PCG 测试开发工程师一、背景 自动化测试对于我们提升研发效能、CI/CD(持续集成/持续交付)是不可或缺的部分。在后台自动化测试中，接口测试尤为重...",
+    "votes": "27",
+    "url": "/k/rx3d26l",
+    "avatar": "https://img.toutiao.io/subject/f05a135abc844e719541593cad4f8c57/thumb",
+    "avatarAlt": "不错的好文 - 独家号",
+    "subjectName": "不错的好文",
+    "homeUrl": "/subjects/5551"
+  },
+  {
     "title": "从零实现一个时序数据库",
     "description": "时序数据库（TSDB: Time Series Database）大多数时候都是为了满足监控场景的需求，这里先介绍两个概念：数据点（Point）: 时序数据的数据点是一个包含 (T...",
-    "votes": "27",
+    "votes": "28",
     "url": "/k/iomso5s",
     "avatar": "https://img.toutiao.io/subject/de644bbb42b34c618fad49fb47759970/thumb",
     "avatarAlt": "4k咖啡豆 - 独家号",
@@ -170,33 +190,13 @@
     "homeUrl": "/subjects/158649"
   },
   {
-    "title": "恐惧和自我偏见：成长的最大障碍",
-    "description": "我们每个人都有一些害怕的事情，成长就是克服恐惧，做到原来不敢做的事情。如果自己都不相信自己能做到，还有谁会相信我们呢？只有克服内心的恐惧和自我偏见，才能收获成长。原文链接：[Fea...",
-    "votes": "29",
-    "url": "/k/45ae6zg",
-    "avatar": "https://img.toutiao.io/default-avatar.png",
-    "avatarAlt": "DeepNoMind - 独家号",
-    "subjectName": "DeepNoMind",
-    "homeUrl": "/subjects/460290"
-  },
-  {
-    "title": "程序员的工作周报怎么写？",
-    "description": "大多数公司都有写周报的要求，为什么要写周报？很多流于形式的周报，会让员工感到厌烦。特别是程序员，你让他写代码可以，写这种篇幅稍微大点的文字，简直要了他的命。周报作为一种文字载体，是...",
+    "title": "闲鱼同城第三方对接架构设计",
+    "description": "背景 闲鱼同城作为闲鱼本地生活的主战场，维护闲鱼基本盘闲置物品的同时，还针对闲置时间和闲置空间场景进行相关的孵化。 于买家而言：淘到经济实惠的闲置物品（二手数码），打发闲置时间（兼...",
     "votes": "25",
-    "url": "/k/5tbic1w",
-    "avatar": "https://img.toutiao.io/subject/2661709a3af44375b6f3b7522ac60189/thumb",
-    "avatarAlt": "太空编程 - 独家号",
-    "subjectName": "太空编程",
-    "homeUrl": "/subjects/454552"
-  },
-  {
-    "title": "高效学习，我的最佳实践",
-    "description": "最近奥运会，中国还是依然 NB，尤其前两天的男子百米半决赛、决赛，彻底被苏神点燃了。说是亚洲奇迹，一点也不为过。看比赛，有好的，也有气人的，比如裁判，裁判适当照顾东道主也能忍了，但...",
-    "votes": "24",
-    "url": "/k/7janhds",
-    "avatar": "https://img.toutiao.io/subject/180d026f85274c998656474cd1988d0f/thumb",
-    "avatarAlt": "四猿外 - 独家号",
-    "subjectName": "四猿外",
-    "homeUrl": "/subjects/426740"
+    "url": "/k/ij3yqee",
+    "avatar": "https://img.toutiao.io/subject/3ed8fa40fafe4ae99d932eba068ffe2b/thumb",
+    "avatarAlt": "闲鱼技术 - 独家号",
+    "subjectName": "闲鱼技术",
+    "homeUrl": "/subjects/351168"
   }
 ]

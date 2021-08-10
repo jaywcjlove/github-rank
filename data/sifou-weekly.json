@@ -1,30 +1,12 @@
 [
   {
-    "title": "前端装逼技巧 108 式（四）—— 一起摇摆",
-    "description": "《洗 练》半夜不眠，推门至院落，院中的莲雾树熟了，有一枚红果悄然坠落，我剪一段月光裹住心伤。七月的虫声是炸了线的唐诗三百，格律皆破，独独押一个锡韵：寂寂寂寂寂寂。我说：渔人哪，你竟不如一只虫子，你三...",
-    "url": "https://segmentfault.com/a/1190000040437981",
-    "author": "独钓寒江雪",
-    "home_url": "https://segmentfault.com/u/king_hcj",
-    "votes": "41",
-    "rank": 1
-  },
-  {
     "title": "接种新冠疫苗后对集群和服务化的思考",
     "description": "整套思考和想法算是一种灵光乍现，昨天下去去打了第二针疫苗，经历了一整套流程后，发现整套流程规划很有意思，感觉整套流程非常贴合这几年流行的微服务的架构思想．",
     "url": "https://segmentfault.com/a/1190000040465220",
     "author": "kumfo",
     "home_url": "https://segmentfault.com/u/kumfo",
-    "votes": "22",
-    "rank": 2
-  },
-  {
-    "title": "174道 JavaScript 面试题，助你查漏补缺",
-    "description": "最近在整理 JavaScript 的时候发现遇到了很多面试中常见的面试题，本部分主要是作者在 Github 等各大论坛收录的 JavaScript 相关知识和一些相关面试题时所做的笔记，分享这份总结给大家，对大家对 JavaScript 的...",
-    "url": "https://segmentfault.com/a/1190000040444611",
-    "author": "wscats",
-    "home_url": "https://segmentfault.com/u/wscats",
     "votes": "23",
-    "rank": 3
+    "rank": 1
   },
   {
     "title": "官宣｜VS Code 1.59 发布！Terminal 可以跨窗口移动了！",
@@ -33,7 +15,7 @@
     "author": "微软技术栈",
     "home_url": "https://segmentfault.com/u/xinyuanxiaojieyi",
     "votes": "11",
-    "rank": 4
+    "rank": 2
   },
   {
     "title": "Springboot 配置文件、隐私数据脱敏的最佳实践（原理+源码）",
@@ -41,7 +23,25 @@
     "url": "https://segmentfault.com/a/1190000040446075",
     "author": "程序员内点事",
     "home_url": "https://segmentfault.com/u/chengxy",
-    "votes": "12",
+    "votes": "13",
+    "rank": 3
+  },
+  {
+    "title": "从前端视角看浏览器隐身模式下你是如何被追踪的",
+    "description": "现代网络浏览器，大多数都增加了隐私浏览模式来浏览网页，旨在保护用户隐私。Chrome 称之为隐身模式；Opera、Safari 和 Firefox 中一般称为隐私浏览。这些模式以深色主题和蒙面人物图标为特征，可以给用户一种匿...",
+    "url": "https://segmentfault.com/a/1190000040475726",
+    "author": "独钓寒江雪",
+    "home_url": "https://segmentfault.com/u/king_hcj",
+    "votes": "13",
+    "rank": 4
+  },
+  {
+    "title": "归约、分组与分区，深入讲解JavaStream终结操作",
+    "description": "上一篇中给大家讲了Stream的前半部分知识——包括对Stream的整体概览及Stream的创建和Stream的转换流操作，并对Stream一些内部优化点做了简明的说明。",
+    "url": "https://segmentfault.com/a/1190000040465075",
+    "author": "和耳朵",
+    "home_url": "https://segmentfault.com/u/heerduo",
+    "votes": "10",
     "rank": 5
   },
   {
@@ -50,8 +50,17 @@
     "url": "https://segmentfault.com/a/1190000040426363",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "9",
+    "votes": "11",
     "rank": 6
+  },
+  {
+    "title": "带你彻底搞懂 Redis 16大应用场景！",
+    "description": "1、缓存String类型例如：热点数据缓存（例如报表、明星出轨），对象缓存、全页缓存、可以提升热点数据的访问数据。2、数据共享分布式String 类型，因为 Redis 是分布式的独立服务，可以在多个应用之间共享例如：...",
+    "url": "https://segmentfault.com/a/1190000040465231",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "9",
+    "rank": 7
   },
   {
     "title": "短视频时代不可忽视的幕后功臣竟然是它！",
@@ -60,25 +69,7 @@
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
     "votes": "8",
-    "rank": 7
-  },
-  {
-    "title": "带你彻底搞懂 Redis 16大应用场景！",
-    "description": "1、缓存String类型例如：热点数据缓存（例如报表、明星出轨），对象缓存、全页缓存、可以提升热点数据的访问数据。2、数据共享分布式String 类型，因为 Redis 是分布式的独立服务，可以在多个应用之间共享例如：...",
-    "url": "https://segmentfault.com/a/1190000040465231",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "8",
     "rank": 8
-  },
-  {
-    "title": "前端这个工种未来会继续拆分么？",
-    "description": "大家好，我是卡颂。作为前端，你和UI撕过逼么？脑中的场景前端：“上线日期定死了，你什么时候出设计稿？你不出稿子后面开发、测试都得加班！”UI：“快了快了，别催～”前端：“做好的先给我吧，我画静态页面”UI：“快...",
-    "url": "https://segmentfault.com/a/1190000040443270",
-    "author": "卡颂",
-    "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "7",
-    "rank": 9
   },
   {
     "title": "面向未来的前端开发模式 - 写于2021年",
@@ -86,6 +77,15 @@
     "url": "https://segmentfault.com/a/1190000040450217",
     "author": "Peter谭老师",
     "home_url": "https://segmentfault.com/u/jerrytanjinjie",
+    "votes": "6",
+    "rank": 9
+  },
+  {
+    "title": "git命令收藏",
+    "description": "全局配置文件：Mac 系统在 ~/.gitconfig，Windows 系统在 C:\\Users\\<用户名>\\.gitconfig。",
+    "url": "https://segmentfault.com/a/1190000040469051",
+    "author": "鹿洺",
+    "home_url": "https://segmentfault.com/u/scott_592fa510f02a5",
     "votes": "6",
     "rank": 10
   },
@@ -99,21 +99,21 @@
     "rank": 11
   },
   {
-    "title": "uni-app项目瀑布流布局,完美解决方案",
-    "description": "预览图使用教程直接复制代码 <hd-list/> 列表布局数据自己写 {代码...} {代码...} 兼容性uni-app项目中使用都兼容欢迎关注欢迎关注小程序“进阶的大前端”，800多道前端面试题在线查看",
-    "url": "https://segmentfault.com/a/1190000040453477",
-    "author": "zhou_web",
-    "home_url": "https://segmentfault.com/u/zhou_web",
-    "votes": "4",
-    "rank": 12
-  },
-  {
     "title": "如何选择最适合你的分布式事务方案",
     "description": "当我们采用服务/微服务架构，对业务进行分拆解耦后，原先在一个单体内，使用本地数据库保证ACID的数据修改，因为跨了多个服务，就不再适用了，就需要引入分布式事务来保证新的原子性。",
     "url": "https://segmentfault.com/a/1190000040468762",
     "author": "叶东富",
     "home_url": "https://segmentfault.com/u/yedongfu",
     "votes": "11",
+    "rank": 12
+  },
+  {
+    "title": "uni-app项目瀑布流布局,完美解决方案",
+    "description": "预览图使用教程直接复制代码 <hd-list/> 列表布局数据自己写 {代码...} {代码...} 兼容性uni-app项目中使用都兼容欢迎关注欢迎关注小程序“进阶的大前端”，800多道前端面试题在线查看",
+    "url": "https://segmentfault.com/a/1190000040453477",
+    "author": "zhou_web",
+    "home_url": "https://segmentfault.com/u/zhou_web",
+    "votes": "4",
     "rank": 13
   },
   {
@@ -126,40 +126,13 @@
     "rank": 14
   },
   {
-    "title": "git命令收藏",
-    "description": "全局配置文件：Mac 系统在 ~/.gitconfig，Windows 系统在 C:\\Users\\<用户名>\\.gitconfig。",
-    "url": "https://segmentfault.com/a/1190000040469051",
-    "author": "鹿洺",
-    "home_url": "https://segmentfault.com/u/scott_592fa510f02a5",
-    "votes": "5",
+    "title": "lerna+umi+antd+qiankun 搭建微服务过程",
+    "description": "公司一个开发迭代两年的项目因后期需要扩展更多的业务板块需要进行拆分，一是要满足后期不断新增板块业务不对现有业务产生影响，再者就是目前存在单项目业务量过大，开发维护难度极大，于是不得不考虑将现有业务...",
+    "url": "https://segmentfault.com/a/1190000040469227",
+    "author": "vannvan",
+    "home_url": "https://segmentfault.com/u/vannvan",
+    "votes": "6",
     "rank": 15
-  },
-  {
-    "title": "Redis挂了，流量把数据库也打挂了，怎么办？",
-    "description": "你好呀，我是歪歪。是这样的，前几天有个读者给我发消息，说面试的时候遇到一个场景题：他说他当时，一时间竟然找不到回答问题的角度，感觉自己没有回答到点子上。我仔细想了一下，确实是感到这个问题有一丝丝的...",
-    "url": "https://segmentfault.com/a/1190000040440390",
-    "author": "why技术",
-    "home_url": "https://segmentfault.com/u/whyjishu",
-    "votes": "5",
-    "rank": 16
-  },
-  {
-    "title": "归约、分组与分区，深入讲解JavaStream终结操作",
-    "description": "上一篇中给大家讲了Stream的前半部分知识——包括对Stream的整体概览及Stream的创建和Stream的转换流操作，并对Stream一些内部优化点做了简明的说明。",
-    "url": "https://segmentfault.com/a/1190000040465075",
-    "author": "和耳朵",
-    "home_url": "https://segmentfault.com/u/heerduo",
-    "votes": "4",
-    "rank": 17
-  },
-  {
-    "title": "这种微前端设计思维听说过吗？",
-    "description": "前言：最近有种感觉，好像微前端成为当下前端工程师的标配，从single-spa到qiankun，各种微前端架构解决方案层出不穷。那一夜，我在翻阅github时，留意到一个新的微前端框架，来自京东零售开源的MicroApp，号称无...",
-    "url": "https://segmentfault.com/a/1190000040456726",
-    "author": "树酱",
-    "home_url": "https://segmentfault.com/u/shu_jshu_jiashu_jianshu_jiang",
-    "votes": "3",
-    "rank": 18
   },
   {
     "title": "K8S 生态周报| Kubernetes v1.22.0 正式发布，新特性一览！",
@@ -167,8 +140,26 @@
     "url": "https://segmentfault.com/a/1190000040458143",
     "author": "张晋涛",
     "home_url": "https://segmentfault.com/u/moelove",
+    "votes": "5",
+    "rank": 16
+  },
+  {
+    "title": "这种微前端设计思维听说过吗？",
+    "description": "前言：最近有种感觉，好像微前端成为当下前端工程师的标配，从single-spa到qiankun，各种微前端架构解决方案层出不穷。那一夜，我在翻阅github时，留意到一个新的微前端框架，来自京东零售开源的MicroApp，号称无...",
+    "url": "https://segmentfault.com/a/1190000040456726",
+    "author": "树酱",
+    "home_url": "https://segmentfault.com/u/shu_jshu_jiashu_jianshu_jiang",
     "votes": "4",
-    "rank": 19
+    "rank": 17
+  },
+  {
+    "title": "json-server30秒无代码搭建一个完整的REST API服务-基础入门",
+    "description": "场景在公司进行React或者Vue项目开发的过程中，在后端尚未准备好接口时，我们需要进行数据mock来实现页面渲染、模拟前后端交互。之前我们都是这么做的：1.采用本地静态数据json的方式来模拟接口数据，但是这种方...",
+    "url": "https://segmentfault.com/a/1190000040457773",
+    "author": "山楂片",
+    "home_url": "https://segmentfault.com/u/dabao_5987cd7abaa13",
+    "votes": "6",
+    "rank": 18
   },
   {
     "title": "2024年的前端怎么干活",
@@ -177,7 +168,7 @@
     "author": "卡颂",
     "home_url": "https://segmentfault.com/u/kasong",
     "votes": "4",
-    "rank": 20
+    "rank": 19
   },
   {
     "title": "当工作遇到GIT，看这篇就够了！",
@@ -186,25 +177,16 @@
     "author": "CrazyCodes",
     "home_url": "https://segmentfault.com/u/crazycodes",
     "votes": "6",
-    "rank": 21
+    "rank": 20
   },
   {
-    "title": "几百行代码写个Mybatis，原理搞的透透的！",
-    "description": "因为我们在使用 Mybatis 的时候，只需要定义一个不需要写实现类的接口，就能通过注解或者配置SQL语句的方式，对数据库进行 CRUD 操作。",
-    "url": "https://segmentfault.com/a/1190000040439159",
-    "author": "小傅哥",
-    "home_url": "https://segmentfault.com/u/fuzhengwei",
+    "title": "VUE3 教程：理工直男都是如何一步一步带妹构建插件？",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000040237891",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "6",
-    "rank": 22
-  },
-  {
-    "title": "lerna+umi+antd+qiankun 搭建微服务过程",
-    "description": "公司一个开发迭代两年的项目因后期需要扩展更多的业务板块需要进行拆分，一是要满足后期不断新增板块业务不对现有业务产生影响，再者就是目前存在单项目业务量过大，开发维护难度极大，于是不得不考虑将现有业务...",
-    "url": "https://segmentfault.com/a/1190000040469227",
-    "author": "vannvan",
-    "home_url": "https://segmentfault.com/u/vannvan",
-    "votes": "4",
-    "rank": 23
+    "rank": 21
   },
   {
     "title": "从零开始写一个微前端框架-沙箱篇",
@@ -212,8 +194,8 @@
     "url": "https://segmentfault.com/a/1190000040455357",
     "author": "cangdu",
     "home_url": "https://segmentfault.com/u/cangdu",
-    "votes": "4",
-    "rank": 24
+    "votes": "5",
+    "rank": 22
   },
   {
     "title": "常用的css代码片段收集",
@@ -222,25 +204,16 @@
     "author": "码码码畜",
     "home_url": "https://segmentfault.com/u/mamamaxu",
     "votes": "4",
-    "rank": 25
+    "rank": 23
   },
   {
-    "title": "json-server30秒无代码搭建一个完整的REST API服务-基础入门",
-    "description": "场景在公司进行React或者Vue项目开发的过程中，在后端尚未准备好接口时，我们需要进行数据mock来实现页面渲染、模拟前后端交互。之前我们都是这么做的：1.采用本地静态数据json的方式来模拟接口数据，但是这种方...",
-    "url": "https://segmentfault.com/a/1190000040457773",
-    "author": "山楂片",
-    "home_url": "https://segmentfault.com/u/dabao_5987cd7abaa13",
-    "votes": "4",
-    "rank": 26
-  },
-  {
-    "title": "VUE3 教程：理工直男都是如何一步一步带妹构建插件？",
-    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000040237891",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "4",
-    "rank": 27
+    "title": "开发者如何快速搭建自己的电商App?",
+    "description": "面向电商购物场景，HMS Core提供了创新的电商解决方案，帮助应用快速获客、提升转化率，实现业务增长。为了帮助开发者了解如何在电商购物类应用中集成HMS Core的各项能力，HMS Core开发了电商Demo App，在这个Dem...",
+    "url": "https://segmentfault.com/a/1190000040467035",
+    "author": "华为移动服务",
+    "home_url": "https://segmentfault.com/u/hms_core",
+    "votes": "1",
+    "rank": 24
   },
   {
     "title": "React 中 setState 是一个宏任务还是微任务？",
@@ -249,7 +222,7 @@
     "author": "Shenfq",
     "home_url": "https://segmentfault.com/u/shenfq",
     "votes": "4",
-    "rank": 28
+    "rank": 25
   },
   {
     "title": "vue3-巧用指令",
@@ -258,15 +231,42 @@
     "author": "陌路凡歌",
     "home_url": "https://segmentfault.com/u/molufange",
     "votes": "3",
+    "rank": 26
+  },
+  {
+    "title": "中国大学 MOOC Android 性能优化：冷启动优化总结",
+    "description": "本文的重点在于如何定量的排查冷启动过程中的耗时操作，并提供对应的优化思路和实践方法总结。同时本文涉及到的冷启动优化主要涵盖两个方面：Application 的性能优化和 Launcher Activity 的性能优化。",
+    "url": "https://segmentfault.com/a/1190000040458955",
+    "author": "有道技术团队",
+    "home_url": "https://segmentfault.com/u/youdaotec",
+    "votes": "1",
+    "rank": 27
+  },
+  {
+    "title": "JavaScript最流行，Vue.js跻身最常用Web框架前五，Stack Overflow 2021开发者\b调查报告出炉",
+    "description": "Stack Overflow 2021 年开发者调查报告出炉。报告显示，JavaScript 连续九年蝉联最常用的编程语言；React.js 超过 jQuery 成为最常用的 Web 框架，Vue.js 从去年的第七名跻身最常用 Web 框架前五；Rust 连续六年...",
+    "url": "https://segmentfault.com/a/1190000040446912",
+    "author": "小魔",
+    "home_url": "https://segmentfault.com/u/lu",
+    "votes": "4",
+    "rank": 28
+  },
+  {
+    "title": "图解算法 | LeetCode第 70 题爬楼梯问题",
+    "description": "最近开始努力研究算法，遇到这个很有意思的题目，因为从中复习到斐波那契数列，又通过某篇资料，查到中科院官网，看了很多科普文章。深挖下去能看到很多东西。",
+    "url": "https://segmentfault.com/a/1190000040464134",
+    "author": "pingan8787",
+    "home_url": "https://segmentfault.com/u/pingan8787",
+    "votes": "2",
     "rank": 29
   },
   {
-    "title": "排序算法",
-    "description": "思路：依次比较相邻的两个数，将比较小的数放在前面，比较大的数放在后面。直到跑完一次，这时候，最大的数就放在最后一个位置了，在了它排序后应该在的位置了。依此类推，再把第二大的数冒泡到倒数第二个位置, ...",
-    "url": "https://segmentfault.com/a/1190000040443716",
-    "author": "NsNe",
-    "home_url": "https://segmentfault.com/u/nsne",
-    "votes": "2",
+    "title": "Redis 实战篇：巧用数据类型实现亿级数据统计",
+    "description": "在移动应用的业务场景中，我们需要保存这样的信息：一个 key 关联了一个数据集合，同时还要对集合中的数据进行统计排序。常见的场景如下：给一个 userId ，判断用户登陆状态；两亿用户最近 7 天的签到情况，统计 ...",
+    "url": "https://segmentfault.com/a/1190000040473964",
+    "author": "码哥字节",
+    "home_url": "https://segmentfault.com/u/magebyte",
+    "votes": "4",
     "rank": 30
   }
 ]
