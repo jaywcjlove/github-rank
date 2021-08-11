@@ -1,164 +1,56 @@
 [
   {
-    "title": "从前端视角看浏览器隐身模式下你是如何被追踪的",
-    "description": "现代网络浏览器，大多数都增加了隐私浏览模式来浏览网页，旨在保护用户隐私。Chrome 称之为隐身模式；Opera、Safari 和 Firefox 中一般称为隐私浏览。这些模式以深色主题和蒙面人物图标为特征，可以给用户一种匿...",
-    "url": "https://segmentfault.com/a/1190000040475726",
-    "author": "独钓寒江雪",
-    "home_url": "https://segmentfault.com/u/king_hcj",
-    "votes": "13",
+    "title": "这两种完全不同的JPEG加载方式，你肯定见过！",
+    "description": "现如今网站所使用的的图片格式多种多样，但是有一种图片格式占到了 74% 的使用量。它就是 JPEG，即联合图像专家组。这类文件的后缀通常为 .jpg 或 .jpeg，是摄影中常见的图片类型。",
+    "url": "https://segmentfault.com/a/1190000040492071",
+    "author": "云叔_又拍云",
+    "home_url": "https://segmentfault.com/u/yunshu_blog",
+    "votes": "6",
     "rank": 1
   },
   {
-    "title": "50天用JavaScript完成50个web项目，我学到了什么?",
-    "description": "1.Expanding Cards效果如图所示:源码在线示例[ ] 知识点总结:CSS:弹性盒子布局中的flex属性:让所有弹性盒模型对象的子元素都有相同的长度，且忽略它们内部的内容。JavaScript:利用[].filter.call()方法可快速实现...",
-    "url": "https://segmentfault.com/a/1190000040481518",
-    "author": "夕水",
-    "home_url": "https://segmentfault.com/u/xishui_5ac9a340a5484",
-    "votes": "8",
+    "title": "爆 肝 一 周 总 结 最全 JavaScript Array 方法详解",
+    "description": "前言我们在日常开发中，与接口打交道最多了，前端通过访问后端接口，然后将接口数据二次处理渲染到页面当中。二次处理的过程是 考验 Coder 对 Array 是否熟练 以及 在 何种 场景下使用哪种方法处理最优 。小编，...",
+    "url": "https://segmentfault.com/a/1190000040484203",
+    "author": "大新",
+    "home_url": "https://segmentfault.com/u/haijun_5e7e16c909f52",
+    "votes": "9",
     "rank": 2
   },
   {
-    "title": "从过去到现在，聊聊 Tree-shaking",
-    "description": "Tree-shaking 这一术语在前端社区内，起初是 Rich Harris 在 Rollup 中提出。简单概括起来，Tree-shaking 可以使得项目最终构建（Bundle）结果中只包含你实际需要的代码。",
-    "url": "https://segmentfault.com/a/1190000040476979",
-    "author": "五柳",
-    "home_url": "https://segmentfault.com/u/wjchumble",
-    "votes": "5",
+    "title": "尤雨溪凌晨官宣：Vue 3.2 已发布！",
+    "description": "今日凌晨，尤雨溪在微博平台官宣 Vue 3.2 已发布，并表示：<script setup> + TS + Volar = 真香Vue 3.2 版本包括许多重要的新功能和性能改进，但并不包含重大更改。新的单文件组件功能：<script setup&g...",
+    "url": "https://segmentfault.com/a/1190000040491409",
+    "author": "snakesss",
+    "home_url": "https://segmentfault.com/u/snakesss",
+    "votes": "2",
     "rank": 3
   },
   {
-    "title": "精读《JS with 语法》",
-    "description": "with 是一个不推荐使用的语法，因为它的作用是改变上下文，而上下文环境对开发者影响很大。本周通过 JavaScript's Forgotten Keyword (with) 这篇文章介绍一下 with 的功能。概述下面是一种使用 with 的例子： {...",
-    "url": "https://segmentfault.com/a/1190000040478283",
-    "author": "黄子毅",
-    "home_url": "https://segmentfault.com/u/aoyangyudakong",
-    "votes": "2",
+    "title": "MixPHP V3 开发流程体验 Swoole, Workerman, FPM, CLI-Server 多种运行模式介绍",
+    "description": "MixPHP V3 发布后，由于本身支持超多的执行模式，用户可能无从下手，这里先大体介绍一下：CLI-Server: 适合本机开发，零扩展依赖，Windows/MacOS 等全平台支持PHP-FPM: 适合共享开发环境部署，同时适合 admin 等...",
+    "url": "https://segmentfault.com/a/1190000040494081",
+    "author": "撸代码的乡下人",
+    "home_url": "https://segmentfault.com/u/0y_59afa7a650fd0",
+    "votes": "1",
     "rank": 4
   },
   {
-    "title": "XPage系列|是时候抛弃ButterKnife了",
-    "description": "作为 X-Library系列框架 的灵魂所在，XPage 开源两年以来，一直致力于降低Fragment使用的难度，努力实现一个Activity多Fragment的Android开发模式。",
-    "url": "https://segmentfault.com/a/1190000040485959",
-    "author": "xuexiangjys",
-    "home_url": "https://segmentfault.com/u/xuexiangjys",
-    "votes": "2",
+    "title": "CSS filter 生成不规则边框.md",
+    "description": "之前做过很多特殊的布局，比如在这两篇文章 CSS 实现优惠券的技巧 、CSS 实现支持渐变的提示框（tooltips），如下但是一直有一个痛点就是：无法给这些图形加上边框今天带来一个小技巧：利用 drop-shadow 一行代码...",
+    "url": "https://segmentfault.com/a/1190000040490964",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "1",
     "rank": 5
   },
   {
-    "title": "SpringBoot实战基于异常日志的邮件报警",
-    "description": "相信所有奋斗在一线的小伙伴，会很关心自己的系统的运行情况，一般来说，基础设施齐全一点的公司都会有完善的报警方案，那么如果我们是一个小公司呢，不能因为基础设施没有，就失去对象的感知能力吧；如果我们的...",
-    "url": "https://segmentfault.com/a/1190000040485142",
-    "author": "小灰灰Blog",
-    "home_url": "https://segmentfault.com/u/xiaohuihuiblog",
+    "title": "Chrome 92 破坏性功能，我这弹窗有何用？",
+    "description": "近期，Chrome 92 进行了发布，我们来看看 Chrome 92 中提及的一个影响比较大的破坏性改动。[链接]对于来自跨域的 iframes 将被禁止 alert、confirm 和 prompt 等功能。首先我们先来看看 Chrome 对这个破坏性的动...",
+    "url": "https://segmentfault.com/a/1190000040491909",
+    "author": "蓝色的秋风",
+    "home_url": "https://segmentfault.com/u/qiufeng_5a07f6cb96ee0",
     "votes": "2",
     "rank": 6
-  },
-  {
-    "title": "Vue表单设计器的终极解决方案",
-    "description": "VForm全称为Variant Form，寓意为灵活的、动态的、多样化的Vue表单组件。VForm提供了丰富的组件属性设置、表单交互事件和API方法，点此体验：VForm体验",
-    "url": "https://segmentfault.com/a/1190000040481192",
-    "author": "vformAdmin",
-    "home_url": "https://segmentfault.com/u/vformadmin",
-    "votes": "3",
-    "rank": 7
-  },
-  {
-    "title": "什么是跨域? 出现原因及解决方法",
-    "description": "1.跨域是什么意思？首先一个url是由：协议、域名、端口 三部分组成。（一般端口默认80）如：[链接]当一个请求url的协议、域名、端口三者之间的任意一个与当前页面url不同即为跨域。例如:当前页面url 被请求页面ur...",
-    "url": "https://segmentfault.com/a/1190000040485198",
-    "author": "HZM_无止境",
-    "home_url": "https://segmentfault.com/u/40sg4qed",
-    "votes": "1",
-    "rank": 8
-  },
-  {
-    "title": "从零开始学渗透---XSS攻击",
-    "description": "XSS攻击又称为跨站脚本攻击，其本质还是一个注入型的漏洞，它是通过前端输入可执行的代码，让页面解析，从而执行攻击者想要进行的操作，其主要分型分为反射型XSS、存储型XSS、DOM型XSS，它通常与CSRF攻击打组合拳...",
-    "url": "https://segmentfault.com/a/1190000040485196",
-    "author": "冷水泡面",
-    "home_url": "https://segmentfault.com/u/lengshuipaomian",
-    "votes": "1",
-    "rank": 9
-  },
-  {
-    "title": "离线安装rpm包并解决依赖(升级vsftpd为例)",
-    "description": "实际开发中，我们的linux服务器是处理离线状态的，并不能访问互联网。如果此时要在linux上安装或者升级软件，就只能通过rpm包的安装方式。rpm包安装有一个缺陷，就是不能处理安装包的依赖问题，这也是为什么在联...",
-    "url": "https://segmentfault.com/a/1190000040485181",
-    "author": "李胖胖",
-    "home_url": "https://segmentfault.com/u/feng_6106afbb723ae",
-    "votes": "1",
-    "rank": 10
-  },
-  {
-    "title": "Web3+vue-cli-plugin-web3modal 快速来创建你的第一个以太坊 dAPP",
-    "description": "Web3是为让互联网更去中心化、可验证、安全而发起的一组广泛的运动和协议；Web3愿景是实现无服务器、去中心化的互联网，即用户掌握自己身份、数据和命运的互联网；Web3将启动新全球数字经济系统，创造新业务模式...",
-    "url": "https://segmentfault.com/a/1190000040485056",
-    "author": "ZHUIMEN",
-    "home_url": "https://segmentfault.com/u/zhuimen",
-    "votes": "1",
-    "rank": 11
-  },
-  {
-    "title": "解密React state hook",
-    "description": "第二次点击“setCounter”按钮，虽然state的值没有变，但也触发了一次组件Counter re-render，但是没有触发组件Display re-render；即输出： {代码...}",
-    "url": "https://segmentfault.com/a/1190000040483472",
-    "author": "普拉斯强",
-    "home_url": "https://segmentfault.com/u/yaofly",
-    "votes": "1",
-    "rank": 12
-  },
-  {
-    "title": "来看看这款数字大屏炫不炫",
-    "description": "依托强大无远开发平台，可以快速实现带各种酷炫联动效果的数字化大屏。DEMO 地址：[链接]配置地址：[链接]效果图 1效果图 2实现步骤1. 完成大屏基本布局。使用一个主窗口作为背景，层号设置为 0。其他窗口设置层...",
-    "url": "https://segmentfault.com/a/1190000040482238",
-    "author": "dafanzhijian",
-    "home_url": "https://segmentfault.com/u/dafanzhijian",
-    "votes": "3",
-    "rank": 13
-  },
-  {
-    "title": "你真的懂语音特征吗？",
-    "description": "语音数据常被用于人工智能任务，但语音数据往往不能像图像任务那样直接输入到模型中训练，其在长时域上没有明显的特征变化，很难学习到语音数据的特征，加之语音的时域数据通常由16K采样率构成，即1秒16000个采样...",
-    "url": "https://segmentfault.com/a/1190000040480238",
-    "author": "华为云开发者社区",
-    "home_url": "https://segmentfault.com/u/huaweiyunkaifazheshequ",
-    "votes": "1",
-    "rank": 14
-  },
-  {
-    "title": "敲诈勒索 EA 未果后，骇客泄露其 780GB 源代码，其中包含 FIFA 21",
-    "description": "据外媒报道，一群骇客利用窃取的 EA 公司源代码数据向其勒索失败后，将被盗数据完全公布于地下黑客论坛以及 BT 网站上，根据转储副本，数据中包含《FIFA 21》足球游戏的源代码，以及支持该公司服务器端服务的工具。",
-    "url": "https://segmentfault.com/a/1190000040479018",
-    "author": "snakesss",
-    "home_url": "https://segmentfault.com/u/snakesss",
-    "votes": "1",
-    "rank": 15
-  },
-  {
-    "title": "hooks 系列九：hooks 实战",
-    "description": "\"小和山的菜鸟们\"，为前端开发者提供技术相关资讯以及系列基础文章。为更好的用户体验，请您移至我们官网小和山的菜鸟们 ( [链接] ) 进行学习，及时获取最新文章。",
-    "url": "https://segmentfault.com/a/1190000040479927",
-    "author": "小和山的菜鸟们",
-    "home_url": "https://segmentfault.com/u/xhsrookes",
-    "votes": "1",
-    "rank": 16
-  },
-  {
-    "title": "这波性能优化，太炸裂了！",
-    "description": "你好呀，我是why。不是，这不是我。我还年轻，也比他帅。这是今天文章的主人公。他叫做 Brett Wooldridge，你应该是不认识的。但是我把他的 github 截图给你看看，你一定知道他写的开源项目：看到了吗？他就是大...",
-    "url": "https://segmentfault.com/a/1190000040479356",
-    "author": "why技术",
-    "home_url": "https://segmentfault.com/u/whyjishu",
-    "votes": "1",
-    "rank": 17
-  },
-  {
-    "title": "自定义SpringBoot+Swagger中@ApiModel默认名称",
-    "description": "在 Spring 中集成 swagger 文档功能，需要通过@ApiModel注解修饰出入参的类，但是如果有两个不同包下的相同名称的类都使用了@ApiModel注解时，会导致文档被覆盖，例如：",
-    "url": "https://segmentfault.com/a/1190000040478245",
-    "author": "mokeyWie",
-    "home_url": "https://segmentfault.com/u/mokeywie",
-    "votes": "1",
-    "rank": 18
   }
 ]
