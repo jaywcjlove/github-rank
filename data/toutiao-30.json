@@ -50,6 +50,16 @@
     "homeUrl": "/subjects/19934"
   },
   {
+    "title": "树莓派家用指北",
+    "description": "前两天刚刚入职，最近几天忙着租房搬家，忙活了几天总算是住进了自己小屋里，作为一个软件工程师，怎么可以没有一台家用服务器呢？方案有很多种，上至几千元的 NAS，下至淘汰的老电脑，但是...",
+    "votes": "138",
+    "url": "/k/h2njn7z",
+    "avatar": "https://img.toutiao.io/subject/f49e289c00224ce994449b70f3c6cd5c/thumb",
+    "avatarAlt": "二进制 - 独家号",
+    "subjectName": "二进制",
+    "homeUrl": "/subjects/381811"
+  },
+  {
     "title": "值得收藏，揭秘 MySQL 多版本并发控制实现原理",
     "description": "▲ 点击上方“架构精进之路”关注公众号回复“01”领取「程序员进阶大礼包」这是「架构精进之路」公众号的第73篇原创文章MySQL 中多版本并发控制（MVCC），是现代数据库引擎实现...",
     "votes": "130",
@@ -58,16 +68,6 @@
     "avatarAlt": "架构精进之路 - 独家号",
     "subjectName": "架构精进之路",
     "homeUrl": "/subjects/452638"
-  },
-  {
-    "title": "树莓派家用指北",
-    "description": "前两天刚刚入职，最近几天忙着租房搬家，忙活了几天总算是住进了自己小屋里，作为一个软件工程师，怎么可以没有一台家用服务器呢？方案有很多种，上至几千元的 NAS，下至淘汰的老电脑，但是...",
-    "votes": "136",
-    "url": "/k/h2njn7z",
-    "avatar": "https://img.toutiao.io/subject/f49e289c00224ce994449b70f3c6cd5c/thumb",
-    "avatarAlt": "二进制 - 独家号",
-    "subjectName": "二进制",
-    "homeUrl": "/subjects/381811"
   },
   {
     "title": "将你的 Windows，快速打造成 Docker 工作站",
@@ -102,7 +102,7 @@
   {
     "title": "简单的 Postman，还能玩出花？",
     "description": "Postman是一款我们在工作中使用频率非常高的API调试工具，估计很多童鞋在使用它时也比较粗暴，填好接口地址、参数，直接send就完事了，估计大家要说了，这么简单的东西还能玩出什...",
-    "votes": "114",
+    "votes": "116",
     "url": "/k/94q54nm",
     "avatar": "https://img.toutiao.io/subject/d958b6b7b252470c838a8189621b3709/thumb",
     "avatarAlt": "码农参上 - 独家号",
@@ -112,7 +112,7 @@
   {
     "title": "从 0 到 1 亿用户的架构设计",
     "description": " Kirill Sh@Unsplash 高可用架构设计最核心的就是两点：解耦和冗余。解耦包括业务状态分离（无状态架构设计）、分库分表等。冗余包括缓存、CDN、主从备份、主主备份、G...",
-    "votes": "116",
+    "votes": "118",
     "url": "/k/atd4obd",
     "avatar": "https://img.toutiao.io/default-avatar.png",
     "avatarAlt": "DeepNoMind - 独家号",
@@ -128,16 +128,6 @@
     "avatarAlt": "JAVA日知录 - 独家号",
     "subjectName": "JAVA日知录",
     "homeUrl": "/subjects/205182"
-  },
-  {
-    "title": "如何当一个好的技术面试官？",
-    "description": "从 09 年开始，我自己做了十一年的研发工作，大概在2011年起就开始做技术面试官，这些年积累下来也有小1500余人的面试经验。一开始也是跟大家一样，甚至比候选人还紧张到后面略有心...",
-    "votes": "107",
-    "url": "/k/td2y5l7",
-    "avatar": "https://img.toutiao.io/subject/7099419508b548428645eec6ee3e7c5b/thumb",
-    "avatarAlt": "数据智能 - 独家号",
-    "subjectName": "数据智能",
-    "homeUrl": "/subjects/1"
   },
   {
     "title": "用 Go 轻松完成一个 TCC 分布式事务，保姆级教程",
@@ -158,6 +148,16 @@
     "avatarAlt": "TIGERB的技术博客 - 独家号",
     "subjectName": "TIGERB的技术博客",
     "homeUrl": "/subjects/77815"
+  },
+  {
+    "title": "性能测试基础知识体系",
+    "description": "前言 谈起性能测试，大家经常聊的是高并发、高可用、性能优化、全链路压测等Topic，听起来都挺高大上，但这些概念追本溯源，还是要落到性能测试基础的东西上。比如需求分析、场景建模、测...",
+    "votes": "92",
+    "url": "/k/f3btssh",
+    "avatar": "https://img.toutiao.io/subject/1227f0343a1546ee8e3c535cce14aa4c/thumb",
+    "avatarAlt": "工程师的自我修养之路 - 独家号",
+    "subjectName": "工程师的自我修养之路",
+    "homeUrl": "/subjects/188023"
   },
   {
     "title": "程序员可能必读书单推荐（一）",
@@ -188,16 +188,6 @@
     "avatarAlt": "hit9 - 独家号",
     "subjectName": "hit9",
     "homeUrl": "/subjects/420867"
-  },
-  {
-    "title": "性能测试基础知识体系",
-    "description": "前言 谈起性能测试，大家经常聊的是高并发、高可用、性能优化、全链路压测等Topic，听起来都挺高大上，但这些概念追本溯源，还是要落到性能测试基础的东西上。比如需求分析、场景建模、测...",
-    "votes": "89",
-    "url": "/k/f3btssh",
-    "avatar": "https://img.toutiao.io/subject/1227f0343a1546ee8e3c535cce14aa4c/thumb",
-    "avatarAlt": "工程师的自我修养之路 - 独家号",
-    "subjectName": "工程师的自我修养之路",
-    "homeUrl": "/subjects/188023"
   },
   {
     "title": "面试阿里，看这一篇就够了",
@@ -242,11 +232,21 @@
   {
     "title": "从零设计可视化大屏搭建引擎",
     "description": "相关文章: 从零开发一款可视化大屏制作平台 演示地址: V6可视化大屏编辑器 几个月前我写了一篇关于从零开发一款可视化大屏制作平台 的文章， 简单概述了一下可视化大屏搭建平台的一些...",
-    "votes": "80",
+    "votes": "81",
     "url": "/k/662perp",
     "avatar": "https://img.toutiao.io/subject/93af160555a645cf8c975529e41c3c5e/thumb",
     "avatarAlt": "Java框架探索 - 独家号",
     "subjectName": "Java框架探索",
     "homeUrl": "/subjects/32544"
+  },
+  {
+    "title": "送给水深火热的 Gopher 们的一剂解药",
+    "description": "看了看日历，现在已经是 2021 年了，偶尔还是能看到有人在发诸如 《http body 未关闭导致线上事故》，或者 《sql.Rows 未关闭半夜惊魂》类的文章，令人有一种梦回 ...",
+    "votes": "80",
+    "url": "/k/jzpfpqy",
+    "avatar": "https://img.toutiao.io/user/8ceac00d29e7482c84e79b9fb248fefc/thumb",
+    "avatarAlt": "Xargin - 独家号",
+    "subjectName": "Xargin",
+    "homeUrl": "/subjects/346278"
   }
 ]

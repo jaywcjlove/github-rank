@@ -2,7 +2,7 @@
   {
     "title": "简单的 Postman，还能玩出花？",
     "description": "Postman是一款我们在工作中使用频率非常高的API调试工具，估计很多童鞋在使用它时也比较粗暴，填好接口地址、参数，直接send就完事了，估计大家要说了，这么简单的东西还能玩出什...",
-    "votes": "114",
+    "votes": "116",
     "url": "/k/94q54nm",
     "avatar": "https://img.toutiao.io/subject/d958b6b7b252470c838a8189621b3709/thumb",
     "avatarAlt": "码农参上 - 独家号",
@@ -12,7 +12,7 @@
   {
     "title": "性能测试基础知识体系",
     "description": "前言 谈起性能测试，大家经常聊的是高并发、高可用、性能优化、全链路压测等Topic，听起来都挺高大上，但这些概念追本溯源，还是要落到性能测试基础的东西上。比如需求分析、场景建模、测...",
-    "votes": "89",
+    "votes": "92",
     "url": "/k/f3btssh",
     "avatar": "https://img.toutiao.io/subject/1227f0343a1546ee8e3c535cce14aa4c/thumb",
     "avatarAlt": "工程师的自我修养之路 - 独家号",
@@ -20,19 +20,9 @@
     "homeUrl": "/subjects/188023"
   },
   {
-    "title": "技术专家面试实战：用数组实现一个阻塞队列？",
-    "description": "ArrayBlockingQueue顾名思义，是基于数组实现的阻塞队列，阻塞队列可以用于缓冲任务，实现生产者消费者模式，例如线程池中的工作队列。那么怎么才能用数组实现阻塞队列呢？我...",
-    "votes": "75",
-    "url": "/k/90ne21d",
-    "avatar": "https://img.toutiao.io/subject/5c05b5bf20fc4a7d84ca0cc73ceb3b72/thumb",
-    "avatarAlt": "bytejava - 独家号",
-    "subjectName": "bytejava",
-    "homeUrl": "/subjects/191320"
-  },
-  {
     "title": "Java 书单：比较全的一篇",
     "description": "前言  之前写过一篇，Java核心书单，里面涵盖了几本主要的Java书籍；后来有朋友反馈说，这几本太少了，没得选；所以最近趁着有空，整理了一份稍微多点的，同时质量也比较高的书单；当...",
-    "votes": "72",
+    "votes": "79",
     "url": "/k/pp94s1f",
     "avatar": "https://img.toutiao.io/user/4e114bdc35ab48ef949d3246083c5818/thumb",
     "avatarAlt": "汤圆学Java - 独家号",
@@ -40,9 +30,29 @@
     "homeUrl": "/subjects/357541"
   },
   {
+    "title": "技术专家面试实战：用数组实现一个阻塞队列？",
+    "description": "ArrayBlockingQueue顾名思义，是基于数组实现的阻塞队列，阻塞队列可以用于缓冲任务，实现生产者消费者模式，例如线程池中的工作队列。那么怎么才能用数组实现阻塞队列呢？我...",
+    "votes": "77",
+    "url": "/k/90ne21d",
+    "avatar": "https://img.toutiao.io/subject/5c05b5bf20fc4a7d84ca0cc73ceb3b72/thumb",
+    "avatarAlt": "bytejava - 独家号",
+    "subjectName": "bytejava",
+    "homeUrl": "/subjects/191320"
+  },
+  {
+    "title": "Redis 只能做缓存？太 out 了",
+    "description": " 原创：小姐姐味道（微信公众号ID：xjjdog），欢迎分享，转载请保留出处。大多数数据库，由于经常和磁盘打交道，在高并发场景下，响应会非常的慢。为了解决这种速度差异，大多数系统都...",
+    "votes": "76",
+    "url": "/k/l84n965",
+    "avatar": "https://img.toutiao.io/subject/6b8e14b561b24dfeac075e2a8dac9bfd/thumb",
+    "avatarAlt": "小姐姐味道 - 独家号",
+    "subjectName": "小姐姐味道",
+    "homeUrl": "/subjects/351247"
+  },
+  {
     "title": "面试必问的 ThreadLocal 细节，其他文章里写的真的对吗？",
     "description": "ThreadLocal的作用是什么？使用时有哪些注意事项？为什么ThreadLocalMap中的Entry要使用WeakReference？netty中FastThreadLoca...",
-    "votes": "66",
+    "votes": "68",
     "url": "/k/12dqepa",
     "avatar": "https://img.toutiao.io/subject/5c05b5bf20fc4a7d84ca0cc73ceb3b72/thumb",
     "avatarAlt": "bytejava - 独家号",
@@ -52,7 +62,7 @@
   {
     "title": "[译] 图解 Go 微服务熔断器",
     "description": "说明原文中Circuit Breakers这里翻译为了熔断器，大家也可以理解叫为断路器fallback本文翻译为兜底，大家也可以理解为容错补救。本文翻译自https://ioshe...",
-    "votes": "52",
+    "votes": "53",
     "url": "/k/ewzp9hr",
     "avatar": "https://img.toutiao.io/subject/3f69ffc3bdf6496e86439348166e3ed7/thumb",
     "avatarAlt": "GoHackers - 独家号",
@@ -60,19 +70,9 @@
     "homeUrl": "/subjects/1385"
   },
   {
-    "title": "了解这些软件设计思想，你的思维至少上升一个段位",
-    "description": "每天早上七点三十，准时推送干货 一、介绍 在 1994 年，由 Erich Gamma、Richard Helm、Ralph Johnson 和 John Vlissides 四人...",
-    "votes": "47",
-    "url": "/k/mjj6g4o",
-    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
-    "avatarAlt": "进击的程序猿 - 独家号",
-    "subjectName": "进击的程序猿",
-    "homeUrl": "/subjects/24912"
-  },
-  {
     "title": "关于分布式事务的理解",
     "description": "文章目录： 业务场景电商业务火车票购票银行转账什么是事务？事务的特性什么是分布式事务？产生分布式事务的原因分布式理论CAP 理论BASE 理论解决方案2PC(两阶段提交协议)3PC...",
-    "votes": "51",
+    "votes": "53",
     "url": "/k/rej9y2m",
     "avatar": "https://img.toutiao.io/subject/bf13817488764502ae746a0a4798478d/thumb",
     "avatarAlt": "新亮笔记 - 独家号",
@@ -80,19 +80,9 @@
     "homeUrl": "/subjects/135111"
   },
   {
-    "title": "2021 年 Go 生态圈 rpc 框架 benchmark",
-    "description": "有朋友问，每年年初的时候我会发布一个rpc的框架的大比拼，今年为啥没有了？ 有几个原因，一是我去年下半年换了一份工作，熟悉新的业务耗费了很大精力，导致博客文章相对少了，开源的贡献也...",
-    "votes": "52",
-    "url": "/k/nwr0uyg",
-    "avatar": "https://img.toutiao.io/user/1c3583c21dff4a4d9865d093c5fba132/thumb",
-    "avatarAlt": "一亩三分地 - 独家号",
-    "subjectName": "一亩三分地",
-    "homeUrl": "/subjects/796"
-  },
-  {
     "title": "蚂蚁集团万级规模 K8s 集群 Etcd 高可用建设之路",
     "description": "蚂蚁集团运维着可能是全球最大的 K8s 集群：K8s 官方以 5k node 作为 K8s 规模化的顶峰，而蚂蚁集团事实上运维着规模达到 10k node 规模的 K8s 集群。一...",
-    "votes": "39",
+    "votes": "45",
     "url": "/k/0yu4k5h",
     "avatar": "https://img.toutiao.io/subject/81e8142d0e08426790ad005454c5f30b/thumb",
     "avatarAlt": "蚂蚁金服金融级云原生架构SOFAStack - 独家号",
@@ -102,7 +92,7 @@
   {
     "title": "全链路压测常态化方案",
     "description": "前言 大半夜熬夜写方案，顺带整理了在上家公司做性能基线和常态化压测的方案，仅供参考。 前置条件 全链路压测已在生产环境落地！ 流程机制  准备阶段 测试环境 确认被测链路变更范围 ...",
-    "votes": "40",
+    "votes": "45",
     "url": "/k/eb02o8s",
     "avatar": "https://img.toutiao.io/subject/1227f0343a1546ee8e3c535cce14aa4c/thumb",
     "avatarAlt": "工程师的自我修养之路 - 独家号",
@@ -110,24 +100,24 @@
     "homeUrl": "/subjects/188023"
   },
   {
-    "title": "让后端写个 API 文档就有那么难吗？",
-    "description": "难，是真的难！程序员最讨厌的两件事：1. 写文档，2. 别人不写文档。大多数开发人员不愿意写 API 文档的原因：写文档短期收益远低于付出的成本，然而并不是所有人都能够坚持做有长期...",
-    "votes": "39",
-    "url": "/k/yvwewmr",
-    "avatar": "https://img.toutiao.io/subject/86d48939f6f04e859608c0890fb26dfd/thumb",
-    "avatarAlt": "狐哥说技术 - 独家号",
-    "subjectName": "狐哥说技术",
-    "homeUrl": "/subjects/445146"
-  },
-  {
     "title": "如何让七岁小朋友学会系统设计",
     "description": "今天中午在家吃午饭的时候，孩子妈妈说早上和中午用的筷子比较多，待会吃完可能需要先洗一波筷子，不能直接放到洗碗机里面（我们家基本都是一天开一次洗碗机），否则晚上吃饭筷子就不够了。我最...",
-    "votes": "39",
+    "votes": "42",
     "url": "/k/ypqgfac",
     "avatar": "https://img.toutiao.io/subject/b1697e25f21346b09d07470f95dfe433/thumb",
     "avatarAlt": "东哥IT笔记 - 独家号",
     "subjectName": "东哥IT笔记",
     "homeUrl": "/subjects/347032"
+  },
+  {
+    "title": "让后端写个 API 文档就有那么难吗？",
+    "description": "难，是真的难！程序员最讨厌的两件事：1. 写文档，2. 别人不写文档。大多数开发人员不愿意写 API 文档的原因：写文档短期收益远低于付出的成本，然而并不是所有人都能够坚持做有长期...",
+    "votes": "42",
+    "url": "/k/yvwewmr",
+    "avatar": "https://img.toutiao.io/subject/86d48939f6f04e859608c0890fb26dfd/thumb",
+    "avatarAlt": "狐哥说技术 - 独家号",
+    "subjectName": "狐哥说技术",
+    "homeUrl": "/subjects/445146"
   },
   {
     "title": "四种引用类型在 Spring Boot 中的使用",
@@ -140,14 +130,14 @@
     "homeUrl": "/subjects/463028"
   },
   {
-    "title": "恐惧和自我偏见：成长的最大障碍",
-    "description": "我们每个人都有一些害怕的事情，成长就是克服恐惧，做到原来不敢做的事情。如果自己都不相信自己能做到，还有谁会相信我们呢？只有克服内心的恐惧和自我偏见，才能收获成长。原文链接：[Fea...",
-    "votes": "37",
-    "url": "/k/45ae6zg",
-    "avatar": "https://img.toutiao.io/default-avatar.png",
-    "avatarAlt": "DeepNoMind - 独家号",
-    "subjectName": "DeepNoMind",
-    "homeUrl": "/subjects/460290"
+    "title": "一文解读腾讯广告 3000+ 万行大代码库主干开发实战",
+    "description": "作者：phongchen，腾讯 CDG 后台开发工程师 导语 | 互联网行业竞争激烈，产品迭代快，其中研发效能越来越成为跑赢竞争对手的重要影响因素。需求两天就能上线和两个星期才能上...",
+    "votes": "39",
+    "url": "/k/6a3ktfk",
+    "avatar": "https://img.toutiao.io/subject/f05a135abc844e719541593cad4f8c57/thumb",
+    "avatarAlt": "不错的好文 - 独家号",
+    "subjectName": "不错的好文",
+    "homeUrl": "/subjects/5551"
   },
   {
     "title": "关于 MySQL MVCC 和面试官小战三十回合",
@@ -162,12 +152,22 @@
   {
     "title": "聊聊如何根据环境动态指定 feign 调用服务名",
     "description": "点击上方蓝字关注我们01前言 前段时间和朋友聊天，他说他部门老大给他提了一个需求，这个需求的背景是这样，他们开发环境和测试环境共用一套eureka，服务提供方的serviceId加...",
-    "votes": "29",
+    "votes": "31",
     "url": "/k/7yze5jo",
     "avatar": "https://img.toutiao.io/subject/f13d5c901ebe4d5f9509d20e36f1ee33/thumb",
     "avatarAlt": "linyb极客之路 - 独家号",
     "subjectName": "linyb极客之路",
     "homeUrl": "/subjects/406737"
+  },
+  {
+    "title": "前端 debug 的奇技淫巧",
+    "description": "为什么要写这个文章呢？其实发现很多同学对一些很简单又有效的 debug 手段都不太了解，找 bug 的方式都不是很高效，导致最终 bug 找不到或者走了很多弯路。Devtools ...",
+    "votes": "29",
+    "url": "/k/zeoi9mm",
+    "avatar": "https://img.toutiao.io/subject/2661709a3af44375b6f3b7522ac60189/thumb",
+    "avatarAlt": "太空编程 - 独家号",
+    "subjectName": "太空编程",
+    "homeUrl": "/subjects/454552"
   },
   {
     "title": "一款前端性能监控系统",
@@ -180,23 +180,23 @@
     "homeUrl": "/subjects/21974"
   },
   {
-    "title": "一文解读腾讯广告 3000+ 万行大代码库主干开发实战",
-    "description": "作者：phongchen，腾讯 CDG 后台开发工程师 导语 | 互联网行业竞争激烈，产品迭代快，其中研发效能越来越成为跑赢竞争对手的重要影响因素。需求两天就能上线和两个星期才能上...",
-    "votes": "35",
-    "url": "/k/6a3ktfk",
-    "avatar": "https://img.toutiao.io/subject/f05a135abc844e719541593cad4f8c57/thumb",
-    "avatarAlt": "不错的好文 - 独家号",
-    "subjectName": "不错的好文",
-    "homeUrl": "/subjects/5551"
-  },
-  {
     "title": "图解软件设计（一）：什么是计算机",
     "description": "第一部分 软件设计是什么要想搞清楚什么是软件设计，我们首先就要理解什么是计算机和软件。在这之后，我们再去考虑为什么要去对软件进行设计，以及在通常情况下应该怎样去设计软件。第1章 什...",
-    "votes": "26",
+    "votes": "28",
     "url": "/k/s1ubh6e",
     "avatar": "https://img.toutiao.io/subject/3f69ffc3bdf6496e86439348166e3ed7/thumb",
     "avatarAlt": "GoHackers - 独家号",
     "subjectName": "GoHackers",
     "homeUrl": "/subjects/1385"
+  },
+  {
+    "title": "消息幂等（去重）如何解决？来看看这个方案",
+    "description": " 作者 | 薛定谔的风口猪 来源 | http://t.hk.uy/GVP 消息中间件是分布式系统常用的组件，无论是异步化、解耦、削峰等都有广泛的应用价值。我们通常会认为，消息中间...",
+    "votes": "33",
+    "url": "/k/0me53zx",
+    "avatar": "https://img.toutiao.io/subject/51ad25ebdf8b4a15895a07d5bce2b1e4/thumb",
+    "avatarAlt": "JAVA日知录 - 独家号",
+    "subjectName": "JAVA日知录",
+    "homeUrl": "/subjects/205182"
   }
 ]
