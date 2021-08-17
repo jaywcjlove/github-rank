@@ -1,30 +1,12 @@
 [
   {
-    "title": "50天用JavaScript完成50个web项目，我学到了什么?",
-    "description": "1.Expanding Cards效果如图所示:源码在线示例[ ] 知识点总结:CSS:弹性盒子布局中的flex属性:让所有弹性盒模型对象的子元素都有相同的长度，且忽略它们内部的内容。JavaScript:利用[].filter.call()方法可快速实现...",
-    "url": "https://segmentfault.com/a/1190000040481518",
-    "author": "夕水",
-    "home_url": "https://segmentfault.com/u/xishui_5ac9a340a5484",
-    "votes": "48",
-    "rank": 1
-  },
-  {
-    "title": "从前端视角看浏览器隐身模式下你是如何被追踪的",
-    "description": "现代网络浏览器，大多数都增加了隐私浏览模式来浏览网页，旨在保护用户隐私。Chrome 称之为隐身模式；Opera、Safari 和 Firefox 中一般称为隐私浏览。这些模式以深色主题和蒙面人物图标为特征，可以给用户一种匿...",
-    "url": "https://segmentfault.com/a/1190000040475726",
-    "author": "独钓寒江雪",
-    "home_url": "https://segmentfault.com/u/king_hcj",
-    "votes": "28",
-    "rank": 2
-  },
-  {
     "title": "爆 肝 一 周 总 结 最全 JavaScript Array 方法详解",
     "description": "前言我们在日常开发中，与接口打交道最多了，前端通过访问后端接口，然后将接口数据二次处理渲染到页面当中。二次处理的过程是 考验 Coder 对 Array 是否熟练 以及 在 何种 场景下使用哪种方法处理最优 。小编，...",
     "url": "https://segmentfault.com/a/1190000040484203",
     "author": "大新",
     "home_url": "https://segmentfault.com/u/haijun_5e7e16c909f52",
     "votes": "31",
-    "rank": 3
+    "rank": 1
   },
   {
     "title": "前端构建这十年",
@@ -32,8 +14,8 @@
     "url": "https://segmentfault.com/a/1190000040496020",
     "author": "李十三",
     "home_url": "https://segmentfault.com/u/lishisan",
-    "votes": "16",
-    "rank": 4
+    "votes": "17",
+    "rank": 2
   },
   {
     "title": "小蝌蚪传记：js、css、html压缩与混淆汇总",
@@ -42,7 +24,7 @@
     "author": "第一名的小蝌蚪",
     "home_url": "https://segmentfault.com/u/diyimingdexiao",
     "votes": "11",
-    "rank": 5
+    "rank": 3
   },
   {
     "title": "超硬核 Web 前端学霸笔记，学完就去找工作！",
@@ -50,17 +32,26 @@
     "url": "https://segmentfault.com/a/1190000040478093",
     "author": "wscats",
     "home_url": "https://segmentfault.com/u/wscats",
-    "votes": "15",
-    "rank": 6
+    "votes": "16",
+    "rank": 4
   },
   {
-    "title": "从过去到现在，聊聊 Tree-shaking 是什么？",
-    "description": "Tree-shaking 这一术语在前端社区内，起初是 Rich Harris 在 Rollup 中提出。简单概括起来，Tree-shaking 可以使得项目最终构建（Bundle）结果中只包含你实际需要的代码。",
-    "url": "https://segmentfault.com/a/1190000040476979",
-    "author": "五柳",
-    "home_url": "https://segmentfault.com/u/wjchumble",
-    "votes": "7",
-    "rank": 7
+    "title": "我用 10000 张图片合成我们美好的瞬间",
+    "description": "好了,废话不多说,今天给大家带来是一个非常有意思的项目,通过切割目标图片,获得10000个方块,用我们所选择到的图片,对应的填充方块实现一个千图成像的效果.你可以用它来拼任何你想拼的有意义的大图.(比如我,就想用...",
+    "url": "https://segmentfault.com/a/1190000040516715",
+    "author": "荣顶",
+    "home_url": "https://segmentfault.com/u/wangrongding",
+    "votes": "11",
+    "rank": 5
+  },
+  {
+    "title": "如何抗住亿级流量之布隆过滤器",
+    "description": "这个牛轰轰的神器是布隆这位大牛在 1970 年发明的，是一个二进制向量数据结构，当时专门解决数据查询问题。可以用来告诉你 某样东西一定不存在或者可能存在。",
+    "url": "https://segmentfault.com/a/1190000040502512",
+    "author": "超大只乌龟",
+    "home_url": "https://segmentfault.com/u/chenwugui",
+    "votes": "10",
+    "rank": 6
   },
   {
     "title": "我司是怎么封装 axios 来处理百万级流量中平时少见过的问题~",
@@ -69,25 +60,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "10",
-    "rank": 8
-  },
-  {
-    "title": "来看看这款低代码实现的数字大屏炫不炫",
-    "description": "依托强大无远开发平台，可以快速实现带各种酷炫联动效果的数字化大屏。DEMO 地址：[链接]配置地址：[链接]点击城市后，会触发各个图表的联动，自己脑补效果：效果图 1效果图 2实现步骤1. 完成大屏基本布局。使用...",
-    "url": "https://segmentfault.com/a/1190000040482238",
-    "author": "dafanzhijian",
-    "home_url": "https://segmentfault.com/u/dafanzhijian",
-    "votes": "8",
-    "rank": 9
-  },
-  {
-    "title": "如何抗住亿级流量之布隆过滤器",
-    "description": "这个牛轰轰的神器是布隆这位大牛在 1970 年发明的，是一个二进制向量数据结构，当时专门解决数据查询问题。可以用来告诉你 某样东西一定不存在或者可能存在。",
-    "url": "https://segmentfault.com/a/1190000040502512",
-    "author": "超大只乌龟",
-    "home_url": "https://segmentfault.com/u/chenwugui",
-    "votes": "8",
-    "rank": 10
+    "rank": 7
   },
   {
     "title": "这两种完全不同的JPEG加载方式，你肯定见过！",
@@ -96,16 +69,7 @@
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
     "votes": "8",
-    "rank": 11
-  },
-  {
-    "title": "面试官：小伙子，你这单点登录学的可以啊",
-    "description": "上面的URL主要通过URL来描述这个当然这样做有一个弊端，那就是要求用户B用户是一定要先登录的。可不可以简化这个流程，让B用户不用登录就可以完成这个操作。JWT就允许我们做到这点。",
-    "url": "https://segmentfault.com/a/1190000040500287",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "6",
-    "rank": 12
+    "rank": 8
   },
   {
     "title": "Spring Boot参数校验以及分组校验的使用",
@@ -113,8 +77,35 @@
     "url": "https://segmentfault.com/a/1190000040497449",
     "author": "阿里云开发者",
     "home_url": "https://segmentfault.com/u/alijishu",
+    "votes": "10",
+    "rank": 9
+  },
+  {
+    "title": "面试官：小伙子，你这单点登录学的可以啊",
+    "description": "上面的URL主要通过URL来描述这个当然这样做有一个弊端，那就是要求用户B用户是一定要先登录的。可不可以简化这个流程，让B用户不用登录就可以完成这个操作。JWT就允许我们做到这点。",
+    "url": "https://segmentfault.com/a/1190000040500287",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "7",
+    "rank": 10
+  },
+  {
+    "title": "如何为你的命令行设置代理",
+    "description": "如何在命令行里使用shadowsocks或者v2rayn的代理呢？httplinux： {代码...} window: {代码...} socks(socks5)linux： {代码...} window: {代码...} 取消代理linux： {代码...} window: {代码...} git单独设置 {代...",
+    "url": "https://segmentfault.com/a/1190000040510873",
+    "author": "JenK",
+    "home_url": "https://segmentfault.com/u/wangzc996",
+    "votes": "5",
+    "rank": 11
+  },
+  {
+    "title": "线上的分布式事务是什么样的？以python的saga为例",
+    "description": "银行跨行转账业务是一个典型分布式事务场景，假设A需要跨行转账给B，那么就涉及两个银行的数据，无法通过一个数据库的本地事务保证转账的ACID，只能够通过分布式事务来解决。",
+    "url": "https://segmentfault.com/a/1190000040515787",
+    "author": "叶东富",
+    "home_url": "https://segmentfault.com/u/yedongfu",
     "votes": "9",
-    "rank": 13
+    "rank": 12
   },
   {
     "title": "如何正确跟踪广告转化数据，优化广告投放效果？",
@@ -123,16 +114,7 @@
     "author": "华为移动服务",
     "home_url": "https://segmentfault.com/u/hms_core",
     "votes": "2",
-    "rank": 14
-  },
-  {
-    "title": "这波性能优化，太炸裂了！",
-    "description": "你好呀，我是why。不是，这不是我。我还年轻，也比他帅。这是今天文章的主人公。他叫做 Brett Wooldridge，你应该是不认识的。但是我把他的 github 截图给你看看，你一定知道他写的开源项目：看到了吗？他就是大...",
-    "url": "https://segmentfault.com/a/1190000040479356",
-    "author": "why技术",
-    "home_url": "https://segmentfault.com/u/whyjishu",
-    "votes": "7",
-    "rank": 15
+    "rank": 13
   },
   {
     "title": "尤雨溪凌晨官宣：Vue 3.2 已发布！",
@@ -141,43 +123,7 @@
     "author": "snakesss",
     "home_url": "https://segmentfault.com/u/snakesss",
     "votes": "4",
-    "rank": 16
-  },
-  {
-    "title": "Web3+vue-cli-plugin-web3modal 快速来创建你的第一个以太坊 dAPP",
-    "description": "Web3是为让互联网更去中心化、可验证、安全而发起的一组广泛的运动和协议；Web3愿景是实现无服务器、去中心化的互联网，即用户掌握自己身份、数据和命运的互联网；Web3将启动新全球数字经济系统，创造新业务模式...",
-    "url": "https://segmentfault.com/a/1190000040485056",
-    "author": "ZHUIMEN",
-    "home_url": "https://segmentfault.com/u/zhuimen",
-    "votes": "2",
-    "rank": 17
-  },
-  {
-    "title": "CSS filter 生成不规则边框.md",
-    "description": "之前做过很多特殊的布局，比如在这两篇文章 CSS 实现优惠券的技巧 、CSS 实现支持渐变的提示框（tooltips），如下但是一直有一个痛点就是：无法给这些图形加上边框今天带来一个小技巧：利用 drop-shadow 一行代码...",
-    "url": "https://segmentfault.com/a/1190000040490964",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "5",
-    "rank": 18
-  },
-  {
-    "title": "线上的分布式事务是什么样的？以python的saga为例",
-    "description": "银行跨行转账业务是一个典型分布式事务场景，假设A需要跨行转账给B，那么就涉及两个银行的数据，无法通过一个数据库的本地事务保证转账的ACID，只能够通过分布式事务来解决。",
-    "url": "https://segmentfault.com/a/1190000040515787",
-    "author": "叶东富",
-    "home_url": "https://segmentfault.com/u/yedongfu",
-    "votes": "7",
-    "rank": 19
-  },
-  {
-    "title": "JavaScript 中的可迭代对象与迭代器是啥",
-    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000040476485",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "4",
-    "rank": 20
+    "rank": 14
   },
   {
     "title": "当设计模式遇上 Hooks",
@@ -186,7 +132,16 @@
     "author": "ES2049",
     "home_url": "https://segmentfault.com/u/alisecued",
     "votes": "6",
-    "rank": 21
+    "rank": 15
+  },
+  {
+    "title": "CSS filter 生成不规则边框.md",
+    "description": "之前做过很多特殊的布局，比如在这两篇文章 CSS 实现优惠券的技巧 、CSS 实现支持渐变的提示框（tooltips），如下但是一直有一个痛点就是：无法给这些图形加上边框今天带来一个小技巧：利用 drop-shadow 一行代码...",
+    "url": "https://segmentfault.com/a/1190000040490964",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "5",
+    "rank": 16
   },
   {
     "title": "七夕活动运营，社交游戏类应用如何做好商品管理",
@@ -195,25 +150,34 @@
     "author": "华为移动服务",
     "home_url": "https://segmentfault.com/u/hms_core",
     "votes": "1",
-    "rank": 22
+    "rank": 17
   },
   {
-    "title": "如何为你的命令行设置代理",
-    "description": "如何在命令行里使用shadowsocks或者v2rayn的代理呢？httplinux： {代码...} window: {代码...} socks(socks5)linux： {代码...} window: {代码...} 取消代理linux： {代码...} window: {代码...} git单独设置 {代...",
-    "url": "https://segmentfault.com/a/1190000040510873",
-    "author": "JenK",
-    "home_url": "https://segmentfault.com/u/wangzc996",
+    "title": "这7个 Vue 模式，可能你经常用！但现在看对你很有帮助！",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000040458501",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "4",
-    "rank": 23
+    "rank": 18
   },
   {
-    "title": "精读《JS with 语法》",
-    "description": "with 是一个不推荐使用的语法，因为它的作用是改变上下文，而上下文环境对开发者影响很大。本周通过 JavaScript's Forgotten Keyword (with) 这篇文章介绍一下 with 的功能。概述下面是一种使用 with 的例子： {...",
-    "url": "https://segmentfault.com/a/1190000040478283",
-    "author": "黄子毅",
-    "home_url": "https://segmentfault.com/u/aoyangyudakong",
+    "title": "如何用程序员的方式，营造七夕氛围感？",
+    "description": "每年此时，送礼指南满天飞，选择困难症都给逼出来了，疑了个惑，能搞定爱情的人，却在送礼这件事儿上纠结万分！要我说，七夕这种有情人的浪漫佳节，最重要的是图一个氛围！今天给大家介绍一个适合程序员的七夕“氛...",
+    "url": "https://segmentfault.com/a/1190000040510594",
+    "author": "华为移动服务",
+    "home_url": "https://segmentfault.com/u/hms_core",
+    "votes": "1",
+    "rank": 19
+  },
+  {
+    "title": "5 个可以加速开发的 VueUse 函数库",
+    "description": "VueUse 是 Anthony Fu 的一个开源项目，它为 Vue 开发人员提供了大量适用于 Vue 2 和 Vue 3 的基本 Composition API 实用程序函数。",
+    "url": "https://segmentfault.com/a/1190000040515394",
+    "author": "杜尼卜",
+    "home_url": "https://segmentfault.com/u/dunizb",
     "votes": "3",
-    "rank": 24
+    "rank": 20
   },
   {
     "title": "使用jwt来保护你的接口服务",
@@ -222,34 +186,25 @@
     "author": "Java旅途",
     "home_url": "https://segmentfault.com/u/javatrip",
     "votes": "3",
-    "rank": 25
+    "rank": 21
   },
   {
-    "title": "我用 10000 张图片合成我们美好的瞬间",
-    "description": "好了,废话不多说,今天给大家带来是一个非常有意思的项目,通过切割目标图片,获得10000个方块,用我们所选择到的图片,对应的填充方块实现一个千图成像的效果.你可以用它来拼任何你想拼的有意义的大图.(比如我,就想用...",
-    "url": "https://segmentfault.com/a/1190000040516715",
-    "author": "荣顶",
-    "home_url": "https://segmentfault.com/u/wangrongding",
-    "votes": "7",
-    "rank": 26
-  },
-  {
-    "title": "这7个 Vue 模式，可能你经常用！但现在看对你很有帮助！",
-    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000040458501",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "title": "Chrome 92 破坏性功能，我这弹窗有何用？",
+    "description": "近期，Chrome 92 进行了发布，我们来看看 Chrome 92 中提及的一个影响比较大的破坏性改动。[链接]对于来自跨域的 iframes 将被禁止 alert、confirm 和 prompt 等功能。首先我们先来看看 Chrome 对这个破坏性的动...",
+    "url": "https://segmentfault.com/a/1190000040491909",
+    "author": "蓝色的秋风",
+    "home_url": "https://segmentfault.com/u/qiufeng_5a07f6cb96ee0",
     "votes": "3",
-    "rank": 27
+    "rank": 22
   },
   {
-    "title": "Flutter正在悄悄击败React-Native",
-    "description": "React-Native与Flutter事情是这样的，由于最近想做个APP，于是我考虑下技术选型，便在gitHub看了看，于是发现了一个让我惊讶的点：React-native仓库Flutter仓库可以看到，FLutter的Star数量默默的大幅超越了React...",
-    "url": "https://segmentfault.com/a/1190000040476504",
-    "author": "Peter谭老师",
-    "home_url": "https://segmentfault.com/u/jerrytanjinjie",
+    "title": "得物技术初探OpenResty",
+    "description": "Nginx 的高性能是业界公认的，近年来在全球服务器市场上的占比份额也在逐年增加，在国内知名互联网公司也有广泛的应用，阿里还基于Nginx进行扩展打造了著名的Tengine。而OpenResty是由国人章亦春基于Nginx和LuaJI...",
+    "url": "https://segmentfault.com/a/1190000040513198",
+    "author": "得物技术",
+    "home_url": "https://segmentfault.com/u/dewujishu",
     "votes": "2",
-    "rank": 28
+    "rank": 23
   },
   {
     "title": "表格技术七十二变|手把手教你用Canvas电子表格做电子签名",
@@ -258,14 +213,59 @@
     "author": "葡萄城技术团队",
     "home_url": "https://segmentfault.com/u/grapecity",
     "votes": "3",
+    "rank": 24
+  },
+  {
+    "title": "CSS也能像组件状态一样响应式更新？",
+    "description": "大家好，我是卡颂。不知道平时在项目里你怎么处理CSS呢？我们知道，由于原生CSS存在一些问题，比如：复用时容易样式冲突没有作用域、没有模块化没有编程能力社区涌现出很多解决方案，比如：命名规范（比如BEM规范...",
+    "url": "https://segmentfault.com/a/1190000040501099",
+    "author": "卡颂",
+    "home_url": "https://segmentfault.com/u/kasong",
+    "votes": "2",
+    "rank": 25
+  },
+  {
+    "title": "面试官问我如何理解 IOC 和 DI",
+    "description": "DI，全称 Dependency Injection，依赖注入是 IOC 的具体实现。是指对象通过外部的注入，避免对象内部自身实现外部依赖的实例化过程。",
+    "url": "https://segmentfault.com/a/1190000040507927",
+    "author": "wscats",
+    "home_url": "https://segmentfault.com/u/wscats",
+    "votes": "1",
+    "rank": 26
+  },
+  {
+    "title": "使用 GTD 优化自己的工作和生活",
+    "description": "算起来工作已经四个年头了，刚开始工作就在使用 TODO 工具，比如 OneNote、奇妙清单（现在叫：微软 TODO）、滴答清单。但是，在用的过程中很多 TODO 直到项目结束了，依然是 TODO。",
+    "url": "https://segmentfault.com/a/1190000040495806",
+    "author": "Shenfq",
+    "home_url": "https://segmentfault.com/u/shenfq",
+    "votes": "3",
+    "rank": 27
+  },
+  {
+    "title": "3D性能优化 | 说一说glTF文件压缩",
+    "description": "引言最近做T级互动，需要使用到3D模型。相信大家和我一样，在开始着手的时候，一定会有这么些问题：1.如何选择3D模型的导出格式2.如何对模型文件进行优化3.在大流量的项目中兼容性怎么样让我们通过这篇文章，进行...",
+    "url": "https://segmentfault.com/a/1190000040506397",
+    "author": "凹凸实验室",
+    "home_url": "https://segmentfault.com/u/o2team",
+    "votes": "3",
+    "rank": 28
+  },
+  {
+    "title": "CSS3媒体查询media_queries响应式布局入门指南知识点总结",
+    "description": "目前我们使用的最新版本的层叠样式表主要是CSS第三版，也就是CSS3，CSS3带来的新特性、新功能有很多，比如：圆角效果、图形化边界、块阴影与文字阴影、使用RGBA实现透明效果、渐变效果、使用@Font-Face实现定制字...",
+    "url": "https://segmentfault.com/a/1190000040498705",
+    "author": "水冗水孚",
+    "home_url": "https://segmentfault.com/u/shuirongshui",
+    "votes": "2",
     "rank": 29
   },
   {
-    "title": "敲诈勒索 EA 未果后，骇客泄露其 780GB 源代码，其中包含 FIFA 21",
-    "description": "据外媒报道，一群骇客利用窃取的 EA 公司源代码数据向其勒索失败后，将被盗数据完全公布于地下黑客论坛以及 BT 网站上，根据转储副本，数据中包含《FIFA 21》足球游戏的源代码，以及支持该公司服务器端服务的工具。",
-    "url": "https://segmentfault.com/a/1190000040479018",
-    "author": "snakesss",
-    "home_url": "https://segmentfault.com/u/snakesss",
+    "title": "Vue 移动端的长按与触摸事件",
+    "description": "Vue 移动端的长按与触摸事件博客说明文章所涉及的资料来自互联网整理和个人总结，意在于个人学习和经验汇总，如有什么地方侵权，请联系本人删除，谢谢！说明在手机端的需求难免会遇到与手势相关的，比如div的长按...",
+    "url": "https://segmentfault.com/a/1190000040505541",
+    "author": "归子莫",
+    "home_url": "https://segmentfault.com/u/guizimo",
     "votes": "2",
     "rank": 30
   }

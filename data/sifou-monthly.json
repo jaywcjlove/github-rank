@@ -23,7 +23,7 @@
     "url": "https://segmentfault.com/a/1190000040373147",
     "author": "政采云前端团队",
     "home_url": "https://segmentfault.com/u/zhengcaiyunqianduantuandui",
-    "votes": "59",
+    "votes": "60",
     "rank": 3
   },
   {
@@ -32,7 +32,7 @@
     "url": "https://segmentfault.com/a/1190000040481518",
     "author": "夕水",
     "home_url": "https://segmentfault.com/u/xishui_5ac9a340a5484",
-    "votes": "48",
+    "votes": "50",
     "rank": 4
   },
   {
@@ -50,8 +50,17 @@
     "url": "https://segmentfault.com/a/1190000040437981",
     "author": "独钓寒江雪",
     "home_url": "https://segmentfault.com/u/king_hcj",
-    "votes": "44",
+    "votes": "45",
     "rank": 6
+  },
+  {
+    "title": "从前端视角看浏览器隐身模式下你是如何被追踪的",
+    "description": "现代网络浏览器，大多数都增加了隐私浏览模式来浏览网页，旨在保护用户隐私。Chrome 称之为隐身模式；Opera、Safari 和 Firefox 中一般称为隐私浏览。这些模式以深色主题和蒙面人物图标为特征，可以给用户一种匿...",
+    "url": "https://segmentfault.com/a/1190000040475726",
+    "author": "独钓寒江雪",
+    "home_url": "https://segmentfault.com/u/king_hcj",
+    "votes": "29",
+    "rank": 7
   },
   {
     "title": "36个工作中常用的JavaScript函数片段",
@@ -60,15 +69,6 @@
     "author": "wscats",
     "home_url": "https://segmentfault.com/u/wscats",
     "votes": "37",
-    "rank": 7
-  },
-  {
-    "title": "从前端视角看浏览器隐身模式下你是如何被追踪的",
-    "description": "现代网络浏览器，大多数都增加了隐私浏览模式来浏览网页，旨在保护用户隐私。Chrome 称之为隐身模式；Opera、Safari 和 Firefox 中一般称为隐私浏览。这些模式以深色主题和蒙面人物图标为特征，可以给用户一种匿...",
-    "url": "https://segmentfault.com/a/1190000040475726",
-    "author": "独钓寒江雪",
-    "home_url": "https://segmentfault.com/u/king_hcj",
-    "votes": "28",
     "rank": 8
   },
   {
@@ -113,7 +113,7 @@
     "url": "https://segmentfault.com/a/1190000040391096",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "28",
+    "votes": "29",
     "rank": 13
   },
   {
@@ -126,12 +126,12 @@
     "rank": 14
   },
   {
-    "title": "从零开始写一个微前端框架-沙箱篇",
-    "description": "自从微前端框架micro-app开源后，很多小伙伴都非常感兴趣，问我是如何实现的，但这并不是几句话可以说明白的。为了讲清楚其中的原理，我会从零开始实现一个简易的微前端框架，它的核心功能包括：渲染、JS沙箱、样...",
-    "url": "https://segmentfault.com/a/1190000040455357",
-    "author": "cangdu",
-    "home_url": "https://segmentfault.com/u/cangdu",
-    "votes": "16",
+    "title": "git bash in here，常用的git命令都在这里，欢迎收藏",
+    "description": "全局配置文件：Mac 系统在 ~/.gitconfig，Windows 系统在 C:\\Users\\<用户名>\\.gitconfig。",
+    "url": "https://segmentfault.com/a/1190000040469051",
+    "author": "鹿洺",
+    "home_url": "https://segmentfault.com/u/scott_592fa510f02a5",
+    "votes": "23",
     "rank": 15
   },
   {
@@ -140,16 +140,16 @@
     "url": "https://segmentfault.com/a/1190000040468762",
     "author": "叶东富",
     "home_url": "https://segmentfault.com/u/yedongfu",
-    "votes": "23",
+    "votes": "24",
     "rank": 16
   },
   {
-    "title": "git bash in here，常用的git命令都在这里，欢迎收藏",
-    "description": "全局配置文件：Mac 系统在 ~/.gitconfig，Windows 系统在 C:\\Users\\<用户名>\\.gitconfig。",
-    "url": "https://segmentfault.com/a/1190000040469051",
-    "author": "鹿洺",
-    "home_url": "https://segmentfault.com/u/scott_592fa510f02a5",
-    "votes": "21",
+    "title": "从零开始写一个微前端框架-沙箱篇",
+    "description": "自从微前端框架micro-app开源后，很多小伙伴都非常感兴趣，问我是如何实现的，但这并不是几句话可以说明白的。为了讲清楚其中的原理，我会从零开始实现一个简易的微前端框架，它的核心功能包括：渲染、JS沙箱、样...",
+    "url": "https://segmentfault.com/a/1190000040455357",
+    "author": "cangdu",
+    "home_url": "https://segmentfault.com/u/cangdu",
+    "votes": "16",
     "rank": 17
   },
   {
@@ -180,13 +180,22 @@
     "rank": 20
   },
   {
+    "title": "前端构建这十年",
+    "description": "前端模块化/构建工具从最开始的基于浏览器运行时加载的 RequireJs/Sea.js 到将所有资源组装依赖打包 webpack/rollup/parcel的bundle类模块化构建工具，再到现在的bundleless基于浏览器原生 ES 模块的 snowpack/vi...",
+    "url": "https://segmentfault.com/a/1190000040496020",
+    "author": "李十三",
+    "home_url": "https://segmentfault.com/u/lishisan",
+    "votes": "17",
+    "rank": 21
+  },
+  {
     "title": "前端程序员经常忽视的一个JavaScript面试题",
     "description": "这几天面试上几次碰上这道经典的题目，特地从头到尾来分析一次答案，这道题的经典之处在于它综合考察了面试者的JavaScript的综合能力，包含了变量定义提升、this指针指向、运算符优先级、原型、继承、全局变量污...",
     "url": "https://segmentfault.com/a/1190000040363553",
     "author": "wscats",
     "home_url": "https://segmentfault.com/u/wscats",
     "votes": "19",
-    "rank": 21
+    "rank": 22
   },
   {
     "title": "React大型项目状态管理库如何选型？",
@@ -195,7 +204,7 @@
     "author": "德莱问前端",
     "home_url": "https://segmentfault.com/u/delaiwen_6041cdea4aef8",
     "votes": "17",
-    "rank": 22
+    "rank": 23
   },
   {
     "title": "Springboot 配置文件、隐私数据脱敏的最佳实践（原理+源码）",
@@ -204,7 +213,16 @@
     "author": "程序员内点事",
     "home_url": "https://segmentfault.com/u/chengxy",
     "votes": "16",
-    "rank": 23
+    "rank": 24
+  },
+  {
+    "title": "手写 git hooks 脚本（pre-commit、commit-msg）",
+    "description": "Git 能在特定的重要动作发生时触发自定义脚本，其中比较常用的有：pre-commit、commit-msg、pre-push 等钩子（hooks）。我们可以在 pre-commit 触发时进行代码格式验证，在 commit-msg 触发时对 commit 消息和提...",
+    "url": "https://segmentfault.com/a/1190000040370691",
+    "author": "谭光志",
+    "home_url": "https://segmentfault.com/u/woai3c",
+    "votes": "15",
+    "rank": 25
   },
   {
     "title": "彻底搞懂 Cookie、Session、Token、JWT",
@@ -213,24 +231,6 @@
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "21",
-    "rank": 24
-  },
-  {
-    "title": "前端构建这十年",
-    "description": "前端模块化/构建工具从最开始的基于浏览器运行时加载的 RequireJs/Sea.js 到将所有资源组装依赖打包 webpack/rollup/parcel的bundle类模块化构建工具，再到现在的bundleless基于浏览器原生 ES 模块的 snowpack/vi...",
-    "url": "https://segmentfault.com/a/1190000040496020",
-    "author": "李十三",
-    "home_url": "https://segmentfault.com/u/lishisan",
-    "votes": "16",
-    "rank": 25
-  },
-  {
-    "title": "手写 git hooks 脚本（pre-commit、commit-msg）",
-    "description": "Git 能在特定的重要动作发生时触发自定义脚本，其中比较常用的有：pre-commit、commit-msg、pre-push 等钩子（hooks）。我们可以在 pre-commit 触发时进行代码格式验证，在 commit-msg 触发时对 commit 消息和提...",
-    "url": "https://segmentfault.com/a/1190000040370691",
-    "author": "谭光志",
-    "home_url": "https://segmentfault.com/u/woai3c",
-    "votes": "14",
     "rank": 26
   },
   {
