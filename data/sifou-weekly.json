@@ -1,20 +1,20 @@
 [
   {
-    "title": "爆 肝 一 周 总 结 最全 JavaScript Array 方法详解",
-    "description": "前言我们在日常开发中，与接口打交道最多了，前端通过访问后端接口，然后将接口数据二次处理渲染到页面当中。二次处理的过程是 考验 Coder 对 Array 是否熟练 以及 在 何种 场景下使用哪种方法处理最优 。小编，...",
-    "url": "https://segmentfault.com/a/1190000040484203",
-    "author": "大新",
-    "home_url": "https://segmentfault.com/u/haijun_5e7e16c909f52",
-    "votes": "31",
-    "rank": 1
-  },
-  {
     "title": "前端构建这十年",
     "description": "前端模块化/构建工具从最开始的基于浏览器运行时加载的 RequireJs/Sea.js 到将所有资源组装依赖打包 webpack/rollup/parcel的bundle类模块化构建工具，再到现在的bundleless基于浏览器原生 ES 模块的 snowpack/vi...",
     "url": "https://segmentfault.com/a/1190000040496020",
     "author": "李十三",
     "home_url": "https://segmentfault.com/u/lishisan",
-    "votes": "17",
+    "votes": "23",
+    "rank": 1
+  },
+  {
+    "title": "我用 10000 张图片合成我们美好的瞬间",
+    "description": "好了,废话不多说,今天给大家带来是一个非常有意思的项目,通过切割目标图片,获得10000个方块,用我们所选择到的图片,对应的填充方块实现一个千图成像的效果.你可以用它来拼任何你想拼的有意义的大图.(比如我,就想用...",
+    "url": "https://segmentfault.com/a/1190000040516715",
+    "author": "荣顶",
+    "home_url": "https://segmentfault.com/u/wangrongding",
+    "votes": "18",
     "rank": 2
   },
   {
@@ -23,26 +23,8 @@
     "url": "https://segmentfault.com/a/1190000040502426",
     "author": "第一名的小蝌蚪",
     "home_url": "https://segmentfault.com/u/diyimingdexiao",
-    "votes": "11",
+    "votes": "14",
     "rank": 3
-  },
-  {
-    "title": "超硬核 Web 前端学霸笔记，学完就去找工作！",
-    "description": "文章和教程Vue 学习笔记Node 学习笔记React 学习笔记Angular 学习笔记RequireJS 学习笔记Webpack 学习笔记Gulp 学习笔记Python 学习笔记Egret 引擎学习笔记流处理，TCP 和 UDP，WebRTC 和 Blob 学习笔记博客前端...",
-    "url": "https://segmentfault.com/a/1190000040478093",
-    "author": "wscats",
-    "home_url": "https://segmentfault.com/u/wscats",
-    "votes": "16",
-    "rank": 4
-  },
-  {
-    "title": "我用 10000 张图片合成我们美好的瞬间",
-    "description": "好了,废话不多说,今天给大家带来是一个非常有意思的项目,通过切割目标图片,获得10000个方块,用我们所选择到的图片,对应的填充方块实现一个千图成像的效果.你可以用它来拼任何你想拼的有意义的大图.(比如我,就想用...",
-    "url": "https://segmentfault.com/a/1190000040516715",
-    "author": "荣顶",
-    "home_url": "https://segmentfault.com/u/wangrongding",
-    "votes": "11",
-    "rank": 5
   },
   {
     "title": "如何抗住亿级流量之布隆过滤器",
@@ -51,25 +33,7 @@
     "author": "超大只乌龟",
     "home_url": "https://segmentfault.com/u/chenwugui",
     "votes": "10",
-    "rank": 6
-  },
-  {
-    "title": "我司是怎么封装 axios 来处理百万级流量中平时少见过的问题~",
-    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000040464346",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "10",
-    "rank": 7
-  },
-  {
-    "title": "这两种完全不同的JPEG加载方式，你肯定见过！",
-    "description": "现如今网站所使用的的图片格式多种多样，但是有一种图片格式占到了 74% 的使用量。它就是 JPEG，即联合图像专家组。这类文件的后缀通常为 .jpg 或 .jpeg，是摄影中常见的图片类型。",
-    "url": "https://segmentfault.com/a/1190000040492071",
-    "author": "云叔_又拍云",
-    "home_url": "https://segmentfault.com/u/yunshu_blog",
-    "votes": "8",
-    "rank": 8
+    "rank": 4
   },
   {
     "title": "Spring Boot参数校验以及分组校验的使用",
@@ -78,7 +42,25 @@
     "author": "阿里云开发者",
     "home_url": "https://segmentfault.com/u/alijishu",
     "votes": "10",
-    "rank": 9
+    "rank": 5
+  },
+  {
+    "title": "教女朋友学前端之深入理解JS引擎",
+    "description": "食堂老板：这块的知识不仅面试可能会问，学会了 JS 引擎的工作原理，可以更好的理解 JavaScript、更好的理解前端生态中 Babel 的词法分析和语法分析，ESLint 的语法检查原理以及 React、Vue 等前端框架的实现原理...",
+    "url": "https://segmentfault.com/a/1190000040519211",
+    "author": "童欧巴",
+    "home_url": "https://segmentfault.com/u/tongouba",
+    "votes": "5",
+    "rank": 6
+  },
+  {
+    "title": "升级Yarn 2，摆脱node_modules",
+    "description": "node项目中最臭名昭著的莫过于node_modules文件夹，这个糟糕的结构动辄使你的文件数目增加几万甚至几十万，无论是安装还是删除，都要消耗大量时间，并且占据大量inode结点，我们随便进入一个react项目文件夹，看...",
+    "url": "https://segmentfault.com/a/1190000040520326",
+    "author": "张京",
+    "home_url": "https://segmentfault.com/u/fengerzh",
+    "votes": "7",
+    "rank": 7
   },
   {
     "title": "面试官：小伙子，你这单点登录学的可以啊",
@@ -87,7 +69,7 @@
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "7",
-    "rank": 10
+    "rank": 8
   },
   {
     "title": "如何为你的命令行设置代理",
@@ -96,7 +78,7 @@
     "author": "JenK",
     "home_url": "https://segmentfault.com/u/wangzc996",
     "votes": "5",
-    "rank": 11
+    "rank": 9
   },
   {
     "title": "线上的分布式事务是什么样的？以python的saga为例",
@@ -105,25 +87,25 @@
     "author": "叶东富",
     "home_url": "https://segmentfault.com/u/yedongfu",
     "votes": "9",
-    "rank": 12
+    "rank": 10
   },
   {
-    "title": "如何正确跟踪广告转化数据，优化广告投放效果？",
-    "description": "广告界有一句老话，我知道我的广告费有一半是浪费掉的，但是不知道是怎么浪费掉的。所以对广告主来说广告跟踪非常重要，当你花了一大笔预算去做广告投放，带来的效果如何？如何根据每次广告投放的数据，去调整优...",
-    "url": "https://segmentfault.com/a/1190000040492953",
+    "title": "5 个可以加速开发的 VueUse 函数库",
+    "description": "VueUse 是 Anthony Fu 的一个开源项目，它为 Vue 开发人员提供了大量适用于 Vue 2 和 Vue 3 的基本 Composition API 实用程序函数。",
+    "url": "https://segmentfault.com/a/1190000040515394",
+    "author": "杜尼卜",
+    "home_url": "https://segmentfault.com/u/dunizb",
+    "votes": "6",
+    "rank": 11
+  },
+  {
+    "title": "如何用程序员的方式，营造七夕氛围感？",
+    "description": "每年此时，送礼指南满天飞，选择困难症都给逼出来了，疑了个惑，能搞定爱情的人，却在送礼这件事儿上纠结万分！要我说，七夕这种有情人的浪漫佳节，最重要的是图一个氛围！今天给大家介绍一个适合程序员的七夕“氛...",
+    "url": "https://segmentfault.com/a/1190000040510594",
     "author": "华为移动服务",
     "home_url": "https://segmentfault.com/u/hms_core",
     "votes": "2",
-    "rank": 13
-  },
-  {
-    "title": "尤雨溪凌晨官宣：Vue 3.2 已发布！",
-    "description": "今日凌晨，尤雨溪在微博平台官宣 Vue 3.2 已发布，并表示：<script setup> + TS + Volar = 真香Vue 3.2 版本包括许多重要的新功能和性能改进，但并不包含重大更改。新的单文件组件功能：<script setup&g...",
-    "url": "https://segmentfault.com/a/1190000040491409",
-    "author": "snakesss",
-    "home_url": "https://segmentfault.com/u/snakesss",
-    "votes": "4",
-    "rank": 14
+    "rank": 12
   },
   {
     "title": "当设计模式遇上 Hooks",
@@ -132,25 +114,7 @@
     "author": "ES2049",
     "home_url": "https://segmentfault.com/u/alisecued",
     "votes": "6",
-    "rank": 15
-  },
-  {
-    "title": "CSS filter 生成不规则边框.md",
-    "description": "之前做过很多特殊的布局，比如在这两篇文章 CSS 实现优惠券的技巧 、CSS 实现支持渐变的提示框（tooltips），如下但是一直有一个痛点就是：无法给这些图形加上边框今天带来一个小技巧：利用 drop-shadow 一行代码...",
-    "url": "https://segmentfault.com/a/1190000040490964",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "5",
-    "rank": 16
-  },
-  {
-    "title": "七夕活动运营，社交游戏类应用如何做好商品管理",
-    "description": "相信大部分人，都想在这个中国传统爱情节日里做点浪漫事，而对于勤劳的运营人士，尤其是社交及游戏类应用的运营者来说，七夕是暑期档乃至下半年不容错过的重要节点，时机难得，做好节日活动运营，可以带来拉新、...",
-    "url": "https://segmentfault.com/a/1190000040505613",
-    "author": "华为移动服务",
-    "home_url": "https://segmentfault.com/u/hms_core",
-    "votes": "1",
-    "rank": 17
+    "rank": 13
   },
   {
     "title": "这7个 Vue 模式，可能你经常用！但现在看对你很有帮助！",
@@ -159,43 +123,52 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "4",
-    "rank": 18
+    "rank": 14
   },
   {
-    "title": "如何用程序员的方式，营造七夕氛围感？",
-    "description": "每年此时，送礼指南满天飞，选择困难症都给逼出来了，疑了个惑，能搞定爱情的人，却在送礼这件事儿上纠结万分！要我说，七夕这种有情人的浪漫佳节，最重要的是图一个氛围！今天给大家介绍一个适合程序员的七夕“氛...",
-    "url": "https://segmentfault.com/a/1190000040510594",
+    "title": "3D性能优化 | 说一说glTF文件压缩",
+    "description": "引言最近做T级互动，需要使用到3D模型。相信大家和我一样，在开始着手的时候，一定会有这么些问题：1.如何选择3D模型的导出格式2.如何对模型文件进行优化3.在大流量的项目中兼容性怎么样让我们通过这篇文章，进行...",
+    "url": "https://segmentfault.com/a/1190000040506397",
+    "author": "凹凸实验室",
+    "home_url": "https://segmentfault.com/u/o2team",
+    "votes": "5",
+    "rank": 15
+  },
+  {
+    "title": "CSS也能像组件状态一样响应式更新？",
+    "description": "大家好，我是卡颂。不知道平时在项目里你怎么处理CSS呢？我们知道，由于原生CSS存在一些问题，比如：复用时容易样式冲突没有作用域、没有模块化没有编程能力社区涌现出很多解决方案，比如：命名规范（比如BEM规范...",
+    "url": "https://segmentfault.com/a/1190000040501099",
+    "author": "卡颂",
+    "home_url": "https://segmentfault.com/u/kasong",
+    "votes": "3",
+    "rank": 16
+  },
+  {
+    "title": "大学四年一路走来，我把这些私藏的算法学习工具全贡献出来了！",
+    "description": "我们都知道数据结构和算法一个比较难以掌握的原因就是很难形象地在脑海中形成一个结构化的画面，尤其是当一些结构和算法比较复杂时，对人的想象能力有一定要求。",
+    "url": "https://segmentfault.com/a/1190000040525819",
+    "author": "CodeSheep",
+    "home_url": "https://segmentfault.com/u/hansonwang99",
+    "votes": "11",
+    "rank": 17
+  },
+  {
+    "title": "七夕活动运营，社交游戏类应用如何做好商品管理",
+    "description": "相信大部分人，都想在这个中国传统爱情节日里做点浪漫事，而对于勤劳的运营人士，尤其是社交及游戏类应用的运营者来说，七夕是暑期档乃至下半年不容错过的重要节点，时机难得，做好节日活动运营，可以带来拉新、...",
+    "url": "https://segmentfault.com/a/1190000040505613",
     "author": "华为移动服务",
     "home_url": "https://segmentfault.com/u/hms_core",
     "votes": "1",
+    "rank": 18
+  },
+  {
+    "title": "开发者眼中的“道、法、术、器”",
+    "description": "如果你现在正碰到职业发展的瓶颈，那么可以看看下面的内容，也许会有所感悟和帮助。我们将分别从“道、法、术、器”，聊聊我们在这四个层面上的不同表现，重新审视下目前的你所付出的努力都集中于哪一层，并思考接...",
+    "url": "https://segmentfault.com/a/1190000040508164",
+    "author": "程序猿DD",
+    "home_url": "https://segmentfault.com/u/coderdd",
+    "votes": "3",
     "rank": 19
-  },
-  {
-    "title": "5 个可以加速开发的 VueUse 函数库",
-    "description": "VueUse 是 Anthony Fu 的一个开源项目，它为 Vue 开发人员提供了大量适用于 Vue 2 和 Vue 3 的基本 Composition API 实用程序函数。",
-    "url": "https://segmentfault.com/a/1190000040515394",
-    "author": "杜尼卜",
-    "home_url": "https://segmentfault.com/u/dunizb",
-    "votes": "3",
-    "rank": 20
-  },
-  {
-    "title": "使用jwt来保护你的接口服务",
-    "description": "以前写过一篇关于接口服务规范的文章，原文在此，里面关于安全性问题重点讲述了通过appid，appkey，timestamp，nonce以及sign来获取token，使用token来保障接口服务的安全。今天我们来讲述一种更加便捷的方式，使...",
-    "url": "https://segmentfault.com/a/1190000040495076",
-    "author": "Java旅途",
-    "home_url": "https://segmentfault.com/u/javatrip",
-    "votes": "3",
-    "rank": 21
-  },
-  {
-    "title": "Chrome 92 破坏性功能，我这弹窗有何用？",
-    "description": "近期，Chrome 92 进行了发布，我们来看看 Chrome 92 中提及的一个影响比较大的破坏性改动。[链接]对于来自跨域的 iframes 将被禁止 alert、confirm 和 prompt 等功能。首先我们先来看看 Chrome 对这个破坏性的动...",
-    "url": "https://segmentfault.com/a/1190000040491909",
-    "author": "蓝色的秋风",
-    "home_url": "https://segmentfault.com/u/qiufeng_5a07f6cb96ee0",
-    "votes": "3",
-    "rank": 22
   },
   {
     "title": "得物技术初探OpenResty",
@@ -204,7 +177,7 @@
     "author": "得物技术",
     "home_url": "https://segmentfault.com/u/dewujishu",
     "votes": "2",
-    "rank": 23
+    "rank": 20
   },
   {
     "title": "表格技术七十二变|手把手教你用Canvas电子表格做电子签名",
@@ -213,16 +186,16 @@
     "author": "葡萄城技术团队",
     "home_url": "https://segmentfault.com/u/grapecity",
     "votes": "3",
-    "rank": 24
+    "rank": 21
   },
   {
-    "title": "CSS也能像组件状态一样响应式更新？",
-    "description": "大家好，我是卡颂。不知道平时在项目里你怎么处理CSS呢？我们知道，由于原生CSS存在一些问题，比如：复用时容易样式冲突没有作用域、没有模块化没有编程能力社区涌现出很多解决方案，比如：命名规范（比如BEM规范...",
-    "url": "https://segmentfault.com/a/1190000040501099",
-    "author": "卡颂",
-    "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "2",
-    "rank": 25
+    "title": "验证码这样做，瞬间高出一个逼格",
+    "description": "今天推荐一款非常优秀的行为验证码AJ-Captcha（项目地址[链接]），这个项目包含了滑动拼图和文字点选两种类型的验证码，除了嵌入式交互，还提供了弹出式交互的方式，完全不影响原UI布局。",
+    "url": "https://segmentfault.com/a/1190000040518131",
+    "author": "Java旅途",
+    "home_url": "https://segmentfault.com/u/javatrip",
+    "votes": "4",
+    "rank": 22
   },
   {
     "title": "面试官问我如何理解 IOC 和 DI",
@@ -231,7 +204,16 @@
     "author": "wscats",
     "home_url": "https://segmentfault.com/u/wscats",
     "votes": "1",
-    "rank": 26
+    "rank": 23
+  },
+  {
+    "title": "如何使用Promise.race() 和 Promise.any()  ？",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000040519100",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "6",
+    "rank": 24
   },
   {
     "title": "使用 GTD 优化自己的工作和生活",
@@ -240,16 +222,7 @@
     "author": "Shenfq",
     "home_url": "https://segmentfault.com/u/shenfq",
     "votes": "3",
-    "rank": 27
-  },
-  {
-    "title": "3D性能优化 | 说一说glTF文件压缩",
-    "description": "引言最近做T级互动，需要使用到3D模型。相信大家和我一样，在开始着手的时候，一定会有这么些问题：1.如何选择3D模型的导出格式2.如何对模型文件进行优化3.在大流量的项目中兼容性怎么样让我们通过这篇文章，进行...",
-    "url": "https://segmentfault.com/a/1190000040506397",
-    "author": "凹凸实验室",
-    "home_url": "https://segmentfault.com/u/o2team",
-    "votes": "3",
-    "rank": 28
+    "rank": 25
   },
   {
     "title": "CSS3媒体查询media_queries响应式布局入门指南知识点总结",
@@ -258,7 +231,7 @@
     "author": "水冗水孚",
     "home_url": "https://segmentfault.com/u/shuirongshui",
     "votes": "2",
-    "rank": 29
+    "rank": 26
   },
   {
     "title": "Vue 移动端的长按与触摸事件",
@@ -267,6 +240,33 @@
     "author": "归子莫",
     "home_url": "https://segmentfault.com/u/guizimo",
     "votes": "2",
+    "rank": 27
+  },
+  {
+    "title": "【译】Learn D3 文档: By Example",
+    "description": "引子继 Learn D3: Introduction 第二篇，只是英文翻译，可修改代码的部分用静态图片替代了，想要实时交互请阅读原文。原文：Learn D3: By Example版本：Published Mar 24, 2020OriginMy GitHub正文开始使用 D3 的...",
+    "url": "https://segmentfault.com/a/1190000040519626",
+    "author": "XXHolic",
+    "home_url": "https://segmentfault.com/u/xxholic",
+    "votes": "1",
+    "rank": 28
+  },
+  {
+    "title": "这么递名片才高效！教你给应用开发个交换名片功能",
+    "description": "在工作和生活中，遇见新的同事或者合作伙伴，交换名片是一个常见的用户需求，纸质名片常忘带、易丢失，是客户的一个痛点。因此，市场上出现了很多交换电子名片的APP和小程序。那么，如何给自己的APP开发一个名片...",
+    "url": "https://segmentfault.com/a/1190000040498765",
+    "author": "华为移动服务",
+    "home_url": "https://segmentfault.com/u/hms_core",
+    "votes": "1",
+    "rank": 29
+  },
+  {
+    "title": "Java 14 新功能介绍",
+    "description": "点赞再看，动力无限。Hello world : ) 微信搜「 程序猿阿朗 」。本文 Github.com/niumoo/JavaNotes 和 未读代码博客 已经收录，有很多知识点和系列文章。Java 14 早在 2019 年 9 月就已经发布，虽然不是长久支持...",
+    "url": "https://segmentfault.com/a/1190000040501717",
+    "author": "程序猿阿朗",
+    "home_url": "https://segmentfault.com/u/niumoo",
+    "votes": "1",
     "rank": 30
   }
 ]
