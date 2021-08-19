@@ -1,18 +1,8 @@
 [
   {
-    "title": "Redis 只能做缓存？太 out 了",
-    "description": " 原创：小姐姐味道（微信公众号ID：xjjdog），欢迎分享，转载请保留出处。大多数数据库，由于经常和磁盘打交道，在高并发场景下，响应会非常的慢。为了解决这种速度差异，大多数系统都...",
-    "votes": "140",
-    "url": "/k/l84n965",
-    "avatar": "https://img.toutiao.io/subject/6b8e14b561b24dfeac075e2a8dac9bfd/thumb",
-    "avatarAlt": "小姐姐味道 - 独家号",
-    "subjectName": "小姐姐味道",
-    "homeUrl": "/subjects/351247"
-  },
-  {
     "title": "分布式事务最经典的七种解决方案",
     "description": "随着业务的快速发展、业务复杂度越来越高，几乎每个公司的系统都会从单体走向分布式，特别是转向微服务架构。随之而来就必然遇到分布式事务这个难题，这篇文章总结了分布式事务最经典的解决方案...",
-    "votes": "125",
+    "votes": "157",
     "url": "/k/vxr31wq",
     "avatar": "https://img.toutiao.io/subject/45e806cf22ab424b831afe890c225505/thumb",
     "avatarAlt": "叶东富 - 独家号",
@@ -20,9 +10,19 @@
     "homeUrl": "/subjects/307550"
   },
   {
+    "title": "Redis 只能做缓存？太 out 了",
+    "description": " 原创：小姐姐味道（微信公众号ID：xjjdog），欢迎分享，转载请保留出处。大多数数据库，由于经常和磁盘打交道，在高并发场景下，响应会非常的慢。为了解决这种速度差异，大多数系统都...",
+    "votes": "144",
+    "url": "/k/l84n965",
+    "avatar": "https://img.toutiao.io/subject/6b8e14b561b24dfeac075e2a8dac9bfd/thumb",
+    "avatarAlt": "小姐姐味道 - 独家号",
+    "subjectName": "小姐姐味道",
+    "homeUrl": "/subjects/351247"
+  },
+  {
     "title": "vivo 全球商城：优惠券系统架构设计与实践",
     "description": "作者：vivo互联网开发团队-Yan Chao一、业务背景优惠券是电商常见的营销手段，具有灵活的特点，既可以作为促销活动的载体，也是重要的引流入口。优惠券系统是vivo商城营销模块...",
-    "votes": "102",
+    "votes": "106",
     "url": "/k/yyiq1f3",
     "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
     "avatarAlt": "vivo互联网技术 - 独家号",
@@ -32,7 +32,7 @@
   {
     "title": "超大文件读取优化的探讨",
     "description": "前言 在开发过程中，经常会遇到对文件的操作，对于一般的文件，通常使用fread, fwrite等文件操作api即可处理。然而在处理大文件上, 使用普通的api在性能上难以得到保障。...",
-    "votes": "77",
+    "votes": "79",
     "url": "/k/s0ughm2",
     "avatar": "https://img.toutiao.io/subject/19c420d3b4d84959b00f29b13e475ced/thumb",
     "avatarAlt": "AggrxTech - 独家号",
@@ -40,19 +40,9 @@
     "homeUrl": "/subjects/425954"
   },
   {
-    "title": "蚂蚁集团万级规模 K8s 集群 Etcd 高可用建设之路",
-    "description": "蚂蚁集团运维着可能是全球最大的 K8s 集群：K8s 官方以 5k node 作为 K8s 规模化的顶峰，而蚂蚁集团事实上运维着规模达到 10k node 规模的 K8s 集群。一...",
-    "votes": "59",
-    "url": "/k/0yu4k5h",
-    "avatar": "https://img.toutiao.io/subject/81e8142d0e08426790ad005454c5f30b/thumb",
-    "avatarAlt": "蚂蚁金服金融级云原生架构SOFAStack - 独家号",
-    "subjectName": "蚂蚁金服金融级云原生架构SOFAStack",
-    "homeUrl": "/subjects/387525"
-  },
-  {
     "title": "云原生初体验：在 k8s 上部署 Spring Boot 应用",
     "description": "你会不会对“云原生”很有兴趣，却不知道从何入手？本文会在window环境下，构建一套基于k8s的istio环境，并且通过skaffold完成镜像的构建和项目部署到集群环境。其实对于...",
-    "votes": "53",
+    "votes": "56",
     "url": "/k/d0wf19f",
     "avatar": "https://img.toutiao.io/subject/5b6349f06e5a4140b242dcbd7010690d/thumb",
     "avatarAlt": "麒思妙想 - 独家号",
@@ -60,9 +50,19 @@
     "homeUrl": "/subjects/265833"
   },
   {
+    "title": "阿里二面：什么是 mmap？",
+    "description": "平时在面试中你肯定会经常碰见的问题就是：RocketMQ为什么快？Kafka为什么快？什么是mmap？这一类的问题都逃不过的一个点就是零拷贝，虽然还有一些其他的原因，但是今天我们的...",
+    "votes": "51",
+    "url": "/k/qsuypsu",
+    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
+    "avatarAlt": "进击的程序猿 - 独家号",
+    "subjectName": "进击的程序猿",
+    "homeUrl": "/subjects/24912"
+  },
+  {
     "title": "是程序员就用命令行",
     "description": "作为程序员，熟练掌握命令行程序的使用是感受 unix 编程艺术的最便捷的方法，同时还能额外对日常工作提效。为什么要用命令行程序员和普通人的区别在哪里？程序员：会复用软件是复用，不是...",
-    "votes": "48",
+    "votes": "50",
     "url": "/k/ivif85v",
     "avatar": "https://img.toutiao.io/subject/954c89354b8944708a3e193162e0e611/thumb",
     "avatarAlt": "码农英语课堂 - 独家号",
@@ -72,7 +72,7 @@
   {
     "title": "计算机字符编码的前世今生",
     "description": "作者：vivo互联网服务器团队-Zhu Wenjin一、前言有人丢给你下面这张图，如果你能清楚地说明它们之间的关系以及用途，那么你对字符编码的理解肯定过关了。 不知道看了上面这张图...",
-    "votes": "43",
+    "votes": "45",
     "url": "/k/g47yjv4",
     "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
     "avatarAlt": "vivo互联网技术 - 独家号",
@@ -82,7 +82,7 @@
   {
     "title": "消息幂等（去重）如何解决？来看看这个方案",
     "description": " 作者 | 薛定谔的风口猪 来源 | http://t.hk.uy/GVP 消息中间件是分布式系统常用的组件，无论是异步化、解耦、削峰等都有广泛的应用价值。我们通常会认为，消息中间...",
-    "votes": "55",
+    "votes": "56",
     "url": "/k/0me53zx",
     "avatar": "https://img.toutiao.io/subject/51ad25ebdf8b4a15895a07d5bce2b1e4/thumb",
     "avatarAlt": "JAVA日知录 - 独家号",
@@ -92,7 +92,7 @@
   {
     "title": "软件质量保障体系建设",
     "description": "前言从事软件测试相关工作七年，做过功能测试、自动化测试、测试开发、性能测试、专项测试，也干过一段时间技术管理，近几年随着行业成熟度的发展，对软件测试也有了更高的要求，很多测试团队开...",
-    "votes": "43",
+    "votes": "44",
     "url": "/k/i5z2q03",
     "avatar": "https://img.toutiao.io/subject/1227f0343a1546ee8e3c535cce14aa4c/thumb",
     "avatarAlt": "工程师的自我修养之路 - 独家号",
@@ -100,19 +100,9 @@
     "homeUrl": "/subjects/188023"
   },
   {
-    "title": "一文解读腾讯广告 3000+ 万行大代码库主干开发实战",
-    "description": "作者：phongchen，腾讯 CDG 后台开发工程师 导语 | 互联网行业竞争激烈，产品迭代快，其中研发效能越来越成为跑赢竞争对手的重要影响因素。需求两天就能上线和两个星期才能上...",
-    "votes": "49",
-    "url": "/k/6a3ktfk",
-    "avatar": "https://img.toutiao.io/subject/f05a135abc844e719541593cad4f8c57/thumb",
-    "avatarAlt": "不错的好文 - 独家号",
-    "subjectName": "不错的好文",
-    "homeUrl": "/subjects/5551"
-  },
-  {
     "title": "相见恨晚！开源的傻瓜搜索引擎，帮你快速实现搜索功能",
     "description": "傻瓜一词借鉴自傻瓜相机，又称轻便相机、全自动相机，通常指容易操作针对一般人而设计的小型全自动相机。在 HelloGitHub 找到有趣、入门级的开源项目，大家好我是卤蛋。说到搜索第...",
-    "votes": "39",
+    "votes": "40",
     "url": "/k/4wma5nj",
     "avatar": "https://img.toutiao.io/subject/b751657c3aaa4ac59db50c07db41e538/thumb",
     "avatarAlt": "HelloGitHub - 独家号",
@@ -122,7 +112,7 @@
   {
     "title": "高效研发运维体系构建的流程和方法论",
     "description": " 云计算产品大多都会与云原生发生关联，云原生正在重塑整个软件的生命周期。但到底什么是云原生？云原生带来的最大技术创新和未来机会是什么？围绕云原生，是否可以构建出一套云上的开发&运维...",
-    "votes": "36",
+    "votes": "37",
     "url": "/k/n8ibnrk",
     "avatar": "https://img.toutiao.io/subject/f05a135abc844e719541593cad4f8c57/thumb",
     "avatarAlt": "不错的好文 - 独家号",
@@ -132,7 +122,7 @@
   {
     "title": "Shell 脚本常用命令",
     "description": "Linux常用命令 ls常用命令 ls -a 列举出当前目录所有文件，包括隐藏文件ls -r 正常列举顺序反序列化输出ls -t 按照文件修改时间排序输出ls -S 按照文件大小排...",
-    "votes": "30",
+    "votes": "32",
     "url": "/k/0d485tf",
     "avatar": "https://img.toutiao.io/subject/24a2783f859a4f4ebbbcfb5ec80ca8e2/thumb",
     "avatarAlt": "小辛的成长之路 - 独家号",
@@ -140,14 +130,54 @@
     "homeUrl": "/subjects/462716"
   },
   {
-    "title": "IndexedDB 快速入门",
-    "description": "注：如果你只是想快速体验一下 IndexedDB，建议直接去使用 JsStore 。它基本上完全隐藏了 IndexedDB 繁琐的技术细节，提供的接口也更加人性化，同时还有更高级的...",
-    "votes": "32",
-    "url": "/k/7hbxp47",
-    "avatar": "https://img.toutiao.io/subject/fd29c3b74b4145c6bf688bbc6223b3c4/thumb",
-    "avatarAlt": "DTeam - 独家号",
-    "subjectName": "DTeam",
-    "homeUrl": "/subjects/437726"
+    "title": "Dockerfile 文件全面详解",
+    "description": "Docker 可以通过读取 Dockerfile 中的指令自动构建镜像。 Dockerfile 是一个文本文档，其中包含了用户创建镜像的所有命令和说明。一、 变量变量用 $vari...",
+    "votes": "33",
+    "url": "/k/h2n9sqn",
+    "avatar": "https://img.toutiao.io/subject/7950b62a884849aaaa2c7d9fb03f3051/thumb",
+    "avatarAlt": "大前端&机器学习 - 独家号",
+    "subjectName": "大前端&机器学习",
+    "homeUrl": "/subjects/7076"
+  },
+  {
+    "title": "分布式事务之最终一致性实现方案",
+    "description": "文章目录： 前言什么是最终一致性？实现方案代码实现小结推荐阅读前言这篇文章是《关于分布式事务的理解》的后续篇：分布式事务之最终一致性实现方案。 还是那个电商需求，一个订单支付完成后...",
+    "votes": "33",
+    "url": "/k/1gsejz4",
+    "avatar": "https://img.toutiao.io/subject/bf13817488764502ae746a0a4798478d/thumb",
+    "avatarAlt": "新亮笔记 - 独家号",
+    "subjectName": "新亮笔记",
+    "homeUrl": "/subjects/135111"
+  },
+  {
+    "title": "写一个 CRUD 还挺难的",
+    "description": " 目录数据库安全漏洞后台系统性能问题部署结语让我们只从后端角度出发，考虑写一个简单的博客系统会有哪些问题。这篇文章谈论的并不是某个 Web 框架的 TODO list demo 之...",
+    "votes": "30",
+    "url": "/k/78ckm65",
+    "avatar": "https://img.toutiao.io/subject/7099419508b548428645eec6ee3e7c5b/thumb",
+    "avatarAlt": "数据智能 - 独家号",
+    "subjectName": "数据智能",
+    "homeUrl": "/subjects/1"
+  },
+  {
+    "title": "图解 Java 线程状态转换",
+    "description": "大家好，我是阿星，好久不见，欢迎来到Java并发编程系列番外篇线程状态转换，内容通俗易懂，请放心食用。线程状态 先来个开场四连问Java线程状态有几个？Java线程状态是如何转换？...",
+    "votes": "35",
+    "url": "/k/h1v9lcb",
+    "avatar": "https://img.toutiao.io/subject/bd79d4909e3d49c485bc20d99b91a257/thumb",
+    "avatarAlt": "程序猿阿星 - 独家号",
+    "subjectName": "程序猿阿星",
+    "homeUrl": "/subjects/459978"
+  },
+  {
+    "title": "在别人写的代码上做修改我是这样保证正确性",
+    "description": "引子 9年前我入职一家公司，团队里都是之前公司的原同事，彼此都很熟，对各人的能力也都很了解。我当时负责整个公司的搜索引擎。上班第一天，我在看之前的遗留代码。原同事过来问我：“你是打...",
+    "votes": "41",
+    "url": "/k/dtxvscy",
+    "avatar": "https://img.toutiao.io/subject/4325865040b44c0b9e2d8d80a83d1d11/thumb",
+    "avatarAlt": "编程一生 - 独家号",
+    "subjectName": "编程一生",
+    "homeUrl": "/subjects/350352"
   },
   {
     "title": "Goland 这些实操技巧，你可能还不会",
@@ -160,43 +190,13 @@
     "homeUrl": "/subjects/458598"
   },
   {
-    "title": "图解 Java 线程状态转换",
-    "description": "大家好，我是阿星，好久不见，欢迎来到Java并发编程系列番外篇线程状态转换，内容通俗易懂，请放心食用。线程状态 先来个开场四连问Java线程状态有几个？Java线程状态是如何转换？...",
-    "votes": "33",
-    "url": "/k/h1v9lcb",
-    "avatar": "https://img.toutiao.io/subject/bd79d4909e3d49c485bc20d99b91a257/thumb",
-    "avatarAlt": "程序猿阿星 - 独家号",
-    "subjectName": "程序猿阿星",
-    "homeUrl": "/subjects/459978"
-  },
-  {
-    "title": "在别人写的代码上做修改我是这样保证正确性",
-    "description": "引子 9年前我入职一家公司，团队里都是之前公司的原同事，彼此都很熟，对各人的能力也都很了解。我当时负责整个公司的搜索引擎。上班第一天，我在看之前的遗留代码。原同事过来问我：“你是打...",
-    "votes": "37",
-    "url": "/k/dtxvscy",
-    "avatar": "https://img.toutiao.io/subject/4325865040b44c0b9e2d8d80a83d1d11/thumb",
-    "avatarAlt": "编程一生 - 独家号",
-    "subjectName": "编程一生",
-    "homeUrl": "/subjects/350352"
-  },
-  {
-    "title": "Java 进阶：从整体上观察面向对象",
-    "description": "一、面向对象 面向对象是Java编程中最核心的思想，基本特征：继承、封装、多态。1、特征之封装 将结构、数据、操作封装在对象实体中，使用时可以不关注对象内部结构，只能访问开放权限的...",
-    "votes": "32",
-    "url": "/k/d5zzykx",
-    "avatar": "https://img.toutiao.io/subject/652f30d4f8ed4f198281774399a49076/thumb",
-    "avatarAlt": "知了一笑 - 独家号",
-    "subjectName": "知了一笑",
-    "homeUrl": "/subjects/416733"
-  },
-  {
-    "title": "33 张图剖析 ReentrantReadWriteLock 源码",
-    "description": "大家好，我是阿星，今天是一篇硬核文，请各位读者大大们系好安全带，马上要发车了。 晕车的朋友，可以先吃一颗阿星独家秘制的晕车药，童叟无欺，货真价实，还免费，白嫖党狂喜（16张图揭开A...",
-    "votes": "28",
-    "url": "/k/86hnzxy",
-    "avatar": "https://img.toutiao.io/subject/bd79d4909e3d49c485bc20d99b91a257/thumb",
-    "avatarAlt": "程序猿阿星 - 独家号",
-    "subjectName": "程序猿阿星",
-    "homeUrl": "/subjects/459978"
+    "title": "JVM 性能调优：YGC",
+    "description": "YGC YGC频次暂且忽略，问题主要集中在gc耗时上面。想要解决YGC耗时问题，首先要搞清楚YGC的耗时节点。（据我所知的YGC问题，还没有逃出过这些维度）存活对象扫描、标记时间存...",
+    "votes": "24",
+    "url": "/k/ng7t879",
+    "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
+    "avatarAlt": "服务架构及中台 - 独家号",
+    "subjectName": "服务架构及中台",
+    "homeUrl": "/subjects/26578"
   }
 ]

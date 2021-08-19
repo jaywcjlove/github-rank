@@ -1,20 +1,20 @@
 [
   {
-    "title": "前端构建这十年",
-    "description": "前端模块化/构建工具从最开始的基于浏览器运行时加载的 RequireJs/Sea.js 到将所有资源组装依赖打包 webpack/rollup/parcel的bundle类模块化构建工具，再到现在的bundleless基于浏览器原生 ES 模块的 snowpack/vi...",
-    "url": "https://segmentfault.com/a/1190000040496020",
-    "author": "李十三",
-    "home_url": "https://segmentfault.com/u/lishisan",
-    "votes": "24",
-    "rank": 1
-  },
-  {
     "title": "我用 10000 张图片合成我们美好的瞬间",
     "description": "好了,废话不多说,今天给大家带来是一个非常有意思的项目,通过切割目标图片,获得10000个方块,用我们所选择到的图片,对应的填充方块实现一个千图成像的效果.你可以用它来拼任何你想拼的有意义的大图.(比如我,就想用...",
     "url": "https://segmentfault.com/a/1190000040516715",
     "author": "荣顶",
     "home_url": "https://segmentfault.com/u/wangrongding",
-    "votes": "18",
+    "votes": "19",
+    "rank": 1
+  },
+  {
+    "title": "大学四年一路走来，我把这些私藏的算法学习工具全贡献出来了！",
+    "description": "我们都知道数据结构和算法一个比较难以掌握的原因就是很难形象地在脑海中形成一个结构化的画面，尤其是当一些结构和算法比较复杂时，对人的想象能力有一定要求。",
+    "url": "https://segmentfault.com/a/1190000040525819",
+    "author": "CodeSheep",
+    "home_url": "https://segmentfault.com/u/hansonwang99",
+    "votes": "17",
     "rank": 2
   },
   {
@@ -32,16 +32,16 @@
     "url": "https://segmentfault.com/a/1190000040502512",
     "author": "超大只乌龟",
     "home_url": "https://segmentfault.com/u/chenwugui",
-    "votes": "10",
+    "votes": "11",
     "rank": 4
   },
   {
-    "title": "Spring Boot参数校验以及分组校验的使用",
-    "description": "简介：做web开发基本上每个接口都要对参数进行校验，如果参数比较少，还比较容易处理，一但参数比较多了的话代码中就会出现大量的if-else语句。虽然这种方式简单直接，但会大大降低开发效率和代码可读性。所以我...",
-    "url": "https://segmentfault.com/a/1190000040497449",
-    "author": "阿里云开发者",
-    "home_url": "https://segmentfault.com/u/alijishu",
-    "votes": "10",
+    "title": "AlpineJS作者：不上班，一年10w刀",
+    "description": "大家好，我是卡颂。今天为大家介绍一位坦诚的老哥。有多坦诚呢？他在推上实时公布自己赚了多少钱。到去年6月，老哥的年收入是10w刀。关键是：老哥从19年1月就不上班了。接下来让我们看看这位坦诚的老哥是如何做到...",
+    "url": "https://segmentfault.com/a/1190000040527885",
+    "author": "卡颂",
+    "home_url": "https://segmentfault.com/u/kasong",
+    "votes": "9",
     "rank": 5
   },
   {
@@ -50,8 +50,17 @@
     "url": "https://segmentfault.com/a/1190000040519211",
     "author": "童欧巴",
     "home_url": "https://segmentfault.com/u/tongouba",
-    "votes": "5",
+    "votes": "6",
     "rank": 6
+  },
+  {
+    "title": "wp2vite ~ 让webpack项目支持vite",
+    "description": "TNTWeb - 全称腾讯新闻前端团队，组内小伙伴在Web前端、NodeJS开发、UI设计、移动APP等大前端领域都有所实践和积累。目前团队主要支持腾讯新闻各业务的前端开发，业务开发之余也积累沉淀了一些前端基础设施，赋能...",
+    "url": "https://segmentfault.com/a/1190000040527636",
+    "author": "TNTWEB",
+    "home_url": "https://segmentfault.com/u/tnfe",
+    "votes": "7",
+    "rank": 7
   },
   {
     "title": "升级Yarn 2，摆脱node_modules",
@@ -59,15 +68,6 @@
     "url": "https://segmentfault.com/a/1190000040520326",
     "author": "张京",
     "home_url": "https://segmentfault.com/u/fengerzh",
-    "votes": "7",
-    "rank": 7
-  },
-  {
-    "title": "面试官：小伙子，你这单点登录学的可以啊",
-    "description": "上面的URL主要通过URL来描述这个当然这样做有一个弊端，那就是要求用户B用户是一定要先登录的。可不可以简化这个流程，让B用户不用登录就可以完成这个操作。JWT就允许我们做到这点。",
-    "url": "https://segmentfault.com/a/1190000040500287",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "7",
     "rank": 8
   },
@@ -90,31 +90,13 @@
     "rank": 10
   },
   {
-    "title": "5 个可以加速开发的 VueUse 函数库",
-    "description": "VueUse 是 Anthony Fu 的一个开源项目，它为 Vue 开发人员提供了大量适用于 Vue 2 和 Vue 3 的基本 Composition API 实用程序函数。",
-    "url": "https://segmentfault.com/a/1190000040515394",
-    "author": "杜尼卜",
-    "home_url": "https://segmentfault.com/u/dunizb",
-    "votes": "6",
+    "title": "常见的Web攻击手段，拿捏了！",
+    "description": "本文主要介绍 互联网中常见的 Web 攻击手段如有需要，可以参考如有帮助，不忘 点赞 ❥微信公众号已开启，小菜良记，没关注的同学们记得关注哦！",
+    "url": "https://segmentfault.com/a/1190000040517973",
+    "author": "蔡不菜丶",
+    "home_url": "https://segmentfault.com/u/17689400062",
+    "votes": "8",
     "rank": 11
-  },
-  {
-    "title": "如何用程序员的方式，营造七夕氛围感？",
-    "description": "每年此时，送礼指南满天飞，选择困难症都给逼出来了，疑了个惑，能搞定爱情的人，却在送礼这件事儿上纠结万分！要我说，七夕这种有情人的浪漫佳节，最重要的是图一个氛围！今天给大家介绍一个适合程序员的七夕“氛...",
-    "url": "https://segmentfault.com/a/1190000040510594",
-    "author": "华为移动服务",
-    "home_url": "https://segmentfault.com/u/hms_core",
-    "votes": "2",
-    "rank": 12
-  },
-  {
-    "title": "当设计模式遇上 Hooks",
-    "description": "「设计模式」是一个老生常谈的话题，但更多是集中在面向对象语言领域，如 C++，Java 等。前端领域对于设计模式的探讨热度并不是很高，很多人觉得对于 JavaScript 这种典型的面向过程的语言来说，设计模式的价值很...",
-    "url": "https://segmentfault.com/a/1190000040511989",
-    "author": "ES2049",
-    "home_url": "https://segmentfault.com/u/alisecued",
-    "votes": "6",
-    "rank": 13
   },
   {
     "title": "这7个 Vue 模式，可能你经常用！但现在看对你很有帮助！",
@@ -122,7 +104,25 @@
     "url": "https://segmentfault.com/a/1190000040458501",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "4",
+    "votes": "5",
+    "rank": 12
+  },
+  {
+    "title": "5 个可以加速开发的 VueUse 函数库",
+    "description": "VueUse 是 Anthony Fu 的一个开源项目，它为 Vue 开发人员提供了大量适用于 Vue 2 和 Vue 3 的基本 Composition API 实用程序函数。",
+    "url": "https://segmentfault.com/a/1190000040515394",
+    "author": "杜尼卜",
+    "home_url": "https://segmentfault.com/u/dunizb",
+    "votes": "6",
+    "rank": 13
+  },
+  {
+    "title": "[Jenkins进阶]-前端CI/CD",
+    "description": "如果没有自动化， 我们的前端从开发到提测工作流程可能如下：1.本地机器上写代码2.在命令行输入 npm run unit/lint，查看单元测试/eslint校验结果3.提交代码，push 到 git 远程仓库4.执行 npm run build，构建项...",
+    "url": "https://segmentfault.com/a/1190000040534015",
+    "author": "JenK",
+    "home_url": "https://segmentfault.com/u/wangzc996",
+    "votes": "9",
     "rank": 14
   },
   {
@@ -131,26 +131,35 @@
     "url": "https://segmentfault.com/a/1190000040506397",
     "author": "凹凸实验室",
     "home_url": "https://segmentfault.com/u/o2team",
-    "votes": "5",
+    "votes": "6",
     "rank": 15
   },
   {
-    "title": "CSS也能像组件状态一样响应式更新？",
-    "description": "大家好，我是卡颂。不知道平时在项目里你怎么处理CSS呢？我们知道，由于原生CSS存在一些问题，比如：复用时容易样式冲突没有作用域、没有模块化没有编程能力社区涌现出很多解决方案，比如：命名规范（比如BEM规范...",
-    "url": "https://segmentfault.com/a/1190000040501099",
-    "author": "卡颂",
-    "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "3",
+    "title": "当设计模式遇上 Hooks",
+    "description": "「设计模式」是一个老生常谈的话题，但更多是集中在面向对象语言领域，如 C++，Java 等。前端领域对于设计模式的探讨热度并不是很高，很多人觉得对于 JavaScript 这种典型的面向过程的语言来说，设计模式的价值很...",
+    "url": "https://segmentfault.com/a/1190000040511989",
+    "author": "ES2049",
+    "home_url": "https://segmentfault.com/u/alisecued",
+    "votes": "6",
     "rank": 16
   },
   {
-    "title": "大学四年一路走来，我把这些私藏的算法学习工具全贡献出来了！",
-    "description": "我们都知道数据结构和算法一个比较难以掌握的原因就是很难形象地在脑海中形成一个结构化的画面，尤其是当一些结构和算法比较复杂时，对人的想象能力有一定要求。",
-    "url": "https://segmentfault.com/a/1190000040525819",
-    "author": "CodeSheep",
-    "home_url": "https://segmentfault.com/u/hansonwang99",
-    "votes": "11",
+    "title": "如何用程序员的方式，营造七夕氛围感？",
+    "description": "每年此时，送礼指南满天飞，选择困难症都给逼出来了，疑了个惑，能搞定爱情的人，却在送礼这件事儿上纠结万分！要我说，七夕这种有情人的浪漫佳节，最重要的是图一个氛围！今天给大家介绍一个适合程序员的七夕“氛...",
+    "url": "https://segmentfault.com/a/1190000040510594",
+    "author": "华为移动服务",
+    "home_url": "https://segmentfault.com/u/hms_core",
+    "votes": "2",
     "rank": 17
+  },
+  {
+    "title": "开发者眼中的“道、法、术、器”",
+    "description": "如果你现在正碰到职业发展的瓶颈，那么可以看看下面的内容，也许会有所感悟和帮助。我们将分别从“道、法、术、器”，聊聊我们在这四个层面上的不同表现，重新审视下目前的你所付出的努力都集中于哪一层，并思考接...",
+    "url": "https://segmentfault.com/a/1190000040508164",
+    "author": "程序猿DD",
+    "home_url": "https://segmentfault.com/u/coderdd",
+    "votes": "4",
+    "rank": 18
   },
   {
     "title": "七夕活动运营，社交游戏类应用如何做好商品管理",
@@ -159,15 +168,6 @@
     "author": "华为移动服务",
     "home_url": "https://segmentfault.com/u/hms_core",
     "votes": "1",
-    "rank": 18
-  },
-  {
-    "title": "开发者眼中的“道、法、术、器”",
-    "description": "如果你现在正碰到职业发展的瓶颈，那么可以看看下面的内容，也许会有所感悟和帮助。我们将分别从“道、法、术、器”，聊聊我们在这四个层面上的不同表现，重新审视下目前的你所付出的努力都集中于哪一层，并思考接...",
-    "url": "https://segmentfault.com/a/1190000040508164",
-    "author": "程序猿DD",
-    "home_url": "https://segmentfault.com/u/coderdd",
-    "votes": "3",
     "rank": 19
   },
   {
@@ -180,31 +180,13 @@
     "rank": 20
   },
   {
-    "title": "表格技术七十二变|手把手教你用Canvas电子表格做电子签名",
-    "description": "转载请注明出处：葡萄城官网，葡萄城为开发者提供专业的开发工具、解决方案和服务，赋能开发者。日常生活工作学习中，大家对电子表格必定不陌生。从工作数据汇总分析到出门收据各种电子发票，这些都是由电子表格...",
-    "url": "https://segmentfault.com/a/1190000040497582",
-    "author": "葡萄城技术团队",
-    "home_url": "https://segmentfault.com/u/grapecity",
+    "title": "2021 Web Worker 需要了解的现状",
+    "description": "前言本文为转载翻译原文标题：2021 Web Worker 现状翻译原文作者：Tapir翻译原文地址：知乎原文地址: The State Of Web Workers In 2021导读: Web 是单线程的。这让编写流畅又灵敏的应用程序变得越来越困难。Web ...",
+    "url": "https://segmentfault.com/a/1190000040521208",
+    "author": "wlove",
+    "home_url": "https://segmentfault.com/u/xieguoliang",
     "votes": "3",
     "rank": 21
-  },
-  {
-    "title": "验证码这样做，瞬间高出一个逼格",
-    "description": "今天推荐一款非常优秀的行为验证码AJ-Captcha（项目地址[链接]），这个项目包含了滑动拼图和文字点选两种类型的验证码，除了嵌入式交互，还提供了弹出式交互的方式，完全不影响原UI布局。",
-    "url": "https://segmentfault.com/a/1190000040518131",
-    "author": "Java旅途",
-    "home_url": "https://segmentfault.com/u/javatrip",
-    "votes": "4",
-    "rank": 22
-  },
-  {
-    "title": "面试官问我如何理解 IOC 和 DI",
-    "description": "DI，全称 Dependency Injection，依赖注入是 IOC 的具体实现。是指对象通过外部的注入，避免对象内部自身实现外部依赖的实例化过程。",
-    "url": "https://segmentfault.com/a/1190000040507927",
-    "author": "wscats",
-    "home_url": "https://segmentfault.com/u/wscats",
-    "votes": "1",
-    "rank": 23
   },
   {
     "title": "如何使用Promise.race() 和 Promise.any()  ？",
@@ -213,25 +195,52 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "6",
+    "rank": 22
+  },
+  {
+    "title": "验证码这样做，瞬间高出一个逼格",
+    "description": "今天推荐一款非常优秀的行为验证码AJ-Captcha（项目地址[链接]），这个项目包含了滑动拼图和文字点选两种类型的验证码，除了嵌入式交互，还提供了弹出式交互的方式，完全不影响原UI布局。",
+    "url": "https://segmentfault.com/a/1190000040518131",
+    "author": "Java旅途",
+    "home_url": "https://segmentfault.com/u/javatrip",
+    "votes": "4",
+    "rank": 23
+  },
+  {
+    "title": "面试官问我如何理解 IOC 和 DI",
+    "description": "DI，全称 Dependency Injection，依赖注入是 IOC 的具体实现。是指对象通过外部的注入，避免对象内部自身实现外部依赖的实例化过程。",
+    "url": "https://segmentfault.com/a/1190000040507927",
+    "author": "wscats",
+    "home_url": "https://segmentfault.com/u/wscats",
+    "votes": "1",
     "rank": 24
   },
   {
-    "title": "使用 GTD 优化自己的工作和生活",
-    "description": "算起来工作已经四个年头了，刚开始工作就在使用 TODO 工具，比如 OneNote、奇妙清单（现在叫：微软 TODO）、滴答清单。但是，在用的过程中很多 TODO 直到项目结束了，依然是 TODO。",
-    "url": "https://segmentfault.com/a/1190000040495806",
-    "author": "Shenfq",
-    "home_url": "https://segmentfault.com/u/shenfq",
+    "title": "Vue.js 中使用defineAsyncComponent 延迟加载组件",
+    "description": "在本教程中，我们将学习 defineAsyncComponent 的全部内容，并看一个例子，该例子将一个弹出窗口的加载推迟到我们的应用程序需要的时候。",
+    "url": "https://segmentfault.com/a/1190000040515376",
+    "author": "杜尼卜",
+    "home_url": "https://segmentfault.com/u/dunizb",
     "votes": "3",
     "rank": 25
   },
   {
-    "title": "CSS3媒体查询media_queries响应式布局入门指南知识点总结",
-    "description": "目前我们使用的最新版本的层叠样式表主要是CSS第三版，也就是CSS3，CSS3带来的新特性、新功能有很多，比如：圆角效果、图形化边界、块阴影与文字阴影、使用RGBA实现透明效果、渐变效果、使用@Font-Face实现定制字...",
-    "url": "https://segmentfault.com/a/1190000040498705",
-    "author": "水冗水孚",
-    "home_url": "https://segmentfault.com/u/shuirongshui",
-    "votes": "2",
+    "title": "一款炫酷、轻量级性能监控系统",
+    "description": "对于监控平台，民工哥在以往的文章中介绍过太多太多，细心的读者都发现了。不过，话说回来，监控系统对于任何业务来说都是重中之重，部署完成之后，除了必要的逻辑优化与更新迭代，监控与报警显得更加重要。往期...",
+    "url": "https://segmentfault.com/a/1190000040529745",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "5",
     "rank": 26
+  },
+  {
+    "title": "推荐大家一个技术周刊",
+    "description": "前端行业发展飞速，新技术如雨后春笋般出现。尤其是各种小程序陆续推出，相关的信息、文章也铺天盖地的遍布在各处， 如何才能更加准确的找到最新、最有价值的前端信息呢，当你对此感到困惑的时候，不妨关注一下业...",
+    "url": "https://segmentfault.com/a/1190000040523499",
+    "author": "TNTWEB",
+    "home_url": "https://segmentfault.com/u/tnfe",
+    "votes": "5",
+    "rank": 27
   },
   {
     "title": "Vue 移动端的长按与触摸事件",
@@ -240,32 +249,23 @@
     "author": "归子莫",
     "home_url": "https://segmentfault.com/u/guizimo",
     "votes": "2",
-    "rank": 27
-  },
-  {
-    "title": "【译】Learn D3 文档: By Example",
-    "description": "引子继 Learn D3: Introduction 第二篇，只是英文翻译，可修改代码的部分用静态图片替代了，想要实时交互请阅读原文。原文：Learn D3: By Example版本：Published Mar 24, 2020OriginMy GitHub正文开始使用 D3 的...",
-    "url": "https://segmentfault.com/a/1190000040519626",
-    "author": "XXHolic",
-    "home_url": "https://segmentfault.com/u/xxholic",
-    "votes": "1",
     "rank": 28
   },
   {
-    "title": "这么递名片才高效！教你给应用开发个交换名片功能",
-    "description": "在工作和生活中，遇见新的同事或者合作伙伴，交换名片是一个常见的用户需求，纸质名片常忘带、易丢失，是客户的一个痛点。因此，市场上出现了很多交换电子名片的APP和小程序。那么，如何给自己的APP开发一个名片...",
-    "url": "https://segmentfault.com/a/1190000040498765",
-    "author": "华为移动服务",
-    "home_url": "https://segmentfault.com/u/hms_core",
-    "votes": "1",
+    "title": "场景+案例分析，SQL优化这么做就对了！",
+    "description": "在应用开发的早期，数据量少，开发人员开发功能时更重视功能上的实现，随着生产数据的增长，很多SQL语句开始暴露出性能问题，对生产的影响也越来越大，有时可能这些有问题的SQL就是整个系统性能的瓶颈。",
+    "url": "https://segmentfault.com/a/1190000040529739",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "5",
     "rank": 29
   },
   {
-    "title": "Java 14 新功能介绍",
-    "description": "点赞再看，动力无限。Hello world : ) 微信搜「 程序猿阿朗 」。本文 Github.com/niumoo/JavaNotes 和 未读代码博客 已经收录，有很多知识点和系列文章。Java 14 早在 2019 年 9 月就已经发布，虽然不是长久支持...",
-    "url": "https://segmentfault.com/a/1190000040501717",
-    "author": "程序猿阿朗",
-    "home_url": "https://segmentfault.com/u/niumoo",
+    "title": "大厂offer？拿来吧你！网易有道笔试编程题特辑",
+    "description": "联系我们：有道技术团队助手：ydtech01 / 邮箱：ydtech@rd.netease.com欢迎应届生同学们来到2022年校招运动会现在迎面向你们走来的是网易有道代表队！（传送门：[链接] ）他们食堂好吃他们从不内卷今天，他们还带...",
+    "url": "https://segmentfault.com/a/1190000040508611",
+    "author": "有道技术团队",
+    "home_url": "https://segmentfault.com/u/youdaotec",
     "votes": "1",
     "rank": 30
   }
