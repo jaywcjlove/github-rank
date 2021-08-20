@@ -20,24 +20,24 @@
     "homeUrl": "/subjects/403307"
   },
   {
-    "title": "秒杀系统你必须知道的 9 个细节",
-    "description": "大家好，我是苏三，又跟大家见面了。前言 高并发下如何设计秒杀系统？这是一个高频面试题。这个问题看似简单，但是里面的水很深，它考查的是高并发场景下，从前端到后端多方面的知识。秒杀一般...",
-    "votes": "172",
-    "url": "/k/ghq07ln",
-    "avatar": "https://img.toutiao.io/subject/96c1af0d2a0b441ca9740ee13c3e37f3/thumb",
-    "avatarAlt": "苏三说技术 - 独家号",
-    "subjectName": "苏三说技术",
-    "homeUrl": "/subjects/453205"
-  },
-  {
     "title": "分布式事务最经典的七种解决方案",
     "description": "随着业务的快速发展、业务复杂度越来越高，几乎每个公司的系统都会从单体走向分布式，特别是转向微服务架构。随之而来就必然遇到分布式事务这个难题，这篇文章总结了分布式事务最经典的解决方案...",
-    "votes": "157",
+    "votes": "186",
     "url": "/k/vxr31wq",
     "avatar": "https://img.toutiao.io/subject/45e806cf22ab424b831afe890c225505/thumb",
     "avatarAlt": "叶东富 - 独家号",
     "subjectName": "叶东富",
     "homeUrl": "/subjects/307550"
+  },
+  {
+    "title": "秒杀系统你必须知道的 9 个细节",
+    "description": "大家好，我是苏三，又跟大家见面了。前言 高并发下如何设计秒杀系统？这是一个高频面试题。这个问题看似简单，但是里面的水很深，它考查的是高并发场景下，从前端到后端多方面的知识。秒杀一般...",
+    "votes": "173",
+    "url": "/k/ghq07ln",
+    "avatar": "https://img.toutiao.io/subject/96c1af0d2a0b441ca9740ee13c3e37f3/thumb",
+    "avatarAlt": "苏三说技术 - 独家号",
+    "subjectName": "苏三说技术",
+    "homeUrl": "/subjects/453205"
   },
   {
     "title": "高效线上问题排查：套路化和工具化",
@@ -52,7 +52,7 @@
   {
     "title": "Redis 只能做缓存？太 out 了",
     "description": " 原创：小姐姐味道（微信公众号ID：xjjdog），欢迎分享，转载请保留出处。大多数数据库，由于经常和磁盘打交道，在高并发场景下，响应会非常的慢。为了解决这种速度差异，大多数系统都...",
-    "votes": "144",
+    "votes": "151",
     "url": "/k/l84n965",
     "avatar": "https://img.toutiao.io/subject/6b8e14b561b24dfeac075e2a8dac9bfd/thumb",
     "avatarAlt": "小姐姐味道 - 独家号",
@@ -70,6 +70,16 @@
     "homeUrl": "/subjects/381811"
   },
   {
+    "title": "什么是布隆过滤器？如何解决高并发缓存穿透问题？",
+    "description": "大家好，我是Tom哥~日常开发中，大家经常使用缓存，但是你知道大型的互联网公司面对高并发流量，要注意缓存穿透问题吗!!! 本文会介绍布隆过滤器，空间换时间，以较低的内存空间、高效解...",
+    "votes": "125",
+    "url": "/k/8klo399",
+    "avatar": "https://img.toutiao.io/subject/83f7c83d300b4884a690ef12a32a86ab/thumb",
+    "avatarAlt": "微观技术 - 独家号",
+    "subjectName": "微观技术",
+    "homeUrl": "/subjects/348507"
+  },
+  {
     "title": "将你的 Windows，快速打造成 Docker 工作站",
     "description": " 原创：小姐姐味道（微信公众号ID：xjjdog），欢迎分享，转载请保留出处。手里的macbook因为键盘问题返厂维修了，只好抱起了久违的Windows。首先面临的，就是Docke...",
     "votes": "128",
@@ -78,16 +88,6 @@
     "avatarAlt": "小姐姐味道 - 独家号",
     "subjectName": "小姐姐味道",
     "homeUrl": "/subjects/351247"
-  },
-  {
-    "title": "什么是布隆过滤器？如何解决高并发缓存穿透问题？",
-    "description": "大家好，我是Tom哥~日常开发中，大家经常使用缓存，但是你知道大型的互联网公司面对高并发流量，要注意缓存穿透问题吗!!! 本文会介绍布隆过滤器，空间换时间，以较低的内存空间、高效解...",
-    "votes": "124",
-    "url": "/k/8klo399",
-    "avatar": "https://img.toutiao.io/subject/83f7c83d300b4884a690ef12a32a86ab/thumb",
-    "avatarAlt": "微观技术 - 独家号",
-    "subjectName": "微观技术",
-    "homeUrl": "/subjects/348507"
   },
   {
     "title": "刷 LeetCode，进字节、阿里等一线大厂，刷题之前一定先打好底层基础",
@@ -112,7 +112,7 @@
   {
     "title": "性能测试基础知识体系",
     "description": "前言 谈起性能测试，大家经常聊的是高并发、高可用、性能优化、全链路压测等Topic，听起来都挺高大上，但这些概念追本溯源，还是要落到性能测试基础的东西上。比如需求分析、场景建模、测...",
-    "votes": "111",
+    "votes": "116",
     "url": "/k/f3btssh",
     "avatar": "https://img.toutiao.io/subject/1227f0343a1546ee8e3c535cce14aa4c/thumb",
     "avatarAlt": "工程师的自我修养之路 - 独家号",
@@ -122,12 +122,22 @@
   {
     "title": "从 0 到 1 亿用户的架构设计",
     "description": " Kirill Sh@Unsplash 高可用架构设计最核心的就是两点：解耦和冗余。解耦包括业务状态分离（无状态架构设计）、分库分表等。冗余包括缓存、CDN、主从备份、主主备份、G...",
-    "votes": "119",
+    "votes": "120",
     "url": "/k/atd4obd",
     "avatar": "https://img.toutiao.io/default-avatar.png",
     "avatarAlt": "DeepNoMind - 独家号",
     "subjectName": "DeepNoMind",
     "homeUrl": "/subjects/460290"
+  },
+  {
+    "title": "vivo 全球商城：优惠券系统架构设计与实践",
+    "description": "作者：vivo互联网开发团队-Yan Chao一、业务背景优惠券是电商常见的营销手段，具有灵活的特点，既可以作为促销活动的载体，也是重要的引流入口。优惠券系统是vivo商城营销模块...",
+    "votes": "114",
+    "url": "/k/yyiq1f3",
+    "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
+    "avatarAlt": "vivo互联网技术 - 独家号",
+    "subjectName": "vivo互联网技术",
+    "homeUrl": "/subjects/392760"
   },
   {
     "title": "用 Go 轻松完成一个 TCC 分布式事务，保姆级教程",
@@ -140,24 +150,24 @@
     "homeUrl": "/subjects/1385"
   },
   {
-    "title": "vivo 全球商城：优惠券系统架构设计与实践",
-    "description": "作者：vivo互联网开发团队-Yan Chao一、业务背景优惠券是电商常见的营销手段，具有灵活的特点，既可以作为促销活动的载体，也是重要的引流入口。优惠券系统是vivo商城营销模块...",
-    "votes": "106",
-    "url": "/k/yyiq1f3",
-    "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
-    "avatarAlt": "vivo互联网技术 - 独家号",
-    "subjectName": "vivo互联网技术",
-    "homeUrl": "/subjects/392760"
-  },
-  {
     "title": "Java 书单：比较全的一篇",
     "description": "前言  之前写过一篇，Java核心书单，里面涵盖了几本主要的Java书籍；后来有朋友反馈说，这几本太少了，没得选；所以最近趁着有空，整理了一份稍微多点的，同时质量也比较高的书单；当...",
-    "votes": "102",
+    "votes": "106",
     "url": "/k/pp94s1f",
     "avatar": "https://img.toutiao.io/user/4e114bdc35ab48ef949d3246083c5818/thumb",
     "avatarAlt": "汤圆学Java - 独家号",
     "subjectName": "汤圆学Java",
     "homeUrl": "/subjects/357541"
+  },
+  {
+    "title": "这 6 个开源工具 yyds",
+    "description": "老逛搜集了 6 个 GitHub 上高赞的工具类开源项目，它们是启动盘制作神器、开源思维导图工具、Chrome 优质插件盘点、macOS 优质工具软件盘点。01. 重装系统神器Ru...",
+    "votes": "97",
+    "url": "/k/4hy4ste",
+    "avatar": "https://img.toutiao.io/subject/03e210e126704d0ca23938746bbd4cec/thumb",
+    "avatarAlt": "近半生少年 - 独家号",
+    "subjectName": "近半生少年",
+    "homeUrl": "/subjects/403307"
   },
   {
     "title": "程序员可能必读书单推荐（一）",
@@ -182,7 +192,7 @@
   {
     "title": "计算机网络：TCP 协议原理总结",
     "description": "本文总结 TCP 协议的原理，包括：TCP 概念和特点 可靠传输的基础机制 TCP 滑动窗口机制 TCP 重传机制 TCP 流量控制机制 TCP 拥塞控制机制 TCP 连接建立和释...",
-    "votes": "101",
+    "votes": "102",
     "url": "/k/2cf32un",
     "avatar": "https://img.toutiao.io/user/776a2999bca149088ebe52366451432a/thumb",
     "avatarAlt": "hit9 - 独家号",
@@ -192,7 +202,7 @@
   {
     "title": "如何使用 DDD 指导微服务拆分？",
     "description": "  我是架构精进之路，大厂架构师，CSDN博客专家，点击上方“关注”，坚持每天为你分享技术干货，私信我回复“01”，送你一份程序员成长进阶大礼包。  软件架构发展经历 软件架构的发...",
-    "votes": "90",
+    "votes": "93",
     "url": "/k/3yzh7i0",
     "avatar": "https://img.toutiao.io/subject/071476c43e0d42cf95f3e77f046c814b/thumb",
     "avatarAlt": "架构精进之路 - 独家号",
@@ -202,12 +212,32 @@
   {
     "title": "你的站点抗压么？推荐一款超方便的开源压测工具",
     "description": " 作者：HelloGitHub-Anthony 这里是 HelloGitHub 推出的《讲解开源项目》系列，本期介绍一款标星 17.7k 纯 Go 语言实现的 HTTP(S) 压测...",
-    "votes": "86",
+    "votes": "87",
     "url": "/k/gz48fpu",
     "avatar": "https://img.toutiao.io/subject/b751657c3aaa4ac59db50c07db41e538/thumb",
     "avatarAlt": "HelloGitHub - 独家号",
     "subjectName": "HelloGitHub",
     "homeUrl": "/subjects/175527"
+  },
+  {
+    "title": "超大文件读取优化的探讨",
+    "description": "前言 在开发过程中，经常会遇到对文件的操作，对于一般的文件，通常使用fread, fwrite等文件操作api即可处理。然而在处理大文件上, 使用普通的api在性能上难以得到保障。...",
+    "votes": "83",
+    "url": "/k/s0ughm2",
+    "avatar": "https://img.toutiao.io/subject/19c420d3b4d84959b00f29b13e475ced/thumb",
+    "avatarAlt": "AggrxTech - 独家号",
+    "subjectName": "AggrxTech",
+    "homeUrl": "/subjects/425954"
+  },
+  {
+    "title": "技术专家面试实战：用数组实现一个阻塞队列？",
+    "description": "ArrayBlockingQueue顾名思义，是基于数组实现的阻塞队列，阻塞队列可以用于缓冲任务，实现生产者消费者模式，例如线程池中的工作队列。那么怎么才能用数组实现阻塞队列呢？我...",
+    "votes": "86",
+    "url": "/k/90ne21d",
+    "avatar": "https://img.toutiao.io/subject/5c05b5bf20fc4a7d84ca0cc73ceb3b72/thumb",
+    "avatarAlt": "bytejava - 独家号",
+    "subjectName": "bytejava",
+    "homeUrl": "/subjects/191320"
   },
   {
     "title": "从零设计可视化大屏搭建引擎",
@@ -218,35 +248,5 @@
     "avatarAlt": "Java框架探索 - 独家号",
     "subjectName": "Java框架探索",
     "homeUrl": "/subjects/32544"
-  },
-  {
-    "title": "技术专家面试实战：用数组实现一个阻塞队列？",
-    "description": "ArrayBlockingQueue顾名思义，是基于数组实现的阻塞队列，阻塞队列可以用于缓冲任务，实现生产者消费者模式，例如线程池中的工作队列。那么怎么才能用数组实现阻塞队列呢？我...",
-    "votes": "85",
-    "url": "/k/90ne21d",
-    "avatar": "https://img.toutiao.io/subject/5c05b5bf20fc4a7d84ca0cc73ceb3b72/thumb",
-    "avatarAlt": "bytejava - 独家号",
-    "subjectName": "bytejava",
-    "homeUrl": "/subjects/191320"
-  },
-  {
-    "title": "超大文件读取优化的探讨",
-    "description": "前言 在开发过程中，经常会遇到对文件的操作，对于一般的文件，通常使用fread, fwrite等文件操作api即可处理。然而在处理大文件上, 使用普通的api在性能上难以得到保障。...",
-    "votes": "79",
-    "url": "/k/s0ughm2",
-    "avatar": "https://img.toutiao.io/subject/19c420d3b4d84959b00f29b13e475ced/thumb",
-    "avatarAlt": "AggrxTech - 独家号",
-    "subjectName": "AggrxTech",
-    "homeUrl": "/subjects/425954"
-  },
-  {
-    "title": "面试必问的 ThreadLocal 细节，其他文章里写的真的对吗？",
-    "description": "ThreadLocal的作用是什么？使用时有哪些注意事项？为什么ThreadLocalMap中的Entry要使用WeakReference？netty中FastThreadLoca...",
-    "votes": "78",
-    "url": "/k/12dqepa",
-    "avatar": "https://img.toutiao.io/subject/5c05b5bf20fc4a7d84ca0cc73ceb3b72/thumb",
-    "avatarAlt": "bytejava - 独家号",
-    "subjectName": "bytejava",
-    "homeUrl": "/subjects/191320"
   }
 ]
