@@ -12,7 +12,7 @@
   {
     "title": "95% 的算法都是基于这 6 种算法思想",
     "description": "点击上方 三分钟学前端，关注公众号 回复交流，加入前端编程面试算法每日一题群 面试官也在看的前端面试资料 算法思想是解决问题的核心，万丈高楼起于平地，在算法中也是如此，95% 的算...",
-    "votes": "298",
+    "votes": "299",
     "url": "/k/pbwl6pl",
     "avatar": "https://img.toutiao.io/subject/c9bc51847b0c4b49aca52d0eaa087ed1/thumb",
     "avatarAlt": "冷星前端圈 - 独家号",
@@ -70,6 +70,16 @@
     "homeUrl": "/subjects/403307"
   },
   {
+    "title": "分布式事务最经典的七种解决方案",
+    "description": "随着业务的快速发展、业务复杂度越来越高，几乎每个公司的系统都会从单体走向分布式，特别是转向微服务架构。随之而来就必然遇到分布式事务这个难题，这篇文章总结了分布式事务最经典的解决方案...",
+    "votes": "201",
+    "url": "/k/vxr31wq",
+    "avatar": "https://img.toutiao.io/subject/45e806cf22ab424b831afe890c225505/thumb",
+    "avatarAlt": "叶东富 - 独家号",
+    "subjectName": "叶东富",
+    "homeUrl": "/subjects/307550"
+  },
+  {
     "title": "25 张图，一万字，拆解 Linux 网络包发送过程",
     "description": "在开始今天的文章之前，我先来请大家思考几个小问题。问1：我们在查看内核发送数据消耗的 CPU 时，是应该看 sy 还是 si ？问2：为什么你服务器上的 /proc/softirq...",
     "votes": "207",
@@ -110,16 +120,6 @@
     "homeUrl": "/subjects/403307"
   },
   {
-    "title": "分布式事务最经典的七种解决方案",
-    "description": "随着业务的快速发展、业务复杂度越来越高，几乎每个公司的系统都会从单体走向分布式，特别是转向微服务架构。随之而来就必然遇到分布式事务这个难题，这篇文章总结了分布式事务最经典的解决方案...",
-    "votes": "186",
-    "url": "/k/vxr31wq",
-    "avatar": "https://img.toutiao.io/subject/45e806cf22ab424b831afe890c225505/thumb",
-    "avatarAlt": "叶东富 - 独家号",
-    "subjectName": "叶东富",
-    "homeUrl": "/subjects/307550"
-  },
-  {
     "title": "掌门 MySQL 数据库规约落地及优化实战",
     "description": " 前言MySQL 数据库承载了掌门绝大部分核心业务的数据存储，因此 MySQL 数据库的稳定运行至关重要。DBA 团队一直致力于保障数据库环境的平稳运行，编写有掌门 MySQL 数...",
     "votes": "182",
@@ -150,6 +150,16 @@
     "homeUrl": "/subjects/453205"
   },
   {
+    "title": "Redis 只能做缓存？太 out 了",
+    "description": " 原创：小姐姐味道（微信公众号ID：xjjdog），欢迎分享，转载请保留出处。大多数数据库，由于经常和磁盘打交道，在高并发场景下，响应会非常的慢。为了解决这种速度差异，大多数系统都...",
+    "votes": "155",
+    "url": "/k/l84n965",
+    "avatar": "https://img.toutiao.io/subject/6b8e14b561b24dfeac075e2a8dac9bfd/thumb",
+    "avatarAlt": "小姐姐味道 - 独家号",
+    "subjectName": "小姐姐味道",
+    "homeUrl": "/subjects/351247"
+  },
+  {
     "title": "高效线上问题排查：套路化和工具化",
     "description": " 作者简介  丰富，携程高级技术专家，在性能优化、问题排查方面有较多的研究。  一、前言  线上问题排查相比于coding，是一个低频的工作，很多人不会经常遇到。一旦需要进行问题排...",
     "votes": "139",
@@ -158,16 +168,6 @@
     "avatarAlt": "携程技术中心 - 独家号",
     "subjectName": "携程技术中心",
     "homeUrl": "/subjects/119893"
-  },
-  {
-    "title": "Redis 只能做缓存？太 out 了",
-    "description": " 原创：小姐姐味道（微信公众号ID：xjjdog），欢迎分享，转载请保留出处。大多数数据库，由于经常和磁盘打交道，在高并发场景下，响应会非常的慢。为了解决这种速度差异，大多数系统都...",
-    "votes": "151",
-    "url": "/k/l84n965",
-    "avatar": "https://img.toutiao.io/subject/6b8e14b561b24dfeac075e2a8dac9bfd/thumb",
-    "avatarAlt": "小姐姐味道 - 独家号",
-    "subjectName": "小姐姐味道",
-    "homeUrl": "/subjects/351247"
   },
   {
     "title": "杭州某大厂：MySQL 连环问",
@@ -190,6 +190,16 @@
     "homeUrl": "/subjects/102436"
   },
   {
+    "title": "[译] Kubernetes 必备工具：2021",
+    "description": "tools有别于前些天的文章 - 常用的几款工具让 Kubernetes 集群上的工作更容易 偏重于工具类来提升工作效率，今天这篇文章更加适合用来做选型时的参考。文档翻译自 Kub...",
+    "votes": "131",
+    "url": "/k/xbnvrk9",
+    "avatar": "https://img.toutiao.io/subject/fe86744cdefe44579562d9f36c4edb39/thumb",
+    "avatarAlt": "云原生指北 - 独家号",
+    "subjectName": "云原生指北",
+    "homeUrl": "/subjects/19934"
+  },
+  {
     "title": "网络连接存在大量 time_wait 和 close_wait 的原因以及解决方法",
     "description": "如果对tcp中的握手挥手不了解的同学，请先看这篇博客：《关于三次握手与四次挥手你要知道这些》。 四次挥手过程：第一次挥手：主机A（可以是客户端，也可以是服务器端），设置Sequen...",
     "votes": "137",
@@ -198,16 +208,6 @@
     "avatarAlt": "服务器后端开发 - 独家号",
     "subjectName": "服务器后端开发",
     "homeUrl": "/subjects/375484"
-  },
-  {
-    "title": "[译] Kubernetes 必备工具：2021",
-    "description": "tools有别于前些天的文章 - 常用的几款工具让 Kubernetes 集群上的工作更容易 偏重于工具类来提升工作效率，今天这篇文章更加适合用来做选型时的参考。文档翻译自 Kub...",
-    "votes": "130",
-    "url": "/k/xbnvrk9",
-    "avatar": "https://img.toutiao.io/subject/fe86744cdefe44579562d9f36c4edb39/thumb",
-    "avatarAlt": "云原生指北 - 独家号",
-    "subjectName": "云原生指北",
-    "homeUrl": "/subjects/19934"
   },
   {
     "title": "代码写的烂，经常被同事怼，教你一招",
@@ -240,13 +240,13 @@
     "homeUrl": "/subjects/348014"
   },
   {
-    "title": "值得收藏，揭秘 MySQL 多版本并发控制实现原理",
-    "description": "▲ 点击上方“架构精进之路”关注公众号回复“01”领取「程序员进阶大礼包」这是「架构精进之路」公众号的第73篇原创文章MySQL 中多版本并发控制（MVCC），是现代数据库引擎实现...",
-    "votes": "131",
-    "url": "/k/r59u142",
-    "avatar": "https://img.toutiao.io/subject/071476c43e0d42cf95f3e77f046c814b/thumb",
-    "avatarAlt": "架构精进之路 - 独家号",
-    "subjectName": "架构精进之路",
-    "homeUrl": "/subjects/452638"
+    "title": "树莓派家用指北",
+    "description": "前两天刚刚入职，最近几天忙着租房搬家，忙活了几天总算是住进了自己小屋里，作为一个软件工程师，怎么可以没有一台家用服务器呢？方案有很多种，上至几千元的 NAS，下至淘汰的老电脑，但是...",
+    "votes": "140",
+    "url": "/k/h2njn7z",
+    "avatar": "https://img.toutiao.io/subject/f49e289c00224ce994449b70f3c6cd5c/thumb",
+    "avatarAlt": "二进制 - 独家号",
+    "subjectName": "二进制",
+    "homeUrl": "/subjects/381811"
   }
 ]
