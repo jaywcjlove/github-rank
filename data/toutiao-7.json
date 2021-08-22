@@ -2,7 +2,7 @@
   {
     "title": "分布式事务最经典的七种解决方案",
     "description": "随着业务的快速发展、业务复杂度越来越高，几乎每个公司的系统都会从单体走向分布式，特别是转向微服务架构。随之而来就必然遇到分布式事务这个难题，这篇文章总结了分布式事务最经典的解决方案...",
-    "votes": "201",
+    "votes": "203",
     "url": "/k/vxr31wq",
     "avatar": "https://img.toutiao.io/subject/45e806cf22ab424b831afe890c225505/thumb",
     "avatarAlt": "叶东富 - 独家号",
@@ -12,7 +12,7 @@
   {
     "title": "这 6 个开源工具 yyds",
     "description": "老逛搜集了 6 个 GitHub 上高赞的工具类开源项目，它们是启动盘制作神器、开源思维导图工具、Chrome 优质插件盘点、macOS 优质工具软件盘点。01. 重装系统神器Ru...",
-    "votes": "119",
+    "votes": "131",
     "url": "/k/4hy4ste",
     "avatar": "https://img.toutiao.io/subject/03e210e126704d0ca23938746bbd4cec/thumb",
     "avatarAlt": "近半生少年 - 独家号",
@@ -20,29 +20,9 @@
     "homeUrl": "/subjects/403307"
   },
   {
-    "title": "超大文件读取优化的探讨",
-    "description": "前言 在开发过程中，经常会遇到对文件的操作，对于一般的文件，通常使用fread, fwrite等文件操作api即可处理。然而在处理大文件上, 使用普通的api在性能上难以得到保障。...",
-    "votes": "85",
-    "url": "/k/s0ughm2",
-    "avatar": "https://img.toutiao.io/subject/19c420d3b4d84959b00f29b13e475ced/thumb",
-    "avatarAlt": "AggrxTech - 独家号",
-    "subjectName": "AggrxTech",
-    "homeUrl": "/subjects/425954"
-  },
-  {
-    "title": "阿里二面：什么是 mmap？",
-    "description": "平时在面试中你肯定会经常碰见的问题就是：RocketMQ为什么快？Kafka为什么快？什么是mmap？这一类的问题都逃不过的一个点就是零拷贝，虽然还有一些其他的原因，但是今天我们的...",
-    "votes": "81",
-    "url": "/k/qsuypsu",
-    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
-    "avatarAlt": "进击的程序猿 - 独家号",
-    "subjectName": "进击的程序猿",
-    "homeUrl": "/subjects/24912"
-  },
-  {
     "title": "小团队敏捷实践 2.0",
     "description": "敏捷迭代为什么升级团队在敏捷迭代实施的过程中，遇到了各种问题，在这个过程中，也发现了很多很好的方法论。所以，近期根据团队迭代的实际情况，做了2.0的迭代流程升级。团队使用的工具，在...",
-    "votes": "72",
+    "votes": "88",
     "url": "/k/6dxv9h5",
     "avatar": "https://img.toutiao.io/subject/6fc0fabfe93146e28ff47aa9f908dee9/thumb",
     "avatarAlt": "天行者YANG - 独家号",
@@ -50,9 +30,19 @@
     "homeUrl": "/subjects/199751"
   },
   {
+    "title": "阿里二面：什么是 mmap？",
+    "description": "平时在面试中你肯定会经常碰见的问题就是：RocketMQ为什么快？Kafka为什么快？什么是mmap？这一类的问题都逃不过的一个点就是零拷贝，虽然还有一些其他的原因，但是今天我们的...",
+    "votes": "83",
+    "url": "/k/qsuypsu",
+    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
+    "avatarAlt": "进击的程序猿 - 独家号",
+    "subjectName": "进击的程序猿",
+    "homeUrl": "/subjects/24912"
+  },
+  {
     "title": "技术面试最后反问面试官的话",
     "description": "反向面试 预期使用方式 职责 技术 团队 问未来的同事 公司 社会问题 冲突 商业 远程工作 办公室布局 终极问题 待遇 休假 其他资源 License README.md 反向面...",
-    "votes": "68",
+    "votes": "82",
     "url": "/k/do55tqr",
     "avatar": "https://img.toutiao.io/subject/7099419508b548428645eec6ee3e7c5b/thumb",
     "avatarAlt": "数据智能 - 独家号",
@@ -72,7 +62,7 @@
   {
     "title": "Dockerfile 文件全面详解",
     "description": "Docker 可以通过读取 Dockerfile 中的指令自动构建镜像。 Dockerfile 是一个文本文档，其中包含了用户创建镜像的所有命令和说明。一、 变量变量用 $vari...",
-    "votes": "52",
+    "votes": "54",
     "url": "/k/h2n9sqn",
     "avatar": "https://img.toutiao.io/subject/7950b62a884849aaaa2c7d9fb03f3051/thumb",
     "avatarAlt": "大前端&机器学习 - 独家号",
@@ -80,19 +70,9 @@
     "homeUrl": "/subjects/7076"
   },
   {
-    "title": "计算机字符编码的前世今生",
-    "description": "作者：vivo互联网服务器团队-Zhu Wenjin一、前言有人丢给你下面这张图，如果你能清楚地说明它们之间的关系以及用途，那么你对字符编码的理解肯定过关了。 不知道看了上面这张图...",
-    "votes": "46",
-    "url": "/k/g47yjv4",
-    "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
-    "avatarAlt": "vivo互联网技术 - 独家号",
-    "subjectName": "vivo互联网技术",
-    "homeUrl": "/subjects/392760"
-  },
-  {
     "title": "分布式事务之最终一致性实现方案",
     "description": "文章目录： 前言什么是最终一致性？实现方案代码实现小结推荐阅读前言这篇文章是《关于分布式事务的理解》的后续篇：分布式事务之最终一致性实现方案。 还是那个电商需求，一个订单支付完成后...",
-    "votes": "48",
+    "votes": "49",
     "url": "/k/1gsejz4",
     "avatar": "https://img.toutiao.io/subject/bf13817488764502ae746a0a4798478d/thumb",
     "avatarAlt": "新亮笔记 - 独家号",
@@ -120,19 +100,9 @@
     "homeUrl": "/subjects/1"
   },
   {
-    "title": "[译] 通过 Redis 构建一个响应式架构",
-    "description": " 本文翻译自Building a Reactive Architecture Around Redis[1]，如果觉得本文对你有所帮助，不妨点个赞支持一下Redis 是我遇到过的最...",
-    "votes": "41",
-    "url": "/k/328v6nm",
-    "avatar": "https://img.toutiao.io/subject/f49e289c00224ce994449b70f3c6cd5c/thumb",
-    "avatarAlt": "二进制 - 独家号",
-    "subjectName": "二进制",
-    "homeUrl": "/subjects/381811"
-  },
-  {
     "title": "在别人写的代码上做修改我是这样保证正确性",
     "description": "引子 9年前我入职一家公司，团队里都是之前公司的原同事，彼此都很熟，对各人的能力也都很了解。我当时负责整个公司的搜索引擎。上班第一天，我在看之前的遗留代码。原同事过来问我：“你是打...",
-    "votes": "48",
+    "votes": "51",
     "url": "/k/dtxvscy",
     "avatar": "https://img.toutiao.io/subject/4325865040b44c0b9e2d8d80a83d1d11/thumb",
     "avatarAlt": "编程一生 - 独家号",
@@ -140,24 +110,34 @@
     "homeUrl": "/subjects/350352"
   },
   {
-    "title": "Go 1.17 泛型尝鲜",
-    "description": "今天，Go的1.17版本终于正式发布，除了带来各种优化和新功能外，1.17正式在程序中提供了尝鲜的泛型支持，这一功能也是为1.18版本泛型正式实装做铺垫。意味着在6个月后，我们就可...",
-    "votes": "39",
-    "url": "/k/w5e14zp",
-    "avatar": "https://img.toutiao.io/subject/a6f163ba093e4edd9b413928ff5ea5fe/thumb",
-    "avatarAlt": "Go中国 - 独家号",
-    "subjectName": "Go中国",
-    "homeUrl": "/subjects/16913"
+    "title": "[译] 通过 Redis 构建一个响应式架构",
+    "description": " 本文翻译自Building a Reactive Architecture Around Redis[1]，如果觉得本文对你有所帮助，不妨点个赞支持一下Redis 是我遇到过的最...",
+    "votes": "42",
+    "url": "/k/328v6nm",
+    "avatar": "https://img.toutiao.io/subject/f49e289c00224ce994449b70f3c6cd5c/thumb",
+    "avatarAlt": "二进制 - 独家号",
+    "subjectName": "二进制",
+    "homeUrl": "/subjects/381811"
   },
   {
     "title": "JVM 性能调优：YGC",
     "description": "YGC YGC频次暂且忽略，问题主要集中在gc耗时上面。想要解决YGC耗时问题，首先要搞清楚YGC的耗时节点。（据我所知的YGC问题，还没有逃出过这些维度）存活对象扫描、标记时间存...",
-    "votes": "33",
+    "votes": "36",
     "url": "/k/ng7t879",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
     "subjectName": "服务架构及中台",
     "homeUrl": "/subjects/26578"
+  },
+  {
+    "title": "Go 1.17 泛型尝鲜",
+    "description": "今天，Go的1.17版本终于正式发布，除了带来各种优化和新功能外，1.17正式在程序中提供了尝鲜的泛型支持，这一功能也是为1.18版本泛型正式实装做铺垫。意味着在6个月后，我们就可...",
+    "votes": "40",
+    "url": "/k/w5e14zp",
+    "avatar": "https://img.toutiao.io/subject/a6f163ba093e4edd9b413928ff5ea5fe/thumb",
+    "avatarAlt": "Go中国 - 独家号",
+    "subjectName": "Go中国",
+    "homeUrl": "/subjects/16913"
   },
   {
     "title": "一张图彻底搞懂 Prometheus 服务发现机制",
@@ -170,9 +150,19 @@
     "homeUrl": "/subjects/313425"
   },
   {
+    "title": "深入理解简单设计",
+    "description": " Kent Beck提出的简单设计原则，内容为：通过所有测试（Passes its tests）尽可能消除重复 (Minimizes duplication)尽可能清晰表达 (Ma...",
+    "votes": "29",
+    "url": "/k/vgl65hp",
+    "avatar": "https://img.toutiao.io/subject/73e4b0e4388a4d1b861d2641b7672e60/thumb",
+    "avatarAlt": "斑斓技术 - 独家号",
+    "subjectName": "斑斓技术",
+    "homeUrl": "/subjects/54221"
+  },
+  {
     "title": "面试反杀（GitHub 热点速览 v.21.33）",
     "description": " 作者：HelloGitHub-小鱼干作为一个应聘者，面试的时候经常会被面试官问：你有什么问题要问我吗？为了避免这种临时想不到问题的尴尬，reverse-interview-zh ...",
-    "votes": "31",
+    "votes": "32",
     "url": "/k/a4q7vim",
     "avatar": "https://img.toutiao.io/subject/b751657c3aaa4ac59db50c07db41e538/thumb",
     "avatarAlt": "HelloGitHub - 独家号",
@@ -182,7 +172,7 @@
   {
     "title": "一文教你如何搭建数据仓库",
     "description": "   实用干货来了！ 有朋友私信我，说希望了解数仓的整体建设中的细节及模板。那有啥说的，上干货！ 数仓全景图镇楼  00建设过程 数仓建模的过程分为业务建模、领域建模、逻辑建模和物...",
-    "votes": "28",
+    "votes": "29",
     "url": "/k/45l2xoj",
     "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
     "avatarAlt": "进击的程序猿 - 独家号",
@@ -190,13 +180,23 @@
     "homeUrl": "/subjects/24912"
   },
   {
-    "title": "[译] 为什么不应该使用 ZooKeeper 做服务发现",
-    "description": "原文标题：Eureka! Why You Shouldn’t Use ZooKeeper for Service Discovery原文链接：https://medium.com/...",
-    "votes": "27",
-    "url": "/k/09au09b",
-    "avatar": "https://img.toutiao.io/subject/5a80999e5b844812b72eedbc7f5fb5be/thumb",
-    "avatarAlt": "网管叨bi叨 - 独家号",
-    "subjectName": "网管叨bi叨",
-    "homeUrl": "/subjects/437466"
+    "title": "阿里二面 InnoDB 行记录存储结构",
+    "description": "程序员常用的IDEA插件：https://github.com/silently9527/Toolkit本文已被Github仓库收录 https://github.com/sile...",
+    "votes": "30",
+    "url": "/k/9szkcx1",
+    "avatar": "https://img.toutiao.io/subject/cf73e0d43ba244d0b40c1bcfa2fc87b4/thumb",
+    "avatarAlt": "贝塔学Java - 独家号",
+    "subjectName": "贝塔学Java",
+    "homeUrl": "/subjects/456107"
+  },
+  {
+    "title": "这些 Goland 技巧，学会开发效率翻倍",
+    "description": "hi, 大家好，我是 hhf。《Goland 这些实操技巧，你可能还不会！》介绍了日常开发中一些比较好用的技巧。本篇文章继续介绍一些其他比较好用的技巧。自定义结构 tag Gola...",
+    "votes": "31",
+    "url": "/k/y3x4yaj",
+    "avatar": "https://img.toutiao.io/subject/27dc41301606439ea24437841df6cffe/thumb",
+    "avatarAlt": "HHFCodeRv - 独家号",
+    "subjectName": "HHFCodeRv",
+    "homeUrl": "/subjects/458598"
   }
 ]
