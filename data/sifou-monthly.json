@@ -54,13 +54,22 @@
     "rank": 6
   },
   {
+    "title": "大学四年一路走来，我把这些私藏的算法学习工具全贡献出来了！",
+    "description": "我们都知道数据结构和算法一个比较难以掌握的原因就是很难形象地在脑海中形成一个结构化的画面，尤其是当一些结构和算法比较复杂时，对人的想象能力有一定要求。",
+    "url": "https://segmentfault.com/a/1190000040525819",
+    "author": "CodeSheep",
+    "home_url": "https://segmentfault.com/u/hansonwang99",
+    "votes": "33",
+    "rank": 7
+  },
+  {
     "title": "174道 JavaScript 面试题，助你查漏补缺",
     "description": "最近在整理 JavaScript 的时候发现遇到了很多面试中常见的面试题，本部分主要是作者在 Github 等各大论坛收录的 JavaScript 相关知识和一些相关面试题时所做的笔记，分享这份总结给大家，对大家对 JavaScript 的...",
     "url": "https://segmentfault.com/a/1190000040444611",
     "author": "wscats",
     "home_url": "https://segmentfault.com/u/wscats",
     "votes": "34",
-    "rank": 7
+    "rank": 8
   },
   {
     "title": "我用 10000 张图片合成我们美好的瞬间",
@@ -69,15 +78,6 @@
     "author": "荣顶",
     "home_url": "https://segmentfault.com/u/wangrongding",
     "votes": "25",
-    "rank": 8
-  },
-  {
-    "title": "大学四年一路走来，我把这些私藏的算法学习工具全贡献出来了！",
-    "description": "我们都知道数据结构和算法一个比较难以掌握的原因就是很难形象地在脑海中形成一个结构化的画面，尤其是当一些结构和算法比较复杂时，对人的想象能力有一定要求。",
-    "url": "https://segmentfault.com/a/1190000040525819",
-    "author": "CodeSheep",
-    "home_url": "https://segmentfault.com/u/hansonwang99",
-    "votes": "27",
     "rank": 9
   },
   {
@@ -95,17 +95,8 @@
     "url": "https://segmentfault.com/a/1190000040401797",
     "author": "小傅哥",
     "home_url": "https://segmentfault.com/u/fuzhengwei",
-    "votes": "34",
+    "votes": "35",
     "rank": 11
-  },
-  {
-    "title": "git bash in here，常用的git命令都在这里，欢迎收藏",
-    "description": "全局配置文件：Mac 系统在 ~/.gitconfig，Windows 系统在 C:\\Users\\<用户名>\\.gitconfig。",
-    "url": "https://segmentfault.com/a/1190000040469051",
-    "author": "鹿洺",
-    "home_url": "https://segmentfault.com/u/scott_592fa510f02a5",
-    "votes": "26",
-    "rank": 12
   },
   {
     "title": "前端构建这十年",
@@ -113,8 +104,26 @@
     "url": "https://segmentfault.com/a/1190000040496020",
     "author": "李十三",
     "home_url": "https://segmentfault.com/u/lishisan",
-    "votes": "26",
+    "votes": "27",
+    "rank": 12
+  },
+  {
+    "title": "git bash in here，常用的git命令都在这里，欢迎收藏",
+    "description": "全局配置文件：Mac 系统在 ~/.gitconfig，Windows 系统在 C:\\Users\\<用户名>\\.gitconfig。",
+    "url": "https://segmentfault.com/a/1190000040469051",
+    "author": "鹿洺",
+    "home_url": "https://segmentfault.com/u/scott_592fa510f02a5",
+    "votes": "27",
     "rank": 13
+  },
+  {
+    "title": "如何选择最适合你的分布式事务方案",
+    "description": "当我们采用服务/微服务架构，对业务进行分拆解耦后，原先在一个单体内，使用本地数据库保证ACID的数据修改，因为跨了多个服务，就不再适用了，就需要引入分布式事务来保证新的原子性。",
+    "url": "https://segmentfault.com/a/1190000040468762",
+    "author": "叶东富",
+    "home_url": "https://segmentfault.com/u/yedongfu",
+    "votes": "27",
+    "rank": 14
   },
   {
     "title": "25个 Vue 技巧，开发了5年了，有些竟然还是第一次见！",
@@ -123,15 +132,6 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "29",
-    "rank": 14
-  },
-  {
-    "title": "如何选择最适合你的分布式事务方案",
-    "description": "当我们采用服务/微服务架构，对业务进行分拆解耦后，原先在一个单体内，使用本地数据库保证ACID的数据修改，因为跨了多个服务，就不再适用了，就需要引入分布式事务来保证新的原子性。",
-    "url": "https://segmentfault.com/a/1190000040468762",
-    "author": "叶东富",
-    "home_url": "https://segmentfault.com/u/yedongfu",
-    "votes": "26",
     "rank": 15
   },
   {
@@ -149,7 +149,7 @@
     "url": "https://segmentfault.com/a/1190000040517973",
     "author": "蔡不菜丶",
     "home_url": "https://segmentfault.com/u/17689400062",
-    "votes": "26",
+    "votes": "28",
     "rank": 17
   },
   {
@@ -162,13 +162,22 @@
     "rank": 18
   },
   {
+    "title": "[Jenkins进阶]-前端CI/CD",
+    "description": "如果没有自动化， 我们的前端从开发到提测工作流程可能如下：1.本地机器上写代码2.在命令行输入 npm run unit/lint，查看单元测试/eslint校验结果3.提交代码，push 到 git 远程仓库4.执行 npm run build，构建项...",
+    "url": "https://segmentfault.com/a/1190000040534015",
+    "author": "JenK",
+    "home_url": "https://segmentfault.com/u/wangzc996",
+    "votes": "17",
+    "rank": 19
+  },
+  {
     "title": "超硬核 Web 前端学霸笔记，学完就去找工作！",
     "description": "文章和教程Vue 学习笔记Node 学习笔记React 学习笔记Angular 学习笔记RequireJS 学习笔记Webpack 学习笔记Gulp 学习笔记Python 学习笔记Egret 引擎学习笔记流处理，TCP 和 UDP，WebRTC 和 Blob 学习笔记博客前端...",
     "url": "https://segmentfault.com/a/1190000040478093",
     "author": "wscats",
     "home_url": "https://segmentfault.com/u/wscats",
     "votes": "22",
-    "rank": 19
+    "rank": 20
   },
   {
     "title": "开发在线文档时，这个技术难点你解决了吗？",
@@ -177,15 +186,6 @@
     "author": "小魔",
     "home_url": "https://segmentfault.com/u/lu",
     "votes": "13",
-    "rank": 20
-  },
-  {
-    "title": "[Jenkins进阶]-前端CI/CD",
-    "description": "如果没有自动化， 我们的前端从开发到提测工作流程可能如下：1.本地机器上写代码2.在命令行输入 npm run unit/lint，查看单元测试/eslint校验结果3.提交代码，push 到 git 远程仓库4.执行 npm run build，构建项...",
-    "url": "https://segmentfault.com/a/1190000040534015",
-    "author": "JenK",
-    "home_url": "https://segmentfault.com/u/wangzc996",
-    "votes": "16",
     "rank": 21
   },
   {
@@ -194,7 +194,7 @@
     "url": "https://segmentfault.com/a/1190000040446075",
     "author": "程序员内点事",
     "home_url": "https://segmentfault.com/u/chengxy",
-    "votes": "17",
+    "votes": "18",
     "rank": 22
   },
   {
@@ -221,8 +221,17 @@
     "url": "https://segmentfault.com/a/1190000040465075",
     "author": "和耳朵",
     "home_url": "https://segmentfault.com/u/heerduo",
-    "votes": "17",
+    "votes": "18",
     "rank": 25
+  },
+  {
+    "title": "彻底搞懂 Nginx 五大应用场景！出去吹牛逼再也不担心了",
+    "description": "Nginx本身也是一个静态资源的服务器，当只有静态资源的时候，就可以使用Nginx来做服务器，如果一个网站只是静态页面的话，那么就可以通过这种方式来实现部署。",
+    "url": "https://segmentfault.com/a/1190000040420111",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "17",
+    "rank": 26
   },
   {
     "title": "官宣｜VS Code 1.59 发布！Terminal 可以跨窗口移动了！",
@@ -231,25 +240,7 @@
     "author": "微软技术栈",
     "home_url": "https://segmentfault.com/u/xinyuanxiaojieyi",
     "votes": "12",
-    "rank": 26
-  },
-  {
-    "title": "彻底搞懂 Nginx 五大应用场景！出去吹牛逼再也不担心了",
-    "description": "Nginx本身也是一个静态资源的服务器，当只有静态资源的时候，就可以使用Nginx来做服务器，如果一个网站只是静态页面的话，那么就可以通过这种方式来实现部署。",
-    "url": "https://segmentfault.com/a/1190000040420111",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "16",
     "rank": 27
-  },
-  {
-    "title": "从网易云音乐的背景聊聊如何对图片主题色进行提取",
-    "description": "就是切换歌曲时，会根据当前封面替换背景色。作为资深切图仔，我那该死的好奇心兜不住了，不行，我要去一探究竟。首先我构思了很多它可能的实现方式：",
-    "url": "https://segmentfault.com/a/1190000040385676",
-    "author": "前端森林",
-    "home_url": "https://segmentfault.com/u/fengshuan",
-    "votes": "11",
-    "rank": 28
   },
   {
     "title": "从零搭建Webpack5-react脚手架(附源码)",
@@ -257,6 +248,15 @@
     "url": "https://segmentfault.com/a/1190000040427502",
     "author": "Peter谭老师",
     "home_url": "https://segmentfault.com/u/jerrytanjinjie",
+    "votes": "12",
+    "rank": 28
+  },
+  {
+    "title": "13个JavaScript 一行程序，让你看起来像个专家",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000040464301",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "12",
     "rank": 29
   },

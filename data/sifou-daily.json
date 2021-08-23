@@ -1,101 +1,47 @@
 [
   {
-    "title": "深入理解JVM - 类加载器概述",
-    "description": "上一节我们简单了解了jvm类加载器的步骤并详细分析了jvm类加载步骤的详细细节，本节将会接着讲述关于双亲委派机制的细节。双亲委派机制是jvm一个类加载的重要加载机制，它是jvm的类继承结构的底层设计也是jvm类加...",
-    "url": "https://segmentfault.com/a/1190000040551885",
-    "author": "lazytimes",
-    "home_url": "https://segmentfault.com/u/lazytimes",
-    "votes": "2",
+    "title": "判断是否为数组的 JavaScript 方法总结",
+    "description": "前言我们在日常开发中，常常有判断某值类型的需求，今天我们总结一下常见的几种用来判断是否为数组的 JavaScript 方法。Array.isArrayArray.isArray() 是ES5新增的方法，用于确定传递的值是否是一个数组，如果是...",
+    "url": "https://segmentfault.com/a/1190000040556985",
+    "author": "编程三昧",
+    "home_url": "https://segmentfault.com/u/bianchengsanmei",
+    "votes": "1",
     "rank": 1
   },
   {
-    "title": "分布式事务之最终一致性实现方案",
-    "description": "前言这篇文章是《关于分布式事务的理解》的后续篇：分布式事务之最终一致性实现方案。还是那个电商需求，一个订单支付完成后的业务场景，有如下操作：更改订单的状态为 “已支付”扣减商品库存给会员增加积分创建出...",
-    "url": "https://segmentfault.com/a/1190000040553869",
-    "author": "新亮",
-    "home_url": "https://segmentfault.com/u/xinliangcoder",
-    "votes": "3",
+    "title": "【C进阶】7、循环语句",
+    "description": "1）do...while语句先执行后判断，循环体至少执行一次；while语句先判断后执行，循环体可能不执行；for语句先判断后执行，相比while更简洁（因为for的一行里包括了循环变量初始化、条件判断、修改循环变量三个要素...",
+    "url": "https://segmentfault.com/a/1190000040556180",
+    "author": "bryson",
+    "home_url": "https://segmentfault.com/u/lala_60a20654d1aa3",
+    "votes": "1",
     "rank": 2
   },
   {
-    "title": "mysql开启远程连接",
-    "description": "由于桥梁项目需要用到MySQL数据库，想着自己实验室服务器的MySQL已经装好了，就安装Navicat准备远程连接，通过shell进行连接发现运行正常",
-    "url": "https://segmentfault.com/a/1190000040553640",
-    "author": "肖桥",
-    "home_url": "https://segmentfault.com/u/xiaoqiao_5c0fca793ba65",
-    "votes": "1",
+    "title": "把moment.js换成了date-fns ， 打包输出减少了50％+",
+    "description": "date-fns官方网站：[链接]date-fns的优势：相比于moment.js（329KB），date-fns（78.4KB）更加轻量支持Tree-shaking每个方法都是一个单独的文件，做到了真正的按需引入使用方法：参考官方文档(纯英文，而且需要科...",
+    "url": "https://segmentfault.com/a/1190000040555512",
+    "author": "阿潇",
+    "home_url": "https://segmentfault.com/u/jeffrey",
+    "votes": "2",
     "rank": 3
   },
   {
-    "title": "代码的底层执行过程",
-    "description": "主存由存储体，存储地址寄存器（Memory Address Register, 简称MAR)，存储数据寄存器(Memory Data Register,简称MDR)构成。存储体，顾名思义，主存的主要功能就是存储，存储体就是存储数据的地方。MAR和MDR可以举...",
-    "url": "https://segmentfault.com/a/1190000040553576",
-    "author": "小强Zzz",
-    "home_url": "https://segmentfault.com/u/zhaokaiqiang",
+    "title": "Spring 不常见注解",
+    "description": "Spring官网：[链接]@ModelAttribute可以用在controller中，在每一次请求之前执行作用：将数据添加到模型对象中，用于视图页面展示时使用，也可用于做一些访问接口之前必要的操作",
+    "url": "https://segmentfault.com/a/1190000040555952",
+    "author": "Sophia",
+    "home_url": "https://segmentfault.com/u/chenyingxi",
     "votes": "1",
     "rank": 4
   },
   {
-    "title": "Mac 远程上传文件到 Linux",
-    "description": "打开Mac自带终端：在最顶端选择Shell ->新建远程连接：选择sftp连接，填好服务器地址:连接成功后。上传文件，使用 put 命令： {代码...}",
-    "url": "https://segmentfault.com/a/1190000040553435",
-    "author": "jeremylai7",
-    "home_url": "https://segmentfault.com/u/jeremylai7",
+    "title": "Java 内存模型",
+    "description": "在并发编程中，当多个线程同时访问同一个共享的可变变量时，会产生不确定的结果，所以要编写线程安全的代码，其本质上是对这些可变的共享变量的访问操作进行管理。导致这种不确定结果的原因就是可见性、有序性和...",
+    "url": "https://segmentfault.com/a/1190000040555623",
+    "author": "mghio",
+    "home_url": "https://segmentfault.com/u/mghio",
     "votes": "1",
     "rank": 5
-  },
-  {
-    "title": "java实现邮件发送",
-    "description": "java实现邮件自动网易邮箱发送1、配置依赖包<dependency> {代码...} 2、需要到网易邮箱开始服务注意授权码保存好！！！3、代码public class ClientEmail { {代码...} }注意要配置好参数，不然会发送有问题。",
-    "url": "https://segmentfault.com/a/1190000040553399",
-    "author": "Jame",
-    "home_url": "https://segmentfault.com/u/jame_5f6d5e99aea15",
-    "votes": "1",
-    "rank": 6
-  },
-  {
-    "title": "【源码剖析】goframe的”平滑“重启并不平滑？",
-    "description": "首先说一下平滑重启的定义：优雅的重启服务，重启过程不会中断已经活跃的链接。我们熟知的nginx reload、php-fpm reload都是平滑重启，重启时，正在进行的请求依然能执行下去，直到超过指定的超时时间，而这里特...",
-    "url": "https://segmentfault.com/a/1190000040552942",
-    "author": "Anson",
-    "home_url": "https://segmentfault.com/u/ansion",
-    "votes": "1",
-    "rank": 7
-  },
-  {
-    "title": "最受欢迎的 10 本编程书籍（文末附地址）",
-    "description": "推特上一位名为 Pierre de Wulf 的网友突发奇想，有史以来最受欢迎的编程书籍到底是哪些？为了找到程序员们最为推崇的那些编程书籍，他使用 Python 编写了脚本，拉取了大量的相关数据，最终得出了这10本经久不衰...",
-    "url": "https://segmentfault.com/a/1190000040552510",
-    "author": "code小生",
-    "home_url": "https://segmentfault.com/u/codexiaosheng",
-    "votes": "1",
-    "rank": 8
-  },
-  {
-    "title": "MySQL bug",
-    "description": "跟权限相关的报错 {代码...} Sol: 刷新权限列表 flush privileges;赋予权限：grant all privileges on . to USER@'%'identified by 'password';",
-    "url": "https://segmentfault.com/a/1190000040553997",
-    "author": "Sophia",
-    "home_url": "https://segmentfault.com/u/chenyingxi",
-    "votes": "1",
-    "rank": 9
-  },
-  {
-    "title": "Java HashMap源码解析",
-    "description": "哈希表的实现主要分为两大类：开放寻址法和拉链法。而在Java源码中，HashMap的实现可归为拉链法这一大类中。本文将依照Java源码，将jdk1.8实现的HashMap的种种细节进行分析。",
-    "url": "https://segmentfault.com/a/1190000040553258",
-    "author": "1iin",
-    "home_url": "https://segmentfault.com/u/1iin",
-    "votes": "1",
-    "rank": 10
-  },
-  {
-    "title": "Redis学习笔记",
-    "description": "定义与基本信息Redis官网：[链接]NoSQL型数据库，以key，value的形式存储数据Redis可实现一秒写8万次，读11万次，将所有数据都放在内存中，读写都在一个CPU上，是单线程的共16个数据库，默认使用第0个默认端口：6...",
-    "url": "https://segmentfault.com/a/1190000040552982",
-    "author": "Sophia",
-    "home_url": "https://segmentfault.com/u/chenyingxi",
-    "votes": "2",
-    "rank": 11
   }
 ]
