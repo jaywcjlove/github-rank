@@ -1,74 +1,38 @@
 [
   {
-    "title": "你还在认为TypeScirpt 是 AnyScript ？",
-    "description": "从开发角度来讲, TypeScript 作为强类型语言，对属性有类型约束。在日常开发中少了减少了不必要的因参数类型造成的BUG,当你在使用同事封装好的函数时，类型不知道怎么传递，在开发TS 时，它会有很友好类型的提示...",
-    "url": "https://segmentfault.com/a/1190000040582253",
-    "author": "大新",
-    "home_url": "https://segmentfault.com/u/haijun_5e7e16c909f52",
-    "votes": "6",
+    "title": "设计 repeatOnLifecycle API 背后的故事",
+    "description": "通过本文您将会了解到 Lifecycle.repeatOnLifecycle API 背后的设计决策，以及为什么我们会移除此前添加到 lifecycle-runtime-ktx 库 2.4.0 版本首个 alpha 版中的几个辅助函数。",
+    "url": "https://segmentfault.com/a/1190000040587525",
+    "author": "Android开发者",
+    "home_url": "https://segmentfault.com/u/androiddevs",
+    "votes": "1",
     "rank": 1
   },
   {
-    "title": "7分钟用事例带你掌握工作常用的 git 命令",
-    "description": "从本质上讲，Git可以记录文本的变化，但其定义是一个版本控制系统。你有可能已经以这种或那种方式使用了git：由于它的分布式性质，它是代码版本控制的事实标准，与集中式的Apache Subversion（SVN）相对。",
-    "url": "https://segmentfault.com/a/1190000040349550",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "1",
+    "title": "一个实验带你真正搞懂 Go 结构体方法指针和值的区别",
+    "description": "众所周知，Go struct 定义方法时使用指针还是值的区别就是在方法内修改属性值时，用值定义的方法所做的修改只限于方法内，而指针则没有这个局限。",
+    "url": "https://segmentfault.com/a/1190000040588840",
+    "author": "Yian",
+    "home_url": "https://segmentfault.com/u/yian",
+    "votes": "3",
     "rank": 2
   },
   {
-    "title": "开源浪潮下程序员的职业规划和成长",
-    "description": "无论从年初开源社发布的《2020 中国开源年度报告》还是整体的大环境，不难看到中国的开源正在崛起，越来越多的来自中国的开源项目和开发者们正在走入大家的视野。在开源浪潮的大趋势下，程序员又该如何规划自己的...",
-    "url": "https://segmentfault.com/a/1190000040582781",
-    "author": "张晋涛",
-    "home_url": "https://segmentfault.com/u/moelove",
-    "votes": "3",
+    "title": "Kafka 与 RabbitMQ 如何选择使用哪个？",
+    "description": "前言我们在工作中经常会用到异步消息，主要使用两种消息模式：消息队列发布/订阅消息队列：多个生产者可以向同一个消息队列发送消息，但是一个消息只能被一个消费者消费。发布/订阅：一个消息可以被多个订阅者并...",
+    "url": "https://segmentfault.com/a/1190000040586809",
+    "author": "新亮",
+    "home_url": "https://segmentfault.com/u/xinliangcoder",
+    "votes": "1",
     "rank": 3
   },
   {
-    "title": "缓存热点，缓存穿透，终极解决方案看过来",
-    "description": "很多公司的缓存都是基于redis来做的，redis的性能其实已经足以能应付大部分的场景，但是对于大促期间或者活动抢购期间的某个爆品，可能会出现在几秒时间内流入大量的流量，由于某个爆品的数据在redis cluster场景...",
-    "url": "https://segmentfault.com/a/1190000040581907",
-    "author": "铂赛东",
-    "home_url": "https://segmentfault.com/u/bosaidong_5c495684bcf4b",
-    "votes": "4",
+    "title": "SpringCloud升级之路2020.0.x版-23.订制Spring Cloud LoadBalancer",
+    "description": "我们使用 Spring Cloud 官方推荐的 Spring Cloud LoadBalancer 作为我们的客户端负载均衡器。上一节我们了解了 Spring Cloud LoadBalancer 的结构，接下来我们来说一下我们在使用 Spring Cloud LoadBalancer 要实...",
+    "url": "https://segmentfault.com/a/1190000040586628",
+    "author": "张哈希",
+    "home_url": "https://segmentfault.com/u/zhanghaxi",
+    "votes": "1",
     "rank": 4
-  },
-  {
-    "title": "React性能优化总结",
-    "description": "目前在工作中，大量的项目都是使用react来进行开展的，了解掌握下react的性能优化对项目的体验和可维护性都有很大的好处，下面介绍下在react中可以运用的一些性能优化方式；",
-    "url": "https://segmentfault.com/a/1190000040580649",
-    "author": "lsqy",
-    "home_url": "https://segmentfault.com/u/lsqy",
-    "votes": "1",
-    "rank": 5
-  },
-  {
-    "title": "使用 Face-api.js 在 Web 上进行人脸检测",
-    "description": "Web 浏览器日益强大，网站和 Web 应用程序的复杂性也在增加。几十年前需要超级计算机的操作现在可以在智能手机上运行，其中之一就是人脸检测。",
-    "url": "https://segmentfault.com/a/1190000040583469",
-    "author": "杜尼卜",
-    "home_url": "https://segmentfault.com/u/dunizb",
-    "votes": "1",
-    "rank": 6
-  },
-  {
-    "title": "PHPStorm多项目下Test Sources Root设置",
-    "description": "最近用Lumen来做单元测试的时候遇到一个问题，就是用PHPStorm开了多个项目（用户侧和管理侧），这时候设置了Test Sources Root，会发现测试用例的命名空间PHPStorm无法识别。而如果直接是一个项目就没有这个问题。",
-    "url": "https://segmentfault.com/a/1190000040581919",
-    "author": "X先生",
-    "home_url": "https://segmentfault.com/u/aidenxiao",
-    "votes": "1",
-    "rank": 7
-  },
-  {
-    "title": "etcd的watch是怎么实现的",
-    "description": "工作当中使用etcd作为配置中心，主要使用了etcdclient提供的watch接口对存储的配置进行实时监听更新，很好奇etcd内部是如何做到不丢数据并联通上下游的，于是翻看了部分v3版本实现代码，在惊叹大佬们的代码水平同...",
-    "url": "https://segmentfault.com/a/1190000040582989",
-    "author": "郭朝",
-    "home_url": "https://segmentfault.com/u/guochao_5f6f02dda5f0e",
-    "votes": "1",
-    "rank": 8
   }
 ]
