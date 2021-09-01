@@ -2,7 +2,7 @@
   {
     "title": "万字长文说透分布式锁",
     "description": "▲ 点击上方\"多颗糖\"关注公众号“分布式锁”这个问题快被说烂了，奈何笔者实在没有找到一个满意的答案，故记录自己寻找答案、总结的过程。分布式锁的设计涉及了许多分布式系统相关的问题，许...",
-    "votes": "107",
+    "votes": "112",
     "url": "/k/zlvt91d",
     "avatar": "https://img.toutiao.io/user/4a9a9e41962e4b238bdebfaf160b5034/thumb",
     "avatarAlt": "强力研分布式系统 - 独家号",
@@ -10,19 +10,9 @@
     "homeUrl": "/subjects/1983"
   },
   {
-    "title": "让 JWT 来保护你的接口服务",
-    "description": "点击上方 Java旅途，选择 设为星标 优质文章，每日送达大家好，我是大尧。以前写过一篇关于接口服务规范的文章，原文在此，里面关于安全性问题重点讲述了通过appid，appkey，...",
-    "votes": "98",
-    "url": "/k/70kuvcy",
-    "avatar": "https://img.toutiao.io/subject/f4c7daceb79a4dd58b3f5c9ce93a7ae2/thumb",
-    "avatarAlt": "Java旅途 - 独家号",
-    "subjectName": "Java旅途",
-    "homeUrl": "/subjects/444692"
-  },
-  {
     "title": "深度长文：从 bio 到 nio 到 aio，再到响应式编程",
     "description": " 原创：小姐姐味道（微信公众号ID：xjjdog），欢迎分享，转载请保留出处。要问计算机系统里，有哪些概念比较折腾人，nio绝对能算上一个。配合着多是异的网络编程，nio加上多线程...",
-    "votes": "83",
+    "votes": "86",
     "url": "/k/8eqeeh0",
     "avatar": "https://img.toutiao.io/subject/6b8e14b561b24dfeac075e2a8dac9bfd/thumb",
     "avatarAlt": "小姐姐味道 - 独家号",
@@ -32,7 +22,7 @@
   {
     "title": "一个后端朋友面试一个月的经验总结",
     "description": "关于面经，小辉之前的文章可以查看《建议找工作的你看一下，无论是校招还是社招》本次分享一个后端朋友最近面试的经验总结，希望能对你有启发。面试概况朋友坐标北京，裸辞在家找工作。线上面试...",
-    "votes": "81",
+    "votes": "82",
     "url": "/k/ldwacnk",
     "avatar": "https://img.toutiao.io/subject/85512c92aa814f468f6b429b6eb70ba8/thumb",
     "avatarAlt": "服务器后端开发 - 独家号",
@@ -42,7 +32,7 @@
   {
     "title": "Go 整洁架构模版，建议收藏",
     "description": "我是一只可爱的土拨鼠，专注于分享 Go 职场、招聘和求职，解 Gopher 之忧！欢迎关注我。欢迎大家加入Go招聘交流群，来这里找志同道合的小伙伴！跟土拨鼠们一起交流学习。本文翻译...",
-    "votes": "68",
+    "votes": "69",
     "url": "/k/e4uv4is",
     "avatar": "https://img.toutiao.io/subject/3f69ffc3bdf6496e86439348166e3ed7/thumb",
     "avatarAlt": "GoHackers - 独家号",
@@ -50,19 +40,9 @@
     "homeUrl": "/subjects/1385"
   },
   {
-    "title": "实战篇：断点续传？文件秒传？手撸大文件上传",
-    "description": "各位看官大家好，今天给大家分享的又是一篇实战文章，希望大家能够喜欢。开味菜 最近接到一个新的需求，需要上传2G左右的视频文件，用测试环境的OSS试了一下，上传需要十几分钟，再考虑到...",
-    "votes": "67",
-    "url": "/k/6r8vmz2",
-    "avatar": "https://img.toutiao.io/subject/04598310d2b449419e15d3ca712b17b4/thumb",
-    "avatarAlt": "阿Q说代码 - 独家号",
-    "subjectName": "阿Q说代码",
-    "homeUrl": "/subjects/457975"
-  },
-  {
     "title": "Rust 速查表",
     "description": "1. Data Structure通过关键字定义的数据类型和内存位置struct S {}定义一个名称为S的结构体struct S { x: T }定义结构体字段 x 类型为 Ts...",
-    "votes": "54",
+    "votes": "56",
     "url": "/k/7v3m3tv",
     "avatar": "https://img.toutiao.io/subject/7099419508b548428645eec6ee3e7c5b/thumb",
     "avatarAlt": "数据智能 - 独家号",
@@ -70,19 +50,19 @@
     "homeUrl": "/subjects/1"
   },
   {
-    "title": "InnoDB 是如何存数据的？yyds",
-    "description": " hi，大家好，我是苏三，又跟大家见面了。 前言如果你使用过mysql数据库，对它的存储引擎：innodb，一定不会感到陌生。众所周知，在mysql8以前，默认的存储引擎是：mys...",
-    "votes": "53",
-    "url": "/k/8urc6ku",
-    "avatar": "https://img.toutiao.io/subject/96c1af0d2a0b441ca9740ee13c3e37f3/thumb",
-    "avatarAlt": "苏三说技术 - 独家号",
-    "subjectName": "苏三说技术",
-    "homeUrl": "/subjects/453205"
+    "title": "分布式事务实战，用 Go 轻松完成一个 TCC",
+    "description": "TCC分布式事务来源于 2007 年Pat Helland发表的一篇名为《Life beyond Distributed Transactions:an Apostate’s Op...",
+    "votes": "56",
+    "url": "/k/4t8lwxs",
+    "avatar": "https://img.toutiao.io/subject/45e806cf22ab424b831afe890c225505/thumb",
+    "avatarAlt": "叶东富 - 独家号",
+    "subjectName": "叶东富",
+    "homeUrl": "/subjects/307550"
   },
   {
     "title": "成为高效工程师的四步法则",
     "description": "成为高效工程师并不只是具有很好的代码和架构能力，而是要能够站在业务、用户的角度理解自己所做的产品，让技术成为业务价值的基石，并能够不断扩大自己的影响力，通过撬动更多的资源提升整个团...",
-    "votes": "51",
+    "votes": "56",
     "url": "/k/1xldt8h",
     "avatar": "https://img.toutiao.io/default-avatar.png",
     "avatarAlt": "DeepNoMind - 独家号",
@@ -90,9 +70,19 @@
     "homeUrl": "/subjects/460290"
   },
   {
+    "title": "浅谈工作中常用应用软件本地 Docker 化，一键部署它不香吗？",
+    "description": "背景 你是否有过这样的困惑？常常需要本地电脑安装例如Mysql，Redis，RocketMQ，ES，Zookeeper, Nginx,Nacos 等等软件，耗时又费力。每当更换电脑...",
+    "votes": "50",
+    "url": "/k/epu1m0p",
+    "avatar": "https://img.toutiao.io/subject/bd96da5f87da45b8a1b5f3e6715a6482/thumb",
+    "avatarAlt": "浅谈架构 - 独家号",
+    "subjectName": "浅谈架构",
+    "homeUrl": "/subjects/379488"
+  },
+  {
     "title": "密码安全与会话安全",
     "description": "对于登录大家并不陌生，访问系统几乎都需要登录。因为系统也不知道是谁在访问，所以需要你告诉系统你是谁，还需要证明你真的是你，如何证明？给系统展示你的密码，因为密码只有你才拥有，你有这...",
-    "votes": "46",
+    "votes": "50",
     "url": "/k/76axohz",
     "avatar": "https://img.toutiao.io/user/4a74c5bc82c5462fbfb1a614d56f8753/thumb",
     "avatarAlt": "ThoughtWorks - 独家号",
@@ -110,9 +100,19 @@
     "homeUrl": "/subjects/137286"
   },
   {
+    "title": "盘点 8 月份 yyds 的开源项目",
+    "description": "本文盘点 8 月份 GitHub 上 Star 数攀升最快的开源项目，他们分别是：1. GitHub 加速器2. 克隆你的声音3. Windows 11 桌面复刻4. JVM 知识...",
+    "votes": "35",
+    "url": "/k/mgll6k2",
+    "avatar": "https://img.toutiao.io/subject/03e210e126704d0ca23938746bbd4cec/thumb",
+    "avatarAlt": "近半生少年 - 独家号",
+    "subjectName": "近半生少年",
+    "homeUrl": "/subjects/403307"
+  },
+  {
     "title": "Kafka 与 RabbitMQ 如何选择使用哪个？",
     "description": "文章目录： 前言如何选择？开发语言延迟队列消息顺序性优先级队列消息留存消息过滤可伸缩行小结推荐阅读前言我们在工作中经常会用到异步消息，主要使用两种消息模式：消息队列发布/订阅消息队...",
-    "votes": "40",
+    "votes": "42",
     "url": "/k/n42mae8",
     "avatar": "https://img.toutiao.io/subject/bf13817488764502ae746a0a4798478d/thumb",
     "avatarAlt": "新亮笔记 - 独家号",
@@ -120,14 +120,24 @@
     "homeUrl": "/subjects/135111"
   },
   {
-    "title": "浅谈工作中常用应用软件本地 Docker 化，一键部署它不香吗？",
-    "description": "背景 你是否有过这样的困惑？常常需要本地电脑安装例如Mysql，Redis，RocketMQ，ES，Zookeeper, Nginx,Nacos 等等软件，耗时又费力。每当更换电脑...",
+    "title": "服务端接口设计模式（四）",
+    "description": "服务端接口设计模式（一）服务端接口设计模式（二）服务端接口设计模式（三）服务端接口设计模式（四）1、目前抽象类AbstractBusiService中只是做了参数校验这一项，功能比...",
     "votes": "35",
-    "url": "/k/epu1m0p",
-    "avatar": "https://img.toutiao.io/subject/bd96da5f87da45b8a1b5f3e6715a6482/thumb",
-    "avatarAlt": "浅谈架构 - 独家号",
-    "subjectName": "浅谈架构",
-    "homeUrl": "/subjects/379488"
+    "url": "/k/7y0sd0u",
+    "avatar": "https://img.toutiao.io/subject/d0ef806e49a34cf5b63ce48ad8b61106/thumb",
+    "avatarAlt": "架构学习 - 独家号",
+    "subjectName": "架构学习",
+    "homeUrl": "/subjects/101951"
+  },
+  {
+    "title": "一名架构师，他要如何做微服务技术选型？",
+    "description": "作为一名架构师，需要规划产品技术路线，负责技术选型。而技术栈选型主要参考以下几个标准：安全稳定，不能经常被爆出安全漏洞开源社区活跃度，加入Apache的组件优先考虑一线互联网公司落...",
+    "votes": "35",
+    "url": "/k/r3xffsg",
+    "avatar": "https://img.toutiao.io/subject/51ad25ebdf8b4a15895a07d5bce2b1e4/thumb",
+    "avatarAlt": "JAVA日知录 - 独家号",
+    "subjectName": "JAVA日知录",
+    "homeUrl": "/subjects/205182"
   },
   {
     "title": "JVM 秋风扫落叶系列之掌握 GC 调优",
@@ -140,29 +150,9 @@
     "homeUrl": "/subjects/24912"
   },
   {
-    "title": "服务端接口设计模式（四）",
-    "description": "服务端接口设计模式（一）服务端接口设计模式（二）服务端接口设计模式（三）服务端接口设计模式（四）1、目前抽象类AbstractBusiService中只是做了参数校验这一项，功能比...",
-    "votes": "33",
-    "url": "/k/7y0sd0u",
-    "avatar": "https://img.toutiao.io/subject/d0ef806e49a34cf5b63ce48ad8b61106/thumb",
-    "avatarAlt": "架构学习 - 独家号",
-    "subjectName": "架构学习",
-    "homeUrl": "/subjects/101951"
-  },
-  {
-    "title": "只需五步，实现数据分析闭环",
-    "description": " 来源：接地气学堂很多做数据的同学，光看着自己写报告，看不到自己的建议被落地，常心怀缺憾。觉得不能像产品/运营那样，打造一个数据分析的闭环，能力也没法提升。其实这是一种误解。今天结...",
-    "votes": "28",
-    "url": "/k/u089rci",
-    "avatar": "https://img.toutiao.io/subject/f1bea9d65a714e2484751d26ca724bf5/thumb",
-    "avatarAlt": "DataGeek - 独家号",
-    "subjectName": "DataGeek",
-    "homeUrl": "/subjects/372612"
-  },
-  {
     "title": "Docker 概念很乱？俺来替你理一下",
     "description": "原创：小姐姐味道（微信公众号ID：xjjdog），欢迎分享，转载请保留出处。docker是什么？OCI又是什么？CRI又是什么？containerd又TM是什么？有没有感觉概念非常...",
-    "votes": "28",
+    "votes": "30",
     "url": "/k/4ehet43",
     "avatar": "https://img.toutiao.io/subject/6b8e14b561b24dfeac075e2a8dac9bfd/thumb",
     "avatarAlt": "小姐姐味道 - 独家号",
@@ -172,7 +162,7 @@
   {
     "title": "浅谈订单重构之路",
     "description": "前言 最近负责了订单重构项目，从技术方案设计，到最终落地，项目圆满完成。虽然重构项目做了很多次，每次都是在挑战极限，在时间紧任务重的情况下，有条不紊的推进。最终提测质量高，平滑上线...",
-    "votes": "26",
+    "votes": "27",
     "url": "/k/cz5lqu8",
     "avatar": "https://img.toutiao.io/subject/bd96da5f87da45b8a1b5f3e6715a6482/thumb",
     "avatarAlt": "浅谈架构 - 独家号",
@@ -182,7 +172,7 @@
   {
     "title": "头条二面：你确定 ThreadLocal 真的会造成内存泄露？",
     "description": "点击上方“中间件兴趣圈”，选择“设为星标”做积极的人，越努力越幸运！ThreadLocal，java面试过程中的“钉子户”，在网上也充斥着各种有关ThreadLocal内存泄露的问...",
-    "votes": "32",
+    "votes": "33",
     "url": "/k/bshdsuh",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -190,13 +180,23 @@
     "homeUrl": "/subjects/26578"
   },
   {
-    "title": "Clubhouse 如何使用 Python 每天处理十亿个请求？",
-    "description": " 2021 年初，Clubhouse 开始经历爆发式增长时期。在两个月的时间里，我们从每分钟不到 1 万个后端请求增加到超过 100 万个后端请求，我们必须迅速适应以在现有堆栈上每...",
-    "votes": "27",
-    "url": "/k/vdyiyjd",
-    "avatar": "https://img.toutiao.io/subject/9a97933f431d4553ba4a1d1838f48143/thumb",
-    "avatarAlt": "Python猫技术花园 - 独家号",
-    "subjectName": "Python猫技术花园",
-    "homeUrl": "/subjects/14371"
+    "title": "我在组内的 Nacos 分享",
+    "description": "Nacos简介Nacos : Naming and Configuration Service，可打包部署配置中心和注册中心，也可独立部署其中之一，配置中心、控制台依赖mysql，...",
+    "votes": "26",
+    "url": "/k/utn75gb",
+    "avatar": "https://img.toutiao.io/subject/9635116a54eb4217a569629335a3ee45/thumb",
+    "avatarAlt": "公众号：捉虫大师 - 独家号",
+    "subjectName": "公众号：捉虫大师",
+    "homeUrl": "/subjects/324911"
+  },
+  {
+    "title": "Java 8 的 Optional 是不是鸡肋？",
+    "description": "你好，我是yes。又是一个阳光明媚的下午，扯淡群里面又在讨论技术，啧啧。马哥发言道： 原因是他的一位同事请假了，他接手他的代码8天了，要受不了，来看下他同事 Optional 的使...",
+    "votes": "32",
+    "url": "/k/nd3w3i8",
+    "avatar": "https://img.toutiao.io/subject/71da457007fd4b67a45253b271a25eee/thumb",
+    "avatarAlt": "yes的练级攻略 - 独家号",
+    "subjectName": "yes的练级攻略",
+    "homeUrl": "/subjects/443906"
   }
 ]
