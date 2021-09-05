@@ -1,74 +1,29 @@
 [
   {
-    "title": "比同事更秀? TS 这7个方法，你需要知道的！",
-    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000040574488",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "5",
+    "title": "一些优质C/C++ IDE",
+    "description": "我这里只推荐3款自认为比较好的ide1.CLionCLion是JetBrains的，代码补全很爽，写起东西来很顺手，PyCharm，WebStrom和GoLand都是神作。但是不自带编译器官网教程如何激活?点我！2.Visual studio很好用，代码补全...",
+    "url": "https://segmentfault.com/a/1190000040629803",
+    "author": "小红石",
+    "home_url": "https://segmentfault.com/u/little_red_stone",
+    "votes": "2",
     "rank": 1
   },
   {
-    "title": "记一次PageHelper分页未生效问题排查",
-    "description": "排查的时候发现，count代码通过mybatis生成的sql语句中包含了分页参数，但是select语句却没有，因此将查询数据列表的请求放在计算总数据行数前面即可解决这个问题。",
-    "url": "https://segmentfault.com/a/1190000040627932",
-    "author": "raledong",
-    "home_url": "https://segmentfault.com/u/raledong",
-    "votes": "2",
+    "title": "一些优质python IDE",
+    "description": "1. IDLE说到python ide第一个肯定想到idle了，轻松省力，python自带。还有一个叫IDLEX的东东，可以理解为IDLE的增强版，网站：[链接]网上的教程也很多，这里就不多说了2. VS code其实这不能说是ide，本来它只是个...",
+    "url": "https://segmentfault.com/a/1190000040629714",
+    "author": "小红石",
+    "home_url": "https://segmentfault.com/u/little_red_stone",
+    "votes": "1",
     "rank": 2
   },
   {
-    "title": "Git 之 版本回退",
-    "description": "以前，如果是要去除某一块功能，我都是选择性删除，选择性注释，然后前后逻辑各种查看，各种比较。每一次，改完这些我总感觉心好累啊！！！然后，我就发现了 Git 一个非常强大的功能：回滚。当然我还是喜欢叫它：...",
-    "url": "https://segmentfault.com/a/1190000040628311",
-    "author": "lixingyang",
-    "home_url": "https://segmentfault.com/u/lixingyang88",
+    "title": "React Native重大架构升级即将发布",
+    "description": "7 月 14 日，React Native 核心团队的 Joshua Gross 在 Twitter 说，RN 的新架构已经在 Facebook 内部落地了，并且99%的代码已经开源。其实，早在 2018 年 6 月，Facebook 官方就宣布了大规模重构 React Native ...",
+    "url": "https://segmentfault.com/a/1190000040629524",
+    "author": "xiangzhihong",
+    "home_url": "https://segmentfault.com/u/xiangzhihong",
     "votes": "1",
     "rank": 3
-  },
-  {
-    "title": "Python代码怎么写，听听顶尖Python程序员的建议",
-    "description": "了解K神( kennethreitz)是从它牛逼的requests库开始，号称最顶尖的Python程序员之一。大神有很多作品，而且还有一个非常励志的传奇故事，从一个胖胖的不修边幅的码农，励志减肥而变成一个爱摄影玩音乐的，有艺术...",
-    "url": "https://segmentfault.com/a/1190000040627753",
-    "author": "娜娜",
-    "home_url": "https://segmentfault.com/u/nana_607ff6fdb69c0",
-    "votes": "1",
-    "rank": 4
-  },
-  {
-    "title": "DB-Engines 数据库引擎 9 月榜单出炉：Oracle、MySQL、Microsoft SQL Server 蝉联前三甲",
-    "description": "近日，DB-Engines 更新了的9月份数据库引擎排行。榜单前 10 名里，Oracle、MySQL、Microsoft SQL Server 分别以 1271.55、1212.52、970.85的分数蝉联前 3 甲，后面依次是PostgreSQL、MongoDB、Redis、IBM Db2、El...",
-    "url": "https://segmentfault.com/a/1190000040624772",
-    "author": "MissD",
-    "home_url": "https://segmentfault.com/u/d2ms1shh",
-    "votes": "1",
-    "rank": 5
-  },
-  {
-    "title": "JavaScript 中的复制粘贴操作",
-    "description": "Clipboard API 提供了响应剪贴板命令（剪切、复制和粘贴）与异步读写系统剪贴板的能力。从权限 API (Permissions API) 获取权限之后，才能访问剪贴板内容；如果用户没有授予权限，则不允许读取剪贴板内容。",
-    "url": "https://segmentfault.com/a/1190000040623896",
-    "author": "FEWY",
-    "home_url": "https://segmentfault.com/u/fewy",
-    "votes": "1",
-    "rank": 6
-  },
-  {
-    "title": "Nginx部署前端vue后端express项目步骤细节",
-    "description": "项目前端使用vue画页面、后端使用express写接口。部署项目之前，要做好准备工作。要把前端的vue项目npm run build打包生成一个dist文件夹，同时也要把nginx安装好。我们接着往下阅读步骤：",
-    "url": "https://segmentfault.com/a/1190000040625360",
-    "author": "水冗水孚",
-    "home_url": "https://segmentfault.com/u/shuirongshui",
-    "votes": "1",
-    "rank": 7
-  },
-  {
-    "title": "巧用模糊实现视觉的 3D 效果",
-    "description": "本文将介绍巧用模糊实现视觉 3D 效果的技巧。我们都知道，在正常的视觉效果中，离我们越近的通常我们会看的越清晰，而离我们较远则相对没那么清晰~我们可以利用清晰与模糊两种状态来构建视差效果。像是这样：而在...",
-    "url": "https://segmentfault.com/a/1190000040623789",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "1",
-    "rank": 8
   }
 ]
