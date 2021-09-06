@@ -1,29 +1,74 @@
 [
   {
-    "title": "一些优质C/C++ IDE",
-    "description": "我这里只推荐3款自认为比较好的ide1.CLionCLion是JetBrains的，代码补全很爽，写起东西来很顺手，PyCharm，WebStrom和GoLand都是神作。但是不自带编译器官网教程如何激活?点我！2.Visual studio很好用，代码补全...",
-    "url": "https://segmentfault.com/a/1190000040629803",
-    "author": "小红石",
-    "home_url": "https://segmentfault.com/u/little_red_stone",
-    "votes": "2",
+    "title": "第五期:前端九条bug分享 (ts相关知识较多)",
+    "description": "最近换了新工作终于凑齐一些有趣的bug与问题了, 比如在ts方面做了深入的研究, 国际化开发方面有了一些思考等等, 总之新的工作刚刚开始就收获满满, 有对'字节跳动'国际化业务感兴趣的同学可以把简历砸过来, ...",
+    "url": "https://segmentfault.com/a/1190000040632852",
+    "author": "lulu_up",
+    "home_url": "https://segmentfault.com/u/lulu_up",
+    "votes": "6",
     "rank": 1
   },
   {
-    "title": "一些优质python IDE",
-    "description": "1. IDLE说到python ide第一个肯定想到idle了，轻松省力，python自带。还有一个叫IDLEX的东东，可以理解为IDLE的增强版，网站：[链接]网上的教程也很多，这里就不多说了2. VS code其实这不能说是ide，本来它只是个...",
-    "url": "https://segmentfault.com/a/1190000040629714",
-    "author": "小红石",
-    "home_url": "https://segmentfault.com/u/little_red_stone",
-    "votes": "1",
+    "title": "【业务学习】简述ID生成器",
+    "description": "大家好，好久不见，时隔一年终于又拾起了写博客这件事。在我们日常工作中，我们常需要用全局唯一ID作为数据库主键，或者用于生成订单id，用于生成商品ID等等。本篇主要介绍我们常见的ID生成器的方式：利用数据库...",
+    "url": "https://segmentfault.com/a/1190000040633600",
+    "author": "NoSay",
+    "home_url": "https://segmentfault.com/u/nosay",
+    "votes": "2",
     "rank": 2
   },
   {
-    "title": "React Native重大架构升级即将发布",
-    "description": "7 月 14 日，React Native 核心团队的 Joshua Gross 在 Twitter 说，RN 的新架构已经在 Facebook 内部落地了，并且99%的代码已经开源。其实，早在 2018 年 6 月，Facebook 官方就宣布了大规模重构 React Native ...",
-    "url": "https://segmentfault.com/a/1190000040629524",
-    "author": "xiangzhihong",
-    "home_url": "https://segmentfault.com/u/xiangzhihong",
-    "votes": "1",
+    "title": "7张图了解kafka基本概念",
+    "description": "消息队列顾名思义就是存储消息的一个队列，消息生产者(producer) 往消息队列中投放消息， 消费者(consumer)读取消息队列中的内容。在消息队列中的每条消息都会有个位置，就好比数组中的下标(index)，在kafka中我...",
+    "url": "https://segmentfault.com/a/1190000040633029",
+    "author": "xindoo",
+    "home_url": "https://segmentfault.com/u/xindoo",
+    "votes": "2",
     "rank": 3
+  },
+  {
+    "title": "jwt实现token鉴权（nodejs koa）",
+    "description": "为什么需要token？在后台管理系统中，我们通常使用cookie-session的方式用于鉴权，如何通过cookie、session鉴权（nodejs/koa） 但这种方式存在着以下问题比如cookie的容量太小浏览器端和app端发送http请求时携带c...",
+    "url": "https://segmentfault.com/a/1190000040633809",
+    "author": "一颗冰淇淋",
+    "home_url": "https://segmentfault.com/u/icecreamlj",
+    "votes": "1",
+    "rank": 4
+  },
+  {
+    "title": "Java 中如何实现线程间通信",
+    "description": "关于线程间通信本文涉及到的方法和类包括：thread.join()、object.wait()、object.notify()、CountdownLatch、CyclicBarrier、FutureTask、Callable。",
+    "url": "https://segmentfault.com/a/1190000040633513",
+    "author": "惜鸟",
+    "home_url": "https://segmentfault.com/u/xiniao_6051dfcd5b5e8",
+    "votes": "1",
+    "rank": 5
+  },
+  {
+    "title": "11、enum、typedef、sizeof",
+    "description": "Summary1）enum是C语言中的一种自定义类型； enum类型的变量只能取定义时的离散值。2）enum在C语言中可以定义真正意义上的常量，工程中常用枚举来定义常量（无名枚举）。3）sizeof是编译器的内置指示符，sizeof的...",
+    "url": "https://segmentfault.com/a/1190000040633306",
+    "author": "bryson",
+    "home_url": "https://segmentfault.com/u/lala_60a20654d1aa3",
+    "votes": "1",
+    "rank": 6
+  },
+  {
+    "title": "【C进阶】10、struct和union分析",
+    "description": "Summary1）空结构体的大小在不同的编译器下行为不同：gcc编译器下空结构体的大小为0；bcc和vc编译器认为空结构体的语法错误，编译错误 2）柔型数组的要点： {代码...} 柔性数组的最后一个数组是一个标识符，不占...",
+    "url": "https://segmentfault.com/a/1190000040633085",
+    "author": "bryson",
+    "home_url": "https://segmentfault.com/u/lala_60a20654d1aa3",
+    "votes": "1",
+    "rank": 7
+  },
+  {
+    "title": "LeetCode-217-存在重复元素",
+    "description": "题目描述：给定一个整数数组，判断是否存在重复元素。如果存在一值在数组中出现至少两次，函数返回 true 。如果数组中每个元素都不相同，则返回 false 。示例说明请见LeetCode官网。来源：力扣（LeetCode） 链接...",
+    "url": "https://segmentfault.com/a/1190000040632206",
+    "author": "雄狮虎豹",
+    "home_url": "https://segmentfault.com/u/xiongshihubao",
+    "votes": "2",
+    "rank": 8
   }
 ]
