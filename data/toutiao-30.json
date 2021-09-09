@@ -2,7 +2,7 @@
   {
     "title": "分布式事务最经典的七种解决方案",
     "description": "随着业务的快速发展、业务复杂度越来越高，几乎每个公司的系统都会从单体走向分布式，特别是转向微服务架构。随之而来就必然遇到分布式事务这个难题，这篇文章总结了分布式事务最经典的解决方案...",
-    "votes": "232",
+    "votes": "233",
     "url": "/k/vxr31wq",
     "avatar": "https://img.toutiao.io/subject/45e806cf22ab424b831afe890c225505/thumb",
     "avatarAlt": "叶东富 - 独家号",
@@ -40,6 +40,16 @@
     "homeUrl": "/subjects/351247"
   },
   {
+    "title": "vivo 全球商城：优惠券系统架构设计与实践",
+    "description": "作者：vivo互联网开发团队-Yan Chao一、业务背景优惠券是电商常见的营销手段，具有灵活的特点，既可以作为促销活动的载体，也是重要的引流入口。优惠券系统是vivo商城营销模块...",
+    "votes": "128",
+    "url": "/k/yyiq1f3",
+    "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
+    "avatarAlt": "vivo互联网技术 - 独家号",
+    "subjectName": "vivo互联网技术",
+    "homeUrl": "/subjects/392760"
+  },
+  {
     "title": "Java 书单：比较全的一篇",
     "description": "前言  之前写过一篇，Java核心书单，里面涵盖了几本主要的Java书籍；后来有朋友反馈说，这几本太少了，没得选；所以最近趁着有空，整理了一份稍微多点的，同时质量也比较高的书单；当...",
     "votes": "131",
@@ -60,16 +70,6 @@
     "homeUrl": "/subjects/188023"
   },
   {
-    "title": "vivo 全球商城：优惠券系统架构设计与实践",
-    "description": "作者：vivo互联网开发团队-Yan Chao一、业务背景优惠券是电商常见的营销手段，具有灵活的特点，既可以作为促销活动的载体，也是重要的引流入口。优惠券系统是vivo商城营销模块...",
-    "votes": "126",
-    "url": "/k/yyiq1f3",
-    "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
-    "avatarAlt": "vivo互联网技术 - 独家号",
-    "subjectName": "vivo互联网技术",
-    "homeUrl": "/subjects/392760"
-  },
-  {
     "title": "万字长文说透分布式锁",
     "description": "▲ 点击上方\"多颗糖\"关注公众号“分布式锁”这个问题快被说烂了，奈何笔者实在没有找到一个满意的答案，故记录自己寻找答案、总结的过程。分布式锁的设计涉及了许多分布式系统相关的问题，许...",
     "votes": "121",
@@ -82,7 +82,7 @@
   {
     "title": "小团队敏捷实践 2.0",
     "description": "敏捷迭代为什么升级团队在敏捷迭代实施的过程中，遇到了各种问题，在这个过程中，也发现了很多很好的方法论。所以，近期根据团队迭代的实际情况，做了2.0的迭代流程升级。团队使用的工具，在...",
-    "votes": "121",
+    "votes": "123",
     "url": "/k/6dxv9h5",
     "avatar": "https://img.toutiao.io/subject/6fc0fabfe93146e28ff47aa9f908dee9/thumb",
     "avatarAlt": "天行者YANG - 独家号",
@@ -92,7 +92,7 @@
   {
     "title": "让 JWT 来保护你的接口服务",
     "description": "点击上方 Java旅途，选择 设为星标 优质文章，每日送达大家好，我是大尧。以前写过一篇关于接口服务规范的文章，原文在此，里面关于安全性问题重点讲述了通过appid，appkey，...",
-    "votes": "114",
+    "votes": "115",
     "url": "/k/70kuvcy",
     "avatar": "https://img.toutiao.io/subject/f4c7daceb79a4dd58b3f5c9ce93a7ae2/thumb",
     "avatarAlt": "Java旅途 - 独家号",
@@ -102,7 +102,7 @@
   {
     "title": "LeetCode 通关：四万字长文搞定二叉树",
     "description": "分门别类刷算法，坚持，进步！!! 刷题路线参考：https://github.com/youngyangyang04/leetcode-master大家好，我是拿输出博客来督促自己...",
-    "votes": "112",
+    "votes": "120",
     "url": "/k/nxha88x",
     "avatar": "https://img.toutiao.io/subject/785b9391ccd74d88bfc5ccd391fb4365/thumb",
     "avatarAlt": "三分恶 - 独家号",
@@ -150,6 +150,16 @@
     "homeUrl": "/subjects/403307"
   },
   {
+    "title": "聊聊 Spring 事务失效的 12 种场景，太坑了",
+    "description": "大家好，我是苏三，又跟大家见面了。前言对于从事java开发工作的同学来说，spring的事务肯定再熟悉不过了。在某些业务场景下，如果一个请求中，需要同时写入多张表的数据。为了保证操...",
+    "votes": "101",
+    "url": "/k/5qng48y",
+    "avatar": "https://img.toutiao.io/subject/96c1af0d2a0b441ca9740ee13c3e37f3/thumb",
+    "avatarAlt": "苏三说技术 - 独家号",
+    "subjectName": "苏三说技术",
+    "homeUrl": "/subjects/453205"
+  },
+  {
     "title": "超大文件读取优化的探讨",
     "description": "前言 在开发过程中，经常会遇到对文件的操作，对于一般的文件，通常使用fread, fwrite等文件操作api即可处理。然而在处理大文件上, 使用普通的api在性能上难以得到保障。...",
     "votes": "91",
@@ -158,16 +168,6 @@
     "avatarAlt": "AggrxTech - 独家号",
     "subjectName": "AggrxTech",
     "homeUrl": "/subjects/425954"
-  },
-  {
-    "title": "技术专家面试实战：用数组实现一个阻塞队列？",
-    "description": "ArrayBlockingQueue顾名思义，是基于数组实现的阻塞队列，阻塞队列可以用于缓冲任务，实现生产者消费者模式，例如线程池中的工作队列。那么怎么才能用数组实现阻塞队列呢？我...",
-    "votes": "94",
-    "url": "/k/90ne21d",
-    "avatar": "https://img.toutiao.io/subject/5c05b5bf20fc4a7d84ca0cc73ceb3b72/thumb",
-    "avatarAlt": "bytejava - 独家号",
-    "subjectName": "bytejava",
-    "homeUrl": "/subjects/191320"
   },
   {
     "title": "一个后端朋友面试一个月的经验总结",
@@ -182,7 +182,7 @@
   {
     "title": "Java 中的锁居然有这么多",
     "description": "小伙伴们晚上好呀~干货可能会迟到，但是不能缺席呀！😄嘿嘿  这篇来讲讲锁 🔒 啦~看完上文的ConcurrentHashMap是不是发现有很多个 锁呀，这篇就带大家缕一缕~ 😝im...",
-    "votes": "86",
+    "votes": "89",
     "url": "/k/6qkwv3g",
     "avatar": "https://img.toutiao.io/subject/d1ac11780cff42f090ee90c231dfdcad/thumb",
     "avatarAlt": "Java4ye - 独家号",
@@ -192,7 +192,7 @@
   {
     "title": "关于存储技术的最强入门科普",
     "description": " 导读：都是基础，入门必看。 作者：小枣君来源：鲜枣课堂（ID：xzclasscom）说到“存储”，大家会想到什么？是这个？还是这个？又或者是这个？哈哈，没错，我们现在处于信息时代...",
-    "votes": "79",
+    "votes": "80",
     "url": "/k/xy8d9s9",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -200,19 +200,9 @@
     "homeUrl": "/subjects/26578"
   },
   {
-    "title": "聊聊 Spring 事务失效的 12 种场景，太坑了",
-    "description": "大家好，我是苏三，又跟大家见面了。前言对于从事java开发工作的同学来说，spring的事务肯定再熟悉不过了。在某些业务场景下，如果一个请求中，需要同时写入多张表的数据。为了保证操...",
-    "votes": "90",
-    "url": "/k/5qng48y",
-    "avatar": "https://img.toutiao.io/subject/96c1af0d2a0b441ca9740ee13c3e37f3/thumb",
-    "avatarAlt": "苏三说技术 - 独家号",
-    "subjectName": "苏三说技术",
-    "homeUrl": "/subjects/453205"
-  },
-  {
     "title": "Go 整洁架构模版，建议收藏",
     "description": "我是一只可爱的土拨鼠，专注于分享 Go 职场、招聘和求职，解 Gopher 之忧！欢迎关注我。欢迎大家加入Go招聘交流群，来这里找志同道合的小伙伴！跟土拨鼠们一起交流学习。本文翻译...",
-    "votes": "81",
+    "votes": "82",
     "url": "/k/e4uv4is",
     "avatar": "https://img.toutiao.io/subject/3f69ffc3bdf6496e86439348166e3ed7/thumb",
     "avatarAlt": "GoHackers - 独家号",
@@ -222,7 +212,7 @@
   {
     "title": "成为高效工程师的四步法则",
     "description": "成为高效工程师并不只是具有很好的代码和架构能力，而是要能够站在业务、用户的角度理解自己所做的产品，让技术成为业务价值的基石，并能够不断扩大自己的影响力，通过撬动更多的资源提升整个团...",
-    "votes": "80",
+    "votes": "81",
     "url": "/k/1xldt8h",
     "avatar": "https://img.toutiao.io/default-avatar.png",
     "avatarAlt": "DeepNoMind - 独家号",
@@ -242,11 +232,21 @@
   {
     "title": "分布式事务实战，用 Go 轻松完成一个 TCC",
     "description": "TCC分布式事务来源于 2007 年Pat Helland发表的一篇名为《Life beyond Distributed Transactions:an Apostate’s Op...",
-    "votes": "77",
+    "votes": "78",
     "url": "/k/4t8lwxs",
     "avatar": "https://img.toutiao.io/subject/45e806cf22ab424b831afe890c225505/thumb",
     "avatarAlt": "叶东富 - 独家号",
     "subjectName": "叶东富",
     "homeUrl": "/subjects/307550"
+  },
+  {
+    "title": "对 DDD 的常见误区",
+    "description": "大家好，我是Z哥。我从 2014 年开始接触 DDD 到现在也有 7 年多时间了，在这个期间踩过很多坑，也是自己慢慢从充满疑问，然后一步一步摸索着到如今可以轻松落地 DDD 的地步...",
+    "votes": "75",
+    "url": "/k/ai9the0",
+    "avatar": "https://img.toutiao.io/subject/c992e775e6344583abd8a49f632b3e13/thumb",
+    "avatarAlt": "跨界架构师 - 独家号",
+    "subjectName": "跨界架构师",
+    "homeUrl": "/subjects/268968"
   }
 ]
