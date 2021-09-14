@@ -2,7 +2,7 @@
   {
     "title": "2.5 万字详解：23 种设计模式",
     "description": "本文简述了各大设计模式，并通过UML和代码详细说明。本文大约共 2.5W 字，建议收藏。下方是本文的目录：一、设计模式的认识二、设计模式的分类根据其目的根据范围三、设计模式的优点四...",
-    "votes": "370",
+    "votes": "371",
     "url": "/k/bjjvhwf",
     "avatar": "https://img.toutiao.io/subject/d00b380edf1f4c5c989adc712d44de7b/thumb",
     "avatarAlt": "乱学派 - 独家号",
@@ -32,7 +32,7 @@
   {
     "title": "分布式事务最经典的七种解决方案",
     "description": "随着业务的快速发展、业务复杂度越来越高，几乎每个公司的系统都会从单体走向分布式，特别是转向微服务架构。随之而来就必然遇到分布式事务这个难题，这篇文章总结了分布式事务最经典的解决方案...",
-    "votes": "235",
+    "votes": "238",
     "url": "/k/vxr31wq",
     "avatar": "https://img.toutiao.io/subject/45e806cf22ab424b831afe890c225505/thumb",
     "avatarAlt": "叶东富 - 独家号",
@@ -60,20 +60,20 @@
     "homeUrl": "/subjects/403307"
   },
   {
-    "title": "Nginx 最全操作总结",
-    "description": " 作者：chrootliu，腾讯 QQ 音乐前端开发工程师本文将会从：安装 -> 全局配置 -> 常用的各种配置 来书写，其中常用配置写的炒鸡详细，需要的童鞋可以直接滑倒相应的位置...",
-    "votes": "201",
-    "url": "/k/0lvuhj9",
+    "title": "Java 线程池原理及最佳实践（1.5W 字，面试必问）",
+    "description": "1. 概述 1.1 线程池是什么 线程池（Thread Pool）是一种基于池化思想管理线程的工具，经常出现在多线程服务器中，如MySQL。创建线程本身开销大，反复创建并销毁，过多...",
+    "votes": "196",
+    "url": "/k/39edoom",
     "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
     "avatarAlt": "进击的程序猿 - 独家号",
     "subjectName": "进击的程序猿",
     "homeUrl": "/subjects/24912"
   },
   {
-    "title": "Java 线程池原理及最佳实践（1.5W 字，面试必问）",
-    "description": "1. 概述 1.1 线程池是什么 线程池（Thread Pool）是一种基于池化思想管理线程的工具，经常出现在多线程服务器中，如MySQL。创建线程本身开销大，反复创建并销毁，过多...",
-    "votes": "193",
-    "url": "/k/39edoom",
+    "title": "Nginx 最全操作总结",
+    "description": " 作者：chrootliu，腾讯 QQ 音乐前端开发工程师本文将会从：安装 -> 全局配置 -> 常用的各种配置 来书写，其中常用配置写的炒鸡详细，需要的童鞋可以直接滑倒相应的位置...",
+    "votes": "201",
+    "url": "/k/0lvuhj9",
     "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
     "avatarAlt": "进击的程序猿 - 独家号",
     "subjectName": "进击的程序猿",
@@ -180,19 +180,9 @@
     "homeUrl": "/subjects/348507"
   },
   {
-    "title": "树莓派家用指北",
-    "description": "前两天刚刚入职，最近几天忙着租房搬家，忙活了几天总算是住进了自己小屋里，作为一个软件工程师，怎么可以没有一台家用服务器呢？方案有很多种，上至几千元的 NAS，下至淘汰的老电脑，但是...",
-    "votes": "143",
-    "url": "/k/h2njn7z",
-    "avatar": "https://img.toutiao.io/subject/f49e289c00224ce994449b70f3c6cd5c/thumb",
-    "avatarAlt": "二进制 - 独家号",
-    "subjectName": "二进制",
-    "homeUrl": "/subjects/381811"
-  },
-  {
     "title": "值得收藏，揭秘 MySQL 多版本并发控制实现原理",
     "description": "▲ 点击上方“架构精进之路”关注公众号回复“01”领取「程序员进阶大礼包」这是「架构精进之路」公众号的第73篇原创文章MySQL 中多版本并发控制（MVCC），是现代数据库引擎实现...",
-    "votes": "133",
+    "votes": "134",
     "url": "/k/r59u142",
     "avatar": "https://img.toutiao.io/subject/071476c43e0d42cf95f3e77f046c814b/thumb",
     "avatarAlt": "架构精进之路 - 独家号",
@@ -202,12 +192,22 @@
   {
     "title": "什么是布隆过滤器？如何解决高并发缓存穿透问题？",
     "description": "大家好，我是Tom哥~日常开发中，大家经常使用缓存，但是你知道大型的互联网公司面对高并发流量，要注意缓存穿透问题吗!!! 本文会介绍布隆过滤器，空间换时间，以较低的内存空间、高效解...",
-    "votes": "131",
+    "votes": "132",
     "url": "/k/8klo399",
     "avatar": "https://img.toutiao.io/subject/83f7c83d300b4884a690ef12a32a86ab/thumb",
     "avatarAlt": "微观技术 - 独家号",
     "subjectName": "微观技术",
     "homeUrl": "/subjects/348507"
+  },
+  {
+    "title": "树莓派家用指北",
+    "description": "前两天刚刚入职，最近几天忙着租房搬家，忙活了几天总算是住进了自己小屋里，作为一个软件工程师，怎么可以没有一台家用服务器呢？方案有很多种，上至几千元的 NAS，下至淘汰的老电脑，但是...",
+    "votes": "143",
+    "url": "/k/h2njn7z",
+    "avatar": "https://img.toutiao.io/subject/f49e289c00224ce994449b70f3c6cd5c/thumb",
+    "avatarAlt": "二进制 - 独家号",
+    "subjectName": "二进制",
+    "homeUrl": "/subjects/381811"
   },
   {
     "title": "将你的 Windows，快速打造成 Docker 工作站",
