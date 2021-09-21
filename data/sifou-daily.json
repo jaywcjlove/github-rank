@@ -1,47 +1,29 @@
 [
   {
-    "title": "命令行搞一切之curl 的开心应用",
-    "description": "查看自己的外网ip地址很多网站都提供这个功能，如： {代码...} 生成一个二维码网址是 qrenco.de，即 QR encode，是不是很好记呢。 {代码...} 生成是显示在页面上看上去有点问题，命令行里还是可以扫到的。查个字...",
-    "url": "https://segmentfault.com/a/1190000040710854",
-    "author": "Yujiaao",
-    "home_url": "https://segmentfault.com/u/yujiaao",
-    "votes": "1",
+    "title": "Web页面子资源完整性校验详细指南",
+    "description": "时间过得好快，距离上一篇文章动手写一个简单的编译器：在JavaScript中使用Swift的尾闭包语法发布已经过去快半年了，这半年时间也一直在想着按时更新文章；但是因为工作和生活的琐事，没有能够坚持下来。有点惭愧...",
+    "url": "https://segmentfault.com/a/1190000040712382",
+    "author": "dreamapplehappy",
+    "home_url": "https://segmentfault.com/u/dreamapplehappy",
+    "votes": "2",
     "rank": 1
   },
   {
-    "title": "LeetCode-342-4的幂",
-    "description": "题目描述：给定一个整数，写一个函数来判断它是否是 4 的幂次方。如果是，返回 true ；否则，返回 false 。整数 n 是 4 的幂次方需满足：存在整数 x 使得 n == $4^{x}$示例说明请见LeetCode官网。来源：力扣（Lee...",
-    "url": "https://segmentfault.com/a/1190000040710632",
-    "author": "雄狮虎豹",
-    "home_url": "https://segmentfault.com/u/xiongshihubao",
-    "votes": "2",
+    "title": "Babel 的原理",
+    "description": "完整高频题库仓库地址：[链接]完整高频题库阅读地址：[链接]相关问题Babel 是什么Babel 有什么用压缩代码如何实现回答关键点JS 编译器 AST 插件系统Babel 是 JavaScript 编译器：他能让开发者在开发过程中，直接...",
+    "url": "https://segmentfault.com/a/1190000040711881",
+    "author": "HZFEStudio",
+    "home_url": "https://segmentfault.com/u/_6085362b65292",
+    "votes": "1",
     "rank": 2
   },
   {
-    "title": "嵌入式项目中打造自己的utils库-二进制转换",
-    "description": "在嵌入式开发中，不可避免要和驱动打交道。很多外设的寄存器都是使用2进制形式进行配置的。如果每次配寄存器，或回顾以前代码，对着16进制凭借大脑或者计算器来做2进制转换，就会非常麻烦。那么何不写一些代码，...",
-    "url": "https://segmentfault.com/a/1190000040709867",
-    "author": "银翼Neal",
-    "home_url": "https://segmentfault.com/u/yinyineal",
+    "title": "分布式之接口幂等性",
+    "description": "幂等性 更多使用的情况是第一次请求知道结果，但是由于网络抖动或连接超时等情况未进行正常返回，在这种情况下系统自动再次发起请求，其目的是确认第一次是否请求完成。",
+    "url": "https://segmentfault.com/a/1190000040711387",
+    "author": "新亮",
+    "home_url": "https://segmentfault.com/u/xinliangcoder",
     "votes": "1",
     "rank": 3
-  },
-  {
-    "title": "前端异步解决方案大全",
-    "description": "javascript是一门单线程语言,即一次只能完成一个任务,若有多个任务要执行,则必须排队按照队列来执行(前一个任务完成,再执行下一个任务)。",
-    "url": "https://segmentfault.com/a/1190000040709834",
-    "author": "纸飞机",
-    "home_url": "https://segmentfault.com/u/zhifeiji_5d3ec6633c8d2",
-    "votes": "1",
-    "rank": 4
-  },
-  {
-    "title": "Android Activity 传递Parcelable对象",
-    "description": "Parcelable对象和Serializable不一样。实现了Parcelable接口的类并不会被系统序列化。接下来我们用一个例子看看如何使用这一接口。",
-    "url": "https://segmentfault.com/a/1190000040709459",
-    "author": "AnRFDev",
-    "home_url": "https://segmentfault.com/u/anrfdev",
-    "votes": "1",
-    "rank": 5
   }
 ]
