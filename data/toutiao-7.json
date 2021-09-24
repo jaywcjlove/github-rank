@@ -1,18 +1,8 @@
 [
   {
-    "title": "这可能是 8 月 GitHub 最火热的开源项目",
-    "description": " 哈喽，大家好，我是开源君，一个资深的互联网玩家，致力于为大家分享各领域优质开源项目。今天梳理一下8 月的 Github 热榜项目，及时挖掘和发现有用的项目，让开源君的朋友们比其他...",
-    "votes": "118",
-    "url": "/k/s122yjk",
-    "avatar": "https://img.toutiao.io/user/f3ccbd8bc9a74d32b624b73444646217/thumb",
-    "avatarAlt": "微信搜「开源指南」 - 独家号",
-    "subjectName": "微信搜「开源指南」",
-    "homeUrl": "/subjects/462011"
-  },
-  {
     "title": "如何入门技术写作？",
     "description": "我们知道，技术写作能力是求职升职的加分项。求职时，优秀的技术博客有利于拿到 Offer。工作时，编写可读性好的技术文档，同事会感谢你。晋级时，条理清晰，有说服力的PPT，有利于晋级...",
-    "votes": "84",
+    "votes": "93",
     "url": "/k/uunmint",
     "avatar": "https://img.toutiao.io/subject/0fbaad0d2a7744dd911eff08a456d6d9/thumb",
     "avatarAlt": "WEB 前端文章收藏 - 独家号",
@@ -22,7 +12,7 @@
   {
     "title": "当下分布式文件系统架构对比",
     "description": "本文源自 Juicedata 创始人 & CEO Davies 在上海 Linux 用户组（SHLUG）的月度分享（2018/6/23）。什么是文件系统？文件系统是计算机中一个非常...",
-    "votes": "82",
+    "votes": "88",
     "url": "/k/nidzr35",
     "avatar": "https://img.toutiao.io/user/c5b7d0595a6a4de7bd2c69ccca2451c8/thumb",
     "avatarAlt": "JuiceFS的独家号 - 独家号",
@@ -30,24 +20,34 @@
     "homeUrl": "/subjects/464469"
   },
   {
-    "title": "基于 K8s 的集群稳定架构",
-    "description": "前言我司的集群时刻处于崩溃的边缘，通过近三个月的掌握，发现我司的集群不稳定的原因有以下几点：1、发版流程不稳定2、缺少监控平台【最重要的原因】3、缺少日志系统4、极度缺少有关操作文...",
-    "votes": "73",
-    "url": "/k/h8rg2ec",
-    "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
-    "avatarAlt": "乱点技能树 - 独家号",
-    "subjectName": "乱点技能树",
-    "homeUrl": "/subjects/194141"
+    "title": "近期人类高质量 GitHub 项目",
+    "description": "本文推荐近期 GitHub 比较热门的开源项目，本文章会分别介绍 Java、Python、前端、人工智能、Go 等相关方向的热门项目。Java 多平台数据库工具 基于 Java 的...",
+    "votes": "67",
+    "url": "/k/di7llvb",
+    "avatar": "https://img.toutiao.io/subject/03e210e126704d0ca23938746bbd4cec/thumb",
+    "avatarAlt": "近半生少年 - 独家号",
+    "subjectName": "近半生少年",
+    "homeUrl": "/subjects/403307"
   },
   {
     "title": "一文教你如何学会写 Shell 脚本",
     "description": " 做 Java 的肯定都接触过 Linux 系统，那么很多时候我们在开发的过程中都是把我们项目打成一个jar包，或者是war包的形式，然后通过 XFTP 上传到我们服务器的指定目录...",
-    "votes": "69",
+    "votes": "71",
     "url": "/k/88px9ws",
     "avatar": "https://img.toutiao.io/subject/594f5c3afbcf4b40ae6216fd65d57afa/thumb",
     "avatarAlt": "小南国 - 独家号",
     "subjectName": "小南国",
     "homeUrl": "/subjects/130457"
+  },
+  {
+    "title": "教您 10 分钟搭建一个内网穿透服务",
+    "description": "FRP 内网穿透需求背景最近小王公司接个对接公众账号应用开发的项目，其中有个功能需求是\"用户关注公众账号后发送特定消息后公众账号需要回复一个二维码海报“。了解需求后，便查看了微信接...",
+    "votes": "62",
+    "url": "/k/dsr2yzw",
+    "avatar": "https://img.toutiao.io/subject/458b6ea460f040a29ef5367bba238db7/thumb",
+    "avatarAlt": "猴哥说Java - 独家号",
+    "subjectName": "猴哥说Java",
+    "homeUrl": "/subjects/107202"
   },
   {
     "title": "开源｜bilibili 开源的，基于 AST 和 Golang 语言实现的规则引擎",
@@ -60,29 +60,9 @@
     "homeUrl": "/subjects/4"
   },
   {
-    "title": "源码面前没有秘密，推荐 9 个带你阅读源码的开源项目",
-    "description": "在文章开始之前，请各位先回忆下在日常开发过程中，都使用或依赖了哪些开源项目？是不是发现，开源项目已经完全融入到日常开发！如今大多数的程序员技术栈和工具箱里，或多或少都有开源项目的身...",
-    "votes": "59",
-    "url": "/k/2ci0ez3",
-    "avatar": "https://img.toutiao.io/subject/b751657c3aaa4ac59db50c07db41e538/thumb",
-    "avatarAlt": "HelloGitHub - 独家号",
-    "subjectName": "HelloGitHub",
-    "homeUrl": "/subjects/175527"
-  },
-  {
-    "title": "三分钟快速上手 Spring 事件机制",
-    "description": "小伙伴们好呀~ 今天来和大家分享下这个 Spring事件机制 内容概览 image-20210829132019387原理 image-20210828184103069这个熟悉 ...",
-    "votes": "46",
-    "url": "/k/304f3j8",
-    "avatar": "https://img.toutiao.io/subject/d1ac11780cff42f090ee90c231dfdcad/thumb",
-    "avatarAlt": "Java4ye - 独家号",
-    "subjectName": "Java4ye",
-    "homeUrl": "/subjects/463028"
-  },
-  {
     "title": "如何优雅地记录操作日志？",
     "description": " 总第471篇 2021年 第041篇  操作日志几乎存在于每个系统中，而这些系统都有记录操作日志的一套 API。操作日志和系统日志不一样，操作日志必须要做到简单易懂。所以如何让操...",
-    "votes": "40",
+    "votes": "46",
     "url": "/k/l5h2n30",
     "avatar": "https://img.toutiao.io/subject/50e9b8208bfd488897fed22d15d9aa0e/thumb",
     "avatarAlt": "美团技术团队 - 独家号",
@@ -90,9 +70,19 @@
     "homeUrl": "/subjects/117027"
   },
   {
+    "title": "三分钟快速上手 Spring 事件机制",
+    "description": "小伙伴们好呀~ 今天来和大家分享下这个 Spring事件机制 内容概览 image-20210829132019387原理 image-20210828184103069这个熟悉 ...",
+    "votes": "48",
+    "url": "/k/304f3j8",
+    "avatar": "https://img.toutiao.io/subject/d1ac11780cff42f090ee90c231dfdcad/thumb",
+    "avatarAlt": "Java4ye - 独家号",
+    "subjectName": "Java4ye",
+    "homeUrl": "/subjects/463028"
+  },
+  {
     "title": "自荐一款 Redis 可视化管理工具",
     "description": "自荐一款Redis可视化管理与监控工具，官网http://www.redisant.cn...",
-    "votes": "41",
+    "votes": "45",
     "url": "/k/yieiouu",
     "avatar": "https://img.toutiao.io/default-avatar.png",
     "avatarAlt": "u588522的独家号 - 独家号",
@@ -100,19 +90,9 @@
     "homeUrl": "/subjects/464640"
   },
   {
-    "title": "缓存一致性？get",
-    "description": "大家好，我是老三，今天又是被算法致郁的一天，写篇文章缓一缓。这篇文章，我们来看看缓存一致性问题。缓存一致性 我接下来会巴巴说一堆缓存一致性，但是——作为一名暴躁老哥，我先把结论撂这...",
-    "votes": "41",
-    "url": "/k/bga7ilo",
-    "avatar": "https://img.toutiao.io/subject/785b9391ccd74d88bfc5ccd391fb4365/thumb",
-    "avatarAlt": "三分恶 - 独家号",
-    "subjectName": "三分恶",
-    "homeUrl": "/subjects/454266"
-  },
-  {
     "title": "Flink 吐血总结，学习与面试收藏这一篇就够了",
     "description": "FlinkFlink 核心特点 批流一体 所有的数据都天然带有时间的概念，必然发生在某一个时间点。把事件按照时间顺序排列起来，就形成了一个事件流，也叫作数据流。「无界数据」是持续产...",
-    "votes": "35",
+    "votes": "38",
     "url": "/k/r1phx01",
     "avatar": "https://img.toutiao.io/subject/2a09977095ce4048b8914cbd4532719f/thumb",
     "avatarAlt": "大数据左右手 - 独家号",
@@ -122,7 +102,7 @@
   {
     "title": "不就是分布式事务，这下彻底清楚了",
     "description": "大家好，我是老三，上次发文的时候还是上次发文的时候，这篇文章分享分布式事务，看完要是你们不懂，那一定是不明白。从本地事务到分布式事务 事务大家应该都知道，事务将一组操作纳入到一个不...",
-    "votes": "32",
+    "votes": "38",
     "url": "/k/uojgtaj",
     "avatar": "https://img.toutiao.io/subject/785b9391ccd74d88bfc5ccd391fb4365/thumb",
     "avatarAlt": "三分恶 - 独家号",
@@ -132,7 +112,7 @@
   {
     "title": "微服务的几个陷阱",
     "description": "微服务的陷阱  微服务架构（Microservice Architect）是一种架构模式，微服务架构是个很有趣的思维方式，其主要作用是将功能分解到离散的各个服务当中，从而降低系统的...",
-    "votes": "31",
+    "votes": "34",
     "url": "/k/cm0o91b",
     "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
     "avatarAlt": "乱点技能树 - 独家号",
@@ -140,39 +120,9 @@
     "homeUrl": "/subjects/194141"
   },
   {
-    "title": "Google 工程效能的三板斧之一：单体代码仓库",
-    "description": "来源：本人公众号“大话工程效能”上一篇文章我们提到Google的牛除了产品、技术，还有很重要的一方面是工程能力（参考：谷歌为什么牛？)。那么Google的工程效能又强在哪些地方呢？...",
-    "votes": "26",
-    "url": "/k/3wf2qfx",
-    "avatar": "https://img.toutiao.io/subject/a2bb7b11f9fc431fb8fb0d5cc36a3cac/thumb",
-    "avatarAlt": "小弧光黑板报 - 独家号",
-    "subjectName": "小弧光黑板报",
-    "homeUrl": "/subjects/458"
-  },
-  {
-    "title": "非 VIP 用户下载限速，原来是这么实现的",
-    "description": "在日常工作之余，二狗子其实还是个隐藏的大触，一手素描画得出神入化，不少看过的小伙伴嗷嗷叫着求分享。为了让更多小粉丝能看到自己的作品，二狗子开发了一个提供有版权的素描稿件的下载网站。...",
-    "votes": "27",
-    "url": "/k/m4uehh8",
-    "avatar": "https://img.toutiao.io/subject/4f9b8a1b9ad34bf3b815671f8461ff25/thumb",
-    "avatarAlt": "又拍云 - 独家号",
-    "subjectName": "又拍云",
-    "homeUrl": "/subjects/182218"
-  },
-  {
-    "title": "在 K8s 上的 Web 服务该怎么做域名解析呢?",
-    "description": "我们这个系列的文章一直都在学习和掌握K8S各种组成部分在集群里的角色、作用和使用场景，那么针对今天这个主题任务「给K8S上的Web服务做域名解析」你觉得应该使用什么组件来完成呢？如...",
-    "votes": "27",
-    "url": "/k/9xmgqoa",
-    "avatar": "https://img.toutiao.io/subject/5a80999e5b844812b72eedbc7f5fb5be/thumb",
-    "avatarAlt": "网管叨bi叨 - 独家号",
-    "subjectName": "网管叨bi叨",
-    "homeUrl": "/subjects/437466"
-  },
-  {
     "title": "Redis 字符串命令不止 SET 与 GET",
     "description": "Redis 为我们提供了一系列丰富的数据结构，从最初的Strings、Hashes、Lists、Sets、Sorted Sets，逐步增加HyperLogLog、BitMaps、S...",
-    "votes": "26",
+    "votes": "32",
     "url": "/k/75rtacx",
     "avatar": "https://img.toutiao.io/subject/e87a945593ce4e49af5eb0c81cdaf7be/thumb",
     "avatarAlt": "程序杂烩 - 独家号",
@@ -180,9 +130,29 @@
     "homeUrl": "/subjects/12862"
   },
   {
+    "title": "管理者的四种不同授权风格",
+    "description": "什么是授权？ 所谓授权是指管理者把由他全权负责的一项或多项任务委派给下属员工，使下属拥有相当的自主权和行动权。授权的6个误区 1、授权不是全程参与，授权后管理者不要过多干涉员工的工...",
+    "votes": "34",
+    "url": "/k/4xj3xkz",
+    "avatar": "https://img.toutiao.io/subject/4325865040b44c0b9e2d8d80a83d1d11/thumb",
+    "avatarAlt": "编程一生 - 独家号",
+    "subjectName": "编程一生",
+    "homeUrl": "/subjects/350352"
+  },
+  {
+    "title": "Google 工程效能的三板斧之一：单体代码仓库",
+    "description": "来源：本人公众号“大话工程效能”上一篇文章我们提到Google的牛除了产品、技术，还有很重要的一方面是工程能力（参考：谷歌为什么牛？)。那么Google的工程效能又强在哪些地方呢？...",
+    "votes": "28",
+    "url": "/k/3wf2qfx",
+    "avatar": "https://img.toutiao.io/subject/a2bb7b11f9fc431fb8fb0d5cc36a3cac/thumb",
+    "avatarAlt": "小弧光黑板报 - 独家号",
+    "subjectName": "小弧光黑板报",
+    "homeUrl": "/subjects/458"
+  },
+  {
     "title": "大数据之分布式协调神器：Zookeeper 选举",
     "description": "前言分布式系统设计成主从节点主要是为了保障数据一致性，主从设计是一种最直观的数据一致性保障机制。比如主从复制，主节点负责写，从节点负责读，提高读的性能。从节点定期通过心跳与主节点沟...",
-    "votes": "27",
+    "votes": "31",
     "url": "/k/ex5k7x0",
     "avatar": "https://img.toutiao.io/subject/2a09977095ce4048b8914cbd4532719f/thumb",
     "avatarAlt": "大数据左右手 - 独家号",
@@ -192,11 +162,41 @@
   {
     "title": "Go 语言如何操纵 Kafka 保证无消息丢失",
     "description": "背景 目前一些互联网公司会使用消息队列来做核心业务，因为是核心业务，所以对数据的最后一致性比较敏感，如果中间出现数据丢失，就会引来用户的投诉，年底绩效就变成325了。之前和几个朋友...",
-    "votes": "22",
+    "votes": "28",
     "url": "/k/r6p3osc",
     "avatar": "https://img.toutiao.io/subject/967329410fda4a55b2bf84673d48ebfe/thumb",
     "avatarAlt": "asong2020 - 独家号",
     "subjectName": "asong2020",
     "homeUrl": "/subjects/447978"
+  },
+  {
+    "title": "求求你，Git 日志别乱写了",
+    "description": "为什么需要？降低Review成本，可以明确知道本次提交的改变和影响 规范整个Team的提交习惯，对技术素养的养成有益 可以通过统一工具，抽取规范的message自动形成change...",
+    "votes": "24",
+    "url": "/k/20ct6c5",
+    "avatar": "https://img.toutiao.io/subject/458b6ea460f040a29ef5367bba238db7/thumb",
+    "avatarAlt": "猴哥说Java - 独家号",
+    "subjectName": "猴哥说Java",
+    "homeUrl": "/subjects/107202"
+  },
+  {
+    "title": "JUC 常用 4 大并发工具类",
+    "description": "点击下方“IT牧场”，选择“设为星标”来源 | www.cnblogs.com/flower-dance/p/13714006.html什么是JUC?4大常用并发工具类:Count...",
+    "votes": "27",
+    "url": "/k/8ef0b5i",
+    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
+  },
+  {
+    "title": "什么是 SQL 注入，这些坑得避开",
+    "description": "1、sql 注入是什么sql 注入就是用户通过输入的参数，拼接到原先的 sql 中，成为 sql 的一部分，从而影响 sql 的功能和执行结果2、sql 注入破坏力- 小兵破坏力 ...",
+    "votes": "25",
+    "url": "/k/7t4fr53",
+    "avatar": "https://img.toutiao.io/subject/a679188279bd4ac1bf9f71f5ddcd2f98/thumb",
+    "avatarAlt": "java后端干货 - 独家号",
+    "subjectName": "java后端干货",
+    "homeUrl": "/subjects/464647"
   }
 ]
