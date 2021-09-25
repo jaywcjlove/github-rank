@@ -1,101 +1,74 @@
 [
   {
-    "title": "20 个杀手级 JavaScript 单行代码",
-    "description": "规范要求在写入剪贴板之前使用 Permissions API 获取“剪贴板写入”权限。但是，不同浏览器的具体要求不同，因为这是一个新的API。有关详细信息，请查看compatibility table and Clipboard availability in Clipboa...",
-    "url": "https://segmentfault.com/a/1190000040721650",
-    "author": "JenK",
-    "home_url": "https://segmentfault.com/u/wangzc996",
-    "votes": "11",
-    "rank": 1
-  },
-  {
-    "title": "React 源码解析系列 - React 的 render 阶段（二）：beginWork",
-    "description": "下面来介绍 React Render 的“递”阶段 —— beginWork ，在《React 源码解析系列 - React 的 render 阶段（一）：基本流程介绍》中我们可知 beginWork 的主要作用是创建本次循环(performUnitOfWork)主体(unitOfWork)...",
-    "url": "https://segmentfault.com/a/1190000040723029",
-    "author": "array_huang",
-    "home_url": "https://segmentfault.com/u/array_huang",
-    "votes": "5",
-    "rank": 2
-  },
-  {
-    "title": "近 20k Star的项目说不做就不做了，但总结的内容值得借鉴",
-    "description": "大家好，我是零一。最近在社区看到一个让人惊讶的消息，近20k Star的构建工具库 Snowpack的作者 Fred K.Schott （文中简称Fred）表示已经没有精力去维护snowpack了，其使用量和下载量都开始呈现下降的趋势。Fred...",
-    "url": "https://segmentfault.com/a/1190000040722202",
-    "author": "零一",
-    "home_url": "https://segmentfault.com/u/zero2one",
-    "votes": "7",
-    "rank": 3
-  },
-  {
-    "title": "亿级流量系统架构演进之路",
-    "description": "海量用户同时进行高频访问对任何平台都是难题，也是行业乐此不疲的研究方向。但值得庆幸的是，虽然业务场景不同，设计和优化的思想却是万变不离宗。本文将结合业务与高并发系统设计的核心技术点，对系统架构调优...",
-    "url": "https://segmentfault.com/a/1190000040724240",
+    "title": "加密的艺术",
+    "description": "加密算法最早诞生在什么时候？计算机出现之后吗？不，早在公元前 7 世纪，古希腊人就已经在使用加密算法了。他们使用一根叫 scytale 的棍子来传递加密信息，加密时先绕棍子卷一张纸条，把信息沿棒水平方向写，写...",
+    "url": "https://segmentfault.com/a/1190000040729633",
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
     "votes": "6",
+    "rank": 1
+  },
+  {
+    "title": "打造她喜欢的Github主页",
+    "description": "前言：哈喽，我是树酱。先聊聊本文的起源，某天在水群的时候看到某大佬的Github账户主页，颜值简直爆棚。反观看树酱的Github主页，简直就是“陋室”，难以入眼！或者很多开发的小伙伴跟我一样，平时在github上参与...",
+    "url": "https://segmentfault.com/a/1190000040727897",
+    "author": "树酱",
+    "home_url": "https://segmentfault.com/u/shu_jshu_jiashu_jianshu_jiang",
+    "votes": "3",
+    "rank": 2
+  },
+  {
+    "title": "LeetCode-367-有效的完全平方数",
+    "description": "题目描述：给定一个 正整数 num ，编写一个函数，如果 num 是一个完全平方数，则返回 true ，否则返回 false 。完全平方数：完全平方指用一个整数乘以自己例如1*1，2*2，3*3等，依此类推。若一个数能表示成某个整...",
+    "url": "https://segmentfault.com/a/1190000040728457",
+    "author": "雄狮虎豹",
+    "home_url": "https://segmentfault.com/u/xiongshihubao",
+    "votes": "3",
+    "rank": 3
+  },
+  {
+    "title": "开发的艺术，化繁为简",
+    "description": "每隔一段时间，微软就会为Azure更新大量的SDK，针对Java，我们也一直不断地在扩充SDK库。开源Azure SDK for Java简化了通过 Java 应用程序代码预配、管理和使用 Azure 资源的过程。",
+    "url": "https://segmentfault.com/a/1190000040729019",
+    "author": "微软技术栈",
+    "home_url": "https://segmentfault.com/u/xinyuanxiaojieyi",
+    "votes": "1",
     "rank": 4
   },
   {
-    "title": "CSS和SVG实现文字渐变、描边、投影",
-    "description": "在一些 web 活动页中经常能看到特殊处理的标题文字，比如这样的暂时忽略掉特殊字体，通过设计稿的图层样式可以发现，共有 3 个文字特效，分别是渐变、描边、投影作为一个有追求的前端，当然不会直接用图片啦~ 这...",
-    "url": "https://segmentfault.com/a/1190000040721783",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "2",
+    "title": "规划&记录，有她就够了！",
+    "description": "前言： 工作生活中，我们总会离不开的“动作” 就是：规划 + 记录， 规划可以帮助我们更好地将我们下一个周期想要完成的事情做一个时间维度的拆分，并提前计划好相关事项。而记录则是可以帮我们收录碎片化接收的信...",
+    "url": "https://segmentfault.com/a/1190000040727984",
+    "author": "树酱",
+    "home_url": "https://segmentfault.com/u/shu_jshu_jiashu_jianshu_jiang",
+    "votes": "1",
     "rank": 5
   },
   {
-    "title": "LeetCode-350-两个数组的交集 II",
-    "description": "题目描述：给定两个数组，编写一个函数来计算它们的交集。示例说明请见LeetCode官网。来源：力扣（LeetCode） 链接：[链接] 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。",
-    "url": "https://segmentfault.com/a/1190000040722941",
-    "author": "雄狮虎豹",
-    "home_url": "https://segmentfault.com/u/xiongshihubao",
-    "votes": "2",
+    "title": "这些操作删除console.log代码，你都知道吗",
+    "description": "说起console.log调试，不用多说，那是非常的好用，开发中帮助我们解决了不少Bug。我们经常能在开发环境中看见这一坨一坨的console调试。但是生产环境是绝不对不允许出现console信息代码的。你还在手动一个一个删...",
+    "url": "https://segmentfault.com/a/1190000040729159",
+    "author": "蛙人",
+    "home_url": "https://segmentfault.com/u/jack_code",
+    "votes": "1",
     "rank": 6
   },
   {
-    "title": "真-从零开始搭建自己的开源项目",
-    "description": "真-从零开始搭建自己的开源项目在线体验cssbattle.wuwenzhou.com.cn/index 来试一试，真的勇士看自己能下多少层！！！css.png",
-    "url": "https://segmentfault.com/a/1190000040723375",
-    "author": "fodelf",
-    "home_url": "https://segmentfault.com/u/fodelf",
+    "title": "从0到1搭建域名邮件服务器",
+    "description": "前言：哈喽，我是树酱。文章的源头，是因为在一次交谈中，朋友提到一个需求。需要一批邮箱去做一些\"事情\"，具体是干啥事，留点悬念。如果手动去注册邮箱，只需要解决接收邮件问题。不仅费力而且现在包括像@163等...",
+    "url": "https://segmentfault.com/a/1190000040727863",
+    "author": "树酱",
+    "home_url": "https://segmentfault.com/u/shu_jshu_jiashu_jianshu_jiang",
     "votes": "1",
     "rank": 7
   },
   {
-    "title": "前端练级闲话",
-    "description": "小z2016年1月1日，来成都找实习工作。但是发现啥也不会，虽然是软件工程专业的，但是用java连接数据库都跑不起来。但是要想拿到三方证明就需要找到实习工作啊。要想找到实习工作就得通过面试，选择什么岗位呢？前...",
-    "url": "https://segmentfault.com/a/1190000040722921",
-    "author": "张仪ranck",
-    "home_url": "https://segmentfault.com/u/ranck",
+    "title": "技术期刊 · 吾令凤鸟飞腾兮 | 使用 esbuild 加速 webpack;网易云的熟人社交玩法……",
+    "description": "生命不息，学习无止，这是很多人一以贯之的追求，虽然在很多领域中，知识是无法穷尽的，但每一点细小的改变都能让自己可以更进一步，就好像离骚中所述，“吾令凤鸟飞腾兮，继之以日夜”，每一次振翅都能飞得更高些。",
+    "url": "https://segmentfault.com/a/1190000040729628",
+    "author": "凹凸实验室",
+    "home_url": "https://segmentfault.com/u/o2team",
     "votes": "1",
     "rank": 8
-  },
-  {
-    "title": "未来已来 畅想前端新通信时代",
-    "description": "水羊水羊，又水又痒，做一整只快乐的小肥羊~ {代码...} 一道面试题一切的起源，还得先回顾一道经典的面试题，从 URL 输入到页面展现到底发生什么？相信这是一道BAT常用的面试题，经常逛掘金的同学一定看过这个图...",
-    "url": "https://segmentfault.com/a/1190000040722477",
-    "author": "豆皮范儿",
-    "home_url": "https://segmentfault.com/u/doupifaner",
-    "votes": "1",
-    "rank": 9
-  },
-  {
-    "title": "前端开发技术之TS的定义与使用",
-    "description": "VSCode提示例如：定义者指定了一个方法：export function foo(name: string): number { return name.length}那么作为使用者， 你会很清晰的通过VSCode的提示了解到该函数的参数和返回值信息：",
-    "url": "https://segmentfault.com/a/1190000040722107",
-    "author": "IT小尚",
-    "home_url": "https://segmentfault.com/u/huidadewanzi",
-    "votes": "1",
-    "rank": 10
-  },
-  {
-    "title": "melog，一个极为轻量的nodejs+mysql博客程序",
-    "description": "melogmelog，一个基于jj.js(nodejs+mysql)构建的简单轻量级blog系统。代码极简，无需编译，方便二次开发。仓库地址：[链接]码云镜像：[链接]官网地址：[链接]演示demo：[链接]（后台：admin，账号：melog@i-i.me...",
-    "url": "https://segmentfault.com/a/1190000040721715",
-    "author": "雨思",
-    "home_url": "https://segmentfault.com/u/yafoo",
-    "votes": "1",
-    "rank": 11
   }
 ]
