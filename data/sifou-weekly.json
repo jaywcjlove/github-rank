@@ -5,7 +5,7 @@
     "url": "https://segmentfault.com/a/1190000040721650",
     "author": "JenK",
     "home_url": "https://segmentfault.com/u/wangzc996",
-    "votes": "23",
+    "votes": "25",
     "rank": 1
   },
   {
@@ -14,7 +14,7 @@
     "url": "https://segmentfault.com/a/1190000040720760",
     "author": "执鸢者",
     "home_url": "https://segmentfault.com/u/zhizhe_5c6eb6478bd93",
-    "votes": "10",
+    "votes": "13",
     "rank": 2
   },
   {
@@ -23,7 +23,7 @@
     "url": "https://segmentfault.com/a/1190000040704577",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "12",
+    "votes": "14",
     "rank": 3
   },
   {
@@ -32,7 +32,7 @@
     "url": "https://segmentfault.com/a/1190000040719719",
     "author": "lzg9527",
     "home_url": "https://segmentfault.com/u/michael_5c03399eed011",
-    "votes": "9",
+    "votes": "10",
     "rank": 4
   },
   {
@@ -54,12 +54,12 @@
     "rank": 6
   },
   {
-    "title": "亿级流量系统架构演进之路",
-    "description": "海量用户同时进行高频访问对任何平台都是难题，也是行业乐此不疲的研究方向。但值得庆幸的是，虽然业务场景不同，设计和优化的思想却是万变不离宗。本文将结合业务与高并发系统设计的核心技术点，对系统架构调优...",
-    "url": "https://segmentfault.com/a/1190000040724240",
-    "author": "云叔_又拍云",
-    "home_url": "https://segmentfault.com/u/yunshu_blog",
-    "votes": "7",
+    "title": "Nginx服务器常见配置清单备忘录",
+    "description": "Nginx是高性能轻量级WEB服务器的优秀代表，由于其提供HTTP代理和反向代理、负载均衡、缓存等一系列重要特性，从而广泛应用于当今的Web后端服务之中，而且各大互联网公司也都在重度使用，所以作为一个开发者，学会...",
+    "url": "https://segmentfault.com/a/1190000040717509",
+    "author": "CodeSheep",
+    "home_url": "https://segmentfault.com/u/hansonwang99",
+    "votes": "11",
     "rank": 7
   },
   {
@@ -68,8 +68,44 @@
     "url": "https://segmentfault.com/a/1190000040729633",
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
-    "votes": "7",
+    "votes": "8",
     "rank": 8
+  },
+  {
+    "title": "尝试对 jsjiami 加密结果手工解密",
+    "description": "看了下 jsjiami，简单的一个 console.log(\"James\")，加密出来的结果居然有 3K，说明这个加密转了不知道多少弯在里面。如果要把真正一段业务代码拿来手工解密，应该会挺累的，但是本文不研究工作量的问题，只是尝...",
+    "url": "https://segmentfault.com/a/1190000040735240",
+    "author": "边城",
+    "home_url": "https://segmentfault.com/u/jamesfancy",
+    "votes": "9",
+    "rank": 9
+  },
+  {
+    "title": "亿级流量系统架构演进之路",
+    "description": "海量用户同时进行高频访问对任何平台都是难题，也是行业乐此不疲的研究方向。但值得庆幸的是，虽然业务场景不同，设计和优化的思想却是万变不离宗。本文将结合业务与高并发系统设计的核心技术点，对系统架构调优...",
+    "url": "https://segmentfault.com/a/1190000040724240",
+    "author": "云叔_又拍云",
+    "home_url": "https://segmentfault.com/u/yunshu_blog",
+    "votes": "7",
+    "rank": 10
+  },
+  {
+    "title": "打造她喜欢的Github主页",
+    "description": "前言：哈喽，我是树酱。先聊聊本文的起源，某天在水群的时候看到某大佬的Github账户主页，颜值简直爆棚。反观看树酱的Github主页，简直就是“陋室”，难以入眼！或者很多开发的小伙伴跟我一样，平时在github上参与...",
+    "url": "https://segmentfault.com/a/1190000040727897",
+    "author": "树酱",
+    "home_url": "https://segmentfault.com/u/shu_jshu_jiashu_jianshu_jiang",
+    "votes": "5",
+    "rank": 11
+  },
+  {
+    "title": "高可用延迟队列设计与实现",
+    "description": "延迟队列：一种带有 延迟功能 的消息队列延时 → 未来一个不确定的时间mq → 消费行为具有顺序性这样解释，整个设计就清楚了。你的目的是 延时，承载容器是 mq。背景列举一下我日常业务中可能存在的场景：建立延时...",
+    "url": "https://segmentfault.com/a/1190000040714810",
+    "author": "kevinwan",
+    "home_url": "https://segmentfault.com/u/kevinwan",
+    "votes": "4",
+    "rank": 12
   },
   {
     "title": "JavaScript好玩实用的API分享",
@@ -78,34 +114,16 @@
     "author": "JenK",
     "home_url": "https://segmentfault.com/u/wangzc996",
     "votes": "4",
-    "rank": 9
+    "rank": 13
   },
   {
-    "title": "Nginx服务器常见配置清单备忘录",
-    "description": "Nginx是高性能轻量级WEB服务器的优秀代表，由于其提供HTTP代理和反向代理、负载均衡、缓存等一系列重要特性，从而广泛应用于当今的Web后端服务之中，而且各大互联网公司也都在重度使用，所以作为一个开发者，学会...",
-    "url": "https://segmentfault.com/a/1190000040717509",
-    "author": "CodeSheep",
-    "home_url": "https://segmentfault.com/u/hansonwang99",
-    "votes": "8",
-    "rank": 10
-  },
-  {
-    "title": "高可用延迟队列设计与实现",
-    "description": "延迟队列：一种带有 延迟功能 的消息队列延时 → 未来一个不确定的时间mq → 消费行为具有顺序性这样解释，整个设计就清楚了。你的目的是 延时，承载容器是 mq。背景列举一下我日常业务中可能存在的场景：建立延时...",
-    "url": "https://segmentfault.com/a/1190000040714810",
-    "author": "kevinwan",
-    "home_url": "https://segmentfault.com/u/kevinwan",
-    "votes": "3",
-    "rank": 11
-  },
-  {
-    "title": "打造她喜欢的Github主页",
-    "description": "前言：哈喽，我是树酱。先聊聊本文的起源，某天在水群的时候看到某大佬的Github账户主页，颜值简直爆棚。反观看树酱的Github主页，简直就是“陋室”，难以入眼！或者很多开发的小伙伴跟我一样，平时在github上参与...",
-    "url": "https://segmentfault.com/a/1190000040727897",
-    "author": "树酱",
-    "home_url": "https://segmentfault.com/u/shu_jshu_jiashu_jianshu_jiang",
+    "title": "Sass速成课",
+    "description": "01. 使用 Sass 变量存储数据Sass与CSS不同的一个特性是它可以使用变量。它们可以被声明和设置为将数据存储为类似于JavaScript 的变量。在JavaScript中，变量是使用let和const关键字声明的。在Sass中，变量以$开头...",
+    "url": "https://segmentfault.com/a/1190000040724594",
+    "author": "JenK",
+    "home_url": "https://segmentfault.com/u/wangzc996",
     "votes": "4",
-    "rank": 12
+    "rank": 14
   },
   {
     "title": "建立和维护大型Vue.js项目的10个最佳实践",
@@ -114,7 +132,7 @@
     "author": "Yujiaao",
     "home_url": "https://segmentfault.com/u/yujiaao",
     "votes": "7",
-    "rank": 13
+    "rank": 15
   },
   {
     "title": "用PHP轻松完成一个分布式事务TCC，保姆级教程",
@@ -123,16 +141,7 @@
     "author": "叶东富",
     "home_url": "https://segmentfault.com/u/yedongfu",
     "votes": "4",
-    "rank": 14
-  },
-  {
-    "title": "Sass速成课",
-    "description": "01. 使用 Sass 变量存储数据Sass与CSS不同的一个特性是它可以使用变量。它们可以被声明和设置为将数据存储为类似于JavaScript 的变量。在JavaScript中，变量是使用let和const关键字声明的。在Sass中，变量以$开头...",
-    "url": "https://segmentfault.com/a/1190000040724594",
-    "author": "JenK",
-    "home_url": "https://segmentfault.com/u/wangzc996",
-    "votes": "3",
-    "rank": 15
+    "rank": 16
   },
   {
     "title": "如何用B站弹幕控制游戏",
@@ -140,8 +149,8 @@
     "url": "https://segmentfault.com/a/1190000040715763",
     "author": "卡颂",
     "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "2",
-    "rank": 16
+    "votes": "4",
+    "rank": 17
   },
   {
     "title": "开源了一个小的前端脚手架（队内分享）",
@@ -150,7 +159,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "2",
-    "rank": 17
+    "rank": 18
   },
   {
     "title": "分布式之接口幂等性",
@@ -159,7 +168,7 @@
     "author": "新亮",
     "home_url": "https://segmentfault.com/u/xinliangcoder",
     "votes": "2",
-    "rank": 18
+    "rank": 19
   },
   {
     "title": "CSS和SVG实现文字渐变、描边、投影",
@@ -168,7 +177,7 @@
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
     "votes": "2",
-    "rank": 19
+    "rank": 20
   },
   {
     "title": "评价打分组件，SVG 半颗星的解决方案！",
@@ -177,16 +186,25 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "2",
-    "rank": 20
+    "rank": 21
   },
   {
-    "title": "ubuntu 安装 ElasticSearch",
-    "description": "前置条件本环境默认是在Ubuntu21.04上操作的。Elastic PGP 公钥和源在安装之前我们需要下载和安装公钥，否则没有办法使用 apt 安装 Elasticsearch 。 {代码...} 添加源： {代码...} 安装 Elasticsearch接下来，我...",
-    "url": "https://segmentfault.com/a/1190000040709515",
-    "author": "魔王卷子",
-    "home_url": "https://segmentfault.com/u/mowangjuanzi",
-    "votes": "1",
-    "rank": 21
+    "title": "技术人必看的各类工具书籍",
+    "description": "一、前端必看工具书籍：《JavaScript高级程序设计》（ [美] 尼古拉斯 ）《图解HTTP》（ [日] 上野宣 ）《React 进阶之路》（ 徐超 ）《设计模式》（ [美] Erich Gamma）《代码整洁之道》（ [美] Robert C. Martin...",
+    "url": "https://segmentfault.com/a/1190000040725587",
+    "author": "阿里巴巴淘系技术",
+    "home_url": "https://segmentfault.com/u/alibabataoxijishu",
+    "votes": "5",
+    "rank": 22
+  },
+  {
+    "title": "这些操作删除console.log代码，你都知道吗",
+    "description": "说起console.log调试，不用多说，那是非常的好用，开发中帮助我们解决了不少Bug。我们经常能在开发环境中看见这一坨一坨的console调试。但是生产环境是绝不对不允许出现console信息代码的。你还在手动一个一个删...",
+    "url": "https://segmentfault.com/a/1190000040729159",
+    "author": "蛙人",
+    "home_url": "https://segmentfault.com/u/jack_code",
+    "votes": "2",
+    "rank": 23
   },
   {
     "title": "发布订阅模式",
@@ -195,7 +213,7 @@
     "author": "FCA1978",
     "home_url": "https://segmentfault.com/u/fca1978",
     "votes": "2",
-    "rank": 22
+    "rank": 24
   },
   {
     "title": "如何安全地执行用户的自定义 nodejs 脚本",
@@ -204,7 +222,7 @@
     "author": "chlorine",
     "home_url": "https://segmentfault.com/u/nicksonlvqq",
     "votes": "2",
-    "rank": 23
+    "rank": 25
   },
   {
     "title": "CSS变量的作用域和默认值",
@@ -213,7 +231,7 @@
     "author": "球球",
     "home_url": "https://segmentfault.com/u/bobo_yf",
     "votes": "1",
-    "rank": 24
+    "rank": 26
   },
   {
     "title": "Web页面子资源完整性校验详细指南",
@@ -222,34 +240,7 @@
     "author": "dreamapplehappy",
     "home_url": "https://segmentfault.com/u/dreamapplehappy",
     "votes": "2",
-    "rank": 25
-  },
-  {
-    "title": "玩转TypeScript工具类型（下）",
-    "description": "联系我们：有道技术团队助手：ydtech01 / 邮箱：ydtech@rd.netease.com本文是《玩转TypeScript工具类型》系列的最后一篇，包含了如下几部分内容：ThisParameterType<Type>OmitThisParameter<Type>Thi...",
-    "url": "https://segmentfault.com/a/1190000040719575",
-    "author": "有道技术团队",
-    "home_url": "https://segmentfault.com/u/youdaotec",
-    "votes": "2",
-    "rank": 26
-  },
-  {
-    "title": "LeetCode-345-反转字符串中的元音字母",
-    "description": "题目描述：编写一个函数，以字符串作为输入，反转该字符串中的元音字母。示例说明请见LeetCode官网。来源：力扣（LeetCode） 链接：[链接] 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。",
-    "url": "https://segmentfault.com/a/1190000040713293",
-    "author": "雄狮虎豹",
-    "home_url": "https://segmentfault.com/u/xiongshihubao",
-    "votes": "2",
     "rank": 27
-  },
-  {
-    "title": "谷歌 Chrome 94 稳定版正式发布：默认启用空闲检测 API 引争议",
-    "description": "刚刚，谷歌正式发布了 Chrome 94 稳定版。作为 3 周前 Chrome 93 版发布后的再次更新， Chrome 94 稳定版尽管更新幅度较小，但也有不少小惊喜和亮点。",
-    "url": "https://segmentfault.com/a/1190000040716812",
-    "author": "MissD",
-    "home_url": "https://segmentfault.com/u/d2ms1shh",
-    "votes": "1",
-    "rank": 28
   },
   {
     "title": "二叉树遍历方法总结",
@@ -257,6 +248,15 @@
     "url": "https://segmentfault.com/a/1190000040726398",
     "author": "一杯绿茶",
     "home_url": "https://segmentfault.com/u/yibeilvcha_5f37f73a81102",
+    "votes": "2",
+    "rank": 28
+  },
+  {
+    "title": "LeetCode-345-反转字符串中的元音字母",
+    "description": "题目描述：编写一个函数，以字符串作为输入，反转该字符串中的元音字母。示例说明请见LeetCode官网。来源：力扣（LeetCode） 链接：[链接] 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。",
+    "url": "https://segmentfault.com/a/1190000040713293",
+    "author": "雄狮虎豹",
+    "home_url": "https://segmentfault.com/u/xiongshihubao",
     "votes": "2",
     "rank": 29
   }
