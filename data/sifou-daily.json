@@ -1,65 +1,29 @@
 [
   {
-    "title": "从一个问题中了解数学在编程中的应用",
-    "description": "那么我是如何简化呢？当看到上面一长串的逻辑判断的时候，显而易见的就是存在太多字段的重复使用，笔者第一感觉就是应该可以用布尔代数来简化，这里就涉及到两个知识点了，布尔代数的法则以及布尔代数运算律，关...",
-    "url": "https://segmentfault.com/a/1190000040761666",
-    "author": "zangeci",
-    "home_url": "https://segmentfault.com/u/zangeci",
-    "votes": "3",
+    "title": "CSS 小技巧 | 一行代码实现头像与国旗的融合",
+    "description": "到国庆了，大家都急着给祖国母亲庆生。每年每到此时，微信朋友圈就会流行起给头像装饰上国旗，而今年又流行这款：emm，很不错。那么，将一张国旗图片与我们的头像，快速得到想要的头像，使用 CSS 如何简单实现呢...",
+    "url": "https://segmentfault.com/a/1190000040764476",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "2",
     "rank": 1
   },
   {
-    "title": "说一说Web端侧AI",
-    "description": "AI 正在不断拓展前端的技术边界， 算法的加持也为前端研发注入了全新的力量。本文为大家介绍什么是端智能，端智能的应用场景以及 Web 端侧实现 AI 的基本原理概念。",
-    "url": "https://segmentfault.com/a/1190000040763025",
-    "author": "凹凸实验室",
-    "home_url": "https://segmentfault.com/u/o2team",
-    "votes": "2",
+    "title": "猫头鹰的深夜翻译：趣谈Java Exception",
+    "description": "Java异常类（Exception）是用来处理异常程序行为的一组类。在这篇文章中，我将介绍如何使用Java异常类，以及在程序中如何设计Java异常体系。Exception类是Java体系中非常重要的一环，每一个程序员都必须熟悉并掌...",
+    "url": "https://segmentfault.com/a/1190000040765019",
+    "author": "raledong",
+    "home_url": "https://segmentfault.com/u/raledong",
+    "votes": "1",
     "rank": 2
   },
   {
-    "title": "面试招聘的那些事儿",
-    "description": "由于近期的工作安排，接了一些面试，有社招，也有实习生。面了一段时间，也遇到过各种各样的求职者，想就自己的经验发表一些看法。应届生没啥经验，这个都可以理解，毕竟初出茅庐，自己也是这样过来的，有些小问...",
-    "url": "https://segmentfault.com/a/1190000040762855",
-    "author": "Evelyn",
-    "home_url": "https://segmentfault.com/u/evelyn_xiao",
+    "title": "算法（leetode，附思维导图 + 全部解法）300题之（2）两数相加",
+    "description": "标题：算法（leetode，附思维导图 + 全部解法）300题之（2）两数相加导读：项目&作者1 GitHub - LeetCode项目仓库 {代码...} 2 作者标签 {代码...} 一 题目描述二 解法总览（思维导图）三 全部解法1 方案11)...",
+    "url": "https://segmentfault.com/a/1190000040764021",
+    "author": "码农三少",
+    "home_url": "https://segmentfault.com/u/chenyob",
     "votes": "1",
     "rank": 3
-  },
-  {
-    "title": "PHP的SPL扩展库（一）数据结构",
-    "description": "SPL 库也叫做 PHP 标准库，主要就是用于解决典型问题的一组接口或类的集合。这些典型问题包括什么呢？比如我们今天要讲的数据结构，还有一些设计模式的实现，就像我们之前讲过的观察者模式相关的接口在 SPL 库中...",
-    "url": "https://segmentfault.com/a/1190000040761753",
-    "author": "硬核项目经理",
-    "home_url": "https://segmentfault.com/u/zyblog",
-    "votes": "1",
-    "rank": 4
-  },
-  {
-    "title": "AbortSignal：以前我没得选，现在我想中止promise",
-    "description": "大家好，我卡颂。遥想数年前的一次面试，面试官问我：promise有什么缺点？真是百思不得姐啊...答案是：promise一旦初始化，就不能中止。这是由promise的实现决定的。AbortSignal的出现使promise从语义上变为可中...",
-    "url": "https://segmentfault.com/a/1190000040760678",
-    "author": "卡颂",
-    "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "2",
-    "rank": 5
-  },
-  {
-    "title": "我们一起来学RabbitMQ 二：RabbiMQ 的 6 种模式的基本应用",
-    "description": "我们一起来学RabbitMQ 二：RabbiMQ 的 6 种模式的基本应用嗨，大家好，我是小魔童哪吒，咱们从今天开始进入开源组件的学习，一边学习一边总结一边分享文章提纲如下：RabbitMQ 成员组成RabbitMQ 的六种工作模式编...",
-    "url": "https://segmentfault.com/a/1190000040763367",
-    "author": "小魔童哪吒",
-    "home_url": "https://segmentfault.com/u/anonymous_5f6b14f11289a",
-    "votes": "1",
-    "rank": 6
-  },
-  {
-    "title": "湖中剑 GitHub周刊 #9 | FreeCodeCamp、图解 React 源码系列、Portainer管理Docker",
-    "description": "FreeCodeCamp 是一个自由开源的学习编程的社区，致力于帮助人们利用零散时间学习编程。它的使命是 Learn to code and help nonprofits（学习编程，去帮助那些非盈利组织）。FCC 涵盖 HTML5、CSS、React、JavaScri...",
-    "url": "https://segmentfault.com/a/1190000040760635",
-    "author": "ineo6",
-    "home_url": "https://segmentfault.com/u/ineo6",
-    "votes": "1",
-    "rank": 7
   }
 ]
