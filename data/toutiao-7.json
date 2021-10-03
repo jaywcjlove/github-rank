@@ -1,18 +1,8 @@
 [
   {
-    "title": "MySQL 那点破事！索引、SQL 调优、事务、B+树、分表",
-    "description": "大家好，我是Tom哥~为了便于大家查找问题，了解全貌，整理个目录，我们可以快速全局了解关于mysql数据库，面试官一般喜欢问哪些问题接下来，我们逐条来看看每个问题及答案MyISAM...",
-    "votes": "153",
-    "url": "/k/aazub7e",
-    "avatar": "https://img.toutiao.io/subject/83f7c83d300b4884a690ef12a32a86ab/thumb",
-    "avatarAlt": "微观技术 - 独家号",
-    "subjectName": "微观技术",
-    "homeUrl": "/subjects/348507"
-  },
-  {
     "title": "聊聊 Redis 分布式锁的 8 大坑",
     "description": " 大家好，我是苏三，又跟大家见面了。 前言在分布式系统中，由于redis分布式锁相对于更简单和高效，成为了分布式锁的首先，被我们用到了很多实际业务场景当中。但不是说用了redis分...",
-    "votes": "111",
+    "votes": "113",
     "url": "/k/e17erwk",
     "avatar": "https://img.toutiao.io/subject/96c1af0d2a0b441ca9740ee13c3e37f3/thumb",
     "avatarAlt": "苏三说技术 - 独家号",
@@ -22,7 +12,7 @@
   {
     "title": "推荐几个开源类库，超好用，远离 996",
     "description": "今天给大家分享几个 Java 的开源类库，亲测非常好用！有了它们之后，你就可以和很多重复劳动说再见了。1. MapStruct MapStruct是干什么的？ MapStruct是...",
-    "votes": "81",
+    "votes": "93",
     "url": "/k/oi7zdzy",
     "avatar": "https://img.toutiao.io/subject/0f8efe621fef4c7e98ad0ad1ada57562/thumb",
     "avatarAlt": "学学Java - 独家号",
@@ -32,22 +22,12 @@
   {
     "title": "如何通过项目复盘来加速个人成长",
     "description": "同样工作年限的人，能力可能差别很大。工作 5 年的前端，有的只会做简单的任务，有的已经可以独当一面了。导致这种情况的原因有很多，本质是成长的速度不同。复盘可以加速个人成长。本文主要...",
-    "votes": "73",
+    "votes": "78",
     "url": "/k/ys08f63",
     "avatar": "https://img.toutiao.io/subject/0fbaad0d2a7744dd911eff08a456d6d9/thumb",
     "avatarAlt": "WEB 前端文章收藏 - 独家号",
     "subjectName": "WEB 前端文章收藏",
     "homeUrl": "/subjects/71779"
-  },
-  {
-    "title": "十个现象，识别程序员的 “水份”",
-    "description": "大家好，我是Z哥。下周五正好是国庆，我也给自己放个假，就不发文了。所以今天是节前最后一篇文章，先提前祝大家国庆快乐，可以好好放松一下。今天我们不聊干货了，聊点轻松的，来吐槽一下程序...",
-    "votes": "72",
-    "url": "/k/l2sw9ji",
-    "avatar": "https://img.toutiao.io/subject/c992e775e6344583abd8a49f632b3e13/thumb",
-    "avatarAlt": "跨界架构师 - 独家号",
-    "subjectName": "跨界架构师",
-    "homeUrl": "/subjects/268968"
   },
   {
     "title": "走近 DDD",
@@ -70,6 +50,16 @@
     "homeUrl": "/subjects/426740"
   },
   {
+    "title": "彻底弄懂 base64 的编码与解码原理",
+    "description": " 背景 base64的编码原理网上讲解较多，但解码原理讲解较少，并且没有对其中的内部实现原理进行剖析。想要彻底了解base64的编码与解码原理，请耐心看完此文，你一定会有所收获。涉...",
+    "votes": "54",
+    "url": "/k/21wnwdq",
+    "avatar": "https://img.toutiao.io/subject/7950b62a884849aaaa2c7d9fb03f3051/thumb",
+    "avatarAlt": "大前端&机器学习 - 独家号",
+    "subjectName": "大前端&机器学习",
+    "homeUrl": "/subjects/7076"
+  },
+  {
     "title": "Redis 缓存那点破事：绝杀面试官 25 问",
     "description": "大家好，我是Tom哥~ 为了便于大家查找问题，了解全貌，整理个目录，我们可以快速全局了解关于Redis 缓存，面试官一般喜欢问哪些问题？  接下来，我们逐条来看看每个问题及答案 R...",
     "votes": "43",
@@ -82,7 +72,7 @@
   {
     "title": "K8s 云原生时代的操作系统",
     "description": "一、背景kvm主机扩缩容需要运维、开发协同处理效率不高，遇到节假日流量突增处理繁琐kvm主机普遍cpu、内存利用率不高，造成浪费资源监控有open-falcon、zabbix组件太...",
-    "votes": "44",
+    "votes": "49",
     "url": "/k/o9i0zik",
     "avatar": "https://img.toutiao.io/subject/19c420d3b4d84959b00f29b13e475ced/thumb",
     "avatarAlt": "AggrxTech - 独家号",
@@ -90,19 +80,9 @@
     "homeUrl": "/subjects/425954"
   },
   {
-    "title": "还在从零开始搭建项目？推荐一款高颜值的前后端分离脚手架",
-    "description": "从零开始搭建项目，没有好用的脚手架怎么行！最近发现一款高颜值的前后端分离脚手架sa-plus，自带代码生成器，可一键生成前端、后端、API文档代码，推荐给大家！sa-plus简介 ...",
-    "votes": "40",
-    "url": "/k/f6o8pu1",
-    "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
-    "avatarAlt": "服务架构及中台 - 独家号",
-    "subjectName": "服务架构及中台",
-    "homeUrl": "/subjects/26578"
-  },
-  {
     "title": "技术人才的纵横发展",
     "description": "近期碰到一些工程师对职业发展产生很多困惑，诸如:我现在做的工作好像离技术越来越远了。每天都在垒业务逻辑，技术上没有任何成长，以后是不是会被淘汰掉？每天都在撸代码造轮子，老板总觉得我...",
-    "votes": "42",
+    "votes": "47",
     "url": "/k/o31tkm7",
     "avatar": "https://img.toutiao.io/subject/19c420d3b4d84959b00f29b13e475ced/thumb",
     "avatarAlt": "AggrxTech - 独家号",
@@ -112,7 +92,7 @@
   {
     "title": "用 Go 轻松完成一个 SAGA 分布式事务，保姆级教程",
     "description": "银行跨行转账业务是一个典型分布式事务场景，假设A需要跨行转账给B，那么就涉及两个银行的数据，无法通过一个数据库的本地事务保证转账的ACID，只能够通过分布式事务来解决。分布式事务 ...",
-    "votes": "35",
+    "votes": "37",
     "url": "/k/xtqqvex",
     "avatar": "https://img.toutiao.io/subject/45e806cf22ab424b831afe890c225505/thumb",
     "avatarAlt": "叶东富 - 独家号",
@@ -122,7 +102,7 @@
   {
     "title": "纯干货！Dockerfile 常用指令清单",
     "description": "Dockerfile常用指令 一、Dockerfile Docker可以通过Dockerfile自动构建镜像，Dockerfile是一个包含多个指令的文档。如下  # syntax...",
-    "votes": "34",
+    "votes": "35",
     "url": "/k/o2ptn24",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -132,7 +112,7 @@
   {
     "title": "Java 实现 5 种负载均衡算法",
     "description": "概念负载均衡是将客户端请求访问，通过提前约定好的规则转发给各个server。其中有好几个种经典的算法，下面我们用Java实现这几种算法。 轮询算法轮询算法按顺序把每个新的连接请求分...",
-    "votes": "38",
+    "votes": "40",
     "url": "/k/pvq2wz7",
     "avatar": "https://img.toutiao.io/subject/458b6ea460f040a29ef5367bba238db7/thumb",
     "avatarAlt": "猴哥说Java - 独家号",
@@ -142,22 +122,12 @@
   {
     "title": "开源｜滴滴开源的，Java 版认证、鉴权、管理、任务调度通用功能组件",
     "description": "滴滴开源的，Java 版认证、鉴权、管理、任务调度通用功能组件。 LogiCommon 会尽量保持与具体业务的解耦，以简单易用，轻量高效，尽可能减少用户感知的方式做到多平台适配，同...",
-    "votes": "32",
+    "votes": "33",
     "url": "/k/yumis2g",
     "avatar": "https://img.toutiao.io/subject/d2f421bbe0be47369b6560e316a5153b/thumb",
     "avatarAlt": "头条精选 - 独家号",
     "subjectName": "头条精选",
     "homeUrl": "/subjects/4"
-  },
-  {
-    "title": "Loki 日志系统详解",
-    "description": "- 背景 -最近，在对公司容器云的日志方案进行设计的时候，发现主流的ELK或者EFK比较重，再加上现阶段对于ES复杂的搜索功能很多都用不上最终选择了Grafana开源的Loki日志...",
-    "votes": "30",
-    "url": "/k/thij6fe",
-    "avatar": "https://img.toutiao.io/subject/6ee3bb205b3248c2b746c1506548181a/thumb",
-    "avatarAlt": "大数据生态 - 独家号",
-    "subjectName": "大数据生态",
-    "homeUrl": "/subjects/136176"
   },
   {
     "title": "雪花算法，什么情况下发生 ID 冲突？",
@@ -180,20 +150,50 @@
     "homeUrl": "/subjects/24912"
   },
   {
-    "title": "[译] 基于角色的访问控制 (RBAC)：演进历史、设计理念及简洁实现 (Tailscale, 2021)",
-    "description": "译者序本文翻译自 2021 年的一篇英文博客： RBAC like it was meant to be。很多系统（例如 Kubernetes、AWS）都在使用某种形式的 RBAC...",
-    "votes": "26",
-    "url": "/k/uopf4gs",
-    "avatar": "https://img.toutiao.io/subject/7518167e2b974f259bd5782ec21a604d/thumb",
-    "avatarAlt": "ArthurChiao - 独家号",
-    "subjectName": "ArthurChiao",
-    "homeUrl": "/subjects/381904"
+    "title": "唯一入驻华为开源优选库的国产网络框架 t-io",
+    "description": "在2020年5月份，t-io在版本t-io 3.6.1发布的时候，就被华为选中作为网络中台，入驻华为开源软件优选库。主要原因还是因为t-io一路走来也有将近十年的精心打磨了，被华为...",
+    "votes": "29",
+    "url": "/k/hrqe23t",
+    "avatar": "https://img.toutiao.io/default-avatar.png",
+    "avatarAlt": "u588166的独家号 - 独家号",
+    "subjectName": "u588166的独家号",
+    "homeUrl": "/subjects/464286"
   },
   {
-    "title": "面试官：能绕过单例模式得到多个不同实例吗？",
-    "description": "猴哥有次被面试到这个问题，听到这个问题，有点懵，既然设计成单例模式，就是不想让随意实例化了，!不是闲啊，面试官非要这么搞，咱只能满足啊！思考了下，得到对象的实例，一般就是new ，...",
-    "votes": "28",
-    "url": "/k/npdbuga",
+    "title": "分布式服务下，消息中间件改造",
+    "description": "一、背景简介 在系统开发初期，很容易出现这样一种情况：不同业务线上开发人员，因为技术栈和版本时间的影响，在选型的时候会优先使用自己熟悉的，例如MQ中间件常用的：Kafka、Rock...",
+    "votes": "27",
+    "url": "/k/hseh6pt",
+    "avatar": "https://img.toutiao.io/subject/652f30d4f8ed4f198281774399a49076/thumb",
+    "avatarAlt": "知了一笑 - 独家号",
+    "subjectName": "知了一笑",
+    "homeUrl": "/subjects/416733"
+  },
+  {
+    "title": "深入理解 Netty：从偶现宕机看 Netty 流量控制",
+    "description": "作者：vivo互联网服务器团队-Zhang Lin一、业务背景目前移动端的使用场景中会用到大量的消息推送，push消息可以帮助运营人员更高效地实现运营目标（比如给用户推送营销活动或...",
+    "votes": "25",
+    "url": "/k/dils6zl",
+    "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
+    "avatarAlt": "vivo互联网技术 - 独家号",
+    "subjectName": "vivo互联网技术",
+    "homeUrl": "/subjects/392760"
+  },
+  {
+    "title": "消息推送的几种方式",
+    "description": "1.Ajax短轮询 2.MQ 3.redis 订阅/发布 Ajax短轮询   优点： 简单高效、浏览器使用循环不断地、间隔地发送请求获取数据 缺点： 频繁创建/断开连接，每次请求都...",
+    "votes": "25",
+    "url": "/k/liaf2eh",
+    "avatar": "https://img.toutiao.io/subject/458b6ea460f040a29ef5367bba238db7/thumb",
+    "avatarAlt": "猴哥说Java - 独家号",
+    "subjectName": "猴哥说Java",
+    "homeUrl": "/subjects/107202"
+  },
+  {
+    "title": "面试官：Tomcat 符号双亲委派机制吗？",
+    "description": "一次面试被问到这个问题，既然问了这个问题，答案肯定的不符合的，搞清楚这个问题，需要搞清楚什么是双亲委派。类加载机制ClassLoader是用来加载 Class 的。它负责将 Cla...",
+    "votes": "24",
+    "url": "/k/z0bvhd1",
     "avatar": "https://img.toutiao.io/subject/458b6ea460f040a29ef5367bba238db7/thumb",
     "avatarAlt": "猴哥说Java - 独家号",
     "subjectName": "猴哥说Java",
