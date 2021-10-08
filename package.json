@@ -15,11 +15,9 @@
     "get:repos": "node lib/getRepos.js",
     "get:trending": "node lib/getTrending.js",
     "prepare": "npm run build",
-    "types": "tsbb types",
-    "types:watch": "tsbb types --watch",
-    "dev": "npm run types:watch & npm run watch",
-    "watch": "tsbb watch",
-    "build": "tsbb build"
+    "dev": "npm run watch",
+    "watch": "tsbb watch --no-esm --disable-babel-option",
+    "build": "tsbb build --no-esm --disable-babel-option"
   },
   "author": "Kenny Wong <wowohoo@qq.com>",
   "license": "MIT",
@@ -57,6 +55,6 @@
     "ejs": "3.1.6",
     "fs-extra": "10.0.0",
     "node-fetch": "2.6.1",
-    "tsbb": "2.2.1"
+    "tsbb": "3.4.4"
   }
 }
