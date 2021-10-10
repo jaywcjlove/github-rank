@@ -1,8 +1,18 @@
 [
   {
+    "title": "面试字节，被操作系统问挂了",
+    "description": "大家好，鄙人三某，不善面试。。。标题是真事，感觉凉了，难受，爬起来整理了一波操作系统面试题，下次一定……引论 什么是操作系统？ 可以这么说，操作系统是一种运行在内核态的软件。它是应...",
+    "votes": "85",
+    "url": "/k/8r0yjir",
+    "avatar": "https://img.toutiao.io/subject/785b9391ccd74d88bfc5ccd391fb4365/thumb",
+    "avatarAlt": "三分恶 - 独家号",
+    "subjectName": "三分恶",
+    "homeUrl": "/subjects/454266"
+  },
+  {
     "title": "领导为什么不听我的汇报和授权方法",
     "description": "背景 国庆放假期间，为了不让大家在假期太烧脑，还是再来一篇综合能力培训的文章。领导为什么不听我的汇报？ 下面三点造成汇报的失败 1、没有框架2、陷入细节3、仓促回答汇报小贴士 1、...",
-    "votes": "50",
+    "votes": "53",
     "url": "/k/derylod",
     "avatar": "https://img.toutiao.io/subject/4325865040b44c0b9e2d8d80a83d1d11/thumb",
     "avatarAlt": "编程一生 - 独家号",
@@ -12,7 +22,7 @@
   {
     "title": "聊聊 JVM 调优",
     "description": "大家好，我是捡田螺的小男孩~今天给大家推荐一篇JVM好文文章总体结构 本文中，我们将按照如下结构介绍JVM的整体架构和调优参数。JVM的分类 这里，我们先来说说什么是VM吧，VM的...",
-    "votes": "37",
+    "votes": "48",
     "url": "/k/tbiemos",
     "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
     "avatarAlt": "Bloomingroses - 独家号",
@@ -20,9 +30,29 @@
     "homeUrl": "/subjects/98777"
   },
   {
+    "title": "一套优雅的 Go 错误问题解决方案",
+    "description": " 作者：andruzhang，腾讯 IEG 后台开发工程师在使用 Go 开发的后台服务中，对于错误处理，一直以来都有多种不同的方案，本文探讨并提出一种从服务内到服务外的错误传递、返...",
+    "votes": "45",
+    "url": "/k/8qf7wmi",
+    "avatar": "https://img.toutiao.io/subject/9d058a96b0484f65a93e575731c3dbf3/thumb",
+    "avatarAlt": "落北的mark簿 - 独家号",
+    "subjectName": "落北的mark簿",
+    "homeUrl": "/subjects/123823"
+  },
+  {
+    "title": "深入浅出 Performance 工具 & API",
+    "description": "文章来源于ELab团队，作者ELab.liqiao 深入浅出 Performance 工具 & API 概述日常开发任务中，对于性能优化或多或少会接触到一些内容，可能也参照过雅虎 ...",
+    "votes": "45",
+    "url": "/k/4n7i89u",
+    "avatar": "https://img.toutiao.io/subject/0fbaad0d2a7744dd911eff08a456d6d9/thumb",
+    "avatarAlt": "WEB 前端文章收藏 - 独家号",
+    "subjectName": "WEB 前端文章收藏",
+    "homeUrl": "/subjects/71779"
+  },
+  {
     "title": "《八股文》9 道分布式锁面试题",
     "description": "说说分布式锁吧？ 对于一个单机的系统，我们可以通过synchronized或者ReentrantLock等这些常规的加锁方式来实现，然而对于一个分布式集群的系统而言，单纯的本地锁已...",
-    "votes": "37",
+    "votes": "38",
     "url": "/k/ecetx43",
     "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
     "avatarAlt": "进击的程序猿 - 独家号",
@@ -30,14 +60,24 @@
     "homeUrl": "/subjects/24912"
   },
   {
-    "title": "深入浅出 Performance 工具 & API",
-    "description": "文章来源于ELab团队，作者ELab.liqiao 深入浅出 Performance 工具 & API 概述日常开发任务中，对于性能优化或多或少会接触到一些内容，可能也参照过雅虎 ...",
-    "votes": "40",
-    "url": "/k/4n7i89u",
-    "avatar": "https://img.toutiao.io/subject/0fbaad0d2a7744dd911eff08a456d6d9/thumb",
-    "avatarAlt": "WEB 前端文章收藏 - 独家号",
-    "subjectName": "WEB 前端文章收藏",
-    "homeUrl": "/subjects/71779"
+    "title": "一口气搞懂 Flink Metrics 监控指标和性能优化，全靠这 33 张图和 7 千字",
+    "description": "关注并标星 3分钟秒懂大数据每天1次，打卡阅读获取流计算、大数据技术和面经前言 大家好，我是土哥。最近在公司做 Flink 推理任务的性能测试，要对 job 的全链路吞吐、全链路时...",
+    "votes": "32",
+    "url": "/k/j2qpb1g",
+    "avatar": "https://img.toutiao.io/subject/6ee3bb205b3248c2b746c1506548181a/thumb",
+    "avatarAlt": "大数据生态 - 独家号",
+    "subjectName": "大数据生态",
+    "homeUrl": "/subjects/136176"
+  },
+  {
+    "title": "字节跳动是如何落地微前端的",
+    "description": "本文内提及的 Garfish 微前端解决方案已开源：https://github.com/modern-js-dev/garfish（目前的 Garfish 作为字节跳动各部门应用...",
+    "votes": "35",
+    "url": "/k/ou37ua8",
+    "avatar": "https://img.toutiao.io/subject/c9bc51847b0c4b49aca52d0eaa087ed1/thumb",
+    "avatarAlt": "冷星前端圈 - 独家号",
+    "subjectName": "冷星前端圈",
+    "homeUrl": "/subjects/380054"
   },
   {
     "title": "全链路压测（一）：认识全链路压测",
@@ -50,59 +90,9 @@
     "homeUrl": "/subjects/188023"
   },
   {
-    "title": "数据中台架构解析及未来展望",
-    "description": " 《数智洞见》 数字化浪潮席卷而来，颠覆性创新正在加速。企业面临着前所未有的挑战和机遇，数字化转型成为其生存与领先发展的关键突破口。据研究数据显示，数字化转型程度高的企业获得快速增...",
-    "votes": "36",
-    "url": "/k/q6nbcxg",
-    "avatar": "https://img.toutiao.io/subject/ee1629bfc5494e368ee2a09c8fbf11eb/thumb",
-    "avatarAlt": "数栈DTinsight - 独家号",
-    "subjectName": "数栈DTinsight",
-    "homeUrl": "/subjects/456688"
-  },
-  {
-    "title": "一口气搞懂 Flink Metrics 监控指标和性能优化，全靠这 33 张图和 7 千字",
-    "description": "关注并标星 3分钟秒懂大数据每天1次，打卡阅读获取流计算、大数据技术和面经前言 大家好，我是土哥。最近在公司做 Flink 推理任务的性能测试，要对 job 的全链路吞吐、全链路时...",
-    "votes": "28",
-    "url": "/k/j2qpb1g",
-    "avatar": "https://img.toutiao.io/subject/6ee3bb205b3248c2b746c1506548181a/thumb",
-    "avatarAlt": "大数据生态 - 独家号",
-    "subjectName": "大数据生态",
-    "homeUrl": "/subjects/136176"
-  },
-  {
-    "title": "字节跳动是如何落地微前端的",
-    "description": "本文内提及的 Garfish 微前端解决方案已开源：https://github.com/modern-js-dev/garfish（目前的 Garfish 作为字节跳动各部门应用...",
-    "votes": "28",
-    "url": "/k/ou37ua8",
-    "avatar": "https://img.toutiao.io/subject/c9bc51847b0c4b49aca52d0eaa087ed1/thumb",
-    "avatarAlt": "冷星前端圈 - 独家号",
-    "subjectName": "冷星前端圈",
-    "homeUrl": "/subjects/380054"
-  },
-  {
-    "title": "C++ Web (HTTP) 开发 10 大利器",
-    "description": "众所周知，C++ 并不是一种流行的 Web 开发语言，究其原因有很多：语言门槛高、使用难度大、开发效率低 ...... 话虽如此，但随着 Emscripten 的成熟，未来 C++...",
-    "votes": "25",
-    "url": "/k/j0tbkwg",
-    "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
-    "avatarAlt": "浪客用react,java全栈 - 独家号",
-    "subjectName": "浪客用react,java全栈",
-    "homeUrl": "/subjects/132403"
-  },
-  {
-    "title": "Elasticsearch 基础之相关性介绍",
-    "description": "众所周知，Elasticsearch返回的结果其实根据其相关性进行排序的。所以这里就会涉及到一个概念，就是相关性是怎么定义的，也就是说凭什么这个结果的相关性就比另一个结果的相关性好...",
-    "votes": "24",
-    "url": "/k/9gpfegt",
-    "avatar": "https://img.toutiao.io/subject/b1697e25f21346b09d07470f95dfe433/thumb",
-    "avatarAlt": "东哥IT笔记 - 独家号",
-    "subjectName": "东哥IT笔记",
-    "homeUrl": "/subjects/347032"
-  },
-  {
     "title": "对 Web 3.0 概念的梳理",
     "description": "对Web3.0概念的梳理Mike Tang, Lester Li前言随着Bitcoin的天启事件（参见：《比特币白皮书》），近年来技术领域涌现出一大批新名词。这些名词的意义以及它们...",
-    "votes": "23",
+    "votes": "30",
     "url": "/k/ezsbrjc",
     "avatar": "https://img.toutiao.io/subject/afee7de1cec84d58ad6ece0f674ff155/thumb",
     "avatarAlt": "前端StepByStep - 独家号",
@@ -110,19 +100,19 @@
     "homeUrl": "/subjects/29096"
   },
   {
-    "title": "工程师什么时机最合适选择跳槽？",
-    "description": "先聊一下跳槽这个事。在 Java 工程师的职业生涯中，跳槽几乎是我们每一位工程师都会经历的事情。但在面试前需要考虑清楚：现在到底应不应该跳槽？class Resume {     ...",
-    "votes": "24",
-    "url": "/k/68mswop",
-    "avatar": "https://img.toutiao.io/subject/9ded408b195546449be7902d74f30136/thumb",
-    "avatarAlt": "程序员泥瓦匠 - 独家号",
-    "subjectName": "程序员泥瓦匠",
-    "homeUrl": "/subjects/2500"
+    "title": "C++ Web (HTTP) 开发 10 大利器",
+    "description": "众所周知，C++ 并不是一种流行的 Web 开发语言，究其原因有很多：语言门槛高、使用难度大、开发效率低 ...... 话虽如此，但随着 Emscripten 的成熟，未来 C++...",
+    "votes": "29",
+    "url": "/k/j0tbkwg",
+    "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
+    "avatarAlt": "浪客用react,java全栈 - 独家号",
+    "subjectName": "浪客用react,java全栈",
+    "homeUrl": "/subjects/132403"
   },
   {
     "title": "腾讯看点基于 Flink 构建万亿数据量下的实时数仓及实时查询系统",
     "description": "▼ 关注「Flink 中文社区」，获取更多技术干货 ▼ 摘要：本文由社区志愿者路培杰整理，腾讯看点数据团队高级工程师王展雄在 Flink Forward Asia 2020 分享的...",
-    "votes": "26",
+    "votes": "29",
     "url": "/k/rl31vbv",
     "avatar": "https://img.toutiao.io/subject/3ed195e4b5174a8699e15c1fb47a6de7/thumb",
     "avatarAlt": "大数据情报局 - 独家号",
@@ -130,9 +120,19 @@
     "homeUrl": "/subjects/463506"
   },
   {
+    "title": "Elasticsearch 基础之相关性介绍",
+    "description": "众所周知，Elasticsearch返回的结果其实根据其相关性进行排序的。所以这里就会涉及到一个概念，就是相关性是怎么定义的，也就是说凭什么这个结果的相关性就比另一个结果的相关性好...",
+    "votes": "26",
+    "url": "/k/9gpfegt",
+    "avatar": "https://img.toutiao.io/subject/b1697e25f21346b09d07470f95dfe433/thumb",
+    "avatarAlt": "东哥IT笔记 - 独家号",
+    "subjectName": "东哥IT笔记",
+    "homeUrl": "/subjects/347032"
+  },
+  {
     "title": "通用的实时数仓构建方法与实践",
     "description": "本文主要介绍一种通用的实时数仓构建的方法与实践。实时数仓以端到端低延迟、SQL标准化、快速响应变化、数据统一为目标。美团外卖数据智能组总结的最佳实践是：一个通用的实时生产平台跟一个...",
-    "votes": "19",
+    "votes": "23",
     "url": "/k/qfhithc",
     "avatar": "https://img.toutiao.io/subject/1ecd558bf4a24bc780d2c3a0ab6e69f2/thumb",
     "avatarAlt": "分布式系统 - 独家号",
@@ -140,9 +140,29 @@
     "homeUrl": "/subjects/8411"
   },
   {
+    "title": "软件架构之原则、风格和实践",
+    "description": "好的架构可以更容易的支持业务演进，更容易修改，容错性更好。而糟糕的架构就像一团浆糊，一点小小的改动可能都会对原有功能造成破坏。本文从很高层的角度介绍了什么是糟糕的架构，什么好的架构...",
+    "votes": "24",
+    "url": "/k/24c1qgi",
+    "avatar": "https://img.toutiao.io/default-avatar.png",
+    "avatarAlt": "DeepNoMind - 独家号",
+    "subjectName": "DeepNoMind",
+    "homeUrl": "/subjects/460290"
+  },
+  {
+    "title": "工程师什么时机最合适选择跳槽？",
+    "description": "先聊一下跳槽这个事。在 Java 工程师的职业生涯中，跳槽几乎是我们每一位工程师都会经历的事情。但在面试前需要考虑清楚：现在到底应不应该跳槽？class Resume {     ...",
+    "votes": "25",
+    "url": "/k/68mswop",
+    "avatar": "https://img.toutiao.io/subject/9ded408b195546449be7902d74f30136/thumb",
+    "avatarAlt": "程序员泥瓦匠 - 独家号",
+    "subjectName": "程序员泥瓦匠",
+    "homeUrl": "/subjects/2500"
+  },
+  {
     "title": "并发编程：SIMD 介绍",
     "description": "SIMD 简介众所周知，计算机程序需要编译成指令才能让 CPU 识别并执行运算。所以，CPU 指令处理数据的能力是衡量 CPU 性能的重要指标。为了提高 CPU 指令处理数据的能力...",
-    "votes": "26",
+    "votes": "28",
     "url": "/k/z43chab",
     "avatar": "https://img.toutiao.io/subject/3a554489f5ab426ca23769362f3c51c0/thumb",
     "avatarAlt": "coredump - 独家号",
@@ -150,29 +170,9 @@
     "homeUrl": "/subjects/60"
   },
   {
-    "title": "一篇讲透自研的前端错误监控",
-    "description": "一、背景 痛点某⼀天产品：xxx⼴告主反馈我们的⻚⾯注册不了！⼜⼀天运营：这个活动在xxx媒体上挂掉了！在我司线上运行的是近亿级别的广告页面，这样线上如果裸奔，出现了什么问题不知道...",
-    "votes": "22",
-    "url": "/k/j137z5n",
-    "avatar": "https://img.toutiao.io/subject/c9bc51847b0c4b49aca52d0eaa087ed1/thumb",
-    "avatarAlt": "冷星前端圈 - 独家号",
-    "subjectName": "冷星前端圈",
-    "homeUrl": "/subjects/380054"
-  },
-  {
-    "title": "浅析数据库事务隔离级别",
-    "description": " 源 /  文/ 王小伍  数据库的事务隔离级别共分为4种，级别越高性能越差，合理的设置事务隔离级别才能保证数据正确的情况下性能最好。 隔离级别没有合理的设置，会出现一些异常情况，...",
-    "votes": "17",
-    "url": "/k/bkhel3q",
-    "avatar": "https://img.toutiao.io/subject/001f8de223174684862d4c9e6c752cc7/thumb",
-    "avatarAlt": "PHPER—>架构 - 独家号",
-    "subjectName": "PHPER—>架构",
-    "homeUrl": "/subjects/25390"
-  },
-  {
     "title": "一个 95 分位延迟要求 5ms 的场景，如何做性能优化",
     "description": "组内的数据系统在承接一个业务需求时无法满足性能需求，于是针对这个场景做了一些优化，在此写篇文章做记录。业务场景是这样：调用方一次获取某个用户的几百个特征（可以把特征理解为属性），特...",
-    "votes": "19",
+    "votes": "20",
     "url": "/k/a2z12ud",
     "avatar": "https://img.toutiao.io/subject/a27c0b6d819d403d98662a2f530bb970/thumb",
     "avatarAlt": "薯条的编程修养 - 独家号",
@@ -180,23 +180,23 @@
     "homeUrl": "/subjects/465071"
   },
   {
-    "title": "那些用推荐引擎改变世界的人",
-    "description": "  致敬中国的技术创业者们，致敬阿北、王守崑、谷文栋、项亮、张栋、宿华、张一鸣、杨震原等等一代代技术创新者。” 作者 | 林觉民 编辑 | 王亚峰  总有些人，让我们热泪盈眶。 1...",
-    "votes": "21",
-    "url": "/k/z2287l9",
-    "avatar": "https://img.toutiao.io/subject/4c72971aff5c4e73821ac59b18ff5dd6/thumb",
-    "avatarAlt": "程序员的朋友圈 - 独家号",
-    "subjectName": "程序员的朋友圈",
-    "homeUrl": "/subjects/378"
+    "title": "[译] 理解脸书为何从互联网消失了",
+    "description": "原文 https://blog.cloudflare.com/october-2021-facebook-outage/译: 时序“FaceBook不会宕机，不是吗？”，我们想了几...",
+    "votes": "18",
+    "url": "/k/ip70akc",
+    "avatar": "https://img.toutiao.io/subject/848b486e60a74f51ad7eefdd7dd022de/thumb",
+    "avatarAlt": "麦芽面包 - 独家号",
+    "subjectName": "麦芽面包",
+    "homeUrl": "/subjects/11977"
   },
   {
-    "title": "Rust 生态发展之路",
-    "description": "Rust 最初是 Mozilla 员工 Graydon Hoare 在 2006 年开始做的私人项目 [1]，Graydon Hoare 原来是语言工程师，会参与编译器或工具的实现...",
+    "title": "SaaS 从 0 到 N：产品规划 7 大策略，5000 字长文",
+    "description": "01 SaaS产品成败的四大因素孙子兵法说:夫未战而庙算胜者,得算多也。意思是说，在开战之前就能预料到胜利的一方，往往筹划很周密，把获胜的条件和方法考虑得很充分。做SaaS产品也一...",
     "votes": "19",
-    "url": "/k/jkr4d0j",
-    "avatar": "https://img.toutiao.io/subject/de644bbb42b34c618fad49fb47759970/thumb",
-    "avatarAlt": "4k咖啡豆 - 独家号",
-    "subjectName": "4k咖啡豆",
-    "homeUrl": "/subjects/158649"
+    "url": "/k/andxc9c",
+    "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
+    "avatarAlt": "乱点技能树 - 独家号",
+    "subjectName": "乱点技能树",
+    "homeUrl": "/subjects/194141"
   }
 ]

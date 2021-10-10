@@ -1,92 +1,47 @@
 [
   {
-    "title": "CSS 奇技淫巧 | 妙用 drop-shadow 实现线条光影效果",
-    "description": "本文将介绍一种利用 CSS 滤镜 filter 的 drop-shadow()，实现对 HTML 元素及 SVG 元素的部分添加阴影效果，以实现一种酷炫的光影效果，用于各种不同的场景之中。通过本文，你可以学到：",
-    "url": "https://segmentfault.com/a/1190000040777921",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "5",
+    "title": "厂长来了 | 从个人英雄到软件工程，我们经历了什么",
+    "description": "从中文世界第一个真正意义上的「商用软件」WPS 诞生至今，已经有30多年了。提到软件，很多朋友脑海里浮现出的第一个画面应该是一个秃头的程序员，独自坐在一台电脑前奋力敲打键盘的画面。曾几何时，个人英雄主义...",
+    "url": "https://segmentfault.com/a/1190000040786870",
+    "author": "万事ONES",
+    "home_url": "https://segmentfault.com/u/wanshiones",
+    "votes": "1",
     "rank": 1
   },
   {
-    "title": "Golang 环境搭建",
-    "description": "注：本文为Linux下搭建Golang安装GoGo的安装相比其他语言环境非常简单，直接下载安装包，解压安装即可。1、下载安装包(官方地址:[链接] 国内已被墙了)，直接去对应的Go语言中文网下载即可，稍等一下下就下载好了...",
-    "url": "https://segmentfault.com/a/1190000040781042",
-    "author": "Albert",
-    "home_url": "https://segmentfault.com/u/albert_5d6909d54bb0c",
+    "title": "基于 Nginx 实现灰度发布与 AB 测试",
+    "description": "背景单位的云办公相关系统没有成熟的平滑发布方案，导致每一次发布都是直接发布，dll文件或配置文件的变更会引起站点的重启。云办公系统的常驻用户有10000+，即使短短半分多钟，也会收到一堆投诉。基于此，我们梳...",
+    "url": "https://segmentfault.com/a/1190000040786818",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "1",
     "rank": 2
   },
   {
-    "title": "前端代码评审通常注意些什么",
-    "description": "代码评审又称为（Code Review，简称CR），关于CR，开发同学其实都不陌生，现在大部分公司的项目开发流程中，它都是必不可少的一个环节，CR的好处也都耳熟能详。不同的公司对于CR的方式、质量要求标准都不一样。这...",
-    "url": "https://segmentfault.com/a/1190000040780312",
-    "author": "_Vin",
-    "home_url": "https://segmentfault.com/u/_vin_5d884143cd4cb",
-    "votes": "2",
+    "title": "Spring 源码解析一：SpringMVC 的加载机制",
+    "description": "spring-core：spring 框架的核心机制模块，包括 Java 字节码的操作处理与动态生成、依赖注入机制（也叫控制反转）、工具类库、注解操作、编码处理与数据转换、资源加载与处理、环境加载机制等",
+    "url": "https://segmentfault.com/a/1190000040786453",
+    "author": "senntyou",
+    "home_url": "https://segmentfault.com/u/senntyou",
+    "votes": "1",
     "rank": 3
   },
   {
-    "title": "面试官一口气问了MySQL事务、锁和MVCC，我",
-    "description": "面试官：你是怎么理解InnoDB引擎中的事务的？候选者：在我的理解下，事务可以使「一组操作」要么全部成功，要么全部失败候选者：事务其目的是为了「保证数据最终的一致性」。候选者：举个例子，我给你发支付宝转...",
-    "url": "https://segmentfault.com/a/1190000040777218",
-    "author": "Java3y",
-    "home_url": "https://segmentfault.com/u/java_3y",
-    "votes": "2",
+    "title": "Kafka基础入门篇",
+    "description": "1、kafka简介 Kafka 是一个分布式的基于发布/订阅模式的消息队列（Message Queue），主要应用与大数据实时处理领域。其主要设计目标如下：",
+    "url": "https://segmentfault.com/a/1190000040786919",
+    "author": "LNMPRG源码研究",
+    "home_url": "https://segmentfault.com/u/php7internal",
+    "votes": "1",
     "rank": 4
   },
   {
-    "title": "LeetCode-509-斐波那契数",
-    "description": "题目描述：斐波那契数，通常用 F(n) 表示，形成的序列称为 斐波那契数列 。该数列由 0 和 1 开始，后面的每一项数字都是前面两项数字的和。也就是：F(0) = 0，F(1) = 1F(n) = F(n - 1) + F(n - 2)，其中 n > 1...",
-    "url": "https://segmentfault.com/a/1190000040782340",
-    "author": "雄狮虎豹",
-    "home_url": "https://segmentfault.com/u/xiongshihubao",
-    "votes": "2",
+    "title": "ExpiredStorage-给localstroage增加超时功能 源码解读",
+    "description": "[链接]这个库拓展了localStroage。在设置item的时候，会另外再设置一个key用来存储过期时间。当在取数据的时候判断是否过期并且remove元素。",
+    "url": "https://segmentfault.com/a/1190000040785544",
+    "author": "阿古达木",
+    "home_url": "https://segmentfault.com/u/chenxiang_594a1cea112c2",
+    "votes": "1",
     "rank": 5
-  },
-  {
-    "title": "Java开发基础常见面试题及答案汇总（实用干货！）",
-    "description": "Java开发面试题及答案今天抽空来整理整理Java开发面试中的那点事儿吧，帮助那些正在找工作或想跳槽找工作的兄弟姐妹们！分享目前Java开发常见的面试问题以及问题的答案给大家阅读参考。Java基础学习资料点下边！...",
-    "url": "https://segmentfault.com/a/1190000040780120",
-    "author": "牛仔码农",
-    "home_url": "https://segmentfault.com/u/camille_5f9b7f6b8693f",
-    "votes": "2",
-    "rank": 6
-  },
-  {
-    "title": "智汀家庭云-开发指南Web：扩展开发【jsBridge使用】",
-    "description": "智汀Web端专业版作为做智汀APP的辅助程序，所以免不了要跟APP那边做交互，jsBridge就是我们交互的桥梁，通过jsBridge我们可以很顺畅的跟APP那边进行交互。",
-    "url": "https://segmentfault.com/a/1190000040779801",
-    "author": "智汀科技",
-    "home_url": "https://segmentfault.com/u/dmatub6x",
-    "votes": "1",
-    "rank": 7
-  },
-  {
-    "title": "Go 面试官问我如何实现面向对象？",
-    "description": "大家好，我是煎鱼。在大家初识 Go 语言时，总会拿其他语言的基本特性来类比 Go 语言，说白了就是老知识和新知识产生关联，实现更高的学习效率。最常见的类比，就是 “Go 语言如何实现面向对象？”，进一步展开就是 ...",
-    "url": "https://segmentfault.com/a/1190000040778618",
-    "author": "煎鱼",
-    "home_url": "https://segmentfault.com/u/eddycjy",
-    "votes": "1",
-    "rank": 8
-  },
-  {
-    "title": "2021 年 10 月 TIOBE 指数榜：Python 超越 C 语言成 20 多年来的新霸主",
-    "description": "榜单中共对 100 种编程语言进行了评级排名，其中 Python 成为 “20 多年来的新语言霸主”，以 11.27% 的评级排名第 1 位；而 C 和 Java 的“长期霸权已经结束”，分别以 11.16% 和 10.46% 的评级位列榜单第 2 和第 3 ...",
-    "url": "https://segmentfault.com/a/1190000040778455",
-    "author": "MissD",
-    "home_url": "https://segmentfault.com/u/d2ms1shh",
-    "votes": "1",
-    "rank": 9
-  },
-  {
-    "title": "Zookeeper的选举机制和同步机制超详细讲解，面试经常问到！",
-    "description": "zookeeper相信大家都不陌生，很多分布式中间件都利用zk来提供分布式一致性协调的特性。dubbo官方推荐使用zk作为注册中心，zk也是hadoop和Hbase的重要组件。其他知名的开源中间件中也都出现了zk的身影。",
-    "url": "https://segmentfault.com/a/1190000040777791",
-    "author": "铂赛东",
-    "home_url": "https://segmentfault.com/u/bosaidong_5c495684bcf4b",
-    "votes": "1",
-    "rank": 10
   }
 ]

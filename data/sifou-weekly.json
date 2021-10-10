@@ -1,20 +1,20 @@
 [
   {
-    "title": "浅析 package.json",
-    "description": "每个前端项目中都有一个 package.json 文件，你了解它吗？花几分钟再重新审视一下这个熟悉的陌生人。如何生成 package.json在项目文件夹下执行npm init -y快速生成。 -y代表一路 yes。打开文件我们看到以下信息。...",
-    "url": "https://segmentfault.com/a/1190000040767112",
-    "author": "混子的日常",
-    "home_url": "https://segmentfault.com/u/1023",
-    "votes": "5",
+    "title": "写个vscode插件, 帮助阅读i18n项目的代码",
+    "description": "作者当前参与的项目是面向全球用户的, 项目免不了要做国际化处理, 哪怕只是一个简单的ok按钮的ok文案都要翻译成不同国家的语言展示, 所以在代码里面往往我们不可以直接命名为ok, 而是可能命名为user_base_pl...",
+    "url": "https://segmentfault.com/a/1190000040773678",
+    "author": "lulu_up",
+    "home_url": "https://segmentfault.com/u/lulu_up",
+    "votes": "12",
     "rank": 1
   },
   {
-    "title": "作为前端，怎么亲手设计一个婚礼邀请函",
-    "description": "一个前端，成家之时，需要一份婚礼邀请函。用网上哪些网站（婚礼纪、易企秀）生成出来的，样式、动画效果感觉很赞，但公司logo、广告弹窗、加载速度、自定义版图都让我这个职（qiang）业（po）前（zheng）端（hua...",
-    "url": "https://segmentfault.com/a/1190000040773457",
-    "author": "Denzel",
-    "home_url": "https://segmentfault.com/u/denzel",
-    "votes": "3",
+    "title": "CSS 奇技淫巧 | 妙用 drop-shadow 实现线条光影效果",
+    "description": "本文将介绍一种利用 CSS 滤镜 filter 的 drop-shadow()，实现对 HTML 元素及 SVG 元素的部分添加阴影效果，以实现一种酷炫的光影效果，用于各种不同的场景之中。通过本文，你可以学到：",
+    "url": "https://segmentfault.com/a/1190000040777921",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "9",
     "rank": 2
   },
   {
@@ -23,35 +23,44 @@
     "url": "https://segmentfault.com/a/1190000040770169",
     "author": "程序员大彬",
     "home_url": "https://segmentfault.com/u/5n7qfpo1",
-    "votes": "5",
+    "votes": "7",
     "rank": 3
   },
   {
-    "title": "JWT登录鉴权：避免在用户操作的过程中JWT到期跳转登录",
-    "description": "用户登录时，返回一个JWT，由前端存储在本地。此后用户每次向需要权限的API发出请求时带上该JWT用于验证身份。后端收到JWT后，验证JWT是否正确且未过期：",
-    "url": "https://segmentfault.com/a/1190000040765719",
-    "author": "MarsTokio",
-    "home_url": "https://segmentfault.com/u/marstokio",
-    "votes": "5",
+    "title": "20+ css高频实用片段，提高幸福感的小技能你可以拥有噢",
+    "description": "修改input placeholder样式、多行文本溢出、隐藏滚动条、修改光标颜色、水平垂直居中...多么熟悉的功能呀！前端童鞋几乎每天都会和他们打交道，一起来总结我们的css幸福小片段吧！下次不用百度、不用谷歌，这里就...",
+    "url": "https://segmentfault.com/a/1190000040777100",
+    "author": "前端胖头鱼",
+    "home_url": "https://segmentfault.com/u/116263",
+    "votes": "10",
     "rank": 4
   },
   {
-    "title": "写个vscode插件, 帮助阅读i18n项目的代码",
-    "description": "作者当前参与的项目是面向全球用户的, 项目免不了要做国际化处理, 哪怕只是一个简单的ok按钮的ok文案都要翻译成不同国家的语言展示, 所以在代码里面往往我们不可以直接命名为ok, 而是可能命名为user_base_pl...",
-    "url": "https://segmentfault.com/a/1190000040773678",
-    "author": "lulu_up",
-    "home_url": "https://segmentfault.com/u/lulu_up",
-    "votes": "7",
+    "title": "作为前端，怎么亲手设计一个婚礼邀请函",
+    "description": "一个前端，成家之时，需要一份婚礼邀请函。用网上哪些网站（婚礼纪、易企秀）生成出来的，样式、动画效果感觉很赞，但公司logo、广告弹窗、加载速度、自定义版图都让我这个职（qiang）业（po）前（zheng）端（hua...",
+    "url": "https://segmentfault.com/a/1190000040773457",
+    "author": "Denzel",
+    "home_url": "https://segmentfault.com/u/denzel",
+    "votes": "4",
     "rank": 5
   },
   {
-    "title": "日志分析常规操作",
-    "description": "日志是开发者用来分析程序和排查问题的重要工具。随着系统架构从早期的单体应用，演变到如今的微服务架构，日志的重要性也逐步提升。除了用日志辅助问题排查，还可以通过日志对微服务请求的全链路进行性能分析，...",
-    "url": "https://segmentfault.com/a/1190000040766681",
-    "author": "raledong",
-    "home_url": "https://segmentfault.com/u/raledong",
-    "votes": "2",
+    "title": "Go 面试官问我如何实现面向对象？",
+    "description": "大家好，我是煎鱼。在大家初识 Go 语言时，总会拿其他语言的基本特性来类比 Go 语言，说白了就是老知识和新知识产生关联，实现更高的学习效率。最常见的类比，就是 “Go 语言如何实现面向对象？”，进一步展开就是 ...",
+    "url": "https://segmentfault.com/a/1190000040778618",
+    "author": "煎鱼",
+    "home_url": "https://segmentfault.com/u/eddycjy",
+    "votes": "4",
     "rank": 6
+  },
+  {
+    "title": "面试官一口气问了MySQL事务、锁和MVCC，我",
+    "description": "面试官：你是怎么理解InnoDB引擎中的事务的？候选者：在我的理解下，事务可以使「一组操作」要么全部成功，要么全部失败候选者：事务其目的是为了「保证数据最终的一致性」。候选者：举个例子，我给你发支付宝转...",
+    "url": "https://segmentfault.com/a/1190000040777218",
+    "author": "Java3y",
+    "home_url": "https://segmentfault.com/u/java_3y",
+    "votes": "4",
+    "rank": 7
   },
   {
     "title": "第六期:前端九条启发分享",
@@ -60,25 +69,25 @@
     "author": "lulu_up",
     "home_url": "https://segmentfault.com/u/lulu_up",
     "votes": "3",
-    "rank": 7
-  },
-  {
-    "title": "V8引擎的JavaScript内存机制",
-    "description": "对于前端攻城师来说，JS的内存机制不容忽视。如果想成为行业专家，或者打造高性能前端应用，那就必须要弄清楚JavaScript的内存机制了先看栗子 {代码...} 可以看出在我们修改不同数据类型的值后，结果有点不一样。...",
-    "url": "https://segmentfault.com/a/1190000040770636",
-    "author": "沐华",
-    "home_url": "https://segmentfault.com/u/wmuhua",
-    "votes": "2",
     "rank": 8
   },
   {
-    "title": "聊一聊Go语言中的零值，它有什么用？",
-    "description": "哈喽，大家好，我是asong。今天与大家聊一聊Go语言中的零值。大学时期我是一名C语言爱好者，工作了以后感觉Go语言和C语言很像，所以选择了Go语言的工作，时不时就会把这两种语言的一些特性做个比较，今天要比较的...",
-    "url": "https://segmentfault.com/a/1190000040767864",
-    "author": "asong",
-    "home_url": "https://segmentfault.com/u/asong_5eeb7a1d0da86",
-    "votes": "1",
+    "title": "Google 搜索决定停止支持 IE11，IE 浏览器或将退出历史舞台？",
+    "description": "近日，Google 软件工程师 Malte Ubl 在 Twitter 上表示，经 Google 搜寻团队计算后，认为IE11 系统的营运成本与保留使用 IE11 用户的价值相比之下，较不划算，因此 Google 决定停止对 IE11 的支持。",
+    "url": "https://segmentfault.com/a/1190000040775287",
+    "author": "snakesss",
+    "home_url": "https://segmentfault.com/u/snakesss",
+    "votes": "2",
     "rank": 9
+  },
+  {
+    "title": "大大提高我们的构建体验5个 Vue 技巧",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000040777202",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "3",
+    "rank": 10
   },
   {
     "title": "猫头鹰的深夜翻译：开发者最常踩到的六个低效陷阱",
@@ -87,15 +96,6 @@
     "author": "raledong",
     "home_url": "https://segmentfault.com/u/raledong",
     "votes": "3",
-    "rank": 10
-  },
-  {
-    "title": "TypeScript 条件类型精读与实践",
-    "description": "在大多数程序中，我们必须根据输入做出决策。TypeScript 也不例外，使用条件类型可以描述输入类型与输出类型之间的关系。本文同步首发在个人博客中，欢迎订阅、交流。用于条件判断时的 extends当 extends 用于表...",
-    "url": "https://segmentfault.com/a/1190000040769584",
-    "author": "牧云云",
-    "home_url": "https://segmentfault.com/u/muyunyun",
-    "votes": "2",
     "rank": 11
   },
   {
@@ -108,13 +108,31 @@
     "rank": 12
   },
   {
-    "title": "Google 搜索决定停止支持 IE11，IE 浏览器或将退出历史舞台？",
-    "description": "近日，Google 软件工程师 Malte Ubl 在 Twitter 上表示，经 Google 搜寻团队计算后，认为IE11 系统的营运成本与保留使用 IE11 用户的价值相比之下，较不划算，因此 Google 决定停止对 IE11 的支持。",
-    "url": "https://segmentfault.com/a/1190000040775287",
-    "author": "snakesss",
-    "home_url": "https://segmentfault.com/u/snakesss",
+    "title": "V8引擎的JavaScript内存机制",
+    "description": "对于前端攻城师来说，JS的内存机制不容忽视。如果想成为行业专家，或者打造高性能前端应用，那就必须要弄清楚JavaScript的内存机制了先看栗子 {代码...} 可以看出在我们修改不同数据类型的值后，结果有点不一样。...",
+    "url": "https://segmentfault.com/a/1190000040770636",
+    "author": "沐华",
+    "home_url": "https://segmentfault.com/u/wmuhua",
     "votes": "2",
     "rank": 13
+  },
+  {
+    "title": "TypeScript 条件类型精读与实践",
+    "description": "在大多数程序中，我们必须根据输入做出决策。TypeScript 也不例外，使用条件类型可以描述输入类型与输出类型之间的关系。本文同步首发在个人博客中，欢迎订阅、交流。用于条件判断时的 extends当 extends 用于表...",
+    "url": "https://segmentfault.com/a/1190000040769584",
+    "author": "牧云云",
+    "home_url": "https://segmentfault.com/u/muyunyun",
+    "votes": "2",
+    "rank": 14
+  },
+  {
+    "title": "聊一聊Go语言中的零值，它有什么用？",
+    "description": "哈喽，大家好，我是asong。今天与大家聊一聊Go语言中的零值。大学时期我是一名C语言爱好者，工作了以后感觉Go语言和C语言很像，所以选择了Go语言的工作，时不时就会把这两种语言的一些特性做个比较，今天要比较的...",
+    "url": "https://segmentfault.com/a/1190000040767864",
+    "author": "asong",
+    "home_url": "https://segmentfault.com/u/asong_5eeb7a1d0da86",
+    "votes": "1",
+    "rank": 15
   },
   {
     "title": "理解脸书是如何从互联网消失的",
@@ -123,7 +141,34 @@
     "author": "祝坤荣",
     "home_url": "https://segmentfault.com/u/zhukunrong",
     "votes": "1",
-    "rank": 14
+    "rank": 16
+  },
+  {
+    "title": "Zookeeper的选举机制和同步机制超详细讲解，面试经常问到！",
+    "description": "zookeeper相信大家都不陌生，很多分布式中间件都利用zk来提供分布式一致性协调的特性。dubbo官方推荐使用zk作为注册中心，zk也是hadoop和Hbase的重要组件。其他知名的开源中间件中也都出现了zk的身影。",
+    "url": "https://segmentfault.com/a/1190000040777791",
+    "author": "铂赛东",
+    "home_url": "https://segmentfault.com/u/bosaidong_5c495684bcf4b",
+    "votes": "1",
+    "rank": 17
+  },
+  {
+    "title": "系统召回太慢？上 Milvus × PaddleRec 双剑合璧大法！",
+    "description": "作者简介 李云梅，Zilliz 数据工程师，毕业于华中科技大学计算机系。加入 Zilliz 以来，致力于为开源向量数据库 Milvus 探索解决方案，帮助用户打造场景应用。深入关注自然语言处理技术和搜索推荐系统，日常喜欢...",
+    "url": "https://segmentfault.com/a/1190000040780098",
+    "author": "Zilliz",
+    "home_url": "https://segmentfault.com/u/zilliz",
+    "votes": "1",
+    "rank": 18
+  },
+  {
+    "title": "前端代码评审通常注意些什么",
+    "description": "代码评审又称为（Code Review，简称CR），关于CR，开发同学其实都不陌生，现在大部分公司的项目开发流程中，它都是必不可少的一个环节，CR的好处也都耳熟能详。不同的公司对于CR的方式、质量要求标准都不一样。这...",
+    "url": "https://segmentfault.com/a/1190000040780312",
+    "author": "_Vin",
+    "home_url": "https://segmentfault.com/u/_vin_5d884143cd4cb",
+    "votes": "2",
+    "rank": 19
   },
   {
     "title": "LeetCode-404-左叶子之和",
@@ -132,16 +177,7 @@
     "author": "雄狮虎豹",
     "home_url": "https://segmentfault.com/u/xiongshihubao",
     "votes": "2",
-    "rank": 15
-  },
-  {
-    "title": "LeetCode-046-全排列",
-    "description": "题目描述：给定一个不含重复数字的数组 nums ，返回其 所有可能的全排列 。你可以 按任意顺序 返回答案。示例说明请见LeetCode官网。来源：力扣（LeetCode） 链接：[链接] 著作权归领扣网络所有。商业转载请联系...",
-    "url": "https://segmentfault.com/a/1190000040765955",
-    "author": "雄狮虎豹",
-    "home_url": "https://segmentfault.com/u/xiongshihubao",
-    "votes": "1",
-    "rank": 16
+    "rank": 20
   },
   {
     "title": "LeetCode-412-Fizz Buzz",
@@ -150,16 +186,16 @@
     "author": "雄狮虎豹",
     "home_url": "https://segmentfault.com/u/xiongshihubao",
     "votes": "2",
-    "rank": 17
+    "rank": 21
   },
   {
-    "title": "2021 VSCode前端插件推荐",
-    "description": "2021 VSCode前端插件推荐前言推荐一波前端开发必备插件，绝对可以提高你的生产力，剩下来的时间来 mo鱼，岂不美哉开发综合推荐别名路径跳转插件名： 别名路径跳转使用说明: 别名路径跳转插件，支持任何项目，使用...",
-    "url": "https://segmentfault.com/a/1190000040766151",
-    "author": "风不识途",
-    "home_url": "https://segmentfault.com/u/tudou_5e2d76940fbaa",
+    "title": "Golang 环境搭建",
+    "description": "注：本文为Linux下搭建Golang安装GoGo的安装相比其他语言环境非常简单，直接下载安装包，解压安装即可。1、下载安装包(官方地址:[链接] 国内已被墙了)，直接去对应的Go语言中文网下载即可，稍等一下下就下载好了...",
+    "url": "https://segmentfault.com/a/1190000040781042",
+    "author": "Albert",
+    "home_url": "https://segmentfault.com/u/albert_5d6909d54bb0c",
     "votes": "1",
-    "rank": 18
+    "rank": 22
   },
   {
     "title": "LeetCode-414-第三大的数",
@@ -168,7 +204,7 @@
     "author": "雄狮虎豹",
     "home_url": "https://segmentfault.com/u/xiongshihubao",
     "votes": "2",
-    "rank": 19
+    "rank": 23
   },
   {
     "title": "LeetCode-495-提莫攻击",
@@ -177,7 +213,7 @@
     "author": "雄狮虎豹",
     "home_url": "https://segmentfault.com/u/xiongshihubao",
     "votes": "2",
-    "rank": 20
+    "rank": 24
   },
   {
     "title": "LeetCode-500-键盘行",
@@ -186,7 +222,7 @@
     "author": "雄狮虎豹",
     "home_url": "https://segmentfault.com/u/xiongshihubao",
     "votes": "2",
-    "rank": 21
+    "rank": 25
   },
   {
     "title": "Webpack插件是如何编写的——prerender-spa-plugin源码解析",
@@ -195,16 +231,25 @@
     "author": "hjava",
     "home_url": "https://segmentfault.com/u/hjava",
     "votes": "1",
-    "rank": 22
+    "rank": 26
   },
   {
-    "title": "看完还不懂JavaScript执行机制(EventLoop)，你来捶我",
-    "description": "上一篇文章介绍了进程与线程，知道渲染进程都有一个主线程，并且主线程工作很多，要处理DOM、计算样式、布局、还有鼠标、键盘等各种JS任务我们都知道JS是单线程，任务只能一件一件地执行，那么浏览器是怎么让这么...",
-    "url": "https://segmentfault.com/a/1190000040772606",
-    "author": "沐华",
-    "home_url": "https://segmentfault.com/u/wmuhua",
+    "title": "LeetCode-507-完美数",
+    "description": "题目描述：对于一个 正整数，如果它和除了它自身以外的所有 正因子 之和相等，我们称它为 「完美数」。给定一个 整数 n， 如果是完美数，返回 true，否则返回 false。示例说明请见LeetCode官网。来源：力扣（Leet...",
+    "url": "https://segmentfault.com/a/1190000040777187",
+    "author": "雄狮虎豹",
+    "home_url": "https://segmentfault.com/u/xiongshihubao",
+    "votes": "2",
+    "rank": 27
+  },
+  {
+    "title": "2021 年 10 月 TIOBE 指数榜：Python 超越 C 语言成 20 多年来的新霸主",
+    "description": "榜单中共对 100 种编程语言进行了评级排名，其中 Python 成为 “20 多年来的新语言霸主”，以 11.27% 的评级排名第 1 位；而 C 和 Java 的“长期霸权已经结束”，分别以 11.16% 和 10.46% 的评级位列榜单第 2 和第 3 ...",
+    "url": "https://segmentfault.com/a/1190000040778455",
+    "author": "MissD",
+    "home_url": "https://segmentfault.com/u/d2ms1shh",
     "votes": "1",
-    "rank": 23
+    "rank": 28
   },
   {
     "title": "【C进阶】15、逻辑运算符",
@@ -213,16 +258,7 @@
     "author": "bryson",
     "home_url": "https://segmentfault.com/u/lala_60a20654d1aa3",
     "votes": "1",
-    "rank": 24
-  },
-  {
-    "title": "webpack进阶用法概述",
-    "description": "1.增强CSS的解析功能2.tree shaking3.scope hoisting4.如何用webpack打包组件库或工具库5.如何用webpack做server render6.如何在webpack里面做prerender",
-    "url": "https://segmentfault.com/a/1190000040768670",
-    "author": "fhkd",
-    "home_url": "https://segmentfault.com/u/fhkd",
-    "votes": "1",
-    "rank": 25
+    "rank": 29
   },
   {
     "title": "来学习！五个免费充电资源",
@@ -231,42 +267,6 @@
     "author": "LeanCloud",
     "home_url": "https://segmentfault.com/u/leancloud",
     "votes": "1",
-    "rank": 26
-  },
-  {
-    "title": "云原生吞噬世界？OID China 2021 云原生基础设施论坛为你解密",
-    "description": "2011 年，Marc Andreessen 在其发表的知名文章中写到：“软件正在吞噬世界”；三年后 Jonathan Bryce 补充说：“世界的一切源于开源”；再之后，业内普遍认同“云计算已改变了天空的颜色”；但现在云计算概念又被清晰细...",
-    "url": "https://segmentfault.com/a/1190000040775113",
-    "author": "六一",
-    "home_url": "https://segmentfault.com/u/suicidal_romantic_scoundrel",
-    "votes": "1",
-    "rank": 27
-  },
-  {
-    "title": "node.js 如何高效的操作数据库",
-    "description": "access-db统一各类数据库的连接目前支持的数据库有：数据库说明支持版本FastDB本地json文件数据库[由access_db团队开发]0.0.6MongoDB分布式文件存储数据库4.xMysql关系型数据库8.x, 5.xredis高性能的 key-value ...",
-    "url": "https://segmentfault.com/a/1190000040766415",
-    "author": "wzj5cnaz",
-    "home_url": "https://segmentfault.com/u/wzj5cnaz",
-    "votes": "0",
-    "rank": 28
-  },
-  {
-    "title": "20+ css高频实用片段，提高幸福感的小技能你可以拥有噢",
-    "description": "修改input placeholder样式、多行文本溢出、隐藏滚动条、修改光标颜色、水平垂直居中...多么熟悉的功能呀！前端童鞋几乎每天都会和他们打交道，一起来总结我们的css幸福小片段吧！下次不用百度、不用谷歌，这里就...",
-    "url": "https://segmentfault.com/a/1190000040777100",
-    "author": "前端胖头鱼",
-    "home_url": "https://segmentfault.com/u/116263",
-    "votes": "7",
-    "rank": 29
-  },
-  {
-    "title": "CSS 奇技淫巧 | 妙用 drop-shadow 实现线条光影效果",
-    "description": "本文将介绍一种利用 CSS 滤镜 filter 的 drop-shadow()，实现对 HTML 元素及 SVG 元素的部分添加阴影效果，以实现一种酷炫的光影效果，用于各种不同的场景之中。通过本文，你可以学到：",
-    "url": "https://segmentfault.com/a/1190000040777921",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "5",
     "rank": 30
   }
 ]
