@@ -5,8 +5,17 @@
     "url": "https://segmentfault.com/a/1190000040777100",
     "author": "前端胖头鱼",
     "home_url": "https://segmentfault.com/u/116263",
-    "votes": "22",
+    "votes": "27",
     "rank": 1
+  },
+  {
+    "title": "前端监控 SDK 的一些技术要点原理分析",
+    "description": "一个完整的前端监控平台包括三个部分：数据采集与上报、数据整理和存储、数据展示。本文要讲的就是其中的第一个环节——数据采集与上报。下图是本文要讲述内容的大纲，大家可以先大致了解一下：仅看理论知识是比较...",
+    "url": "https://segmentfault.com/a/1190000040796868",
+    "author": "谭光志",
+    "home_url": "https://segmentfault.com/u/woai3c",
+    "votes": "18",
+    "rank": 2
   },
   {
     "title": "写个vscode插件, 帮助阅读i18n项目的代码",
@@ -14,8 +23,8 @@
     "url": "https://segmentfault.com/a/1190000040773678",
     "author": "lulu_up",
     "home_url": "https://segmentfault.com/u/lulu_up",
-    "votes": "16",
-    "rank": 2
+    "votes": "19",
+    "rank": 3
   },
   {
     "title": "CSS 奇技淫巧 | 妙用 drop-shadow 实现线条光影效果",
@@ -23,26 +32,8 @@
     "url": "https://segmentfault.com/a/1190000040777921",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "12",
-    "rank": 3
-  },
-  {
-    "title": "Go 面试官问我如何实现面向对象？",
-    "description": "大家好，我是煎鱼。在大家初识 Go 语言时，总会拿其他语言的基本特性来类比 Go 语言，说白了就是老知识和新知识产生关联，实现更高的学习效率。最常见的类比，就是 “Go 语言如何实现面向对象？”，进一步展开就是 ...",
-    "url": "https://segmentfault.com/a/1190000040778618",
-    "author": "煎鱼",
-    "home_url": "https://segmentfault.com/u/eddycjy",
-    "votes": "5",
+    "votes": "20",
     "rank": 4
-  },
-  {
-    "title": "作为前端，怎么亲手设计一个婚礼邀请函",
-    "description": "一个前端，成家之时，需要一份婚礼邀请函。用网上哪些网站（婚礼纪、易企秀）生成出来的，样式、动画效果感觉很赞，但公司logo、广告弹窗、加载速度、自定义版图都让我这个职（qiang）业（po）前（zheng）端（hua...",
-    "url": "https://segmentfault.com/a/1190000040773457",
-    "author": "Denzel",
-    "home_url": "https://segmentfault.com/u/denzel",
-    "votes": "4",
-    "rank": 5
   },
   {
     "title": "前端代码评审通常注意些什么",
@@ -50,17 +41,8 @@
     "url": "https://segmentfault.com/a/1190000040780312",
     "author": "_Vin",
     "home_url": "https://segmentfault.com/u/_vin_5d884143cd4cb",
-    "votes": "4",
-    "rank": 6
-  },
-  {
-    "title": "面试官一口气问了MySQL事务、锁和MVCC，我",
-    "description": "面试官：你是怎么理解InnoDB引擎中的事务的？候选者：在我的理解下，事务可以使「一组操作」要么全部成功，要么全部失败候选者：事务其目的是为了「保证数据最终的一致性」。候选者：举个例子，我给你发支付宝转...",
-    "url": "https://segmentfault.com/a/1190000040777218",
-    "author": "Java3y",
-    "home_url": "https://segmentfault.com/u/java_3y",
-    "votes": "5",
-    "rank": 7
+    "votes": "8",
+    "rank": 5
   },
   {
     "title": "摊牌了，作为开发者，我经常用这14个 Github 偷偷学习",
@@ -69,7 +51,79 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "11",
+    "rank": 6
+  },
+  {
+    "title": "Go 面试官问我如何实现面向对象？",
+    "description": "大家好，我是煎鱼。在大家初识 Go 语言时，总会拿其他语言的基本特性来类比 Go 语言，说白了就是老知识和新知识产生关联，实现更高的学习效率。最常见的类比，就是 “Go 语言如何实现面向对象？”，进一步展开就是 ...",
+    "url": "https://segmentfault.com/a/1190000040778618",
+    "author": "煎鱼",
+    "home_url": "https://segmentfault.com/u/eddycjy",
+    "votes": "5",
+    "rank": 7
+  },
+  {
+    "title": "面试官一口气问了MySQL事务、锁和MVCC，我",
+    "description": "面试官：你是怎么理解InnoDB引擎中的事务的？候选者：在我的理解下，事务可以使「一组操作」要么全部成功，要么全部失败候选者：事务其目的是为了「保证数据最终的一致性」。候选者：举个例子，我给你发支付宝转...",
+    "url": "https://segmentfault.com/a/1190000040777218",
+    "author": "Java3y",
+    "home_url": "https://segmentfault.com/u/java_3y",
+    "votes": "5",
     "rank": 8
+  },
+  {
+    "title": "作为前端，怎么亲手设计一个婚礼邀请函",
+    "description": "一个前端，成家之时，需要一份婚礼邀请函。用网上哪些网站（婚礼纪、易企秀）生成出来的，样式、动画效果感觉很赞，但公司logo、广告弹窗、加载速度、自定义版图都让我这个职（qiang）业（po）前（zheng）端（hua...",
+    "url": "https://segmentfault.com/a/1190000040773457",
+    "author": "Denzel",
+    "home_url": "https://segmentfault.com/u/denzel",
+    "votes": "4",
+    "rank": 9
+  },
+  {
+    "title": "有个开发者总结这 15 优雅的 JavaScript 个技巧",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000040704570",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "7",
+    "rank": 10
+  },
+  {
+    "title": "CSS实现渐变色边框（Gradient borders）的5种方法",
+    "description": "CSS 提供了 border-image 属性用于给 border 绘制复杂图样，与 background-image 类似，我们可以在 border 中展示image和linear-gradient。",
+    "url": "https://segmentfault.com/a/1190000040794056",
+    "author": "MudOnTire",
+    "home_url": "https://segmentfault.com/u/mudontire",
+    "votes": "7",
+    "rank": 11
+  },
+  {
+    "title": "基于HarmonyOS分布式技术，他们让绘画体验更为出色",
+    "description": "绘画，是很多人的兴趣爱好，但是想要创作优秀的作品并不容易。这不仅依赖于个人的灵光乍现，往往还需要他人协作及灵感的支持。目前市面上大多数绘画应用在单设备上的体验已经足够优秀，但是对跨设备交互的支持仍...",
+    "url": "https://segmentfault.com/a/1190000040795342",
+    "author": "第一视角",
+    "home_url": "https://segmentfault.com/u/awly3q3a",
+    "votes": "1",
+    "rank": 12
+  },
+  {
+    "title": "深度剖析分布式事务性能",
+    "description": "随着微服务的大规模应用，跨微服务的分布式事务也越来越多，那么分布式事务的性能究竟怎么样？性能会下降多少？能否满足业务需求？这些指标关系到分布式事务能否顺利的引入到生产应用，是大家非常关心的问题。",
+    "url": "https://segmentfault.com/a/1190000040791009",
+    "author": "叶东富",
+    "home_url": "https://segmentfault.com/u/yedongfu",
+    "votes": "4",
+    "rank": 13
+  },
+  {
+    "title": "(总结)项目经历一次更换ui组件库才知道的事: 共21种问题类型",
+    "description": "写这篇文章的起因是作者不久前经历了一次项目整体ui组件库的替换, 本以为更换ui组件库只是改改样式并且改几处写法就行了, 但真正经历了才知道这里面遇到的问题还真是丰富多彩, 全程做下来我一共总结了21种问...",
+    "url": "https://segmentfault.com/a/1190000040790162",
+    "author": "lulu_up",
+    "home_url": "https://segmentfault.com/u/lulu_up",
+    "votes": "5",
+    "rank": 14
   },
   {
     "title": "第六期:前端九条启发分享",
@@ -78,7 +132,25 @@
     "author": "lulu_up",
     "home_url": "https://segmentfault.com/u/lulu_up",
     "votes": "4",
-    "rank": 9
+    "rank": 15
+  },
+  {
+    "title": "从零开始实现一个颜色选择器（原生JavaScript实现）",
+    "description": "首先，我们无需搭建项目的环境，我们还是直接用最简单的方式，也就是引入的方式来创建这个项目，这样也就方便了我们一边编写一边测试。创建一个空目录，命名为ColorPicker,创建一个js文件，即color-picker.js,然...",
+    "url": "https://segmentfault.com/a/1190000040789940",
+    "author": "夕水",
+    "home_url": "https://segmentfault.com/u/xishui_5ac9a340a5484",
+    "votes": "3",
+    "rank": 16
+  },
+  {
+    "title": "精读《可维护性思考》",
+    "description": "前端精读之前写了 23 篇设计模式总结文，再加上 6 种设计原则，开闭、单一职责、依赖倒置、接口分离、迪米特法则、里氏替换原则，基本上对代码的可维护性有了全面深刻的理解。",
+    "url": "https://segmentfault.com/a/1190000040791286",
+    "author": "黄子毅",
+    "home_url": "https://segmentfault.com/u/aoyangyudakong",
+    "votes": "4",
+    "rank": 17
   },
   {
     "title": "Kafka基础入门篇",
@@ -87,7 +159,7 @@
     "author": "LNMPRG源码研究",
     "home_url": "https://segmentfault.com/u/php7internal",
     "votes": "4",
-    "rank": 10
+    "rank": 18
   },
   {
     "title": "超一半企业工作站无法运行 Windows 11；Python 3.10.0 正式发布；Android 12 发布 | 思否周刊",
@@ -96,7 +168,16 @@
     "author": "snakesss",
     "home_url": "https://segmentfault.com/u/snakesss",
     "votes": "4",
-    "rank": 11
+    "rank": 19
+  },
+  {
+    "title": "12种 vo2dto 方法，就 BeanUtils.copyProperties 压测最拉胯！【快双11了，别用错喽】",
+    "description": "没有技术深度、短缺知识储备、匮乏经验积累的前提下，怎么写代码？百度呀，遇到问题这搜一点，那查一块，不管它是什么原理还是适合哪种场景，先粘贴到自己的工程里，看，能跑了，能跑就行。那这样的代码也就仅仅...",
+    "url": "https://segmentfault.com/a/1190000040791635",
+    "author": "小傅哥",
+    "home_url": "https://segmentfault.com/u/fuzhengwei",
+    "votes": "3",
+    "rank": 20
   },
   {
     "title": "Zookeeper的选举机制和同步机制超详细讲解，面试经常问到！",
@@ -105,7 +186,7 @@
     "author": "铂赛东",
     "home_url": "https://segmentfault.com/u/bosaidong_5c495684bcf4b",
     "votes": "1",
-    "rank": 12
+    "rank": 21
   },
   {
     "title": "Google 搜索决定停止支持 IE11，IE 浏览器或将退出历史舞台？",
@@ -114,7 +195,16 @@
     "author": "snakesss",
     "home_url": "https://segmentfault.com/u/snakesss",
     "votes": "2",
-    "rank": 13
+    "rank": 22
+  },
+  {
+    "title": "React源码中的位运算技巧",
+    "description": "大家好，我卡颂。这两年有不少朋友和我吐槽React源码，比如：调度器为什么用小顶堆这种数据结构，直接用数组不行？源码里各种单向链表、环状链表，直接用数组不行？源码里各种位运算，有必要么？作为业务依赖的框...",
+    "url": "https://segmentfault.com/a/1190000040791673",
+    "author": "卡颂",
+    "home_url": "https://segmentfault.com/u/kasong",
+    "votes": "5",
+    "rank": 23
   },
   {
     "title": "大大提高我们的构建体验5个 Vue 技巧",
@@ -123,16 +213,25 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "3",
-    "rank": 14
+    "rank": 24
   },
   {
-    "title": "史上最严重：Facebook 遭遇全球宕机近 7 小时后重新上线，股价下跌5%",
-    "description": "据悉，本次 Facebook 长时间的宕机始于周二（美国时间 4 日）凌晨 4 点左右。受此影响，其旗下的 WhatsApp、Instagram 等平台也无法访问，用户瞬时话题讨论量集中，导致 Spark 和 Vodafone 的通话量也激增。",
-    "url": "https://segmentfault.com/a/1190000040771271",
-    "author": "MissD",
-    "home_url": "https://segmentfault.com/u/d2ms1shh",
-    "votes": "1",
-    "rank": 15
+    "title": "就因为JSON.stringify，我的年终奖差点打水漂了",
+    "description": "开发要对线上环境有一颗敬畏之心，任何一个点都有可能导致线上故障，也有可能让你的年终奖泡汤(⊙︿⊙)。比如使用了JSON.stringify，这个无比熟悉但又无比陌生的API。",
+    "url": "https://segmentfault.com/a/1190000040791087",
+    "author": "前端胖头鱼",
+    "home_url": "https://segmentfault.com/u/116263",
+    "votes": "5",
+    "rank": 25
+  },
+  {
+    "title": "详解es6的export和import命令",
+    "description": "一直以来开发vue项目，对export和import的用法都比较模糊，看别人怎么写我就照葫芦画瓢，不报错或者功能实现就行，完全不懂其中的原理，今日闲下来了，就揭穿它们的真面目吧！",
+    "url": "https://segmentfault.com/a/1190000040792388",
+    "author": "花怀樱",
+    "home_url": "https://segmentfault.com/u/zero_599d47cbc8888zrn",
+    "votes": "3",
+    "rank": 26
   },
   {
     "title": "系统召回太慢？上 Milvus × PaddleRec 双剑合璧大法！",
@@ -141,16 +240,7 @@
     "author": "Zilliz",
     "home_url": "https://segmentfault.com/u/zilliz",
     "votes": "1",
-    "rank": 16
-  },
-  {
-    "title": "理解脸书是如何从互联网消失的",
-    "description": "今天2021.10.4 16:51 UTC，我们建了一条标题为“FB DNS 查询返回SERVFAIL”的单子，因为我们担心我们的DBS 1.1.1.1出现了问题。但当我们要在我们的的[公共状态]页面发布状态时我们发现可能有更严重的问题正在发生。",
-    "url": "https://segmentfault.com/a/1190000040772179",
-    "author": "祝坤荣",
-    "home_url": "https://segmentfault.com/u/zhukunrong",
-    "votes": "1",
-    "rank": 17
+    "rank": 27
   },
   {
     "title": "Golang 环境搭建",
@@ -159,114 +249,24 @@
     "author": "Albert",
     "home_url": "https://segmentfault.com/u/albert_5d6909d54bb0c",
     "votes": "1",
-    "rank": 18
-  },
-  {
-    "title": "(总结)项目经历一次更换ui组件库才知道的事: 共21种问题类型",
-    "description": "写这篇文章的起因是作者不久前经历了一次项目整体ui组件库的替换, 本以为更换ui组件库只是改改样式并且改几处写法就行了, 但真正经历了才知道这里面遇到的问题还真是丰富多彩, 全程做下来我一共总结了21种问...",
-    "url": "https://segmentfault.com/a/1190000040790162",
-    "author": "lulu_up",
-    "home_url": "https://segmentfault.com/u/lulu_up",
-    "votes": "4",
-    "rank": 19
-  },
-  {
-    "title": "LeetCode-415-字符串相加",
-    "description": "题目描述：给定两个字符串形式的非负整数 num1 和num2 ，计算它们的和。提示：num1 和num2 的长度都小于 5100num1 和num2 都只包含数字 0-9num1 和num2 都不包含任何前导零你不能使用任何內建 BigInteger 库， 也...",
-    "url": "https://segmentfault.com/a/1190000040788008",
-    "author": "雄狮虎豹",
-    "home_url": "https://segmentfault.com/u/xiongshihubao",
-    "votes": "3",
-    "rank": 20
-  },
-  {
-    "title": "LeetCode-414-第三大的数",
-    "description": "题目描述：给你一个非空数组，返回此数组中 第三大的数 。如果不存在，则返回数组中最大的数。示例说明请见LeetCode官网。来源：力扣（LeetCode） 链接：[链接] 著作权归领扣网络所有。商业转载请联系官方授权，...",
-    "url": "https://segmentfault.com/a/1190000040771153",
-    "author": "雄狮虎豹",
-    "home_url": "https://segmentfault.com/u/xiongshihubao",
-    "votes": "2",
-    "rank": 21
-  },
-  {
-    "title": "LeetCode-495-提莫攻击",
-    "description": "题目描述：在《英雄联盟》的世界中，有一个叫 “提莫” 的英雄，他的攻击可以让敌方英雄艾希（编者注：寒冰射手）进入中毒状态。现在，给出提莫对艾希的攻击时间序列和提莫攻击的中毒持续时间，你需要输出艾希的中...",
-    "url": "https://segmentfault.com/a/1190000040773291",
-    "author": "雄狮虎豹",
-    "home_url": "https://segmentfault.com/u/xiongshihubao",
-    "votes": "2",
-    "rank": 22
-  },
-  {
-    "title": "2021 年 10 月 TIOBE 指数榜：Python 超越 C 语言成 20 多年来的新霸主",
-    "description": "榜单中共对 100 种编程语言进行了评级排名，其中 Python 成为 “20 多年来的新语言霸主”，以 11.27% 的评级排名第 1 位；而 C 和 Java 的“长期霸权已经结束”，分别以 11.16% 和 10.46% 的评级位列榜单第 2 和第 3 ...",
-    "url": "https://segmentfault.com/a/1190000040778455",
-    "author": "MissD",
-    "home_url": "https://segmentfault.com/u/d2ms1shh",
-    "votes": "1",
-    "rank": 23
-  },
-  {
-    "title": "倒计时 5 天，不想错过开源基础设施的前沿趋势，来 OID China 2021 就够了！",
-    "description": "OpenInfra Days China 2021 又开始了新的一年征程。过去的一年 COVID-19 肆虐，但没有阻挡全球的开源贡献者们合作和前进的脚步，我们的社区开源项目以及成员伙伴也创造出了很多响应当下云计算需求的新技术和新实验。",
-    "url": "https://segmentfault.com/a/1190000040788582",
-    "author": "六一",
-    "home_url": "https://segmentfault.com/u/suicidal_romantic_scoundrel",
-    "votes": "2",
-    "rank": 24
-  },
-  {
-    "title": "Spring 源码解析一：SpringMVC 的加载机制",
-    "description": "spring-core：spring 框架的核心机制模块，包括 Java 字节码的操作处理与动态生成、依赖注入机制（也叫控制反转）、工具类库、注解操作、编码处理与数据转换、资源加载与处理、环境加载机制等",
-    "url": "https://segmentfault.com/a/1190000040786453",
-    "author": "senntyou",
-    "home_url": "https://segmentfault.com/u/senntyou",
-    "votes": "2",
-    "rank": 25
-  },
-  {
-    "title": "LeetCode-500-键盘行",
-    "description": "题目描述：给你一个字符串数组 words ，只返回可以使用在 美式键盘 同一行的字母打印出来的单词。示例说明请见LeetCode官网。来源：力扣（LeetCode）链接：[链接]著作权归领扣网络所有。商业转载请联系官方授权，...",
-    "url": "https://segmentfault.com/a/1190000040775038",
-    "author": "雄狮虎豹",
-    "home_url": "https://segmentfault.com/u/xiongshihubao",
-    "votes": "2",
-    "rank": 26
-  },
-  {
-    "title": "看完还不懂JavaScript执行机制(EventLoop)，你来捶我",
-    "description": "上一篇文章介绍了进程与线程，知道渲染进程都有一个主线程，并且主线程工作很多，要处理DOM、计算样式、布局、还有鼠标、键盘等各种JS任务我们都知道JS是单线程，任务只能一件一件地执行，那么浏览器是怎么让这么...",
-    "url": "https://segmentfault.com/a/1190000040772606",
-    "author": "沐华",
-    "home_url": "https://segmentfault.com/u/wmuhua",
-    "votes": "2",
-    "rank": 27
-  },
-  {
-    "title": "Java开发基础常见面试题及答案汇总（实用干货！）",
-    "description": "Java开发面试题及答案今天抽空来整理整理Java开发面试中的那点事儿吧，帮助那些正在找工作或想跳槽找工作的兄弟姐妹们！分享目前Java开发常见的面试问题以及问题的答案给大家阅读参考。Java基础学习资料点下边！...",
-    "url": "https://segmentfault.com/a/1190000040780120",
-    "author": "牛仔码农",
-    "home_url": "https://segmentfault.com/u/camille_5f9b7f6b8693f",
-    "votes": "2",
     "rank": 28
   },
   {
-    "title": "为了减少代码复杂度，我将if-else升级为面向状态编程",
-    "description": "面向过程设计和面向对象设计的主要区别是：是否在业务逻辑层使用冗长的if else判断。如果你还在大量使用if else，当然，界面表现层除外，即使你使用Java/C#这样完全面向对象的语言，也只能说明你的思维停留在传统...",
-    "url": "https://segmentfault.com/a/1190000040777766",
-    "author": "华为云开发者社区",
-    "home_url": "https://segmentfault.com/u/huaweiyunkaifazheshequ",
+    "title": "DrawIO 二开 —— 是时候给你的 ProcessOn 充值终身 VIP 了",
+    "description": "本文从使用角度入手，循序渐进的讲述 DrawIO 是什么，为什么要基于 DrawIO 进行二次开发以及 DrawIO 二次开发的核心技术细节并抽象出了一套通用二开架构，因此文章内容较长，不同阶段的读者可以根据需求进行阅读...",
+    "url": "https://segmentfault.com/a/1190000040793817",
+    "author": "云音乐大前端团队",
+    "home_url": "https://segmentfault.com/u/musicfe",
     "votes": "1",
     "rank": 29
   },
   {
-    "title": "厂长来了 | 从个人英雄到软件工程，我们经历了什么",
-    "description": "从中文世界第一个真正意义上的「商用软件」WPS 诞生至今，已经有30多年了。提到软件，很多朋友脑海里浮现出的第一个画面应该是一个秃头的程序员，独自坐在一台电脑前奋力敲打键盘的画面。曾几何时，个人英雄主义...",
-    "url": "https://segmentfault.com/a/1190000040786870",
-    "author": "万事ONES",
-    "home_url": "https://segmentfault.com/u/wanshiones",
-    "votes": "1",
+    "title": "程序员写简历时的技术词汇拼写规范备忘录",
+    "description": "求职前，我们都会花很多的时间在自己的技术水平提升+笔/面试的准备之上，但往往却忽略了找工作第一步所需要的一个严谨且靠谱的简历。而程序员写简历，第一步就是需要注意严谨而规范地使用各种技术词汇。",
+    "url": "https://segmentfault.com/a/1190000040791119",
+    "author": "CodeSheep",
+    "home_url": "https://segmentfault.com/u/hansonwang99",
+    "votes": "2",
     "rank": 30
   }
 ]
