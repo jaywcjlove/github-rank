@@ -12,7 +12,7 @@
   {
     "title": "MySQL 那点破事！索引、SQL 调优、事务、B+树、分表",
     "description": "大家好，我是Tom哥~为了便于大家查找问题，了解全貌，整理个目录，我们可以快速全局了解关于mysql数据库，面试官一般喜欢问哪些问题接下来，我们逐条来看看每个问题及答案MyISAM...",
-    "votes": "173",
+    "votes": "174",
     "url": "/k/aazub7e",
     "avatar": "https://img.toutiao.io/subject/83f7c83d300b4884a690ef12a32a86ab/thumb",
     "avatarAlt": "微观技术 - 独家号",
@@ -30,24 +30,24 @@
     "homeUrl": "/subjects/403307"
   },
   {
-    "title": "推荐几个开源类库，超好用，远离 996",
-    "description": "今天给大家分享几个 Java 的开源类库，亲测非常好用！有了它们之后，你就可以和很多重复劳动说再见了。1. MapStruct MapStruct是干什么的？ MapStruct是...",
-    "votes": "133",
-    "url": "/k/oi7zdzy",
-    "avatar": "https://img.toutiao.io/subject/0f8efe621fef4c7e98ad0ad1ada57562/thumb",
-    "avatarAlt": "学学Java - 独家号",
-    "subjectName": "学学Java",
-    "homeUrl": "/subjects/456195"
-  },
-  {
     "title": "面试字节，被操作系统问挂了",
     "description": "大家好，鄙人三某，不善面试。。。标题是真事，感觉凉了，难受，爬起来整理了一波操作系统面试题，下次一定……引论 什么是操作系统？ 可以这么说，操作系统是一种运行在内核态的软件。它是应...",
-    "votes": "133",
+    "votes": "141",
     "url": "/k/8r0yjir",
     "avatar": "https://img.toutiao.io/subject/785b9391ccd74d88bfc5ccd391fb4365/thumb",
     "avatarAlt": "三分恶 - 独家号",
     "subjectName": "三分恶",
     "homeUrl": "/subjects/454266"
+  },
+  {
+    "title": "推荐几个开源类库，超好用，远离 996",
+    "description": "今天给大家分享几个 Java 的开源类库，亲测非常好用！有了它们之后，你就可以和很多重复劳动说再见了。1. MapStruct MapStruct是干什么的？ MapStruct是...",
+    "votes": "135",
+    "url": "/k/oi7zdzy",
+    "avatar": "https://img.toutiao.io/subject/0f8efe621fef4c7e98ad0ad1ada57562/thumb",
+    "avatarAlt": "学学Java - 独家号",
+    "subjectName": "学学Java",
+    "homeUrl": "/subjects/456195"
   },
   {
     "title": "聊聊 Redis 分布式锁的 8 大坑",
@@ -82,7 +82,7 @@
   {
     "title": "如何通过项目复盘来加速个人成长",
     "description": "同样工作年限的人，能力可能差别很大。工作 5 年的前端，有的只会做简单的任务，有的已经可以独当一面了。导致这种情况的原因有很多，本质是成长的速度不同。复盘可以加速个人成长。本文主要...",
-    "votes": "101",
+    "votes": "102",
     "url": "/k/ys08f63",
     "avatar": "https://img.toutiao.io/subject/0fbaad0d2a7744dd911eff08a456d6d9/thumb",
     "avatarAlt": "WEB 前端文章收藏 - 独家号",
@@ -120,6 +120,16 @@
     "homeUrl": "/subjects/464469"
   },
   {
+    "title": "教您 10 分钟搭建一个内网穿透服务",
+    "description": "FRP 内网穿透需求背景最近小王公司接个对接公众账号应用开发的项目，其中有个功能需求是\"用户关注公众账号后发送特定消息后公众账号需要回复一个二维码海报“。了解需求后，便查看了微信接...",
+    "votes": "92",
+    "url": "/k/dsr2yzw",
+    "avatar": "https://img.toutiao.io/subject/458b6ea460f040a29ef5367bba238db7/thumb",
+    "avatarAlt": "猴哥说Java - 独家号",
+    "subjectName": "猴哥说Java",
+    "homeUrl": "/subjects/107202"
+  },
+  {
     "title": "基于 K8s 的集群稳定架构",
     "description": "前言我司的集群时刻处于崩溃的边缘，通过近三个月的掌握，发现我司的集群不稳定的原因有以下几点：1、发版流程不稳定2、缺少监控平台【最重要的原因】3、缺少日志系统4、极度缺少有关操作文...",
     "votes": "88",
@@ -130,19 +140,9 @@
     "homeUrl": "/subjects/194141"
   },
   {
-    "title": "教您 10 分钟搭建一个内网穿透服务",
-    "description": "FRP 内网穿透需求背景最近小王公司接个对接公众账号应用开发的项目，其中有个功能需求是\"用户关注公众账号后发送特定消息后公众账号需要回复一个二维码海报“。了解需求后，便查看了微信接...",
-    "votes": "91",
-    "url": "/k/dsr2yzw",
-    "avatar": "https://img.toutiao.io/subject/458b6ea460f040a29ef5367bba238db7/thumb",
-    "avatarAlt": "猴哥说Java - 独家号",
-    "subjectName": "猴哥说Java",
-    "homeUrl": "/subjects/107202"
-  },
-  {
     "title": "一文教你如何学会写 Shell 脚本",
     "description": " 做 Java 的肯定都接触过 Linux 系统，那么很多时候我们在开发的过程中都是把我们项目打成一个jar包，或者是war包的形式，然后通过 XFTP 上传到我们服务器的指定目录...",
-    "votes": "93",
+    "votes": "95",
     "url": "/k/88px9ws",
     "avatar": "https://img.toutiao.io/subject/594f5c3afbcf4b40ae6216fd65d57afa/thumb",
     "avatarAlt": "小南国 - 独家号",
@@ -190,6 +190,16 @@
     "homeUrl": "/subjects/182218"
   },
   {
+    "title": "领导为什么不听我的汇报和授权方法",
+    "description": "背景 国庆放假期间，为了不让大家在假期太烧脑，还是再来一篇综合能力培训的文章。领导为什么不听我的汇报？ 下面三点造成汇报的失败 1、没有框架2、陷入细节3、仓促回答汇报小贴士 1、...",
+    "votes": "73",
+    "url": "/k/derylod",
+    "avatar": "https://img.toutiao.io/subject/4325865040b44c0b9e2d8d80a83d1d11/thumb",
+    "avatarAlt": "编程一生 - 独家号",
+    "subjectName": "编程一生",
+    "homeUrl": "/subjects/350352"
+  },
+  {
     "title": "发票总库 DDD 实践",
     "description": " 总篇117篇 2021年第8篇 背景 DDD是一套完善的系统设计方法，可以帮助我们在系统设计的过程中缕清思路，规范流程，降低系统建设的复杂度，同时DDD的领域建模过程也是团队成员...",
     "votes": "72",
@@ -200,19 +210,9 @@
     "homeUrl": "/subjects/4829"
   },
   {
-    "title": "领导为什么不听我的汇报和授权方法",
-    "description": "背景 国庆放假期间，为了不让大家在假期太烧脑，还是再来一篇综合能力培训的文章。领导为什么不听我的汇报？ 下面三点造成汇报的失败 1、没有框架2、陷入细节3、仓促回答汇报小贴士 1、...",
-    "votes": "70",
-    "url": "/k/derylod",
-    "avatar": "https://img.toutiao.io/subject/4325865040b44c0b9e2d8d80a83d1d11/thumb",
-    "avatarAlt": "编程一生 - 独家号",
-    "subjectName": "编程一生",
-    "homeUrl": "/subjects/350352"
-  },
-  {
     "title": "聊聊 JVM 调优",
     "description": "大家好，我是捡田螺的小男孩~今天给大家推荐一篇JVM好文文章总体结构 本文中，我们将按照如下结构介绍JVM的整体架构和调优参数。JVM的分类 这里，我们先来说说什么是VM吧，VM的...",
-    "votes": "69",
+    "votes": "70",
     "url": "/k/tbiemos",
     "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
     "avatarAlt": "Bloomingroses - 独家号",
@@ -222,7 +222,7 @@
   {
     "title": "开源｜bilibili 开源的，基于 AST 和 Golang 语言实现的规则引擎",
     "description": "bilibili 开源的，基于 AST 和 Golang 语言实现的规则引擎。 它能够让你在 Golang 这种静态语言上，在不停服务的情况下实现动态加载与配置规则。 以上内容选自...",
-    "votes": "66",
+    "votes": "67",
     "url": "/k/qm04a3h",
     "avatar": "https://img.toutiao.io/subject/d2f421bbe0be47369b6560e316a5153b/thumb",
     "avatarAlt": "头条精选 - 独家号",
@@ -232,7 +232,7 @@
   {
     "title": "如何优雅地记录操作日志？",
     "description": " 总第471篇 2021年 第041篇  操作日志几乎存在于每个系统中，而这些系统都有记录操作日志的一套 API。操作日志和系统日志不一样，操作日志必须要做到简单易懂。所以如何让操...",
-    "votes": "63",
+    "votes": "64",
     "url": "/k/l5h2n30",
     "avatar": "https://img.toutiao.io/subject/50e9b8208bfd488897fed22d15d9aa0e/thumb",
     "avatarAlt": "美团技术团队 - 独家号",
@@ -240,13 +240,13 @@
     "homeUrl": "/subjects/117027"
   },
   {
-    "title": "一套优雅的 Go 错误问题解决方案",
-    "description": " 作者：andruzhang，腾讯 IEG 后台开发工程师在使用 Go 开发的后台服务中，对于错误处理，一直以来都有多种不同的方案，本文探讨并提出一种从服务内到服务外的错误传递、返...",
-    "votes": "66",
-    "url": "/k/8qf7wmi",
-    "avatar": "https://img.toutiao.io/subject/9d058a96b0484f65a93e575731c3dbf3/thumb",
-    "avatarAlt": "落北的mark簿 - 独家号",
-    "subjectName": "落北的mark簿",
-    "homeUrl": "/subjects/123823"
+    "title": "软件架构之原则、风格和实践",
+    "description": "好的架构可以更容易的支持业务演进，更容易修改，容错性更好。而糟糕的架构就像一团浆糊，一点小小的改动可能都会对原有功能造成破坏。本文从很高层的角度介绍了什么是糟糕的架构，什么好的架构...",
+    "votes": "63",
+    "url": "/k/24c1qgi",
+    "avatar": "https://img.toutiao.io/default-avatar.png",
+    "avatarAlt": "DeepNoMind - 独家号",
+    "subjectName": "DeepNoMind",
+    "homeUrl": "/subjects/460290"
   }
 ]
