@@ -1,65 +1,47 @@
 [
   {
-    "title": "Node.js 断路器简介",
-    "description": "当我们使用传统的 CS 架构时，服务端由于故障等原因将请求堵塞，可能会导致客户端的请求失去响应，进而在一段时间后导致一批用户无法获得服务。而这种情况可能影响范围是有限，可以预估的。然而，在微服务体系下...",
-    "url": "https://segmentfault.com/a/1190000040818039",
-    "author": "ES2049",
-    "home_url": "https://segmentfault.com/u/alisecued",
+    "title": "LeetCode-092-反转链表 II",
+    "description": "题目描述：给你单链表的头指针 head 和两个整数 left 和 right ，其中 left <= right 。请你反转从位置 left 到位置 right 的链表节点，返回 反转后的链表 。示例说明请见LeetCode官网。来源：力扣（LeetCode...",
+    "url": "https://segmentfault.com/a/1190000040819771",
+    "author": "雄狮虎豹",
+    "home_url": "https://segmentfault.com/u/xiongshihubao",
     "votes": "2",
     "rank": 1
   },
   {
-    "title": "手动修改 node_modules 中的依赖包（patch-package）",
-    "description": "首先，问题是这样发生的，在项目中使用pdfvuer第三方插件，要将已经盖章成功的pdf显示出来，这个时候发现文章可以好好的显示出来，但是公司的签章怎么也显示不出来，这个时候终于找到了解决办法！！但是显示签章...",
-    "url": "https://segmentfault.com/a/1190000040817639",
-    "author": "阿一",
-    "home_url": "https://segmentfault.com/u/huhuy",
+    "title": "总线",
+    "description": "俗话说，要想富，先修路。国家修了大大小小很多的道路，有乡间小路，有省道，有国道，但是依然没有解决人们的出行难题，道路限速，道路复杂找不到路，车辆拥挤。于是，国家修建了高速公路。高速公路笔直宽阔，最...",
+    "url": "https://segmentfault.com/a/1190000040821251",
+    "author": "小强Zzz",
+    "home_url": "https://segmentfault.com/u/zhaokaiqiang",
     "votes": "1",
     "rank": 2
   },
   {
-    "title": "文件编码， vim 修改编码",
-    "description": "概念：呈现再我们眼前的所有文字字符都是unicode 字符集， unicode 字符集如何保存？通常是用不同的编码编码成字节来存储，常见的有utf-8, gb2312等",
-    "url": "https://segmentfault.com/a/1190000040817263",
-    "author": "zed2015",
-    "home_url": "https://segmentfault.com/u/zed2015",
+    "title": "重识CurdRepository",
+    "description": "有一个需求：判断数据库中是否存在name为xxx的数据。由于在记忆中抹除了关于CurdRepository的提供的方法。所以在实现该功能的时候并没有想到findByxxx方法。",
+    "url": "https://segmentfault.com/a/1190000040821189",
+    "author": "郝泽龙_HZ",
+    "home_url": "https://segmentfault.com/u/haozelong_hz",
     "votes": "1",
     "rank": 3
   },
   {
-    "title": "Webpack 原理系列九：Tree-Shaking 实现原理",
-    "description": "Tree-Shaking 是一种基于 ES Module 规范的 Dead Code Elimination 技术，它会在运行过程中静态分析模块之间的导入导出，确定 ESM 模块中哪些导出值未曾其它模块使用，并将其删除，以此实现打包产物的优化。",
-    "url": "https://segmentfault.com/a/1190000040814997",
-    "author": "范文杰",
-    "home_url": "https://segmentfault.com/u/fanwenjie",
+    "title": "angular组验证器",
+    "description": "我们在对表单进行验证时，有时需要对多个字段同时进行验证，对不同字段的值进行比较，并针对它们的组合判断是否验证通过，在这种情况下使用对单一字段进行验证的验证器难以实现，这个时候就需要用到组验证器，在...",
+    "url": "https://segmentfault.com/a/1190000040821143",
+    "author": "李国稳",
+    "home_url": "https://segmentfault.com/u/meng_60ba0d4174d72",
     "votes": "1",
     "rank": 4
   },
   {
-    "title": "一位拖延症患者程序员的自我救赎！",
-    "description": "关于时间管理、如何做计划、如何提高执行力...等等相关的话题其实很早之前我就想写了，但一直拖着迟迟没有动笔。但是这次我想了又想，不能再拖了。",
-    "url": "https://segmentfault.com/a/1190000040814550",
-    "author": "CodeSheep",
-    "home_url": "https://segmentfault.com/u/hansonwang99",
-    "votes": "2",
+    "title": "算法（leetode，附思维导图 + 全部解法）300题之（4）寻找两个正序数组的中位数",
+    "description": "标题：算法（leetode，附思维导图 + 全部解法）300题之（4）寻找两个正序数组的中位数一 题目描述二 解法总览（思维导图）三 全部解法1 方案11)代码： {代码...} 2 方案21)代码： {代码...} 3 方案31)代码： {代...",
+    "url": "https://segmentfault.com/a/1190000040820997",
+    "author": "码农三少",
+    "home_url": "https://segmentfault.com/u/chenyob",
+    "votes": "1",
     "rank": 5
-  },
-  {
-    "title": "前端-JavaScript基础知识",
-    "description": "函数优先：编程语言中的函数可以被当作参数传递给其他函数，可以作为另一个函数的返回值，还可以被赋值给一个变量。解释型：对标编译型语言，编译型需预先将源码编成中间码，再由解释器解释运行。解释型不需要预...",
-    "url": "https://segmentfault.com/a/1190000040818642",
-    "author": "编程码农",
-    "home_url": "https://segmentfault.com/u/onlythinking",
-    "votes": "1",
-    "rank": 6
-  },
-  {
-    "title": "BFE Ingress Controller正式发布！",
-    "description": "BFE Ingress Controller是基于 BFE 实现的Kubernetes Ingress Controller，用于支持在 Kubernetes 中使用 Ingress来暴露服务并进行负载均衡、SSL终结等，目前已正式发布并可以下载使用。BFE Ingress Controller采...",
-    "url": "https://segmentfault.com/a/1190000040815822",
-    "author": "BFE开源项目",
-    "home_url": "https://segmentfault.com/u/bfe_project",
-    "votes": "1",
-    "rank": 7
   }
 ]
