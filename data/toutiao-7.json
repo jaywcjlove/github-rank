@@ -2,7 +2,7 @@
   {
     "title": "团队管理那点破事！OKR 绩效、核心人才、面试、技术分享、研发流程",
     "description": "大家好，我是Tom哥~今天来聊聊团队管理，可能你现在还是一线开发，没有带团队，感觉这个话题与你无关，其实不然。程序员的职业生涯曲折，技术更新迭代快，走技术深度，走架构师路线，势必要...",
-    "votes": "129",
+    "votes": "140",
     "url": "/k/135ujiu",
     "avatar": "https://img.toutiao.io/subject/83f7c83d300b4884a690ef12a32a86ab/thumb",
     "avatarAlt": "微观技术 - 独家号",
@@ -10,29 +10,9 @@
     "homeUrl": "/subjects/348507"
   },
   {
-    "title": "[译] 写给工程师：关于证书和公钥基础设施的一切 (SmallStep, 2018)",
-    "description": "[译] 写给工程师：关于证书（certificate）和公钥基础设施（PKI）的一切（SmallStep, 2018）Published at 2021-10-07 | Last ...",
-    "votes": "97",
-    "url": "/k/qnglkcl",
-    "avatar": "https://img.toutiao.io/subject/7518167e2b974f259bd5782ec21a604d/thumb",
-    "avatarAlt": "ArthurChiao - 独家号",
-    "subjectName": "ArthurChiao",
-    "homeUrl": "/subjects/381904"
-  },
-  {
-    "title": "Kafka 为什么要放弃 Zookeeper",
-    "description": "最近，confluent社区发表了一篇文章，主要讲述了Kafka未来的2.8版本将要放弃Zookeeper，这对于Kafka用户来说，是一个重要的改进。之前部署Kafka就必须得部...",
-    "votes": "79",
-    "url": "/k/98g49tv",
-    "avatar": "https://img.toutiao.io/subject/9635116a54eb4217a569629335a3ee45/thumb",
-    "avatarAlt": "公众号：捉虫大师 - 独家号",
-    "subjectName": "公众号：捉虫大师",
-    "homeUrl": "/subjects/324911"
-  },
-  {
     "title": "如何高效刷 LeetCode",
     "description": " 心理建设篇在讲述具体的方法之前，先要明白一件事。凡事都分『道』与『术』。本问题下面大部分回答介绍的都是『术』。而对于刷LeetCode这件事，无论你看到多少高明的的方法，如果你不...",
-    "votes": "75",
+    "votes": "85",
     "url": "/k/ws2do5o",
     "avatar": "https://img.toutiao.io/subject/e948c89ae16443f2becdf23615fa20cc/thumb",
     "avatarAlt": "果冻虾仁 - 独家号",
@@ -40,9 +20,19 @@
     "homeUrl": "/subjects/99877"
   },
   {
+    "title": "Kafka 为什么要放弃 Zookeeper",
+    "description": "最近，confluent社区发表了一篇文章，主要讲述了Kafka未来的2.8版本将要放弃Zookeeper，这对于Kafka用户来说，是一个重要的改进。之前部署Kafka就必须得部...",
+    "votes": "81",
+    "url": "/k/98g49tv",
+    "avatar": "https://img.toutiao.io/subject/9635116a54eb4217a569629335a3ee45/thumb",
+    "avatarAlt": "公众号：捉虫大师 - 独家号",
+    "subjectName": "公众号：捉虫大师",
+    "homeUrl": "/subjects/324911"
+  },
+  {
     "title": "Go 业务开发中常用的几个开源库",
     "description": "前言 哈喽，大家好，我是asong。拖更了好久，这周开始更新。最近总有一些初学Go语言的小伙伴问我在业务开发中一般都使用什么web框架、开源中间件；所以我总结了我在日常开发中使用到...",
-    "votes": "68",
+    "votes": "75",
     "url": "/k/4hr4ykg",
     "avatar": "https://img.toutiao.io/subject/967329410fda4a55b2bf84673d48ebfe/thumb",
     "avatarAlt": "asong2020 - 独家号",
@@ -52,7 +42,7 @@
   {
     "title": "推荐 14 款常用的测试开发工具",
     "description": "在本篇文章中，将给大家推荐14款日常工作中经常用到的测试开发工具神器，涵盖了自动化测试、APP性能测试、稳定性测试、抓包工具等。一、UI自动化测试工具1. uiautomator2...",
-    "votes": "59",
+    "votes": "60",
     "url": "/k/kd9j9ur",
     "avatar": "https://img.toutiao.io/subject/1be92f5a50224852895d647097a6d521/thumb",
     "avatarAlt": "人云亦云 测试 - 独家号",
@@ -60,14 +50,44 @@
     "homeUrl": "/subjects/205186"
   },
   {
+    "title": "亿级流量架构演进实战：从零构建亿级流量 API 网关（二）",
+    "description": "这不是一个讲概念的专栏，而且我也不擅长讲概念，每一篇文章都是一个故事，我希望你可以通过这些故事了解我当时在实际工作中遇到问题和背后的思考，架构设计是种经验，我有幸参与到多个亿级系统...",
+    "votes": "47",
+    "url": "/k/56161ss",
+    "avatar": "https://img.toutiao.io/subject/82ab0724eca24875b339308427ac4b35/thumb",
+    "avatarAlt": "松然聊技术 - 独家号",
+    "subjectName": "松然聊技术",
+    "homeUrl": "/subjects/388900"
+  },
+  {
     "title": "4000 字详解跳表实现（挑战全网中文最详细）",
     "description": "最近在看研究公司业务的存储架构，现有的存储用redis 和 leveldb 通过自己写的中间件做数据落地。这样写业务和数据恢复有点麻烦，想着优化一下，就去研究redis和level...",
-    "votes": "45",
+    "votes": "46",
     "url": "/k/o6unhkt",
     "avatar": "https://img.toutiao.io/subject/92d68eaeb1d94b94a89ae174b9e9556a/thumb",
     "avatarAlt": "以梦为码 - 独家号",
     "subjectName": "以梦为码",
     "homeUrl": "/subjects/106648"
+  },
+  {
+    "title": "闲鱼异地多活架构设计与实现",
+    "description": "背景首页和搜索一直以来都是闲鱼导购的主阵地，为了保证高可用业务上做了很多保护方案。但是随着原有地域的IDC日渐趋于饱和，一些更深层次的问题开始暴露出来：a）架构不具备扩展性。当服务...",
+    "votes": "37",
+    "url": "/k/sijozo4",
+    "avatar": "https://img.toutiao.io/subject/3ed8fa40fafe4ae99d932eba068ffe2b/thumb",
+    "avatarAlt": "闲鱼技术 - 独家号",
+    "subjectName": "闲鱼技术",
+    "homeUrl": "/subjects/351168"
+  },
+  {
+    "title": "从 DDD 到 PaaS 化再到一站式部署：通天塔后端通用版发展之路",
+    "description": "通用版的背景和目标通天塔是一个面向京东运营和商家的活动搭建平台，提供了丰富和强大的模板，平台用户可基于模板自由搭建活动页面。通天塔支持无线和PC页面的搭建，提供的3种搭建方式：模块...",
+    "votes": "44",
+    "url": "/k/y2rictc",
+    "avatar": "https://img.toutiao.io/subject/cc2d501408fd455d9b841cb6c8d95a6c/thumb",
+    "avatarAlt": "ASCE1885 - 独家号",
+    "subjectName": "ASCE1885",
+    "homeUrl": "/subjects/4829"
   },
   {
     "title": "Go 切片导致内存泄露，被坑两次了",
@@ -80,14 +100,24 @@
     "homeUrl": "/subjects/343446"
   },
   {
-    "title": "闲鱼异地多活架构设计与实现",
-    "description": "背景首页和搜索一直以来都是闲鱼导购的主阵地，为了保证高可用业务上做了很多保护方案。但是随着原有地域的IDC日渐趋于饱和，一些更深层次的问题开始暴露出来：a）架构不具备扩展性。当服务...",
-    "votes": "33",
-    "url": "/k/sijozo4",
-    "avatar": "https://img.toutiao.io/subject/3ed8fa40fafe4ae99d932eba068ffe2b/thumb",
-    "avatarAlt": "闲鱼技术 - 独家号",
-    "subjectName": "闲鱼技术",
-    "homeUrl": "/subjects/351168"
+    "title": "流量控制还能这么搞",
+    "description": " 一个优秀的RPC框架，流量控制是必不可少的功能之一。在上一篇文章聊聊服务注册与发现中，我们讲了微服务架构中核心功能之一服务注册与发现。在本文中，我们将着重讲下微服务的另外一个核心...",
+    "votes": "37",
+    "url": "/k/4m9r0nc",
+    "avatar": "https://img.toutiao.io/subject/b5b3dc9b66d043258e01d2d26b8c731d/thumb",
+    "avatarAlt": "公众号:高性能架构探索 - 独家号",
+    "subjectName": "公众号:高性能架构探索",
+    "homeUrl": "/subjects/465706"
+  },
+  {
+    "title": "Linux 内核：网络流量限速方案大 PK",
+    "description": "网络流量限速是一个经久不衰的话题，Linux 内核中已经实现了若干种流量限速的方式。最简单的方式是通过定期采集速率，在超过指定的速率后直接丢包，但这种方案效果不佳，不能精准地将流量...",
+    "votes": "32",
+    "url": "/k/3bj0cj6",
+    "avatar": "https://img.toutiao.io/subject/820344f9fb8c495eb4de4d90a57fb6b4/thumb",
+    "avatarAlt": "研发的日常 - 独家号",
+    "subjectName": "研发的日常",
+    "homeUrl": "/subjects/368165"
   },
   {
     "title": "一文搞懂单向散列加密：MD5、SHA-1、SHA-2 和 SHA-3",
@@ -100,29 +130,9 @@
     "homeUrl": "/subjects/418351"
   },
   {
-    "title": "聊聊 Spring Boot 项目如何实现自定义 actuator 端点",
-    "description": "点击上方蓝字关注我们01前言 用过springboot的朋友，可能会知道springboot有四大神器：自动装配、starter、cli、actuator。其中actuator可帮...",
-    "votes": "33",
-    "url": "/k/p5tphat",
-    "avatar": "https://img.toutiao.io/subject/f13d5c901ebe4d5f9509d20e36f1ee33/thumb",
-    "avatarAlt": "linyb极客之路 - 独家号",
-    "subjectName": "linyb极客之路",
-    "homeUrl": "/subjects/406737"
-  },
-  {
-    "title": "从 DDD 到 PaaS 化再到一站式部署：通天塔后端通用版发展之路",
-    "description": "通用版的背景和目标通天塔是一个面向京东运营和商家的活动搭建平台，提供了丰富和强大的模板，平台用户可基于模板自由搭建活动页面。通天塔支持无线和PC页面的搭建，提供的3种搭建方式：模块...",
-    "votes": "35",
-    "url": "/k/y2rictc",
-    "avatar": "https://img.toutiao.io/subject/cc2d501408fd455d9b841cb6c8d95a6c/thumb",
-    "avatarAlt": "ASCE1885 - 独家号",
-    "subjectName": "ASCE1885",
-    "homeUrl": "/subjects/4829"
-  },
-  {
     "title": "单例模式，真不简单",
     "description": "大家好，我是苏三，又跟大家见面了。前言 单例模式无论在我们面试，还是日常工作中，都会面对的问题。但很多单例模式的细节，值得我们深入探索一下。这篇文章透过单例模式，串联了多方面基础知...",
-    "votes": "30",
+    "votes": "34",
     "url": "/k/v6oak4s",
     "avatar": "https://img.toutiao.io/subject/96c1af0d2a0b441ca9740ee13c3e37f3/thumb",
     "avatarAlt": "苏三说技术 - 独家号",
@@ -130,49 +140,19 @@
     "homeUrl": "/subjects/453205"
   },
   {
-    "title": "面试官技巧之追问",
-    "description": "“你对本次面试有什么反馈？”一个应聘者说，“非常棒，我觉得你真正在乎我的经历和需求。不像其他的面试官，问我五年计划是什么，然后缺点是什么。我特别不喜欢面试官按照清单念问题。”得到这...",
-    "votes": "26",
-    "url": "/k/qgb2hox",
-    "avatar": "https://img.toutiao.io/subject/abcacedb06d640b3934572320d73940e/thumb",
-    "avatarAlt": "技术管理者的自我修养 - 独家号",
-    "subjectName": "技术管理者的自我修养",
-    "homeUrl": "/subjects/299823"
-  },
-  {
-    "title": "在线变更 MySQL 千万级表结构实战",
-    "description": "1.背景IM作为社交应用的基础服务，承担着即时聊天、群聊、直播、多人语音等功能。即时聊天又是众多功能模块中最重要的一个，需要维护两个用户的会话(多对多)关系，随着应用推广用户量级在...",
-    "votes": "25",
-    "url": "/k/yq5wrc8",
-    "avatar": "https://img.toutiao.io/subject/b88dfdffca61456c980f0ce8a42bbdda/thumb",
-    "avatarAlt": "CP技术团队 - 独家号",
-    "subjectName": "CP技术团队",
-    "homeUrl": "/subjects/459699"
-  },
-  {
-    "title": "Spring Boot 如何热加载 jar 实现动态插件？",
-    "description": "点击上方“陶陶技术笔记”关注我回复“资料”获取作者整理的大量学习资料！一、背景 动态插件化编程是一件很酷的事情，能实现业务功能的 「解耦」 便于维护，另外也可以提升 「可扩展性」 ...",
-    "votes": "27",
-    "url": "/k/97qzrhr",
-    "avatar": "https://img.toutiao.io/subject/669b39ba3005429ea2ffc929debc32c2/thumb",
-    "avatarAlt": "陶陶技术笔记 - 独家号",
-    "subjectName": "陶陶技术笔记",
-    "homeUrl": "/subjects/419569"
-  },
-  {
-    "title": "业务分析模型，该怎么搭建",
-    "description": "很多同学最怕听“建模型”仨字。尤其是建立“业务分析模型”。往往自己辛辛苦苦搞的LR、SVM、CNN被业务方狂喷：你这都是啥东西！脱离业务！不切实际！所以到底什么是“业务分析模型”，...",
-    "votes": "26",
-    "url": "/k/yy2hwc6",
-    "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
-    "avatarAlt": "乱点技能树 - 独家号",
-    "subjectName": "乱点技能树",
-    "homeUrl": "/subjects/194141"
+    "title": "技术人必备的 6 种思维",
+    "description": " 作者：gordoncheng  腾讯专家工程师00 思维的重要性 在回顾一些往事时，我们有时候会发现，自己处理过的某个事情其实可以做得更好；在一个团队中，两个技术水平相当的员工，...",
+    "votes": "34",
+    "url": "/k/zc4cuah",
+    "avatar": "https://img.toutiao.io/subject/cc2d501408fd455d9b841cb6c8d95a6c/thumb",
+    "avatarAlt": "ASCE1885 - 独家号",
+    "subjectName": "ASCE1885",
+    "homeUrl": "/subjects/4829"
   },
   {
     "title": "再谈 TCP 拥塞控制",
     "description": "来自公众号：后端研究所1.拥塞控制简史来看下维基百科对TCP/IP协议栈的一些介绍，笔者做了少量的修改来确保语句通顺：互联网协议套件是一个网络通信模型以及整个网络传输协议家族，由于...",
-    "votes": "26",
+    "votes": "31",
     "url": "/k/1rzyidu",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -180,23 +160,43 @@
     "homeUrl": "/subjects/26578"
   },
   {
-    "title": "Linux 内核：网络流量限速方案大 PK",
-    "description": "网络流量限速是一个经久不衰的话题，Linux 内核中已经实现了若干种流量限速的方式。最简单的方式是通过定期采集速率，在超过指定的速率后直接丢包，但这种方案效果不佳，不能精准地将流量...",
-    "votes": "24",
-    "url": "/k/3bj0cj6",
-    "avatar": "https://img.toutiao.io/subject/820344f9fb8c495eb4de4d90a57fb6b4/thumb",
-    "avatarAlt": "研发的日常 - 独家号",
-    "subjectName": "研发的日常",
-    "homeUrl": "/subjects/368165"
+    "title": "面试官：如何实现扫码登录功能？",
+    "description": "真实面试小场景：经过八股和算法的交锋，老三松了口气，都hold住了。只见面试官微微一笑，“其实，我真正想问的是……你觉得扫码登录应该怎么实现。”老三：“啊……这个，哦……那个，这个...",
+    "votes": "32",
+    "url": "/k/a6nt24o",
+    "avatar": "https://img.toutiao.io/subject/785b9391ccd74d88bfc5ccd391fb4365/thumb",
+    "avatarAlt": "三分恶 - 独家号",
+    "subjectName": "三分恶",
+    "homeUrl": "/subjects/454266"
   },
   {
-    "title": "一款 Golang 的开源分布式事务管理器",
-    "description": "首款 Golang 的开源分布式事务管理器，优雅地解决了幂等、空补偿、悬挂等分布式事务难题。提供了简单易用、高性能、易水平扩展的分布式事务解决方案。以上内容选自「码农周刊 VIP ...",
-    "votes": "23",
-    "url": "/k/temtc5r",
-    "avatar": "https://img.toutiao.io/subject/d2f421bbe0be47369b6560e316a5153b/thumb",
-    "avatarAlt": "头条精选 - 独家号",
-    "subjectName": "头条精选",
-    "homeUrl": "/subjects/4"
+    "title": "在线变更 MySQL 千万级表结构实战",
+    "description": "1.背景IM作为社交应用的基础服务，承担着即时聊天、群聊、直播、多人语音等功能。即时聊天又是众多功能模块中最重要的一个，需要维护两个用户的会话(多对多)关系，随着应用推广用户量级在...",
+    "votes": "29",
+    "url": "/k/yq5wrc8",
+    "avatar": "https://img.toutiao.io/subject/b88dfdffca61456c980f0ce8a42bbdda/thumb",
+    "avatarAlt": "CP技术团队 - 独家号",
+    "subjectName": "CP技术团队",
+    "homeUrl": "/subjects/459699"
+  },
+  {
+    "title": "面试官技巧之追问",
+    "description": "“你对本次面试有什么反馈？”一个应聘者说，“非常棒，我觉得你真正在乎我的经历和需求。不像其他的面试官，问我五年计划是什么，然后缺点是什么。我特别不喜欢面试官按照清单念问题。”得到这...",
+    "votes": "28",
+    "url": "/k/qgb2hox",
+    "avatar": "https://img.toutiao.io/subject/abcacedb06d640b3934572320d73940e/thumb",
+    "avatarAlt": "技术管理者的自我修养 - 独家号",
+    "subjectName": "技术管理者的自我修养",
+    "homeUrl": "/subjects/299823"
+  },
+  {
+    "title": "Spring Boot 如何热加载 jar 实现动态插件？",
+    "description": "点击上方“陶陶技术笔记”关注我回复“资料”获取作者整理的大量学习资料！一、背景 动态插件化编程是一件很酷的事情，能实现业务功能的 「解耦」 便于维护，另外也可以提升 「可扩展性」 ...",
+    "votes": "30",
+    "url": "/k/97qzrhr",
+    "avatar": "https://img.toutiao.io/subject/669b39ba3005429ea2ffc929debc32c2/thumb",
+    "avatarAlt": "陶陶技术笔记 - 独家号",
+    "subjectName": "陶陶技术笔记",
+    "homeUrl": "/subjects/419569"
   }
 ]
