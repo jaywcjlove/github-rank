@@ -1,164 +1,38 @@
 [
   {
-    "title": "前端如何实现token的无感刷新",
-    "description": "通常，对于一些需要记录用户行为的系统，在进行网络请求的时候都会要求传递一下登录的token。不过，为了接口数据的安全，服务器的token一般不会设置太长，根据需要一般是1-7天的样子，token过期后就需要重新登录...",
-    "url": "https://segmentfault.com/a/1190000040850857",
-    "author": "xiangzhihong",
-    "home_url": "https://segmentfault.com/u/xiangzhihong",
-    "votes": "10",
+    "title": "JZ-003-从尾到头打印链表",
+    "description": "从尾到头打印链表题目描述输入一个链表，按链表从尾到头的顺序返回一个ArrayList。题目链接: 从尾到头打印链表代码 {代码...} 【每日寄语】 方向对了，就不怕路远。坚持不仅是一种品质，也是一种信念。",
+    "url": "https://segmentfault.com/a/1190000040853646",
+    "author": "雄狮虎豹",
+    "home_url": "https://segmentfault.com/u/xiongshihubao",
+    "votes": "2",
     "rank": 1
   },
   {
-    "title": "javascript实现网页截图导出方案",
-    "description": "首先，我们必须明白正常javascript是运行在浏览器里的，本身没有截图的能力。所以要想实现截图，必须通过其他迂回方案实现，废话少说，直接上结论。",
-    "url": "https://segmentfault.com/a/1190000040849728",
-    "author": "donglegend",
-    "home_url": "https://segmentfault.com/u/donglegend",
+    "title": "还在用Jenkins？试试Gitlab的CI/CD功能吧",
+    "description": "在之前，要实现自动化打包部署，一般都需要借助Jenkins。不过，现在Gitlab的CI/CD功能也能实现自动化部署，并且操作更加简单。如果你也正在使用Gitlab作为Git仓库的话，不妨试试它的CI/CD功能。",
+    "url": "https://segmentfault.com/a/1190000040852485",
+    "author": "xiangzhihong",
+    "home_url": "https://segmentfault.com/u/xiangzhihong",
     "votes": "2",
     "rank": 2
   },
   {
-    "title": "windows10安装多个版本node",
-    "description": "1.vue2/vue32.电脑系统 windows10专业版3.在使用vue2/vue3开发项目的使用,我们需要安装node,然后配置node环境,但是我们有的时候需要使用node高一点的版本,有的时候需要使用node低一点的版本,那么我们如何同时安装...",
-    "url": "https://segmentfault.com/a/1190000040849079",
-    "author": "灰太狼的情与殇",
-    "home_url": "https://segmentfault.com/u/huitailangdeqingyu",
+    "title": "关于springboot时间的一些问题",
+    "description": "&useSSL=false&serverTimezone=UTC&useUnicode=true&characterEncoding=UTF8",
+    "url": "https://segmentfault.com/a/1190000040853743",
+    "author": "jovie_Hung",
+    "home_url": "https://segmentfault.com/u/jovie_hung",
     "votes": "1",
     "rank": 3
   },
   {
-    "title": "JZ-002-替换空格",
-    "description": "请实现一个函数，将一个字符串中的每个空格替换成“%20”。例如，当字符串为We Are Happy.则经过替换之后的字符串为We%20Are%20Happy。题目链接: 替换空格",
-    "url": "https://segmentfault.com/a/1190000040851436",
-    "author": "雄狮虎豹",
-    "home_url": "https://segmentfault.com/u/xiongshihubao",
-    "votes": "2",
+    "title": "缓存一致性",
+    "description": "在对数据进行变更时，对于缓存有两种处理方法，分别是更新和删除。一般这个时候我们会选择删除缓存，原因是更新缓存可能会导致脏数据问题，看下面的例子：",
+    "url": "https://segmentfault.com/a/1190000040853296",
+    "author": "willian",
+    "home_url": "https://segmentfault.com/u/willian_5eb152f03415c",
+    "votes": "1",
     "rank": 4
-  },
-  {
-    "title": "Vue3源码分析之compositionApi",
-    "description": "TNTWeb - 全称腾讯新闻前端团队，组内小伙伴在Web前端、NodeJS开发、UI设计、移动APP等大前端领域都有所实践和积累。目前团队主要支持腾讯新闻各业务的前端开发，业务开发之余也积累沉淀了一些前端基础设施，赋能...",
-    "url": "https://segmentfault.com/a/1190000040848951",
-    "author": "TNTWEB",
-    "home_url": "https://segmentfault.com/u/tnfe",
-    "votes": "3",
-    "rank": 5
-  },
-  {
-    "title": "你设计的秒杀系统，能通过 “双十一” 大考吗？",
-    "description": "10月20日一年一度的双十一拉开帷幕，当日下午两点半，李佳琦准时开播，连续直播时长共计12个小时26分，共上架439件商品，直播间累计交易额高达115亿元，预估销量达3771万。这个交易额近乎数百个小规模公司年营收...",
-    "url": "https://segmentfault.com/a/1190000040849064",
-    "author": "snakesss",
-    "home_url": "https://segmentfault.com/u/snakesss",
-    "votes": "2",
-    "rank": 6
-  },
-  {
-    "title": "通过闭包巧解React Hook中接口请求时序问题",
-    "description": "点击按钮，调用getDataImmediate模拟ajax请求，传入数字，promise立刻返回数组，然后展示在页面上。结果符合预期，点n下，就显示n,n。",
-    "url": "https://segmentfault.com/a/1190000040851094",
-    "author": "阿古达木",
-    "home_url": "https://segmentfault.com/u/chenxiang_594a1cea112c2",
-    "votes": "1",
-    "rank": 7
-  },
-  {
-    "title": "Nodejs CMS——基于 NestJS/NuxtJS 的完整开源项目",
-    "description": "这是一款轻量级的基于 Node.js 的开源 CMS，采用前后端分离开发模式，集成了 API、后台管理、WEB 展示三个完整项目。开箱即是一套完整的企业网站，适合企业、个人直接使用或二次开发。",
-    "url": "https://segmentfault.com/a/1190000040850136",
-    "author": "王培",
-    "home_url": "https://segmentfault.com/u/givebest",
-    "votes": "4",
-    "rank": 8
-  },
-  {
-    "title": "快速入门上手Markdown",
-    "description": "第一次接触Markdown是写代码初期看很多大佬的github，他们的项目一定会有一份文件叫Readme.md的文件 他们由一些简单美观的符号和汉字字母组成，编译之后成为一篇简单直观的文档 深入了解之后我才知道，原来还有这...",
-    "url": "https://segmentfault.com/a/1190000040850009",
-    "author": "fx67ll",
-    "home_url": "https://segmentfault.com/u/wensandaoshi",
-    "votes": "1",
-    "rank": 9
-  },
-  {
-    "title": "解决微信公众平台图片不能第三方引用,显示不出来问题",
-    "description": "没有处理之前在html中的meta加入下面两行就行了 {代码...}",
-    "url": "https://segmentfault.com/a/1190000040849607",
-    "author": "王李",
-    "home_url": "https://segmentfault.com/u/wanglicode",
-    "votes": "1",
-    "rank": 10
-  },
-  {
-    "title": "vue打开页面同时播放多个视频",
-    "description": "1、安装依赖 {代码...} 2、全局引入 {代码...} 3、组件使用 {代码...}",
-    "url": "https://segmentfault.com/a/1190000040849039",
-    "author": "fantaofan",
-    "home_url": "https://segmentfault.com/u/fantaofan",
-    "votes": "1",
-    "rank": 11
-  },
-  {
-    "title": "golang微服务之注册与发现",
-    "description": "因为是上层调用是基于接口调用的，所以需要将discover和register接口化。 在discover发现endpoint有变化时，需要调用callback去更新本地的缓存，所以也需要endpoint的接口。如下",
-    "url": "https://segmentfault.com/a/1190000040848490",
-    "author": "lokabin",
-    "home_url": "https://segmentfault.com/u/lokabin",
-    "votes": "1",
-    "rank": 12
-  },
-  {
-    "title": "vue中使用Vue.extend方法仿写一个loading加载中效果",
-    "description": "需求描述本文我们使用vue的extend方法实现一个全屏loading加载效果，需求如下：通过命令就可以让弹框开启或关闭，比如this.$showDialog()开启，this.$hideDialog()关闭方法可以传参更改loading中的文字也可以传参...",
-    "url": "https://segmentfault.com/a/1190000040848258",
-    "author": "水冗水孚",
-    "home_url": "https://segmentfault.com/u/shuirongshui",
-    "votes": "1",
-    "rank": 13
-  },
-  {
-    "title": "前端实现iPhone绕过AppStore从浏览器安装App",
-    "description": "都知道 iPhone 苹果手机应用只能通过 AppStore 进行安装，测试包只能通过官方提供的 TestFlight 等工具安装，而且通常有较长的审核流程，无法及时更新安装包，非常不方便。本文主要介绍前端实现对签名成功的 App...",
-    "url": "https://segmentfault.com/a/1190000040846993",
-    "author": "dragonir",
-    "home_url": "https://segmentfault.com/u/dragonir",
-    "votes": "1",
-    "rank": 14
-  },
-  {
-    "title": "前端-JavaScript运行原理",
-    "description": "简介理解JavaScript运行原理，我们需要理解以下两方面内容。JavaScript引擎。JavaScript运行时环境。JavaScript引擎什么是JavaScript引擎JavaScript引擎是一个计算机程序，它的主要作用是JavaScript运行时将源码...",
-    "url": "https://segmentfault.com/a/1190000040851732",
-    "author": "编程码农",
-    "home_url": "https://segmentfault.com/u/onlythinking",
-    "votes": "1",
-    "rank": 15
-  },
-  {
-    "title": "得物技术时间切片的实践与应用",
-    "description": "每一个拥有【高级资深】title的前端工程师，必定会对项目的整体性能优化有自己的独到见解。这是往前端业务架构方向转变的必须要具备的能力之一。",
-    "url": "https://segmentfault.com/a/1190000040851156",
-    "author": "得物技术",
-    "home_url": "https://segmentfault.com/u/dewujishu",
-    "votes": "1",
-    "rank": 16
-  },
-  {
-    "title": "React全新文档终于来了",
-    "description": "React一直被吐槽官方文档对新手不友好，而且自从v16.8出现Hooks后，Hooks逐渐成为React主要发展方向，新特性都会基于Hooks开发。",
-    "url": "https://segmentfault.com/a/1190000040848627",
-    "author": "卡颂",
-    "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "1",
-    "rank": 17
-  },
-  {
-    "title": "wget命令8种实用用法",
-    "description": "wget 是一个可以从网络上下载文件的免费实用程序，它的工作原理是从 Internet 上获取数据，并将其保存到本地文件中或显示在你的终端上。",
-    "url": "https://segmentfault.com/a/1190000040848581",
-    "author": "良许",
-    "home_url": "https://segmentfault.com/u/liangxu_5d63396040bb5",
-    "votes": "2",
-    "rank": 18
   }
 ]
