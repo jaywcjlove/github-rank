@@ -1,38 +1,47 @@
 [
   {
-    "title": "JZ-003-从尾到头打印链表",
-    "description": "从尾到头打印链表题目描述输入一个链表，按链表从尾到头的顺序返回一个ArrayList。题目链接: 从尾到头打印链表代码 {代码...} 【每日寄语】 方向对了，就不怕路远。坚持不仅是一种品质，也是一种信念。",
-    "url": "https://segmentfault.com/a/1190000040853646",
-    "author": "雄狮虎豹",
-    "home_url": "https://segmentfault.com/u/xiongshihubao",
+    "title": "前端代码库里的 git hooks",
+    "description": "本篇文章收获什么：git hooks 的基本知识yorkie 的原理浅析如何使用 本地 vscode 打开 github 项目故事是这样的：我：在npm run lint脚本里面加了vue-tsc --noEmit --skipLibCheck && ....这个命令后，--...",
+    "url": "https://segmentfault.com/a/1190000040855590",
+    "author": "混子的日常",
+    "home_url": "https://segmentfault.com/u/1023",
     "votes": "2",
     "rank": 1
   },
   {
-    "title": "还在用Jenkins？试试Gitlab的CI/CD功能吧",
-    "description": "在之前，要实现自动化打包部署，一般都需要借助Jenkins。不过，现在Gitlab的CI/CD功能也能实现自动化部署，并且操作更加简单。如果你也正在使用Gitlab作为Git仓库的话，不妨试试它的CI/CD功能。",
-    "url": "https://segmentfault.com/a/1190000040852485",
-    "author": "xiangzhihong",
-    "home_url": "https://segmentfault.com/u/xiangzhihong",
+    "title": "JZ-004-重建二叉树",
+    "description": "输入某二叉树的前序遍历和中序遍历的结果，请重建出该二叉树。假设输入的前序遍历和中序遍历的结果中都不含重复的数字。例如输入前序遍历序列{1,2,4,7,3,5,6,8}和中序遍历序列{4,7,2,1,5,3,8,6}，则重建二叉树并...",
+    "url": "https://segmentfault.com/a/1190000040855037",
+    "author": "雄狮虎豹",
+    "home_url": "https://segmentfault.com/u/xiongshihubao",
     "votes": "2",
     "rank": 2
   },
   {
-    "title": "关于springboot时间的一些问题",
-    "description": "&useSSL=false&serverTimezone=UTC&useUnicode=true&characterEncoding=UTF8",
-    "url": "https://segmentfault.com/a/1190000040853743",
-    "author": "jovie_Hung",
-    "home_url": "https://segmentfault.com/u/jovie_hung",
-    "votes": "1",
+    "title": "收藏这36个正则表达式，开发效率提高80%",
+    "description": "我们在日常的Java开发中，经常需要处理一些字符串，这个时候正则表达式是非常有用的。几乎在所有的编程语言中都支持正则表达式。以下我将压箱底多年的干货搬出来给大家参考，都是我们日常使用频次比较高的正则表...",
+    "url": "https://segmentfault.com/a/1190000040856306",
+    "author": "Tom弹架构",
+    "home_url": "https://segmentfault.com/u/gupaoedu_tom",
+    "votes": "2",
     "rank": 3
   },
   {
-    "title": "缓存一致性",
-    "description": "在对数据进行变更时，对于缓存有两种处理方法，分别是更新和删除。一般这个时候我们会选择删除缓存，原因是更新缓存可能会导致脏数据问题，看下面的例子：",
-    "url": "https://segmentfault.com/a/1190000040853296",
-    "author": "willian",
-    "home_url": "https://segmentfault.com/u/willian_5eb152f03415c",
+    "title": "webpack 流程解析 (5) module reslove",
+    "description": "上文说道我们拿到了构建modlule的factory，和依赖等关键数据，通过addModuleTree经过factorizeQueue的控制走到了factory.create。这个时候就开始了reslove过程。本文主要分析，NormalModuleFactory 内部 beforeRe...",
+    "url": "https://segmentfault.com/a/1190000040856062",
+    "author": "csywweb",
+    "home_url": "https://segmentfault.com/u/csywweb",
     "votes": "1",
     "rank": 4
+  },
+  {
+    "title": "【一文秒懂】电商系统商品模块初建分析与设计",
+    "description": "创建《一文秒懂》这个专栏与以往《Grace development》和我博客的个人分享文章不同，我对《一文秒懂》这个专栏的定位是一个有态度，高标准的技术专栏，而《Grace development》我依旧会讲一些我们日常中会碰到的...",
+    "url": "https://segmentfault.com/a/1190000040855949",
+    "author": "CrazyCodes",
+    "home_url": "https://segmentfault.com/u/crazycodes",
+    "votes": "1",
+    "rank": 5
   }
 ]
