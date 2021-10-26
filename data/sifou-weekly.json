@@ -1,21 +1,12 @@
 [
   {
-    "title": "7分钟学会写一个浏览器插件——突破某SDN未登录禁止复制的限制",
-    "description": "严格意义上说，本篇文章要讨论的应该是 “Chrome 扩展(Extension)”而不是“Chrome 插件（Plugins）”，大家不妨先思考一个问题：“浏览器插件”和“浏览器扩展”之间有什么区别？如果您对此感到厌烦，不妨直接跳过此小节...",
-    "url": "https://segmentfault.com/a/1190000040824814",
-    "author": "独钓寒江雪",
-    "home_url": "https://segmentfault.com/u/king_hcj",
-    "votes": "19",
-    "rank": 1
-  },
-  {
     "title": "前端如何防止用户修改水印？",
     "description": "这篇文章聊到的「前端水印防篡改」方法，本来是想作为一份专利提交给公司的，但我下笔之前去国内的专利检索网站上搜了下，发现一模一样的方案已经被申请了，是一位字节跳动的哥们在今年年初递交的。",
     "url": "https://segmentfault.com/a/1190000040840891",
     "author": "劉凯里",
     "home_url": "https://segmentfault.com/u/kyrieliu",
-    "votes": "12",
-    "rank": 2
+    "votes": "15",
+    "rank": 1
   },
   {
     "title": "就因为这三个知识点，我彻底学废了”正则表达式“",
@@ -24,16 +15,7 @@
     "author": "前端胖头鱼",
     "home_url": "https://segmentfault.com/u/116263",
     "votes": "16",
-    "rank": 3
-  },
-  {
-    "title": "正则表达式汇总",
-    "description": "整理一部分比较常用的正则表达式、后续会持续更新1、手机号码的校验 {代码...} 2、身份证的校验 {代码...} 3、邮箱的校验 {代码...} 4、URL的校验 {代码...} 5、IPv4的校验 {代码...} 6、16进制颜色的校验 {代码....",
-    "url": "https://segmentfault.com/a/1190000040828004",
-    "author": "小蘑菇",
-    "home_url": "https://segmentfault.com/u/xiaomogu_5f2124ad3ad42",
-    "votes": "14",
-    "rank": 4
+    "rank": 2
   },
   {
     "title": "利用 CSS Overview 面板重构优化你的网站",
@@ -42,7 +24,7 @@
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
     "votes": "9",
-    "rank": 5
+    "rank": 3
   },
   {
     "title": "一文读懂浏览器存储与缓存机制",
@@ -51,7 +33,7 @@
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
     "votes": "14",
-    "rank": 6
+    "rank": 4
   },
   {
     "title": "驳“低代码开发取代程序员”论 为什么专业开发者也需要低代码？",
@@ -60,7 +42,7 @@
     "author": "六一",
     "home_url": "https://segmentfault.com/u/suicidal_romantic_scoundrel",
     "votes": "5",
-    "rank": 7
+    "rank": 5
   },
   {
     "title": "uniapp云函数教程② ：商品列表增删改查",
@@ -69,7 +51,16 @@
     "author": "JenK",
     "home_url": "https://segmentfault.com/u/wangzc996",
     "votes": "4",
-    "rank": 8
+    "rank": 6
+  },
+  {
+    "title": "你设计的秒杀系统，能通过 “双十一” 大考吗？",
+    "description": "10月20日一年一度的双十一拉开帷幕，当日下午两点半，李佳琦准时开播，连续直播时长共计12个小时26分，共上架439件商品，直播间累计交易额高达115亿元，预估销量达3771万。这个交易额近乎数百个小规模公司年营收...",
+    "url": "https://segmentfault.com/a/1190000040849064",
+    "author": "snakesss",
+    "home_url": "https://segmentfault.com/u/snakesss",
+    "votes": "5",
+    "rank": 7
   },
   {
     "title": "42+JavaScript高频手写题及详细答案，胖头鱼喊你直接通过考核",
@@ -78,34 +69,7 @@
     "author": "前端胖头鱼",
     "home_url": "https://segmentfault.com/u/116263",
     "votes": "13",
-    "rank": 9
-  },
-  {
-    "title": "你设计的秒杀系统，能通过 “双十一” 大考吗？",
-    "description": "10月20日一年一度的双十一拉开帷幕，当日下午两点半，李佳琦准时开播，连续直播时长共计12个小时26分，共上架439件商品，直播间累计交易额高达115亿元，预估销量达3771万。这个交易额近乎数百个小规模公司年营收...",
-    "url": "https://segmentfault.com/a/1190000040849064",
-    "author": "snakesss",
-    "home_url": "https://segmentfault.com/u/snakesss",
-    "votes": "3",
-    "rank": 10
-  },
-  {
-    "title": "记录：Webpack5把微前端qiankun的配置文件干没了",
-    "description": "从一个快要下班的BUG开始，由于原部门同事想要基于一个项目再拆分出几个项目，我们本来用的是qiankun(基座模式)的微前端模式，再拆分其实是比较简单的",
-    "url": "https://segmentfault.com/a/1190000040842378",
-    "author": "Peter谭老师",
-    "home_url": "https://segmentfault.com/u/jerrytanjinjie",
-    "votes": "5",
-    "rank": 11
-  },
-  {
-    "title": "初探JavaScript PDF blob转换为Word docx方法",
-    "description": "PDF文档遵循iOS32000的规范是由Adobe 公司推出的文档格式，之所以应用如此广泛，是因为PDF精确定位了每个字符的坐标、根据坐标绘制的各种形状，使用PDF格式传输和打印文档可以保证格式的一致性，然后很多PDF文件...",
-    "url": "https://segmentfault.com/a/1190000040837967",
-    "author": "葡萄城技术团队",
-    "home_url": "https://segmentfault.com/u/grapecity",
-    "votes": "6",
-    "rank": 12
+    "rank": 8
   },
   {
     "title": "前端如何实现token的无感刷新",
@@ -114,7 +78,34 @@
     "author": "xiangzhihong",
     "home_url": "https://segmentfault.com/u/xiangzhihong",
     "votes": "11",
-    "rank": 13
+    "rank": 9
+  },
+  {
+    "title": "记录：Webpack5把微前端qiankun的配置文件干没了",
+    "description": "从一个快要下班的BUG开始，由于原部门同事想要基于一个项目再拆分出几个项目，我们本来用的是qiankun(基座模式)的微前端模式，再拆分其实是比较简单的",
+    "url": "https://segmentfault.com/a/1190000040842378",
+    "author": "Peter谭老师",
+    "home_url": "https://segmentfault.com/u/jerrytanjinjie",
+    "votes": "5",
+    "rank": 10
+  },
+  {
+    "title": "初探JavaScript PDF blob转换为Word docx方法",
+    "description": "PDF文档遵循iOS32000的规范是由Adobe 公司推出的文档格式，之所以应用如此广泛，是因为PDF精确定位了每个字符的坐标、根据坐标绘制的各种形状，使用PDF格式传输和打印文档可以保证格式的一致性，然后很多PDF文件...",
+    "url": "https://segmentfault.com/a/1190000040837967",
+    "author": "葡萄城技术团队",
+    "home_url": "https://segmentfault.com/u/grapecity",
+    "votes": "6",
+    "rank": 11
+  },
+  {
+    "title": "华为在HDC2021发布全新HMS Core 6 宣布跨OS能力开放",
+    "description": "【2021年10月22日·东莞】华为开发者大会 2021（Together）于今天正式开幕，华为在主题演讲中正式发布全新的HMS Core 6，向全球开发者开放7大领域的69个Kit和21,738个API，包括13个跨操作系统能力，开发者基于不同...",
+    "url": "https://segmentfault.com/a/1190000040851457",
+    "author": "华为移动服务",
+    "home_url": "https://segmentfault.com/u/hms_core",
+    "votes": "1",
+    "rank": 12
   },
   {
     "title": "try..catch 不能捕获的错误有哪些？注意事项又有哪些？",
@@ -123,7 +114,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "5",
-    "rank": 14
+    "rank": 13
   },
   {
     "title": "异构智联Wi-Fi6+蓝牙模组，重新定义多屏互联体验！",
@@ -132,7 +123,7 @@
     "author": "华为移动服务",
     "home_url": "https://segmentfault.com/u/hms_core",
     "votes": "1",
-    "rank": 15
+    "rank": 14
   },
   {
     "title": "数据库设计的 6 个阶段详解",
@@ -141,7 +132,7 @@
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "5",
-    "rank": 16
+    "rank": 15
   },
   {
     "title": "一张思维大图入门React",
@@ -149,17 +140,17 @@
     "url": "https://segmentfault.com/a/1190000040835809",
     "author": "执鸢者",
     "home_url": "https://segmentfault.com/u/zhizhe_5c6eb6478bd93",
-    "votes": "6",
-    "rank": 17
+    "votes": "7",
+    "rank": 16
   },
   {
-    "title": "PingCAP CTO 黄东旭 ：基础软件“好用”指南——必须跨越这两道鸿沟！",
-    "description": "最近有一件事情让我印象特别深刻，作为引子和大家唠一唠：我们在内部做一些极端的流量回归仿真实验时，在 TiKV（TiDB 的分布式存储组件）上观测到了异常的 CPU 使用率，但是从我们的 Grafana Metrics、日志输出里...",
-    "url": "https://segmentfault.com/a/1190000040826531",
-    "author": "PingCAP",
-    "home_url": "https://segmentfault.com/u/pingcap",
-    "votes": "3",
-    "rank": 18
+    "title": "Nodejs CMS——基于 NestJS/NuxtJS 的完整开源项目",
+    "description": "这是一款轻量级的基于 Node.js 的开源 CMS，采用前后端分离开发模式，集成了 API、后台管理、WEB 展示三个完整项目。开箱即是一套完整的企业网站，适合企业、个人直接使用或二次开发。",
+    "url": "https://segmentfault.com/a/1190000040850136",
+    "author": "王培",
+    "home_url": "https://segmentfault.com/u/givebest",
+    "votes": "7",
+    "rank": 17
   },
   {
     "title": "使用CSS计数器美化有序列表",
@@ -168,16 +159,7 @@
     "author": "dragonir",
     "home_url": "https://segmentfault.com/u/dragonir",
     "votes": "5",
-    "rank": 19
-  },
-  {
-    "title": "直接拿来用！盘点一些拯救头发的 JS 单行代码，网友：摸鱼必备啊",
-    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000040782397",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "4",
-    "rank": 20
+    "rank": 18
   },
   {
     "title": "Vue3源码分析之compositionApi",
@@ -186,25 +168,7 @@
     "author": "TNTWEB",
     "home_url": "https://segmentfault.com/u/tnfe",
     "votes": "4",
-    "rank": 21
-  },
-  {
-    "title": "运动与数据的碰撞，华为分析运动健康行业模板上线",
-    "description": "近年来，越来越多的人开始关注身体健康，注重养生。市场上不断涌入一些运动健康类的APP，如跑步、冥想、瑜伽等。一些APP推出的健身课程，让大家可以足不出户锻炼身体，极大地提高了居家运动的便利性。",
-    "url": "https://segmentfault.com/a/1190000040825779",
-    "author": "华为移动服务",
-    "home_url": "https://segmentfault.com/u/hms_core",
-    "votes": "0",
-    "rank": 22
-  },
-  {
-    "title": "Go 创始人 Rob Pike 反对在 Go 1.18 标准库中引入泛型支持：建议不要改动 Go 1.18 中的标准库",
-    "description": "近日，Go 语言创始人之一 Rob Pike 在 Github 上发表评论引发关注。据悉，他已在 Go 代码仓库提交了一个 issue (#48918)，反对在 Go 1.18 的标准库中引入泛型支持，建议不要改动 Go 1.18 中的标准库。",
-    "url": "https://segmentfault.com/a/1190000040826008",
-    "author": "MissD",
-    "home_url": "https://segmentfault.com/u/d2ms1shh",
-    "votes": "2",
-    "rank": 23
+    "rank": 19
   },
   {
     "title": "前端实现iPhone绕过AppStore从浏览器安装App",
@@ -213,16 +177,7 @@
     "author": "dragonir",
     "home_url": "https://segmentfault.com/u/dragonir",
     "votes": "5",
-    "rank": 24
-  },
-  {
-    "title": "我带的实习生，转正了！",
-    "description": "然后我说：在我们组里面，不必拘谨，大家在平时沟通的时候也没有上下级的关系，敞开心扉，不要有太多顾虑。我们的氛围是很 open 的，多多沟通。其实你别看我长的老，我年龄也不大，我 94 年的。对了，你哪一年的？",
-    "url": "https://segmentfault.com/a/1190000040826289",
-    "author": "why技术",
-    "home_url": "https://segmentfault.com/u/whyjishu",
-    "votes": "4",
-    "rank": 25
+    "rank": 20
   },
   {
     "title": "前端- JavaScript异步编程Promise",
@@ -231,16 +186,7 @@
     "author": "编程码农",
     "home_url": "https://segmentfault.com/u/onlythinking",
     "votes": "2",
-    "rank": 26
-  },
-  {
-    "title": "JavaScript 数学曲线—阿基米德螺线",
-    "description": "引子最近在研究曲线运动的时候，尝试了用 AI 导出的 SVG 路径之后，发现有些还是回归到数学中更合适一些。搜集了一些资料，尝试后总结一下。OriginMy GitHub简介阿基米德螺旋是以公元前 3 世纪希腊数学家阿基米德...",
-    "url": "https://segmentfault.com/a/1190000040824923",
-    "author": "XXHolic",
-    "home_url": "https://segmentfault.com/u/xxholic",
-    "votes": "2",
-    "rank": 27
+    "rank": 21
   },
   {
     "title": "一文阅尽苹果新品发布会：真“炸场”还是假“炸场”？",
@@ -249,7 +195,16 @@
     "author": "snakesss",
     "home_url": "https://segmentfault.com/u/snakesss",
     "votes": "2",
-    "rank": 28
+    "rank": 22
+  },
+  {
+    "title": "React全新文档终于来了",
+    "description": "React一直被吐槽官方文档对新手不友好，而且自从v16.8出现Hooks后，Hooks逐渐成为React主要发展方向，新特性都会基于Hooks开发。",
+    "url": "https://segmentfault.com/a/1190000040848627",
+    "author": "卡颂",
+    "home_url": "https://segmentfault.com/u/kasong",
+    "votes": "2",
+    "rank": 23
   },
   {
     "title": "学点bash，装B - 快速移动光标",
@@ -257,8 +212,8 @@
     "url": "https://segmentfault.com/a/1190000040841954",
     "author": "混子的日常",
     "home_url": "https://segmentfault.com/u/1023",
-    "votes": "2",
-    "rank": 29
+    "votes": "3",
+    "rank": 24
   },
   {
     "title": "javascript实现网页截图导出方案",
@@ -267,6 +222,51 @@
     "author": "donglegend",
     "home_url": "https://segmentfault.com/u/donglegend",
     "votes": "2",
+    "rank": 25
+  },
+  {
+    "title": "前端-JavaScript异步编程async函数",
+    "description": "基本概念传统JavaScript异步编程的形式大体分以下几种。回调函数事件监听发布/订阅Promise 对象异步一个任务连续的执行就叫做同步。如果将任务为分两步执行，执行完第一步，转而执行其它任务，等做好了准备，再回...",
+    "url": "https://segmentfault.com/a/1190000040845483",
+    "author": "编程码农",
+    "home_url": "https://segmentfault.com/u/onlythinking",
+    "votes": "1",
+    "rank": 26
+  },
+  {
+    "title": "前端表单验证常用的25个JS正则表达式",
+    "description": "1、手机号校验 {代码...} 2、身份证的校验 {代码...} 3、邮箱的校验 {代码...} 4、URL的校验 {代码...} 5、IPv4的校验 {代码...} 6、16进制颜色的校验 {代码...} 7、日期 YYYY-MM-DD {代码...} 8、日期 YYYY-MM-D...",
+    "url": "https://segmentfault.com/a/1190000040844198",
+    "author": "嘴叼辣条闯世界",
+    "home_url": "https://segmentfault.com/u/zuidiaolatiaochuangshijie",
+    "votes": "3",
+    "rank": 27
+  },
+  {
+    "title": "React：从来如此便对么",
+    "description": "然而，如果梳理历史的走向，模版语法才是更自然的选择。接下来让我们看看React选择JSX背后的逻辑是什么？这是React如今生态繁荣的关键因素么？",
+    "url": "https://segmentfault.com/a/1190000040842197",
+    "author": "卡颂",
+    "home_url": "https://segmentfault.com/u/kasong",
+    "votes": "2",
+    "rank": 28
+  },
+  {
+    "title": "TypeScript 中  unknown 与 any 有啥区别",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000040654545",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "3",
+    "rank": 29
+  },
+  {
+    "title": "前端-JavaScript中的代理和反射",
+    "description": "上面这种调用方式我们比较熟悉，不过当你想编写一些抽象框架时（框架又需要与业务定义的类进行互操作），由于你不知道业务类的成员和方法，这时反射动态获取成员变量或调用方法。",
+    "url": "https://segmentfault.com/a/1190000040829478",
+    "author": "编程码农",
+    "home_url": "https://segmentfault.com/u/onlythinking",
+    "votes": "4",
     "rank": 30
   }
 ]
