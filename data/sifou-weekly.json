@@ -1,21 +1,12 @@
 [
   {
-    "title": "前端如何防止用户修改水印？",
-    "description": "这篇文章聊到的「前端水印防篡改」方法，本来是想作为一份专利提交给公司的，但我下笔之前去国内的专利检索网站上搜了下，发现一模一样的方案已经被申请了，是一位字节跳动的哥们在今年年初递交的。",
-    "url": "https://segmentfault.com/a/1190000040840891",
-    "author": "劉凯里",
-    "home_url": "https://segmentfault.com/u/kyrieliu",
-    "votes": "20",
-    "rank": 1
-  },
-  {
     "title": "就因为这三个知识点，我彻底学废了”正则表达式“",
     "description": "曾经我一度对正则表达式有种恐惧和厌恶感，为啥？因为总感觉这玩意很难，很枯燥，看到别人写出贼牛逼的正则，我想啥时候我能像他们一样优秀。直到我看到了这三个知识点。。。",
     "url": "https://segmentfault.com/a/1190000040846926",
     "author": "前端胖头鱼",
     "home_url": "https://segmentfault.com/u/116263",
-    "votes": "22",
-    "rank": 2
+    "votes": "25",
+    "rank": 1
   },
   {
     "title": "前端如何实现token的无感刷新",
@@ -23,26 +14,17 @@
     "url": "https://segmentfault.com/a/1190000040850857",
     "author": "xiangzhihong",
     "home_url": "https://segmentfault.com/u/xiangzhihong",
-    "votes": "19",
+    "votes": "20",
+    "rank": 2
+  },
+  {
+    "title": "前端应该知道的：开放图谱协议（The Open Graph protocol）",
+    "description": "Open Graph 是一种互联网协议，最初由 Facebook 创建，用于标准化网页中元数据的使用，使得社交媒体得以以丰富的“图形”对象来表示共享的页面内容。",
+    "url": "https://segmentfault.com/a/1190000040863000",
+    "author": "独钓寒江雪",
+    "home_url": "https://segmentfault.com/u/king_hcj",
+    "votes": "17",
     "rank": 3
-  },
-  {
-    "title": "利用 CSS Overview 面板重构优化你的网站",
-    "description": "本文将向大家介绍 Chrome 87 开始支持的 CSS Overview Panel，并且介绍如何更好地利用这个面板。通过 CSS Overview Panel，可能可以帮助我们：",
-    "url": "https://segmentfault.com/a/1190000040837145",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "11",
-    "rank": 4
-  },
-  {
-    "title": "uniapp云函数教程② ：商品列表增删改查",
-    "description": "上篇文章uniapp云函数教程① ：登录篇,我们实现了简单的登录与注册逻辑。这篇文章我们来实现一个商品列表的增删改查实战小项目。源码见文末。扫码体验或浏览器访问1.数据库设计我们需要2张表：商品分类表(mall_typ...",
-    "url": "https://segmentfault.com/a/1190000040839358",
-    "author": "JenK",
-    "home_url": "https://segmentfault.com/u/wangzc996",
-    "votes": "5",
-    "rank": 5
   },
   {
     "title": "驳“低代码开发取代程序员”论 为什么专业开发者也需要低代码？",
@@ -51,7 +33,7 @@
     "author": "六一",
     "home_url": "https://segmentfault.com/u/suicidal_romantic_scoundrel",
     "votes": "6",
-    "rank": 6
+    "rank": 4
   },
   {
     "title": "你设计的秒杀系统，能通过 “双十一” 大考吗？",
@@ -60,7 +42,34 @@
     "author": "snakesss",
     "home_url": "https://segmentfault.com/u/snakesss",
     "votes": "5",
+    "rank": 5
+  },
+  {
+    "title": "CSS 实现文本\"不定行数\"截断",
+    "description": "偶然发现，在某乎热榜页有一个很有意思的布局，这里的标题会制约内容的行数，所以文本超出是\"不定行\"的。详细规则如下：整个容器高度是固定的，标题和内容总共 3 行标题最多2行，超出省略内容由剩余空间决定，如...",
+    "url": "https://segmentfault.com/a/1190000040859105",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "10",
+    "rank": 6
+  },
+  {
+    "title": "【一文秒懂】电商系统商品模块初建分析与设计",
+    "description": "创建《一文秒懂》这个专栏与以往《Grace development》和我博客的个人分享文章不同，我对《一文秒懂》这个专栏的定位是一个有态度，高标准的技术专栏，而《Grace development》我依旧会讲一些我们日常中会碰到的...",
+    "url": "https://segmentfault.com/a/1190000040855949",
+    "author": "CrazyCodes",
+    "home_url": "https://segmentfault.com/u/crazycodes",
+    "votes": "8",
     "rank": 7
+  },
+  {
+    "title": "关于 v-model 你需要知道的这一切！",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000040863402",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "10",
+    "rank": 8
   },
   {
     "title": "记录：Webpack5把微前端qiankun的配置文件干没了",
@@ -69,15 +78,6 @@
     "author": "Peter谭老师",
     "home_url": "https://segmentfault.com/u/jerrytanjinjie",
     "votes": "5",
-    "rank": 8
-  },
-  {
-    "title": "初探JavaScript PDF blob转换为Word docx方法",
-    "description": "PDF文档遵循iOS32000的规范是由Adobe 公司推出的文档格式，之所以应用如此广泛，是因为PDF精确定位了每个字符的坐标、根据坐标绘制的各种形状，使用PDF格式传输和打印文档可以保证格式的一致性，然后很多PDF文件...",
-    "url": "https://segmentfault.com/a/1190000040837967",
-    "author": "葡萄城技术团队",
-    "home_url": "https://segmentfault.com/u/grapecity",
-    "votes": "6",
     "rank": 9
   },
   {
@@ -90,40 +90,22 @@
     "rank": 10
   },
   {
-    "title": "前端应该知道的：开放图谱协议（The Open Graph protocol）",
-    "description": "Open Graph 是一种互联网协议，最初由 Facebook 创建，用于标准化网页中元数据的使用，使得社交媒体得以以丰富的“图形”对象来表示共享的页面内容。",
-    "url": "https://segmentfault.com/a/1190000040863000",
-    "author": "独钓寒江雪",
-    "home_url": "https://segmentfault.com/u/king_hcj",
-    "votes": "14",
+    "title": "灵光一闪！帮你使用Vue，搞定无法解决的“动态挂载”",
+    "description": "在一些特殊场景下，使用组件的时机无法确定，或者无法在Vue的template中确定要我们要使用的组件，这时就需要动态的挂载组件，或者使用运行时编译动态创建组件并挂载。",
+    "url": "https://segmentfault.com/a/1190000040870566",
+    "author": "葡萄城技术团队",
+    "home_url": "https://segmentfault.com/u/grapecity",
+    "votes": "1",
     "rank": 11
   },
   {
-    "title": "【一文秒懂】电商系统商品模块初建分析与设计",
-    "description": "创建《一文秒懂》这个专栏与以往《Grace development》和我博客的个人分享文章不同，我对《一文秒懂》这个专栏的定位是一个有态度，高标准的技术专栏，而《Grace development》我依旧会讲一些我们日常中会碰到的...",
-    "url": "https://segmentfault.com/a/1190000040855949",
-    "author": "CrazyCodes",
-    "home_url": "https://segmentfault.com/u/crazycodes",
-    "votes": "7",
-    "rank": 12
-  },
-  {
-    "title": "CSS 实现文本\"不定行数\"截断",
-    "description": "偶然发现，在某乎热榜页有一个很有意思的布局，这里的标题会制约内容的行数，所以文本超出是\"不定行\"的。详细规则如下：整个容器高度是固定的，标题和内容总共 3 行标题最多2行，超出省略内容由剩余空间决定，如...",
-    "url": "https://segmentfault.com/a/1190000040859105",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "9",
-    "rank": 13
-  },
-  {
-    "title": "使用CSS计数器美化有序列表",
-    "description": "在web设计中，使用一种井井有条的方法来展示数据是十分重要的，这样用户就可以很清晰的理解网站所展示的数据结构和内容，使用有序列表就是实现数据有组织的展示的一种简单方法。",
-    "url": "https://segmentfault.com/a/1190000040836461",
-    "author": "dragonir",
-    "home_url": "https://segmentfault.com/u/dragonir",
+    "title": "Vue 团队公开快如闪电的全新脚手架工具 create-vue，未来将替代 Vue-CLI，才300余行代码，学它！",
+    "description": "想学源码，极力推荐之前我写的《学习源码整体架构系列》 包含jQuery、underscore、lodash、vuex、sentry、axios、redux、koa、vue-devtools、vuex4、koa-compose、vue-next-release、vue-this等十余篇源码文章。",
+    "url": "https://segmentfault.com/a/1190000040865299",
+    "author": "若川",
+    "home_url": "https://segmentfault.com/u/lxchuan12",
     "votes": "6",
-    "rank": 14
+    "rank": 12
   },
   {
     "title": "Nodejs CMS——基于 NestJS/NuxtJS 的完整开源项目",
@@ -132,6 +114,24 @@
     "author": "王培",
     "home_url": "https://segmentfault.com/u/givebest",
     "votes": "7",
+    "rank": 13
+  },
+  {
+    "title": "Python Type Hints 从入门到实践",
+    "description": "Python 想必大家都已经很熟悉了，甚至关于它有用或者无用的论点大家可能也已经看腻了。但是无论如何，它作为一个将加入高考科目的语言还是有它独到之处的，今天我们就再展开聊聊 Python。",
+    "url": "https://segmentfault.com/a/1190000040864758",
+    "author": "云叔_又拍云",
+    "home_url": "https://segmentfault.com/u/yunshu_blog",
+    "votes": "6",
+    "rank": 14
+  },
+  {
+    "title": "JuiceFS 如何帮助趣头条超大规模 HDFS 降负载",
+    "description": "高昌健，Juicedata 解决方案架构师，十年互联网行业从业经历，曾在知乎、即刻、小红书多个团队担任架构师职位，专注于分布式系统、大数据、AI 领域的技术研究。",
+    "url": "https://segmentfault.com/a/1190000040867703",
+    "author": "JuiceFS",
+    "home_url": "https://segmentfault.com/u/juicefs",
+    "votes": "5",
     "rank": 15
   },
   {
@@ -171,12 +171,12 @@
     "rank": 19
   },
   {
-    "title": "前端- JavaScript异步编程Promise",
-    "description": "Promise 是异步编程的一种解决方案。ES6中已经提供了原生Promise对象。一个Promise对象会处于以下几种状态（fulfilled，rejected两种状态一旦确定后不会改变）：",
-    "url": "https://segmentfault.com/a/1190000040840390",
-    "author": "编程码农",
-    "home_url": "https://segmentfault.com/u/onlythinking",
-    "votes": "2",
+    "title": "从零开始实现一个在线三角形生成器",
+    "description": "在线三角形生成器通过本文，你将学到如下知识:快速入门vue 3.2的核心API知识掌握最新浏览器实现的复制粘贴的clipboard API按需引入element plusvite 的一些入门配置正则表达式以及typescript的类型less语法elemen...",
+    "url": "https://segmentfault.com/a/1190000040854433",
+    "author": "夕水",
+    "home_url": "https://segmentfault.com/u/xishui_5ac9a340a5484",
+    "votes": "5",
     "rank": 20
   },
   {
@@ -198,13 +198,22 @@
     "rank": 22
   },
   {
+    "title": "第七期:前端九条启发分享",
+    "description": "事情是这样的, 周五的时候需要做一个小优化, 某个文件里面原本导出3个 \"json对象\", 我需要改成导出三个function方便根据传参改变导出内容, 这时就发生了奇怪的类型报错, 假设当前有如下的代码:     下面代码...",
+    "url": "https://segmentfault.com/a/1190000040857798",
+    "author": "lulu_up",
+    "home_url": "https://segmentfault.com/u/lulu_up",
+    "votes": "3",
+    "rank": 23
+  },
+  {
     "title": "React全新文档终于来了",
     "description": "React一直被吐槽官方文档对新手不友好，而且自从v16.8出现Hooks后，Hooks逐渐成为React主要发展方向，新特性都会基于Hooks开发。",
     "url": "https://segmentfault.com/a/1190000040848627",
     "author": "卡颂",
     "home_url": "https://segmentfault.com/u/kasong",
     "votes": "2",
-    "rank": 23
+    "rank": 24
   },
   {
     "title": "javascript实现网页截图导出方案",
@@ -213,25 +222,7 @@
     "author": "donglegend",
     "home_url": "https://segmentfault.com/u/donglegend",
     "votes": "2",
-    "rank": 24
-  },
-  {
-    "title": "学点bash，装B - 快速移动光标",
-    "description": "学点bash，装Bthe-art-of-command-linectrl-w 删除你键入的最后一个单词ctrl-u 删除行内光标所在位置之前的内容ctrl-k 删除光标至行尾的所有内容ctrl-l 可以清屏ctrl-a 可以将光标移至行首ctrl-e 可以将光标移至...",
-    "url": "https://segmentfault.com/a/1190000040841954",
-    "author": "混子的日常",
-    "home_url": "https://segmentfault.com/u/1023",
-    "votes": "3",
     "rank": 25
-  },
-  {
-    "title": "第七期:前端九条启发分享",
-    "description": "事情是这样的, 周五的时候需要做一个小优化, 某个文件里面原本导出3个 \"json对象\", 我需要改成导出三个function方便根据传参改变导出内容, 这时就发生了奇怪的类型报错, 假设当前有如下的代码:     下面代码...",
-    "url": "https://segmentfault.com/a/1190000040857798",
-    "author": "lulu_up",
-    "home_url": "https://segmentfault.com/u/lulu_up",
-    "votes": "3",
-    "rank": 26
   },
   {
     "title": "前端-JavaScript运行原理",
@@ -240,25 +231,25 @@
     "author": "编程码农",
     "home_url": "https://segmentfault.com/u/onlythinking",
     "votes": "5",
+    "rank": 26
+  },
+  {
+    "title": "5 个 CSS 新功能",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000040857051",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "2",
     "rank": 27
   },
   {
-    "title": "从零开始实现一个在线三角形生成器",
-    "description": "在线三角形生成器通过本文，你将学到如下知识:快速入门vue 3.2的核心API知识掌握最新浏览器实现的复制粘贴的clipboard API按需引入element plusvite 的一些入门配置正则表达式以及typescript的类型less语法elemen...",
-    "url": "https://segmentfault.com/a/1190000040854433",
-    "author": "夕水",
-    "home_url": "https://segmentfault.com/u/xishui_5ac9a340a5484",
-    "votes": "3",
-    "rank": 28
-  },
-  {
-    "title": "Go 开发时要了解的 1 个内存模型细节",
-    "description": "在日常工作中，如果我们能够了解 Go 语言内存模型，那会带来非常大的作用。这样在看一些极端情况，又或是变态面试题的时候，就能够明白程序运行表现下的很多根本原因了。",
-    "url": "https://segmentfault.com/a/1190000040843418",
-    "author": "煎鱼",
-    "home_url": "https://segmentfault.com/u/eddycjy",
+    "title": "《RabbitMQ》 | 消息丢失也就这么回事",
+    "description": "本文主要介绍 RabbitMQ的消息丢失问题如有需要，可以参考如有帮助，不忘 点赞 ❥微信公众号已开启，小菜良记，没关注的同学们记得关注哦！",
+    "url": "https://segmentfault.com/a/1190000040856612",
+    "author": "蔡不菜丶",
+    "home_url": "https://segmentfault.com/u/17689400062",
     "votes": "2",
-    "rank": 29
+    "rank": 28
   },
   {
     "title": "前端表单验证常用的25个JS正则表达式",
@@ -267,6 +258,6 @@
     "author": "嘴叼辣条闯世界",
     "home_url": "https://segmentfault.com/u/zuidiaolatiaochuangshijie",
     "votes": "3",
-    "rank": 30
+    "rank": 29
   }
 ]
