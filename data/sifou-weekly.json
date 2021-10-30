@@ -1,30 +1,48 @@
 [
   {
-    "title": "就因为这三个知识点，我彻底学废了”正则表达式“",
-    "description": "曾经我一度对正则表达式有种恐惧和厌恶感，为啥？因为总感觉这玩意很难，很枯燥，看到别人写出贼牛逼的正则，我想啥时候我能像他们一样优秀。直到我看到了这三个知识点。。。",
-    "url": "https://segmentfault.com/a/1190000040846926",
-    "author": "前端胖头鱼",
-    "home_url": "https://segmentfault.com/u/116263",
-    "votes": "26",
-    "rank": 1
-  },
-  {
-    "title": "前端如何实现token的无感刷新",
-    "description": "通常，对于一些需要记录用户行为的系统，在进行网络请求的时候都会要求传递一下登录的token。不过，为了接口数据的安全，服务器的token一般不会设置太长，根据需要一般是1-7天的样子，token过期后就需要重新登录...",
-    "url": "https://segmentfault.com/a/1190000040850857",
-    "author": "xiangzhihong",
-    "home_url": "https://segmentfault.com/u/xiangzhihong",
-    "votes": "24",
-    "rank": 2
-  },
-  {
     "title": "前端应该知道的：开放图谱协议（The Open Graph protocol）",
     "description": "Open Graph 是一种互联网协议，最初由 Facebook 创建，用于标准化网页中元数据的使用，使得社交媒体得以以丰富的“图形”对象来表示共享的页面内容。",
     "url": "https://segmentfault.com/a/1190000040863000",
     "author": "独钓寒江雪",
     "home_url": "https://segmentfault.com/u/king_hcj",
-    "votes": "18",
+    "votes": "20",
+    "rank": 1
+  },
+  {
+    "title": "大道至简，繁在人心：在浏览器控制台安装npm包是什么操作？",
+    "description": "我们都知道，npm 是 JavaScript 世界的包管理工具,并且是 Node.js 平台的默认包管理工具。通过 npm 可以安装、共享、分发代码,管理项目依赖关系。虽然作为命令行工具的 npm 近年来逐渐式微，但是作为广泛使用的存...",
+    "url": "https://segmentfault.com/a/1190000040875211",
+    "author": "独钓寒江雪",
+    "home_url": "https://segmentfault.com/u/king_hcj",
+    "votes": "15",
+    "rank": 2
+  },
+  {
+    "title": "CSS 实现文本\"不定行数\"截断",
+    "description": "偶然发现，在某乎热榜页有一个很有意思的布局，这里的标题会制约内容的行数，所以文本超出是\"不定行\"的。详细规则如下：整个容器高度是固定的，标题和内容总共 3 行标题最多2行，超出省略内容由剩余空间决定，如...",
+    "url": "https://segmentfault.com/a/1190000040859105",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "16",
     "rank": 3
+  },
+  {
+    "title": "Vue 团队公开快如闪电的全新脚手架工具 create-vue，未来将替代 Vue-CLI，才300余行代码，学它！",
+    "description": "想学源码，极力推荐之前我写的《学习源码整体架构系列》 包含jQuery、underscore、lodash、vuex、sentry、axios、redux、koa、vue-devtools、vuex4、koa-compose、vue-next-release、vue-this等十余篇源码文章。",
+    "url": "https://segmentfault.com/a/1190000040865299",
+    "author": "若川",
+    "home_url": "https://segmentfault.com/u/lxchuan12",
+    "votes": "13",
+    "rank": 4
+  },
+  {
+    "title": "未来已来，HMS Core 展现元宇宙落地价值",
+    "description": "当你坐在家中，你是否曾经这样幻想，远处的会议有数字分身替你参与；远方的美景可以通过AR直接投影在你面前；人与人之间的距离因种种成像技术和全新交互模式而改变……",
+    "url": "https://segmentfault.com/a/1190000040881913",
+    "author": "六一",
+    "home_url": "https://segmentfault.com/u/suicidal_romantic_scoundrel",
+    "votes": "9",
+    "rank": 5
   },
   {
     "title": "关于 v-model 你需要知道的这一切！",
@@ -32,8 +50,8 @@
     "url": "https://segmentfault.com/a/1190000040863402",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "12",
-    "rank": 4
+    "votes": "13",
+    "rank": 6
   },
   {
     "title": "【一文秒懂】电商系统商品模块初建分析与设计",
@@ -42,43 +60,16 @@
     "author": "CrazyCodes",
     "home_url": "https://segmentfault.com/u/crazycodes",
     "votes": "10",
-    "rank": 5
-  },
-  {
-    "title": "CSS 实现文本\"不定行数\"截断",
-    "description": "偶然发现，在某乎热榜页有一个很有意思的布局，这里的标题会制约内容的行数，所以文本超出是\"不定行\"的。详细规则如下：整个容器高度是固定的，标题和内容总共 3 行标题最多2行，超出省略内容由剩余空间决定，如...",
-    "url": "https://segmentfault.com/a/1190000040859105",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "13",
-    "rank": 6
-  },
-  {
-    "title": "前端实现iPhone绕过AppStore从浏览器安装App",
-    "description": "都知道 iPhone 苹果手机应用只能通过 AppStore 进行安装，测试包只能通过官方提供的 TestFlight 等工具安装，而且通常有较长的审核流程，无法及时更新安装包，非常不方便。本文主要介绍前端实现对签名成功的 App...",
-    "url": "https://segmentfault.com/a/1190000040846993",
-    "author": "dragonir",
-    "home_url": "https://segmentfault.com/u/dragonir",
-    "votes": "8",
     "rank": 7
   },
   {
-    "title": "你设计的秒杀系统，能通过 “双十一” 大考吗？",
-    "description": "10月20日一年一度的双十一拉开帷幕，当日下午两点半，李佳琦准时开播，连续直播时长共计12个小时26分，共上架439件商品，直播间累计交易额高达115亿元，预估销量达3771万。这个交易额近乎数百个小规模公司年营收...",
-    "url": "https://segmentfault.com/a/1190000040849064",
-    "author": "snakesss",
-    "home_url": "https://segmentfault.com/u/snakesss",
-    "votes": "5",
+    "title": "7个关于\"this\"面试题，你知道几个？",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000040869270",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "7",
     "rank": 8
-  },
-  {
-    "title": "Vue 团队公开快如闪电的全新脚手架工具 create-vue，未来将替代 Vue-CLI，才300余行代码，学它！",
-    "description": "想学源码，极力推荐之前我写的《学习源码整体架构系列》 包含jQuery、underscore、lodash、vuex、sentry、axios、redux、koa、vue-devtools、vuex4、koa-compose、vue-next-release、vue-this等十余篇源码文章。",
-    "url": "https://segmentfault.com/a/1190000040865299",
-    "author": "若川",
-    "home_url": "https://segmentfault.com/u/lxchuan12",
-    "votes": "10",
-    "rank": 9
   },
   {
     "title": "涉嫌抄袭？抖音前端技术团队发文致歉，承认借鉴Ant Design",
@@ -87,6 +78,15 @@
     "author": "snakesss",
     "home_url": "https://segmentfault.com/u/snakesss",
     "votes": "3",
+    "rank": 9
+  },
+  {
+    "title": "JuiceFS 如何帮助趣头条超大规模 HDFS 降负载",
+    "description": "高昌健，Juicedata 解决方案架构师，十年互联网行业从业经历，曾在知乎、即刻、小红书多个团队担任架构师职位，专注于分布式系统、大数据、AI 领域的技术研究。",
+    "url": "https://segmentfault.com/a/1190000040867703",
+    "author": "JuiceFS",
+    "home_url": "https://segmentfault.com/u/juicefs",
+    "votes": "6",
     "rank": 10
   },
   {
@@ -99,40 +99,13 @@
     "rank": 11
   },
   {
-    "title": "JuiceFS 如何帮助趣头条超大规模 HDFS 降负载",
-    "description": "高昌健，Juicedata 解决方案架构师，十年互联网行业从业经历，曾在知乎、即刻、小红书多个团队担任架构师职位，专注于分布式系统、大数据、AI 领域的技术研究。",
-    "url": "https://segmentfault.com/a/1190000040867703",
-    "author": "JuiceFS",
-    "home_url": "https://segmentfault.com/u/juicefs",
-    "votes": "6",
-    "rank": 12
-  },
-  {
-    "title": "7个关于\"this\"面试题，你知道几个？",
-    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000040869270",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "6",
-    "rank": 13
-  },
-  {
     "title": "从零开始实现一个在线三角形生成器",
     "description": "在线三角形生成器通过本文，你将学到如下知识:快速入门vue 3.2的核心API知识掌握最新浏览器实现的复制粘贴的clipboard API按需引入element plusvite 的一些入门配置正则表达式以及typescript的类型less语法elemen...",
     "url": "https://segmentfault.com/a/1190000040854433",
     "author": "夕水",
     "home_url": "https://segmentfault.com/u/xishui_5ac9a340a5484",
     "votes": "7",
-    "rank": 14
-  },
-  {
-    "title": "Vue3源码分析之compositionApi",
-    "description": "TNTWeb - 全称腾讯新闻前端团队，组内小伙伴在Web前端、NodeJS开发、UI设计、移动APP等大前端领域都有所实践和积累。目前团队主要支持腾讯新闻各业务的前端开发，业务开发之余也积累沉淀了一些前端基础设施，赋能...",
-    "url": "https://segmentfault.com/a/1190000040848951",
-    "author": "TNTWEB",
-    "home_url": "https://segmentfault.com/u/tnfe",
-    "votes": "6",
-    "rank": 15
+    "rank": 12
   },
   {
     "title": "Python Type Hints 从入门到实践",
@@ -141,43 +114,25 @@
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
     "votes": "6",
-    "rank": 16
+    "rank": 13
   },
   {
-    "title": "Nodejs CMS——基于 NestJS/NuxtJS 的完整开源项目",
-    "description": "这是一款轻量级的基于 Node.js 的开源 CMS，采用前后端分离开发模式，集成了 API、后台管理、WEB 展示三个完整项目。开箱即是一套完整的企业网站，适合企业、个人直接使用或二次开发。",
-    "url": "https://segmentfault.com/a/1190000040850136",
-    "author": "王培",
-    "home_url": "https://segmentfault.com/u/givebest",
-    "votes": "7",
-    "rank": 17
+    "title": "常见 SQL 面试题：经典 50 例",
+    "description": "多表连接: 内连接(省略默认inner) join ...on..左连接left join tableName as b on a.key ==b.key右连接right join 连接union(无重复(过滤去重))和union all(有重复[不过滤去重])",
+    "url": "https://segmentfault.com/a/1190000040874554",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "6",
+    "rank": 14
   },
   {
-    "title": "华为在HDC2021发布全新HMS Core 6 宣布跨OS能力开放",
-    "description": "【2021年10月22日·东莞】华为开发者大会 2021（Together）于今天正式开幕，华为在主题演讲中正式发布全新的HMS Core 6，向全球开发者开放7大领域的69个Kit和21,738个API，包括13个跨操作系统能力，开发者基于不同...",
-    "url": "https://segmentfault.com/a/1190000040851457",
-    "author": "华为移动服务",
-    "home_url": "https://segmentfault.com/u/hms_core",
-    "votes": "1",
-    "rank": 18
-  },
-  {
-    "title": "华为首次采用数字人全程实时手语直播，并宣布全面开放手语服务能力",
-    "description": "【2021年10月22日·东莞】华为开发者大会2021（Together）在东莞松山湖正式开幕。本次大会首次采用数字人全程实时手语直播，数字人基于即时听到的语言，通过华为手语服务，实时生成连贯、自然的手语。同时华为宣布...",
-    "url": "https://segmentfault.com/a/1190000040851497",
-    "author": "华为移动服务",
-    "home_url": "https://segmentfault.com/u/hms_core",
-    "votes": "1",
-    "rank": 19
-  },
-  {
-    "title": "大道至简，繁在人心：在浏览器控制台安装npm包是什么操作？",
-    "description": "我们都知道，npm 是 JavaScript 世界的包管理工具,并且是 Node.js 平台的默认包管理工具。通过 npm 可以安装、共享、分发代码,管理项目依赖关系。虽然作为命令行工具的 npm 近年来逐渐式微，但是作为广泛使用的存...",
-    "url": "https://segmentfault.com/a/1190000040875211",
-    "author": "独钓寒江雪",
-    "home_url": "https://segmentfault.com/u/king_hcj",
-    "votes": "11",
-    "rank": 20
+    "title": "《RabbitMQ》 | 消息丢失也就这么回事",
+    "description": "本文主要介绍 RabbitMQ的消息丢失问题如有需要，可以参考如有帮助，不忘 点赞 ❥微信公众号已开启，小菜良记，没关注的同学们记得关注哦！",
+    "url": "https://segmentfault.com/a/1190000040856612",
+    "author": "蔡不菜丶",
+    "home_url": "https://segmentfault.com/u/17689400062",
+    "votes": "3",
+    "rank": 15
   },
   {
     "title": "第七期:前端九条启发分享",
@@ -186,34 +141,7 @@
     "author": "lulu_up",
     "home_url": "https://segmentfault.com/u/lulu_up",
     "votes": "3",
-    "rank": 21
-  },
-  {
-    "title": "得物技术时间切片的实践与应用",
-    "description": "每一个拥有【高级资深】title的前端工程师，必定会对项目的整体性能优化有自己的独到见解。这是往前端业务架构方向转变的必须要具备的能力之一。",
-    "url": "https://segmentfault.com/a/1190000040851156",
-    "author": "得物技术",
-    "home_url": "https://segmentfault.com/u/dewujishu",
-    "votes": "3",
-    "rank": 22
-  },
-  {
-    "title": "React全新文档终于来了",
-    "description": "React一直被吐槽官方文档对新手不友好，而且自从v16.8出现Hooks后，Hooks逐渐成为React主要发展方向，新特性都会基于Hooks开发。",
-    "url": "https://segmentfault.com/a/1190000040848627",
-    "author": "卡颂",
-    "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "2",
-    "rank": 23
-  },
-  {
-    "title": "javascript实现网页截图导出方案",
-    "description": "首先，我们必须明白正常javascript是运行在浏览器里的，本身没有截图的能力。所以要想实现截图，必须通过其他迂回方案实现，废话少说，直接上结论。",
-    "url": "https://segmentfault.com/a/1190000040849728",
-    "author": "donglegend",
-    "home_url": "https://segmentfault.com/u/donglegend",
-    "votes": "2",
-    "rank": 24
+    "rank": 16
   },
   {
     "title": "5 个 CSS 新功能",
@@ -222,41 +150,113 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "2",
-    "rank": 25
+    "rank": 17
   },
   {
-    "title": "前端-JavaScript运行原理",
-    "description": "简介理解JavaScript运行原理，我们需要理解以下两方面内容。JavaScript引擎。JavaScript运行时环境。JavaScript引擎什么是JavaScript引擎JavaScript引擎是一个计算机程序，它的主要作用是JavaScript运行时将源码...",
-    "url": "https://segmentfault.com/a/1190000040851732",
+    "title": "程序员如何玩转力扣刷题？",
+    "description": "前言大家好，我是bigsai，好久不见！今天就给各位小伙伴分享我自己刷题力扣的一些小方法，不一定很有用但是可以参考，祝你更高效的变强！最近在一些群聊、私聊中遇到很多的一个问题就是：刷题，大家也都重视到算...",
+    "url": "https://segmentfault.com/a/1190000040866692",
+    "author": "bigsai",
+    "home_url": "https://segmentfault.com/u/bigsai",
+    "votes": "3",
+    "rank": 18
+  },
+  {
+    "title": "如何评价抖音前端开源的 Semi Design ？",
+    "description": "开头我是Peter抖音系企业应用设计系统 Semi Design 开源了，这是我今天听到最大的消息，于是晚上回家赶紧去看了看打开知乎，果然跟我想的一样，第一件事肯定有人否定这个开源的库，是基于别人的开源库改造而来甚...",
+    "url": "https://segmentfault.com/a/1190000040874775",
+    "author": "Peter谭老师",
+    "home_url": "https://segmentfault.com/u/jerrytanjinjie",
+    "votes": "2",
+    "rank": 19
+  },
+  {
+    "title": "面试不再慌，终于有人把TCP讲明白了。。。",
+    "description": "TCP（Transmission Control Protocol，传输控制协议） 是计算机网络的的重要组成部分，也是网络编程的重要内容，还有我们平时接触最多的 HTTP 也是基于 TCP 实现的。TCP 可以说是最重要的传输层协议，既然如此，...",
+    "url": "https://segmentfault.com/a/1190000040873944",
+    "author": "Java大将军",
+    "home_url": "https://segmentfault.com/u/23g69kz6",
+    "votes": "2",
+    "rank": 20
+  },
+  {
+    "title": "深入浅出Java内存模型",
+    "description": "面试官：我记得你的最终答案是：Java为了屏蔽硬件和操作系统访问内存的各种差异，提出了「Java内存模型」的规范，保证了Java程序在各种平台下对内存的访问都能得到一致效果",
+    "url": "https://segmentfault.com/a/1190000040869235",
+    "author": "Java3y",
+    "home_url": "https://segmentfault.com/u/java_3y",
+    "votes": "4",
+    "rank": 21
+  },
+  {
+    "title": "前端架构师的 git 功力，你有几成火候？",
+    "description": "本文从前端工程，团队协作，生产部署的角度，介绍架构人员需要掌握的 git 实践能力。大纲预览本文介绍的内容包括以下方面：分支管理策略commit 规范与提交验证误操作的撤回方案Tag 与生产环境永久杜绝 443 Timeou...",
+    "url": "https://segmentfault.com/a/1190000040879546",
+    "author": "杨成功",
+    "home_url": "https://segmentfault.com/u/ruidoc",
+    "votes": "4",
+    "rank": 22
+  },
+  {
+    "title": "前端代码库里的 git hooks",
+    "description": "本篇文章收获什么：git hooks 的基本知识yorkie 的原理浅析如何使用 本地 vscode 打开 github 项目故事是这样的：我：在npm run lint脚本里面加了vue-tsc --noEmit --skipLibCheck && ....这个命令后，--...",
+    "url": "https://segmentfault.com/a/1190000040855590",
+    "author": "混子的日常",
+    "home_url": "https://segmentfault.com/u/1023",
+    "votes": "2",
+    "rank": 23
+  },
+  {
+    "title": "分辨率越高清晰度越高吗？",
+    "description": "显示屏清晰度对于计算机上显示的文字和图片，正常来说显示器分辨率越高清晰度就会更高，不过有时我们切换一些超高分辨率后也识别不出差异，这是为什么？简单来说显示清晰度由物理因素和视力因素。物理因素就是设...",
+    "url": "https://segmentfault.com/a/1190000040873601",
     "author": "编程码农",
     "home_url": "https://segmentfault.com/u/onlythinking",
     "votes": "5",
+    "rank": 24
+  },
+  {
+    "title": "超牛逼的性能监控神器！快速定位线上问题",
+    "description": "今天想总结的东西是最近工作中使用到的测试工具JMH以及Java运行时监控工具Arthas。他们在我的实际工作中也算是帮了大忙。所以在这里抛砖引玉一下这些工具的使用方法。同时也加深一下自己对这些工具的熟悉程度。对...",
+    "url": "https://segmentfault.com/a/1190000040857744",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "2",
+    "rank": 25
+  },
+  {
+    "title": "Linux三剑客之awk入门指引",
+    "description": "大家好 我是xindoo，距我上次发技术文章已经过去快一个半月了，原因是最近确实非常非常的忙，工作日除了吃饭睡觉之外，要么是在工作，要么就是在去工作的路上，而周末的时候我只想今天1024 程序猿节，百忙中抽空...",
+    "url": "https://segmentfault.com/a/1190000040856477",
+    "author": "xindoo",
+    "home_url": "https://segmentfault.com/u/xindoo",
+    "votes": "2",
     "rank": 26
   },
   {
-    "title": "《RabbitMQ》 | 消息丢失也就这么回事",
-    "description": "本文主要介绍 RabbitMQ的消息丢失问题如有需要，可以参考如有帮助，不忘 点赞 ❥微信公众号已开启，小菜良记，没关注的同学们记得关注哦！",
-    "url": "https://segmentfault.com/a/1190000040856612",
-    "author": "蔡不菜丶",
-    "home_url": "https://segmentfault.com/u/17689400062",
-    "votes": "2",
+    "title": "还在用Jenkins？试试Gitlab的CI/CD功能吧",
+    "description": "在之前，要实现自动化打包部署，一般都需要借助Jenkins。不过，现在Gitlab的CI/CD功能也能实现自动化部署，并且操作更加简单。如果你也正在使用Gitlab作为Git仓库的话，不妨试试它的CI/CD功能。",
+    "url": "https://segmentfault.com/a/1190000040852485",
+    "author": "xiangzhihong",
+    "home_url": "https://segmentfault.com/u/xiangzhihong",
+    "votes": "5",
     "rank": 27
   },
   {
-    "title": "wget命令8种实用用法",
-    "description": "wget 是一个可以从网络上下载文件的免费实用程序，它的工作原理是从 Internet 上获取数据，并将其保存到本地文件中或显示在你的终端上。",
-    "url": "https://segmentfault.com/a/1190000040848581",
-    "author": "良许",
-    "home_url": "https://segmentfault.com/u/liangxu_5d63396040bb5",
-    "votes": "4",
+    "title": "切记，这样打日志定位 Bug 又快又准！",
+    "description": "日常工作中，程序员需要经常处理线上的各种大小故障，如果业务代码没打印日志或者日志打印的不好，会极大的加大了定位问题的难度，使得解决bug的时间变长了。对于那种影响比较大的bug，处理时间是分秒必争的，慢...",
+    "url": "https://segmentfault.com/a/1190000040857882",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "2",
     "rank": 28
   },
   {
-    "title": "TypeScript 中  unknown 与 any 有啥区别",
-    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000040654545",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "title": "一个操作 cookie 的原生方法 cookieStore",
+    "description": "TNTWeb - 全称腾讯新闻前端团队，组内小伙伴在Web前端、NodeJS开发、UI设计、移动APP等大前端领域都有所实践和积累。目前团队主要支持腾讯新闻各业务的前端开发，业务开发之余也积累沉淀了一些前端基础设施，赋能...",
+    "url": "https://segmentfault.com/a/1190000040859532",
+    "author": "TNTWEB",
+    "home_url": "https://segmentfault.com/u/tnfe",
     "votes": "3",
     "rank": 29
   }
