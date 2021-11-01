@@ -1,20 +1,17 @@
 <%- include('header', { tabCls: '36kr' }); %>
 <ul class="list">
-    <li class="rank-title">
-      <a href="https://36kr.com/newsflashes" target="_blank">36Kr快讯</a>
-    </li>
-    <% data.forEach(function(repo, idx){ %>
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking <%=idx + 1%>"><%=idx + 1%></span>
-          <a href="<%=repo.news_url%>" target="_blank" title="<%=repo.title%>"><%=repo.title%></a>
-        </div>
-        <div class="details">
-          <%=repo.description%>
-        </div>
+  <% data.forEach(function(repo, idx){ %>
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking <%=idx + 1%>"><%=idx + 1%></span>
+        <a href="<%=repo.news_url%>" target="_blank" title="<%=repo.title%>"><%=repo.title%></a>
       </div>
-    </li>
-    <% }); %>
+      <div class="details">
+        <%=repo.description%>
+      </div>
+    </div>
+  </li>
+  <% }); %>
 </ul>
 <%- include('footer', { }); %>
