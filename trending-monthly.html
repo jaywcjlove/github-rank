@@ -12,31 +12,36 @@
     html, body, ul, li, h1 { margin: 0; padding: 0 }
     html, body { font-size: 16px; font-family: -apple-system,"Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","WenQuanYi Micro Hei","Microsoft Yahei",sans-serif; }
     ul { list-style: none; }
-    body { text-align: center; }
+
     a { color: #333; text-decoration: none; transition: all .2s ease-in; }
     a:hover { color: #1600ff; }
     a.github-corner:hover .octo-arm { animation: octocat-wave 560ms infinite linear; }
     a.github-corner svg { fill: #f1f1f1; color: #000; position: absolute; top: 0; border: 0; right: 0; z-index: 99; width: 70px; height: 70px; }
     a.github-corner { position: fixed; z-index: 9999; top: 0; right: 0; }
-    .title { padding: 46px 0 0 0; font-size: 18px; line-height: 24px; }
-    .time, .footer { padding: 5px 0 2px 0; font-size: 12px; color: #adadad; }
-    .tabs { padding: 10px 0 15px 0;}
-    .tabs a { background: #e2e2e2; display: inline-block; padding: 3px 7px; font-size: 12px; line-height: 16px; color: #0366d6; }
-    .tabs a.active { background: #696969; color: #efefef; }
-    .footer { padding: 10px 0 30px 0; }
-    .list { text-align: left; max-width: 470px; margin: 0 auto; padding-bottom: 10px; background-color: #efefef; border-radius: 5px; overflow: hidden; }
+
+    .title { padding: 32px 20px 10px 20px; font-size: 32px; display: flex; }
+    .title a svg { display: block; }
+    .title a { color: #0059ff; display: inline-block; margin-left: 10px; }
+    .time, .footer { padding: 5px 20px 2px 20px; font-size: 12px; color: #adadad; }
+    .tabs { padding: 0 20px 5px 20px;}
+    .tabs a { background: #e2e2e2; display: inline-block; border-radius: 2px; margin: 2px 0; padding: 2px 5px; font-size: 12px; line-height: 16px; color: #0366d6; }
+    .tabs a.active { background: #333; color: #efefef; }
+    .tabs a:hover:not(.active) { background: #efefef; }
+    .footer { padding: 0 20px 30px 20px; font-size: 12px; color: #adadad; }
+    .footer .time { padding: 0; }
+    .list { text-align: left; padding-bottom: 10px; margin: 0 15px; }
     .list img { width: 36px; height: 36px; border-radius: 3px; display: block; margin: 0 auto; background-color: #e2e2e2; border: 0; overflow: hidden; }
     .list a { color: #0366d6; }
     .list a:hover { color: #1600ff; }
-    .list li { padding: 5px; margin: 0 8px; transition: all .3s; border-bottom: 1px solid #d8d8d8; }
-    .list li.rank-title { background-color: #e2e2e2; margin: 0; padding: 7px 13px; margin-bottom: 10px; border-radius: 0; font-size: 14px; line-height: 16px; }
-    .list li.rank-title:hover { background: #e2e2e2; }
+    .list li { padding: 10px; transition: all .3s; }
+    .list li.rank-title { margin: 0; padding: 3px 0 0 7px; margin-bottom: 10px; border-radius: 5px; font-size: 12px; line-height: 16px; }
+    .list li.rank-title > a { margin-right: 10px; }
+    .list li.rank-title:hover { background: transparent; }
     .list li:last-child, .list li.rank-title { border-bottom: 0; }
-    .list li:hover { background: rgba(255, 255, 255, 0.56); }
+    .list li:hover { background: #efefef8f; }
     .list li > div { display: table-cell; vertical-align: top; font-size: 14px; }
-    .list li div.rank { padding: 0 8px; }
     .list li div.rank span { font-weight: bold; }
-    .list li div.details { padding: 2px 0 0 9px; font-size: 12px; float: left; color: #b9b9b9; }
+    .list li div.details { padding: 2px 0 0 0; font-size: 12px; float: left; color: #b9b9b9; }
     .list li div.details a { color: #b9b9b9; transition: all .3s; }
     .list li div.details a:hover { color: #1600ff; }
     .list li div.details a:hover svg { fill: #1600ff; }
@@ -46,17 +51,18 @@
     .list li > div.info { width: 100%; }
     .list li > div.info i { color: #717171; }
     .list li > div.info a:hover i { color: #333; }
-    .list li div.sub-title { color: #333; margin: 4px 0 0 3px;}
+    .list li div.sub-title { color: #333; margin: 4px 0 0 0; }
+    .list li div.avatar { padding-right: 10px; }
     
     .list li a.language,
     .list li span.star { height: 18px; background: #e2e2e2; display: inline-block; padding: 2px 4px; border-radius: 3px; }
     
     
-    .list .select { float: right; line-height: 14px; line-height: 16px; }
-    .list .select .active { color: #333; font-weight: bold; }
+    .list .select { }
+    .list .select .active { color: #333; font-weight: bold; border-bottom: 1px dotted #000;}
     
     
-    .list li div.followers { font-size: 12px; color: #7d7d7d; white-space:nowrap; padding-left: 5px; padding-top: 2px; border-radius: 3px; }
+    .list li div.followers { font-size: 12px; color: #7d7d7d; white-space:nowrap; padding-top: 2px; border-radius: 3px; }
     .list li div.followers a { color: #545454; }
     .list li div.followers * { vertical-align: middle; }
     .list li div.followers svg { vertical-align: text-top; display: inline-block; fill: #9E9E9E; width: 14px; height: 14px; }
@@ -67,6 +73,9 @@
       0%,100%{-webkit-transform:rotate(0); transform:rotate(0);}
       20%,60%{-webkit-transform:rotate(-25deg); transform:rotate(-25deg);}
       40%,80%{-webkit-transform:rotate(10deg); transform:rotate(10deg);}
+    }
+    @media screen and (max-width: 479px) {
+      .title { padding-top: 16px; font-size: 21px; }
     }
   </style>
   <style>
@@ -80,8 +89,18 @@
       <path fill="currentColor" class="octo-body" d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"></path>
     </svg>
   </a>
-  <h1 class="title"> GitHub Repositories Trending </h1>
-  <div class="time">Last cache created on 2021/11/1 by Github API v3.</div>
+  <h1 class="title">
+    GitHub Repositories Trending
+    
+    
+    
+    <a target="_blank" href="https://github.com/trending"></a>
+    
+    
+    
+    
+  </h1>
+  <div class="time">Last cache created on 2021/11/2 by Github API v3.</div>
   <div class="tabs">
     <a class="" href="index.html">Users</a>
     <a class="" href="repos.html">Repos</a>
@@ -91,960 +110,963 @@
     <a class="" href="36kr.html">36Kr</a>
   </div>
 <ul class="list repos trending">
-    <li class="rank-title">
-      <a href="https://github.com/trending" target="_blank">Repositories Trending</a>
-      <span class="select">
-        <a class="" href="trending.html">Today</a>
-        <a class="" href="trending-weekly.html">Week</a>
-        <a class="active" href="trending-monthly.html">Month</a>
-      </span>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking 1">1</span>
-          <a href="https://github.com/goplus/gop" target="_blank" title="goplus/gop">goplus/gop</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <a class="language" target="_blank" href="https://github.com/topics/go"  title="Programming Language Go">
-            <span style="background-color: #00ADD8;"></span>Go
-          </a>
-          
-          <span class="star" title="Stargazers Count">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>7516</span>
-          </span>
-          <span class="star" title="Repo Forked">
-            <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
-              <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
-            </path>
-            </svg>
-            <span>478</span>
-          </span>
-          <span class="star">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>2236 stars this month</span>
-          </span>
-        </div>
-        <div class="details">
-          GoPlus - The Go+ language for engineering, STEM education, and data science
-        </div>
+  <li class="rank-title">
+    <span class="select">
+      <a class="" href="trending.html">Today</a>
+      <a class="" href="trending-weekly.html">Week</a>
+      <a class="active" href="trending-monthly.html">Month</a>
+    </span>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 1">1</span>
+        <a href="https://github.com/goplus/gop" target="_blank" title="goplus/gop">goplus/gop</a>
       </div>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking 2">2</span>
-          <a href="https://github.com/louislam/uptime-kuma" target="_blank" title="louislam/uptime-kuma">louislam/uptime-kuma</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <a class="language" target="_blank" href="https://github.com/topics/javascript"  title="Programming Language JavaScript">
-            <span style="background-color: #f1e05a;"></span>JavaScript
-          </a>
-          
-          <span class="star" title="Stargazers Count">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>8819</span>
-          </span>
-          <span class="star" title="Repo Forked">
-            <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
-              <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
-            </path>
-            </svg>
-            <span>477</span>
-          </span>
-          <span class="star">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>5207 stars this month</span>
-          </span>
-        </div>
-        <div class="details">
-          A fancy self-hosted monitoring tool
-        </div>
+      <div class="sub-title followers">
+        
+        <a class="language" target="_blank" href="https://github.com/topics/go"  title="Programming Language Go">
+          <span style="background-color: #00ADD8;"></span>Go
+        </a>
+        
+        <span class="star" title="Stargazers Count">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>7532</span>
+        </span>
+        <span class="star" title="Repo Forked">
+          <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
+            <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+          </path>
+          </svg>
+          <span>478</span>
+        </span>
+        <span class="star">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>2172 stars this month</span>
+        </span>
       </div>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking 3">3</span>
-          <a href="https://github.com/HashLips/hashlips_art_engine" target="_blank" title="HashLips/hashlips_art_engine">HashLips/hashlips_art_engine</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <a class="language" target="_blank" href="https://github.com/topics/javascript"  title="Programming Language JavaScript">
-            <span style="background-color: #f1e05a;"></span>JavaScript
-          </a>
-          
-          <span class="star" title="Stargazers Count">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>1081</span>
-          </span>
-          <span class="star" title="Repo Forked">
-            <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
-              <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
-            </path>
-            </svg>
-            <span>484</span>
-          </span>
-          <span class="star">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>619 stars this month</span>
-          </span>
-        </div>
-        <div class="details">
-          HashLips Art Engine is a tool used to create multiple different instances of artworks based on provided layers.
-        </div>
+      <div class="details">
+        GoPlus - The Go+ language for engineering, STEM education, and data science
       </div>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking 4">4</span>
-          <a href="https://github.com/TechXueXi/TechXueXi" target="_blank" title="TechXueXi/TechXueXi">TechXueXi/TechXueXi</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <a class="language" target="_blank" href="https://github.com/topics/python"  title="Programming Language Python">
-            <span style="background-color: #3572A5;"></span>Python
-          </a>
-          
-          <span class="star" title="Stargazers Count">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>1153</span>
-          </span>
-          <span class="star" title="Repo Forked">
-            <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
-              <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
-            </path>
-            </svg>
-            <span>290</span>
-          </span>
-          <span class="star">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>757 stars this month</span>
-          </span>
-        </div>
-        <div class="details">
-          强国通 科技强国 学习强国 xuexiqiangguo 全网最好用开源网页学习强国助手：TechXueXi （懒人刷分工具 自动学习）技术强国，支持答题，支持 docker 45分/天
-        </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 2">2</span>
+        <a href="https://github.com/louislam/uptime-kuma" target="_blank" title="louislam/uptime-kuma">louislam/uptime-kuma</a>
       </div>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking 5">5</span>
-          <a href="https://github.com/facebook/flipper" target="_blank" title="facebook/flipper">facebook/flipper</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <a class="language" target="_blank" href="https://github.com/topics/typescript"  title="Programming Language TypeScript">
-            <span style="background-color: #2b7489;"></span>TypeScript
-          </a>
-          
-          <span class="star" title="Stargazers Count">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>10134</span>
-          </span>
-          <span class="star" title="Repo Forked">
-            <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
-              <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
-            </path>
-            </svg>
-            <span>715</span>
-          </span>
-          <span class="star">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>1196 stars this month</span>
-          </span>
-        </div>
-        <div class="details">
-          A desktop debugging platform for mobile developers.
-        </div>
+      <div class="sub-title followers">
+        
+        <a class="language" target="_blank" href="https://github.com/topics/javascript"  title="Programming Language JavaScript">
+          <span style="background-color: #f1e05a;"></span>JavaScript
+        </a>
+        
+        <span class="star" title="Stargazers Count">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>8865</span>
+        </span>
+        <span class="star" title="Repo Forked">
+          <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
+            <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+          </path>
+          </svg>
+          <span>481</span>
+        </span>
+        <span class="star">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>5234 stars this month</span>
+        </span>
       </div>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking 6">6</span>
-          <a href="https://github.com/john-smilga/node-express-course" target="_blank" title="john-smilga/node-express-course">john-smilga/node-express-course</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <a class="language" target="_blank" href="https://github.com/topics/javascript"  title="Programming Language JavaScript">
-            <span style="background-color: #f1e05a;"></span>JavaScript
-          </a>
-          
-          <span class="star" title="Stargazers Count">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>714</span>
-          </span>
-          <span class="star" title="Repo Forked">
-            <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
-              <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
-            </path>
-            </svg>
-            <span>665</span>
-          </span>
-          <span class="star">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>237 stars this month</span>
-          </span>
-        </div>
-        <div class="details">
-          
-        </div>
+      <div class="details">
+        A fancy self-hosted monitoring tool
       </div>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking 7">7</span>
-          <a href="https://github.com/appsmithorg/appsmith" target="_blank" title="appsmithorg/appsmith">appsmithorg/appsmith</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <a class="language" target="_blank" href="https://github.com/topics/typescript"  title="Programming Language TypeScript">
-            <span style="background-color: #2b7489;"></span>TypeScript
-          </a>
-          
-          <span class="star" title="Stargazers Count">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>8083</span>
-          </span>
-          <span class="star" title="Repo Forked">
-            <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
-              <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
-            </path>
-            </svg>
-            <span>798</span>
-          </span>
-          <span class="star">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>2283 stars this month</span>
-          </span>
-        </div>
-        <div class="details">
-          Quickly build any custom business software like admin panels, internal tools, dashboards and more with pre-built UI widgets that connect to any database, GraphQL or REST API, controlling everything with Javascript.
-        </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 3">3</span>
+        <a href="https://github.com/TechXueXi/TechXueXi" target="_blank" title="TechXueXi/TechXueXi">TechXueXi/TechXueXi</a>
       </div>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking 8">8</span>
-          <a href="https://github.com/TheAlgorithms/Python" target="_blank" title="TheAlgorithms/Python">TheAlgorithms/Python</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <a class="language" target="_blank" href="https://github.com/topics/python"  title="Programming Language Python">
-            <span style="background-color: #3572A5;"></span>Python
-          </a>
-          
-          <span class="star" title="Stargazers Count">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>122024</span>
-          </span>
-          <span class="star" title="Repo Forked">
-            <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
-              <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
-            </path>
-            </svg>
-            <span>32739</span>
-          </span>
-          <span class="star">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>3471 stars this month</span>
-          </span>
-        </div>
-        <div class="details">
-          All Algorithms implemented in Python
-        </div>
+      <div class="sub-title followers">
+        
+        <a class="language" target="_blank" href="https://github.com/topics/python"  title="Programming Language Python">
+          <span style="background-color: #3572A5;"></span>Python
+        </a>
+        
+        <span class="star" title="Stargazers Count">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>1174</span>
+        </span>
+        <span class="star" title="Repo Forked">
+          <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
+            <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+          </path>
+          </svg>
+          <span>299</span>
+        </span>
+        <span class="star">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>774 stars this month</span>
+        </span>
       </div>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking 9">9</span>
-          <a href="https://github.com/qiurunze123/miaosha" target="_blank" title="qiurunze123/miaosha">qiurunze123/miaosha</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <a class="language" target="_blank" href="https://github.com/topics/java"  title="Programming Language Java">
-            <span style="background-color: #b07219;"></span>Java
-          </a>
-          
-          <span class="star" title="Stargazers Count">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>22747</span>
-          </span>
-          <span class="star" title="Repo Forked">
-            <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
-              <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
-            </path>
-            </svg>
-            <span>5843</span>
-          </span>
-          <span class="star">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>994 stars this month</span>
-          </span>
-        </div>
-        <div class="details">
-          ⭐⭐⭐⭐秒杀系统设计与实现.互联网工程师进阶与分析🙋🐓
-        </div>
+      <div class="details">
+        强国通 科技强国 学习强国 xuexiqiangguo 全网最好用开源网页学习强国助手：TechXueXi （懒人刷分工具 自动学习）技术强国，支持答题，支持 docker 45分/天
       </div>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking 10">10</span>
-          <a href="https://github.com/rwightman/pytorch-image-models" target="_blank" title="rwightman/pytorch-image-models">rwightman/pytorch-image-models</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <a class="language" target="_blank" href="https://github.com/topics/python"  title="Programming Language Python">
-            <span style="background-color: #3572A5;"></span>Python
-          </a>
-          
-          <span class="star" title="Stargazers Count">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>14099</span>
-          </span>
-          <span class="star" title="Repo Forked">
-            <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
-              <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
-            </path>
-            </svg>
-            <span>2227</span>
-          </span>
-          <span class="star">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>988 stars this month</span>
-          </span>
-        </div>
-        <div class="details">
-          PyTorch image models, scripts, pretrained weights -- ResNet, ResNeXT, EfficientNet, EfficientNetV2, NFNet, Vision Transformer, MixNet, MobileNet-V3/V2, RegNet, DPN, CSPNet, and more
-        </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 4">4</span>
+        <a href="https://github.com/HashLips/hashlips_art_engine" target="_blank" title="HashLips/hashlips_art_engine">HashLips/hashlips_art_engine</a>
       </div>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking 11">11</span>
-          <a href="https://github.com/mattermost/mattermost-server" target="_blank" title="mattermost/mattermost-server">mattermost/mattermost-server</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <a class="language" target="_blank" href="https://github.com/topics/go"  title="Programming Language Go">
-            <span style="background-color: #00ADD8;"></span>Go
-          </a>
-          
-          <span class="star" title="Stargazers Count">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>21313</span>
-          </span>
-          <span class="star" title="Repo Forked">
-            <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
-              <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
-            </path>
-            </svg>
-            <span>5208</span>
-          </span>
-          <span class="star">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>397 stars this month</span>
-          </span>
-        </div>
-        <div class="details">
-          Mattermost is an open source platform for secure collaboration across the entire software development lifecycle.
-        </div>
+      <div class="sub-title followers">
+        
+        <a class="language" target="_blank" href="https://github.com/topics/javascript"  title="Programming Language JavaScript">
+          <span style="background-color: #f1e05a;"></span>JavaScript
+        </a>
+        
+        <span class="star" title="Stargazers Count">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>1109</span>
+        </span>
+        <span class="star" title="Repo Forked">
+          <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
+            <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+          </path>
+          </svg>
+          <span>495</span>
+        </span>
+        <span class="star">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>620 stars this month</span>
+        </span>
       </div>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking 12">12</span>
-          <a href="https://github.com/thewhiteh4t/seeker" target="_blank" title="thewhiteh4t/seeker">thewhiteh4t/seeker</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <a class="language" target="_blank" href="https://github.com/topics/css"  title="Programming Language CSS">
-            <span style="background-color: #563d7c;"></span>CSS
-          </a>
-          
-          <span class="star" title="Stargazers Count">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>2520</span>
-          </span>
-          <span class="star" title="Repo Forked">
-            <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
-              <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
-            </path>
-            </svg>
-            <span>887</span>
-          </span>
-          <span class="star">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>322 stars this month</span>
-          </span>
-        </div>
-        <div class="details">
-          Accurately Locate Smartphones using Social Engineering
-        </div>
+      <div class="details">
+        HashLips Art Engine is a tool used to create multiple different instances of artworks based on provided layers.
       </div>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking 13">13</span>
-          <a href="https://github.com/authzed/spicedb" target="_blank" title="authzed/spicedb">authzed/spicedb</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <a class="language" target="_blank" href="https://github.com/topics/go"  title="Programming Language Go">
-            <span style="background-color: #00ADD8;"></span>Go
-          </a>
-          
-          <span class="star" title="Stargazers Count">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>1559</span>
-          </span>
-          <span class="star" title="Repo Forked">
-            <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
-              <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
-            </path>
-            </svg>
-            <span>54</span>
-          </span>
-          <span class="star">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>1331 stars this month</span>
-          </span>
-        </div>
-        <div class="details">
-          A database system for managing security-critical permissions checking. Inspired by Google&#39;s Zanzibar paper.
-        </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 5">5</span>
+        <a href="https://github.com/facebook/flipper" target="_blank" title="facebook/flipper">facebook/flipper</a>
       </div>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking 14">14</span>
-          <a href="https://github.com/OpenIMSDK/Open-IM-Server" target="_blank" title="OpenIMSDK/Open-IM-Server">OpenIMSDK/Open-IM-Server</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <a class="language" target="_blank" href="https://github.com/topics/go"  title="Programming Language Go">
-            <span style="background-color: #00ADD8;"></span>Go
-          </a>
-          
-          <span class="star" title="Stargazers Count">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>1846</span>
-          </span>
-          <span class="star" title="Repo Forked">
-            <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
-              <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
-            </path>
-            </svg>
-            <span>284</span>
-          </span>
-          <span class="star">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>910 stars this month</span>
-          </span>
-        </div>
-        <div class="details">
-          OpenIM：由前微信技术专家打造的基于 Go 实现的即时通讯（IM）项目，从服务端到客户端SDK开源即时通讯（IM）整体解决方案，可以轻松替代第三方IM云服务，打造具备聊天、社交功能的app。
-        </div>
+      <div class="sub-title followers">
+        
+        <a class="language" target="_blank" href="https://github.com/topics/typescript"  title="Programming Language TypeScript">
+          <span style="background-color: #2b7489;"></span>TypeScript
+        </a>
+        
+        <span class="star" title="Stargazers Count">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>10146</span>
+        </span>
+        <span class="star" title="Repo Forked">
+          <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
+            <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+          </path>
+          </svg>
+          <span>715</span>
+        </span>
+        <span class="star">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>1207 stars this month</span>
+        </span>
       </div>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking 15">15</span>
-          <a href="https://github.com/microsoft/Data-Science-For-Beginners" target="_blank" title="microsoft/Data-Science-For-Beginners">microsoft/Data-Science-For-Beginners</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <a class="language" target="_blank" href="https://github.com/topics/jupyternotebook"  title="Programming Language JupyterNotebook">
-            <span style="background-color: #DA5B0B;"></span>JupyterNotebook
-          </a>
-          
-          <span class="star" title="Stargazers Count">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>4372</span>
-          </span>
-          <span class="star" title="Repo Forked">
-            <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
-              <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
-            </path>
-            </svg>
-            <span>615</span>
-          </span>
-          <span class="star">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>4090 stars this month</span>
-          </span>
-        </div>
-        <div class="details">
-          10 Weeks, 20 Lessons, Data Science for All!
-        </div>
+      <div class="details">
+        A desktop debugging platform for mobile developers.
       </div>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking 16">16</span>
-          <a href="https://github.com/projectdiscovery/nuclei-templates" target="_blank" title="projectdiscovery/nuclei-templates">projectdiscovery/nuclei-templates</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <a class="language" target="_blank" href="https://github.com/topics/python"  title="Programming Language Python">
-            <span style="background-color: #3572A5;"></span>Python
-          </a>
-          
-          <span class="star" title="Stargazers Count">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>2683</span>
-          </span>
-          <span class="star" title="Repo Forked">
-            <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
-              <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
-            </path>
-            </svg>
-            <span>853</span>
-          </span>
-          <span class="star">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>358 stars this month</span>
-          </span>
-        </div>
-        <div class="details">
-          Community curated list of templates for the nuclei engine to find security vulnerabilities.
-        </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 6">6</span>
+        <a href="https://github.com/john-smilga/node-express-course" target="_blank" title="john-smilga/node-express-course">john-smilga/node-express-course</a>
       </div>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking 17">17</span>
-          <a href="https://github.com/github/docs" target="_blank" title="github/docs">github/docs</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <a class="language" target="_blank" href="https://github.com/topics/javascript"  title="Programming Language JavaScript">
-            <span style="background-color: #f1e05a;"></span>JavaScript
-          </a>
-          
-          <span class="star" title="Stargazers Count">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>6720</span>
-          </span>
-          <span class="star" title="Repo Forked">
-            <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
-              <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
-            </path>
-            </svg>
-            <span>29504</span>
-          </span>
-          <span class="star">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>750 stars this month</span>
-          </span>
-        </div>
-        <div class="details">
-          The open-source repo for docs.github.com
-        </div>
+      <div class="sub-title followers">
+        
+        <a class="language" target="_blank" href="https://github.com/topics/javascript"  title="Programming Language JavaScript">
+          <span style="background-color: #f1e05a;"></span>JavaScript
+        </a>
+        
+        <span class="star" title="Stargazers Count">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>725</span>
+        </span>
+        <span class="star" title="Repo Forked">
+          <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
+            <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+          </path>
+          </svg>
+          <span>671</span>
+        </span>
+        <span class="star">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>244 stars this month</span>
+        </span>
       </div>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking 18">18</span>
-          <a href="https://github.com/firstcontributions/first-contributions" target="_blank" title="firstcontributions/first-contributions">firstcontributions/first-contributions</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <span class="star" title="Stargazers Count">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>21538</span>
-          </span>
-          <span class="star" title="Repo Forked">
-            <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
-              <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
-            </path>
-            </svg>
-            <span>40748</span>
-          </span>
-          <span class="star">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>693 stars this month</span>
-          </span>
-        </div>
-        <div class="details">
-          🚀✨ Help beginners to contribute to open source projects
-        </div>
+      <div class="details">
+        
       </div>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking 19">19</span>
-          <a href="https://github.com/appwrite/appwrite" target="_blank" title="appwrite/appwrite">appwrite/appwrite</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <a class="language" target="_blank" href="https://github.com/topics/javascript"  title="Programming Language JavaScript">
-            <span style="background-color: #f1e05a;"></span>JavaScript
-          </a>
-          
-          <span class="star" title="Stargazers Count">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>13896</span>
-          </span>
-          <span class="star" title="Repo Forked">
-            <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
-              <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
-            </path>
-            </svg>
-            <span>1226</span>
-          </span>
-          <span class="star">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>2071 stars this month</span>
-          </span>
-        </div>
-        <div class="details">
-          Appwrite is a secure end-to-end backend server for Web, Mobile, and Flutter developers that is packaged as a set of Docker containers for easy deployment 🚀
-        </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 7">7</span>
+        <a href="https://github.com/TheAlgorithms/Python" target="_blank" title="TheAlgorithms/Python">TheAlgorithms/Python</a>
       </div>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking 20">20</span>
-          <a href="https://github.com/dotnet/sdk" target="_blank" title="dotnet/sdk">dotnet/sdk</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <a class="language" target="_blank" href="https://github.com/topics/c#"  title="Programming Language C#">
-            <span style="background-color: #178600;"></span>C#
-          </a>
-          
-          <span class="star" title="Stargazers Count">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>1534</span>
-          </span>
-          <span class="star" title="Repo Forked">
-            <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
-              <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
-            </path>
-            </svg>
-            <span>536</span>
-          </span>
-          <span class="star">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>302 stars this month</span>
-          </span>
-        </div>
-        <div class="details">
-          Core functionality needed to create .NET Core projects, that is shared between Visual Studio and CLI
-        </div>
+      <div class="sub-title followers">
+        
+        <a class="language" target="_blank" href="https://github.com/topics/python"  title="Programming Language Python">
+          <span style="background-color: #3572A5;"></span>Python
+        </a>
+        
+        <span class="star" title="Stargazers Count">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>122092</span>
+        </span>
+        <span class="star" title="Repo Forked">
+          <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
+            <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+          </path>
+          </svg>
+          <span>32751</span>
+        </span>
+        <span class="star">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>3475 stars this month</span>
+        </span>
       </div>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking 21">21</span>
-          <a href="https://github.com/cube-js/cube.js" target="_blank" title="cube-js/cube.js">cube-js/cube.js</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <a class="language" target="_blank" href="https://github.com/topics/rust"  title="Programming Language Rust">
-            <span style="background-color: #dea584;"></span>Rust
-          </a>
-          
-          <span class="star" title="Stargazers Count">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>11645</span>
-          </span>
-          <span class="star" title="Repo Forked">
-            <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
-              <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
-            </path>
-            </svg>
-            <span>1125</span>
-          </span>
-          <span class="star">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>562 stars this month</span>
-          </span>
-        </div>
-        <div class="details">
-          📊 Cube.js — Open-Source Analytics API for Building Data Apps
-        </div>
+      <div class="details">
+        All Algorithms implemented in Python
       </div>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking 22">22</span>
-          <a href="https://github.com/tldr-pages/tldr" target="_blank" title="tldr-pages/tldr">tldr-pages/tldr</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <a class="language" target="_blank" href="https://github.com/topics/markdown"  title="Programming Language Markdown">
-            <span style="background-color: #083fa1;"></span>Markdown
-          </a>
-          
-          <span class="star" title="Stargazers Count">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>35768</span>
-          </span>
-          <span class="star" title="Repo Forked">
-            <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
-              <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
-            </path>
-            </svg>
-            <span>2948</span>
-          </span>
-          <span class="star">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>1334 stars this month</span>
-          </span>
-        </div>
-        <div class="details">
-          📚 Collaborative cheatsheets for console commands
-        </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 8">8</span>
+        <a href="https://github.com/appsmithorg/appsmith" target="_blank" title="appsmithorg/appsmith">appsmithorg/appsmith</a>
       </div>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking 23">23</span>
-          <a href="https://github.com/odoo/odoo" target="_blank" title="odoo/odoo">odoo/odoo</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <a class="language" target="_blank" href="https://github.com/topics/javascript"  title="Programming Language JavaScript">
-            <span style="background-color: #f1e05a;"></span>JavaScript
-          </a>
-          
-          <span class="star" title="Stargazers Count">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>23151</span>
-          </span>
-          <span class="star" title="Repo Forked">
-            <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
-              <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
-            </path>
-            </svg>
-            <span>15183</span>
-          </span>
-          <span class="star">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>610 stars this month</span>
-          </span>
-        </div>
-        <div class="details">
-          Odoo. Open Source Apps To Grow Your Business.
-        </div>
+      <div class="sub-title followers">
+        
+        <a class="language" target="_blank" href="https://github.com/topics/typescript"  title="Programming Language TypeScript">
+          <span style="background-color: #2b7489;"></span>TypeScript
+        </a>
+        
+        <span class="star" title="Stargazers Count">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>8117</span>
+        </span>
+        <span class="star" title="Repo Forked">
+          <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
+            <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+          </path>
+          </svg>
+          <span>801</span>
+        </span>
+        <span class="star">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>2166 stars this month</span>
+        </span>
       </div>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking 24">24</span>
-          <a href="https://github.com/trekhleb/javascript-algorithms" target="_blank" title="trekhleb/javascript-algorithms">trekhleb/javascript-algorithms</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <a class="language" target="_blank" href="https://github.com/topics/javascript"  title="Programming Language JavaScript">
-            <span style="background-color: #f1e05a;"></span>JavaScript
-          </a>
-          
-          <span class="star" title="Stargazers Count">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>125587</span>
-          </span>
-          <span class="star" title="Repo Forked">
-            <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
-              <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
-            </path>
-            </svg>
-            <span>20447</span>
-          </span>
-          <span class="star">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>5330 stars this month</span>
-          </span>
-        </div>
-        <div class="details">
-          📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings
-        </div>
+      <div class="details">
+        Quickly build any custom business software like admin panels, internal tools, dashboards and more with pre-built UI widgets that connect to any database, GraphQL or REST API, controlling everything with Javascript.
       </div>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking 25">25</span>
-          <a href="https://github.com/smartcontractkit/full-blockchain-solidity-course-py" target="_blank" title="smartcontractkit/full-blockchain-solidity-course-py">smartcontractkit/full-blockchain-solidity-course-py</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <span class="star" title="Stargazers Count">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>2663</span>
-          </span>
-          <span class="star" title="Repo Forked">
-            <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
-              <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
-            </path>
-            </svg>
-            <span>534</span>
-          </span>
-          <span class="star">
-            <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
-              <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
-            </svg>
-            <span>1310 stars this month</span>
-          </span>
-        </div>
-        <div class="details">
-          Ultimate Solidity, Blockchain, and Smart Contract - Beginner to Expert Full Course | Python Edition
-        </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 9">9</span>
+        <a href="https://github.com/rwightman/pytorch-image-models" target="_blank" title="rwightman/pytorch-image-models">rwightman/pytorch-image-models</a>
       </div>
-    </li>
-    
+      <div class="sub-title followers">
+        
+        <a class="language" target="_blank" href="https://github.com/topics/python"  title="Programming Language Python">
+          <span style="background-color: #3572A5;"></span>Python
+        </a>
+        
+        <span class="star" title="Stargazers Count">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>14135</span>
+        </span>
+        <span class="star" title="Repo Forked">
+          <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
+            <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+          </path>
+          </svg>
+          <span>2233</span>
+        </span>
+        <span class="star">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>1017 stars this month</span>
+        </span>
+      </div>
+      <div class="details">
+        PyTorch image models, scripts, pretrained weights -- ResNet, ResNeXT, EfficientNet, EfficientNetV2, NFNet, Vision Transformer, MixNet, MobileNet-V3/V2, RegNet, DPN, CSPNet, and more
+      </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 10">10</span>
+        <a href="https://github.com/qiurunze123/miaosha" target="_blank" title="qiurunze123/miaosha">qiurunze123/miaosha</a>
+      </div>
+      <div class="sub-title followers">
+        
+        <a class="language" target="_blank" href="https://github.com/topics/java"  title="Programming Language Java">
+          <span style="background-color: #b07219;"></span>Java
+        </a>
+        
+        <span class="star" title="Stargazers Count">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>22771</span>
+        </span>
+        <span class="star" title="Repo Forked">
+          <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
+            <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+          </path>
+          </svg>
+          <span>5851</span>
+        </span>
+        <span class="star">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>1018 stars this month</span>
+        </span>
+      </div>
+      <div class="details">
+        ⭐⭐⭐⭐秒杀系统设计与实现.互联网工程师进阶与分析🙋🐓
+      </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 11">11</span>
+        <a href="https://github.com/OpenIMSDK/Open-IM-Server" target="_blank" title="OpenIMSDK/Open-IM-Server">OpenIMSDK/Open-IM-Server</a>
+      </div>
+      <div class="sub-title followers">
+        
+        <a class="language" target="_blank" href="https://github.com/topics/go"  title="Programming Language Go">
+          <span style="background-color: #00ADD8;"></span>Go
+        </a>
+        
+        <span class="star" title="Stargazers Count">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>2348</span>
+        </span>
+        <span class="star" title="Repo Forked">
+          <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
+            <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+          </path>
+          </svg>
+          <span>339</span>
+        </span>
+        <span class="star">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>1413 stars this month</span>
+        </span>
+      </div>
+      <div class="details">
+        OpenIM：由前微信技术专家打造的基于 Go 实现的即时通讯（IM）项目，从服务端到客户端SDK开源即时通讯（IM）整体解决方案，可以轻松替代第三方IM云服务，打造具备聊天、社交功能的app。
+      </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 12">12</span>
+        <a href="https://github.com/mattermost/mattermost-server" target="_blank" title="mattermost/mattermost-server">mattermost/mattermost-server</a>
+      </div>
+      <div class="sub-title followers">
+        
+        <a class="language" target="_blank" href="https://github.com/topics/go"  title="Programming Language Go">
+          <span style="background-color: #00ADD8;"></span>Go
+        </a>
+        
+        <span class="star" title="Stargazers Count">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>21325</span>
+        </span>
+        <span class="star" title="Repo Forked">
+          <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
+            <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+          </path>
+          </svg>
+          <span>5209</span>
+        </span>
+        <span class="star">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>400 stars this month</span>
+        </span>
+      </div>
+      <div class="details">
+        Mattermost is an open source platform for secure collaboration across the entire software development lifecycle.
+      </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 13">13</span>
+        <a href="https://github.com/firstcontributions/first-contributions" target="_blank" title="firstcontributions/first-contributions">firstcontributions/first-contributions</a>
+      </div>
+      <div class="sub-title followers">
+        
+        <span class="star" title="Stargazers Count">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>21553</span>
+        </span>
+        <span class="star" title="Repo Forked">
+          <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
+            <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+          </path>
+          </svg>
+          <span>40763</span>
+        </span>
+        <span class="star">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>687 stars this month</span>
+        </span>
+      </div>
+      <div class="details">
+        🚀✨ Help beginners to contribute to open source projects
+      </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 14">14</span>
+        <a href="https://github.com/projectdiscovery/nuclei-templates" target="_blank" title="projectdiscovery/nuclei-templates">projectdiscovery/nuclei-templates</a>
+      </div>
+      <div class="sub-title followers">
+        
+        <a class="language" target="_blank" href="https://github.com/topics/python"  title="Programming Language Python">
+          <span style="background-color: #3572A5;"></span>Python
+        </a>
+        
+        <span class="star" title="Stargazers Count">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>2696</span>
+        </span>
+        <span class="star" title="Repo Forked">
+          <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
+            <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+          </path>
+          </svg>
+          <span>855</span>
+        </span>
+        <span class="star">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>370 stars this month</span>
+        </span>
+      </div>
+      <div class="details">
+        Community curated list of templates for the nuclei engine to find security vulnerabilities.
+      </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 15">15</span>
+        <a href="https://github.com/microsoft/Data-Science-For-Beginners" target="_blank" title="microsoft/Data-Science-For-Beginners">microsoft/Data-Science-For-Beginners</a>
+      </div>
+      <div class="sub-title followers">
+        
+        <a class="language" target="_blank" href="https://github.com/topics/jupyternotebook"  title="Programming Language JupyterNotebook">
+          <span style="background-color: #DA5B0B;"></span>JupyterNotebook
+        </a>
+        
+        <span class="star" title="Stargazers Count">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>4912</span>
+        </span>
+        <span class="star" title="Repo Forked">
+          <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
+            <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+          </path>
+          </svg>
+          <span>679</span>
+        </span>
+        <span class="star">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>4204 stars this month</span>
+        </span>
+      </div>
+      <div class="details">
+        10 Weeks, 20 Lessons, Data Science for All!
+      </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 16">16</span>
+        <a href="https://github.com/thewhiteh4t/seeker" target="_blank" title="thewhiteh4t/seeker">thewhiteh4t/seeker</a>
+      </div>
+      <div class="sub-title followers">
+        
+        <a class="language" target="_blank" href="https://github.com/topics/css"  title="Programming Language CSS">
+          <span style="background-color: #563d7c;"></span>CSS
+        </a>
+        
+        <span class="star" title="Stargazers Count">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>2538</span>
+        </span>
+        <span class="star" title="Repo Forked">
+          <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
+            <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+          </path>
+          </svg>
+          <span>891</span>
+        </span>
+        <span class="star">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>340 stars this month</span>
+        </span>
+      </div>
+      <div class="details">
+        Accurately Locate Smartphones using Social Engineering
+      </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 17">17</span>
+        <a href="https://github.com/dotnet/sdk" target="_blank" title="dotnet/sdk">dotnet/sdk</a>
+      </div>
+      <div class="sub-title followers">
+        
+        <a class="language" target="_blank" href="https://github.com/topics/c#"  title="Programming Language C#">
+          <span style="background-color: #178600;"></span>C#
+        </a>
+        
+        <span class="star" title="Stargazers Count">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>1536</span>
+        </span>
+        <span class="star" title="Repo Forked">
+          <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
+            <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+          </path>
+          </svg>
+          <span>536</span>
+        </span>
+        <span class="star">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>303 stars this month</span>
+        </span>
+      </div>
+      <div class="details">
+        Core functionality needed to create .NET Core projects, that is shared between Visual Studio and CLI
+      </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 18">18</span>
+        <a href="https://github.com/lvgl/lvgl" target="_blank" title="lvgl/lvgl">lvgl/lvgl</a>
+      </div>
+      <div class="sub-title followers">
+        
+        <a class="language" target="_blank" href="https://github.com/topics/c"  title="Programming Language C">
+          <span style="background-color: #555555;"></span>C
+        </a>
+        
+        <span class="star" title="Stargazers Count">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>7705</span>
+        </span>
+        <span class="star" title="Repo Forked">
+          <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
+            <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+          </path>
+          </svg>
+          <span>1545</span>
+        </span>
+        <span class="star">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>896 stars this month</span>
+        </span>
+      </div>
+      <div class="details">
+        Powerful and easy-to-use embedded GUI library with many widgets, advanced visual effects (opacity, antialiasing, animations) and low memory requirements (16K RAM, 64K Flash).
+      </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 19">19</span>
+        <a href="https://github.com/odoo/odoo" target="_blank" title="odoo/odoo">odoo/odoo</a>
+      </div>
+      <div class="sub-title followers">
+        
+        <a class="language" target="_blank" href="https://github.com/topics/javascript"  title="Programming Language JavaScript">
+          <span style="background-color: #f1e05a;"></span>JavaScript
+        </a>
+        
+        <span class="star" title="Stargazers Count">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>23168</span>
+        </span>
+        <span class="star" title="Repo Forked">
+          <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
+            <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+          </path>
+          </svg>
+          <span>15193</span>
+        </span>
+        <span class="star">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>621 stars this month</span>
+        </span>
+      </div>
+      <div class="details">
+        Odoo. Open Source Apps To Grow Your Business.
+      </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 20">20</span>
+        <a href="https://github.com/vercel/next.js" target="_blank" title="vercel/next.js">vercel/next.js</a>
+      </div>
+      <div class="sub-title followers">
+        
+        <a class="language" target="_blank" href="https://github.com/topics/javascript"  title="Programming Language JavaScript">
+          <span style="background-color: #f1e05a;"></span>JavaScript
+        </a>
+        
+        <span class="star" title="Stargazers Count">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>75805</span>
+        </span>
+        <span class="star" title="Repo Forked">
+          <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
+            <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+          </path>
+          </svg>
+          <span>14995</span>
+        </span>
+        <span class="star">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>2259 stars this month</span>
+        </span>
+      </div>
+      <div class="details">
+        The React Framework
+      </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 21">21</span>
+        <a href="https://github.com/hrsh7th/nvim-cmp" target="_blank" title="hrsh7th/nvim-cmp">hrsh7th/nvim-cmp</a>
+      </div>
+      <div class="sub-title followers">
+        
+        <a class="language" target="_blank" href="https://github.com/topics/lua"  title="Programming Language Lua">
+          <span style="background-color: #000080;"></span>Lua
+        </a>
+        
+        <span class="star" title="Stargazers Count">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>1331</span>
+        </span>
+        <span class="star" title="Repo Forked">
+          <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
+            <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+          </path>
+          </svg>
+          <span>55</span>
+        </span>
+        <span class="star">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>486 stars this month</span>
+        </span>
+      </div>
+      <div class="details">
+        A completion plugin for neovim coded in Lua.
+      </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 22">22</span>
+        <a href="https://github.com/trekhleb/javascript-algorithms" target="_blank" title="trekhleb/javascript-algorithms">trekhleb/javascript-algorithms</a>
+      </div>
+      <div class="sub-title followers">
+        
+        <a class="language" target="_blank" href="https://github.com/topics/javascript"  title="Programming Language JavaScript">
+          <span style="background-color: #f1e05a;"></span>JavaScript
+        </a>
+        
+        <span class="star" title="Stargazers Count">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>125688</span>
+        </span>
+        <span class="star" title="Repo Forked">
+          <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
+            <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+          </path>
+          </svg>
+          <span>20460</span>
+        </span>
+        <span class="star">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>5204 stars this month</span>
+        </span>
+      </div>
+      <div class="details">
+        📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings
+      </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 23">23</span>
+        <a href="https://github.com/fchollet/deep-learning-with-python-notebooks" target="_blank" title="fchollet/deep-learning-with-python-notebooks">fchollet/deep-learning-with-python-notebooks</a>
+      </div>
+      <div class="sub-title followers">
+        
+        <a class="language" target="_blank" href="https://github.com/topics/jupyternotebook"  title="Programming Language JupyterNotebook">
+          <span style="background-color: #DA5B0B;"></span>JupyterNotebook
+        </a>
+        
+        <span class="star" title="Stargazers Count">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>13958</span>
+        </span>
+        <span class="star" title="Repo Forked">
+          <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
+            <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+          </path>
+          </svg>
+          <span>6840</span>
+        </span>
+        <span class="star">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>419 stars this month</span>
+        </span>
+      </div>
+      <div class="details">
+        Jupyter notebooks for the code samples of the book &#34;Deep Learning with Python&#34;
+      </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 24">24</span>
+        <a href="https://github.com/cube-js/cube.js" target="_blank" title="cube-js/cube.js">cube-js/cube.js</a>
+      </div>
+      <div class="sub-title followers">
+        
+        <a class="language" target="_blank" href="https://github.com/topics/rust"  title="Programming Language Rust">
+          <span style="background-color: #dea584;"></span>Rust
+        </a>
+        
+        <span class="star" title="Stargazers Count">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>11663</span>
+        </span>
+        <span class="star" title="Repo Forked">
+          <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
+            <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+          </path>
+          </svg>
+          <span>1127</span>
+        </span>
+        <span class="star">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>576 stars this month</span>
+        </span>
+      </div>
+      <div class="details">
+        📊 Cube.js — Open-Source Analytics API for Building Data Apps
+      </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 25">25</span>
+        <a href="https://github.com/htr-tech/zphisher" target="_blank" title="htr-tech/zphisher">htr-tech/zphisher</a>
+      </div>
+      <div class="sub-title followers">
+        
+        <a class="language" target="_blank" href="https://github.com/topics/hack"  title="Programming Language Hack">
+          <span style="background-color: #878787;"></span>Hack
+        </a>
+        
+        <span class="star" title="Stargazers Count">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>3740</span>
+        </span>
+        <span class="star" title="Repo Forked">
+          <svg aria-label="repo-forked" height="16" viewBox="0 0 10 16" version="1.1" width="10" role="img">
+            <path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+          </path>
+          </svg>
+          <span>1363</span>
+        </span>
+        <span class="star">
+          <svg aria-label="star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+            <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+          </svg>
+          <span>965 stars this month</span>
+        </span>
+      </div>
+      <div class="details">
+        An automated phishing tool with 30+ templates. This Tool is made for educational purpose only ! Author will not be responsible for any misuse of this toolkit !
+      </div>
+    </div>
+  </li>
+  
 </ul>
   <div class="footer">
-    <p>
+    <div>
       <a href="https://github.com/jaywcjlove/github-rank/network" target="_blank">
         <img src="https://img.shields.io/github/forks/jaywcjlove/github-rank.svg">
       </a>
@@ -1057,8 +1079,8 @@
       <a href="https://unpkg.com/@wcj/github-rank/web/index.html" target="_blank">
         <img src="https://img.shields.io/npm/v/@wcj/github-rank.svg?label=unpkg">
       </a>
-    </p>
-    <div class="time">Last cache created on 2021/11/1 by Github API v3.</div>
+    </div>
+    <div class="time">Last cache created on 2021/11/2 by Github API v3.</div>
     Create by <a href="https://github.com/jaywcjlove" target="_blank">小弟调调™</a>.
   </div>
 </body>

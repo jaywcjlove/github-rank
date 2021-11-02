@@ -12,31 +12,36 @@
     html, body, ul, li, h1 { margin: 0; padding: 0 }
     html, body { font-size: 16px; font-family: -apple-system,"Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","WenQuanYi Micro Hei","Microsoft Yahei",sans-serif; }
     ul { list-style: none; }
-    body { text-align: center; }
+
     a { color: #333; text-decoration: none; transition: all .2s ease-in; }
     a:hover { color: #1600ff; }
     a.github-corner:hover .octo-arm { animation: octocat-wave 560ms infinite linear; }
     a.github-corner svg { fill: #f1f1f1; color: #000; position: absolute; top: 0; border: 0; right: 0; z-index: 99; width: 70px; height: 70px; }
     a.github-corner { position: fixed; z-index: 9999; top: 0; right: 0; }
-    .title { padding: 46px 0 0 0; font-size: 18px; line-height: 24px; }
-    .time, .footer { padding: 5px 0 2px 0; font-size: 12px; color: #adadad; }
-    .tabs { padding: 10px 0 15px 0;}
-    .tabs a { background: #e2e2e2; display: inline-block; padding: 3px 7px; font-size: 12px; line-height: 16px; color: #0366d6; }
-    .tabs a.active { background: #696969; color: #efefef; }
-    .footer { padding: 10px 0 30px 0; }
-    .list { text-align: left; max-width: 470px; margin: 0 auto; padding-bottom: 10px; background-color: #efefef; border-radius: 5px; overflow: hidden; }
+
+    .title { padding: 32px 20px 10px 20px; font-size: 32px; display: flex; }
+    .title a svg { display: block; }
+    .title a { color: #0059ff; display: inline-block; margin-left: 10px; }
+    .time, .footer { padding: 5px 20px 2px 20px; font-size: 12px; color: #adadad; }
+    .tabs { padding: 0 20px 5px 20px;}
+    .tabs a { background: #e2e2e2; display: inline-block; border-radius: 2px; margin: 2px 0; padding: 2px 5px; font-size: 12px; line-height: 16px; color: #0366d6; }
+    .tabs a.active { background: #333; color: #efefef; }
+    .tabs a:hover:not(.active) { background: #efefef; }
+    .footer { padding: 0 20px 30px 20px; font-size: 12px; color: #adadad; }
+    .footer .time { padding: 0; }
+    .list { text-align: left; padding-bottom: 10px; margin: 0 15px; }
     .list img { width: 36px; height: 36px; border-radius: 3px; display: block; margin: 0 auto; background-color: #e2e2e2; border: 0; overflow: hidden; }
     .list a { color: #0366d6; }
     .list a:hover { color: #1600ff; }
-    .list li { padding: 5px; margin: 0 8px; transition: all .3s; border-bottom: 1px solid #d8d8d8; }
-    .list li.rank-title { background-color: #e2e2e2; margin: 0; padding: 7px 13px; margin-bottom: 10px; border-radius: 0; font-size: 14px; line-height: 16px; }
-    .list li.rank-title:hover { background: #e2e2e2; }
+    .list li { padding: 10px; transition: all .3s; }
+    .list li.rank-title { margin: 0; padding: 3px 0 0 7px; margin-bottom: 10px; border-radius: 5px; font-size: 12px; line-height: 16px; }
+    .list li.rank-title > a { margin-right: 10px; }
+    .list li.rank-title:hover { background: transparent; }
     .list li:last-child, .list li.rank-title { border-bottom: 0; }
-    .list li:hover { background: rgba(255, 255, 255, 0.56); }
+    .list li:hover { background: #efefef8f; }
     .list li > div { display: table-cell; vertical-align: top; font-size: 14px; }
-    .list li div.rank { padding: 0 8px; }
     .list li div.rank span { font-weight: bold; }
-    .list li div.details { padding: 2px 0 0 9px; font-size: 12px; float: left; color: #b9b9b9; }
+    .list li div.details { padding: 2px 0 0 0; font-size: 12px; float: left; color: #b9b9b9; }
     .list li div.details a { color: #b9b9b9; transition: all .3s; }
     .list li div.details a:hover { color: #1600ff; }
     .list li div.details a:hover svg { fill: #1600ff; }
@@ -46,11 +51,12 @@
     .list li > div.info { width: 100%; }
     .list li > div.info i { color: #717171; }
     .list li > div.info a:hover i { color: #333; }
-    .list li div.sub-title { color: #333; margin: 4px 0 0 3px;}
+    .list li div.sub-title { color: #333; margin: 4px 0 0 0; }
+    .list li div.avatar { padding-right: 10px; }
     
     
-    .list .select { float: right; line-height: 14px; line-height: 16px; }
-    .list .select .active { color: #333; font-weight: bold; }
+    .list .select { }
+    .list .select .active { color: #333; font-weight: bold; border-bottom: 1px dotted #000;}
     
     
     
@@ -59,6 +65,9 @@
       0%,100%{-webkit-transform:rotate(0); transform:rotate(0);}
       20%,60%{-webkit-transform:rotate(-25deg); transform:rotate(-25deg);}
       40%,80%{-webkit-transform:rotate(10deg); transform:rotate(10deg);}
+    }
+    @media screen and (max-width: 479px) {
+      .title { padding-top: 16px; font-size: 21px; }
     }
   </style>
   <style>
@@ -72,8 +81,18 @@
       <path fill="currentColor" class="octo-body" d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"></path>
     </svg>
   </a>
-  <h1 class="title"> Segmentfault 思否热门 </h1>
-  <div class="time">Last cache created on 2021/11/1 by Github API v3.</div>
+  <h1 class="title">
+    Segmentfault 思否热门
+    
+    
+    
+    
+    <a target="_blank" href="https://segmentfault.com/hottest"></a>
+    
+    
+    
+  </h1>
+  <div class="time">Last cache created on 2021/11/2 by Github API v3.</div>
   <div class="tabs">
     <a class="" href="index.html">Users</a>
     <a class="" href="repos.html">Repos</a>
@@ -83,186 +102,297 @@
     <a class="" href="36kr.html">36Kr</a>
   </div>
 <ul class="list">
-    <li class="rank-title">
-      <a href="https://segmentfault.com/hottest" target="_blank">Segmentfault 思否热门</a>
-      <span class="select">
-        <a class="active" href="sifou-daily.html">日热门</a>
-        <a class="" href="sifou-weekly.html">周热门</a>
-        <a class="" href="sifou-monthly.html">月热门</a>
-      </span>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking 1">1</span>
-          <a href="https://segmentfault.com/a/1190000040890911" target="_blank" title="MySQL事务的隔离级别与并发问题">MySQL事务的隔离级别与并发问题</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <span title="Stargazers Count">
-            <svg width="12" height="12" viewBox="0 0 16 16">
-              <g fill="none" fill-rule="evenodd">
-                <path d="M0 0h16v16H0z"/>
-                <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
-              </g>
-            </svg>
-            <span>1</span>
-          </span>
-          &nbsp;
-          <a target="_blank" href="https://segmentfault.com/u/baicai1031"  title="Programming Language">
-            <span>白菜1031</span>
-          </a>
-        </div>
-        <div class="details">
-          事务A先根据某个范围条件查询出了一些记录，而事务B写入了一些符合该条件的新记录，当事务A再次以相同的条件查询时，查询到了新的记录，就意味着发生了幻读现象。
-        </div>
+  <li class="rank-title">
+    <span class="select">
+      <a class="active" href="sifou-daily.html">日热门</a>
+      <a class="" href="sifou-weekly.html">周热门</a>
+      <a class="" href="sifou-monthly.html">月热门</a>
+    </span>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 1">1</span>
+        <a href="https://segmentfault.com/a/1190000040893750" target="_blank" title="尤雨溪几年前开发的“玩具 vite”，才100多行代码，却十分有助于理解 vite 原理">尤雨溪几年前开发的“玩具 vite”，才100多行代码，却十分有助于理解 vite 原理</a>
       </div>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking 2">2</span>
-          <a href="https://segmentfault.com/a/1190000040889172" target="_blank" title="JZ-011-二进制中 1 的个数">JZ-011-二进制中 1 的个数</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <span title="Stargazers Count">
-            <svg width="12" height="12" viewBox="0 0 16 16">
-              <g fill="none" fill-rule="evenodd">
-                <path d="M0 0h16v16H0z"/>
-                <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
-              </g>
-            </svg>
-            <span>2</span>
-          </span>
-          &nbsp;
-          <a target="_blank" href="https://segmentfault.com/u/xiongshihubao"  title="Programming Language">
-            <span>雄狮虎豹</span>
-          </a>
-        </div>
-        <div class="details">
-          二进制中 1 的个数题目描述输入一个整数，输出该数32位二进制表示中1的个数。其中负数用补码表示。题目链接: 二进制中 1 的个数代码 {代码...} 【每日寄语】 你的微笑是最有治愈力的力量，胜过世间最美的风景。
-        </div>
+      <div class="sub-title followers">
+        
+        <span title="Stargazers Count">
+          <svg width="12" height="12" viewBox="0 0 16 16">
+            <g fill="none" fill-rule="evenodd">
+              <path d="M0 0h16v16H0z"/>
+              <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+            </g>
+          </svg>
+          <span>6</span>
+        </span>
+        &nbsp;
+        <a target="_blank" href="https://segmentfault.com/u/lxchuan12"  title="Programming Language">
+          <span>若川</span>
+        </a>
       </div>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking 3">3</span>
-          <a href="https://segmentfault.com/a/1190000040889788" target="_blank" title="Hermes将成为React Native默认的JS引擎">Hermes将成为React Native默认的JS引擎</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <span title="Stargazers Count">
-            <svg width="12" height="12" viewBox="0 0 16 16">
-              <g fill="none" fill-rule="evenodd">
-                <path d="M0 0h16v16H0z"/>
-                <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
-              </g>
-            </svg>
-            <span>1</span>
-          </span>
-          &nbsp;
-          <a target="_blank" href="https://segmentfault.com/u/xiangzhihong"  title="Programming Language">
-            <span>xiangzhihong</span>
-          </a>
-        </div>
-        <div class="details">
-          自 2019 年首次发布以来，小巧轻便的 JavaScript 引擎 Hermes 在社区中的名气越来越高，很多的框架也开始支持Hermes。作为 React Native 领域高人气元框架的缔造者，Expo 团队此前公布了对 Hermes 的实验性支持。...
-        </div>
+      <div class="details">
+        想学源码，极力推荐之前我写的《学习源码整体架构系列》 包含jQuery、underscore、lodash、vuex、sentry、axios、redux、koa、vue-devtools、vuex4、koa-compose、vue-next-release、vue-this、create-vue等十余...
       </div>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking 4">4</span>
-          <a href="https://segmentfault.com/a/1190000040891097" target="_blank" title="如何实现拖拽上传、上传进度条，以及取消上传？">如何实现拖拽上传、上传进度条，以及取消上传？</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <span title="Stargazers Count">
-            <svg width="12" height="12" viewBox="0 0 16 16">
-              <g fill="none" fill-rule="evenodd">
-                <path d="M0 0h16v16H0z"/>
-                <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
-              </g>
-            </svg>
-            <span>1</span>
-          </span>
-          &nbsp;
-          <a target="_blank" href="https://segmentfault.com/u/shuaifei_5cdd73e997a1f"  title="Programming Language">
-            <span>前端阿飞</span>
-          </a>
-        </div>
-        <div class="details">
-          文件上传是最常见的一种业务需求，上传功能可简单，可复杂，简单就是把文件传上去就行，复杂就是涉及大文件断点续传、控制并发等，不知道大家对上传都了解多少。今天要给大家分享的是上传需求中最为常见的一些场...
-        </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 2">2</span>
+        <a href="https://segmentfault.com/a/1190000040891739" target="_blank" title="高并发场景下JVM调优实践之路">高并发场景下JVM调优实践之路</a>
       </div>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking 5">5</span>
-          <a href="https://segmentfault.com/a/1190000040890232" target="_blank" title="7年Java老后端不能说的秘密：怎么样更好的优化Redis性能？">7年Java老后端不能说的秘密：怎么样更好的优化Redis性能？</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <span title="Stargazers Count">
-            <svg width="12" height="12" viewBox="0 0 16 16">
-              <g fill="none" fill-rule="evenodd">
-                <path d="M0 0h16v16H0z"/>
-                <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
-              </g>
-            </svg>
-            <span>1</span>
-          </span>
-          &nbsp;
-          <a target="_blank" href="https://segmentfault.com/u/gupao_anan"  title="Programming Language">
-            <span>Java白叔</span>
-          </a>
-        </div>
-        <div class="details">
-          今天早上老板把我叫到办公室，对我说，“公司最近接了个电商小程序单子，你和王二狗，李狗蛋参与下需求分析和设计，然后下个月开发，3个月内完成测试，上线交付”。
-        </div>
+      <div class="sub-title followers">
+        
+        <span title="Stargazers Count">
+          <svg width="12" height="12" viewBox="0 0 16 16">
+            <g fill="none" fill-rule="evenodd">
+              <path d="M0 0h16v16H0z"/>
+              <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+            </g>
+          </svg>
+          <span>3</span>
+        </span>
+        &nbsp;
+        <a target="_blank" href="https://segmentfault.com/u/vivo_tech"  title="Programming Language">
+          <span>vivo互联网技术</span>
+        </a>
       </div>
-    </li>
-    
-    <li>
-      <div class="info">
-        <div class="rank">
-          <span title="Ranking 6">6</span>
-          <a href="https://segmentfault.com/a/1190000040890633" target="_blank" title="200 行代码实现一个高效缓存库">200 行代码实现一个高效缓存库</a>
-        </div>
-        <div class="sub-title followers">
-          
-          <span title="Stargazers Count">
-            <svg width="12" height="12" viewBox="0 0 16 16">
-              <g fill="none" fill-rule="evenodd">
-                <path d="M0 0h16v16H0z"/>
-                <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
-              </g>
-            </svg>
-            <span>1</span>
-          </span>
-          &nbsp;
-          <a target="_blank" href="https://segmentfault.com/u/pingan8787"  title="Programming Language">
-            <span>pingan8787</span>
-          </a>
-        </div>
-        <div class="details">
-          这两天用到 cacheables 缓存库，觉得挺不错的，和大家分享一下我看完源码的总结。一、介绍「cacheables」正如它名字一样，是用来做内存缓存使用，其代码仅仅 200 行左右（不含注释），官方的介绍如下：一个简单的...
-        </div>
+      <div class="details">
+        一、背景2021年2月，收到反馈，视频APP某核心接口高峰期响应慢，影响用户体验。通过监控发现，接口响应慢主要是P99耗时高引起的，怀疑与该服务的GC有关，该服务典型的一个实例GC表现如下图：可以看出，在观察周期...
       </div>
-    </li>
-    
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 3">3</span>
+        <a href="https://segmentfault.com/a/1190000040895223" target="_blank" title="GitOps 应用实践系列 - Argo CD 上手实践">GitOps 应用实践系列 - Argo CD 上手实践</a>
+      </div>
+      <div class="sub-title followers">
+        
+        <span title="Stargazers Count">
+          <svg width="12" height="12" viewBox="0 0 16 16">
+            <g fill="none" fill-rule="evenodd">
+              <path d="M0 0h16v16H0z"/>
+              <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+            </g>
+          </svg>
+          <span>2</span>
+        </span>
+        &nbsp;
+        <a target="_blank" href="https://segmentfault.com/u/moelove"  title="Programming Language">
+          <span>张晋涛</span>
+        </a>
+      </div>
+      <div class="details">
+        我们通过 KIND（Kubernetes in Docker）工具创建一个用于本地测试的 Kubernetes 集群。使用如下的配置文件，创建一个包含一个 control plane 和三个 work 的集群。
+      </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 4">4</span>
+        <a href="https://segmentfault.com/a/1190000040893884" target="_blank" title="三步带你玩转前端装饰器">三步带你玩转前端装饰器</a>
+      </div>
+      <div class="sub-title followers">
+        
+        <span title="Stargazers Count">
+          <svg width="12" height="12" viewBox="0 0 16 16">
+            <g fill="none" fill-rule="evenodd">
+              <path d="M0 0h16v16H0z"/>
+              <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+            </g>
+          </svg>
+          <span>9</span>
+        </span>
+        &nbsp;
+        <a target="_blank" href="https://segmentfault.com/u/coollsk"  title="Programming Language">
+          <span>CoolLsk</span>
+        </a>
+      </div>
+      <div class="details">
+        什么是装饰器装饰器怎么封装装饰器能干啥1、什么是装饰器看个例子就懂了eg： {代码...} 反正就是各种嵌套，看起来代码很脓肿,接下来看看【装饰器】怎么写↓ {代码...} 现在看到的写法是不是凉快了很多，没有多层嵌...
+      </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 5">5</span>
+        <a href="https://segmentfault.com/a/1190000040891858" target="_blank" title="LeetCode-040-组合总和 II">LeetCode-040-组合总和 II</a>
+      </div>
+      <div class="sub-title followers">
+        
+        <span title="Stargazers Count">
+          <svg width="12" height="12" viewBox="0 0 16 16">
+            <g fill="none" fill-rule="evenodd">
+              <path d="M0 0h16v16H0z"/>
+              <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+            </g>
+          </svg>
+          <span>2</span>
+        </span>
+        &nbsp;
+        <a target="_blank" href="https://segmentfault.com/u/xiongshihubao"  title="Programming Language">
+          <span>雄狮虎豹</span>
+        </a>
+      </div>
+      <div class="details">
+        题目描述：给定一个数组 candidates 和一个目标数 target ，找出 candidates 中所有可以使数字和为 target 的组合。candidates 中的每个数字在每个组合中只能使用一次。说明：所有数字（包括目标数）都是正整数。...
+      </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 6">6</span>
+        <a href="https://segmentfault.com/a/1190000040894754" target="_blank" title="【10月精彩回顾】Github 支持脚注，Chrome插件开发全攻略">【10月精彩回顾】Github 支持脚注，Chrome插件开发全攻略</a>
+      </div>
+      <div class="sub-title followers">
+        
+        <span title="Stargazers Count">
+          <svg width="12" height="12" viewBox="0 0 16 16">
+            <g fill="none" fill-rule="evenodd">
+              <path d="M0 0h16v16H0z"/>
+              <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+            </g>
+          </svg>
+          <span>1</span>
+        </span>
+        &nbsp;
+        <a target="_blank" href="https://segmentfault.com/u/shuohaodeyixuene"  title="Programming Language">
+          <span>lucifer</span>
+        </a>
+      </div>
+      <div class="details">
+        和 requestIdleCallback 不同， 它是检测用户是否空闲，即是否有交互动作，比如鼠标，键盘等。而 requestIdleCallback 是检测浏览器本身是否空闲。
+      </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 7">7</span>
+        <a href="https://segmentfault.com/a/1190000040892537" target="_blank" title="微服务部署之蓝绿发布、滚动发布、灰度发布区别与特点">微服务部署之蓝绿发布、滚动发布、灰度发布区别与特点</a>
+      </div>
+      <div class="sub-title followers">
+        
+        <span title="Stargazers Count">
+          <svg width="12" height="12" viewBox="0 0 16 16">
+            <g fill="none" fill-rule="evenodd">
+              <path d="M0 0h16v16H0z"/>
+              <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+            </g>
+          </svg>
+          <span>2</span>
+        </span>
+        &nbsp;
+        <a target="_blank" href="https://segmentfault.com/u/jishuroad"  title="Programming Language">
+          <span>民工哥</span>
+        </a>
+      </div>
+      <div class="details">
+        在项目迭代的过程中，不可避免需要”上线“。上线对应着部署，或者重新部署；部署对应着修改；修改则意味着风险。目前有很多部署发布的技术, 这儿将常见的做一个总结。
+      </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 8">8</span>
+        <a href="https://segmentfault.com/a/1190000040895950" target="_blank" title="JavaWeb中jdbc增删查改">JavaWeb中jdbc增删查改</a>
+      </div>
+      <div class="sub-title followers">
+        
+        <span title="Stargazers Count">
+          <svg width="12" height="12" viewBox="0 0 16 16">
+            <g fill="none" fill-rule="evenodd">
+              <path d="M0 0h16v16H0z"/>
+              <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+            </g>
+          </svg>
+          <span>1</span>
+        </span>
+        &nbsp;
+        <a target="_blank" href="https://segmentfault.com/u/wldenw2y"  title="Programming Language">
+          <span>嘻嘻硕</span>
+        </a>
+      </div>
+      <div class="details">
+        Java数据库连接（Java Database Connectivity,J 简称JDBC）,简单来说就是 使用Java执行sql语句的，面向关系型数据库的java_API
+      </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 9">9</span>
+        <a href="https://segmentfault.com/a/1190000040894156" target="_blank" title="活动日程首公布｜Apache ShardingSphere Dev Meetup 亮点新揭秘">活动日程首公布｜Apache ShardingSphere Dev Meetup 亮点新揭秘</a>
+      </div>
+      <div class="sub-title followers">
+        
+        <span title="Stargazers Count">
+          <svg width="12" height="12" viewBox="0 0 16 16">
+            <g fill="none" fill-rule="evenodd">
+              <path d="M0 0h16v16H0z"/>
+              <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+            </g>
+          </svg>
+          <span>1</span>
+        </span>
+        &nbsp;
+        <a target="_blank" href="https://segmentfault.com/u/sphereex"  title="Programming Language">
+          <span>SphereEx</span>
+        </a>
+      </div>
+      <div class="details">
+        11 月 13 日，由 Apache ShardingSphere 社区主办的【Apache ShardingSphere Dev Meetup】将在北京市海淀区中关村大街 32 号智能制造创新中心 1 楼多功能厅举行。本次活动以【开放原生，包容生态 | Apache Shardi...
+      </div>
+    </div>
+  </li>
+  
+  <li>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 10">10</span>
+        <a href="https://segmentfault.com/a/1190000040891518" target="_blank" title="分布式事务框架dtm1.4.1发布，支持高级SAGA">分布式事务框架dtm1.4.1发布，支持高级SAGA</a>
+      </div>
+      <div class="sub-title followers">
+        
+        <span title="Stargazers Count">
+          <svg width="12" height="12" viewBox="0 0 16 16">
+            <g fill="none" fill-rule="evenodd">
+              <path d="M0 0h16v16H0z"/>
+              <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+            </g>
+          </svg>
+          <span>2</span>
+        </span>
+        &nbsp;
+        <a target="_blank" href="https://segmentfault.com/u/yedongfu"  title="Programming Language">
+          <span>叶东富</span>
+        </a>
+      </div>
+      <div class="details">
+        更新日志支持并发SAGA支持SAGA超时回滚支持自定义重试间隔新功能示例 {代码...} 上述代码中EnableConcurrent开启SAGA各分支的并发执行，缩短整个SAGA事务的总耗时上述代码中的注释：AddBranchOrder(1, []int{0})...
+      </div>
+    </div>
+  </li>
+  
 </ul>
   <div class="footer">
-    <p>
+    <div>
       <a href="https://github.com/jaywcjlove/github-rank/network" target="_blank">
         <img src="https://img.shields.io/github/forks/jaywcjlove/github-rank.svg">
       </a>
@@ -275,8 +405,8 @@
       <a href="https://unpkg.com/@wcj/github-rank/web/index.html" target="_blank">
         <img src="https://img.shields.io/npm/v/@wcj/github-rank.svg?label=unpkg">
       </a>
-    </p>
-    <div class="time">Last cache created on 2021/11/1 by Github API v3.</div>
+    </div>
+    <div class="time">Last cache created on 2021/11/2 by Github API v3.</div>
     Create by <a href="https://github.com/jaywcjlove" target="_blank">小弟调调™</a>.
   </div>
 </body>
