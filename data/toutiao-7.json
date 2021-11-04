@@ -1,18 +1,8 @@
 [
   {
-    "title": "Chrome 插件（扩展）开发全攻略 2.6w 字，看这篇就够了",
-    "description": "一、写在前面我花了将近一个多月的时间断断续续写下这篇博文，并精心写下完整demo，写博客的辛苦大家懂的。本文所有涉及到的大部分代码均在这个demo里面：https://github...",
-    "votes": "124",
-    "url": "/k/1sw9dxz",
-    "avatar": "https://img.toutiao.io/subject/445f12f30e3940b2b52eac3d48d07389/thumb",
-    "avatarAlt": "搬运工来架构 - 独家号",
-    "subjectName": "搬运工来架构",
-    "homeUrl": "/subjects/176399"
-  },
-  {
     "title": "高并发场景下 JVM 调优实践之路",
     "description": "作者：vivo互联网技术团队Li Guanyun、 Jessica Chen一、背景2021年2月，收到反馈，视频APP某核心接口高峰期响应慢，影响用户体验。通过监控发现，接口响应...",
-    "votes": "76",
+    "votes": "97",
     "url": "/k/3nkgnj9",
     "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
     "avatarAlt": "vivo互联网技术 - 独家号",
@@ -20,19 +10,9 @@
     "homeUrl": "/subjects/392760"
   },
   {
-    "title": "七步制作精简镜像，So easy",
-    "description": "文章来自黄庆兵老师的网易蜂巢《玩转 Docker 镜像》系列https://github.com/bingohuang/play-docker-images，原本分为上下两篇，这里...",
-    "votes": "82",
-    "url": "/k/s48j8ku",
-    "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
-    "avatarAlt": "服务架构及中台 - 独家号",
-    "subjectName": "服务架构及中台",
-    "homeUrl": "/subjects/26578"
-  },
-  {
     "title": "幂等设计详解",
     "description": "导读 本文主要从研发人员的角度，结合研发人员日常常见的各类业务场景，从经典系统框架的每一层入手分析幂等处理的时机。希望通过这篇文章的分析，让开发者在日常开发中对幂等的处理不再陌生。...",
-    "votes": "82",
+    "votes": "86",
     "url": "/k/qv6mpuj",
     "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
     "avatarAlt": "趣编程的独家号 - 独家号",
@@ -40,9 +20,19 @@
     "homeUrl": "/subjects/465623"
   },
   {
+    "title": "七步制作精简镜像，So easy",
+    "description": "文章来自黄庆兵老师的网易蜂巢《玩转 Docker 镜像》系列https://github.com/bingohuang/play-docker-images，原本分为上下两篇，这里...",
+    "votes": "84",
+    "url": "/k/s48j8ku",
+    "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
+    "avatarAlt": "服务架构及中台 - 独家号",
+    "subjectName": "服务架构及中台",
+    "homeUrl": "/subjects/26578"
+  },
+  {
     "title": "最近很火火火火的 GitHub 项目",
     "description": "老逛每个月都会盘点当前月份最火的开源项目，本篇文章就是十月份 Star 攀升最多的的开源项目，它们分别是： 1. 电商大促脚本2. 基于 Js 的游戏引擎3. Bug 厂库4. 高...",
-    "votes": "74",
+    "votes": "80",
     "url": "/k/3l64knj",
     "avatar": "https://img.toutiao.io/subject/03e210e126704d0ca23938746bbd4cec/thumb",
     "avatarAlt": "近半生少年 - 独家号",
@@ -50,19 +40,9 @@
     "homeUrl": "/subjects/403307"
   },
   {
-    "title": "数据中台实战（三）：用户分析（产品设计篇）",
-    "description": "上一讲我们说到《数据中台实战（二）：基于阿里OneData的数据指标管理体系》。这次我们谈下产品经理更加关注的模块产品设计。接下来将从六个方面讲数据中台的产品设计包括用户分析、商品...",
-    "votes": "46",
-    "url": "/k/0venjhy",
-    "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
-    "avatarAlt": "乱点技能树 - 独家号",
-    "subjectName": "乱点技能树",
-    "homeUrl": "/subjects/194141"
-  },
-  {
     "title": "性能优化：如何更快地接收数据",
     "description": "从网卡到应用程序，数据包会经过一系列组件，其中驱动做了什么？内核做了什么？为了优化，我们又能做些什么？整个过程中涉及到诸多细微可调的软硬件参数，并且相互影响，不存在一劳永逸的“银弹...",
-    "votes": "42",
+    "votes": "44",
     "url": "/k/xcgimf8",
     "avatar": "https://img.toutiao.io/subject/4f9b8a1b9ad34bf3b815671f8461ff25/thumb",
     "avatarAlt": "又拍云 - 独家号",
@@ -72,7 +52,7 @@
   {
     "title": "聊聊如何把第三方服务注册到我们项目的 Spring 容器中",
     "description": "1前言 最近业务部门向我们反馈一个问题，我们部门原先提供的组件突然用不了了。后面排查是因为我们提供出去的组件类没有注入到spring 容器中，之前没问题是因为业务部门的根包名跟我们...",
-    "votes": "43",
+    "votes": "44",
     "url": "/k/ukj399s",
     "avatar": "https://img.toutiao.io/subject/f13d5c901ebe4d5f9509d20e36f1ee33/thumb",
     "avatarAlt": "linyb极客之路 - 独家号",
@@ -82,7 +62,7 @@
   {
     "title": "十小时写出一个活动通知的微信小程序",
     "description": "熟悉我的人都知道，我们每周都会举办一次分布式系统话题的讨论（对活动感兴趣的同学可以参考这个网址：https://donggeitnote.com/2021/07/24/topic-...",
-    "votes": "47",
+    "votes": "48",
     "url": "/k/x94g7dn",
     "avatar": "https://img.toutiao.io/subject/b1697e25f21346b09d07470f95dfe433/thumb",
     "avatarAlt": "东哥IT笔记 - 独家号",
@@ -90,29 +70,9 @@
     "homeUrl": "/subjects/347032"
   },
   {
-    "title": "分位数算法总结",
-    "description": "背景首先说下，分位数(quantile)的概念，也就是我们监控中常见的p99， 这里举一个例子排序为rank=⌊ϕN⌋的元素，其中N为序列中元素的个数。考虑以下例子数据：11 , ...",
-    "votes": "35",
-    "url": "/k/w39cw6o",
-    "avatar": "https://img.toutiao.io/subject/49b747f25fc44d2d9f1a71b189536db7/thumb",
-    "avatarAlt": "可可的熊 - 独家号",
-    "subjectName": "可可的熊",
-    "homeUrl": "/subjects/11057"
-  },
-  {
-    "title": "架构师图谱·番外篇之研发效能",
-    "description": "1. 如何理解研发效能研发效能的完整定义应该是：团队能够持续地为用户产生有效价值的效率，包括有效性（Effectiveness）、效率（Efficiency）和可持续性（Susta...",
-    "votes": "32",
-    "url": "/k/2uor51a",
-    "avatar": "https://img.toutiao.io/user/082263472adb48cc8d85c4526e608ebe/thumb",
-    "avatarAlt": "小笙_的独家号 - 独家号",
-    "subjectName": "小笙_的独家号",
-    "homeUrl": "/subjects/278262"
-  },
-  {
     "title": "DDD 到底是银弹还是垃圾",
     "description": "每过一段时间，就会有人跳出来批判 DDD，这东西到底是垃圾还是银弹？在某某公司干活的时候，有一批人声称要用 DDD 改造老旧系统，彻底解决核心流程规模化之后，项目难以维护的问题。之...",
-    "votes": "38",
+    "votes": "42",
     "url": "/k/gzb5akn",
     "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
     "avatarAlt": "趣编程的独家号 - 独家号",
@@ -120,39 +80,19 @@
     "homeUrl": "/subjects/465623"
   },
   {
-    "title": "阿里二面：为什么要分库分表？",
-    "description": "大家好，我是苏三，又跟大家见面了。前言 在高并发系统当中，分库分表是必不可少的技术手段之一，同时也是BAT等大厂面试时，经常考的热门考题。你知道我们为什么要做分库分表吗？这个问题要...",
-    "votes": "34",
-    "url": "/k/r3voblm",
-    "avatar": "https://img.toutiao.io/subject/96c1af0d2a0b441ca9740ee13c3e37f3/thumb",
-    "avatarAlt": "苏三说技术 - 独家号",
-    "subjectName": "苏三说技术",
-    "homeUrl": "/subjects/453205"
-  },
-  {
-    "title": "网易数据治理工具产品实践",
-    "description": "10月中旬，在DataFunSummit的数据产品在线峰会上，我分享了有关数据治理工具的产品实践，从公司内部过往数据治理回顾、当前的治理痛点，针对痛点产品的整体策略以及对于数据治理...",
-    "votes": "31",
-    "url": "/k/nzo9kek",
-    "avatar": "https://img.toutiao.io/subject/6ee3bb205b3248c2b746c1506548181a/thumb",
-    "avatarAlt": "大数据生态 - 独家号",
-    "subjectName": "大数据生态",
-    "homeUrl": "/subjects/136176"
-  },
-  {
-    "title": "揭秘 Golang 内存管理优化！三色标记法源码浅析",
-    "description": "导语 垃圾回收的第一步是什么呢？要找到垃圾，如果我们反其道而行之，找到所有的存活对象，是不是也等于找到了垃圾呢? 本文想要探讨的gcDrain函数就是使用三色标记法找到存活对象的一...",
-    "votes": "32",
-    "url": "/k/663izdo",
-    "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
-    "avatarAlt": "趣编程的独家号 - 独家号",
-    "subjectName": "趣编程的独家号",
-    "homeUrl": "/subjects/465623"
+    "title": "分位数算法总结",
+    "description": "背景首先说下，分位数(quantile)的概念，也就是我们监控中常见的p99， 这里举一个例子排序为rank=⌊ϕN⌋的元素，其中N为序列中元素的个数。考虑以下例子数据：11 , ...",
+    "votes": "36",
+    "url": "/k/w39cw6o",
+    "avatar": "https://img.toutiao.io/subject/49b747f25fc44d2d9f1a71b189536db7/thumb",
+    "avatarAlt": "可可的熊 - 独家号",
+    "subjectName": "可可的熊",
+    "homeUrl": "/subjects/11057"
   },
   {
     "title": "架构之思：分析那些深入骨髓的设计原则",
     "description": "引子遵从SOLID五大设计原则、遵从三大编程范式……很多的设计原则对于像我这样工作十几年的人来说，已经刻到了骨髓里。在平时工作中，不自觉的进行了熟练的运用：看到公司里有个基础数据这...",
-    "votes": "31",
+    "votes": "36",
     "url": "/k/y1l63m8",
     "avatar": "https://img.toutiao.io/subject/4325865040b44c0b9e2d8d80a83d1d11/thumb",
     "avatarAlt": "编程一生 - 独家号",
@@ -160,19 +100,49 @@
     "homeUrl": "/subjects/350352"
   },
   {
-    "title": "用手写一个工具的过程讲清楚 Go 反射的使用方法和应用场景",
-    "description": "今天来聊一个平时用的不多，但是很多框架或者基础库会用到的语言特性--反射，反射并不是Go语言独有的能力，其他编程语言都有。这篇文章的目标是简单地给大家梳理一下反射的应用场景和使用方...",
+    "title": "揭秘 Golang 内存管理优化！三色标记法源码浅析",
+    "description": "导语 垃圾回收的第一步是什么呢？要找到垃圾，如果我们反其道而行之，找到所有的存活对象，是不是也等于找到了垃圾呢? 本文想要探讨的gcDrain函数就是使用三色标记法找到存活对象的一...",
+    "votes": "34",
+    "url": "/k/663izdo",
+    "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
+    "avatarAlt": "趣编程的独家号 - 独家号",
+    "subjectName": "趣编程的独家号",
+    "homeUrl": "/subjects/465623"
+  },
+  {
+    "title": "网易数据治理工具产品实践",
+    "description": "10月中旬，在DataFunSummit的数据产品在线峰会上，我分享了有关数据治理工具的产品实践，从公司内部过往数据治理回顾、当前的治理痛点，针对痛点产品的整体策略以及对于数据治理...",
     "votes": "32",
-    "url": "/k/z3i5kuu",
-    "avatar": "https://img.toutiao.io/subject/5a80999e5b844812b72eedbc7f5fb5be/thumb",
-    "avatarAlt": "网管叨bi叨 - 独家号",
-    "subjectName": "网管叨bi叨",
-    "homeUrl": "/subjects/437466"
+    "url": "/k/nzo9kek",
+    "avatar": "https://img.toutiao.io/subject/6ee3bb205b3248c2b746c1506548181a/thumb",
+    "avatarAlt": "大数据生态 - 独家号",
+    "subjectName": "大数据生态",
+    "homeUrl": "/subjects/136176"
+  },
+  {
+    "title": "百亿级小文件存储，JuiceFS 在自动驾驶行业的最佳实践",
+    "description": "自动驾驶是最近几年的热门领域，专注于自动驾驶技术的创业公司、新造车企业、传统车厂都在这个领域投入了大量的资源，推动着 L4、L5 级别自动驾驶体验能尽早进入我们的日常生活。自动驾驶...",
+    "votes": "33",
+    "url": "/k/lbsevhj",
+    "avatar": "https://img.toutiao.io/user/c5b7d0595a6a4de7bd2c69ccca2451c8/thumb",
+    "avatarAlt": "JuiceFS的独家号 - 独家号",
+    "subjectName": "JuiceFS的独家号",
+    "homeUrl": "/subjects/464469"
+  },
+  {
+    "title": "要是以前有人这么讲线程池，我早就该明白了",
+    "description": "大家好，我是老三，很高兴又和大家见面，最近降温，大家注意保暖。这节分享Java线程池，接下来我们一步步把线程池扒个底朝天。引言：老三取钱有一个程序员，他的名字叫老三。老三兜里没有钱...",
+    "votes": "32",
+    "url": "/k/qwcdgyn",
+    "avatar": "https://img.toutiao.io/subject/d42ad8a9192a430b9df44df9a6d383df/thumb",
+    "avatarAlt": "三分恶 - 独家号",
+    "subjectName": "三分恶",
+    "homeUrl": "/subjects/454266"
   },
   {
     "title": "超详细教程！手把手带你使用 Raft 分布式共识性算法",
     "description": " 导语 |从头理一遍Raft会给你带来新的体验与收获，让你从根本上理解Raft，理解它被提出的背景，在此背景下又是如何解决实际问题的，这才是从头实现一个Raft所带来的真正收益。本...",
-    "votes": "29",
+    "votes": "31",
     "url": "/k/7rex1cg",
     "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
     "avatarAlt": "进击的程序猿 - 独家号",
@@ -180,23 +150,53 @@
     "homeUrl": "/subjects/24912"
   },
   {
-    "title": "如何接入 K8s 持久化存储？K8s CSI 实现机制浅析",
-    "description": "王成，腾讯云研发工程师，Kubernetes contributor，从事数据库产品容器化、资源管控等工作，关注 Kubernetes、Go、云原生领域。概述 进入 K8s 的世界...",
-    "votes": "26",
-    "url": "/k/dhgbq9y",
-    "avatar": "https://img.toutiao.io/user/376bfc34f840423c908493733c2898f3/thumb",
-    "avatarAlt": "u589294的独家号 - 独家号",
-    "subjectName": "u589294的独家号",
-    "homeUrl": "/subjects/465411"
+    "title": "I/O 多路复用之 EPOLL",
+    "description": "epoll是一种事件轮询，是Linux特有的。它允许一个进程监视多个文件描述符，并在对它们进行I/O操作时获取通知。它允许边缘触发和级别触发通知。在我们研究epoll的内部之前，首...",
+    "votes": "28",
+    "url": "/k/64mbc35",
+    "avatar": "https://img.toutiao.io/subject/b5b3dc9b66d043258e01d2d26b8c731d/thumb",
+    "avatarAlt": "公众号:高性能架构探索 - 独家号",
+    "subjectName": "公众号:高性能架构探索",
+    "homeUrl": "/subjects/465706"
+  },
+  {
+    "title": "漫画图解 SSH",
+    "description": "OpenSSL 本身是一个软件库，这个软件被广泛的应用在系统服务器当中，他的主要功能是在网络通信的过程中，保证数据的一致性以及数据传输过程中的安全性。软件本身是由C语言编写，这使得...",
+    "votes": "27",
+    "url": "/k/2odttqb",
+    "avatar": "https://img.toutiao.io/subject/4f9b8a1b9ad34bf3b815671f8461ff25/thumb",
+    "avatarAlt": "又拍云 - 独家号",
+    "subjectName": "又拍云",
+    "homeUrl": "/subjects/182218"
   },
   {
     "title": "关于缓存更新的一些可借鉴套路",
     "description": "hello，大家好，我是张张，「架构精进之路」公号作者。一、背景目前随着缓存架构方案越来越成熟化，通常做法是引入「缓存」来提高读性能，架构模型就变成了这样：先来看一下什么时候创建缓...",
-    "votes": "22",
+    "votes": "25",
     "url": "/k/nif5tvl",
     "avatar": "https://img.toutiao.io/subject/071476c43e0d42cf95f3e77f046c814b/thumb",
     "avatarAlt": "架构精进之路 - 独家号",
     "subjectName": "架构精进之路",
     "homeUrl": "/subjects/452638"
+  },
+  {
+    "title": "15 种顶级分析思维模型",
+    "description": "内容来源 ：博雅人文作者：博雅君今天给大家分享几个思维模型，无论是数分还是其他岗位，都会有所启发。 查理·芒格认为，每个学科都是从一个独特的角度去切入了解这个世界，都是一个摸象的瞎...",
+    "votes": "25",
+    "url": "/k/urcl4sk",
+    "avatar": "https://img.toutiao.io/subject/87ea1c5a22884d4fbb90b37561c02a34/thumb",
+    "avatarAlt": "元宇宙 - 独家号",
+    "subjectName": "元宇宙",
+    "homeUrl": "/subjects/372612"
+  },
+  {
+    "title": "谷歌眼中的持续交付",
+    "description": "作者：Radha Narayan, Bobbi Jones等来源：《谷歌软件工程》第24章我最近刚刚做完《Software Engineering at Google》一书的审校，...",
+    "votes": "25",
+    "url": "/k/gc0pq82",
+    "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
+    "avatarAlt": "乱点技能树 - 独家号",
+    "subjectName": "乱点技能树",
+    "homeUrl": "/subjects/194141"
   }
 ]
