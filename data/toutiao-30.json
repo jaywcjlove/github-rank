@@ -2,7 +2,7 @@
   {
     "title": "搞懂异地多活，看这篇就够了",
     "description": "阅读本文大约需要 20 分钟。你好，我是 Kaito。在软件开发领域，「异地多活」是分布式系统架构设计的一座高峰，很多人经常听过它，但很少人理解其中的原理。异地多活到底是什么？为什...",
-    "votes": "188",
+    "votes": "189",
     "url": "/k/epd1pcc",
     "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
     "avatarAlt": "乱点技能树 - 独家号",
@@ -32,12 +32,32 @@
   {
     "title": "Chrome 插件（扩展）开发全攻略 2.6w 字，看这篇就够了",
     "description": "一、写在前面我花了将近一个多月的时间断断续续写下这篇博文，并精心写下完整demo，写博客的辛苦大家懂的。本文所有涉及到的大部分代码均在这个demo里面：https://github...",
-    "votes": "126",
+    "votes": "127",
     "url": "/k/1sw9dxz",
     "avatar": "https://img.toutiao.io/subject/445f12f30e3940b2b52eac3d48d07389/thumb",
     "avatarAlt": "搬运工来架构 - 独家号",
     "subjectName": "搬运工来架构",
     "homeUrl": "/subjects/176399"
+  },
+  {
+    "title": "高并发场景下 JVM 调优实践之路",
+    "description": "作者：vivo互联网技术团队Li Guanyun、 Jessica Chen一、背景2021年2月，收到反馈，视频APP某核心接口高峰期响应慢，影响用户体验。通过监控发现，接口响应...",
+    "votes": "115",
+    "url": "/k/3nkgnj9",
+    "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
+    "avatarAlt": "vivo互联网技术 - 独家号",
+    "subjectName": "vivo互联网技术",
+    "homeUrl": "/subjects/392760"
+  },
+  {
+    "title": "你分库分表的姿势对么？：详谈水平分库分表",
+    "description": "作者：vivo平台产品开发团队-Han Lei一、背景提起分库分表，对于大部分服务器开发来说，其实并不是一个新鲜的名词。随着业务的发展，我们表中的数据量会变的越来越大，字段也可能随...",
+    "votes": "113",
+    "url": "/k/oyacwl5",
+    "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
+    "avatarAlt": "vivo互联网技术 - 独家号",
+    "subjectName": "vivo互联网技术",
+    "homeUrl": "/subjects/392760"
   },
   {
     "title": "如何高效刷 LeetCode",
@@ -50,16 +70,6 @@
     "homeUrl": "/subjects/99877"
   },
   {
-    "title": "你分库分表的姿势对么？：详谈水平分库分表",
-    "description": "作者：vivo平台产品开发团队-Han Lei一、背景提起分库分表，对于大部分服务器开发来说，其实并不是一个新鲜的名词。随着业务的发展，我们表中的数据量会变的越来越大，字段也可能随...",
-    "votes": "112",
-    "url": "/k/oyacwl5",
-    "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
-    "avatarAlt": "vivo互联网技术 - 独家号",
-    "subjectName": "vivo互联网技术",
-    "homeUrl": "/subjects/392760"
-  },
-  {
     "title": "面试官问：你参与的项目有什么亮点？怎么回答",
     "description": "大家好，我是Tom哥~面试官拿到我们的简历，一般会关注两块内容，一块是专业技能，另一块是项目经历。简单的个人介绍后，一般会先问些偏基础的技术问题，热热身。当然也有很多面试官上来就顺...",
     "votes": "110",
@@ -68,16 +78,6 @@
     "avatarAlt": "微观技术 - 独家号",
     "subjectName": "微观技术",
     "homeUrl": "/subjects/348507"
-  },
-  {
-    "title": "高并发场景下 JVM 调优实践之路",
-    "description": "作者：vivo互联网技术团队Li Guanyun、 Jessica Chen一、背景2021年2月，收到反馈，视频APP某核心接口高峰期响应慢，影响用户体验。通过监控发现，接口响应...",
-    "votes": "97",
-    "url": "/k/3nkgnj9",
-    "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
-    "avatarAlt": "vivo互联网技术 - 独家号",
-    "subjectName": "vivo互联网技术",
-    "homeUrl": "/subjects/392760"
   },
   {
     "title": "[译] 写给工程师：关于证书和公钥基础设施的一切 (SmallStep, 2018)",
@@ -102,7 +102,7 @@
   {
     "title": "架构师之路：HTTPS 底层原理",
     "description": "引子先说说我对架构师的理解。从业务能力上，需要的是发现问题和解决问题的能力；从团队建设上，需要的是能培养团队的业务能力；从项目管理上，把控好整个项目和软件产品的全生命周期。我搜索了...",
-    "votes": "91",
+    "votes": "92",
     "url": "/k/6teeplo",
     "avatar": "https://img.toutiao.io/subject/4325865040b44c0b9e2d8d80a83d1d11/thumb",
     "avatarAlt": "编程一生 - 独家号",
@@ -120,6 +120,16 @@
     "homeUrl": "/subjects/324911"
   },
   {
+    "title": "幂等设计详解",
+    "description": "导读 本文主要从研发人员的角度，结合研发人员日常常见的各类业务场景，从经典系统框架的每一层入手分析幂等处理的时机。希望通过这篇文章的分析，让开发者在日常开发中对幂等的处理不再陌生。...",
+    "votes": "89",
+    "url": "/k/qv6mpuj",
+    "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
+    "avatarAlt": "趣编程的独家号 - 独家号",
+    "subjectName": "趣编程的独家号",
+    "homeUrl": "/subjects/465623"
+  },
+  {
     "title": "亿级流量架构演进实战：从零构建亿级流量 API 网关（一）",
     "description": "这不是一个讲概念的专栏，而且我也不擅长讲概念，每一篇文章都是一个故事，我希望你可以通过这些故事了解我当时在实际工作中遇到问题和背后的思考，架构设计是种经验，我有幸参与到多个亿级系统...",
     "votes": "86",
@@ -128,16 +138,6 @@
     "avatarAlt": "松然聊技术 - 独家号",
     "subjectName": "松然聊技术",
     "homeUrl": "/subjects/388900"
-  },
-  {
-    "title": "幂等设计详解",
-    "description": "导读 本文主要从研发人员的角度，结合研发人员日常常见的各类业务场景，从经典系统框架的每一层入手分析幂等处理的时机。希望通过这篇文章的分析，让开发者在日常开发中对幂等的处理不再陌生。...",
-    "votes": "86",
-    "url": "/k/qv6mpuj",
-    "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
-    "avatarAlt": "趣编程的独家号 - 独家号",
-    "subjectName": "趣编程的独家号",
-    "homeUrl": "/subjects/465623"
   },
   {
     "title": "ElasticSearch 存储成本省 60%，稿定科技干货分享",
@@ -150,9 +150,19 @@
     "homeUrl": "/subjects/464469"
   },
   {
+    "title": "最近很火火火火的 GitHub 项目",
+    "description": "老逛每个月都会盘点当前月份最火的开源项目，本篇文章就是十月份 Star 攀升最多的的开源项目，它们分别是： 1. 电商大促脚本2. 基于 Js 的游戏引擎3. Bug 厂库4. 高...",
+    "votes": "85",
+    "url": "/k/3l64knj",
+    "avatar": "https://img.toutiao.io/subject/03e210e126704d0ca23938746bbd4cec/thumb",
+    "avatarAlt": "近半生少年 - 独家号",
+    "subjectName": "近半生少年",
+    "homeUrl": "/subjects/403307"
+  },
+  {
     "title": "七步制作精简镜像，So easy",
     "description": "文章来自黄庆兵老师的网易蜂巢《玩转 Docker 镜像》系列https://github.com/bingohuang/play-docker-images，原本分为上下两篇，这里...",
-    "votes": "84",
+    "votes": "85",
     "url": "/k/s48j8ku",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -172,22 +182,12 @@
   {
     "title": "技术人必备的 6 种思维",
     "description": " 作者：gordoncheng  腾讯专家工程师00 思维的重要性 在回顾一些往事时，我们有时候会发现，自己处理过的某个事情其实可以做得更好；在一个团队中，两个技术水平相当的员工，...",
-    "votes": "76",
+    "votes": "77",
     "url": "/k/zc4cuah",
     "avatar": "https://img.toutiao.io/subject/cc2d501408fd455d9b841cb6c8d95a6c/thumb",
     "avatarAlt": "ASCE1885 - 独家号",
     "subjectName": "ASCE1885",
     "homeUrl": "/subjects/4829"
-  },
-  {
-    "title": "最近很火火火火的 GitHub 项目",
-    "description": "老逛每个月都会盘点当前月份最火的开源项目，本篇文章就是十月份 Star 攀升最多的的开源项目，它们分别是： 1. 电商大促脚本2. 基于 Js 的游戏引擎3. Bug 厂库4. 高...",
-    "votes": "80",
-    "url": "/k/3l64knj",
-    "avatar": "https://img.toutiao.io/subject/03e210e126704d0ca23938746bbd4cec/thumb",
-    "avatarAlt": "近半生少年 - 独家号",
-    "subjectName": "近半生少年",
-    "homeUrl": "/subjects/403307"
   },
   {
     "title": "亿级流量架构演进实战：从零构建亿级流量 API 网关（二）",
@@ -212,7 +212,7 @@
   {
     "title": "一套优雅的 Go 错误问题解决方案",
     "description": " 作者：andruzhang，腾讯 IEG 后台开发工程师在使用 Go 开发的后台服务中，对于错误处理，一直以来都有多种不同的方案，本文探讨并提出一种从服务内到服务外的错误传递、返...",
-    "votes": "76",
+    "votes": "77",
     "url": "/k/8qf7wmi",
     "avatar": "https://img.toutiao.io/subject/9d058a96b0484f65a93e575731c3dbf3/thumb",
     "avatarAlt": "落北的mark簿 - 独家号",
