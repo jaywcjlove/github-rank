@@ -2,7 +2,7 @@
   {
     "title": "高并发场景下 JVM 调优实践之路",
     "description": "作者：vivo互联网技术团队Li Guanyun、 Jessica Chen一、背景2021年2月，收到反馈，视频APP某核心接口高峰期响应慢，影响用户体验。通过监控发现，接口响应...",
-    "votes": "123",
+    "votes": "132",
     "url": "/k/3nkgnj9",
     "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
     "avatarAlt": "vivo互联网技术 - 独家号",
@@ -10,14 +10,14 @@
     "homeUrl": "/subjects/392760"
   },
   {
-    "title": "幂等设计详解",
-    "description": "导读 本文主要从研发人员的角度，结合研发人员日常常见的各类业务场景，从经典系统框架的每一层入手分析幂等处理的时机。希望通过这篇文章的分析，让开发者在日常开发中对幂等的处理不再陌生。...",
-    "votes": "89",
-    "url": "/k/qv6mpuj",
-    "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
-    "avatarAlt": "趣编程的独家号 - 独家号",
-    "subjectName": "趣编程的独家号",
-    "homeUrl": "/subjects/465623"
+    "title": "高并发系统建设经验总结",
+    "description": " 作者：listenzhang，腾讯 PCG 后台开发工程师前言 早期从事运单系统的开发和维护工作，从最早的日均百万单，到日均千万单，业务的快速发展再加上外卖业务的特点是，业务量集...",
+    "votes": "48",
+    "url": "/k/zcql3fl",
+    "avatar": "https://img.toutiao.io/subject/cc2d501408fd455d9b841cb6c8d95a6c/thumb",
+    "avatarAlt": "ASCE1885 - 独家号",
+    "subjectName": "ASCE1885",
+    "homeUrl": "/subjects/4829"
   },
   {
     "title": "DDD 到底是银弹还是垃圾",
@@ -32,7 +32,7 @@
   {
     "title": "架构之思：分析那些深入骨髓的设计原则",
     "description": "引子遵从SOLID五大设计原则、遵从三大编程范式……很多的设计原则对于像我这样工作十几年的人来说，已经刻到了骨髓里。在平时工作中，不自觉的进行了熟练的运用：看到公司里有个基础数据这...",
-    "votes": "41",
+    "votes": "43",
     "url": "/k/y1l63m8",
     "avatar": "https://img.toutiao.io/subject/4325865040b44c0b9e2d8d80a83d1d11/thumb",
     "avatarAlt": "编程一生 - 独家号",
@@ -40,19 +40,9 @@
     "homeUrl": "/subjects/350352"
   },
   {
-    "title": "高并发系统建设经验总结",
-    "description": " 作者：listenzhang，腾讯 PCG 后台开发工程师前言 早期从事运单系统的开发和维护工作，从最早的日均百万单，到日均千万单，业务的快速发展再加上外卖业务的特点是，业务量集...",
-    "votes": "40",
-    "url": "/k/zcql3fl",
-    "avatar": "https://img.toutiao.io/subject/cc2d501408fd455d9b841cb6c8d95a6c/thumb",
-    "avatarAlt": "ASCE1885 - 独家号",
-    "subjectName": "ASCE1885",
-    "homeUrl": "/subjects/4829"
-  },
-  {
     "title": "百亿级小文件存储，JuiceFS 在自动驾驶行业的最佳实践",
     "description": "自动驾驶是最近几年的热门领域，专注于自动驾驶技术的创业公司、新造车企业、传统车厂都在这个领域投入了大量的资源，推动着 L4、L5 级别自动驾驶体验能尽早进入我们的日常生活。自动驾驶...",
-    "votes": "41",
+    "votes": "42",
     "url": "/k/lbsevhj",
     "avatar": "https://img.toutiao.io/user/c5b7d0595a6a4de7bd2c69ccca2451c8/thumb",
     "avatarAlt": "JuiceFS的独家号 - 独家号",
@@ -62,7 +52,7 @@
   {
     "title": "要是以前有人这么讲线程池，我早就该明白了",
     "description": "大家好，我是老三，很高兴又和大家见面，最近降温，大家注意保暖。这节分享Java线程池，接下来我们一步步把线程池扒个底朝天。引言：老三取钱有一个程序员，他的名字叫老三。老三兜里没有钱...",
-    "votes": "40",
+    "votes": "41",
     "url": "/k/qwcdgyn",
     "avatar": "https://img.toutiao.io/subject/d42ad8a9192a430b9df44df9a6d383df/thumb",
     "avatarAlt": "三分恶 - 独家号",
@@ -70,14 +60,44 @@
     "homeUrl": "/subjects/454266"
   },
   {
+    "title": "程序员系列之软技能",
+    "description": "《软技能-代码之外得生存指南》译版在2016.8就有了，有幸拜读了，收获不少，结合书籍内容和自己的总结，梳理了一下。心态作为“打工人”，大部分程序员对于自己的定位是非常狭隘的，所谓...",
+    "votes": "44",
+    "url": "/k/xxf6n5x",
+    "avatar": "https://img.toutiao.io/subject/0902948fe9e14869a83e7cdf6c69ea2b/thumb",
+    "avatarAlt": "KeepGulp - 独家号",
+    "subjectName": "KeepGulp",
+    "homeUrl": "/subjects/73178"
+  },
+  {
     "title": "网易数据治理工具产品实践",
     "description": "10月中旬，在DataFunSummit的数据产品在线峰会上，我分享了有关数据治理工具的产品实践，从公司内部过往数据治理回顾、当前的治理痛点，针对痛点产品的整体策略以及对于数据治理...",
-    "votes": "36",
+    "votes": "37",
     "url": "/k/nzo9kek",
     "avatar": "https://img.toutiao.io/subject/6ee3bb205b3248c2b746c1506548181a/thumb",
     "avatarAlt": "大数据生态 - 独家号",
     "subjectName": "大数据生态",
     "homeUrl": "/subjects/136176"
+  },
+  {
+    "title": "15 种顶级分析思维模型",
+    "description": "内容来源 ：博雅人文作者：博雅君今天给大家分享几个思维模型，无论是数分还是其他岗位，都会有所启发。 查理·芒格认为，每个学科都是从一个独特的角度去切入了解这个世界，都是一个摸象的瞎...",
+    "votes": "36",
+    "url": "/k/urcl4sk",
+    "avatar": "https://img.toutiao.io/subject/87ea1c5a22884d4fbb90b37561c02a34/thumb",
+    "avatarAlt": "元宇宙 - 独家号",
+    "subjectName": "元宇宙",
+    "homeUrl": "/subjects/372612"
+  },
+  {
+    "title": "庖丁解 InnoDB 之 REDO LOG",
+    "description": "数据库故障恢复机制的前世今生一文中提到，今生磁盘数据库为了在保证数据库的原子性(A, Atomic) 和持久性(D, Durability)的同时，还能以灵活的刷盘策略来充分利用磁...",
+    "votes": "34",
+    "url": "/k/bpcscxg",
+    "avatar": "https://img.toutiao.io/subject/dc985e32ff464581afaa81f175880312/thumb",
+    "avatarAlt": "dotnet - 独家号",
+    "subjectName": "dotnet",
+    "homeUrl": "/subjects/348014"
   },
   {
     "title": "浅谈软件设计",
@@ -90,29 +110,9 @@
     "homeUrl": "/subjects/165123"
   },
   {
-    "title": "15 种顶级分析思维模型",
-    "description": "内容来源 ：博雅人文作者：博雅君今天给大家分享几个思维模型，无论是数分还是其他岗位，都会有所启发。 查理·芒格认为，每个学科都是从一个独特的角度去切入了解这个世界，都是一个摸象的瞎...",
-    "votes": "33",
-    "url": "/k/urcl4sk",
-    "avatar": "https://img.toutiao.io/subject/87ea1c5a22884d4fbb90b37561c02a34/thumb",
-    "avatarAlt": "元宇宙 - 独家号",
-    "subjectName": "元宇宙",
-    "homeUrl": "/subjects/372612"
-  },
-  {
-    "title": "程序员系列之软技能",
-    "description": "《软技能-代码之外得生存指南》译版在2016.8就有了，有幸拜读了，收获不少，结合书籍内容和自己的总结，梳理了一下。心态作为“打工人”，大部分程序员对于自己的定位是非常狭隘的，所谓...",
-    "votes": "35",
-    "url": "/k/xxf6n5x",
-    "avatar": "https://img.toutiao.io/subject/0902948fe9e14869a83e7cdf6c69ea2b/thumb",
-    "avatarAlt": "KeepGulp - 独家号",
-    "subjectName": "KeepGulp",
-    "homeUrl": "/subjects/73178"
-  },
-  {
     "title": "谷歌眼中的持续交付",
     "description": "作者：Radha Narayan, Bobbi Jones等来源：《谷歌软件工程》第24章我最近刚刚做完《Software Engineering at Google》一书的审校，...",
-    "votes": "31",
+    "votes": "32",
     "url": "/k/gc0pq82",
     "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
     "avatarAlt": "乱点技能树 - 独家号",
@@ -120,19 +120,9 @@
     "homeUrl": "/subjects/194141"
   },
   {
-    "title": "漫画图解 SSH",
-    "description": "OpenSSL 本身是一个软件库，这个软件被广泛的应用在系统服务器当中，他的主要功能是在网络通信的过程中，保证数据的一致性以及数据传输过程中的安全性。软件本身是由C语言编写，这使得...",
-    "votes": "30",
-    "url": "/k/2odttqb",
-    "avatar": "https://img.toutiao.io/subject/4f9b8a1b9ad34bf3b815671f8461ff25/thumb",
-    "avatarAlt": "又拍云 - 独家号",
-    "subjectName": "又拍云",
-    "homeUrl": "/subjects/182218"
-  },
-  {
     "title": "如何将代码同时提交到 GitHub 和码云 Gitee 上",
     "description": "❝主页：https://gozhuyinglong.github.ioGitee：https://gitee.com/gozhuyinglong/blog-demosGithub：...",
-    "votes": "31",
+    "votes": "33",
     "url": "/k/ni72ekk",
     "avatar": "https://img.toutiao.io/subject/9c7fdde2d20641a59a92e10fd5fe4715/thumb",
     "avatarAlt": "码农StayUp - 独家号",
@@ -140,14 +130,14 @@
     "homeUrl": "/subjects/418351"
   },
   {
-    "title": "庖丁解 InnoDB 之 REDO LOG",
-    "description": "数据库故障恢复机制的前世今生一文中提到，今生磁盘数据库为了在保证数据库的原子性(A, Atomic) 和持久性(D, Durability)的同时，还能以灵活的刷盘策略来充分利用磁...",
-    "votes": "27",
-    "url": "/k/bpcscxg",
-    "avatar": "https://img.toutiao.io/subject/dc985e32ff464581afaa81f175880312/thumb",
-    "avatarAlt": "dotnet - 独家号",
-    "subjectName": "dotnet",
-    "homeUrl": "/subjects/348014"
+    "title": "架构师之路：Redis 集群解析",
+    "description": "引子上篇《架构师之路-https底层原理》里我提到了上面的整体视图，文章也介绍了想要真正能在工作中及时正确解决问题的基本功：原理理解透彻。今天以redis集群解析为例介绍一个及时敏...",
+    "votes": "35",
+    "url": "/k/s5y6khz",
+    "avatar": "https://img.toutiao.io/subject/4325865040b44c0b9e2d8d80a83d1d11/thumb",
+    "avatarAlt": "编程一生 - 独家号",
+    "subjectName": "编程一生",
+    "homeUrl": "/subjects/350352"
   },
   {
     "title": "关于缓存更新的一些可借鉴套路",
@@ -160,24 +150,14 @@
     "homeUrl": "/subjects/452638"
   },
   {
-    "title": "架构师之路：Redis 集群解析",
-    "description": "引子上篇《架构师之路-https底层原理》里我提到了上面的整体视图，文章也介绍了想要真正能在工作中及时正确解决问题的基本功：原理理解透彻。今天以redis集群解析为例介绍一个及时敏...",
-    "votes": "32",
-    "url": "/k/s5y6khz",
-    "avatar": "https://img.toutiao.io/subject/4325865040b44c0b9e2d8d80a83d1d11/thumb",
-    "avatarAlt": "编程一生 - 独家号",
-    "subjectName": "编程一生",
-    "homeUrl": "/subjects/350352"
-  },
-  {
-    "title": "《HelloGitHub》第 67 期",
-    "description": "兴趣是最好的老师，HelloGitHub 让你对编程感兴趣！简介 分享 GitHub 上有趣、入门级的开源项目。https://github.com/521xueweihan/He...",
-    "votes": "25",
-    "url": "/k/omhltye",
-    "avatar": "https://img.toutiao.io/subject/b751657c3aaa4ac59db50c07db41e538/thumb",
-    "avatarAlt": "HelloGitHub - 独家号",
-    "subjectName": "HelloGitHub",
-    "homeUrl": "/subjects/175527"
+    "title": "Golang 和 xtem.js 实现的 WEBSSH",
+    "description": "github地址：https://github.com/widaT/websshWEBSSH基于vue、xterm、golang实现的web ssh客户端程序特性前后端分离，前端使...",
+    "votes": "27",
+    "url": "/k/2263s6b",
+    "avatar": "https://img.toutiao.io/user/8e094efbd464496fac1e8f5009ce5b8a/thumb",
+    "avatarAlt": "wida的独家号 - 独家号",
+    "subjectName": "wida的独家号",
+    "homeUrl": "/subjects/25861"
   },
   {
     "title": "亿级流量架构演进实战：架构演进构建 TCP 长连接网关（四）",
@@ -198,5 +178,25 @@
     "avatarAlt": "公众号：捉虫大师 - 独家号",
     "subjectName": "公众号：捉虫大师",
     "homeUrl": "/subjects/324911"
+  },
+  {
+    "title": "一分钟搞懂 SOLID 原则",
+    "description": "SOLID原则是面向对象设计的一个基本原则，通过这篇短文我们可以很快了解SOLID原则的核心思想。原文：SOLID Principles — Concise and brief e...",
+    "votes": "27",
+    "url": "/k/d2i7ul3",
+    "avatar": "https://img.toutiao.io/default-avatar.png",
+    "avatarAlt": "DeepNoMind - 独家号",
+    "subjectName": "DeepNoMind",
+    "homeUrl": "/subjects/460290"
+  },
+  {
+    "title": "JVM 简明笔记（四）：垃圾回收",
+    "description": "1 垃圾回收相关算法垃圾回收器首先要做的就是，判断一个对象是存活状态还是死亡状态，死亡的对象将会被标识为垃圾数据并等待收集器进行清除。判断一个对象是否为死亡状态的常用算法有两个：引...",
+    "votes": "22",
+    "url": "/k/rqqp79j",
+    "avatar": "https://img.toutiao.io/user/faa2d424c3284000a202672ebf5c1111/thumb",
+    "avatarAlt": "LinweiWang代码之路 - 独家号",
+    "subjectName": "LinweiWang代码之路",
+    "homeUrl": "/subjects/21036"
   }
 ]
