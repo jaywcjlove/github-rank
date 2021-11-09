@@ -22,7 +22,7 @@
   {
     "title": "MySQL 那点破事！索引、SQL 调优、事务、B+树、分表",
     "description": "大家好，我是Tom哥~为了便于大家查找问题，了解全貌，整理个目录，我们可以快速全局了解关于mysql数据库，面试官一般喜欢问哪些问题接下来，我们逐条来看看每个问题及答案MyISAM...",
-    "votes": "186",
+    "votes": "188",
     "url": "/k/aazub7e",
     "avatar": "https://img.toutiao.io/subject/e62c1664abed48848efc89141ae64112/thumb",
     "avatarAlt": "微观技术 - 独家号",
@@ -32,7 +32,7 @@
   {
     "title": "搞懂异地多活，看这篇就够了",
     "description": "阅读本文大约需要 20 分钟。你好，我是 Kaito。在软件开发领域，「异地多活」是分布式系统架构设计的一座高峰，很多人经常听过它，但很少人理解其中的原理。异地多活到底是什么？为什...",
-    "votes": "189",
+    "votes": "191",
     "url": "/k/epd1pcc",
     "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
     "avatarAlt": "乱点技能树 - 独家号",
@@ -52,7 +52,7 @@
   {
     "title": "Redis 只能做缓存？太 out 了",
     "description": " 原创：小姐姐味道（微信公众号ID：xjjdog），欢迎分享，转载请保留出处。大多数数据库，由于经常和磁盘打交道，在高并发场景下，响应会非常的慢。为了解决这种速度差异，大多数系统都...",
-    "votes": "176",
+    "votes": "178",
     "url": "/k/l84n965",
     "avatar": "https://img.toutiao.io/subject/6b8e14b561b24dfeac075e2a8dac9bfd/thumb",
     "avatarAlt": "小姐姐味道 - 独家号",
@@ -62,7 +62,7 @@
   {
     "title": "这 5 个 GitHub 项目 + 3 个网站，助你一飞冲天",
     "description": "小伙伴们周末好呀，这次来更新一波学习资源啦~ 👍之前推荐过一些书，这次我们就来看看 4ye 平时常关顾的一些学习网站叭！😋（同时会更新在菜单栏的 宝藏资源 中，方便查找）资源一览 ...",
-    "votes": "177",
+    "votes": "178",
     "url": "/k/ql650fu",
     "avatar": "https://img.toutiao.io/subject/d1ac11780cff42f090ee90c231dfdcad/thumb",
     "avatarAlt": "Java4ye - 独家号",
@@ -110,6 +110,16 @@
     "homeUrl": "/subjects/351247"
   },
   {
+    "title": "高并发场景下 JVM 调优实践之路",
+    "description": "作者：vivo互联网技术团队Li Guanyun、 Jessica Chen一、背景2021年2月，收到反馈，视频APP某核心接口高峰期响应慢，影响用户体验。通过监控发现，接口响应...",
+    "votes": "142",
+    "url": "/k/3nkgnj9",
+    "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
+    "avatarAlt": "vivo互联网技术 - 独家号",
+    "subjectName": "vivo互联网技术",
+    "homeUrl": "/subjects/392760"
+  },
+  {
     "title": "推荐几个开源类库，超好用，远离 996",
     "description": "今天给大家分享几个 Java 的开源类库，亲测非常好用！有了它们之后，你就可以和很多重复劳动说再见了。1. MapStruct MapStruct是干什么的？ MapStruct是...",
     "votes": "144",
@@ -130,16 +140,6 @@
     "homeUrl": "/subjects/426740"
   },
   {
-    "title": "高并发场景下 JVM 调优实践之路",
-    "description": "作者：vivo互联网技术团队Li Guanyun、 Jessica Chen一、背景2021年2月，收到反馈，视频APP某核心接口高峰期响应慢，影响用户体验。通过监控发现，接口响应...",
-    "votes": "139",
-    "url": "/k/3nkgnj9",
-    "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
-    "avatarAlt": "vivo互联网技术 - 独家号",
-    "subjectName": "vivo互联网技术",
-    "homeUrl": "/subjects/392760"
-  },
-  {
     "title": "聊聊 Spring 事务失效的 12 种场景，太坑了",
     "description": "大家好，我是苏三，又跟大家见面了。前言对于从事java开发工作的同学来说，spring的事务肯定再熟悉不过了。在某些业务场景下，如果一个请求中，需要同时写入多张表的数据。为了保证操...",
     "votes": "155",
@@ -148,16 +148,6 @@
     "avatarAlt": "苏三说技术 - 独家号",
     "subjectName": "苏三说技术",
     "homeUrl": "/subjects/453205"
-  },
-  {
-    "title": "Java 书单：比较全的一篇",
-    "description": "前言  之前写过一篇，Java核心书单，里面涵盖了几本主要的Java书籍；后来有朋友反馈说，这几本太少了，没得选；所以最近趁着有空，整理了一份稍微多点的，同时质量也比较高的书单；当...",
-    "votes": "142",
-    "url": "/k/pp94s1f",
-    "avatar": "https://img.toutiao.io/user/4e114bdc35ab48ef949d3246083c5818/thumb",
-    "avatarAlt": "汤圆学Java - 独家号",
-    "subjectName": "汤圆学Java",
-    "homeUrl": "/subjects/357541"
   },
   {
     "title": "LeetCode 通关：四万字长文搞定二叉树",
@@ -172,7 +162,7 @@
   {
     "title": "聊聊 Redis 分布式锁的 8 大坑",
     "description": " 大家好，我是苏三，又跟大家见面了。 前言在分布式系统中，由于redis分布式锁相对于更简单和高效，成为了分布式锁的首先，被我们用到了很多实际业务场景当中。但不是说用了redis分...",
-    "votes": "143",
+    "votes": "144",
     "url": "/k/e17erwk",
     "avatar": "https://img.toutiao.io/subject/96c1af0d2a0b441ca9740ee13c3e37f3/thumb",
     "avatarAlt": "苏三说技术 - 独家号",
@@ -200,16 +190,6 @@
     "homeUrl": "/subjects/1983"
   },
   {
-    "title": "性能测试基础知识体系",
-    "description": "前言 谈起性能测试，大家经常聊的是高并发、高可用、性能优化、全链路压测等Topic，听起来都挺高大上，但这些概念追本溯源，还是要落到性能测试基础的东西上。比如需求分析、场景建模、测...",
-    "votes": "124",
-    "url": "/k/f3btssh",
-    "avatar": "https://img.toutiao.io/subject/1227f0343a1546ee8e3c535cce14aa4c/thumb",
-    "avatarAlt": "工程师的自我修养之路 - 独家号",
-    "subjectName": "工程师的自我修养之路",
-    "homeUrl": "/subjects/188023"
-  },
-  {
     "title": "让 JWT 来保护你的接口服务",
     "description": "点击上方 Java旅途，选择 设为星标 优质文章，每日送达大家好，我是大尧。以前写过一篇关于接口服务规范的文章，原文在此，里面关于安全性问题重点讲述了通过appid，appkey，...",
     "votes": "126",
@@ -222,7 +202,7 @@
   {
     "title": "Chrome 插件（扩展）开发全攻略 2.6w 字，看这篇就够了",
     "description": "一、写在前面我花了将近一个多月的时间断断续续写下这篇博文，并精心写下完整demo，写博客的辛苦大家懂的。本文所有涉及到的大部分代码均在这个demo里面：https://github...",
-    "votes": "129",
+    "votes": "130",
     "url": "/k/1sw9dxz",
     "avatar": "https://img.toutiao.io/subject/445f12f30e3940b2b52eac3d48d07389/thumb",
     "avatarAlt": "搬运工来架构 - 独家号",
@@ -248,5 +228,25 @@
     "avatarAlt": "微信搜「开源指南」 - 独家号",
     "subjectName": "微信搜「开源指南」",
     "homeUrl": "/subjects/462011"
+  },
+  {
+    "title": "一个 MySQL 锁和面试官大战三十回合，我霸中霸",
+    "description": "我，小Y。又来面试了，还是之前那家公司，即将和之前那个老面试官进行第二次 battle，心情还是xue微有点忐忑。没看过第一次 battle 的同学可以看这里，一个MVCC和面试官...",
+    "votes": "120",
+    "url": "/k/irs8xav",
+    "avatar": "https://img.toutiao.io/subject/71da457007fd4b67a45253b271a25eee/thumb",
+    "avatarAlt": "yes的练级攻略 - 独家号",
+    "subjectName": "yes的练级攻略",
+    "homeUrl": "/subjects/443906"
+  },
+  {
+    "title": "你分库分表的姿势对么？：详谈水平分库分表",
+    "description": "作者：vivo平台产品开发团队-Han Lei一、背景提起分库分表，对于大部分服务器开发来说，其实并不是一个新鲜的名词。随着业务的发展，我们表中的数据量会变的越来越大，字段也可能随...",
+    "votes": "117",
+    "url": "/k/oyacwl5",
+    "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
+    "avatarAlt": "vivo互联网技术 - 独家号",
+    "subjectName": "vivo互联网技术",
+    "homeUrl": "/subjects/392760"
   }
 ]
