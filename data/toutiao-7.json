@@ -2,7 +2,7 @@
   {
     "title": "万字入门推荐系统",
     "description": "最近一周我、强子、Y哥三人，根据自身如何入门推荐系统，再结合三人分别在腾讯做广告推荐、字节做视频推荐、百度做信息流推荐的经历，整理出了这份万字入门推荐系统。内容十分详细，涵盖了推荐...",
-    "votes": "105",
+    "votes": "114",
     "url": "/k/84f5zio",
     "avatar": "https://img.toutiao.io/subject/87ea1c5a22884d4fbb90b37561c02a34/thumb",
     "avatarAlt": "元宇宙 - 独家号",
@@ -12,7 +12,7 @@
   {
     "title": "Kafka 知识体系保姆级教程宝典",
     "description": "本文目录：一、消息队列 Apache Pulsar Pulsar 与 Kafka 对比二、Kafka基础三、Kafka架构及组件四、Kafka集群操作五、Kafka的JavaAPI...",
-    "votes": "75",
+    "votes": "79",
     "url": "/k/j5iauc2",
     "avatar": "https://img.toutiao.io/subject/1ecd558bf4a24bc780d2c3a0ab6e69f2/thumb",
     "avatarAlt": "分布式系统 - 独家号",
@@ -20,24 +20,44 @@
     "homeUrl": "/subjects/8411"
   },
   {
-    "title": "高并发系统建设经验总结",
-    "description": " 作者：listenzhang，腾讯 PCG 后台开发工程师前言 早期从事运单系统的开发和维护工作，从最早的日均百万单，到日均千万单，业务的快速发展再加上外卖业务的特点是，业务量集...",
-    "votes": "69",
-    "url": "/k/zcql3fl",
-    "avatar": "https://img.toutiao.io/subject/cc2d501408fd455d9b841cb6c8d95a6c/thumb",
-    "avatarAlt": "ASCE1885 - 独家号",
-    "subjectName": "ASCE1885",
-    "homeUrl": "/subjects/4829"
+    "title": "认识 MySQL 和 Redis 的数据一致性问题",
+    "description": "作者：sinxu，腾讯 CSIG 后台开发工程师1. 什么是数据的一致性“数据一致”一般指的是：缓存中有数据，缓存的数据值 = 数据库中的值。但根据缓存中是有数据为依据，则”一致“...",
+    "votes": "78",
+    "url": "/k/w79d4wj",
+    "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
+    "avatarAlt": "趣编程的独家号 - 独家号",
+    "subjectName": "趣编程的独家号",
+    "homeUrl": "/subjects/465623"
+  },
+  {
+    "title": "如何写好年度总结 PPT？",
+    "description": "到年底了，大家估计都要写年度总结了，但这个PPT不是那么好写，即使只写一两页，也并不是那么容易。PPT作为呈现业绩的主要方式，是职场人士需要掌握的一个技能，特别是对于管理人士，那就...",
+    "votes": "48",
+    "url": "/k/7o8m67l",
+    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
+    "avatarAlt": "进击的程序猿 - 独家号",
+    "subjectName": "进击的程序猿",
+    "homeUrl": "/subjects/24912"
   },
   {
     "title": "程序员系列之软技能",
     "description": "《软技能-代码之外得生存指南》译版在2016.8就有了，有幸拜读了，收获不少，结合书籍内容和自己的总结，梳理了一下。心态作为“打工人”，大部分程序员对于自己的定位是非常狭隘的，所谓...",
-    "votes": "52",
+    "votes": "53",
     "url": "/k/xxf6n5x",
     "avatar": "https://img.toutiao.io/subject/0902948fe9e14869a83e7cdf6c69ea2b/thumb",
     "avatarAlt": "KeepGulp - 独家号",
     "subjectName": "KeepGulp",
     "homeUrl": "/subjects/73178"
+  },
+  {
+    "title": "MySQL 默认隔离级别是 RR，为什么阿里这种大厂会改成 RC？",
+    "description": "GitHub 19k Star 的Java工程师成神之路，不来了解一下吗！我之前写过一篇文章《为什么MySQL选择REPEATABLE READ作为默认隔离级别？》介绍过MySQL...",
+    "votes": "45",
+    "url": "/k/txy7uyv",
+    "avatar": "https://img.toutiao.io/subject/59bde614a927485b94f20978dc26216e/thumb",
+    "avatarAlt": "JAVA干货 - 独家号",
+    "subjectName": "JAVA干货",
+    "homeUrl": "/subjects/51515"
   },
   {
     "title": "庖丁解 InnoDB 之 REDO LOG",
@@ -50,24 +70,14 @@
     "homeUrl": "/subjects/348014"
   },
   {
-    "title": "浅谈软件设计",
-    "description": "前言软件设计中，什么最重要？能让软件灵活、低成本修改的前提下，又能尽可能减少变化带来的风险。如何能达到这个目的呢？有如下几个方面：能不修改原有代码就不修改，变化的功能完全通过新增代...",
-    "votes": "46",
-    "url": "/k/tvv5595",
-    "avatar": "https://img.toutiao.io/user/ddfae815bd914e8c810ba6128ef1bf71/thumb",
-    "avatarAlt": "288751的独家号 - 独家号",
-    "subjectName": "288751的独家号",
-    "homeUrl": "/subjects/165123"
-  },
-  {
-    "title": "MySQL 默认隔离级别是 RR，为什么阿里这种大厂会改成 RC？",
-    "description": "GitHub 19k Star 的Java工程师成神之路，不来了解一下吗！我之前写过一篇文章《为什么MySQL选择REPEATABLE READ作为默认隔离级别？》介绍过MySQL...",
-    "votes": "42",
-    "url": "/k/txy7uyv",
-    "avatar": "https://img.toutiao.io/subject/59bde614a927485b94f20978dc26216e/thumb",
-    "avatarAlt": "JAVA干货 - 独家号",
-    "subjectName": "JAVA干货",
-    "homeUrl": "/subjects/51515"
+    "title": "Golang 和 xtem.js 实现的 WEBSSH",
+    "description": "github地址：https://github.com/widaT/websshWEBSSH基于vue、xterm、golang实现的web ssh客户端程序特性前后端分离，前端使...",
+    "votes": "38",
+    "url": "/k/2263s6b",
+    "avatar": "https://img.toutiao.io/user/8e094efbd464496fac1e8f5009ce5b8a/thumb",
+    "avatarAlt": "wida的独家号 - 独家号",
+    "subjectName": "wida的独家号",
+    "homeUrl": "/subjects/25861"
   },
   {
     "title": "Redis 也会算距离",
@@ -80,39 +90,9 @@
     "homeUrl": "/subjects/435415"
   },
   {
-    "title": "Golang 和 xtem.js 实现的 WEBSSH",
-    "description": "github地址：https://github.com/widaT/websshWEBSSH基于vue、xterm、golang实现的web ssh客户端程序特性前后端分离，前端使...",
-    "votes": "37",
-    "url": "/k/2263s6b",
-    "avatar": "https://img.toutiao.io/user/8e094efbd464496fac1e8f5009ce5b8a/thumb",
-    "avatarAlt": "wida的独家号 - 独家号",
-    "subjectName": "wida的独家号",
-    "homeUrl": "/subjects/25861"
-  },
-  {
-    "title": "如何写好年度总结 PPT？",
-    "description": "到年底了，大家估计都要写年度总结了，但这个PPT不是那么好写，即使只写一两页，也并不是那么容易。PPT作为呈现业绩的主要方式，是职场人士需要掌握的一个技能，特别是对于管理人士，那就...",
-    "votes": "35",
-    "url": "/k/7o8m67l",
-    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
-    "avatarAlt": "进击的程序猿 - 独家号",
-    "subjectName": "进击的程序猿",
-    "homeUrl": "/subjects/24912"
-  },
-  {
-    "title": "亿级流量架构演进实战：架构演进重构消息 PUSH 系统（五）",
-    "description": "这不是一个讲概念的专栏，而且我也不擅长讲概念，每一篇文章都是一个故事，我希望你可以通过这些故事了解我当时在实际工作中遇到问题和背后的思考，架构设计是种经验，我有幸参与到多个亿级系统...",
-    "votes": "32",
-    "url": "/k/s61qyfm",
-    "avatar": "https://img.toutiao.io/subject/82ab0724eca24875b339308427ac4b35/thumb",
-    "avatarAlt": "松然聊技术 - 独家号",
-    "subjectName": "松然聊技术",
-    "homeUrl": "/subjects/388900"
-  },
-  {
     "title": "业务重构时用事件驱动模式",
     "description": "前言需求：当新用户注册时，需要给用户发放各种礼品、积分、短信、邀请人奖励等。常见写法直接将上述后续操作堆到注册方法里，搞的注册方法又臭又长；当有其他注册如app注册、小程序注册、第...",
-    "votes": "35",
+    "votes": "39",
     "url": "/k/rqswjqj",
     "avatar": "https://img.toutiao.io/subject/51754cae457545a0a4a6532c6091b133/thumb",
     "avatarAlt": "影落离风 - 独家号",
@@ -122,12 +102,32 @@
   {
     "title": "深入理解 Git submodules",
     "description": "DRY原则是程序世界的基本原则之一，我们每个人在工作中都不可避免的会复用别人的代码，有可能是某个开源项目，也有可能是公司里其他团队提供的模块。Git是最流行的现代化代码版本控制工具...",
-    "votes": "36",
+    "votes": "37",
     "url": "/k/a3oq32t",
     "avatar": "https://img.toutiao.io/default-avatar.png",
     "avatarAlt": "DeepNoMind - 独家号",
     "subjectName": "DeepNoMind",
     "homeUrl": "/subjects/460290"
+  },
+  {
+    "title": "用 Java 轻松完成一个分布式事务 TCC，保姆级教程",
+    "description": "什么是TCC，TCC是Try、Confirm、Cancel三个词语的缩写，最早是由 Pat Helland 于 2007 年发表的一篇名为《Life beyond Distribu...",
+    "votes": "38",
+    "url": "/k/jaxfhme",
+    "avatar": "https://img.toutiao.io/subject/45e806cf22ab424b831afe890c225505/thumb",
+    "avatarAlt": "叶东富 - 独家号",
+    "subjectName": "叶东富",
+    "homeUrl": "/subjects/307550"
+  },
+  {
+    "title": "技术必备：推荐一款接口自动化测试数据校验神器",
+    "description": "大家好，我是狂师。在之前分享中，给大家介绍过一篇：如何快速审核接口返回值全部字段解决方案，详见原文：接口自动化测试，一键快速校验接口返回值全部字段 。当时，提到解决这类问题，市面上...",
+    "votes": "35",
+    "url": "/k/41qnq6p",
+    "avatar": "https://img.toutiao.io/subject/d3457ec8385942cbb6e5cb29a70ef622/thumb",
+    "avatarAlt": "Android与kotlin成长之路 - 独家号",
+    "subjectName": "Android与kotlin成长之路",
+    "homeUrl": "/subjects/105155"
   },
   {
     "title": "京东面试题：ElasticSearch 深度分页解决方案",
@@ -140,29 +140,29 @@
     "homeUrl": "/subjects/465623"
   },
   {
-    "title": "技术必备：推荐一款接口自动化测试数据校验神器",
-    "description": "大家好，我是狂师。在之前分享中，给大家介绍过一篇：如何快速审核接口返回值全部字段解决方案，详见原文：接口自动化测试，一键快速校验接口返回值全部字段 。当时，提到解决这类问题，市面上...",
-    "votes": "31",
-    "url": "/k/41qnq6p",
-    "avatar": "https://img.toutiao.io/subject/d3457ec8385942cbb6e5cb29a70ef622/thumb",
-    "avatarAlt": "Android与kotlin成长之路 - 独家号",
-    "subjectName": "Android与kotlin成长之路",
-    "homeUrl": "/subjects/105155"
+    "title": "拥抱毒瘤 DDD",
+    "description": "原创：小姐姐味道（微信公众号ID：xjjdog），欢迎分享，转载请保留出处。牛B的人物，早已经厌倦了中英文混杂，他们更进一步，使用中英文缩写，对普通人进行降维打击。更厉害的，造就新...",
+    "votes": "36",
+    "url": "/k/g8y08bl",
+    "avatar": "https://img.toutiao.io/subject/6b8e14b561b24dfeac075e2a8dac9bfd/thumb",
+    "avatarAlt": "小姐姐味道 - 独家号",
+    "subjectName": "小姐姐味道",
+    "homeUrl": "/subjects/351247"
   },
   {
-    "title": "JVM 简明笔记（四）：垃圾回收",
-    "description": "1 垃圾回收相关算法垃圾回收器首先要做的就是，判断一个对象是存活状态还是死亡状态，死亡的对象将会被标识为垃圾数据并等待收集器进行清除。判断一个对象是否为死亡状态的常用算法有两个：引...",
-    "votes": "28",
-    "url": "/k/rqqp79j",
-    "avatar": "https://img.toutiao.io/user/faa2d424c3284000a202672ebf5c1111/thumb",
-    "avatarAlt": "LinweiWang代码之路 - 独家号",
-    "subjectName": "LinweiWang代码之路",
-    "homeUrl": "/subjects/21036"
+    "title": "Effective Go Plus",
+    "description": "《Effective Go》大家入门的时候一般都会去看，本篇属于Effective的“加强版”，主要聚焦在三个方向：runtime篇：常用数据结构及关键词的实现与实践测试篇：测试的...",
+    "votes": "26",
+    "url": "/k/ruhqlcw",
+    "avatar": "https://img.toutiao.io/subject/bfefeab3432849d5b099293d74876b08/thumb",
+    "avatarAlt": "小笙工作室 - 独家号",
+    "subjectName": "小笙工作室",
+    "homeUrl": "/subjects/278262"
   },
   {
     "title": "五周年：聊聊对职场生涯的认知及选择",
     "description": "写博客五年多了，本来每年6月28号都要更新一篇周年随笔的，今年由于某些原因忘记了，今晚突然想起来，见谅。这次，聊聊我对职场生涯的认知以及选择方面的事情。往期传送门： 一周年：聊聊写...",
-    "votes": "25",
+    "votes": "26",
     "url": "/k/tactp0k",
     "avatar": "https://img.toutiao.io/subject/1227f0343a1546ee8e3c535cce14aa4c/thumb",
     "avatarAlt": "工程师的自我修养之路 - 独家号",
@@ -172,12 +172,22 @@
   {
     "title": "K8S 部署 Spring Boot 项目",
     "description": "点击关注公众号，实用技术文章及时了解 现在比较多的互联网公司都在尝试将微服务迁到云上，这样的能够通过一些成熟的云容器管理平台更为方便地管理微服务集群，从而提高微服务的稳定性，同时也...",
-    "votes": "25",
+    "votes": "26",
     "url": "/k/usj54g2",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
     "subjectName": "服务架构及中台",
     "homeUrl": "/subjects/26578"
+  },
+  {
+    "title": "深入理解函数式编程",
+    "description": "函数式编程是对行为进行抽象。编程一生，公众号：编程一生架构之思-分析那些深入骨髓的设计原则这句话比较难理解，换句话来说：函数式编程是给自己的对象整容，有可能整的和原来差不多，也有可...",
+    "votes": "33",
+    "url": "/k/uhgv3gc",
+    "avatar": "https://img.toutiao.io/subject/4325865040b44c0b9e2d8d80a83d1d11/thumb",
+    "avatarAlt": "编程一生 - 独家号",
+    "subjectName": "编程一生",
+    "homeUrl": "/subjects/350352"
   },
   {
     "title": "DDD 案例（二）：从领域分析到代码实现",
@@ -188,15 +198,5 @@
     "avatarAlt": "乱点技能树 - 独家号",
     "subjectName": "乱点技能树",
     "homeUrl": "/subjects/194141"
-  },
-  {
-    "title": "Effective Go Plus",
-    "description": "《Effective Go》大家入门的时候一般都会去看，本篇属于Effective的“加强版”，主要聚焦在三个方向：runtime篇：常用数据结构及关键词的实现与实践测试篇：测试的...",
-    "votes": "21",
-    "url": "/k/ruhqlcw",
-    "avatar": "https://img.toutiao.io/subject/bfefeab3432849d5b099293d74876b08/thumb",
-    "avatarAlt": "小笙工作室 - 独家号",
-    "subjectName": "小笙工作室",
-    "homeUrl": "/subjects/278262"
   }
 ]

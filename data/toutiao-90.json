@@ -50,16 +50,6 @@
     "homeUrl": "/subjects/403307"
   },
   {
-    "title": "Redis 只能做缓存？太 out 了",
-    "description": " 原创：小姐姐味道（微信公众号ID：xjjdog），欢迎分享，转载请保留出处。大多数数据库，由于经常和磁盘打交道，在高并发场景下，响应会非常的慢。为了解决这种速度差异，大多数系统都...",
-    "votes": "179",
-    "url": "/k/l84n965",
-    "avatar": "https://img.toutiao.io/subject/6b8e14b561b24dfeac075e2a8dac9bfd/thumb",
-    "avatarAlt": "小姐姐味道 - 独家号",
-    "subjectName": "小姐姐味道",
-    "homeUrl": "/subjects/351247"
-  },
-  {
     "title": "这 5 个 GitHub 项目 + 3 个网站，助你一飞冲天",
     "description": "小伙伴们周末好呀，这次来更新一波学习资源啦~ 👍之前推荐过一些书，这次我们就来看看 4ye 平时常关顾的一些学习网站叭！😋（同时会更新在菜单栏的 宝藏资源 中，方便查找）资源一览 ...",
     "votes": "178",
@@ -70,24 +60,24 @@
     "homeUrl": "/subjects/463028"
   },
   {
-    "title": "面试字节，被操作系统问挂了",
-    "description": "大家好，鄙人三某，不善面试。。。标题是真事，感觉凉了，难受，爬起来整理了一波操作系统面试题，下次一定……引论 什么是操作系统？ 可以这么说，操作系统是一种运行在内核态的软件。它是应...",
-    "votes": "167",
-    "url": "/k/8r0yjir",
-    "avatar": "https://img.toutiao.io/subject/d42ad8a9192a430b9df44df9a6d383df/thumb",
-    "avatarAlt": "三分恶 - 独家号",
-    "subjectName": "三分恶",
-    "homeUrl": "/subjects/454266"
-  },
-  {
     "title": "团队管理那点破事！OKR 绩效、核心人才、面试、技术分享、研发流程",
     "description": "大家好，我是Tom哥~今天来聊聊团队管理，可能你现在还是一线开发，没有带团队，感觉这个话题与你无关，其实不然。程序员的职业生涯曲折，技术更新迭代快，走技术深度，走架构师路线，势必要...",
-    "votes": "168",
+    "votes": "171",
     "url": "/k/135ujiu",
     "avatar": "https://img.toutiao.io/subject/e62c1664abed48848efc89141ae64112/thumb",
     "avatarAlt": "微观技术 - 独家号",
     "subjectName": "微观技术",
     "homeUrl": "/subjects/348507"
+  },
+  {
+    "title": "面试字节，被操作系统问挂了",
+    "description": "大家好，鄙人三某，不善面试。。。标题是真事，感觉凉了，难受，爬起来整理了一波操作系统面试题，下次一定……引论 什么是操作系统？ 可以这么说，操作系统是一种运行在内核态的软件。它是应...",
+    "votes": "168",
+    "url": "/k/8r0yjir",
+    "avatar": "https://img.toutiao.io/subject/d42ad8a9192a430b9df44df9a6d383df/thumb",
+    "avatarAlt": "三分恶 - 独家号",
+    "subjectName": "三分恶",
+    "homeUrl": "/subjects/454266"
   },
   {
     "title": "近期人类高质量 GitHub 项目",
@@ -100,6 +90,16 @@
     "homeUrl": "/subjects/403307"
   },
   {
+    "title": "高并发场景下 JVM 调优实践之路",
+    "description": "作者：vivo互联网技术团队Li Guanyun、 Jessica Chen一、背景2021年2月，收到反馈，视频APP某核心接口高峰期响应慢，影响用户体验。通过监控发现，接口响应...",
+    "votes": "152",
+    "url": "/k/3nkgnj9",
+    "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
+    "avatarAlt": "vivo互联网技术 - 独家号",
+    "subjectName": "vivo互联网技术",
+    "homeUrl": "/subjects/392760"
+  },
+  {
     "title": "优秀开源软件的类，都是怎么命名的？",
     "description": "原创：小姐姐味道（微信公众号ID：xjjdog），欢迎分享，转载请保留出处。日常编码中，代码的命名是个大的学问。能快速的看懂开源软件的代码结构和意图，也是一项必备的能力。那它们有什...",
     "votes": "172",
@@ -108,16 +108,6 @@
     "avatarAlt": "小姐姐味道 - 独家号",
     "subjectName": "小姐姐味道",
     "homeUrl": "/subjects/351247"
-  },
-  {
-    "title": "高并发场景下 JVM 调优实践之路",
-    "description": "作者：vivo互联网技术团队Li Guanyun、 Jessica Chen一、背景2021年2月，收到反馈，视频APP某核心接口高峰期响应慢，影响用户体验。通过监控发现，接口响应...",
-    "votes": "149",
-    "url": "/k/3nkgnj9",
-    "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
-    "avatarAlt": "vivo互联网技术 - 独家号",
-    "subjectName": "vivo互联网技术",
-    "homeUrl": "/subjects/392760"
   },
   {
     "title": "推荐几个开源类库，超好用，远离 996",
@@ -152,7 +142,7 @@
   {
     "title": "LeetCode 通关：四万字长文搞定二叉树",
     "description": "分门别类刷算法，坚持，进步！!! 刷题路线参考：https://github.com/youngyangyang04/leetcode-master大家好，我是拿输出博客来督促自己...",
-    "votes": "146",
+    "votes": "147",
     "url": "/k/nxha88x",
     "avatar": "https://img.toutiao.io/subject/d42ad8a9192a430b9df44df9a6d383df/thumb",
     "avatarAlt": "三分恶 - 独家号",
@@ -190,6 +180,16 @@
     "homeUrl": "/subjects/1983"
   },
   {
+    "title": "让 JWT 来保护你的接口服务",
+    "description": "点击上方 Java旅途，选择 设为星标 优质文章，每日送达大家好，我是大尧。以前写过一篇关于接口服务规范的文章，原文在此，里面关于安全性问题重点讲述了通过appid，appkey，...",
+    "votes": "127",
+    "url": "/k/70kuvcy",
+    "avatar": "https://img.toutiao.io/subject/f4c7daceb79a4dd58b3f5c9ce93a7ae2/thumb",
+    "avatarAlt": "Java旅途 - 独家号",
+    "subjectName": "Java旅途",
+    "homeUrl": "/subjects/444692"
+  },
+  {
     "title": "Chrome 插件（扩展）开发全攻略 2.6w 字，看这篇就够了",
     "description": "一、写在前面我花了将近一个多月的时间断断续续写下这篇博文，并精心写下完整demo，写博客的辛苦大家懂的。本文所有涉及到的大部分代码均在这个demo里面：https://github...",
     "votes": "131",
@@ -200,19 +200,9 @@
     "homeUrl": "/subjects/176399"
   },
   {
-    "title": "让 JWT 来保护你的接口服务",
-    "description": "点击上方 Java旅途，选择 设为星标 优质文章，每日送达大家好，我是大尧。以前写过一篇关于接口服务规范的文章，原文在此，里面关于安全性问题重点讲述了通过appid，appkey，...",
-    "votes": "126",
-    "url": "/k/70kuvcy",
-    "avatar": "https://img.toutiao.io/subject/f4c7daceb79a4dd58b3f5c9ce93a7ae2/thumb",
-    "avatarAlt": "Java旅途 - 独家号",
-    "subjectName": "Java旅途",
-    "homeUrl": "/subjects/444692"
-  },
-  {
     "title": "小团队敏捷实践 2.0",
     "description": "敏捷迭代为什么升级团队在敏捷迭代实施的过程中，遇到了各种问题，在这个过程中，也发现了很多很好的方法论。所以，近期根据团队迭代的实际情况，做了2.0的迭代流程升级。团队使用的工具，在...",
-    "votes": "127",
+    "votes": "128",
     "url": "/k/6dxv9h5",
     "avatar": "https://img.toutiao.io/subject/6fc0fabfe93146e28ff47aa9f908dee9/thumb",
     "avatarAlt": "天行者YANG - 独家号",
@@ -232,7 +222,7 @@
   {
     "title": "你分库分表的姿势对么？：详谈水平分库分表",
     "description": "作者：vivo平台产品开发团队-Han Lei一、背景提起分库分表，对于大部分服务器开发来说，其实并不是一个新鲜的名词。随着业务的发展，我们表中的数据量会变的越来越大，字段也可能随...",
-    "votes": "118",
+    "votes": "119",
     "url": "/k/oyacwl5",
     "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
     "avatarAlt": "vivo互联网技术 - 独家号",
@@ -248,5 +238,15 @@
     "avatarAlt": "yes的练级攻略 - 独家号",
     "subjectName": "yes的练级攻略",
     "homeUrl": "/subjects/443906"
+  },
+  {
+    "title": "万字入门推荐系统",
+    "description": "最近一周我、强子、Y哥三人，根据自身如何入门推荐系统，再结合三人分别在腾讯做广告推荐、字节做视频推荐、百度做信息流推荐的经历，整理出了这份万字入门推荐系统。内容十分详细，涵盖了推荐...",
+    "votes": "114",
+    "url": "/k/84f5zio",
+    "avatar": "https://img.toutiao.io/subject/87ea1c5a22884d4fbb90b37561c02a34/thumb",
+    "avatarAlt": "元宇宙 - 独家号",
+    "subjectName": "元宇宙",
+    "homeUrl": "/subjects/372612"
   }
 ]
