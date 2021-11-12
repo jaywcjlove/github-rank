@@ -1,11 +1,11 @@
 [
   {
-    "title": "近 20 人爆肝数周，写给初中级前端的万字高级进阶指南",
-    "description": "当然笔者目前已经突破了这个瓶颈，也成为了知名公司基础架构组的成员。因此想通过自己成长的经历及积累的资料整理出一系列的学习路线及资料推荐，帮助各位读者朋友解决这个问题。",
-    "url": "https://segmentfault.com/a/1190000040797816",
-    "author": "y_ck",
-    "home_url": "https://segmentfault.com/u/user_ngjv5fmp",
-    "votes": "50",
+    "title": "熬夜整理56个JavaScript高级的手写知识点！！专业扫盲！",
+    "description": "前言大家好，我是林三心，基础是进阶的前提，前面我给大家分享了本菜鸟这一年来笔记中的50个JS基础知识点和50个JS高级知识点工作中遇到的50个JavaScript的基础知识点，满分找我拿奖品！【阅读：7.8k，点赞：285】...",
+    "url": "https://segmentfault.com/a/1190000040906316",
+    "author": "Sunshine_Lin",
+    "home_url": "https://segmentfault.com/u/user_ze46ouik",
+    "votes": "47",
     "rank": 1
   },
   {
@@ -18,22 +18,13 @@
     "rank": 2
   },
   {
-    "title": "熬夜整理56个JavaScript高级的手写知识点！！专业扫盲！",
-    "description": "前言大家好，我是林三心，基础是进阶的前提，前面我给大家分享了本菜鸟这一年来笔记中的50个JS基础知识点和50个JS高级知识点工作中遇到的50个JavaScript的基础知识点，满分找我拿奖品！【阅读：7.8k，点赞：285】...",
-    "url": "https://segmentfault.com/a/1190000040906316",
-    "author": "Sunshine_Lin",
-    "home_url": "https://segmentfault.com/u/user_ze46ouik",
-    "votes": "43",
-    "rank": 3
-  },
-  {
     "title": "肝完《浏览器基本原理与实践》，我总结了这些",
     "description": "作为一名前端er，日常工作打交道最多（之一）的莫过于熟悉而又陌生的浏览器了，熟悉是每天都会基于浏览器的应用层面之上码业务，陌生是很多人可能跟我一样不熟悉其内部运行原理，比如js是怎样运行的呢？精美样式...",
     "url": "https://segmentfault.com/a/1190000040896436",
     "author": "wuwhs",
     "home_url": "https://segmentfault.com/u/wuwhs",
     "votes": "33",
-    "rank": 4
+    "rank": 3
   },
   {
     "title": "50天用react.js重写50个web项目，我学到了什么？",
@@ -42,7 +33,7 @@
     "author": "夕水",
     "home_url": "https://segmentfault.com/u/xishui_5ac9a340a5484",
     "votes": "36",
-    "rank": 5
+    "rank": 4
   },
   {
     "title": "大道至简，繁在人心：在浏览器控制台安装npm包是什么操作？",
@@ -50,8 +41,8 @@
     "url": "https://segmentfault.com/a/1190000040875211",
     "author": "独钓寒江雪",
     "home_url": "https://segmentfault.com/u/king_hcj",
-    "votes": "31",
-    "rank": 6
+    "votes": "32",
+    "rank": 5
   },
   {
     "title": "前端如何防止用户修改水印？",
@@ -60,7 +51,7 @@
     "author": "劉凯里",
     "home_url": "https://segmentfault.com/u/kyrieliu",
     "votes": "24",
-    "rank": 7
+    "rank": 6
   },
   {
     "title": "【中高级前端】必备，30+高频手写题及详细答案(万字长文)，看“你”怎么难倒我",
@@ -69,6 +60,15 @@
     "author": "前端胖头鱼",
     "home_url": "https://segmentfault.com/u/116263",
     "votes": "25",
+    "rank": 7
+  },
+  {
+    "title": "一些常用的 Git 进阶知识与技巧",
+    "description": "假设我们在同一电脑上拥有多个 Git 账号，例如公司内部使用的是 Gitlab，个人使用的是 Github 或者 Gitee。那就会遇到一种情况，上班时想给个人开源项目提交代码，但是 Git 绑定的是公司的账号。",
+    "url": "https://segmentfault.com/a/1190000040930212",
+    "author": "谭光志",
+    "home_url": "https://segmentfault.com/u/woai3c",
+    "votes": "22",
     "rank": 8
   },
   {
@@ -99,31 +99,22 @@
     "rank": 11
   },
   {
+    "title": "MySQL灵魂拷问：36题带你面试通关",
+    "description": "大家好，我是大彬~今天给大家分享MySQL常考的面试题，看看你们能答对多少。本期MySQL面试题的目录如下：事务的四大特性？事务隔离级别有哪些？索引什么是索引？索引的优缺点？索引的作用？什么情况下需要建索引？...",
+    "url": "https://segmentfault.com/a/1190000040823877",
+    "author": "程序员大彬",
+    "home_url": "https://segmentfault.com/u/5n7qfpo1",
+    "votes": "22",
+    "rank": 12
+  },
+  {
     "title": "前端如何实现token的无感刷新",
     "description": "通常，对于一些需要记录用户行为的系统，在进行网络请求的时候都会要求传递一下登录的token。不过，为了接口数据的安全，服务器的token一般不会设置太长，根据需要一般是1-7天的样子，token过期后就需要重新登录...",
     "url": "https://segmentfault.com/a/1190000040850857",
     "author": "xiangzhihong",
     "home_url": "https://segmentfault.com/u/xiangzhihong",
     "votes": "26",
-    "rank": 12
-  },
-  {
-    "title": "20 个值得学习的 Vue 开源项目",
-    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000040803238",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "19",
     "rank": 13
-  },
-  {
-    "title": "MySQL灵魂拷问：36题带你面试通关",
-    "description": "大家好，我是大彬~今天给大家分享MySQL常考的面试题，看看你们能答对多少。本期MySQL面试题的目录如下：事务的四大特性？事务隔离级别有哪些？索引什么是索引？索引的优缺点？索引的作用？什么情况下需要建索引？...",
-    "url": "https://segmentfault.com/a/1190000040823877",
-    "author": "程序员大彬",
-    "home_url": "https://segmentfault.com/u/5n7qfpo1",
-    "votes": "21",
-    "rank": 14
   },
   {
     "title": "7分钟学会写一个浏览器插件——突破某SDN未登录禁止复制的限制",
@@ -132,7 +123,7 @@
     "author": "独钓寒江雪",
     "home_url": "https://segmentfault.com/u/king_hcj",
     "votes": "22",
-    "rank": 15
+    "rank": 14
   },
   {
     "title": "CSS 实现文本\"不定行数\"截断",
@@ -141,7 +132,7 @@
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
     "votes": "22",
-    "rank": 16
+    "rank": 15
   },
   {
     "title": "前端应该知道的：开放图谱协议（The Open Graph protocol）",
@@ -150,16 +141,7 @@
     "author": "独钓寒江雪",
     "home_url": "https://segmentfault.com/u/king_hcj",
     "votes": "23",
-    "rank": 17
-  },
-  {
-    "title": "一些常用的 Git 进阶知识与技巧",
-    "description": "假设我们在同一电脑上拥有多个 Git 账号，例如公司内部使用的是 Gitlab，个人使用的是 Github 或者 Gitee。那就会遇到一种情况，上班时想给个人开源项目提交代码，但是 Git 绑定的是公司的账号。",
-    "url": "https://segmentfault.com/a/1190000040930212",
-    "author": "谭光志",
-    "home_url": "https://segmentfault.com/u/woai3c",
-    "votes": "17",
-    "rank": 18
+    "rank": 16
   },
   {
     "title": "N 种仅仅使用 HTML/CSS 实现各类进度条的方式",
@@ -167,7 +149,25 @@
     "url": "https://segmentfault.com/a/1190000040908304",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "17",
+    "votes": "19",
+    "rank": 17
+  },
+  {
+    "title": "【建议收藏】面试官贼喜欢问的 32+ vue 修饰符，你掌握几种啦？",
+    "description": "vue简洁好用体现在很多个地方，比如其内置了32+修饰符，可以很方便我们阻止冒泡、阻止默认事件、鼠标事件处理、系统键盘事件等等，让我们可以快速搞定业务，简直不要太方便噢！！！",
+    "url": "https://segmentfault.com/a/1190000040914312",
+    "author": "前端胖头鱼",
+    "home_url": "https://segmentfault.com/u/116263",
+    "votes": "23",
+    "rank": 18
+  },
+  {
+    "title": "10个可视化 CSS 工具， 快速生成 CSS 片段，渣男，又想抛弃我！！",
+    "description": "作者： Jatin Sharma译者：前端小智来源：dev有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000040875123",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "24",
     "rank": 19
   },
   {
@@ -180,31 +180,22 @@
     "rank": 20
   },
   {
+    "title": "把程序做成系统服务",
+    "description": "写程序，难免会遇到需要做成系统服务的需求。Windows 下写系统服务需要实现一些特定的接口，做起来有一定难度，所以不少程序采用了 近似的备选方案 —— 做成带系统任务栏图标的桌面应用。但是，服务之所以是服务，...",
+    "url": "https://segmentfault.com/a/1190000040895843",
+    "author": "边城",
+    "home_url": "https://segmentfault.com/u/jamesfancy",
+    "votes": "12",
+    "rank": 21
+  },
+  {
     "title": "关于 v-model 你需要知道的这一切！",
     "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
     "url": "https://segmentfault.com/a/1190000040863402",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "20",
-    "rank": 21
-  },
-  {
-    "title": "10个可视化 CSS 工具， 快速生成 CSS 片段，渣男，又想抛弃我！！",
-    "description": "作者： Jatin Sharma译者：前端小智来源：dev有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000040875123",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "22",
     "rank": 22
-  },
-  {
-    "title": "【建议收藏】面试官贼喜欢问的 32+ vue 修饰符，你掌握几种啦？",
-    "description": "vue简洁好用体现在很多个地方，比如其内置了32+修饰符，可以很方便我们阻止冒泡、阻止默认事件、鼠标事件处理、系统键盘事件等等，让我们可以快速搞定业务，简直不要太方便噢！！！",
-    "url": "https://segmentfault.com/a/1190000040914312",
-    "author": "前端胖头鱼",
-    "home_url": "https://segmentfault.com/u/116263",
-    "votes": "21",
-    "rank": 23
   },
   {
     "title": "聊聊开发日常的效率提升工具（全）",
@@ -212,17 +203,8 @@
     "url": "https://segmentfault.com/a/1190000040818832",
     "author": "树酱",
     "home_url": "https://segmentfault.com/u/shu_jshu_jiashu_jianshu_jiang",
-    "votes": "16",
-    "rank": 24
-  },
-  {
-    "title": "把程序做成系统服务",
-    "description": "写程序，难免会遇到需要做成系统服务的需求。Windows 下写系统服务需要实现一些特定的接口，做起来有一定难度，所以不少程序采用了 近似的备选方案 —— 做成带系统任务栏图标的桌面应用。但是，服务之所以是服务，...",
-    "url": "https://segmentfault.com/a/1190000040895843",
-    "author": "边城",
-    "home_url": "https://segmentfault.com/u/jamesfancy",
-    "votes": "11",
-    "rank": 25
+    "votes": "17",
+    "rank": 23
   },
   {
     "title": "20个 Javascript 技巧，提高我们的摸鱼时间！",
@@ -231,7 +213,16 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "18",
-    "rank": 26
+    "rank": 24
+  },
+  {
+    "title": "23 个非常有用的 NodeJs 库",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000040929396",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "18",
+    "rank": 25
   },
   {
     "title": "这些 JavaScript函数让你的工作更加 So Easy!",
@@ -239,8 +230,8 @@
     "url": "https://segmentfault.com/a/1190000040902611",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "22",
-    "rank": 27
+    "votes": "23",
+    "rank": 26
   },
   {
     "title": "正则表达式汇总",
@@ -249,7 +240,7 @@
     "author": "小蘑菇",
     "home_url": "https://segmentfault.com/u/xiaomogu_5f2124ad3ad42",
     "votes": "18",
-    "rank": 28
+    "rank": 27
   },
   {
     "title": "Go 日常开发常备第三方库和工具",
@@ -258,15 +249,24 @@
     "author": "crossoverJie",
     "home_url": "https://segmentfault.com/u/crossoverjie",
     "votes": "12",
+    "rank": 28
+  },
+  {
+    "title": "Vue 团队公开快如闪电的全新脚手架工具 create-vue，未来将替代 Vue-CLI，才300余行代码，学它！",
+    "description": "想学源码，极力推荐之前我写的《学习源码整体架构系列》 包含jQuery、underscore、lodash、vuex、sentry、axios、redux、koa、vue-devtools、vuex4、koa-compose、vue-next-release、vue-this等十余篇源码文章。",
+    "url": "https://segmentfault.com/a/1190000040865299",
+    "author": "若川",
+    "home_url": "https://segmentfault.com/u/lxchuan12",
+    "votes": "16",
     "rank": 29
   },
   {
-    "title": "23 个非常有用的 NodeJs 库",
+    "title": "今天推荐，今年排名前 15 的 Vue 后台管理模板",
     "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000040929396",
+    "url": "https://segmentfault.com/a/1190000040814521",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "17",
+    "votes": "15",
     "rank": 30
   }
 ]
