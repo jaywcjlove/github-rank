@@ -2,7 +2,7 @@
   {
     "title": "搞懂异地多活，看这篇就够了",
     "description": "阅读本文大约需要 20 分钟。你好，我是 Kaito。在软件开发领域，「异地多活」是分布式系统架构设计的一座高峰，很多人经常听过它，但很少人理解其中的原理。异地多活到底是什么？为什...",
-    "votes": "196",
+    "votes": "197",
     "url": "/k/epd1pcc",
     "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
     "avatarAlt": "乱点技能树 - 独家号",
@@ -22,7 +22,7 @@
   {
     "title": "高并发场景下 JVM 调优实践之路",
     "description": "作者：vivo互联网技术团队Li Guanyun、 Jessica Chen一、背景2021年2月，收到反馈，视频APP某核心接口高峰期响应慢，影响用户体验。通过监控发现，接口响应...",
-    "votes": "155",
+    "votes": "160",
     "url": "/k/3nkgnj9",
     "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
     "avatarAlt": "vivo互联网技术 - 独家号",
@@ -50,6 +50,16 @@
     "homeUrl": "/subjects/176399"
   },
   {
+    "title": "认识 MySQL 和 Redis 的数据一致性问题",
+    "description": "作者：sinxu，腾讯 CSIG 后台开发工程师1. 什么是数据的一致性“数据一致”一般指的是：缓存中有数据，缓存的数据值 = 数据库中的值。但根据缓存中是有数据为依据，则”一致“...",
+    "votes": "129",
+    "url": "/k/w79d4wj",
+    "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
+    "avatarAlt": "趣编程的独家号 - 独家号",
+    "subjectName": "趣编程的独家号",
+    "homeUrl": "/subjects/465623"
+  },
+  {
     "title": "你分库分表的姿势对么？：详谈水平分库分表",
     "description": "作者：vivo平台产品开发团队-Han Lei一、背景提起分库分表，对于大部分服务器开发来说，其实并不是一个新鲜的名词。随着业务的发展，我们表中的数据量会变的越来越大，字段也可能随...",
     "votes": "119",
@@ -62,22 +72,12 @@
   {
     "title": "如何高效刷 LeetCode",
     "description": " 心理建设篇在讲述具体的方法之前，先要明白一件事。凡事都分『道』与『术』。本问题下面大部分回答介绍的都是『术』。而对于刷LeetCode这件事，无论你看到多少高明的的方法，如果你不...",
-    "votes": "110",
+    "votes": "111",
     "url": "/k/ws2do5o",
     "avatar": "https://img.toutiao.io/subject/9689de3b035249df91b951e9317f0678/thumb",
     "avatarAlt": "编程往事 - 独家号",
     "subjectName": "编程往事",
     "homeUrl": "/subjects/99877"
-  },
-  {
-    "title": "认识 MySQL 和 Redis 的数据一致性问题",
-    "description": "作者：sinxu，腾讯 CSIG 后台开发工程师1. 什么是数据的一致性“数据一致”一般指的是：缓存中有数据，缓存的数据值 = 数据库中的值。但根据缓存中是有数据为依据，则”一致“...",
-    "votes": "121",
-    "url": "/k/w79d4wj",
-    "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
-    "avatarAlt": "趣编程的独家号 - 独家号",
-    "subjectName": "趣编程的独家号",
-    "homeUrl": "/subjects/465623"
   },
   {
     "title": "面试官问：你参与的项目有什么亮点？怎么回答",
@@ -90,19 +90,9 @@
     "homeUrl": "/subjects/348507"
   },
   {
-    "title": "[译] 写给工程师：关于证书和公钥基础设施的一切 (SmallStep, 2018)",
-    "description": "[译] 写给工程师：关于证书（certificate）和公钥基础设施（PKI）的一切（SmallStep, 2018）Published at 2021-10-07 | Last ...",
-    "votes": "104",
-    "url": "/k/qnglkcl",
-    "avatar": "https://img.toutiao.io/subject/7518167e2b974f259bd5782ec21a604d/thumb",
-    "avatarAlt": "ArthurChiao - 独家号",
-    "subjectName": "ArthurChiao",
-    "homeUrl": "/subjects/381904"
-  },
-  {
     "title": "Go 业务开发中常用的几个开源库",
     "description": "前言 哈喽，大家好，我是asong。拖更了好久，这周开始更新。最近总有一些初学Go语言的小伙伴问我在业务开发中一般都使用什么web框架、开源中间件；所以我总结了我在日常开发中使用到...",
-    "votes": "104",
+    "votes": "105",
     "url": "/k/4hr4ykg",
     "avatar": "https://img.toutiao.io/subject/967329410fda4a55b2bf84673d48ebfe/thumb",
     "avatarAlt": "asong2020 - 独家号",
@@ -110,9 +100,19 @@
     "homeUrl": "/subjects/447978"
   },
   {
+    "title": "Kafka 知识体系保姆级教程宝典",
+    "description": "本文目录：一、消息队列 Apache Pulsar Pulsar 与 Kafka 对比二、Kafka基础三、Kafka架构及组件四、Kafka集群操作五、Kafka的JavaAPI...",
+    "votes": "96",
+    "url": "/k/j5iauc2",
+    "avatar": "https://img.toutiao.io/subject/1ecd558bf4a24bc780d2c3a0ab6e69f2/thumb",
+    "avatarAlt": "分布式系统 - 独家号",
+    "subjectName": "分布式系统",
+    "homeUrl": "/subjects/8411"
+  },
+  {
     "title": "架构师之路：HTTPS 底层原理",
     "description": "引子先说说我对架构师的理解。从业务能力上，需要的是发现问题和解决问题的能力；从团队建设上，需要的是能培养团队的业务能力；从项目管理上，把控好整个项目和软件产品的全生命周期。我搜索了...",
-    "votes": "96",
+    "votes": "97",
     "url": "/k/6teeplo",
     "avatar": "https://img.toutiao.io/subject/4325865040b44c0b9e2d8d80a83d1d11/thumb",
     "avatarAlt": "编程一生 - 独家号",
@@ -120,14 +120,14 @@
     "homeUrl": "/subjects/350352"
   },
   {
-    "title": "Kafka 知识体系保姆级教程宝典",
-    "description": "本文目录：一、消息队列 Apache Pulsar Pulsar 与 Kafka 对比二、Kafka基础三、Kafka架构及组件四、Kafka集群操作五、Kafka的JavaAPI...",
+    "title": "Kafka 为什么要放弃 Zookeeper",
+    "description": "最近，confluent社区发表了一篇文章，主要讲述了Kafka未来的2.8版本将要放弃Zookeeper，这对于Kafka用户来说，是一个重要的改进。之前部署Kafka就必须得部...",
     "votes": "93",
-    "url": "/k/j5iauc2",
-    "avatar": "https://img.toutiao.io/subject/1ecd558bf4a24bc780d2c3a0ab6e69f2/thumb",
-    "avatarAlt": "分布式系统 - 独家号",
-    "subjectName": "分布式系统",
-    "homeUrl": "/subjects/8411"
+    "url": "/k/98g49tv",
+    "avatar": "https://img.toutiao.io/subject/9635116a54eb4217a569629335a3ee45/thumb",
+    "avatarAlt": "公众号：捉虫大师 - 独家号",
+    "subjectName": "公众号：捉虫大师",
+    "homeUrl": "/subjects/324911"
   },
   {
     "title": "幂等设计详解",
@@ -138,16 +138,6 @@
     "avatarAlt": "趣编程的独家号 - 独家号",
     "subjectName": "趣编程的独家号",
     "homeUrl": "/subjects/465623"
-  },
-  {
-    "title": "Kafka 为什么要放弃 Zookeeper",
-    "description": "最近，confluent社区发表了一篇文章，主要讲述了Kafka未来的2.8版本将要放弃Zookeeper，这对于Kafka用户来说，是一个重要的改进。之前部署Kafka就必须得部...",
-    "votes": "92",
-    "url": "/k/98g49tv",
-    "avatar": "https://img.toutiao.io/subject/9635116a54eb4217a569629335a3ee45/thumb",
-    "avatarAlt": "公众号：捉虫大师 - 独家号",
-    "subjectName": "公众号：捉虫大师",
-    "homeUrl": "/subjects/324911"
   },
   {
     "title": "最近很火火火火的 GitHub 项目",
@@ -162,7 +152,7 @@
   {
     "title": "七步制作精简镜像，So easy",
     "description": "文章来自黄庆兵老师的网易蜂巢《玩转 Docker 镜像》系列https://github.com/bingohuang/play-docker-images，原本分为上下两篇，这里...",
-    "votes": "92",
+    "votes": "94",
     "url": "/k/s48j8ku",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -172,7 +162,7 @@
   {
     "title": "技术人必备的 6 种思维",
     "description": " 作者：gordoncheng  腾讯专家工程师00 思维的重要性 在回顾一些往事时，我们有时候会发现，自己处理过的某个事情其实可以做得更好；在一个团队中，两个技术水平相当的员工，...",
-    "votes": "80",
+    "votes": "81",
     "url": "/k/zc4cuah",
     "avatar": "https://img.toutiao.io/subject/cc2d501408fd455d9b841cb6c8d95a6c/thumb",
     "avatarAlt": "ASCE1885 - 独家号",
@@ -182,7 +172,7 @@
   {
     "title": "高并发系统建设经验总结",
     "description": " 作者：listenzhang，腾讯 PCG 后台开发工程师前言 早期从事运单系统的开发和维护工作，从最早的日均百万单，到日均千万单，业务的快速发展再加上外卖业务的特点是，业务量集...",
-    "votes": "80",
+    "votes": "81",
     "url": "/k/zcql3fl",
     "avatar": "https://img.toutiao.io/subject/cc2d501408fd455d9b841cb6c8d95a6c/thumb",
     "avatarAlt": "ASCE1885 - 独家号",
@@ -202,7 +192,7 @@
   {
     "title": "推荐 14 款常用的测试开发工具",
     "description": "在本篇文章中，将给大家推荐14款日常工作中经常用到的测试开发工具神器，涵盖了自动化测试、APP性能测试、稳定性测试、抓包工具等。一、UI自动化测试工具1. uiautomator2...",
-    "votes": "77",
+    "votes": "78",
     "url": "/k/kd9j9ur",
     "avatar": "https://img.toutiao.io/subject/1be92f5a50224852895d647097a6d521/thumb",
     "avatarAlt": "测试之道 - 独家号",
@@ -222,7 +212,7 @@
   {
     "title": "如何写好年度总结 PPT？",
     "description": "到年底了，大家估计都要写年度总结了，但这个PPT不是那么好写，即使只写一两页，也并不是那么容易。PPT作为呈现业绩的主要方式，是职场人士需要掌握的一个技能，特别是对于管理人士，那就...",
-    "votes": "68",
+    "votes": "71",
     "url": "/k/7o8m67l",
     "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
     "avatarAlt": "进击的程序猿 - 独家号",
@@ -242,11 +232,21 @@
   {
     "title": "吃透负载均衡",
     "description": "大家好，我是雨乐。首先告诉大家一件事，在十一国庆期间，引擎的机器又又。。。又扛不住了流量。 经过监控分析，发现某个服务的一个实例所在的虚拟机扛不住了，所以采取临时措施流量控制之后，...",
-    "votes": "69",
+    "votes": "70",
     "url": "/k/7tctele",
     "avatar": "https://img.toutiao.io/subject/b5b3dc9b66d043258e01d2d26b8c731d/thumb",
     "avatarAlt": "公众号:高性能架构探索 - 独家号",
     "subjectName": "公众号:高性能架构探索",
     "homeUrl": "/subjects/465706"
+  },
+  {
+    "title": "聊聊 SQL 优化的 15 个小技巧",
+    "description": "大家好，我是苏三，又跟大家见面了。前言 sql优化是一个大家都比较关注的热门话题，无论你在面试，还是工作中，都很有可能会遇到。如果某天你负责的某个线上接口，出现了性能问题，需要做优...",
+    "votes": "72",
+    "url": "/k/48e8g89",
+    "avatar": "https://img.toutiao.io/subject/96c1af0d2a0b441ca9740ee13c3e37f3/thumb",
+    "avatarAlt": "苏三说技术 - 独家号",
+    "subjectName": "苏三说技术",
+    "homeUrl": "/subjects/453205"
   }
 ]

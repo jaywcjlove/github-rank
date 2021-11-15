@@ -1,18 +1,8 @@
 [
   {
-    "title": "分布式事务最经典的七种解决方案",
-    "description": "随着业务的快速发展、业务复杂度越来越高，几乎每个公司的系统都会从单体走向分布式，特别是转向微服务架构。随之而来就必然遇到分布式事务这个难题，这篇文章总结了分布式事务最经典的解决方案...",
-    "votes": "253",
-    "url": "/k/vxr31wq",
-    "avatar": "https://img.toutiao.io/subject/45e806cf22ab424b831afe890c225505/thumb",
-    "avatarAlt": "叶东富 - 独家号",
-    "subjectName": "叶东富",
-    "homeUrl": "/subjects/307550"
-  },
-  {
     "title": "16 张图解锁 Spring 的整体脉络",
     "description": "今天来梳理下 Spring 的整体脉络啦，为后面的文章做个铺垫~后面几篇文章应该会讲讲这些内容啦 😆Spring  AOP 插件 🐖  （🕊了好久都忘了 😅）分享下 4ye 在项目...",
-    "votes": "232",
+    "votes": "233",
     "url": "/k/bynegiy",
     "avatar": "https://img.toutiao.io/subject/d1ac11780cff42f090ee90c231dfdcad/thumb",
     "avatarAlt": "Java4ye - 独家号",
@@ -32,7 +22,7 @@
   {
     "title": "搞懂异地多活，看这篇就够了",
     "description": "阅读本文大约需要 20 分钟。你好，我是 Kaito。在软件开发领域，「异地多活」是分布式系统架构设计的一座高峰，很多人经常听过它，但很少人理解其中的原理。异地多活到底是什么？为什...",
-    "votes": "196",
+    "votes": "197",
     "url": "/k/epd1pcc",
     "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
     "avatarAlt": "乱点技能树 - 独家号",
@@ -52,7 +42,7 @@
   {
     "title": "这 5 个 GitHub 项目 + 3 个网站，助你一飞冲天",
     "description": "小伙伴们周末好呀，这次来更新一波学习资源啦~ 👍之前推荐过一些书，这次我们就来看看 4ye 平时常关顾的一些学习网站叭！😋（同时会更新在菜单栏的 宝藏资源 中，方便查找）资源一览 ...",
-    "votes": "179",
+    "votes": "180",
     "url": "/k/ql650fu",
     "avatar": "https://img.toutiao.io/subject/d1ac11780cff42f090ee90c231dfdcad/thumb",
     "avatarAlt": "Java4ye - 独家号",
@@ -68,6 +58,16 @@
     "avatarAlt": "微观技术 - 独家号",
     "subjectName": "微观技术",
     "homeUrl": "/subjects/348507"
+  },
+  {
+    "title": "高并发场景下 JVM 调优实践之路",
+    "description": "作者：vivo互联网技术团队Li Guanyun、 Jessica Chen一、背景2021年2月，收到反馈，视频APP某核心接口高峰期响应慢，影响用户体验。通过监控发现，接口响应...",
+    "votes": "160",
+    "url": "/k/3nkgnj9",
+    "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
+    "avatarAlt": "vivo互联网技术 - 独家号",
+    "subjectName": "vivo互联网技术",
+    "homeUrl": "/subjects/392760"
   },
   {
     "title": "面试字节，被操作系统问挂了",
@@ -88,16 +88,6 @@
     "avatarAlt": "小姐姐味道 - 独家号",
     "subjectName": "小姐姐味道",
     "homeUrl": "/subjects/351247"
-  },
-  {
-    "title": "高并发场景下 JVM 调优实践之路",
-    "description": "作者：vivo互联网技术团队Li Guanyun、 Jessica Chen一、背景2021年2月，收到反馈，视频APP某核心接口高峰期响应慢，影响用户体验。通过监控发现，接口响应...",
-    "votes": "155",
-    "url": "/k/3nkgnj9",
-    "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
-    "avatarAlt": "vivo互联网技术 - 独家号",
-    "subjectName": "vivo互联网技术",
-    "homeUrl": "/subjects/392760"
   },
   {
     "title": "近期人类高质量 GitHub 项目",
@@ -170,6 +160,16 @@
     "homeUrl": "/subjects/454266"
   },
   {
+    "title": "让 JWT 来保护你的接口服务",
+    "description": "点击上方 Java旅途，选择 设为星标 优质文章，每日送达大家好，我是大尧。以前写过一篇关于接口服务规范的文章，原文在此，里面关于安全性问题重点讲述了通过appid，appkey，...",
+    "votes": "129",
+    "url": "/k/70kuvcy",
+    "avatar": "https://img.toutiao.io/subject/f4c7daceb79a4dd58b3f5c9ce93a7ae2/thumb",
+    "avatarAlt": "Java旅途 - 独家号",
+    "subjectName": "Java旅途",
+    "homeUrl": "/subjects/444692"
+  },
+  {
     "title": "万字长文说透分布式锁",
     "description": "▲ 点击上方\"多颗糖\"关注公众号“分布式锁”这个问题快被说烂了，奈何笔者实在没有找到一个满意的答案，故记录自己寻找答案、总结的过程。分布式锁的设计涉及了许多分布式系统相关的问题，许...",
     "votes": "130",
@@ -178,16 +178,6 @@
     "avatarAlt": "强力研分布式系统 - 独家号",
     "subjectName": "强力研分布式系统",
     "homeUrl": "/subjects/1983"
-  },
-  {
-    "title": "让 JWT 来保护你的接口服务",
-    "description": "点击上方 Java旅途，选择 设为星标 优质文章，每日送达大家好，我是大尧。以前写过一篇关于接口服务规范的文章，原文在此，里面关于安全性问题重点讲述了通过appid，appkey，...",
-    "votes": "128",
-    "url": "/k/70kuvcy",
-    "avatar": "https://img.toutiao.io/subject/f4c7daceb79a4dd58b3f5c9ce93a7ae2/thumb",
-    "avatarAlt": "Java旅途 - 独家号",
-    "subjectName": "Java旅途",
-    "homeUrl": "/subjects/444692"
   },
   {
     "title": "Chrome 插件（扩展）开发全攻略 2.6w 字，看这篇就够了",
@@ -220,6 +210,16 @@
     "homeUrl": "/subjects/462011"
   },
   {
+    "title": "认识 MySQL 和 Redis 的数据一致性问题",
+    "description": "作者：sinxu，腾讯 CSIG 后台开发工程师1. 什么是数据的一致性“数据一致”一般指的是：缓存中有数据，缓存的数据值 = 数据库中的值。但根据缓存中是有数据为依据，则”一致“...",
+    "votes": "129",
+    "url": "/k/w79d4wj",
+    "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
+    "avatarAlt": "趣编程的独家号 - 独家号",
+    "subjectName": "趣编程的独家号",
+    "homeUrl": "/subjects/465623"
+  },
+  {
     "title": "你分库分表的姿势对么？：详谈水平分库分表",
     "description": "作者：vivo平台产品开发团队-Han Lei一、背景提起分库分表，对于大部分服务器开发来说，其实并不是一个新鲜的名词。随着业务的发展，我们表中的数据量会变的越来越大，字段也可能随...",
     "votes": "119",
@@ -242,7 +242,7 @@
   {
     "title": "支付宝稳撑双11双12的核心架构设计",
     "description": "一、前言现在还依稀记得去年双11在支付宝作战室，接近0点的时候，所有人都盯着值班室的秒级监控大盘，当交易峰值曲线慢慢爬升，最后变得无比陡峭，值班室的同学都很激动，欢呼声伴随着爬升的...",
-    "votes": "119",
+    "votes": "120",
     "url": "/k/674el0v",
     "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
     "avatarAlt": "Bloomingroses - 独家号",
