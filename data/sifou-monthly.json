@@ -5,7 +5,7 @@
     "url": "https://segmentfault.com/a/1190000040906316",
     "author": "Sunshine_Lin",
     "home_url": "https://segmentfault.com/u/user_ze46ouik",
-    "votes": "48",
+    "votes": "50",
     "rank": 1
   },
   {
@@ -14,7 +14,7 @@
     "url": "https://segmentfault.com/a/1190000040846926",
     "author": "前端胖头鱼",
     "home_url": "https://segmentfault.com/u/116263",
-    "votes": "37",
+    "votes": "40",
     "rank": 2
   },
   {
@@ -27,21 +27,21 @@
     "rank": 3
   },
   {
+    "title": "一些常用的 Git 进阶知识与技巧",
+    "description": "假设我们在同一电脑上拥有多个 Git 账号，例如公司内部使用的是 Gitlab，个人使用的是 Github 或者 Gitee。那就会遇到一种情况，上班时想给个人开源项目提交代码，但是 Git 绑定的是公司的账号。",
+    "url": "https://segmentfault.com/a/1190000040930212",
+    "author": "谭光志",
+    "home_url": "https://segmentfault.com/u/woai3c",
+    "votes": "29",
+    "rank": 4
+  },
+  {
     "title": "大道至简，繁在人心：在浏览器控制台安装npm包是什么操作？",
     "description": "我们都知道，npm 是 JavaScript 世界的包管理工具,并且是 Node.js 平台的默认包管理工具。通过 npm 可以安装、共享、分发代码,管理项目依赖关系。虽然作为命令行工具的 npm 近年来逐渐式微，但是作为广泛使用的存...",
     "url": "https://segmentfault.com/a/1190000040875211",
     "author": "独钓寒江雪",
     "home_url": "https://segmentfault.com/u/king_hcj",
     "votes": "33",
-    "rank": 4
-  },
-  {
-    "title": "一些常用的 Git 进阶知识与技巧",
-    "description": "假设我们在同一电脑上拥有多个 Git 账号，例如公司内部使用的是 Gitlab，个人使用的是 Github 或者 Gitee。那就会遇到一种情况，上班时想给个人开源项目提交代码，但是 Git 绑定的是公司的账号。",
-    "url": "https://segmentfault.com/a/1190000040930212",
-    "author": "谭光志",
-    "home_url": "https://segmentfault.com/u/woai3c",
-    "votes": "28",
     "rank": 5
   },
   {
@@ -50,8 +50,17 @@
     "url": "https://segmentfault.com/a/1190000040879546",
     "author": "杨成功",
     "home_url": "https://segmentfault.com/u/ruidoc",
-    "votes": "31",
+    "votes": "33",
     "rank": 6
+  },
+  {
+    "title": "前端架构师神技，三招统一代码风格（一文讲透）",
+    "description": "本文从代码规范，代码检查，代码格式化，以及编辑器自动化实现的方向，介绍代码规范统一在我们团队的实践应用。大纲预览本文介绍的内容包括以下方面：认识代码规范制定和统一规范神技一：ESLint神技二：Prettier...",
+    "url": "https://segmentfault.com/a/1190000040948561",
+    "author": "杨成功",
+    "home_url": "https://segmentfault.com/u/ruidoc",
+    "votes": "28",
+    "rank": 7
   },
   {
     "title": "前端如何防止用户修改水印？",
@@ -60,7 +69,16 @@
     "author": "劉凯里",
     "home_url": "https://segmentfault.com/u/kyrieliu",
     "votes": "24",
-    "rank": 7
+    "rank": 8
+  },
+  {
+    "title": "3D 穿梭效果？使用 CSS 轻松搞定",
+    "description": "背景周末在家习惯性登陆 Apex，准备玩几盘。在登陆加速器的过程中，发现加速器到期了。我一直用的腾讯网游加速器，然而点击充值按钮，提示最近客户端升级改造，暂不支持充值（这个操作把我震惊了~）。只能转头下...",
+    "url": "https://segmentfault.com/a/1190000040936266",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "32",
+    "rank": 9
   },
   {
     "title": "尤雨溪几年前开发的“玩具 vite”，才100多行代码，却十分有助于理解 vite 原理",
@@ -69,7 +87,7 @@
     "author": "若川",
     "home_url": "https://segmentfault.com/u/lxchuan12",
     "votes": "30",
-    "rank": 8
+    "rank": 10
   },
   {
     "title": "N 种仅仅使用 HTML/CSS 实现各类进度条的方式",
@@ -77,26 +95,17 @@
     "url": "https://segmentfault.com/a/1190000040908304",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "22",
-    "rank": 9
-  },
-  {
-    "title": "使用 CSS Scroll Snap 优化滚动，提升用户体验！",
-    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000040824694",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "27",
-    "rank": 10
-  },
-  {
-    "title": "MySQL灵魂拷问：36题带你面试通关",
-    "description": "大家好，我是大彬~今天给大家分享MySQL常考的面试题，看看你们能答对多少。本期MySQL面试题的目录如下：事务的四大特性？事务隔离级别有哪些？索引什么是索引？索引的优缺点？索引的作用？什么情况下需要建索引？...",
-    "url": "https://segmentfault.com/a/1190000040823877",
-    "author": "程序员大彬",
-    "home_url": "https://segmentfault.com/u/5n7qfpo1",
-    "votes": "22",
+    "votes": "23",
     "rank": 11
+  },
+  {
+    "title": "【建议收藏】面试官贼喜欢问的 32+ vue 修饰符，你掌握几种啦？",
+    "description": "vue简洁好用体现在很多个地方，比如其内置了32+修饰符，可以很方便我们阻止冒泡、阻止默认事件、鼠标事件处理、系统键盘事件等等，让我们可以快速搞定业务，简直不要太方便噢！！！",
+    "url": "https://segmentfault.com/a/1190000040914312",
+    "author": "前端胖头鱼",
+    "home_url": "https://segmentfault.com/u/116263",
+    "votes": "25",
+    "rank": 12
   },
   {
     "title": "前端如何实现token的无感刷新",
@@ -105,25 +114,7 @@
     "author": "xiangzhihong",
     "home_url": "https://segmentfault.com/u/xiangzhihong",
     "votes": "26",
-    "rank": 12
-  },
-  {
-    "title": "3D 穿梭效果？使用 CSS 轻松搞定",
-    "description": "背景周末在家习惯性登陆 Apex，准备玩几盘。在登陆加速器的过程中，发现加速器到期了。我一直用的腾讯网游加速器，然而点击充值按钮，提示最近客户端升级改造，暂不支持充值（这个操作把我震惊了~）。只能转头下...",
-    "url": "https://segmentfault.com/a/1190000040936266",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "27",
     "rank": 13
-  },
-  {
-    "title": "【建议收藏】面试官贼喜欢问的 32+ vue 修饰符，你掌握几种啦？",
-    "description": "vue简洁好用体现在很多个地方，比如其内置了32+修饰符，可以很方便我们阻止冒泡、阻止默认事件、鼠标事件处理、系统键盘事件等等，让我们可以快速搞定业务，简直不要太方便噢！！！",
-    "url": "https://segmentfault.com/a/1190000040914312",
-    "author": "前端胖头鱼",
-    "home_url": "https://segmentfault.com/u/116263",
-    "votes": "24",
-    "rank": 14
   },
   {
     "title": "7分钟学会写一个浏览器插件——突破某SDN未登录禁止复制的限制",
@@ -132,7 +123,7 @@
     "author": "独钓寒江雪",
     "home_url": "https://segmentfault.com/u/king_hcj",
     "votes": "22",
-    "rank": 15
+    "rank": 14
   },
   {
     "title": "CSS 实现文本\"不定行数\"截断",
@@ -141,7 +132,7 @@
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
     "votes": "22",
-    "rank": 16
+    "rank": 15
   },
   {
     "title": "前端应该知道的：开放图谱协议（The Open Graph protocol）",
@@ -150,16 +141,7 @@
     "author": "独钓寒江雪",
     "home_url": "https://segmentfault.com/u/king_hcj",
     "votes": "24",
-    "rank": 17
-  },
-  {
-    "title": "前端架构师神技，三招统一代码风格（一文讲透）",
-    "description": "本文从代码规范，代码检查，代码格式化，以及编辑器自动化实现的方向，介绍代码规范统一在我们团队的实践应用。大纲预览本文介绍的内容包括以下方面：认识代码规范制定和统一规范神技一：ESLint神技二：Prettier...",
-    "url": "https://segmentfault.com/a/1190000040948561",
-    "author": "杨成功",
-    "home_url": "https://segmentfault.com/u/ruidoc",
-    "votes": "19",
-    "rank": 18
+    "rank": 16
   },
   {
     "title": "把程序做成系统服务",
@@ -168,7 +150,16 @@
     "author": "边城",
     "home_url": "https://segmentfault.com/u/jamesfancy",
     "votes": "13",
-    "rank": 19
+    "rank": 17
+  },
+  {
+    "title": "前端Node.js面试题",
+    "description": "Node.js 是一个开源与跨平台的 JavaScript 运行时环境。在浏览器外运行 V8 JavaScript 引擎（Google Chrome 的内核），利用事件驱动、非阻塞和异步输入输出模型等技术提高性能。我们可以理解为：Node.js 就是一个...",
+    "url": "https://segmentfault.com/a/1190000040937008",
+    "author": "xiangzhihong",
+    "home_url": "https://segmentfault.com/u/xiangzhihong",
+    "votes": "17",
+    "rank": 18
   },
   {
     "title": "10个可视化 CSS 工具， 快速生成 CSS 片段，渣男，又想抛弃我！！",
@@ -177,7 +168,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "25",
-    "rank": 20
+    "rank": 19
   },
   {
     "title": "23 个非常有用的 NodeJs 库",
@@ -186,7 +177,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "22",
-    "rank": 21
+    "rank": 20
   },
   {
     "title": "关于 v-model 你需要知道的这一切！",
@@ -195,7 +186,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "20",
-    "rank": 22
+    "rank": 21
   },
   {
     "title": "这些 JavaScript函数让你的工作更加 So Easy!",
@@ -204,6 +195,15 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "25",
+    "rank": 22
+  },
+  {
+    "title": "这几个高级前端常用的API，你用到了吗？",
+    "description": "MutationObserver 是一个可以监听 DOM 结构变化的接口。当 DOM 对象树发生任何变动时，MutationObserver 会得到通知。",
+    "url": "https://segmentfault.com/a/1190000040942225",
+    "author": "lzg9527",
+    "home_url": "https://segmentfault.com/u/michael_5c03399eed011",
+    "votes": "21",
     "rank": 23
   },
   {
@@ -216,22 +216,13 @@
     "rank": 24
   },
   {
-    "title": "前端Node.js面试题",
-    "description": "Node.js 是一个开源与跨平台的 JavaScript 运行时环境。在浏览器外运行 V8 JavaScript 引擎（Google Chrome 的内核），利用事件驱动、非阻塞和异步输入输出模型等技术提高性能。我们可以理解为：Node.js 就是一个...",
-    "url": "https://segmentfault.com/a/1190000040937008",
-    "author": "xiangzhihong",
-    "home_url": "https://segmentfault.com/u/xiangzhihong",
-    "votes": "15",
-    "rank": 25
-  },
-  {
     "title": "Go 日常开发常备第三方库和工具",
     "description": "不知不觉写 Go 已经快一年了，上线了大大小小好几个项目；心态也经历了几轮变化。因为我个人大概前五年时间写的是 Java ，中途写过一年多的 Python，所以刚接触到 Go 时的感觉如下图：既没有 Java 的生态，也没有...",
     "url": "https://segmentfault.com/a/1190000040896809",
     "author": "crossoverJie",
     "home_url": "https://segmentfault.com/u/crossoverjie",
     "votes": "15",
-    "rank": 26
+    "rank": 25
   },
   {
     "title": "正则表达式汇总",
@@ -240,16 +231,7 @@
     "author": "小蘑菇",
     "home_url": "https://segmentfault.com/u/xiaomogu_5f2124ad3ad42",
     "votes": "18",
-    "rank": 27
-  },
-  {
-    "title": "这几个高级前端常用的API，你用到了吗？",
-    "description": "MutationObserver 是一个可以监听 DOM 结构变化的接口。当 DOM 对象树发生任何变动时，MutationObserver 会得到通知。",
-    "url": "https://segmentfault.com/a/1190000040942225",
-    "author": "lzg9527",
-    "home_url": "https://segmentfault.com/u/michael_5c03399eed011",
-    "votes": "18",
-    "rank": 28
+    "rank": 26
   },
   {
     "title": "Vue 团队公开快如闪电的全新脚手架工具 create-vue，未来将替代 Vue-CLI，才300余行代码，学它！",
@@ -258,7 +240,7 @@
     "author": "若川",
     "home_url": "https://segmentfault.com/u/lxchuan12",
     "votes": "16",
-    "rank": 29
+    "rank": 27
   },
   {
     "title": "念念不忘，必有echo )))) ——讲述一个Typecho开源博客程序坚持 15 年的故事",
@@ -267,6 +249,24 @@
     "author": "sluke",
     "home_url": "https://segmentfault.com/u/sluke",
     "votes": "11",
+    "rank": 28
+  },
+  {
+    "title": "【一文秒懂】电商系统商品模块初建分析与设计",
+    "description": "创建《一文秒懂》这个专栏与以往《Grace development》和我博客的个人分享文章不同，我对《一文秒懂》这个专栏的定位是一个有态度，高标准的技术专栏，而《Grace development》我依旧会讲一些我们日常中会碰到的...",
+    "url": "https://segmentfault.com/a/1190000040855949",
+    "author": "CrazyCodes",
+    "home_url": "https://segmentfault.com/u/crazycodes",
+    "votes": "14",
+    "rank": 29
+  },
+  {
+    "title": "利用 CSS Overview 面板重构优化你的网站",
+    "description": "本文将向大家介绍 Chrome 87 开始支持的 CSS Overview Panel，并且介绍如何更好地利用这个面板。通过 CSS Overview Panel，可能可以帮助我们：",
+    "url": "https://segmentfault.com/a/1190000040837145",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "14",
     "rank": 30
   }
 ]

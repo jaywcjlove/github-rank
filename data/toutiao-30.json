@@ -2,7 +2,7 @@
   {
     "title": "搞懂异地多活，看这篇就够了",
     "description": "阅读本文大约需要 20 分钟。你好，我是 Kaito。在软件开发领域，「异地多活」是分布式系统架构设计的一座高峰，很多人经常听过它，但很少人理解其中的原理。异地多活到底是什么？为什...",
-    "votes": "198",
+    "votes": "199",
     "url": "/k/epd1pcc",
     "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
     "avatarAlt": "乱点技能树 - 独家号",
@@ -52,7 +52,7 @@
   {
     "title": "认识 MySQL 和 Redis 的数据一致性问题",
     "description": "作者：sinxu，腾讯 CSIG 后台开发工程师1. 什么是数据的一致性“数据一致”一般指的是：缓存中有数据，缓存的数据值 = 数据库中的值。但根据缓存中是有数据为依据，则”一致“...",
-    "votes": "132",
+    "votes": "135",
     "url": "/k/w79d4wj",
     "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
     "avatarAlt": "趣编程的独家号 - 独家号",
@@ -70,6 +70,16 @@
     "homeUrl": "/subjects/392760"
   },
   {
+    "title": "面试官问：你参与的项目有什么亮点？怎么回答",
+    "description": "大家好，我是Tom哥~面试官拿到我们的简历，一般会关注两块内容，一块是专业技能，另一块是项目经历。简单的个人介绍后，一般会先问些偏基础的技术问题，热热身。当然也有很多面试官上来就顺...",
+    "votes": "122",
+    "url": "/k/170b14g",
+    "avatar": "https://img.toutiao.io/subject/e62c1664abed48848efc89141ae64112/thumb",
+    "avatarAlt": "微观技术 - 独家号",
+    "subjectName": "微观技术",
+    "homeUrl": "/subjects/348507"
+  },
+  {
     "title": "如何高效刷 LeetCode",
     "description": " 心理建设篇在讲述具体的方法之前，先要明白一件事。凡事都分『道』与『术』。本问题下面大部分回答介绍的都是『术』。而对于刷LeetCode这件事，无论你看到多少高明的的方法，如果你不...",
     "votes": "111",
@@ -80,19 +90,9 @@
     "homeUrl": "/subjects/99877"
   },
   {
-    "title": "面试官问：你参与的项目有什么亮点？怎么回答",
-    "description": "大家好，我是Tom哥~面试官拿到我们的简历，一般会关注两块内容，一块是专业技能，另一块是项目经历。简单的个人介绍后，一般会先问些偏基础的技术问题，热热身。当然也有很多面试官上来就顺...",
-    "votes": "121",
-    "url": "/k/170b14g",
-    "avatar": "https://img.toutiao.io/subject/e62c1664abed48848efc89141ae64112/thumb",
-    "avatarAlt": "微观技术 - 独家号",
-    "subjectName": "微观技术",
-    "homeUrl": "/subjects/348507"
-  },
-  {
     "title": "Kafka 知识体系保姆级教程宝典",
     "description": "本文目录：一、消息队列 Apache Pulsar Pulsar 与 Kafka 对比二、Kafka基础三、Kafka架构及组件四、Kafka集群操作五、Kafka的JavaAPI...",
-    "votes": "98",
+    "votes": "99",
     "url": "/k/j5iauc2",
     "avatar": "https://img.toutiao.io/subject/1ecd558bf4a24bc780d2c3a0ab6e69f2/thumb",
     "avatarAlt": "分布式系统 - 独家号",
@@ -120,29 +120,9 @@
     "homeUrl": "/subjects/350352"
   },
   {
-    "title": "Kafka 为什么要放弃 Zookeeper",
-    "description": "最近，confluent社区发表了一篇文章，主要讲述了Kafka未来的2.8版本将要放弃Zookeeper，这对于Kafka用户来说，是一个重要的改进。之前部署Kafka就必须得部...",
-    "votes": "93",
-    "url": "/k/98g49tv",
-    "avatar": "https://img.toutiao.io/subject/9635116a54eb4217a569629335a3ee45/thumb",
-    "avatarAlt": "公众号：捉虫大师 - 独家号",
-    "subjectName": "公众号：捉虫大师",
-    "homeUrl": "/subjects/324911"
-  },
-  {
-    "title": "幂等设计详解",
-    "description": "导读 本文主要从研发人员的角度，结合研发人员日常常见的各类业务场景，从经典系统框架的每一层入手分析幂等处理的时机。希望通过这篇文章的分析，让开发者在日常开发中对幂等的处理不再陌生。...",
-    "votes": "93",
-    "url": "/k/qv6mpuj",
-    "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
-    "avatarAlt": "趣编程的独家号 - 独家号",
-    "subjectName": "趣编程的独家号",
-    "homeUrl": "/subjects/465623"
-  },
-  {
     "title": "七步制作精简镜像，So easy",
     "description": "文章来自黄庆兵老师的网易蜂巢《玩转 Docker 镜像》系列https://github.com/bingohuang/play-docker-images，原本分为上下两篇，这里...",
-    "votes": "95",
+    "votes": "96",
     "url": "/k/s48j8ku",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -152,7 +132,7 @@
   {
     "title": "最近很火火火火的 GitHub 项目",
     "description": "老逛每个月都会盘点当前月份最火的开源项目，本篇文章就是十月份 Star 攀升最多的的开源项目，它们分别是： 1. 电商大促脚本2. 基于 Js 的游戏引擎3. Bug 厂库4. 高...",
-    "votes": "91",
+    "votes": "92",
     "url": "/k/3l64knj",
     "avatar": "https://img.toutiao.io/subject/03e210e126704d0ca23938746bbd4cec/thumb",
     "avatarAlt": "近半生少年 - 独家号",
@@ -160,20 +140,30 @@
     "homeUrl": "/subjects/403307"
   },
   {
-    "title": "技术人必备的 6 种思维",
-    "description": " 作者：gordoncheng  腾讯专家工程师00 思维的重要性 在回顾一些往事时，我们有时候会发现，自己处理过的某个事情其实可以做得更好；在一个团队中，两个技术水平相当的员工，...",
-    "votes": "81",
-    "url": "/k/zc4cuah",
+    "title": "幂等设计详解",
+    "description": "导读 本文主要从研发人员的角度，结合研发人员日常常见的各类业务场景，从经典系统框架的每一层入手分析幂等处理的时机。希望通过这篇文章的分析，让开发者在日常开发中对幂等的处理不再陌生。...",
+    "votes": "94",
+    "url": "/k/qv6mpuj",
+    "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
+    "avatarAlt": "趣编程的独家号 - 独家号",
+    "subjectName": "趣编程的独家号",
+    "homeUrl": "/subjects/465623"
+  },
+  {
+    "title": "高并发系统建设经验总结",
+    "description": " 作者：listenzhang，腾讯 PCG 后台开发工程师前言 早期从事运单系统的开发和维护工作，从最早的日均百万单，到日均千万单，业务的快速发展再加上外卖业务的特点是，业务量集...",
+    "votes": "84",
+    "url": "/k/zcql3fl",
     "avatar": "https://img.toutiao.io/subject/cc2d501408fd455d9b841cb6c8d95a6c/thumb",
     "avatarAlt": "ASCE1885 - 独家号",
     "subjectName": "ASCE1885",
     "homeUrl": "/subjects/4829"
   },
   {
-    "title": "高并发系统建设经验总结",
-    "description": " 作者：listenzhang，腾讯 PCG 后台开发工程师前言 早期从事运单系统的开发和维护工作，从最早的日均百万单，到日均千万单，业务的快速发展再加上外卖业务的特点是，业务量集...",
-    "votes": "82",
-    "url": "/k/zcql3fl",
+    "title": "技术人必备的 6 种思维",
+    "description": " 作者：gordoncheng  腾讯专家工程师00 思维的重要性 在回顾一些往事时，我们有时候会发现，自己处理过的某个事情其实可以做得更好；在一个团队中，两个技术水平相当的员工，...",
+    "votes": "81",
+    "url": "/k/zc4cuah",
     "avatar": "https://img.toutiao.io/subject/cc2d501408fd455d9b841cb6c8d95a6c/thumb",
     "avatarAlt": "ASCE1885 - 独家号",
     "subjectName": "ASCE1885",
@@ -192,12 +182,22 @@
   {
     "title": "如何写好年度总结 PPT？",
     "description": "到年底了，大家估计都要写年度总结了，但这个PPT不是那么好写，即使只写一两页，也并不是那么容易。PPT作为呈现业绩的主要方式，是职场人士需要掌握的一个技能，特别是对于管理人士，那就...",
-    "votes": "76",
+    "votes": "79",
     "url": "/k/7o8m67l",
     "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
     "avatarAlt": "进击的程序猿 - 独家号",
     "subjectName": "进击的程序猿",
     "homeUrl": "/subjects/24912"
+  },
+  {
+    "title": "聊聊 SQL 优化的 15 个小技巧",
+    "description": "大家好，我是苏三，又跟大家见面了。前言 sql优化是一个大家都比较关注的热门话题，无论你在面试，还是工作中，都很有可能会遇到。如果某天你负责的某个线上接口，出现了性能问题，需要做优...",
+    "votes": "85",
+    "url": "/k/48e8g89",
+    "avatar": "https://img.toutiao.io/subject/96c1af0d2a0b441ca9740ee13c3e37f3/thumb",
+    "avatarAlt": "苏三说技术 - 独家号",
+    "subjectName": "苏三说技术",
+    "homeUrl": "/subjects/453205"
   },
   {
     "title": "推荐 14 款常用的测试开发工具",
@@ -212,7 +212,7 @@
   {
     "title": "生成唯一 ID，为什么 NanoID 会取代 UUID？",
     "description": "UUID[1] 是软件开发中最常用的通用标识符之一。然而，在过去几年中，其他替代品挑战了它的存在。其中，NanoID 是取代 UUID 的主要竞争对手之一。因此，在本文中，我将讨论...",
-    "votes": "77",
+    "votes": "78",
     "url": "/k/vykwkmg",
     "avatar": "https://img.toutiao.io/subject/f2911e3881f84724953dfeaf339cdce8/thumb",
     "avatarAlt": "前端全栈开发者 - 独家号",
@@ -220,30 +220,30 @@
     "homeUrl": "/subjects/125297"
   },
   {
-    "title": "聊聊 SQL 优化的 15 个小技巧",
-    "description": "大家好，我是苏三，又跟大家见面了。前言 sql优化是一个大家都比较关注的热门话题，无论你在面试，还是工作中，都很有可能会遇到。如果某天你负责的某个线上接口，出现了性能问题，需要做优...",
-    "votes": "77",
-    "url": "/k/48e8g89",
-    "avatar": "https://img.toutiao.io/subject/96c1af0d2a0b441ca9740ee13c3e37f3/thumb",
-    "avatarAlt": "苏三说技术 - 独家号",
-    "subjectName": "苏三说技术",
-    "homeUrl": "/subjects/453205"
+    "title": "从 RPC 到服务化框架设计",
+    "description": "作者：allendbwu，腾讯 PCG 后台开发工程师目前互联网系统都是微服务化，那么就需要 RPC 调用，因此本文梳理了从 RPC 基本框架协议到整个服务化框架体系建设中所包含的...",
+    "votes": "66",
+    "url": "/k/rh7pc7w",
+    "avatar": "https://img.toutiao.io/subject/cc2d501408fd455d9b841cb6c8d95a6c/thumb",
+    "avatarAlt": "ASCE1885 - 独家号",
+    "subjectName": "ASCE1885",
+    "homeUrl": "/subjects/4829"
+  },
+  {
+    "title": "项目中怎样做技术选型？",
+    "description": "引出四个维度 工作快十五年了，从十年前开始经常会有新项目，需要从头开始做方案和设计。做技术选型很少成为我的难题。不是因为这方面我多有方法，而通常是很少有选择。在做技术选型的场景下基...",
+    "votes": "68",
+    "url": "/k/ftrvm6v",
+    "avatar": "https://img.toutiao.io/subject/4325865040b44c0b9e2d8d80a83d1d11/thumb",
+    "avatarAlt": "编程一生 - 独家号",
+    "subjectName": "编程一生",
+    "homeUrl": "/subjects/350352"
   },
   {
     "title": "亿级流量实验平台设计实践",
     "description": "关注公众号:【虫爸说说】， 回复[资料]，免费获取大家好，我是虫爸。今天给大家分享一款亿级流量实验平台。在互联网行业，要上线一个策略(CTR预估、CVR预估等)，或者一个功能，如果...",
     "votes": "65",
     "url": "/k/rlhre5x",
-    "avatar": "https://img.toutiao.io/subject/b5b3dc9b66d043258e01d2d26b8c731d/thumb",
-    "avatarAlt": "公众号:高性能架构探索 - 独家号",
-    "subjectName": "公众号:高性能架构探索",
-    "homeUrl": "/subjects/465706"
-  },
-  {
-    "title": "吃透负载均衡",
-    "description": "大家好，我是雨乐。首先告诉大家一件事，在十一国庆期间，引擎的机器又又。。。又扛不住了流量。 经过监控分析，发现某个服务的一个实例所在的虚拟机扛不住了，所以采取临时措施流量控制之后，...",
-    "votes": "70",
-    "url": "/k/7tctele",
     "avatar": "https://img.toutiao.io/subject/b5b3dc9b66d043258e01d2d26b8c731d/thumb",
     "avatarAlt": "公众号:高性能架构探索 - 独家号",
     "subjectName": "公众号:高性能架构探索",
