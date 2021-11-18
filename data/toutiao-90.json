@@ -22,7 +22,7 @@
   {
     "title": "搞懂异地多活，看这篇就够了",
     "description": "阅读本文大约需要 20 分钟。你好，我是 Kaito。在软件开发领域，「异地多活」是分布式系统架构设计的一座高峰，很多人经常听过它，但很少人理解其中的原理。异地多活到底是什么？为什...",
-    "votes": "199",
+    "votes": "200",
     "url": "/k/epd1pcc",
     "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
     "avatarAlt": "乱点技能树 - 独家号",
@@ -32,7 +32,7 @@
   {
     "title": "高并发场景下 JVM 调优实践之路",
     "description": "作者：vivo互联网技术团队Li Guanyun、 Jessica Chen一、背景2021年2月，收到反馈，视频APP某核心接口高峰期响应慢，影响用户体验。通过监控发现，接口响应...",
-    "votes": "163",
+    "votes": "166",
     "url": "/k/3nkgnj9",
     "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
     "avatarAlt": "vivo互联网技术 - 独家号",
@@ -90,6 +90,16 @@
     "homeUrl": "/subjects/403307"
   },
   {
+    "title": "万字入门推荐系统",
+    "description": "最近一周我、强子、Y哥三人，根据自身如何入门推荐系统，再结合三人分别在腾讯做广告推荐、字节做视频推荐、百度做信息流推荐的经历，整理出了这份万字入门推荐系统。内容十分详细，涵盖了推荐...",
+    "votes": "152",
+    "url": "/k/84f5zio",
+    "avatar": "https://img.toutiao.io/subject/87ea1c5a22884d4fbb90b37561c02a34/thumb",
+    "avatarAlt": "元宇宙 - 独家号",
+    "subjectName": "元宇宙",
+    "homeUrl": "/subjects/372612"
+  },
+  {
     "title": "架构师之路，我看过的三本书，高分",
     "description": "之前我写过几篇架构师、架构设计相关的文章。说实话，想通过几篇文章就把架构师的方方面面说明白，挺难的。这可能需要一系列的文章，今天就给大家安排了这篇文章。很多程序员都有和下面类似的困...",
     "votes": "154",
@@ -98,16 +108,6 @@
     "avatarAlt": "四猿外 - 独家号",
     "subjectName": "四猿外",
     "homeUrl": "/subjects/426740"
-  },
-  {
-    "title": "万字入门推荐系统",
-    "description": "最近一周我、强子、Y哥三人，根据自身如何入门推荐系统，再结合三人分别在腾讯做广告推荐、字节做视频推荐、百度做信息流推荐的经历，整理出了这份万字入门推荐系统。内容十分详细，涵盖了推荐...",
-    "votes": "149",
-    "url": "/k/84f5zio",
-    "avatar": "https://img.toutiao.io/subject/87ea1c5a22884d4fbb90b37561c02a34/thumb",
-    "avatarAlt": "元宇宙 - 独家号",
-    "subjectName": "元宇宙",
-    "homeUrl": "/subjects/372612"
   },
   {
     "title": "推荐几个开源类库，超好用，远离 996",
@@ -170,6 +170,16 @@
     "homeUrl": "/subjects/1983"
   },
   {
+    "title": "认识 MySQL 和 Redis 的数据一致性问题",
+    "description": "作者：sinxu，腾讯 CSIG 后台开发工程师1. 什么是数据的一致性“数据一致”一般指的是：缓存中有数据，缓存的数据值 = 数据库中的值。但根据缓存中是有数据为依据，则”一致“...",
+    "votes": "139",
+    "url": "/k/w79d4wj",
+    "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
+    "avatarAlt": "趣编程的独家号 - 独家号",
+    "subjectName": "趣编程的独家号",
+    "homeUrl": "/subjects/465623"
+  },
+  {
     "title": "Chrome 插件（扩展）开发全攻略 2.6w 字，看这篇就够了",
     "description": "一、写在前面我花了将近一个多月的时间断断续续写下这篇博文，并精心写下完整demo，写博客的辛苦大家懂的。本文所有涉及到的大部分代码均在这个demo里面：https://github...",
     "votes": "132",
@@ -178,26 +188,6 @@
     "avatarAlt": "搬运工来架构 - 独家号",
     "subjectName": "搬运工来架构",
     "homeUrl": "/subjects/176399"
-  },
-  {
-    "title": "认识 MySQL 和 Redis 的数据一致性问题",
-    "description": "作者：sinxu，腾讯 CSIG 后台开发工程师1. 什么是数据的一致性“数据一致”一般指的是：缓存中有数据，缓存的数据值 = 数据库中的值。但根据缓存中是有数据为依据，则”一致“...",
-    "votes": "135",
-    "url": "/k/w79d4wj",
-    "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
-    "avatarAlt": "趣编程的独家号 - 独家号",
-    "subjectName": "趣编程的独家号",
-    "homeUrl": "/subjects/465623"
-  },
-  {
-    "title": "小团队敏捷实践 2.0",
-    "description": "敏捷迭代为什么升级团队在敏捷迭代实施的过程中，遇到了各种问题，在这个过程中，也发现了很多很好的方法论。所以，近期根据团队迭代的实际情况，做了2.0的迭代流程升级。团队使用的工具，在...",
-    "votes": "128",
-    "url": "/k/6dxv9h5",
-    "avatar": "https://img.toutiao.io/subject/6fc0fabfe93146e28ff47aa9f908dee9/thumb",
-    "avatarAlt": "天行者YANG - 独家号",
-    "subjectName": "天行者YANG",
-    "homeUrl": "/subjects/199751"
   },
   {
     "title": "这可能是 8 月 GitHub 最火热的开源项目",
@@ -212,7 +202,7 @@
   {
     "title": "你分库分表的姿势对么？：详谈水平分库分表",
     "description": "作者：vivo平台产品开发团队-Han Lei一、背景提起分库分表，对于大部分服务器开发来说，其实并不是一个新鲜的名词。随着业务的发展，我们表中的数据量会变的越来越大，字段也可能随...",
-    "votes": "119",
+    "votes": "121",
     "url": "/k/oyacwl5",
     "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
     "avatarAlt": "vivo互联网技术 - 独家号",
@@ -248,5 +238,15 @@
     "avatarAlt": "微观技术 - 独家号",
     "subjectName": "微观技术",
     "homeUrl": "/subjects/348507"
+  },
+  {
+    "title": "如何高效刷 LeetCode",
+    "description": " 心理建设篇在讲述具体的方法之前，先要明白一件事。凡事都分『道』与『术』。本问题下面大部分回答介绍的都是『术』。而对于刷LeetCode这件事，无论你看到多少高明的的方法，如果你不...",
+    "votes": "111",
+    "url": "/k/ws2do5o",
+    "avatar": "https://img.toutiao.io/subject/9689de3b035249df91b951e9317f0678/thumb",
+    "avatarAlt": "编程往事 - 独家号",
+    "subjectName": "编程往事",
+    "homeUrl": "/subjects/99877"
   }
 ]
