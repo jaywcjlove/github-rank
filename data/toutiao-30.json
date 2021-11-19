@@ -12,7 +12,7 @@
   {
     "title": "高并发场景下 JVM 调优实践之路",
     "description": "作者：vivo互联网技术团队Li Guanyun、 Jessica Chen一、背景2021年2月，收到反馈，视频APP某核心接口高峰期响应慢，影响用户体验。通过监控发现，接口响应...",
-    "votes": "166",
+    "votes": "169",
     "url": "/k/3nkgnj9",
     "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
     "avatarAlt": "vivo互联网技术 - 独家号",
@@ -52,7 +52,7 @@
   {
     "title": "你分库分表的姿势对么？：详谈水平分库分表",
     "description": "作者：vivo平台产品开发团队-Han Lei一、背景提起分库分表，对于大部分服务器开发来说，其实并不是一个新鲜的名词。随着业务的发展，我们表中的数据量会变的越来越大，字段也可能随...",
-    "votes": "121",
+    "votes": "122",
     "url": "/k/oyacwl5",
     "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
     "avatarAlt": "vivo互联网技术 - 独家号",
@@ -68,16 +68,6 @@
     "avatarAlt": "微观技术 - 独家号",
     "subjectName": "微观技术",
     "homeUrl": "/subjects/348507"
-  },
-  {
-    "title": "如何高效刷 LeetCode",
-    "description": " 心理建设篇在讲述具体的方法之前，先要明白一件事。凡事都分『道』与『术』。本问题下面大部分回答介绍的都是『术』。而对于刷LeetCode这件事，无论你看到多少高明的的方法，如果你不...",
-    "votes": "111",
-    "url": "/k/ws2do5o",
-    "avatar": "https://img.toutiao.io/subject/9689de3b035249df91b951e9317f0678/thumb",
-    "avatarAlt": "编程往事 - 独家号",
-    "subjectName": "编程往事",
-    "homeUrl": "/subjects/99877"
   },
   {
     "title": "Kafka 知识体系保姆级教程宝典",
@@ -110,6 +100,16 @@
     "homeUrl": "/subjects/403307"
   },
   {
+    "title": "面渣逆袭：线程池夺命连环十八问",
+    "description": "大家好，我是老三，很高兴又和大家见面。线程池是面试必问的知识点，这节我们来对线面试官，搞透线程池。1. 什么是线程池？ 线程池： 简单理解，它就是一个管理线程的池子。它帮我们管理线...",
+    "votes": "93",
+    "url": "/k/g3u1qkm",
+    "avatar": "https://img.toutiao.io/subject/d42ad8a9192a430b9df44df9a6d383df/thumb",
+    "avatarAlt": "三分恶 - 独家号",
+    "subjectName": "三分恶",
+    "homeUrl": "/subjects/454266"
+  },
+  {
     "title": "七步制作精简镜像，So easy",
     "description": "文章来自黄庆兵老师的网易蜂巢《玩转 Docker 镜像》系列https://github.com/bingohuang/play-docker-images，原本分为上下两篇，这里...",
     "votes": "96",
@@ -132,7 +132,7 @@
   {
     "title": "高并发系统建设经验总结",
     "description": " 作者：listenzhang，腾讯 PCG 后台开发工程师前言 早期从事运单系统的开发和维护工作，从最早的日均百万单，到日均千万单，业务的快速发展再加上外卖业务的特点是，业务量集...",
-    "votes": "84",
+    "votes": "86",
     "url": "/k/zcql3fl",
     "avatar": "https://img.toutiao.io/subject/cc2d501408fd455d9b841cb6c8d95a6c/thumb",
     "avatarAlt": "ASCE1885 - 独家号",
@@ -150,6 +150,16 @@
     "homeUrl": "/subjects/4829"
   },
   {
+    "title": "聊聊 SQL 优化的 15 个小技巧",
+    "description": "大家好，我是苏三，又跟大家见面了。前言 sql优化是一个大家都比较关注的热门话题，无论你在面试，还是工作中，都很有可能会遇到。如果某天你负责的某个线上接口，出现了性能问题，需要做优...",
+    "votes": "91",
+    "url": "/k/48e8g89",
+    "avatar": "https://img.toutiao.io/subject/96c1af0d2a0b441ca9740ee13c3e37f3/thumb",
+    "avatarAlt": "苏三说技术 - 独家号",
+    "subjectName": "苏三说技术",
+    "homeUrl": "/subjects/453205"
+  },
+  {
     "title": "亿级流量架构演进实战：从零构建亿级流量 API 网关（二）",
     "description": "这不是一个讲概念的专栏，而且我也不擅长讲概念，每一篇文章都是一个故事，我希望你可以通过这些故事了解我当时在实际工作中遇到问题和背后的思考，架构设计是种经验，我有幸参与到多个亿级系统...",
     "votes": "82",
@@ -160,24 +170,14 @@
     "homeUrl": "/subjects/388900"
   },
   {
-    "title": "面渣逆袭：线程池夺命连环十八问",
-    "description": "大家好，我是老三，很高兴又和大家见面。线程池是面试必问的知识点，这节我们来对线面试官，搞透线程池。1. 什么是线程池？ 线程池： 简单理解，它就是一个管理线程的池子。它帮我们管理线...",
+    "title": "从 RPC 到服务化框架设计",
+    "description": "作者：allendbwu，腾讯 PCG 后台开发工程师目前互联网系统都是微服务化，那么就需要 RPC 调用，因此本文梳理了从 RPC 基本框架协议到整个服务化框架体系建设中所包含的...",
     "votes": "76",
-    "url": "/k/g3u1qkm",
-    "avatar": "https://img.toutiao.io/subject/d42ad8a9192a430b9df44df9a6d383df/thumb",
-    "avatarAlt": "三分恶 - 独家号",
-    "subjectName": "三分恶",
-    "homeUrl": "/subjects/454266"
-  },
-  {
-    "title": "聊聊 SQL 优化的 15 个小技巧",
-    "description": "大家好，我是苏三，又跟大家见面了。前言 sql优化是一个大家都比较关注的热门话题，无论你在面试，还是工作中，都很有可能会遇到。如果某天你负责的某个线上接口，出现了性能问题，需要做优...",
-    "votes": "87",
-    "url": "/k/48e8g89",
-    "avatar": "https://img.toutiao.io/subject/96c1af0d2a0b441ca9740ee13c3e37f3/thumb",
-    "avatarAlt": "苏三说技术 - 独家号",
-    "subjectName": "苏三说技术",
-    "homeUrl": "/subjects/453205"
+    "url": "/k/rh7pc7w",
+    "avatar": "https://img.toutiao.io/subject/cc2d501408fd455d9b841cb6c8d95a6c/thumb",
+    "avatarAlt": "ASCE1885 - 独家号",
+    "subjectName": "ASCE1885",
+    "homeUrl": "/subjects/4829"
   },
   {
     "title": "如何写好年度总结 PPT？",
@@ -190,29 +190,9 @@
     "homeUrl": "/subjects/24912"
   },
   {
-    "title": "从 RPC 到服务化框架设计",
-    "description": "作者：allendbwu，腾讯 PCG 后台开发工程师目前互联网系统都是微服务化，那么就需要 RPC 调用，因此本文梳理了从 RPC 基本框架协议到整个服务化框架体系建设中所包含的...",
-    "votes": "72",
-    "url": "/k/rh7pc7w",
-    "avatar": "https://img.toutiao.io/subject/cc2d501408fd455d9b841cb6c8d95a6c/thumb",
-    "avatarAlt": "ASCE1885 - 独家号",
-    "subjectName": "ASCE1885",
-    "homeUrl": "/subjects/4829"
-  },
-  {
-    "title": "生成唯一 ID，为什么 NanoID 会取代 UUID？",
-    "description": "UUID[1] 是软件开发中最常用的通用标识符之一。然而，在过去几年中，其他替代品挑战了它的存在。其中，NanoID 是取代 UUID 的主要竞争对手之一。因此，在本文中，我将讨论...",
-    "votes": "78",
-    "url": "/k/vykwkmg",
-    "avatar": "https://img.toutiao.io/subject/f2911e3881f84724953dfeaf339cdce8/thumb",
-    "avatarAlt": "前端全栈开发者 - 独家号",
-    "subjectName": "前端全栈开发者",
-    "homeUrl": "/subjects/125297"
-  },
-  {
     "title": "字节一面：Redis 主节点的 Key 已过期，但从节点依然读到过期数据",
     "description": "大家好，我是Tom哥~我们知道，大部分的业务场景都是读多写少，为了利用好这个特性，提升Redis集群系统的吞吐能力，通常会采用主从架构、读写分离如上图所示：其中Master节点：负...",
-    "votes": "81",
+    "votes": "88",
     "url": "/k/ptbzpm7",
     "avatar": "https://img.toutiao.io/subject/e62c1664abed48848efc89141ae64112/thumb",
     "avatarAlt": "微观技术 - 独家号",
@@ -222,7 +202,7 @@
   {
     "title": "项目中怎样做技术选型？",
     "description": "引出四个维度 工作快十五年了，从十年前开始经常会有新项目，需要从头开始做方案和设计。做技术选型很少成为我的难题。不是因为这方面我多有方法，而通常是很少有选择。在做技术选型的场景下基...",
-    "votes": "71",
+    "votes": "75",
     "url": "/k/ftrvm6v",
     "avatar": "https://img.toutiao.io/subject/4325865040b44c0b9e2d8d80a83d1d11/thumb",
     "avatarAlt": "编程一生 - 独家号",
@@ -230,20 +210,40 @@
     "homeUrl": "/subjects/350352"
   },
   {
-    "title": "亿级流量实验平台设计实践",
-    "description": "关注公众号:【虫爸说说】， 回复[资料]，免费获取大家好，我是虫爸。今天给大家分享一款亿级流量实验平台。在互联网行业，要上线一个策略(CTR预估、CVR预估等)，或者一个功能，如果...",
-    "votes": "65",
-    "url": "/k/rlhre5x",
+    "title": "生成唯一 ID，为什么 NanoID 会取代 UUID？",
+    "description": "UUID[1] 是软件开发中最常用的通用标识符之一。然而，在过去几年中，其他替代品挑战了它的存在。其中，NanoID 是取代 UUID 的主要竞争对手之一。因此，在本文中，我将讨论...",
+    "votes": "79",
+    "url": "/k/vykwkmg",
+    "avatar": "https://img.toutiao.io/subject/f2911e3881f84724953dfeaf339cdce8/thumb",
+    "avatarAlt": "前端全栈开发者 - 独家号",
+    "subjectName": "前端全栈开发者",
+    "homeUrl": "/subjects/125297"
+  },
+  {
+    "title": "开源微服务 API 网关，单核 2 万 QPS，今年最值得学习的开源项目",
+    "description": " 文章较长，从概念与场景，到原理与架构，到性能分析，最后是demo，希望大家有收获。 第一部分：解决什么问题。什么是微服务API网关？API网关是上承前端用户，下接后端服务的咽喉之...",
+    "votes": "72",
+    "url": "/k/vo7i0r2",
+    "avatar": "https://img.toutiao.io/subject/dd437c8fe19542088ec51e69a79c158c/thumb",
+    "avatarAlt": "最佳实践 - 独家号",
+    "subjectName": "最佳实践",
+    "homeUrl": "/subjects/72425"
+  },
+  {
+    "title": "吃透负载均衡",
+    "description": "大家好，我是雨乐。首先告诉大家一件事，在十一国庆期间，引擎的机器又又。。。又扛不住了流量。 经过监控分析，发现某个服务的一个实例所在的虚拟机扛不住了，所以采取临时措施流量控制之后，...",
+    "votes": "72",
+    "url": "/k/7tctele",
     "avatar": "https://img.toutiao.io/subject/b5b3dc9b66d043258e01d2d26b8c731d/thumb",
     "avatarAlt": "公众号:高性能架构探索 - 独家号",
     "subjectName": "公众号:高性能架构探索",
     "homeUrl": "/subjects/465706"
   },
   {
-    "title": "吃透负载均衡",
-    "description": "大家好，我是雨乐。首先告诉大家一件事，在十一国庆期间，引擎的机器又又。。。又扛不住了流量。 经过监控分析，发现某个服务的一个实例所在的虚拟机扛不住了，所以采取临时措施流量控制之后，...",
-    "votes": "70",
-    "url": "/k/7tctele",
+    "title": "亿级流量实验平台设计实践",
+    "description": "关注公众号:【虫爸说说】， 回复[资料]，免费获取大家好，我是虫爸。今天给大家分享一款亿级流量实验平台。在互联网行业，要上线一个策略(CTR预估、CVR预估等)，或者一个功能，如果...",
+    "votes": "65",
+    "url": "/k/rlhre5x",
     "avatar": "https://img.toutiao.io/subject/b5b3dc9b66d043258e01d2d26b8c731d/thumb",
     "avatarAlt": "公众号:高性能架构探索 - 独家号",
     "subjectName": "公众号:高性能架构探索",
