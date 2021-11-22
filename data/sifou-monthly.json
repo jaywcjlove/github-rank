@@ -5,7 +5,7 @@
     "url": "https://segmentfault.com/a/1190000040906316",
     "author": "Sunshine_Lin",
     "home_url": "https://segmentfault.com/u/user_ze46ouik",
-    "votes": "54",
+    "votes": "56",
     "rank": 1
   },
   {
@@ -23,8 +23,17 @@
     "url": "https://segmentfault.com/a/1190000040948561",
     "author": "杨成功",
     "home_url": "https://segmentfault.com/u/ruidoc",
-    "votes": "36",
+    "votes": "38",
     "rank": 3
+  },
+  {
+    "title": "前端架构师的 git 功力，你有几成火候？",
+    "description": "本文从前端工程，团队协作，生产部署的角度，介绍架构人员需要掌握的 git 实践能力。大纲预览本文介绍的内容包括以下方面：分支管理策略commit 规范与提交验证误操作的撤回方案Tag 与生产环境永久杜绝 443 Timeou...",
+    "url": "https://segmentfault.com/a/1190000040879546",
+    "author": "杨成功",
+    "home_url": "https://segmentfault.com/u/ruidoc",
+    "votes": "35",
+    "rank": 4
   },
   {
     "title": "一些常用的 Git 进阶知识与技巧",
@@ -33,15 +42,6 @@
     "author": "谭光志",
     "home_url": "https://segmentfault.com/u/woai3c",
     "votes": "31",
-    "rank": 4
-  },
-  {
-    "title": "前端架构师的 git 功力，你有几成火候？",
-    "description": "本文从前端工程，团队协作，生产部署的角度，介绍架构人员需要掌握的 git 实践能力。大纲预览本文介绍的内容包括以下方面：分支管理策略commit 规范与提交验证误操作的撤回方案Tag 与生产环境永久杜绝 443 Timeou...",
-    "url": "https://segmentfault.com/a/1190000040879546",
-    "author": "杨成功",
-    "home_url": "https://segmentfault.com/u/ruidoc",
-    "votes": "34",
     "rank": 5
   },
   {
@@ -99,22 +99,13 @@
     "rank": 11
   },
   {
-    "title": "前端如何实现token的无感刷新",
-    "description": "通常，对于一些需要记录用户行为的系统，在进行网络请求的时候都会要求传递一下登录的token。不过，为了接口数据的安全，服务器的token一般不会设置太长，根据需要一般是1-7天的样子，token过期后就需要重新登录...",
-    "url": "https://segmentfault.com/a/1190000040850857",
-    "author": "xiangzhihong",
-    "home_url": "https://segmentfault.com/u/xiangzhihong",
-    "votes": "27",
-    "rank": 12
-  },
-  {
     "title": "23 个非常有用的 NodeJs 库",
     "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
     "url": "https://segmentfault.com/a/1190000040929396",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "24",
-    "rank": 13
+    "rank": 12
   },
   {
     "title": "10个可视化 CSS 工具， 快速生成 CSS 片段，渣男，又想抛弃我！！",
@@ -122,7 +113,16 @@
     "url": "https://segmentfault.com/a/1190000040875123",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "27",
+    "votes": "28",
+    "rank": 13
+  },
+  {
+    "title": "Go 日常开发常备第三方库和工具",
+    "description": "不知不觉写 Go 已经快一年了，上线了大大小小好几个项目；心态也经历了几轮变化。因为我个人大概前五年时间写的是 Java ，中途写过一年多的 Python，所以刚接触到 Go 时的感觉如下图：既没有 Java 的生态，也没有...",
+    "url": "https://segmentfault.com/a/1190000040896809",
+    "author": "crossoverJie",
+    "home_url": "https://segmentfault.com/u/crossoverjie",
+    "votes": "20",
     "rank": 14
   },
   {
@@ -171,22 +171,13 @@
     "rank": 19
   },
   {
-    "title": "Go 日常开发常备第三方库和工具",
-    "description": "不知不觉写 Go 已经快一年了，上线了大大小小好几个项目；心态也经历了几轮变化。因为我个人大概前五年时间写的是 Java ，中途写过一年多的 Python，所以刚接触到 Go 时的感觉如下图：既没有 Java 的生态，也没有...",
-    "url": "https://segmentfault.com/a/1190000040896809",
-    "author": "crossoverJie",
-    "home_url": "https://segmentfault.com/u/crossoverjie",
-    "votes": "19",
-    "rank": 20
-  },
-  {
     "title": "这些 JavaScript函数让你的工作更加 So Easy!",
     "description": "作者： YoussefZidan译者：前端小智来源：dev有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
     "url": "https://segmentfault.com/a/1190000040902611",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "25",
-    "rank": 21
+    "rank": 20
   },
   {
     "title": "关于 v-model 你需要知道的这一切！",
@@ -195,7 +186,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "20",
-    "rank": 22
+    "rank": 21
   },
   {
     "title": "20个 Javascript 技巧，提高我们的摸鱼时间！",
@@ -204,7 +195,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "21",
-    "rank": 23
+    "rank": 22
   },
   {
     "title": "PC端高倍屏适配方案实践",
@@ -213,7 +204,7 @@
     "author": "野林",
     "home_url": "https://segmentfault.com/u/vleedesigntheory",
     "votes": "17",
-    "rank": 24
+    "rank": 23
   },
   {
     "title": "念念不忘，必有echo )))) ——讲述一个Typecho开源博客程序坚持 15 年的故事",
@@ -222,7 +213,7 @@
     "author": "sluke",
     "home_url": "https://segmentfault.com/u/sluke",
     "votes": "12",
-    "rank": 25
+    "rank": 24
   },
   {
     "title": "纯 Git 实现前端 CI/CD",
@@ -231,7 +222,7 @@
     "author": "杨成功",
     "home_url": "https://segmentfault.com/u/ruidoc",
     "votes": "17",
-    "rank": 26
+    "rank": 25
   },
   {
     "title": "Vue 团队公开快如闪电的全新脚手架工具 create-vue，未来将替代 Vue-CLI，才300余行代码，学它！",
@@ -240,7 +231,7 @@
     "author": "若川",
     "home_url": "https://segmentfault.com/u/lxchuan12",
     "votes": "16",
-    "rank": 27
+    "rank": 26
   },
   {
     "title": "【一文秒懂】电商系统商品模块初建分析与设计",
@@ -249,7 +240,7 @@
     "author": "CrazyCodes",
     "home_url": "https://segmentfault.com/u/crazycodes",
     "votes": "14",
-    "rank": 28
+    "rank": 27
   },
   {
     "title": "CSS几个有趣的属性分享",
@@ -258,6 +249,15 @@
     "author": "JenK",
     "home_url": "https://segmentfault.com/u/wangzc996",
     "votes": "11",
+    "rank": 28
+  },
+  {
+    "title": "一篇搞懂容器技术的基石： cgroup",
+    "description": "大家好，我是张晋涛。目前我们所提到的容器技术、虚拟化技术（不论何种抽象层次下的虚拟化技术）都能做到资源层面上的隔离和限制。对于容器技术而言，它实现资源层面上的限制和隔离，依赖于 Linux 内核所提供的 c...",
+    "url": "https://segmentfault.com/a/1190000040980305",
+    "author": "张晋涛",
+    "home_url": "https://segmentfault.com/u/moelove",
+    "votes": "10",
     "rank": 29
   },
   {
@@ -266,7 +266,7 @@
     "url": "https://segmentfault.com/a/1190000040978572",
     "author": "kevinwan",
     "home_url": "https://segmentfault.com/u/kevinwan",
-    "votes": "10",
+    "votes": "11",
     "rank": 30
   }
 ]
