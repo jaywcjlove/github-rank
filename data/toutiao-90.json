@@ -2,7 +2,7 @@
   {
     "title": "16 张图解锁 Spring 的整体脉络",
     "description": "今天来梳理下 Spring 的整体脉络啦，为后面的文章做个铺垫~后面几篇文章应该会讲讲这些内容啦 😆Spring  AOP 插件 🐖  （🕊了好久都忘了 😅）分享下 4ye 在项目...",
-    "votes": "235",
+    "votes": "236",
     "url": "/k/bynegiy",
     "avatar": "https://img.toutiao.io/subject/d1ac11780cff42f090ee90c231dfdcad/thumb",
     "avatarAlt": "Java4ye - 独家号",
@@ -32,7 +32,7 @@
   {
     "title": "高并发场景下 JVM 调优实践之路",
     "description": "作者：vivo互联网技术团队Li Guanyun、 Jessica Chen一、背景2021年2月，收到反馈，视频APP某核心接口高峰期响应慢，影响用户体验。通过监控发现，接口响应...",
-    "votes": "172",
+    "votes": "173",
     "url": "/k/3nkgnj9",
     "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
     "avatarAlt": "vivo互联网技术 - 独家号",
@@ -82,7 +82,7 @@
   {
     "title": "万字入门推荐系统",
     "description": "最近一周我、强子、Y哥三人，根据自身如何入门推荐系统，再结合三人分别在腾讯做广告推荐、字节做视频推荐、百度做信息流推荐的经历，整理出了这份万字入门推荐系统。内容十分详细，涵盖了推荐...",
-    "votes": "154",
+    "votes": "155",
     "url": "/k/84f5zio",
     "avatar": "https://img.toutiao.io/subject/87ea1c5a22884d4fbb90b37561c02a34/thumb",
     "avatarAlt": "元宇宙 - 独家号",
@@ -142,22 +142,12 @@
   {
     "title": "认识 MySQL 和 Redis 的数据一致性问题",
     "description": "作者：sinxu，腾讯 CSIG 后台开发工程师1. 什么是数据的一致性“数据一致”一般指的是：缓存中有数据，缓存的数据值 = 数据库中的值。但根据缓存中是有数据为依据，则”一致“...",
-    "votes": "141",
+    "votes": "142",
     "url": "/k/w79d4wj",
     "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
     "avatarAlt": "趣编程的独家号 - 独家号",
     "subjectName": "趣编程的独家号",
     "homeUrl": "/subjects/465623"
-  },
-  {
-    "title": "让 JWT 来保护你的接口服务",
-    "description": "点击上方 Java旅途，选择 设为星标 优质文章，每日送达大家好，我是大尧。以前写过一篇关于接口服务规范的文章，原文在此，里面关于安全性问题重点讲述了通过appid，appkey，...",
-    "votes": "129",
-    "url": "/k/70kuvcy",
-    "avatar": "https://img.toutiao.io/subject/f4c7daceb79a4dd58b3f5c9ce93a7ae2/thumb",
-    "avatarAlt": "Java旅途 - 独家号",
-    "subjectName": "Java旅途",
-    "homeUrl": "/subjects/444692"
   },
   {
     "title": "万字长文说透分布式锁",
@@ -178,6 +168,16 @@
     "avatarAlt": "搬运工来架构 - 独家号",
     "subjectName": "搬运工来架构",
     "homeUrl": "/subjects/176399"
+  },
+  {
+    "title": "聊聊接口性能优化的 11 个小技巧",
+    "description": "大家好，我是苏三，又跟大家见面了。前言 接口性能优化对于从事后端开发的同学来说，肯定再熟悉不过了，因为它是一个跟开发语言无关的公共问题。该问题说简单也简单，说复杂也复杂。有时候，只...",
+    "votes": "133",
+    "url": "/k/4i9d6w2",
+    "avatar": "https://img.toutiao.io/subject/96c1af0d2a0b441ca9740ee13c3e37f3/thumb",
+    "avatarAlt": "苏三说技术 - 独家号",
+    "subjectName": "苏三说技术",
+    "homeUrl": "/subjects/453205"
   },
   {
     "title": "你分库分表的姿势对么？：详谈水平分库分表",
@@ -220,16 +220,6 @@
     "homeUrl": "/subjects/443906"
   },
   {
-    "title": "聊聊接口性能优化的 11 个小技巧",
-    "description": "大家好，我是苏三，又跟大家见面了。前言 接口性能优化对于从事后端开发的同学来说，肯定再熟悉不过了，因为它是一个跟开发语言无关的公共问题。该问题说简单也简单，说复杂也复杂。有时候，只...",
-    "votes": "126",
-    "url": "/k/4i9d6w2",
-    "avatar": "https://img.toutiao.io/subject/96c1af0d2a0b441ca9740ee13c3e37f3/thumb",
-    "avatarAlt": "苏三说技术 - 独家号",
-    "subjectName": "苏三说技术",
-    "homeUrl": "/subjects/453205"
-  },
-  {
     "title": "面试官问：你参与的项目有什么亮点？怎么回答",
     "description": "大家好，我是Tom哥~面试官拿到我们的简历，一般会关注两块内容，一块是专业技能，另一块是项目经历。简单的个人介绍后，一般会先问些偏基础的技术问题，热热身。当然也有很多面试官上来就顺...",
     "votes": "122",
@@ -248,5 +238,15 @@
     "avatarAlt": "编程往事 - 独家号",
     "subjectName": "编程往事",
     "homeUrl": "/subjects/99877"
+  },
+  {
+    "title": "谷歌工程师是怎么写工程设计文档的？",
+    "description": "一份好的设计文档需要提供清晰的问题描述、整体的概要设计、涵盖各个细节的详细设计等。这篇有趣的小短文通过一个简单的小例子介绍了谷歌工程师是怎么写设计文档的。原文：How do I w...",
+    "votes": "116",
+    "url": "/k/kd72la1",
+    "avatar": "https://img.toutiao.io/user/af19eb53bb164e47a25e3b1ef00f965e/thumb",
+    "avatarAlt": "DeepNoMind - 独家号",
+    "subjectName": "DeepNoMind",
+    "homeUrl": "/subjects/460290"
   }
 ]

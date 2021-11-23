@@ -1,18 +1,8 @@
 [
   {
-    "title": "搞懂异地多活，看这篇就够了",
-    "description": "阅读本文大约需要 20 分钟。你好，我是 Kaito。在软件开发领域，「异地多活」是分布式系统架构设计的一座高峰，很多人经常听过它，但很少人理解其中的原理。异地多活到底是什么？为什...",
-    "votes": "204",
-    "url": "/k/epd1pcc",
-    "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
-    "avatarAlt": "乱点技能树 - 独家号",
-    "subjectName": "乱点技能树",
-    "homeUrl": "/subjects/194141"
-  },
-  {
     "title": "高并发场景下 JVM 调优实践之路",
     "description": "作者：vivo互联网技术团队Li Guanyun、 Jessica Chen一、背景2021年2月，收到反馈，视频APP某核心接口高峰期响应慢，影响用户体验。通过监控发现，接口响应...",
-    "votes": "172",
+    "votes": "173",
     "url": "/k/3nkgnj9",
     "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
     "avatarAlt": "vivo互联网技术 - 独家号",
@@ -22,7 +12,7 @@
   {
     "title": "万字入门推荐系统",
     "description": "最近一周我、强子、Y哥三人，根据自身如何入门推荐系统，再结合三人分别在腾讯做广告推荐、字节做视频推荐、百度做信息流推荐的经历，整理出了这份万字入门推荐系统。内容十分详细，涵盖了推荐...",
-    "votes": "154",
+    "votes": "155",
     "url": "/k/84f5zio",
     "avatar": "https://img.toutiao.io/subject/87ea1c5a22884d4fbb90b37561c02a34/thumb",
     "avatarAlt": "元宇宙 - 独家号",
@@ -32,7 +22,7 @@
   {
     "title": "认识 MySQL 和 Redis 的数据一致性问题",
     "description": "作者：sinxu，腾讯 CSIG 后台开发工程师1. 什么是数据的一致性“数据一致”一般指的是：缓存中有数据，缓存的数据值 = 数据库中的值。但根据缓存中是有数据为依据，则”一致“...",
-    "votes": "141",
+    "votes": "142",
     "url": "/k/w79d4wj",
     "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
     "avatarAlt": "趣编程的独家号 - 独家号",
@@ -50,6 +40,16 @@
     "homeUrl": "/subjects/176399"
   },
   {
+    "title": "聊聊接口性能优化的 11 个小技巧",
+    "description": "大家好，我是苏三，又跟大家见面了。前言 接口性能优化对于从事后端开发的同学来说，肯定再熟悉不过了，因为它是一个跟开发语言无关的公共问题。该问题说简单也简单，说复杂也复杂。有时候，只...",
+    "votes": "133",
+    "url": "/k/4i9d6w2",
+    "avatar": "https://img.toutiao.io/subject/96c1af0d2a0b441ca9740ee13c3e37f3/thumb",
+    "avatarAlt": "苏三说技术 - 独家号",
+    "subjectName": "苏三说技术",
+    "homeUrl": "/subjects/453205"
+  },
+  {
     "title": "你分库分表的姿势对么？：详谈水平分库分表",
     "description": "作者：vivo平台产品开发团队-Han Lei一、背景提起分库分表，对于大部分服务器开发来说，其实并不是一个新鲜的名词。随着业务的发展，我们表中的数据量会变的越来越大，字段也可能随...",
     "votes": "122",
@@ -58,16 +58,6 @@
     "avatarAlt": "vivo互联网技术 - 独家号",
     "subjectName": "vivo互联网技术",
     "homeUrl": "/subjects/392760"
-  },
-  {
-    "title": "聊聊接口性能优化的 11 个小技巧",
-    "description": "大家好，我是苏三，又跟大家见面了。前言 接口性能优化对于从事后端开发的同学来说，肯定再熟悉不过了，因为它是一个跟开发语言无关的公共问题。该问题说简单也简单，说复杂也复杂。有时候，只...",
-    "votes": "126",
-    "url": "/k/4i9d6w2",
-    "avatar": "https://img.toutiao.io/subject/96c1af0d2a0b441ca9740ee13c3e37f3/thumb",
-    "avatarAlt": "苏三说技术 - 独家号",
-    "subjectName": "苏三说技术",
-    "homeUrl": "/subjects/453205"
   },
   {
     "title": "面试官问：你参与的项目有什么亮点？怎么回答",
@@ -92,7 +82,7 @@
   {
     "title": "面渣逆袭：线程池夺命连环十八问",
     "description": "大家好，我是老三，很高兴又和大家见面。线程池是面试必问的知识点，这节我们来对线面试官，搞透线程池。1. 什么是线程池？ 线程池： 简单理解，它就是一个管理线程的池子。它帮我们管理线...",
-    "votes": "101",
+    "votes": "104",
     "url": "/k/g3u1qkm",
     "avatar": "https://img.toutiao.io/subject/d42ad8a9192a430b9df44df9a6d383df/thumb",
     "avatarAlt": "三分恶 - 独家号",
@@ -102,12 +92,32 @@
   {
     "title": "开源微服务 API 网关，单核 2 万 QPS，今年最值得学习的开源项目",
     "description": " 文章较长，从概念与场景，到原理与架构，到性能分析，最后是demo，希望大家有收获。 第一部分：解决什么问题。什么是微服务API网关？API网关是上承前端用户，下接后端服务的咽喉之...",
-    "votes": "98",
+    "votes": "103",
     "url": "/k/vo7i0r2",
     "avatar": "https://img.toutiao.io/subject/dd437c8fe19542088ec51e69a79c158c/thumb",
     "avatarAlt": "最佳实践 - 独家号",
     "subjectName": "最佳实践",
     "homeUrl": "/subjects/72425"
+  },
+  {
+    "title": "2021 年最佳开源软件榜单｜InfoWorld",
+    "description": "公众号关注 “GitHubDaily” 设为 “星标”，每天带你逛 GitHub！来自OSC社区 大家好，我是小 G。 作为一家信息技术媒体公司，InfoWorld 成立于 197...",
+    "votes": "102",
+    "url": "/k/swk6nu6",
+    "avatar": "https://img.toutiao.io/subject/5bf8e51c52da495688286970653db432/thumb",
+    "avatarAlt": "不停大步走 - 独家号",
+    "subjectName": "不停大步走",
+    "homeUrl": "/subjects/9186"
+  },
+  {
+    "title": "最全的 Git 常用命令速查（2021 版）",
+    "description": " 现在做项目 Git 代码管理是一定少不了的。多年以前可能是 SVN，我想如今的公司里面基本都转型到用 Git 了吧。虽然如今已有很多可视化的 Git 工具，但是很多时候我们还是需...",
+    "votes": "92",
+    "url": "/k/omfqktk",
+    "avatar": "https://img.toutiao.io/subject/91240c26cd094eff817077d3af73998f/thumb",
+    "avatarAlt": "微信搜「golang全栈」 - 独家号",
+    "subjectName": "微信搜「golang全栈」",
+    "homeUrl": "/subjects/462055"
   },
   {
     "title": "架构师之路：HTTPS 底层原理",
@@ -130,6 +140,16 @@
     "homeUrl": "/subjects/403307"
   },
   {
+    "title": "幂等设计详解",
+    "description": "导读 本文主要从研发人员的角度，结合研发人员日常常见的各类业务场景，从经典系统框架的每一层入手分析幂等处理的时机。希望通过这篇文章的分析，让开发者在日常开发中对幂等的处理不再陌生。...",
+    "votes": "93",
+    "url": "/k/qv6mpuj",
+    "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
+    "avatarAlt": "趣编程的独家号 - 独家号",
+    "subjectName": "趣编程的独家号",
+    "homeUrl": "/subjects/465623"
+  },
+  {
     "title": "七步制作精简镜像，So easy",
     "description": "文章来自黄庆兵老师的网易蜂巢《玩转 Docker 镜像》系列https://github.com/bingohuang/play-docker-images，原本分为上下两篇，这里...",
     "votes": "96",
@@ -138,16 +158,6 @@
     "avatarAlt": "服务架构及中台 - 独家号",
     "subjectName": "服务架构及中台",
     "homeUrl": "/subjects/26578"
-  },
-  {
-    "title": "幂等设计详解",
-    "description": "导读 本文主要从研发人员的角度，结合研发人员日常常见的各类业务场景，从经典系统框架的每一层入手分析幂等处理的时机。希望通过这篇文章的分析，让开发者在日常开发中对幂等的处理不再陌生。...",
-    "votes": "92",
-    "url": "/k/qv6mpuj",
-    "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
-    "avatarAlt": "趣编程的独家号 - 独家号",
-    "subjectName": "趣编程的独家号",
-    "homeUrl": "/subjects/465623"
   },
   {
     "title": "高并发系统建设经验总结",
@@ -160,34 +170,34 @@
     "homeUrl": "/subjects/4829"
   },
   {
-    "title": "最全的 Git 常用命令速查（2021 版）",
-    "description": " 现在做项目 Git 代码管理是一定少不了的。多年以前可能是 SVN，我想如今的公司里面基本都转型到用 Git 了吧。虽然如今已有很多可视化的 Git 工具，但是很多时候我们还是需...",
-    "votes": "87",
-    "url": "/k/omfqktk",
-    "avatar": "https://img.toutiao.io/subject/91240c26cd094eff817077d3af73998f/thumb",
-    "avatarAlt": "微信搜「golang全栈」 - 独家号",
-    "subjectName": "微信搜「golang全栈」",
-    "homeUrl": "/subjects/462055"
-  },
-  {
-    "title": "2021 年最佳开源软件榜单｜InfoWorld",
-    "description": "公众号关注 “GitHubDaily” 设为 “星标”，每天带你逛 GitHub！来自OSC社区 大家好，我是小 G。 作为一家信息技术媒体公司，InfoWorld 成立于 197...",
-    "votes": "94",
-    "url": "/k/swk6nu6",
-    "avatar": "https://img.toutiao.io/subject/5bf8e51c52da495688286970653db432/thumb",
-    "avatarAlt": "不停大步走 - 独家号",
-    "subjectName": "不停大步走",
-    "homeUrl": "/subjects/9186"
+    "title": "聊聊 SQL 优化的 15 个小技巧",
+    "description": "大家好，我是苏三，又跟大家见面了。前言 sql优化是一个大家都比较关注的热门话题，无论你在面试，还是工作中，都很有可能会遇到。如果某天你负责的某个线上接口，出现了性能问题，需要做优...",
+    "votes": "95",
+    "url": "/k/48e8g89",
+    "avatar": "https://img.toutiao.io/subject/96c1af0d2a0b441ca9740ee13c3e37f3/thumb",
+    "avatarAlt": "苏三说技术 - 独家号",
+    "subjectName": "苏三说技术",
+    "homeUrl": "/subjects/453205"
   },
   {
     "title": "字节一面：Redis 主节点的 Key 已过期，但从节点依然读到过期数据",
     "description": "大家好，我是Tom哥~我们知道，大部分的业务场景都是读多写少，为了利用好这个特性，提升Redis集群系统的吞吐能力，通常会采用主从架构、读写分离如上图所示：其中Master节点：负...",
-    "votes": "97",
+    "votes": "98",
     "url": "/k/ptbzpm7",
     "avatar": "https://img.toutiao.io/subject/e62c1664abed48848efc89141ae64112/thumb",
     "avatarAlt": "微观技术 - 独家号",
     "subjectName": "微观技术",
     "homeUrl": "/subjects/348507"
+  },
+  {
+    "title": "亿级流量系统架构演进之路",
+    "description": "海量用户同时进行高频访问对任何平台都是难题，也是行业乐此不疲的研究方向。但值得庆幸的是，虽然业务场景不同，设计和优化的思想却是万变不离宗。本文将结合业务与高并发系统设计的核心技术点...",
+    "votes": "89",
+    "url": "/k/nmwgk0i",
+    "avatar": "https://img.toutiao.io/subject/4f9b8a1b9ad34bf3b815671f8461ff25/thumb",
+    "avatarAlt": "又拍云 - 独家号",
+    "subjectName": "又拍云",
+    "homeUrl": "/subjects/182218"
   },
   {
     "title": "从 RPC 到服务化框架设计",
@@ -210,26 +220,6 @@
     "homeUrl": "/subjects/350352"
   },
   {
-    "title": "聊聊 SQL 优化的 15 个小技巧",
-    "description": "大家好，我是苏三，又跟大家见面了。前言 sql优化是一个大家都比较关注的热门话题，无论你在面试，还是工作中，都很有可能会遇到。如果某天你负责的某个线上接口，出现了性能问题，需要做优...",
-    "votes": "92",
-    "url": "/k/48e8g89",
-    "avatar": "https://img.toutiao.io/subject/96c1af0d2a0b441ca9740ee13c3e37f3/thumb",
-    "avatarAlt": "苏三说技术 - 独家号",
-    "subjectName": "苏三说技术",
-    "homeUrl": "/subjects/453205"
-  },
-  {
-    "title": "亿级流量系统架构演进之路",
-    "description": "海量用户同时进行高频访问对任何平台都是难题，也是行业乐此不疲的研究方向。但值得庆幸的是，虽然业务场景不同，设计和优化的思想却是万变不离宗。本文将结合业务与高并发系统设计的核心技术点...",
-    "votes": "87",
-    "url": "/k/nmwgk0i",
-    "avatar": "https://img.toutiao.io/subject/4f9b8a1b9ad34bf3b815671f8461ff25/thumb",
-    "avatarAlt": "又拍云 - 独家号",
-    "subjectName": "又拍云",
-    "homeUrl": "/subjects/182218"
-  },
-  {
     "title": "如何写好年度总结 PPT？",
     "description": "到年底了，大家估计都要写年度总结了，但这个PPT不是那么好写，即使只写一两页，也并不是那么容易。PPT作为呈现业绩的主要方式，是职场人士需要掌握的一个技能，特别是对于管理人士，那就...",
     "votes": "80",
@@ -248,5 +238,15 @@
     "avatarAlt": "前端全栈开发者 - 独家号",
     "subjectName": "前端全栈开发者",
     "homeUrl": "/subjects/125297"
+  },
+  {
+    "title": "MySQL 默认隔离级别是 RR，为什么阿里这种大厂会改成 RC？",
+    "description": "GitHub 19k Star 的Java工程师成神之路，不来了解一下吗！我之前写过一篇文章《为什么MySQL选择REPEATABLE READ作为默认隔离级别？》介绍过MySQL...",
+    "votes": "66",
+    "url": "/k/txy7uyv",
+    "avatar": "https://img.toutiao.io/subject/59bde614a927485b94f20978dc26216e/thumb",
+    "avatarAlt": "JAVA干货 - 独家号",
+    "subjectName": "JAVA干货",
+    "homeUrl": "/subjects/51515"
   }
 ]
