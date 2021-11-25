@@ -5,17 +5,8 @@
     "url": "https://segmentfault.com/a/1190000040996523",
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "20",
+    "votes": "27",
     "rank": 1
-  },
-  {
-    "title": "一文讲透自适应熔断的原理和实现",
-    "description": "微服务集群中，每个应用基本都会依赖一定数量的外部服务。有可能随时都会遇到网络连接缓慢，超时，依赖服务过载，服务不可用的情况,在高并发场景下如果此时调用方不做任何处理，继续持续请求故障服务的话很容易引...",
-    "url": "https://segmentfault.com/a/1190000040978572",
-    "author": "kevinwan",
-    "home_url": "https://segmentfault.com/u/kevinwan",
-    "votes": "17",
-    "rank": 2
   },
   {
     "title": "一篇搞懂容器技术的基石： cgroup",
@@ -23,17 +14,17 @@
     "url": "https://segmentfault.com/a/1190000040980305",
     "author": "张晋涛",
     "home_url": "https://segmentfault.com/u/moelove",
-    "votes": "10",
-    "rank": 3
+    "votes": "11",
+    "rank": 2
   },
   {
-    "title": "使用这11个代码，可以大大地简化我们的代码。",
+    "title": "14 张有趣深动图解 FlexBox，好家伙，还不快进收藏夹吃灰！",
     "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000040759530",
+    "url": "https://segmentfault.com/a/1190000041000841",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "16",
-    "rank": 4
+    "votes": "13",
+    "rank": 3
   },
   {
     "title": "安排几款实用的内网穿透工具+教程",
@@ -42,6 +33,15 @@
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "10",
+    "rank": 4
+  },
+  {
+    "title": "「万字总结」熬夜总结50个JS的高级知识点，全都会你就是神！！！",
+    "description": "大家好，我是林三心，基础是进阶的前提，上一篇，我给大家分享了我这一年来平时记录的工作中碰到的50个JS基础知识点，今天就给大家分享一下，我这一年来，工作中遇到的50个JS高级知识点吧！！！",
+    "url": "https://segmentfault.com/a/1190000040996585",
+    "author": "Sunshine_Lin",
+    "home_url": "https://segmentfault.com/u/user_ze46ouik",
+    "votes": "14",
     "rank": 5
   },
   {
@@ -54,22 +54,31 @@
     "rank": 6
   },
   {
+    "title": "以 Vuex 为引，一窥状态管理全貌",
+    "description": "Vuex 的用法和 API 不难，官网介绍也简洁明了。得益于此，将 Vuex 快速集成到项目里非常容易。然而正因为用法灵活，很多同学在 Vuex 的设计和使用上反而有些混乱。",
+    "url": "https://segmentfault.com/a/1190000041005444",
+    "author": "杨成功",
+    "home_url": "https://segmentfault.com/u/ruidoc",
+    "votes": "11",
+    "rank": 7
+  },
+  {
+    "title": "git进阶（撤销pull、撤销merge、撤销add）",
+    "description": "1、撤销本次pullgit reflogreset到某个版本git reset --hard 91ae6ad2、撤销本次merge如果merge了其他分支代码造成了大量的冲突 想撤销本次merge如果操作1、使用上面的reset命令撤销到上一个提交版本2、执行以下...",
+    "url": "https://segmentfault.com/a/1190000041004054",
+    "author": "浅夏晴空",
+    "home_url": "https://segmentfault.com/u/qianxiaqingkong",
+    "votes": "8",
+    "rank": 8
+  },
+  {
     "title": "有了这25个正则表达式，代码效率提高80%",
     "description": "大家好，我是林三心，在日常开发中，正则表达式是非常有用的，正则表达式在每个语言中都是可以使用的，他就跟JSON一样，是通用的。在日常开发中，了解一些常用的正则表达式，能大大提高你的工作效率，例如",
     "url": "https://segmentfault.com/a/1190000040984840",
     "author": "Sunshine_Lin",
     "home_url": "https://segmentfault.com/u/user_ze46ouik",
     "votes": "10",
-    "rank": 7
-  },
-  {
-    "title": "前进吧，开发者: Google 官方学习资源首发集结",
-    "description": "Google 开发者在线课程是由 Google 产品团队打造的免费中文在线课程，包含 80+ 文章、110+ 视频深度解析、170+ 引导式编程练习 (Codelab)，覆盖 10+ 项 Google 产品或服务。开发者可以借助循序渐进的课程，按自己...",
-    "url": "https://segmentfault.com/a/1190000040973077",
-    "author": "Android开发者",
-    "home_url": "https://segmentfault.com/u/androiddevs",
-    "votes": "3",
-    "rank": 8
+    "rank": 9
   },
   {
     "title": "手语服务让信息世界没有障碍",
@@ -78,7 +87,16 @@
     "author": "华为移动服务",
     "home_url": "https://segmentfault.com/u/hms_core",
     "votes": "3",
-    "rank": 9
+    "rank": 10
+  },
+  {
+    "title": "ES6新增API：Number篇",
+    "description": "Number.EPSILONNumber.EPSILON（2-52）代表任意两个数值之间的最小差值，换句话说，如果a与b的差值的绝对值小于Number.EPSILON，那么我们就可以认为这两个值是相等的。即：$$ |a-b|<Number.EPSILON \\ \\ \\} \\Lo...",
+    "url": "https://segmentfault.com/a/1190000040982015",
+    "author": "forceddd",
+    "home_url": "https://segmentfault.com/u/forceddd",
+    "votes": "3",
+    "rank": 11
   },
   {
     "title": "数字化时代，纯前端表格控件或将成为协同办公的解决方案",
@@ -87,25 +105,25 @@
     "author": "snakesss",
     "home_url": "https://segmentfault.com/u/snakesss",
     "votes": "2",
-    "rank": 10
-  },
-  {
-    "title": "Develop as One | 2021 Google 开发者大会主旨演讲精彩回顾",
-    "description": "2021 年世界比起过往更需要彼此联结谷歌始终与大家携手共进共创机遇，共谋发展一分钟回顾 2021 Google 开发者大会主旨演讲精彩亮点!涵盖 18 条产品线，超 70 场技术专题演讲从这里出发，继续探索更多精彩前往官网...",
-    "url": "https://segmentfault.com/a/1190000040972907",
-    "author": "思否编辑部",
-    "home_url": "https://segmentfault.com/u/writers",
-    "votes": "2",
-    "rank": 11
-  },
-  {
-    "title": "ES6新增API：Number篇",
-    "description": "Number.EPSILONNumber.EPSILON（2-52）代表任意两个数值之间的最小差值，换句话说，如果a与b的差值的绝对值小于Number.EPSILON，那么我们就可以认为这两个值是相等的。即：$$ |a-b|<Number.EPSILON \\ \\ \\} \\Lo...",
-    "url": "https://segmentfault.com/a/1190000040982015",
-    "author": "forceddd",
-    "home_url": "https://segmentfault.com/u/forceddd",
-    "votes": "2",
     "rank": 12
+  },
+  {
+    "title": "咱们从头到尾说一次优雅关闭",
+    "description": "优雅关闭（Graceful Shutdown/Graceful Exit），这个词好像并没有什么官方的定义，也没找到权威的来源，不过在Bing里搜索 Graceful Exit，出现的第二条却是个专门为女性处理离婚的网站……好家伙，女性离婚一站式解...",
+    "url": "https://segmentfault.com/a/1190000040993980",
+    "author": "空无",
+    "home_url": "https://segmentfault.com/u/kongwu",
+    "votes": "5",
+    "rank": 13
+  },
+  {
+    "title": "自动化生成骨架屏的技术方案设计与落地",
+    "description": "性能优化，减少页面加载等待时间一直是前端领域永恒的话题。如今大部分业务合作模式都是前后端分离方案，便利性的同时也带来了非常多的弊端，比如 FCP 时间显著增加（多了更多的 HTTP 请求往返的时间消耗），这也...",
+    "url": "https://segmentfault.com/a/1190000040985203",
+    "author": "isNealyang",
+    "home_url": "https://segmentfault.com/u/nealyang231",
+    "votes": "7",
+    "rank": 14
   },
   {
     "title": "正则表达式实例搜集，通过实例来学习正则表达式。",
@@ -114,25 +132,52 @@
     "author": "小弟调调",
     "home_url": "https://segmentfault.com/u/ichu",
     "votes": "6",
-    "rank": 13
+    "rank": 15
   },
   {
-    "title": "14 张有趣深动图解 FlexBox，好家伙，还不快进收藏夹吃灰！",
+    "title": "如何让你的大文件上传变得又稳又快？",
+    "description": "相较于文本内容而言，多媒体在易用性和情感表达上更有优势，当然相对文本，体积也大了很多。比如一条文本消息只有不到 100 字节，但一条视频消息可能超过 100 MB。这就导致多媒体在网络传输、实时触达等方面相对...",
+    "url": "https://segmentfault.com/a/1190000041002019",
+    "author": "云叔_又拍云",
+    "home_url": "https://segmentfault.com/u/yunshu_blog",
+    "votes": "8",
+    "rank": 16
+  },
+  {
+    "title": "前端网关踩坑实践",
+    "description": "在后端微服务中，常见的通常会通过暴露一个统一的网关入口给外界，从而使得整个系统服务有一个统一的入口和出口，收敛服务；然而，在前端这种统一提供网关出入口的服务比较少见，常常是各个应用独立提供出去服务...",
+    "url": "https://segmentfault.com/a/1190000040995188",
+    "author": "野林",
+    "home_url": "https://segmentfault.com/u/vleedesigntheory",
+    "votes": "8",
+    "rank": 17
+  },
+  {
+    "title": "考虑时区了吗？",
+    "description": "前端工程师们，在拿到一个日期/时间数据的时候，你是怎么处理的呢？有没有考虑时区的问题呢？也许你会说：嗯，没怎么关注时区，不过我测过，没问题。我能怎么说呢？可能你还没遇到国外的用户吧！被偷走的一天如果...",
+    "url": "https://segmentfault.com/a/1190000040990370",
+    "author": "边城",
+    "home_url": "https://segmentfault.com/u/jamesfancy",
+    "votes": "6",
+    "rank": 18
+  },
+  {
+    "title": "代码写得好，Reduce 方法少不了，我用这10例子来加深学习！",
     "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000041000841",
+    "url": "https://segmentfault.com/a/1190000040727275",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "11",
-    "rank": 14
+    "votes": "5",
+    "rank": 19
   },
   {
-    "title": "前进吧，开发者：Google 官方学习资源首发集结",
-    "description": "技术与产品的每一次迭代和更新，都伴随着机遇与挑战。你，或是每一位开发者，从学习开发知识，到掌握一门技术，激发创意灵感，直至亲手打造一个更美好的世界。谷歌希望助你一臂之力，提升个人开发技能，高效创新...",
-    "url": "https://segmentfault.com/a/1190000040972891",
-    "author": "思否编辑部",
-    "home_url": "https://segmentfault.com/u/writers",
-    "votes": "1",
-    "rank": 15
+    "title": "后端一次给你10万条数据，如何优雅展示，到底考察我什么?",
+    "description": "大家好，我是林三心，用最通俗的话讲最难的知识点是我的座右铭，基础是进阶的前提是我的初心，今天跟大家来唠唠嗑，如果后端真的返回给前端10万条数据，咱们前端要怎么优雅地展示出来呢？（哈哈假设后端真的能传1...",
+    "url": "https://segmentfault.com/a/1190000041003321",
+    "author": "Sunshine_Lin",
+    "home_url": "https://segmentfault.com/u/user_ze46ouik",
+    "votes": "5",
+    "rank": 20
   },
   {
     "title": "2021 Google 开发者大会 | 更简洁、更高效，创造更流畅的移动端用户体验",
@@ -141,7 +186,7 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "1",
-    "rank": 16
+    "rank": 21
   },
   {
     "title": "2021 Google 开发者大会进行时：汇聚开发者合力，共建全球技术生态",
@@ -150,7 +195,7 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "1",
-    "rank": 17
+    "rank": 22
   },
   {
     "title": "2021 Google 开发者大会丨 助力优质应用构建，多维度提升开发效率",
@@ -159,7 +204,7 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "1",
-    "rank": 18
+    "rank": 23
   },
   {
     "title": "2021 Google 开发者大会丨构建高效机器学习生态",
@@ -168,25 +213,7 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "1",
-    "rank": 19
-  },
-  {
-    "title": "手把手实现一个web代码模板快速生成CLI工具",
-    "description": "在上一篇文章中，我们实现了一个web工程通用脚手架工具，目的是快速搭建项目。在实际开发中，特别是后台管理系统，有很多相似的代码实现。于是乎，我们可以继续实现一个快速生成web代码模板的工具，告别复制/粘贴。",
-    "url": "https://segmentfault.com/a/1190000040978030",
-    "author": "xmanlin",
-    "home_url": "https://segmentfault.com/u/dxpang",
-    "votes": "4",
-    "rank": 20
-  },
-  {
-    "title": "代码写得好，Reduce 方法少不了，我用这10例子来加深学习！",
-    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000040727275",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "4",
-    "rank": 21
+    "rank": 24
   },
   {
     "title": "“公开处刑”| curl 创始人发文“质问”苹果：靠开源年赚数十亿，却把开发者当免费\"工具人\"",
@@ -195,25 +222,16 @@
     "author": "MissD",
     "home_url": "https://segmentfault.com/u/d2ms1shh",
     "votes": "3",
-    "rank": 22
+    "rank": 25
   },
   {
-    "title": "「万字总结」熬夜总结50个JS的高级知识点，全都会你就是神！！！",
-    "description": "大家好，我是林三心，基础是进阶的前提，上一篇，我给大家分享了我这一年来平时记录的工作中碰到的50个JS基础知识点，今天就给大家分享一下，我这一年来，工作中遇到的50个JS高级知识点吧！！！",
-    "url": "https://segmentfault.com/a/1190000040996585",
-    "author": "Sunshine_Lin",
-    "home_url": "https://segmentfault.com/u/user_ze46ouik",
-    "votes": "14",
-    "rank": 23
-  },
-  {
-    "title": "2021 Google 开发者大会丨 共建全球技术生态",
-    "description": "今年 Google 开发者大会上移动应用全球化、Firebase、Google Cloud、Google Maps Platform 带来全球趋势洞见分享与众多技术更新，从各个维度为开发者提供综合支持与服务助力成长共建全球技术生态 —— Develop as O...",
-    "url": "https://segmentfault.com/a/1190000041001355",
-    "author": "思否编辑部",
-    "home_url": "https://segmentfault.com/u/writers",
-    "votes": "1",
-    "rank": 24
+    "title": "深度剖析Saga分布式事务",
+    "description": "saga是分布式事务领域里一个非常重要的事务模式，特别适合解决出行订票这类的长事务，本文将深度剖析saga事务的设计原理，以及在解决订票问题上的最佳实践",
+    "url": "https://segmentfault.com/a/1190000041001954",
+    "author": "叶东富",
+    "home_url": "https://segmentfault.com/u/yedongfu",
+    "votes": "6",
+    "rank": 26
   },
   {
     "title": "为什么要用Redis集群？",
@@ -222,7 +240,25 @@
     "author": "Java3y",
     "home_url": "https://segmentfault.com/u/java_3y",
     "votes": "6",
-    "rank": 25
+    "rank": 27
+  },
+  {
+    "title": "精读《Rust 是 JS 基建的未来》",
+    "description": "Rust Is The Future of JavaScript Infrastructure 这篇文章讲述了 Rust 正在 JS 基建圈流行的事实：Webpack、Babel、Terser、Prettier、ESLint 这些前些年才流行起来的工具都已有了 Rust 替代方案，且性能有着 1...",
+    "url": "https://segmentfault.com/a/1190000040995772",
+    "author": "黄子毅",
+    "home_url": "https://segmentfault.com/u/aoyangyudakong",
+    "votes": "5",
+    "rank": 28
+  },
+  {
+    "title": "2021 Google 开发者大会丨 共建全球技术生态",
+    "description": "今年 Google 开发者大会上移动应用全球化、Firebase、Google Cloud、Google Maps Platform 带来全球趋势洞见分享与众多技术更新，从各个维度为开发者提供综合支持与服务助力成长共建全球技术生态 —— Develop as O...",
+    "url": "https://segmentfault.com/a/1190000041001355",
+    "author": "思否编辑部",
+    "home_url": "https://segmentfault.com/u/writers",
+    "votes": "1",
+    "rank": 29
   },
   {
     "title": "2021 Google 开发者大会丨解锁奇遇，启发灵感创意",
@@ -231,42 +267,6 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "1",
-    "rank": 26
-  },
-  {
-    "title": "Flutter使用ScreenUtil获取屏幕宽高初始化报错",
-    "description": "我们在布局中使用ScreenUtil().screenWidth获取屏幕宽度是，在初始化未装载视图时，第一次获取时拿不到，会出现如上的崩溃。",
-    "url": "https://segmentfault.com/a/1190000040974016",
-    "author": "浅夏晴空",
-    "home_url": "https://segmentfault.com/u/qianxiaqingkong",
-    "votes": "1",
-    "rank": 27
-  },
-  {
-    "title": "考虑时区了吗？",
-    "description": "前端工程师们，在拿到一个日期/时间数据的时候，你是怎么处理的呢？有没有考虑时区的问题呢？也许你会说：嗯，没怎么关注时区，不过我测过，没问题。我能怎么说呢？可能你还没遇到国外的用户吧！被偷走的一天如果...",
-    "url": "https://segmentfault.com/a/1190000040990370",
-    "author": "边城",
-    "home_url": "https://segmentfault.com/u/jamesfancy",
-    "votes": "5",
-    "rank": 28
-  },
-  {
-    "title": "自动化生成骨架屏的技术方案设计与落地",
-    "description": "性能优化，减少页面加载等待时间一直是前端领域永恒的话题。如今大部分业务合作模式都是前后端分离方案，便利性的同时也带来了非常多的弊端，比如 FCP 时间显著增加（多了更多的 HTTP 请求往返的时间消耗），这也...",
-    "url": "https://segmentfault.com/a/1190000040985203",
-    "author": "isNealyang",
-    "home_url": "https://segmentfault.com/u/nealyang231",
-    "votes": "5",
-    "rank": 29
-  },
-  {
-    "title": "TypeScript 之 Object Types",
-    "description": "在 JavaScript 中，最基本的将数据成组和分发的方式就是通过对象。在 TypeScript 中，我们通过对象类型（object types）来描述对象。",
-    "url": "https://segmentfault.com/a/1190000040978943",
-    "author": "冴羽",
-    "home_url": "https://segmentfault.com/u/yayu",
-    "votes": "2",
     "rank": 30
   }
 ]
