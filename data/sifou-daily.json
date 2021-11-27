@@ -1,209 +1,65 @@
 [
   {
-    "title": "JetBrains 官宣：将成立“ PHP 基金会”！PHP 历时 26 年迎来新的转机",
-    "description": "近日，PhpStorm 开发商 JetBrains 在官方博客发文宣布，将与 Automattic、Laravel、Laravel、Acquia 等多家公司共同成立 PHP 基金会。",
-    "url": "https://segmentfault.com/a/1190000041015673",
-    "author": "MissD",
-    "home_url": "https://segmentfault.com/u/d2ms1shh",
-    "votes": "3",
-    "rank": 1
-  },
-  {
-    "title": "网易面试官：请你实现一下JS重载？可不是TS重载哦！",
-    "description": "前言大家好，我是林三心，用最通俗易懂的话讲最难的知识点是我的座右铭，基础是进阶的前提是我的初心。今天给大家讲一道题，是一道网易的面试题一位同学：“如何实现JS重载？”我：“JS有重载吗？不是TS才有吗?”一位...",
-    "url": "https://segmentfault.com/a/1190000041014225",
-    "author": "Sunshine_Lin",
-    "home_url": "https://segmentfault.com/u/user_ze46ouik",
-    "votes": "4",
-    "rank": 2
-  },
-  {
-    "title": "LeetCode-128-最长连续序列",
-    "description": "题目描述：给定一个未排序的整数数组 nums ，找出数字连续的最长序列（不要求序列元素在原数组中连续）的长度。请你设计并实现时间复杂度为 O(n) 的算法解决此问题。示例说明请见LeetCode官网。来源：力扣（LeetC...",
-    "url": "https://segmentfault.com/a/1190000041014482",
+    "title": "LeetCode-129-求根节点到叶节点数字之和",
+    "description": "题目描述：给你一个二叉树的根节点 root ，树中每个节点都存放有一个 0 到 9 之间的数字。每条从根节点到叶节点的路径都代表一个数字：例如，从根节点到叶节点的路径 1 -> 2 -> 3 表示数字 123 。计算从根...",
+    "url": "https://segmentfault.com/a/1190000041020499",
     "author": "雄狮虎豹",
     "home_url": "https://segmentfault.com/u/xiongshihubao",
     "votes": "4",
+    "rank": 1
+  },
+  {
+    "title": "为了生成唯一id，React18专门引入了新Hook：useId",
+    "description": "大家好，我卡颂。看看如下组件有什么问题： {代码...} 如果应用是CSR（客户端渲染），id是稳定的，App组件没有问题。但如果应用是SSR（服务端渲染），那么App.tsx会经历：React在服务端渲染，生成随机id（假设为0...",
+    "url": "https://segmentfault.com/a/1190000041020566",
+    "author": "卡颂",
+    "home_url": "https://segmentfault.com/u/kasong",
+    "votes": "2",
+    "rank": 2
+  },
+  {
+    "title": "你说你会Promise？那你解决一下项目中的这五个难题？",
+    "description": "大家好，我是林三心，用最通俗易懂的话讲最难的知识点是我的座右铭，基础是进阶的前提是我的初心，众所周知哈， Promise 在咱们的开发中是相当的重要，我觉得对于 Promise 的使用等级，可以分为三个等级",
+    "url": "https://segmentfault.com/a/1190000041025373",
+    "author": "Sunshine_Lin",
+    "home_url": "https://segmentfault.com/u/user_ze46ouik",
+    "votes": "1",
     "rank": 3
   },
   {
-    "title": "用CSS来撸一只神经猫",
-    "description": "之前围住神经猫的H5小游戏火爆了朋友圈，其中神经猫贱贱的表情，露着屁股的各种姿势，也给用户带来了不少趣味。现在我们就用CSS来撸出一只小贱猫。从网上下载一张我们要仿照的神经猫图片，如下：",
-    "url": "https://segmentfault.com/a/1190000041016364",
-    "author": "linshuai",
-    "home_url": "https://segmentfault.com/u/linshuai",
-    "votes": "4",
+    "title": "TypeScript 官方手册翻译计划【六】：类型操控-泛型",
+    "description": "说明：目前网上没有 TypeScript 最新官方文档的中文翻译，所以有了这么一个翻译计划。因为我也是 TypeScript 的初学者，所以无法保证翻译百分之百准确，若有错误，欢迎评论区指出；翻译内容：暂定翻译内容为 Type...",
+    "url": "https://segmentfault.com/a/1190000041025313",
+    "author": "Chor",
+    "home_url": "https://segmentfault.com/u/chor",
+    "votes": "1",
     "rank": 4
   },
   {
-    "title": "九州云黄舒泉：开源基因技术为主，携手塑造5G边缘计算新生态",
-    "description": "黄舒泉，云计算领域的专家和实践者，OpenStack 社区早期贡献者、推广者和实践者；多个 OpenStack 项目全球前十贡献者，边缘计算项目 StarlingX 主要发起人之一，StarlingX 技术委员会成员，第一届 TSC 成员中唯一...",
-    "url": "https://segmentfault.com/a/1190000041015997",
-    "author": "MissD",
-    "home_url": "https://segmentfault.com/u/d2ms1shh",
-    "votes": "2",
+    "title": "解决prettier和eslint冲突详细配置",
+    "description": "这是我的vscode设置，主要是设置vetｕr里对vue文件各部分的校验工具。解决问题的话就给我点个赞吧！需要安装prettier-eslint这个插件",
+    "url": "https://segmentfault.com/a/1190000041023812",
+    "author": "悠悠江水流",
+    "home_url": "https://segmentfault.com/u/isgavin",
+    "votes": "1",
     "rank": 5
   },
   {
-    "title": "svg02——svg绘制基本图形，了解常用的属性",
-    "description": "还有一些通用的属性，比如 fill（填充）、stroke（边框）、transform（变换）（ transform就是 css3 中的用法 ）",
-    "url": "https://segmentfault.com/a/1190000041018563",
-    "author": "smile1213",
-    "home_url": "https://segmentfault.com/u/smile1213",
-    "votes": "2",
+    "title": "又一款性能监控利器——火焰图",
+    "description": "工具的进化一直是人类生产力进步的标志，合理使用工具能大大提高我们的工作效率，遇到问题时，合理使用工具更能加快问题排查的进度。这也是我为什么非常喜欢 shell 的原因，它丰富的命令行工具集加管道特性处理起...",
+    "url": "https://segmentfault.com/a/1190000041020301",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "1",
     "rank": 6
   },
   {
-    "title": "如何利用 JuiceFS 的性能工具做文件系统分析和调优",
-    "description": "JuiceFS 是一款面向云原生环境设计的高性能 POSIX 文件系统，在 AGPL v3.0 开源协议下发布。作为一个云上的分布式文件系统，任何存入 JuiceFS 的数据都会按照一定规则拆分成数据块存入对象存储（如 Amazon S3），...",
-    "url": "https://segmentfault.com/a/1190000041016912",
-    "author": "JuiceFS",
-    "home_url": "https://segmentfault.com/u/juicefs",
-    "votes": "2",
+    "title": "面试官问我JVM调优，我忍不住了，哈哈哈哈",
+    "description": "面试官：今天要不来聊聊JVM调优相关的吧？面试官：你曾经在生产环境下有过调优JVM的经历吗？候选者：没有面试官：…候选者：嗯…是这样的，我们一般优化系统的思路是这样的候选者：1. 一般来说关系型数据库是先到瓶...",
+    "url": "https://segmentfault.com/a/1190000041019991",
+    "author": "Java3y",
+    "home_url": "https://segmentfault.com/u/java_3y",
+    "votes": "1",
     "rank": 7
-  },
-  {
-    "title": "svg05——svg的坐标系统和坐标系",
-    "description": "一、什么是svg的坐标系统众所周知，数学上的坐标系统，大部分是指 笛卡尔直角坐标系并且：x轴 向右，y轴 向上，角度为 逆时针在svg中，坐标系统同样也是笛卡尔直角坐标系，x轴 向右但是：y轴向下，角度为 顺时针...",
-    "url": "https://segmentfault.com/a/1190000041018611",
-    "author": "smile1213",
-    "home_url": "https://segmentfault.com/u/smile1213",
-    "votes": "1",
-    "rank": 8
-  },
-  {
-    "title": "svg04——svg中的图形分组＜g＞",
-    "description": "一、在svg中，使用 <g> 标签来创建分组<g> 标签内部的图形，会继承其属性<g> 可以使用 transform 属性进行坐标变换，变换之后可以理解为新的自身坐标系<g> 标签可以嵌套使用二、<g>...",
-    "url": "https://segmentfault.com/a/1190000041018602",
-    "author": "smile1213",
-    "home_url": "https://segmentfault.com/u/smile1213",
-    "votes": "1",
-    "rank": 9
-  },
-  {
-    "title": "svg03——用 js 创建svg",
-    "description": "实际使用svg中，我们经常会用js去操作svg一、核心API：1、创建图形：ns 指命名空间，tagName 是标签名，例如svg、rect {代码...} 2、添加子节点 {代码...} 3、获取、设置属性 {代码...} 二、实例 {代码...} {代码...",
-    "url": "https://segmentfault.com/a/1190000041018595",
-    "author": "smile1213",
-    "home_url": "https://segmentfault.com/u/smile1213",
-    "votes": "1",
-    "rank": 10
-  },
-  {
-    "title": "TypeScript 之 Indexed Access Types",
-    "description": "前言TypeScript 的官方文档早已更新，但我能找到的中文文档都还停留在比较老的版本。所以对其中新增以及修订较多的一些章节进行了翻译整理。本篇整理自 TypeScript Handbook 中 「Indexed Access Types」 章节。...",
-    "url": "https://segmentfault.com/a/1190000041018433",
-    "author": "冴羽",
-    "home_url": "https://segmentfault.com/u/yayu",
-    "votes": "1",
-    "rank": 11
-  },
-  {
-    "title": "【JS 逆向百例】你没见过的社会主义核心价值观加密",
-    "description": "本文章中所有内容仅供学习交流，抓包内容、敏感网址、数据接口均已做脱敏处理，严禁用于商业用途和非法用途，否则由此产生的一切后果均与作者无关，若有侵权，请联系我立即删除！",
-    "url": "https://segmentfault.com/a/1190000041018198",
-    "author": "K哥爬虫",
-    "home_url": "https://segmentfault.com/u/kuaidaili",
-    "votes": "1",
-    "rank": 12
-  },
-  {
-    "title": "前端下载图片",
-    "description": "通常我们下载文件可以使用a标签的download属性，但此属性仅在同源有效，详情MDN文档，如果非同源下载图片时，浏览器会打开新的tab页展示图片，为了兼容上面两种情况，可以使用JS方法实现：",
-    "url": "https://segmentfault.com/a/1190000041017974",
-    "author": "PatWu16",
-    "home_url": "https://segmentfault.com/u/wupeng_5a4de5c290b9d",
-    "votes": "1",
-    "rank": 13
-  },
-  {
-    "title": "Vue Router清空历史记录",
-    "description": "当我们在浏览了多个页面之后，token到期。这时候系统应该强制用户登出，虽然用户登出了但如果不清除之前的浏览历史，点击浏览器的返回按钮，浏览器仍然会回退到之前的页面。",
-    "url": "https://segmentfault.com/a/1190000041017252",
-    "author": "grofis",
-    "home_url": "https://segmentfault.com/u/grofis",
-    "votes": "1",
-    "rank": 14
-  },
-  {
-    "title": "恒源云_训练一个专门捣乱的模型",
-    "description": "三位韩国人在EMNLP 2021 Findings上发表了一篇论文，名为Devil’s Advocate: Novel Boosting Ensemble Method from Psychological Findings for Text Classification，其中Devil’s Advocate有一部同名电影，翻译过...",
-    "url": "https://segmentfault.com/a/1190000041017010",
-    "author": "恒源云",
-    "home_url": "https://segmentfault.com/u/gpushare",
-    "votes": "1",
-    "rank": 15
-  },
-  {
-    "title": "在vue项目中取消axios请求（单个和全局）",
-    "description": "使用vuex的mixin实现，我跟着代码打了一遍，虽然进入了cancelToken的方法，但是并没有取消请求。来活了，等会再尝试一下。参考代码在：[链接]",
-    "url": "https://segmentfault.com/a/1190000041016537",
-    "author": "洋仔",
-    "home_url": "https://segmentfault.com/u/sucre_199782",
-    "votes": "1",
-    "rank": 16
-  },
-  {
-    "title": "你真的知道Spring注解驱动的前世今生吗？这篇文章让你豁然开朗！",
-    "description": "本篇文章，从Spring1.x到Spring 5.x的迭代中，站在现在的角度去思考Spring注解驱动的发展过程，这将有助于我们更好的理解Spring中的注解设计。",
-    "url": "https://segmentfault.com/a/1190000041015477",
-    "author": "跟着Mic学架构",
-    "home_url": "https://segmentfault.com/u/fukua_5be8034f8191f",
-    "votes": "1",
-    "rank": 17
-  },
-  {
-    "title": "前端如何处理后端接口返回的gzip压缩的数据?",
-    "description": "因后端返回的数据量较大，后端使用gzip压缩数据，前端拿到接口返回的压缩数据进行解压。如图所示我们采用pako处理压缩数据安装 {代码...} 使用 {代码...} 示例引入上述pako.js文件 {代码...}",
-    "url": "https://segmentfault.com/a/1190000041014538",
-    "author": "旅图灬",
-    "home_url": "https://segmentfault.com/u/lvtu",
-    "votes": "1",
-    "rank": 18
-  },
-  {
-    "title": "接上篇：Git Worktree 高级使用，这样清爽多了",
-    "description": "上一篇文章 Git Worktree 大法真香 带大家了解了 git worktree 是如何帮助我同时在多个分支工作，并且互不影响的。但是创建 worktree 的目录位置不是在当前项目下，总感觉创建好的这些 worktree 不属于当前项目，...",
-    "url": "https://segmentfault.com/a/1190000041019952",
-    "author": "日拱一兵",
-    "home_url": "https://segmentfault.com/u/tanrigongyibing",
-    "votes": "1",
-    "rank": 19
-  },
-  {
-    "title": "学术资源免费获取方式",
-    "description": "本文中包括的学术资源主要包含学术论文电子书籍教学视频准备工作电脑、、猴油脚本一、学术论文1.国内文献图书馆联盟 [链接]CNKI [链接]万方，维普2.国外文献Google scholar 访问方式（1）[链接]（2）谷歌访问助手...",
-    "url": "https://segmentfault.com/a/1190000041019415",
-    "author": "medai",
-    "home_url": "https://segmentfault.com/u/medai",
-    "votes": "1",
-    "rank": 20
-  },
-  {
-    "title": "js截取",
-    "description": "JS获取URL中最后一个斜杠前面的内容 {代码...} JS获取URL中最后一个斜杠后面的内容 {代码...}",
-    "url": "https://segmentfault.com/a/1190000041016263",
-    "author": "小蘑菇",
-    "home_url": "https://segmentfault.com/u/xiaomogu_5f2124ad3ad42",
-    "votes": "1",
-    "rank": 21
-  },
-  {
-    "title": "Day 4/100 Vue3 如何设置定时器以及清除定时器？",
-    "description": "前言搜了一堆，是支持Vue2 的this.$once，试了有报错，发现Vue3 被移除了，伤心，记录下解决方案。1、data 中声明 {代码...} 2、mounted 钩子中定义方案及处理函数 {代码...} 3、beforeUnmount或unmounted的钩子...",
-    "url": "https://segmentfault.com/a/1190000041015184",
-    "author": "SnowWolfArden",
-    "home_url": "https://segmentfault.com/u/snowwolfarden",
-    "votes": "1",
-    "rank": 22
-  },
-  {
-    "title": "一款劲爆的开源NFT市场，功能多, 还可适用于区块链游戏(GameFi)和元宇宙。",
-    "description": "FingerNFT系统是基于以太坊开发的去中心化NFT市场, FingerNFT借鉴了Rarible智能合约,实现免手续费离线签名，帮助用户在交易NFT的同时，减少手续费消耗。FingerNFT可部署在以太坊、币安、火币、MATIC等流行的公链...",
-    "url": "https://segmentfault.com/a/1190000041014978",
-    "author": "柴君",
-    "home_url": "https://segmentfault.com/u/chaijun",
-    "votes": "1",
-    "rank": 23
   }
 ]
