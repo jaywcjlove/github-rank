@@ -12,7 +12,7 @@
   {
     "title": "57 张图，13 个实验，干死 MySQL 锁",
     "description": "你好，我是yes。前段时间写了一篇关于 MySQL 锁的文章，一些小伙伴们在阅读之后产生了一些疑问，这些问题还挺有代表性的，所以在这里做个实验，来用事实探究一番。那篇文章提到了记录...",
-    "votes": "165",
+    "votes": "166",
     "url": "/k/huoy9s9",
     "avatar": "https://img.toutiao.io/subject/71da457007fd4b67a45253b271a25eee/thumb",
     "avatarAlt": "yes的练级攻略 - 独家号",
@@ -22,7 +22,7 @@
   {
     "title": "聊聊接口性能优化的 11 个小技巧",
     "description": "大家好，我是苏三，又跟大家见面了。前言 接口性能优化对于从事后端开发的同学来说，肯定再熟悉不过了，因为它是一个跟开发语言无关的公共问题。该问题说简单也简单，说复杂也复杂。有时候，只...",
-    "votes": "167",
+    "votes": "168",
     "url": "/k/4i9d6w2",
     "avatar": "https://img.toutiao.io/subject/96c1af0d2a0b441ca9740ee13c3e37f3/thumb",
     "avatarAlt": "苏三说技术 - 独家号",
@@ -72,7 +72,7 @@
   {
     "title": "开源微服务 API 网关，单核 2 万 QPS，今年最值得学习的开源项目",
     "description": " 文章较长，从概念与场景，到原理与架构，到性能分析，最后是demo，希望大家有收获。 第一部分：解决什么问题。什么是微服务API网关？API网关是上承前端用户，下接后端服务的咽喉之...",
-    "votes": "118",
+    "votes": "119",
     "url": "/k/vo7i0r2",
     "avatar": "https://img.toutiao.io/subject/dd437c8fe19542088ec51e69a79c158c/thumb",
     "avatarAlt": "最佳实践 - 独家号",
@@ -122,7 +122,7 @@
   {
     "title": "高并发系统建设经验总结",
     "description": " 作者：listenzhang，腾讯 PCG 后台开发工程师前言 早期从事运单系统的开发和维护工作，从最早的日均百万单，到日均千万单，业务的快速发展再加上外卖业务的特点是，业务量集...",
-    "votes": "92",
+    "votes": "94",
     "url": "/k/zcql3fl",
     "avatar": "https://img.toutiao.io/subject/cc2d501408fd455d9b841cb6c8d95a6c/thumb",
     "avatarAlt": "ASCE1885 - 独家号",
@@ -140,19 +140,9 @@
     "homeUrl": "/subjects/348507"
   },
   {
-    "title": "幂等设计详解",
-    "description": "导读 本文主要从研发人员的角度，结合研发人员日常常见的各类业务场景，从经典系统框架的每一层入手分析幂等处理的时机。希望通过这篇文章的分析，让开发者在日常开发中对幂等的处理不再陌生。...",
-    "votes": "93",
-    "url": "/k/qv6mpuj",
-    "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
-    "avatarAlt": "趣编程的独家号 - 独家号",
-    "subjectName": "趣编程的独家号",
-    "homeUrl": "/subjects/465623"
-  },
-  {
     "title": "聊聊 SQL 优化的 15 个小技巧",
     "description": "大家好，我是苏三，又跟大家见面了。前言 sql优化是一个大家都比较关注的热门话题，无论你在面试，还是工作中，都很有可能会遇到。如果某天你负责的某个线上接口，出现了性能问题，需要做优...",
-    "votes": "98",
+    "votes": "99",
     "url": "/k/48e8g89",
     "avatar": "https://img.toutiao.io/subject/96c1af0d2a0b441ca9740ee13c3e37f3/thumb",
     "avatarAlt": "苏三说技术 - 独家号",
@@ -170,6 +160,16 @@
     "homeUrl": "/subjects/350352"
   },
   {
+    "title": "Golang 编程思维和工程实战",
+    "description": " Golang 的一些编程思维和思想，以及总结一些常见的优雅编程实战技巧。作者：allendbwu，腾讯 PCG 后台开发工程师一 Golang 编程思维 首先，我们先来看下最基本...",
+    "votes": "87",
+    "url": "/k/usjzg6m",
+    "avatar": "https://img.toutiao.io/subject/f05a135abc844e719541593cad4f8c57/thumb",
+    "avatarAlt": "不错的好文 - 独家号",
+    "subjectName": "不错的好文",
+    "homeUrl": "/subjects/5551"
+  },
+  {
     "title": "从 RPC 到服务化框架设计",
     "description": "作者：allendbwu，腾讯 PCG 后台开发工程师目前互联网系统都是微服务化，那么就需要 RPC 调用，因此本文梳理了从 RPC 基本框架协议到整个服务化框架体系建设中所包含的...",
     "votes": "89",
@@ -182,7 +182,7 @@
   {
     "title": "Kubernetes Deployment 的故障排查可视化指南（2021 中文版）",
     "description": "将应用部署到 Kubernetes 时通常会使用 Deployment、Service、Ingress，整个应用从部署到正常运行，经历的流程很长。从 kubectl apply Y...",
-    "votes": "79",
+    "votes": "80",
     "url": "/k/cd9u887",
     "avatar": "https://img.toutiao.io/subject/fe86744cdefe44579562d9f36c4edb39/thumb",
     "avatarAlt": "云原生指北 - 独家号",
@@ -192,8 +192,18 @@
   {
     "title": "如何写好年度总结 PPT？",
     "description": "到年底了，大家估计都要写年度总结了，但这个PPT不是那么好写，即使只写一两页，也并不是那么容易。PPT作为呈现业绩的主要方式，是职场人士需要掌握的一个技能，特别是对于管理人士，那就...",
-    "votes": "80",
+    "votes": "81",
     "url": "/k/7o8m67l",
+    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
+    "avatarAlt": "进击的程序猿 - 独家号",
+    "subjectName": "进击的程序猿",
+    "homeUrl": "/subjects/24912"
+  },
+  {
+    "title": "如何做好一份程序员的工作汇报 ppt？",
+    "description": "这个回答分为4个部分：首先是分析和拆解问题，为什么对于大多数程序来说，做好一份工作汇报ppt是件不容易的事情？第二部分是针对问题的解决方法，主要是工具和逻辑思维两方面的训练第三部分...",
+    "votes": "81",
+    "url": "/k/1byulsh",
     "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
     "avatarAlt": "进击的程序猿 - 独家号",
     "subjectName": "进击的程序猿",
@@ -202,7 +212,7 @@
   {
     "title": "1 万行代码，单机 50 万 QPS，今年最值得学习的开源 RPC 框架",
     "description": "又发现一个不错的，工业级的，高性能RPC框架srpc，分享给大家。（1）RPC简介；（2）行业常见RPC框架；（3）srpc特点；（4）srpc上手指南，demo示例；（5）srp...",
-    "votes": "74",
+    "votes": "77",
     "url": "/k/5fkacdj",
     "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
     "avatarAlt": "乱点技能树 - 独家号",
@@ -210,10 +220,20 @@
     "homeUrl": "/subjects/194141"
   },
   {
-    "title": "如何做好一份程序员的工作汇报 ppt？",
-    "description": "这个回答分为4个部分：首先是分析和拆解问题，为什么对于大多数程序来说，做好一份工作汇报ppt是件不容易的事情？第二部分是针对问题的解决方法，主要是工具和逻辑思维两方面的训练第三部分...",
-    "votes": "76",
-    "url": "/k/1byulsh",
+    "title": "MySQL 默认隔离级别是 RR，为什么阿里这种大厂会改成 RC？",
+    "description": "GitHub 19k Star 的Java工程师成神之路，不来了解一下吗！我之前写过一篇文章《为什么MySQL选择REPEATABLE READ作为默认隔离级别？》介绍过MySQL...",
+    "votes": "68",
+    "url": "/k/txy7uyv",
+    "avatar": "https://img.toutiao.io/subject/59bde614a927485b94f20978dc26216e/thumb",
+    "avatarAlt": "JAVA干货 - 独家号",
+    "subjectName": "JAVA干货",
+    "homeUrl": "/subjects/51515"
+  },
+  {
+    "title": "干货总结！Kafka 面试大全（万字长文，37 张图，28 个知识点）",
+    "description": "关注并标星 3分钟秒懂大数据每天1次，打卡阅读获取流计算、大数据技术和面经大家好，我是土哥。周末用了整整两天时间，整理了一下 Kafka 面试的连环问题，保证你看完后，对 Kafk...",
+    "votes": "69",
+    "url": "/k/ch3u5rs",
     "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
     "avatarAlt": "进击的程序猿 - 独家号",
     "subjectName": "进击的程序猿",
@@ -228,25 +248,5 @@
     "avatarAlt": "前端小分队 - 独家号",
     "subjectName": "前端小分队",
     "homeUrl": "/subjects/437855"
-  },
-  {
-    "title": "MySQL 默认隔离级别是 RR，为什么阿里这种大厂会改成 RC？",
-    "description": "GitHub 19k Star 的Java工程师成神之路，不来了解一下吗！我之前写过一篇文章《为什么MySQL选择REPEATABLE READ作为默认隔离级别？》介绍过MySQL...",
-    "votes": "67",
-    "url": "/k/txy7uyv",
-    "avatar": "https://img.toutiao.io/subject/59bde614a927485b94f20978dc26216e/thumb",
-    "avatarAlt": "JAVA干货 - 独家号",
-    "subjectName": "JAVA干货",
-    "homeUrl": "/subjects/51515"
-  },
-  {
-    "title": "干货总结！Kafka 面试大全（万字长文，37 张图，28 个知识点）",
-    "description": "关注并标星 3分钟秒懂大数据每天1次，打卡阅读获取流计算、大数据技术和面经大家好，我是土哥。周末用了整整两天时间，整理了一下 Kafka 面试的连环问题，保证你看完后，对 Kafk...",
-    "votes": "68",
-    "url": "/k/ch3u5rs",
-    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
-    "avatarAlt": "进击的程序猿 - 独家号",
-    "subjectName": "进击的程序猿",
-    "homeUrl": "/subjects/24912"
   }
 ]
