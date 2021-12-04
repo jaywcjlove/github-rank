@@ -5,7 +5,7 @@
     "url": "https://segmentfault.com/a/1190000041032091",
     "author": "Sunshine_Lin",
     "home_url": "https://segmentfault.com/u/user_ze46ouik",
-    "votes": "18",
+    "votes": "22",
     "rank": 1
   },
   {
@@ -36,22 +36,13 @@
     "rank": 4
   },
   {
-    "title": "你说你会Promise？那你解决一下项目中的这五个难题？",
-    "description": "大家好，我是林三心，用最通俗易懂的话讲最难的知识点是我的座右铭，基础是进阶的前提是我的初心，众所周知哈， Promise 在咱们的开发中是相当的重要，我觉得对于 Promise 的使用等级，可以分为三个等级",
-    "url": "https://segmentfault.com/a/1190000041025373",
-    "author": "Sunshine_Lin",
-    "home_url": "https://segmentfault.com/u/user_ze46ouik",
-    "votes": "13",
-    "rank": 5
-  },
-  {
     "title": "分布式事务的这些常见用法都有坑，来看看正确姿势",
     "description": "随着微服务架构的流行，随之而来就必然遇到跨服务的分布式事务这个难题。分布式事务之所以难，主要是因为分布式系统中的各个节点都可能发生各种非预期的情况。本文先介绍分布式系统中的异常问题，然后介绍这些问...",
     "url": "https://segmentfault.com/a/1190000041031586",
     "author": "叶东富",
     "home_url": "https://segmentfault.com/u/yedongfu",
     "votes": "9",
-    "rank": 6
+    "rank": 5
   },
   {
     "title": "中国首份RPA开发者调研报告：专业开发者职业满意度高达 94%",
@@ -60,6 +51,15 @@
     "author": "snakesss",
     "home_url": "https://segmentfault.com/u/snakesss",
     "votes": "3",
+    "rank": 6
+  },
+  {
+    "title": "使用 CSS 轻松实现高频出现的各类奇形怪状按钮",
+    "description": "背景在群里会有同学问相关的问题，怎么样使用 CSS 实现一个内切角按钮呢、怎么样实现一个带箭头的按钮呢？本文基于一些高频出现在设计稿中的，使用 CSS 实现稍微有点难度和技巧性的按钮，讲解使用 CSS 如何尽可能...",
+    "url": "https://segmentfault.com/a/1190000041044028",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "11",
     "rank": 7
   },
   {
@@ -72,31 +72,22 @@
     "rank": 8
   },
   {
-    "title": "JavaScript Sanitizer API：原生WEB安全API出现啦",
-    "description": "10月18号， W3C中网络平台孵化器小组（Web Platform Incubator Community Group）公布了HTML Sanitizer API的规范草案。这份草案用来解决浏览器如何解决XSS攻击问题。",
-    "url": "https://segmentfault.com/a/1190000041044632",
-    "author": "葡萄城技术团队",
-    "home_url": "https://segmentfault.com/u/grapecity",
-    "votes": "3",
-    "rank": 9
-  },
-  {
     "title": "CSS 自适应内容宽度的输入框",
     "description": "通常我们见到的输入框都是宽度固定的，但有时也会碰到自适应内容宽度的，像这样目前我所知道的有两种方式，相信不难找到给普通 div 标签设置 contenteditable=\"true\"，设置 inline-block 以后，就可以自适应内容...",
     "url": "https://segmentfault.com/a/1190000041032322",
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "6",
-    "rank": 10
+    "votes": "7",
+    "rank": 9
   },
   {
-    "title": "使用 CSS 轻松实现高频出现的各类奇形怪状按钮",
-    "description": "背景在群里会有同学问相关的问题，怎么样使用 CSS 实现一个内切角按钮呢、怎么样实现一个带箭头的按钮呢？本文基于一些高频出现在设计稿中的，使用 CSS 实现稍微有点难度和技巧性的按钮，讲解使用 CSS 如何尽可能...",
-    "url": "https://segmentfault.com/a/1190000041044028",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "10",
-    "rank": 11
+    "title": "JavaScript Sanitizer API：原生WEB安全API出现啦",
+    "description": "10月18号， W3C中网络平台孵化器小组（Web Platform Incubator Community Group）公布了HTML Sanitizer API的规范草案。这份草案用来解决浏览器如何解决XSS攻击问题。",
+    "url": "https://segmentfault.com/a/1190000041044632",
+    "author": "葡萄城技术团队",
+    "home_url": "https://segmentfault.com/u/grapecity",
+    "votes": "4",
+    "rank": 10
   },
   {
     "title": "前端er，什么时候，你想写一个 HTTP 服务器？",
@@ -105,16 +96,16 @@
     "author": "杨成功",
     "home_url": "https://segmentfault.com/u/ruidoc",
     "votes": "6",
-    "rank": 12
+    "rank": 11
   },
   {
-    "title": "B-tree和B+tree 一种为数据查询而生的结构",
-    "description": "B-tree介绍B-tree（平衡多路查找树）是自平衡树的数据结构，维护已排序的数据。关于二叉树和其它自平衡树可查看上篇红黑树。一棵 \\( m \\) 阶的树满足以下性质，每个节点最多有\\( m \\)个子节点。如果根不是叶节点...",
-    "url": "https://segmentfault.com/a/1190000041024487",
-    "author": "编程码农",
-    "home_url": "https://segmentfault.com/u/onlythinking",
-    "votes": "5",
-    "rank": 13
+    "title": "大会没看够？2021 Google 开发者大会总结看这里！",
+    "description": "Develop as One!2021 Google 开发者大会汇聚开发者合力，带来满分体验这场年度科技盛会还没看够？马上为你奉上大会精华总结！立即点击，进入官网探索更多！2021 Google 开发者大会精心为开发者和科技爱好者带来了...",
+    "url": "https://segmentfault.com/a/1190000041054873",
+    "author": "思否编辑部",
+    "home_url": "https://segmentfault.com/u/writers",
+    "votes": "2",
+    "rank": 12
   },
   {
     "title": "搞懂 Kubernetes 准入控制（Admission Controller）",
@@ -123,7 +114,7 @@
     "author": "张晋涛",
     "home_url": "https://segmentfault.com/u/moelove",
     "votes": "4",
-    "rank": 14
+    "rank": 13
   },
   {
     "title": "网络安全（一）：常见的网络威胁及防范",
@@ -132,7 +123,7 @@
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
     "votes": "5",
-    "rank": 15
+    "rank": 14
   },
   {
     "title": "一个 Babelfish ，看懂云数据库的发展方向",
@@ -141,15 +132,24 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "1",
+    "rank": 15
+  },
+  {
+    "title": "进击的 Ansible（二）：如何快速搞定生产环境 Ansible 项目布局？",
+    "description": "Tips：与前文 《进击的 Ansible（一）：Ansible 快速入门》 一样，本文使用的 Ansible 版本 2.5.4，项目演示环境 MacOS。由于 Ansible 项目开发活跃版本更新快，很多 API 接口不向后兼容，所以对照本文实践时请确...",
+    "url": "https://segmentfault.com/a/1190000041053036",
+    "author": "云叔_又拍云",
+    "home_url": "https://segmentfault.com/u/yunshu_blog",
+    "votes": "6",
     "rank": 16
   },
   {
-    "title": "啥？你的 Tap bar  不够花里胡哨，试试这个！",
-    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000040954012",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "4",
+    "title": "夯实隐私与安全，打造安全可靠的支付级活体验检测能力",
+    "description": "内容来源：华为开发者大会2021 HMS Core 6 AI技术论坛，主题演讲《夯实隐私与安全——机器学习服务打造安全可靠的支付级活体验检测能力》。",
+    "url": "https://segmentfault.com/a/1190000041054037",
+    "author": "华为移动服务",
+    "home_url": "https://segmentfault.com/u/hms_core",
+    "votes": "2",
     "rank": 17
   },
   {
@@ -162,13 +162,31 @@
     "rank": 18
   },
   {
-    "title": "JetBrains 官宣！“下一代 IDE”轻量编辑器 Fleet正式发布|或抗衡微软 VS Code？",
-    "description": "前几天，“PHP 基金会”即将成立的消息让 JetBrains 赚足了“眼球”。刚刚，JetBrains 官方又宣布了一则重磅消息———正式发布全新“下一代 IDE”轻量编辑器 Fleet，再次让大家将目光聚焦了过来。",
-    "url": "https://segmentfault.com/a/1190000041039208",
-    "author": "MissD",
-    "home_url": "https://segmentfault.com/u/d2ms1shh",
-    "votes": "2",
+    "title": "还在付费使用 XShell？我选择这款超牛逼的 SSH 客户端，完全免费！",
+    "description": "分享过FinallShell这款SSH客户端，也是xiaoz目前常用的SSH客户端工具，FinalShell使用起来方便顺手，但令我不爽的是tab数量变多的时候FinalShell越来越卡，而且内存占用也比较高。",
+    "url": "https://segmentfault.com/a/1190000041041396",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "6",
     "rank": 19
+  },
+  {
+    "title": "啥？你的 Tap bar  不够花里胡哨，试试这个！",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000040954012",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "4",
+    "rank": 20
+  },
+  {
+    "title": "React、Vue我全都要！React Hook 实现 Vue 的11个基本功能",
+    "description": "大家好，我是林三心，因为工作项目的需要，在上个月，我开始在项目中使用React去开发，到了今天，差不多一个月了，想跟大家分享一下我在React中是怎么去实现以前Vue中的一些功能的。",
+    "url": "https://segmentfault.com/a/1190000041056865",
+    "author": "Sunshine_Lin",
+    "home_url": "https://segmentfault.com/u/user_ze46ouik",
+    "votes": "7",
+    "rank": 21
   },
   {
     "title": "我的截图插件被Gitee使用了",
@@ -177,7 +195,7 @@
     "author": "神奇的程序员",
     "home_url": "https://segmentfault.com/u/likaia",
     "votes": "3",
-    "rank": 20
+    "rank": 22
   },
   {
     "title": "前端小知识点",
@@ -186,7 +204,16 @@
     "author": "墨城",
     "home_url": "https://segmentfault.com/u/xiaomogu_5f2124ad3ad42",
     "votes": "4",
-    "rank": 21
+    "rank": 23
+  },
+  {
+    "title": "JetBrains 官宣！“下一代 IDE”轻量编辑器 Fleet正式发布|或抗衡微软 VS Code？",
+    "description": "前几天，“PHP 基金会”即将成立的消息让 JetBrains 赚足了“眼球”。刚刚，JetBrains 官方又宣布了一则重磅消息———正式发布全新“下一代 IDE”轻量编辑器 Fleet，再次让大家将目光聚焦了过来。",
+    "url": "https://segmentfault.com/a/1190000041039208",
+    "author": "MissD",
+    "home_url": "https://segmentfault.com/u/d2ms1shh",
+    "votes": "2",
+    "rank": 24
   },
   {
     "title": "用Chrome插件改进开发体验",
@@ -195,16 +222,7 @@
     "author": "大桔子",
     "home_url": "https://segmentfault.com/u/djz",
     "votes": "2",
-    "rank": 22
-  },
-  {
-    "title": "LeetCode-130-被围绕的区域",
-    "description": "题目描述：给你一个 m x n 的矩阵 board ，由若干字符 'X' 和 'O' ，找到所有被 'X' 围绕的区域，并将这些区域里所有的 'O' 用 'X' 填充。示例说明请见LeetCode官网。来源：力扣（LeetCode） 链接：[链接] 著作权...",
-    "url": "https://segmentfault.com/a/1190000041026034",
-    "author": "雄狮虎豹",
-    "home_url": "https://segmentfault.com/u/xiongshihubao",
-    "votes": "4",
-    "rank": 23
+    "rank": 25
   },
   {
     "title": "基于实践：一套百万消息量小规模IM系统技术要点总结",
@@ -213,16 +231,16 @@
     "author": "JackJiang",
     "home_url": "https://segmentfault.com/u/jackjiang",
     "votes": "3",
-    "rank": 24
+    "rank": 26
   },
   {
-    "title": "LeetCode-129-求根节点到叶节点数字之和",
-    "description": "题目描述：给你一个二叉树的根节点 root ，树中每个节点都存放有一个 0 到 9 之间的数字。每条从根节点到叶节点的路径都代表一个数字：例如，从根节点到叶节点的路径 1 -> 2 -> 3 表示数字 123 。计算从根...",
-    "url": "https://segmentfault.com/a/1190000041020499",
+    "title": "LeetCode-130-被围绕的区域",
+    "description": "题目描述：给你一个 m x n 的矩阵 board ，由若干字符 'X' 和 'O' ，找到所有被 'X' 围绕的区域，并将这些区域里所有的 'O' 用 'X' 填充。示例说明请见LeetCode官网。来源：力扣（LeetCode） 链接：[链接] 著作权...",
+    "url": "https://segmentfault.com/a/1190000041026034",
     "author": "雄狮虎豹",
     "home_url": "https://segmentfault.com/u/xiongshihubao",
     "votes": "4",
-    "rank": 25
+    "rank": 27
   },
   {
     "title": "看到一个魔改线程池，面试素材加一！",
@@ -231,16 +249,7 @@
     "author": "why技术",
     "home_url": "https://segmentfault.com/u/whyjishu",
     "votes": "3",
-    "rank": 26
-  },
-  {
-    "title": "为了生成唯一id，React18专门引入了新Hook：useId",
-    "description": "大家好，我卡颂。看看如下组件有什么问题： {代码...} 如果应用是CSR（客户端渲染），id是稳定的，App组件没有问题。但如果应用是SSR（服务端渲染），那么App.tsx会经历：React在服务端渲染，生成随机id（假设为0...",
-    "url": "https://segmentfault.com/a/1190000041020566",
-    "author": "卡颂",
-    "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "4",
-    "rank": 27
+    "rank": 28
   },
   {
     "title": "LeetCode-131-分割回文串",
@@ -249,24 +258,15 @@
     "author": "雄狮虎豹",
     "home_url": "https://segmentfault.com/u/xiongshihubao",
     "votes": "4",
-    "rank": 28
-  },
-  {
-    "title": "面试官问我JVM调优，我忍不住了，哈哈哈哈",
-    "description": "面试官：今天要不来聊聊JVM调优相关的吧？面试官：你曾经在生产环境下有过调优JVM的经历吗？候选者：没有面试官：…候选者：嗯…是这样的，我们一般优化系统的思路是这样的候选者：1. 一般来说关系型数据库是先到瓶...",
-    "url": "https://segmentfault.com/a/1190000041019991",
-    "author": "Java3y",
-    "home_url": "https://segmentfault.com/u/java_3y",
-    "votes": "4",
     "rank": 29
   },
   {
-    "title": "LeetCode-134-加油站",
-    "description": "题目描述：在一条环路上有 N 个加油站，其中第 i 个加油站有汽油 gas[i] 升。你有一辆油箱容量无限的的汽车，从第 i 个加油站开往第 i+1 个加油站需要消耗汽油 cost[i] 升。你从其中的一个加油站出发，开始时油箱...",
-    "url": "https://segmentfault.com/a/1190000041039247",
-    "author": "雄狮虎豹",
-    "home_url": "https://segmentfault.com/u/xiongshihubao",
-    "votes": "4",
+    "title": "2021 年游戏开发编程语言 Top10：C++、Java、C# 霸榜前三",
+    "description": "近日，analyticsinsight 就出炉了 2021 年游戏项目开发编程语言 Top10，其中 C++、Java、C# 霸榜前三，还有不少编程语言都属于当下备受开发者欢迎的编程语言。",
+    "url": "https://segmentfault.com/a/1190000041032893",
+    "author": "MissD",
+    "home_url": "https://segmentfault.com/u/d2ms1shh",
+    "votes": "2",
     "rank": 30
   }
 ]
