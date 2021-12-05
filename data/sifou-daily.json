@@ -1,182 +1,47 @@
 [
   {
-    "title": "React、Vue我全都要！React Hook 实现 Vue 的11个基本功能",
-    "description": "大家好，我是林三心，因为工作项目的需要，在上个月，我开始在项目中使用React去开发，到了今天，差不多一个月了，想跟大家分享一下我在React中是怎么去实现以前Vue中的一些功能的。",
-    "url": "https://segmentfault.com/a/1190000041056865",
-    "author": "Sunshine_Lin",
-    "home_url": "https://segmentfault.com/u/user_ze46ouik",
-    "votes": "7",
+    "title": "JZ-015-反转链表",
+    "description": "反转链表题目描述输入一个链表，反转链表后，输出新链表的表头。题目链接: 反转链表代码 {代码...} 【每日寄语】 生活的本质就是幸福的活着，而生活的智慧就是活出自己想要的样子。",
+    "url": "https://segmentfault.com/a/1190000041062661",
+    "author": "雄狮虎豹",
+    "home_url": "https://segmentfault.com/u/xiongshihubao",
+    "votes": "4",
     "rank": 1
   },
   {
-    "title": "亲身体验了一把vite，感觉真的没有说的那么好，很多坑",
-    "description": "但是在vite中，不是，它不识别require，而是要使用 new URL()在项目中坑的是new URL中竟然不只是@别名符，你只能用相对路径",
-    "url": "https://segmentfault.com/a/1190000041057203",
-    "author": "寒水寺一禅",
-    "home_url": "https://segmentfault.com/u/xiaolizideyitian",
-    "votes": "3",
+    "title": "和 .project 文件说“再见”—— VS Code Java 1.1.0 背后的故事",
+    "description": "Language Support for Java 1.1.0 版本包含了一项重要更新：现在插件在导入新的 Java 项目时，项目元数据文件（.project，.classpath，settings等）默认将不再生成于项目路径下。这一问题自2018年被记录至今已有...",
+    "url": "https://segmentfault.com/a/1190000041061130",
+    "author": "微软技术栈",
+    "home_url": "https://segmentfault.com/u/mstech",
+    "votes": "2",
     "rank": 2
   },
   {
-    "title": "Error Boundaries是这么实现的，还挺巧妙",
-    "description": "大家好，我卡颂。本文会讲解React中Error Boundaries的完整实现逻辑。一张图概括：这里简单讲解下React工作流程，后文有用。分为三步：触发更新render阶段：计算更新会造成的副作用commit阶段：在宿主环境执行副...",
-    "url": "https://segmentfault.com/a/1190000041057856",
-    "author": "卡颂",
-    "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "3",
+    "title": "我的前端一天",
+    "description": "软件安装软件配置终端安装辅助工具开始写代码先来一杯养生茶软件安装前文：从零配置前端开发环境-Mac安装途径应用商店下载部分常用免费软件，超过 10s 没连上就算了MacWk 五星推荐腾讯柠檬（可供参考）28 款常用...",
+    "url": "https://segmentfault.com/a/1190000041064987",
+    "author": "前端一锅煮",
+    "home_url": "https://segmentfault.com/u/daqianduan",
+    "votes": "1",
     "rank": 3
   },
   {
-    "title": "JuiceFS 数据读写流程详解",
-    "description": "对于文件系统而言，其读写的效率对整体的系统性能有决定性的影响，本文我们将通过介绍 JuiceFS 的读写请求处理流程，让大家对 JuiceFS 的特性有更进一步的了解。",
-    "url": "https://segmentfault.com/a/1190000041059243",
-    "author": "JuiceFS",
-    "home_url": "https://segmentfault.com/u/juicefs",
+    "title": "mobx源码解读—— autorun 与 observable",
+    "description": "第一次阅读源码，可能有理解的不太正确的地方希望大佬们能帮我纠正。开始看的是6，后来看到observable发现和5的差距还是有一点的，所以在所以“autorun”的部分可能会有6的源码，但差距并不大。",
+    "url": "https://segmentfault.com/a/1190000041062847",
+    "author": "励步前端团队",
+    "home_url": "https://segmentfault.com/u/leapfe",
     "votes": "3",
     "rank": 4
   },
   {
-    "title": "美团外卖终端容器无关化研发框架",
-    "description": "2019年9月，美团外卖技术团队联合多个研发部门正式推出了React2X，面向所有的前端研发人员，特别是按业务领域划分的团队，为大家提供一个完整的、开放的多终端容器无关化（Containerless）研发框架。研发同学可以...",
-    "url": "https://segmentfault.com/a/1190000041060388",
-    "author": "美团技术团队",
-    "home_url": "https://segmentfault.com/u/meituanjishutuandui",
+    "title": "英伟达收购 ARM 进程再度受阻！400 亿美元交易要黄？",
+    "description": "美国当地时间 12 月 2 日，美国联邦贸易委员会(FTC)以反垄断为由提起诉讼，阻止英伟达斥资 400 亿美元从日本软银集团手中收购英国芯片设计公司 ARM 的交易，行政审判计划于 2022 年 8 月 9 日启动。",
+    "url": "https://segmentfault.com/a/1190000041063047",
+    "author": "六一",
+    "home_url": "https://segmentfault.com/u/suicidal_romantic_scoundrel",
     "votes": "1",
     "rank": 5
-  },
-  {
-    "title": "速看！外媒评 2021 开发者首选最佳 Linux 桌面 Top 5：Fedora、Arch、Gentoo 上榜",
-    "description": "提到 Linux，很多普通用户会觉得离它很远，但如果你现在正用安卓手机看这篇文章的话，那么恭喜！你用的正是 Linux！其实更多时候，一些 Linux 发行版确实需要专业知识才能充分利用它们。",
-    "url": "https://segmentfault.com/a/1190000041057776",
-    "author": "MissD",
-    "home_url": "https://segmentfault.com/u/d2ms1shh",
-    "votes": "2",
-    "rank": 6
-  },
-  {
-    "title": "极客时间Go工程师零基础就业班【网盘下载】",
-    "description": "前提是你要真心想学，才有足够的动力去学。初学Go语言首先弄懂基础语法和概念：基本数据类型、Struct、Array、map、Slice、指针、接口、map、内置函数，常用工具包等，还有接口和Slice的底层数据结构。这些不需要...",
-    "url": "https://segmentfault.com/a/1190000041062362",
-    "author": "dkasekg0",
-    "home_url": "https://segmentfault.com/u/dkasekg0",
-    "votes": "1",
-    "rank": 7
-  },
-  {
-    "title": "每日自动健康打卡（Python+腾讯云服务器）",
-    "description": "每日自动健康打卡（Python+腾讯云服务器）1.配置需要python3.7，Chrome或者Edeg浏览器，Chrome驱动或者Edge驱动 {代码...} 2.实现功能1.模拟登录说唱大学微服务，需要百度OCR智能识别API接口识别验证码（免费获取...",
-    "url": "https://segmentfault.com/a/1190000041062327",
-    "author": "图爱森",
-    "home_url": "https://segmentfault.com/u/tuaisen",
-    "votes": "1",
-    "rank": 8
-  },
-  {
-    "title": "一个简单标注库的插件化开发实践",
-    "description": "最近在提炼一个功能的时候发现可配置项过多，如果全都耦合在一起，首先是代码上不好维护、扩展性不好，其次是如果我不需要该功能的话会带来体积上的冗余，考虑到现在插件化的流行，于是小小的尝试了一番。",
-    "url": "https://segmentfault.com/a/1190000041062239",
-    "author": "街角小林",
-    "home_url": "https://segmentfault.com/u/jiejiaoxiaolin",
-    "votes": "1",
-    "rank": 9
-  },
-  {
-    "title": "基于Delta lake、Hudi格式的湖仓一体方案",
-    "description": "简介：Delta Lake 和 Hudi 是流行的开放格式的存储层，为数据湖同时提供流式和批处理的操作，这允许我们在数据湖上直接运行 BI 等应用，让数据分析师可以即时查询新的实时数据，从而对您的业务产生即时的洞察。Ma...",
-    "url": "https://segmentfault.com/a/1190000041061760",
-    "author": "阿里云开发者",
-    "home_url": "https://segmentfault.com/u/alijishu",
-    "votes": "1",
-    "rank": 10
-  },
-  {
-    "title": "纯前端生成Excel文件骚操作——WebAssembly & web workers",
-    "description": "SheetJS是用于多种电子表格格式的解析器和编写器。通过官方规范、相关文档以及测试文件实现简洁的JS方法。SheetJS强调解析和编写的稳健，其跨格式的特点和统一的JS规范兼容，并且ES3/ES5浏览器向后兼容IE6。",
-    "url": "https://segmentfault.com/a/1190000041061339",
-    "author": "Marckon",
-    "home_url": "https://segmentfault.com/u/marckon",
-    "votes": "1",
-    "rank": 11
-  },
-  {
-    "title": "【JVM源码解析】虚拟机解释执行Java方法（上）",
-    "description": "前面已经写了许多篇介绍字节码指令对应的汇编代码执行逻辑，还有一些字节码指令对应的汇编代码逻辑没有介绍，这些指令包括方法调用指令、同步指令、异常抛出指令，这些指令的汇编代码实现逻辑比较复杂，所以后面...",
-    "url": "https://segmentfault.com/a/1190000041061285",
-    "author": "HeapDump性能社区",
-    "home_url": "https://segmentfault.com/u/perfma",
-    "votes": "1",
-    "rank": 12
-  },
-  {
-    "title": "24.kubernetes(k8s)笔记 认证、授权与准入控制(四)  RBAC访问控制",
-    "description": "在上一节已经介绍过RBAC 通过绑定授权Users Accounts 得到不同作用域权限这节对Serviceaccount进行绑定授权 因为sa权限是针对Pod的权限 命令行无法直接验证 所以借助dashbaortd来验证",
-    "url": "https://segmentfault.com/a/1190000041060905",
-    "author": "Bigyong",
-    "home_url": "https://segmentfault.com/u/yilaguan_6110d16933c03",
-    "votes": "1",
-    "rank": 13
-  },
-  {
-    "title": "TypeScript 官方手册翻译计划【十】：类型操控-映射类型",
-    "description": "说明：目前网上没有 TypeScript 最新官方文档的中文翻译，所以有了这么一个翻译计划。因为我也是 TypeScript 的初学者，所以无法保证翻译百分之百准确，若有错误，欢迎评论区指出；翻译内容：暂定翻译内容为 Type...",
-    "url": "https://segmentfault.com/a/1190000041059238",
-    "author": "Chor",
-    "home_url": "https://segmentfault.com/u/chor",
-    "votes": "2",
-    "rank": 14
-  },
-  {
-    "title": "模仿UP主，用Python实现一个弹幕控制的直播间！",
-    "description": "灵感来源之前在B站看到一个有意思的视频：【B站】【亦】终极云游戏！五千人同开一辆车，复现经典群体智慧实验大家可以看看，很有意思。up主通过代码实现了实时读取直播间里的弹幕内容，进而控制自己的电脑，把弹...",
-    "url": "https://segmentfault.com/a/1190000041058218",
-    "author": "蛮三刀酱",
-    "home_url": "https://segmentfault.com/u/qqxx6661",
-    "votes": "1",
-    "rank": 15
-  },
-  {
-    "title": "MySQL「 Every derived table must have its own alias」错误修复方法",
-    "description": "本文首发：《MySQL「 Every derived table must have its own alias」1248 错误修复法》在写带有子查询或者在查询时产生临时表的查询时，可能会出现这个错误： {代码...} 意思是「每一个派生出来的表都必须给它命...",
-    "url": "https://segmentfault.com/a/1190000041058053",
-    "author": "蒋川",
-    "home_url": "https://segmentfault.com/u/jiangchuan_5ecf6be720834",
-    "votes": "1",
-    "rank": 16
-  },
-  {
-    "title": "Flutter开源项目 - appFlowy 真的是 Notion 的替代品? 一周暴涨 star 9k 多!",
-    "description": "git[链接][链接]也就 1 周 star 9.8k，我以为他是刷的。目标&特色目标替代 Notion数据 100% 自己管理开源方式提供，你可以自己改多平台支持原生体验，估计是用了 flutter 关系编译运行git clone {代码...} 安...",
-    "url": "https://segmentfault.com/a/1190000041057911",
-    "author": "会煮咖啡的猫",
-    "home_url": "https://segmentfault.com/u/ducafecat",
-    "votes": "1",
-    "rank": 17
-  },
-  {
-    "title": "如何利用 “集群流控” 保障微服务的稳定性？",
-    "description": "简介：应用高可用服务 AHAS (Application High Availability Service) 是经阿里巴巴内部多年高可用体系沉淀下来的云产品，以流量与容错为切入点，从流量控制、不稳定调用隔离、熔断降级、热点流量防护、系统自适...",
-    "url": "https://segmentfault.com/a/1190000041057833",
-    "author": "阿里云开发者",
-    "home_url": "https://segmentfault.com/u/alijishu",
-    "votes": "1",
-    "rank": 18
-  },
-  {
-    "title": "Spring Cloud 2021.0.0 正式发布，第一个支持Spring Boot 2.6的版本！",
-    "description": "美国时间12月2日，Spring Cloud 正式发布了第一个支持 Spring Boot 2.6 的版本，版本号为：2021.0.0，codename 为 Jubilee。",
-    "url": "https://segmentfault.com/a/1190000041057693",
-    "author": "程序猿DD",
-    "home_url": "https://segmentfault.com/u/coderdd",
-    "votes": "1",
-    "rank": 19
-  },
-  {
-    "title": "IT哲学——“万物皆对象”",
-    "description": "对于程序员来说，“万物皆对象”是路人皆知的，甚至是已经过时的话题了，但“温故而知新”，时常思考一下，总是会有新的发现。我只是一个普通程序员，每天就是思考架构、编写代码、调试bug，本文也只是把自己的思考记...",
-    "url": "https://segmentfault.com/a/1190000041057458",
-    "author": "NickWang",
-    "home_url": "https://segmentfault.com/u/nickw_cn",
-    "votes": "1",
-    "rank": 20
   }
 ]
