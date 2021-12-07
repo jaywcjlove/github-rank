@@ -1,21 +1,12 @@
 [
   {
-    "title": "良苦用心啊！我把7大跨域解决方法原理画成10张图，做成图解！",
-    "description": "咱们做前端的，平时跟后端对接接口那是必须的事情，但是可能很多同学忽略了一个对接过程中可能会发生的问题——跨域，那跨域到底是啥呢？为什么会跨域呢？又怎么才能解决呢？",
-    "url": "https://segmentfault.com/a/1190000041032091",
-    "author": "Sunshine_Lin",
-    "home_url": "https://segmentfault.com/u/user_ze46ouik",
-    "votes": "24",
-    "rank": 1
-  },
-  {
     "title": "React、Vue我全都要！React Hook 实现 Vue 的11个基本功能",
     "description": "大家好，我是林三心，因为工作项目的需要，在上个月，我开始在项目中使用React去开发，到了今天，差不多一个月了，想跟大家分享一下我在React中是怎么去实现以前Vue中的一些功能的。",
     "url": "https://segmentfault.com/a/1190000041056865",
     "author": "Sunshine_Lin",
     "home_url": "https://segmentfault.com/u/user_ze46ouik",
-    "votes": "10",
-    "rank": 2
+    "votes": "12",
+    "rank": 1
   },
   {
     "title": "「总结」今年我写了55篇文章，面试了30个人，学习了385个知识点！",
@@ -23,7 +14,16 @@
     "url": "https://segmentfault.com/a/1190000041037062",
     "author": "Sunshine_Lin",
     "home_url": "https://segmentfault.com/u/user_ze46ouik",
-    "votes": "14",
+    "votes": "15",
+    "rank": 2
+  },
+  {
+    "title": "Error Boundaries是这么实现的，还挺巧妙",
+    "description": "大家好，我卡颂。本文会讲解React中Error Boundaries的完整实现逻辑。一张图概括：这里简单讲解下React工作流程，后文有用。分为三步：触发更新render阶段：计算更新会造成的副作用commit阶段：在宿主环境执行副...",
+    "url": "https://segmentfault.com/a/1190000041057856",
+    "author": "卡颂",
+    "home_url": "https://segmentfault.com/u/kasong",
+    "votes": "7",
     "rank": 3
   },
   {
@@ -32,44 +32,17 @@
     "url": "https://segmentfault.com/a/1190000041044028",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "12",
+    "votes": "13",
     "rank": 4
   },
   {
-    "title": "研发效能数据平台 DevLake 正式开源，连接 DevOps 中的数据孤岛",
-    "description": "工程师们反馈流程体验确实有所提升，和业务同事的沟通似乎也愉快了一些——但研发团队依然需要量化数据作为抓手，一方面佐证先前实践优化的有效性，另一方面为持续的效能提升寻找机会。",
-    "url": "https://segmentfault.com/a/1190000041033394",
-    "author": "snakesss",
-    "home_url": "https://segmentfault.com/u/snakesss",
+    "title": "JavaScript Sanitizer API：原生WEB安全API出现啦",
+    "description": "10月18号， W3C中网络平台孵化器小组（Web Platform Incubator Community Group）公布了HTML Sanitizer API的规范草案。这份草案用来解决浏览器如何解决XSS攻击问题。",
+    "url": "https://segmentfault.com/a/1190000041044632",
+    "author": "葡萄城技术团队",
+    "home_url": "https://segmentfault.com/u/grapecity",
     "votes": "5",
     "rank": 5
-  },
-  {
-    "title": "花式调接口: hex vs base64",
-    "description": "作为你一个前端，可能你常常自诩，你是一个无情的API调用机器，调框架API，调服务端API；但下文可能会震惊到你，至少已经让我崩溃了好几天。",
-    "url": "https://segmentfault.com/a/1190000041031915",
-    "author": "Denzel",
-    "home_url": "https://segmentfault.com/u/denzel",
-    "votes": "7",
-    "rank": 6
-  },
-  {
-    "title": "分布式事务的这些常见用法都有坑，来看看正确姿势",
-    "description": "随着微服务架构的流行，随之而来就必然遇到跨服务的分布式事务这个难题。分布式事务之所以难，主要是因为分布式系统中的各个节点都可能发生各种非预期的情况。本文先介绍分布式系统中的异常问题，然后介绍这些问...",
-    "url": "https://segmentfault.com/a/1190000041031586",
-    "author": "叶东富",
-    "home_url": "https://segmentfault.com/u/yedongfu",
-    "votes": "10",
-    "rank": 7
-  },
-  {
-    "title": "Error Boundaries是这么实现的，还挺巧妙",
-    "description": "大家好，我卡颂。本文会讲解React中Error Boundaries的完整实现逻辑。一张图概括：这里简单讲解下React工作流程，后文有用。分为三步：触发更新render阶段：计算更新会造成的副作用commit阶段：在宿主环境执行副...",
-    "url": "https://segmentfault.com/a/1190000041057856",
-    "author": "卡颂",
-    "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "6",
-    "rank": 8
   },
   {
     "title": "进击的 Ansible（二）：如何快速搞定生产环境 Ansible 项目布局？",
@@ -78,16 +51,7 @@
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
     "votes": "6",
-    "rank": 9
-  },
-  {
-    "title": "CSS 自适应内容宽度的输入框",
-    "description": "通常我们见到的输入框都是宽度固定的，但有时也会碰到自适应内容宽度的，像这样目前我所知道的有两种方式，相信不难找到给普通 div 标签设置 contenteditable=\"true\"，设置 inline-block 以后，就可以自适应内容...",
-    "url": "https://segmentfault.com/a/1190000041032322",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "8",
-    "rank": 10
+    "rank": 6
   },
   {
     "title": "还在付费使用 XShell？我选择这款超牛逼的 SSH 客户端，完全免费！",
@@ -96,25 +60,7 @@
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "7",
-    "rank": 11
-  },
-  {
-    "title": "中国首份RPA开发者调研报告：专业开发者职业满意度高达 94%",
-    "description": "2021 年 11 月 29 日，来也科技行业研究院完成中国首次 RPA 开发者调研，正式发布《2021 年中国 RPA 开发者调研报告》。目前，来也科技已经建立了中国最大规模的 RPA 开发者社区，社区注册用户已超过 57 万人，本...",
-    "url": "https://segmentfault.com/a/1190000041033338",
-    "author": "snakesss",
-    "home_url": "https://segmentfault.com/u/snakesss",
-    "votes": "3",
-    "rank": 12
-  },
-  {
-    "title": "JavaScript Sanitizer API：原生WEB安全API出现啦",
-    "description": "10月18号， W3C中网络平台孵化器小组（Web Platform Incubator Community Group）公布了HTML Sanitizer API的规范草案。这份草案用来解决浏览器如何解决XSS攻击问题。",
-    "url": "https://segmentfault.com/a/1190000041044632",
-    "author": "葡萄城技术团队",
-    "home_url": "https://segmentfault.com/u/grapecity",
-    "votes": "4",
-    "rank": 13
+    "rank": 7
   },
   {
     "title": "前端er，什么时候，你想写一个 HTTP 服务器？",
@@ -122,8 +68,8 @@
     "url": "https://segmentfault.com/a/1190000041037884",
     "author": "杨成功",
     "home_url": "https://segmentfault.com/u/ruidoc",
-    "votes": "6",
-    "rank": 14
+    "votes": "7",
+    "rank": 8
   },
   {
     "title": "大会没看够？2021 Google 开发者大会总结看这里！",
@@ -132,7 +78,7 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "2",
-    "rank": 15
+    "rank": 9
   },
   {
     "title": "网络安全（一）：常见的网络威胁及防范",
@@ -141,7 +87,7 @@
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
     "votes": "5",
-    "rank": 16
+    "rank": 10
   },
   {
     "title": "搞懂 Kubernetes 准入控制（Admission Controller）",
@@ -150,7 +96,7 @@
     "author": "张晋涛",
     "home_url": "https://segmentfault.com/u/moelove",
     "votes": "4",
-    "rank": 17
+    "rank": 11
   },
   {
     "title": "夯实隐私与安全，打造安全可靠的支付级活体验检测能力",
@@ -159,7 +105,7 @@
     "author": "华为移动服务",
     "home_url": "https://segmentfault.com/u/hms_core",
     "votes": "2",
-    "rank": 18
+    "rank": 12
   },
   {
     "title": "一个 Babelfish ，看懂云数据库的发展方向",
@@ -168,7 +114,7 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "1",
-    "rank": 19
+    "rank": 13
   },
   {
     "title": "亲身体验了一把vite，感觉真的没有说的那么好，很多坑",
@@ -177,7 +123,7 @@
     "author": "寒水寺一禅",
     "home_url": "https://segmentfault.com/u/xiaolizideyitian",
     "votes": "6",
-    "rank": 20
+    "rank": 14
   },
   {
     "title": "日均请求量1.6万亿次背后，DNSPod的秘密-国密DoH篇",
@@ -186,7 +132,7 @@
     "author": "腾讯云加社区",
     "home_url": "https://segmentfault.com/u/qcloudcommunity",
     "votes": "1",
-    "rank": 21
+    "rank": 15
   },
   {
     "title": "我的截图插件被Gitee使用了",
@@ -195,25 +141,7 @@
     "author": "神奇的程序员",
     "home_url": "https://segmentfault.com/u/likaia",
     "votes": "3",
-    "rank": 22
-  },
-  {
-    "title": "啥？你的 Tap bar  不够花里胡哨，试试这个！",
-    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000040954012",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "4",
-    "rank": 23
-  },
-  {
-    "title": "前端小知识点",
-    "description": "1、解构小技巧平常我们需要用到一个嵌套多层的对象中某些属性，会将其解构出来使用 {代码...} 这种情况下，你把 name 和 age 从 part1 里解构出来了以后，你就无法使用变量 obj 中的 part1 属性了，如： {代码......",
-    "url": "https://segmentfault.com/a/1190000041035595",
-    "author": "墨城",
-    "home_url": "https://segmentfault.com/u/xiaomogu_5f2124ad3ad42",
-    "votes": "4",
-    "rank": 24
+    "rank": 16
   },
   {
     "title": "JetBrains 官宣！“下一代 IDE”轻量编辑器 Fleet正式发布|或抗衡微软 VS Code？",
@@ -222,7 +150,7 @@
     "author": "MissD",
     "home_url": "https://segmentfault.com/u/d2ms1shh",
     "votes": "2",
-    "rank": 25
+    "rank": 17
   },
   {
     "title": "JZ-014-链表中倒数第 K 个结点",
@@ -231,25 +159,7 @@
     "author": "雄狮虎豹",
     "home_url": "https://segmentfault.com/u/xiongshihubao",
     "votes": "6",
-    "rank": 26
-  },
-  {
-    "title": "2021 年游戏开发编程语言 Top10：C++、Java、C# 霸榜前三",
-    "description": "近日，analyticsinsight 就出炉了 2021 年游戏项目开发编程语言 Top10，其中 C++、Java、C# 霸榜前三，还有不少编程语言都属于当下备受开发者欢迎的编程语言。",
-    "url": "https://segmentfault.com/a/1190000041032893",
-    "author": "MissD",
-    "home_url": "https://segmentfault.com/u/d2ms1shh",
-    "votes": "2",
-    "rank": 27
-  },
-  {
-    "title": "看到一个魔改线程池，面试素材加一！",
-    "description": "你好呀，我是歪歪。今天给大家分享一个经过扩展后的线程池，且我觉得扩展的思路非常好的。放心，我标题党来着，我觉得面试不会有人考这个玩意，但是工作中是有可能真的会遇到相应的场景。为了引出这个线程池，我...",
-    "url": "https://segmentfault.com/a/1190000041033155",
-    "author": "why技术",
-    "home_url": "https://segmentfault.com/u/whyjishu",
-    "votes": "3",
-    "rank": 28
+    "rank": 18
   },
   {
     "title": "LeetCode-134-加油站",
@@ -258,7 +168,16 @@
     "author": "雄狮虎豹",
     "home_url": "https://segmentfault.com/u/xiongshihubao",
     "votes": "4",
-    "rank": 29
+    "rank": 19
+  },
+  {
+    "title": "Redis 很屌，不懂使用规范就糟蹋了",
+    "description": "这可能是最中肯的 Redis 使用规范了码哥，昨天我被公司 Leader 批评了。我在单身红娘婚恋类型互联网公司工作，在双十一推出下单就送女朋友的活动。谁曾想，凌晨 12 点之后，用户量暴增，出现了一个技术故障，用户...",
+    "url": "https://segmentfault.com/a/1190000041054020",
+    "author": "码哥字节",
+    "home_url": "https://segmentfault.com/u/magebyte",
+    "votes": "4",
+    "rank": 20
   },
   {
     "title": "团队分享，Bem规范调研及实践",
@@ -266,6 +185,87 @@
     "url": "https://segmentfault.com/a/1190000040787740",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "2",
+    "rank": 21
+  },
+  {
+    "title": "JavaScript WebGL 基础概念",
+    "description": "WebGL 是一个跨平台、免费的开放式 Web 标准，用于基于 OpenGL ES 的初级 3D 图形 API 。可在任何兼容的 Web 浏览器中渲染高性能的交互式 3D 和 2D 图形，而无需使用插件。在 JavaScript 中可以通过 HTML5 的 Can...",
+    "url": "https://segmentfault.com/a/1190000041043520",
+    "author": "XXHolic",
+    "home_url": "https://segmentfault.com/u/xxholic",
+    "votes": "2",
+    "rank": 22
+  },
+  {
+    "title": "架构团队如何重构内部系统",
+    "description": "前端团队难免需要维护一些内部系统，有些内部系统由于开始的架构设计不合理，随着业务复杂度的增加，“坏味道”代码也越来越多，从而导致认知和沟通成本上升，甚至问题频出，此时，重构就自然成了一个选择。但重构...",
+    "url": "https://segmentfault.com/a/1190000041052165",
+    "author": "智联大前端",
+    "home_url": "https://segmentfault.com/u/zpfe",
+    "votes": "2",
+    "rank": 23
+  },
+  {
+    "title": "你真的认为Google翻译不影响\"前端\"页面功能吗?",
+    "description": "又是一个时光飞逝的工作日, QA同学突然提出bug, 文本输入框的\"计数\"功能失效, 经过大家多方查找最后发现竟然是因为测试同学开启了\"谷歌翻译\"造成的无法\"计数\", 这就引起了我的浓厚兴趣, 到底这个看起来\"人畜...",
+    "url": "https://segmentfault.com/a/1190000041067692",
+    "author": "lulu_up",
+    "home_url": "https://segmentfault.com/u/lulu_up",
+    "votes": "4",
+    "rank": 24
+  },
+  {
+    "title": "Spring Boot 切面的一种的测试方法",
+    "description": "习惯了单元测试以后，一些代码在提交前如果不测试一下总是感觉心里面空空的，没有底气可言。Spring Boot提供的官方注释结合强大的Mockito能够解决大部分在测试方面的需求。但貌似对于代理模式下的切面却并不如意...",
+    "url": "https://segmentfault.com/a/1190000041048368",
+    "author": "myskies",
+    "home_url": "https://segmentfault.com/u/myskies",
+    "votes": "0",
+    "rank": 25
+  },
+  {
+    "title": "速看！外媒评 2021 开发者首选最佳 Linux 桌面 Top 5：Fedora、Arch、Gentoo 上榜",
+    "description": "提到 Linux，很多普通用户会觉得离它很远，但如果你现在正用安卓手机看这篇文章的话，那么恭喜！你用的正是 Linux！其实更多时候，一些 Linux 发行版确实需要专业知识才能充分利用它们。",
+    "url": "https://segmentfault.com/a/1190000041057776",
+    "author": "MissD",
+    "home_url": "https://segmentfault.com/u/d2ms1shh",
+    "votes": "2",
+    "rank": 26
+  },
+  {
+    "title": "JZ-015-反转链表",
+    "description": "反转链表题目描述输入一个链表，反转链表后，输出新链表的表头。题目链接: 反转链表代码 {代码...} 【每日寄语】 生活的本质就是幸福的活着，而生活的智慧就是活出自己想要的样子。",
+    "url": "https://segmentfault.com/a/1190000041062661",
+    "author": "雄狮虎豹",
+    "home_url": "https://segmentfault.com/u/xiongshihubao",
+    "votes": "4",
+    "rank": 27
+  },
+  {
+    "title": "JZ-012-数值的整数次方",
+    "description": "给定一个double类型的浮点数base和int类型的整数exponent。求base的exponent次方。保证base和exponent不同时为0。题目链接: 数值的整数次方",
+    "url": "https://segmentfault.com/a/1190000041044268",
+    "author": "雄狮虎豹",
+    "home_url": "https://segmentfault.com/u/xiongshihubao",
+    "votes": "4",
+    "rank": 28
+  },
+  {
+    "title": "如何在 Kubernetes 集群中玩转 Fluid + JuiceFS",
+    "description": "作者简介：吕冬冬，云知声超算平台架构师， 负责大规模分布式机器学习平台架构设计与功能研发，负责深度学习算法应用的优化与 AI 模型加速。研究领域包括高性能计算、分布式文件存储、分布式缓存等。朱唯唯，Juic...",
+    "url": "https://segmentfault.com/a/1190000041040508",
+    "author": "JuiceFS",
+    "home_url": "https://segmentfault.com/u/juicefs",
+    "votes": "3",
+    "rank": 29
+  },
+  {
+    "title": "JS中所有对象都是truthy？除了他...",
+    "description": "大家好，我卡颂。根据ES规范规定，所有非原始类型的对象转化为Boolean都为true：但是这里有个特例：document.all本文就来聊聊这个冷知识。document.all的作用document.all会返回一个HTMLAllCollection集合，包含d...",
+    "url": "https://segmentfault.com/a/1190000041045596",
+    "author": "卡颂",
+    "home_url": "https://segmentfault.com/u/kasong",
     "votes": "2",
     "rank": 30
   }
