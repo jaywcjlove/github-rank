@@ -2,7 +2,7 @@
   {
     "title": "57 张图，13 个实验，干死 MySQL 锁",
     "description": "你好，我是yes。前段时间写了一篇关于 MySQL 锁的文章，一些小伙伴们在阅读之后产生了一些疑问，这些问题还挺有代表性的，所以在这里做个实验，来用事实探究一番。那篇文章提到了记录...",
-    "votes": "185",
+    "votes": "187",
     "url": "/k/huoy9s9",
     "avatar": "https://img.toutiao.io/subject/71da457007fd4b67a45253b271a25eee/thumb",
     "avatarAlt": "yes的练级攻略 - 独家号",
@@ -12,7 +12,7 @@
   {
     "title": "聊聊接口性能优化的 11 个小技巧",
     "description": "大家好，我是苏三，又跟大家见面了。前言 接口性能优化对于从事后端开发的同学来说，肯定再熟悉不过了，因为它是一个跟开发语言无关的公共问题。该问题说简单也简单，说复杂也复杂。有时候，只...",
-    "votes": "172",
+    "votes": "173",
     "url": "/k/4i9d6w2",
     "avatar": "https://img.toutiao.io/subject/96c1af0d2a0b441ca9740ee13c3e37f3/thumb",
     "avatarAlt": "苏三说技术 - 独家号",
@@ -32,12 +32,22 @@
   {
     "title": "认识 MySQL 和 Redis 的数据一致性问题",
     "description": "作者：sinxu，腾讯 CSIG 后台开发工程师1. 什么是数据的一致性“数据一致”一般指的是：缓存中有数据，缓存的数据值 = 数据库中的值。但根据缓存中是有数据为依据，则”一致“...",
-    "votes": "145",
+    "votes": "146",
     "url": "/k/w79d4wj",
     "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
     "avatarAlt": "趣编程的独家号 - 独家号",
     "subjectName": "趣编程的独家号",
     "homeUrl": "/subjects/465623"
+  },
+  {
+    "title": "我说 2w 字可以入门 ES，非但不信还打我",
+    "description": "一、概述 Elasticsearch是一个基于Apache Lucene(TM)的分布式、高扩展、高实时、RESTful 风格的搜索和数据分析引擎。Elasticsearch是用J...",
+    "votes": "134",
+    "url": "/k/004032c",
+    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
+    "avatarAlt": "进击的程序猿 - 独家号",
+    "subjectName": "进击的程序猿",
+    "homeUrl": "/subjects/24912"
   },
   {
     "title": "Golang 编程思维和工程实战",
@@ -50,19 +60,9 @@
     "homeUrl": "/subjects/5551"
   },
   {
-    "title": "我说 2w 字可以入门 ES，非但不信还打我",
-    "description": "一、概述 Elasticsearch是一个基于Apache Lucene(TM)的分布式、高扩展、高实时、RESTful 风格的搜索和数据分析引擎。Elasticsearch是用J...",
-    "votes": "128",
-    "url": "/k/004032c",
-    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
-    "avatarAlt": "进击的程序猿 - 独家号",
-    "subjectName": "进击的程序猿",
-    "homeUrl": "/subjects/24912"
-  },
-  {
     "title": "开源微服务 API 网关，单核 2 万 QPS，今年最值得学习的开源项目",
     "description": " 文章较长，从概念与场景，到原理与架构，到性能分析，最后是demo，希望大家有收获。 第一部分：解决什么问题。什么是微服务API网关？API网关是上承前端用户，下接后端服务的咽喉之...",
-    "votes": "130",
+    "votes": "133",
     "url": "/k/vo7i0r2",
     "avatar": "https://img.toutiao.io/subject/dd437c8fe19542088ec51e69a79c158c/thumb",
     "avatarAlt": "最佳实践 - 独家号",
@@ -82,7 +82,7 @@
   {
     "title": "最全的 Git 常用命令速查（2021 版）",
     "description": " 现在做项目 Git 代码管理是一定少不了的。多年以前可能是 SVN，我想如今的公司里面基本都转型到用 Git 了吧。虽然如今已有很多可视化的 Git 工具，但是很多时候我们还是需...",
-    "votes": "112",
+    "votes": "114",
     "url": "/k/omfqktk",
     "avatar": "https://img.toutiao.io/subject/91240c26cd094eff817077d3af73998f/thumb",
     "avatarAlt": "微信搜「golang全栈」 - 独家号",
@@ -90,19 +90,9 @@
     "homeUrl": "/subjects/462055"
   },
   {
-    "title": "Kafka 知识体系保姆级教程宝典",
-    "description": "本文目录：一、消息队列 Apache Pulsar Pulsar 与 Kafka 对比二、Kafka基础三、Kafka架构及组件四、Kafka集群操作五、Kafka的JavaAPI...",
-    "votes": "110",
-    "url": "/k/j5iauc2",
-    "avatar": "https://img.toutiao.io/subject/1ecd558bf4a24bc780d2c3a0ab6e69f2/thumb",
-    "avatarAlt": "分布式系统 - 独家号",
-    "subjectName": "分布式系统",
-    "homeUrl": "/subjects/8411"
-  },
-  {
     "title": "面渣逆袭：线程池夺命连环十八问",
     "description": "大家好，我是老三，很高兴又和大家见面。线程池是面试必问的知识点，这节我们来对线面试官，搞透线程池。1. 什么是线程池？ 线程池： 简单理解，它就是一个管理线程的池子。它帮我们管理线...",
-    "votes": "111",
+    "votes": "112",
     "url": "/k/g3u1qkm",
     "avatar": "https://img.toutiao.io/subject/d42ad8a9192a430b9df44df9a6d383df/thumb",
     "avatarAlt": "三分恶 - 独家号",
@@ -110,24 +100,24 @@
     "homeUrl": "/subjects/454266"
   },
   {
-    "title": "亿级流量系统架构演进之路",
-    "description": "海量用户同时进行高频访问对任何平台都是难题，也是行业乐此不疲的研究方向。但值得庆幸的是，虽然业务场景不同，设计和优化的思想却是万变不离宗。本文将结合业务与高并发系统设计的核心技术点...",
-    "votes": "111",
-    "url": "/k/nmwgk0i",
-    "avatar": "https://img.toutiao.io/subject/4f9b8a1b9ad34bf3b815671f8461ff25/thumb",
-    "avatarAlt": "又拍云 - 独家号",
-    "subjectName": "又拍云",
-    "homeUrl": "/subjects/182218"
-  },
-  {
     "title": "从头带你撸一个 Spring Boot Starter",
     "description": "我们知道 SpringBoot 提供了很多的 Starter 用于引用各种封装好的功能：名称功能spring-boot-starter-web支持 Web 开发，包括 Tomcat...",
-    "votes": "100",
+    "votes": "102",
     "url": "/k/h7wj37b",
     "avatar": "https://img.toutiao.io/subject/71f9941cb38e4fd7b0d4cf7edf850b2b/thumb",
     "avatarAlt": "无籽水稻研发 - 独家号",
     "subjectName": "无籽水稻研发",
     "homeUrl": "/subjects/454231"
+  },
+  {
+    "title": "亿级流量系统架构演进之路",
+    "description": "海量用户同时进行高频访问对任何平台都是难题，也是行业乐此不疲的研究方向。但值得庆幸的是，虽然业务场景不同，设计和优化的思想却是万变不离宗。本文将结合业务与高并发系统设计的核心技术点...",
+    "votes": "112",
+    "url": "/k/nmwgk0i",
+    "avatar": "https://img.toutiao.io/subject/4f9b8a1b9ad34bf3b815671f8461ff25/thumb",
+    "avatarAlt": "又拍云 - 独家号",
+    "subjectName": "又拍云",
+    "homeUrl": "/subjects/182218"
   },
   {
     "title": "字节一面：Redis 主节点的 Key 已过期，但从节点依然读到过期数据",
@@ -142,7 +132,7 @@
   {
     "title": "聊聊 SQL 优化的 15 个小技巧",
     "description": "大家好，我是苏三，又跟大家见面了。前言 sql优化是一个大家都比较关注的热门话题，无论你在面试，还是工作中，都很有可能会遇到。如果某天你负责的某个线上接口，出现了性能问题，需要做优...",
-    "votes": "101",
+    "votes": "102",
     "url": "/k/48e8g89",
     "avatar": "https://img.toutiao.io/subject/96c1af0d2a0b441ca9740ee13c3e37f3/thumb",
     "avatarAlt": "苏三说技术 - 独家号",
@@ -152,7 +142,7 @@
   {
     "title": "从 RPC 到服务化框架设计",
     "description": "作者：allendbwu，腾讯 PCG 后台开发工程师目前互联网系统都是微服务化，那么就需要 RPC 调用，因此本文梳理了从 RPC 基本框架协议到整个服务化框架体系建设中所包含的...",
-    "votes": "92",
+    "votes": "93",
     "url": "/k/rh7pc7w",
     "avatar": "https://img.toutiao.io/subject/cc2d501408fd455d9b841cb6c8d95a6c/thumb",
     "avatarAlt": "ASCE1885 - 独家号",
@@ -180,6 +170,16 @@
     "homeUrl": "/subjects/350352"
   },
   {
+    "title": "服务 API 版本控制设计与实践",
+    "description": "作者：vivo互联网服务器团队-Song jie一、前言笔者曾负责vivo应用商店服务器开发，有幸见证应用商店从百万日活到几千万日活的发展历程。应用商店客户端经历了大大小小上百个版...",
+    "votes": "86",
+    "url": "/k/puc84fn",
+    "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
+    "avatarAlt": "vivo互联网技术 - 独家号",
+    "subjectName": "vivo互联网技术",
+    "homeUrl": "/subjects/392760"
+  },
+  {
     "title": "如何做好一份程序员的工作汇报 ppt？",
     "description": "这个回答分为4个部分：首先是分析和拆解问题，为什么对于大多数程序来说，做好一份工作汇报ppt是件不容易的事情？第二部分是针对问题的解决方法，主要是工具和逻辑思维两方面的训练第三部分...",
     "votes": "95",
@@ -190,29 +190,9 @@
     "homeUrl": "/subjects/24912"
   },
   {
-    "title": "1 万行代码，单机 50 万 QPS，今年最值得学习的开源 RPC 框架",
-    "description": "又发现一个不错的，工业级的，高性能RPC框架srpc，分享给大家。（1）RPC简介；（2）行业常见RPC框架；（3）srpc特点；（4）srpc上手指南，demo示例；（5）srp...",
-    "votes": "87",
-    "url": "/k/5fkacdj",
-    "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
-    "avatarAlt": "乱点技能树 - 独家号",
-    "subjectName": "乱点技能树",
-    "homeUrl": "/subjects/194141"
-  },
-  {
-    "title": "服务 API 版本控制设计与实践",
-    "description": "作者：vivo互联网服务器团队-Song jie一、前言笔者曾负责vivo应用商店服务器开发，有幸见证应用商店从百万日活到几千万日活的发展历程。应用商店客户端经历了大大小小上百个版...",
-    "votes": "80",
-    "url": "/k/puc84fn",
-    "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
-    "avatarAlt": "vivo互联网技术 - 独家号",
-    "subjectName": "vivo互联网技术",
-    "homeUrl": "/subjects/392760"
-  },
-  {
     "title": "Google：12 条 Golang 最佳实践",
     "description": "这是直接总结好的 12 条，详细的再继续往下看：先处理错误避免嵌套尽量避免重复先写最重要的代码给代码写文档注释命名尽可能简洁使用多文件包使用go get可获取你的包了解自己的需求保...",
-    "votes": "83",
+    "votes": "88",
     "url": "/k/x06am1r",
     "avatar": "https://img.toutiao.io/user/3bfd2f799d5a450996947e9d7a774938/thumb",
     "avatarAlt": "u591436的独家号 - 独家号",
@@ -220,14 +200,44 @@
     "homeUrl": "/subjects/467547"
   },
   {
+    "title": "1 万行代码，单机 50 万 QPS，今年最值得学习的开源 RPC 框架",
+    "description": "又发现一个不错的，工业级的，高性能RPC框架srpc，分享给大家。（1）RPC简介；（2）行业常见RPC框架；（3）srpc特点；（4）srpc上手指南，demo示例；（5）srp...",
+    "votes": "88",
+    "url": "/k/5fkacdj",
+    "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
+    "avatarAlt": "乱点技能树 - 独家号",
+    "subjectName": "乱点技能树",
+    "homeUrl": "/subjects/194141"
+  },
+  {
     "title": "如何写好年度总结 PPT？",
     "description": "到年底了，大家估计都要写年度总结了，但这个PPT不是那么好写，即使只写一两页，也并不是那么容易。PPT作为呈现业绩的主要方式，是职场人士需要掌握的一个技能，特别是对于管理人士，那就...",
-    "votes": "83",
+    "votes": "85",
     "url": "/k/7o8m67l",
     "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
     "avatarAlt": "进击的程序猿 - 独家号",
     "subjectName": "进击的程序猿",
     "homeUrl": "/subjects/24912"
+  },
+  {
+    "title": "服务调优经验总结",
+    "description": "版权声明 本站原创文章 由 萌叔 发表转载请注明 萌叔 | http://vearne.cc前言萌叔工作十多年，有不少服务调优的经验，在这里整理一下思路。希望对自己和同行有所帮助。...",
+    "votes": "83",
+    "url": "/k/av28tr1",
+    "avatar": "https://img.toutiao.io/subject/7c016973c0bb4e13a28ab338153e7d12/thumb",
+    "avatarAlt": "萌叔 - 独家号",
+    "subjectName": "萌叔",
+    "homeUrl": "/subjects/334598"
+  },
+  {
+    "title": "面渣逆袭：HashMap 追魂二十三问",
+    "description": "大家好，我是老三。HashMap作为我们熟悉的一种集合，可以说是面试必考题。简单的使用，再到原理、数据结构，还可以延伸到并发，可以说，就一个HashMap，能聊半个小时。1.能说一...",
+    "votes": "75",
+    "url": "/k/xktwzye",
+    "avatar": "https://img.toutiao.io/subject/d42ad8a9192a430b9df44df9a6d383df/thumb",
+    "avatarAlt": "三分恶 - 独家号",
+    "subjectName": "三分恶",
+    "homeUrl": "/subjects/454266"
   },
   {
     "title": "肝了 3 天，整理了 50 个 Pandas 高频使用技巧，强烈建议收藏",
@@ -238,15 +248,5 @@
     "avatarAlt": "后台杂烩 - 独家号",
     "subjectName": "后台杂烩",
     "homeUrl": "/subjects/77911"
-  },
-  {
-    "title": "字节跳动飞书文档的 Web 极致性能优化",
-    "description": "背景 去年下半年业务高速迭代，大量新 feature 上线，但同时带来的问题是首屏耗时数据日渐上涨，同学们纷纷表示\"移动端文档打开越来越慢，太影响工作效率了\"。于是去年年底我做了下...",
-    "votes": "70",
-    "url": "/k/v1nqbu5",
-    "avatar": "https://img.toutiao.io/subject/c9bc51847b0c4b49aca52d0eaa087ed1/thumb",
-    "avatarAlt": "冷星前端圈 - 独家号",
-    "subjectName": "冷星前端圈",
-    "homeUrl": "/subjects/380054"
   }
 ]

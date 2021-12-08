@@ -2,7 +2,7 @@
   {
     "title": "服务 API 版本控制设计与实践",
     "description": "作者：vivo互联网服务器团队-Song jie一、前言笔者曾负责vivo应用商店服务器开发，有幸见证应用商店从百万日活到几千万日活的发展历程。应用商店客户端经历了大大小小上百个版...",
-    "votes": "80",
+    "votes": "86",
     "url": "/k/puc84fn",
     "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
     "avatarAlt": "vivo互联网技术 - 独家号",
@@ -12,7 +12,7 @@
   {
     "title": "Google：12 条 Golang 最佳实践",
     "description": "这是直接总结好的 12 条，详细的再继续往下看：先处理错误避免嵌套尽量避免重复先写最重要的代码给代码写文档注释命名尽可能简洁使用多文件包使用go get可获取你的包了解自己的需求保...",
-    "votes": "83",
+    "votes": "88",
     "url": "/k/x06am1r",
     "avatar": "https://img.toutiao.io/user/3bfd2f799d5a450996947e9d7a774938/thumb",
     "avatarAlt": "u591436的独家号 - 独家号",
@@ -20,9 +20,19 @@
     "homeUrl": "/subjects/467547"
   },
   {
+    "title": "服务调优经验总结",
+    "description": "版权声明 本站原创文章 由 萌叔 发表转载请注明 萌叔 | http://vearne.cc前言萌叔工作十多年，有不少服务调优的经验，在这里整理一下思路。希望对自己和同行有所帮助。...",
+    "votes": "83",
+    "url": "/k/av28tr1",
+    "avatar": "https://img.toutiao.io/subject/7c016973c0bb4e13a28ab338153e7d12/thumb",
+    "avatarAlt": "萌叔 - 独家号",
+    "subjectName": "萌叔",
+    "homeUrl": "/subjects/334598"
+  },
+  {
     "title": "面渣逆袭：HashMap 追魂二十三问",
     "description": "大家好，我是老三。HashMap作为我们熟悉的一种集合，可以说是面试必考题。简单的使用，再到原理、数据结构，还可以延伸到并发，可以说，就一个HashMap，能聊半个小时。1.能说一...",
-    "votes": "69",
+    "votes": "75",
     "url": "/k/xktwzye",
     "avatar": "https://img.toutiao.io/subject/d42ad8a9192a430b9df44df9a6d383df/thumb",
     "avatarAlt": "三分恶 - 独家号",
@@ -30,19 +40,9 @@
     "homeUrl": "/subjects/454266"
   },
   {
-    "title": "程序员的 10 个好习惯",
-    "description": "我总结了 10 个程序员的好习惯，今天分享给大家。1. 引入新的技术栈的时候，要以官方文档为主在项目里，无论使用新的 jar 包，还是用新的中间件，一定要去看官方文档。现在网上的技...",
-    "votes": "67",
-    "url": "/k/2y6pnqa",
-    "avatar": "https://img.toutiao.io/subject/180d026f85274c998656474cd1988d0f/thumb",
-    "avatarAlt": "四猿外 - 独家号",
-    "subjectName": "四猿外",
-    "homeUrl": "/subjects/426740"
-  },
-  {
     "title": "高性能程序设计，缓存为王",
     "description": "背景我们在程序设计时，有一个极其重要的非功能性指标：性能，总是无时无刻不缠绕在程序员的脑海，尤其是我们开发的面向大众的Web服务，网络接口等程序。高性能的程序可以使用更少的服务器资...",
-    "votes": "59",
+    "votes": "66",
     "url": "/k/a9j7y4a",
     "avatar": "https://img.toutiao.io/subject/f05a135abc844e719541593cad4f8c57/thumb",
     "avatarAlt": "不错的好文 - 独家号",
@@ -52,7 +52,7 @@
   {
     "title": "字节一面：Redis 主节点宕机，如何处理？",
     "description": "大家好，我是Tom哥~今天跟大家聊下，如果Redis某个节点宕机了，要怎么处理？我们知道，Redis集群一般采用主从模式，主节点负责写，从节点负责读。从节点故障 从节点主要提供读服...",
-    "votes": "63",
+    "votes": "64",
     "url": "/k/0xsbfqz",
     "avatar": "https://img.toutiao.io/subject/e62c1664abed48848efc89141ae64112/thumb",
     "avatarAlt": "微观技术 - 独家号",
@@ -60,39 +60,9 @@
     "homeUrl": "/subjects/348507"
   },
   {
-    "title": "服务调优经验总结",
-    "description": "版权声明 本站原创文章 由 萌叔 发表转载请注明 萌叔 | http://vearne.cc前言萌叔工作十多年，有不少服务调优的经验，在这里整理一下思路。希望对自己和同行有所帮助。...",
-    "votes": "64",
-    "url": "/k/av28tr1",
-    "avatar": "https://img.toutiao.io/subject/7c016973c0bb4e13a28ab338153e7d12/thumb",
-    "avatarAlt": "萌叔 - 独家号",
-    "subjectName": "萌叔",
-    "homeUrl": "/subjects/334598"
-  },
-  {
-    "title": "我给 “Go 语言” 开发了 6 个在线工具",
-    "description": "工具快速访问JSON 转 GO: https://www.printlove.cn/tools/json2go YAML 转 GO: https://www.printlove.c...",
-    "votes": "62",
-    "url": "/k/96zw0k6",
-    "avatar": "https://img.toutiao.io/user/3bfd2f799d5a450996947e9d7a774938/thumb",
-    "avatarAlt": "u591436的独家号 - 独家号",
-    "subjectName": "u591436的独家号",
-    "homeUrl": "/subjects/467547"
-  },
-  {
-    "title": "Java 问题排查技术分享",
-    "description": "前言 最近翻看以前写的 PPT， 发现了在2019年做的一次技术分享，关于 Java 问题排查，由于没什么公司机密可言，整理下分享给大家~线上问题处理流程 直接放PPT截图吧，现在...",
-    "votes": "55",
-    "url": "/k/i7k6iqk",
-    "avatar": "https://img.toutiao.io/subject/9635116a54eb4217a569629335a3ee45/thumb",
-    "avatarAlt": "公众号：捉虫大师 - 独家号",
-    "subjectName": "公众号：捉虫大师",
-    "homeUrl": "/subjects/324911"
-  },
-  {
     "title": "使用哪些工具，可以提升 Python 项目质量？",
     "description": " 作者：so1n；来源：博海拾贝diary 前记在编写项目时，都会对代码质量有一定的追求， 比如代码艺术、设计模式、 重构设计等等。但是一个良好 Python 项目除了程序员本身的...",
-    "votes": "47",
+    "votes": "49",
     "url": "/k/x4mnugi",
     "avatar": "https://img.toutiao.io/subject/9a97933f431d4553ba4a1d1838f48143/thumb",
     "avatarAlt": "Python猫技术花园 - 独家号",
@@ -102,7 +72,7 @@
   {
     "title": "字节跳动亿级 DAU 客户端发布最佳实践",
     "description": "本文是字节跳动发布工程团队的高磊讲师在2021 GOPS 全球运维大会中「字节跳动亿级DAU客户端发布最佳实践」的分享全文，公众号后台回复“GOPS”获取分享完整 PPT及技术交流...",
-    "votes": "49",
+    "votes": "52",
     "url": "/k/n412wld",
     "avatar": "https://img.toutiao.io/subject/f05a135abc844e719541593cad4f8c57/thumb",
     "avatarAlt": "不错的好文 - 独家号",
@@ -112,7 +82,7 @@
   {
     "title": "京东秒杀架构升级优化实践",
     "description": "前言京东秒杀是京东最大的营销频道，近年来随着业务的高速发展，频道商品数量和用户流量都呈现出迅猛增长的态势。同时业务方规划未来频道商品数量会增加5至10倍，对商品池扩容诉求较为强烈，...",
-    "votes": "43",
+    "votes": "49",
     "url": "/k/4cxy94p",
     "avatar": "https://img.toutiao.io/subject/cc2d501408fd455d9b841cb6c8d95a6c/thumb",
     "avatarAlt": "ASCE1885 - 独家号",
@@ -122,7 +92,7 @@
   {
     "title": "Ultron：高性能分布式压测工具",
     "description": " 项目地址：https://github.com/wosai/ultron开发背景Ultron第一个版本是在2017年开发的，开发的初衷是发现当时所使用的某压测工具自身存在严重的性...",
-    "votes": "33",
+    "votes": "35",
     "url": "/k/l14jbpy",
     "avatar": "https://img.toutiao.io/subject/1d0951dec604467bb8b6f7097a11660f/thumb",
     "avatarAlt": "质量价值 - 独家号",
@@ -132,7 +102,7 @@
   {
     "title": "Java 中的监控与管理原理概述",
     "description": "这篇文章是 Java 性能分析监控与优化系列的第一篇文章，原本是计划系统的介绍 Java 性能分析方式和流行的监控工具，但是提笔之后意识到，只介绍分析方式和监控工具过于浅尝辄止了。...",
-    "votes": "36",
+    "votes": "39",
     "url": "/k/iug5i04",
     "avatar": "https://img.toutiao.io/subject/7068cffba4444f80b0ec5ced5ee058ad/thumb",
     "avatarAlt": "程序猿阿朗 - 独家号",
@@ -140,19 +110,39 @@
     "homeUrl": "/subjects/365875"
   },
   {
-    "title": "一文讲透一致性哈希的原理和实现",
-    "description": "为什么需要一致性哈希  首先介绍一下什么是哈希Hash，一般翻译做散列，或音译为哈希，是把任意长度的输入（又叫做预映射pre-image）通过散列算法变换成固定长度的输出，该输出就...",
-    "votes": "30",
-    "url": "/k/qjxhu9i",
-    "avatar": "https://img.toutiao.io/subject/3f69ffc3bdf6496e86439348166e3ed7/thumb",
-    "avatarAlt": "GoHackers - 独家号",
-    "subjectName": "GoHackers",
-    "homeUrl": "/subjects/1385"
+    "title": "性能优化：高效内存池的设计与实现",
+    "description": "❝对本文有疑问的，可以公众号留言、私信，也可以加笔者微信直接交流(文末留有微信二维码)；另外还有批量免费计算机电子书，后台回复[pdf]免费获取。❞ 大家好，我是雨乐！在之前的文章...",
+    "votes": "34",
+    "url": "/k/9vo0ly6",
+    "avatar": "https://img.toutiao.io/subject/b5b3dc9b66d043258e01d2d26b8c731d/thumb",
+    "avatarAlt": "公众号:高性能架构探索 - 独家号",
+    "subjectName": "公众号:高性能架构探索",
+    "homeUrl": "/subjects/465706"
+  },
+  {
+    "title": "使用 markdown 画流程图、时序图",
+    "description": "在日常工作中，难免会画一些流程图、时序图。之前都是选择使用在线的画图网站，画完然后截图插入到文档。我个人用的比较多的主要是 腾讯文档 。相较于截图的方式，代码画图都有哪些好处呢？•...",
+    "votes": "31",
+    "url": "/k/r4mo1a4",
+    "avatar": "https://img.toutiao.io/subject/cad75b0bdfba45b2a7ebeab452b178a2/thumb",
+    "avatarAlt": "编程技术相关 - 独家号",
+    "subjectName": "编程技术相关",
+    "homeUrl": "/subjects/10542"
+  },
+  {
+    "title": "接下来一段时间会对大家进行网络通信的魔鬼训练：理解 Socket",
+    "description": "引子 下一篇标题是《深入理解MQ生产端的底层通信过程》，建议文章读完之前、或者读完之后，再读一遍我之前写的《RabbitMQ设计原理解析》，结合理解一下。我大学时流行过一个韩剧《大...",
+    "votes": "38",
+    "url": "/k/1guurta",
+    "avatar": "https://img.toutiao.io/subject/4325865040b44c0b9e2d8d80a83d1d11/thumb",
+    "avatarAlt": "编程一生 - 独家号",
+    "subjectName": "编程一生",
+    "homeUrl": "/subjects/350352"
   },
   {
     "title": "浅谈 K8s 网络模型 CNI 协议",
     "description": "作者：successwang（王成），腾讯 CSIG 研发工程师，Kubernetes member。1. 概述 进入 K8s 的世界，会发现有很多方便扩展的 Interface，...",
-    "votes": "31",
+    "votes": "32",
     "url": "/k/vyje6t3",
     "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
     "avatarAlt": "趣编程的独家号 - 独家号",
@@ -160,29 +150,9 @@
     "homeUrl": "/subjects/465623"
   },
   {
-    "title": "编码硬实力之外，程序员的软技能",
-    "description": " 打拼，有时候拼的不仅仅是硬实力，还有很多其他因素...hello，大家好，我是张张，「架构精进之路」公号作者。 程序员群体不应该是一直低头敲代码，更应该掌握一些软技能，改变一贯的...",
-    "votes": "30",
-    "url": "/k/msvslce",
-    "avatar": "https://img.toutiao.io/subject/071476c43e0d42cf95f3e77f046c814b/thumb",
-    "avatarAlt": "架构精进之路 - 独家号",
-    "subjectName": "架构精进之路",
-    "homeUrl": "/subjects/452638"
-  },
-  {
-    "title": "进行一个 SQL 优化需要做哪些准备？ (Metadata Lock 和 online DDL)",
-    "description": "优化的必要性和急迫性分析 真的有必要优化吗？ 在《容易引起雪崩的两个处理》里，我提到一个慢查询问题。因为一个慢查询造成了联调环境的数据库挂掉，我们进行了点线面的梳理，排查了所有数据...",
-    "votes": "28",
-    "url": "/k/sj4s6ev",
-    "avatar": "https://img.toutiao.io/subject/4325865040b44c0b9e2d8d80a83d1d11/thumb",
-    "avatarAlt": "编程一生 - 独家号",
-    "subjectName": "编程一生",
-    "homeUrl": "/subjects/350352"
-  },
-  {
     "title": "2021 年持续交付经验小结",
     "description": "图是美的全球创新中心西门2021年小结后知后觉又一年。2021年，我带着2个人（一个偏物理层运维，一个偏应用层的运维）支撑着8个平台，每平台约3个环境的运维工作。部署方面：测试环境...",
-    "votes": "29",
+    "votes": "32",
     "url": "/k/s365b5y",
     "avatar": "https://img.toutiao.io/subject/cadea37d81e5498fa35c8382270dbb95/thumb",
     "avatarAlt": "持续交付实践指南 - 独家号",
@@ -190,13 +160,43 @@
     "homeUrl": "/subjects/349081"
   },
   {
+    "title": "编码硬实力之外，程序员的软技能",
+    "description": " 打拼，有时候拼的不仅仅是硬实力，还有很多其他因素...hello，大家好，我是张张，「架构精进之路」公号作者。 程序员群体不应该是一直低头敲代码，更应该掌握一些软技能，改变一贯的...",
+    "votes": "31",
+    "url": "/k/msvslce",
+    "avatar": "https://img.toutiao.io/subject/071476c43e0d42cf95f3e77f046c814b/thumb",
+    "avatarAlt": "架构精进之路 - 独家号",
+    "subjectName": "架构精进之路",
+    "homeUrl": "/subjects/452638"
+  },
+  {
     "title": "一文理解 K8s 容器网络虚拟化",
     "description": " 本文需要读者熟悉 Ethernet（以太网）的基本原理和 Linux 系统的基本网络命令，以及 TCP/IP 协议族并了解传统的网络模型和协议包的流转原理。文中涉及到 Linux...",
-    "votes": "26",
+    "votes": "28",
     "url": "/k/qan1m07",
     "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
     "avatarAlt": "趣编程的独家号 - 独家号",
     "subjectName": "趣编程的独家号",
     "homeUrl": "/subjects/465623"
+  },
+  {
+    "title": "听说你还不会分阶段构建 Docker 镜像？",
+    "description": " 用 Go 语言开发的程序打包后就一个可执行的二进制文件，一般情况下是不需要什么环境依赖就能执行运行跑起来，如果拿到 Docker 里面跑，是非常有优势的。现在都 2021 年了，...",
+    "votes": "31",
+    "url": "/k/04n9rda",
+    "avatar": "https://img.toutiao.io/subject/91240c26cd094eff817077d3af73998f/thumb",
+    "avatarAlt": "微信搜「golang全栈」 - 独家号",
+    "subjectName": "微信搜「golang全栈」",
+    "homeUrl": "/subjects/462055"
+  },
+  {
+    "title": "贝壳业务数据治理中台实践",
+    "description": "分享嘉宾：李清华 贝壳 资深产品经理编辑整理：赵敏出品平台：DataFunTalk导读：数据治理经过多年的沉淀，积累了比较完善的理论体系；但是落地时候，治理范围如何聚焦，数据产品如...",
+    "votes": "26",
+    "url": "/k/h3pytgo",
+    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
+    "avatarAlt": "进击的程序猿 - 独家号",
+    "subjectName": "进击的程序猿",
+    "homeUrl": "/subjects/24912"
   }
 ]
