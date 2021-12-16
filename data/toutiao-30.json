@@ -2,7 +2,7 @@
   {
     "title": "57 张图，13 个实验，干死 MySQL 锁",
     "description": "你好，我是yes。前段时间写了一篇关于 MySQL 锁的文章，一些小伙伴们在阅读之后产生了一些疑问，这些问题还挺有代表性的，所以在这里做个实验，来用事实探究一番。那篇文章提到了记录...",
-    "votes": "193",
+    "votes": "194",
     "url": "/k/huoy9s9",
     "avatar": "https://img.toutiao.io/subject/71da457007fd4b67a45253b271a25eee/thumb",
     "avatarAlt": "yes的练级攻略 - 独家号",
@@ -82,7 +82,7 @@
   {
     "title": "从头带你撸一个 Spring Boot Starter",
     "description": "我们知道 SpringBoot 提供了很多的 Starter 用于引用各种封装好的功能：名称功能spring-boot-starter-web支持 Web 开发，包括 Tomcat...",
-    "votes": "107",
+    "votes": "108",
     "url": "/k/h7wj37b",
     "avatar": "https://img.toutiao.io/subject/71f9941cb38e4fd7b0d4cf7edf850b2b/thumb",
     "avatarAlt": "无籽水稻研发 - 独家号",
@@ -120,14 +120,14 @@
     "homeUrl": "/subjects/392760"
   },
   {
-    "title": "字节一面：Redis 主节点的 Key 已过期，但从节点依然读到过期数据",
-    "description": "大家好，我是Tom哥~我们知道，大部分的业务场景都是读多写少，为了利用好这个特性，提升Redis集群系统的吞吐能力，通常会采用主从架构、读写分离如上图所示：其中Master节点：负...",
-    "votes": "108",
-    "url": "/k/ptbzpm7",
-    "avatar": "https://img.toutiao.io/subject/e62c1664abed48848efc89141ae64112/thumb",
-    "avatarAlt": "微观技术 - 独家号",
-    "subjectName": "微观技术",
-    "homeUrl": "/subjects/348507"
+    "title": "服务调优经验总结",
+    "description": "版权声明 本站原创文章 由 萌叔 发表转载请注明 萌叔 | http://vearne.cc前言萌叔工作十多年，有不少服务调优的经验，在这里整理一下思路。希望对自己和同行有所帮助。...",
+    "votes": "100",
+    "url": "/k/av28tr1",
+    "avatar": "https://img.toutiao.io/subject/7c016973c0bb4e13a28ab338153e7d12/thumb",
+    "avatarAlt": "萌叔 - 独家号",
+    "subjectName": "萌叔",
+    "homeUrl": "/subjects/334598"
   },
   {
     "title": "如何做好一份程序员的工作汇报 ppt？",
@@ -138,16 +138,6 @@
     "avatarAlt": "进击的程序猿 - 独家号",
     "subjectName": "进击的程序猿",
     "homeUrl": "/subjects/24912"
-  },
-  {
-    "title": "服务调优经验总结",
-    "description": "版权声明 本站原创文章 由 萌叔 发表转载请注明 萌叔 | http://vearne.cc前言萌叔工作十多年，有不少服务调优的经验，在这里整理一下思路。希望对自己和同行有所帮助。...",
-    "votes": "99",
-    "url": "/k/av28tr1",
-    "avatar": "https://img.toutiao.io/subject/7c016973c0bb4e13a28ab338153e7d12/thumb",
-    "avatarAlt": "萌叔 - 独家号",
-    "subjectName": "萌叔",
-    "homeUrl": "/subjects/334598"
   },
   {
     "title": "Google：12 条 Golang 最佳实践",
@@ -180,6 +170,16 @@
     "homeUrl": "/subjects/19934"
   },
   {
+    "title": "面渣逆袭：HashMap 追魂二十三问",
+    "description": "大家好，我是老三。HashMap作为我们熟悉的一种集合，可以说是面试必考题。简单的使用，再到原理、数据结构，还可以延伸到并发，可以说，就一个HashMap，能聊半个小时。1.能说一...",
+    "votes": "80",
+    "url": "/k/xktwzye",
+    "avatar": "https://img.toutiao.io/subject/d42ad8a9192a430b9df44df9a6d383df/thumb",
+    "avatarAlt": "三分恶 - 独家号",
+    "subjectName": "三分恶",
+    "homeUrl": "/subjects/454266"
+  },
+  {
     "title": "高性能程序设计，缓存为王",
     "description": "背景我们在程序设计时，有一个极其重要的非功能性指标：性能，总是无时无刻不缠绕在程序员的脑海，尤其是我们开发的面向大众的Web服务，网络接口等程序。高性能的程序可以使用更少的服务器资...",
     "votes": "76",
@@ -188,16 +188,6 @@
     "avatarAlt": "不错的好文 - 独家号",
     "subjectName": "不错的好文",
     "homeUrl": "/subjects/5551"
-  },
-  {
-    "title": "面渣逆袭：HashMap 追魂二十三问",
-    "description": "大家好，我是老三。HashMap作为我们熟悉的一种集合，可以说是面试必考题。简单的使用，再到原理、数据结构，还可以延伸到并发，可以说，就一个HashMap，能聊半个小时。1.能说一...",
-    "votes": "79",
-    "url": "/k/xktwzye",
-    "avatar": "https://img.toutiao.io/subject/d42ad8a9192a430b9df44df9a6d383df/thumb",
-    "avatarAlt": "三分恶 - 独家号",
-    "subjectName": "三分恶",
-    "homeUrl": "/subjects/454266"
   },
   {
     "title": "肝了 3 天，整理了 50 个 Pandas 高频使用技巧，强烈建议收藏",
@@ -212,12 +202,22 @@
   {
     "title": "程序员的 10 个好习惯",
     "description": "我总结了 10 个程序员的好习惯，今天分享给大家。1. 引入新的技术栈的时候，要以官方文档为主在项目里，无论使用新的 jar 包，还是用新的中间件，一定要去看官方文档。现在网上的技...",
-    "votes": "77",
+    "votes": "78",
     "url": "/k/2y6pnqa",
     "avatar": "https://img.toutiao.io/subject/180d026f85274c998656474cd1988d0f/thumb",
     "avatarAlt": "四猿外 - 独家号",
     "subjectName": "四猿外",
     "homeUrl": "/subjects/426740"
+  },
+  {
+    "title": "Java 问题排查技术分享",
+    "description": "前言 最近翻看以前写的 PPT， 发现了在2019年做的一次技术分享，关于 Java 问题排查，由于没什么公司机密可言，整理下分享给大家~线上问题处理流程 直接放PPT截图吧，现在...",
+    "votes": "75",
+    "url": "/k/i7k6iqk",
+    "avatar": "https://img.toutiao.io/subject/9635116a54eb4217a569629335a3ee45/thumb",
+    "avatarAlt": "公众号：捉虫大师 - 独家号",
+    "subjectName": "公众号：捉虫大师",
+    "homeUrl": "/subjects/324911"
   },
   {
     "title": "字节一面：Redis 主节点宕机，如何处理？",
@@ -230,23 +230,23 @@
     "homeUrl": "/subjects/348507"
   },
   {
-    "title": "Java 问题排查技术分享",
-    "description": "前言 最近翻看以前写的 PPT， 发现了在2019年做的一次技术分享，关于 Java 问题排查，由于没什么公司机密可言，整理下分享给大家~线上问题处理流程 直接放PPT截图吧，现在...",
+    "title": "字节跳动飞书文档的 Web 极致性能优化",
+    "description": "背景 去年下半年业务高速迭代，大量新 feature 上线，但同时带来的问题是首屏耗时数据日渐上涨，同学们纷纷表示\"移动端文档打开越来越慢，太影响工作效率了\"。于是去年年底我做了下...",
     "votes": "73",
-    "url": "/k/i7k6iqk",
-    "avatar": "https://img.toutiao.io/subject/9635116a54eb4217a569629335a3ee45/thumb",
-    "avatarAlt": "公众号：捉虫大师 - 独家号",
-    "subjectName": "公众号：捉虫大师",
-    "homeUrl": "/subjects/324911"
+    "url": "/k/v1nqbu5",
+    "avatar": "https://img.toutiao.io/subject/c9bc51847b0c4b49aca52d0eaa087ed1/thumb",
+    "avatarAlt": "冷星前端圈 - 独家号",
+    "subjectName": "冷星前端圈",
+    "homeUrl": "/subjects/380054"
   },
   {
-    "title": "干货总结！Kafka 面试大全（万字长文，37 张图，28 个知识点）",
-    "description": "关注并标星 3分钟秒懂大数据每天1次，打卡阅读获取流计算、大数据技术和面经大家好，我是土哥。周末用了整整两天时间，整理了一下 Kafka 面试的连环问题，保证你看完后，对 Kafk...",
-    "votes": "75",
-    "url": "/k/ch3u5rs",
-    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
-    "avatarAlt": "进击的程序猿 - 独家号",
-    "subjectName": "进击的程序猿",
-    "homeUrl": "/subjects/24912"
+    "title": "vivo 敏感词匹配系统的设计与实践",
+    "description": "作者：vivo互联网服务器团队-Liang Kangwu一、前言谛听系统是vivo的内容审核平台，保障了vivo各互联网产品持续健康的发展。谛听支持审核多种内容类型，但日常主要审核...",
+    "votes": "68",
+    "url": "/k/hrnq79a",
+    "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
+    "avatarAlt": "vivo互联网技术 - 独家号",
+    "subjectName": "vivo互联网技术",
+    "homeUrl": "/subjects/392760"
   }
 ]
