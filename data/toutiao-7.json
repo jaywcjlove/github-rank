@@ -2,7 +2,7 @@
   {
     "title": "vivo 敏感词匹配系统的设计与实践",
     "description": "作者：vivo互联网服务器团队-Liang Kangwu一、前言谛听系统是vivo的内容审核平台，保障了vivo各互联网产品持续健康的发展。谛听支持审核多种内容类型，但日常主要审核...",
-    "votes": "68",
+    "votes": "74",
     "url": "/k/hrnq79a",
     "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
     "avatarAlt": "vivo互联网技术 - 独家号",
@@ -12,7 +12,7 @@
   {
     "title": "一个技术团队leader的搭建私有知识库避坑经验分享",
     "description": "",
-    "votes": "53",
+    "votes": "58",
     "url": "/k/o3dptn4",
     "avatar": "https://img.toutiao.io/user/5d60a43c993946a5be97e5f5bcf76e6f/thumb",
     "avatarAlt": "u591822的独家号 - 独家号",
@@ -20,19 +20,9 @@
     "homeUrl": "/subjects/467932"
   },
   {
-    "title": "CURD 系统怎么做出技术含量惊艳面试官",
-    "description": "引子在《CURD系统怎么做出技术含量--怎样引导面试》有朋友开玩笑说都用上了领域驱动了，就不叫CURD系统了吧。这里我解释一下，怕大家对DDD领域驱动设计有什么误解。DDD是为解决...",
-    "votes": "59",
-    "url": "/k/0hurrgr",
-    "avatar": "https://img.toutiao.io/subject/4325865040b44c0b9e2d8d80a83d1d11/thumb",
-    "avatarAlt": "编程一生 - 独家号",
-    "subjectName": "编程一生",
-    "homeUrl": "/subjects/350352"
-  },
-  {
     "title": "网易严选实时计算平台建设实践",
     "description": "分享嘉宾：王杰瑞 (前)网易 资深服务端研发编辑整理：宋灵城出品平台：DataFunTalk导读：网易严选作为一家品牌电商，对数据实时驱动业务有较高要求。在严选，实时计算被广泛应用...",
-    "votes": "47",
+    "votes": "49",
     "url": "/k/67cbep8",
     "avatar": "https://img.toutiao.io/subject/6ee3bb205b3248c2b746c1506548181a/thumb",
     "avatarAlt": "大数据生态 - 独家号",
@@ -40,9 +30,29 @@
     "homeUrl": "/subjects/136176"
   },
   {
+    "title": "深入剖析全链路灰度技术内幕",
+    "description": "",
+    "votes": "45",
+    "url": "/k/zimpz4c",
+    "avatar": "https://img.toutiao.io/subject/cc2d501408fd455d9b841cb6c8d95a6c/thumb",
+    "avatarAlt": "ASCE1885 - 独家号",
+    "subjectName": "ASCE1885",
+    "homeUrl": "/subjects/4829"
+  },
+  {
+    "title": "用 Go + Redis 实现分布式锁",
+    "description": "",
+    "votes": "47",
+    "url": "/k/0yfuwmr",
+    "avatar": "https://img.toutiao.io/subject/3f69ffc3bdf6496e86439348166e3ed7/thumb",
+    "avatarAlt": "GoHackers - 独家号",
+    "subjectName": "GoHackers",
+    "homeUrl": "/subjects/1385"
+  },
+  {
     "title": "深入剖析分布式事务一致性",
     "description": "",
-    "votes": "40",
+    "votes": "42",
     "url": "/k/sewaxtv",
     "avatar": "https://img.toutiao.io/subject/45e806cf22ab424b831afe890c225505/thumb",
     "avatarAlt": "叶东富 - 独家号",
@@ -50,14 +60,14 @@
     "homeUrl": "/subjects/307550"
   },
   {
-    "title": "用 Go + Redis 实现分布式锁",
+    "title": "Nginx 通过 Lua + Redis 实现动态封禁 IP",
     "description": "",
-    "votes": "44",
-    "url": "/k/0yfuwmr",
-    "avatar": "https://img.toutiao.io/subject/3f69ffc3bdf6496e86439348166e3ed7/thumb",
-    "avatarAlt": "GoHackers - 独家号",
-    "subjectName": "GoHackers",
-    "homeUrl": "/subjects/1385"
+    "votes": "40",
+    "url": "/k/1zav0z2",
+    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
   },
   {
     "title": "CompletableFuture：让你的代码免受阻塞之苦",
@@ -72,7 +82,7 @@
   {
     "title": "阿里巴巴数据治理实践.PPT",
     "description": "",
-    "votes": "35",
+    "votes": "37",
     "url": "/k/xxb2z61",
     "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
     "avatarAlt": "进击的程序猿 - 独家号",
@@ -82,7 +92,7 @@
   {
     "title": "双12都来了，我的秒杀架构还没搭出来……",
     "description": "",
-    "votes": "38",
+    "votes": "39",
     "url": "/k/kw0ca5r",
     "avatar": "https://img.toutiao.io/subject/dc985e32ff464581afaa81f175880312/thumb",
     "avatarAlt": "dotnet - 独家号",
@@ -90,19 +100,19 @@
     "homeUrl": "/subjects/348014"
   },
   {
-    "title": "我在工作中常用的 C++ 开源库和框架",
-    "description": "RPC框架：brpcgithub地址：https://github.com/apache/incubator-brpc一句话推荐：如果把grpc理解成good rpc，那么brpc...",
-    "votes": "41",
-    "url": "/k/bk7eqgh",
-    "avatar": "https://img.toutiao.io/subject/9689de3b035249df91b951e9317f0678/thumb",
-    "avatarAlt": "编程往事 - 独家号",
-    "subjectName": "编程往事",
-    "homeUrl": "/subjects/99877"
+    "title": "基于 iframe 的全新微前端方案",
+    "description": "",
+    "votes": "42",
+    "url": "/k/1opaibm",
+    "avatar": "https://img.toutiao.io/subject/f05a135abc844e719541593cad4f8c57/thumb",
+    "avatarAlt": "不错的好文 - 独家号",
+    "subjectName": "不错的好文",
+    "homeUrl": "/subjects/5551"
   },
   {
     "title": "精妙绝伦的并发艺术品 — ConcurrentHashMap是如何保证线程安全的",
     "description": "",
-    "votes": "34",
+    "votes": "36",
     "url": "/k/6ypqn5r",
     "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
     "avatarAlt": "浪客用react,java全栈 - 独家号",
@@ -120,34 +130,14 @@
     "homeUrl": "/subjects/4829"
   },
   {
-    "title": "Nginx 通过 Lua + Redis 实现动态封禁 IP",
-    "description": "",
-    "votes": "30",
-    "url": "/k/1zav0z2",
-    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
-    "avatarAlt": "Bloomingroses - 独家号",
-    "subjectName": "Bloomingroses",
-    "homeUrl": "/subjects/98777"
-  },
-  {
     "title": "跑了4个实验，实战讲解 MySQL的行锁、间隙锁...​",
     "description": "",
-    "votes": "31",
+    "votes": "32",
     "url": "/k/j6zhfoc",
     "avatar": "https://img.toutiao.io/subject/e62c1664abed48848efc89141ae64112/thumb",
     "avatarAlt": "微观技术 - 独家号",
     "subjectName": "微观技术",
     "homeUrl": "/subjects/348507"
-  },
-  {
-    "title": "基于 iframe 的全新微前端方案",
-    "description": "",
-    "votes": "34",
-    "url": "/k/1opaibm",
-    "avatar": "https://img.toutiao.io/subject/f05a135abc844e719541593cad4f8c57/thumb",
-    "avatarAlt": "不错的好文 - 独家号",
-    "subjectName": "不错的好文",
-    "homeUrl": "/subjects/5551"
   },
   {
     "title": "干掉visio，这个画图神器真的绝了！！！",
@@ -160,14 +150,14 @@
     "homeUrl": "/subjects/453205"
   },
   {
-    "title": "Intel 内存管理两板斧：分段与分页",
-    "description": "新读者看这里，老读者直接跳过。本系列会以一个读小说的心态，从开机启动后的代码执行顺序，带着大家阅读和赏析 Linux 0.11 全部核心代码，了解操作系统的技术细节和设计思想。你会...",
-    "votes": "29",
-    "url": "/k/nq84jym",
-    "avatar": "https://img.toutiao.io/subject/dc985e32ff464581afaa81f175880312/thumb",
-    "avatarAlt": "dotnet - 独家号",
-    "subjectName": "dotnet",
-    "homeUrl": "/subjects/348014"
+    "title": "Intellij IDEA 神级插件！效率提升 10 倍！",
+    "description": "",
+    "votes": "32",
+    "url": "/k/4iqf0c2",
+    "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
+    "avatarAlt": "浪客用react,java全栈 - 独家号",
+    "subjectName": "浪客用react,java全栈",
+    "homeUrl": "/subjects/132403"
   },
   {
     "title": "博采 27 门语言之长，提升 Python 的能力",
@@ -180,23 +170,33 @@
     "homeUrl": "/subjects/14371"
   },
   {
-    "title": "Spring Cloud 整合 Nacos 实现服务配置中心",
-    "description": "在之前的文章 《Nacos 本地单机版部署步骤和使用》 中，大家应该了解了 Nacos 是什么？其中 Nacos 提供了动态配置服务功能一、Nacos 动态配置服务是什么？官方是这...",
-    "votes": "99",
-    "url": "/k/ilvya35",
-    "avatar": "https://img.toutiao.io/subject/9ded408b195546449be7902d74f30136/thumb",
-    "avatarAlt": "程序员泥瓦匠 - 独家号",
-    "subjectName": "程序员泥瓦匠",
-    "homeUrl": "/subjects/2500"
-  },
-  {
     "title": "网络字节序列-大端序和小端序",
     "description": "",
-    "votes": "31",
+    "votes": "32",
     "url": "/k/ohy7j47",
     "avatar": "https://img.toutiao.io/subject/4325865040b44c0b9e2d8d80a83d1d11/thumb",
     "avatarAlt": "编程一生 - 独家号",
     "subjectName": "编程一生",
     "homeUrl": "/subjects/350352"
+  },
+  {
+    "title": "传统架构 vs 云原生架构，谈谈为什么我们需要云原生架构？",
+    "description": "",
+    "votes": "28",
+    "url": "/k/8fsph1v",
+    "avatar": "https://img.toutiao.io/subject/a86110aa56014103ad3cefe2312bd333/thumb",
+    "avatarAlt": "虞大胆的叽叽喳喳 - 独家号",
+    "subjectName": "虞大胆的叽叽喳喳",
+    "homeUrl": "/subjects/133323"
+  },
+  {
+    "title": "【超赞】技术架构的战略和战术原则",
+    "description": "",
+    "votes": "23",
+    "url": "/k/vbel7h3",
+    "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
+    "avatarAlt": "浪客用react,java全栈 - 独家号",
+    "subjectName": "浪客用react,java全栈",
+    "homeUrl": "/subjects/132403"
   }
 ]
