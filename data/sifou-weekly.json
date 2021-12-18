@@ -1,30 +1,21 @@
 [
   {
-    "title": "20 个防御性的 CSS 处理方式，很细节很常见，也很容易被忽略的处理方式",
-    "description": "看到一篇来自 @shadeed9 关于 CSS 的文章内容，整体来说主要在编写 CSS 时可能需要注意到的一些带有保护性的处理方式，以避免页面布局上出现错位等情况。CSS 属性有些还是很常见的，只不过深感在细节上的把控真的...",
-    "url": "https://segmentfault.com/a/1190000041099699",
-    "author": "林小志",
-    "home_url": "https://segmentfault.com/u/linxz",
-    "votes": "28",
-    "rank": 1
-  },
-  {
     "title": "基于 Vite 搭建开发体验超级丝滑的 Vue3 组件库开发框架",
     "description": "说到 Vue 的组件库，大家肯定早已耳熟能详，随随便便就能列举出一大堆。那为什么还需要自己去搭建呢？结合自身的经验，在业务中往往需要高度定制化的组件，无论是 UI 和交互，可能都会跟市面上现有的组件库有着较...",
     "url": "https://segmentfault.com/a/1190000041103446",
     "author": "jrainlau",
     "home_url": "https://segmentfault.com/u/jrainlau",
-    "votes": "15",
-    "rank": 2
+    "votes": "16",
+    "rank": 1
   },
   {
-    "title": "从 Amazon Graviton3 发布，看 2022 云计算的核心方向",
-    "description": "可能会有不少人把票投给 Amazon Graviton3。这不仅因为“自研芯片”这个概念在当下成为了“硬核实力”的象征、大众喜闻乐见的话题，也不仅因为芯片代表了云服务最基础的能力，更是因为 Amazon Graviton3 的发布，实实...",
-    "url": "https://segmentfault.com/a/1190000041098622",
-    "author": "思否编辑部",
-    "home_url": "https://segmentfault.com/u/writers",
-    "votes": "11",
-    "rank": 3
+    "title": "100行代码实现React核心调度功能",
+    "description": "大家好，我卡颂。想必大家都知道React有一套基于Fiber架构的调度系统。这套调度系统的基本功能包括：更新有不同优先级一次更新可能涉及多个组件的render，这些render可能分配到多个宏任务中执行（即时间切片）高...",
+    "url": "https://segmentfault.com/a/1190000041126142",
+    "author": "卡颂",
+    "home_url": "https://segmentfault.com/u/kasong",
+    "votes": "12",
+    "rank": 2
   },
   {
     "title": "现代配置指南——YAML 比 JSON 高级在哪？",
@@ -32,6 +23,15 @@
     "url": "https://segmentfault.com/a/1190000041108051",
     "author": "杨成功",
     "home_url": "https://segmentfault.com/u/ruidoc",
+    "votes": "18",
+    "rank": 3
+  },
+  {
+    "title": "公司用的 MySQL 团队开发规范，太详细了，建议收藏！",
+    "description": "数据库对象是数据库的组成部分，常见的有以下几种：表（Table ）、索引（Index）、视图（View）、图表（Diagram）、缺省值（Default）、规则（Rule）、触发器（Trigger）、存储过程（Stored Procedure）、 用户（...",
+    "url": "https://segmentfault.com/a/1190000041105650",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "16",
     "rank": 4
   },
@@ -45,12 +45,12 @@
     "rank": 5
   },
   {
-    "title": "公司用的 MySQL 团队开发规范，太详细了，建议收藏！",
-    "description": "数据库对象是数据库的组成部分，常见的有以下几种：表（Table ）、索引（Index）、视图（View）、图表（Diagram）、缺省值（Default）、规则（Rule）、触发器（Trigger）、存储过程（Stored Procedure）、 用户（...",
-    "url": "https://segmentfault.com/a/1190000041105650",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "15",
+    "title": "这是什么选秀节目？数百万人看后想学「机器学习」",
+    "description": "“秋名山上行人稀，常有车手较高低。如今无人车当道，全是 AI 老司机。”且问 AI 老司机表现如何？可灵活转弯，控速自如：可行云流水，沿最优路线过弯：更可多次打圈，绕多少下也不在话下：这场竞速赛事，主角确实...",
+    "url": "https://segmentfault.com/a/1190000041130996",
+    "author": "思否编辑部",
+    "home_url": "https://segmentfault.com/u/writers",
+    "votes": "8",
     "rank": 6
   },
   {
@@ -59,7 +59,7 @@
     "url": "https://segmentfault.com/a/1190000041105568",
     "author": "火线安全",
     "home_url": "https://segmentfault.com/u/huoxian",
-    "votes": "8",
+    "votes": "9",
     "rank": 7
   },
   {
@@ -72,40 +72,31 @@
     "rank": 8
   },
   {
-    "title": "把数据拖进图形界面，AI帮你预测业务，亚马逊云科技新功能亮了",
-    "description": "亚马逊云科技 re:Invent 大会可谓是云计算行业的“春晚”，IT 技术领域风向标级活动，连他们自家的西雅图总部大厦也随其更名为大会名，品牌影响之强，可见一斑。",
-    "url": "https://segmentfault.com/a/1190000041115055",
-    "author": "思否编辑部",
-    "home_url": "https://segmentfault.com/u/writers",
-    "votes": "6",
-    "rank": 9
-  },
-  {
     "title": "挺过365天高强度学习|2021我的年度总结",
     "description": "时光如梭，嗖嗖嗖～，2021年已余额不足，这一年科技互联网行业也发生了很多大大小小的事情，例如苹果粉一直期盼的十三香，并不是很香，苹果新款MacBook也出了刘海，还有本PHP猿最关心的“世界上最好的语言”也总算...",
     "url": "https://segmentfault.com/a/1190000041101814",
     "author": "CrazyCodes",
     "home_url": "https://segmentfault.com/u/crazycodes",
     "votes": "8",
+    "rank": 9
+  },
+  {
+    "title": "把数据拖进图形界面，AI帮你预测业务，亚马逊云科技新功能亮了",
+    "description": "亚马逊云科技 re:Invent 大会可谓是云计算行业的“春晚”，IT 技术领域风向标级活动，连他们自家的西雅图总部大厦也随其更名为大会名，品牌影响之强，可见一斑。",
+    "url": "https://segmentfault.com/a/1190000041115055",
+    "author": "思否编辑部",
+    "home_url": "https://segmentfault.com/u/writers",
+    "votes": "6",
     "rank": 10
   },
   {
-    "title": "不忘初心，砥砺前行——记录于2021",
-    "description": "以前很难想象能在一个地方工作这么久，一开始是源于对Segmentfault这个产品的喜欢，后来，和老板既是上下级关系，也是算是朋友，喜欢这样的一个工作氛围。本身我们做的是开发者社区，为的是开发者服务，自然工作...",
-    "url": "https://segmentfault.com/a/1190000041098659",
-    "author": "kumfo",
-    "home_url": "https://segmentfault.com/u/kumfo",
-    "votes": "8",
-    "rank": 11
-  },
-  {
-    "title": "这是什么选秀节目？数百万人看后想学「机器学习」",
-    "description": "“秋名山上行人稀，常有车手较高低。如今无人车当道，全是 AI 老司机。”且问 AI 老司机表现如何？可灵活转弯，控速自如：可行云流水，沿最优路线过弯：更可多次打圈，绕多少下也不在话下：这场竞速赛事，主角确实...",
-    "url": "https://segmentfault.com/a/1190000041130996",
+    "title": "被寄予厚望的 Serverless，争议和问题都解决了吗？",
+    "description": "2009 年，加州大学伯克利分校发布了一篇论文 《The Berkeley View on Cloud Computing》，正确预测了接下来十年的云计算演进和普及。",
+    "url": "https://segmentfault.com/a/1190000041137697",
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
-    "votes": "4",
-    "rank": 12
+    "votes": "5",
+    "rank": 11
   },
   {
     "title": "Java集合高频面试题",
@@ -114,34 +105,7 @@
     "author": "程序员大彬",
     "home_url": "https://segmentfault.com/u/5n7qfpo1",
     "votes": "8",
-    "rank": 13
-  },
-  {
-    "title": "100行代码实现React核心调度功能",
-    "description": "大家好，我卡颂。想必大家都知道React有一套基于Fiber架构的调度系统。这套调度系统的基本功能包括：更新有不同优先级一次更新可能涉及多个组件的render，这些render可能分配到多个宏任务中执行（即时间切片）高...",
-    "url": "https://segmentfault.com/a/1190000041126142",
-    "author": "卡颂",
-    "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "6",
-    "rank": 14
-  },
-  {
-    "title": "彻底搞懂容器技术的基石： namespace （下）",
-    "description": "大家好，我是张晋涛。目前我们所提到的容器技术、虚拟化技术（不论何种抽象层次下的虚拟化技术）都能做到资源层面上的隔离和限制。对于容器技术而言，它实现资源层面上的限制和隔离，依赖于 Linux 内核所提供的 c...",
-    "url": "https://segmentfault.com/a/1190000041114149",
-    "author": "张晋涛",
-    "home_url": "https://segmentfault.com/u/moelove",
-    "votes": "6",
-    "rank": 15
-  },
-  {
-    "title": "2021我的个人总结",
-    "description": "时间过的很快，一转眼一年就已经过去了，在2021年的一年里我的收获还是蛮多的，可惜的是，今年我的目标一样也没有完成，有些遗憾与可惜。不过明年的我将会更加努力，争取实现我的目标。",
-    "url": "https://segmentfault.com/a/1190000041101122",
-    "author": "夕水",
-    "home_url": "https://segmentfault.com/u/xishui_5ac9a340a5484",
-    "votes": "5",
-    "rank": 16
+    "rank": 12
   },
   {
     "title": "女，30+，已婚，未育的前端打工人2021年终总结",
@@ -150,6 +114,42 @@
     "author": "阳呀呀",
     "home_url": "https://segmentfault.com/u/yangyaya",
     "votes": "7",
+    "rank": 13
+  },
+  {
+    "title": "2021我的个人总结",
+    "description": "时间过的很快，一转眼一年就已经过去了，在2021年的一年里我的收获还是蛮多的，可惜的是，今年我的目标一样也没有完成，有些遗憾与可惜。不过明年的我将会更加努力，争取实现我的目标。",
+    "url": "https://segmentfault.com/a/1190000041101122",
+    "author": "夕水",
+    "home_url": "https://segmentfault.com/u/xishui_5ac9a340a5484",
+    "votes": "6",
+    "rank": 14
+  },
+  {
+    "title": "利用 clip-path 实现动态区域裁剪",
+    "description": "背景今天逛 CodePen，看到了这样一个非常有意思的效果：CodePen Demo -- Material Design Menu By Bennett Feely这个效果还是有一些值得探讨学习的点，下面我们一起来看看。如何实现这样一个类似的效果？首先，想...",
+    "url": "https://segmentfault.com/a/1190000041126373",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "8",
+    "rank": 15
+  },
+  {
+    "title": "彻底搞懂容器技术的基石： namespace （下）",
+    "description": "大家好，我是张晋涛。目前我们所提到的容器技术、虚拟化技术（不论何种抽象层次下的虚拟化技术）都能做到资源层面上的隔离和限制。对于容器技术而言，它实现资源层面上的限制和隔离，依赖于 Linux 内核所提供的 c...",
+    "url": "https://segmentfault.com/a/1190000041114149",
+    "author": "张晋涛",
+    "home_url": "https://segmentfault.com/u/moelove",
+    "votes": "6",
+    "rank": 16
+  },
+  {
+    "title": "一篇带你用 VuePress + Github Pages 搭建博客",
+    "description": "最近完成了 TypeScript 最新官方文档 Hanbook 的翻译，一共十四篇，堪称国内的最好 TypeScript4 入门教程之一。为了方便大家阅读，我用 VuePress + Github Pages 搭建了博客，博客效果如下：",
+    "url": "https://segmentfault.com/a/1190000041110985",
+    "author": "冴羽",
+    "home_url": "https://segmentfault.com/u/yayu",
+    "votes": "5",
     "rank": 17
   },
   {
@@ -162,22 +162,13 @@
     "rank": 18
   },
   {
-    "title": "Rollup作者新作: Svelte Cubed, 拥抱 Three.js !",
-    "description": "在2021年11月20日，Svelte 召开了第四次虚拟会议。而会议中最令我眼前一新的当然是 轮子哥 Rich-Harris 带来的 Svelte Cubed 了。科普：轮子哥 Rich-Harris：Svelte、Rollup 作者这个项目亮眼的地方，并不是因为...",
-    "url": "https://segmentfault.com/a/1190000041096792",
-    "author": "程序员秋风",
-    "home_url": "https://segmentfault.com/u/qiufeng_5a07f6cb96ee0",
-    "votes": "5",
+    "title": "ONES 解码：为何数字化是“超级工程”",
+    "description": "试想一下，假如没有互联网，没有快递、外卖，没有游戏、视频，没有社交平台，甚至没有在线健身，我们怎么熬过那些突如其来的居家隔离日子？还有，远程办公、线上教学等的普及让人们可以一再走出工作和学习的现实...",
+    "url": "https://segmentfault.com/a/1190000041136217",
+    "author": "万事ONES",
+    "home_url": "https://segmentfault.com/u/wanshiones",
+    "votes": "3",
     "rank": 19
-  },
-  {
-    "title": "这可能是掘金讲「原型链」，讲的最好最通俗易懂的了，附练习题！",
-    "description": "大家好，我是林三心，相信大家都听过前端的三座大山：闭包，原型链，作用域，这三个其实都只是算基础。而我一直觉得基础是进阶的前提，所以不能因为是基础就忽视他们。今天我就以我的方式讲讲原型链吧，希望大家...",
-    "url": "https://segmentfault.com/a/1190000041095282",
-    "author": "Sunshine_Lin",
-    "home_url": "https://segmentfault.com/u/user_ze46ouik",
-    "votes": "7",
-    "rank": 20
   },
   {
     "title": "为什麽前端工程越来越爱使用 Monorepo 架构？",
@@ -186,7 +177,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "5",
-    "rank": 21
+    "rank": 20
   },
   {
     "title": "深入剖析分布式事务一致性",
@@ -195,16 +186,7 @@
     "author": "叶东富",
     "home_url": "https://segmentfault.com/u/yedongfu",
     "votes": "5",
-    "rank": 22
-  },
-  {
-    "title": "Vue 前端代码风格指南",
-    "description": "camelCase（小驼峰式命名法 —— 首字母小写）PascalCase（大驼峰式命名法 —— 首字母大写）kebab-case（短横线连接式）Snake（下划线连接式）",
-    "url": "https://segmentfault.com/a/1190000041099373",
-    "author": "墨城",
-    "home_url": "https://segmentfault.com/u/xiaomogu_5f2124ad3ad42",
-    "votes": "4",
-    "rank": 23
+    "rank": 21
   },
   {
     "title": "Webpack常见面试题总结",
@@ -213,25 +195,7 @@
     "author": "xiangzhihong",
     "home_url": "https://segmentfault.com/u/xiangzhihong",
     "votes": "8",
-    "rank": 24
-  },
-  {
-    "title": "女朋友 or 高薪资？2021年终总结普通且深刻",
-    "description": "本文参与了 SegmentFault 思否征文「2021 总结」，欢迎正在阅读的你也加入。写在前面这绝不是标题党，是本人今年切切实实的一个艰难抉择，我最后还是选择了爱情，但如果是你，你要如何选择呢？本篇文章将从一个普...",
-    "url": "https://segmentfault.com/a/1190000041095661",
-    "author": "Ijiran",
-    "home_url": "https://segmentfault.com/u/ijiran",
-    "votes": "2",
-    "rank": 25
-  },
-  {
-    "title": "JZ-023-二叉搜索树的后序遍历序列",
-    "description": "输入一个整数数组，判断该数组是不是某二叉搜索树的后序遍历的结果。如果是则返回true,否则返回false。假设输入的数组的任意两个数字都互不相同。题目链接: 二叉搜索树的后序遍历序列",
-    "url": "https://segmentfault.com/a/1190000041103032",
-    "author": "雄狮虎豹",
-    "home_url": "https://segmentfault.com/u/xiongshihubao",
-    "votes": "5",
-    "rank": 26
+    "rank": 22
   },
   {
     "title": "2021年卢卡的认知和感悟",
@@ -240,7 +204,34 @@
     "author": "卢卡斯",
     "home_url": "https://segmentfault.com/u/lukasi_5fa26bbdc802f",
     "votes": "2",
-    "rank": 27
+    "rank": 23
+  },
+  {
+    "title": "JZ-023-二叉搜索树的后序遍历序列",
+    "description": "输入一个整数数组，判断该数组是不是某二叉搜索树的后序遍历的结果。如果是则返回true,否则返回false。假设输入的数组的任意两个数字都互不相同。题目链接: 二叉搜索树的后序遍历序列",
+    "url": "https://segmentfault.com/a/1190000041103032",
+    "author": "雄狮虎豹",
+    "home_url": "https://segmentfault.com/u/xiongshihubao",
+    "votes": "5",
+    "rank": 24
+  },
+  {
+    "title": "2021，沪漂五年考研上岸",
+    "description": "2021年，依然是为生活忙碌的一年，考研、考证、换工作......​回想起去年此时正在紧张的备战考研，或许是年龄大了心态不如从前了，考试前夕特别焦虑一度失眠。不过过程都不重要了，因为结果还不错，现在已经入学半...",
+    "url": "https://segmentfault.com/a/1190000041126859",
+    "author": "翻雪",
+    "home_url": "https://segmentfault.com/u/fanxue",
+    "votes": "4",
+    "rank": 25
+  },
+  {
+    "title": "原来这才是 Socket ！",
+    "description": "关于对 Socket 的认识，大致分为下面几个主题，Socket 是什么，Socket 是如何创建的，Socket 是如何连接并收发数据的，Socket 套接字的删除等。",
+    "url": "https://segmentfault.com/a/1190000041119178",
+    "author": "程序员cxuan",
+    "home_url": "https://segmentfault.com/u/cxuan",
+    "votes": "7",
+    "rank": 26
   },
   {
     "title": "2021 - 风起于青萍之末",
@@ -249,15 +240,24 @@
     "author": "王悟空",
     "home_url": "https://segmentfault.com/u/wangwukong",
     "votes": "2",
+    "rank": 27
+  },
+  {
+    "title": "掌握 SQL 这些核心知识点，出去吹牛逼再也不担心了",
+    "description": "第一章 SQL的介绍1.1、什么是sqlSQL：Structure Query Language。（结构化查询语言）,通过sql操作数据库(操作数据库,操作表,操作数据)SQL被美国国家标准局（ANSI）确定为关系型数据库语言的美国标准，后来被国际...",
+    "url": "https://segmentfault.com/a/1190000041124651",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "6",
     "rank": 28
   },
   {
-    "title": "一篇带你用 VuePress + Github Pages 搭建博客",
-    "description": "最近完成了 TypeScript 最新官方文档 Hanbook 的翻译，一共十四篇，堪称国内的最好 TypeScript4 入门教程之一。为了方便大家阅读，我用 VuePress + Github Pages 搭建了博客，博客效果如下：",
-    "url": "https://segmentfault.com/a/1190000041110985",
-    "author": "冴羽",
-    "home_url": "https://segmentfault.com/u/yayu",
-    "votes": "3",
+    "title": "2021-在物联网上又爬行了一年",
+    "description": "继CMS、OA、CRM、Ecommerce之后，物联网又红火起来，而2021是我在物联网应用开发领域鏖战的第三个年头了。年关又近，百般心思化为一句肺腑之言：“我T喵的太难了...”。",
+    "url": "https://segmentfault.com/a/1190000041110474",
+    "author": "NickWang",
+    "home_url": "https://segmentfault.com/u/nickw_cn",
+    "votes": "7",
     "rank": 29
   },
   {

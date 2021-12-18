@@ -14,7 +14,7 @@
     "url": "https://segmentfault.com/a/1190000041099699",
     "author": "林小志",
     "home_url": "https://segmentfault.com/u/linxz",
-    "votes": "28",
+    "votes": "34",
     "rank": 2
   },
   {
@@ -32,7 +32,7 @@
     "url": "https://segmentfault.com/a/1190000041005444",
     "author": "杨成功",
     "home_url": "https://segmentfault.com/u/ruidoc",
-    "votes": "27",
+    "votes": "28",
     "rank": 4
   },
   {
@@ -54,13 +54,22 @@
     "rank": 6
   },
   {
+    "title": "思否年度有奖征文丨用文字记录下属于你的2021",
+    "description": "亲爱的开发者们：大家好，我是 SegmentFault 思否的社区管理员 思否小姐姐~2021，也注定是个不平凡的一年！ 鲜花与荆棘，凛寒和热盼；仔细想来，大家在这一年一定经历和成长了很多，人生的进度条又向前了一格。20...",
+    "url": "https://segmentfault.com/a/1190000041089764",
+    "author": "SegmentFault思否",
+    "home_url": "https://segmentfault.com/u/segmentfault",
+    "votes": "17",
+    "rank": 7
+  },
+  {
     "title": "一文讲透自适应熔断的原理和实现",
     "description": "微服务集群中，每个应用基本都会依赖一定数量的外部服务。有可能随时都会遇到网络连接缓慢，超时，依赖服务过载，服务不可用的情况,在高并发场景下如果此时调用方不做任何处理，继续持续请求故障服务的话很容易引...",
     "url": "https://segmentfault.com/a/1190000040978572",
     "author": "kevinwan",
     "home_url": "https://segmentfault.com/u/kevinwan",
     "votes": "22",
-    "rank": 7
+    "rank": 8
   },
   {
     "title": "使用 CSS 轻松实现高频出现的各类奇形怪状按钮",
@@ -69,24 +78,15 @@
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
     "votes": "23",
-    "rank": 8
-  },
-  {
-    "title": "面试题整理之Vue篇",
-    "description": "又快到年底了，有很多小伙伴可能会选择跳槽或者升职或者考核，尤其重要的是面试，在面试过程中面试官总会问一些基础性的内容来考察我们的专业知识的掌握程度，再决定是否录用。",
-    "url": "https://segmentfault.com/a/1190000040971075",
-    "author": "Aaron",
-    "home_url": "https://segmentfault.com/u/aaronblog",
-    "votes": "27",
     "rank": 9
   },
   {
-    "title": "思否年度有奖征文丨用文字记录下属于你的2021",
-    "description": "亲爱的开发者们：大家好，我是 SegmentFault 思否的社区管理员 思否小姐姐~2021，也注定是个不平凡的一年！ 鲜花与荆棘，凛寒和热盼；仔细想来，大家在这一年一定经历和成长了很多，人生的进度条又向前了一格。20...",
-    "url": "https://segmentfault.com/a/1190000041089764",
-    "author": "SegmentFault思否",
-    "home_url": "https://segmentfault.com/u/segmentfault",
-    "votes": "16",
+    "title": "git进阶（撤销pull、撤销merge、撤销add）",
+    "description": "1、撤销本次pullgit reflogreset到某个版本git reset --hard 91ae6ad2、撤销本次merge如果merge了其他分支代码造成了大量的冲突 想撤销本次merge如果操作1、使用上面的reset命令撤销到上一个提交版本2、执行以下...",
+    "url": "https://segmentfault.com/a/1190000041004054",
+    "author": "浅夏晴空",
+    "home_url": "https://segmentfault.com/u/qianxiaqingkong",
+    "votes": "14",
     "rank": 10
   },
   {
@@ -99,21 +99,21 @@
     "rank": 11
   },
   {
-    "title": "git进阶（撤销pull、撤销merge、撤销add）",
-    "description": "1、撤销本次pullgit reflogreset到某个版本git reset --hard 91ae6ad2、撤销本次merge如果merge了其他分支代码造成了大量的冲突 想撤销本次merge如果操作1、使用上面的reset命令撤销到上一个提交版本2、执行以下...",
-    "url": "https://segmentfault.com/a/1190000041004054",
-    "author": "浅夏晴空",
-    "home_url": "https://segmentfault.com/u/qianxiaqingkong",
-    "votes": "14",
-    "rank": 12
-  },
-  {
     "title": "14 张有趣深动图解 FlexBox，好家伙，还不快进收藏夹吃灰！",
     "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
     "url": "https://segmentfault.com/a/1190000041000841",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "17",
+    "rank": 12
+  },
+  {
+    "title": "基于 Vite 搭建开发体验超级丝滑的 Vue3 组件库开发框架",
+    "description": "说到 Vue 的组件库，大家肯定早已耳熟能详，随随便便就能列举出一大堆。那为什么还需要自己去搭建呢？结合自身的经验，在业务中往往需要高度定制化的组件，无论是 UI 和交互，可能都会跟市面上现有的组件库有着较...",
+    "url": "https://segmentfault.com/a/1190000041103446",
+    "author": "jrainlau",
+    "home_url": "https://segmentfault.com/u/jrainlau",
+    "votes": "16",
     "rank": 13
   },
   {
@@ -135,12 +135,12 @@
     "rank": 15
   },
   {
-    "title": "基于 Vite 搭建开发体验超级丝滑的 Vue3 组件库开发框架",
-    "description": "说到 Vue 的组件库，大家肯定早已耳熟能详，随随便便就能列举出一大堆。那为什么还需要自己去搭建呢？结合自身的经验，在业务中往往需要高度定制化的组件，无论是 UI 和交互，可能都会跟市面上现有的组件库有着较...",
-    "url": "https://segmentfault.com/a/1190000041103446",
-    "author": "jrainlau",
-    "home_url": "https://segmentfault.com/u/jrainlau",
-    "votes": "15",
+    "title": "100行代码实现React核心调度功能",
+    "description": "大家好，我卡颂。想必大家都知道React有一套基于Fiber架构的调度系统。这套调度系统的基本功能包括：更新有不同优先级一次更新可能涉及多个组件的render，这些render可能分配到多个宏任务中执行（即时间切片）高...",
+    "url": "https://segmentfault.com/a/1190000041126142",
+    "author": "卡颂",
+    "home_url": "https://segmentfault.com/u/kasong",
+    "votes": "12",
     "rank": 16
   },
   {
@@ -185,8 +185,17 @@
     "url": "https://segmentfault.com/a/1190000041108051",
     "author": "杨成功",
     "home_url": "https://segmentfault.com/u/ruidoc",
-    "votes": "16",
+    "votes": "18",
     "rank": 21
+  },
+  {
+    "title": "公司用的 MySQL 团队开发规范，太详细了，建议收藏！",
+    "description": "数据库对象是数据库的组成部分，常见的有以下几种：表（Table ）、索引（Index）、视图（View）、图表（Diagram）、缺省值（Default）、规则（Rule）、触发器（Trigger）、存储过程（Stored Procedure）、 用户（...",
+    "url": "https://segmentfault.com/a/1190000041105650",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "16",
+    "rank": 22
   },
   {
     "title": "「总结」今年我写了55篇文章，面试了30个人，学习了385个知识点！",
@@ -195,25 +204,7 @@
     "author": "Sunshine_Lin",
     "home_url": "https://segmentfault.com/u/user_ze46ouik",
     "votes": "20",
-    "rank": 22
-  },
-  {
-    "title": "重写数组的方法（改变原数组）",
-    "description": "下图是我自我学习模拟数组时总结的一些重新数组的方法：本文我们暂不讨论不改变原数组的方法，只谈改变原数组用到的 6 种方法。改变原数组的方法push()按参数顺序向数组尾部添加元素，返回新数组的长度 {代码...}...",
-    "url": "https://segmentfault.com/a/1190000040969572",
-    "author": "云叔_又拍云",
-    "home_url": "https://segmentfault.com/u/yunshu_blog",
-    "votes": "10",
     "rank": 23
-  },
-  {
-    "title": "2021 re:Invent ，我们到底该关注哪些发布？",
-    "description": "这并不奇怪，每年亚马逊云科技 re:Invent 都会有数十项新产品、新功能发布，其中一部分，可能代表了日后云计算及整个 IT 界基础设施的发展方向，比如曾经的 Amazon  RedShift、Amazon Lambda，前者引导了业内云原...",
-    "url": "https://segmentfault.com/a/1190000041086821",
-    "author": "思否编辑部",
-    "home_url": "https://segmentfault.com/u/writers",
-    "votes": "13",
-    "rank": 24
   },
   {
     "title": "如果将元宇宙逐层拆解，你会发现内核是“云”",
@@ -222,6 +213,15 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "9",
+    "rank": 24
+  },
+  {
+    "title": "2021 re:Invent ，我们到底该关注哪些发布？",
+    "description": "这并不奇怪，每年亚马逊云科技 re:Invent 都会有数十项新产品、新功能发布，其中一部分，可能代表了日后云计算及整个 IT 界基础设施的发展方向，比如曾经的 Amazon  RedShift、Amazon Lambda，前者引导了业内云原...",
+    "url": "https://segmentfault.com/a/1190000041086821",
+    "author": "思否编辑部",
+    "home_url": "https://segmentfault.com/u/writers",
+    "votes": "13",
     "rank": 25
   },
   {
@@ -252,21 +252,21 @@
     "rank": 28
   },
   {
-    "title": "公司用的 MySQL 团队开发规范，太详细了，建议收藏！",
-    "description": "数据库对象是数据库的组成部分，常见的有以下几种：表（Table ）、索引（Index）、视图（View）、图表（Diagram）、缺省值（Default）、规则（Rule）、触发器（Trigger）、存储过程（Stored Procedure）、 用户（...",
-    "url": "https://segmentfault.com/a/1190000041105650",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "15",
+    "title": "这是什么选秀节目？数百万人看后想学「机器学习」",
+    "description": "“秋名山上行人稀，常有车手较高低。如今无人车当道，全是 AI 老司机。”且问 AI 老司机表现如何？可灵活转弯，控速自如：可行云流水，沿最优路线过弯：更可多次打圈，绕多少下也不在话下：这场竞速赛事，主角确实...",
+    "url": "https://segmentfault.com/a/1190000041130996",
+    "author": "思否编辑部",
+    "home_url": "https://segmentfault.com/u/writers",
+    "votes": "8",
     "rank": 29
   },
   {
-    "title": "可以中断的异步操作",
-    "description": "前面我们聊到了可能超时的异步操作，其中提到对 fetch() 异步操作的“中断”处理。这次我们就来聊一聊“中断”异步操作。由于 JavaScript 的单线程特性，能在 JavaScript 中进行的异步场景其实不多，大概有如下一些：...",
-    "url": "https://segmentfault.com/a/1190000040972018",
-    "author": "边城",
-    "home_url": "https://segmentfault.com/u/jamesfancy",
-    "votes": "10",
+    "title": "你说你会Promise？那你解决一下项目中的这五个难题？",
+    "description": "大家好，我是林三心，用最通俗易懂的话讲最难的知识点是我的座右铭，基础是进阶的前提是我的初心，众所周知哈， Promise 在咱们的开发中是相当的重要，我觉得对于 Promise 的使用等级，可以分为三个等级",
+    "url": "https://segmentfault.com/a/1190000041025373",
+    "author": "Sunshine_Lin",
+    "home_url": "https://segmentfault.com/u/user_ze46ouik",
+    "votes": "16",
     "rank": 30
   }
 ]
