@@ -63,22 +63,13 @@
     "rank": 7
   },
   {
-    "title": "一文讲透自适应熔断的原理和实现",
-    "description": "微服务集群中，每个应用基本都会依赖一定数量的外部服务。有可能随时都会遇到网络连接缓慢，超时，依赖服务过载，服务不可用的情况,在高并发场景下如果此时调用方不做任何处理，继续持续请求故障服务的话很容易引...",
-    "url": "https://segmentfault.com/a/1190000040978572",
-    "author": "kevinwan",
-    "home_url": "https://segmentfault.com/u/kevinwan",
-    "votes": "22",
-    "rank": 8
-  },
-  {
     "title": "使用 CSS 轻松实现高频出现的各类奇形怪状按钮",
     "description": "背景在群里会有同学问相关的问题，怎么样使用 CSS 实现一个内切角按钮呢、怎么样实现一个带箭头的按钮呢？本文基于一些高频出现在设计稿中的，使用 CSS 实现稍微有点难度和技巧性的按钮，讲解使用 CSS 如何尽可能...",
     "url": "https://segmentfault.com/a/1190000041044028",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
     "votes": "23",
-    "rank": 9
+    "rank": 8
   },
   {
     "title": "git进阶（撤销pull、撤销merge、撤销add）",
@@ -87,7 +78,7 @@
     "author": "浅夏晴空",
     "home_url": "https://segmentfault.com/u/qianxiaqingkong",
     "votes": "14",
-    "rank": 10
+    "rank": 9
   },
   {
     "title": "「万字总结」熬夜总结50个JS的高级知识点，全都会你就是神！！！",
@@ -96,7 +87,25 @@
     "author": "Sunshine_Lin",
     "home_url": "https://segmentfault.com/u/user_ze46ouik",
     "votes": "25",
+    "rank": 10
+  },
+  {
+    "title": "基于 Vite 搭建开发体验超级丝滑的 Vue3 组件库开发框架",
+    "description": "说到 Vue 的组件库，大家肯定早已耳熟能详，随随便便就能列举出一大堆。那为什么还需要自己去搭建呢？结合自身的经验，在业务中往往需要高度定制化的组件，无论是 UI 和交互，可能都会跟市面上现有的组件库有着较...",
+    "url": "https://segmentfault.com/a/1190000041103446",
+    "author": "jrainlau",
+    "home_url": "https://segmentfault.com/u/jrainlau",
+    "votes": "17",
     "rank": 11
+  },
+  {
+    "title": "100行代码实现React核心调度功能",
+    "description": "大家好，我卡颂。想必大家都知道React有一套基于Fiber架构的调度系统。这套调度系统的基本功能包括：更新有不同优先级一次更新可能涉及多个组件的render，这些render可能分配到多个宏任务中执行（即时间切片）高...",
+    "url": "https://segmentfault.com/a/1190000041126142",
+    "author": "卡颂",
+    "home_url": "https://segmentfault.com/u/kasong",
+    "votes": "14",
+    "rank": 12
   },
   {
     "title": "14 张有趣深动图解 FlexBox，好家伙，还不快进收藏夹吃灰！",
@@ -105,15 +114,6 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "17",
-    "rank": 12
-  },
-  {
-    "title": "基于 Vite 搭建开发体验超级丝滑的 Vue3 组件库开发框架",
-    "description": "说到 Vue 的组件库，大家肯定早已耳熟能详，随随便便就能列举出一大堆。那为什么还需要自己去搭建呢？结合自身的经验，在业务中往往需要高度定制化的组件，无论是 UI 和交互，可能都会跟市面上现有的组件库有着较...",
-    "url": "https://segmentfault.com/a/1190000041103446",
-    "author": "jrainlau",
-    "home_url": "https://segmentfault.com/u/jrainlau",
-    "votes": "16",
     "rank": 13
   },
   {
@@ -135,22 +135,13 @@
     "rank": 15
   },
   {
-    "title": "100行代码实现React核心调度功能",
-    "description": "大家好，我卡颂。想必大家都知道React有一套基于Fiber架构的调度系统。这套调度系统的基本功能包括：更新有不同优先级一次更新可能涉及多个组件的render，这些render可能分配到多个宏任务中执行（即时间切片）高...",
-    "url": "https://segmentfault.com/a/1190000041126142",
-    "author": "卡颂",
-    "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "12",
-    "rank": 16
-  },
-  {
     "title": "从 Amazon Graviton3 发布，看 2022 云计算的核心方向",
     "description": "可能会有不少人把票投给 Amazon Graviton3。这不仅因为“自研芯片”这个概念在当下成为了“硬核实力”的象征、大众喜闻乐见的话题，也不仅因为芯片代表了云服务最基础的能力，更是因为 Amazon Graviton3 的发布，实实...",
     "url": "https://segmentfault.com/a/1190000041098622",
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "11",
-    "rank": 17
+    "rank": 16
   },
   {
     "title": "PHP 基金会，是个好事 (PHP Foundation)",
@@ -159,7 +150,25 @@
     "author": "summerblue",
     "home_url": "https://segmentfault.com/u/summerblue",
     "votes": "15",
+    "rank": 17
+  },
+  {
+    "title": "现代配置指南——YAML 比 JSON 高级在哪？",
+    "description": "一直以来，前端工程中的配置大多都是 .js 文件或者 .json 文件，最常见的比如：package.jsonbabel.config.jswebpack.config.js这些配置对前端非常友好，因为都是我们熟悉的 JS 对象结构。一般静态化的配置会选择 ...",
+    "url": "https://segmentfault.com/a/1190000041108051",
+    "author": "杨成功",
+    "home_url": "https://segmentfault.com/u/ruidoc",
+    "votes": "19",
     "rank": 18
+  },
+  {
+    "title": "公司用的 MySQL 团队开发规范，太详细了，建议收藏！",
+    "description": "数据库对象是数据库的组成部分，常见的有以下几种：表（Table ）、索引（Index）、视图（View）、图表（Diagram）、缺省值（Default）、规则（Rule）、触发器（Trigger）、存储过程（Stored Procedure）、 用户（...",
+    "url": "https://segmentfault.com/a/1190000041105650",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "17",
+    "rank": 19
   },
   {
     "title": "Error Boundaries是这么实现的，还挺巧妙",
@@ -168,34 +177,7 @@
     "author": "卡颂",
     "home_url": "https://segmentfault.com/u/kasong",
     "votes": "10",
-    "rank": 19
-  },
-  {
-    "title": "使用这11个代码，可以大大地简化我们的代码。",
-    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000040759530",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "18",
     "rank": 20
-  },
-  {
-    "title": "现代配置指南——YAML 比 JSON 高级在哪？",
-    "description": "一直以来，前端工程中的配置大多都是 .js 文件或者 .json 文件，最常见的比如：package.jsonbabel.config.jswebpack.config.js这些配置对前端非常友好，因为都是我们熟悉的 JS 对象结构。一般静态化的配置会选择 ...",
-    "url": "https://segmentfault.com/a/1190000041108051",
-    "author": "杨成功",
-    "home_url": "https://segmentfault.com/u/ruidoc",
-    "votes": "18",
-    "rank": 21
-  },
-  {
-    "title": "公司用的 MySQL 团队开发规范，太详细了，建议收藏！",
-    "description": "数据库对象是数据库的组成部分，常见的有以下几种：表（Table ）、索引（Index）、视图（View）、图表（Diagram）、缺省值（Default）、规则（Rule）、触发器（Trigger）、存储过程（Stored Procedure）、 用户（...",
-    "url": "https://segmentfault.com/a/1190000041105650",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "16",
-    "rank": 22
   },
   {
     "title": "「总结」今年我写了55篇文章，面试了30个人，学习了385个知识点！",
@@ -204,7 +186,7 @@
     "author": "Sunshine_Lin",
     "home_url": "https://segmentfault.com/u/user_ze46ouik",
     "votes": "20",
-    "rank": 23
+    "rank": 21
   },
   {
     "title": "如果将元宇宙逐层拆解，你会发现内核是“云”",
@@ -213,7 +195,7 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "9",
-    "rank": 24
+    "rank": 22
   },
   {
     "title": "2021 re:Invent ，我们到底该关注哪些发布？",
@@ -222,7 +204,7 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "13",
-    "rank": 25
+    "rank": 23
   },
   {
     "title": "一个 Babelfish ，看懂云数据库的发展方向",
@@ -231,7 +213,7 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "12",
-    "rank": 26
+    "rank": 24
   },
   {
     "title": "安排几款实用的内网穿透工具+教程",
@@ -240,7 +222,7 @@
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "13",
-    "rank": 27
+    "rank": 25
   },
   {
     "title": "你真的认为Google翻译不影响\"前端\"页面功能吗?",
@@ -249,7 +231,7 @@
     "author": "lulu_up",
     "home_url": "https://segmentfault.com/u/lulu_up",
     "votes": "11",
-    "rank": 28
+    "rank": 26
   },
   {
     "title": "这是什么选秀节目？数百万人看后想学「机器学习」",
@@ -258,7 +240,7 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "8",
-    "rank": 29
+    "rank": 27
   },
   {
     "title": "你说你会Promise？那你解决一下项目中的这五个难题？",
@@ -267,6 +249,24 @@
     "author": "Sunshine_Lin",
     "home_url": "https://segmentfault.com/u/user_ze46ouik",
     "votes": "16",
+    "rank": 28
+  },
+  {
+    "title": "火线安全：Log4j2 史诗级漏洞波及全球6万+开源软件",
+    "description": "近日，Log4j2 被爆出现史诗级利用成本极低危害极大的漏洞，黑客可通过发送一条指令即可控制目标设备。Log4j2 作为基础日志组件被大量基础服务在底层使用，据统计，该漏洞影响6万+流行开源软件，影响70%以上的企业...",
+    "url": "https://segmentfault.com/a/1190000041105568",
+    "author": "火线安全",
+    "home_url": "https://segmentfault.com/u/huoxian",
+    "votes": "9",
+    "rank": 29
+  },
+  {
+    "title": "押注云计算未来先机，re:Invent 2021邀请你共赴“十年之约”",
+    "description": "在2021年的“十四五”规划中，数字中国建设被提到了新的高度，其中云计算作为重点产业之一出现在其中，由此也可预见，云计算软件或将迎来新的发展契机。",
+    "url": "https://segmentfault.com/a/1190000041052149",
+    "author": "snakesss",
+    "home_url": "https://segmentfault.com/u/snakesss",
+    "votes": "10",
     "rank": 30
   }
 ]
