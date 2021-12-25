@@ -30,16 +30,6 @@
     "homeUrl": "/subjects/194141"
   },
   {
-    "title": "MySQL 那点破事！索引、SQL 调优、事务、B+树、分表",
-    "description": "大家好，我是Tom哥~为了便于大家查找问题，了解全貌，整理个目录，我们可以快速全局了解关于mysql数据库，面试官一般喜欢问哪些问题接下来，我们逐条来看看每个问题及答案MyISAM...",
-    "votes": "193",
-    "url": "/k/aazub7e",
-    "avatar": "https://img.toutiao.io/subject/e62c1664abed48848efc89141ae64112/thumb",
-    "avatarAlt": "微观技术 - 独家号",
-    "subjectName": "微观技术",
-    "homeUrl": "/subjects/348507"
-  },
-  {
     "title": "团队管理那点破事！OKR 绩效、核心人才、面试、技术分享、研发流程",
     "description": "大家好，我是Tom哥~今天来聊聊团队管理，可能你现在还是一线开发，没有带团队，感觉这个话题与你无关，其实不然。程序员的职业生涯曲折，技术更新迭代快，走技术深度，走架构师路线，势必要...",
     "votes": "184",
@@ -82,7 +72,7 @@
   {
     "title": "推荐几个开源类库，超好用，远离 996",
     "description": "今天给大家分享几个 Java 的开源类库，亲测非常好用！有了它们之后，你就可以和很多重复劳动说再见了。1. MapStruct MapStruct是干什么的？ MapStruct是...",
-    "votes": "147",
+    "votes": "148",
     "url": "/k/oi7zdzy",
     "avatar": "https://img.toutiao.io/subject/0f8efe621fef4c7e98ad0ad1ada57562/thumb",
     "avatarAlt": "学学Java - 独家号",
@@ -120,6 +110,16 @@
     "homeUrl": "/subjects/453205"
   },
   {
+    "title": "认识 MySQL 和 Redis 的数据一致性问题",
+    "description": "作者：sinxu，腾讯 CSIG 后台开发工程师1. 什么是数据的一致性“数据一致”一般指的是：缓存中有数据，缓存的数据值 = 数据库中的值。但根据缓存中是有数据为依据，则”一致“...",
+    "votes": "147",
+    "url": "/k/w79d4wj",
+    "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
+    "avatarAlt": "趣编程的独家号 - 独家号",
+    "subjectName": "趣编程的独家号",
+    "homeUrl": "/subjects/465623"
+  },
+  {
     "title": "Golang 编程思维和工程实战",
     "description": " Golang 的一些编程思维和思想，以及总结一些常见的优雅编程实战技巧。作者：allendbwu，腾讯 PCG 后台开发工程师一 Golang 编程思维 首先，我们先来看下最基本...",
     "votes": "132",
@@ -130,16 +130,6 @@
     "homeUrl": "/subjects/5551"
   },
   {
-    "title": "认识 MySQL 和 Redis 的数据一致性问题",
-    "description": "作者：sinxu，腾讯 CSIG 后台开发工程师1. 什么是数据的一致性“数据一致”一般指的是：缓存中有数据，缓存的数据值 = 数据库中的值。但根据缓存中是有数据为依据，则”一致“...",
-    "votes": "146",
-    "url": "/k/w79d4wj",
-    "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
-    "avatarAlt": "趣编程的独家号 - 独家号",
-    "subjectName": "趣编程的独家号",
-    "homeUrl": "/subjects/465623"
-  },
-  {
     "title": "开源微服务 API 网关，单核 2 万 QPS，今年最值得学习的开源项目",
     "description": " 文章较长，从概念与场景，到原理与架构，到性能分析，最后是demo，希望大家有收获。 第一部分：解决什么问题。什么是微服务API网关？API网关是上承前端用户，下接后端服务的咽喉之...",
     "votes": "138",
@@ -148,6 +138,16 @@
     "avatarAlt": "最佳实践 - 独家号",
     "subjectName": "最佳实践",
     "homeUrl": "/subjects/72425"
+  },
+  {
+    "title": "我做系统架构的一些原则",
+    "description": "工作 20 多年了，这 20 来年看到了很多公司系统架构，也看到了很多问题，在跟这些公司进行交流和讨论的时候，包括进行实施和方案比较的时候，都有很多各种方案的比较和妥协，因为相关的...",
+    "votes": "144",
+    "url": "/k/vlt0zc9",
+    "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
+    "avatarAlt": "趣编程的独家号 - 独家号",
+    "subjectName": "趣编程的独家号",
+    "homeUrl": "/subjects/465623"
   },
   {
     "title": "Chrome 插件（扩展）开发全攻略 2.6w 字，看这篇就够了",
@@ -188,16 +188,6 @@
     "avatarAlt": "编程往事 - 独家号",
     "subjectName": "编程往事",
     "homeUrl": "/subjects/99877"
-  },
-  {
-    "title": "我做系统架构的一些原则",
-    "description": "工作 20 多年了，这 20 来年看到了很多公司系统架构，也看到了很多问题，在跟这些公司进行交流和讨论的时候，包括进行实施和方案比较的时候，都有很多各种方案的比较和妥协，因为相关的...",
-    "votes": "128",
-    "url": "/k/vlt0zc9",
-    "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
-    "avatarAlt": "趣编程的独家号 - 独家号",
-    "subjectName": "趣编程的独家号",
-    "homeUrl": "/subjects/465623"
   },
   {
     "title": "最全的 Git 常用命令速查（2021 版）",
@@ -248,5 +238,15 @@
     "avatarAlt": "三分恶 - 独家号",
     "subjectName": "三分恶",
     "homeUrl": "/subjects/454266"
+  },
+  {
+    "title": "如何通过项目复盘来加速个人成长",
+    "description": "同样工作年限的人，能力可能差别很大。工作 5 年的前端，有的只会做简单的任务，有的已经可以独当一面了。导致这种情况的原因有很多，本质是成长的速度不同。复盘可以加速个人成长。本文主要...",
+    "votes": "112",
+    "url": "/k/ys08f63",
+    "avatar": "https://img.toutiao.io/subject/0fbaad0d2a7744dd911eff08a456d6d9/thumb",
+    "avatarAlt": "WEB 前端文章收藏 - 独家号",
+    "subjectName": "WEB 前端文章收藏",
+    "homeUrl": "/subjects/71779"
   }
 ]
