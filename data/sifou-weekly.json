@@ -1,30 +1,12 @@
 [
   {
-    "title": "用一个 flv.js 播放监控的例子，带你深撅直播流技术",
-    "description": "本文记录一下在使用 flv.js 播放监控视频时踩过的各种各样的坑。虽然官网给的 Getting Started 只有短短几行代码，跑一个能播视频的 demo 很容易，但是播放时各种各样的异常会搞到你怀疑人生。",
-    "url": "https://segmentfault.com/a/1190000041163719",
-    "author": "杨成功",
-    "home_url": "https://segmentfault.com/u/ruidoc",
-    "votes": "36",
+    "title": "平平淡淡又一年 | 边城在思否的 2021 年总结",
+    "description": "又到了年末写总结的时候。我不断地提醒自己过去这一年是 2021，不是 2022 —— 是的，作为一个使用了 VS2022 好几个月的人来说，感觉已经在 2022 好久了。然而， 2022 只是即将来临。回往昔，我都干了啥？",
+    "url": "https://segmentfault.com/a/1190000041193583",
+    "author": "边城",
+    "home_url": "https://segmentfault.com/u/jamesfancy",
+    "votes": "14",
     "rank": 1
-  },
-  {
-    "title": "1.2w字 | 从 0 到 1 上手 Web Components 业务组件库开发",
-    "description": "组件化是前端发展的一个重要方向，它一方面提高开发效率，另一方面降低维护成本。主流的 Vue.js、React 及其延伸的 Ant Design、uniapp、Taro 等都是组件框架。​Web Components 是一组 Web 原生 API 的总称，允许...",
-    "url": "https://segmentfault.com/a/1190000041170989",
-    "author": "pingan8787",
-    "home_url": "https://segmentfault.com/u/pingan8787",
-    "votes": "17",
-    "rank": 2
-  },
-  {
-    "title": "Amazing！！CSS 也能实现极光？",
-    "description": "emmm，这有点难为人了。不过，最近我也尝试着去试了下，虽然不可能模拟出那么真实的效果，但是使用 CSS 还是可以作出类似的一些特效的，今天我们就一起来尝试下。",
-    "url": "https://segmentfault.com/a/1190000041166007",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "11",
-    "rank": 3
   },
   {
     "title": "使用 Nginx 构建前端日志统计服务",
@@ -32,8 +14,8 @@
     "url": "https://segmentfault.com/a/1190000041184489",
     "author": "前端森林",
     "home_url": "https://segmentfault.com/u/fengshuan",
-    "votes": "10",
-    "rank": 4
+    "votes": "13",
+    "rank": 2
   },
   {
     "title": "React Native新架构剖析",
@@ -42,7 +24,7 @@
     "author": "xiangzhihong",
     "home_url": "https://segmentfault.com/u/xiangzhihong",
     "votes": "10",
-    "rank": 5
+    "rank": 3
   },
   {
     "title": "Redis 分布式锁的正确实现原理演化历程与 Redission 实战总结",
@@ -51,16 +33,7 @@
     "author": "码哥字节",
     "home_url": "https://segmentfault.com/u/magebyte",
     "votes": "11",
-    "rank": 6
-  },
-  {
-    "title": "魏永明：都打着开源协作的名义要共建，却又是山头林立搞内卷",
-    "description": "魏永明，清华大学工学学士、硕士，飞漫软件创始人，开源软件杰出贡献人物。1999年发布知 名开源软件 MiniGUI并持续研发至今。出版有《Minicul 剖析》、《Linux 设备驱动程序》（二、三版）等技术著作。2018年11月...",
-    "url": "https://segmentfault.com/a/1190000041166779",
-    "author": "鸣飞",
-    "home_url": "https://segmentfault.com/u/mf",
-    "votes": "6",
-    "rank": 7
+    "rank": 4
   },
   {
     "title": "备战2022春招，这十道题必会！",
@@ -68,8 +41,8 @@
     "url": "https://segmentfault.com/a/1190000041174395",
     "author": "bigsai",
     "home_url": "https://segmentfault.com/u/bigsai",
-    "votes": "6",
-    "rank": 8
+    "votes": "7",
+    "rank": 5
   },
   {
     "title": "从微服务到云原生",
@@ -77,17 +50,17 @@
     "url": "https://segmentfault.com/a/1190000041178042",
     "author": "zhoutao",
     "home_url": "https://segmentfault.com/u/toopoo",
-    "votes": "11",
-    "rank": 9
+    "votes": "12",
+    "rank": 6
   },
   {
-    "title": "平平淡淡又一年 | 边城在思否的 2021 年总结",
-    "description": "又到了年末写总结的时候。我不断地提醒自己过去这一年是 2021，不是 2022 —— 是的，作为一个使用了 VS2022 好几个月的人来说，感觉已经在 2022 好久了。然而， 2022 只是即将来临。回往昔，我都干了啥？",
-    "url": "https://segmentfault.com/a/1190000041193583",
-    "author": "边城",
-    "home_url": "https://segmentfault.com/u/jamesfancy",
-    "votes": "11",
-    "rank": 10
+    "title": "难搞的偏向锁终于被 Java 移除了",
+    "description": "背景在 JDK1.5 之前，面对 Java 并发问题， synchronized 是一招鲜的解决方案：普通同步方法，锁上当前实例对象静态同步方法，锁上当前类 Class 对象同步块，锁上括号里面配置的对象拿同步块来举例: {代码...} 经...",
+    "url": "https://segmentfault.com/a/1190000041194920",
+    "author": "日拱一兵",
+    "home_url": "https://segmentfault.com/u/tanrigongyibing",
+    "votes": "10",
+    "rank": 7
   },
   {
     "title": "一看就懂，一写就懵？搞懂回溯算法，一口气刷了20多道题",
@@ -95,17 +68,8 @@
     "url": "https://segmentfault.com/a/1190000041181667",
     "author": "叫我詹躲躲",
     "home_url": "https://segmentfault.com/u/huixiaodeyanjingzhenmei",
-    "votes": "8",
-    "rank": 11
-  },
-  {
-    "title": "「百毒不侵(一)」(a == 1 && a == 2 && a == 3) 有可能是 true 吗？",
-    "description": "大家好我是林三心，又一周过去了，哎，想想年纪又大了，就烦。今天突然有人问我:(a == 1 && a == 2 && a ==3) 有可能是 true 吗我当时就想一脚踹过去，你这不是在耍我吗？当我的脚离他的脸一厘米...",
-    "url": "https://segmentfault.com/a/1190000041165448",
-    "author": "Sunshine_Lin",
-    "home_url": "https://segmentfault.com/u/user_ze46ouik",
-    "votes": "5",
-    "rank": 12
+    "votes": "11",
+    "rank": 8
   },
   {
     "title": "警惕！PHP、Node、Ruby 和 Python 应用，漏洞还没结束！",
@@ -114,7 +78,34 @@
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
     "votes": "6",
-    "rank": 13
+    "rank": 9
+  },
+  {
+    "title": "Docker 大势已去，Podman 即将崛起！",
+    "description": "Podman 是一个开源的容器运行时项目，可在大多数 Linux 平台上使用。Podman 提供与 Docker 非常相似的功能。正如前面提到的那样，它不需要在你的系统上运行任何守护进程，并且它也可以在没有 root 权限的情况下运...",
+    "url": "https://segmentfault.com/a/1190000041173604",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "8",
+    "rank": 10
+  },
+  {
+    "title": "从“智能湖仓”架构的技术演进，看现代化数据平台的发展方向",
+    "description": "在 2021 年初全年技术趋势展望中，数据湖与数据仓库的融合，成为大数据领域的趋势重点。直至年末，关于二者的讨论依然热烈，行业内的主要分歧点在于数据湖、数据仓库对存储系统访问、权限管理等方面的把控；行业...",
+    "url": "https://segmentfault.com/a/1190000041204912",
+    "author": "思否编辑部",
+    "home_url": "https://segmentfault.com/u/writers",
+    "votes": "2",
+    "rank": 11
+  },
+  {
+    "title": "「百毒不侵」面试官最喜欢问的14种Vue修饰符",
+    "description": "大家好，我是林三心，众所周知，修饰符也是Vue的重要组成成分之一，利用好修饰符可以大大地提高开发的效率，接下来给大家介绍一下面试官最喜欢问的13种Vue修饰符",
+    "url": "https://segmentfault.com/a/1190000041191163",
+    "author": "Sunshine_Lin",
+    "home_url": "https://segmentfault.com/u/user_ze46ouik",
+    "votes": "3",
+    "rank": 12
   },
   {
     "title": "「Vue源码学习」你想知道Vuex的实现原理吗？",
@@ -123,7 +114,7 @@
     "author": "Sunshine_Lin",
     "home_url": "https://segmentfault.com/u/user_ze46ouik",
     "votes": "3",
-    "rank": 14
+    "rank": 13
   },
   {
     "title": "一次说清，为什么在Antd Modal中调resetFields调了个寂寞",
@@ -132,7 +123,7 @@
     "author": "Denzel",
     "home_url": "https://segmentfault.com/u/denzel",
     "votes": "3",
-    "rank": 15
+    "rank": 14
   },
   {
     "title": "技术期刊 · 路尘终见泰山平 | 微前端及插件化架构在 Wix 的实践;编辑器架构的第二路径;业务中的前端组件化体系……",
@@ -141,25 +132,16 @@
     "author": "凹凸实验室",
     "home_url": "https://segmentfault.com/u/o2team",
     "votes": "3",
+    "rank": 15
+  },
+  {
+    "title": "Amazing！！CSS 也能实现烟雾效果？",
+    "description": "最近利用 CSS 实现了一些看似超出 CSS 能力的效果：巧用渐变实现高级感拉满的背景光动画Amazing！！CSS 也能实现极光？本文继续此系列，本文主要想探讨一下，使用 CSS 能否比较好的实现一些烟雾效果。像是这样：...",
+    "url": "https://segmentfault.com/a/1190000041189786",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "4",
     "rank": 16
-  },
-  {
-    "title": "顺为资本冯铮：我们距离《头号玩家》中的「Metaverse」还有多远？",
-    "description": "冯铮在投资领域有着丰富的经验并拥有深入的创业经验，主要负责考察互联网交易平台、企业服务领域的投资机会。 加入顺为资本前，冯铮曾作为创始人／CEO 创办美食分享领域的明星企业“我有饭”，并曾在 IDG 北京办公...",
-    "url": "https://segmentfault.com/a/1190000041167111",
-    "author": "鸣飞",
-    "home_url": "https://segmentfault.com/u/mf",
-    "votes": "1",
-    "rank": 17
-  },
-  {
-    "title": "Docker 大势已去，Podman 即将崛起！",
-    "description": "Podman 是一个开源的容器运行时项目，可在大多数 Linux 平台上使用。Podman 提供与 Docker 非常相似的功能。正如前面提到的那样，它不需要在你的系统上运行任何守护进程，并且它也可以在没有 root 权限的情况下运...",
-    "url": "https://segmentfault.com/a/1190000041173604",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "7",
-    "rank": 18
   },
   {
     "title": "反复切换\"账号\"有些麻烦? 写个谷歌插件帮你快速切换用户登录态",
@@ -168,7 +150,7 @@
     "author": "lulu_up",
     "home_url": "https://segmentfault.com/u/lulu_up",
     "votes": "7",
-    "rank": 19
+    "rank": 17
   },
   {
     "title": "面试官问我TCP三次握手和四次挥手，我真的是",
@@ -177,7 +159,16 @@
     "author": "Java3y",
     "home_url": "https://segmentfault.com/u/java_3y",
     "votes": "6",
-    "rank": 20
+    "rank": 18
+  },
+  {
+    "title": "【CSS3】CSS3动画——我离前端的炫酷又近了一步",
+    "description": "文章所涉及的部分资料来自互联网整理，当然还有自己个人的总结和看法，分享的目的在于共建社区和巩固自己。引用的资料如有侵权，请联系本人删除！幸好我在，感谢你来！",
+    "url": "https://segmentfault.com/a/1190000041182185",
+    "author": "归子莫",
+    "home_url": "https://segmentfault.com/u/guizimo",
+    "votes": "3",
+    "rank": 19
   },
   {
     "title": "电子表格实战锦囊:巧用稀疏数组是关键!",
@@ -186,16 +177,7 @@
     "author": "葡萄城技术团队",
     "home_url": "https://segmentfault.com/u/grapecity",
     "votes": "1",
-    "rank": 21
-  },
-  {
-    "title": "新的React状态库：foca",
-    "description": "基于 redux 和 react-redux。仓库地址：github.com/foca-js/foca文档地址：foca.js.org理念TS First，无TS不编程！特性模块化开发专注 typescript 极致体验模型自动注册，导出即可使用内置 immer 快速处理数据智...",
-    "url": "https://segmentfault.com/a/1190000041166881",
-    "author": "原罪",
-    "home_url": "https://segmentfault.com/u/fwh1990",
-    "votes": "1",
-    "rank": 22
+    "rank": 20
   },
   {
     "title": "对话Svelte未来，Rust 编译器？构建大型应用?",
@@ -204,25 +186,16 @@
     "author": "程序员秋风",
     "home_url": "https://segmentfault.com/u/qiufeng_5a07f6cb96ee0",
     "votes": "1",
-    "rank": 23
+    "rank": 21
   },
   {
-    "title": "「百毒不侵」面试官最喜欢问的13种Vue修饰符",
-    "description": "大家好，我是林三心，众所周知，修饰符也是Vue的重要组成成分之一，利用好修饰符可以大大地提高开发的效率，接下来给大家介绍一下面试官最喜欢问的13种Vue修饰符",
-    "url": "https://segmentfault.com/a/1190000041191163",
-    "author": "Sunshine_Lin",
-    "home_url": "https://segmentfault.com/u/user_ze46ouik",
-    "votes": "2",
-    "rank": 24
-  },
-  {
-    "title": "Amazing！！CSS 也能实现烟雾效果？",
-    "description": "最近利用 CSS 实现了一些看似超出 CSS 能力的效果：巧用渐变实现高级感拉满的背景光动画Amazing！！CSS 也能实现极光？本文继续此系列，本文主要想探讨一下，使用 CSS 能否比较好的实现一些烟雾效果。像是这样：...",
-    "url": "https://segmentfault.com/a/1190000041189786",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "2",
-    "rank": 25
+    "title": "FFCreator -- 用 node.js 来制作数据可视化视频吧",
+    "description": "TNTWeb - 全称腾讯新闻前端团队，组内小伙伴在 Web 前端、NodeJS 开发、UI 设计、移动 APP 等大前端领域都有所实践和积累。目前团队主要支持腾讯新闻各业务的前端开发，业务开发之余也积累沉淀了一些前端基础设施...",
+    "url": "https://segmentfault.com/a/1190000041192433",
+    "author": "TNTWEB",
+    "home_url": "https://segmentfault.com/u/tnfe",
+    "votes": "5",
+    "rank": 22
   },
   {
     "title": "一枚普通前端平淡无奇的一年 - 2021年终总结",
@@ -231,7 +204,7 @@
     "author": "蛙人",
     "home_url": "https://segmentfault.com/u/jack_code",
     "votes": "1",
-    "rank": 26
+    "rank": 23
   },
   {
     "title": "我想用 JS 实现 0.1 + 0.2 输出 0.3",
@@ -240,25 +213,25 @@
     "author": "linong",
     "home_url": "https://segmentfault.com/u/linong",
     "votes": "1",
-    "rank": 27
+    "rank": 24
   },
   {
-    "title": "魏永明：少谈情怀少作秀，多写代码多创新",
-    "description": "魏永明，清华大学工学学士、硕士，飞漫软件创始人，开源软件杰出贡献人物。1999年发布知 名开源软件 MiniGUI并持续研发至今。出版有《Minicul 剖析》、《Linux 设备驱动程序》（二、三版）等技术著作。2018年11月...",
-    "url": "https://segmentfault.com/a/1190000041167014",
-    "author": "鸣飞",
-    "home_url": "https://segmentfault.com/u/mf",
+    "title": "每秒1w+分布式事务--dtm的Redis存储性能测试分析",
+    "description": "之前dtm给出了Mysql作为存储引擎的性能测试报告，在一个普通配置的机器上，2.68w IOPS，4核8G机器上，能够支持大约每秒900+分布式事务，能够满足大部分公司的业务需求。",
+    "url": "https://segmentfault.com/a/1190000041184007",
+    "author": "叶东富",
+    "home_url": "https://segmentfault.com/u/yedongfu",
     "votes": "3",
-    "rank": 28
+    "rank": 25
   },
   {
-    "title": "当 2021 年的寒冬遇到疫情和离职",
-    "description": "说实话，今年的收尾有些惨淡，离职后又遇到了西安的疫情... 但也有点小幸运。工作如题，我离职了。看过前两年的年终总结的都应该知道，三年前从西安去的上海，现在又从上海回到了西安。说巧不巧的遇到了西安疫情...",
-    "url": "https://segmentfault.com/a/1190000041170346",
-    "author": "沈唁",
-    "home_url": "https://segmentfault.com/u/sy_records",
+    "title": "尽管颓废了一年，但我仍未放弃梦想「2021年终总结」",
+    "description": "2021年对于我来说过得实在是太快了，回顾这一年，工作上疲于奔命，没做出什么有价值的东西；技术上没有什么大的长进，更别谈有什么有价值的项目和文章产出；可能唯一多出来的只有肚子上的一圈赘肉。",
+    "url": "https://segmentfault.com/a/1190000041183152",
+    "author": "xuexiangjys",
+    "home_url": "https://segmentfault.com/u/xuexiangjys",
     "votes": "3",
-    "rank": 29
+    "rank": 26
   },
   {
     "title": "Java 中的5个代码性能提升技巧，最高提升近10倍",
@@ -267,6 +240,33 @@
     "author": "程序猿阿朗",
     "home_url": "https://segmentfault.com/u/niumoo",
     "votes": "1",
+    "rank": 27
+  },
+  {
+    "title": "不用一行代码，搞懂React调度器原理",
+    "description": "大家好，我卡颂。Scheduler(调度器)是React重要的组成部分。同时，他也是个独立的包，任何连续、可中断的流程都可以用Scheduler来调度，比如： {代码...} work满足两个条件：工作是连续的。一共需要执行100次，每...",
+    "url": "https://segmentfault.com/a/1190000041184562",
+    "author": "卡颂",
+    "home_url": "https://segmentfault.com/u/kasong",
+    "votes": "3",
+    "rank": 28
+  },
+  {
+    "title": "网易有道 | REDIS 云原生实战",
+    "description": "摘要本次以Redis为范例，阐述了有道基础架构团队在基础设施容器化道路上的实践，主要将从声明式管理，Operator工作原理，容器编排，主从模式，集群模式，高可用策略，集群扩缩容等方面展开。目录背景面临的挑战声...",
+    "url": "https://segmentfault.com/a/1190000041184345",
+    "author": "有道技术团队",
+    "home_url": "https://segmentfault.com/u/youdaotec",
+    "votes": "2",
+    "rank": 29
+  },
+  {
+    "title": "rollup配置及使用",
+    "description": "业务线长期的积累产生了许许多多重复性的工具方法，业务功能模块等， 我们正好可以用 rollup 构建一个 npm 私服工具包，便于后期业务使用，减少重复性的代码编写。",
+    "url": "https://segmentfault.com/a/1190000041180789",
+    "author": "浅夏晴空",
+    "home_url": "https://segmentfault.com/u/qianxiaqingkong",
+    "votes": "2",
     "rank": 30
   }
 ]
