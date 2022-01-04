@@ -1,29 +1,83 @@
 [
   {
-    "title": "JZ-044-翻转单词顺序列",
-    "description": "牛客最近来了一个新员工Fish，每天早晨总是会拿着一本英文杂志，写些句子在本子上。同事Cat对Fish写的内容颇感兴趣，有一天他向Fish借来翻看，但却读不懂它的意思。例如，“student. a am I”。后来才意识到，这家...",
-    "url": "https://segmentfault.com/a/1190000041213686",
-    "author": "雄狮虎豹",
-    "home_url": "https://segmentfault.com/u/xiongshihubao",
-    "votes": "4",
+    "title": "一份简单够用的 Nginx Location 配置讲解",
+    "description": "前言Location 是 Nginx 中一个非常核心的配置，这篇重点讲解一下 Location 的配置问题以及一些注意事项。语法关于 Location，举个简单的配置例子： {代码...} 大致的意思是，当你访问 www.yayujs.com 的 80 端口...",
+    "url": "https://segmentfault.com/a/1190000041217732",
+    "author": "冴羽",
+    "home_url": "https://segmentfault.com/u/yayu",
+    "votes": "3",
     "rank": 1
   },
   {
-    "title": "职业生涯的新转折点，2021 技术总结",
-    "description": "视频方面，偶然发现了 CloudStudio.net，觉得蛮适合用来给新入门的同学做基础教学，所以基于 CloudStudio 制作了一些全栈开发的内容，比如 Express.js 切片上传大文件等。",
-    "url": "https://segmentfault.com/a/1190000041215484",
-    "author": "Meathill",
-    "home_url": "https://segmentfault.com/u/meathill",
-    "votes": "1",
+    "title": "JZ-045-扑克牌顺子",
+    "description": "LL今天心情特别好,因为他去买了一副扑克牌,发现里面居然有2个大王,2个小王(一副牌原本是54张^_^)...他随机从中抽出了5张牌,想测测自己的手气,看看能不能抽到顺子,如果抽到的话,他决定去买体育彩票,嘿嘿！！“红心A...",
+    "url": "https://segmentfault.com/a/1190000041216030",
+    "author": "雄狮虎豹",
+    "home_url": "https://segmentfault.com/u/xiongshihubao",
+    "votes": "5",
     "rank": 2
   },
   {
-    "title": "云原生应用之旅——Kubernetes成长记 | 第十站：获取云原生旅行秘籍",
-    "description": "这是本系列的第十篇，也是最后一篇文章。由于这系列文章的内容层层递进，因此如果还没看过之前的内容，欢迎通过下列链接回看，建立必要的基础，随后再与我们一起踏上云原生应用的旅程。",
-    "url": "https://segmentfault.com/a/1190000041203565",
-    "author": "微软技术栈",
-    "home_url": "https://segmentfault.com/u/mstech",
-    "votes": "1",
+    "title": "记录一次班级与学生修改为多对多关系的过程",
+    "description": "这周做的是alice项目中的一个bug,由于重新分班后,原班级没有学生,对于原班级的某一课程成绩分析也就没有了。比如说我原来是计算机1806班的(计算机专业一共9个班,分别是计算机1801-计算机1809班),由于大专业分流成...",
+    "url": "https://segmentfault.com/a/1190000041217467",
+    "author": "小强Zzz",
+    "home_url": "https://segmentfault.com/u/zhaokaiqiang",
+    "votes": "2",
     "rank": 3
+  },
+  {
+    "title": "angular版本更新与配置文件问题",
+    "description": "因为初始化时angular版本问题导致无法使用单元测试，然后尝试自己初始化一个angular项目，在初始化过程中遇到一些问题。首先是我初始化的的时候因为我电脑上装的Angular-cli的版本是教程的版本11.0.7 这个版本单...",
+    "url": "https://segmentfault.com/a/1190000041217395",
+    "author": "李国稳",
+    "home_url": "https://segmentfault.com/u/meng_60ba0d4174d72",
+    "votes": "2",
+    "rank": 4
+  },
+  {
+    "title": "nginx 缓存踩坑",
+    "description": "前言在软工实验中我启用了nginx，但是奇怪的是临近检查的时候它突然不行了，最终错过了软工检查时间，给实验老师提交的录屏。问题描述前后台启动成功后，访问localhost：xxxx（自设置的端口号），但是奇怪的是他...",
+    "url": "https://segmentfault.com/a/1190000041217216",
+    "author": "郝泽龙_HZ",
+    "home_url": "https://segmentfault.com/u/haozelong_hz",
+    "votes": "1",
+    "rank": 5
+  },
+  {
+    "title": "彻底明白Go语言的Channel了",
+    "description": "channel 是 Go 语言内建的first-class类型，也是 Go 语言与众不同的特性之一。先看一个应用场景，比如协程A执行过程中需要创建子协程A1、A2 ... An，协程A创建完子协程后就等待子协程退出，这样场景的Go为我们提...",
+    "url": "https://segmentfault.com/a/1190000041216387",
+    "author": "metashops",
+    "home_url": "https://segmentfault.com/u/metashops",
+    "votes": "1",
+    "rank": 6
+  },
+  {
+    "title": "手写简易webpack",
+    "description": "编译产物分析 {代码...} 以上代码是通过精简过的，可以看到以下工具函数__webpack_modules__:是一个对象，它的值是所有模块的代码，key值对应是模块文件路径__webpack_module_cache__: 缓存exports的值__webpack_...",
+    "url": "https://segmentfault.com/a/1190000041218308",
+    "author": "散一群逗逼",
+    "home_url": "https://segmentfault.com/u/sanyiqundoubi",
+    "votes": "1",
+    "rank": 7
+  },
+  {
+    "title": "基于 PageSpeed 的性能优化实践",
+    "description": "网站性能至关重要，会影响 SEO 排名、转换率、用户跳出率以及用户体验等。在浏览器中加载缓慢的网站可能会慢慢失去用户，相反能够快速响应的网站通常会有机会获取更多流量，带来更大效益。",
+    "url": "https://segmentfault.com/a/1190000041217354",
+    "author": "离独逸",
+    "home_url": "https://segmentfault.com/u/exileduyi",
+    "votes": "1",
+    "rank": 8
+  },
+  {
+    "title": "机器学习算法系列（一）- 感知器学习算法（PLA）",
+    "description": "前面一节我们了解了机器学习算法系列（〇）- 基础知识，接下来正式开始机器学习算法的学习，首先我们从最简单的一个算法——感知器学习算法（Perceptron Learning Algorithm）开始。  我们在使用电子邮件时，应该注...",
+    "url": "https://segmentfault.com/a/1190000041216640",
+    "author": "Saisimon",
+    "home_url": "https://segmentfault.com/u/saisimon",
+    "votes": "1",
+    "rank": 9
   }
 ]

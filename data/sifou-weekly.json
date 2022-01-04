@@ -9,21 +9,21 @@
     "rank": 1
   },
   {
-    "title": "使用 Nginx 构建前端日志统计服务",
-    "description": "这个大的项目以 low code 为核心，囊括了编辑器前端、编辑器后端、C 端 H5、组件库、组件平台、后台管理系统前端、后台管理系统后台、统计服务、自研 CLI 九大系统。",
-    "url": "https://segmentfault.com/a/1190000041184489",
-    "author": "前端森林",
-    "home_url": "https://segmentfault.com/u/fengshuan",
-    "votes": "15",
-    "rank": 2
-  },
-  {
     "title": "难搞的偏向锁终于被 Java 移除了",
     "description": "背景在 JDK1.5 之前，面对 Java 并发问题， synchronized 是一招鲜的解决方案：普通同步方法，锁上当前实例对象静态同步方法，锁上当前类 Class 对象同步块，锁上括号里面配置的对象拿同步块来举例: {代码...} 经...",
     "url": "https://segmentfault.com/a/1190000041194920",
     "author": "日拱一兵",
     "home_url": "https://segmentfault.com/u/tanrigongyibing",
-    "votes": "13",
+    "votes": "16",
+    "rank": 2
+  },
+  {
+    "title": "Amazing！！CSS 也能实现烟雾效果？",
+    "description": "最近利用 CSS 实现了一些看似超出 CSS 能力的效果：巧用渐变实现高级感拉满的背景光动画Amazing！！CSS 也能实现极光？本文继续此系列，本文主要想探讨一下，使用 CSS 能否比较好的实现一些烟雾效果。像是这样：...",
+    "url": "https://segmentfault.com/a/1190000041189786",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "8",
     "rank": 3
   },
   {
@@ -36,22 +36,13 @@
     "rank": 4
   },
   {
-    "title": "Amazing！！CSS 也能实现烟雾效果？",
-    "description": "最近利用 CSS 实现了一些看似超出 CSS 能力的效果：巧用渐变实现高级感拉满的背景光动画Amazing！！CSS 也能实现极光？本文继续此系列，本文主要想探讨一下，使用 CSS 能否比较好的实现一些烟雾效果。像是这样：...",
-    "url": "https://segmentfault.com/a/1190000041189786",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "8",
-    "rank": 5
-  },
-  {
     "title": "警惕！PHP、Node、Ruby 和 Python 应用，漏洞还没结束！",
     "description": "12 月 10 日凌晨，Apache 开源项目 Log4j2 的远程代码执行漏洞细节被公开，作为当前全球使用最广泛的 java 日志框架之一。该漏洞影响着很多全球使用量前列的开源组件，如 Apache Struts2、Apache Solr、Apache Dr...",
     "url": "https://segmentfault.com/a/1190000041189841",
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
     "votes": "6",
-    "rank": 6
+    "rank": 5
   },
   {
     "title": "「百毒不侵」面试官最喜欢问的14种Vue修饰符",
@@ -60,7 +51,7 @@
     "author": "Sunshine_Lin",
     "home_url": "https://segmentfault.com/u/user_ze46ouik",
     "votes": "6",
-    "rank": 7
+    "rank": 6
   },
   {
     "title": "林三心画了8张图，最通俗易懂的Vue3响应式核心原理解析",
@@ -69,7 +60,7 @@
     "author": "Sunshine_Lin",
     "home_url": "https://segmentfault.com/u/user_ze46ouik",
     "votes": "6",
-    "rank": 8
+    "rank": 7
   },
   {
     "title": "从本科退学，到再拿本科，2021我的5年技术“弯路”回轨了｜1.2w字",
@@ -77,8 +68,8 @@
     "url": "https://segmentfault.com/a/1190000041209110",
     "author": "杨成功",
     "home_url": "https://segmentfault.com/u/ruidoc",
-    "votes": "9",
-    "rank": 9
+    "votes": "10",
+    "rank": 8
   },
   {
     "title": "冷门又好用的 CSS 特性",
@@ -86,8 +77,8 @@
     "url": "https://segmentfault.com/a/1190000041209570",
     "author": "MudOnTire",
     "home_url": "https://segmentfault.com/u/mudontire",
-    "votes": "4",
-    "rank": 10
+    "votes": "5",
+    "rank": 9
   },
   {
     "title": "FFCreator -- 用 node.js 来制作数据可视化视频吧",
@@ -96,6 +87,15 @@
     "author": "TNTWEB",
     "home_url": "https://segmentfault.com/u/tnfe",
     "votes": "5",
+    "rank": 10
+  },
+  {
+    "title": "复旦教授发现 400+ 高危漏洞：谷歌 16 个月后终于修复 | Android 设备不用“变砖”了",
+    "description": "近日，有媒体报道称，去年 9 月份，来自复旦大学计算机学院的杨珉教授及同事们发现了 400 多个能让“市面所有活着的 Android 设备变砖”的高危漏洞，并通过整理后提交至谷歌方面。",
+    "url": "https://segmentfault.com/a/1190000041208528",
+    "author": "MissD",
+    "home_url": "https://segmentfault.com/u/d2ms1shh",
+    "votes": "2",
     "rank": 11
   },
   {
@@ -117,31 +117,13 @@
     "rank": 13
   },
   {
-    "title": "尽管颓废了一年，但我仍未放弃梦想「2021年终总结」",
-    "description": "2021年对于我来说过得实在是太快了，回顾这一年，工作上疲于奔命，没做出什么有价值的东西；技术上没有什么大的长进，更别谈有什么有价值的项目和文章产出；可能唯一多出来的只有肚子上的一圈赘肉。",
-    "url": "https://segmentfault.com/a/1190000041183152",
-    "author": "xuexiangjys",
-    "home_url": "https://segmentfault.com/u/xuexiangjys",
+    "title": "从2021看2022前端发展趋势",
+    "description": "又到了年底，回顾一下整个2021年的前端历程，总体来说前端趋向到了一个比较稳定的发展阶段，虽然仍然有许多层出不穷的库及轮子，但整体来看其实今年最突出的前端发展其实可以概括为以下几个关键词，即：工程基建...",
+    "url": "https://segmentfault.com/a/1190000041211795",
+    "author": "野林",
+    "home_url": "https://segmentfault.com/u/vleedesigntheory",
     "votes": "3",
     "rank": 14
-  },
-  {
-    "title": "每秒1w+分布式事务--dtm的Redis存储性能测试分析",
-    "description": "之前dtm给出了Mysql作为存储引擎的性能测试报告，在一个普通配置的机器上，2.68w IOPS，4核8G机器上，能够支持大约每秒900+分布式事务，能够满足大部分公司的业务需求。",
-    "url": "https://segmentfault.com/a/1190000041184007",
-    "author": "叶东富",
-    "home_url": "https://segmentfault.com/u/yedongfu",
-    "votes": "3",
-    "rank": 15
-  },
-  {
-    "title": "不用一行代码，搞懂React调度器原理",
-    "description": "大家好，我卡颂。Scheduler(调度器)是React重要的组成部分。同时，他也是个独立的包，任何连续、可中断的流程都可以用Scheduler来调度，比如： {代码...} work满足两个条件：工作是连续的。一共需要执行100次，每...",
-    "url": "https://segmentfault.com/a/1190000041184562",
-    "author": "卡颂",
-    "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "3",
-    "rank": 16
   },
   {
     "title": "Web前端主题切换的几种方案",
@@ -150,7 +132,7 @@
     "author": "Dickens",
     "home_url": "https://segmentfault.com/u/dabai_5955b2921e87d",
     "votes": "2",
-    "rank": 17
+    "rank": 15
   },
   {
     "title": "鲜衣怒马少年时，不负韶华行且知 | 2021，我这一年。",
@@ -159,16 +141,7 @@
     "author": "why技术",
     "home_url": "https://segmentfault.com/u/whyjishu",
     "votes": "3",
-    "rank": 18
-  },
-  {
-    "title": "网易有道 | REDIS 云原生实战",
-    "description": "摘要本次以Redis为范例，阐述了有道基础架构团队在基础设施容器化道路上的实践，主要将从声明式管理，Operator工作原理，容器编排，主从模式，集群模式，高可用策略，集群扩缩容等方面展开。目录背景面临的挑战声...",
-    "url": "https://segmentfault.com/a/1190000041184345",
-    "author": "有道技术团队",
-    "home_url": "https://segmentfault.com/u/youdaotec",
-    "votes": "2",
-    "rank": 19
+    "rank": 16
   },
   {
     "title": "彻底搞懂 Kubernetes 中的 Events",
@@ -177,70 +150,7 @@
     "author": "张晋涛",
     "home_url": "https://segmentfault.com/u/moelove",
     "votes": "3",
-    "rank": 20
-  },
-  {
-    "title": "从2021看2022前端发展趋势",
-    "description": "又到了年底，回顾一下整个2021年的前端历程，总体来说前端趋向到了一个比较稳定的发展阶段，虽然仍然有许多层出不穷的库及轮子，但整体来看其实今年最突出的前端发展其实可以概括为以下几个关键词，即：工程基建...",
-    "url": "https://segmentfault.com/a/1190000041211795",
-    "author": "野林",
-    "home_url": "https://segmentfault.com/u/vleedesigntheory",
-    "votes": "2",
-    "rank": 21
-  },
-  {
-    "title": "比 ping 强大百倍的可视化工具！结果一目了然",
-    "description": "谈到检测网络联通性工具，ping命令必须首当其充。但是，今天，民工哥给大家推荐一个强大的命令行工具：gping。gping 是基于 Rust 编写可视化工具，具有动态图形化界面显示。安装下载系统所对应的安装包本文以Cent...",
-    "url": "https://segmentfault.com/a/1190000041184936",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "5",
-    "rank": 22
-  },
-  {
-    "title": "与 Taro 团队核心开发兼运营的一次 CSS 布局讨论的记录",
-    "description": "今天上班在很认真的寻访候选人，查看招聘网站上的一些人选的信息时，突然收到 Taro 团队的核心开发兼运营（我说他是开发，他说自己是运营）同学的微信消息，如下图：",
-    "url": "https://segmentfault.com/a/1190000041201222",
-    "author": "林小志",
-    "home_url": "https://segmentfault.com/u/linxz",
-    "votes": "2",
-    "rank": 23
-  },
-  {
-    "title": "复旦教授发现 400+ 高危漏洞：谷歌 16 个月后终于修复 | Android 设备不用“变砖”了",
-    "description": "近日，有媒体报道称，去年 9 月份，来自复旦大学计算机学院的杨珉教授及同事们发现了 400 多个能让“市面所有活着的 Android 设备变砖”的高危漏洞，并通过整理后提交至谷歌方面。",
-    "url": "https://segmentfault.com/a/1190000041208528",
-    "author": "MissD",
-    "home_url": "https://segmentfault.com/u/d2ms1shh",
-    "votes": "2",
-    "rank": 24
-  },
-  {
-    "title": "Top 5 榜单：最容易学习和最难掌握的编程语言",
-    "description": "如果你想学习编程，你应该从哪种编程语言开始？向一个程序员询问最容易学习的语言，就像向某人询问他们最喜欢吃什么口味的冰激凌，没有真正正确的的答案，每个人都会有自己的偏好。正如开发者和教育家 Marek Zalu...",
-    "url": "https://segmentfault.com/a/1190000041196930",
-    "author": "snakesss",
-    "home_url": "https://segmentfault.com/u/snakesss",
-    "votes": "3",
-    "rank": 25
-  },
-  {
-    "title": "可视化编码！前端无缝接入代码可视化编辑",
-    "description": "主流的商业化低代码平台，基本就是希望将研发全链路都推向标准化、规范化，来达到提效的效果，但是对于需求本身是变化的，同时会形成对低代码平台的依赖，后续维护均需要依赖平台能力实现；",
-    "url": "https://segmentfault.com/a/1190000041210915",
-    "author": "moyuyc",
-    "home_url": "https://segmentfault.com/u/moyuyc",
-    "votes": "4",
-    "rank": 26
-  },
-  {
-    "title": "中秋！还记得西游记里的嫦娥吗？我用10000张图片拼成了儿时女神！",
-    "description": "大家好，我是林三心，中秋即将来临，预祝大家中秋快乐！！！我在想，关于中秋，我能写点什么分享给大家呢？这一天，我在看《西游记》，突然想到了我儿时的女神，是谁呢？就是天蓬元帅苦苦追求的嫦娥仙子，那可是...",
-    "url": "https://segmentfault.com/a/1190000041195203",
-    "author": "Sunshine_Lin",
-    "home_url": "https://segmentfault.com/u/user_ze46ouik",
-    "votes": "3",
-    "rank": 27
+    "rank": 17
   },
   {
     "title": "死月的二零二一总结",
@@ -249,7 +159,70 @@
     "author": "死月",
     "home_url": "https://segmentfault.com/u/xadillax",
     "votes": "2",
-    "rank": 28
+    "rank": 18
+  },
+  {
+    "title": "与 Taro 团队核心开发兼运营的一次 CSS 布局讨论的记录",
+    "description": "今天上班在很认真的寻访候选人，查看招聘网站上的一些人选的信息时，突然收到 Taro 团队的核心开发兼运营（我说他是开发，他说自己是运营）同学的微信消息，如下图：",
+    "url": "https://segmentfault.com/a/1190000041201222",
+    "author": "林小志",
+    "home_url": "https://segmentfault.com/u/linxz",
+    "votes": "2",
+    "rank": 19
+  },
+  {
+    "title": "可视化编码！前端无缝接入代码可视化编辑",
+    "description": "主流的商业化低代码平台，基本就是希望将研发全链路都推向标准化、规范化，来达到提效的效果，但是对于需求本身是变化的，同时会形成对低代码平台的依赖，后续维护均需要依赖平台能力实现；",
+    "url": "https://segmentfault.com/a/1190000041210915",
+    "author": "moyuyc",
+    "home_url": "https://segmentfault.com/u/moyuyc",
+    "votes": "4",
+    "rank": 20
+  },
+  {
+    "title": "告别KAPT，使用KSP为Android编译提速",
+    "description": "在进行Android应用开发时，不少人吐槽 Kotlin 的编译速度慢，而KAPT 便是拖慢编译的元凶之一。我们知道，Android的很多库都会使用注解简化模板代码，例如 Room、Dagger、Retrofit 等，而默认情况下Kotlin 使用的...",
+    "url": "https://segmentfault.com/a/1190000041198258",
+    "author": "xiangzhihong",
+    "home_url": "https://segmentfault.com/u/xiangzhihong",
+    "votes": "1",
+    "rank": 21
+  },
+  {
+    "title": "Top 5 榜单：最容易学习和最难掌握的编程语言",
+    "description": "如果你想学习编程，你应该从哪种编程语言开始？向一个程序员询问最容易学习的语言，就像向某人询问他们最喜欢吃什么口味的冰激凌，没有真正正确的的答案，每个人都会有自己的偏好。正如开发者和教育家 Marek Zalu...",
+    "url": "https://segmentfault.com/a/1190000041196930",
+    "author": "snakesss",
+    "home_url": "https://segmentfault.com/u/snakesss",
+    "votes": "3",
+    "rank": 22
+  },
+  {
+    "title": "JZ-044-翻转单词顺序列",
+    "description": "牛客最近来了一个新员工Fish，每天早晨总是会拿着一本英文杂志，写些句子在本子上。同事Cat对Fish写的内容颇感兴趣，有一天他向Fish借来翻看，但却读不懂它的意思。例如，“student. a am I”。后来才意识到，这家...",
+    "url": "https://segmentfault.com/a/1190000041213686",
+    "author": "雄狮虎豹",
+    "home_url": "https://segmentfault.com/u/xiongshihubao",
+    "votes": "4",
+    "rank": 23
+  },
+  {
+    "title": "中秋！还记得西游记里的嫦娥吗？我用10000张图片拼成了儿时女神！",
+    "description": "大家好，我是林三心，中秋即将来临，预祝大家中秋快乐！！！我在想，关于中秋，我能写点什么分享给大家呢？这一天，我在看《西游记》，突然想到了我儿时的女神，是谁呢？就是天蓬元帅苦苦追求的嫦娥仙子，那可是...",
+    "url": "https://segmentfault.com/a/1190000041195203",
+    "author": "Sunshine_Lin",
+    "home_url": "https://segmentfault.com/u/user_ze46ouik",
+    "votes": "3",
+    "rank": 24
+  },
+  {
+    "title": "良许跌宕起伏的2021年",
+    "description": "大家好，我是良许，前码农，现创业者。时间飞逝，转眼就2021年年尾了，向各位「股东」们汇报一下良许的 2021 年。公众号运营至今，每年我都会写年终总结，前三次总结给大家放在下面了，各位看官们来帮我打打脸。2...",
+    "url": "https://segmentfault.com/a/1190000041206161",
+    "author": "良许",
+    "home_url": "https://segmentfault.com/u/liangxu_5d63396040bb5",
+    "votes": "2",
+    "rank": 25
   },
   {
     "title": "JZ-039-平衡二叉树",
@@ -258,7 +231,16 @@
     "author": "雄狮虎豹",
     "home_url": "https://segmentfault.com/u/xiongshihubao",
     "votes": "4",
-    "rank": 29
+    "rank": 26
+  },
+  {
+    "title": "碌碌无为而又不平凡的2021",
+    "description": "从2021年年初的时候，就遇到部门被解散的问题，反反复复持续了3个月的时间，终于在2021年3月底迎来了部门解散的通知，也遇到了去与留的抉择，然后就是各种面试，不到两周时间面了10家公司的样子，拿到了7、8个off...",
+    "url": "https://segmentfault.com/a/1190000041209481",
+    "author": "三掌柜",
+    "home_url": "https://segmentfault.com/u/sanzhanggui",
+    "votes": "2",
+    "rank": 27
   },
   {
     "title": "JZ-040-数组中只出现一次的数字",
@@ -267,6 +249,24 @@
     "author": "雄狮虎豹",
     "home_url": "https://segmentfault.com/u/xiongshihubao",
     "votes": "4",
+    "rank": 28
+  },
+  {
+    "title": "深度测评 | 五大主流多端开发框架全面对比",
+    "description": "国内外笔者选择了一共 5 个主流的测评对象，分别是 RN，Flutter，Ionic，NativeScript，以及用友 APICloud 团队开发的 AVM。",
+    "url": "https://segmentfault.com/a/1190000041205474",
+    "author": "浪里行舟",
+    "home_url": "https://segmentfault.com/u/langlixingzhou",
+    "votes": "1",
+    "rank": 29
+  },
+  {
+    "title": "突破技术限制，实现Web端静默打印",
+    "description": "真实情况是Web端受限于浏览器的权限，无法直接访问打印机等本机资源。所以，在Web上实现无预览和打印并不是一个简单的问题，而是突破权限、突破平台的问题。这就导致了用户在打印报表时，至少需要点击两个按钮才...",
+    "url": "https://segmentfault.com/a/1190000041191313",
+    "author": "葡萄城技术团队",
+    "home_url": "https://segmentfault.com/u/grapecity",
+    "votes": "2",
     "rank": 30
   }
 ]
