@@ -1,30 +1,21 @@
 [
   {
-    "title": "平平淡淡又一年 | 边城在思否的 2021 年总结",
-    "description": "又到了年末写总结的时候。我不断地提醒自己过去这一年是 2021，不是 2022 —— 是的，作为一个使用了 VS2022 好几个月的人来说，感觉已经在 2022 好久了。然而， 2022 只是即将来临。回往昔，我都干了啥？",
-    "url": "https://segmentfault.com/a/1190000041193583",
-    "author": "边城",
-    "home_url": "https://segmentfault.com/u/jamesfancy",
-    "votes": "18",
-    "rank": 1
-  },
-  {
     "title": "难搞的偏向锁终于被 Java 移除了",
     "description": "背景在 JDK1.5 之前，面对 Java 并发问题， synchronized 是一招鲜的解决方案：普通同步方法，锁上当前实例对象静态同步方法，锁上当前类 Class 对象同步块，锁上括号里面配置的对象拿同步块来举例: {代码...} 经...",
     "url": "https://segmentfault.com/a/1190000041194920",
     "author": "日拱一兵",
     "home_url": "https://segmentfault.com/u/tanrigongyibing",
-    "votes": "16",
-    "rank": 2
+    "votes": "24",
+    "rank": 1
   },
   {
-    "title": "Amazing！！CSS 也能实现烟雾效果？",
-    "description": "最近利用 CSS 实现了一些看似超出 CSS 能力的效果：巧用渐变实现高级感拉满的背景光动画Amazing！！CSS 也能实现极光？本文继续此系列，本文主要想探讨一下，使用 CSS 能否比较好的实现一些烟雾效果。像是这样：...",
-    "url": "https://segmentfault.com/a/1190000041189786",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "8",
-    "rank": 3
+    "title": "冷门又好用的 CSS 特性",
+    "description": "CSS 提供了对多列布局的支持。支持设置布局中的列数 (column-count)、内容应如何列之间的流动规则、列之间的间距 (column-gap) 以及列分割线（column-rule）的样式。",
+    "url": "https://segmentfault.com/a/1190000041209570",
+    "author": "MudOnTire",
+    "home_url": "https://segmentfault.com/u/mudontire",
+    "votes": "11",
+    "rank": 2
   },
   {
     "title": "从“智能湖仓”架构的技术演进，看现代化数据平台的发展方向",
@@ -33,34 +24,16 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "5",
+    "rank": 3
+  },
+  {
+    "title": "一份简单够用的 Nginx Location 配置讲解",
+    "description": "前言Location 是 Nginx 中一个非常核心的配置，这篇重点讲解一下 Location 的配置问题以及一些注意事项。语法关于 Location，举个简单的配置例子： {代码...} 大致的意思是，当你访问 www.yayujs.com 的 80 端口...",
+    "url": "https://segmentfault.com/a/1190000041217732",
+    "author": "冴羽",
+    "home_url": "https://segmentfault.com/u/yayu",
+    "votes": "8",
     "rank": 4
-  },
-  {
-    "title": "警惕！PHP、Node、Ruby 和 Python 应用，漏洞还没结束！",
-    "description": "12 月 10 日凌晨，Apache 开源项目 Log4j2 的远程代码执行漏洞细节被公开，作为当前全球使用最广泛的 java 日志框架之一。该漏洞影响着很多全球使用量前列的开源组件，如 Apache Struts2、Apache Solr、Apache Dr...",
-    "url": "https://segmentfault.com/a/1190000041189841",
-    "author": "云叔_又拍云",
-    "home_url": "https://segmentfault.com/u/yunshu_blog",
-    "votes": "6",
-    "rank": 5
-  },
-  {
-    "title": "「百毒不侵」面试官最喜欢问的14种Vue修饰符",
-    "description": "大家好，我是林三心，众所周知，修饰符也是Vue的重要组成成分之一，利用好修饰符可以大大地提高开发的效率，接下来给大家介绍一下面试官最喜欢问的13种Vue修饰符",
-    "url": "https://segmentfault.com/a/1190000041191163",
-    "author": "Sunshine_Lin",
-    "home_url": "https://segmentfault.com/u/user_ze46ouik",
-    "votes": "6",
-    "rank": 6
-  },
-  {
-    "title": "林三心画了8张图，最通俗易懂的Vue3响应式核心原理解析",
-    "description": "基础是进阶的前提其实Vue3已经出来很久了，可能大部分公司都用上了，但是，Vue3究竟比Vue2好在哪里？其实很多人都不知道。今天我就先给大家讲一讲Vue3的响应式原理吧，顺便说一说Vue3的响应式到底比Vue2的响应式...",
-    "url": "https://segmentfault.com/a/1190000041207010",
-    "author": "Sunshine_Lin",
-    "home_url": "https://segmentfault.com/u/user_ze46ouik",
-    "votes": "6",
-    "rank": 7
   },
   {
     "title": "从本科退学，到再拿本科，2021我的5年技术“弯路”回轨了｜1.2w字",
@@ -68,26 +41,44 @@
     "url": "https://segmentfault.com/a/1190000041209110",
     "author": "杨成功",
     "home_url": "https://segmentfault.com/u/ruidoc",
-    "votes": "10",
+    "votes": "11",
+    "rank": 5
+  },
+  {
+    "title": "林三心画了8张图，最通俗易懂的Vue3响应式核心原理解析",
+    "description": "基础是进阶的前提其实Vue3已经出来很久了，可能大部分公司都用上了，但是，Vue3究竟比Vue2好在哪里？其实很多人都不知道。今天我就先给大家讲一讲Vue3的响应式原理吧，顺便说一说Vue3的响应式到底比Vue2的响应式...",
+    "url": "https://segmentfault.com/a/1190000041207010",
+    "author": "Sunshine_Lin",
+    "home_url": "https://segmentfault.com/u/user_ze46ouik",
+    "votes": "8",
+    "rank": 6
+  },
+  {
+    "title": "可视化编码！前端无缝接入代码可视化编辑",
+    "description": "主流的商业化低代码平台，基本就是希望将研发全链路都推向标准化、规范化，来达到提效的效果，但是对于需求本身是变化的，同时会形成对低代码平台的依赖，后续维护均需要依赖平台能力实现；",
+    "url": "https://segmentfault.com/a/1190000041210915",
+    "author": "moyuyc",
+    "home_url": "https://segmentfault.com/u/moyuyc",
+    "votes": "8",
+    "rank": 7
+  },
+  {
+    "title": "从2021看2022前端发展趋势",
+    "description": "又到了年底，回顾一下整个2021年的前端历程，总体来说前端趋向到了一个比较稳定的发展阶段，虽然仍然有许多层出不穷的库及轮子，但整体来看其实今年最突出的前端发展其实可以概括为以下几个关键词，即：工程基建...",
+    "url": "https://segmentfault.com/a/1190000041211795",
+    "author": "野林",
+    "home_url": "https://segmentfault.com/u/vleedesigntheory",
+    "votes": "6",
     "rank": 8
   },
   {
-    "title": "冷门又好用的 CSS 特性",
-    "description": "CSS 提供了对多列布局的支持。支持设置布局中的列数 (column-count)、内容应如何列之间的流动规则、列之间的间距 (column-gap) 以及列分割线（column-rule）的样式。",
-    "url": "https://segmentfault.com/a/1190000041209570",
-    "author": "MudOnTire",
-    "home_url": "https://segmentfault.com/u/mudontire",
+    "title": "与 Taro 团队核心开发兼运营的一次 CSS 布局讨论的记录",
+    "description": "今天上班在很认真的寻访候选人，查看招聘网站上的一些人选的信息时，突然收到 Taro 团队的核心开发兼运营（我说他是开发，他说自己是运营）同学的微信消息，如下图：",
+    "url": "https://segmentfault.com/a/1190000041201222",
+    "author": "林小志",
+    "home_url": "https://segmentfault.com/u/linxz",
     "votes": "5",
     "rank": 9
-  },
-  {
-    "title": "FFCreator -- 用 node.js 来制作数据可视化视频吧",
-    "description": "TNTWeb - 全称腾讯新闻前端团队，组内小伙伴在 Web 前端、NodeJS 开发、UI 设计、移动 APP 等大前端领域都有所实践和积累。目前团队主要支持腾讯新闻各业务的前端开发，业务开发之余也积累沉淀了一些前端基础设施...",
-    "url": "https://segmentfault.com/a/1190000041192433",
-    "author": "TNTWEB",
-    "home_url": "https://segmentfault.com/u/tnfe",
-    "votes": "5",
-    "rank": 10
   },
   {
     "title": "复旦教授发现 400+ 高危漏洞：谷歌 16 个月后终于修复 | Android 设备不用“变砖”了",
@@ -96,6 +87,15 @@
     "author": "MissD",
     "home_url": "https://segmentfault.com/u/d2ms1shh",
     "votes": "2",
+    "rank": 10
+  },
+  {
+    "title": "死月的二零二一总结",
+    "description": "本文参与了 SegmentFault 思否征文「2021 总结」，欢迎正在阅读的你也加入。说点题外话，自从自己编春联贴门口后，感觉都很灵。去年编的春联：上联：夔牛水牛黄牛牛牛旺下联：靓崽狗崽猫崽崽崽安横批：码祥稿俊结...",
+    "url": "https://segmentfault.com/a/1190000041211177",
+    "author": "死月",
+    "home_url": "https://segmentfault.com/u/xadillax",
+    "votes": "4",
     "rank": 11
   },
   {
@@ -108,31 +108,22 @@
     "rank": 12
   },
   {
+    "title": "彻底搞懂 Kubernetes 中的 Events",
+    "description": "之前我写了一篇《更优雅的 Kubernetes 集群事件度量方案》，利用 Jaeger 利用 tracing 的方式来采集 Kubernetes 集群中的 events 并进行展示。最终效果如下：",
+    "url": "https://segmentfault.com/a/1190000041196706",
+    "author": "张晋涛",
+    "home_url": "https://segmentfault.com/u/moelove",
+    "votes": "5",
+    "rank": 13
+  },
+  {
     "title": "浏览器渲染魔法之合成层",
     "description": "浏览器与前端开发的关系不言而喻，而了解浏览器的渲染原理，可以帮助我们提升页面性能，解决一些渲染上的问题。最近在开发一个移动端 H5 页面的时候，就遇到一个奇怪的问题，有一个榜单页面在最新版本 IOS 手机上...",
     "url": "https://segmentfault.com/a/1190000041197292",
     "author": "云音乐大前端团队",
     "home_url": "https://segmentfault.com/u/musicfe",
     "votes": "4",
-    "rank": 13
-  },
-  {
-    "title": "从2021看2022前端发展趋势",
-    "description": "又到了年底，回顾一下整个2021年的前端历程，总体来说前端趋向到了一个比较稳定的发展阶段，虽然仍然有许多层出不穷的库及轮子，但整体来看其实今年最突出的前端发展其实可以概括为以下几个关键词，即：工程基建...",
-    "url": "https://segmentfault.com/a/1190000041211795",
-    "author": "野林",
-    "home_url": "https://segmentfault.com/u/vleedesigntheory",
-    "votes": "3",
     "rank": 14
-  },
-  {
-    "title": "Web前端主题切换的几种方案",
-    "description": "这种方案利用了css多层样式精确匹配的特点，通过样式覆盖的方式实现主题的切换。首先需要在应用的根元素中设一个 class，切换主题时给 class 赋上对应的值，下面以theme1/theme2为例。",
-    "url": "https://segmentfault.com/a/1190000041195585",
-    "author": "Dickens",
-    "home_url": "https://segmentfault.com/u/dabai_5955b2921e87d",
-    "votes": "2",
-    "rank": 15
   },
   {
     "title": "鲜衣怒马少年时，不负韶华行且知 | 2021，我这一年。",
@@ -141,43 +132,79 @@
     "author": "why技术",
     "home_url": "https://segmentfault.com/u/whyjishu",
     "votes": "3",
+    "rank": 15
+  },
+  {
+    "title": "Web前端主题切换的几种方案",
+    "description": "这种方案利用了css多层样式精确匹配的特点，通过样式覆盖的方式实现主题的切换。首先需要在应用的根元素中设一个 class，切换主题时给 class 赋上对应的值，下面以theme1/theme2为例。",
+    "url": "https://segmentfault.com/a/1190000041195585",
+    "author": "Dickens",
+    "home_url": "https://segmentfault.com/u/dabai_5955b2921e87d",
+    "votes": "2",
     "rank": 16
   },
   {
-    "title": "彻底搞懂 Kubernetes 中的 Events",
-    "description": "之前我写了一篇《更优雅的 Kubernetes 集群事件度量方案》，利用 Jaeger 利用 tracing 的方式来采集 Kubernetes 集群中的 events 并进行展示。最终效果如下：",
-    "url": "https://segmentfault.com/a/1190000041196706",
-    "author": "张晋涛",
-    "home_url": "https://segmentfault.com/u/moelove",
-    "votes": "3",
+    "title": "Cube 技术解读 | Cube 小程序技术详解",
+    "description": "小程序作为动态化或者跨端开发的一种技术栈，在业界成为事实标准。Cube 作为一种轻量级小程序技术栈，具有体积小、启动快、内存占用低等特点，也比较适合“即用即走”的小程序场景。以下将重点介绍 Cube 小程序技术...",
+    "url": "https://segmentfault.com/a/1190000041204498",
+    "author": "阿里巴巴移动技术",
+    "home_url": "https://segmentfault.com/u/alimobile",
+    "votes": "0",
     "rank": 17
   },
   {
-    "title": "死月的二零二一总结",
-    "description": "本文参与了 SegmentFault 思否征文「2021 总结」，欢迎正在阅读的你也加入。说点题外话，自从自己编春联贴门口后，感觉都很灵。去年编的春联：上联：夔牛水牛黄牛牛牛旺下联：靓崽狗崽猫崽崽崽安横批：码祥稿俊结...",
-    "url": "https://segmentfault.com/a/1190000041211177",
-    "author": "死月",
-    "home_url": "https://segmentfault.com/u/xadillax",
-    "votes": "2",
+    "title": "6 个月内做了 15 场公开技术分享，我的 2021 是这样过的",
+    "description": "本文参与了 SegmentFault 思否征文「2021 总结」，欢迎正在阅读的你也加入。大家好，我是张晋涛。一眨眼 2021 年就要结束了，我每年都会惯例的做个小回顾。2021 年也发生了很多的事情值得记录一下。生活与换工作...",
+    "url": "https://segmentfault.com/a/1190000041206909",
+    "author": "张晋涛",
+    "home_url": "https://segmentfault.com/u/moelove",
+    "votes": "3",
     "rank": 18
   },
   {
-    "title": "与 Taro 团队核心开发兼运营的一次 CSS 布局讨论的记录",
-    "description": "今天上班在很认真的寻访候选人，查看招聘网站上的一些人选的信息时，突然收到 Taro 团队的核心开发兼运营（我说他是开发，他说自己是运营）同学的微信消息，如下图：",
-    "url": "https://segmentfault.com/a/1190000041201222",
-    "author": "林小志",
-    "home_url": "https://segmentfault.com/u/linxz",
-    "votes": "2",
+    "title": "1周搞定毕设",
+    "description": "一年一度的毕设时期又到了，不出意外又会有很多小伙伴为此而头秃。不幸，博主也是其中一员。作为一名计算机专业的学生，在日复一日的放飞自我中，浑浑噩噩的度过了大学四年，最后成功被毕设难哭。",
+    "url": "https://segmentfault.com/a/1190000041205644",
+    "author": "前端小学生xyz",
+    "home_url": "https://segmentfault.com/u/uoukvgkz",
+    "votes": "6",
     "rank": 19
   },
   {
-    "title": "可视化编码！前端无缝接入代码可视化编辑",
-    "description": "主流的商业化低代码平台，基本就是希望将研发全链路都推向标准化、规范化，来达到提效的效果，但是对于需求本身是变化的，同时会形成对低代码平台的依赖，后续维护均需要依赖平台能力实现；",
-    "url": "https://segmentfault.com/a/1190000041210915",
-    "author": "moyuyc",
-    "home_url": "https://segmentfault.com/u/moyuyc",
-    "votes": "4",
+    "title": "5个常见的JavaScript内存错误",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000040947755",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "2",
     "rank": 20
+  },
+  {
+    "title": "JZ-045-扑克牌顺子",
+    "description": "LL今天心情特别好,因为他去买了一副扑克牌,发现里面居然有2个大王,2个小王(一副牌原本是54张^_^)...他随机从中抽出了5张牌,想测测自己的手气,看看能不能抽到顺子,如果抽到的话,他决定去买体育彩票,嘿嘿！！“红心A...",
+    "url": "https://segmentfault.com/a/1190000041216030",
+    "author": "雄狮虎豹",
+    "home_url": "https://segmentfault.com/u/xiongshihubao",
+    "votes": "5",
+    "rank": 21
+  },
+  {
+    "title": "记录一次班级与学生修改为多对多关系的过程",
+    "description": "这周做的是alice项目中的一个bug,由于重新分班后,原班级没有学生,对于原班级的某一课程成绩分析也就没有了。比如说我原来是计算机1806班的(计算机专业一共9个班,分别是计算机1801-计算机1809班),由于大专业分流成...",
+    "url": "https://segmentfault.com/a/1190000041217467",
+    "author": "小强Zzz",
+    "home_url": "https://segmentfault.com/u/zhaokaiqiang",
+    "votes": "3",
+    "rank": 22
+  },
+  {
+    "title": "本周遇到的一些问题汇总",
+    "description": "问题一：如何引用私有库起初认为既然node_modules是用来存放安装的包的，那么直接把 @yunzhi放进node_modules里就可以了。尝试之后发现，虽然可以使用库中的函数，但是当直接引用函数时系统不自动引用@yunzhi，需...",
+    "url": "https://segmentfault.com/a/1190000041214174",
+    "author": "李明",
+    "home_url": "https://segmentfault.com/u/pluto_612f55567eb8c",
+    "votes": "3",
+    "rank": 23
   },
   {
     "title": "告别KAPT，使用KSP为Android编译提速",
@@ -186,16 +213,16 @@
     "author": "xiangzhihong",
     "home_url": "https://segmentfault.com/u/xiangzhihong",
     "votes": "1",
-    "rank": 21
+    "rank": 24
   },
   {
-    "title": "Top 5 榜单：最容易学习和最难掌握的编程语言",
-    "description": "如果你想学习编程，你应该从哪种编程语言开始？向一个程序员询问最容易学习的语言，就像向某人询问他们最喜欢吃什么口味的冰激凌，没有真正正确的的答案，每个人都会有自己的偏好。正如开发者和教育家 Marek Zalu...",
-    "url": "https://segmentfault.com/a/1190000041196930",
-    "author": "snakesss",
-    "home_url": "https://segmentfault.com/u/snakesss",
+    "title": "职业生涯的新转折点，2021 技术总结",
+    "description": "视频方面，偶然发现了 CloudStudio.net，觉得蛮适合用来给新入门的同学做基础教学，所以基于 CloudStudio 制作了一些全栈开发的内容，比如 Express.js 切片上传大文件等。",
+    "url": "https://segmentfault.com/a/1190000041215484",
+    "author": "Meathill",
+    "home_url": "https://segmentfault.com/u/meathill",
     "votes": "3",
-    "rank": 22
+    "rank": 25
   },
   {
     "title": "JZ-044-翻转单词顺序列",
@@ -204,16 +231,7 @@
     "author": "雄狮虎豹",
     "home_url": "https://segmentfault.com/u/xiongshihubao",
     "votes": "4",
-    "rank": 23
-  },
-  {
-    "title": "中秋！还记得西游记里的嫦娥吗？我用10000张图片拼成了儿时女神！",
-    "description": "大家好，我是林三心，中秋即将来临，预祝大家中秋快乐！！！我在想，关于中秋，我能写点什么分享给大家呢？这一天，我在看《西游记》，突然想到了我儿时的女神，是谁呢？就是天蓬元帅苦苦追求的嫦娥仙子，那可是...",
-    "url": "https://segmentfault.com/a/1190000041195203",
-    "author": "Sunshine_Lin",
-    "home_url": "https://segmentfault.com/u/user_ze46ouik",
-    "votes": "3",
-    "rank": 24
+    "rank": 26
   },
   {
     "title": "良许跌宕起伏的2021年",
@@ -222,16 +240,16 @@
     "author": "良许",
     "home_url": "https://segmentfault.com/u/liangxu_5d63396040bb5",
     "votes": "2",
-    "rank": 25
+    "rank": 27
   },
   {
-    "title": "JZ-039-平衡二叉树",
-    "description": "平衡二叉树题目描述输入一棵二叉树，判断该二叉树是否是平衡二叉树。在这里，我们只需要考虑其平衡性，不需要考虑其是不是排序二叉树题目链接: 平衡二叉树代码 {代码...} 【每日寄语】 做个内心阳光的人。不忧伤...",
-    "url": "https://segmentfault.com/a/1190000041193844",
-    "author": "雄狮虎豹",
-    "home_url": "https://segmentfault.com/u/xiongshihubao",
-    "votes": "4",
-    "rank": 26
+    "title": "Top 5 榜单：最容易学习和最难掌握的编程语言",
+    "description": "如果你想学习编程，你应该从哪种编程语言开始？向一个程序员询问最容易学习的语言，就像向某人询问他们最喜欢吃什么口味的冰激凌，没有真正正确的的答案，每个人都会有自己的偏好。正如开发者和教育家 Marek Zalu...",
+    "url": "https://segmentfault.com/a/1190000041196930",
+    "author": "snakesss",
+    "home_url": "https://segmentfault.com/u/snakesss",
+    "votes": "3",
+    "rank": 28
   },
   {
     "title": "碌碌无为而又不平凡的2021",
@@ -240,33 +258,15 @@
     "author": "三掌柜",
     "home_url": "https://segmentfault.com/u/sanzhanggui",
     "votes": "2",
-    "rank": 27
-  },
-  {
-    "title": "JZ-040-数组中只出现一次的数字",
-    "description": "数组中只出现一次的数字题目描述一个整型数组里除了两个数字之外，其他的数字都出现了两次。请写程序找出这两个只出现一次的数字。题目链接: 数组中只出现一次的数字代码 {代码...} 【每日寄语】 永远面朝阳光，...",
-    "url": "https://segmentfault.com/a/1190000041194757",
-    "author": "雄狮虎豹",
-    "home_url": "https://segmentfault.com/u/xiongshihubao",
-    "votes": "4",
-    "rank": 28
-  },
-  {
-    "title": "深度测评 | 五大主流多端开发框架全面对比",
-    "description": "国内外笔者选择了一共 5 个主流的测评对象，分别是 RN，Flutter，Ionic，NativeScript，以及用友 APICloud 团队开发的 AVM。",
-    "url": "https://segmentfault.com/a/1190000041205474",
-    "author": "浪里行舟",
-    "home_url": "https://segmentfault.com/u/langlixingzhou",
-    "votes": "1",
     "rank": 29
   },
   {
-    "title": "突破技术限制，实现Web端静默打印",
-    "description": "真实情况是Web端受限于浏览器的权限，无法直接访问打印机等本机资源。所以，在Web上实现无预览和打印并不是一个简单的问题，而是突破权限、突破平台的问题。这就导致了用户在打印报表时，至少需要点击两个按钮才...",
-    "url": "https://segmentfault.com/a/1190000041191313",
-    "author": "葡萄城技术团队",
-    "home_url": "https://segmentfault.com/u/grapecity",
-    "votes": "2",
+    "title": "angular版本更新与配置文件问题",
+    "description": "因为初始化时angular版本问题导致无法使用单元测试，然后尝试自己初始化一个angular项目，在初始化过程中遇到一些问题。首先是我初始化的的时候因为我电脑上装的Angular-cli的版本是教程的版本11.0.7 这个版本单...",
+    "url": "https://segmentfault.com/a/1190000041217395",
+    "author": "李国稳",
+    "home_url": "https://segmentfault.com/u/meng_60ba0d4174d72",
+    "votes": "3",
     "rank": 30
   }
 ]
