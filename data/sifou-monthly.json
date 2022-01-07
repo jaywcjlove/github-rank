@@ -5,7 +5,7 @@
     "url": "https://segmentfault.com/a/1190000041163719",
     "author": "杨成功",
     "home_url": "https://segmentfault.com/u/ruidoc",
-    "votes": "43",
+    "votes": "44",
     "rank": 1
   },
   {
@@ -14,7 +14,7 @@
     "url": "https://segmentfault.com/a/1190000041099699",
     "author": "林小志",
     "home_url": "https://segmentfault.com/u/linxz",
-    "votes": "42",
+    "votes": "43",
     "rank": 2
   },
   {
@@ -23,8 +23,17 @@
     "url": "https://segmentfault.com/a/1190000041089764",
     "author": "SegmentFault思否",
     "home_url": "https://segmentfault.com/u/segmentfault",
-    "votes": "29",
+    "votes": "30",
     "rank": 3
+  },
+  {
+    "title": "难搞的偏向锁终于被 Java 移除了",
+    "description": "背景在 JDK1.5 之前，面对 Java 并发问题， synchronized 是一招鲜的解决方案：普通同步方法，锁上当前实例对象静态同步方法，锁上当前类 Class 对象同步块，锁上括号里面配置的对象拿同步块来举例: {代码...} 经...",
+    "url": "https://segmentfault.com/a/1190000041194920",
+    "author": "日拱一兵",
+    "home_url": "https://segmentfault.com/u/tanrigongyibing",
+    "votes": "30",
+    "rank": 4
   },
   {
     "title": "【建议收藏】11+实战技巧，让你轻松从Vue过渡到React",
@@ -33,15 +42,6 @@
     "author": "前端胖头鱼",
     "home_url": "https://segmentfault.com/u/116263",
     "votes": "31",
-    "rank": 4
-  },
-  {
-    "title": "难搞的偏向锁终于被 Java 移除了",
-    "description": "背景在 JDK1.5 之前，面对 Java 并发问题， synchronized 是一招鲜的解决方案：普通同步方法，锁上当前实例对象静态同步方法，锁上当前类 Class 对象同步块，锁上括号里面配置的对象拿同步块来举例: {代码...} 经...",
-    "url": "https://segmentfault.com/a/1190000041194920",
-    "author": "日拱一兵",
-    "home_url": "https://segmentfault.com/u/tanrigongyibing",
-    "votes": "28",
     "rank": 5
   },
   {
@@ -63,22 +63,31 @@
     "rank": 7
   },
   {
+    "title": "公司用的 MySQL 团队开发规范，太详细了，建议收藏！",
+    "description": "数据库对象是数据库的组成部分，常见的有以下几种：表（Table ）、索引（Index）、视图（View）、图表（Diagram）、缺省值（Default）、规则（Rule）、触发器（Trigger）、存储过程（Stored Procedure）、 用户（...",
+    "url": "https://segmentfault.com/a/1190000041105650",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "24",
+    "rank": 8
+  },
+  {
     "title": "使用 Nginx 构建前端日志统计服务",
     "description": "这个大的项目以 low code 为核心，囊括了编辑器前端、编辑器后端、C 端 H5、组件库、组件平台、后台管理系统前端、后台管理系统后台、统计服务、自研 CLI 九大系统。",
     "url": "https://segmentfault.com/a/1190000041184489",
     "author": "前端森林",
     "home_url": "https://segmentfault.com/u/fengshuan",
     "votes": "19",
-    "rank": 8
+    "rank": 9
   },
   {
-    "title": "公司用的 MySQL 团队开发规范，太详细了，建议收藏！",
-    "description": "数据库对象是数据库的组成部分，常见的有以下几种：表（Table ）、索引（Index）、视图（View）、图表（Diagram）、缺省值（Default）、规则（Rule）、触发器（Trigger）、存储过程（Stored Procedure）、 用户（...",
-    "url": "https://segmentfault.com/a/1190000041105650",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "23",
-    "rank": 9
+    "title": "平平淡淡又一年 | 边城在思否的 2021 年总结",
+    "description": "又到了年末写总结的时候。我不断地提醒自己过去这一年是 2021，不是 2022 —— 是的，作为一个使用了 VS2022 好几个月的人来说，感觉已经在 2022 好久了。然而， 2022 只是即将来临。回往昔，我都干了啥？",
+    "url": "https://segmentfault.com/a/1190000041193583",
+    "author": "边城",
+    "home_url": "https://segmentfault.com/u/jamesfancy",
+    "votes": "19",
+    "rank": 10
   },
   {
     "title": "详解虚拟DOM与Diff算法",
@@ -87,7 +96,7 @@
     "author": "kerin",
     "home_url": "https://segmentfault.com/u/kerin",
     "votes": "20",
-    "rank": 10
+    "rank": 11
   },
   {
     "title": "基于 Vite 搭建开发体验超级丝滑的 Vue3 组件库开发框架",
@@ -95,26 +104,8 @@
     "url": "https://segmentfault.com/a/1190000041103446",
     "author": "jrainlau",
     "home_url": "https://segmentfault.com/u/jrainlau",
-    "votes": "21",
-    "rank": 11
-  },
-  {
-    "title": "平平淡淡又一年 | 边城在思否的 2021 年总结",
-    "description": "又到了年末写总结的时候。我不断地提醒自己过去这一年是 2021，不是 2022 —— 是的，作为一个使用了 VS2022 好几个月的人来说，感觉已经在 2022 好久了。然而， 2022 只是即将来临。回往昔，我都干了啥？",
-    "url": "https://segmentfault.com/a/1190000041193583",
-    "author": "边城",
-    "home_url": "https://segmentfault.com/u/jamesfancy",
-    "votes": "18",
+    "votes": "22",
     "rank": 12
-  },
-  {
-    "title": "100行代码实现React核心调度功能",
-    "description": "大家好，我卡颂。想必大家都知道React有一套基于Fiber架构的调度系统。这套调度系统的基本功能包括：更新有不同优先级一次更新可能涉及多个组件的render，这些render可能分配到多个宏任务中执行（即时间切片）高...",
-    "url": "https://segmentfault.com/a/1190000041126142",
-    "author": "卡颂",
-    "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "19",
-    "rank": 13
   },
   {
     "title": "冷门又好用的 CSS 特性",
@@ -122,15 +113,24 @@
     "url": "https://segmentfault.com/a/1190000041209570",
     "author": "MudOnTire",
     "home_url": "https://segmentfault.com/u/mudontire",
-    "votes": "15",
+    "votes": "18",
+    "rank": 13
+  },
+  {
+    "title": "100行代码实现React核心调度功能",
+    "description": "大家好，我卡颂。想必大家都知道React有一套基于Fiber架构的调度系统。这套调度系统的基本功能包括：更新有不同优先级一次更新可能涉及多个组件的render，这些render可能分配到多个宏任务中执行（即时间切片）高...",
+    "url": "https://segmentfault.com/a/1190000041126142",
+    "author": "卡颂",
+    "home_url": "https://segmentfault.com/u/kasong",
+    "votes": "20",
     "rank": 14
   },
   {
-    "title": "利用 clip-path 实现动态区域裁剪",
-    "description": "背景今天逛 CodePen，看到了这样一个非常有意思的效果：CodePen Demo -- Material Design Menu By Bennett Feely这个效果还是有一些值得探讨学习的点，下面我们一起来看看。如何实现这样一个类似的效果？首先，想...",
-    "url": "https://segmentfault.com/a/1190000041126373",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
+    "title": "一份简单够用的 Nginx Location 配置讲解",
+    "description": "前言Location 是 Nginx 中一个非常核心的配置，这篇重点讲解一下 Location 的配置问题以及一些注意事项。语法关于 Location，举个简单的配置例子： {代码...} 大致的意思是，当你访问 www.yayujs.com 的 80 端口...",
+    "url": "https://segmentfault.com/a/1190000041217732",
+    "author": "冴羽",
+    "home_url": "https://segmentfault.com/u/yayu",
     "votes": "15",
     "rank": 15
   },
@@ -140,7 +140,7 @@
     "url": "https://segmentfault.com/a/1190000041166007",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "13",
+    "votes": "14",
     "rank": 16
   },
   {
@@ -149,8 +149,17 @@
     "url": "https://segmentfault.com/a/1190000041170989",
     "author": "pingan8787",
     "home_url": "https://segmentfault.com/u/pingan8787",
-    "votes": "20",
+    "votes": "21",
     "rank": 17
+  },
+  {
+    "title": "利用 clip-path 实现动态区域裁剪",
+    "description": "背景今天逛 CodePen，看到了这样一个非常有意思的效果：CodePen Demo -- Material Design Menu By Bennett Feely这个效果还是有一些值得探讨学习的点，下面我们一起来看看。如何实现这样一个类似的效果？首先，想...",
+    "url": "https://segmentfault.com/a/1190000041126373",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "16",
+    "rank": 18
   },
   {
     "title": "机器学习岗位年薪50万+，现在有个提供免费学习实操的入门平台，你不了解下?",
@@ -159,7 +168,16 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "12",
-    "rank": 18
+    "rank": 19
+  },
+  {
+    "title": "原来这才是 Socket ！",
+    "description": "关于对 Socket 的认识，大致分为下面几个主题，Socket 是什么，Socket 是如何创建的，Socket 是如何连接并收发数据的，Socket 套接字的删除等。",
+    "url": "https://segmentfault.com/a/1190000041119178",
+    "author": "程序员cxuan",
+    "home_url": "https://segmentfault.com/u/cxuan",
+    "votes": "18",
+    "rank": 20
   },
   {
     "title": "从 Amazon Graviton3 发布，看 2022 云计算的核心方向",
@@ -168,7 +186,7 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "11",
-    "rank": 19
+    "rank": 21
   },
   {
     "title": "Redis 分布式锁的正确实现原理演化历程与 Redission 实战总结",
@@ -177,7 +195,7 @@
     "author": "码哥字节",
     "home_url": "https://segmentfault.com/u/magebyte",
     "votes": "14",
-    "rank": 20
+    "rank": 22
   },
   {
     "title": "备战2022春招，这十道题必会！",
@@ -186,16 +204,7 @@
     "author": "bigsai",
     "home_url": "https://segmentfault.com/u/bigsai",
     "votes": "10",
-    "rank": 21
-  },
-  {
-    "title": "原来这才是 Socket ！",
-    "description": "关于对 Socket 的认识，大致分为下面几个主题，Socket 是什么，Socket 是如何创建的，Socket 是如何连接并收发数据的，Socket 套接字的删除等。",
-    "url": "https://segmentfault.com/a/1190000041119178",
-    "author": "程序员cxuan",
-    "home_url": "https://segmentfault.com/u/cxuan",
-    "votes": "17",
-    "rank": 22
+    "rank": 23
   },
   {
     "title": "如果将元宇宙逐层拆解，你会发现内核是“云”",
@@ -204,7 +213,7 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "9",
-    "rank": 23
+    "rank": 24
   },
   {
     "title": "2021 re:Invent ，我们到底该关注哪些发布？",
@@ -213,7 +222,7 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "13",
-    "rank": 24
+    "rank": 25
   },
   {
     "title": "10个HTML文件上传技巧",
@@ -222,7 +231,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "16",
-    "rank": 25
+    "rank": 26
   },
   {
     "title": "这是什么选秀节目？数百万人看后想学「机器学习」",
@@ -231,7 +240,7 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "9",
-    "rank": 26
+    "rank": 27
   },
   {
     "title": "Java集合高频面试题",
@@ -240,7 +249,7 @@
     "author": "程序员大彬",
     "home_url": "https://segmentfault.com/u/5n7qfpo1",
     "votes": "11",
-    "rank": 27
+    "rank": 28
   },
   {
     "title": "Vue 3 响应式源码中为什么使用 WeakMap 作为「缓存区」？",
@@ -249,15 +258,6 @@
     "author": "百瓶技术",
     "home_url": "https://segmentfault.com/u/billionbottle",
     "votes": "8",
-    "rank": 28
-  },
-  {
-    "title": "一份简单够用的 Nginx Location 配置讲解",
-    "description": "前言Location 是 Nginx 中一个非常核心的配置，这篇重点讲解一下 Location 的配置问题以及一些注意事项。语法关于 Location，举个简单的配置例子： {代码...} 大致的意思是，当你访问 www.yayujs.com 的 80 端口...",
-    "url": "https://segmentfault.com/a/1190000041217732",
-    "author": "冴羽",
-    "home_url": "https://segmentfault.com/u/yayu",
-    "votes": "11",
     "rank": 29
   },
   {
