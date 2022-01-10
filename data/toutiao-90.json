@@ -2,7 +2,7 @@
   {
     "title": "57 张图，13 个实验，干死 MySQL 锁",
     "description": "你好，我是yes。前段时间写了一篇关于 MySQL 锁的文章，一些小伙伴们在阅读之后产生了一些疑问，这些问题还挺有代表性的，所以在这里做个实验，来用事实探究一番。那篇文章提到了记录...",
-    "votes": "198",
+    "votes": "199",
     "url": "/k/huoy9s9",
     "avatar": "https://img.toutiao.io/subject/71da457007fd4b67a45253b271a25eee/thumb",
     "avatarAlt": "yes的练级攻略 - 独家号",
@@ -12,7 +12,7 @@
   {
     "title": "高并发场景下 JVM 调优实践之路",
     "description": "作者：vivo互联网技术团队Li Guanyun、 Jessica Chen一、背景2021年2月，收到反馈，视频APP某核心接口高峰期响应慢，影响用户体验。通过监控发现，接口响应...",
-    "votes": "194",
+    "votes": "195",
     "url": "/k/3nkgnj9",
     "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
     "avatarAlt": "vivo互联网技术 - 独家号",
@@ -22,7 +22,7 @@
   {
     "title": "搞懂异地多活，看这篇就够了",
     "description": "阅读本文大约需要 20 分钟。你好，我是 Kaito。在软件开发领域，「异地多活」是分布式系统架构设计的一座高峰，很多人经常听过它，但很少人理解其中的原理。异地多活到底是什么？为什...",
-    "votes": "213",
+    "votes": "214",
     "url": "/k/epd1pcc",
     "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
     "avatarAlt": "乱点技能树 - 独家号",
@@ -32,7 +32,7 @@
   {
     "title": "我做系统架构的一些原则",
     "description": "工作 20 多年了，这 20 来年看到了很多公司系统架构，也看到了很多问题，在跟这些公司进行交流和讨论的时候，包括进行实施和方案比较的时候，都有很多各种方案的比较和妥协，因为相关的...",
-    "votes": "200",
+    "votes": "202",
     "url": "/k/vlt0zc9",
     "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
     "avatarAlt": "趣编程的独家号 - 独家号",
@@ -42,7 +42,7 @@
   {
     "title": "团队管理那点破事！OKR 绩效、核心人才、面试、技术分享、研发流程",
     "description": "大家好，我是Tom哥~今天来聊聊团队管理，可能你现在还是一线开发，没有带团队，感觉这个话题与你无关，其实不然。程序员的职业生涯曲折，技术更新迭代快，走技术深度，走架构师路线，势必要...",
-    "votes": "185",
+    "votes": "186",
     "url": "/k/135ujiu",
     "avatar": "https://img.toutiao.io/subject/e62c1664abed48848efc89141ae64112/thumb",
     "avatarAlt": "微观技术 - 独家号",
@@ -52,7 +52,7 @@
   {
     "title": "万字入门推荐系统",
     "description": "最近一周我、强子、Y哥三人，根据自身如何入门推荐系统，再结合三人分别在腾讯做广告推荐、字节做视频推荐、百度做信息流推荐的经历，整理出了这份万字入门推荐系统。内容十分详细，涵盖了推荐...",
-    "votes": "165",
+    "votes": "166",
     "url": "/k/84f5zio",
     "avatar": "https://img.toutiao.io/subject/87ea1c5a22884d4fbb90b37561c02a34/thumb",
     "avatarAlt": "元宇宙 - 独家号",
@@ -62,7 +62,7 @@
   {
     "title": "聊聊接口性能优化的 11 个小技巧",
     "description": "大家好，我是苏三，又跟大家见面了。前言 接口性能优化对于从事后端开发的同学来说，肯定再熟悉不过了，因为它是一个跟开发语言无关的公共问题。该问题说简单也简单，说复杂也复杂。有时候，只...",
-    "votes": "176",
+    "votes": "177",
     "url": "/k/4i9d6w2",
     "avatar": "https://img.toutiao.io/subject/96c1af0d2a0b441ca9740ee13c3e37f3/thumb",
     "avatarAlt": "苏三说技术 - 独家号",
@@ -90,6 +90,16 @@
     "homeUrl": "/subjects/5551"
   },
   {
+    "title": "装了这几个 IDEA 插件，基本上一站式开发了",
+    "description": "前言  前几天有社区小伙伴私聊我，问我都用哪些IDEA插件，我的IDEA的主题看起来不错。作为一个开源作者，每周要code大量的代码，提升日常工作效率是我一直追求的，在众多的IDE...",
+    "votes": "157",
+    "url": "/k/5l4hrcp",
+    "avatar": "https://img.toutiao.io/subject/09939b63ada4450e9d640f2fd8348c12/thumb",
+    "avatarAlt": "java web 学习 - 独家号",
+    "subjectName": "java web 学习",
+    "homeUrl": "/subjects/39967"
+  },
+  {
     "title": "认识 MySQL 和 Redis 的数据一致性问题",
     "description": "作者：sinxu，腾讯 CSIG 后台开发工程师1. 什么是数据的一致性“数据一致”一般指的是：缓存中有数据，缓存的数据值 = 数据库中的值。但根据缓存中是有数据为依据，则”一致“...",
     "votes": "148",
@@ -100,19 +110,9 @@
     "homeUrl": "/subjects/465623"
   },
   {
-    "title": "装了这几个 IDEA 插件，基本上一站式开发了",
-    "description": "前言  前几天有社区小伙伴私聊我，问我都用哪些IDEA插件，我的IDEA的主题看起来不错。作为一个开源作者，每周要code大量的代码，提升日常工作效率是我一直追求的，在众多的IDE...",
-    "votes": "156",
-    "url": "/k/5l4hrcp",
-    "avatar": "https://img.toutiao.io/subject/09939b63ada4450e9d640f2fd8348c12/thumb",
-    "avatarAlt": "java web 学习 - 独家号",
-    "subjectName": "java web 学习",
-    "homeUrl": "/subjects/39967"
-  },
-  {
     "title": "开源微服务 API 网关，单核 2 万 QPS，今年最值得学习的开源项目",
     "description": " 文章较长，从概念与场景，到原理与架构，到性能分析，最后是demo，希望大家有收获。 第一部分：解决什么问题。什么是微服务API网关？API网关是上承前端用户，下接后端服务的咽喉之...",
-    "votes": "142",
+    "votes": "143",
     "url": "/k/vo7i0r2",
     "avatar": "https://img.toutiao.io/subject/dd437c8fe19542088ec51e69a79c158c/thumb",
     "avatarAlt": "最佳实践 - 独家号",
@@ -140,6 +140,16 @@
     "homeUrl": "/subjects/392760"
   },
   {
+    "title": "2021年美团技术团队最受欢迎的22篇技术文章",
+    "description": "再见2021你好2022「美团技术团队」微信公众号祝大家新年快乐！温故而知新，我们根据文章的「阅读量」和「在看」数，以及所覆盖的技术领域，精选了22篇技术文章作为新年礼物送给大家。...",
+    "votes": "122",
+    "url": "/k/pjse55y",
+    "avatar": "https://img.toutiao.io/subject/50e9b8208bfd488897fed22d15d9aa0e/thumb",
+    "avatarAlt": "美团技术团队 - 独家号",
+    "subjectName": "美团技术团队",
+    "homeUrl": "/subjects/117027"
+  },
+  {
     "title": "2021 年最佳开源软件榜单｜InfoWorld",
     "description": "公众号关注 “GitHubDaily” 设为 “星标”，每天带你逛 GitHub！来自OSC社区 大家好，我是小 G。 作为一家信息技术媒体公司，InfoWorld 成立于 197...",
     "votes": "129",
@@ -148,16 +158,6 @@
     "avatarAlt": "不停大步走 - 独家号",
     "subjectName": "不停大步走",
     "homeUrl": "/subjects/9186"
-  },
-  {
-    "title": "2021年美团技术团队最受欢迎的22篇技术文章",
-    "description": "再见2021你好2022「美团技术团队」微信公众号祝大家新年快乐！温故而知新，我们根据文章的「阅读量」和「在看」数，以及所覆盖的技术领域，精选了22篇技术文章作为新年礼物送给大家。...",
-    "votes": "121",
-    "url": "/k/pjse55y",
-    "avatar": "https://img.toutiao.io/subject/50e9b8208bfd488897fed22d15d9aa0e/thumb",
-    "avatarAlt": "美团技术团队 - 独家号",
-    "subjectName": "美团技术团队",
-    "homeUrl": "/subjects/117027"
   },
   {
     "title": "最全的 Git 常用命令速查（2021 版）",
@@ -180,6 +180,16 @@
     "homeUrl": "/subjects/99877"
   },
   {
+    "title": "熬夜彻底搞懂Cookie Session Token JWT",
+    "description": "",
+    "votes": "119",
+    "url": "/k/g49lsl5",
+    "avatar": "https://img.toutiao.io/subject/dc985e32ff464581afaa81f175880312/thumb",
+    "avatarAlt": "dotnet - 独家号",
+    "subjectName": "dotnet",
+    "homeUrl": "/subjects/348014"
+  },
+  {
     "title": "面试官问：你参与的项目有什么亮点？怎么回答",
     "description": "大家好，我是Tom哥~面试官拿到我们的简历，一般会关注两块内容，一块是专业技能，另一块是项目经历。简单的个人介绍后，一般会先问些偏基础的技术问题，热热身。当然也有很多面试官上来就顺...",
     "votes": "123",
@@ -188,16 +198,6 @@
     "avatarAlt": "微观技术 - 独家号",
     "subjectName": "微观技术",
     "homeUrl": "/subjects/348507"
-  },
-  {
-    "title": "熬夜彻底搞懂Cookie Session Token JWT",
-    "description": "",
-    "votes": "118",
-    "url": "/k/g49lsl5",
-    "avatar": "https://img.toutiao.io/subject/dc985e32ff464581afaa81f175880312/thumb",
-    "avatarAlt": "dotnet - 独家号",
-    "subjectName": "dotnet",
-    "homeUrl": "/subjects/348014"
   },
   {
     "title": "从头带你撸一个 Spring Boot Starter",
@@ -220,6 +220,16 @@
     "homeUrl": "/subjects/8411"
   },
   {
+    "title": "这些年我用过的API文档工具，个个是精品！",
+    "description": "",
+    "votes": "118",
+    "url": "/k/xt41e64",
+    "avatar": "https://img.toutiao.io/subject/a2c7feaedfa64ce08a685e8535b7a316/thumb",
+    "avatarAlt": "大话.NET平台 - 独家号",
+    "subjectName": "大话.NET平台",
+    "homeUrl": "/subjects/116492"
+  },
+  {
     "title": "面渣逆袭：线程池夺命连环十八问",
     "description": "大家好，我是老三，很高兴又和大家见面。线程池是面试必问的知识点，这节我们来对线面试官，搞透线程池。1. 什么是线程池？ 线程池： 简单理解，它就是一个管理线程的池子。它帮我们管理线...",
     "votes": "113",
@@ -228,16 +238,6 @@
     "avatarAlt": "三分恶 - 独家号",
     "subjectName": "三分恶",
     "homeUrl": "/subjects/454266"
-  },
-  {
-    "title": "这些年我用过的API文档工具，个个是精品！",
-    "description": "",
-    "votes": "117",
-    "url": "/k/xt41e64",
-    "avatar": "https://img.toutiao.io/subject/a2c7feaedfa64ce08a685e8535b7a316/thumb",
-    "avatarAlt": "大话.NET平台 - 独家号",
-    "subjectName": "大话.NET平台",
-    "homeUrl": "/subjects/116492"
   },
   {
     "title": "亿级流量系统架构演进之路",
