@@ -1,200 +1,56 @@
 [
   {
-    "title": "2021 中国开源码力榜启动，寻找开源世界的超级码丽",
-    "description": "2022 年 1 月 13 日，SegmentFault 思否联合长期耕耘与推广开源文化的开源社共同推出了《2021 中国开源先锋 33 人》榜单，一众开源先锋上榜，一时间引发了行业的广泛关注与讨论。他们当中有贡献代码的开发者、开...",
-    "url": "https://segmentfault.com/a/1190000041283611",
-    "author": "SegmentFault思否",
-    "home_url": "https://segmentfault.com/u/segmentfault",
-    "votes": "3",
-    "rank": 1
-  },
-  {
-    "title": "基础很好？总结了38个ES6-ES12的开发技巧，倒要看看你能拿几分？🐶",
-    "description": "大家好，首先表明一下，标题没有恶意哈哈。请原谅本菜鸡。都是为了帮助大家，大家可以把自己认识几个，得了多少分，发在留言里，一个一分，总分38分。",
-    "url": "https://segmentfault.com/a/1190000041281569",
-    "author": "Sunshine_Lin",
-    "home_url": "https://segmentfault.com/u/user_ze46ouik",
-    "votes": "8",
-    "rank": 2
-  },
-  {
-    "title": "JZ-056-删除链表中重复的结点",
-    "description": "在一个排序的链表中，存在重复的结点，请删除该链表中重复的结点，重复的结点不保留，返回链表头指针。 例如，链表1->2->3->3->4->4->5 处理后为 1->2->5。题目链接: 删除链表中重复的结点",
-    "url": "https://segmentfault.com/a/1190000041283071",
+    "title": "JZ-057-二叉树的下一个结点",
+    "description": "给定一个二叉树和其中的一个结点，请找出中序遍历顺序的下一个结点并且返回。注意，树中的结点不仅包含左右子结点，同时包含指向父结点的指针。题目链接: 二叉树的下一个结点",
+    "url": "https://segmentfault.com/a/1190000041287792",
     "author": "雄狮虎豹",
     "home_url": "https://segmentfault.com/u/xiongshihubao",
     "votes": "4",
+    "rank": 1
+  },
+  {
+    "title": "前端规范与思考(二)———css规范",
+    "description": "本文属于原创文章，转载请注明--来自桃源小盼的博客前言由于团队使用了vue框架，所以有些规范是在vue规则下制定的。命名规则参考上一篇文章前端规范与思考(一)———命名规范。标准规范1.组件中的style标签使用scope...",
+    "url": "https://segmentfault.com/a/1190000041289603",
+    "author": "桃源小盼聊技术",
+    "home_url": "https://segmentfault.com/u/tyxp",
+    "votes": "1",
+    "rank": 2
+  },
+  {
+    "title": "前端规范与思考(一)———命名规范",
+    "description": "其实这并不是第一次制定这个规范了，但这次我想制定一个有具备集大师之所长，还接地气的前端命名规范，希望是得到他人的认可，还能触动一些人去写出更优秀的代码。",
+    "url": "https://segmentfault.com/a/1190000041289600",
+    "author": "桃源小盼聊技术",
+    "home_url": "https://segmentfault.com/u/tyxp",
+    "votes": "1",
     "rank": 3
   },
   {
-    "title": "详解JS的继承（三）-- 图解Es6的Extend",
-    "description": "距离上一篇js的继承系列已经过去了四年，时不时还有新的读者评论和回复，开心之余也想着更新一下内容，因为当时的内容里没有涉及到es6的 extend 实现，所以现在抽空补上。 当然，如果是0基础的同学或者对于基本的...",
-    "url": "https://segmentfault.com/a/1190000041286061",
-    "author": "安歌",
-    "home_url": "https://segmentfault.com/u/linlinma",
-    "votes": "4",
+    "title": "深入浅出 Golang 资源嵌入方案：前篇",
+    "description": "非常多的语言都具备资源嵌入方案，在 Golang 中，资源嵌入相关的开源方案更是百家争鸣。网络上关于 Golang 资源嵌入的使用方案很多，但是鲜有人剖析原理，以及将原生实现和开源实现进行性能比较，适用场景分析。",
+    "url": "https://segmentfault.com/a/1190000041289500",
+    "author": "soulteary",
+    "home_url": "https://segmentfault.com/u/soulteary",
+    "votes": "1",
     "rank": 4
   },
   {
-    "title": "权威发布丨2021 中国最受开发者欢迎的技术活动",
-    "description": "2021 年 3 月，《中华人民共和国国民经济和社会发展第十四个五年规划和 2035 年远景目标纲要》正式发布。“开源” 被首次写入国家 “五年规划”，云计算、大数据、智能制造等关键词被多次提及。",
-    "url": "https://segmentfault.com/a/1190000041282538",
-    "author": "SegmentFault思否",
-    "home_url": "https://segmentfault.com/u/segmentfault",
-    "votes": "2",
+    "title": "一种基于Flink Window的实时指标统计方法",
+    "description": "假设有一种数据源（比如CDC binlog Events、Kafka 实时数据流等），需要实时展示时序数据的摄入数量趋势，并能查看任意时间范围内的数据分布质量（比如每个字段的数据密度、总取值数量、去重后的数据取值总量等）...",
+    "url": "https://segmentfault.com/a/1190000041288407",
+    "author": "滴普科技DEEPEXI",
+    "home_url": "https://segmentfault.com/u/deepexicode",
+    "votes": "1",
     "rank": 5
   },
   {
-    "title": "延时消息常见实现方案",
-    "description": "延时消息适用的业务场景非常的广泛，在分布式系统环境下，延时消息的功能一般会在下沉到中间件层，通常是 MQ 中内置这个功能或者内聚成一个公共基础服务。",
-    "url": "https://segmentfault.com/a/1190000041282378",
-    "author": "Richard_Yi",
-    "home_url": "https://segmentfault.com/u/richard_yi",
+    "title": "Flink Checkpoint是否支持Kafka 数据消费状态的维护？",
+    "description": "使用Flink实时消费kafka数据时候，涉及到offset的状态维护，为了保证Flink作业重启或者运行时的Operator级别的失败重试，如果要做到“断点续跑”，需要Flink的Checkpoint的支持。问题是，如果简单的开启Flink的Chec...",
+    "url": "https://segmentfault.com/a/1190000041288391",
+    "author": "滴普科技DEEPEXI",
+    "home_url": "https://segmentfault.com/u/deepexicode",
     "votes": "1",
     "rank": 6
-  },
-  {
-    "title": "Apache Atlas 数据血缘",
-    "description": "01 什么是数据血缘数据血缘跟踪、记录、展示了数据来自何处，以及在数据流转过程中应用了哪些转换操作，它有助于追溯数据来源及处理过程。数据血缘系统的核心功能：数据资产的自动发现及创建血缘关系的自动发现及...",
-    "url": "https://segmentfault.com/a/1190000041286510",
-    "author": "亚马逊云开发者",
-    "home_url": "https://segmentfault.com/u/aws_aidevcommunity",
-    "votes": "1",
-    "rank": 7
-  },
-  {
-    "title": "Web3.0时代 | 数字人如何突破规模落地三大难点？ 百度李士岩：两年内每个人有望实现“数字人自由”",
-    "description": "刚刚过去的 2021 年，元宇宙概念爆火到一度“出圈”成了顶流。在全球科技巨头纷纷下场、web 3.0 加速构建的过程中，虚拟数字人作为元宇宙的场景入口与连接纽带也备受瞩目。刚刚举办的江苏卫视跨年晚会上，周深与邓...",
-    "url": "https://segmentfault.com/a/1190000041286483",
-    "author": "MissD",
-    "home_url": "https://segmentfault.com/u/d2ms1shh",
-    "votes": "1",
-    "rank": 8
-  },
-  {
-    "title": "面向未来，我们来聊一聊什么是现代化数据架构",
-    "description": "在不那么遥远的旧 IT 时代，有这样一个段子——假如把数据库们”聚在一起“开会”。Oracle: 我们需要企业级数据库。MySQL: Oracle 不开源。PostgreSQL: MySQL 的功能不够多。SQLite: 你可以把我嵌入到任何地方。这样，...",
-    "url": "https://segmentfault.com/a/1190000041286453",
-    "author": "亚马逊云开发者",
-    "home_url": "https://segmentfault.com/u/aws_aidevcommunity",
-    "votes": "1",
-    "rank": 9
-  },
-  {
-    "title": "什么是云数据库？关于IaaS、PaaS、SaaS、DBaaS 详解",
-    "description": "对于许多企业而言，使用基于云的数据库所获得的优势十分明显。它的优势在于提供可扩展性、安全性和可用性，并且比自定义和本地数据库解决方案的成本更低。",
-    "url": "https://segmentfault.com/a/1190000041285987",
-    "author": "云联壹云",
-    "home_url": "https://segmentfault.com/u/yunion",
-    "votes": "1",
-    "rank": 10
-  },
-  {
-    "title": "喜讯！Apache APISIX Committer 张晋涛当选「中国开源先锋 33 人」",
-    "description": "2022 年 1 月 12 日，「SegmentFault 思否」联合「开源社」推出的《2021 中国开源先锋 33 人》榜单出炉，来自 Apache APISIX 社区的 Committer 张晋涛荣誉当选！",
-    "url": "https://segmentfault.com/a/1190000041285890",
-    "author": "Apache_APISIX",
-    "home_url": "https://segmentfault.com/u/apache_apisix",
-    "votes": "1",
-    "rank": 11
-  },
-  {
-    "title": "从零实现一个 VuePress 插件",
-    "description": "但在搭建 VuePress 博客的过程中，也并不是所有的插件都能满足需求，所以本篇我们以实现一个代码复制插件为例，教大家如何从零实现一个 VuePress 插件。",
-    "url": "https://segmentfault.com/a/1190000041285750",
-    "author": "冴羽",
-    "home_url": "https://segmentfault.com/u/yayu",
-    "votes": "2",
-    "rank": 12
-  },
-  {
-    "title": "优麒麟入选 2021 中国技术品牌影响力企业榜，深耕开发者生态",
-    "description": "2022 年 1 月 13 日，中国技术先锋年度评选 | 2021 中国技术品牌影响力企业榜单正式发布。作为中国领先的新一代开发者社区，SegmentFault 思否依托数百万开发者用户数据分析，各科技企业在国内技术领域的行为及影...",
-    "url": "https://segmentfault.com/a/1190000041285724",
-    "author": "优麒麟",
-    "home_url": "https://segmentfault.com/u/ubuntukylin",
-    "votes": "1",
-    "rank": 13
-  },
-  {
-    "title": "DevOps峰会 | 研发效能实践助力互联网行业项目管理“行之有效”",
-    "description": "摘要本文为网易有道企业发展高级效能项目经理张浩然《研发效能实践助力互联网行业项目管理“行之有效”》的演讲内容，围绕研发效能的实践和项目管理两个主题展开。",
-    "url": "https://segmentfault.com/a/1190000041285702",
-    "author": "有道技术团队",
-    "home_url": "https://segmentfault.com/u/youdaotec",
-    "votes": "1",
-    "rank": 14
-  },
-  {
-    "title": "AI开发平台系列1：AI开发平台“家族”概览",
-    "description": "【编者按：AI技术蓬勃发展，已逐渐渗透进国民经济的各行各业。但企业在AI技术的应用仍面临数据、算法、技术等方面的挑战，需专业AI开发与计算工具帮助企业降低AI应用门槛，加速创新。在此趋势下，AI开发平台纷纷...",
-    "url": "https://segmentfault.com/a/1190000041284849",
-    "author": "Baihai_IDP",
-    "home_url": "https://segmentfault.com/u/baihai_idp",
-    "votes": "1",
-    "rank": 15
-  },
-  {
-    "title": "用个人博客打造一个酷酷的工作流！",
-    "description": "似乎自己也没有一个写博客的习惯、或者说觉得写得一些笔记还达不到可以发布在类似掘金这样的技术平台、但是又会在日常中用到、例如记录的一些文档或者日常、平时会保存在本地或者一些云文档上面、但是不够清晰、...",
-    "url": "https://segmentfault.com/a/1190000041284301",
-    "author": "小九",
-    "home_url": "https://segmentfault.com/u/jiuz9ydy",
-    "votes": "1",
-    "rank": 16
-  },
-  {
-    "title": "公开啦！「2021中国技术品牌影响力企业 」OceanBase 成功上榜",
-    "description": "近日，国内领先的新一代开发者社区 SegmentFault 思否推出了第三届 “中国技术先锋”年度评选。本次评选中，思否独家策划、业内首个技术品牌影响力榜单「2021中国技术品牌影响力企业 」备受关注。",
-    "url": "https://segmentfault.com/a/1190000041283604",
-    "author": "OceanBase技术站",
-    "home_url": "https://segmentfault.com/u/oceanbase",
-    "votes": "1",
-    "rank": 17
-  },
-  {
-    "title": "TDengine在吉科软车辆监管中的应用实践",
-    "description": "吉科软信息技术有限公司是国家高新技术企业，公司以“让天下没有不放心的食品”为使命，以“做数字化捍卫食品安全的领军企业”为愿景，以打造食用农产品全流程追溯、全流程监管、全流程服务、全产业链升级为核心的产...",
-    "url": "https://segmentfault.com/a/1190000041281739",
-    "author": "孙运盛",
-    "home_url": "https://segmentfault.com/u/sunyunsheng",
-    "votes": "1",
-    "rank": 18
-  },
-  {
-    "title": "Redis 事务支持 ACID 么？",
-    "description": "腾讯面试官：「数据库事务机制了解么？」「内心独白：小意思，不就 ACID 嘛，转眼一想，我面试的可是技术专家，不会这么简单的问题吧」程许远：「balabala…… 极其自信且从容淡定的说了一通。」腾讯面试官：「Redi...",
-    "url": "https://segmentfault.com/a/1190000041286020",
-    "author": "码哥字节",
-    "home_url": "https://segmentfault.com/u/magebyte",
-    "votes": "2",
-    "rank": 19
-  },
-  {
-    "title": "开源了我独立开发的评论组件 SaaS 🔥 🚀",
-    "description": "这是 GitHub Repo, 欢迎点亮 🌟 收藏，欢迎参与贡献。对于初、中级工程师这里有所有你需要知道的一个完整的 SaaS 怎么运作的全部知识，非常适合学习。",
-    "url": "https://segmentfault.com/a/1190000041282520",
-    "author": "devrsi0n",
-    "home_url": "https://segmentfault.com/u/devrsi0n",
-    "votes": "2",
-    "rank": 20
-  },
-  {
-    "title": "计算找零",
-    "description": "请编写一个用于收银机的函数 checkCashRegister()：它的第一个参数为售价 price、第二个参数为支付金额 cash、第三个参数为收银机內的金额 cid。",
-    "url": "https://segmentfault.com/a/1190000041282398",
-    "author": "点墨",
-    "home_url": "https://segmentfault.com/u/chencaize",
-    "votes": "1",
-    "rank": 21
-  },
-  {
-    "title": "SpringCloud之配置WebSocket的最佳方式",
-    "description": "SpringBoot项目集成 webSocket,当客户端与服务器端建立连接的时候，发现 server对象并未注入而是为 null。产生原因：spring管理的都是单例（singleton），和 websocket （多对象）相冲突。详细解释：项目启动时初...",
-    "url": "https://segmentfault.com/a/1190000041284399",
-    "author": "Awbeci",
-    "home_url": "https://segmentfault.com/u/awbeci",
-    "votes": "1",
-    "rank": 22
   }
 ]
