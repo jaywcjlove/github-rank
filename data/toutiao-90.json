@@ -20,16 +20,6 @@
     "homeUrl": "/subjects/392760"
   },
   {
-    "title": "搞懂异地多活，看这篇就够了",
-    "description": "阅读本文大约需要 20 分钟。你好，我是 Kaito。在软件开发领域，「异地多活」是分布式系统架构设计的一座高峰，很多人经常听过它，但很少人理解其中的原理。异地多活到底是什么？为什...",
-    "votes": "214",
-    "url": "/k/epd1pcc",
-    "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
-    "avatarAlt": "乱点技能树 - 独家号",
-    "subjectName": "乱点技能树",
-    "homeUrl": "/subjects/194141"
-  },
-  {
     "title": "我做系统架构的一些原则",
     "description": "工作 20 多年了，这 20 来年看到了很多公司系统架构，也看到了很多问题，在跟这些公司进行交流和讨论的时候，包括进行实施和方案比较的时候，都有很多各种方案的比较和妥协，因为相关的...",
     "votes": "208",
@@ -200,6 +190,16 @@
     "homeUrl": "/subjects/116492"
   },
   {
+    "title": "Kafka 知识体系保姆级教程宝典",
+    "description": "本文目录：一、消息队列 Apache Pulsar Pulsar 与 Kafka 对比二、Kafka基础三、Kafka架构及组件四、Kafka集群操作五、Kafka的JavaAPI...",
+    "votes": "115",
+    "url": "/k/j5iauc2",
+    "avatar": "https://img.toutiao.io/subject/1ecd558bf4a24bc780d2c3a0ab6e69f2/thumb",
+    "avatarAlt": "分布式系统 - 独家号",
+    "subjectName": "分布式系统",
+    "homeUrl": "/subjects/8411"
+  },
+  {
     "title": "面渣逆袭：线程池夺命连环十八问",
     "description": "大家好，我是老三，很高兴又和大家见面。线程池是面试必问的知识点，这节我们来对线面试官，搞透线程池。1. 什么是线程池？ 线程池： 简单理解，它就是一个管理线程的池子。它帮我们管理线...",
     "votes": "114",
@@ -210,19 +210,9 @@
     "homeUrl": "/subjects/454266"
   },
   {
-    "title": "Kafka 知识体系保姆级教程宝典",
-    "description": "本文目录：一、消息队列 Apache Pulsar Pulsar 与 Kafka 对比二、Kafka基础三、Kafka架构及组件四、Kafka集群操作五、Kafka的JavaAPI...",
-    "votes": "114",
-    "url": "/k/j5iauc2",
-    "avatar": "https://img.toutiao.io/subject/1ecd558bf4a24bc780d2c3a0ab6e69f2/thumb",
-    "avatarAlt": "分布式系统 - 独家号",
-    "subjectName": "分布式系统",
-    "homeUrl": "/subjects/8411"
-  },
-  {
     "title": "亿级流量系统架构演进之路",
     "description": "海量用户同时进行高频访问对任何平台都是难题，也是行业乐此不疲的研究方向。但值得庆幸的是，虽然业务场景不同，设计和优化的思想却是万变不离宗。本文将结合业务与高并发系统设计的核心技术点...",
-    "votes": "118",
+    "votes": "119",
     "url": "/k/nmwgk0i",
     "avatar": "https://img.toutiao.io/subject/4f9b8a1b9ad34bf3b815671f8461ff25/thumb",
     "avatarAlt": "又拍云 - 独家号",
@@ -248,5 +238,15 @@
     "avatarAlt": "薯条的编程修养 - 独家号",
     "subjectName": "薯条的编程修养",
     "homeUrl": "/subjects/465071"
+  },
+  {
+    "title": "服务 API 版本控制设计与实践",
+    "description": "作者：vivo互联网服务器团队-Song jie一、前言笔者曾负责vivo应用商店服务器开发，有幸见证应用商店从百万日活到几千万日活的发展历程。应用商店客户端经历了大大小小上百个版...",
+    "votes": "102",
+    "url": "/k/puc84fn",
+    "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
+    "avatarAlt": "vivo互联网技术 - 独家号",
+    "subjectName": "vivo互联网技术",
+    "homeUrl": "/subjects/392760"
   }
 ]
