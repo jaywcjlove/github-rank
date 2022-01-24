@@ -1,47 +1,92 @@
 [
   {
-    "title": "curl 作者 Daniel Stenberg 计划：将为 curl 添加原生支持 JSON",
-    "description": "在 Stack Overflow 等网站上，因为 JSON 使用了双引号，而 Shell 不会在单引号内扩展变量从而导致许多人无法使用 curl 发送正确的 JSON 和正确引用 JSON",
-    "url": "https://segmentfault.com/a/1190000041324327",
-    "author": "六一",
-    "home_url": "https://segmentfault.com/u/suicidal_romantic_scoundrel",
-    "votes": "2",
+    "title": "LeetCode-147-对链表进行插入排序",
+    "description": "题目描述：对链表进行插入排序。插入排序的动画演示如上。从第一个元素开始，该链表可以被认为已经部分排序（用黑色表示）。每次迭代时，从输入数据中移除一个元素（用红色表示），并原地将其插入到已排好序的链...",
+    "url": "https://segmentfault.com/a/1190000041327364",
+    "author": "雄狮虎豹",
+    "home_url": "https://segmentfault.com/u/xiongshihubao",
+    "votes": "4",
     "rank": 1
   },
   {
-    "title": "LeetCode-146- LRU 缓存机制",
-    "description": "题目描述：运用你所掌握的数据结构，设计和实现一个 LRU (最近最少使用) 缓存机制 。实现 LRUCache 类：LRUCache(int capacity) 以正整数作为容量 capacity 初始化 LRU 缓存int get(int key) 如果关键字 key 存在...",
-    "url": "https://segmentfault.com/a/1190000041325549",
-    "author": "雄狮虎豹",
-    "home_url": "https://segmentfault.com/u/xiongshihubao",
+    "title": "原来，嵌入式BI方案的核心差异全在这，教你如何评估！",
+    "description": "每个软件企业的产品在功能上都有自己的特点，都有自己的市场定位和价值主张。在大数据时代，为了让产品更具吸引力，很多软件企业已经开始在自己的产品中引入嵌入式BI方案，来满足用户日益增长的数据分析需求。",
+    "url": "https://segmentfault.com/a/1190000041327968",
+    "author": "葡萄城技术团队",
+    "home_url": "https://segmentfault.com/u/grapecity",
     "votes": "2",
     "rank": 2
   },
   {
-    "title": "Vue3默认版本了！我准备学这五个东西了。",
-    "description": "前言大家好，我是林三心，用最通俗易懂的话讲最难的知识点是我的座右铭，基础是进阶的前提的我的初心相信大家最近听到了一个消息，尤雨溪大佬发表了一个声明：有什么影响那么 Vue3 成为默认版本，有什么影响呢？ ...",
-    "url": "https://segmentfault.com/a/1190000041324242",
-    "author": "Sunshine_Lin",
-    "home_url": "https://segmentfault.com/u/user_ze46ouik",
-    "votes": "1",
+    "title": "彻底理解Golang Map",
+    "description": "本文目录如下，阅读本文后，将一网打尽下面Golang Map相关面试题面试题map的底层实现原理为什么遍历map是无序的？如何实现有序遍历map？为什么Go map是非线程安全的？线程安全的map如何实现?Go sync.map 和原生 m...",
+    "url": "https://segmentfault.com/a/1190000041327964",
+    "author": "caspar",
+    "home_url": "https://segmentfault.com/u/caspar_618f90e55f06c",
+    "votes": "2",
     "rank": 3
   },
   {
-    "title": "[RocksDB剖析系列] BlockBasedTableBuilder源码解读",
-    "description": "参考：[链接][链接][链接][链接]SST File Format之前在LSM-Tree部分有提过，但当时了解的比较浅 {代码...} metaindex block和index blockmetaindex block记录了每个meta block的偏移和长度. key是meta block的名...",
-    "url": "https://segmentfault.com/a/1190000041325204",
-    "author": "1iin",
-    "home_url": "https://segmentfault.com/u/1iin",
+    "title": "详解Windows 11背后的技术创新",
+    "description": "问世30多年来，Windows 已经成为全球亿万人工作、生活、创作时不可或缺的绝佳伙伴。2021年10月5日，微软产品大家庭正式迎来了最新成员 Windows 11。在如今混合办公、远程协作成为新常态的背景下，新一代 Windows ...",
+    "url": "https://segmentfault.com/a/1190000041322940",
+    "author": "微软技术栈",
+    "home_url": "https://segmentfault.com/u/mstech",
     "votes": "1",
     "rank": 4
   },
   {
-    "title": "大家开发 RN 都用什么？",
-    "description": "如果你觉得大家填写的这份数据对你有用，你也可以把你的经验分享给大家：[链接]",
-    "url": "https://segmentfault.com/a/1190000041324009",
-    "author": "穿越过来的键盘手",
-    "home_url": "https://segmentfault.com/u/timetravel",
-    "votes": "1",
+    "title": "Golang wails2 跨端桌面解决方案",
+    "description": "wails2 Golanggithub: [链接]文档: [链接]环境要求Go 1.16npm需是 Windows，MacOS, Linux 操作系统之一gcc安装 {代码...} 输入命令，有如下结果就是安装成功了 {代码...} 初始化 个人信息 {代码...} Hello World...",
+    "url": "https://segmentfault.com/a/1190000041328222",
+    "author": "小白要生发",
+    "home_url": "https://segmentfault.com/u/xiaobaiyaoshengfa",
+    "votes": "3",
     "rank": 5
+  },
+  {
+    "title": "大话设计模式：今天你设计了吗？",
+    "description": "在开发过程中你是否有遇到过这样的苦恼？产品发来一个需求，没做过，但是看完需求感觉应该处理起来很简单，然后找到对应的业务代码，发现代码像打乱的毛线一样理不清楚，各种逻辑嵌套，各种特殊判断处理，想要拓...",
+    "url": "https://segmentfault.com/a/1190000041328550",
+    "author": "SFLYQ",
+    "home_url": "https://segmentfault.com/u/sflyq",
+    "votes": "1",
+    "rank": 6
+  },
+  {
+    "title": "后门恶意软件通杀 Win、macOS、Linux 三大系统；Linux 恶意程序数量增长 35% | 思否周刊",
+    "description": "40s 新闻速递Google 和 IBM 提议建立关键开源项目清单Firefox 无法上网系程序员搞错大小写前所未见的后门恶意软件，通杀 Win、macOS、Linux 三大系统研究生编代码有偿帮抢 HPV 九价疫苗，被采取刑事强制措施   砍...",
+    "url": "https://segmentfault.com/a/1190000041327676",
+    "author": "snakesss",
+    "home_url": "https://segmentfault.com/u/snakesss",
+    "votes": "1",
+    "rank": 7
+  },
+  {
+    "title": "贪心算法（2）：金条切割问题、点灯问题、IPO问题",
+    "description": "一块金条切成两半，是需要花费和长度数值一样的铜板的。比如长度为20的金条，不管怎么切，都要花费20个铜板。一群人想整分整块金条，怎么分最省铜板？输入一个数组，返回分割的最小代价。",
+    "url": "https://segmentfault.com/a/1190000041327269",
+    "author": "周一pro",
+    "home_url": "https://segmentfault.com/u/monday_pro",
+    "votes": "1",
+    "rank": 8
+  },
+  {
+    "title": "Go Quiz: 从Go面试题搞懂slice range遍历的坑",
+    "description": "面试题最近Go 101的作者发布了11道Go面试题，非常有趣，打算写一个系列对每道题做详细解析，欢迎大家关注。本题是Go quiz slice系列的第2道题目，这道题非常有迷惑性。通过这道题我们可以知晓对slice做range遍历...",
+    "url": "https://segmentfault.com/a/1190000041327456",
+    "author": "coding进阶",
+    "home_url": "https://segmentfault.com/u/c9eulmav",
+    "votes": "1",
+    "rank": 9
+  },
+  {
+    "title": "【css灵感】模拟3D地球",
+    "description": "在css中有3d变换的方法，一般用它做一些矩形的效果，如果是圆形则比较困难了。这里用一种障眼法的方式实现了3d的效果。点击这里查看无纯净广告版实现方法 {代码...}",
+    "url": "https://segmentfault.com/a/1190000041328381",
+    "author": "墨抒颖",
+    "home_url": "https://segmentfault.com/u/moshuying",
+    "votes": "1",
+    "rank": 10
   }
 ]
