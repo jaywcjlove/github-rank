@@ -5,8 +5,17 @@
     "url": "https://segmentfault.com/a/1190000041275359",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "55",
+    "votes": "57",
     "rank": 1
+  },
+  {
+    "title": "一份简单够用的 Nginx Location 配置讲解",
+    "description": "前言Location 是 Nginx 中一个非常核心的配置，这篇重点讲解一下 Location 的配置问题以及一些注意事项。语法关于 Location，举个简单的配置例子： {代码...} 大致的意思是，当你访问 www.yayujs.com 的 80 端口...",
+    "url": "https://segmentfault.com/a/1190000041217732",
+    "author": "冴羽",
+    "home_url": "https://segmentfault.com/u/yayu",
+    "votes": "35",
+    "rank": 2
   },
   {
     "title": "难搞的偏向锁终于被 Java 移除了",
@@ -15,15 +24,6 @@
     "author": "日拱一兵",
     "home_url": "https://segmentfault.com/u/tanrigongyibing",
     "votes": "37",
-    "rank": 2
-  },
-  {
-    "title": "一份简单够用的 Nginx Location 配置讲解",
-    "description": "前言Location 是 Nginx 中一个非常核心的配置，这篇重点讲解一下 Location 的配置问题以及一些注意事项。语法关于 Location，举个简单的配置例子： {代码...} 大致的意思是，当你访问 www.yayujs.com 的 80 端口...",
-    "url": "https://segmentfault.com/a/1190000041217732",
-    "author": "冴羽",
-    "home_url": "https://segmentfault.com/u/yayu",
-    "votes": "34",
     "rank": 3
   },
   {
@@ -81,21 +81,21 @@
     "rank": 9
   },
   {
+    "title": "神器 Nginx 的学习手册 ( 建议收藏 )",
+    "description": "无论是运维、开发、测试，Nginx技术栈的学习总是必不可少的，只是不同的岗位掌握的深度与广度不同而已。所以，民工哥利用周末休息时间，将往期推送的Nginx文章给大家重新整理出来，整理出成体系的Nginx知识体系，...",
+    "url": "https://segmentfault.com/a/1190000041298011",
+    "author": "民工哥",
+    "home_url": "https://segmentfault.com/u/jishuroad",
+    "votes": "28",
+    "rank": 10
+  },
+  {
     "title": "可视化编码！前端无缝接入代码可视化编辑",
     "description": "主流的商业化低代码平台，基本就是希望将研发全链路都推向标准化、规范化，来达到提效的效果，但是对于需求本身是变化的，同时会形成对低代码平台的依赖，后续维护均需要依赖平台能力实现；",
     "url": "https://segmentfault.com/a/1190000041210915",
     "author": "moyuyc",
     "home_url": "https://segmentfault.com/u/moyuyc",
     "votes": "23",
-    "rank": 10
-  },
-  {
-    "title": "神器 Nginx 的学习手册 ( 建议收藏 )",
-    "description": "无论是运维、开发、测试，Nginx技术栈的学习总是必不可少的，只是不同的岗位掌握的深度与广度不同而已。所以，民工哥利用周末休息时间，将往期推送的Nginx文章给大家重新整理出来，整理出成体系的Nginx知识体系，...",
-    "url": "https://segmentfault.com/a/1190000041298011",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "26",
     "rank": 11
   },
   {
@@ -117,12 +117,12 @@
     "rank": 13
   },
   {
-    "title": "一看就懂，一写就懵？搞懂回溯算法，一口气刷了20多道题",
-    "description": "回溯算法实际上一个类似枚举的搜索尝试过程，主要是在搜索尝试过程中寻找问题的解，当发现已不满足求解条件时，就“回溯”返回，尝试别的路径。——摘自《百度百科》",
-    "url": "https://segmentfault.com/a/1190000041181667",
-    "author": "叫我詹躲躲",
-    "home_url": "https://segmentfault.com/u/huixiaodeyanjingzhenmei",
-    "votes": "19",
+    "title": "巧用 CSS 实现动态线条 Loading 动画",
+    "description": "有群友问我，使用 CSS 如何实现如下 Loading 效果：这是一个非常有意思的问题。我们知道，使用 CSS，我们可以非常轻松的实现这样一个动画效果： {代码...} {代码...} 动画如下：与要求的线条 loading 动画相比，...",
+    "url": "https://segmentfault.com/a/1190000041306193",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "18",
     "rank": 14
   },
   {
@@ -158,7 +158,7 @@
     "url": "https://segmentfault.com/a/1190000041294273",
     "author": "杨成功",
     "home_url": "https://segmentfault.com/u/ruidoc",
-    "votes": "16",
+    "votes": "17",
     "rank": 18
   },
   {
@@ -189,22 +189,13 @@
     "rank": 21
   },
   {
-    "title": "React Native新架构剖析",
-    "description": "目前 React Native 新架构所依赖的 React 18 已经发了 beta 版，React Native 新架构面向生态库和核心开发者的文档也正式发布，React Native 团队成员 Kevin Gozali 也在最近一次访谈中谈到新架构离正式发版还差...",
-    "url": "https://segmentfault.com/a/1190000041182593",
-    "author": "xiangzhihong",
-    "home_url": "https://segmentfault.com/u/xiangzhihong",
-    "votes": "12",
-    "rank": 22
-  },
-  {
     "title": "林三心画了8张图，最通俗易懂的Vue3响应式核心原理解析",
     "description": "基础是进阶的前提其实Vue3已经出来很久了，可能大部分公司都用上了，但是，Vue3究竟比Vue2好在哪里？其实很多人都不知道。今天我就先给大家讲一讲Vue3的响应式原理吧，顺便说一说Vue3的响应式到底比Vue2的响应式...",
     "url": "https://segmentfault.com/a/1190000041207010",
     "author": "Sunshine_Lin",
     "home_url": "https://segmentfault.com/u/user_ze46ouik",
     "votes": "14",
-    "rank": 23
+    "rank": 22
   },
   {
     "title": "Web3.0是什么，为什么MetaVerse这么火？",
@@ -213,7 +204,7 @@
     "author": "Peter谭老师",
     "home_url": "https://segmentfault.com/u/jerrytanjinjie",
     "votes": "18",
-    "rank": 24
+    "rank": 23
   },
   {
     "title": "谁再说不熟悉 Linux 命令，就把这个给他扔过去！",
@@ -222,6 +213,15 @@
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "20",
+    "rank": 24
+  },
+  {
+    "title": "线程池如何观测？这个方案让你对线程池的运行情况了如指掌！",
+    "description": "今天我们来聊一个比较实用的话题，动态可监控可观测的线程池实践。这是个全新的开源项目，作者提供了一种非常好的思路解决了线程池的可观测问题。这个开源项目叫：DynamicTp地址在文章末尾。写在前面稍微有些Java...",
+    "url": "https://segmentfault.com/a/1190000041296797",
+    "author": "铂赛东",
+    "home_url": "https://segmentfault.com/u/bosaidong_5c495684bcf4b",
+    "votes": "13",
     "rank": 25
   },
   {
@@ -234,22 +234,13 @@
     "rank": 26
   },
   {
-    "title": "线程池如何观测？这个方案让你对线程池的运行情况了如指掌！",
-    "description": "今天我们来聊一个比较实用的话题，动态可监控可观测的线程池实践。这是个全新的开源项目，作者提供了一种非常好的思路解决了线程池的可观测问题。这个开源项目叫：DynamicTp地址在文章末尾。写在前面稍微有些Java...",
-    "url": "https://segmentfault.com/a/1190000041296797",
-    "author": "铂赛东",
-    "home_url": "https://segmentfault.com/u/bosaidong_5c495684bcf4b",
-    "votes": "13",
-    "rank": 27
-  },
-  {
     "title": "一篇从购买服务器到部署博客代码的详细教程",
     "description": "我们在 《一篇带你用 VuePress + Github Pages 搭建博客》实现了 VuePress 搭建个人博客，在 《一篇教你代码同步 Github 和 Gitee》和 《Gitee 如何自动部署 Pages？还是用 GitHub Actions!》实现了代码自动同步...",
     "url": "https://segmentfault.com/a/1190000041231904",
     "author": "冴羽",
     "home_url": "https://segmentfault.com/u/yayu",
     "votes": "13",
-    "rank": 28
+    "rank": 27
   },
   {
     "title": "分布式抽奖秒杀系统，DDD架构设计和实现分享",
@@ -258,7 +249,7 @@
     "author": "小傅哥",
     "home_url": "https://segmentfault.com/u/fuzhengwei",
     "votes": "16",
-    "rank": 29
+    "rank": 28
   },
   {
     "title": "⚡️ 省钱 90%！我是这样优化网站图片的",
@@ -267,6 +258,15 @@
     "author": "卤代烃",
     "home_url": "https://segmentfault.com/u/skychx",
     "votes": "17",
+    "rank": 29
+  },
+  {
+    "title": "2 天！Google Cloud 2022 中国出海数字峰会进入倒计时",
+    "description": "企业出海，技术为舵，开发者作为出海企业技术舵手，需保持高度敏锐，持续修炼技能，确保企业出海动力稳定。作为一家技术创新企业，过去一年，谷歌的融合生态如何为出海经济赋能？Google Cloud 在全球范围内建设起...",
+    "url": "https://segmentfault.com/a/1190000041303894",
+    "author": "思否编辑部",
+    "home_url": "https://segmentfault.com/u/writers",
+    "votes": "12",
     "rank": 30
   }
 ]
