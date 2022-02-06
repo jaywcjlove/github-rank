@@ -1,11 +1,20 @@
 [
   {
-    "title": "【JUC】可回调任务FutureTask原理",
-    "description": "线程A执行start方法时，会调用FutureTask的run()方法（Runnable接口）run()方法会触发FutureTask内部的state状态变更，并调用Callable的call()方法",
-    "url": "https://segmentfault.com/a/1190000041364381",
-    "author": "暗夜君王",
-    "home_url": "https://segmentfault.com/u/liuzijian",
-    "votes": "1",
+    "title": "深入浅出 Angular 变更检测",
+    "description": "Angular 中的变更检测是一种用来将应用程序 UI 的状态与数据的状态同步的机制。当应用逻辑更改组件数据时，绑定到视图中 DOM 属性上的值也要随之更改。变更检测器负责更新视图以反映当前的数据模型。阅读本文之前...",
+    "url": "https://segmentfault.com/a/1190000041365492",
+    "author": "Zuckjet",
+    "home_url": "https://segmentfault.com/u/zuckjet",
+    "votes": "2",
     "rank": 1
+  },
+  {
+    "title": "实用WGCLOUD监测Redis运行状态教程",
+    "description": "介绍通过WGCLOUD来监测Redis运行的状态，端口，日志[链接]",
+    "url": "https://segmentfault.com/a/1190000041365459",
+    "author": "徐三刀",
+    "home_url": "https://segmentfault.com/u/9b3sps2b",
+    "votes": "1",
+    "rank": 2
   }
 ]

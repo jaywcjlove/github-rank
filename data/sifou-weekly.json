@@ -1,39 +1,12 @@
 [
   {
-    "title": "火山引擎违反 Apache 2.0 许可证的情况下非法地重新发布了Apache SkyWalking",
-    "description": "近日我们关注到知名开源项目 Apache SkyWalking 在其官方博客发布了文章称：字节跳动子公司火山引擎在使用 Apache SkyWalking 构建其商业化产品期间改变了所有的包名，删除了 Apache 软件基金会的 header，并且在...",
-    "url": "https://segmentfault.com/a/1190000041355320",
-    "author": "鸣飞",
-    "home_url": "https://segmentfault.com/u/mf",
-    "votes": "10",
-    "rank": 1
-  },
-  {
-    "title": "60行代码实现React的事件系统",
-    "description": "大家好，我卡颂。由于如下原因，React的事件系统代码量很大：需要抹平不同浏览器的差异与内部的优先级机制绑定需要考虑所有浏览器事件但如果抽丝剥茧会发现，事件系统的核心只有两个模块：SyntheticEvent（合成事...",
-    "url": "https://segmentfault.com/a/1190000041355419",
-    "author": "卡颂",
-    "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "10",
-    "rank": 2
-  },
-  {
     "title": "Three.js 实现2022冬奥主题3D趣味页面 🐼",
     "description": "迎冬奥，一起向未来！2022冬奥会马上就要开始了，本文使用 Three.js + React 技术栈，实现冬日和奥运元素，制作了一个充满趣味和纪念意义的冬奥主题 3D 页面。本文涉及到的知识点主要包括：TorusGeometry 圆环面...",
     "url": "https://segmentfault.com/a/1190000041363089",
     "author": "dragonir",
     "home_url": "https://segmentfault.com/u/dragonir",
-    "votes": "12",
-    "rank": 3
-  },
-  {
-    "title": "两年经验前端：字节跳动系—石墨文档面经",
-    "description": "前言今天给大家分享一个字节跳动系公司——石墨文档的面经吧！废话不多说，先看题目！题目一面1、['10', '10', '10', '10', '10'].map(parseInt) 的输出值是什么？2、你们现在的技术栈是什么？为什么要使用ts？3、s...",
-    "url": "https://segmentfault.com/a/1190000041355537",
-    "author": "Sunshine_Lin",
-    "home_url": "https://segmentfault.com/u/user_ze46ouik",
-    "votes": "10",
-    "rank": 4
+    "votes": "19",
+    "rank": 1
   },
   {
     "title": "一文读懂 Serverless 的起源、发展和落地实践",
@@ -42,7 +15,7 @@
     "author": "Serverless",
     "home_url": "https://segmentfault.com/u/jiang_5f3236dd7afd1",
     "votes": "6",
-    "rank": 5
+    "rank": 2
   },
   {
     "title": "2021， 自我加糖的一年",
@@ -51,16 +24,7 @@
     "author": "Denzel",
     "home_url": "https://segmentfault.com/u/denzel",
     "votes": "3",
-    "rank": 6
-  },
-  {
-    "title": "Android黑科技：如何启动未注册的Activity",
-    "description": "如果有人问你，未在配置文件中注册的Activity可以启动吗。可能你一开始会回答不行，但是细细思考，你会发现，使用Android Hook等技术启动未注册的Activity也是可以的，这也是Android Hook 插件化技术原理的基础。",
-    "url": "https://segmentfault.com/a/1190000041355453",
-    "author": "xiangzhihong",
-    "home_url": "https://segmentfault.com/u/xiangzhihong",
-    "votes": "1",
-    "rank": 7
+    "rank": 3
   },
   {
     "title": "回顾 Flutter 2021 重要时刻，奉上虎年红包封面喜迎新年！",
@@ -69,7 +33,7 @@
     "author": "Flutter",
     "home_url": "https://segmentfault.com/u/flutter",
     "votes": "1",
-    "rank": 8
+    "rank": 4
   },
   {
     "title": "来自开发者的点赞！HMS Core荣获多个行业奖项",
@@ -78,7 +42,16 @@
     "author": "HMSCore",
     "home_url": "https://segmentfault.com/u/hms_core",
     "votes": "2",
-    "rank": 9
+    "rank": 5
+  },
+  {
+    "title": "读Flink源码谈设计：Exactly Once",
+    "description": "将Flink应用至生产已有一段时间，刚上生产的时候有幸排查过因数据倾斜引起的Checkpoint超时问题——当时简单的了解了相关机制，最近正好在读Flink源码，不如趁这个机会搞清楚。",
+    "url": "https://segmentfault.com/a/1190000041361977",
+    "author": "泊浮目",
+    "home_url": "https://segmentfault.com/u/camile",
+    "votes": "2",
+    "rank": 6
   },
   {
     "title": "我所理解的云原生（二）",
@@ -87,34 +60,7 @@
     "author": "劼哥stone",
     "home_url": "https://segmentfault.com/u/stone0090",
     "votes": "2",
-    "rank": 10
-  },
-  {
-    "title": "读Flink源码谈设计：Exactly Once",
-    "description": "将Flink应用至生产已有一段时间，刚上生产的时候有幸排查过因数据倾斜引起的Checkpoint超时问题——当时简单的了解了相关机制，最近正好在读Flink源码，不如趁这个机会搞清楚。",
-    "url": "https://segmentfault.com/a/1190000041361977",
-    "author": "泊浮目",
-    "home_url": "https://segmentfault.com/u/camile",
-    "votes": "1",
-    "rank": 11
-  },
-  {
-    "title": "JavaScript中的变量作用域与提升",
-    "description": "JavaScript中的变量作用域与提升之前有看到一些对应的文章，但是对于变量作用域和提升的掌握理解的不够彻底，今天就来理一下。首先，要知道，在ES6之前，JS中只存在函数作用域。let、const等变量声明关键字和块级...",
-    "url": "https://segmentfault.com/a/1190000041357601",
-    "author": "伯约同学",
-    "home_url": "https://segmentfault.com/u/jinbitao",
-    "votes": "1",
-    "rank": 12
-  },
-  {
-    "title": "如何在自己的系统嵌入WGCLOUD",
-    "description": "我结合我们项目的经验给大家说一下：1、在自己系统加一个菜单或按钮，命名就根据自己自定义了，当点击时候，跳转到WGCLOUD页面，这个办法是最简单的了。唯一不足之处是需要登录，不过我们可以选择浏览器记住密码...",
-    "url": "https://segmentfault.com/a/1190000041363136",
-    "author": "徐三刀",
-    "home_url": "https://segmentfault.com/u/9b3sps2b",
-    "votes": "1",
-    "rank": 13
+    "rank": 7
   },
   {
     "title": "Rust入门系列之环境准备 - Mac os篇",
@@ -123,7 +69,16 @@
     "author": "木木剑光",
     "home_url": "https://segmentfault.com/u/18227192769",
     "votes": "1",
-    "rank": 14
+    "rank": 8
+  },
+  {
+    "title": "如何在自己的系统嵌入WGCLOUD",
+    "description": "我结合我们项目的经验给大家说一下：1、在自己系统加一个菜单或按钮，命名就根据自己自定义了，当点击时候，跳转到WGCLOUD页面，这个办法是最简单的了。唯一不足之处是需要登录，不过我们可以选择浏览器记住密码...",
+    "url": "https://segmentfault.com/a/1190000041363136",
+    "author": "徐三刀",
+    "home_url": "https://segmentfault.com/u/9b3sps2b",
+    "votes": "1",
+    "rank": 9
   },
   {
     "title": "我的2021",
@@ -132,52 +87,7 @@
     "author": "劼哥stone",
     "home_url": "https://segmentfault.com/u/stone0090",
     "votes": "2",
-    "rank": 15
-  },
-  {
-    "title": "开源机器学习数据库OpenMLDB v0.4.0产品介绍",
-    "description": "今天的演讲围绕OpenMLDB给企业提供全栈FeatureOps解决方案展开，同时对OpenMLDB的主要特性和新发布0.4.0版本的新功能进行介绍。",
-    "url": "https://segmentfault.com/a/1190000041355913",
-    "author": "4PD开发者社区",
-    "home_url": "https://segmentfault.com/u/4paradigm",
-    "votes": "1",
-    "rank": 16
-  },
-  {
-    "title": "企业数字化转型：数字化江湖的六大门派！| IDCF",
-    "description": "我是一个金庸迷，“飞雪连天射白鹿，笑书神侠倚碧鸳”，在金庸的武侠世界里，有缠绵悱恻的爱恨情仇，也有刀光剑影的江湖天下。小的时候总幻想自己成为一个仗剑天涯、笑傲江湖的侠客，长大后误入IT业，成为了新时代...",
-    "url": "https://segmentfault.com/a/1190000041354479",
-    "author": "IDCF",
-    "home_url": "https://segmentfault.com/u/idcf",
-    "votes": "1",
-    "rank": 17
-  },
-  {
-    "title": "这里有一款宝藏反向代理",
-    "description": "YARP 1.0已经发布了，现在可以从 NuGet 下载。YARP（Yet Another Reverse Proxy）是使用 .NET 构建的高度可定制的反向代理。YARP 与其他反向代理的最大区别在于它是如何构建和打包的——YARP 作为库和示例提供，展...",
-    "url": "https://segmentfault.com/a/1190000041355277",
-    "author": "微软技术栈",
-    "home_url": "https://segmentfault.com/u/mstech",
-    "votes": "1",
-    "rank": 18
-  },
-  {
-    "title": "MySQL 是如何实现 ACID 的？",
-    "description": "我们都知道，事务具有 ACID 四个特性——原子性（Atomicity）、一致性（Consistency）、隔离性（Isolation）、持久性（Durability）。但你知道 MySQL 是通过什么技术手段来实现的吗？",
-    "url": "https://segmentfault.com/a/1190000041358494",
-    "author": "刘水镜",
-    "home_url": "https://segmentfault.com/u/liushuijinger",
-    "votes": "1",
-    "rank": 19
-  },
-  {
-    "title": "地图-openLayer-让用户自由设置专题图层的透明度-antdesignVue",
-    "description": "以上是我自己干活时候写的伪代码，因为自己项目地图中不止有专题图层，还有别的不需要控制透明度的图层。贴在这里的目的也是希望大家干活前先理顺思路，这样效率就会很快",
-    "url": "https://segmentfault.com/a/1190000041356709",
-    "author": "bugMaker",
-    "home_url": "https://segmentfault.com/u/bugmaker_bxl",
-    "votes": "1",
-    "rank": 20
+    "rank": 10
   },
   {
     "title": "Spring Boot Serverless 实战系列 | 性能调优",
@@ -186,7 +96,43 @@
     "author": "Serverless",
     "home_url": "https://segmentfault.com/u/jiang_5f3236dd7afd1",
     "votes": "1",
-    "rank": 21
+    "rank": 11
+  },
+  {
+    "title": "打包的3种hash值你知道吗？当年我校招时被这题难倒了！",
+    "description": "前言大家好，我是林三心，用最通俗易懂的话讲最难的知识点是我的座右铭，基础是进阶的前提是我的初心当年的校招依稀记得，当年我参加了大厂的校招，面试的是网易雷火工作室，当时有一道题，我记得很清楚，就是：...",
+    "url": "https://segmentfault.com/a/1190000041364460",
+    "author": "Sunshine_Lin",
+    "home_url": "https://segmentfault.com/u/user_ze46ouik",
+    "votes": "1",
+    "rank": 12
+  },
+  {
+    "title": "MySQL 是如何实现 ACID 的？",
+    "description": "我们都知道，事务具有 ACID 四个特性——原子性（Atomicity）、一致性（Consistency）、隔离性（Isolation）、持久性（Durability）。但你知道 MySQL 是通过什么技术手段来实现的吗？",
+    "url": "https://segmentfault.com/a/1190000041358494",
+    "author": "刘水镜",
+    "home_url": "https://segmentfault.com/u/liushuijinger",
+    "votes": "1",
+    "rank": 13
+  },
+  {
+    "title": "Flutter 2.10 更新详解",
+    "description": "Flutter 2.10 版已正式发布！虽然⾃ 上次稳定版本发布 以来还不到两个⽉，即使在这么短的时间内，我们也已处理和关闭了 1843 个 Issue，合并了来⾃全球 155 位贡献者的 1525 个 PR。感谢⼤家在 2021 年末的假期期...",
+    "url": "https://segmentfault.com/a/1190000041364916",
+    "author": "Flutter",
+    "home_url": "https://segmentfault.com/u/flutter",
+    "votes": "1",
+    "rank": 14
+  },
+  {
+    "title": "Vertx入门和源码浅析",
+    "description": "概念2: Verticle1) Verticle起作用的方式，主要是通过Vertx进行部署，也就是deployVerticle2) Verticle部署，主要是Vertx框架把vertx 和context 传给Verticle，并且通过context启动",
+    "url": "https://segmentfault.com/a/1190000041364678",
+    "author": "ThinkFault",
+    "home_url": "https://segmentfault.com/u/thinkfault",
+    "votes": "1",
+    "rank": 15
   },
   {
     "title": "MySQL开发篇，存储引擎的选择真的很重要吗？",
@@ -195,16 +141,7 @@
     "author": "龙腾万里sky",
     "home_url": "https://segmentfault.com/u/cnwangk",
     "votes": "1",
-    "rank": 22
-  },
-  {
-    "title": "python for 循环",
-    "description": "Python for 循环For … in 语句是另一种循环语句，其特点是会在一系列对象上进行迭代(Iterates)，即它会遍历序列中的每一个项目注意：1、else 部分是可选的。当循环中包含它时，它循环中包含它时，它总会在 for 循...",
-    "url": "https://segmentfault.com/a/1190000041360584",
-    "author": "David Cao",
-    "home_url": "https://segmentfault.com/u/david_cao_605f0765761e0",
-    "votes": "1",
-    "rank": 23
+    "rank": 16
   },
   {
     "title": "再解 JavaScript 原型与原型链",
@@ -213,7 +150,16 @@
     "author": "编程三昧",
     "home_url": "https://segmentfault.com/u/bianchengsanmei",
     "votes": "1",
-    "rank": 24
+    "rank": 17
+  },
+  {
+    "title": "python for 循环",
+    "description": "Python for 循环For … in 语句是另一种循环语句，其特点是会在一系列对象上进行迭代(Iterates)，即它会遍历序列中的每一个项目注意：1、else 部分是可选的。当循环中包含它时，它循环中包含它时，它总会在 for 循...",
+    "url": "https://segmentfault.com/a/1190000041360584",
+    "author": "David Cao",
+    "home_url": "https://segmentfault.com/u/david_cao_605f0765761e0",
+    "votes": "1",
+    "rank": 18
   },
   {
     "title": "【2022/02/02】thinkphp源码详细阅读（一）",
@@ -222,16 +168,7 @@
     "author": "一梦千年",
     "home_url": "https://segmentfault.com/u/leruge",
     "votes": "1",
-    "rank": 25
-  },
-  {
-    "title": "项目版本的含义",
-    "description": "RC(候选版)：Release Candidate，对比 Beta，该版本不会增加新的功能，主要用来检查bug，全部排除后，就会成为稳定版。",
-    "url": "https://segmentfault.com/a/1190000041356822",
-    "author": "贝哥哥",
-    "home_url": "https://segmentfault.com/u/beigege",
-    "votes": "1",
-    "rank": 26
+    "rank": 19
   },
   {
     "title": "从0到1，完成恋爱话术微信小程序的开发到发布（开源，看了就懂~，2万字真香警告）",
@@ -240,16 +177,7 @@
     "author": "隐风",
     "home_url": "https://segmentfault.com/u/yin_feng",
     "votes": "1",
-    "rank": 27
-  },
-  {
-    "title": "TTF、TOF、WOFF 和 WOFF2 的相关概念",
-    "description": "前言在上一篇文章中，我引入了 TTF 格式的字体文件来解决各平台字体表现不统一的问题。但其实那不是最优解决方案，因为字体文件不止有 TTF 格式，常见的字体格式还有 OTF、WOFF 和 WOFF2 等。今天，我来总结一下...",
-    "url": "https://segmentfault.com/a/1190000041359418",
-    "author": "编程三昧",
-    "home_url": "https://segmentfault.com/u/bianchengsanmei",
-    "votes": "1",
-    "rank": 28
+    "rank": 20
   },
   {
     "title": "为什么 eventlet 在 Apple M1 上卡住了？",
@@ -258,6 +186,42 @@
     "author": "Prodesire",
     "home_url": "https://segmentfault.com/u/prodesire",
     "votes": "1",
-    "rank": 29
+    "rank": 21
+  },
+  {
+    "title": "【JUC】可回调任务FutureTask原理",
+    "description": "线程A执行start方法时，会调用FutureTask的run()方法（Runnable接口）run()方法会触发FutureTask内部的state状态变更，并调用Callable的call()方法",
+    "url": "https://segmentfault.com/a/1190000041364381",
+    "author": "暗夜君王",
+    "home_url": "https://segmentfault.com/u/liuzijian",
+    "votes": "1",
+    "rank": 22
+  },
+  {
+    "title": "TTF、TOF、WOFF 和 WOFF2 的相关概念",
+    "description": "前言在上一篇文章中，我引入了 TTF 格式的字体文件来解决各平台字体表现不统一的问题。但其实那不是最优解决方案，因为字体文件不止有 TTF 格式，常见的字体格式还有 OTF、WOFF 和 WOFF2 等。今天，我来总结一下...",
+    "url": "https://segmentfault.com/a/1190000041359418",
+    "author": "编程三昧",
+    "home_url": "https://segmentfault.com/u/bianchengsanmei",
+    "votes": "1",
+    "rank": 23
+  },
+  {
+    "title": "深入浅出 Angular 变更检测",
+    "description": "Angular 中的变更检测是一种用来将应用程序 UI 的状态与数据的状态同步的机制。当应用逻辑更改组件数据时，绑定到视图中 DOM 属性上的值也要随之更改。变更检测器负责更新视图以反映当前的数据模型。阅读本文之前...",
+    "url": "https://segmentfault.com/a/1190000041365492",
+    "author": "Zuckjet",
+    "home_url": "https://segmentfault.com/u/zuckjet",
+    "votes": "2",
+    "rank": 24
+  },
+  {
+    "title": "实用WGCLOUD监测Redis运行状态教程",
+    "description": "介绍通过WGCLOUD来监测Redis运行的状态，端口，日志[链接]",
+    "url": "https://segmentfault.com/a/1190000041365459",
+    "author": "徐三刀",
+    "home_url": "https://segmentfault.com/u/9b3sps2b",
+    "votes": "1",
+    "rank": 25
   }
 ]
