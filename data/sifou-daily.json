@@ -1,110 +1,20 @@
 [
   {
-    "title": "必须知道的JavaScript库 - 可视化库",
-    "description": "在研发团队内从0打造一个公司级可视化库/工具可行性非常低(无论是成本还是是否具备能力等等...),综上种种,今天推荐一些web方向现有的工具(包含实现概要,技术方向)来供大家参考使用。",
-    "url": "https://segmentfault.com/a/1190000041390654",
-    "author": "wlove",
-    "home_url": "https://segmentfault.com/u/xieguoliang",
-    "votes": "4",
+    "title": "更优雅地用 JS 进行 “IPC” 调用，我写了 event-invoke 库",
+    "description": "团队最近有一个 Node.js 全新的模块需要开发，涉及多进程的管理和通讯，简化模型可以理解为需要频繁从 master 进程调用 worker 进程的某些方法，简单设计实现了一个 event-invoke 的库，可以简单优雅进行调用。",
+    "url": "https://segmentfault.com/a/1190000041395729",
+    "author": "xcold",
+    "home_url": "https://segmentfault.com/u/xcold",
+    "votes": "2",
     "rank": 1
   },
   {
-    "title": "Spring Cloud 源码分析之OpenFeign",
-    "description": "OpenFeign是一个远程客户端请求代理，它的基本作用是让开发者能够以面向接口的方式来实现远程调用，从而屏蔽底层通信的复杂性，它的具体原理如下图所示。",
-    "url": "https://segmentfault.com/a/1190000041389449",
-    "author": "跟着Mic学架构",
-    "home_url": "https://segmentfault.com/u/fukua_5be8034f8191f",
-    "votes": "3",
+    "title": "最新全国省市区县乡镇街道行政区划数据提取(2022年)",
+    "description": "AreaCity 开源库整理了省、市、区县、乡镇街道四级行政区划数据，配套了在线工具转换成三级、四级联动JavaScript代码，使用自带的转换工具软件可以导入数据库；数据源自： 统计局、民政部、腾讯地图行政区划、高...",
+    "url": "https://segmentfault.com/a/1190000041395245",
+    "author": "高坚果",
+    "home_url": "https://segmentfault.com/u/xiangyuecn",
+    "votes": "1",
     "rank": 2
-  },
-  {
-    "title": "来了来了，CSS 版的冰墩墩来了……",
-    "description": "啥也不用多说，直接入正题，首发肯定是自己的公众号了：[链接]至于代码么有具体的细化，只是无聊的人在做无聊的事，图个开心。代码是很长，优化的空间也是有的。 {代码...} 在 CSS 部分中，用的不少 border-radiu...",
-    "url": "https://segmentfault.com/a/1190000041393140",
-    "author": "林小志",
-    "home_url": "https://segmentfault.com/u/linxz",
-    "votes": "1",
-    "rank": 3
-  },
-  {
-    "title": "一起学习Vuex 4.0的状态管理（Vite）",
-    "description": "本文目录简单介绍vite,搭建vite项目。安装vuexVuex基础介绍使用Vuex插件引入1.简单介绍vite,搭建vite项目1.1什么是vite?Vite是一种新型前端构建工具，能够显著提升前端开发体验。它主要由两部分组成：一个开发服...",
-    "url": "https://segmentfault.com/a/1190000041393110",
-    "author": "叫我詹躲躲",
-    "home_url": "https://segmentfault.com/u/huixiaodeyanjingzhenmei",
-    "votes": "2",
-    "rank": 4
-  },
-  {
-    "title": "MySql索引分析及查询优化",
-    "description": "B-Tree核心特点:多路，非二叉树每个节点既保存索引，又保存数据搜索时相当于二分查找B+Tree核心特点多路非二叉只有叶子节点保存数据搜索时相当于二分查找增加了相邻接点的指向指针。B-Tree VS B+TreeB+树查询时间...",
-    "url": "https://segmentfault.com/a/1190000041393092",
-    "author": "隐风",
-    "home_url": "https://segmentfault.com/u/yin_feng",
-    "votes": "1",
-    "rank": 5
-  },
-  {
-    "title": "《Koala 聊开源》视频专栏年度总结和计划",
-    "description": "[链接]",
-    "url": "https://segmentfault.com/a/1190000041392942",
-    "author": "aryu",
-    "home_url": "https://segmentfault.com/u/aryu",
-    "votes": "1",
-    "rank": 6
-  },
-  {
-    "title": "HMS Core 能力速配，唱响恋爱进行曲",
-    "description": "科技相助，恋爱提速。展现爱意的方式有千百种，你可以用文本翻译学习数十种语言的“我爱你”来传达情感。即便爱在心口难开，还可以选择用手语服务进行爱的告白。",
-    "url": "https://segmentfault.com/a/1190000041392277",
-    "author": "HMSCore",
-    "home_url": "https://segmentfault.com/u/hms_core",
-    "votes": "1",
-    "rank": 7
-  },
-  {
-    "title": "面试官：Context携带数据是线程安全的吗？",
-    "description": "哈喽，大家好，我是asong。最近一个群里看到一个有趣的八股文，问题是：使用context携带的value是线程安全的吗？这道题其实就是考察面试者对context实现原理的理解，如果不知道context的实现原理，很容易答错这道...",
-    "url": "https://segmentfault.com/a/1190000041391870",
-    "author": "asong",
-    "home_url": "https://segmentfault.com/u/asong_5eeb7a1d0da86",
-    "votes": "2",
-    "rank": 8
-  },
-  {
-    "title": "技术集锦 | 大数据云原生技术实战及最佳实践系列",
-    "description": "随着云平台、容器等技术的不断成熟，云原生大数据解决了传统大数据平台建设和运维中的繁琐，使即时可得，按需分配的高效大数据开发平台成为可能。云原生的到来不止为大数据部署和交付带来了变革，它更是帮助大数...",
-    "url": "https://segmentfault.com/a/1190000041390924",
-    "author": "腾讯云原生",
-    "home_url": "https://segmentfault.com/u/tcloudnative",
-    "votes": "1",
-    "rank": 9
-  },
-  {
-    "title": "2021年度总结 | 葡萄城软件开发技术回顾（上）",
-    "description": "这一年，云原生领域风起云涌，容器大规模应用，k8s可称为炙手可热的话题；这一年，大数据技术体系1.0基本成型，跨过技术复兴与狂潮期，数据平台的商业价值也在逐渐显现，带来大量投资创业机会；这一年，Vue、Reac...",
-    "url": "https://segmentfault.com/a/1190000041389402",
-    "author": "葡萄城技术团队",
-    "home_url": "https://segmentfault.com/u/grapecity",
-    "votes": "1",
-    "rank": 10
-  },
-  {
-    "title": "爱奇艺携手HMS Core，为用户打造更流畅的沉浸式观影体验",
-    "description": "爱奇艺是国内领先的视频播放平台，通过接入HMS Core HiAI Foundation后，爱奇艺能够为用户在较低码率的情况下提供较高清晰度的视频；同时，HMS Core的无线传输服务可对视频进行码率和清晰度的调整，结合爱奇艺的...",
-    "url": "https://segmentfault.com/a/1190000041389281",
-    "author": "HMSCore",
-    "home_url": "https://segmentfault.com/u/hms_core",
-    "votes": "1",
-    "rank": 11
-  },
-  {
-    "title": "Lettuce源码分析-1【同步操作】",
-    "description": "最近因为工作需求，需要了解lettuce的一些实现原理。从官方文档的目录可以看到，lettuce实现了非常丰富的各项业务功能，支持同步阻塞，异步（Future）以及Reactive三种执行模式，支持依赖第三方连接池组件...",
-    "url": "https://segmentfault.com/a/1190000041391240",
-    "author": "开翻挖掘机的bdz",
-    "home_url": "https://segmentfault.com/u/wajueji9527",
-    "votes": "1",
-    "rank": 12
   }
 ]
