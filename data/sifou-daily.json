@@ -1,110 +1,74 @@
 [
   {
-    "title": "动辄“耗资过亿”的表格工具，究竟难在哪儿？丨思否专访",
-    "description": "棋盘上的麦粒问题，相信每个人都听说过。那小小的 64 个棋盘格，因为一个简单的逻辑设定，便能装下全世界的的麦粒。表格工具作为办公场景中最基础也最常用的业务支撑工具，同样具有着无限的可能。",
-    "url": "https://segmentfault.com/a/1190000041424455",
-    "author": "思否编辑部",
-    "home_url": "https://segmentfault.com/u/writers",
-    "votes": "2",
-    "rank": 1
-  },
-  {
-    "title": "GPL3.0许可证软件著作权纠纷案例解析",
-    "description": "工信部 《“十四五”软件和信息技术服务业发展规划的通知》提出了“繁荣国内开源生态”的目标，我国将大力发展国内开源基金会等开源组织，完善开源软件治理规则，普及开源软件文化。开源软件的治理与生态建设，离不开...",
-    "url": "https://segmentfault.com/a/1190000041424310",
-    "author": "AlexChen",
-    "home_url": "https://segmentfault.com/u/alex2020",
-    "votes": "5",
-    "rank": 2
-  },
-  {
-    "title": "JZ-064-滑动窗口的最大值",
-    "description": "给定一个数组和滑动窗口的大小，找出所有滑动窗口里数值的最大值。例如，如果输入数组{2,3,4,2,6,2,5,1}及滑动窗口的大小3，那么一共存在6个滑动窗口，他们的最大值分别为{4,4,6,6,6,5}； 针对数组{2,3,4,2,6,2,5...",
-    "url": "https://segmentfault.com/a/1190000041423544",
+    "title": "JZ-065-矩阵中的路径",
+    "description": "请设计一个函数，用来判断在一个矩阵中是否存在一条包含某字符串所有字符的路径。路径可以从矩阵中的任意一个格子开始，每一步可以在矩阵中向左，向右，向上，向下移动一个格子。如果一条路径经过了矩阵中的某一...",
+    "url": "https://segmentfault.com/a/1190000041430067",
     "author": "雄狮虎豹",
     "home_url": "https://segmentfault.com/u/xiongshihubao",
     "votes": "4",
+    "rank": 1
+  },
+  {
+    "title": "带你了解智能家居开源项目：智汀家庭云与Home Assistant之插件初步配置",
+    "description": "我们在日常使用中，部分智能设备本身支持接入HomeKit，也就是说用户可以通过苹果手机的“家庭”将该设备进行接入、控制。但这种操作存在明显的局限性，安卓手机无法使用，而且无法与不支持接入HomeKit的设备进行联...",
+    "url": "https://segmentfault.com/a/1190000041429262",
+    "author": "智汀科技",
+    "home_url": "https://segmentfault.com/u/dmatub6x",
+    "votes": "3",
+    "rank": 2
+  },
+  {
+    "title": "对比homeassistant和智汀家庭云之docker安装部署篇",
+    "description": "本篇教程，带你了解Home Assistan和智汀家庭云的初步安装部署，如同很多开源项目，Home Assistant 就是常见的一款，作为国外开源软件，需要去阅读大量的英文文档，在编辑器里编辑自己的配置文件、手动添加智能设...",
+    "url": "https://segmentfault.com/a/1190000041429090",
+    "author": "智汀科技",
+    "home_url": "https://segmentfault.com/u/dmatub6x",
+    "votes": "3",
     "rank": 3
   },
   {
-    "title": "不废话，代码实践带你掌握 强缓存、协商缓存！",
-    "description": "前言大家好，我是林三心，用最通俗易懂的话讲最难的知识点是我的座右铭，基础是进阶的前提是我的初心背景无论是开发中或者是面试中，HTTP缓存都是非常重要的，这体现在了两个方面：开发中：合理利用 HTTP缓存 可...",
-    "url": "https://segmentfault.com/a/1190000041424550",
-    "author": "Sunshine_Lin",
-    "home_url": "https://segmentfault.com/u/user_ze46ouik",
-    "votes": "4",
+    "title": "多线程、并行、并发、线程安全，一文解",
+    "description": "目录 {代码...} 一、什么是线程、多线程？ {代码...} 二、为什么要使用多线程？ {代码...} 三、怎么创建线程？1、继承Thread类 {代码...} 生产者与消费者例子(继承Thread版)： {代码...} 2、实现Runnable接口 {代...",
+    "url": "https://segmentfault.com/a/1190000041430421",
+    "author": "稳之楠",
+    "home_url": "https://segmentfault.com/u/king_wenzhinan",
+    "votes": "1",
     "rank": 4
   },
   {
-    "title": "理解了面向对象，我突破了地元境，代码写的真棒！",
-    "description": "一万个人心中有一万个哈姆雷特，一万个开发者心中便有一万种对面向对象思想的理解。这里我只粗浅的阐述一下我对面向对象思想的理解，不喜轻喷，欢迎大家评论区留言讨论。",
-    "url": "https://segmentfault.com/a/1190000041424489",
-    "author": "前端有猫腻",
-    "home_url": "https://segmentfault.com/u/maoduolikuaipao",
-    "votes": "2",
+    "title": "Session是什么？它与Cookie有什么区别？",
+    "description": "上一节简单介绍了Cookie，接下来简单介绍Session。Session和Cookie都是会话管理技术的一种。可能你会奇怪记住用户的信息有Cookie就够了，为什么还需要Session？那么我们带着这个疑问一起来看看Session，以及对比...",
+    "url": "https://segmentfault.com/a/1190000041429984",
+    "author": "琉忆",
+    "home_url": "https://segmentfault.com/u/leoyi",
+    "votes": "1",
     "rank": 5
   },
   {
-    "title": "Jest 如何将复杂的判断条件中的具体问题暴露出来？",
-    "description": "在测试中如果有循环处理的时候，很有可能会出现的一个问题是你可能无法在测试无法通过时快速定位道具体是循环中的哪一个元素出现的问题。这个时候的定位就会比较麻烦。",
-    "url": "https://segmentfault.com/a/1190000041427332",
-    "author": "白宦成",
-    "home_url": "https://segmentfault.com/u/xiqingongzi",
+    "title": "axios模块化封装(实例化)和vue本地解决跨域",
+    "description": "1.开发环境 vue+axios+typescript+eslint+prettier2.电脑系统 windows10专业版3.在使用vue开发的过程中,我们在数据交互的过程中,一般会选择使用axios,很多小伙伴都在使用,下面我来分享一下axios封装和vue开发解决...",
+    "url": "https://segmentfault.com/a/1190000041429913",
+    "author": "灰太狼的情与殇",
+    "home_url": "https://segmentfault.com/u/huitailangdeqingyu_620f185a1b3e3",
     "votes": "1",
     "rank": 6
   },
   {
-    "title": "HMS Core积极探索基于硬件耳返的功能，帮助唱吧整体唱歌延迟率降低60%",
-    "description": "唱吧的使命是让唱歌更简单、让生活更美好，其布局的K歌业务专注于让曲库更全、音质更好，开创了同框合唱、弹唱等有意思的游戏类K歌玩法。为了让用户拥有更加沉浸的娱乐体验，唱吧与HMS Core积极探索基于硬件耳返...",
-    "url": "https://segmentfault.com/a/1190000041426015",
-    "author": "HMSCore",
-    "home_url": "https://segmentfault.com/u/hms_core",
+    "title": "Vue中强制组件重新渲染的正确方法",
+    "description": "有时候,依赖Vue响应式方式更新数据是不够的,相反,我们需要手动重新渲染组件来更新数据。或者,我们可能只想抛开当前DOM,重新开始。问题来了,怎么让Vue以正确的方式呈现组件呢?1.有以下解决方法:",
+    "url": "https://segmentfault.com/a/1190000041429882",
+    "author": "灰太狼的情与殇",
+    "home_url": "https://segmentfault.com/u/huitailangdeqingyu_620f185a1b3e3",
     "votes": "1",
     "rank": 7
   },
   {
-    "title": "剖析react核心设计原理--异步执行调度",
-    "description": "JS的执行通常在单线程的环境中，遇到比较耗时的代码时，我们首先想到的是将任务分割，让它能够被中断，同时在其他任务到来的时候让出执行权，当其他任务执行后，再从之前中断的部分开始异步执行剩下的计算。所以...",
-    "url": "https://segmentfault.com/a/1190000041424705",
-    "author": "有道技术团队",
-    "home_url": "https://segmentfault.com/u/youdaotec",
+    "title": "Go 开发团队技术 leader Russ Cox 发文分享 Go 的版本控制历史",
+    "description": "Russ Cox (rsc)发现每隔一段时间总会有人表示Go 的首次 commit 是在 1972 年 。rsc认为这种说法显然是非常愚蠢的，并分享了关于 Go 版本控制的更多有趣历史。例如： Go 真正首次 commit 是第 5 个 commit，此前的...",
+    "url": "https://segmentfault.com/a/1190000041428662",
+    "author": "六一",
+    "home_url": "https://segmentfault.com/u/suicidal_romantic_scoundrel",
     "votes": "1",
     "rank": 8
-  },
-  {
-    "title": "深入解析 Flink 细粒度资源管理",
-    "description": "摘要：本文整理自阿里巴巴高级开发工程师郭旸泽 (天凌) 在 Flink Forward Asia 2021 的演讲。主要内容包括：细粒度资源管理与适用场景Flink 资源调度框架基于 SlotSharinGroup 的资源配置接口动态资源切割机制资...",
-    "url": "https://segmentfault.com/a/1190000041424128",
-    "author": "ApacheFlink",
-    "home_url": "https://segmentfault.com/u/ververica",
-    "votes": "1",
-    "rank": 9
-  },
-  {
-    "title": "优酷 IPv6 演进和实践指南",
-    "description": "作者：吴灵晓(盖优)演进路线阶段一（2020年末）本阶段完成线上所有服务的IPv6改造，全面支持IPv6双栈的访问支持；融入阿里云的IPv6生态体系，内网环境全面支持IPv4/IPv6双栈；提升用户端侧IPv6流量占比，IPv6流量...",
-    "url": "https://segmentfault.com/a/1190000041424100",
-    "author": "阿里巴巴移动技术",
-    "home_url": "https://segmentfault.com/u/alimobile",
-    "votes": "2",
-    "rank": 10
-  },
-  {
-    "title": "React hooks 状态管理方案解析",
-    "description": "React v16.8 之后，Function Component 成为主流，React 状态管理的方案也发生巨大的转变。Redux 一直作为主流的 React 状态管理方案，虽然提供了一套规范的状态管理流程，但却有着让人饱受诟病的问题：概念太多...",
-    "url": "https://segmentfault.com/a/1190000041423955",
-    "author": "云音乐技术团队",
-    "home_url": "https://segmentfault.com/u/musicfe",
-    "votes": "1",
-    "rank": 11
-  },
-  {
-    "title": "安卓css动画卡顿-原因：图片分辨率太大了",
-    "description": "搜“安卓 css3 animation 动画 卡顿 闪烁”，我把搜索结果前两页翻烂了，也没能找出什么黑魔法能做优化。比较常规的优化，之前都做过了。",
-    "url": "https://segmentfault.com/a/1190000041426786",
-    "author": "周羊羊",
-    "home_url": "https://segmentfault.com/u/stillsilly",
-    "votes": "1",
-    "rank": 12
   }
 ]
