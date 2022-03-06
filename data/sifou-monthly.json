@@ -108,13 +108,22 @@
     "rank": 12
   },
   {
+    "title": "45个 GIT 经典操作场景，专治不会合代码",
+    "description": "git对于大家应该都不太陌生，熟练使用git已经成为程序员的一项基本技能，尽管在工作中有诸如 Sourcetree这样牛X的客户端工具，使得合并代码变的很方便。但找工作面试和一些需彰显个人实力的场景，仍然需要我们掌...",
+    "url": "https://segmentfault.com/a/1190000041493486",
+    "author": "程序员内点事",
+    "home_url": "https://segmentfault.com/u/chengxy",
+    "votes": "20",
+    "rank": 13
+  },
+  {
     "title": "线性代数在前端中的应用（一）：实现鼠标滚轮缩放元素、Canvas图片和拖拽",
     "description": "在前端开发中，有些时候会遇到根据鼠标当前位置为原点，滚动滚轮实现图片、canvas、DOM元素缩放的需求。有些同学可能觉得有点难，但其实借助线性代数中的矩阵运算，可以非常容易地实现这一功能，更重要的是，数学...",
     "url": "https://segmentfault.com/a/1190000041443525",
     "author": "而井",
     "home_url": "https://segmentfault.com/u/rioli",
     "votes": "13",
-    "rank": 13
+    "rank": 14
   },
   {
     "title": "吐血整理的webpack入门知识及常用loader和plugin",
@@ -123,7 +132,7 @@
     "author": "TNTWEB",
     "home_url": "https://segmentfault.com/u/tnfe",
     "votes": "13",
-    "rank": 14
+    "rank": 15
   },
   {
     "title": "CSS画冰墩墩~",
@@ -132,7 +141,7 @@
     "author": "望记",
     "home_url": "https://segmentfault.com/u/wangji_5d01acdfdd139",
     "votes": "20",
-    "rank": 15
+    "rank": 16
   },
   {
     "title": "10个CSS技巧，极大提升用户体验",
@@ -141,7 +150,16 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "16",
-    "rank": 16
+    "rank": 17
+  },
+  {
+    "title": "巧用 CSS 实现炫彩三角边框动画",
+    "description": "最近有个小伙伴问我，在某个网站看到一个使用 SVG 实现的炫彩三角边框动画，问能否使用 CSS 实现：很有意思的一个动画效果，立马让我想起了我在 CSS 奇思妙想边框动画 一文中介绍的边框动画，非常的类似：其核心...",
+    "url": "https://segmentfault.com/a/1190000041487405",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "16",
+    "rank": 18
   },
   {
     "title": "网络编程懒人入门(十四)：到底什么是Socket？一文即懂！",
@@ -150,7 +168,7 @@
     "author": "JackJiang",
     "home_url": "https://segmentfault.com/u/jackjiang",
     "votes": "15",
-    "rank": 17
+    "rank": 19
   },
   {
     "title": "[性能优化] 使用 esbuild 为你的构建提速 🚀",
@@ -159,7 +177,16 @@
     "author": "皮小蛋",
     "home_url": "https://segmentfault.com/u/scaukk",
     "votes": "13",
-    "rank": 18
+    "rank": 20
+  },
+  {
+    "title": "突破限制，CSS font-variation 可变字体的魅力",
+    "description": "上述效果，最核心的就是文字的动画，文字从较细贴着较紧，到较粗隔着较远不断变化。有人会认为这里是 transform: scale()，实则不然。",
+    "url": "https://segmentfault.com/a/1190000041470128",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "13",
+    "rank": 21
   },
   {
     "title": "断点调试之压缩引发的血案",
@@ -168,7 +195,7 @@
     "author": "公子",
     "home_url": "https://segmentfault.com/u/lizheming",
     "votes": "13",
-    "rank": 19
+    "rank": 22
   },
   {
     "title": "小程序实现手写签名",
@@ -177,7 +204,7 @@
     "author": "小小蚊子",
     "home_url": "https://segmentfault.com/u/zjw8023",
     "votes": "14",
-    "rank": 20
+    "rank": 23
   },
   {
     "title": "urlcat：JavaScript的URL构建器库",
@@ -186,7 +213,7 @@
     "author": "杭州程序员张张",
     "home_url": "https://segmentfault.com/u/dunizb",
     "votes": "11",
-    "rank": 21
+    "rank": 24
   },
   {
     "title": "2021 年最受欢迎 JavaScript 明星项目榜：zx、Vite 、Next.js 、React 领衔大热门",
@@ -195,7 +222,7 @@
     "author": "MissD",
     "home_url": "https://segmentfault.com/u/d2ms1shh",
     "votes": "13",
-    "rank": 22
+    "rank": 25
   },
   {
     "title": "Redis 使用 List 实现消息队列能保证消息可靠么？",
@@ -204,25 +231,7 @@
     "author": "码哥字节",
     "home_url": "https://segmentfault.com/u/magebyte",
     "votes": "13",
-    "rank": 23
-  },
-  {
-    "title": "巧用 CSS 实现炫彩三角边框动画",
-    "description": "最近有个小伙伴问我，在某个网站看到一个使用 SVG 实现的炫彩三角边框动画，问能否使用 CSS 实现：很有意思的一个动画效果，立马让我想起了我在 CSS 奇思妙想边框动画 一文中介绍的边框动画，非常的类似：其核心...",
-    "url": "https://segmentfault.com/a/1190000041487405",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "14",
-    "rank": 24
-  },
-  {
-    "title": "突破限制，CSS font-variation 可变字体的魅力",
-    "description": "上述效果，最核心的就是文字的动画，文字从较细贴着较紧，到较粗隔着较远不断变化。有人会认为这里是 transform: scale()，实则不然。",
-    "url": "https://segmentfault.com/a/1190000041470128",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "12",
-    "rank": 25
+    "rank": 26
   },
   {
     "title": "vue原理相关总结",
@@ -231,7 +240,7 @@
     "author": "雨花石",
     "home_url": "https://segmentfault.com/u/yuhuashi_584a46acea21f",
     "votes": "15",
-    "rank": 26
+    "rank": 27
   },
   {
     "title": "Jenkins+Docker+Gitee+SpringBoot自动化部署",
@@ -240,7 +249,7 @@
     "author": "xiangzhihong",
     "home_url": "https://segmentfault.com/u/xiangzhihong",
     "votes": "13",
-    "rank": 27
+    "rank": 28
   },
   {
     "title": "React 源码解析系列 - React 的 render 异常处理机制",
@@ -249,7 +258,7 @@
     "author": "array_huang",
     "home_url": "https://segmentfault.com/u/array_huang",
     "votes": "11",
-    "rank": 28
+    "rank": 29
   },
   {
     "title": "CSS 实现按钮点击动效的套路",
@@ -258,15 +267,6 @@
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
     "votes": "14",
-    "rank": 29
-  },
-  {
-    "title": "跨域了？ 装个插件就够了！",
-    "description": "浏览器为了安全引入了同源策略，这直接导致默认情况下前后端域名如果不同，那么则功能会受限。 随着前后端分离的发展，前端和后端职责的分离，前端会有专门的本地开发服务器(local dev server)用于本地开发。这个...",
-    "url": "https://segmentfault.com/a/1190000041367088",
-    "author": "lucifer",
-    "home_url": "https://segmentfault.com/u/shuohaodeyixuene",
-    "votes": "11",
     "rank": 30
   }
 ]
