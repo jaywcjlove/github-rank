@@ -5,7 +5,7 @@
     "url": "https://segmentfault.com/a/1190000041493486",
     "author": "程序员内点事",
     "home_url": "https://segmentfault.com/u/chengxy",
-    "votes": "57",
+    "votes": "60",
     "rank": 1
   },
   {
@@ -23,17 +23,8 @@
     "url": "https://segmentfault.com/a/1190000041405707",
     "author": "wlove",
     "home_url": "https://segmentfault.com/u/xieguoliang",
-    "votes": "34",
+    "votes": "35",
     "rank": 3
-  },
-  {
-    "title": "7个杀手级的JS一行代码",
-    "description": "这篇文章包含了由无菌手套手工挑选的代码片段，并放置在一个绸缎枕头上。一个由50人组成的团队检查了这些代码，并确保其在发布前处于高度抛光状态。我们来自瑞士的文章发布专家点燃了一支蜡烛，当他将代码输入金...",
-    "url": "https://segmentfault.com/a/1190000041415254",
-    "author": "gaoryrt",
-    "home_url": "https://segmentfault.com/u/gaoryrt",
-    "votes": "32",
-    "rank": 4
   },
   {
     "title": "音视频通信加餐 —— WebRTC一肝到底",
@@ -42,6 +33,15 @@
     "author": "杨成功",
     "home_url": "https://segmentfault.com/u/ruidoc",
     "votes": "27",
+    "rank": 4
+  },
+  {
+    "title": "7个杀手级的JS一行代码",
+    "description": "这篇文章包含了由无菌手套手工挑选的代码片段，并放置在一个绸缎枕头上。一个由50人组成的团队检查了这些代码，并确保其在发布前处于高度抛光状态。我们来自瑞士的文章发布专家点燃了一支蜡烛，当他将代码输入金...",
+    "url": "https://segmentfault.com/a/1190000041415254",
+    "author": "gaoryrt",
+    "home_url": "https://segmentfault.com/u/gaoryrt",
+    "votes": "32",
     "rank": 5
   },
   {
@@ -86,7 +86,7 @@
     "url": "https://segmentfault.com/a/1190000041504985",
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "25",
+    "votes": "26",
     "rank": 10
   },
   {
@@ -135,21 +135,21 @@
     "rank": 15
   },
   {
-    "title": "JavaScript 数据处理 - 映射表篇",
-    "description": "由于 JavaScript 的动态特性，其对象本身就是一个映射表，对象的「属性名⇒属性值」就是映射表中的「键⇒值」。为了便于把对象当作映射表来使用，JavaScript 甚至允许属性名不是标识符 —— 任意字符串都可以作为属性...",
-    "url": "https://segmentfault.com/a/1190000041503556",
-    "author": "边城",
-    "home_url": "https://segmentfault.com/u/jamesfancy",
-    "votes": "15",
-    "rank": 16
-  },
-  {
     "title": "别再用 Redis List 实现消息队列了，Stream 专为队列而生",
     "description": "上回说到使用 Redis 的 List 实现消息队列有很多局限性，比如：没有良好的 ACK 机制；没有 ConsumerGroup 消费组概念；消息堆积。List 是线性结构，想要查询指定数据需要遍历整个列表；Stream 是 Redis 5.0 引入...",
     "url": "https://segmentfault.com/a/1190000041489058",
     "author": "码哥字节",
     "home_url": "https://segmentfault.com/u/magebyte",
     "votes": "13",
+    "rank": 16
+  },
+  {
+    "title": "JavaScript 数据处理 - 映射表篇",
+    "description": "由于 JavaScript 的动态特性，其对象本身就是一个映射表，对象的「属性名⇒属性值」就是映射表中的「键⇒值」。为了便于把对象当作映射表来使用，JavaScript 甚至允许属性名不是标识符 —— 任意字符串都可以作为属性...",
+    "url": "https://segmentfault.com/a/1190000041503556",
+    "author": "边城",
+    "home_url": "https://segmentfault.com/u/jamesfancy",
+    "votes": "15",
     "rank": 17
   },
   {
@@ -216,22 +216,13 @@
     "rank": 24
   },
   {
-    "title": "10个CSS技巧，极大提升用户体验",
-    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000041361645",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "16",
-    "rank": 25
-  },
-  {
     "title": "小程序实现手写签名",
     "description": "在微信小程序上实现手写签名，获取canvascontext新版本和旧版本有点坑，新版本在获取canvas后如果页面有滑动，则签名坐标出现异常(在微信开发者工具上会出现2022-2-17)，但是在真机上即使滑动也不会出现异常，为...",
     "url": "https://segmentfault.com/a/1190000041421576",
     "author": "小小蚊子",
     "home_url": "https://segmentfault.com/u/zjw8023",
     "votes": "14",
-    "rank": 26
+    "rank": 25
   },
   {
     "title": "23 个非常有用的 NodeJs 库",
@@ -240,7 +231,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "17",
-    "rank": 27
+    "rank": 26
   },
   {
     "title": "CSS 实现按钮点击动效的套路",
@@ -249,7 +240,7 @@
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
     "votes": "15",
-    "rank": 28
+    "rank": 27
   },
   {
     "title": "urlcat：JavaScript的URL构建器库",
@@ -258,7 +249,7 @@
     "author": "杭州程序员张张",
     "home_url": "https://segmentfault.com/u/dunizb",
     "votes": "11",
-    "rank": 29
+    "rank": 28
   },
   {
     "title": "Redis 使用 List 实现消息队列能保证消息可靠么？",
@@ -266,6 +257,15 @@
     "url": "https://segmentfault.com/a/1190000041384720",
     "author": "码哥字节",
     "home_url": "https://segmentfault.com/u/magebyte",
+    "votes": "13",
+    "rank": 29
+  },
+  {
+    "title": "Jenkins+Docker+Gitee+SpringBoot自动化部署",
+    "description": "当我们使用传统的开发方式开发后台系统时，每写完一个功能点就需要重新运行一下项目，然后进行测试，如果是项目比较小还可以，但是如果项目比较大的话，由于涉及的人员比较多，这种开发方式就比较麻烦。基于此，...",
+    "url": "https://segmentfault.com/a/1190000041473617",
+    "author": "xiangzhihong",
+    "home_url": "https://segmentfault.com/u/xiangzhihong",
     "votes": "13",
     "rank": 30
   }
