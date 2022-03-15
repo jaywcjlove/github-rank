@@ -1,56 +1,155 @@
 [
   {
-    "title": "一张证书引发的噱案",
-    "description": "2021年9月3号，一个新客户接入到我们的 SaaS 系统。在某个环节，我们会给客户发个 HTTPS 请求，没想到竟然遇到了个 SSLHandshakeException:",
-    "url": "https://segmentfault.com/a/1190000041540758",
-    "author": "felix021",
-    "home_url": "https://segmentfault.com/u/felix021",
-    "votes": "1",
+    "title": "什么是 LRU 算法？",
+    "description": "缓存 是我们写代码过程中常用的一种手段，是一种空间换时间的做法。就拿我们经常使用的 HTTP 协议，其中也存在强缓存和协商缓存两种缓存方式。当我们打开一个网站的时候，浏览器会查询该请求的响应头，通过判断响...",
+    "url": "https://segmentfault.com/a/1190000041542627",
+    "author": "Shenfq",
+    "home_url": "https://segmentfault.com/u/shenfq",
+    "votes": "6",
     "rank": 1
   },
   {
-    "title": "【Go进阶—基础特性】接口",
-    "description": "接口定义了一种规范，描述了类的行为和功能。我们都知道，Go 语言中的接口是所谓的 Duck Typing，实现接口的所有方法也就隐式地实现了接口，那么，它是怎么实现的呢？",
-    "url": "https://segmentfault.com/a/1190000041540442",
-    "author": "与昊",
-    "home_url": "https://segmentfault.com/u/yu_5e842f4043ba6",
-    "votes": "2",
+    "title": "如何写一份好的前端面试简历?",
+    "description": "在写简历之前，我们必须清楚的了解一件事情，那就是简历是什么？它不是人生履历，不是项目清单，也不是技能大放送。简历的存在只有一个目的 —— 帮你约到面试。只要能达到这个目的，简历可以是一段视频，一个开源...",
+    "url": "https://segmentfault.com/a/1190000041542431",
+    "author": "wscats",
+    "home_url": "https://segmentfault.com/u/wscats",
+    "votes": "6",
     "rank": 2
   },
   {
-    "title": "LuLu UI - 腾讯阅文集团出品的“半封装” 开源 Web UI 组件库，特点是面向设计、简单灵活、支持 Vue",
-    "description": "LuLu UI 是一款面向桌面端和移动端网页开发的组件库，由阅文集团前端团队出品。阅文集团由腾讯文学(代表产品QQ阅读)和盛大文学(代表产品起点中文网)合并而成。LuLu UI 始于2015年，已成功支持多个千万 PV 大型项...",
-    "url": "https://segmentfault.com/a/1190000041541407",
-    "author": "搬不要钱的砖",
-    "home_url": "https://segmentfault.com/u/thosefree",
-    "votes": "1",
+    "title": "JZ-072-礼物的最大价值",
+    "description": "在一个 m*n 的棋盘的每一个格都放有一个礼物，每个礼物都有一定价值（大于 0）。从左上角开始拿礼物，每次向右或向下移动一格，直到右下角结束。给定一个棋盘，求拿到礼物的最大价值。例如，对于如下棋盘1 10 3 8...",
+    "url": "https://segmentfault.com/a/1190000041547589",
+    "author": "雄狮虎豹",
+    "home_url": "https://segmentfault.com/u/xiongshihubao",
+    "votes": "4",
     "rank": 3
   },
   {
-    "title": "俄罗斯的 HTTPS 也要被废了？",
-    "description": "发布该推文的Scott Helme是一名黑客，Security Headers和Report Uri的创始人、Pluralsight作者、BBC常驻黑客。",
-    "url": "https://segmentfault.com/a/1190000041540332",
-    "author": "程序猿DD",
-    "home_url": "https://segmentfault.com/u/coderdd",
-    "votes": "1",
+    "title": "petite-vue源码剖析-双向绑定`v-model`的工作原理",
+    "description": "双向绑定v-model不仅仅是对可编辑HTML元素(select, input, textarea和附带[contenteditable=true])同时附加v-bind和v-on，而且还能利用通过petite-vue附加给元素的_value、_trueValue和_falseValue属性提供存储非...",
+    "url": "https://segmentfault.com/a/1190000041545178",
+    "author": "肥仔John",
+    "home_url": "https://segmentfault.com/u/fsjohnhuang",
+    "votes": "2",
     "rank": 4
   },
   {
-    "title": "初始化 (Initialization)",
-    "description": "初始化 (Initialization)初始化的形式Direct-initializationCopy-initialization初始化的含义Value initializeDefault initializeZero initializeList initializenarrowing conversion字符数组初始化聚合（aggreg...",
-    "url": "https://segmentfault.com/a/1190000041540290",
-    "author": "fefe",
-    "home_url": "https://segmentfault.com/u/fefe_5d0b30d7515e7",
+    "title": "react源码debugger之理解调度（使用react17版本）",
+    "description": "之前的react更新模式同步模式：这就好比单线程模式，处理react任务就只有一个线程，上一个任务没有被处理掉，下一个任务就会等待。假设我们在渲染一个列表，比如一个需要条件搜索出来的列表。如果很长，需要渲染...",
+    "url": "https://segmentfault.com/a/1190000041546384",
+    "author": "H_H_code",
+    "home_url": "https://segmentfault.com/u/h_h_code",
     "votes": "1",
     "rank": 5
   },
   {
-    "title": "React组件性能优化",
-    "description": "纯组件会对组件输入数据进行浅层比较，当前输入与上次输入相同，组件不会渲染。浅层比较和diff比起来小号更少的性能。diff会遍历整个virtualDom树。在类组件中，继承PureComponent,函数组件中使用memo来实现纯组...",
-    "url": "https://segmentfault.com/a/1190000041540419",
-    "author": "HeiYanjing",
-    "home_url": "https://segmentfault.com/u/heiyanjing",
-    "votes": "1",
+    "title": "巧用 CSS 构建渐变彩色二维码",
+    "description": "很有意思的问题，我们在百度谷歌，搜索 qrcode，能搜到非常多在线制作二维码的工具，它们其中一些也会带有制作渐变二维码的功能。但是它们大部分都是 Canvas 或者其它编程语言实现的。",
+    "url": "https://segmentfault.com/a/1190000041543121",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "2",
     "rank": 6
+  },
+  {
+    "title": "前端水印如此简单",
+    "description": "我们从实现方式上来考虑，既然要做水印，那肯定要是全屏幕的，我们会先想到几点用一个 div 全屏fixed。水印要和登录信息绑定，那么我们从cookie中获取一下账号信息。屏幕上一个大的水印，效果没有密密麻麻的小水...",
+    "url": "https://segmentfault.com/a/1190000041541607",
+    "author": "Manster",
+    "home_url": "https://segmentfault.com/u/manster_5f28a1153f3f8",
+    "votes": "2",
+    "rank": 7
+  },
+  {
+    "title": "舒服，给Spring贡献一波源码。",
+    "description": "你好呀，我是歪歪。这周我在 Spring 的 github 上闲逛的时候，一个 issues 引起了我的兴趣。这篇文章，是我顺着这个 issues 往下写，始于它，但是不止于它：[链接]这个 issues 标题翻译过来，就是说希望 @Async ...",
+    "url": "https://segmentfault.com/a/1190000041544161",
+    "author": "why技术",
+    "home_url": "https://segmentfault.com/u/whyjishu",
+    "votes": "2",
+    "rank": 8
+  },
+  {
+    "title": "观察者模式与发布订阅模式区别 - JS",
+    "description": "在观察者模式中，只有两种主体：目标对象 (Subject) 和 观察者 (Observer)。在观察者模式中，Subject 对象拥有添加、删除和通知一系列 Observer 的方法等，而 Observer 对象拥有 update 更新方法等。在 Subject ...",
+    "url": "https://segmentfault.com/a/1190000041543041",
+    "author": "时倾",
+    "home_url": "https://segmentfault.com/u/shiqing_5e690563e48cc",
+    "votes": "1",
+    "rank": 9
+  },
+  {
+    "title": "K8S 生态周报| Helm v3.8 OCI 支持正式 GA，Docker 新版本修复多个严重 bug",
+    "description": "KIND（Kubernetes In Docker）是我很喜欢，也是一直在参与的一个开源项目。在我之前的文章中有过多次介绍，可以参考[]()我基本上每天都会用到它，非常的方便。",
+    "url": "https://segmentfault.com/a/1190000041542656",
+    "author": "张晋涛",
+    "home_url": "https://segmentfault.com/u/moelove",
+    "votes": "1",
+    "rank": 10
+  },
+  {
+    "title": "网易数帆云原生日志平台架构实践",
+    "description": "导读：网易从2015年就开始了云原生的探索与实践，作为可观测性的重要一环，日志平台也经历了从主机到容器的演进，支撑了集团内各业务部门的大规模云原生化改造。本文会讲述在这个过程中我们遇到的问题，如何演进...",
+    "url": "https://segmentfault.com/a/1190000041546219",
+    "author": "网易数帆",
+    "home_url": "https://segmentfault.com/u/163yun",
+    "votes": "1",
+    "rank": 11
+  },
+  {
+    "title": "网易云音乐低代码体系建设思考与实践",
+    "description": "本文主要谈一谈网易云音乐大前端团队在面向模式化研发场景的低代码体系的建设思考和实践。本文将会从当前我们所面临的业务研发问题出发，谈一谈我们对于构建低代码研发体系的思考，进而介绍我们正在构建的同时支...",
+    "url": "https://segmentfault.com/a/1190000041545050",
+    "author": "云音乐技术团队",
+    "home_url": "https://segmentfault.com/u/musicfe",
+    "votes": "1",
+    "rank": 12
+  },
+  {
+    "title": "微软提议对 JavaScript 进行重大修改：将添加类型标注（Type Annotations）",
+    "description": "近日，微软宣布了一个雄心勃勃的项目 —— 正在支持并合作一项初始“阶段 0 ”的提案：将可选的 Type Annotations（类型标注）添加到官方 JavaScript 标准 ECMAScript 里面。",
+    "url": "https://segmentfault.com/a/1190000041543960",
+    "author": "MissD",
+    "home_url": "https://segmentfault.com/u/d2ms1shh",
+    "votes": "1",
+    "rank": 13
+  },
+  {
+    "title": "[live streaming] CG&WebGL&Threejs知识以及学习思维分享。",
+    "description": "对于一次直播分享的文字版记录 (建议看视频), 视频云盘链接 全篇主要分为几个方向进行了介绍:Computer Graphics相关WebGL相关Threejs相关Q&A 暂不记录注意下述内容与直播内容可能稍微存在差异。Computer Graphics...",
+    "url": "https://segmentfault.com/a/1190000041543599",
+    "author": "wlove",
+    "home_url": "https://segmentfault.com/u/xieguoliang",
+    "votes": "1",
+    "rank": 14
+  },
+  {
+    "title": "CSS 美化滑动输入条 input range",
+    "description": "欢迎关注我的公众号：前端侦探关于原生 input range 滑动输入条如何自定义样式一直都是我心里的一道坎，一般情况下，可以很轻易的美化到这个程度为什么很容易呢？因为这些都是有对应的伪元素可以修改的 {代码...}...",
+    "url": "https://segmentfault.com/a/1190000041543171",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "1",
+    "rank": 15
+  },
+  {
+    "title": "分布式日志组件GrayLog入门",
+    "description": "前两天我不是发了一篇数据链路追踪的文章嘛，在末尾也遗留了TODO：运行应用的服务器一般是集群，日志数据会记录到不同的机器上，排查和定位问题只能登录各个服务器查看。",
+    "url": "https://segmentfault.com/a/1190000041542449",
+    "author": "Java3y",
+    "home_url": "https://segmentfault.com/u/java_3y",
+    "votes": "0",
+    "rank": 16
+  },
+  {
+    "title": "最通俗易懂的原型、原型链理解",
+    "description": "首先原型、原型链，算是前端进阶里面必不可少，十分重要的一块了。在面试，面试官很喜欢用这一块来辨别你的底层知识掌握的怎么样；用的第三方框架，库里面，很多功能模块化了，但大部分功能都继承自一个基类，所...",
+    "url": "https://segmentfault.com/a/1190000041545743",
+    "author": "limingcan",
+    "home_url": "https://segmentfault.com/u/limingcan562",
+    "votes": "1",
+    "rank": 17
   }
 ]

@@ -2,7 +2,7 @@
   {
     "title": "高并发是一种架构思维模式",
     "description": "什么是高并发，从字面上理解，就是在某一时刻产生大量的请求，那么多少量称为大量，业界并没有标准的衡量范围。原因非常简单，不同的业务处理复杂度不一样。而我所理解的高并发，它并不只是一个...",
-    "votes": "136",
+    "votes": "137",
     "url": "/k/imslmgz",
     "avatar": "https://img.toutiao.io/subject/4c72971aff5c4e73821ac59b18ff5dd6/thumb",
     "avatarAlt": "程序员的朋友圈 - 独家号",
@@ -12,7 +12,7 @@
   {
     "title": "2021年最受程序员欢迎的开发工具TOP 100名单出炉！",
     "description": "",
-    "votes": "131",
+    "votes": "132",
     "url": "/k/uf5vypr",
     "avatar": "https://img.toutiao.io/subject/bce4db7347f44c87a8f5eef28513f93f/thumb",
     "avatarAlt": "yaya的鸡汤 - 独家号",
@@ -90,34 +90,14 @@
     "homeUrl": "/subjects/1983"
   },
   {
-    "title": "轻松搞懂5种IO模型",
-    "description": "",
-    "votes": "85",
-    "url": "/k/o77uhyt",
-    "avatar": "https://img.toutiao.io/subject/4325865040b44c0b9e2d8d80a83d1d11/thumb",
-    "avatarAlt": "编程一生 - 独家号",
-    "subjectName": "编程一生",
-    "homeUrl": "/subjects/350352"
-  },
-  {
     "title": "ClickHouse使用实践与规范",
     "description": "",
-    "votes": "80",
+    "votes": "81",
     "url": "/k/fb7mdkl",
     "avatar": "https://img.toutiao.io/subject/bce4db7347f44c87a8f5eef28513f93f/thumb",
     "avatarAlt": "yaya的鸡汤 - 独家号",
     "subjectName": "yaya的鸡汤",
     "homeUrl": "/subjects/132121"
-  },
-  {
-    "title": "你分库分表的姿势对么？——详谈水平分库分表",
-    "description": "",
-    "votes": "75",
-    "url": "/k/eteqw6s",
-    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
-    "avatarAlt": "进击的程序猿 - 独家号",
-    "subjectName": "进击的程序猿",
-    "homeUrl": "/subjects/24912"
   },
   {
     "title": "一张图看懂微服务架构路线",
@@ -142,7 +122,7 @@
   {
     "title": "微服务如何划分",
     "description": "",
-    "votes": "75",
+    "votes": "77",
     "url": "/k/f4vabj7",
     "avatar": "https://img.toutiao.io/subject/0bc4a65bf09748718c9acc6991f50e49/thumb",
     "avatarAlt": "方丈的寺院 - 独家号",
@@ -162,7 +142,7 @@
   {
     "title": "趣谈IO多路复用的本质",
     "description": "",
-    "votes": "69",
+    "votes": "70",
     "url": "/k/j4nqhbc",
     "avatar": "https://img.toutiao.io/subject/4325865040b44c0b9e2d8d80a83d1d11/thumb",
     "avatarAlt": "编程一生 - 独家号",
@@ -172,12 +152,22 @@
   {
     "title": "快看我在Redis分布式锁上，栽的8个跟头！",
     "description": "",
-    "votes": "63",
+    "votes": "64",
     "url": "/k/pshtt8d",
     "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
     "avatarAlt": "Bloomingroses - 独家号",
     "subjectName": "Bloomingroses",
     "homeUrl": "/subjects/98777"
+  },
+  {
+    "title": "我的命令行开发环境 ❤️",
+    "description": "常言道，工欲善其事、必先利其器，熟练一套高效且趁手的工具，对开发工作的重要性不言而喻。本文分享我的命令行开发环境，文章较长，配图较多，其中几处详细内容，已将其折叠起来，读者可视兴趣...",
+    "votes": "58",
+    "url": "/k/hjda293",
+    "avatar": "https://img.toutiao.io/user/776a2999bca149088ebe52366451432a/thumb",
+    "avatarAlt": "hit9 - 独家号",
+    "subjectName": "hit9",
+    "homeUrl": "/subjects/420867"
   },
   {
     "title": "别再用 main 方法测试了，这才是专业 Java 测试方法！",
@@ -188,16 +178,6 @@
     "avatarAlt": "浪客用react,java全栈 - 独家号",
     "subjectName": "浪客用react,java全栈",
     "homeUrl": "/subjects/132403"
-  },
-  {
-    "title": "我的命令行开发环境 ❤️",
-    "description": "常言道，工欲善其事、必先利其器，熟练一套高效且趁手的工具，对开发工作的重要性不言而喻。本文分享我的命令行开发环境，文章较长，配图较多，其中几处详细内容，已将其折叠起来，读者可视兴趣...",
-    "votes": "57",
-    "url": "/k/hjda293",
-    "avatar": "https://img.toutiao.io/user/776a2999bca149088ebe52366451432a/thumb",
-    "avatarAlt": "hit9 - 独家号",
-    "subjectName": "hit9",
-    "homeUrl": "/subjects/420867"
   },
   {
     "title": "输入URL开始建立你的前端知识体系",
@@ -230,6 +210,16 @@
     "homeUrl": "/subjects/26578"
   },
   {
+    "title": "阿里巴巴开源的低代码引擎",
+    "description": "以下内容选自「码农周刊 VIP 会员」圈子，每日更新，精彩不断。低代码引擎是一款为低代码平台开发者提供的，具备强大定制扩展能力的低代码设计器研发框架。低代码引擎的核心是设计器，通过...",
+    "votes": "55",
+    "url": "/k/gsosp6w",
+    "avatar": "https://img.toutiao.io/subject/d2f421bbe0be47369b6560e316a5153b/thumb",
+    "avatarAlt": "头条精选 - 独家号",
+    "subjectName": "头条精选",
+    "homeUrl": "/subjects/4"
+  },
+  {
     "title": "如何保证数据库缓存的最终一致性？",
     "description": "",
     "votes": "50",
@@ -248,5 +238,15 @@
     "avatarAlt": "乱点技能树 - 独家号",
     "subjectName": "乱点技能树",
     "homeUrl": "/subjects/194141"
+  },
+  {
+    "title": "谁让你跪舔了，程序员得这样向上管理",
+    "description": "",
+    "votes": "56",
+    "url": "/k/5m90d51",
+    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
   }
 ]
