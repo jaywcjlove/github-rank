@@ -8,40 +8,62 @@
   <title> 开发者头条 - 最近7天热门分享 </title>
   <meta name="description" content="开发者头条 - 最近7天热门分享">
   <style>
+    [data-color-mode*='dark'] {
+      --color-fg-default: #c9d1d9;
+      --color-fg-muted: #8b949e;
+      --color-fg-subtle: #484f58;
+      --color-accent-fg: #58a6ff;
+      --color-accent-emphasis: #1f6feb;
+      --color-link-hover: #58a6ff;
+      --color-tab-fg: #494949;
+      --color-border: #e2e2e2;
+      --color-neutral-muted: rgba(110,118,129,0.4);
+    }
+    [data-color-mode*='light'] {
+      --color-fg-default: #24292f;
+      --color-fg-muted: #57606a;
+      --color-fg-subtle: #6e7781;
+      --color-accent-fg: #0969da;
+      --color-accent-emphasis: #0969da;
+      --color-link-hover: #58a6ff;
+      --color-tab-fg: #e2e2e2;
+      --color-border: #000;
+      --color-neutral-muted: rgba(175,184,193,0.2);
+    }
+  </style>
+  <style>
     * { box-sizing: border-box; }
     html, body, ul, li, h1 { margin: 0; padding: 0 }
     html, body { font-size: 16px; font-family: -apple-system,"Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","WenQuanYi Micro Hei","Microsoft Yahei",sans-serif; }
     ul { list-style: none; }
 
-    a { color: #333; text-decoration: none; transition: all .2s ease-in; }
-    a:hover { color: #1600ff; }
+    a { color: var(--color-accent-fg); text-decoration: none; transition: all .2s ease-in; }
+    a:hover { color: var(--color-link-hover); text-decoration: underline; }
     a.github-corner:hover .octo-arm { animation: octocat-wave 560ms infinite linear; }
     a.github-corner svg { fill: #f1f1f1; color: #000; position: absolute; top: 0; border: 0; right: 0; z-index: 99; width: 70px; height: 70px; }
     a.github-corner { position: fixed; z-index: 9999; top: 0; right: 0; }
 
     .title { padding: 32px 20px 10px 20px; font-size: 32px; display: flex; }
     .title a svg { display: block; }
-    .title a { color: #0059ff; display: inline-block; margin-left: 10px; }
+    .title a { color: var(--color-accent-fg); display: inline-block; margin-left: 10px; }
     .time, .footer { padding: 5px 20px 2px 20px; font-size: 12px; color: #adadad; }
     .tabs { padding: 0 20px 5px 20px;}
-    .tabs a { background: #e2e2e2; display: inline-block; border-radius: 2px; margin: 2px 0; padding: 2px 5px; font-size: 12px; line-height: 16px; color: #0366d6; }
+    .tabs a { background: var(--color-tab-fg); display: inline-block; border-radius: 2px; margin: 2px 0; padding: 2px 5px; font-size: 12px; line-height: 16px; color: var(--color-accent-fg); }
     .tabs a.active { background: #333; color: #efefef; }
     .tabs a:hover:not(.active) { background: #efefef; }
     .footer { padding: 0 20px 30px 20px; font-size: 12px; color: #adadad; }
     .footer .time { padding: 0; }
     .list { text-align: left; padding-bottom: 10px; margin: 0 15px; }
     .list img { width: 36px; height: 36px; border-radius: 3px; display: block; margin: 0 auto; background-color: #e2e2e2; border: 0; overflow: hidden; }
-    .list a { color: #0366d6; }
-    .list a:hover { color: #1600ff; }
     .list li { padding: 10px; transition: all .3s; }
     .list li.rank-title { margin: 0; padding: 3px 0 0 7px; margin-bottom: 10px; border-radius: 5px; font-size: 12px; line-height: 16px; }
     .list li.rank-title > a { margin-right: 10px; }
     .list li.rank-title:hover { background: transparent; }
     .list li:last-child, .list li.rank-title { border-bottom: 0; }
-    .list li:hover { background: #efefef8f; }
+    .list li:hover { background: var(--color-neutral-muted); }
     .list li > div { display: table-cell; vertical-align: top; font-size: 14px; }
     .list li div.rank span { font-weight: bold; }
-    .list li div.details { padding: 2px 0 0 0; font-size: 12px; float: left; color: #b9b9b9; }
+    .list li div.details { padding: 2px 0 0 0; font-size: 12px; float: left; color: var(--color-fg-muted); }
     .list li div.details a { color: #b9b9b9; transition: all .3s; }
     .list li div.details a:hover { color: #1600ff; }
     .list li div.details a:hover svg { fill: #1600ff; }
@@ -51,16 +73,16 @@
     .list li > div.info { width: 100%; }
     .list li > div.info i { color: #717171; }
     .list li > div.info a:hover i { color: #333; }
-    .list li div.sub-title { color: #333; margin: 4px 0 0 0; }
+    .list li div.sub-title { color: var(--color-thme-text); margin: 4px 0 0 0; }
     .list li div.avatar { padding-right: 10px; }
     
     
     .list .select { }
-    .list .select .active { color: #333; font-weight: bold; border-bottom: 1px dotted #000;}
+    .list .select .active { color: var(--color-thme-text); font-weight: bold; border-bottom: 1px dotted var(--color-border);}
     
     
-    .list li div.followers { font-size: 12px; color: #7d7d7d; white-space:nowrap; padding-top: 2px; border-radius: 3px; }
-    .list li div.followers a { color: #545454; }
+    .list li div.followers { font-size: 12px; color: var(--color-fg-muted); white-space:nowrap; padding-top: 2px; border-radius: 3px; }
+    .list li div.followers a { color: var(--color-fg-muted); }
     .list li div.followers * { vertical-align: middle; }
     .list li div.followers svg { vertical-align: text-top; display: inline-block; fill: #9E9E9E; width: 14px; height: 14px; }
     
@@ -75,8 +97,7 @@
       .title { padding-top: 16px; font-size: 21px; }
     }
   </style>
-  <style>
-  </style>
+  <script src="https://unpkg.com/@wcj/dark-mode"></script>
 </head>
 <body>
   <a href="https://github.com/jaywcjlove/github-rank" target="_blank" class="github-corner">
@@ -87,6 +108,7 @@
     </svg>
   </a>
   <h1 class="title">
+    <dark-mode permanent></dark-mode>
     开发者头条 - 最近7天热门分享
     
     
@@ -99,7 +121,7 @@
     
     
   </h1>
-  <div class="time">Last cache created on 2022/3/18 by 
+  <div class="time">Last cache created on 2022/3/19 by 
     
     
     
@@ -148,33 +170,7 @@
           <path d="M0 0h16v16H0z"/>
           <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
         </g>
-      </svg><span>78</span>
-    </div>
-  </li>
-  
-  <li>
-    <div class="avatar">
-      <a href="https://toutiao.io/subjects/4" target="_blank">
-        <img src="https://img.toutiao.io/subject/d2f421bbe0be47369b6560e316a5153b/thumb" loading="lazy" title="头条精选 - 独家号" alt="头条精选 - 独家号" />
-      </a>
-    </div>
-    <div class="info">
-      <div class="rank">
-        <span title="Ranking 2">2</span>
-        <a href="https://toutiao.io/k/gsosp6w" target="_blank" title="阿里巴巴开源的低代码引擎">阿里巴巴开源的低代码引擎</a>
-      </div>
-    
-      <div class="details">
-        以下内容选自「码农周刊 VIP 会员」圈子，每日更新，精彩不断。低代码引擎是一款为低代码平台开发者提供的，具备强大定制扩展能力的低代码设计器研发框架。低代码引擎的核心是设计器，通过...
-      </div>
-    </div>
-    <div class="followers" title="followers">
-      <svg width="12" height="12" viewBox="0 0 16 16">
-        <g fill="none" fill-rule="evenodd">
-          <path d="M0 0h16v16H0z"/>
-          <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
-        </g>
-      </svg><span>60</span>
+      </svg><span>91</span>
     </div>
   </li>
   
@@ -186,7 +182,7 @@
     </div>
     <div class="info">
       <div class="rank">
-        <span title="Ranking 3">3</span>
+        <span title="Ranking 2">2</span>
         <a href="https://toutiao.io/k/enmg99d" target="_blank" title="架构师如何选型分布式业务网关">架构师如何选型分布式业务网关</a>
       </div>
     
@@ -200,7 +196,33 @@
           <path d="M0 0h16v16H0z"/>
           <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
         </g>
-      </svg><span>55</span>
+      </svg><span>57</span>
+    </div>
+  </li>
+  
+  <li>
+    <div class="avatar">
+      <a href="https://toutiao.io/subjects/4" target="_blank">
+        <img src="https://img.toutiao.io/subject/d2f421bbe0be47369b6560e316a5153b/thumb" loading="lazy" title="头条精选 - 独家号" alt="头条精选 - 独家号" />
+      </a>
+    </div>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 3">3</span>
+        <a href="https://toutiao.io/k/gsosp6w" target="_blank" title="阿里巴巴开源的低代码引擎">阿里巴巴开源的低代码引擎</a>
+      </div>
+    
+      <div class="details">
+        以下内容选自「码农周刊 VIP 会员」圈子，每日更新，精彩不断。低代码引擎是一款为低代码平台开发者提供的，具备强大定制扩展能力的低代码设计器研发框架。低代码引擎的核心是设计器，通过...
+      </div>
+    </div>
+    <div class="followers" title="followers">
+      <svg width="12" height="12" viewBox="0 0 16 16">
+        <g fill="none" fill-rule="evenodd">
+          <path d="M0 0h16v16H0z"/>
+          <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+        </g>
+      </svg><span>61</span>
     </div>
   </li>
   
@@ -226,33 +248,7 @@
           <path d="M0 0h16v16H0z"/>
           <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
         </g>
-      </svg><span>55</span>
-    </div>
-  </li>
-  
-  <li>
-    <div class="avatar">
-      <a href="https://toutiao.io/subjects/26578" target="_blank">
-        <img src="https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb" loading="lazy" title="服务架构及中台 - 独家号" alt="服务架构及中台 - 独家号" />
-      </a>
-    </div>
-    <div class="info">
-      <div class="rank">
-        <span title="Ranking 5">5</span>
-        <a href="https://toutiao.io/k/tyojqf4" target="_blank" title="设计一个靠谱的监控告警平台">设计一个靠谱的监控告警平台</a>
-      </div>
-    
-      <div class="details">
-        
-      </div>
-    </div>
-    <div class="followers" title="followers">
-      <svg width="12" height="12" viewBox="0 0 16 16">
-        <g fill="none" fill-rule="evenodd">
-          <path d="M0 0h16v16H0z"/>
-          <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
-        </g>
-      </svg><span>49</span>
+      </svg><span>57</span>
     </div>
   </li>
   
@@ -264,7 +260,7 @@
     </div>
     <div class="info">
       <div class="rank">
-        <span title="Ranking 6">6</span>
+        <span title="Ranking 5">5</span>
         <a href="https://toutiao.io/k/77yywq6" target="_blank" title="阿里慢SQL治理5大经典案例">阿里慢SQL治理5大经典案例</a>
       </div>
     
@@ -278,7 +274,7 @@
           <path d="M0 0h16v16H0z"/>
           <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
         </g>
-      </svg><span>42</span>
+      </svg><span>44</span>
     </div>
   </li>
   
@@ -290,7 +286,7 @@
     </div>
     <div class="info">
       <div class="rank">
-        <span title="Ranking 7">7</span>
+        <span title="Ranking 6">6</span>
         <a href="https://toutiao.io/k/wl65hu4" target="_blank" title="程序员必知的分布式容错和降级技术">程序员必知的分布式容错和降级技术</a>
       </div>
     
@@ -305,6 +301,32 @@
           <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
         </g>
       </svg><span>40</span>
+    </div>
+  </li>
+  
+  <li>
+    <div class="avatar">
+      <a href="https://toutiao.io/subjects/132121" target="_blank">
+        <img src="https://img.toutiao.io/subject/bce4db7347f44c87a8f5eef28513f93f/thumb" loading="lazy" title="yaya的鸡汤 - 独家号" alt="yaya的鸡汤 - 独家号" />
+      </a>
+    </div>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 7">7</span>
+        <a href="https://toutiao.io/k/fvhw2yp" target="_blank" title="微信全文搜索技术优化">微信全文搜索技术优化</a>
+      </div>
+    
+      <div class="details">
+        
+      </div>
+    </div>
+    <div class="followers" title="followers">
+      <svg width="12" height="12" viewBox="0 0 16 16">
+        <g fill="none" fill-rule="evenodd">
+          <path d="M0 0h16v16H0z"/>
+          <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+        </g>
+      </svg><span>35</span>
     </div>
   </li>
   
@@ -330,84 +352,6 @@
           <path d="M0 0h16v16H0z"/>
           <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
         </g>
-      </svg><span>30</span>
-    </div>
-  </li>
-  
-  <li>
-    <div class="avatar">
-      <a href="https://toutiao.io/subjects/132121" target="_blank">
-        <img src="https://img.toutiao.io/subject/bce4db7347f44c87a8f5eef28513f93f/thumb" loading="lazy" title="yaya的鸡汤 - 独家号" alt="yaya的鸡汤 - 独家号" />
-      </a>
-    </div>
-    <div class="info">
-      <div class="rank">
-        <span title="Ranking 9">9</span>
-        <a href="https://toutiao.io/k/fvhw2yp" target="_blank" title="微信全文搜索技术优化">微信全文搜索技术优化</a>
-      </div>
-    
-      <div class="details">
-        
-      </div>
-    </div>
-    <div class="followers" title="followers">
-      <svg width="12" height="12" viewBox="0 0 16 16">
-        <g fill="none" fill-rule="evenodd">
-          <path d="M0 0h16v16H0z"/>
-          <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
-        </g>
-      </svg><span>33</span>
-    </div>
-  </li>
-  
-  <li>
-    <div class="avatar">
-      <a href="https://toutiao.io/subjects/253684" target="_blank">
-        <img src="https://img.toutiao.io/subject/a52b9b55ec15450ebd623f6da9410be7/thumb" loading="lazy" title="mythsman的独家号 - 独家号" alt="mythsman的独家号 - 独家号" />
-      </a>
-    </div>
-    <div class="info">
-      <div class="rank">
-        <span title="Ranking 10">10</span>
-        <a href="https://toutiao.io/k/ef3rtq9" target="_blank" title="快手抓包问题分析">快手抓包问题分析</a>
-      </div>
-    
-      <div class="details">
-        
-      </div>
-    </div>
-    <div class="followers" title="followers">
-      <svg width="12" height="12" viewBox="0 0 16 16">
-        <g fill="none" fill-rule="evenodd">
-          <path d="M0 0h16v16H0z"/>
-          <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
-        </g>
-      </svg><span>36</span>
-    </div>
-  </li>
-  
-  <li>
-    <div class="avatar">
-      <a href="https://toutiao.io/subjects/7076" target="_blank">
-        <img src="https://img.toutiao.io/subject/7950b62a884849aaaa2c7d9fb03f3051/thumb" loading="lazy" title="前端智能化 - 独家号" alt="前端智能化 - 独家号" />
-      </a>
-    </div>
-    <div class="info">
-      <div class="rank">
-        <span title="Ranking 11">11</span>
-        <a href="https://toutiao.io/k/beqdqw9" target="_blank" title="一文彻底了解Low Code">一文彻底了解Low Code</a>
-      </div>
-    
-      <div class="details">
-        
-      </div>
-    </div>
-    <div class="followers" title="followers">
-      <svg width="12" height="12" viewBox="0 0 16 16">
-        <g fill="none" fill-rule="evenodd">
-          <path d="M0 0h16v16H0z"/>
-          <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
-        </g>
       </svg><span>31</span>
     </div>
   </li>
@@ -420,7 +364,7 @@
     </div>
     <div class="info">
       <div class="rank">
-        <span title="Ranking 12">12</span>
+        <span title="Ranking 9">9</span>
         <a href="https://toutiao.io/k/sh6t6h0" target="_blank" title="实时数仓之 Kappa 架构与 Lambda  架构（建议收藏！）">实时数仓之 Kappa 架构与 Lambda  架构（建议收藏！）</a>
       </div>
     
@@ -435,6 +379,84 @@
           <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
         </g>
       </svg><span>30</span>
+    </div>
+  </li>
+  
+  <li>
+    <div class="avatar">
+      <a href="https://toutiao.io/subjects/132121" target="_blank">
+        <img src="https://img.toutiao.io/subject/bce4db7347f44c87a8f5eef28513f93f/thumb" loading="lazy" title="yaya的鸡汤 - 独家号" alt="yaya的鸡汤 - 独家号" />
+      </a>
+    </div>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 10">10</span>
+        <a href="https://toutiao.io/k/4xgpvmw" target="_blank" title="浅谈在线文档的那些事儿">浅谈在线文档的那些事儿</a>
+      </div>
+    
+      <div class="details">
+        
+      </div>
+    </div>
+    <div class="followers" title="followers">
+      <svg width="12" height="12" viewBox="0 0 16 16">
+        <g fill="none" fill-rule="evenodd">
+          <path d="M0 0h16v16H0z"/>
+          <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+        </g>
+      </svg><span>27</span>
+    </div>
+  </li>
+  
+  <li>
+    <div class="avatar">
+      <a href="https://toutiao.io/subjects/380054" target="_blank">
+        <img src="https://img.toutiao.io/subject/c9bc51847b0c4b49aca52d0eaa087ed1/thumb" loading="lazy" title="冷星前端圈 - 独家号" alt="冷星前端圈 - 独家号" />
+      </a>
+    </div>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 11">11</span>
+        <a href="https://toutiao.io/k/0m9sdkf" target="_blank" title="GitLab CI 打造一条自己的流水线">GitLab CI 打造一条自己的流水线</a>
+      </div>
+    
+      <div class="details">
+        
+      </div>
+    </div>
+    <div class="followers" title="followers">
+      <svg width="12" height="12" viewBox="0 0 16 16">
+        <g fill="none" fill-rule="evenodd">
+          <path d="M0 0h16v16H0z"/>
+          <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+        </g>
+      </svg><span>27</span>
+    </div>
+  </li>
+  
+  <li>
+    <div class="avatar">
+      <a href="https://toutiao.io/subjects/24912" target="_blank">
+        <img src="https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb" loading="lazy" title="进击的程序猿 - 独家号" alt="进击的程序猿 - 独家号" />
+      </a>
+    </div>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 12">12</span>
+        <a href="https://toutiao.io/k/a2y4g6q" target="_blank" title="ClickHouse 在网易的实践">ClickHouse 在网易的实践</a>
+      </div>
+    
+      <div class="details">
+        
+      </div>
+    </div>
+    <div class="followers" title="followers">
+      <svg width="12" height="12" viewBox="0 0 16 16">
+        <g fill="none" fill-rule="evenodd">
+          <path d="M0 0h16v16H0z"/>
+          <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+        </g>
+      </svg><span>27</span>
     </div>
   </li>
   
@@ -460,20 +482,20 @@
           <path d="M0 0h16v16H0z"/>
           <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
         </g>
-      </svg><span>31</span>
+      </svg><span>32</span>
     </div>
   </li>
   
   <li>
     <div class="avatar">
-      <a href="https://toutiao.io/subjects/132121" target="_blank">
-        <img src="https://img.toutiao.io/subject/bce4db7347f44c87a8f5eef28513f93f/thumb" loading="lazy" title="yaya的鸡汤 - 独家号" alt="yaya的鸡汤 - 独家号" />
+      <a href="https://toutiao.io/subjects/98777" target="_blank">
+        <img src="https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb" loading="lazy" title="Bloomingroses - 独家号" alt="Bloomingroses - 独家号" />
       </a>
     </div>
     <div class="info">
       <div class="rank">
         <span title="Ranking 14">14</span>
-        <a href="https://toutiao.io/k/4xgpvmw" target="_blank" title="浅谈在线文档的那些事儿">浅谈在线文档的那些事儿</a>
+        <a href="https://toutiao.io/k/8jfl3pp" target="_blank" title="消息队列经典十连问，你能扛到第几问？">消息队列经典十连问，你能扛到第几问？</a>
       </div>
     
       <div class="details">
@@ -486,46 +508,20 @@
           <path d="M0 0h16v16H0z"/>
           <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
         </g>
-      </svg><span>26</span>
+      </svg><span>25</span>
     </div>
   </li>
   
   <li>
     <div class="avatar">
-      <a href="https://toutiao.io/subjects/380054" target="_blank">
-        <img src="https://img.toutiao.io/subject/c9bc51847b0c4b49aca52d0eaa087ed1/thumb" loading="lazy" title="冷星前端圈 - 独家号" alt="冷星前端圈 - 独家号" />
+      <a href="https://toutiao.io/subjects/117027" target="_blank">
+        <img src="https://img.toutiao.io/subject/50e9b8208bfd488897fed22d15d9aa0e/thumb" loading="lazy" title="美团技术团队 - 独家号" alt="美团技术团队 - 独家号" />
       </a>
     </div>
     <div class="info">
       <div class="rank">
         <span title="Ranking 15">15</span>
-        <a href="https://toutiao.io/k/0m9sdkf" target="_blank" title="GitLab CI 打造一条自己的流水线">GitLab CI 打造一条自己的流水线</a>
-      </div>
-    
-      <div class="details">
-        
-      </div>
-    </div>
-    <div class="followers" title="followers">
-      <svg width="12" height="12" viewBox="0 0 16 16">
-        <g fill="none" fill-rule="evenodd">
-          <path d="M0 0h16v16H0z"/>
-          <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
-        </g>
-      </svg><span>26</span>
-    </div>
-  </li>
-  
-  <li>
-    <div class="avatar">
-      <a href="https://toutiao.io/subjects/459978" target="_blank">
-        <img src="https://img.toutiao.io/subject/bd79d4909e3d49c485bc20d99b91a257/thumb" loading="lazy" title="程序猿阿星 - 独家号" alt="程序猿阿星 - 独家号" />
-      </a>
-    </div>
-    <div class="info">
-      <div class="rank">
-        <span title="Ranking 16">16</span>
-        <a href="https://toutiao.io/k/02kvspy" target="_blank" title="InnoDB原理篇：聊聊数据页变成索引这件事">InnoDB原理篇：聊聊数据页变成索引这件事</a>
+        <a href="https://toutiao.io/k/ahs8z85" target="_blank" title="Java系列 | 远程热部署在美团的落地实践">Java系列 | 远程热部署在美团的落地实践</a>
       </div>
     
       <div class="details">
@@ -550,8 +546,86 @@
     </div>
     <div class="info">
       <div class="rank">
-        <span title="Ranking 17">17</span>
+        <span title="Ranking 16">16</span>
         <a href="https://toutiao.io/k/xxsl3zv" target="_blank" title="设计模式二三事">设计模式二三事</a>
+      </div>
+    
+      <div class="details">
+        
+      </div>
+    </div>
+    <div class="followers" title="followers">
+      <svg width="12" height="12" viewBox="0 0 16 16">
+        <g fill="none" fill-rule="evenodd">
+          <path d="M0 0h16v16H0z"/>
+          <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+        </g>
+      </svg><span>21</span>
+    </div>
+  </li>
+  
+  <li>
+    <div class="avatar">
+      <a href="https://toutiao.io/subjects/459978" target="_blank">
+        <img src="https://img.toutiao.io/subject/bd79d4909e3d49c485bc20d99b91a257/thumb" loading="lazy" title="程序猿阿星 - 独家号" alt="程序猿阿星 - 独家号" />
+      </a>
+    </div>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 17">17</span>
+        <a href="https://toutiao.io/k/02kvspy" target="_blank" title="InnoDB原理篇：聊聊数据页变成索引这件事">InnoDB原理篇：聊聊数据页变成索引这件事</a>
+      </div>
+    
+      <div class="details">
+        
+      </div>
+    </div>
+    <div class="followers" title="followers">
+      <svg width="12" height="12" viewBox="0 0 16 16">
+        <g fill="none" fill-rule="evenodd">
+          <path d="M0 0h16v16H0z"/>
+          <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+        </g>
+      </svg><span>24</span>
+    </div>
+  </li>
+  
+  <li>
+    <div class="avatar">
+      <a href="https://toutiao.io/subjects/4" target="_blank">
+        <img src="https://img.toutiao.io/subject/d2f421bbe0be47369b6560e316a5153b/thumb" loading="lazy" title="头条精选 - 独家号" alt="头条精选 - 独家号" />
+      </a>
+    </div>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 18">18</span>
+        <a href="https://toutiao.io/k/8rp1seo" target="_blank" title="京东开源的轻量级移动端 Vue2、Vue3 组件库">京东开源的轻量级移动端 Vue2、Vue3 组件库</a>
+      </div>
+    
+      <div class="details">
+        以下内容选自「码农周刊 VIP 会员」圈子，每日更新，精彩不断。京东风格的轻量级移动端 Vue2、Vue3 组件库，支持一套代码生成 H5 和小程序。特性 70+ 高质量组件（3....
+      </div>
+    </div>
+    <div class="followers" title="followers">
+      <svg width="12" height="12" viewBox="0 0 16 16">
+        <g fill="none" fill-rule="evenodd">
+          <path d="M0 0h16v16H0z"/>
+          <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
+        </g>
+      </svg><span>23</span>
+    </div>
+  </li>
+  
+  <li>
+    <div class="avatar">
+      <a href="https://toutiao.io/subjects/6491" target="_blank">
+        <img src="https://img.toutiao.io/subject/fcd1137867a2413880689043418675a7/thumb" loading="lazy" title="猿天地 - 独家号" alt="猿天地 - 独家号" />
+      </a>
+    </div>
+    <div class="info">
+      <div class="rank">
+        <span title="Ranking 19">19</span>
+        <a href="https://toutiao.io/k/oajqbhj" target="_blank" title="从MVC到DDD的架构演进">从MVC到DDD的架构演进</a>
       </div>
     
       <div class="details">
@@ -576,7 +650,7 @@
     </div>
     <div class="info">
       <div class="rank">
-        <span title="Ranking 18">18</span>
+        <span title="Ranking 20">20</span>
         <a href="https://toutiao.io/k/2yey7b2" target="_blank" title="前端大佬都在使用的JavaScript工具函数宝典（内含95个工具函数）">前端大佬都在使用的JavaScript工具函数宝典（内含95个工具函数）</a>
       </div>
     
@@ -591,58 +665,6 @@
           <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
         </g>
       </svg><span>19</span>
-    </div>
-  </li>
-  
-  <li>
-    <div class="avatar">
-      <a href="https://toutiao.io/subjects/7315" target="_blank">
-        <img src="https://img.toutiao.io/subject/3fb00b07ad814fce8baab2f445b3a2c8/thumb" loading="lazy" title="web前端开发知识 - 独家号" alt="web前端开发知识 - 独家号" />
-      </a>
-    </div>
-    <div class="info">
-      <div class="rank">
-        <span title="Ranking 19">19</span>
-        <a href="https://toutiao.io/k/lz60fko" target="_blank" title="2022年最值得关注的Chrome浏览器扩展插件">2022年最值得关注的Chrome浏览器扩展插件</a>
-      </div>
-    
-      <div class="details">
-        
-      </div>
-    </div>
-    <div class="followers" title="followers">
-      <svg width="12" height="12" viewBox="0 0 16 16">
-        <g fill="none" fill-rule="evenodd">
-          <path d="M0 0h16v16H0z"/>
-          <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
-        </g>
-      </svg><span>19</span>
-    </div>
-  </li>
-  
-  <li>
-    <div class="avatar">
-      <a href="https://toutiao.io/subjects/4" target="_blank">
-        <img src="https://img.toutiao.io/subject/d2f421bbe0be47369b6560e316a5153b/thumb" loading="lazy" title="头条精选 - 独家号" alt="头条精选 - 独家号" />
-      </a>
-    </div>
-    <div class="info">
-      <div class="rank">
-        <span title="Ranking 20">20</span>
-        <a href="https://toutiao.io/k/8rp1seo" target="_blank" title="京东开源的轻量级移动端 Vue2、Vue3 组件库">京东开源的轻量级移动端 Vue2、Vue3 组件库</a>
-      </div>
-    
-      <div class="details">
-        以下内容选自「码农周刊 VIP 会员」圈子，每日更新，精彩不断。京东风格的轻量级移动端 Vue2、Vue3 组件库，支持一套代码生成 H5 和小程序。特性 70+ 高质量组件（3....
-      </div>
-    </div>
-    <div class="followers" title="followers">
-      <svg width="12" height="12" viewBox="0 0 16 16">
-        <g fill="none" fill-rule="evenodd">
-          <path d="M0 0h16v16H0z"/>
-          <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
-        </g>
-      </svg><span>18</span>
     </div>
   </li>
   
@@ -662,7 +684,7 @@
         <img src="https://img.shields.io/npm/v/@wcj/github-rank.svg?label=unpkg">
       </a>
     </div>
-    <div class="time">Last cache created on 2022/3/18 by Github API v3.</div>
+    <div class="time">Last cache created on 2022/3/19 by Github API v3.</div>
     Create by <a href="https://github.com/jaywcjlove" target="_blank">小弟调调™</a>.
   </div>
 </body>

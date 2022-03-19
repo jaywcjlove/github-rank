@@ -5,7 +5,7 @@
     "url": "https://segmentfault.com/a/1190000041493486",
     "author": "程序员内点事",
     "home_url": "https://segmentfault.com/u/chengxy",
-    "votes": "68",
+    "votes": "70",
     "rank": 1
   },
   {
@@ -18,22 +18,13 @@
     "rank": 2
   },
   {
-    "title": "【必须知道的JavaScript库】 - 解决95%问题的工具插件/库 - 1",
-    "description": "在研发周期紧张的背景下,切记要避免时间开销在无用工作上 (比如造轮子) 如何有效确认是否已有轮子,本篇文章做一个list来帮助大家。只需要记住下面的库就可以解决工作中95%日常问题。",
-    "url": "https://segmentfault.com/a/1190000041405707",
-    "author": "wlove",
-    "home_url": "https://segmentfault.com/u/xieguoliang",
-    "votes": "36",
-    "rank": 3
-  },
-  {
     "title": "音视频通信加餐 —— WebRTC一肝到底",
     "description": "原因有两点：首先是“点对点通信”非常吸引我们，不需要中间服务器，客户端直连，通信非常方便；再者是 WebRTC 浏览器原生支持，其他客户端支持也很好，不像传统直播用 flv.js 做兼容，可以实现标准统一。",
     "url": "https://segmentfault.com/a/1190000041517764",
     "author": "杨成功",
     "home_url": "https://segmentfault.com/u/ruidoc",
-    "votes": "31",
-    "rank": 4
+    "votes": "35",
+    "rank": 3
   },
   {
     "title": "7个杀手级的JS一行代码",
@@ -42,7 +33,7 @@
     "author": "gaoryrt",
     "home_url": "https://segmentfault.com/u/gaoryrt",
     "votes": "32",
-    "rank": 5
+    "rank": 4
   },
   {
     "title": "组员重构代码千奇百怪，直接JS、ES6和Vue规范给一梭子",
@@ -51,7 +42,7 @@
     "author": "wuwhs",
     "home_url": "https://segmentfault.com/u/wuwhs",
     "votes": "31",
-    "rank": 6
+    "rank": 5
   },
   {
     "title": "Redis 忽然变慢了如何排查并解决？",
@@ -60,6 +51,15 @@
     "author": "码哥字节",
     "home_url": "https://segmentfault.com/u/magebyte",
     "votes": "27",
+    "rank": 6
+  },
+  {
+    "title": "css 的 filter属性竟然如此好玩",
+    "description": "在此之前我对css里面的filter属性不是很了解, 只知道使用这个属性来改变svg图片的颜色, 最近恰好查了很多相关文档并做了大量实验, 并有了一些启发与想法, 索性就在这里分享出来。",
+    "url": "https://segmentfault.com/a/1190000041549883",
+    "author": "lulu_up",
+    "home_url": "https://segmentfault.com/u/lulu_up",
+    "votes": "29",
     "rank": 7
   },
   {
@@ -72,22 +72,13 @@
     "rank": 8
   },
   {
-    "title": "css 的 filter属性竟然如此好玩",
-    "description": "在此之前我对css里面的filter属性不是很了解, 只知道使用这个属性来改变svg图片的颜色, 最近恰好查了很多相关文档并做了大量实验, 并有了一些启发与想法, 索性就在这里分享出来。",
-    "url": "https://segmentfault.com/a/1190000041549883",
-    "author": "lulu_up",
-    "home_url": "https://segmentfault.com/u/lulu_up",
-    "votes": "28",
-    "rank": 9
-  },
-  {
     "title": "巧用 CSS 实现炫彩三角边框动画",
     "description": "最近有个小伙伴问我，在某个网站看到一个使用 SVG 实现的炫彩三角边框动画，问能否使用 CSS 实现：很有意思的一个动画效果，立马让我想起了我在 CSS 奇思妙想边框动画 一文中介绍的边框动画，非常的类似：其核心...",
     "url": "https://segmentfault.com/a/1190000041487405",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
     "votes": "24",
-    "rank": 10
+    "rank": 9
   },
   {
     "title": "前端生成PDF，让后端刮目相看",
@@ -96,16 +87,7 @@
     "author": "葡萄城技术团队",
     "home_url": "https://segmentfault.com/u/grapecity",
     "votes": "22",
-    "rank": 11
-  },
-  {
-    "title": "革命性创新，动画杀手锏 @scroll-timeline",
-    "description": "在 CSS 规范 Scroll-linked Animations 中，推出了一个划时代的 CSS 功能。也就是 -- The @scroll-timeline at-rule，直译过来就是滚动时间线。本文，就将带大家一探究竟，从入门到学会使用 CSS @scroll-timeline...",
-    "url": "https://segmentfault.com/a/1190000041505045",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "19",
-    "rank": 12
+    "rank": 10
   },
   {
     "title": "手把手教你写一个简易的微前端框架",
@@ -113,17 +95,8 @@
     "url": "https://segmentfault.com/a/1190000041467802",
     "author": "谭光志",
     "home_url": "https://segmentfault.com/u/woai3c",
-    "votes": "19",
-    "rank": 13
-  },
-  {
-    "title": "[性能优化] 使用 esbuild 为你的构建提速 🚀",
-    "description": "于是这两天抽空对项目做了一次构建优化，线上(多国家)构建时间, 从 10分钟 优化到 4分钟, 本地单次构建时间， 从 300秒 优化到 90秒， 效果还不错。",
-    "url": "https://segmentfault.com/a/1190000041455457",
-    "author": "皮小蛋",
-    "home_url": "https://segmentfault.com/u/scaukk",
-    "votes": "15",
-    "rank": 14
+    "votes": "21",
+    "rank": 11
   },
   {
     "title": "JavaScript 中 JSON 的 5 个小技巧🤯",
@@ -132,7 +105,16 @@
     "author": "JenK",
     "home_url": "https://segmentfault.com/u/wangzc996",
     "votes": "13",
-    "rank": 15
+    "rank": 12
+  },
+  {
+    "title": "革命性创新，动画杀手锏 @scroll-timeline",
+    "description": "在 CSS 规范 Scroll-linked Animations 中，推出了一个划时代的 CSS 功能。也就是 -- The @scroll-timeline at-rule，直译过来就是滚动时间线。本文，就将带大家一探究竟，从入门到学会使用 CSS @scroll-timeline...",
+    "url": "https://segmentfault.com/a/1190000041505045",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "19",
+    "rank": 13
   },
   {
     "title": "5种限流算法，7种限流方式，挡住突发流量？",
@@ -141,7 +123,16 @@
     "author": "程序猿阿朗",
     "home_url": "https://segmentfault.com/u/niumoo",
     "votes": "20",
-    "rank": 16
+    "rank": 14
+  },
+  {
+    "title": "[性能优化] 使用 esbuild 为你的构建提速 🚀",
+    "description": "于是这两天抽空对项目做了一次构建优化，线上(多国家)构建时间, 从 10分钟 优化到 4分钟, 本地单次构建时间， 从 300秒 优化到 90秒， 效果还不错。",
+    "url": "https://segmentfault.com/a/1190000041455457",
+    "author": "皮小蛋",
+    "home_url": "https://segmentfault.com/u/scaukk",
+    "votes": "15",
+    "rank": 15
   },
   {
     "title": "线性代数在前端中的应用（一）：实现鼠标滚轮缩放元素、Canvas图片和拖拽",
@@ -150,7 +141,7 @@
     "author": "而井",
     "home_url": "https://segmentfault.com/u/rioli",
     "votes": "15",
-    "rank": 17
+    "rank": 16
   },
   {
     "title": "JavaScript 数据处理 - 映射表篇",
@@ -159,7 +150,7 @@
     "author": "边城",
     "home_url": "https://segmentfault.com/u/jamesfancy",
     "votes": "15",
-    "rank": 18
+    "rank": 17
   },
   {
     "title": "别再用 Redis List 实现消息队列了，Stream 专为队列而生",
@@ -168,7 +159,7 @@
     "author": "码哥字节",
     "home_url": "https://segmentfault.com/u/magebyte",
     "votes": "14",
-    "rank": 19
+    "rank": 18
   },
   {
     "title": "吐血整理的webpack入门知识及常用loader和plugin",
@@ -177,7 +168,7 @@
     "author": "TNTWEB",
     "home_url": "https://segmentfault.com/u/tnfe",
     "votes": "13",
-    "rank": 20
+    "rank": 19
   },
   {
     "title": "urlcat：JavaScript的URL构建器库",
@@ -186,7 +177,7 @@
     "author": "杭州程序员张张",
     "home_url": "https://segmentfault.com/u/dunizb",
     "votes": "12",
-    "rank": 21
+    "rank": 20
   },
   {
     "title": "从头梳理，看看中国的 ICP 备案制度",
@@ -195,7 +186,7 @@
     "author": "白宦成",
     "home_url": "https://segmentfault.com/u/xiqingongzi",
     "votes": "11",
-    "rank": 22
+    "rank": 21
   },
   {
     "title": "网络编程懒人入门(十四)：到底什么是Socket？一文即懂！",
@@ -204,7 +195,7 @@
     "author": "JackJiang",
     "home_url": "https://segmentfault.com/u/jackjiang",
     "votes": "16",
-    "rank": 23
+    "rank": 22
   },
   {
     "title": "突破限制，CSS font-variation 可变字体的魅力",
@@ -213,7 +204,7 @@
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
     "votes": "14",
-    "rank": 24
+    "rank": 23
   },
   {
     "title": "23 个非常有用的 NodeJs 库",
@@ -222,7 +213,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "18",
-    "rank": 25
+    "rank": 24
   },
   {
     "title": "Go 设计哲学：少即是多，哪里来的？",
@@ -231,7 +222,7 @@
     "author": "煎鱼",
     "home_url": "https://segmentfault.com/u/eddycjy",
     "votes": "14",
-    "rank": 26
+    "rank": 25
   },
   {
     "title": "小程序实现手写签名",
@@ -240,6 +231,15 @@
     "author": "小小蚊子",
     "home_url": "https://segmentfault.com/u/zjw8023",
     "votes": "14",
+    "rank": 26
+  },
+  {
+    "title": "Gitlab  CI/CD教程及npm包构建发布实战",
+    "description": "!!!实践过程中请留意文档版本号跟你实际使用Gitlab的版本号👉🏻中文文档-14.8-pre 👉🏻Gitlab版本—12.9前置知识yaml语法，教程👉🏻YAML 入门教程Docker相关知识，教程👉🏻Docker教程linux命令，教程👉🏻Linux 命令大全自定...",
+    "url": "https://segmentfault.com/a/1190000041537651",
+    "author": "MangoGoing",
+    "home_url": "https://segmentfault.com/u/nulidexiaocongmang",
+    "votes": "16",
     "rank": 27
   },
   {
@@ -252,21 +252,21 @@
     "rank": 28
   },
   {
-    "title": "Gitlab  CI/CD教程及npm包构建发布实战",
-    "description": "!!!实践过程中请留意文档版本号跟你实际使用Gitlab的版本号👉🏻中文文档-14.8-pre 👉🏻Gitlab版本—12.9前置知识yaml语法，教程👉🏻YAML 入门教程Docker相关知识，教程👉🏻Docker教程linux命令，教程👉🏻Linux 命令大全自定...",
-    "url": "https://segmentfault.com/a/1190000041537651",
-    "author": "MangoGoing",
-    "home_url": "https://segmentfault.com/u/nulidexiaocongmang",
-    "votes": "15",
-    "rank": 29
-  },
-  {
     "title": "React 源码解析系列 - React 的 render 异常处理机制",
     "description": "系列文章目录（同步更新）React 源码解析系列 - React 的 render 阶段（一）：基本流程介绍React 源码解析系列 - React 的 render 阶段（二）：beginWorkReact 源码解析系列 - React 的 render 阶段（三）：compl...",
     "url": "https://segmentfault.com/a/1190000041418454",
     "author": "array_huang",
     "home_url": "https://segmentfault.com/u/array_huang",
     "votes": "11",
+    "rank": 29
+  },
+  {
+    "title": "28张图助我学废TS",
+    "description": "Ts现在用的越来越多，我感觉是时候总结一波Ts的基础知识点，毕竟与时代脱节不是咱们程序员该做的事，话不多说，直接开整。(注：脑图已经上传至云盘20+脑图系列中）",
+    "url": "https://segmentfault.com/a/1190000041510006",
+    "author": "执鸢者",
+    "home_url": "https://segmentfault.com/u/zhizhe_5c6eb6478bd93",
+    "votes": "17",
     "rank": 30
   }
 ]

@@ -8,40 +8,62 @@
   <title> 36Kr快讯 </title>
   <meta name="description" content="36Kr快讯">
   <style>
+    [data-color-mode*='dark'] {
+      --color-fg-default: #c9d1d9;
+      --color-fg-muted: #8b949e;
+      --color-fg-subtle: #484f58;
+      --color-accent-fg: #58a6ff;
+      --color-accent-emphasis: #1f6feb;
+      --color-link-hover: #58a6ff;
+      --color-tab-fg: #494949;
+      --color-border: #e2e2e2;
+      --color-neutral-muted: rgba(110,118,129,0.4);
+    }
+    [data-color-mode*='light'] {
+      --color-fg-default: #24292f;
+      --color-fg-muted: #57606a;
+      --color-fg-subtle: #6e7781;
+      --color-accent-fg: #0969da;
+      --color-accent-emphasis: #0969da;
+      --color-link-hover: #58a6ff;
+      --color-tab-fg: #e2e2e2;
+      --color-border: #000;
+      --color-neutral-muted: rgba(175,184,193,0.2);
+    }
+  </style>
+  <style>
     * { box-sizing: border-box; }
     html, body, ul, li, h1 { margin: 0; padding: 0 }
     html, body { font-size: 16px; font-family: -apple-system,"Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","WenQuanYi Micro Hei","Microsoft Yahei",sans-serif; }
     ul { list-style: none; }
 
-    a { color: #333; text-decoration: none; transition: all .2s ease-in; }
-    a:hover { color: #1600ff; }
+    a { color: var(--color-accent-fg); text-decoration: none; transition: all .2s ease-in; }
+    a:hover { color: var(--color-link-hover); text-decoration: underline; }
     a.github-corner:hover .octo-arm { animation: octocat-wave 560ms infinite linear; }
     a.github-corner svg { fill: #f1f1f1; color: #000; position: absolute; top: 0; border: 0; right: 0; z-index: 99; width: 70px; height: 70px; }
     a.github-corner { position: fixed; z-index: 9999; top: 0; right: 0; }
 
     .title { padding: 32px 20px 10px 20px; font-size: 32px; display: flex; }
     .title a svg { display: block; }
-    .title a { color: #0059ff; display: inline-block; margin-left: 10px; }
+    .title a { color: var(--color-accent-fg); display: inline-block; margin-left: 10px; }
     .time, .footer { padding: 5px 20px 2px 20px; font-size: 12px; color: #adadad; }
     .tabs { padding: 0 20px 5px 20px;}
-    .tabs a { background: #e2e2e2; display: inline-block; border-radius: 2px; margin: 2px 0; padding: 2px 5px; font-size: 12px; line-height: 16px; color: #0366d6; }
+    .tabs a { background: var(--color-tab-fg); display: inline-block; border-radius: 2px; margin: 2px 0; padding: 2px 5px; font-size: 12px; line-height: 16px; color: var(--color-accent-fg); }
     .tabs a.active { background: #333; color: #efefef; }
     .tabs a:hover:not(.active) { background: #efefef; }
     .footer { padding: 0 20px 30px 20px; font-size: 12px; color: #adadad; }
     .footer .time { padding: 0; }
     .list { text-align: left; padding-bottom: 10px; margin: 0 15px; }
     .list img { width: 36px; height: 36px; border-radius: 3px; display: block; margin: 0 auto; background-color: #e2e2e2; border: 0; overflow: hidden; }
-    .list a { color: #0366d6; }
-    .list a:hover { color: #1600ff; }
     .list li { padding: 10px; transition: all .3s; }
     .list li.rank-title { margin: 0; padding: 3px 0 0 7px; margin-bottom: 10px; border-radius: 5px; font-size: 12px; line-height: 16px; }
     .list li.rank-title > a { margin-right: 10px; }
     .list li.rank-title:hover { background: transparent; }
     .list li:last-child, .list li.rank-title { border-bottom: 0; }
-    .list li:hover { background: #efefef8f; }
+    .list li:hover { background: var(--color-neutral-muted); }
     .list li > div { display: table-cell; vertical-align: top; font-size: 14px; }
     .list li div.rank span { font-weight: bold; }
-    .list li div.details { padding: 2px 0 0 0; font-size: 12px; float: left; color: #b9b9b9; }
+    .list li div.details { padding: 2px 0 0 0; font-size: 12px; float: left; color: var(--color-fg-muted); }
     .list li div.details a { color: #b9b9b9; transition: all .3s; }
     .list li div.details a:hover { color: #1600ff; }
     .list li div.details a:hover svg { fill: #1600ff; }
@@ -51,7 +73,7 @@
     .list li > div.info { width: 100%; }
     .list li > div.info i { color: #717171; }
     .list li > div.info a:hover i { color: #333; }
-    .list li div.sub-title { color: #333; margin: 4px 0 0 0; }
+    .list li div.sub-title { color: var(--color-thme-text); margin: 4px 0 0 0; }
     .list li div.avatar { padding-right: 10px; }
     
     
@@ -67,8 +89,7 @@
       .title { padding-top: 16px; font-size: 21px; }
     }
   </style>
-  <style>
-  </style>
+  <script src="https://unpkg.com/@wcj/dark-mode"></script>
 </head>
 <body>
   <a href="https://github.com/jaywcjlove/github-rank" target="_blank" class="github-corner">
@@ -79,6 +100,7 @@
     </svg>
   </a>
   <h1 class="title">
+    <dark-mode permanent></dark-mode>
     36Kr快讯
     
     
@@ -91,7 +113,7 @@
     </a>
     
   </h1>
-  <div class="time">Last cache created on 2022/3/18 by 
+  <div class="time">Last cache created on 2022/3/19 by 
     
     
     
@@ -799,7 +821,7 @@
         <img src="https://img.shields.io/npm/v/@wcj/github-rank.svg?label=unpkg">
       </a>
     </div>
-    <div class="time">Last cache created on 2022/3/18 by Github API v3.</div>
+    <div class="time">Last cache created on 2022/3/19 by Github API v3.</div>
     Create by <a href="https://github.com/jaywcjlove" target="_blank">小弟调调™</a>.
   </div>
 </body>
