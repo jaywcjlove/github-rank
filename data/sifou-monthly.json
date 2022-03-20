@@ -5,7 +5,7 @@
     "url": "https://segmentfault.com/a/1190000041493486",
     "author": "程序员内点事",
     "home_url": "https://segmentfault.com/u/chengxy",
-    "votes": "70",
+    "votes": "72",
     "rank": 1
   },
   {
@@ -14,7 +14,7 @@
     "url": "https://segmentfault.com/a/1190000041457245",
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "44",
+    "votes": "46",
     "rank": 2
   },
   {
@@ -23,17 +23,8 @@
     "url": "https://segmentfault.com/a/1190000041517764",
     "author": "杨成功",
     "home_url": "https://segmentfault.com/u/ruidoc",
-    "votes": "35",
+    "votes": "36",
     "rank": 3
-  },
-  {
-    "title": "7个杀手级的JS一行代码",
-    "description": "这篇文章包含了由无菌手套手工挑选的代码片段，并放置在一个绸缎枕头上。一个由50人组成的团队检查了这些代码，并确保其在发布前处于高度抛光状态。我们来自瑞士的文章发布专家点燃了一支蜡烛，当他将代码输入金...",
-    "url": "https://segmentfault.com/a/1190000041415254",
-    "author": "gaoryrt",
-    "home_url": "https://segmentfault.com/u/gaoryrt",
-    "votes": "32",
-    "rank": 4
   },
   {
     "title": "组员重构代码千奇百怪，直接JS、ES6和Vue规范给一梭子",
@@ -42,7 +33,7 @@
     "author": "wuwhs",
     "home_url": "https://segmentfault.com/u/wuwhs",
     "votes": "31",
-    "rank": 5
+    "rank": 4
   },
   {
     "title": "Redis 忽然变慢了如何排查并解决？",
@@ -50,6 +41,15 @@
     "url": "https://segmentfault.com/a/1190000041446607",
     "author": "码哥字节",
     "home_url": "https://segmentfault.com/u/magebyte",
+    "votes": "27",
+    "rank": 5
+  },
+  {
+    "title": "CSS 实现透明方格的 3 种方式",
+    "description": "linear-gradient可以说是最早实现这种效果的应用了，当然实现也最为巧妙，也最为复杂。原理是绘制两个直角三角形，然后拼接而成，如下",
+    "url": "https://segmentfault.com/a/1190000041504985",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
     "votes": "27",
     "rank": 6
   },
@@ -63,22 +63,31 @@
     "rank": 7
   },
   {
-    "title": "CSS 实现透明方格的 3 种方式",
-    "description": "linear-gradient可以说是最早实现这种效果的应用了，当然实现也最为巧妙，也最为复杂。原理是绘制两个直角三角形，然后拼接而成，如下",
-    "url": "https://segmentfault.com/a/1190000041504985",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "26",
-    "rank": 8
-  },
-  {
     "title": "巧用 CSS 实现炫彩三角边框动画",
     "description": "最近有个小伙伴问我，在某个网站看到一个使用 SVG 实现的炫彩三角边框动画，问能否使用 CSS 实现：很有意思的一个动画效果，立马让我想起了我在 CSS 奇思妙想边框动画 一文中介绍的边框动画，非常的类似：其核心...",
     "url": "https://segmentfault.com/a/1190000041487405",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
     "votes": "24",
+    "rank": 8
+  },
+  {
+    "title": "手把手教你写一个简易的微前端框架",
+    "description": "最近看了几个微前端框架的源码（single-spa、qiankun、micro-app），感觉收获良多。所以打算造一个迷你版的轮子，来加深自己对所学知识的了解。这个轮子将分为五个版本，逐步的实现一个最小可用的微前端框架：支...",
+    "url": "https://segmentfault.com/a/1190000041467802",
+    "author": "谭光志",
+    "home_url": "https://segmentfault.com/u/woai3c",
+    "votes": "22",
     "rank": 9
+  },
+  {
+    "title": "5种限流算法，7种限流方式，挡住突发流量？",
+    "description": "最近几年，随着微服务的流行，服务和服务之间的依赖越来越强，调用关系越来越复杂，服务和服务之间的稳定性越来越重要。在遇到突发的请求量激增，恶意的用户访问，亦或请求频率过高给下游服务带来较大压力时，我...",
+    "url": "https://segmentfault.com/a/1190000041548601",
+    "author": "程序猿阿朗",
+    "home_url": "https://segmentfault.com/u/niumoo",
+    "votes": "22",
+    "rank": 10
   },
   {
     "title": "前端生成PDF，让后端刮目相看",
@@ -87,16 +96,16 @@
     "author": "葡萄城技术团队",
     "home_url": "https://segmentfault.com/u/grapecity",
     "votes": "22",
-    "rank": 10
+    "rank": 11
   },
   {
-    "title": "手把手教你写一个简易的微前端框架",
-    "description": "最近看了几个微前端框架的源码（single-spa、qiankun、micro-app），感觉收获良多。所以打算造一个迷你版的轮子，来加深自己对所学知识的了解。这个轮子将分为五个版本，逐步的实现一个最小可用的微前端框架：支...",
-    "url": "https://segmentfault.com/a/1190000041467802",
-    "author": "谭光志",
-    "home_url": "https://segmentfault.com/u/woai3c",
-    "votes": "21",
-    "rank": 11
+    "title": "革命性创新，动画杀手锏 @scroll-timeline",
+    "description": "在 CSS 规范 Scroll-linked Animations 中，推出了一个划时代的 CSS 功能。也就是 -- The @scroll-timeline at-rule，直译过来就是滚动时间线。本文，就将带大家一探究竟，从入门到学会使用 CSS @scroll-timeline...",
+    "url": "https://segmentfault.com/a/1190000041505045",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "20",
+    "rank": 12
   },
   {
     "title": "JavaScript 中 JSON 的 5 个小技巧🤯",
@@ -105,25 +114,7 @@
     "author": "JenK",
     "home_url": "https://segmentfault.com/u/wangzc996",
     "votes": "13",
-    "rank": 12
-  },
-  {
-    "title": "革命性创新，动画杀手锏 @scroll-timeline",
-    "description": "在 CSS 规范 Scroll-linked Animations 中，推出了一个划时代的 CSS 功能。也就是 -- The @scroll-timeline at-rule，直译过来就是滚动时间线。本文，就将带大家一探究竟，从入门到学会使用 CSS @scroll-timeline...",
-    "url": "https://segmentfault.com/a/1190000041505045",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "19",
     "rank": 13
-  },
-  {
-    "title": "5种限流算法，7种限流方式，挡住突发流量？",
-    "description": "最近几年，随着微服务的流行，服务和服务之间的依赖越来越强，调用关系越来越复杂，服务和服务之间的稳定性越来越重要。在遇到突发的请求量激增，恶意的用户访问，亦或请求频率过高给下游服务带来较大压力时，我...",
-    "url": "https://segmentfault.com/a/1190000041548601",
-    "author": "程序猿阿朗",
-    "home_url": "https://segmentfault.com/u/niumoo",
-    "votes": "20",
-    "rank": 14
   },
   {
     "title": "[性能优化] 使用 esbuild 为你的构建提速 🚀",
@@ -131,8 +122,8 @@
     "url": "https://segmentfault.com/a/1190000041455457",
     "author": "皮小蛋",
     "home_url": "https://segmentfault.com/u/scaukk",
-    "votes": "15",
-    "rank": 15
+    "votes": "16",
+    "rank": 14
   },
   {
     "title": "线性代数在前端中的应用（一）：实现鼠标滚轮缩放元素、Canvas图片和拖拽",
@@ -141,7 +132,7 @@
     "author": "而井",
     "home_url": "https://segmentfault.com/u/rioli",
     "votes": "15",
-    "rank": 16
+    "rank": 15
   },
   {
     "title": "JavaScript 数据处理 - 映射表篇",
@@ -150,7 +141,7 @@
     "author": "边城",
     "home_url": "https://segmentfault.com/u/jamesfancy",
     "votes": "15",
-    "rank": 17
+    "rank": 16
   },
   {
     "title": "别再用 Redis List 实现消息队列了，Stream 专为队列而生",
@@ -159,7 +150,7 @@
     "author": "码哥字节",
     "home_url": "https://segmentfault.com/u/magebyte",
     "votes": "14",
-    "rank": 18
+    "rank": 17
   },
   {
     "title": "吐血整理的webpack入门知识及常用loader和plugin",
@@ -167,17 +158,8 @@
     "url": "https://segmentfault.com/a/1190000041436294",
     "author": "TNTWEB",
     "home_url": "https://segmentfault.com/u/tnfe",
-    "votes": "13",
-    "rank": 19
-  },
-  {
-    "title": "urlcat：JavaScript的URL构建器库",
-    "description": "urlcat 是一个小型的 JavaScript 库，它使构建 URL 非常方便并防止常见错误。特性：友好的 API无依赖压缩后0.8KB大小提供TypeScript类型为什么用？在调用 HTTP API 时，通常需要在 URL 中添加动态参数： {代码......",
-    "url": "https://segmentfault.com/a/1190000041417062",
-    "author": "杭州程序员张张",
-    "home_url": "https://segmentfault.com/u/dunizb",
-    "votes": "12",
-    "rank": 20
+    "votes": "14",
+    "rank": 18
   },
   {
     "title": "从头梳理，看看中国的 ICP 备案制度",
@@ -186,34 +168,7 @@
     "author": "白宦成",
     "home_url": "https://segmentfault.com/u/xiqingongzi",
     "votes": "11",
-    "rank": 21
-  },
-  {
-    "title": "网络编程懒人入门(十四)：到底什么是Socket？一文即懂！",
-    "description": "本文由cxuan分享，原题“原来这才是 Socket”，有修订。1、引言本系列文章前面那些主要讲解的是计算机网络的理论基础，但对于即时通讯IM这方面的应用层开发者来说，跟计算机网络打道的其实是各种API接口。本篇文章...",
-    "url": "https://segmentfault.com/a/1190000041413541",
-    "author": "JackJiang",
-    "home_url": "https://segmentfault.com/u/jackjiang",
-    "votes": "16",
-    "rank": 22
-  },
-  {
-    "title": "突破限制，CSS font-variation 可变字体的魅力",
-    "description": "上述效果，最核心的就是文字的动画，文字从较细贴着较紧，到较粗隔着较远不断变化。有人会认为这里是 transform: scale()，实则不然。",
-    "url": "https://segmentfault.com/a/1190000041470128",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "14",
-    "rank": 23
-  },
-  {
-    "title": "23 个非常有用的 NodeJs 库",
-    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000041458272",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "18",
-    "rank": 24
+    "rank": 19
   },
   {
     "title": "Go 设计哲学：少即是多，哪里来的？",
@@ -222,7 +177,25 @@
     "author": "煎鱼",
     "home_url": "https://segmentfault.com/u/eddycjy",
     "votes": "14",
-    "rank": 25
+    "rank": 20
+  },
+  {
+    "title": "突破限制，CSS font-variation 可变字体的魅力",
+    "description": "上述效果，最核心的就是文字的动画，文字从较细贴着较紧，到较粗隔着较远不断变化。有人会认为这里是 transform: scale()，实则不然。",
+    "url": "https://segmentfault.com/a/1190000041470128",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "14",
+    "rank": 21
+  },
+  {
+    "title": "23 个非常有用的 NodeJs 库",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000041458272",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "18",
+    "rank": 22
   },
   {
     "title": "小程序实现手写签名",
@@ -231,7 +204,16 @@
     "author": "小小蚊子",
     "home_url": "https://segmentfault.com/u/zjw8023",
     "votes": "14",
-    "rank": 26
+    "rank": 23
+  },
+  {
+    "title": "神奇的 CSS，让文字智能适配背景颜色",
+    "description": "文本在黑色底色上表现为白色，在白色底色上表现为黑色。看似很复杂的一个效果，但是其实在 CSS 中非常好实现，今天就介绍这样一个小技巧，在 CSS 中，利用混合模式 mix-blend-mode: difference，让文字智能适配背...",
+    "url": "https://segmentfault.com/a/1190000041556519",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "17",
+    "rank": 24
   },
   {
     "title": "Gitlab  CI/CD教程及npm包构建发布实战",
@@ -240,7 +222,7 @@
     "author": "MangoGoing",
     "home_url": "https://segmentfault.com/u/nulidexiaocongmang",
     "votes": "16",
-    "rank": 27
+    "rank": 25
   },
   {
     "title": "Jenkins+Docker+Gitee+SpringBoot自动化部署",
@@ -249,7 +231,7 @@
     "author": "xiangzhihong",
     "home_url": "https://segmentfault.com/u/xiangzhihong",
     "votes": "14",
-    "rank": 28
+    "rank": 26
   },
   {
     "title": "React 源码解析系列 - React 的 render 异常处理机制",
@@ -258,7 +240,7 @@
     "author": "array_huang",
     "home_url": "https://segmentfault.com/u/array_huang",
     "votes": "11",
-    "rank": 29
+    "rank": 27
   },
   {
     "title": "28张图助我学废TS",
@@ -267,6 +249,24 @@
     "author": "执鸢者",
     "home_url": "https://segmentfault.com/u/zhizhe_5c6eb6478bd93",
     "votes": "17",
+    "rank": 28
+  },
+  {
+    "title": "从业务组件库看前端工程化",
+    "description": "本文不是一篇教学文章，仅是对近半年一部分工作的流水账式的总结，也作为自己的一份备忘录，并且因为是公司内部资产很多地方不能贴源码和截图，如果有对其中内容感兴趣的欢迎一起讨论。",
+    "url": "https://segmentfault.com/a/1190000041480003",
+    "author": "玩弄心里的鬼",
+    "home_url": "https://segmentfault.com/u/lizongyuan",
+    "votes": "13",
+    "rank": 29
+  },
+  {
+    "title": "什么是 LRU 算法？",
+    "description": "缓存 是我们写代码过程中常用的一种手段，是一种空间换时间的做法。就拿我们经常使用的 HTTP 协议，其中也存在强缓存和协商缓存两种缓存方式。当我们打开一个网站的时候，浏览器会查询该请求的响应头，通过判断响...",
+    "url": "https://segmentfault.com/a/1190000041542627",
+    "author": "Shenfq",
+    "home_url": "https://segmentfault.com/u/shenfq",
+    "votes": "10",
     "rank": 30
   }
 ]
