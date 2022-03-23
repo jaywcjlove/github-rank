@@ -18,21 +18,21 @@
     "rank": 2
   },
   {
-    "title": "音视频通信加餐 —— WebRTC一肝到底",
-    "description": "原因有两点：首先是“点对点通信”非常吸引我们，不需要中间服务器，客户端直连，通信非常方便；再者是 WebRTC 浏览器原生支持，其他客户端支持也很好，不像传统直播用 flv.js 做兼容，可以实现标准统一。",
-    "url": "https://segmentfault.com/a/1190000041517764",
-    "author": "杨成功",
-    "home_url": "https://segmentfault.com/u/ruidoc",
-    "votes": "36",
-    "rank": 3
-  },
-  {
     "title": "5年经验(专升本)入职B站分享",
     "description": "大概在去年11月份的时候，我负责的业务线一直做不出成绩。而且整个公司的前端技术设施，都是我一手搭建出来的，再待在公司，没什么可成长的空间，就想跳槽了，期间考虑了几个可能性：",
     "url": "https://segmentfault.com/a/1190000041572883",
     "author": "江辰",
     "home_url": "https://segmentfault.com/u/thomas_5b0e5d1b64584",
-    "votes": "33",
+    "votes": "41",
+    "rank": 3
+  },
+  {
+    "title": "音视频通信加餐 —— WebRTC一肝到底",
+    "description": "原因有两点：首先是“点对点通信”非常吸引我们，不需要中间服务器，客户端直连，通信非常方便；再者是 WebRTC 浏览器原生支持，其他客户端支持也很好，不像传统直播用 flv.js 做兼容，可以实现标准统一。",
+    "url": "https://segmentfault.com/a/1190000041517764",
+    "author": "杨成功",
+    "home_url": "https://segmentfault.com/u/ruidoc",
+    "votes": "38",
     "rank": 4
   },
   {
@@ -45,13 +45,22 @@
     "rank": 5
   },
   {
+    "title": "css 的 filter属性竟然如此好玩",
+    "description": "在此之前我对css里面的filter属性不是很了解, 只知道使用这个属性来改变svg图片的颜色, 最近恰好查了很多相关文档并做了大量实验, 并有了一些启发与想法, 索性就在这里分享出来。",
+    "url": "https://segmentfault.com/a/1190000041549883",
+    "author": "lulu_up",
+    "home_url": "https://segmentfault.com/u/lulu_up",
+    "votes": "38",
+    "rank": 6
+  },
+  {
     "title": "Redis 忽然变慢了如何排查并解决？",
     "description": "Redis 通常是我们业务系统中一个重要的组件，比如：缓存、账号登录信息、排行榜等。一旦 Redis 请求延迟增加，可能就会导致业务系统“雪崩”。我在单身红娘婚恋类型互联网公司工作，在双十一推出下单就送女朋友的活...",
     "url": "https://segmentfault.com/a/1190000041446607",
     "author": "码哥字节",
     "home_url": "https://segmentfault.com/u/magebyte",
     "votes": "28",
-    "rank": 6
+    "rank": 7
   },
   {
     "title": "CSS 实现透明方格的 3 种方式",
@@ -59,8 +68,17 @@
     "url": "https://segmentfault.com/a/1190000041504985",
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "28",
+    "rank": 8
+  },
+  {
+    "title": "神奇的 CSS，让文字智能适配背景颜色",
+    "description": "文本在黑色底色上表现为白色，在白色底色上表现为黑色。看似很复杂的一个效果，但是其实在 CSS 中非常好实现，今天就介绍这样一个小技巧，在 CSS 中，利用混合模式 mix-blend-mode: difference，让文字智能适配背...",
+    "url": "https://segmentfault.com/a/1190000041556519",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
     "votes": "27",
-    "rank": 7
+    "rank": 9
   },
   {
     "title": "手把手教你写一个简易的微前端框架",
@@ -69,16 +87,7 @@
     "author": "谭光志",
     "home_url": "https://segmentfault.com/u/woai3c",
     "votes": "25",
-    "rank": 8
-  },
-  {
-    "title": "css 的 filter属性竟然如此好玩",
-    "description": "在此之前我对css里面的filter属性不是很了解, 只知道使用这个属性来改变svg图片的颜色, 最近恰好查了很多相关文档并做了大量实验, 并有了一些启发与想法, 索性就在这里分享出来。",
-    "url": "https://segmentfault.com/a/1190000041549883",
-    "author": "lulu_up",
-    "home_url": "https://segmentfault.com/u/lulu_up",
-    "votes": "33",
-    "rank": 9
+    "rank": 10
   },
   {
     "title": "巧用 CSS 实现炫彩三角边框动画",
@@ -86,8 +95,8 @@
     "url": "https://segmentfault.com/a/1190000041487405",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "24",
-    "rank": 10
+    "votes": "25",
+    "rank": 11
   },
   {
     "title": "5种限流算法，7种限流方式，挡住突发流量？",
@@ -95,8 +104,8 @@
     "url": "https://segmentfault.com/a/1190000041548601",
     "author": "程序猿阿朗",
     "home_url": "https://segmentfault.com/u/niumoo",
-    "votes": "22",
-    "rank": 11
+    "votes": "23",
+    "rank": 12
   },
   {
     "title": "前端生成PDF，让后端刮目相看",
@@ -105,7 +114,7 @@
     "author": "葡萄城技术团队",
     "home_url": "https://segmentfault.com/u/grapecity",
     "votes": "22",
-    "rank": 12
+    "rank": 13
   },
   {
     "title": "革命性创新，动画杀手锏 @scroll-timeline",
@@ -114,15 +123,6 @@
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
     "votes": "21",
-    "rank": 13
-  },
-  {
-    "title": "神奇的 CSS，让文字智能适配背景颜色",
-    "description": "文本在黑色底色上表现为白色，在白色底色上表现为黑色。看似很复杂的一个效果，但是其实在 CSS 中非常好实现，今天就介绍这样一个小技巧，在 CSS 中，利用混合模式 mix-blend-mode: difference，让文字智能适配背...",
-    "url": "https://segmentfault.com/a/1190000041556519",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "24",
     "rank": 14
   },
   {
@@ -180,13 +180,31 @@
     "rank": 20
   },
   {
+    "title": "穷追猛打，阿里二面问了我30分钟从URL输入到渲染...",
+    "description": "当面试官问出这个题后，大部分人听到都是内心窃喜：早就背下这篇八股文。但是稍等，下面几个问题你能答出来吗：浏览器对URL为什么要解析？URL参数用的是什么字符编码？那encodeURI和encodeURIComponent有什么区别...",
+    "url": "https://segmentfault.com/a/1190000041553527",
+    "author": "前端私教年年",
+    "home_url": "https://segmentfault.com/u/qiuzhisijiaoniannian",
+    "votes": "16",
+    "rank": 21
+  },
+  {
+    "title": "2022招聘季 | 怎么准备面试？面试官一般会问些什么问题？ | web 前端",
+    "description": "前两天北京下雪了，很冷。2022 招聘季，好像也比往年冷一些。2021 年 K12 的大量裁员，腾讯、快手、字节、滴滴、蘑菇街也在裁员。想要换工作的同学应该准备些什么呢？面试流程是什么样子的？如何应对面试呢？怎么...",
+    "url": "https://segmentfault.com/a/1190000041560515",
+    "author": "linong",
+    "home_url": "https://segmentfault.com/u/linong",
+    "votes": "20",
+    "rank": 22
+  },
+  {
     "title": "从头梳理，看看中国的 ICP 备案制度",
     "description": "对于生活在中国互联网环境中的开发者来说，ICP备案（后称「备案」）是一个很难绕过去的话题，但凡你需要正经的建设一个网站，那么备案就是一个必须要做的事情，不然可能会出现各种奇奇怪怪的问题。但，你是否思考...",
     "url": "https://segmentfault.com/a/1190000041501520",
     "author": "白宦成",
     "home_url": "https://segmentfault.com/u/xiqingongzi",
     "votes": "11",
-    "rank": 21
+    "rank": 23
   },
   {
     "title": "Go 设计哲学：少即是多，哪里来的？",
@@ -195,7 +213,7 @@
     "author": "煎鱼",
     "home_url": "https://segmentfault.com/u/eddycjy",
     "votes": "14",
-    "rank": 22
+    "rank": 24
   },
   {
     "title": "突破限制，CSS font-variation 可变字体的魅力",
@@ -204,7 +222,7 @@
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
     "votes": "14",
-    "rank": 23
+    "rank": 25
   },
   {
     "title": "23 个非常有用的 NodeJs 库",
@@ -213,7 +231,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "18",
-    "rank": 24
+    "rank": 26
   },
   {
     "title": "Gitlab  CI/CD教程及npm包构建发布实战",
@@ -221,8 +239,8 @@
     "url": "https://segmentfault.com/a/1190000041537651",
     "author": "MangoGoing",
     "home_url": "https://segmentfault.com/u/nulidexiaocongmang",
-    "votes": "16",
-    "rank": 25
+    "votes": "17",
+    "rank": 27
   },
   {
     "title": "28张图助我学废TS",
@@ -230,8 +248,8 @@
     "url": "https://segmentfault.com/a/1190000041510006",
     "author": "执鸢者",
     "home_url": "https://segmentfault.com/u/zhizhe_5c6eb6478bd93",
-    "votes": "18",
-    "rank": 26
+    "votes": "19",
+    "rank": 28
   },
   {
     "title": "Jenkins+Docker+Gitee+SpringBoot自动化部署",
@@ -240,7 +258,7 @@
     "author": "xiangzhihong",
     "home_url": "https://segmentfault.com/u/xiangzhihong",
     "votes": "15",
-    "rank": 27
+    "rank": 29
   },
   {
     "title": "从业务组件库看前端工程化",
@@ -248,25 +266,7 @@
     "url": "https://segmentfault.com/a/1190000041480003",
     "author": "玩弄心里的鬼",
     "home_url": "https://segmentfault.com/u/lizongyuan",
-    "votes": "13",
-    "rank": 28
-  },
-  {
-    "title": "穷追猛打，阿里二面问了我30分钟从URL输入到渲染...",
-    "description": "当面试官问出这个题后，大部分人听到都是内心窃喜：早就背下这篇八股文。但是稍等，下面几个问题你能答出来吗：浏览器对URL为什么要解析？URL参数用的是什么字符编码？那encodeURI和encodeURIComponent有什么区别...",
-    "url": "https://segmentfault.com/a/1190000041553527",
-    "author": "前端私教年年",
-    "home_url": "https://segmentfault.com/u/qiuzhisijiaoniannian",
-    "votes": "13",
-    "rank": 29
-  },
-  {
-    "title": "2022招聘季 | 怎么准备面试？面试官一般会问些什么问题？ | web 前端",
-    "description": "前两天北京下雪了，很冷。2022 招聘季，好像也比往年冷一些。2021 年 K12 的大量裁员，腾讯、快手、字节、滴滴、蘑菇街也在裁员。想要换工作的同学应该准备些什么呢？面试流程是什么样子的？如何应对面试呢？怎么...",
-    "url": "https://segmentfault.com/a/1190000041560515",
-    "author": "linong",
-    "home_url": "https://segmentfault.com/u/linong",
-    "votes": "17",
+    "votes": "14",
     "rank": 30
   }
 ]
