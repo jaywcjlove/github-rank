@@ -1,29 +1,11 @@
 [
   {
-    "title": "我们是如何解决偶发性的502错误的",
-    "description": "从ingress的监控中心，我们看到，失败率虽然不高，但始终保持在0.05到0.1的水平：我们用这样的条件去查询，发现绝大部分错误是502错误： {代码...} 那么502错误到底是个什么错误呢？百度百科给出的解释是：502 Ba...",
-    "url": "https://segmentfault.com/a/1190000041651450",
-    "author": "张京",
-    "home_url": "https://segmentfault.com/u/fengerzh",
+    "title": "Redigo: ScanStruct()匿名指针字段的解析",
+    "description": "Redigo issue 487How to scan struct with nested fields?#487为了更好的理解本篇文章，建议先阅读issue原文一、问题是什么将HGETALL 命令返回的数据，解析到对应的结构体UserInfo中，但是结构体中的*LiteUser字...",
+    "url": "https://segmentfault.com/a/1190000041656308",
+    "author": "sown",
+    "home_url": "https://segmentfault.com/u/sown",
     "votes": "1",
     "rank": 1
-  },
-  {
-    "title": "从零开始 实现一个自己的脚本引擎",
-    "description": "项目地址[链接]支持解析js脚本生成语法树、格式化代码支持运行完整js脚本支持安全模式运行单行表达式支持设置超时时间1. 生成语法树 并输出格式化代码示例代码 {代码...} 输出 {代码...} 2. 运行完整脚本以下示例...",
-    "url": "https://segmentfault.com/a/1190000041652146",
-    "author": "辣子鸡",
-    "home_url": "https://segmentfault.com/u/laziji",
-    "votes": "1",
-    "rank": 2
-  },
-  {
-    "title": "Spring Security 一键接入验证码登录和小程序登录",
-    "description": "最近实现了一个多端登录的Spring Security组件，用起来非常丝滑，开箱即用，可插拔，而且灵活性非常强。我觉得能满足大部分场景的需要。目前完成了手机号验证码和微信小程序两种自定义登录，加上默认的Form登录，...",
-    "url": "https://segmentfault.com/a/1190000041651786",
-    "author": "码农小胖哥",
-    "home_url": "https://segmentfault.com/u/10000000",
-    "votes": "1",
-    "rank": 3
   }
 ]
