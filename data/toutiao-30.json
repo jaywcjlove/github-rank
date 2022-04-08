@@ -22,7 +22,7 @@
   {
     "title": "最常用的架构模式",
     "description": "观其设计知其人A MAN is KNOWN by the DESIGN he keeps原文:Most Useful Software Architecture Patterns ...",
-    "votes": "84",
+    "votes": "86",
     "url": "/k/qnfl3t6",
     "avatar": "https://img.toutiao.io/subject/1a197bcacc0346c186be58be1aaf34bd/thumb",
     "avatarAlt": "Java后端技术 - 独家号",
@@ -32,7 +32,7 @@
   {
     "title": "Kafka 面试连环炮, 看看你能撑到哪一步?",
     "description": "",
-    "votes": "83",
+    "votes": "86",
     "url": "/k/z30ehzv",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -62,7 +62,7 @@
   {
     "title": "阿里巴巴开源的低代码引擎",
     "description": "以下内容选自「码农周刊 VIP 会员」圈子，每日更新，精彩不断。低代码引擎是一款为低代码平台开发者提供的，具备强大定制扩展能力的低代码设计器研发框架。低代码引擎的核心是设计器，通过...",
-    "votes": "74",
+    "votes": "75",
     "url": "/k/gsosp6w",
     "avatar": "https://img.toutiao.io/subject/d2f421bbe0be47369b6560e316a5153b/thumb",
     "avatarAlt": "头条精选 - 独家号",
@@ -78,16 +78,6 @@
     "avatarAlt": "浪客用react,java全栈 - 独家号",
     "subjectName": "浪客用react,java全栈",
     "homeUrl": "/subjects/132403"
-  },
-  {
-    "title": "我的命令行开发环境 ❤️",
-    "description": "常言道，工欲善其事、必先利其器，熟练一套高效且趁手的工具，对开发工作的重要性不言而喻。本文分享我的命令行开发环境，文章较长，配图较多，其中几处详细内容，已将其折叠起来，读者可视兴趣...",
-    "votes": "72",
-    "url": "/k/hjda293",
-    "avatar": "https://img.toutiao.io/user/776a2999bca149088ebe52366451432a/thumb",
-    "avatarAlt": "hit9 - 独家号",
-    "subjectName": "hit9",
-    "homeUrl": "/subjects/420867"
   },
   {
     "title": "20多个好用的 Vue 组件库，请查收！",
@@ -112,12 +102,22 @@
   {
     "title": "消息队列经典十连问，你能扛到第几问？",
     "description": "",
-    "votes": "65",
+    "votes": "66",
     "url": "/k/8jfl3pp",
     "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
     "avatarAlt": "Bloomingroses - 独家号",
     "subjectName": "Bloomingroses",
     "homeUrl": "/subjects/98777"
+  },
+  {
+    "title": "盘点 3 月份 yyds 的开源项目",
+    "description": "",
+    "votes": "67",
+    "url": "/k/79431xa",
+    "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
+    "avatarAlt": "服务架构及中台 - 独家号",
+    "subjectName": "服务架构及中台",
+    "homeUrl": "/subjects/26578"
   },
   {
     "title": "错误码设计思考",
@@ -140,6 +140,16 @@
     "homeUrl": "/subjects/182218"
   },
   {
+    "title": "写出结构优雅代码的4个技巧",
+    "description": "",
+    "votes": "63",
+    "url": "/k/6cddvzi",
+    "avatar": "https://img.toutiao.io/subject/4325865040b44c0b9e2d8d80a83d1d11/thumb",
+    "avatarAlt": "编程一生 - 独家号",
+    "subjectName": "编程一生",
+    "homeUrl": "/subjects/350352"
+  },
+  {
     "title": "Go 高性能编程技法",
     "description": "",
     "votes": "62",
@@ -150,20 +160,10 @@
     "homeUrl": "/subjects/465623"
   },
   {
-    "title": "盘点 3 月份 yyds 的开源项目",
-    "description": "",
-    "votes": "64",
-    "url": "/k/79431xa",
-    "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
-    "avatarAlt": "服务架构及中台 - 独家号",
-    "subjectName": "服务架构及中台",
-    "homeUrl": "/subjects/26578"
-  },
-  {
-    "title": "写出结构优雅代码的4个技巧",
-    "description": "",
+    "title": "系统架构的11条原则",
+    "description": "基本原则原则一：价值为王解析：价值为王的另一种说法叫做YAGNI。YAGNI 是 You aren’t gonna need it 的缩写。该原则的基本含义就是，不应该开发任何当前...",
     "votes": "60",
-    "url": "/k/6cddvzi",
+    "url": "/k/xbwjqgj",
     "avatar": "https://img.toutiao.io/subject/4325865040b44c0b9e2d8d80a83d1d11/thumb",
     "avatarAlt": "编程一生 - 独家号",
     "subjectName": "编程一生",
@@ -188,6 +188,16 @@
     "avatarAlt": "yaya的鸡汤 - 独家号",
     "subjectName": "yaya的鸡汤",
     "homeUrl": "/subjects/132121"
+  },
+  {
+    "title": "谷歌工程最佳实践",
+    "description": "最近公司同事作了个Code Review的分享，于是乎我系统学习了下《谷歌工程实践》，里面主要讲的是Code Review。写下本文作为笔记。前言术语代码审查者指南Code Rev...",
+    "votes": "62",
+    "url": "/k/q19mmjh",
+    "avatar": "https://img.toutiao.io/subject/3f69ffc3bdf6496e86439348166e3ed7/thumb",
+    "avatarAlt": "GoHackers - 独家号",
+    "subjectName": "GoHackers",
+    "homeUrl": "/subjects/1385"
   },
   {
     "title": "设计一个靠谱的监控告警平台",
@@ -238,15 +248,5 @@
     "avatarAlt": "搬砖之友 - 独家号",
     "subjectName": "搬砖之友",
     "homeUrl": "/subjects/110643"
-  },
-  {
-    "title": "如何设计良好的技术项目文档结构",
-    "description": "",
-    "votes": "52",
-    "url": "/k/tfyo5nm",
-    "avatar": "https://img.toutiao.io/subject/1227f0343a1546ee8e3c535cce14aa4c/thumb",
-    "avatarAlt": "工程师的自我修养之路 - 独家号",
-    "subjectName": "工程师的自我修养之路",
-    "homeUrl": "/subjects/188023"
   }
 ]
