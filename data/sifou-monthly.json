@@ -14,7 +14,7 @@
     "url": "https://segmentfault.com/a/1190000041549883",
     "author": "lulu_up",
     "home_url": "https://segmentfault.com/u/lulu_up",
-    "votes": "44",
+    "votes": "45",
     "rank": 2
   },
   {
@@ -72,21 +72,21 @@
     "rank": 8
   },
   {
+    "title": "Go 1.18 泛型全面讲解：一篇讲清泛型的全部",
+    "description": "可是因为Go对泛型的支持时间跨度太大，有非常多的以“泛型”为关键字的文章都是在介绍Go1.18之前的旧泛型提案或者设计，而很多设计最终在Go1.18中被废弃或发生了更改。并且很多介绍Go1.18泛型的文章(包括官方的)都...",
+    "url": "https://segmentfault.com/a/1190000041634906",
+    "author": "WonderfulSoap",
+    "home_url": "https://segmentfault.com/u/wonderfulsoap",
+    "votes": "21",
+    "rank": 9
+  },
+  {
     "title": "我们是如何解决偶发性的502错误的",
     "description": "从ingress的监控中心，我们看到，失败率虽然不高，但始终保持在0.05到0.1的水平：我们用这样的条件去查询，发现绝大部分错误是502错误： {代码...} 那么502错误到底是个什么错误呢？百度百科给出的解释是：502 Ba...",
     "url": "https://segmentfault.com/a/1190000041651450",
     "author": "张京",
     "home_url": "https://segmentfault.com/u/fengerzh",
     "votes": "14",
-    "rank": 9
-  },
-  {
-    "title": "Go 1.18 泛型全面讲解：一篇讲清泛型的全部",
-    "description": "可是因为Go对泛型的支持时间跨度太大，有非常多的以“泛型”为关键字的文章都是在介绍Go1.18之前的旧泛型提案或者设计，而很多设计最终在Go1.18中被废弃或发生了更改。并且很多介绍Go1.18泛型的文章(包括官方的)都...",
-    "url": "https://segmentfault.com/a/1190000041634906",
-    "author": "WonderfulSoap",
-    "home_url": "https://segmentfault.com/u/wonderfulsoap",
-    "votes": "20",
     "rank": 10
   },
   {
@@ -95,7 +95,7 @@
     "url": "https://segmentfault.com/a/1190000041627230",
     "author": "杨成功",
     "home_url": "https://segmentfault.com/u/ruidoc",
-    "votes": "18",
+    "votes": "19",
     "rank": 11
   },
   {
@@ -198,13 +198,22 @@
     "rank": 22
   },
   {
+    "title": "还在使用定时器吗？CSS 也能实现电子时钟",
+    "description": "欢迎关注我的公众号：前端侦探通常要做一个时钟，肯定离不开 JS 定时器。今天换一种思路，用 CSS 来实现一个时钟，如下：你也可以访问这个CSS time (codepen.io)查看实际效果当然借用了一点点 JS 用于初始化时间...",
+    "url": "https://segmentfault.com/a/1190000041661094",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "13",
+    "rank": 23
+  },
+  {
     "title": "了不起的Chrome浏览器（13）：Chrome 100支持多屏应用了！",
     "description": "Deprecate the document.domain setter是一个影响很大的breaking change，请大家务必注意排查风险。计划于今年9月份发布的Chrome 106将不再支持通过修改document.domain来绕开同源策略（same origin policy）的限...",
     "url": "https://segmentfault.com/a/1190000041630398",
     "author": "寒雁",
     "home_url": "https://segmentfault.com/u/kiwenlau",
     "votes": "9",
-    "rank": 23
+    "rank": 24
   },
   {
     "title": "什么是 LRU 算法？",
@@ -213,7 +222,7 @@
     "author": "Shenfq",
     "home_url": "https://segmentfault.com/u/shenfq",
     "votes": "10",
-    "rank": 24
+    "rank": 25
   },
   {
     "title": "卡颂：30岁程序员选择躺平",
@@ -222,7 +231,7 @@
     "author": "卡颂",
     "home_url": "https://segmentfault.com/u/kasong",
     "votes": "14",
-    "rank": 25
+    "rank": 26
   },
   {
     "title": "按照 Promise/A+ 规范逐行注释并实现 Promise",
@@ -231,7 +240,7 @@
     "author": "Asheng",
     "home_url": "https://segmentfault.com/u/ashengtan",
     "votes": "10",
-    "rank": 26
+    "rank": 27
   },
   {
     "title": "数据库与缓存双写一致性",
@@ -240,7 +249,7 @@
     "author": "超大只乌龟",
     "home_url": "https://segmentfault.com/u/chenwugui",
     "votes": "13",
-    "rank": 27
+    "rank": 28
   },
   {
     "title": "介绍 4个很  Nice 的 Veu 路由过渡动效！",
@@ -249,24 +258,15 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "8",
-    "rank": 28
-  },
-  {
-    "title": "还在使用定时器吗？CSS 也能实现电子时钟",
-    "description": "欢迎关注我的公众号：前端侦探通常要做一个时钟，肯定离不开 JS 定时器。今天换一种思路，用 CSS 来实现一个时钟，如下：你也可以访问这个CSS time (codepen.io)查看实际效果当然借用了一点点 JS 用于初始化时间...",
-    "url": "https://segmentfault.com/a/1190000041661094",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "11",
     "rank": 29
   },
   {
-    "title": "从0到1教你在AWS中部署动态网站Typecho系统",
-    "description": "Typecho 是使用 PHP 语言开发的一套博客程序，同时也支持多种数据库(Mysql, PostgreSQL, SQLite)，本篇文章将演示部署Typecho到aws上的过程。",
-    "url": "https://segmentfault.com/a/1190000041598952",
-    "author": "沈唁",
-    "home_url": "https://segmentfault.com/u/sy_records",
-    "votes": "10",
+    "title": "巧用 background-clip 实现超强的文字动效",
+    "description": "最近，有同学询问，如何使用 CSS 实现如下效果：看起来是个很有意思的动效。仔细思考一下，要想实现这类效果，其实用到的核心属性只有一个 -- background-clip: text。有意思的 background-clip: textbackground-...",
+    "url": "https://segmentfault.com/a/1190000041666096",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "15",
     "rank": 30
   }
 ]
