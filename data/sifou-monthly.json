@@ -5,7 +5,7 @@
     "url": "https://segmentfault.com/a/1190000041572883",
     "author": "江辰",
     "home_url": "https://segmentfault.com/u/thomas_5b0e5d1b64584",
-    "votes": "60",
+    "votes": "62",
     "rank": 1
   },
   {
@@ -18,21 +18,21 @@
     "rank": 2
   },
   {
+    "title": "神奇的 CSS，让文字智能适配背景颜色",
+    "description": "文本在黑色底色上表现为白色，在白色底色上表现为黑色。看似很复杂的一个效果，但是其实在 CSS 中非常好实现，今天就介绍这样一个小技巧，在 CSS 中，利用混合模式 mix-blend-mode: difference，让文字智能适配背...",
+    "url": "https://segmentfault.com/a/1190000041556519",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "33",
+    "rank": 3
+  },
+  {
     "title": "一个小厂前端 Leader 如何筛选候选人？",
     "description": "在我看来，面试的唯一目的就是招人，一定是因为团队缺人需要补充，你才会放下手头的工作花时间去筛简历，约面试。那么作为面试官，这个时候就一定要告诉自己：",
     "url": "https://segmentfault.com/a/1190000041592141",
     "author": "杨成功",
     "home_url": "https://segmentfault.com/u/ruidoc",
     "votes": "25",
-    "rank": 3
-  },
-  {
-    "title": "神奇的 CSS，让文字智能适配背景颜色",
-    "description": "文本在黑色底色上表现为白色，在白色底色上表现为黑色。看似很复杂的一个效果，但是其实在 CSS 中非常好实现，今天就介绍这样一个小技巧，在 CSS 中，利用混合模式 mix-blend-mode: difference，让文字智能适配背...",
-    "url": "https://segmentfault.com/a/1190000041556519",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "32",
     "rank": 4
   },
   {
@@ -41,7 +41,7 @@
     "url": "https://segmentfault.com/a/1190000041580205",
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "26",
+    "votes": "27",
     "rank": 5
   },
   {
@@ -63,13 +63,31 @@
     "rank": 7
   },
   {
+    "title": "分享 15 个 Vue3 全家桶开发的避坑经验",
+    "description": "最近入门 Vue3 并完成 3 个项目，遇到问题蛮多的，今天就花点时间整理一下，和大家分享 15 个比较常见的问题，基本都贴出对应文档地址，还请多看文档~已经完成的 3 个项目基本都是使用 Vue3 (setup-script 模式)...",
+    "url": "https://segmentfault.com/a/1190000041679573",
+    "author": "pingan8787",
+    "home_url": "https://segmentfault.com/u/pingan8787",
+    "votes": "22",
+    "rank": 8
+  },
+  {
+    "title": "还在使用定时器吗？CSS 也能实现电子时钟",
+    "description": "欢迎关注我的公众号：前端侦探通常要做一个时钟，肯定离不开 JS 定时器。今天换一种思路，用 CSS 来实现一个时钟，如下：你也可以访问这个CSS time (codepen.io)查看实际效果当然借用了一点点 JS 用于初始化时间...",
+    "url": "https://segmentfault.com/a/1190000041661094",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "23",
+    "rank": 9
+  },
+  {
     "title": "Go 1.18 泛型全面讲解：一篇讲清泛型的全部",
     "description": "可是因为Go对泛型的支持时间跨度太大，有非常多的以“泛型”为关键字的文章都是在介绍Go1.18之前的旧泛型提案或者设计，而很多设计最终在Go1.18中被废弃或发生了更改。并且很多介绍Go1.18泛型的文章(包括官方的)都...",
     "url": "https://segmentfault.com/a/1190000041634906",
     "author": "WonderfulSoap",
     "home_url": "https://segmentfault.com/u/wonderfulsoap",
-    "votes": "22",
-    "rank": 8
+    "votes": "23",
+    "rank": 10
   },
   {
     "title": "2022招聘季 | 怎么准备面试？面试官一般会问些什么问题？ | web 前端",
@@ -78,7 +96,16 @@
     "author": "linong",
     "home_url": "https://segmentfault.com/u/linong",
     "votes": "24",
-    "rank": 9
+    "rank": 11
+  },
+  {
+    "title": "巧用 background-clip 实现超强的文字动效",
+    "description": "最近，有同学询问，如何使用 CSS 实现如下效果：看起来是个很有意思的动效。仔细思考一下，要想实现这类效果，其实用到的核心属性只有一个 -- background-clip: text。有意思的 background-clip: textbackground-...",
+    "url": "https://segmentfault.com/a/1190000041666096",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "24",
+    "rank": 12
   },
   {
     "title": "我们是如何解决偶发性的502错误的",
@@ -87,25 +114,7 @@
     "author": "张京",
     "home_url": "https://segmentfault.com/u/fengerzh",
     "votes": "14",
-    "rank": 10
-  },
-  {
-    "title": "巧用 background-clip 实现超强的文字动效",
-    "description": "最近，有同学询问，如何使用 CSS 实现如下效果：看起来是个很有意思的动效。仔细思考一下，要想实现这类效果，其实用到的核心属性只有一个 -- background-clip: text。有意思的 background-clip: textbackground-...",
-    "url": "https://segmentfault.com/a/1190000041666096",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "21",
-    "rank": 11
-  },
-  {
-    "title": "还在使用定时器吗？CSS 也能实现电子时钟",
-    "description": "欢迎关注我的公众号：前端侦探通常要做一个时钟，肯定离不开 JS 定时器。今天换一种思路，用 CSS 来实现一个时钟，如下：你也可以访问这个CSS time (codepen.io)查看实际效果当然借用了一点点 JS 用于初始化时间...",
-    "url": "https://segmentfault.com/a/1190000041661094",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "19",
-    "rank": 12
+    "rank": 13
   },
   {
     "title": "大裁员下，程序员如何做“副业”？",
@@ -114,7 +123,7 @@
     "author": "杨成功",
     "home_url": "https://segmentfault.com/u/ruidoc",
     "votes": "19",
-    "rank": 13
+    "rank": 14
   },
   {
     "title": "这 16 个 CSS 伪类，助你提升布局效率！",
@@ -123,7 +132,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "18",
-    "rank": 14
+    "rank": 15
   },
   {
     "title": "Redis 缓存击穿（失效）、缓存穿透、缓存雪崩怎么解决？",
@@ -132,7 +141,7 @@
     "author": "码哥字节",
     "home_url": "https://segmentfault.com/u/magebyte",
     "votes": "17",
-    "rank": 15
+    "rank": 16
   },
   {
     "title": "Offer 提速：如何写出有亮点的简历",
@@ -140,8 +149,17 @@
     "url": "https://segmentfault.com/a/1190000041634339",
     "author": "范文杰",
     "home_url": "https://segmentfault.com/u/fanwenjie",
-    "votes": "18",
-    "rank": 16
+    "votes": "19",
+    "rank": 17
+  },
+  {
+    "title": "11+ chrome高级调试技巧，学会效率直接提升666%",
+    "description": "也许你我素未谋面，但很可能相见恨晚，我是前端胖头鱼前言chrome浏览器作为前端童鞋的老婆，相信你一定不陌生。调页面、写BUG、画样式、看php片少了它整个世界都不香了。不信？一起来看看我们的老婆有多厉害....1...",
+    "url": "https://segmentfault.com/a/1190000041683548",
+    "author": "前端胖头鱼",
+    "home_url": "https://segmentfault.com/u/116263",
+    "votes": "20",
+    "rank": 18
   },
   {
     "title": "2022招聘季｜如何写一份好的前端面试简历?",
@@ -150,7 +168,16 @@
     "author": "wscats",
     "home_url": "https://segmentfault.com/u/wscats",
     "votes": "18",
-    "rank": 17
+    "rank": 19
+  },
+  {
+    "title": "Koa2 搭建信令服务器，JS 也能搞定视频通话！",
+    "description": "在实际应用场景中，信令服务器的本质就是一台 WeSocket 服务器，两个客户端必须与这个服务器建立 WeSocket 连接，才能互相发送消息。",
+    "url": "https://segmentfault.com/a/1190000041668070",
+    "author": "杨成功",
+    "home_url": "https://segmentfault.com/u/ruidoc",
+    "votes": "13",
+    "rank": 20
   },
   {
     "title": "老板让我 7 天研究一个 Plausible 统计",
@@ -159,7 +186,7 @@
     "author": "kumfo",
     "home_url": "https://segmentfault.com/u/kumfo",
     "votes": "12",
-    "rank": 18
+    "rank": 21
   },
   {
     "title": "17 个实用的图像特效库",
@@ -168,7 +195,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "17",
-    "rank": 19
+    "rank": 22
   },
   {
     "title": "招聘季有奖征文活动丨面试趣事等你分享",
@@ -177,7 +204,7 @@
     "author": "SegmentFault思否",
     "home_url": "https://segmentfault.com/u/segmentfault",
     "votes": "14",
-    "rank": 20
+    "rank": 23
   },
   {
     "title": "20多个好用的 Vue 组件库，请查收！",
@@ -185,8 +212,8 @@
     "url": "https://segmentfault.com/a/1190000041573314",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "15",
-    "rank": 21
+    "votes": "16",
+    "rank": 24
   },
   {
     "title": "3D 沙盒游戏之避障踩坑和实现之旅",
@@ -195,7 +222,7 @@
     "author": "凹凸实验室",
     "home_url": "https://segmentfault.com/u/o2team",
     "votes": "13",
-    "rank": 22
+    "rank": 25
   },
   {
     "title": "2022招聘季｜从招聘方的角度理解求职",
@@ -204,7 +231,7 @@
     "author": "Meathill",
     "home_url": "https://segmentfault.com/u/meathill",
     "votes": "15",
-    "rank": 23
+    "rank": 26
   },
   {
     "title": "搭建 VuePress 站点必做的 10 个优化",
@@ -213,7 +240,7 @@
     "author": "冴羽",
     "home_url": "https://segmentfault.com/u/yayu",
     "votes": "13",
-    "rank": 24
+    "rank": 27
   },
   {
     "title": "了不起的Chrome浏览器（13）：Chrome 100支持多屏应用了！",
@@ -222,7 +249,7 @@
     "author": "寒雁",
     "home_url": "https://segmentfault.com/u/kiwenlau",
     "votes": "9",
-    "rank": 25
+    "rank": 28
   },
   {
     "title": "什么是 LRU 算法？",
@@ -231,7 +258,7 @@
     "author": "Shenfq",
     "home_url": "https://segmentfault.com/u/shenfq",
     "votes": "10",
-    "rank": 26
+    "rank": 29
   },
   {
     "title": "卡颂：30岁程序员选择躺平",
@@ -240,33 +267,6 @@
     "author": "卡颂",
     "home_url": "https://segmentfault.com/u/kasong",
     "votes": "14",
-    "rank": 27
-  },
-  {
-    "title": "Koa2 搭建信令服务器，JS 也能搞定视频通话！",
-    "description": "在实际应用场景中，信令服务器的本质就是一台 WeSocket 服务器，两个客户端必须与这个服务器建立 WeSocket 连接，才能互相发送消息。",
-    "url": "https://segmentfault.com/a/1190000041668070",
-    "author": "杨成功",
-    "home_url": "https://segmentfault.com/u/ruidoc",
-    "votes": "10",
-    "rank": 28
-  },
-  {
-    "title": "按照 Promise/A+ 规范逐行注释并实现 Promise",
-    "description": "现在前端越来越卷，不会手写 Promise 都不好意思面试了（手动狗头.jpg）。虽然没多少人会在业务中用自己实现的 Promise，但是，实现 Promise 的过程会让你对 Promise 更加了解，出了问题也可以更好地排查。",
-    "url": "https://segmentfault.com/a/1190000041640722",
-    "author": "Asheng",
-    "home_url": "https://segmentfault.com/u/ashengtan",
-    "votes": "10",
-    "rank": 29
-  },
-  {
-    "title": "数据库与缓存双写一致性",
-    "description": "先做一个说明，从理论上来说，有两种处理思维，一种需保证数据强一致性，这样性能肯定大打折扣；另外我们可以采用最终一致性，保证性能的基础上，允许一定时间内的数据不一致，但最终数据是一致的。",
-    "url": "https://segmentfault.com/a/1190000041576417",
-    "author": "超大只乌龟",
-    "home_url": "https://segmentfault.com/u/chenwugui",
-    "votes": "13",
     "rank": 30
   }
 ]
