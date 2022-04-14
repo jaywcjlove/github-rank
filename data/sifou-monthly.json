@@ -5,7 +5,7 @@
     "url": "https://segmentfault.com/a/1190000041572883",
     "author": "江辰",
     "home_url": "https://segmentfault.com/u/thomas_5b0e5d1b64584",
-    "votes": "62",
+    "votes": "63",
     "rank": 1
   },
   {
@@ -36,13 +36,31 @@
     "rank": 4
   },
   {
+    "title": "分享 15 个 Vue3 全家桶开发的避坑经验",
+    "description": "最近入门 Vue3 并完成 3 个项目，遇到问题蛮多的，今天就花点时间整理一下，和大家分享 15 个比较常见的问题，基本都贴出对应文档地址，还请多看文档~已经完成的 3 个项目基本都是使用 Vue3 (setup-script 模式)...",
+    "url": "https://segmentfault.com/a/1190000041679573",
+    "author": "pingan8787",
+    "home_url": "https://segmentfault.com/u/pingan8787",
+    "votes": "26",
+    "rank": 5
+  },
+  {
     "title": "CSS 也能自动补全字符串？",
     "description": "欢迎关注我的公众号：前端侦探很多时候都会碰到字符串补全的需求，典型的例子就时间或者日期中的补零操作，例如 {代码...} 通常的做法是 {代码...} 后来，JS 中出现了原生的补全方法padStart()和padEnd()，如下 {...",
     "url": "https://segmentfault.com/a/1190000041580205",
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "27",
-    "rank": 5
+    "votes": "28",
+    "rank": 6
+  },
+  {
+    "title": "还在使用定时器吗？CSS 也能实现电子时钟",
+    "description": "欢迎关注我的公众号：前端侦探通常要做一个时钟，肯定离不开 JS 定时器。今天换一种思路，用 CSS 来实现一个时钟，如下：你也可以访问这个CSS time (codepen.io)查看实际效果当然借用了一点点 JS 用于初始化时间...",
+    "url": "https://segmentfault.com/a/1190000041661094",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "25",
+    "rank": 7
   },
   {
     "title": "5种限流算法，7种限流方式，挡住突发流量？",
@@ -51,7 +69,25 @@
     "author": "程序猿阿朗",
     "home_url": "https://segmentfault.com/u/niumoo",
     "votes": "25",
-    "rank": 6
+    "rank": 8
+  },
+  {
+    "title": "Go 1.18 泛型全面讲解：一篇讲清泛型的全部",
+    "description": "可是因为Go对泛型的支持时间跨度太大，有非常多的以“泛型”为关键字的文章都是在介绍Go1.18之前的旧泛型提案或者设计，而很多设计最终在Go1.18中被废弃或发生了更改。并且很多介绍Go1.18泛型的文章(包括官方的)都...",
+    "url": "https://segmentfault.com/a/1190000041634906",
+    "author": "WonderfulSoap",
+    "home_url": "https://segmentfault.com/u/wonderfulsoap",
+    "votes": "25",
+    "rank": 9
+  },
+  {
+    "title": "巧用 background-clip 实现超强的文字动效",
+    "description": "最近，有同学询问，如何使用 CSS 实现如下效果：看起来是个很有意思的动效。仔细思考一下，要想实现这类效果，其实用到的核心属性只有一个 -- background-clip: text。有意思的 background-clip: textbackground-...",
+    "url": "https://segmentfault.com/a/1190000041666096",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "29",
+    "rank": 10
   },
   {
     "title": "穷追猛打，阿里二面问了我30分钟从URL输入到渲染...",
@@ -60,34 +96,16 @@
     "author": "前端私教年年",
     "home_url": "https://segmentfault.com/u/qiuzhisijiaoniannian",
     "votes": "23",
-    "rank": 7
+    "rank": 11
   },
   {
-    "title": "分享 15 个 Vue3 全家桶开发的避坑经验",
-    "description": "最近入门 Vue3 并完成 3 个项目，遇到问题蛮多的，今天就花点时间整理一下，和大家分享 15 个比较常见的问题，基本都贴出对应文档地址，还请多看文档~已经完成的 3 个项目基本都是使用 Vue3 (setup-script 模式)...",
-    "url": "https://segmentfault.com/a/1190000041679573",
-    "author": "pingan8787",
-    "home_url": "https://segmentfault.com/u/pingan8787",
-    "votes": "22",
-    "rank": 8
-  },
-  {
-    "title": "还在使用定时器吗？CSS 也能实现电子时钟",
-    "description": "欢迎关注我的公众号：前端侦探通常要做一个时钟，肯定离不开 JS 定时器。今天换一种思路，用 CSS 来实现一个时钟，如下：你也可以访问这个CSS time (codepen.io)查看实际效果当然借用了一点点 JS 用于初始化时间...",
-    "url": "https://segmentfault.com/a/1190000041661094",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
+    "title": "11+ chrome高级调试技巧，学会效率直接提升666%",
+    "description": "也许你我素未谋面，但很可能相见恨晚，我是前端胖头鱼前言chrome浏览器作为前端童鞋的老婆，相信你一定不陌生。调页面、写BUG、画样式、看php片少了它整个世界都不香了。不信？一起来看看我们的老婆有多厉害....1...",
+    "url": "https://segmentfault.com/a/1190000041683548",
+    "author": "前端胖头鱼",
+    "home_url": "https://segmentfault.com/u/116263",
     "votes": "23",
-    "rank": 9
-  },
-  {
-    "title": "Go 1.18 泛型全面讲解：一篇讲清泛型的全部",
-    "description": "可是因为Go对泛型的支持时间跨度太大，有非常多的以“泛型”为关键字的文章都是在介绍Go1.18之前的旧泛型提案或者设计，而很多设计最终在Go1.18中被废弃或发生了更改。并且很多介绍Go1.18泛型的文章(包括官方的)都...",
-    "url": "https://segmentfault.com/a/1190000041634906",
-    "author": "WonderfulSoap",
-    "home_url": "https://segmentfault.com/u/wonderfulsoap",
-    "votes": "23",
-    "rank": 10
+    "rank": 12
   },
   {
     "title": "2022招聘季 | 怎么准备面试？面试官一般会问些什么问题？ | web 前端",
@@ -96,16 +114,7 @@
     "author": "linong",
     "home_url": "https://segmentfault.com/u/linong",
     "votes": "24",
-    "rank": 11
-  },
-  {
-    "title": "巧用 background-clip 实现超强的文字动效",
-    "description": "最近，有同学询问，如何使用 CSS 实现如下效果：看起来是个很有意思的动效。仔细思考一下，要想实现这类效果，其实用到的核心属性只有一个 -- background-clip: text。有意思的 background-clip: textbackground-...",
-    "url": "https://segmentfault.com/a/1190000041666096",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "24",
-    "rank": 12
+    "rank": 13
   },
   {
     "title": "我们是如何解决偶发性的502错误的",
@@ -114,7 +123,25 @@
     "author": "张京",
     "home_url": "https://segmentfault.com/u/fengerzh",
     "votes": "14",
-    "rank": 13
+    "rank": 14
+  },
+  {
+    "title": "Redis 缓存击穿（失效）、缓存穿透、缓存雪崩怎么解决？",
+    "description": "用 Redis 作为缓存系统正好可以弥补 DB 的不足，「码哥」在自己的 MacBook Pro 2019 上执行 Redis 性能测试如下：",
+    "url": "https://segmentfault.com/a/1190000041586984",
+    "author": "码哥字节",
+    "home_url": "https://segmentfault.com/u/magebyte",
+    "votes": "19",
+    "rank": 15
+  },
+  {
+    "title": "Offer 提速：如何写出有亮点的简历",
+    "description": "声明：本文所有观点均代表我个人意见，不代表公司、部门、团队立场/意见，关于内容的对错、价值观由读者自行判断，欢迎友好沟通探讨，希望能和而不同。",
+    "url": "https://segmentfault.com/a/1190000041634339",
+    "author": "范文杰",
+    "home_url": "https://segmentfault.com/u/fanwenjie",
+    "votes": "21",
+    "rank": 16
   },
   {
     "title": "大裁员下，程序员如何做“副业”？",
@@ -123,7 +150,7 @@
     "author": "杨成功",
     "home_url": "https://segmentfault.com/u/ruidoc",
     "votes": "19",
-    "rank": 14
+    "rank": 17
   },
   {
     "title": "这 16 个 CSS 伪类，助你提升布局效率！",
@@ -132,43 +159,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "18",
-    "rank": 15
-  },
-  {
-    "title": "Redis 缓存击穿（失效）、缓存穿透、缓存雪崩怎么解决？",
-    "description": "用 Redis 作为缓存系统正好可以弥补 DB 的不足，「码哥」在自己的 MacBook Pro 2019 上执行 Redis 性能测试如下：",
-    "url": "https://segmentfault.com/a/1190000041586984",
-    "author": "码哥字节",
-    "home_url": "https://segmentfault.com/u/magebyte",
-    "votes": "17",
-    "rank": 16
-  },
-  {
-    "title": "Offer 提速：如何写出有亮点的简历",
-    "description": "声明：本文所有观点均代表我个人意见，不代表公司、部门、团队立场/意见，关于内容的对错、价值观由读者自行判断，欢迎友好沟通探讨，希望能和而不同。",
-    "url": "https://segmentfault.com/a/1190000041634339",
-    "author": "范文杰",
-    "home_url": "https://segmentfault.com/u/fanwenjie",
-    "votes": "19",
-    "rank": 17
-  },
-  {
-    "title": "11+ chrome高级调试技巧，学会效率直接提升666%",
-    "description": "也许你我素未谋面，但很可能相见恨晚，我是前端胖头鱼前言chrome浏览器作为前端童鞋的老婆，相信你一定不陌生。调页面、写BUG、画样式、看php片少了它整个世界都不香了。不信？一起来看看我们的老婆有多厉害....1...",
-    "url": "https://segmentfault.com/a/1190000041683548",
-    "author": "前端胖头鱼",
-    "home_url": "https://segmentfault.com/u/116263",
-    "votes": "20",
     "rank": 18
-  },
-  {
-    "title": "2022招聘季｜如何写一份好的前端面试简历?",
-    "description": "在写简历之前，我们必须清楚的了解一件事情，那就是简历是什么？它不是人生履历，不是项目清单，也不是技能大放送。简历的存在只有一个目的 —— 帮你约到面试。只要能达到这个目的，简历可以是一段视频，一个开源...",
-    "url": "https://segmentfault.com/a/1190000041542431",
-    "author": "wscats",
-    "home_url": "https://segmentfault.com/u/wscats",
-    "votes": "18",
-    "rank": 19
   },
   {
     "title": "Koa2 搭建信令服务器，JS 也能搞定视频通话！",
@@ -176,8 +167,8 @@
     "url": "https://segmentfault.com/a/1190000041668070",
     "author": "杨成功",
     "home_url": "https://segmentfault.com/u/ruidoc",
-    "votes": "13",
-    "rank": 20
+    "votes": "15",
+    "rank": 19
   },
   {
     "title": "老板让我 7 天研究一个 Plausible 统计",
@@ -186,7 +177,7 @@
     "author": "kumfo",
     "home_url": "https://segmentfault.com/u/kumfo",
     "votes": "12",
-    "rank": 21
+    "rank": 20
   },
   {
     "title": "17 个实用的图像特效库",
@@ -195,6 +186,15 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "17",
+    "rank": 21
+  },
+  {
+    "title": "搭建 VuePress 站点必做的 10 个优化",
+    "description": "前言在 《一篇带你用 VuePress + Github Pages 搭建博客》中，我们使用 VuePress 搭建了一个博客，最终的效果查看：TypeScript 中文文档。在搭建这样一个博客后，其实还有很多的优化工作需要做，本篇我们来盘点一...",
+    "url": "https://segmentfault.com/a/1190000041593877",
+    "author": "冴羽",
+    "home_url": "https://segmentfault.com/u/yayu",
+    "votes": "14",
     "rank": 22
   },
   {
@@ -234,31 +234,13 @@
     "rank": 26
   },
   {
-    "title": "搭建 VuePress 站点必做的 10 个优化",
-    "description": "前言在 《一篇带你用 VuePress + Github Pages 搭建博客》中，我们使用 VuePress 搭建了一个博客，最终的效果查看：TypeScript 中文文档。在搭建这样一个博客后，其实还有很多的优化工作需要做，本篇我们来盘点一...",
-    "url": "https://segmentfault.com/a/1190000041593877",
-    "author": "冴羽",
-    "home_url": "https://segmentfault.com/u/yayu",
-    "votes": "13",
-    "rank": 27
-  },
-  {
     "title": "了不起的Chrome浏览器（13）：Chrome 100支持多屏应用了！",
     "description": "Deprecate the document.domain setter是一个影响很大的breaking change，请大家务必注意排查风险。计划于今年9月份发布的Chrome 106将不再支持通过修改document.domain来绕开同源策略（same origin policy）的限...",
     "url": "https://segmentfault.com/a/1190000041630398",
     "author": "寒雁",
     "home_url": "https://segmentfault.com/u/kiwenlau",
     "votes": "9",
-    "rank": 28
-  },
-  {
-    "title": "什么是 LRU 算法？",
-    "description": "缓存 是我们写代码过程中常用的一种手段，是一种空间换时间的做法。就拿我们经常使用的 HTTP 协议，其中也存在强缓存和协商缓存两种缓存方式。当我们打开一个网站的时候，浏览器会查询该请求的响应头，通过判断响...",
-    "url": "https://segmentfault.com/a/1190000041542627",
-    "author": "Shenfq",
-    "home_url": "https://segmentfault.com/u/shenfq",
-    "votes": "10",
-    "rank": 29
+    "rank": 27
   },
   {
     "title": "卡颂：30岁程序员选择躺平",
@@ -267,6 +249,24 @@
     "author": "卡颂",
     "home_url": "https://segmentfault.com/u/kasong",
     "votes": "14",
+    "rank": 28
+  },
+  {
+    "title": "按照 Promise/A+ 规范逐行注释并实现 Promise",
+    "description": "现在前端越来越卷，不会手写 Promise 都不好意思面试了（手动狗头.jpg）。虽然没多少人会在业务中用自己实现的 Promise，但是，实现 Promise 的过程会让你对 Promise 更加了解，出了问题也可以更好地排查。",
+    "url": "https://segmentfault.com/a/1190000041640722",
+    "author": "Asheng",
+    "home_url": "https://segmentfault.com/u/ashengtan",
+    "votes": "12",
+    "rank": 29
+  },
+  {
+    "title": "数据库与缓存双写一致性",
+    "description": "先做一个说明，从理论上来说，有两种处理思维，一种需保证数据强一致性，这样性能肯定大打折扣；另外我们可以采用最终一致性，保证性能的基础上，允许一定时间内的数据不一致，但最终数据是一致的。",
+    "url": "https://segmentfault.com/a/1190000041576417",
+    "author": "超大只乌龟",
+    "home_url": "https://segmentfault.com/u/chenwugui",
+    "votes": "13",
     "rank": 30
   }
 ]
