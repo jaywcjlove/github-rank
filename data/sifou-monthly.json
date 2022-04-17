@@ -9,31 +9,22 @@
     "rank": 1
   },
   {
-    "title": "分享 15 个 Vue3 全家桶开发的避坑经验",
-    "description": "最近入门 Vue3 并完成 3 个项目，遇到问题蛮多的，今天就花点时间整理一下，和大家分享 15 个比较常见的问题，基本都贴出对应文档地址，还请多看文档~已经完成的 3 个项目基本都是使用 Vue3 (setup-script 模式)...",
-    "url": "https://segmentfault.com/a/1190000041679573",
-    "author": "pingan8787",
-    "home_url": "https://segmentfault.com/u/pingan8787",
-    "votes": "34",
-    "rank": 2
-  },
-  {
     "title": "还在使用定时器吗？CSS 也能实现电子时钟",
     "description": "欢迎关注我的公众号：前端侦探通常要做一个时钟，肯定离不开 JS 定时器。今天换一种思路，用 CSS 来实现一个时钟，如下：你也可以访问这个CSS time (codepen.io)查看实际效果当然借用了一点点 JS 用于初始化时间...",
     "url": "https://segmentfault.com/a/1190000041661094",
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "31",
-    "rank": 3
+    "votes": "33",
+    "rank": 2
   },
   {
-    "title": "11+ chrome高级调试技巧，学会效率直接提升666%",
-    "description": "也许你我素未谋面，但很可能相见恨晚，我是前端胖头鱼前言chrome浏览器作为前端童鞋的老婆，相信你一定不陌生。调页面、写BUG、画样式、看php片少了它整个世界都不香了。不信？一起来看看我们的老婆有多厉害....1...",
-    "url": "https://segmentfault.com/a/1190000041683548",
-    "author": "前端胖头鱼",
-    "home_url": "https://segmentfault.com/u/116263",
-    "votes": "31",
-    "rank": 4
+    "title": "分享 15 个 Vue3 全家桶开发的避坑经验",
+    "description": "最近入门 Vue3 并完成 3 个项目，遇到问题蛮多的，今天就花点时间整理一下，和大家分享 15 个比较常见的问题，基本都贴出对应文档地址，还请多看文档~已经完成的 3 个项目基本都是使用 Vue3 (setup-script 模式)...",
+    "url": "https://segmentfault.com/a/1190000041679573",
+    "author": "pingan8787",
+    "home_url": "https://segmentfault.com/u/pingan8787",
+    "votes": "35",
+    "rank": 3
   },
   {
     "title": "Go 1.18 泛型全面讲解：一篇讲清泛型的全部",
@@ -41,8 +32,8 @@
     "url": "https://segmentfault.com/a/1190000041634906",
     "author": "WonderfulSoap",
     "home_url": "https://segmentfault.com/u/wonderfulsoap",
-    "votes": "28",
-    "rank": 5
+    "votes": "30",
+    "rank": 4
   },
   {
     "title": "巧用 background-clip 实现超强的文字动效",
@@ -50,7 +41,16 @@
     "url": "https://segmentfault.com/a/1190000041666096",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "31",
+    "votes": "32",
+    "rank": 5
+  },
+  {
+    "title": "11+ chrome高级调试技巧，学会效率直接提升666%",
+    "description": "也许你我素未谋面，但很可能相见恨晚，我是前端胖头鱼前言chrome浏览器作为前端童鞋的老婆，相信你一定不陌生。调页面、写BUG、画样式、看php片少了它整个世界都不香了。不信？一起来看看我们的老婆有多厉害....1...",
+    "url": "https://segmentfault.com/a/1190000041683548",
+    "author": "前端胖头鱼",
+    "home_url": "https://segmentfault.com/u/116263",
+    "votes": "33",
     "rank": 6
   },
   {
@@ -90,31 +90,22 @@
     "rank": 10
   },
   {
+    "title": "Redis 缓存击穿（失效）、缓存穿透、缓存雪崩怎么解决？",
+    "description": "用 Redis 作为缓存系统正好可以弥补 DB 的不足，「码哥」在自己的 MacBook Pro 2019 上执行 Redis 性能测试如下：",
+    "url": "https://segmentfault.com/a/1190000041586984",
+    "author": "码哥字节",
+    "home_url": "https://segmentfault.com/u/magebyte",
+    "votes": "20",
+    "rank": 11
+  },
+  {
     "title": "我们是如何解决偶发性的502错误的",
     "description": "从ingress的监控中心，我们看到，失败率虽然不高，但始终保持在0.05到0.1的水平：我们用这样的条件去查询，发现绝大部分错误是502错误： {代码...} 那么502错误到底是个什么错误呢？百度百科给出的解释是：502 Ba...",
     "url": "https://segmentfault.com/a/1190000041651450",
     "author": "张京",
     "home_url": "https://segmentfault.com/u/fengerzh",
     "votes": "14",
-    "rank": 11
-  },
-  {
-    "title": "Redis 缓存击穿（失效）、缓存穿透、缓存雪崩怎么解决？",
-    "description": "用 Redis 作为缓存系统正好可以弥补 DB 的不足，「码哥」在自己的 MacBook Pro 2019 上执行 Redis 性能测试如下：",
-    "url": "https://segmentfault.com/a/1190000041586984",
-    "author": "码哥字节",
-    "home_url": "https://segmentfault.com/u/magebyte",
-    "votes": "19",
     "rank": 12
-  },
-  {
-    "title": "大裁员下，程序员如何做“副业”？",
-    "description": "前几天有幸看了尤雨溪尤大的直播，他们谈到一个话题，是说目前前端人，或者是整个程序员群体如何做副业？近年来互联网行情下降，好多人都在思考要不要搞个副业来抵御风险。",
-    "url": "https://segmentfault.com/a/1190000041627230",
-    "author": "杨成功",
-    "home_url": "https://segmentfault.com/u/ruidoc",
-    "votes": "20",
-    "rank": 13
   },
   {
     "title": "Koa2 搭建信令服务器，JS 也能搞定视频通话！",
@@ -123,6 +114,15 @@
     "author": "杨成功",
     "home_url": "https://segmentfault.com/u/ruidoc",
     "votes": "16",
+    "rank": 13
+  },
+  {
+    "title": "大裁员下，程序员如何做“副业”？",
+    "description": "前几天有幸看了尤雨溪尤大的直播，他们谈到一个话题，是说目前前端人，或者是整个程序员群体如何做副业？近年来互联网行情下降，好多人都在思考要不要搞个副业来抵御风险。",
+    "url": "https://segmentfault.com/a/1190000041627230",
+    "author": "杨成功",
+    "home_url": "https://segmentfault.com/u/ruidoc",
+    "votes": "20",
     "rank": 14
   },
   {
@@ -185,7 +185,7 @@
     "url": "https://segmentfault.com/a/1190000041700998",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "13",
+    "votes": "14",
     "rank": 21
   },
   {
@@ -216,21 +216,21 @@
     "rank": 24
   },
   {
-    "title": "数据库与缓存双写一致性",
-    "description": "先做一个说明，从理论上来说，有两种处理思维，一种需保证数据强一致性，这样性能肯定大打折扣；另外我们可以采用最终一致性，保证性能的基础上，允许一定时间内的数据不一致，但最终数据是一致的。",
-    "url": "https://segmentfault.com/a/1190000041576417",
-    "author": "超大只乌龟",
-    "home_url": "https://segmentfault.com/u/chenwugui",
-    "votes": "13",
-    "rank": 25
-  },
-  {
     "title": "10个有用的自定义钩子vue.js",
     "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
     "url": "https://segmentfault.com/a/1190000041598901",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "14",
+    "rank": 25
+  },
+  {
+    "title": "数据库与缓存双写一致性",
+    "description": "先做一个说明，从理论上来说，有两种处理思维，一种需保证数据强一致性，这样性能肯定大打折扣；另外我们可以采用最终一致性，保证性能的基础上，允许一定时间内的数据不一致，但最终数据是一致的。",
+    "url": "https://segmentfault.com/a/1190000041576417",
+    "author": "超大只乌龟",
+    "home_url": "https://segmentfault.com/u/chenwugui",
+    "votes": "13",
     "rank": 26
   },
   {
@@ -252,21 +252,21 @@
     "rank": 28
   },
   {
+    "title": "硬核 | Redis 布隆（Bloom Filter）过滤器原理与实战",
+    "description": "在Redis 缓存击穿（失效）、缓存穿透、缓存雪崩怎么解决？中我们说到可以使用布隆过滤器避免「缓存穿透」。码哥，布隆过滤器还能在哪些场景使用呀？比如我们使用「码哥跳动」开发的「明日头条」APP 看新闻，如何...",
+    "url": "https://segmentfault.com/a/1190000041686261",
+    "author": "码哥字节",
+    "home_url": "https://segmentfault.com/u/magebyte",
+    "votes": "12",
+    "rank": 29
+  },
+  {
     "title": "一些关于react的keep-alive功能相关知识在这里(上)",
     "description": "这是在2022年开发中PM提的一个需求, 某个table被用户输入了一些搜搜条件并且浏览到了第3页, 那如果我跳转到其他路由后返回当前页面, 希望搜索条件还在, 并且仍处于第三页, 这不就是vue...",
     "url": "https://segmentfault.com/a/1190000041683300",
     "author": "lulu_up",
     "home_url": "https://segmentfault.com/u/lulu_up",
     "votes": "11",
-    "rank": 29
-  },
-  {
-    "title": "编程中常用的加密算法",
-    "description": "前言编程中常见的加密算法有以下几种，它们在不同场景中分别有应用。除信息摘要算法外，其它加密方式都会需要密钥。信息摘要算法对称加密算法非对称加密算法密钥密钥（key，又常称金钥）是指某个用来完成加密、解...",
-    "url": "https://segmentfault.com/a/1190000041569757",
-    "author": "编程码农",
-    "home_url": "https://segmentfault.com/u/onlythinking",
-    "votes": "17",
     "rank": 30
   }
 ]
