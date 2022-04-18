@@ -1,47 +1,29 @@
 [
   {
-    "title": "深入解析JVM-Java对象头组成",
-    "description": "Mark Word :用于存储对象自身的运行时数据， 如哈希码（HashCode）、GC分代年龄、锁状态标志、线程持有的锁、偏向线程ID、偏向时间戳等",
-    "url": "https://segmentfault.com/a/1190000041714558",
-    "author": "janyxe",
-    "home_url": "https://segmentfault.com/u/jany",
+    "title": "IDEA小技巧：Debug时如何优雅地制造异常？",
+    "description": "但是，在开发过程中有一些情况，我们需要测试程序对异常的处理逻辑是否正确，这个时候就需要我们在程序运行时主动的抛出异常才会触发相关逻辑来验证正确性，比较常见的场景有：事务是否会回滚、Web层的统一异常处...",
+    "url": "https://segmentfault.com/a/1190000041715160",
+    "author": "程序猿DD",
+    "home_url": "https://segmentfault.com/u/coderdd",
     "votes": "1",
     "rank": 1
   },
   {
-    "title": "基于React.js的后台管理系统开发全过程(二)",
-    "description": "ok，我们完成了最基本的二次封装。这样使用起来好像和直接使用axios并没有什么区别，让我们继续包装一下。在Api文件夹下再创建一个index.js文件，来存放我们后续可能需要的各种类型的请求方法。",
-    "url": "https://segmentfault.com/a/1190000041713493",
-    "author": "韩xiao方MY",
-    "home_url": "https://segmentfault.com/u/jiaolvdekaixinguo",
+    "title": "响应式网页中的高度设计，你认真的吗？",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000041717270",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "1",
     "rank": 2
   },
   {
-    "title": "Redis的所有操作都是原子性？",
-    "description": "性能高 – Redis能读的速度是110000次/s,写的速度是81000次/s 。丰富的数据类型 – Redis支持二进制案例的 Strings, Lists, Hashes, Sets 及 Ordered Sets 数据类型操作。原子 – Redis的所有操作都是原子性的，意思...",
-    "url": "https://segmentfault.com/a/1190000041712840",
-    "author": "捣蛋的青椒",
-    "home_url": "https://segmentfault.com/u/daodandeqingjiao",
+    "title": "stream.map 和 stream.foreach 的区别",
+    "description": "我们在使用集合或数组对元素进行操作时往往会遇到这种情况：通过对不同类型的存储元素，按照特定条件进行查找、排序、等操作时往往会写一大段代码，而且更要命的是，不同类型的数据，操作的方法也不一样，比如一...",
+    "url": "https://segmentfault.com/a/1190000041715744",
+    "author": "Haoo_是个程序员",
+    "home_url": "https://segmentfault.com/u/suren_6225661042a5d",
     "votes": "1",
     "rank": 3
-  },
-  {
-    "title": "Python几种主流框架",
-    "description": "Django 应该是最出名的Python框架，GAE甚至Erlang都有框架受它影响。Django是走大而全的方向，它最出名的是其全自动化的管理后台：只需要使用起ORM，做简单的对象定义，它就能自动生成数据库结构、以及全功能的管...",
-    "url": "https://segmentfault.com/a/1190000041712404",
-    "author": "Python技术大本营",
-    "home_url": "https://segmentfault.com/u/bianchengdandan",
-    "votes": "1",
-    "rank": 4
-  },
-  {
-    "title": "Python自动化--6. 写一个python程序",
-    "description": "python程序6.1 使用vim写python程序生产环境中，我们会将程序的代码写成一个文件，这个文件就成为一个python程序文件，文件名以 .py 为结尾。猜数字",
-    "url": "https://segmentfault.com/a/1190000041712382",
-    "author": "Python技术大本营",
-    "home_url": "https://segmentfault.com/u/bianchengdandan",
-    "votes": "1",
-    "rank": 5
   }
 ]
