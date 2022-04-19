@@ -9,11 +9,11 @@
     "rank": 1
   },
   {
-    "title": "硬核 | Redis 布隆（Bloom Filter）过滤器原理与实战",
-    "description": "在Redis 缓存击穿（失效）、缓存穿透、缓存雪崩怎么解决？中我们说到可以使用布隆过滤器避免「缓存穿透」。码哥，布隆过滤器还能在哪些场景使用呀？比如我们使用「码哥跳动」开发的「明日头条」APP 看新闻，如何...",
-    "url": "https://segmentfault.com/a/1190000041686261",
-    "author": "码哥字节",
-    "home_url": "https://segmentfault.com/u/magebyte",
+    "title": "图说前端-送给您百张前端技术图谱",
+    "description": "TNTWeb - 全称腾讯新闻前端团队，组内小伙伴在 Web 前端、NodeJS 开发、UI 设计、移动 APP 等大前端领域都有所实践和积累。目前团队主要支持腾讯新闻各业务的前端开发，业务开发之余也积累沉淀了一些前端基础设施...",
+    "url": "https://segmentfault.com/a/1190000041707644",
+    "author": "TNTWEB",
+    "home_url": "https://segmentfault.com/u/tnfe",
     "votes": "12",
     "rank": 2
   },
@@ -54,21 +54,21 @@
     "rank": 6
   },
   {
-    "title": "图说前端-送给您百张前端技术图谱",
-    "description": "TNTWeb - 全称腾讯新闻前端团队，组内小伙伴在 Web 前端、NodeJS 开发、UI 设计、移动 APP 等大前端领域都有所实践和积累。目前团队主要支持腾讯新闻各业务的前端开发，业务开发之余也积累沉淀了一些前端基础设施...",
-    "url": "https://segmentfault.com/a/1190000041707644",
-    "author": "TNTWEB",
-    "home_url": "https://segmentfault.com/u/tnfe",
+    "title": "不借助 Javascript，利用 SVG 快速构建马赛克效果",
+    "description": "之前在公众号转发了好友 Vajoy 的一篇文章 -- 巧用 CSS 把图片马赛克风格化。核心是利用了 CSS 中一个很有意思的属性 -- image-rendering，它可以用于设置图像缩放算法。何为 image-rendering？CSS 属性 image-re...",
+    "url": "https://segmentfault.com/a/1190000041690130",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
     "votes": "8",
     "rank": 7
   },
   {
-    "title": "打造轻量级 WebIDE，看这一篇文章就够啦",
-    "description": "目前团队正在着手搭建低代码平台，该平台将支持 LowCode/ProCode 双模式在线开发，而 ProCode 场景便需要一个功能相对完备的运行在浏览器的 WebIDE。同时考虑到未来可能的一些区块代码平台的需求，将 WebIDE 模块...",
-    "url": "https://segmentfault.com/a/1190000041686221",
-    "author": "云音乐技术团队",
-    "home_url": "https://segmentfault.com/u/musicfe",
-    "votes": "3",
+    "title": "5个一定要学会的JavaScript新特性",
+    "description": "也许你我素未谋面，但很可能相见恨晚，我是前端胖头鱼前言JavaScript在不断地升级迭代，越来越多的新特性让我们的代码写起来变得简洁有趣，这篇文章会介绍5个新特性，一起研究一下把。1.# 使用\"Object.hasOwn\"替...",
+    "url": "https://segmentfault.com/a/1190000041694411",
+    "author": "前端胖头鱼",
+    "home_url": "https://segmentfault.com/u/116263",
+    "votes": "11",
     "rank": 8
   },
   {
@@ -77,7 +77,7 @@
     "url": "https://segmentfault.com/a/1190000041647249",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "4",
+    "votes": "5",
     "rank": 9
   },
   {
@@ -90,67 +90,13 @@
     "rank": 10
   },
   {
-    "title": "5个一定要学会的JavaScript新特性",
-    "description": "也许你我素未谋面，但很可能相见恨晚，我是前端胖头鱼前言JavaScript在不断地升级迭代，越来越多的新特性让我们的代码写起来变得简洁有趣，这篇文章会介绍5个新特性，一起研究一下把。1.# 使用\"Object.hasOwn\"替...",
-    "url": "https://segmentfault.com/a/1190000041694411",
-    "author": "前端胖头鱼",
-    "home_url": "https://segmentfault.com/u/116263",
-    "votes": "9",
-    "rank": 11
-  },
-  {
     "title": "《8分钟学会 Vue.js 原理》：一、template 字符串编译为抽象语法树 AST",
     "description": "《8分钟学会 Vue.js 原理》：一、template 字符串编译为抽象语法树 ASTVue.js 并没有什么神秘的魔法，模板渲染、虚拟 DOM diff，也都是一行行代码基于 API 实现的。本文将用几分钟时间，分章节讲清楚 Vue.js 2.0 ...",
     "url": "https://segmentfault.com/a/1190000041689097",
     "author": "帅到被人砍",
     "home_url": "https://segmentfault.com/u/juniortour",
     "votes": "4",
-    "rank": 12
-  },
-  {
-    "title": "墨菲安全正式发布 murphysec 开源项目！让开发者更安全的使用开源代码",
-    "description": "4 月 11 日，墨菲安全正式发布了其开源软件安全检测工具——murphysec 。据悉，该项目集合了易用、专业、创新等优势，意在帮助每一位开发者更安全的使用开源代码。",
-    "url": "https://segmentfault.com/a/1190000041684916",
-    "author": "MissD",
-    "home_url": "https://segmentfault.com/u/d2ms1shh",
-    "votes": "2",
-    "rank": 13
-  },
-  {
-    "title": "笔试算法题总结",
-    "description": "hashmap的原理这里不再讲述，不知道的小伙伴可以看这篇文章。Hash与HashMaphashmap数据结构的引入能帮助我们将O(n)的时间复杂度降低为O（1）的时间复杂度，代价是使用了O（n）的空间复杂度。这么一看好像功过参半...",
-    "url": "https://segmentfault.com/a/1190000041688073",
-    "author": "小强Zzz",
-    "home_url": "https://segmentfault.com/u/zhaokaiqiang",
-    "votes": "5",
-    "rank": 14
-  },
-  {
-    "title": "了解一下 ::target-text 选择器",
-    "description": "欢迎关注我的公众号：前端侦探最近在 MDN 官网看到了一个从未见过的选择器，::target-text。简单研究了一下，觉得还有点意思，也有点实际用处，现在分享一下。一、::target-text 是干什么的想必大家都用过:target...",
-    "url": "https://segmentfault.com/a/1190000041685048",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "4",
-    "rank": 15
-  },
-  {
-    "title": "不借助 Javascript，利用 SVG 快速构建马赛克效果",
-    "description": "之前在公众号转发了好友 Vajoy 的一篇文章 -- 巧用 CSS 把图片马赛克风格化。核心是利用了 CSS 中一个很有意思的属性 -- image-rendering，它可以用于设置图像缩放算法。何为 image-rendering？CSS 属性 image-re...",
-    "url": "https://segmentfault.com/a/1190000041690130",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "7",
-    "rank": 16
-  },
-  {
-    "title": "告别收费BI!如何自己动手做一个免费的可视化数据报表还支持文档在线预览？",
-    "description": "本人大学刚毕业目前在一家互联网公司从事产品运营工作，一季度刚过，公司需要我出一份产品运营数据报表，由于产品用户数据、订单数据等数据量太大，我希望找一款Bi产品，支持我做出一个精美的可视化报表，还可以...",
-    "url": "https://segmentfault.com/a/1190000041685816",
-    "author": "徐骏",
-    "home_url": "https://segmentfault.com/u/xujun_6253b72d8cc31",
-    "votes": "9",
-    "rank": 17
+    "rank": 11
   },
   {
     "title": "写给“未来的”组件库的调研和思考",
@@ -159,7 +105,16 @@
     "author": "玩弄心里的鬼",
     "home_url": "https://segmentfault.com/u/lizongyuan",
     "votes": "2",
-    "rank": 18
+    "rank": 12
+  },
+  {
+    "title": "后端学习值得收藏的一些开源电子书",
+    "description": "这是龙芯团队胡伟武老师等人编写的《计算机体系结构基础》（第三版）的开源版本。胡伟武是著名的计算机领域专家，任龙芯中科技术有限公司董事长，也是我国第一颗通用处理器龙芯的总设计师。",
+    "url": "https://segmentfault.com/a/1190000041691470",
+    "author": "LeanCloud",
+    "home_url": "https://segmentfault.com/u/leancloud",
+    "votes": "6",
+    "rank": 13
   },
   {
     "title": "冴羽答读者问：怎么才能像你一样写文章如喝水？",
@@ -168,7 +123,7 @@
     "author": "冴羽",
     "home_url": "https://segmentfault.com/u/yayu",
     "votes": "3",
-    "rank": 19
+    "rank": 14
   },
   {
     "title": "开发者必读：2022年移动应用趋势洞察白皮书",
@@ -177,25 +132,7 @@
     "author": "HMSCore",
     "home_url": "https://segmentfault.com/u/hms_core",
     "votes": "2",
-    "rank": 20
-  },
-  {
-    "title": "异步验证器防抖的补充 以及 记录动态组件遇到的问题",
-    "description": "补充这里对上文的异步验证器防抖做一点补充。[链接] {代码...} 上文的最后提到，发现这种写法可以。经过老师的判断后，发现几种写法的关键在于一个问题：每次获得新值的时候，fromControl是否会取消对上一个数据...",
-    "url": "https://segmentfault.com/a/1190000041688103",
-    "author": "weiewiyi",
-    "home_url": "https://segmentfault.com/u/chenchu_6110ed583800c",
-    "votes": "3",
-    "rank": 21
-  },
-  {
-    "title": "这篇手写 Promise 你一定要康康",
-    "description": "最近重温了一下 Q/Promise 的设计讲解，结合自己的理解和一些小优化，决定也来写一篇手写 Promise 的文章。本文的内容适合对 Promise 的使用有一定了解的童鞋，因为过程中不会过多解释 Promise 的基础操作。我们...",
-    "url": "https://segmentfault.com/a/1190000041687791",
-    "author": "deepfunc",
-    "home_url": "https://segmentfault.com/u/deepfunc",
-    "votes": "3",
-    "rank": 22
+    "rank": 15
   },
   {
     "title": "得物App H5秒开优化实战",
@@ -203,17 +140,8 @@
     "url": "https://segmentfault.com/a/1190000041701111",
     "author": "得物技术",
     "home_url": "https://segmentfault.com/u/dewujishu",
-    "votes": "2",
-    "rank": 23
-  },
-  {
-    "title": "后端学习值得收藏的一些开源电子书",
-    "description": "这是龙芯团队胡伟武老师等人编写的《计算机体系结构基础》（第三版）的开源版本。胡伟武是著名的计算机领域专家，任龙芯中科技术有限公司董事长，也是我国第一颗通用处理器龙芯的总设计师。",
-    "url": "https://segmentfault.com/a/1190000041691470",
-    "author": "LeanCloud",
-    "home_url": "https://segmentfault.com/u/leancloud",
-    "votes": "5",
-    "rank": 24
+    "votes": "3",
+    "rank": 16
   },
   {
     "title": "[性能优化] 为虚拟列表增加离屏渲染和缓存",
@@ -222,7 +150,16 @@
     "author": "皮小蛋",
     "home_url": "https://segmentfault.com/u/scaukk",
     "votes": "0",
-    "rank": 25
+    "rank": 17
+  },
+  {
+    "title": "搞懂 TypeScript 中的映射类型（Mapped Types）",
+    "description": "本文会和大家详细介绍 TypeScript 中的映射类型（Mapped Type），看完本文你将学到以下知识点：数学中的映射和 TS 中的映射类型的关系；TS 中映射类型的应用；TS 中映射类型修饰符的应用；接下来会先从「数学中的...",
+    "url": "https://segmentfault.com/a/1190000041715281",
+    "author": "pingan8787",
+    "home_url": "https://segmentfault.com/u/pingan8787",
+    "votes": "4",
+    "rank": 18
   },
   {
     "title": "支付宝小程序 横屏电子版签字 ，canvas实现",
@@ -231,7 +168,7 @@
     "author": "那年",
     "home_url": "https://segmentfault.com/u/nanian_5cd6881d3cc98",
     "votes": "1",
-    "rank": 26
+    "rank": 19
   },
   {
     "title": "天地图修改主题颜色修改背景色",
@@ -240,16 +177,7 @@
     "author": "SangSir",
     "home_url": "https://segmentfault.com/u/sangsir",
     "votes": "1",
-    "rank": 27
-  },
-  {
-    "title": "正则表达式提取 git 提交记录中的新增代码行",
-    "description": "最近有小伙伴提了个需求，想用正则表达式从一段 git 提交记录中提取出具体更新了哪些代码，简单来说就是 commit diff 展示的代码，需要把 代码前面带 + 和 - 的行剥离出来。",
-    "url": "https://segmentfault.com/a/1190000041697857",
-    "author": "Dushusir",
-    "home_url": "https://segmentfault.com/u/dushusir",
-    "votes": "1",
-    "rank": 28
+    "rank": 20
   },
   {
     "title": "Go语言轻松进阶",
@@ -258,15 +186,87 @@
     "author": "TIGERB",
     "home_url": "https://segmentfault.com/u/tigerb",
     "votes": "1",
+    "rank": 21
+  },
+  {
+    "title": "正则表达式提取 git 提交记录中的新增代码行",
+    "description": "最近有小伙伴提了个需求，想用正则表达式从一段 git 提交记录中提取出具体更新了哪些代码，简单来说就是 commit diff 展示的代码，需要把 代码前面带 + 和 - 的行剥离出来。",
+    "url": "https://segmentfault.com/a/1190000041697857",
+    "author": "Dushusir",
+    "home_url": "https://segmentfault.com/u/dushusir",
+    "votes": "1",
+    "rank": 22
+  },
+  {
+    "title": "ECMAScript 新提案:.findLast()和.findLastIndex()从尾到头搜索数组",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000041677593",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "1",
+    "rank": 23
+  },
+  {
+    "title": "gitlab CI/CD配置中遇到的问题",
+    "description": "先来说一下配置CI/CD的目的，我们在提交代码后即提交push请求后gitLab会自动生成一个pipeLine任务，如果我们想要在每次提交代码之后都跑一次单元测试就需要对其进行编辑，此外我们还可以在此运行我们自定义的脚本...",
+    "url": "https://segmentfault.com/a/1190000041711569",
+    "author": "李明",
+    "home_url": "https://segmentfault.com/u/pluto_612f55567eb8c",
+    "votes": "3",
+    "rank": 24
+  },
+  {
+    "title": "GitHub/GitLab配置SSH Key，以及RSA入门",
+    "description": "前言团队的项目近期更换到GitLab托管了，验证方式也从以前的HTTPS+SSH变成了纯SSH，所以就需要配置SSH Key。SSH的加密使用的RSA算法，文章末尾将给出一个简单的加密解密演示。一、生成公钥私钥对先看看无Key连接...",
+    "url": "https://segmentfault.com/a/1190000041713720",
+    "author": "LYX6666",
+    "home_url": "https://segmentfault.com/u/liuyuxuan6666",
+    "votes": "3",
+    "rank": 25
+  },
+  {
+    "title": "初看满头问号，看懂直接跪下！",
+    "description": "你好呀，我是歪歪。我最近在 stackoverflow 上看到一段代码，怎么说呢。就是初看一脸懵逼，看懂直接跪下！我先带你看看 stackoverflow 上的这个问题是啥，然后引出这段代码：[链接]问题特别简单，就一句话：谁能...",
+    "url": "https://segmentfault.com/a/1190000041696508",
+    "author": "why技术",
+    "home_url": "https://segmentfault.com/u/whyjishu",
+    "votes": "3",
+    "rank": 26
+  },
+  {
+    "title": "推荐个我在用的免费翻译软件，支持多家翻译API整合",
+    "description": "前段时间发了个关于《Spring支持PHP》的视频：点击查看然后有小伙伴留言说：“你这个翻译好像很好用的样子”。的确，我自己也觉得很好用。之前视频没看过的不知道是哪个，可以通过截图简单了解下：基本操作就是选中...",
+    "url": "https://segmentfault.com/a/1190000041695503",
+    "author": "程序猿DD",
+    "home_url": "https://segmentfault.com/u/coderdd",
+    "votes": "1",
+    "rank": 27
+  },
+  {
+    "title": "一个小目标的达成——Milvus 10,000 星！",
+    "description": "近日，开源项目 Milvus 在向量数据库征程上取得了新的里程碑——GitHub 10,000 星。虽然我们认为 star 数不是评价开源项目质量的唯一标准，但还是感谢每一位通过点星来支持 Milvus 项目的开发者。",
+    "url": "https://segmentfault.com/a/1190000041695335",
+    "author": "Zilliz",
+    "home_url": "https://segmentfault.com/u/zilliz",
+    "votes": "1",
+    "rank": 28
+  },
+  {
+    "title": "都“毕业”了，靠什么和东哥做“兄弟”？",
+    "description": "追根溯源，首先是马老师作为大佬们能说会道的担当曝出金句：\"未来，我们希望每年向社会推荐输出至少1000名10年以上的阿里人，他们应该参与到社会建设\"。",
+    "url": "https://segmentfault.com/a/1190000041709916",
+    "author": "不会写代码的小白",
+    "home_url": "https://segmentfault.com/u/z_61ea63e052dfb",
+    "votes": "2",
     "rank": 29
   },
   {
-    "title": "Java 18 新功能介绍",
-    "description": "文章持续更新，可以关注公众号程序猿阿朗或访问未读代码博客。 本文 Github.com/niumoo/JavaNotes 已经收录,欢迎Star。Java 18 在2022 年 3 月 22 日正式发布，Java 18 不是一个长期支持版本，这次更新共带来 9 ...",
-    "url": "https://segmentfault.com/a/1190000041684565",
-    "author": "程序猿阿朗",
-    "home_url": "https://segmentfault.com/u/niumoo",
-    "votes": "2",
+    "title": "超越 Nginx！号称下一代 Web 服务器，用起来够优雅！",
+    "description": "Nginx是一款非常流行的Web服务器，在Github上已有16K+Star，我们经常用它来做静态资源托管或反向代理。最近发现了一款全新的Web服务器Caddy，Star数超越Nginx，标星38K+Star。试用了一下Caddy，发现它使用起来比N...",
+    "url": "https://segmentfault.com/a/1190000041689452",
+    "author": "macrozheng",
+    "home_url": "https://segmentfault.com/u/macrozheng",
+    "votes": "1",
     "rank": 30
   }
 ]
