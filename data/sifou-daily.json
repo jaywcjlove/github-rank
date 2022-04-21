@@ -1,47 +1,83 @@
 [
   {
-    "title": "以B端平台设计，理解尼尔森10大可用性原则",
-    "description": "尼尔森是一名人机交互学博士，通过总结分析200多个可用性问题，1995年提出了尼尔森十大可用性原则，不论在Web设计还是移动端设计，掌握了这十项原则，都能有效提升产品用户体验度。今天就以实例跟大家聊聊尼尔森...",
-    "url": "https://segmentfault.com/a/1190000041725043",
-    "author": "JenK",
-    "home_url": "https://segmentfault.com/u/wangzc996",
-    "votes": "7",
+    "title": "小程序鼻祖 —— 在国内逐渐消亡的 PWA 可以带给我们哪些启示？",
+    "description": "如果我说，我们要讨论一个 2016 年被提出、2017 年落地、至今在国内仍可算籍籍无名的概念，你是不是会觉得这没有什么意义？",
+    "url": "https://segmentfault.com/a/1190000041729491",
+    "author": "独钓寒江雪",
+    "home_url": "https://segmentfault.com/u/king_hcj",
+    "votes": "9",
     "rank": 1
   },
   {
-    "title": "10个我经常逛的“小网站”，嘿嘿嘿！！！",
-    "description": "你的文件夹里有没有一些私人喜好的小网站？嘿嘿！！！必须有啊！分享10个我经常使用、能够提高工作效率、美化图片、绘制流程图的网站，你可能也用得上喔。",
-    "url": "https://segmentfault.com/a/1190000041728567",
-    "author": "前端胖头鱼",
-    "home_url": "https://segmentfault.com/u/116263",
-    "votes": "2",
+    "title": "130 行代码搞定核酸统计，程序员在抗疫期间的大能量",
+    "description": "前几日看到一则新闻，人民日报给我们程序员点了个赞。事情原由是这样的：自三月来，但凡完成核酸检测，复旦大学的校辅导员要挨个检查学生“健康云”核酸结果截图并进行登记，确保每一个人都不会遗漏。而我们都知道...",
+    "url": "https://segmentfault.com/a/1190000041729768",
+    "author": "云叔_又拍云",
+    "home_url": "https://segmentfault.com/u/yunshu_blog",
+    "votes": "5",
     "rank": 2
   },
   {
-    "title": "数据建模软件Chiner，颜值与实用性并存",
-    "description": "在chiner出现之前进行数据库建模设计的时候，大部分时间使用的是PowerDesigner。说实话基本上是偷偷的用，因为大家都知道PD是收费软件，到处和国内厂商打官司。不仅如此，PowerDesigner古老守旧的的设计界面已经...",
-    "url": "https://segmentfault.com/a/1190000041724965",
-    "author": "字母哥博客",
-    "home_url": "https://segmentfault.com/u/zimug",
-    "votes": "1",
+    "title": "JS阻塞渲染，这么多年我理解错啦？",
+    "description": "大家好，我卡颂。在中文社区，这么多年一直流传一个说法：JS线程负责执行JS，GUI渲染线程负责渲染，这两者是互斥的，所以JS执行时会阻塞渲染。但随着Dev Tools使用的增多，逐渐开始怀疑以上说法。本文会以实际案...",
+    "url": "https://segmentfault.com/a/1190000041729574",
+    "author": "卡颂",
+    "home_url": "https://segmentfault.com/u/kasong",
+    "votes": "2",
     "rank": 3
   },
   {
-    "title": "前端开发 Mock 利器，效率提升 100%！",
-    "description": "每个迭代，需求文档跟设计稿都出来了，静态页面唰唰两天就做完了。可是做前端又不是简单地把后端吐出来的数据放到页面上就完了，还有各种前端处理逻辑啊。",
-    "url": "https://segmentfault.com/a/1190000041723236",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "4",
+    "title": "分布式数据库--SQL优化之Plan Hint",
+    "description": "Hint是嵌入SQL语句的对优化器进行提示的信息，是DBA进行SQL优化的常用手段。SQL语句经过优化器(规则优化(RBO)、代价优化(CBO))，通常会选择正确的查询路径，但是智者千虑，必有一失，有时优化器也会选择一个很差...",
+    "url": "https://segmentfault.com/a/1190000041723935",
+    "author": "浪潮云溪数据库",
+    "home_url": "https://segmentfault.com/u/cnw32fm0",
+    "votes": "1",
     "rank": 4
   },
   {
-    "title": "为什么要做接口测试？",
-    "description": "首先我们要明白什么是接口测试，接口测试是测试系统组件间接口的一种测试。接口测试主要用于检测外部系统与系统之间以及内部各个子系统之间的交互点。测试的重点是要检查数据的交换，传递和控制管理过程，以及系...",
-    "url": "https://segmentfault.com/a/1190000041725780",
-    "author": "泽众软件_项目管理_测试工具",
-    "home_url": "https://segmentfault.com/u/zezhongruanjian_xiangmuguanli_ceshigongju",
+    "title": "判断多边形是否属于复杂多边形",
+    "description": "标注场景下，用户可以选取多点框选一个区域，这样会生成一个多边形。但某些多边形不适合标注场景，还会增加其他参数计算复杂度，需要判断出来禁止绘制。",
+    "url": "https://segmentfault.com/a/1190000041733856",
+    "author": "LnEoi",
+    "home_url": "https://segmentfault.com/u/lneoi",
     "votes": "1",
     "rank": 5
+  },
+  {
+    "title": "petite-vue源码剖析-沙箱模型",
+    "description": "在解析v-if和v-for等指令时我们会看到通过evaluate执行指令值中的JavaScript表达式，而且能够读取当前作用域上的属性。而evaluate的实现如下：",
+    "url": "https://segmentfault.com/a/1190000041731589",
+    "author": "肥仔John",
+    "home_url": "https://segmentfault.com/u/fsjohnhuang",
+    "votes": "1",
+    "rank": 6
+  },
+  {
+    "title": "苹果应用商店对满足条件的小型企业降低一半佣金，开发者怎么想？",
+    "description": "2020 年 11 月份，苹果宣布了一项新的 App Store 小型企业计划（App Store Small Business Program），该计划将降低小型企业所有者和独立开发商的 App Store 费用。",
+    "url": "https://segmentfault.com/a/1190000041730732",
+    "author": "snakesss",
+    "home_url": "https://segmentfault.com/u/snakesss",
+    "votes": "1",
+    "rank": 7
+  },
+  {
+    "title": "Flink 流批一体在小米的实践",
+    "description": "简介：基于流批一体的改造，无论是实时还是离线都只需要维护一套计算框架，为业务开发人员、平台提供方和计算引擎的支持方节省了大量人力资源。摘要：本文整理自小米软件开发工程师金风在 Flink Forward Asia 202...",
+    "url": "https://segmentfault.com/a/1190000041730610",
+    "author": "阿里云开发者",
+    "home_url": "https://segmentfault.com/u/alijishu",
+    "votes": "1",
+    "rank": 8
+  },
+  {
+    "title": "冴羽答读者问：啦啦啦啦啦啦",
+    "description": "简单的 6 个字，却流露出杠铃般的快乐，所以虽然不知道你想说什么，但是能肯定，你是一个很快乐的人。那这个回答，我们就聊聊，我对于快乐的一些看法好了。",
+    "url": "https://segmentfault.com/a/1190000041733196",
+    "author": "冴羽",
+    "home_url": "https://segmentfault.com/u/yayu",
+    "votes": "1",
+    "rank": 9
   }
 ]
