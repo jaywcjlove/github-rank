@@ -1,56 +1,137 @@
 [
   {
-    "title": "🔥 2022 前端性能优化最佳实践",
-    "description": "随着业务的不断迭代，项目日渐壮大，为了给用户提供更优的体验，性能优化是前端开发避不开的话题。一个优秀的网站必然是拥有丰富功能的同时具有比较块的响应速度，想必我们浏览网页时都更喜欢丝般顺滑的感受。",
-    "url": "https://segmentfault.com/a/1190000041753539",
-    "author": "佩奇烹饪家",
-    "home_url": "https://segmentfault.com/u/cloudyttt",
-    "votes": "1",
+    "title": "面试算法题记录",
+    "description": "问：一个数组，先递增后递减，要返回最大的一个数，怎么实现？答：依次遍历第i个数，如果第i个数大于第i + 1个数，那么返回第i个数，这个数就是最大值。（这么简单，大一学生都会）问：还能优化吗？答：啊。。。...",
+    "url": "https://segmentfault.com/a/1190000041758099",
+    "author": "小强Zzz",
+    "home_url": "https://segmentfault.com/u/zhaokaiqiang",
+    "votes": "6",
     "rank": 1
   },
   {
-    "title": "5 分钟教你快速掌握 GitHub Actions 自动发布 Npm 包和网站",
-    "description": "自从 GitHub 宣布 GitHub Actions 在平台上对所有开发人员和存储库可用以来，GitHub Actions 越来越受欢迎。很多第三方平台在生态系统中有速度等限制，将进一步推动开发人员将他们的软件自动化迁移到 GitHub Acti...",
-    "url": "https://segmentfault.com/a/1190000041753907",
-    "author": "wscats",
-    "home_url": "https://segmentfault.com/u/wscats",
-    "votes": "1",
+    "title": "angular 拖动功能",
+    "description": "写到表单功能的时候，就考虑如果表单能够拖动式地添加，无疑能够加强用户的使用体验感。所以就尝试着实现拖动功能。如下图，能够将一个表单拖动到另一个表单。",
+    "url": "https://segmentfault.com/a/1190000041757995",
+    "author": "weiewiyi",
+    "home_url": "https://segmentfault.com/u/chenchu_6110ed583800c",
+    "votes": "6",
     "rank": 2
   },
   {
-    "title": "跨Mysql、Redis、Mongo的分布式事务",
-    "description": "Mysql、Redis、Mongo都是非常流行的存储，并且各自有自己的优势。在实际的应用中，常常会同时使用多种存储，也会遇见在多种存储中保证数据一致性的需求，例如保证数据库中的库存和Redis中的库存一致等。",
-    "url": "https://segmentfault.com/a/1190000041743706",
-    "author": "叶东富",
-    "home_url": "https://segmentfault.com/u/yedongfu",
-    "votes": "2",
+    "title": "仅用一个HTML标签，实现带动画的抖音LOGO",
+    "description": "大家好，我是零一，今天给大家表演 仅用一个HTML标签实现带动画的抖音LOGO，涉及了很多知识点，欢迎交流讨论先上结果，最终实现效果如下：还原度应该还可以吧？抖音Logo结构想要用CSS来画抖音的Logo，前提要先了...",
+    "url": "https://segmentfault.com/a/1190000041754709",
+    "author": "零一",
+    "home_url": "https://segmentfault.com/u/zero2one",
+    "votes": "5",
     "rank": 3
   },
   {
-    "title": "冴羽答读者问：除代码外，就没别的优先级很高的爱好了吗？",
-    "description": "纵观我所有的文章，在「冴羽答读者问」系列之前，我从来不写非技术类的文章。而在技术文章中，我写作的一个标准是：不写废话，所以我不会像一些作者在技术文章中，还写一点生活的情况或者最近在干的事情。当然，...",
-    "url": "https://segmentfault.com/a/1190000041752122",
-    "author": "冴羽",
-    "home_url": "https://segmentfault.com/u/yayu",
-    "votes": "1",
+    "title": "CSS 绘制一个时钟",
+    "description": "欢迎关注微信公众号：前端侦探练习 CSS 一个很好的方法就是绘制各式各样的 UI，比如这样一个时钟？你也可以访问这个 CSS clock查看实际效果CSS 绘制这样一个布局有几个难点：环形排列的刻度环形分布的数字自动运...",
+    "url": "https://segmentfault.com/a/1190000041754537",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "4",
     "rank": 4
   },
   {
-    "title": "商品3D展示来啦，HMS Core3D建模服务助力电商发展",
-    "description": "传统电商商品展示采用图文结合的形式，文案介绍产品的相关参数，搭配精美图片去吸引客户眼球。但图文商品展示由于色差、尺寸不符等原因，会让消费者产生图片和实物不一致的疑虑，且消费者需要消耗大量精力阅读和...",
-    "url": "https://segmentfault.com/a/1190000041748470",
-    "author": "HMSCore",
-    "home_url": "https://segmentfault.com/u/hms_core",
+    "title": "硬核调试实操 | 手把手带你实现 Serverless 断点调试",
+    "description": "简介：本文借助 Serverless Devs 工具，对函数计算 (FC） 应用的断点调试步骤进行详细指导，手把手带你实现 Serverless 的断点调试。",
+    "url": "https://segmentfault.com/a/1190000041755737",
+    "author": "阿里云开发者",
+    "home_url": "https://segmentfault.com/u/alijishu",
     "votes": "1",
     "rank": 5
   },
   {
-    "title": "如何实现线上优雅停机和调整线程池参数？",
-    "description": "好几天没更新austin的系列文章啦，主要是一直在写austin的代码。而这篇文章我想了很久标题，最后定为《优雅，不过时》。文章的内容主要由以下部分组成：",
-    "url": "https://segmentfault.com/a/1190000041748258",
-    "author": "Java3y",
-    "home_url": "https://segmentfault.com/u/java_3y",
+    "title": "招聘季征文活动获奖名单公布，快来领奖~",
+    "description": "哈喽各位社区的小伙伴！2022招聘季有奖征文活动如约开奖啦~废话不多说，我们直接来揭晓获奖名单吧~🌟获奖名单江辰：5年经验(专升本)入职B站分享范文杰：Offer 提速：如何写出有亮点的简历杨成功：一个小厂前端 Lea...",
+    "url": "https://segmentfault.com/a/1190000041757846",
+    "author": "SegmentFault思否",
+    "home_url": "https://segmentfault.com/u/segmentfault",
     "votes": "1",
     "rank": 6
+  },
+  {
+    "title": "基于代价的慢查询优化建议",
+    "description": "对于数据库来说，慢查询往往意味着风险。SQL执行得越慢，消耗的CPU资源或IO资源也会越大。大量的慢查询可直接引发业务故障，关注慢查询即是关注故障本身。本文主要介绍了美团如何利用数据库的代价优化器来优化慢...",
+    "url": "https://segmentfault.com/a/1190000041759545",
+    "author": "美团技术团队",
+    "home_url": "https://segmentfault.com/u/meituanjishutuandui",
+    "votes": "1",
+    "rank": 7
+  },
+  {
+    "title": "Linux下跨语言调用C++实践",
+    "description": "不同的开发语言适合不同的领域，例如Python适合做数据分析，C++适合做系统的底层开发，假如它们需要用到相同功能的基础组件，组件使用多种语言分别开发的话，不仅增加了开发和维护成本，而且不能确保多种语言间在...",
+    "url": "https://segmentfault.com/a/1190000041759517",
+    "author": "美团技术团队",
+    "home_url": "https://segmentfault.com/u/meituanjishutuandui",
+    "votes": "1",
+    "rank": 8
+  },
+  {
+    "title": "uniapp使用vuex管理登录状态",
+    "description": "小程序登录后使用vuex来管理登录状态和退出，小程序登录之后将后端发送过来的token存储到本地，然后使用vuex读取并且改变登录状态。 {代码...} 这样我们就可以在登录页面直接调用这个方法和状态了！",
+    "url": "https://segmentfault.com/a/1190000041757997",
+    "author": "开心",
+    "home_url": "https://segmentfault.com/u/kaixin_5ec3535e5a3c1",
+    "votes": "1",
+    "rank": 9
+  },
+  {
+    "title": "通俗易懂大白话——Java NIO ——宏观把握（1）之大白话讲述，Linux下的BIO、NIO、select、epoll",
+    "description": "首先要知道，Linux下的Java，是基于Linux系统调用实现的，所以我们先来了解下Linux的NIO是咋实现的，Java的NIO就是包装了下Linux的NIO接口而已。",
+    "url": "https://segmentfault.com/a/1190000041757275",
+    "author": "大白话的技术分享",
+    "home_url": "https://segmentfault.com/u/dabaihuashare",
+    "votes": "1",
+    "rank": 10
+  },
+  {
+    "title": "JavaScript内存泄漏",
+    "description": "在传统的网页开发时无需过多考虑内存管理，通常也不会产生严重的后果。因为当用户点击链接打开新页面或者刷新页面，页面内的信息就会从内存中清理掉。",
+    "url": "https://segmentfault.com/a/1190000041754358",
+    "author": "老毛",
+    "home_url": "https://segmentfault.com/u/laomao_5902e12974409",
+    "votes": "1",
+    "rank": 11
+  },
+  {
+    "title": "《Mybatis 手撸专栏》第6章：数据源池化技术实现",
+    "description": "你有发现吗，其实很大一部分码农，都只是会写代码，不会讲东西。一遇到述职、答辩、分享、汇报，就很难流畅且有高度、有深度，并融合一部分引入入胜的趣味性来让观众更好的接受和理解你要传递的信息。",
+    "url": "https://segmentfault.com/a/1190000041754310",
+    "author": "小傅哥",
+    "home_url": "https://segmentfault.com/u/fuzhengwei",
+    "votes": "1",
+    "rank": 12
+  },
+  {
+    "title": "【Java】如何用 JDBC 写一个数据库文档生成工具？",
+    "description": "JDBC 是 Java Database Connectivity 的缩写，从名字就能看出来是 Java 定义的连接数据库的一个标准，这个标准的具体体现就是一系列接口",
+    "url": "https://segmentfault.com/a/1190000041754010",
+    "author": "且徐行",
+    "home_url": "https://segmentfault.com/u/qiexuxing_614696702a18f",
+    "votes": "1",
+    "rank": 13
+  },
+  {
+    "title": "《Linux网络开发必学教程》2_服务端编程初体验",
+    "description": "客户端/服务端 编程模式服务端长期保留于网络（公开自己的 IP 地址），并等待客户端连接客户端发起连接动作，并等待服务端回应特点：服务端无法主动连接客户端客户端只能按照预定义的方式（协议）连接服务端服务...",
+    "url": "https://segmentfault.com/a/1190000041755836",
+    "author": "TianSong",
+    "home_url": "https://segmentfault.com/u/tiansong",
+    "votes": "1",
+    "rank": 14
+  },
+  {
+    "title": "python 处理天干地支农历等问题",
+    "description": "{代码...}",
+    "url": "https://segmentfault.com/a/1190000041754094",
+    "author": "岁月峥嵘走过",
+    "home_url": "https://segmentfault.com/u/suiyuezouguo",
+    "votes": "1",
+    "rank": 15
   }
 ]
