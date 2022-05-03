@@ -1,65 +1,38 @@
 [
   {
-    "title": "golang 后端技术开发必备总结",
-    "description": "首先谈谈后端开发，常用的语言是Java、Golang、Python。Java语言类型的程序员是目前市面上最多的，也是很多公司都会选择的。Java语言开发的整个后端项目有比较好的项目规范，适用于业务逻辑复杂的情况。本人从事...",
-    "url": "https://segmentfault.com/a/1190000041783254",
-    "author": "风云",
-    "home_url": "https://segmentfault.com/u/fengyun_58aa59db14dcd",
+    "title": "一文读懂原子操作、内存屏障、锁(偏向锁、轻量级锁、重量级锁、自旋锁)",
+    "description": "[]()在做了9年前端之后，自我感在此领域已经没有提升空间，同时市场行情相对较差，不如趁着这个时间补充下后端系列技术，被裁之后也好接个私活不至于饿死。学两周Go，如盲人摸象般不知重点。那么重点谁知道呢？肯...",
+    "url": "https://segmentfault.com/a/1190000041784772",
+    "author": "木的树",
+    "home_url": "https://segmentfault.com/u/mudeshu",
     "votes": "2",
     "rank": 1
   },
   {
-    "title": "云原生应用架构设计与开发实战无密",
-    "description": "超清原画 完整无密 包括所有视频课件以及源码 MP4格式 获取资料:网盘链接完成一个 Code Pen:（一）项目初始化前言前段时间掘金上线了一个新功用 Code pen，能够在线写代码，阅读器就能够运转预览，在文章中就能够...",
-    "url": "https://segmentfault.com/a/1190000041783937",
-    "author": "果断的伏特加",
-    "home_url": "https://segmentfault.com/u/guoduandefutejia",
+    "title": "MySQL的InnoDB存储引擎对MVCC的实现",
+    "description": "对于一致性非锁定度的实现，通常的方式是加一个版本号或者时间戳，在更新数据的时候版本号+1或者更新时间戳。查询时，将当前可见的版本号与对应记录的版本号做对比，如果记录的版本号小于可见版本，则表示该记录...",
+    "url": "https://segmentfault.com/a/1190000041785082",
+    "author": "晴天的空间",
+    "home_url": "https://segmentfault.com/u/qtspace",
     "votes": "1",
     "rank": 2
   },
   {
-    "title": "大厂学苑 -RPC框架核心源码深度解析",
-    "description": "超清原画 完整无密 包括所有视频课件以及源码 MP4格式 获取ZY:网盘链接hashCode() 和 equals()的区别equals()equals() 办法用于比拟两个对象能否相等，它与 == 相等比拟符有着实质的不同。",
-    "url": "https://segmentfault.com/a/1190000041783840",
-    "author": "留胡子的回锅肉",
-    "home_url": "https://segmentfault.com/u/liuhuzidehuiguorou",
+    "title": "浏览器工作原理与实践（四）",
+    "description": "消息队列：单行道->先进先出。又被称为宏任务，执行宏任务的时候，如果DOM有变化，将变化提交到任务中。当宏任务执行完再执行微任务。优先级问题。消息队列和事件循环类似于观察者发布订阅模式，事件循环(单线...",
+    "url": "https://segmentfault.com/a/1190000041785173",
+    "author": "Waxiangyu",
+    "home_url": "https://segmentfault.com/u/waxiangyu",
     "votes": "1",
     "rank": 3
   },
   {
-    "title": "架构设计之一——基础架构",
-    "description": "导读：《架构设计》系列为极客时间李运华老师《从0开始学架构》课程笔记。本文为第一部分，主要介绍架构设计的历史背景、相关概念、目的、复杂度、原则以及流程。从整体上对架构设计有所了解。",
-    "url": "https://segmentfault.com/a/1190000041783756",
-    "author": "FrankYu",
-    "home_url": "https://segmentfault.com/u/frankyu_61d5c9910b1b1",
+    "title": "2022年关于损失函数的5篇最新论文推荐",
+    "description": "损失函数在人工神经网络 (ANN) 的训练中发挥着重要作用，并且会影响 ANN 模型的泛化能力以及其他属性。已经有研究表明交叉熵和平方和误差损失函数会导致不同的训练结果，并表现出相互补充的不同属性。之前有人提...",
+    "url": "https://segmentfault.com/a/1190000041784471",
+    "author": "deephub",
+    "home_url": "https://segmentfault.com/u/deephub",
     "votes": "1",
     "rank": 4
-  },
-  {
-    "title": "Golang对Redis的使用",
-    "description": "Redis 常用的数据类型： 字符串 哈希 链表 集合 有序集合 bitmap hyperlog geo使用Lua 脚本实现多个命令原子性操作 分布式锁 {代码...}",
-    "url": "https://segmentfault.com/a/1190000041783218",
-    "author": "风云",
-    "home_url": "https://segmentfault.com/u/fengyun_58aa59db14dcd",
-    "votes": "1",
-    "rank": 5
-  },
-  {
-    "title": "vue实现表格单元格的批量复制粘贴",
-    "description": "如何在表格单元格中的输入框/下拉框值进行批量复制粘贴至整条列？点击输入框后再点击复制按钮可对当前整条列的输入框都更新为复制的值。el-table表格template： {代码...} 注意到有2个列是单元格可编辑的，点击/...",
-    "url": "https://segmentfault.com/a/1190000041783192",
-    "author": "洛阳醉长安行",
-    "home_url": "https://segmentfault.com/u/hello888",
-    "votes": "1",
-    "rank": 6
-  },
-  {
-    "title": "go 微服务监控",
-    "description": "微服务的可观测性大致分为三大类：Metrics，Tracing 和 Logging。Metrics 监控侧重于技术指标的收集与观测，如服务调用 QPS、响应时间、错误率和资源使用率Logging 侧重于运行日志的采集、存储与检索,通常使用ELK...",
-    "url": "https://segmentfault.com/a/1190000041783186",
-    "author": "风云",
-    "home_url": "https://segmentfault.com/u/fengyun_58aa59db14dcd",
-    "votes": "1",
-    "rank": 7
   }
 ]
