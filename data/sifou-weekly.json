@@ -1,21 +1,30 @@
 [
   {
+    "title": "SegmentFault 思否加入 ONES",
+    "description": "ONES 成立于 2015 年，是国内领先的企业级研发管理解决方案提供商。2021 年，ONES 连续完成 3 轮总计近 1 亿美元融资，是国内研发管理领域累计融资金额最多、历史融资速度最快的公司。",
+    "url": "https://segmentfault.com/a/1190000041790775",
+    "author": "SegmentFault思否",
+    "home_url": "https://segmentfault.com/u/segmentfault",
+    "votes": "26",
+    "rank": 1
+  },
+  {
+    "title": "10",
+    "description": "各位 SegmentFault 思否社区的小伙伴们，相信大家已经从多个渠道了解到 SegmentFault 将加入 ONES 的消息。而今年正好也是 SegmentFault 社区创立的 10 周年，有趣的是 “10” 这个数字不论在十进制还是计算机世界...",
+    "url": "https://segmentfault.com/a/1190000041790801",
+    "author": "joyqi",
+    "home_url": "https://segmentfault.com/u/joyqi",
+    "votes": "26",
+    "rank": 2
+  },
+  {
     "title": "没有框架怎么办？原生 CSS + JS 实现一个标签输入框",
     "description": "欢迎关注我的公众号：前端侦探最近在项目中需要做一个标签输入框，还挺实用的，演示效果如下主要交互要求是这样的点击输入框可以输入内容按回车可以生成标签按退格键可以删除标签点击标签上的关闭按钮可以删除标...",
     "url": "https://segmentfault.com/a/1190000041775900",
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "2",
-    "rank": 1
-  },
-  {
-    "title": "CSS 阴影进阶，实现更加的立体的阴影效果！",
-    "description": "CSS 阴影的存在，让物体看上去更加有型立体。然而，在最简单的阴影使用之上，我们可以实现更多有意思且更加立体的阴影效果。本文将带大家看看如何使用 CSS 实现几类比普通阴影更加立体的阴影效果。CSS 阴影基础CS...",
-    "url": "https://segmentfault.com/a/1190000041771296",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "3",
-    "rank": 2
+    "votes": "6",
+    "rank": 3
   },
   {
     "title": "浅谈支付系统开发基本流程",
@@ -23,8 +32,8 @@
     "url": "https://segmentfault.com/a/1190000041781215",
     "author": "CrazyCodes",
     "home_url": "https://segmentfault.com/u/crazycodes",
-    "votes": "3",
-    "rank": 3
+    "votes": "6",
+    "rank": 4
   },
   {
     "title": "全场景AI推理引擎MindSpore Lite， 助力HMS Core视频编辑服务打造更智能的剪辑体验",
@@ -32,15 +41,6 @@
     "url": "https://segmentfault.com/a/1190000041776588",
     "author": "HMSCore",
     "home_url": "https://segmentfault.com/u/hms_core",
-    "votes": "3",
-    "rank": 4
-  },
-  {
-    "title": "这些CSS提效技巧，你需要知道！",
-    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000041711730",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "3",
     "rank": 5
   },
@@ -54,31 +54,13 @@
     "rank": 6
   },
   {
-    "title": "乞丐是如何节约Java内存的",
-    "description": "内存使用优化在 Java 中很重要。系统性能主要限于内存访问性能而非 CPU 主频，否则，为什么 CPU 生产商要实现所有这些 L1、L2 和 L3 缓存？这意味着通过减少应用程序内存占用，您很可能会通过让 CPU 等待更少量的...",
-    "url": "https://segmentfault.com/a/1190000041781158",
-    "author": "Yujiaao",
-    "home_url": "https://segmentfault.com/u/yujiaao",
-    "votes": "3",
-    "rank": 7
-  },
-  {
-    "title": "js面试题(基础)梳理",
-    "description": "1、JavaScript有几种数据类型？ {代码...} 2、JavaScript最大安全数字与最小安全数字？ {代码...} 3、深拷贝与浅拷贝的区别？ {代码...} 4、闭包是什么？ {代码...} 例子: {代码...} 5、原型链是什么 {代码...} 6...",
-    "url": "https://segmentfault.com/a/1190000041772895",
-    "author": "墨城",
-    "home_url": "https://segmentfault.com/u/xiaomogu_5f2124ad3ad42",
-    "votes": "2",
-    "rank": 8
-  },
-  {
     "title": "Javascript知识点：浅拷贝和深拷贝",
-    "description": "先聊一下Javascript的数据类型有哪些？值类型：数字型(Number)、字符类型(String)、布尔类型(Boolean)、Null、undefined、Symbol引用类型：对象类型(Object)、数组类型(Array)、函数类型(function)、正则类型(Reg...",
+    "description": "前言本文来分析javascript开发中经常会遇到的浅拷贝和深拷贝以及总结网上各种实现方式，希望对大家有所帮助。什么是浅拷贝和深拷贝？先聊一下Javascript的数据类型有哪些？值类型：数字型(Number)字符类型(String...",
     "url": "https://segmentfault.com/a/1190000041778413",
     "author": "Awbeci",
     "home_url": "https://segmentfault.com/u/awbeci",
     "votes": "2",
-    "rank": 9
+    "rank": 7
   },
   {
     "title": "前端面试资料整理【css篇】",
@@ -87,25 +69,16 @@
     "author": "donggg",
     "home_url": "https://segmentfault.com/u/donggg1942",
     "votes": "1",
-    "rank": 10
+    "rank": 8
   },
   {
-    "title": "冴羽答读者问：悄悄过来蹭个回答",
-    "description": "前言最近我发起了「冴羽答读者问」活动，如果你也有想要提问的问题，欢迎留言，我会按照顺序依此回答。正文这个问题我们就聊聊“如何提问”好了。回答这个问题，自我感觉有些班门弄斧，因为我并不是一个擅长提问的...",
-    "url": "https://segmentfault.com/a/1190000041774153",
-    "author": "冴羽",
-    "home_url": "https://segmentfault.com/u/yayu",
-    "votes": "1",
-    "rank": 11
-  },
-  {
-    "title": "玩转 chrome 效率起飞",
-    "description": "使用方式： 在目标接口上鼠标右键 Copy as cUrl （mac）、Copy as PowerShell（windows） 将文本发给后端同学即可，后端在终端输入文本请求接口。",
-    "url": "https://segmentfault.com/a/1190000041773106",
-    "author": "亖混子",
-    "home_url": "https://segmentfault.com/u/1023",
-    "votes": "2",
-    "rank": 12
+    "title": "乞丐是如何节约Java内存的",
+    "description": "内存使用优化在 Java 中很重要。系统性能主要限于内存访问性能而非 CPU 主频，否则，为什么 CPU 生产商要实现所有这些 L1、L2 和 L3 缓存？这意味着通过减少应用程序内存占用，您很可能会通过让 CPU 等待更少量的...",
+    "url": "https://segmentfault.com/a/1190000041781158",
+    "author": "Yujiaao",
+    "home_url": "https://segmentfault.com/u/yujiaao",
+    "votes": "3",
+    "rank": 9
   },
   {
     "title": "golang 后端技术开发必备总结",
@@ -114,15 +87,42 @@
     "author": "风云",
     "home_url": "https://segmentfault.com/u/fengyun_58aa59db14dcd",
     "votes": "3",
+    "rank": 10
+  },
+  {
+    "title": "如何写出高性能代码之优化内存回收(GC)",
+    "description": "同一份逻辑，不同人的实现的代码性能会出现数量级的差异； 同一份代码，你可能微调几个字符或者某行代码的顺序，就会有数倍的性能提升；同一份代码，也可能在不同处理器上运行也会有几倍的性能差异；...",
+    "url": "https://segmentfault.com/a/1190000041787331",
+    "author": "xindoo",
+    "home_url": "https://segmentfault.com/u/xindoo",
+    "votes": "4",
+    "rank": 11
+  },
+  {
+    "title": "做一个可以聊天的 Visual Studio Code 插件",
+    "description": "你每天有在用 Visual Studio Code 吗？ 根据面向程序开发人员的时间跟踪工具 WakeTime 统计 ， 在 2020 年全球开发者使用 Visual Studio Code 的时间合共 1800 万小时 。这是一个非常惊人的数字 。 你有想过开发...",
+    "url": "https://segmentfault.com/a/1190000041774235",
+    "author": "微软技术栈",
+    "home_url": "https://segmentfault.com/u/mstech",
+    "votes": "1",
+    "rank": 12
+  },
+  {
+    "title": "一文读懂原子操作、内存屏障、锁(偏向锁、轻量级锁、重量级锁、自旋锁)",
+    "description": "[]()在做了9年前端之后，自我感在此领域已经没有提升空间，同时市场行情相对较差，不如趁着这个时间补充下后端系列技术，被裁之后也好接个私活不至于饿死。学两周Go，如盲人摸象般不知重点。那么重点谁知道呢？肯...",
+    "url": "https://segmentfault.com/a/1190000041784772",
+    "author": "木的树",
+    "home_url": "https://segmentfault.com/u/mudeshu",
+    "votes": "2",
     "rank": 13
   },
   {
-    "title": "浏览器扫码打开Android/iOS App",
-    "description": "打开浏览器，扫描某个二维码时需要启动特定的App，要实现这样的需求，我们首先需要解析HTML页面的二维码，通常解析后的内容格式为： {代码...} scheme：判别启动的App。host：适当记述。path：传值时必须的key，...",
-    "url": "https://segmentfault.com/a/1190000041772444",
-    "author": "xiangzhihong",
-    "home_url": "https://segmentfault.com/u/xiangzhihong",
-    "votes": "1",
+    "title": "Mermaid 流程图入门",
+    "description": "Markdown文档在开发中已经必不可少了，但只有文字描述始终有些枯燥，涉及到做图表的话又需要切换到其他工具中，绘制好后再黏贴回来，如果要修改，万一源文件丢失就更麻烦了。对于这种问题实际上也早有方法，就是...",
+    "url": "https://segmentfault.com/a/1190000041781220",
+    "author": "LnEoi",
+    "home_url": "https://segmentfault.com/u/lneoi",
+    "votes": "2",
     "rank": 14
   },
   {
@@ -135,31 +135,13 @@
     "rank": 15
   },
   {
-    "title": "一文读懂原子操作、内存屏障、锁(偏向锁、轻量级锁、重量级锁、自旋锁)",
-    "description": "[]()在做了9年前端之后，自我感在此领域已经没有提升空间，同时市场行情相对较差，不如趁着这个时间补充下后端系列技术，被裁之后也好接个私活不至于饿死。学两周Go，如盲人摸象般不知重点。那么重点谁知道呢？肯...",
-    "url": "https://segmentfault.com/a/1190000041784772",
-    "author": "木的树",
-    "home_url": "https://segmentfault.com/u/mudeshu",
+    "title": "架构设计之一——基础架构",
+    "description": "导读：《架构设计》系列为极客时间李运华老师《从0开始学架构》课程笔记。本文为第一部分，主要介绍架构设计的历史背景、相关概念、目的、复杂度、原则以及流程。从整体上对架构设计有所了解。",
+    "url": "https://segmentfault.com/a/1190000041783756",
+    "author": "aneutron",
+    "home_url": "https://segmentfault.com/u/aneutron",
     "votes": "2",
     "rank": 16
-  },
-  {
-    "title": "WGCLOUD怎么设置每页显示多少条",
-    "description": "在server/config/application.yml可以修改列表页面，每页显示多少条数据，如下，修改数字即可，然后重启server就好了，打开页面看看是不是修改过来了",
-    "url": "https://segmentfault.com/a/1190000041770856",
-    "author": "徐三刀",
-    "home_url": "https://segmentfault.com/u/9b3sps2b",
-    "votes": "1",
-    "rank": 17
-  },
-  {
-    "title": "WGCLOUD如何配置某些磁盘不用发送告警通知",
-    "description": "有一个简单的自定义方法，新建一个json文件，名称为hostWarnDiy.json，这个名称不能修改的，不然改了系统识别不了，内容格式如下如下，记得把IP和磁盘改为自己的实际值，多余的主机可以删除的：",
-    "url": "https://segmentfault.com/a/1190000041770726",
-    "author": "徐三刀",
-    "home_url": "https://segmentfault.com/u/9b3sps2b",
-    "votes": "1",
-    "rank": 18
   },
   {
     "title": "基于 Chromium 的 DOM-XSS 自动检测工具",
@@ -168,34 +150,25 @@
     "author": "灰豆",
     "home_url": "https://segmentfault.com/u/v8blink",
     "votes": "1",
+    "rank": 17
+  },
+  {
+    "title": "海外电商支付网关避坑指南",
+    "description": "上一篇我大致描述了支付系统开发的基本流程，但相比之下，国内的流程虽然大同小异，但必要步骤还是完整的，技术水平比较高，但相比之下，对接海外的三方支付就没有我们想象的那么通畅了。",
+    "url": "https://segmentfault.com/a/1190000041789752",
+    "author": "CrazyCodes",
+    "home_url": "https://segmentfault.com/u/crazycodes",
+    "votes": "1",
+    "rank": 18
+  },
+  {
+    "title": "windows部署的WGCLOUD如何隐藏窗口运行和开机自动启动",
+    "description": "1、agent如何注册为windows系统服务（实现开机启动和隐藏窗口运行）[链接]2、server如何注册为windows系统服务[链接]",
+    "url": "https://segmentfault.com/a/1190000041788672",
+    "author": "徐三刀",
+    "home_url": "https://segmentfault.com/u/9b3sps2b",
+    "votes": "1",
     "rank": 19
-  },
-  {
-    "title": "架构设计之一——基础架构",
-    "description": "导读：《架构设计》系列为极客时间李运华老师《从0开始学架构》课程笔记。本文为第一部分，主要介绍架构设计的历史背景、相关概念、目的、复杂度、原则以及流程。从整体上对架构设计有所了解。",
-    "url": "https://segmentfault.com/a/1190000041783756",
-    "author": "FrankYu",
-    "home_url": "https://segmentfault.com/u/frankyu_61d5c9910b1b1",
-    "votes": "2",
-    "rank": 20
-  },
-  {
-    "title": "如何写出高性能代码之优化内存回收(GC)",
-    "description": "同一份逻辑，不同人的实现的代码性能会出现数量级的差异； 同一份代码，你可能微调几个字符或者某行代码的顺序，就会有数倍的性能提升；同一份代码，也可能在不同处理器上运行也会有几倍的性能差异；...",
-    "url": "https://segmentfault.com/a/1190000041787331",
-    "author": "xindoo",
-    "home_url": "https://segmentfault.com/u/xindoo",
-    "votes": "1",
-    "rank": 21
-  },
-  {
-    "title": "“超越” SQL 的数据查询语言“新秀”Top8：GraphQL、PRQL、WebAssembly上榜",
-    "description": "几十年来，SQL（结构化查询语言）一直在数据查询语言领域处于主导地位，几乎成了数据库的“代名词”，任何想从数据库中检索信息的人都必须学习 SQL。但随着时代的变迁，SQL 对数据检索的主导力量正在减弱。",
-    "url": "https://segmentfault.com/a/1190000041771956",
-    "author": "MissD",
-    "home_url": "https://segmentfault.com/u/d2ms1shh",
-    "votes": "1",
-    "rank": 22
   },
   {
     "title": "美团外卖广告智能算力的探索与实践（二）",
@@ -204,34 +177,7 @@
     "author": "美团技术团队",
     "home_url": "https://segmentfault.com/u/meituanjishutuandui",
     "votes": "1",
-    "rank": 23
-  },
-  {
-    "title": "【架构视角】一篇文章带你彻底吃透Spring",
-    "description": "框架，本质上是一些实用经验集合。即是前辈们在实际开发过程中积攒下来的实战经验，累积成一套实用工具，避免你在开发过程中重复去造轮子，特别是帮你把日常中能遇到的场景或问题都给屏蔽掉，框架的意义在于屏蔽...",
-    "url": "https://segmentfault.com/a/1190000041772218",
-    "author": "潘潘和他的朋友们",
-    "home_url": "https://segmentfault.com/u/panshenlian",
-    "votes": "1",
-    "rank": 24
-  },
-  {
-    "title": "Golang 文件的复制 手动实现 与 库函数实现",
-    "description": "手动实现思路就是：先创建一个切片 然后通过Read方法操作源文件把数据读到切片中，然后再通过Write方法把切片里面的数据写到目标文件里面。具体怎么使用呢？举个例子：如果我有一个文件test.txt，然后我想要把这...",
-    "url": "https://segmentfault.com/a/1190000041776167",
-    "author": "LiberHome",
-    "home_url": "https://segmentfault.com/u/liberhome",
-    "votes": "1",
-    "rank": 25
-  },
-  {
-    "title": "实现一个可拖拽分栏组件",
-    "description": "在实现样式后，为组件补充相关交互代码，主要是为 onMouseDown / onMouseMove / onMouseUp 添加相应的事件处理函数。",
-    "url": "https://segmentfault.com/a/1190000041771150",
-    "author": "forzoom",
-    "home_url": "https://segmentfault.com/u/forzoomhm",
-    "votes": "1",
-    "rank": 26
+    "rank": 20
   },
   {
     "title": "Vuex+自定义指令实现按钮粒度的权限控制",
@@ -240,32 +186,86 @@
     "author": "洛阳醉长安行",
     "home_url": "https://segmentfault.com/u/hello888",
     "votes": "1",
+    "rank": 21
+  },
+  {
+    "title": "node常用内置模块(events)",
+    "description": "node常用内置模块(events)一、事件模块events {代码...} 常用API: {代码...} 代码展示： {代码...} 二、发布订阅模式 {代码...} 模式图解：要素： {代码...} 模拟实现： {代码...} EventEmitter模拟实现： {代码....",
+    "url": "https://segmentfault.com/a/1190000041781461",
+    "author": "小江不可求",
+    "home_url": "https://segmentfault.com/u/xiaojiangbukeqiu",
+    "votes": "1",
+    "rank": 22
+  },
+  {
+    "title": "Golang 文件的复制 手动实现 与 库函数实现",
+    "description": "手动实现思路就是：先创建一个切片 然后通过Read方法操作源文件把数据读到切片中，然后再通过Write方法把切片里面的数据写到目标文件里面。具体怎么使用呢？举个例子：如果我有一个文件test.txt，然后我想要把这...",
+    "url": "https://segmentfault.com/a/1190000041776167",
+    "author": "LiberHome",
+    "home_url": "https://segmentfault.com/u/liberhome",
+    "votes": "1",
+    "rank": 23
+  },
+  {
+    "title": "Go seek方法",
+    "description": "举个例子：如果我有一个文件test.txt，里面的内容是hey it is liber，我想要从第五个字符i开始读取里面的数据，就可以这样写：",
+    "url": "https://segmentfault.com/a/1190000041780358",
+    "author": "LiberHome",
+    "home_url": "https://segmentfault.com/u/liberhome",
+    "votes": "1",
+    "rank": 24
+  },
+  {
+    "title": "编程进阶：这些 Python 常用技巧真棒",
+    "description": "整理字符串输入整理用户输入的问题在编程过程中极为常见。通常情况下，将字符转换为小写或大写就够了，有时你可以使用正则表达式模块「Regex」完成这项工作。但是如果问题很复杂，可能有更好的方法来解决：",
+    "url": "https://segmentfault.com/a/1190000041776999",
+    "author": "Python技术大本营",
+    "home_url": "https://segmentfault.com/u/bianchengdandan",
+    "votes": "1",
+    "rank": 25
+  },
+  {
+    "title": "MySQL的InnoDB存储引擎对MVCC的实现",
+    "description": "对于一致性非锁定度的实现，通常的方式是加一个版本号或者时间戳，在更新数据的时候版本号+1或者更新时间戳。查询时，将当前可见的版本号与对应记录的版本号做对比，如果记录的版本号小于可见版本，则表示该记录...",
+    "url": "https://segmentfault.com/a/1190000041785082",
+    "author": "晴天的空间",
+    "home_url": "https://segmentfault.com/u/qtspace",
+    "votes": "1",
+    "rank": 26
+  },
+  {
+    "title": "The Life of a Span",
+    "description": "最近在使用Opentracing + Jaeger监控自己的云端微服务程序时，遇到了难以排查的内存泄露问题。在进行性能测试时，内存中堆满了JaegerSpan，JaegerSpanContext，以及其中的字符串，看代码却不知从何下手排查。",
+    "url": "https://segmentfault.com/a/1190000041786237",
+    "author": "Hotlink",
+    "home_url": "https://segmentfault.com/u/hotlink",
+    "votes": "1",
     "rank": 27
   },
   {
-    "title": "Java 18为什么要指定UTF-8为默认字符集",
-    "description": "在Java 18中，将UTF-8指定为标准Java API的默认字符集。有了这一更改，依赖于默认字符集的API将在所有实现、操作系统、区域设置和配置中保持一致。",
-    "url": "https://segmentfault.com/a/1190000041775189",
-    "author": "程序猿DD",
-    "home_url": "https://segmentfault.com/u/coderdd",
+    "title": "Go  并发编程初识",
+    "description": "总述Go依靠独特的轻量级的协程 轻松创建上百万个任务不会导致系统的资源衰竭 （相比起来进程和线程最多也不会超过1w个）接下来主要从这几个方面展开：什么是并发编程Go如何实现并发并发的原理协程之间通信依靠的c...",
+    "url": "https://segmentfault.com/a/1190000041782448",
+    "author": "LiberHome",
+    "home_url": "https://segmentfault.com/u/liberhome",
     "votes": "1",
     "rank": 28
   },
   {
-    "title": "《Linux网络开发必学教程》7_TCP 与 UDP",
-    "description": "TCP/IP 分层结构应用层：各个应用程序可以定义（使用）各种这样的协议传输层：确保发出的数据能够达到目标主机，完成数据传输网络层：填写数据包地址，选择数据传输路径数据链路层：融合不同连接方式的链路，屏蔽...",
-    "url": "https://segmentfault.com/a/1190000041774420",
-    "author": "TianSong",
-    "home_url": "https://segmentfault.com/u/tiansong",
+    "title": "浙大版《C语言程序设计》第四版(何钦铭颜晖) 第5章 函数 课后习题答案",
+    "description": "你也可以上程序咖([链接])，打开大学幕题板块，不但有答案，讲解，还可以在线答题。一、选择题1.在 C 语言程序中，若对函数类型未加显式说明，则函数的隐含类型为（ ）。A. voidB. double C. charD. int答：D解析...",
+    "url": "https://segmentfault.com/a/1190000041775665",
+    "author": "茹茹",
+    "home_url": "https://segmentfault.com/u/ruru_60b6d92443bb7",
     "votes": "1",
     "rank": 29
   },
   {
-    "title": "MySQL事务隔离级别详解",
-    "description": "事务最经典栗子也经常被拿出来的栗子就是银行转账了。比如小明要给小红转账1000元，这个转账会涉及到两个关键操作：将小明的余额减1000元，将小红的余额减1000元。万一这两个操作之间突然出现错误，导致小明余额...",
-    "url": "https://segmentfault.com/a/1190000041774613",
-    "author": "晴天的空间",
-    "home_url": "https://segmentfault.com/u/qtspace",
+    "title": "css linear-gradient文字渐变",
+    "description": "你可能对css的渐变有所了解，比如linear-gradient、radial-gradient。但是并没有遇到过合适的使用场景，本文就来说一个 文字颜色渐变 的例子，就是 linear-gradient 的一个很优雅的使用案例。",
+    "url": "https://segmentfault.com/a/1190000041786197",
+    "author": "老毛",
+    "home_url": "https://segmentfault.com/u/laomao_5902e12974409",
     "votes": "1",
     "rank": 30
   }
