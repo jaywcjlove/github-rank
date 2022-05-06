@@ -1,21 +1,12 @@
 [
   {
-    "title": "10",
-    "description": "各位 SegmentFault 思否社区的小伙伴们，相信大家已经从多个渠道了解到 SegmentFault 将加入 ONES 的消息。而今年正好也是 SegmentFault 社区创立的 10 周年，有趣的是 “10” 这个数字不论在十进制还是计算机世界...",
-    "url": "https://segmentfault.com/a/1190000041790801",
-    "author": "joyqi",
-    "home_url": "https://segmentfault.com/u/joyqi",
-    "votes": "26",
-    "rank": 1
-  },
-  {
     "title": "跨域问题很难吗？来！教你使用 Nginx 反向代理轻松解决",
     "description": "当你遇到跨域问题，不要立刻就选择复制去尝试。请详细看完这篇文章再处理，我相信它能帮到你。准备前端网站地址：[链接]服务端网址：[链接]首先保证服务端是没有处理跨域的，其次，先用postman测试服务端接口是正...",
     "url": "https://segmentfault.com/a/1190000041794241",
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "5",
-    "rank": 2
+    "rank": 1
   },
   {
     "title": "离谱的 CSS！从表盘刻度到艺术剪纸",
@@ -24,16 +15,16 @@
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
     "votes": "7",
-    "rank": 3
+    "rank": 2
   },
   {
-    "title": "4月份，我日更了 25 篇文章，撸了 4w 多个字",
-    "description": "本来我的计划是五一假期回家的，结果北京疫情愈发严重，出京都困难，小区里每天大喇叭喊着下楼做核酸。最尴尬的是从今天开始，北京餐饮店全部停止堂食，我只能宅在家里默默的拿出囤了好久的白象方便面...",
-    "url": "https://segmentfault.com/a/1190000041790876",
-    "author": "杨成功",
-    "home_url": "https://segmentfault.com/u/ruidoc",
-    "votes": "2",
-    "rank": 4
+    "title": "PHP 实现平滑关闭/重启",
+    "description": "写过 CLI 常驻进程的老司机肯定遇到过这么一个问题：在需要更新程序的时候，我要怎样才能安全关闭老进程？你可能会想到 NGINX、php-fpm 之类的平滑重启是给进程发送 USR2 信号，然后它就会将当前请求处理完再退出。",
+    "url": "https://segmentfault.com/a/1190000041789825",
+    "author": "Yian",
+    "home_url": "https://segmentfault.com/u/yian",
+    "votes": "1",
+    "rank": 3
   },
   {
     "title": "互联网后端技术大全！建议收藏",
@@ -42,16 +33,7 @@
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "4",
-    "rank": 5
-  },
-  {
-    "title": "ONES 收购 SegmentFault 思否，共建高质量开发者社区",
-    "description": "成立于2012年的思否，是领先的中文技术问答社区，累计注册开发者用户近700万；同时，思否也是中国最大的黑客马拉松（Hackathon）组织者。",
-    "url": "https://segmentfault.com/a/1190000041790891",
-    "author": "万事ONES",
-    "home_url": "https://segmentfault.com/u/wanshiones",
-    "votes": "1",
-    "rank": 6
+    "rank": 4
   },
   {
     "title": "Go GPM的理解 与 runtime包",
@@ -60,7 +42,7 @@
     "author": "LiberHome",
     "home_url": "https://segmentfault.com/u/liberhome",
     "votes": "1",
-    "rank": 7
+    "rank": 5
   },
   {
     "title": "Python教程：几个常用的内置函数",
@@ -69,7 +51,7 @@
     "author": "Python技术大本营",
     "home_url": "https://segmentfault.com/u/bianchengdandan",
     "votes": "1",
-    "rank": 8
+    "rank": 6
   },
   {
     "title": "Go 线程的3种实现模型",
@@ -78,7 +60,7 @@
     "author": "LiberHome",
     "home_url": "https://segmentfault.com/u/liberhome",
     "votes": "1",
-    "rank": 9
+    "rank": 7
   },
   {
     "title": "使用Vite构建工具快速创建Vue项目",
@@ -87,7 +69,7 @@
     "author": "TANKING",
     "home_url": "https://segmentfault.com/u/tanking",
     "votes": "1",
-    "rank": 10
+    "rank": 8
   },
   {
     "title": "《Mybatis 手撸专栏》第7章：SQL执行器的定义和实现",
@@ -96,7 +78,7 @@
     "author": "小傅哥",
     "home_url": "https://segmentfault.com/u/fuzhengwei",
     "votes": "1",
-    "rank": 11
+    "rank": 9
   },
   {
     "title": "怎么写开源项目的README",
@@ -105,7 +87,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "1",
-    "rank": 12
+    "rank": 10
   },
   {
     "title": "【面试普通人VS高手系列】说说缓存雪崩和缓存穿透的理解，以及如何避免？",
@@ -114,7 +96,7 @@
     "author": "跟着Mic学架构",
     "home_url": "https://segmentfault.com/u/fukua_5be8034f8191f",
     "votes": "1",
-    "rank": 13
+    "rank": 11
   },
   {
     "title": "用 Python 提取 PDF 文本的简单方法",
@@ -123,7 +105,7 @@
     "author": "Python技术大本营",
     "home_url": "https://segmentfault.com/u/bianchengdandan",
     "votes": "1",
-    "rank": 14
+    "rank": 12
   },
   {
     "title": "Chrome插件：云音乐听歌识曲",
@@ -132,6 +114,6 @@
     "author": "云音乐技术团队",
     "home_url": "https://segmentfault.com/u/musicfe",
     "votes": "1",
-    "rank": 15
+    "rank": 13
   }
 ]
