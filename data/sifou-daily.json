@@ -1,29 +1,146 @@
 [
   {
-    "title": "前端周刊第十八期",
-    "description": "前端周刊发表每周前端技术相关的大事件、文章教程、一些框架的版本更新、以及代码和工具。每周定期发表，欢迎大家关注、转载。 <span style=\"color:red;\">如果外链不能访问，关注公众号前端每周...",
-    "url": "https://segmentfault.com/a/1190000041813457",
-    "author": "四六十",
-    "home_url": "https://segmentfault.com/u/keven",
-    "votes": "1",
+    "title": "CSS 实现树状结构目录",
+    "description": "如果用到了 Ant Design 这样的框架，那可以直接用现成的组件。如果没有用到这样的框架呢？其实纯 CSS 也是可以搞定的，下面看看如何实现的，还有很多你可能不知道 CSS 小技巧哦~",
+    "url": "https://segmentfault.com/a/1190000041815758",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "3",
     "rank": 1
   },
   {
-    "title": "Gitlab修复记",
-    "description": "他说：是啊，原先确实很好用，也不知道怎么了，最近这段时间就是不好用了，你说彻底不能用吧，也不是，偶尔也能用，但总要重试那么好几次，有时候甚至十几次才能用。",
-    "url": "https://segmentfault.com/a/1190000041813290",
-    "author": "张京",
-    "home_url": "https://segmentfault.com/u/fengerzh",
-    "votes": "1",
+    "title": "初级程序员的SQL拾遗-②（表操作）",
+    "description": "前言虽然平时开发中经常接触MySQL，但大多数的数据库操作都是通过ORM映射实现的，自己并没有从底层接触SQL。本文继 初级程序员的SQL拾遗-①（增删改查） 主要内容包括：建库、建表、字段、约束、查询等实际开发过...",
+    "url": "https://segmentfault.com/a/1190000041818633",
+    "author": "LYX6666",
+    "home_url": "https://segmentfault.com/u/liuyuxuan6666",
+    "votes": "4",
     "rank": 2
   },
   {
-    "title": "【面试普通人VS高手系列】Spring中事务的传播行为有哪些？",
-    "description": "一个工作了2年的粉丝，私信了一个比较简单的问题。说： “Spring中事务的传播行为有哪些？”他说他能记得一些，但是在项目中基本上不需要配置，所以一下就忘记了。结果导致面试被拒绝，有点遗憾！ok，关于这个问题...",
-    "url": "https://segmentfault.com/a/1190000041812678",
+    "title": "改@用户功能为动态",
+    "description": "查到可以添加几个事件，上述代码为限制input输入内容为数字。onkeyup事件每当输入就会执行，我们设置一个方法，替换非数字为空。里面检测非数字用到了正则表达式。",
+    "url": "https://segmentfault.com/a/1190000041818549",
+    "author": "小强Zzz",
+    "home_url": "https://segmentfault.com/u/zhaokaiqiang",
+    "votes": "4",
+    "rank": 3
+  },
+  {
+    "title": "ActivatedRoute 和 Router，以及记录后台遇到的问题",
+    "description": "ActivatedRoute 和 Router的区别前台angular使用这两个来进行路由的操作，但是好像一直不大清楚区别。这里简单记录一下。区别 {代码...} ActivatedRoute是当前组件的路由对象，包含了当前的路由信息。router是全...",
+    "url": "https://segmentfault.com/a/1190000041818528",
+    "author": "weiewiyi",
+    "home_url": "https://segmentfault.com/u/chenchu_6110ed583800c",
+    "votes": "4",
+    "rank": 4
+  },
+  {
+    "title": "总结一下本周遇到的问题",
+    "description": "在写区域工作人员端任务管理时需要获取登陆人员所管理的居民，这时就出现了一个问题——后台要怎么实现这些功能呢?我们可以发现前台并没有把当前登录用户传给后台，所以理论上应该是直接从后台获取当前登录用户。之...",
+    "url": "https://segmentfault.com/a/1190000041815869",
+    "author": "李明",
+    "home_url": "https://segmentfault.com/u/pluto_612f55567eb8c",
+    "votes": "4",
+    "rank": 5
+  },
+  {
+    "title": "Vue注册的全局组件配置对象保存的位置",
+    "description": "有时候你想给Vue一些组件库新增一些补丁功能或者修改功能，这些库如果像ElementUI一样有暴露到全局的api，还容易运行时篡改，如果没有暴露到全局上但有注册成全局组件，但是你又不想去库的源代码，怎么办呢？其实...",
+    "url": "https://segmentfault.com/a/1190000041815526",
+    "author": "而井",
+    "home_url": "https://segmentfault.com/u/rioli",
+    "votes": "1",
+    "rank": 6
+  },
+  {
+    "title": "4.9W 播放量的 TS 动画版进阶教程合集来了！",
+    "description": "阿宝哥精心准备的 《轻松学 TypeScript》 视频教程来咯，强烈推荐！通过形象生动的动画，让你轻松搞懂 TypeScript 的难点和核心知识点！目前已更新到第 11 期，其中 2 期的观看量均已破 1.3W，该合集的播放量目前...",
+    "url": "https://segmentfault.com/a/1190000041819579",
+    "author": "阿宝哥",
+    "home_url": "https://segmentfault.com/u/angular4",
+    "votes": "2",
+    "rank": 7
+  },
+  {
+    "title": "跳动的“loading”，个个都很惊艳！",
+    "description": "大家好，我是半夏👴，一个刚刚开始写文的沙雕程序员.如果喜欢我的文章，可以关注➕ 点赞 👍 加我微信：frontendpicker，一起学习交流前端，成为更优秀的工程师～关注公众号：搞前端的半夏,了解更多前端知识! 点我探...",
+    "url": "https://segmentfault.com/a/1190000041819357",
+    "author": "搞前端的半夏",
+    "home_url": "https://segmentfault.com/u/banxia_frontend",
+    "votes": "2",
+    "rank": 8
+  },
+  {
+    "title": "分享一个我看源码时的小技巧。",
+    "description": "你好呀，我是歪歪。我在之前的文章里面不是经常叫大家拉源码，然后看代码提交记录吗。也就是看类似于这个界面：比如上面这个界面中，就可以看到 RedissonBaseLock.java 这个文件，由谁在什么时候进行过变更，以及...",
+    "url": "https://segmentfault.com/a/1190000041815888",
+    "author": "why技术",
+    "home_url": "https://segmentfault.com/u/whyjishu",
+    "votes": "1",
+    "rank": 9
+  },
+  {
+    "title": "用JavaScript入门函数式编程，刚入门趁热分享",
+    "description": "我们入门编程的时候，通常都是从命令式编程开始，即最简单的过程式代码。后来为了处理大型项目又接触到面向对象，也属于命令式。而函数式编程属于声明式，其实它的出现早于面向对象。",
+    "url": "https://segmentfault.com/a/1190000041819623",
+    "author": "VaporSpace",
+    "home_url": "https://segmentfault.com/u/wuyuanwuhuitianzhenwuxie",
+    "votes": "1",
+    "rank": 10
+  },
+  {
+    "title": "React常见的面试题以及答案",
+    "description": "React常见的面试题以及答案说说对React的理解？有哪些特性？区分Real DOM和Virtual DOM什么是JSX和它的特性？类组件和函数组件之间有什么区别？了解 Virtual DOM 吗？解释一下它的工作原理。说说对 State 和 Prop...",
+    "url": "https://segmentfault.com/a/1190000041816759",
+    "author": "eraser123",
+    "home_url": "https://segmentfault.com/u/eraser",
+    "votes": "1",
+    "rank": 11
+  },
+  {
+    "title": "首个彻底保证缓存与数据库一致性的开源方案",
+    "description": "大量的实际的项目中，都会引入 Redis 缓存来缓解数据库的查询压力，此时由于一个数据在 Redis 和数据库两处进行了存储，就会有数据一致性的问题。目前业界尚未见到成熟的能够确保最终一致性的方案，特别是当如下...",
+    "url": "https://segmentfault.com/a/1190000041815412",
+    "author": "叶东富",
+    "home_url": "https://segmentfault.com/u/yedongfu",
+    "votes": "1",
+    "rank": 12
+  },
+  {
+    "title": "【校招/社招】面试字节，写了一份硬核简历！",
+    "description": "傅哥我要实习了、傅哥我要校招了、傅哥我要跳槽了，但我现在还没有啥拿的出手的项目，也不会包装简历，东拼西凑的内容在招聘网站，投了几次都石沉大海没有啥下文了！！！其实就算让我去面试，自己都感觉有虚，怎...",
+    "url": "https://segmentfault.com/a/1190000041814734",
+    "author": "小傅哥",
+    "home_url": "https://segmentfault.com/u/fuzhengwei",
+    "votes": "3",
+    "rank": 13
+  },
+  {
+    "title": "【面试普通人VS高手系列】说一说Mybatis里面的缓存机制",
+    "description": "一个工作了 5年的程序员，在私信里面不断向我诉苦。他说，他用了Mybatis这么久，怎么滴也算是精通Mybatis了吧。结果竟然在Mybatis这个面试题上翻车了！ 真的好烦！好吧，我们今天来看看“Mybatis里面的缓存机制”，...",
+    "url": "https://segmentfault.com/a/1190000041817208",
     "author": "跟着Mic学架构",
     "home_url": "https://segmentfault.com/u/fukua_5be8034f8191f",
+    "votes": "2",
+    "rank": 14
+  },
+  {
+    "title": "为什么 Go 用起来会难受？这 6 个细节你知道吗",
+    "description": "大家好，我是煎鱼。在做新的应用选型时，我们会进行应用编程语言的选择，这时会纠结 Java、PHP、Go...各种，会思考有没有致命的问题，不能用？可以明确的是，Go 没有非常致命的问题，否则你我他都不会在这里相遇...",
+    "url": "https://segmentfault.com/a/1190000041816069",
+    "author": "煎鱼",
+    "home_url": "https://segmentfault.com/u/eddycjy",
+    "votes": "2",
+    "rank": 15
+  },
+  {
+    "title": "企业级低代码 | 灵魂拷问：低代码真的安全可靠吗？ | 飞速创软",
+    "description": "在一篇题为《低代码和无代码开发的4个安全问题》的文章中，作者 Chris Hughes 表示，“通过允许企业中更多的人开发应用程序，低代码开发会产生新的漏洞，并在安全性方面隐藏问题。”",
+    "url": "https://segmentfault.com/a/1190000041815156",
+    "author": "飞速低代码平台",
+    "home_url": "https://segmentfault.com/u/dadedanta",
     "votes": "1",
-    "rank": 3
+    "rank": 16
   }
 ]
