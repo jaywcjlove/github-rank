@@ -2,7 +2,7 @@
   {
     "title": "架构设计资料合集",
     "description": "程序设计eBay 广告平台数据 OLAP 实战 14W 行代码量的前端页面长什么样 关于 Elasticsearch 集群核心配置，腾讯大佬的灵魂 9 问，你能接住几个？ 成为「码...",
-    "votes": "214",
+    "votes": "218",
     "url": "/k/iqlrz7b",
     "avatar": "https://img.toutiao.io/subject/d2f421bbe0be47369b6560e316a5153b/thumb",
     "avatarAlt": "头条精选 - 独家号",
@@ -12,7 +12,7 @@
   {
     "title": "左耳朵耗子：我做系统架构的一些原则",
     "description": "",
-    "votes": "96",
+    "votes": "106",
     "url": "/k/9oljc6o",
     "avatar": "https://img.toutiao.io/subject/ae2b74c589814b769c1bebad92c2fb9a/thumb",
     "avatarAlt": "架构之美 - 独家号",
@@ -20,14 +20,34 @@
     "homeUrl": "/subjects/42200"
   },
   {
+    "title": "跨Mysql、Redis、Mongo的分布式事务",
+    "description": "Mysql、Redis、Mongo都是非常流行的存储，并且各自有自己的优势。在实际的应用中，常常会同时使用多种存储，也会遇见在多种存储中保证数据一致性的需求，例如保证数据库中的库存...",
+    "votes": "58",
+    "url": "/k/246clz1",
+    "avatar": "https://img.toutiao.io/subject/45e806cf22ab424b831afe890c225505/thumb",
+    "avatarAlt": "叶东富 - 独家号",
+    "subjectName": "叶东富",
+    "homeUrl": "/subjects/307550"
+  },
+  {
     "title": "TCP 重传、滑动窗口、流量控制、拥塞控好难？看完图解就不愁了（重制）",
     "description": "",
-    "votes": "42",
+    "votes": "51",
     "url": "/k/14tz08l",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
     "subjectName": "服务架构及中台",
     "homeUrl": "/subjects/26578"
+  },
+  {
+    "title": "白话 Golang 单元测试",
+    "description": "",
+    "votes": "34",
+    "url": "/k/wgu15cl",
+    "avatar": "https://img.toutiao.io/subject/3f69ffc3bdf6496e86439348166e3ed7/thumb",
+    "avatarAlt": "GoHackers - 独家号",
+    "subjectName": "GoHackers",
+    "homeUrl": "/subjects/1385"
   },
   {
     "title": "如何降低复杂度，用数据库做消息队列的存储？",
@@ -40,19 +60,9 @@
     "homeUrl": "/subjects/6491"
   },
   {
-    "title": "白话 Golang 单元测试",
-    "description": "",
-    "votes": "32",
-    "url": "/k/wgu15cl",
-    "avatar": "https://img.toutiao.io/subject/3f69ffc3bdf6496e86439348166e3ed7/thumb",
-    "avatarAlt": "GoHackers - 独家号",
-    "subjectName": "GoHackers",
-    "homeUrl": "/subjects/1385"
-  },
-  {
     "title": "像小说一样品读Linux0.11核心代码",
     "description": "",
-    "votes": "35",
+    "votes": "36",
     "url": "/k/i4xyufr",
     "avatar": "https://img.toutiao.io/subject/5677c886e56b479194e85580c577d68a/thumb",
     "avatarAlt": "编程爱好者(网络编程) - 独家号",
@@ -70,24 +80,14 @@
     "homeUrl": "/subjects/253684"
   },
   {
-    "title": "跨Mysql、Redis、Mongo的分布式事务",
-    "description": "Mysql、Redis、Mongo都是非常流行的存储，并且各自有自己的优势。在实际的应用中，常常会同时使用多种存储，也会遇见在多种存储中保证数据一致性的需求，例如保证数据库中的库存...",
-    "votes": "30",
-    "url": "/k/246clz1",
-    "avatar": "https://img.toutiao.io/subject/45e806cf22ab424b831afe890c225505/thumb",
-    "avatarAlt": "叶东富 - 独家号",
-    "subjectName": "叶东富",
-    "homeUrl": "/subjects/307550"
-  },
-  {
-    "title": "如何理解分治思想",
-    "description": "分治思想就是把复杂问题、拆分成诺干个相同的小问题，然后将问题逐步解决掉，合并到一起的过程，就是分治思想。简单来说，分治思想就是“分而治之”，将复杂问题拆分成诺干个相同的小问题进行解...",
-    "votes": "26",
-    "url": "/k/o4spslu",
-    "avatar": "https://img.toutiao.io/subject/043bb62cd6cc467a8701854521a56db1/thumb",
-    "avatarAlt": "雨夜的博客 - 独家号",
-    "subjectName": "雨夜的博客",
-    "homeUrl": "/subjects/456879"
+    "title": "解密支付系统，来看如何构建理想的支付系统架构",
+    "description": "",
+    "votes": "27",
+    "url": "/k/ohbhiwn",
+    "avatar": "https://img.toutiao.io/subject/11cc495ae64e477a9b099c30e240143f/thumb",
+    "avatarAlt": "程序猿读书雷达 - 独家号",
+    "subjectName": "程序猿读书雷达",
+    "homeUrl": "/subjects/114561"
   },
   {
     "title": "数据仓库—开发规范",
@@ -100,6 +100,26 @@
     "homeUrl": "/subjects/24912"
   },
   {
+    "title": "Go 单体服务开发最佳实践",
+    "description": "",
+    "votes": "23",
+    "url": "/k/7137xju",
+    "avatar": "https://img.toutiao.io/subject/df70c5d3876241ecba5984356133ab23/thumb",
+    "avatarAlt": "架构必知必会 - 独家号",
+    "subjectName": "架构必知必会",
+    "homeUrl": "/subjects/472073"
+  },
+  {
+    "title": "如何做好“防御性编码”？",
+    "description": "",
+    "votes": "22",
+    "url": "/k/sbezmqa",
+    "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
+    "avatarAlt": "趣编程的独家号 - 独家号",
+    "subjectName": "趣编程的独家号",
+    "homeUrl": "/subjects/465623"
+  },
+  {
     "title": "【实操干货】做好这 16 项优化，你的 Linux 操作系统焕然一新",
     "description": "",
     "votes": "24",
@@ -110,49 +130,9 @@
     "homeUrl": "/subjects/182218"
   },
   {
-    "title": "Go 单体服务开发最佳实践",
-    "description": "",
-    "votes": "21",
-    "url": "/k/7137xju",
-    "avatar": "https://img.toutiao.io/subject/df70c5d3876241ecba5984356133ab23/thumb",
-    "avatarAlt": "架构必知必会 - 独家号",
-    "subjectName": "架构必知必会",
-    "homeUrl": "/subjects/472073"
-  },
-  {
-    "title": "推荐一款数据mock框架，无需任何依赖，贼牛逼",
-    "description": "",
-    "votes": "21",
-    "url": "/k/1n3b18r",
-    "avatar": "https://img.toutiao.io/subject/fcd1137867a2413880689043418675a7/thumb",
-    "avatarAlt": "猿天地 - 独家号",
-    "subjectName": "猿天地",
-    "homeUrl": "/subjects/6491"
-  },
-  {
-    "title": "Salesforce服务可观测性设计模式",
-    "description": "可观测性是大规模微服务的必备能力之一，离开了可观测性，微服务运维一定会是一场灾难。本文介绍了Salesforce在构建服务可观测性方面采用的5项设计模式，帮助我们完整系统的理解服务...",
-    "votes": "20",
-    "url": "/k/ug27t5t",
-    "avatar": "https://img.toutiao.io/user/af19eb53bb164e47a25e3b1ef00f965e/thumb",
-    "avatarAlt": "DeepNoMind - 独家号",
-    "subjectName": "DeepNoMind",
-    "homeUrl": "/subjects/460290"
-  },
-  {
-    "title": "如何做好“防御性编码”？",
-    "description": "",
-    "votes": "20",
-    "url": "/k/sbezmqa",
-    "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
-    "avatarAlt": "趣编程的独家号 - 独家号",
-    "subjectName": "趣编程的独家号",
-    "homeUrl": "/subjects/465623"
-  },
-  {
     "title": "实时数仓在搜索的实践应用（Kafka）",
     "description": "",
-    "votes": "16",
+    "votes": "18",
     "url": "/k/5zwejlu",
     "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
     "avatarAlt": "进击的程序猿 - 独家号",
@@ -160,43 +140,63 @@
     "homeUrl": "/subjects/24912"
   },
   {
-    "title": "实力总结四类Bean注入Spring的方式",
-    "description": "",
-    "votes": "23",
-    "url": "/k/lomhloh",
-    "avatar": "https://img.toutiao.io/subject/04598310d2b449419e15d3ca712b17b4/thumb",
-    "avatarAlt": "阿Q说代码 - 独家号",
-    "subjectName": "阿Q说代码",
-    "homeUrl": "/subjects/457975"
-  },
-  {
-    "title": "优质网站同好者周刊（第 064 期） | 倾城博客",
-    "description": "",
-    "votes": "21",
-    "url": "/k/fb9tfz2",
-    "avatar": "https://img.toutiao.io/subject/423aa3b32219428999cfffd48b4f3ea2/thumb",
-    "avatarAlt": "Web前端静轩苑 - 独家号",
-    "subjectName": "Web前端静轩苑",
-    "homeUrl": "/subjects/79906"
-  },
-  {
-    "title": "我的机器学习之路！",
-    "description": "本文主要是介绍机器学习的一些基本内容，包含：除了分类和回归之外的其他机器学习形式评估机器学习模型的规范流程为深度学习准备数据特征工程解决过拟合处理机器学习问题的通用流程一、机器学习...",
-    "votes": "16",
-    "url": "/k/y59f508",
-    "avatar": "https://img.toutiao.io/subject/c8a60287ae464b8db21221a59774ceb3/thumb",
-    "avatarAlt": "AIHackers - 独家号",
-    "subjectName": "AIHackers",
-    "homeUrl": "/subjects/300686"
-  },
-  {
     "title": "ZooKeeper 核心知识总结！",
     "description": "",
-    "votes": "15",
+    "votes": "17",
     "url": "/k/rr9wfjr",
     "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
     "avatarAlt": "乱点技能树 - 独家号",
     "subjectName": "乱点技能树",
     "homeUrl": "/subjects/194141"
+  },
+  {
+    "title": "15K Star！Github 上最火的低代码开发平台！",
+    "description": "",
+    "votes": "20",
+    "url": "/k/tr4pvz5",
+    "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
+    "avatarAlt": "浪客用react,java全栈 - 独家号",
+    "subjectName": "浪客用react,java全栈",
+    "homeUrl": "/subjects/132403"
+  },
+  {
+    "title": "深度解析单线程的 Redis 如何做到每秒数万 QPS 的超高处理能力！",
+    "description": "",
+    "votes": "20",
+    "url": "/k/uoospnd",
+    "avatar": "https://img.toutiao.io/subject/df70c5d3876241ecba5984356133ab23/thumb",
+    "avatarAlt": "架构必知必会 - 独家号",
+    "subjectName": "架构必知必会",
+    "homeUrl": "/subjects/472073"
+  },
+  {
+    "title": "收钱吧生产环境全链路压测的实践",
+    "description": "",
+    "votes": "18",
+    "url": "/k/3elzr5y",
+    "avatar": "https://img.toutiao.io/subject/df70c5d3876241ecba5984356133ab23/thumb",
+    "avatarAlt": "架构必知必会 - 独家号",
+    "subjectName": "架构必知必会",
+    "homeUrl": "/subjects/472073"
+  },
+  {
+    "title": "聊聊如何让你的业务代码具有可扩展性",
+    "description": "",
+    "votes": "18",
+    "url": "/k/pptsstr",
+    "avatar": "https://img.toutiao.io/subject/f13d5c901ebe4d5f9509d20e36f1ee33/thumb",
+    "avatarAlt": "linyb极客之路 - 独家号",
+    "subjectName": "linyb极客之路",
+    "homeUrl": "/subjects/406737"
+  },
+  {
+    "title": "数据库异常智能分析与诊断",
+    "description": "",
+    "votes": "18",
+    "url": "/k/tgdp77t",
+    "avatar": "https://img.toutiao.io/subject/50e9b8208bfd488897fed22d15d9aa0e/thumb",
+    "avatarAlt": "美团技术团队 - 独家号",
+    "subjectName": "美团技术团队",
+    "homeUrl": "/subjects/117027"
   }
 ]
