@@ -5,17 +5,8 @@
     "url": "https://segmentfault.com/a/1190000041804988",
     "author": "零一",
     "home_url": "https://segmentfault.com/u/zero2one",
-    "votes": "22",
+    "votes": "23",
     "rank": 1
-  },
-  {
-    "title": "离谱的 CSS！从表盘刻度到艺术剪纸",
-    "description": "某日，群里有这样一个问题，如何实现这样的表盘刻度：这其实是个挺有意思的问题，方法也有很多。单标签，使用 conic-gradient 实现表盘刻度最简单便捷的方式，就是利用角向渐变的方式 conic-gradient，代码也非常...",
-    "url": "https://segmentfault.com/a/1190000041791819",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "18",
-    "rank": 2
   },
   {
     "title": "年年出妖事，一例由JSON解析导致的\"薛定谔BUG\"排查过程记录",
@@ -23,8 +14,8 @@
     "url": "https://segmentfault.com/a/1190000041806654",
     "author": "铂赛东",
     "home_url": "https://segmentfault.com/u/bosaidong_5c495684bcf4b",
-    "votes": "21",
-    "rank": 3
+    "votes": "24",
+    "rank": 2
   },
   {
     "title": "4.9W 播放量的 TS 动画版进阶教程合集来了！",
@@ -32,17 +23,17 @@
     "url": "https://segmentfault.com/a/1190000041819579",
     "author": "阿宝哥",
     "home_url": "https://segmentfault.com/u/angular4",
-    "votes": "13",
-    "rank": 4
+    "votes": "15",
+    "rank": 3
   },
   {
-    "title": "跨域问题很难吗？来！教你使用 Nginx 反向代理轻松解决",
-    "description": "当你遇到跨域问题，不要立刻就选择复制去尝试。请详细看完这篇文章再处理，我相信它能帮到你。准备前端网站地址：[链接]服务端网址：[链接]首先保证服务端是没有处理跨域的，其次，先用postman测试服务端接口是正...",
-    "url": "https://segmentfault.com/a/1190000041794241",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "10",
-    "rank": 5
+    "title": "现代 CSS 解决方案：CSS 数学函数",
+    "description": "在 CSS 中，其实存在各种各样的函数。具体分为：Transform functionsMath functionsFilter functionsColor functionsImage functionsCounter functionsFont functionsShape functionsReference functionsCSS grid...",
+    "url": "https://segmentfault.com/a/1190000041826742",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "15",
+    "rank": 4
   },
   {
     "title": "React官方团队出手，补齐原生Hook短板",
@@ -50,8 +41,8 @@
     "url": "https://segmentfault.com/a/1190000041798153",
     "author": "卡颂",
     "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "9",
-    "rank": 6
+    "votes": "10",
+    "rank": 5
   },
   {
     "title": "CSS 实现树状结构目录",
@@ -60,7 +51,7 @@
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
     "votes": "6",
-    "rank": 7
+    "rank": 6
   },
   {
     "title": "python又搞事情 想一统天下？",
@@ -69,34 +60,16 @@
     "author": "我的小熊不见了",
     "home_url": "https://segmentfault.com/u/wodexiaoxiongbujianliao",
     "votes": "6",
+    "rank": 7
+  },
+  {
+    "title": "SegmentFault 思否技术周刊 -- 不走寻常路的 CSS",
+    "description": "CSS (英文全称：Cascading Style Sheets)是一种用来表现 HTML（标准通用标记语言的一个应用）或 XML（标准通用标记语言的一个子集）等文件样式的计算机语言。CSS 不仅可以静态地修饰网页，还可以配合各种脚本语言...",
+    "url": "https://segmentfault.com/a/1190000041830559",
+    "author": "Beverly",
+    "home_url": "https://segmentfault.com/u/beverly0",
+    "votes": "8",
     "rank": 8
-  },
-  {
-    "title": "互联网后端技术大全！建议收藏",
-    "description": "工欲善其事，必先利其器；士欲宣其义，必先读其书。后台开发作为互联网技术领域的掌上明珠，一直都是开发者们的追逐的高峰。本文将从后台开发所涉及到的技术术语出发，基于系统开发、架构设计、网络通信等几个方...",
-    "url": "https://segmentfault.com/a/1190000041794118",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "6",
-    "rank": 9
-  },
-  {
-    "title": "PHP 实现平滑关闭/重启",
-    "description": "写过 CLI 常驻进程的老司机肯定遇到过这么一个问题：在需要更新程序的时候，我要怎样才能安全关闭老进程？你可能会想到 NGINX、php-fpm 之类的平滑重启是给进程发送 USR2 信号，然后它就会将当前请求处理完再退出。",
-    "url": "https://segmentfault.com/a/1190000041789825",
-    "author": "Yian",
-    "home_url": "https://segmentfault.com/u/yian",
-    "votes": "3",
-    "rank": 10
-  },
-  {
-    "title": "必备的 6 大计算机网络基础知识点！会 3 个以上就很牛逼了",
-    "description": "计算机网络概述计算机网络的分类按照网络的作用范围：广域网（WAN）、城域网（MAN）、局域网（LAN）；按照网络使用者：公用网络、专用网络。计算机网络的层次结构TCP/IP四层模型与OSI体系结构对比：层次结构设计...",
-    "url": "https://segmentfault.com/a/1190000041793973",
-    "author": "民工哥",
-    "home_url": "https://segmentfault.com/u/jishuroad",
-    "votes": "4",
-    "rank": 11
   },
   {
     "title": "28个Javascript数组方法，开发者的小抄",
@@ -105,7 +78,16 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "4",
-    "rank": 12
+    "rank": 9
+  },
+  {
+    "title": "实现聚焦效果",
+    "description": "这是之前朋友问我的一个功能：他觉得看网页有时候注意力会被转移，希望可以有个蒙层帮助他集中注意力反手我就用 box-shadow 把功能写了出来。 {代码...} 因为 z-index 无法超过非 static 层级导致的 bug在我测试...",
+    "url": "https://segmentfault.com/a/1190000041804137",
+    "author": "linong",
+    "home_url": "https://segmentfault.com/u/linong",
+    "votes": "7",
+    "rank": 10
   },
   {
     "title": "初级程序员的SQL拾遗-②（表操作）",
@@ -114,16 +96,16 @@
     "author": "LYX6666",
     "home_url": "https://segmentfault.com/u/liuyuxuan6666",
     "votes": "5",
-    "rank": 13
+    "rank": 11
   },
   {
-    "title": "名单公布！24支腾讯Light战队，腾讯Light·公益创新挑战赛总决赛见！",
-    "description": "去年12月23日，在中华全国妇女联合会宣传部指导下，第二届腾讯Light·公益创新挑战赛于厦门正式启动。第二届挑战赛中，腾讯联合中国儿童中心设置「生物多样性保护/教育」、「未成年人安全保护/教育」和「素养教育...",
-    "url": "https://segmentfault.com/a/1190000041824928",
-    "author": "六一",
-    "home_url": "https://segmentfault.com/u/suicidal_romantic_scoundrel",
-    "votes": "1",
-    "rank": 14
+    "title": "弃用！Github 上用了 Git.io 缩址服务的都注意了",
+    "description": "GitHub 是面向开源及私有软件项目的托管平台，因为只支持 Git 作为唯一的版本库格式进行托管，故名 GitHub。对程序员来说，GitHub 可以说是开源精神之所系。在 GitHub 任何职业程序员和编程爱好者都可以分享源代...",
+    "url": "https://segmentfault.com/a/1190000041826495",
+    "author": "云叔_又拍云",
+    "home_url": "https://segmentfault.com/u/yunshu_blog",
+    "votes": "4",
+    "rank": 12
   },
   {
     "title": "改@用户功能为动态",
@@ -132,7 +114,7 @@
     "author": "小强Zzz",
     "home_url": "https://segmentfault.com/u/zhaokaiqiang",
     "votes": "5",
-    "rank": 15
+    "rank": 13
   },
   {
     "title": "ActivatedRoute 和 Router，以及记录后台遇到的问题",
@@ -141,16 +123,16 @@
     "author": "weiewiyi",
     "home_url": "https://segmentfault.com/u/chenchu_6110ed583800c",
     "votes": "5",
-    "rank": 16
+    "rank": 14
   },
   {
-    "title": "现代 CSS 解决方案：CSS 数学函数",
-    "description": "在 CSS 中，其实存在各种各样的函数。具体分为：Transform functionsMath functionsFilter functionsColor functionsImage functionsCounter functionsFont functionsShape functionsReference functionsCSS grid...",
-    "url": "https://segmentfault.com/a/1190000041826742",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "9",
-    "rank": 17
+    "title": "名单公布！24支腾讯Light战队，腾讯Light·公益创新挑战赛总决赛见！",
+    "description": "去年12月23日，在中华全国妇女联合会宣传部指导下，第二届腾讯Light·公益创新挑战赛于厦门正式启动。第二届挑战赛中，腾讯联合中国儿童中心设置「生物多样性保护/教育」、「未成年人安全保护/教育」和「素养教育...",
+    "url": "https://segmentfault.com/a/1190000041824928",
+    "author": "六一",
+    "home_url": "https://segmentfault.com/u/suicidal_romantic_scoundrel",
+    "votes": "1",
+    "rank": 15
   },
   {
     "title": "Vue注册的全局组件配置对象保存的位置",
@@ -159,6 +141,24 @@
     "author": "而井",
     "home_url": "https://segmentfault.com/u/rioli",
     "votes": "2",
+    "rank": 16
+  },
+  {
+    "title": "“银行家算法”大揭秘！在前端表格中利用自定义公式实现“四舍六入五成双”",
+    "description": "银行的盈利模式是什么?三个字：信息差!从储户手中收拢资金，然后放贷出去，而所谓的“利润”就是这其中的利息差额。在我国，人民银行规定每个季度月末的20号为银行结息日，每一年四次结息，因此每年需要非常频繁的...",
+    "url": "https://segmentfault.com/a/1190000041827978",
+    "author": "葡萄城技术团队",
+    "home_url": "https://segmentfault.com/u/grapecity",
+    "votes": "1",
+    "rank": 17
+  },
+  {
+    "title": "【校招/社招】面试字节，写了一份硬核简历！",
+    "description": "傅哥我要实习了、傅哥我要校招了、傅哥我要跳槽了，但我现在还没有啥拿的出手的项目，也不会包装简历，东拼西凑的内容在招聘网站，投了几次都石沉大海没有啥下文了！！！其实就算让我去面试，自己都感觉有虚，怎...",
+    "url": "https://segmentfault.com/a/1190000041814734",
+    "author": "小傅哥",
+    "home_url": "https://segmentfault.com/u/fuzhengwei",
+    "votes": "6",
     "rank": 18
   },
   {
@@ -171,11 +171,11 @@
     "rank": 19
   },
   {
-    "title": "使用Vite构建工具快速创建Vue项目",
-    "description": "和Webpack相比，Vite具有以下特点1、快速的冷启动，不需要等待打包2、即时的热模块更新，真正的按需编译，不用等待整个项目编译完成Vite构建Vue项目前提：安装Node.js和Vite第一步通过npm创建Vite项目 {代码...} ...",
-    "url": "https://segmentfault.com/a/1190000041792024",
-    "author": "TANKING",
-    "home_url": "https://segmentfault.com/u/tanking",
+    "title": "为什么 Go 用起来会难受？这 6 个细节你知道吗",
+    "description": "大家好，我是煎鱼。在做新的应用选型时，我们会进行应用编程语言的选择，这时会纠结 Java、PHP、Go...各种，会思考有没有致命的问题，不能用？可以明确的是，Go 没有非常致命的问题，否则你我他都不会在这里相遇...",
+    "url": "https://segmentfault.com/a/1190000041816069",
+    "author": "煎鱼",
+    "home_url": "https://segmentfault.com/u/eddycjy",
     "votes": "2",
     "rank": 20
   },
@@ -189,31 +189,13 @@
     "rank": 21
   },
   {
-    "title": "怎么写开源项目的README",
+    "title": "使用内联CSS 变量，提高灵巧布局效率！",
     "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000041797847",
+    "url": "https://segmentfault.com/a/1190000041820078",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "4",
     "rank": 22
-  },
-  {
-    "title": "实现聚焦效果",
-    "description": "这是之前朋友问我的一个功能：他觉得看网页有时候注意力会被转移，希望可以有个蒙层帮助他集中注意力反手我就用 box-shadow 把功能写了出来。 {代码...} 因为 z-index 无法超过非 static 层级导致的 bug在我测试...",
-    "url": "https://segmentfault.com/a/1190000041804137",
-    "author": "linong",
-    "home_url": "https://segmentfault.com/u/linong",
-    "votes": "7",
-    "rank": 23
-  },
-  {
-    "title": "为什么 Go 用起来会难受？这 6 个细节你知道吗",
-    "description": "大家好，我是煎鱼。在做新的应用选型时，我们会进行应用编程语言的选择，这时会纠结 Java、PHP、Go...各种，会思考有没有致命的问题，不能用？可以明确的是，Go 没有非常致命的问题，否则你我他都不会在这里相遇...",
-    "url": "https://segmentfault.com/a/1190000041816069",
-    "author": "煎鱼",
-    "home_url": "https://segmentfault.com/u/eddycjy",
-    "votes": "2",
-    "rank": 24
   },
   {
     "title": "【面试普通人VS高手系列】讲一下wait和notify这个为什么要在synchronized代码块中？",
@@ -222,16 +204,7 @@
     "author": "跟着Mic学架构",
     "home_url": "https://segmentfault.com/u/fukua_5be8034f8191f",
     "votes": "2",
-    "rank": 25
-  },
-  {
-    "title": "Chrome插件：云音乐听歌识曲",
-    "description": "当你用网页在视频网站刷视频的时候，有没有碰到过一个 BGM 激起你内心的波澜，而你却不知道它的名字。此时只能打开手机进行听歌识曲，而通过一个浏览器的插件却更容易解决这个问题。不需要繁琐的掏出手机，也不会...",
-    "url": "https://segmentfault.com/a/1190000041791987",
-    "author": "云音乐技术团队",
-    "home_url": "https://segmentfault.com/u/musicfe",
-    "votes": "2",
-    "rank": 26
+    "rank": 23
   },
   {
     "title": "总结一下本周遇到的问题",
@@ -240,16 +213,7 @@
     "author": "李明",
     "home_url": "https://segmentfault.com/u/pluto_612f55567eb8c",
     "votes": "4",
-    "rank": 27
-  },
-  {
-    "title": "得物客服一站式工作台卡顿优化之路",
-    "description": "客服一站式工作台包含了在线、电话、工单和工具类四大功能模块。其中很多通用的模块，比如工单详情、订单详情都是通过iframe的形式嵌套的，在系统加载过程中会比较耗时，再加上在线消息通信模块强依赖tinode第三...",
-    "url": "https://segmentfault.com/a/1190000041802911",
-    "author": "得物技术",
-    "home_url": "https://segmentfault.com/u/dewujishu",
-    "votes": "1",
-    "rank": 28
+    "rank": 24
   },
   {
     "title": "跳动的“loading”，个个都很惊艳！",
@@ -258,7 +222,16 @@
     "author": "搞前端的半夏",
     "home_url": "https://segmentfault.com/u/banxia_frontend",
     "votes": "1",
-    "rank": 29
+    "rank": 25
+  },
+  {
+    "title": "得物客服一站式工作台卡顿优化之路",
+    "description": "客服一站式工作台包含了在线、电话、工单和工具类四大功能模块。其中很多通用的模块，比如工单详情、订单详情都是通过iframe的形式嵌套的，在系统加载过程中会比较耗时，再加上在线消息通信模块强依赖tinode第三...",
+    "url": "https://segmentfault.com/a/1190000041802911",
+    "author": "得物技术",
+    "home_url": "https://segmentfault.com/u/dewujishu",
+    "votes": "1",
+    "rank": 26
   },
   {
     "title": "分享一个我看源码时的小技巧。",
@@ -267,6 +240,33 @@
     "author": "why技术",
     "home_url": "https://segmentfault.com/u/whyjishu",
     "votes": "2",
+    "rank": 27
+  },
+  {
+    "title": "Redis 为何使用近似 LRU 算法淘汰数据，而不是真实 LRU？",
+    "description": "在《Redis 数据缓存满了怎么办？》我们知道 Redis 缓存满了之后能通过淘汰策略删除数据腾出空间给新数据。淘汰策略如下所示：设置过期时间的 keyvolatile-ttl、volatile-random、volatile-lru、volatile-lfu 这四...",
+    "url": "https://segmentfault.com/a/1190000041824717",
+    "author": "码哥字节",
+    "home_url": "https://segmentfault.com/u/magebyte",
+    "votes": "2",
+    "rank": 28
+  },
+  {
+    "title": "Node.js 创始人：Javascript 容器是简化服务器抽象的“先驱”践行者",
+    "description": "近日，Node.js 创始人 Ryan Dahl 在社区以“JavaScript Containers”为题发文谈论了自己对 Javascript 容器的看法 —— Javascript 是通用脚本语言的“未来”，而 Javascript 容器则是简化服务器抽象的“先驱”践行者。",
+    "url": "https://segmentfault.com/a/1190000041806754",
+    "author": "MissD",
+    "home_url": "https://segmentfault.com/u/d2ms1shh",
+    "votes": "3",
+    "rank": 29
+  },
+  {
+    "title": "我造了个前端 Mock 工具",
+    "description": "闲着没事造了个浏览器插件解决前端 Mock 问题。官网地址 [链接]前端的痛苦某一天 leader 问咱们 xxx 需求进度咋样了？后端： 接口完成，就差前端联调了前端：你。。。我。。。（哔~~）第二天 前端加班加点联调好...",
+    "url": "https://segmentfault.com/a/1190000041827003",
+    "author": "亖混子",
+    "home_url": "https://segmentfault.com/u/1023",
+    "votes": "5",
     "rank": 30
   }
 ]
