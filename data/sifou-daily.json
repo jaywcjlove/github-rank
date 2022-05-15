@@ -1,92 +1,20 @@
 [
   {
-    "title": "IO模型与吃饭的那些事",
-    "description": "万香楼开张了，今天是第一天接待人，张三是第一个客人，他看了眼菜单，对recvfrom说道：“给我来碗臊子面吧，多放臊子。”，recvfrom客气道：“好，稍等哈，我立马给你做”。这一做就是20分钟过去了，后面排队的后面...",
-    "url": "https://segmentfault.com/a/1190000041841526",
-    "author": "kumfo",
-    "home_url": "https://segmentfault.com/u/kumfo",
-    "votes": "2",
+    "title": "【java并发编程】Lock & Condition 协调同步生产消费",
+    "description": "本文内容主要想向大家介绍一下Lock结合Condition的使用方法，为了更好的理解Lock锁与Condition锁信号，我们来手写一个ArrayBlockingQueue。 JDK实际上已经有这个类，基于Lock锁与Condition锁信号实现的，当然JDK...",
+    "url": "https://segmentfault.com/a/1190000041843306",
+    "author": "字母哥博客",
+    "home_url": "https://segmentfault.com/u/zimug",
+    "votes": "4",
     "rank": 1
   },
   {
-    "title": "程序员的人生",
-    "description": "职业生涯中就是和两个数打交道：0、1。一辈子就做了两件事：学习、实践。所谓的成功无非两种结果：算出一个数、拼出了一个字符串。天天忙忙碌碌，但归纳起来就是：读取、写入。幸福感的获取方式有两种：制造bug、...",
-    "url": "https://segmentfault.com/a/1190000041838581",
-    "author": "NickWang",
-    "home_url": "https://segmentfault.com/u/nickw_cn",
-    "votes": "2",
+    "title": "教你如何用express+mysql+cheerio+swaggerUI开发爬虫项目API接口",
+    "description": "项目基于express+sequelize+mysql+express-validator基于node+express爬虫 API接口项目,包括全国高校信息、成语诗歌、星座运势、历史的今天、音乐数据接口、图片壁纸、搞笑视频、热点新闻资讯 详情接口数据",
+    "url": "https://segmentfault.com/a/1190000041844772",
+    "author": "coding",
+    "home_url": "https://segmentfault.com/u/codinger",
+    "votes": "1",
     "rank": 2
-  },
-  {
-    "title": "webpack5自定义插件，对插入到html的js文件增加时间戳",
-    "description": "使用插件的自定义钩子的方式发生了变化： compilation.plugin['xxx'] -> HtmlWebpackPlugin.getHooks(compilation)",
-    "url": "https://segmentfault.com/a/1190000041842873",
-    "author": "回首",
-    "home_url": "https://segmentfault.com/u/huishou",
-    "votes": "1",
-    "rank": 3
-  },
-  {
-    "title": "MySQL面试八股文背诵版",
-    "description": "文章目录：什么是MySQL?MySQL常用的存储引擎有什么?它们有什么区别?数据库的三大范式MySQL的数据类型有哪些索引什么是索引?索弓的优缺点?索|的数据结构?Hash索弓|和B+树的区别?薪的类型有哪些?索|的种类有哪些?B...",
-    "url": "https://segmentfault.com/a/1190000041839926",
-    "author": "java领域",
-    "home_url": "https://segmentfault.com/u/wudingfei",
-    "votes": "1",
-    "rank": 4
-  },
-  {
-    "title": "5分钟带你通过Javascript了解人工智能的基本原理",
-    "description": "学习人工智能门槛高不高？我入门花了2个月时间，学习了python、微积分，才大概弄懂了深度学习的基本原理，确实让人头大，不过现在回过头想想，其实基本原理是没这么难的。",
-    "url": "https://segmentfault.com/a/1190000041843081",
-    "author": "6666",
-    "home_url": "https://segmentfault.com/u/6666",
-    "votes": "1",
-    "rank": 5
-  },
-  {
-    "title": "React 组件库 CSS 样式方案分析",
-    "description": "随着业务的发展，一些代码逻辑可能同时在多个项目中使用，为了避免每次使用和更新都要复制粘贴代码，构造一个组件库就十分有必要了。构建组件库有很多需要考虑的方面，本文主要讨论在 React 生态下，如何选择一种...",
-    "url": "https://segmentfault.com/a/1190000041840130",
-    "author": "云音乐技术团队",
-    "home_url": "https://segmentfault.com/u/musicfe",
-    "votes": "1",
-    "rank": 6
-  },
-  {
-    "title": "使用CSS实现《声生不息》节目Logo",
-    "description": "《声生不息》 是芒果TV、香港电视广播有限公司和湖南卫视联合推出的港乐竞唱献礼节目，听着音乐仿佛回到了那个令人怀念的港风席卷整个亚洲的年代。",
-    "url": "https://segmentfault.com/a/1190000041839660",
-    "author": "dragonir",
-    "home_url": "https://segmentfault.com/u/dragonir",
-    "votes": "3",
-    "rank": 7
-  },
-  {
-    "title": "MySQL核心技术_常见函数",
-    "description": "常见函数字符函数数学函数日期函数其他函数【补充】流程控制函数【补充】字符函数大小写控制函数这类函数改变字符的大小写。字符控制函数这类函数控制字符:数字函数ROUND: 四舍五入TRUNCATE: 截断MOD: 求余日期函...",
-    "url": "https://segmentfault.com/a/1190000041840033",
-    "author": "小谷哥",
-    "home_url": "https://segmentfault.com/u/atguigu",
-    "votes": "1",
-    "rank": 8
-  },
-  {
-    "title": "冴羽答读者问：人生的意义是什么？",
-    "description": "文章主体写于一年多前，当时我苦于思考人生意义这个问题，于是写下了这篇随笔，正好有同学提到人生意义的问题，就让这篇随笔从我的草稿箱中重见天日，和大家分享我当时的一些思索，现在看来有些地方很是浅薄，但...",
-    "url": "https://segmentfault.com/a/1190000041842063",
-    "author": "冴羽",
-    "home_url": "https://segmentfault.com/u/yayu",
-    "votes": "1",
-    "rank": 9
-  },
-  {
-    "title": "canvas 2 image的使用小心得",
-    "description": "在开发中遇到一个设置透明色的需求，大概描述就是一张图，然后再给一个颜色，把这个图片上所有这个颜色的像素点设置为透明色，如下图实现思路就是将图片画到canvas上，然后遍历图片像素信息，将指定的rgb的alpha...",
-    "url": "https://segmentfault.com/a/1190000041842028",
-    "author": "只盼云巅",
-    "home_url": "https://segmentfault.com/u/zhipanyun",
-    "votes": "3",
-    "rank": 10
   }
 ]
