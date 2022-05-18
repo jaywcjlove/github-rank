@@ -5,17 +5,8 @@
     "url": "https://segmentfault.com/a/1190000041826742",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "23",
+    "votes": "33",
     "rank": 1
-  },
-  {
-    "title": "SegmentFault 思否技术周刊 -- 不走寻常路的 CSS",
-    "description": "CSS (英文全称：Cascading Style Sheets)是一种用来表现 HTML（标准通用标记语言的一个应用）或 XML（标准通用标记语言的一个子集）等文件样式的计算机语言。CSS 不仅可以静态地修饰网页，还可以配合各种脚本语言...",
-    "url": "https://segmentfault.com/a/1190000041830559",
-    "author": "Beverly",
-    "home_url": "https://segmentfault.com/u/beverly0",
-    "votes": "16",
-    "rank": 2
   },
   {
     "title": "为什么前端不能没有监控系统？",
@@ -23,16 +14,25 @@
     "url": "https://segmentfault.com/a/1190000041833326",
     "author": "杨成功",
     "home_url": "https://segmentfault.com/u/ruidoc",
-    "votes": "14",
+    "votes": "20",
+    "rank": 2
+  },
+  {
+    "title": "SegmentFault 思否技术周刊 -- 不走寻常路的 CSS",
+    "description": "CSS (英文全称：Cascading Style Sheets)是一种用来表现 HTML（标准通用标记语言的一个应用）或 XML（标准通用标记语言的一个子集）等文件样式的计算机语言。CSS 不仅可以静态地修饰网页，还可以配合各种脚本语言...",
+    "url": "https://segmentfault.com/a/1190000041830559",
+    "author": "Beverly",
+    "home_url": "https://segmentfault.com/u/beverly0",
+    "votes": "18",
     "rank": 3
   },
   {
-    "title": "实现聚焦效果",
-    "description": "这是之前朋友问我的一个功能：他觉得看网页有时候注意力会被转移，希望可以有个蒙层帮助他集中注意力反手我就用 box-shadow 把功能写了出来。 {代码...} 因为 z-index 无法超过非 static 层级导致的 bug在我测试...",
-    "url": "https://segmentfault.com/a/1190000041804137",
-    "author": "linong",
-    "home_url": "https://segmentfault.com/u/linong",
-    "votes": "8",
+    "title": "移动端常见适配方案",
+    "description": "做移动端页面有一段时间了，总结下工作中常用的几种移动端适配方案。基础网上已经有非常多的基础知识总结，不再赘诉，详情可以见《关于移动端适配，你必须要知道的》《不要再问我移动适配的问题了》其中容易搞混...",
+    "url": "https://segmentfault.com/a/1190000041831493",
+    "author": "深红",
+    "home_url": "https://segmentfault.com/u/deepred5",
+    "votes": "7",
     "rank": 4
   },
   {
@@ -41,17 +41,8 @@
     "url": "https://segmentfault.com/a/1190000041832303",
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
-    "votes": "4",
+    "votes": "5",
     "rank": 5
-  },
-  {
-    "title": "移动端常见适配方案",
-    "description": "做移动端页面有一段时间了，总结下工作中常用的几种移动端适配方案。基础网上已经有非常多的基础知识总结，不再赘诉，详情可以见《关于移动端适配，你必须要知道的》《不要再问我移动适配的问题了》其中容易搞混...",
-    "url": "https://segmentfault.com/a/1190000041831493",
-    "author": "深红",
-    "home_url": "https://segmentfault.com/u/deepred5",
-    "votes": "6",
-    "rank": 6
   },
   {
     "title": "一文聊透 IP 地址的那些事",
@@ -60,7 +51,7 @@
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
     "votes": "5",
-    "rank": 7
+    "rank": 6
   },
   {
     "title": "“银行家算法”大揭秘！在前端表格中利用自定义公式实现“四舍六入五成双”",
@@ -69,7 +60,7 @@
     "author": "葡萄城技术团队",
     "home_url": "https://segmentfault.com/u/grapecity",
     "votes": "2",
-    "rank": 8
+    "rank": 7
   },
   {
     "title": "弃用！Github 上用了 Git.io 缩址服务的都注意了",
@@ -78,16 +69,16 @@
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
     "votes": "4",
-    "rank": 9
+    "rank": 8
   },
   {
-    "title": "Redis 为何使用近似 LRU 算法淘汰数据，而不是真实 LRU？",
-    "description": "在《Redis 数据缓存满了怎么办？》我们知道 Redis 缓存满了之后能通过淘汰策略删除数据腾出空间给新数据。淘汰策略如下所示：设置过期时间的 keyvolatile-ttl、volatile-random、volatile-lru、volatile-lfu 这四...",
-    "url": "https://segmentfault.com/a/1190000041824717",
-    "author": "码哥字节",
-    "home_url": "https://segmentfault.com/u/magebyte",
-    "votes": "5",
-    "rank": 10
+    "title": "5分钟带你通过Javascript了解人工智能的基本原理",
+    "description": "学习人工智能门槛高不高？我入门花了2个月时间，学习了python、微积分，才大概弄懂了深度学习的基本原理，确实让人头大，不过现在回过头想想，其实基本原理是没这么难的。",
+    "url": "https://segmentfault.com/a/1190000041843081",
+    "author": "6666",
+    "home_url": "https://segmentfault.com/u/6666",
+    "votes": "4",
+    "rank": 9
   },
   {
     "title": "Google I/O 2022 精彩回顾：“知识与计算”成焦点|践行“科技让所有人生活得更好”",
@@ -96,7 +87,7 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "2",
-    "rank": 11
+    "rank": 10
   },
   {
     "title": "Android 13 亮相谷歌I/O大会，OPPO 首批推出开发者预览版",
@@ -105,16 +96,16 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "3",
-    "rank": 12
+    "rank": 11
   },
   {
-    "title": "名单公布！24支腾讯Light战队，腾讯Light·公益创新挑战赛总决赛见！",
-    "description": "去年12月23日，在中华全国妇女联合会宣传部指导下，第二届腾讯Light·公益创新挑战赛于厦门正式启动。第二届挑战赛中，腾讯联合中国儿童中心设置「生物多样性保护/教育」、「未成年人安全保护/教育」和「素养教育...",
-    "url": "https://segmentfault.com/a/1190000041824928",
-    "author": "六一",
-    "home_url": "https://segmentfault.com/u/suicidal_romantic_scoundrel",
-    "votes": "1",
-    "rank": 13
+    "title": "如何做新人引导功能？",
+    "description": "节前碰到一个需求：「新人引导效果」针对第一次使用平台的用户进行主要功能引导。具体引导路径为：点击“新增按钮”，对弹出的内容进行解释，并引导用户填充表单，最后提交表单。",
+    "url": "https://segmentfault.com/a/1190000041789636",
+    "author": "linong",
+    "home_url": "https://segmentfault.com/u/linong",
+    "votes": "4",
+    "rank": 12
   },
   {
     "title": "冴羽答读者问：人生低谷时，如何快速调整、重回正轨？",
@@ -123,6 +114,15 @@
     "author": "冴羽",
     "home_url": "https://segmentfault.com/u/yayu",
     "votes": "4",
+    "rank": 13
+  },
+  {
+    "title": "我造了个前端 Mock 工具",
+    "description": "闲着没事造了个浏览器插件解决前端 Mock 问题。官网地址 [链接]前端的痛苦某一天 leader 问咱们 xxx 需求进度咋样了？后端： 接口完成，就差前端联调了前端：你。。。我。。。（哔~~）第二天 前端加班加点联调好...",
+    "url": "https://segmentfault.com/a/1190000041827003",
+    "author": "亖混子",
+    "home_url": "https://segmentfault.com/u/1023",
+    "votes": "6",
     "rank": 14
   },
   {
@@ -135,31 +135,13 @@
     "rank": 15
   },
   {
-    "title": "我造了个前端 Mock 工具",
-    "description": "闲着没事造了个浏览器插件解决前端 Mock 问题。官网地址 [链接]前端的痛苦某一天 leader 问咱们 xxx 需求进度咋样了？后端： 接口完成，就差前端联调了前端：你。。。我。。。（哔~~）第二天 前端加班加点联调好...",
-    "url": "https://segmentfault.com/a/1190000041827003",
-    "author": "亖混子",
-    "home_url": "https://segmentfault.com/u/1023",
-    "votes": "5",
-    "rank": 16
-  },
-  {
-    "title": "5分钟带你通过Javascript了解人工智能的基本原理",
-    "description": "学习人工智能门槛高不高？我入门花了2个月时间，学习了python、微积分，才大概弄懂了深度学习的基本原理，确实让人头大，不过现在回过头想想，其实基本原理是没这么难的。",
-    "url": "https://segmentfault.com/a/1190000041843081",
-    "author": "6666",
-    "home_url": "https://segmentfault.com/u/6666",
-    "votes": "3",
-    "rank": 17
-  },
-  {
     "title": "IO模型与吃饭的那些事",
     "description": "万香楼开张了，今天是第一天接待人，张三是第一个客人，他看了眼菜单，对recvfrom说道：“给我来碗臊子面吧，多放臊子。”，recvfrom客气道：“好，稍等哈，我立马给你做”。这一做就是20分钟过去了，后面排队的后面...",
     "url": "https://segmentfault.com/a/1190000041841526",
     "author": "kumfo",
     "home_url": "https://segmentfault.com/u/kumfo",
     "votes": "2",
-    "rank": 18
+    "rank": 16
   },
   {
     "title": "【java并发编程】Lock & Condition 协调同步生产消费",
@@ -168,7 +150,7 @@
     "author": "字母哥博客",
     "home_url": "https://segmentfault.com/u/zimug",
     "votes": "4",
-    "rank": 19
+    "rank": 17
   },
   {
     "title": "快慢缓急总相宜｜ONES 人物",
@@ -177,7 +159,7 @@
     "author": "万事ONES",
     "home_url": "https://segmentfault.com/u/wanshiones",
     "votes": "3",
-    "rank": 20
+    "rank": 18
   },
   {
     "title": "使用CSS实现《声生不息》节目Logo",
@@ -186,16 +168,16 @@
     "author": "dragonir",
     "home_url": "https://segmentfault.com/u/dragonir",
     "votes": "4",
-    "rank": 21
+    "rank": 19
   },
   {
-    "title": "IntersectionObserver 使用 ,列表懒加载，虚拟列表实现",
-    "description": "使用IntersectionObserver 可以让我们快速实现 懒加载 和 虚拟列表首先我们创建 observer 观察者实例 {代码...} options 是配置的参数 (选填)observer 则是一个观察器实例有一些基础的方法 {代码...} callback 回...",
-    "url": "https://segmentfault.com/a/1190000041823853",
-    "author": "樊衍",
-    "home_url": "https://segmentfault.com/u/fanyan",
-    "votes": "2",
-    "rank": 22
+    "title": "教你如何用express+mysql+cheerio+swaggerUI开发爬虫项目API接口",
+    "description": "项目基于express+sequelize+mysql+express-validator基于node+express爬虫 API接口项目,包括全国高校信息、成语诗歌、星座运势、历史的今天、音乐数据接口、图片壁纸、搞笑视频、热点新闻资讯 详情接口数据",
+    "url": "https://segmentfault.com/a/1190000041844772",
+    "author": "coding",
+    "home_url": "https://segmentfault.com/u/codinger",
+    "votes": "3",
+    "rank": 20
   },
   {
     "title": "【Leetcode 346/700】79. 单词搜索 【中等】【回溯深度搜索JavaScript版】",
@@ -204,7 +186,16 @@
     "author": "叫我詹躲躲",
     "home_url": "https://segmentfault.com/u/huixiaodeyanjingzhenmei",
     "votes": "1",
-    "rank": 23
+    "rank": 21
+  },
+  {
+    "title": "JavaScript深拷贝的几种方法",
+    "description": "浅拷贝是创建一个新对象，这个对象有着原始对象属性值的拷贝。如果属性是基本类型，拷贝的就是基本类型的值，如果属性是引用类型，拷贝的是内存地址 。如果不进行深拷贝，其中一个对象改变了对象的值，就会影响到...",
+    "url": "https://segmentfault.com/a/1190000041847063",
+    "author": "沉静地闪光",
+    "home_url": "https://segmentfault.com/u/007008",
+    "votes": "2",
+    "rank": 22
   },
   {
     "title": "并发编程之volatile与JMM多线程内存模型",
@@ -213,7 +204,7 @@
     "author": "字母哥博客",
     "home_url": "https://segmentfault.com/u/zimug",
     "votes": "2",
-    "rank": 24
+    "rank": 23
   },
   {
     "title": "PHP FFI 实现list",
@@ -222,7 +213,7 @@
     "author": "aa杨",
     "home_url": "https://segmentfault.com/u/aayang",
     "votes": "2",
-    "rank": 25
+    "rank": 24
   },
   {
     "title": "程序员的人生",
@@ -231,25 +222,16 @@
     "author": "NickWang",
     "home_url": "https://segmentfault.com/u/nickw_cn",
     "votes": "2",
+    "rank": 25
+  },
+  {
+    "title": "React 组件库 CSS 样式方案分析",
+    "description": "随着业务的发展，一些代码逻辑可能同时在多个项目中使用，为了避免每次使用和更新都要复制粘贴代码，构造一个组件库就十分有必要了。构建组件库有很多需要考虑的方面，本文主要讨论在 React 生态下，如何选择一种...",
+    "url": "https://segmentfault.com/a/1190000041840130",
+    "author": "云音乐技术团队",
+    "home_url": "https://segmentfault.com/u/musicfe",
+    "votes": "2",
     "rank": 26
-  },
-  {
-    "title": "教你如何用express+mysql+cheerio+swaggerUI开发爬虫项目API接口",
-    "description": "项目基于express+sequelize+mysql+express-validator基于node+express爬虫 API接口项目,包括全国高校信息、成语诗歌、星座运势、历史的今天、音乐数据接口、图片壁纸、搞笑视频、热点新闻资讯 详情接口数据",
-    "url": "https://segmentfault.com/a/1190000041844772",
-    "author": "coding",
-    "home_url": "https://segmentfault.com/u/codinger",
-    "votes": "2",
-    "rank": 27
-  },
-  {
-    "title": "ApacheCon Asia 2022强势来袭！16大专题等你投稿！",
-    "description": "今年七月，ApacheCon Asia 2022 强势来袭，针对亚太地区的开发者特举行 ApacheCon Asia 在线会议。足不出户，即可参加Apache技术盛宴，7 月 29 日至 31 日持续三天的Apache项目内容涵盖数十个类别，从大数据到金...",
-    "url": "https://segmentfault.com/a/1190000041821792",
-    "author": "SegmentFault思否",
-    "home_url": "https://segmentfault.com/u/segmentfault",
-    "votes": "2",
-    "rank": 28
   },
   {
     "title": "并发编程系列之Lock锁可重入性与公平性",
@@ -258,15 +240,33 @@
     "author": "字母哥博客",
     "home_url": "https://segmentfault.com/u/zimug",
     "votes": "2",
+    "rank": 27
+  },
+  {
+    "title": "微前端microApp",
+    "description": "微前端的概念是由ThoughtWorks在2016年提出的，它借鉴了微服务的架构理念，核心在于将一个庞大的前端应用拆分成多个独立灵活的小型应用，每个应用都可以独立开发、独立运行、独立部署，再将这些小型应用融合为一...",
+    "url": "https://segmentfault.com/a/1190000041828015",
+    "author": "西安小哥",
+    "home_url": "https://segmentfault.com/u/holidaying",
+    "votes": "2",
+    "rank": 28
+  },
+  {
+    "title": "原生Js调用Fetch Api请求接口（新的Ajax解决方案）",
+    "description": "Fetch Api是新的ajax解决方案，Fetch会返回Promise；Fetch不是ajax的进一步封装，而是原生js，没有使用XMLHttpRequest对象。",
+    "url": "https://segmentfault.com/a/1190000041850373",
+    "author": "TANKING",
+    "home_url": "https://segmentfault.com/u/tanking",
+    "votes": "1",
     "rank": 29
   },
   {
-    "title": "Umi + qiankun 实现动态加载子应用路由",
-    "description": "最近在做项目重构的事情，原来的一个Vue项目有几十个菜单，项目大的令人发指，所以准备重构，使用了umi+qiankun的方式，子应用使用了vue和react两个类型的框架。",
-    "url": "https://segmentfault.com/a/1190000041822899",
-    "author": "恪晨",
-    "home_url": "https://segmentfault.com/u/bo_wang_code",
-    "votes": "0",
+    "title": "webpack5自定义插件，对插入到html的js文件增加时间戳",
+    "description": "使用插件的自定义钩子的方式发生了变化： compilation.plugin['xxx'] -> HtmlWebpackPlugin.getHooks(compilation)",
+    "url": "https://segmentfault.com/a/1190000041842873",
+    "author": "回首",
+    "home_url": "https://segmentfault.com/u/huishou",
+    "votes": "1",
     "rank": 30
   }
 ]
