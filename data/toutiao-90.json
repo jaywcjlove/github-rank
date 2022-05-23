@@ -2,7 +2,7 @@
   {
     "title": "架构设计资料合集",
     "description": "程序设计eBay 广告平台数据 OLAP 实战 14W 行代码量的前端页面长什么样 关于 Elasticsearch 集群核心配置，腾讯大佬的灵魂 9 问，你能接住几个？ 成为「码...",
-    "votes": "231",
+    "votes": "232",
     "url": "/k/iqlrz7b",
     "avatar": "https://img.toutiao.io/subject/d2f421bbe0be47369b6560e316a5153b/thumb",
     "avatarAlt": "头条精选 - 独家号",
@@ -32,7 +32,7 @@
   {
     "title": "左耳朵耗子：我做系统架构的一些原则",
     "description": "",
-    "votes": "139",
+    "votes": "140",
     "url": "/k/9oljc6o",
     "avatar": "https://img.toutiao.io/subject/ae2b74c589814b769c1bebad92c2fb9a/thumb",
     "avatarAlt": "架构之美 - 独家号",
@@ -90,6 +90,16 @@
     "homeUrl": "/subjects/7076"
   },
   {
+    "title": "微服务从代码到k8s部署应有尽有大结局（k8s部署）",
+    "description": "",
+    "votes": "103",
+    "url": "/k/xk3qbvm",
+    "avatar": "https://img.toutiao.io/subject/3f69ffc3bdf6496e86439348166e3ed7/thumb",
+    "avatarAlt": "GoHackers - 独家号",
+    "subjectName": "GoHackers",
+    "homeUrl": "/subjects/1385"
+  },
+  {
     "title": "技术开发人员如何制定自己的OKR",
     "description": "",
     "votes": "113",
@@ -100,34 +110,14 @@
     "homeUrl": "/subjects/4829"
   },
   {
-    "title": "微服务从代码到k8s部署应有尽有大结局（k8s部署）",
-    "description": "",
-    "votes": "102",
-    "url": "/k/xk3qbvm",
-    "avatar": "https://img.toutiao.io/subject/3f69ffc3bdf6496e86439348166e3ed7/thumb",
-    "avatarAlt": "GoHackers - 独家号",
-    "subjectName": "GoHackers",
-    "homeUrl": "/subjects/1385"
-  },
-  {
     "title": "首个确保缓存与数据库一致性的方案",
     "description": "",
-    "votes": "101",
+    "votes": "107",
     "url": "/k/imjqbp3",
     "avatar": "https://img.toutiao.io/subject/45e806cf22ab424b831afe890c225505/thumb",
     "avatarAlt": "叶东富 - 独家号",
     "subjectName": "叶东富",
     "homeUrl": "/subjects/307550"
-  },
-  {
-    "title": "Golang 简洁架构实战",
-    "description": "作者：bearluo，腾讯 IEG 运营开发工程师文中项目代码位置：https://github.com/devYun/go-clean-architecture由于 golang...",
-    "votes": "111",
-    "url": "/k/vjw1dlc",
-    "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
-    "avatarAlt": "趣编程的独家号 - 独家号",
-    "subjectName": "趣编程的独家号",
-    "homeUrl": "/subjects/465623"
   },
   {
     "title": "Kafka 面试连环炮, 看看你能撑到哪一步?",
@@ -140,6 +130,16 @@
     "homeUrl": "/subjects/26578"
   },
   {
+    "title": "系统架构的11条原则",
+    "description": "基本原则原则一：价值为王解析：价值为王的另一种说法叫做YAGNI。YAGNI 是 You aren’t gonna need it 的缩写。该原则的基本含义就是，不应该开发任何当前...",
+    "votes": "102",
+    "url": "/k/xbwjqgj",
+    "avatar": "https://img.toutiao.io/subject/4325865040b44c0b9e2d8d80a83d1d11/thumb",
+    "avatarAlt": "编程一生 - 独家号",
+    "subjectName": "编程一生",
+    "homeUrl": "/subjects/350352"
+  },
+  {
     "title": "如果你是一个Golang面试官，你会问哪些问题？",
     "description": "",
     "votes": "100",
@@ -148,16 +148,6 @@
     "avatarAlt": "GoHackers - 独家号",
     "subjectName": "GoHackers",
     "homeUrl": "/subjects/1385"
-  },
-  {
-    "title": "系统架构的11条原则",
-    "description": "基本原则原则一：价值为王解析：价值为王的另一种说法叫做YAGNI。YAGNI 是 You aren’t gonna need it 的缩写。该原则的基本含义就是，不应该开发任何当前...",
-    "votes": "101",
-    "url": "/k/xbwjqgj",
-    "avatar": "https://img.toutiao.io/subject/4325865040b44c0b9e2d8d80a83d1d11/thumb",
-    "avatarAlt": "编程一生 - 独家号",
-    "subjectName": "编程一生",
-    "homeUrl": "/subjects/350352"
   },
   {
     "title": "解析分布式系统的缓存设计",
@@ -220,6 +210,16 @@
     "homeUrl": "/subjects/132403"
   },
   {
+    "title": "ThreadLocal夺命11连问",
+    "description": "",
+    "votes": "84",
+    "url": "/k/p8lpi5z",
+    "avatar": "https://img.toutiao.io/subject/96c1af0d2a0b441ca9740ee13c3e37f3/thumb",
+    "avatarAlt": "苏三说技术 - 独家号",
+    "subjectName": "苏三说技术",
+    "homeUrl": "/subjects/453205"
+  },
+  {
     "title": "谷歌工程最佳实践",
     "description": "最近公司同事作了个Code Review的分享，于是乎我系统学习了下《谷歌工程实践》，里面主要讲的是Code Review。写下本文作为笔记。前言术语代码审查者指南Code Rev...",
     "votes": "87",
@@ -230,14 +230,14 @@
     "homeUrl": "/subjects/1385"
   },
   {
-    "title": "ThreadLocal夺命11连问",
+    "title": "面渣逆袭：Spring三十五问，四万字+五十图详解！建议收藏！",
     "description": "",
-    "votes": "83",
-    "url": "/k/p8lpi5z",
-    "avatar": "https://img.toutiao.io/subject/96c1af0d2a0b441ca9740ee13c3e37f3/thumb",
-    "avatarAlt": "苏三说技术 - 独家号",
-    "subjectName": "苏三说技术",
-    "homeUrl": "/subjects/453205"
+    "votes": "82",
+    "url": "/k/8ab20e9",
+    "avatar": "https://img.toutiao.io/subject/d42ad8a9192a430b9df44df9a6d383df/thumb",
+    "avatarAlt": "三分恶 - 独家号",
+    "subjectName": "三分恶",
+    "homeUrl": "/subjects/454266"
   },
   {
     "title": "20多个好用的 Vue 组件库，请查收！",

@@ -5,17 +5,8 @@
     "url": "https://segmentfault.com/a/1190000041861125",
     "author": "Beverly",
     "home_url": "https://segmentfault.com/u/beverly0",
-    "votes": "12",
+    "votes": "15",
     "rank": 1
-  },
-  {
-    "title": "如何做新人引导功能？",
-    "description": "节前碰到一个需求：「新人引导效果」针对第一次使用平台的用户进行主要功能引导。具体引导路径为：点击“新增按钮”，对弹出的内容进行解释，并引导用户填充表单，最后提交表单。",
-    "url": "https://segmentfault.com/a/1190000041789636",
-    "author": "linong",
-    "home_url": "https://segmentfault.com/u/linong",
-    "votes": "9",
-    "rank": 2
   },
   {
     "title": "浅谈逻辑选择器 -- 父选择器它来了！",
@@ -23,8 +14,8 @@
     "url": "https://segmentfault.com/a/1190000041860587",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "12",
-    "rank": 3
+    "votes": "14",
+    "rank": 2
   },
   {
     "title": "我怀疑这是IDEA的BUG，但是我翻遍全网没找到证据！",
@@ -33,7 +24,7 @@
     "author": "why技术",
     "home_url": "https://segmentfault.com/u/whyjishu",
     "votes": "8",
-    "rank": 4
+    "rank": 3
   },
   {
     "title": "JSON数据传输大法第一式——用OADate处理日期格式",
@@ -42,7 +33,7 @@
     "author": "葡萄城技术团队",
     "home_url": "https://segmentfault.com/u/grapecity",
     "votes": "3",
-    "rank": 5
+    "rank": 4
   },
   {
     "title": "js面试题(进阶)梳理",
@@ -51,6 +42,15 @@
     "author": "墨城",
     "home_url": "https://segmentfault.com/u/xiaomogu_5f2124ad3ad42",
     "votes": "6",
+    "rank": 5
+  },
+  {
+    "title": "面试官问：Go 中的参数传递是值传递还是引用传递？",
+    "description": "一个程序中，变量分为变量名和变量内容，变量内容的存储一般会被分配到堆和栈上。而在 Go 语言中有两种传递变量的方式值传递和引用传递。其中值传递会直接将变量内容附在变量名上传递，而引用传递会将变量内容的...",
+    "url": "https://segmentfault.com/a/1190000041865949",
+    "author": "云叔_又拍云",
+    "home_url": "https://segmentfault.com/u/yunshu_blog",
+    "votes": "3",
     "rank": 6
   },
   {
@@ -63,22 +63,13 @@
     "rank": 7
   },
   {
-    "title": "面试官问：Go 中的参数传递是值传递还是引用传递？",
-    "description": "一个程序中，变量分为变量名和变量内容，变量内容的存储一般会被分配到堆和栈上。而在 Go 语言中有两种传递变量的方式值传递和引用传递。其中值传递会直接将变量内容附在变量名上传递，而引用传递会将变量内容的...",
-    "url": "https://segmentfault.com/a/1190000041865949",
-    "author": "云叔_又拍云",
-    "home_url": "https://segmentfault.com/u/yunshu_blog",
-    "votes": "3",
+    "title": "微服务从代码到k8s部署应有尽有大结局（k8s部署）",
+    "description": "整个项目使用了go-zero开发的微服务，基本包含了go-zero以及相关go-zero作者开发的一些中间件，所用到的技术栈基本是go-zero项目组的自研组件，基本是go-zero全家桶了。",
+    "url": "https://segmentfault.com/a/1190000041854213",
+    "author": "kevinwan",
+    "home_url": "https://segmentfault.com/u/kevinwan",
+    "votes": "5",
     "rank": 8
-  },
-  {
-    "title": "JavaScript深拷贝的几种方法",
-    "description": "浅拷贝是创建一个新对象，这个对象有着原始对象属性值的拷贝。如果属性是基本类型，拷贝的就是基本类型的值，如果属性是引用类型，拷贝的是内存地址 。如果不进行深拷贝，其中一个对象改变了对象的值，就会影响到...",
-    "url": "https://segmentfault.com/a/1190000041847063",
-    "author": "沉静地闪光",
-    "home_url": "https://segmentfault.com/u/007008",
-    "votes": "4",
-    "rank": 9
   },
   {
     "title": "游戏开发者大会发布PlayFab产品更新",
@@ -87,16 +78,7 @@
     "author": "六一",
     "home_url": "https://segmentfault.com/u/suicidal_romantic_scoundrel",
     "votes": "1",
-    "rank": 10
-  },
-  {
-    "title": "微服务从代码到k8s部署应有尽有大结局（k8s部署）",
-    "description": "整个项目使用了go-zero开发的微服务，基本包含了go-zero以及相关go-zero作者开发的一些中间件，所用到的技术栈基本是go-zero项目组的自研组件，基本是go-zero全家桶了。",
-    "url": "https://segmentfault.com/a/1190000041854213",
-    "author": "kevinwan",
-    "home_url": "https://segmentfault.com/u/kevinwan",
-    "votes": "5",
-    "rank": 11
+    "rank": 9
   },
   {
     "title": "树莓派控制调速以及关于PWM的思考",
@@ -105,7 +87,7 @@
     "author": "kumfo",
     "home_url": "https://segmentfault.com/u/kumfo",
     "votes": "4",
-    "rank": 12
+    "rank": 10
   },
   {
     "title": "你说写代码，最常用的3个设计模式是啥？",
@@ -114,6 +96,24 @@
     "author": "小傅哥",
     "home_url": "https://segmentfault.com/u/fuzhengwei",
     "votes": "3",
+    "rank": 11
+  },
+  {
+    "title": "前端语音转文字实践总结",
+    "description": "最近准备一个技术分享，看到以前做的一个语音转文字的功能，放在slides上落灰了，索性整理到这里和大家分享下。从技术选型，到方案设计，到实际落地，可以说把全链路都覆盖到了。语音转写流程图PC端浏览器如何录...",
+    "url": "https://segmentfault.com/a/1190000041866984",
+    "author": "趁你还年轻",
+    "home_url": "https://segmentfault.com/u/chennihuannianqing",
+    "votes": "5",
+    "rank": 12
+  },
+  {
+    "title": "构建 Go 应用 docker 镜像的十八种姿势",
+    "description": "我夜以继日，加班加点开发了一个最简单的 Go Hello world 应用，虽然只是跑了打印一下就退出了，但是老板也要求我上线这个我能写出的唯一应用。",
+    "url": "https://segmentfault.com/a/1190000041870597",
+    "author": "kevinwan",
+    "home_url": "https://segmentfault.com/u/kevinwan",
+    "votes": "2",
     "rank": 13
   },
   {
@@ -135,31 +135,22 @@
     "rank": 15
   },
   {
-    "title": "【Java面试】Spring中有哪些方式可以把Bean注入到IOC容器？",
-    "description": "今天收到一个工作4年的粉丝的面试题。问题是： “Spring中有哪些方式可以把Bean注入到IOC容器”。他说这道题是所有面试题里面回答最好的，但是看面试官的表情，好像不太对。我问他怎么回答的，他说： “接口注入”、“...",
-    "url": "https://segmentfault.com/a/1190000041857704",
-    "author": "跟着Mic学架构",
-    "home_url": "https://segmentfault.com/u/fukua_5be8034f8191f",
-    "votes": "3",
-    "rank": 16
-  },
-  {
     "title": "Spring Boot 2.7.0发布，2.5停止维护，节奏太快了吧",
     "description": "这几天是Spring版本日，很多Spring工件都发布了新版本， Spring Framework 6.0.0 发布了第 4 个里程碑版本，此版本包含所有针对 5.3.20 的修复补丁，以及特定于 6.0 分支的 39 项修复和改进。而今天Spring Boot 2...",
     "url": "https://segmentfault.com/a/1190000041870045",
     "author": "码农小胖哥",
     "home_url": "https://segmentfault.com/u/10000000",
     "votes": "2",
-    "rank": 17
+    "rank": 16
   },
   {
-    "title": "27 年间从巅峰沦为“笑柄”，微软宣布 IE 浏览器终于要退役了！",
-    "description": "5 月 16 日，@微软 Edge 浏览器官方微博账号发文宣布“微软 IE 浏览器将于 6 月 16 日正式退役”，此消息一出引发网友热议。",
-    "url": "https://segmentfault.com/a/1190000041855932",
-    "author": "MissD",
-    "home_url": "https://segmentfault.com/u/d2ms1shh",
-    "votes": "2",
-    "rank": 18
+    "title": "【Java面试】Spring中有哪些方式可以把Bean注入到IOC容器？",
+    "description": "今天收到一个工作4年的粉丝的面试题。问题是： “Spring中有哪些方式可以把Bean注入到IOC容器”。他说这道题是所有面试题里面回答最好的，但是看面试官的表情，好像不太对。我问他怎么回答的，他说： “接口注入”、“...",
+    "url": "https://segmentfault.com/a/1190000041857704",
+    "author": "跟着Mic学架构",
+    "home_url": "https://segmentfault.com/u/fukua_5be8034f8191f",
+    "votes": "3",
+    "rank": 17
   },
   {
     "title": "threejs 360全景工具开发心得",
@@ -168,16 +159,16 @@
     "author": "馒头",
     "home_url": "https://segmentfault.com/u/mtsee",
     "votes": "5",
-    "rank": 19
+    "rank": 18
   },
   {
-    "title": "构建 Go 应用 docker 镜像的十八种姿势",
-    "description": "我夜以继日，加班加点开发了一个最简单的 Go Hello world 应用，虽然只是跑了打印一下就退出了，但是老板也要求我上线这个我能写出的唯一应用。",
-    "url": "https://segmentfault.com/a/1190000041870597",
-    "author": "kevinwan",
-    "home_url": "https://segmentfault.com/u/kevinwan",
+    "title": "27 年间从巅峰沦为“笑柄”，微软宣布 IE 浏览器终于要退役了！",
+    "description": "5 月 16 日，@微软 Edge 浏览器官方微博账号发文宣布“微软 IE 浏览器将于 6 月 16 日正式退役”，此消息一出引发网友热议。",
+    "url": "https://segmentfault.com/a/1190000041855932",
+    "author": "MissD",
+    "home_url": "https://segmentfault.com/u/d2ms1shh",
     "votes": "2",
-    "rank": 20
+    "rank": 19
   },
   {
     "title": "单点登录（SSO）",
@@ -186,16 +177,16 @@
     "author": "OneStar",
     "home_url": "https://segmentfault.com/u/funnycoderstar",
     "votes": "3",
-    "rank": 21
+    "rank": 20
   },
   {
-    "title": "个人经验分享如何阅读Go语言源码",
-    "description": "哈喽，大家好，我是asong；最近在看Go语言调度器相关的源码，发现看源码真是个技术活，所以本文就简单总结一下该如何查看Go源码，希望对你们有帮助。",
-    "url": "https://segmentfault.com/a/1190000041853479",
-    "author": "asong",
-    "home_url": "https://segmentfault.com/u/asong_5eeb7a1d0da86",
+    "title": "冴羽答读者问：如何快速找到一个聊得来的人生伴侣",
+    "description": "这背后可能有男女标准不一致的缘故，但就我接触的情况而言，我感觉更多人是，嘴上喊着找男女朋友，但身体却很诚实的待在家里，看到喜欢的类型，不敢搭讪，父母亲朋介绍的，却又总是拒绝，APP 找的对象感觉又各种...",
+    "url": "https://segmentfault.com/a/1190000041864109",
+    "author": "冴羽",
+    "home_url": "https://segmentfault.com/u/yayu",
     "votes": "2",
-    "rank": 22
+    "rank": 21
   },
   {
     "title": "Go内存管理一文足矣",
@@ -204,6 +195,15 @@
     "author": "木的树",
     "home_url": "https://segmentfault.com/u/mudeshu",
     "votes": "3",
+    "rank": 22
+  },
+  {
+    "title": "个人经验分享如何阅读Go语言源码",
+    "description": "哈喽，大家好，我是asong；最近在看Go语言调度器相关的源码，发现看源码真是个技术活，所以本文就简单总结一下该如何查看Go源码，希望对你们有帮助。",
+    "url": "https://segmentfault.com/a/1190000041853479",
+    "author": "asong",
+    "home_url": "https://segmentfault.com/u/asong_5eeb7a1d0da86",
+    "votes": "2",
     "rank": 23
   },
   {
@@ -216,29 +216,29 @@
     "rank": 24
   },
   {
-    "title": "冴羽答读者问：如何快速找到一个聊得来的人生伴侣",
-    "description": "这背后可能有男女标准不一致的缘故，但就我接触的情况而言，我感觉更多人是，嘴上喊着找男女朋友，但身体却很诚实的待在家里，看到喜欢的类型，不敢搭讪，父母亲朋介绍的，却又总是拒绝，APP 找的对象感觉又各种...",
-    "url": "https://segmentfault.com/a/1190000041864109",
-    "author": "冴羽",
-    "home_url": "https://segmentfault.com/u/yayu",
-    "votes": "2",
-    "rank": 25
-  },
-  {
-    "title": "前端语音转文字实践总结",
-    "description": "最近准备一个技术分享，看到以前做的一个语音转文字的功能，放在slides上落灰了，索性整理到这里和大家分享下。从技术选型，到方案设计，到实际落地，可以说把全链路都覆盖到了。语音转写流程图PC端浏览器如何录...",
-    "url": "https://segmentfault.com/a/1190000041866984",
-    "author": "趁你还年轻",
-    "home_url": "https://segmentfault.com/u/chennihuannianqing",
-    "votes": "4",
-    "rank": 26
-  },
-  {
     "title": "常用的服务器宕机检测通知工具——WGCLOUD",
     "description": "在项目中，有时候因为一些故障原因，系统会无法提供服务，或者服务器出现宕机现象，这时候，我们为了保证系统能够正常稳定运行，常常需要做一些措施，比如健康检测工具等",
     "url": "https://segmentfault.com/a/1190000041868992",
     "author": "徐三刀",
     "home_url": "https://segmentfault.com/u/9b3sps2b",
+    "votes": "2",
+    "rank": 25
+  },
+  {
+    "title": "SQL基础入门",
+    "description": "体验简介本实验提供一台基础环境为CentOS的ECS（云服务器）实例，点击体验。我们将会在这台服务器上安装mysql，然后学习基本的SQL语句。体验此场景后，可以掌握的知识有：MySQL安装。基本SQL语句的使用。背景知识...",
+    "url": "https://segmentfault.com/a/1190000041857043",
+    "author": "阿里云云起实验室",
+    "home_url": "https://segmentfault.com/u/bainana",
+    "votes": "2",
+    "rank": 26
+  },
+  {
+    "title": "面试官:你能回答这两个简单的问题吗",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000041843627",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "2",
     "rank": 27
   },
@@ -252,20 +252,20 @@
     "rank": 28
   },
   {
-    "title": "SQL基础入门",
-    "description": "体验简介本实验提供一台基础环境为CentOS的ECS（云服务器）实例，点击体验。我们将会在这台服务器上安装mysql，然后学习基本的SQL语句。体验此场景后，可以掌握的知识有：MySQL安装。基本SQL语句的使用。背景知识...",
-    "url": "https://segmentfault.com/a/1190000041857043",
-    "author": "阿里云云起实验室",
-    "home_url": "https://segmentfault.com/u/bainana",
-    "votes": "2",
+    "title": "IE 浏览器将停止服务，这是真的吗？",
+    "description": "如果现在发起一个投票：“你觉得好用的浏览器是什么？”那 Chrome、搜狗、360、火狐等等主流浏览器的支持者肯定不相上下。但是如果这个投票是：“最难用的浏览器是什么？”那 IE 的得票数可能一骑绝尘。",
+    "url": "https://segmentfault.com/a/1190000041855337",
+    "author": "云叔_又拍云",
+    "home_url": "https://segmentfault.com/u/yunshu_blog",
+    "votes": "1",
     "rank": 29
   },
   {
-    "title": "联想一员工侵占公司工时费近千万；Go 可以浏览器上运行啦；Fedora 36 发布 | 思否周刊",
-    "description": "40s 新闻速递苹果计划今年推出 Apple Pay「先买后付」服务华为追踪器曝光，命名为 HUAWEI TagWhatsApp 前高管：当年把公司卖给 Facebook，现在就是十分后悔北京健康宝遭网络攻击细节披露：典型 DDoS 攻击，发起团...",
-    "url": "https://segmentfault.com/a/1190000041846466",
-    "author": "snakesss",
-    "home_url": "https://segmentfault.com/u/snakesss",
+    "title": "面试官：主说 Git Rebase 和 Git Merge 差异",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000041774268",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "1",
     "rank": 30
   }
