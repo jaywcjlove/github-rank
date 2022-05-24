@@ -18,12 +18,12 @@
     "rank": 2
   },
   {
-    "title": "我怀疑这是IDEA的BUG，但是我翻遍全网没找到证据！",
-    "description": "你好呀，我是歪歪。前几天有朋友给我发来这样的一个截图：他说他不理解，为什么这样不报错。我说我也不理解，把一个 boolean 类型赋值给 int 类型，怎么会不报错呢，并接着追问他：这个代码截图是哪里来的？他说...",
-    "url": "https://segmentfault.com/a/1190000041849673",
-    "author": "why技术",
-    "home_url": "https://segmentfault.com/u/whyjishu",
-    "votes": "8",
+    "title": "如何在30分钟完成表格增删改查的前后端框架搭建",
+    "description": "30分钟，你可以做什么？可以风卷残云的饱餐一顿；可以简单地打扫一下房间；或者可以跳10十遍刘畊宏《本草纲目》毽子操。而今天，本葡萄要带你在30分钟内完成一套拥有增删改查表格系统的前后端搭建！",
+    "url": "https://segmentfault.com/a/1190000041872660",
+    "author": "葡萄城技术团队",
+    "home_url": "https://segmentfault.com/u/grapecity",
+    "votes": "3",
     "rank": 3
   },
   {
@@ -36,13 +36,22 @@
     "rank": 4
   },
   {
+    "title": "前端监控的搭建步骤，别再一头雾水了！",
+    "description": "在动手实现之前，首先脑子里要有一个整体脉络，明白搭建前端监控具体的流程步骤有哪些。因为前端监控系统实际上是一个完整的全栈项目，而并不仅仅是前端，甚至主要的实现都是围绕在 数据方面 的。",
+    "url": "https://segmentfault.com/a/1190000041879217",
+    "author": "杨成功",
+    "home_url": "https://segmentfault.com/u/ruidoc",
+    "votes": "6",
+    "rank": 5
+  },
+  {
     "title": "js面试题(进阶)梳理",
     "description": "1、undeclared 与 undefined的区别？ {代码...} 2、let & const与 var 的区别？ {代码...} 3、获取DOM元素有哪些方法？方法描述document.getElementById(id)通过id获取domdocument.getElementsByTagName(tagName)...",
     "url": "https://segmentfault.com/a/1190000041855296",
     "author": "墨城",
     "home_url": "https://segmentfault.com/u/xiaomogu_5f2124ad3ad42",
-    "votes": "6",
-    "rank": 5
+    "votes": "7",
+    "rank": 6
   },
   {
     "title": "面试官问：Go 中的参数传递是值传递还是引用传递？",
@@ -51,7 +60,7 @@
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
     "votes": "3",
-    "rank": 6
+    "rank": 7
   },
   {
     "title": "跨境电商 2 大技术难题，到底该如何解决？",
@@ -60,7 +69,16 @@
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
     "votes": "4",
-    "rank": 7
+    "rank": 8
+  },
+  {
+    "title": "如何实现一个能精确同步滚动的Markdown编辑器",
+    "description": "随着Markdown越来越流行，Markdown编辑器也越来越多，除去所见即所得的实时预览编辑器外，通常其他Markdown编辑器都会采用源代码和预览双栏显示的方式，就像这样：",
+    "url": "https://segmentfault.com/a/1190000041881142",
+    "author": "街角小林",
+    "home_url": "https://segmentfault.com/u/jiejiaoxiaolin",
+    "votes": "6",
+    "rank": 9
   },
   {
     "title": "微服务从代码到k8s部署应有尽有大结局（k8s部署）",
@@ -69,24 +87,6 @@
     "author": "kevinwan",
     "home_url": "https://segmentfault.com/u/kevinwan",
     "votes": "5",
-    "rank": 8
-  },
-  {
-    "title": "游戏开发者大会发布PlayFab产品更新",
-    "description": "微软坚定对服务游戏开发社区的承诺，在5月13日微软游戏出海开发者大会上发布了一些列新产品、更新及新项目。PlayFab 团队围绕Multiplayer Services多人游戏服务、Party、Experiments实验、数据平台和用户生成内容...",
-    "url": "https://segmentfault.com/a/1190000041874903",
-    "author": "六一",
-    "home_url": "https://segmentfault.com/u/suicidal_romantic_scoundrel",
-    "votes": "1",
-    "rank": 9
-  },
-  {
-    "title": "树莓派控制调速以及关于PWM的思考",
-    "description": "最近在寻思用树莓派控制电机速度，电机预估电压是24V，电流是10A，以这样的配置需要个无极调速控制器控制电机转速，看了下相关的控制器价格也不贵，十多块钱就能整一块。然后，相关的无极调速有提供PWM控制的。",
-    "url": "https://segmentfault.com/a/1190000041860546",
-    "author": "kumfo",
-    "home_url": "https://segmentfault.com/u/kumfo",
-    "votes": "4",
     "rank": 10
   },
   {
@@ -95,8 +95,35 @@
     "url": "https://segmentfault.com/a/1190000041860414",
     "author": "小傅哥",
     "home_url": "https://segmentfault.com/u/fuzhengwei",
-    "votes": "3",
+    "votes": "4",
     "rank": 11
+  },
+  {
+    "title": "游戏开发者大会发布PlayFab产品更新",
+    "description": "微软坚定对服务游戏开发社区的承诺，在5月13日微软游戏出海开发者大会上发布了一些列新产品、更新及新项目。PlayFab 团队围绕Multiplayer Services多人游戏服务、Party、Experiments实验、数据平台和用户生成内容...",
+    "url": "https://segmentfault.com/a/1190000041874903",
+    "author": "六一",
+    "home_url": "https://segmentfault.com/u/suicidal_romantic_scoundrel",
+    "votes": "1",
+    "rank": 12
+  },
+  {
+    "title": "树莓派控制调速以及关于PWM的思考",
+    "description": "最近在寻思用树莓派控制电机速度，电机预估电压是24V，电流是10A，以这样的配置需要个无极调速控制器控制电机转速，看了下相关的控制器价格也不贵，十多块钱就能整一块。然后，相关的无极调速有提供PWM控制的。",
+    "url": "https://segmentfault.com/a/1190000041860546",
+    "author": "kumfo",
+    "home_url": "https://segmentfault.com/u/kumfo",
+    "votes": "4",
+    "rank": 13
+  },
+  {
+    "title": "构建 Go 应用 docker 镜像的十八种姿势",
+    "description": "我夜以继日，加班加点开发了一个最简单的 Go Hello world 应用，虽然只是跑了打印一下就退出了，但是老板也要求我上线这个我能写出的唯一应用。",
+    "url": "https://segmentfault.com/a/1190000041870597",
+    "author": "kevinwan",
+    "home_url": "https://segmentfault.com/u/kevinwan",
+    "votes": "4",
+    "rank": 14
   },
   {
     "title": "前端语音转文字实践总结",
@@ -105,16 +132,7 @@
     "author": "趁你还年轻",
     "home_url": "https://segmentfault.com/u/chennihuannianqing",
     "votes": "5",
-    "rank": 12
-  },
-  {
-    "title": "构建 Go 应用 docker 镜像的十八种姿势",
-    "description": "我夜以继日，加班加点开发了一个最简单的 Go Hello world 应用，虽然只是跑了打印一下就退出了，但是老板也要求我上线这个我能写出的唯一应用。",
-    "url": "https://segmentfault.com/a/1190000041870597",
-    "author": "kevinwan",
-    "home_url": "https://segmentfault.com/u/kevinwan",
-    "votes": "2",
-    "rank": 13
+    "rank": 15
   },
   {
     "title": "被折磨了 13 年，Go 怎么解决再赋值的坑？",
@@ -123,34 +141,7 @@
     "author": "煎鱼",
     "home_url": "https://segmentfault.com/u/eddycjy",
     "votes": "4",
-    "rank": 14
-  },
-  {
-    "title": "原生Js调用Fetch Api请求接口（新的Ajax解决方案）",
-    "description": "Fetch Api是新的ajax解决方案，Fetch会返回Promise；Fetch不是ajax的进一步封装，而是原生js，没有使用XMLHttpRequest对象。",
-    "url": "https://segmentfault.com/a/1190000041850373",
-    "author": "TANKING",
-    "home_url": "https://segmentfault.com/u/tanking",
-    "votes": "1",
-    "rank": 15
-  },
-  {
-    "title": "Spring Boot 2.7.0发布，2.5停止维护，节奏太快了吧",
-    "description": "这几天是Spring版本日，很多Spring工件都发布了新版本， Spring Framework 6.0.0 发布了第 4 个里程碑版本，此版本包含所有针对 5.3.20 的修复补丁，以及特定于 6.0 分支的 39 项修复和改进。而今天Spring Boot 2...",
-    "url": "https://segmentfault.com/a/1190000041870045",
-    "author": "码农小胖哥",
-    "home_url": "https://segmentfault.com/u/10000000",
-    "votes": "2",
     "rank": 16
-  },
-  {
-    "title": "【Java面试】Spring中有哪些方式可以把Bean注入到IOC容器？",
-    "description": "今天收到一个工作4年的粉丝的面试题。问题是： “Spring中有哪些方式可以把Bean注入到IOC容器”。他说这道题是所有面试题里面回答最好的，但是看面试官的表情，好像不太对。我问他怎么回答的，他说： “接口注入”、“...",
-    "url": "https://segmentfault.com/a/1190000041857704",
-    "author": "跟着Mic学架构",
-    "home_url": "https://segmentfault.com/u/fukua_5be8034f8191f",
-    "votes": "3",
-    "rank": 17
   },
   {
     "title": "threejs 360全景工具开发心得",
@@ -159,7 +150,25 @@
     "author": "馒头",
     "home_url": "https://segmentfault.com/u/mtsee",
     "votes": "5",
+    "rank": 17
+  },
+  {
+    "title": "Spring Boot 2.7.0发布，2.5停止维护，节奏太快了吧",
+    "description": "这几天是Spring版本日，很多Spring工件都发布了新版本， Spring Framework 6.0.0 发布了第 4 个里程碑版本，此版本包含所有针对 5.3.20 的修复补丁，以及特定于 6.0 分支的 39 项修复和改进。而今天Spring Boot 2...",
+    "url": "https://segmentfault.com/a/1190000041870045",
+    "author": "码农小胖哥",
+    "home_url": "https://segmentfault.com/u/10000000",
+    "votes": "2",
     "rank": 18
+  },
+  {
+    "title": "【Java面试】Spring中有哪些方式可以把Bean注入到IOC容器？",
+    "description": "今天收到一个工作4年的粉丝的面试题。问题是： “Spring中有哪些方式可以把Bean注入到IOC容器”。他说这道题是所有面试题里面回答最好的，但是看面试官的表情，好像不太对。我问他怎么回答的，他说： “接口注入”、“...",
+    "url": "https://segmentfault.com/a/1190000041857704",
+    "author": "跟着Mic学架构",
+    "home_url": "https://segmentfault.com/u/fukua_5be8034f8191f",
+    "votes": "3",
+    "rank": 19
   },
   {
     "title": "27 年间从巅峰沦为“笑柄”，微软宣布 IE 浏览器终于要退役了！",
@@ -168,15 +177,6 @@
     "author": "MissD",
     "home_url": "https://segmentfault.com/u/d2ms1shh",
     "votes": "2",
-    "rank": 19
-  },
-  {
-    "title": "单点登录（SSO）",
-    "description": "单点登录：Single Sign On，简称SSO。用户只要登录一次，就可以访问所有相关信任应用的资源。企业里面用的会比较多，有很多内网平台，但是只要在一个系统登录就可以。",
-    "url": "https://segmentfault.com/a/1190000041859105",
-    "author": "OneStar",
-    "home_url": "https://segmentfault.com/u/funnycoderstar",
-    "votes": "3",
     "rank": 20
   },
   {
@@ -189,31 +189,40 @@
     "rank": 21
   },
   {
+    "title": "面试官:你能回答这两个简单的问题吗",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000041843627",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "2",
+    "rank": 22
+  },
+  {
+    "title": "单点登录（SSO）",
+    "description": "单点登录：Single Sign On，简称SSO。用户只要登录一次，就可以访问所有相关信任应用的资源。企业里面用的会比较多，有很多内网平台，但是只要在一个系统登录就可以。",
+    "url": "https://segmentfault.com/a/1190000041859105",
+    "author": "OneStar",
+    "home_url": "https://segmentfault.com/u/funnycoderstar",
+    "votes": "3",
+    "rank": 23
+  },
+  {
+    "title": "好用到爆！IDEA版Postman面世了，功能真心强大！",
+    "description": "IDEA是最常用的开发工具，很多程序员都想把它打造成一站式开发平台，于是安装了各种各样的插件。最近发现了一款IDEA插件RestfulFastRequest，细节做的真心不错，说它是IDEA版的Postman也不为过，推荐给大家！",
+    "url": "https://segmentfault.com/a/1190000041854094",
+    "author": "macrozheng",
+    "home_url": "https://segmentfault.com/u/macrozheng",
+    "votes": "2",
+    "rank": 24
+  },
+  {
     "title": "Go内存管理一文足矣",
     "description": "最早学习C、C++语言时，它们都是把内存的管理全部交给开发者，这种方式最灵活但是也最容易出问题，对人员要求极高；后来出现的一些高级语言像Java、JavaScript、C#、Go，都有语言自身解决了内存分配和回收问题，...",
     "url": "https://segmentfault.com/a/1190000041864888",
     "author": "木的树",
     "home_url": "https://segmentfault.com/u/mudeshu",
     "votes": "3",
-    "rank": 22
-  },
-  {
-    "title": "个人经验分享如何阅读Go语言源码",
-    "description": "哈喽，大家好，我是asong；最近在看Go语言调度器相关的源码，发现看源码真是个技术活，所以本文就简单总结一下该如何查看Go源码，希望对你们有帮助。",
-    "url": "https://segmentfault.com/a/1190000041853479",
-    "author": "asong",
-    "home_url": "https://segmentfault.com/u/asong_5eeb7a1d0da86",
-    "votes": "2",
-    "rank": 23
-  },
-  {
-    "title": "冴羽答读者问：你是怎么理解知行合一的？",
-    "description": "知行合一应该是很多人的座右铭，告诉自己，不仅要知道，更要做到，然而太多的人都停留在“知道”的层面，行动的时候没坚持几天，就不了了之，那么如何才能跨越从“知道”到“做到”的鸿沟呢？",
-    "url": "https://segmentfault.com/a/1190000041852613",
-    "author": "冴羽",
-    "home_url": "https://segmentfault.com/u/yayu",
-    "votes": "2",
-    "rank": 24
+    "rank": 25
   },
   {
     "title": "常用的服务器宕机检测通知工具——WGCLOUD",
@@ -222,7 +231,7 @@
     "author": "徐三刀",
     "home_url": "https://segmentfault.com/u/9b3sps2b",
     "votes": "2",
-    "rank": 25
+    "rank": 26
   },
   {
     "title": "SQL基础入门",
@@ -231,24 +240,15 @@
     "author": "阿里云云起实验室",
     "home_url": "https://segmentfault.com/u/bainana",
     "votes": "2",
-    "rank": 26
-  },
-  {
-    "title": "面试官:你能回答这两个简单的问题吗",
-    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000041843627",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "2",
     "rank": 27
   },
   {
-    "title": "精读《React useEvent RFC》",
-    "description": "useEvent 要解决一个问题：如何同时保持函数引用不变与访问到最新状态。本周我们结合 RFC 原文与解读文章 What the useEvent React hook is (and isn't) 一起了解下这个提案。借用提案里的代码，一下就能说清楚 u...",
-    "url": "https://segmentfault.com/a/1190000041848486",
-    "author": "黄子毅",
-    "home_url": "https://segmentfault.com/u/aoyangyudakong",
-    "votes": "1",
+    "title": "史上最强代码自测方法，没有之一！",
+    "description": "特别说明：这个真的不是标题党，我写代码20+年，真心认为 go fuzzing 是我见过的最牛逼的代码自测方法。我在用 AC自动机 算法改进关键字过滤效率（提升~50%），改进 mapreduce 对 panic 的处理机制的时候，都通过...",
+    "url": "https://segmentfault.com/a/1190000041866251",
+    "author": "kevinwan",
+    "home_url": "https://segmentfault.com/u/kevinwan",
+    "votes": "3",
     "rank": 28
   },
   {
@@ -261,11 +261,11 @@
     "rank": 29
   },
   {
-    "title": "面试官：主说 Git Rebase 和 Git Merge 差异",
-    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000041774268",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "title": "Java 15 新特性：隐藏类",
+    "description": "隐藏类，是一种不能被其他类直接使用的类。引入隐藏类的主要目的是给框架来使用，使得框架可以在运行时生成类，并通过反射间接使用它们。可能有点抽象，不要紧，下面我们通过一个例子来直观的认识它！",
+    "url": "https://segmentfault.com/a/1190000041864445",
+    "author": "程序猿DD",
+    "home_url": "https://segmentfault.com/u/coderdd",
     "votes": "1",
     "rank": 30
   }
