@@ -5,7 +5,7 @@
     "url": "https://segmentfault.com/a/1190000041881142",
     "author": "街角小林",
     "home_url": "https://segmentfault.com/u/jiejiaoxiaolin",
-    "votes": "15",
+    "votes": "18",
     "rank": 1
   },
   {
@@ -14,7 +14,7 @@
     "url": "https://segmentfault.com/a/1190000041887095",
     "author": "零一",
     "home_url": "https://segmentfault.com/u/zero2one",
-    "votes": "15",
+    "votes": "16",
     "rank": 2
   },
   {
@@ -23,17 +23,8 @@
     "url": "https://segmentfault.com/a/1190000041879217",
     "author": "杨成功",
     "home_url": "https://segmentfault.com/u/ruidoc",
-    "votes": "12",
+    "votes": "14",
     "rank": 3
-  },
-  {
-    "title": "关于代码评审(CodeReview)那些不得不说的事儿",
-    "description": "在一个成熟的团队中，CodeReview是整个研发流程中不可或缺的一步，而那些即将走向成熟的团队可能对CodeReview有很多的误解和问题，也不清楚CodeReview该如何去做，本文笔者将结合自己的经验和知识，...",
-    "url": "https://segmentfault.com/a/1190000041885333",
-    "author": "xindoo",
-    "home_url": "https://segmentfault.com/u/xindoo",
-    "votes": "11",
-    "rank": 4
   },
   {
     "title": "妙啊！动画还可以这样控制？",
@@ -41,26 +32,17 @@
     "url": "https://segmentfault.com/a/1190000041887820",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "11",
+    "votes": "13",
+    "rank": 4
+  },
+  {
+    "title": "关于代码评审(CodeReview)那些不得不说的事儿",
+    "description": "在一个成熟的团队中，CodeReview是整个研发流程中不可或缺的一步，而那些即将走向成熟的团队可能对CodeReview有很多的误解和问题，也不清楚CodeReview该如何去做，本文笔者将结合自己的经验和知识，...",
+    "url": "https://segmentfault.com/a/1190000041885333",
+    "author": "xindoo",
+    "home_url": "https://segmentfault.com/u/xindoo",
+    "votes": "12",
     "rank": 5
-  },
-  {
-    "title": "Base64 编码知识，一文打尽！",
-    "description": "现在网站为了提升用户的浏览体验越来越多的使用了图片，而这些图片通常以 Base64 的形式存储和加载。因此各位开发工程师肯定对 Base64 毫不陌生了，那么你知道 Base64 究竟是什么，为什么要使用 Base64，以及 Bas...",
-    "url": "https://segmentfault.com/a/1190000041894263",
-    "author": "云叔_又拍云",
-    "home_url": "https://segmentfault.com/u/yunshu_blog",
-    "votes": "7",
-    "rank": 6
-  },
-  {
-    "title": "如何在30分钟完成表格增删改查的前后端框架搭建",
-    "description": "30分钟，你可以做什么？可以风卷残云的饱餐一顿；可以简单地打扫一下房间；或者可以跳10十遍刘畊宏《本草纲目》毽子操。而今天，本葡萄要带你在30分钟内完成一套拥有增删改查表格系统的前后端搭建！",
-    "url": "https://segmentfault.com/a/1190000041872660",
-    "author": "葡萄城技术团队",
-    "home_url": "https://segmentfault.com/u/grapecity",
-    "votes": "4",
-    "rank": 7
   },
   {
     "title": "SegmentFault 思否技术周刊 -- 进击的 React",
@@ -68,8 +50,8 @@
     "url": "https://segmentfault.com/a/1190000041892645",
     "author": "Beverly",
     "home_url": "https://segmentfault.com/u/beverly0",
-    "votes": "4",
-    "rank": 8
+    "votes": "6",
+    "rank": 6
   },
   {
     "title": "如何自定义 drag 样式",
@@ -77,26 +59,35 @@
     "url": "https://segmentfault.com/a/1190000041881296",
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "7",
+    "votes": "9",
+    "rank": 7
+  },
+  {
+    "title": "Base64 编码知识，一文打尽！",
+    "description": "现在网站为了提升用户的浏览体验越来越多的使用了图片，而这些图片通常以 Base64 的形式存储和加载。因此各位开发工程师肯定对 Base64 毫不陌生了，那么你知道 Base64 究竟是什么，为什么要使用 Base64，以及 Bas...",
+    "url": "https://segmentfault.com/a/1190000041894263",
+    "author": "云叔_又拍云",
+    "home_url": "https://segmentfault.com/u/yunshu_blog",
+    "votes": "8",
+    "rank": 8
+  },
+  {
+    "title": "Change Buffer 只适用于非唯一索引页？错",
+    "description": "最近在网上看到一些文章里说：“change buffer 只适用于非唯一索引页。”其实这个观点是错的，先来看看官方文档对 change buffer 的介绍：",
+    "url": "https://segmentfault.com/a/1190000041898249",
+    "author": "云叔_又拍云",
+    "home_url": "https://segmentfault.com/u/yunshu_blog",
+    "votes": "5",
     "rank": 9
   },
   {
-    "title": "构建 Go 应用 docker 镜像的十八种姿势",
-    "description": "我夜以继日，加班加点开发了一个最简单的 Go Hello world 应用，虽然只是跑了打印一下就退出了，但是老板也要求我上线这个我能写出的唯一应用。",
-    "url": "https://segmentfault.com/a/1190000041870597",
-    "author": "kevinwan",
-    "home_url": "https://segmentfault.com/u/kevinwan",
-    "votes": "4",
+    "title": "13 个Typescript 实用类型：开发人员的备忘单",
+    "description": "我们可以为 UserProfileResponse 定义类型，并为 LoginResponse 挑选一些属性，而不是定义相同上下文的 LoginResponse 和 UserProfileResponse 的类型。",
+    "url": "https://segmentfault.com/a/1190000041782911",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "11",
     "rank": 10
-  },
-  {
-    "title": "游戏开发者大会发布PlayFab产品更新",
-    "description": "微软坚定对服务游戏开发社区的承诺，在5月13日微软游戏出海开发者大会上发布了一些列新产品、更新及新项目。PlayFab 团队围绕Multiplayer Services多人游戏服务、Party、Experiments实验、数据平台和用户生成内容...",
-    "url": "https://segmentfault.com/a/1190000041874903",
-    "author": "六一",
-    "home_url": "https://segmentfault.com/u/suicidal_romantic_scoundrel",
-    "votes": "1",
-    "rank": 11
   },
   {
     "title": "HTTP cookie 完整指南",
@@ -105,16 +96,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "4",
-    "rank": 12
-  },
-  {
-    "title": "13 个Typescript 实用类型：开发人员的备忘单",
-    "description": "我们可以为 UserProfileResponse 定义类型，并为 LoginResponse 挑选一些属性，而不是定义相同上下文的 LoginResponse 和 UserProfileResponse 的类型。",
-    "url": "https://segmentfault.com/a/1190000041782911",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "7",
-    "rank": 13
+    "rank": 11
   },
   {
     "title": "【Debug】记录一个ng-autocomplete组件清除数据后没有触发非空验证器的问题",
@@ -123,7 +105,7 @@
     "author": "LYX6666",
     "home_url": "https://segmentfault.com/u/liuyuxuan6666",
     "votes": "4",
-    "rank": 14
+    "rank": 12
   },
   {
     "title": "总结一下最近遇到的问题",
@@ -132,7 +114,7 @@
     "author": "李明",
     "home_url": "https://segmentfault.com/u/pluto_612f55567eb8c",
     "votes": "4",
-    "rank": 15
+    "rank": 13
   },
   {
     "title": "记录后台遇到的两个小问题",
@@ -141,7 +123,7 @@
     "author": "weiewiyi",
     "home_url": "https://segmentfault.com/u/chenchu_6110ed583800c",
     "votes": "4",
-    "rank": 16
+    "rank": 14
   },
   {
     "title": "angular 多选表单数据绑定",
@@ -150,6 +132,24 @@
     "author": "小强Zzz",
     "home_url": "https://segmentfault.com/u/zhaokaiqiang",
     "votes": "4",
+    "rank": 15
+  },
+  {
+    "title": "程序员告别 996 第一步：1 人搞定一个项目，摆脱“重复造轮子”",
+    "description": "说起程序员，你会想到什么？不知从何时开始，在广大群众的眼里，程序员就被烙上了格子衬衫、短裤、拖鞋、老实、邋遢的标签，当然还有最重要的特征，秃头。而 996、吃青春饭、工作压力与强度居高不下都让程序员的...",
+    "url": "https://segmentfault.com/a/1190000041904203",
+    "author": "六一",
+    "home_url": "https://segmentfault.com/u/suicidal_romantic_scoundrel",
+    "votes": "1",
+    "rank": 16
+  },
+  {
+    "title": "js 生成UUID的几种方法",
+    "description": "UUID(Universally Unique IDentifier) 全局唯一标识符。UUID是一种由算法生成的二进制长度为128位的数字标识符。UUID的格式为“xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx”，其中的 x 是 0-9 或 a-f范围内的一个32位十...",
+    "url": "https://segmentfault.com/a/1190000041895680",
+    "author": "墨城",
+    "home_url": "https://segmentfault.com/u/xiaomogu_5f2124ad3ad42",
+    "votes": "5",
     "rank": 17
   },
   {
@@ -198,20 +198,20 @@
     "rank": 22
   },
   {
-    "title": "一文学会Java的交互式编程环境jshell",
-    "description": "什么是交互式编程环境？重点词交互，在这样的编程环境中，你每输入一行代码，环境都会给你一个反馈，这就是交互式的编程环境。这种编程环境并不太适合工程化的复杂性需求，但在一些快速验证、简单计算之类的场景...",
-    "url": "https://segmentfault.com/a/1190000041870377",
-    "author": "程序猿DD",
-    "home_url": "https://segmentfault.com/u/coderdd",
-    "votes": "2",
-    "rank": 23
-  },
-  {
     "title": "推荐一些有趣实用的前端可视化工具库，助力可视化开发",
     "description": "前端可视化一直是人们常谈到的词，随着SVG，Canvas，WebGL等技术的发展，也涌现了一大批的优秀的可视化库。本文将从中选择一些有趣实用的推荐给大家，工具使用好了，开发效率自然也就提升了。",
     "url": "https://segmentfault.com/a/1190000041880527",
     "author": "xmanlin",
     "home_url": "https://segmentfault.com/u/dxpang",
+    "votes": "2",
+    "rank": 23
+  },
+  {
+    "title": "Spring 中 @EnableXXX 注解的套路",
+    "description": "在 Spring 框架中有很多实用的功能，不需要写大量的配置代码，只需添加几个注解即可开启。 其中一个重要原因是那些 @EnableXXX 注解，它可以让你通过在配置类加上简单的注解来快速地开启诸如事务管理（@EnableTra...",
+    "url": "https://segmentfault.com/a/1190000041879583",
+    "author": "mghio",
+    "home_url": "https://segmentfault.com/u/mghio",
     "votes": "2",
     "rank": 24
   },
@@ -225,39 +225,39 @@
     "rank": 25
   },
   {
-    "title": "Spring 中 @EnableXXX 注解的套路",
-    "description": "在 Spring 框架中有很多实用的功能，不需要写大量的配置代码，只需添加几个注解即可开启。 其中一个重要原因是那些 @EnableXXX 注解，它可以让你通过在配置类加上简单的注解来快速地开启诸如事务管理（@EnableTra...",
-    "url": "https://segmentfault.com/a/1190000041879583",
-    "author": "mghio",
-    "home_url": "https://segmentfault.com/u/mghio",
-    "votes": "2",
-    "rank": 26
-  },
-  {
-    "title": "Swoole 团队云原生新项目 Code-Galaxy 介绍",
-    "description": "这半年我们做了一个新项目，一站式 K8s 云原生（Cloud Native）系统：Code-Galaxy。近几年云原生的概念非常热门，包括腾讯云、阿里云等云厂商、大型互联网企业，以及大量初创的 DevOps 公司，都在做云原生方向的...",
-    "url": "https://segmentfault.com/a/1190000041873910",
-    "author": "韩天峰",
-    "home_url": "https://segmentfault.com/u/hantianfeng",
-    "votes": "1",
-    "rank": 27
-  },
-  {
-    "title": "js 生成UUID的几种方法",
-    "description": "UUID(Universally Unique IDentifier) 全局唯一标识符。UUID是一种由算法生成的二进制长度为128位的数字标识符。UUID的格式为“xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx”，其中的 x 是 0-9 或 a-f范围内的一个32位十...",
-    "url": "https://segmentfault.com/a/1190000041895680",
-    "author": "墨城",
-    "home_url": "https://segmentfault.com/u/xiaomogu_5f2124ad3ad42",
-    "votes": "5",
-    "rank": 28
-  },
-  {
     "title": "Gitee 关闭部分开源仓库；大厂一半以上程序员愿意降薪跳槽；Deno 1.22 发布 | 思否周刊",
     "description": "40s 新闻速递链家程序员删除公司 9TB 数据被判 7 年开发者 20 天内开发 APP 后被解雇，怒用公司公号发文祝“早日倒闭”RISC-V 国际基金会 CEO：Arm 需要警惕 RISC-V研究称 iPhone 关机后仍在运行，或成恶意软件温床...",
     "url": "https://segmentfault.com/a/1190000041878371",
     "author": "snakesss",
     "home_url": "https://segmentfault.com/u/snakesss",
     "votes": "1",
+    "rank": 26
+  },
+  {
+    "title": "硬核！程序员延寿指南",
+    "description": "以下内容转载自：[链接]1. 术语ACM: All-Cause Mortality / 全因死亡率2. 目标稳健地活得更久3. 关键结果降低66.67%全因死亡率增加\\~20年预期寿命维持多巴胺于中轴4. 分析主要参考：对ACM的学术文献相对较多，可...",
+    "url": "https://segmentfault.com/a/1190000041879384",
+    "author": "我的小熊不见了",
+    "home_url": "https://segmentfault.com/u/wodexiaoxiongbujianliao",
+    "votes": "0",
+    "rank": 27
+  },
+  {
+    "title": "低代码开源， 一键设计稿生成代码，帮您解决生产痛点",
+    "description": "作为一个前端或管理者，您是否遇到过以下场景作为前端老鸟照样需要写页面布局，虽然你已经写了无数遍，但是效率和三年前的你差别不大项目死亡线越来越近，而你还得出页面/组件， 无法专注于业务逻辑你已经费尽心...",
+    "url": "https://segmentfault.com/a/1190000041901584",
+    "author": "左盐",
+    "home_url": "https://segmentfault.com/u/zuoyan",
+    "votes": "4",
+    "rank": 28
+  },
+  {
+    "title": "Go学习笔记-Gin常用功能",
+    "description": "路由gin 框架中采用的路由库是基于httprouter做的Restful风格的APIRepresentational State Transfer 表现层状态转化，是一种互联网应用程序的API设计理念：URL定位资源，用HTTP描述操作增 POST / 删 DELETE / 改 ...",
+    "url": "https://segmentfault.com/a/1190000041896595",
+    "author": "IT小马",
+    "home_url": "https://segmentfault.com/u/itxiaoma",
+    "votes": "3",
     "rank": 29
   },
   {
