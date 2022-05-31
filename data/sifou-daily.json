@@ -1,11 +1,173 @@
 [
   {
-    "title": "Mysql-基本的规则与规范",
-    "description": "DDL（Data Definition Language）包括CREATE、DROP、ALTER、RENAME、TRUNCATE等用来创建、删除、修改数据库和数据表的结构的关键字。",
-    "url": "https://segmentfault.com/a/1190000041912321",
-    "author": "LiberHome",
-    "home_url": "https://segmentfault.com/u/liberhome",
-    "votes": "1",
+    "title": "CSS 变量自动变色技术",
+    "description": "欢迎关注微信公众号： 前端侦探在思否上看到这样一个设计，当阅读量比较少时，文字呈灰色，当阅读量比较多（>=100）时，文字就变成褐色了，示意效果如下是不是非常醒目呢？另外，还有那种可以根据进度自动变色...",
+    "url": "https://segmentfault.com/a/1190000041914954",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "4",
     "rank": 1
+  },
+  {
+    "title": "多线程下载、数学求解器... Edge，你还有多少惊喜是我不知道的？",
+    "description": "自 2010 年谷歌 Chrome 浏览器发布后，其凭借“首款支持 Windows、Linux 操作系统稳定版本“的强大背景迅速占领全球市场。而 Edge 浏览器发布于 2015 年，这些年 Edge 浏览器一路“摸爬滚打”，直到现在终于能和 Chro...",
+    "url": "https://segmentfault.com/a/1190000041914844",
+    "author": "snakesss",
+    "home_url": "https://segmentfault.com/u/snakesss",
+    "votes": "1",
+    "rank": 2
+  },
+  {
+    "title": "3000帧动画图解MySQL为什么需要binlog、redo log和undo log",
+    "description": "全文建立在MySQL的存储引擎为InnoDB的基础上先看一条SQL如何入库的：这是一条很简单的更新SQL，从MySQL服务端接收到SQL到落盘，先后经过了MySQL Server层和InnoDB存储引擎。Server层就像一个产品经理，分析客户的...",
+    "url": "https://segmentfault.com/a/1190000041919298",
+    "author": "CoderW",
+    "home_url": "https://segmentfault.com/u/coderw_5fd9998278d42",
+    "votes": "3",
+    "rank": 3
+  },
+  {
+    "title": "锁定项目 Node 版本和包管理器",
+    "description": "成员机器 Node.js 版本不统一： 守旧派用 12.x、保守用 14.x、激进用 17.x。项目能否正常跑起来全凭天意，在没有 CICD 流水线加持本地 npm run build 的场景下线上风险可想而知。",
+    "url": "https://segmentfault.com/a/1190000041918155",
+    "author": "亖混子",
+    "home_url": "https://segmentfault.com/u/1023",
+    "votes": "3",
+    "rank": 4
+  },
+  {
+    "title": "'return await promise' 与 'return promise' 这细微的区别",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000041913353",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "2",
+    "rank": 5
+  },
+  {
+    "title": "Kafka到底有多高可靠？（RNG NB）",
+    "description": "在聊Kafka高可靠之前，先在评论区来波RNG NB好不好！什么叫可靠性？大家都知道，系统架构有三高：「高性能、高并发和高可用」，三者的重要性不言而喻。对于任意系统，想要同时满足三高都是一件非常困难的事情，大...",
+    "url": "https://segmentfault.com/a/1190000041913011",
+    "author": "敖丙",
+    "home_url": "https://segmentfault.com/u/aobing",
+    "votes": "2",
+    "rank": 6
+  },
+  {
+    "title": "冴羽答读者问：如果有机会，你会选择脱产学习深造吗？",
+    "description": "前言最近我发起了「冴羽答读者问」活动，如果你也有想要提问的问题，欢迎留言，我会按照顺序依此回答。正文因为有同学让我帮忙写封情书，所以我最近在看朱生豪写给他爱人宋清如的情书，其中有这样一句：要是有人...",
+    "url": "https://segmentfault.com/a/1190000041918444",
+    "author": "冴羽",
+    "home_url": "https://segmentfault.com/u/yayu",
+    "votes": "2",
+    "rank": 7
+  },
+  {
+    "title": "深入解析 TiFlash丨多并发下线程创建、释放的阻塞问题",
+    "description": "对 TiFlash 和问题本身经过一段时间的了解后，认为方向应该在“公共组件”（全局锁、底层存储、上层服务等）上。在这个方向上做“地毯式”排查后， 终于定位到问题的一个重要原因：高并发下频繁的线程创建和释放， 这...",
+    "url": "https://segmentfault.com/a/1190000041914505",
+    "author": "PingCAP",
+    "home_url": "https://segmentfault.com/u/pingcap",
+    "votes": "1",
+    "rank": 8
+  },
+  {
+    "title": "前端需要了解的色彩知识",
+    "description": "在前端领域，我们常常需要跟色彩打交道，除了一部分从设计转过来的前端外（ps：历史原因），后来的新生代前端绝大多数基本都是学理工科出身的，一般没有经过专门的设计训练和培养，这样在还原设计图的过程中对于...",
+    "url": "https://segmentfault.com/a/1190000041918026",
+    "author": "野林",
+    "home_url": "https://segmentfault.com/u/vleedesigntheory",
+    "votes": "3",
+    "rank": 9
+  },
+  {
+    "title": "MongoDB 新手入门 - Aggregation",
+    "description": "本文是 MongoDB 新手入门 系列的第二篇，在本文中，我们将会讲解 MongoDB 的聚合框架，在看完本文后，读者可以掌握使用 MongoDB 进行常用的数据统计分析方法。",
+    "url": "https://segmentfault.com/a/1190000041917803",
+    "author": "mylxsw",
+    "home_url": "https://segmentfault.com/u/mylxsw",
+    "votes": "1",
+    "rank": 10
+  },
+  {
+    "title": "绿色城市智慧运营：Web 3D 垃圾分类 GIS 系统",
+    "description": "《上海市生活垃圾管理条例》施行至今已有两年多，上海市民践行绿色低碳理念、主动参与生活垃圾分类的习惯基本养成，分类实效逐步趋于稳定，湿垃圾分类量稳定在日均 9000 吨以上，可回收物回收量保持在日均 7000 ...",
+    "url": "https://segmentfault.com/a/1190000041917022",
+    "author": "hightopo",
+    "home_url": "https://segmentfault.com/u/hightopo",
+    "votes": "1",
+    "rank": 11
+  },
+  {
+    "title": "对话摘要技术在美团的探索（SIGIR）",
+    "description": "随着互联网产生的文本数据越来越多，文本信息过载问题日益严重，对各类文本进行一个“降维”处理显得非常必要，而文本摘要就是其中一个重要的手段。本文首先介绍了经典的文本摘要方法，包括抽取式摘要方法和生成式...",
+    "url": "https://segmentfault.com/a/1190000041916495",
+    "author": "美团技术团队",
+    "home_url": "https://segmentfault.com/u/meituanjishutuandui",
+    "votes": "1",
+    "rank": 12
+  },
+  {
+    "title": "《Mybatis 手撸专栏》第10章：使用策略模式，调用参数处理器",
+    "description": "说到轴，让我想起初中上学时老师说的话：“你那脑瓜子，咋跟手焖子似的！” 东北话手焖子就是那种冬天戴的大棉手套，棉手套里的棉花都被压的又沉又硬的了，所以来比喻脑瓜子笨。",
+    "url": "https://segmentfault.com/a/1190000041914250",
+    "author": "小傅哥",
+    "home_url": "https://segmentfault.com/u/fuzhengwei",
+    "votes": "1",
+    "rank": 13
+  },
+  {
+    "title": "头像总撞脸，几行Python代码实现人像动漫化",
+    "description": "但如果最近你的朋友换上了一个很少见的头像，那可能是花了大价钱买来的。这就是最近火爆全网的NFT头像，这样一个独一无二的NFT头像被誉为是加密世界社会地位的象征。",
+    "url": "https://segmentfault.com/a/1190000041913910",
+    "author": "Python编程学习圈",
+    "home_url": "https://segmentfault.com/u/pythonbianchengxuexiquan",
+    "votes": "1",
+    "rank": 14
+  },
+  {
+    "title": "用HMS Core地图服务自定义地图样式，给你的应用制作专属个性化地图",
+    "description": "不同行业的开发者对地图样式的展示需求差异很大。例如，物流类应用希望地图样式简洁一些，重点突出城市分布和快递路径；AR游戏类应用中的地图色彩需要和游戏UI适配，做的更酷炫一些；景区导览应用中的地图样式要...",
+    "url": "https://segmentfault.com/a/1190000041913849",
+    "author": "HMSCore",
+    "home_url": "https://segmentfault.com/u/hms_core",
+    "votes": "1",
+    "rank": 15
+  },
+  {
+    "title": "精读《web reflow》",
+    "description": "网页渲染会经历 DOM -> CSSOM -> Layout(重排 or reflow) -> Paint(重绘) -> Composite(合成)，其中 Composite 在 精读《深入了解现代浏览器四》 详细介绍过，是在 GPU 进行光栅化。",
+    "url": "https://segmentfault.com/a/1190000041913824",
+    "author": "黄子毅",
+    "home_url": "https://segmentfault.com/u/aoyangyudakong",
+    "votes": "2",
+    "rank": 16
+  },
+  {
+    "title": "模拟Vue响应式原理",
+    "description": "当你把一个普通的 JavaScript 对象传入 Vue 实例作为 data 选项，Vue 将遍历此对象所有的 property，并使用 Object.defineProperty 把这些 property 全部转为 getter/setter。",
+    "url": "https://segmentfault.com/a/1190000041919477",
+    "author": "HeiYanjing",
+    "home_url": "https://segmentfault.com/u/heiyanjing",
+    "votes": "1",
+    "rank": 17
+  },
+  {
+    "title": "【Java面试】说说你对Spring MVC的理解",
+    "description": "一个工作了7年的粉丝，他说在面试之前，Spring这块的内容准备得很充分。而且各种面试题也刷了，结果在面试的时候，面试官问：”说说你对Spring MVC的理解“。这个问题一下给他整不会了，就是那种突然不知道怎么组织...",
+    "url": "https://segmentfault.com/a/1190000041917963",
+    "author": "跟着Mic学架构",
+    "home_url": "https://segmentfault.com/u/fukua_5be8034f8191f",
+    "votes": "1",
+    "rank": 18
+  },
+  {
+    "title": "图解vue3.0编译器核心原理",
+    "description": "Vue.js涉及的知识点很多，一些重要概念，例如：如何使用proxy实现响应式effect，虚拟DOM的Diff算法及演变过程（双端Diff算法、快速Diff算法等），渲染器原理的实现，编译器、解析器的工作原理，动态节点、静态提...",
+    "url": "https://segmentfault.com/a/1190000041916769",
+    "author": "GFE团队",
+    "home_url": "https://segmentfault.com/u/gfeteam",
+    "votes": "1",
+    "rank": 19
   }
 ]
