@@ -27,22 +27,13 @@
     "rank": 3
   },
   {
-    "title": "浅谈支付系统开发基本流程",
-    "description": "前言Hi，各位好久不见，我是CrazyCodes，今天我们来聊聊支付系统。支付系统是每个系统都必备的模块之一，也是众多模块中最核心的功能，如果支付出现问题，那么意味着会直接影响到产品收益，事故严重程度高。本篇...",
-    "url": "https://segmentfault.com/a/1190000041781215",
-    "author": "CrazyCodes",
-    "home_url": "https://segmentfault.com/u/crazycodes",
-    "votes": "31",
-    "rank": 4
-  },
-  {
     "title": "CSS 中的简写到底有多少坑？以后不敢了...",
     "description": "为什么说是爱恨情仇呢？因为简写给我们带来了很多的便利，但凡事都有好有坏，你不能说简写一点坏处都没有。所以我们就聊聊简写的 \"好\" 和 \"坏\"",
     "url": "https://segmentfault.com/a/1190000041804988",
     "author": "零一",
     "home_url": "https://segmentfault.com/u/zero2one",
     "votes": "34",
-    "rank": 5
+    "rank": 4
   },
   {
     "title": "为什么前端不能没有监控系统？",
@@ -51,6 +42,15 @@
     "author": "杨成功",
     "home_url": "https://segmentfault.com/u/ruidoc",
     "votes": "28",
+    "rank": 5
+  },
+  {
+    "title": "如何实现一个能精确同步滚动的Markdown编辑器",
+    "description": "随着Markdown越来越流行，Markdown编辑器也越来越多，除去所见即所得的实时预览编辑器外，通常其他Markdown编辑器都会采用源代码和预览双栏显示的方式，就像这样：",
+    "url": "https://segmentfault.com/a/1190000041881142",
+    "author": "街角小林",
+    "home_url": "https://segmentfault.com/u/jiejiaoxiaolin",
+    "votes": "22",
     "rank": 6
   },
   {
@@ -63,13 +63,22 @@
     "rank": 7
   },
   {
-    "title": "如何实现一个能精确同步滚动的Markdown编辑器",
-    "description": "随着Markdown越来越流行，Markdown编辑器也越来越多，除去所见即所得的实时预览编辑器外，通常其他Markdown编辑器都会采用源代码和预览双栏显示的方式，就像这样：",
-    "url": "https://segmentfault.com/a/1190000041881142",
-    "author": "街角小林",
-    "home_url": "https://segmentfault.com/u/jiejiaoxiaolin",
-    "votes": "21",
+    "title": "年年出妖事，一例由JSON解析导致的\"薛定谔BUG\"排查过程记录",
+    "description": "但是最近公司内碰到的这一个bug，这个bug初看很简单，但是非常妖孽，在一段时间内我甚至是百思不得其解。在长达几天的时间内，复现的概率非常低。几乎难以抓住任何踪迹。",
+    "url": "https://segmentfault.com/a/1190000041806654",
+    "author": "铂赛东",
+    "home_url": "https://segmentfault.com/u/bosaidong_5c495684bcf4b",
+    "votes": "30",
     "rank": 8
+  },
+  {
+    "title": "妙啊！动画还可以这样控制？",
+    "description": "今天，有在群里看到这样一个问题：有一个动画，一开始静止处于第一帧，只在用户 hover 的时候运行动画，在运行一次后停止，并且停留在最后一帧，使用 CSS 可以完成么？",
+    "url": "https://segmentfault.com/a/1190000041887820",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "22",
+    "rank": 9
   },
   {
     "title": "SegmentFault 思否技术周刊 -- Go 语言通关攻略",
@@ -78,7 +87,7 @@
     "author": "Beverly",
     "home_url": "https://segmentfault.com/u/beverly0",
     "votes": "21",
-    "rank": 9
+    "rank": 10
   },
   {
     "title": "8.9W 播放量的 TS 动画版进阶教程合集来了！",
@@ -86,15 +95,6 @@
     "url": "https://segmentfault.com/a/1190000041819579",
     "author": "阿宝哥",
     "home_url": "https://segmentfault.com/u/angular4",
-    "votes": "24",
-    "rank": 10
-  },
-  {
-    "title": "浅谈逻辑选择器 -- 父选择器它来了！",
-    "description": "在 CSS 选择器家族中，新增这样一类比较新的选择器 -- 逻辑选择器，目前共有 4 名成员：:is:where:not:has本文将带领大家了解、深入它们。做到学以致用，写出更现代化的选择器。:is 伪类选择器:is() CSS伪类函数...",
-    "url": "https://segmentfault.com/a/1190000041860587",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
     "votes": "24",
     "rank": 11
   },
@@ -104,8 +104,17 @@
     "url": "https://segmentfault.com/a/1190000041830559",
     "author": "Beverly",
     "home_url": "https://segmentfault.com/u/beverly0",
-    "votes": "21",
+    "votes": "23",
     "rank": 12
+  },
+  {
+    "title": "浅谈逻辑选择器 -- 父选择器它来了！",
+    "description": "在 CSS 选择器家族中，新增这样一类比较新的选择器 -- 逻辑选择器，目前共有 4 名成员：:is:where:not:has本文将带领大家了解、深入它们。做到学以致用，写出更现代化的选择器。:is 伪类选择器:is() CSS伪类函数...",
+    "url": "https://segmentfault.com/a/1190000041860587",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "24",
+    "rank": 13
   },
   {
     "title": "React官方团队出手，补齐原生Hook短板",
@@ -114,25 +123,7 @@
     "author": "卡颂",
     "home_url": "https://segmentfault.com/u/kasong",
     "votes": "16",
-    "rank": 13
-  },
-  {
-    "title": "年年出妖事，一例由JSON解析导致的\"薛定谔BUG\"排查过程记录",
-    "description": "但是最近公司内碰到的这一个bug，这个bug初看很简单，但是非常妖孽，在一段时间内我甚至是百思不得其解。在长达几天的时间内，复现的概率非常低。几乎难以抓住任何踪迹。",
-    "url": "https://segmentfault.com/a/1190000041806654",
-    "author": "铂赛东",
-    "home_url": "https://segmentfault.com/u/bosaidong_5c495684bcf4b",
-    "votes": "28",
     "rank": 14
-  },
-  {
-    "title": "妙啊！动画还可以这样控制？",
-    "description": "今天，有在群里看到这样一个问题：有一个动画，一开始静止处于第一帧，只在用户 hover 的时候运行动画，在运行一次后停止，并且停留在最后一帧，使用 CSS 可以完成么？",
-    "url": "https://segmentfault.com/a/1190000041887820",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "19",
-    "rank": 15
   },
   {
     "title": "前端监控的搭建步骤，别再一头雾水了！",
@@ -141,7 +132,7 @@
     "author": "杨成功",
     "home_url": "https://segmentfault.com/u/ruidoc",
     "votes": "18",
-    "rank": 16
+    "rank": 15
   },
   {
     "title": "CSS 穿墙术！太强了",
@@ -149,8 +140,8 @@
     "url": "https://segmentfault.com/a/1190000041887095",
     "author": "零一",
     "home_url": "https://segmentfault.com/u/zero2one",
-    "votes": "20",
-    "rank": 17
+    "votes": "21",
+    "rank": 16
   },
   {
     "title": "跨域问题很难吗？来！教你使用 Nginx 反向代理轻松解决",
@@ -159,6 +150,15 @@
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "11",
+    "rank": 17
+  },
+  {
+    "title": "关于代码评审(CodeReview)那些不得不说的事儿",
+    "description": "在一个成熟的团队中，CodeReview是整个研发流程中不可或缺的一步，而那些即将走向成熟的团队可能对CodeReview有很多的误解和问题，也不清楚CodeReview该如何去做，本文笔者将结合自己的经验和知识，...",
+    "url": "https://segmentfault.com/a/1190000041885333",
+    "author": "xindoo",
+    "home_url": "https://segmentfault.com/u/xindoo",
+    "votes": "15",
     "rank": 18
   },
   {
@@ -180,22 +180,13 @@
     "rank": 20
   },
   {
-    "title": "关于代码评审(CodeReview)那些不得不说的事儿",
-    "description": "在一个成熟的团队中，CodeReview是整个研发流程中不可或缺的一步，而那些即将走向成熟的团队可能对CodeReview有很多的误解和问题，也不清楚CodeReview该如何去做，本文笔者将结合自己的经验和知识，...",
-    "url": "https://segmentfault.com/a/1190000041885333",
-    "author": "xindoo",
-    "home_url": "https://segmentfault.com/u/xindoo",
-    "votes": "13",
-    "rank": 21
-  },
-  {
     "title": "实现聚焦效果",
     "description": "这是之前朋友问我的一个功能：他觉得看网页有时候注意力会被转移，希望可以有个蒙层帮助他集中注意力反手我就用 box-shadow 把功能写了出来。 {代码...} 因为 z-index 无法超过非 static 层级导致的 bug在我测试...",
     "url": "https://segmentfault.com/a/1190000041804137",
     "author": "linong",
     "home_url": "https://segmentfault.com/u/linong",
     "votes": "13",
-    "rank": 22
+    "rank": 21
   },
   {
     "title": "python又搞事情 想一统天下？",
@@ -204,7 +195,7 @@
     "author": "我的小熊不见了",
     "home_url": "https://segmentfault.com/u/wodexiaoxiongbujianliao",
     "votes": "11",
-    "rank": 23
+    "rank": 22
   },
   {
     "title": "5分钟带你通过Javascript了解人工智能的基本原理",
@@ -213,7 +204,7 @@
     "author": "6666",
     "home_url": "https://segmentfault.com/u/6666",
     "votes": "9",
-    "rank": 24
+    "rank": 23
   },
   {
     "title": "SegmentFault 思否技术周刊 -- 进击的 React",
@@ -221,8 +212,8 @@
     "url": "https://segmentfault.com/a/1190000041892645",
     "author": "Beverly",
     "home_url": "https://segmentfault.com/u/beverly0",
-    "votes": "8",
-    "rank": 25
+    "votes": "9",
+    "rank": 24
   },
   {
     "title": "移动端常见适配方案",
@@ -231,7 +222,7 @@
     "author": "深红",
     "home_url": "https://segmentfault.com/u/deepred5",
     "votes": "10",
-    "rank": 26
+    "rank": 25
   },
   {
     "title": "它来了！Flutter3.0发布全解析",
@@ -240,7 +231,7 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "6",
-    "rank": 27
+    "rank": 26
   },
   {
     "title": "代码写得好，Reduce 方法少不了",
@@ -249,7 +240,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "6",
-    "rank": 28
+    "rank": 27
   },
   {
     "title": "互联网后端技术大全！建议收藏",
@@ -258,14 +249,23 @@
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "9",
+    "rank": 28
+  },
+  {
+    "title": "云原生时代 PHP/Golang 项目如何实现微服务",
+    "description": "在传统架构下，我们需要使用服务发现、服务注册等技术实现微服务架构。通常我们需要将服务提供方（Service Provider）的节点（IP:PORT）保存在 ZooKeeper、ETCD、Consul、Nacos 等服务管理组件，服务调用方（Serv...",
+    "url": "https://segmentfault.com/a/1190000041905055",
+    "author": "韩天峰",
+    "home_url": "https://segmentfault.com/u/hantianfeng",
+    "votes": "8",
     "rank": 29
   },
   {
-    "title": "如何自定义 drag 样式",
-    "description": "欢迎关注我的公众号：前端侦探在 web 中，图片默认是可以拖拽的，通常是一个半透明的预览图（下面简称“预览图”），如下这个预览图是系统自动生成的，一般无法进行自定义，但有时候会觉得拖拽的预览图尺寸太大了，...",
-    "url": "https://segmentfault.com/a/1190000041881296",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
+    "title": "Base64 编码知识，一文打尽！",
+    "description": "现在网站为了提升用户的浏览体验越来越多的使用了图片，而这些图片通常以 Base64 的形式存储和加载。因此各位开发工程师肯定对 Base64 毫不陌生了，那么你知道 Base64 究竟是什么，为什么要使用 Base64，以及 Bas...",
+    "url": "https://segmentfault.com/a/1190000041894263",
+    "author": "云叔_又拍云",
+    "home_url": "https://segmentfault.com/u/yunshu_blog",
     "votes": "11",
     "rank": 30
   }
