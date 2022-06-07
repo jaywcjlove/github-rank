@@ -2,7 +2,7 @@
   {
     "title": "消息队列原理和选型：Kafka、RocketMQ 、RabbitMQ 和 ActiveMQ",
     "description": "",
-    "votes": "74",
+    "votes": "88",
     "url": "/k/nuwnwro",
     "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
     "avatarAlt": "乱点技能树 - 独家号",
@@ -10,19 +10,9 @@
     "homeUrl": "/subjects/194141"
   },
   {
-    "title": "架构师成长路线图",
-    "description": "成长为软件架构师不是一件容易的事，这篇文章列举了架构师需要学习的技术储备，给出了成为软件架构师的路线图，帮助有志于在架构领域成长的同学可以明确学习的方向。原文：Master Pla...",
-    "votes": "71",
-    "url": "/k/27b6p2e",
-    "avatar": "https://img.toutiao.io/user/af19eb53bb164e47a25e3b1ef00f965e/thumb",
-    "avatarAlt": "DeepNoMind - 独家号",
-    "subjectName": "DeepNoMind",
-    "homeUrl": "/subjects/460290"
-  },
-  {
     "title": "如何写出一篇好的技术方案？",
     "description": "",
-    "votes": "55",
+    "votes": "59",
     "url": "/k/gl2cth8",
     "avatar": "https://img.toutiao.io/subject/ae2b74c589814b769c1bebad92c2fb9a/thumb",
     "avatarAlt": "架构之美 - 独家号",
@@ -30,24 +20,34 @@
     "homeUrl": "/subjects/42200"
   },
   {
-    "title": "6年团队Leader: 程序员的8种软技能",
-    "description": "",
-    "votes": "51",
-    "url": "/k/ehsw14h",
-    "avatar": "https://img.toutiao.io/subject/df70c5d3876241ecba5984356133ab23/thumb",
-    "avatarAlt": "架构必知必会 - 独家号",
-    "subjectName": "架构必知必会",
-    "homeUrl": "/subjects/472073"
-  },
-  {
     "title": "我做Go项目的一些实战经验",
     "description": "",
-    "votes": "44",
+    "votes": "46",
     "url": "/k/n4zn8vb",
     "avatar": "https://img.toutiao.io/subject/3f69ffc3bdf6496e86439348166e3ed7/thumb",
     "avatarAlt": "GoHackers - 独家号",
     "subjectName": "GoHackers",
     "homeUrl": "/subjects/1385"
+  },
+  {
+    "title": "异步编程指北",
+    "description": "",
+    "votes": "35",
+    "url": "/k/k2ezpp7",
+    "avatar": "https://img.toutiao.io/subject/ae2b74c589814b769c1bebad92c2fb9a/thumb",
+    "avatarAlt": "架构之美 - 独家号",
+    "subjectName": "架构之美",
+    "homeUrl": "/subjects/42200"
+  },
+  {
+    "title": "GitOps指南",
+    "description": "GitOps基于CICD和IaC，以一致的方式管理代码和部署，是DevOps最佳实践之一。本文完整介绍了GitOps的理念和实践，并介绍了Weave Cloud的GitOps模型和...",
+    "votes": "36",
+    "url": "/k/8a8c9ea",
+    "avatar": "https://img.toutiao.io/user/af19eb53bb164e47a25e3b1ef00f965e/thumb",
+    "avatarAlt": "DeepNoMind - 独家号",
+    "subjectName": "DeepNoMind",
+    "homeUrl": "/subjects/460290"
   },
   {
     "title": "如何设计可落地的重构技术方案——理论篇",
@@ -62,7 +62,7 @@
   {
     "title": "2022 年值得学习的 Golang 包",
     "description": "",
-    "votes": "29",
+    "votes": "30",
     "url": "/k/aqswd9s",
     "avatar": "https://img.toutiao.io/subject/3f69ffc3bdf6496e86439348166e3ed7/thumb",
     "avatarAlt": "GoHackers - 独家号",
@@ -70,29 +70,9 @@
     "homeUrl": "/subjects/1385"
   },
   {
-    "title": "GitOps指南",
-    "description": "GitOps基于CICD和IaC，以一致的方式管理代码和部署，是DevOps最佳实践之一。本文完整介绍了GitOps的理念和实践，并介绍了Weave Cloud的GitOps模型和...",
-    "votes": "29",
-    "url": "/k/8a8c9ea",
-    "avatar": "https://img.toutiao.io/user/af19eb53bb164e47a25e3b1ef00f965e/thumb",
-    "avatarAlt": "DeepNoMind - 独家号",
-    "subjectName": "DeepNoMind",
-    "homeUrl": "/subjects/460290"
-  },
-  {
-    "title": "实时数据架构与实践（用户画像篇）",
-    "description": "",
-    "votes": "25",
-    "url": "/k/nab58ic",
-    "avatar": "https://img.toutiao.io/subject/ae2b74c589814b769c1bebad92c2fb9a/thumb",
-    "avatarAlt": "架构之美 - 独家号",
-    "subjectName": "架构之美",
-    "homeUrl": "/subjects/42200"
-  },
-  {
     "title": "架构设计学习资料汇总",
     "description": "",
-    "votes": "27",
+    "votes": "29",
     "url": "/k/6c0iwli",
     "avatar": "https://img.toutiao.io/user/af19eb53bb164e47a25e3b1ef00f965e/thumb",
     "avatarAlt": "DeepNoMind - 独家号",
@@ -102,22 +82,12 @@
   {
     "title": "图文结合！Redis延迟队列golang高效实践",
     "description": "",
-    "votes": "27",
+    "votes": "28",
     "url": "/k/rc9xqyk",
     "avatar": "https://img.toutiao.io/subject/df70c5d3876241ecba5984356133ab23/thumb",
     "avatarAlt": "架构必知必会 - 独家号",
     "subjectName": "架构必知必会",
     "homeUrl": "/subjects/472073"
-  },
-  {
-    "title": "2022年技术趋势报告（658页）",
-    "description": "",
-    "votes": "23",
-    "url": "/k/npydybr",
-    "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
-    "avatarAlt": "乱点技能树 - 独家号",
-    "subjectName": "乱点技能树",
-    "homeUrl": "/subjects/194141"
   },
   {
     "title": "千万级数据查询：CK、ES、RediSearch怎么选?",
@@ -140,14 +110,54 @@
     "homeUrl": "/subjects/79906"
   },
   {
-    "title": "如何优雅的关闭容器",
+    "title": "从Redis7.0发布看Redis的过去与未来",
+    "description": "",
+    "votes": "21",
+    "url": "/k/nfcvuw0",
+    "avatar": "https://img.toutiao.io/subject/df70c5d3876241ecba5984356133ab23/thumb",
+    "avatarAlt": "架构必知必会 - 独家号",
+    "subjectName": "架构必知必会",
+    "homeUrl": "/subjects/472073"
+  },
+  {
+    "title": "半夜数据库突发宕机，竟是Redis惹的锅？？？",
     "description": "",
     "votes": "17",
-    "url": "/k/yxb5854",
-    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
-    "avatarAlt": "Bloomingroses - 独家号",
-    "subjectName": "Bloomingroses",
-    "homeUrl": "/subjects/98777"
+    "url": "/k/8ogtu83",
+    "avatar": "https://img.toutiao.io/subject/df70c5d3876241ecba5984356133ab23/thumb",
+    "avatarAlt": "架构必知必会 - 独家号",
+    "subjectName": "架构必知必会",
+    "homeUrl": "/subjects/472073"
+  },
+  {
+    "title": "字节序探析：大端与小端的比较",
+    "description": "",
+    "votes": "17",
+    "url": "/k/zet8l08",
+    "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
+    "avatarAlt": "趣编程的独家号 - 独家号",
+    "subjectName": "趣编程的独家号",
+    "homeUrl": "/subjects/465623"
+  },
+  {
+    "title": "十年编程，我意识到除了给客户带来价值外，没有什么是真正重要的",
+    "description": "",
+    "votes": "16",
+    "url": "/k/57ytcg4",
+    "avatar": "https://img.toutiao.io/subject/ae2b74c589814b769c1bebad92c2fb9a/thumb",
+    "avatarAlt": "架构之美 - 独家号",
+    "subjectName": "架构之美",
+    "homeUrl": "/subjects/42200"
+  },
+  {
+    "title": "Go Error 处理最佳实践",
+    "description": "",
+    "votes": "16",
+    "url": "/k/pm6csan",
+    "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
+    "avatarAlt": "趣编程的独家号 - 独家号",
+    "subjectName": "趣编程的独家号",
+    "homeUrl": "/subjects/465623"
   },
   {
     "title": "高效学习的六大必备工具",
@@ -160,43 +170,33 @@
     "homeUrl": "/subjects/114561"
   },
   {
-    "title": "从Redis7.0发布看Redis的过去与未来",
+    "title": "一文快速入门分库分表中间件 Sharding-JDBC （必修课）",
     "description": "",
-    "votes": "18",
-    "url": "/k/nfcvuw0",
-    "avatar": "https://img.toutiao.io/subject/df70c5d3876241ecba5984356133ab23/thumb",
-    "avatarAlt": "架构必知必会 - 独家号",
-    "subjectName": "架构必知必会",
-    "homeUrl": "/subjects/472073"
+    "votes": "13",
+    "url": "/k/559s1d3",
+    "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
+    "avatarAlt": "乱点技能树 - 独家号",
+    "subjectName": "乱点技能树",
+    "homeUrl": "/subjects/194141"
   },
   {
-    "title": "十年编程，我意识到除了给客户带来价值外，没有什么是真正重要的",
+    "title": "REDIS-CLUSTER集群SLOT迁移过程分析",
     "description": "",
     "votes": "15",
-    "url": "/k/57ytcg4",
-    "avatar": "https://img.toutiao.io/subject/ae2b74c589814b769c1bebad92c2fb9a/thumb",
-    "avatarAlt": "架构之美 - 独家号",
-    "subjectName": "架构之美",
-    "homeUrl": "/subjects/42200"
+    "url": "/k/gqd01cz",
+    "avatar": "https://img.toutiao.io/subject/7c016973c0bb4e13a28ab338153e7d12/thumb",
+    "avatarAlt": "萌叔 - 独家号",
+    "subjectName": "萌叔",
+    "homeUrl": "/subjects/334598"
   },
   {
-    "title": "异步编程指北",
+    "title": "一文概览 NLP 算法（Python）",
     "description": "",
-    "votes": "15",
-    "url": "/k/jns9z8j",
-    "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
-    "avatarAlt": "趣编程的独家号 - 独家号",
-    "subjectName": "趣编程的独家号",
-    "homeUrl": "/subjects/465623"
-  },
-  {
-    "title": "Go Error 处理最佳实践",
-    "description": "",
-    "votes": "15",
-    "url": "/k/pm6csan",
-    "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
-    "avatarAlt": "趣编程的独家号 - 独家号",
-    "subjectName": "趣编程的独家号",
-    "homeUrl": "/subjects/465623"
+    "votes": "12",
+    "url": "/k/jbwk2nr",
+    "avatar": "https://img.toutiao.io/subject/c8a60287ae464b8db21221a59774ceb3/thumb",
+    "avatarAlt": "AIHackers - 独家号",
+    "subjectName": "AIHackers",
+    "homeUrl": "/subjects/300686"
   }
 ]
