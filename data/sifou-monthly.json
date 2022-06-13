@@ -77,7 +77,7 @@
     "url": "https://segmentfault.com/a/1190000041885333",
     "author": "xindoo",
     "home_url": "https://segmentfault.com/u/xindoo",
-    "votes": "18",
+    "votes": "19",
     "rank": 9
   },
   {
@@ -99,21 +99,21 @@
     "rank": 11
   },
   {
-    "title": "如何做新人引导功能？",
-    "description": "节前碰到一个需求：「新人引导效果」针对第一次使用平台的用户进行主要功能引导。具体引导路径为：点击“新增按钮”，对弹出的内容进行解释，并引导用户填充表单，最后提交表单。",
-    "url": "https://segmentfault.com/a/1190000041789636",
-    "author": "linong",
-    "home_url": "https://segmentfault.com/u/linong",
-    "votes": "13",
-    "rank": 12
-  },
-  {
     "title": "十年老友记 | @张京：我编程了三十年，编程就是我的符号",
     "description": "十年前的今天，SegmentFault 思否正式创立，如一颗嫩绿的幼芽开始成长，期间承载过和煦的日光、沐浴过柔和的春风，也挑战过滂沱的暴雨、体会过凛冽的冬雪。所幸，今日呈现在我们面前的 SegmentFault 思否，已经长...",
     "url": "https://segmentfault.com/a/1190000041926662",
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "16",
+    "rank": 12
+  },
+  {
+    "title": "如何做新人引导功能？",
+    "description": "节前碰到一个需求：「新人引导效果」针对第一次使用平台的用户进行主要功能引导。具体引导路径为：点击“新增按钮”，对弹出的内容进行解释，并引导用户填充表单，最后提交表单。",
+    "url": "https://segmentfault.com/a/1190000041789636",
+    "author": "linong",
+    "home_url": "https://segmentfault.com/u/linong",
+    "votes": "13",
     "rank": 13
   },
   {
@@ -135,22 +135,13 @@
     "rank": 15
   },
   {
-    "title": "5分钟带你通过Javascript了解人工智能的基本原理",
-    "description": "学习人工智能门槛高不高？我入门花了2个月时间，学习了python、微积分，才大概弄懂了深度学习的基本原理，确实让人头大，不过现在回过头想想，其实基本原理是没这么难的。",
-    "url": "https://segmentfault.com/a/1190000041843081",
-    "author": "6666",
-    "home_url": "https://segmentfault.com/u/6666",
-    "votes": "10",
-    "rank": 16
-  },
-  {
     "title": "云原生时代 PHP/Golang 项目如何实现微服务",
     "description": "在传统架构下，我们需要使用服务发现、服务注册等技术实现微服务架构。通常我们需要将服务提供方（Service Provider）的节点（IP:PORT）保存在 ZooKeeper、ETCD、Consul、Nacos 等服务管理组件，服务调用方（Serv...",
     "url": "https://segmentfault.com/a/1190000041905055",
     "author": "韩天峰",
     "home_url": "https://segmentfault.com/u/hantianfeng",
     "votes": "9",
-    "rank": 17
+    "rank": 16
   },
   {
     "title": "无需安装、注册，一行命令搞定内网穿透！关键是完全免费",
@@ -159,7 +150,7 @@
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "12",
-    "rank": 18
+    "rank": 17
   },
   {
     "title": "Base64 编码知识，一文打尽！",
@@ -168,7 +159,7 @@
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
     "votes": "11",
-    "rank": 19
+    "rank": 18
   },
   {
     "title": "这个队列的思路是真的好，现在它是我简历上的亮点了。",
@@ -177,6 +168,15 @@
     "author": "why技术",
     "home_url": "https://segmentfault.com/u/whyjishu",
     "votes": "9",
+    "rank": 19
+  },
+  {
+    "title": "js面试题(进阶)梳理",
+    "description": "1、undeclared 与 undefined的区别？ {代码...} 2、let & const与 var 的区别？ {代码...} 3、获取DOM元素有哪些方法？方法描述document.getElementById(id)通过id获取domdocument.getElementsByTagName(tagName)...",
+    "url": "https://segmentfault.com/a/1190000041855296",
+    "author": "墨城",
+    "home_url": "https://segmentfault.com/u/xiaomogu_5f2124ad3ad42",
+    "votes": "14",
     "rank": 20
   },
   {
@@ -207,22 +207,13 @@
     "rank": 23
   },
   {
-    "title": "js面试题(进阶)梳理",
-    "description": "1、undeclared 与 undefined的区别？ {代码...} 2、let & const与 var 的区别？ {代码...} 3、获取DOM元素有哪些方法？方法描述document.getElementById(id)通过id获取domdocument.getElementsByTagName(tagName)...",
-    "url": "https://segmentfault.com/a/1190000041855296",
-    "author": "墨城",
-    "home_url": "https://segmentfault.com/u/xiaomogu_5f2124ad3ad42",
-    "votes": "13",
-    "rank": 24
-  },
-  {
     "title": "锁定项目 Node 版本和包管理器",
     "description": "成员机器 Node.js 版本不统一： 守旧派用 12.x、保守用 14.x、激进用 17.x。项目能否正常跑起来全凭天意，在没有 CICD 流水线加持本地 npm run build 的场景下线上风险可想而知。",
     "url": "https://segmentfault.com/a/1190000041918155",
     "author": "亖混子",
     "home_url": "https://segmentfault.com/u/1023",
     "votes": "10",
-    "rank": 25
+    "rank": 24
   },
   {
     "title": "社区的力量 | SegmentFault 思否十周年，伙伴们说",
@@ -231,7 +222,7 @@
     "author": "SegmentFault思否",
     "home_url": "https://segmentfault.com/u/segmentfault",
     "votes": "5",
-    "rank": 26
+    "rank": 25
   },
   {
     "title": "云计算的未来在哪？破解亚马逊云科技增长神话",
@@ -240,7 +231,7 @@
     "author": "六一",
     "home_url": "https://segmentfault.com/u/suicidal_romantic_scoundrel",
     "votes": "6",
-    "rank": 27
+    "rank": 26
   },
   {
     "title": "CSS 变量自动变色技术",
@@ -249,7 +240,7 @@
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
     "votes": "9",
-    "rank": 28
+    "rank": 27
   },
   {
     "title": "13 个Typescript 实用类型：开发人员的备忘单",
@@ -258,7 +249,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "14",
-    "rank": 29
+    "rank": 28
   },
   {
     "title": "js 生成UUID的几种方法",
@@ -266,7 +257,16 @@
     "url": "https://segmentfault.com/a/1190000041895680",
     "author": "墨城",
     "home_url": "https://segmentfault.com/u/xiaomogu_5f2124ad3ad42",
-    "votes": "8",
+    "votes": "9",
+    "rank": 29
+  },
+  {
+    "title": "构建基于React18的电子表格程序",
+    "description": "2022年3月29日，React正式发布18.0.0。本次升级内容包括开箱即用的改进，如自动批处理、新的API（如startTransition）和支持Suspense 的流式服务器端渲染。关于此次发布新增的功能可以参考官方文档。",
+    "url": "https://segmentfault.com/a/1190000041959594",
+    "author": "葡萄城技术团队",
+    "home_url": "https://segmentfault.com/u/grapecity",
+    "votes": "4",
     "rank": 30
   }
 ]
