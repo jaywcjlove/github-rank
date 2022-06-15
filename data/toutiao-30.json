@@ -12,7 +12,7 @@
   {
     "title": "消息队列原理和选型：Kafka、RocketMQ 、RabbitMQ 和 ActiveMQ",
     "description": "",
-    "votes": "121",
+    "votes": "122",
     "url": "/k/nuwnwro",
     "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
     "avatarAlt": "乱点技能树 - 独家号",
@@ -32,12 +32,22 @@
   {
     "title": "阿里10年沉淀｜那些技术实战中的架构设计方法",
     "description": "上周我写的一篇文章《关于技术能力的思考和总结》引起了大家的关注，好多读者的评论“以写代想、以想促真、以讲验真”，大家的感受很深刻，基于上次的文章，这篇文章我其实更想跟大家聊聊一些常...",
-    "votes": "104",
+    "votes": "105",
     "url": "/k/e9vlh55",
     "avatar": "https://img.toutiao.io/subject/df70c5d3876241ecba5984356133ab23/thumb",
     "avatarAlt": "架构必知必会 - 独家号",
     "subjectName": "架构必知必会",
     "homeUrl": "/subjects/472073"
+  },
+  {
+    "title": "MongoDB全方位知识图谱！",
+    "description": "导语 | MongoDB是一个强大的分布式存储引擎，天然支持高可用、分布式和灵活设计。MongoDB的一个很重要的设计理念是：服务端只关注底层核心能力的输出，至于怎么用，就尽可能的...",
+    "votes": "107",
+    "url": "/k/efxw4nr",
+    "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
+    "avatarAlt": "趣编程的独家号 - 独家号",
+    "subjectName": "趣编程的独家号",
+    "homeUrl": "/subjects/465623"
   },
   {
     "title": "如何画好一张架构图？",
@@ -48,26 +58,6 @@
     "avatarAlt": "架构必知必会 - 独家号",
     "subjectName": "架构必知必会",
     "homeUrl": "/subjects/472073"
-  },
-  {
-    "title": "MongoDB全方位知识图谱！",
-    "description": "导语 | MongoDB是一个强大的分布式存储引擎，天然支持高可用、分布式和灵活设计。MongoDB的一个很重要的设计理念是：服务端只关注底层核心能力的输出，至于怎么用，就尽可能的...",
-    "votes": "105",
-    "url": "/k/efxw4nr",
-    "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
-    "avatarAlt": "趣编程的独家号 - 独家号",
-    "subjectName": "趣编程的独家号",
-    "homeUrl": "/subjects/465623"
-  },
-  {
-    "title": "ThreadLocal夺命11连问",
-    "description": "",
-    "votes": "90",
-    "url": "/k/p8lpi5z",
-    "avatar": "https://img.toutiao.io/subject/0a66350d491141748ab4dd49be144252/thumb",
-    "avatarAlt": "苏三说技术 - 独家号",
-    "subjectName": "苏三说技术",
-    "homeUrl": "/subjects/453205"
   },
   {
     "title": "关于技术能力的思考和总结",
@@ -120,19 +110,9 @@
     "homeUrl": "/subjects/42200"
   },
   {
-    "title": "大厂的优惠券系统是如何设计的？",
-    "description": "",
-    "votes": "67",
-    "url": "/k/8v764sx",
-    "avatar": "https://img.toutiao.io/subject/df70c5d3876241ecba5984356133ab23/thumb",
-    "avatarAlt": "架构必知必会 - 独家号",
-    "subjectName": "架构必知必会",
-    "homeUrl": "/subjects/472073"
-  },
-  {
     "title": "总监的烦恼：技术丢了怎么办？",
     "description": "原创不易，求分享、求一键三连前段时间有个粉丝与我讨论了一个问题：小钗，我半年前从技术经理升职到了技术总监，但这段时间的工作很恼火：一大半时间要去开各种产品会，还有一些时间要去处理团...",
-    "votes": "69",
+    "votes": "71",
     "url": "/k/rzytby1",
     "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
     "avatarAlt": "Bloomingroses - 独家号",
@@ -142,7 +122,7 @@
   {
     "title": "性能提升40倍——线上真实重构案例分享",
     "description": "",
-    "votes": "62",
+    "votes": "63",
     "url": "/k/izbqpxo",
     "avatar": "https://img.toutiao.io/subject/bd96da5f87da45b8a1b5f3e6715a6482/thumb",
     "avatarAlt": "浅谈架构 - 独家号",
@@ -192,7 +172,7 @@
   {
     "title": "异步编程指北",
     "description": "",
-    "votes": "48",
+    "votes": "49",
     "url": "/k/k2ezpp7",
     "avatar": "https://img.toutiao.io/subject/ae2b74c589814b769c1bebad92c2fb9a/thumb",
     "avatarAlt": "架构之美 - 独家号",
@@ -208,6 +188,16 @@
     "avatarAlt": "浪客用react,java全栈 - 独家号",
     "subjectName": "浪客用react,java全栈",
     "homeUrl": "/subjects/132403"
+  },
+  {
+    "title": "高并发下如何防重？",
+    "description": "大家好，我是苏三，又跟大家见面了。文末留言送书啦！！！前言最近测试给我提了一个bug，说我之前提供的一个批量复制商品的接口，产生了重复的商品数据。追查原因之后发现，这个事情没想象中...",
+    "votes": "44",
+    "url": "/k/ulsc0so",
+    "avatar": "https://img.toutiao.io/subject/0a66350d491141748ab4dd49be144252/thumb",
+    "avatarAlt": "苏三说技术 - 独家号",
+    "subjectName": "苏三说技术",
+    "homeUrl": "/subjects/453205"
   },
   {
     "title": "腾讯妹子图解Golang内存分配和垃圾回收",
@@ -248,5 +238,15 @@
     "avatarAlt": "xinconan - 独家号",
     "subjectName": "xinconan",
     "homeUrl": "/subjects/150250"
+  },
+  {
+    "title": "我做Go项目的一些实战经验",
+    "description": "",
+    "votes": "50",
+    "url": "/k/n4zn8vb",
+    "avatar": "https://img.toutiao.io/subject/3f69ffc3bdf6496e86439348166e3ed7/thumb",
+    "avatarAlt": "GoHackers - 独家号",
+    "subjectName": "GoHackers",
+    "homeUrl": "/subjects/1385"
   }
 ]
