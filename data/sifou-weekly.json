@@ -14,8 +14,17 @@
     "url": "https://segmentfault.com/a/1190000041962607",
     "author": "杨成功",
     "home_url": "https://segmentfault.com/u/ruidoc",
-    "votes": "14",
+    "votes": "17",
     "rank": 2
+  },
+  {
+    "title": "React Suspense 尝鲜,处理前后端IO异步操作",
+    "description": "Suspense主要用来解决网络IO问题，它早在2018年的React 16.6.0版本中就已发布。它的相关用法有些已经比较成熟，有的相对不太稳定，甚至经历了重命名、删除：",
+    "url": "https://segmentfault.com/a/1190000041992773",
+    "author": "葡萄城技术团队",
+    "home_url": "https://segmentfault.com/u/grapecity",
+    "votes": "7",
+    "rank": 3
   },
   {
     "title": "让拖拽更加人性化？如何自定义dragover样式",
@@ -24,25 +33,7 @@
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
     "votes": "10",
-    "rank": 3
-  },
-  {
-    "title": "干货合集│最好用的 python 库都在这",
-    "description": "一、分词 - jieba优秀的中文分词库，依靠中文词库，利用词库确定汉子之间关联的概率，形成分词结果 {代码...} 二、词云库 - wordcloud对数据中出现频率较高的 关键词 生成的一幅图像，予以视觉上的突出 {代码...}...",
-    "url": "https://segmentfault.com/a/1190000041962217",
-    "author": "极客飞兔",
-    "home_url": "https://segmentfault.com/u/autofelix",
-    "votes": "7",
     "rank": 4
-  },
-  {
-    "title": "构建基于React18的电子表格程序",
-    "description": "2022年3月29日，React正式发布18.0.0。本次升级内容包括开箱即用的改进，如自动批处理、新的API（如startTransition）和支持Suspense 的流式服务器端渲染。关于此次发布新增的功能可以参考官方文档。",
-    "url": "https://segmentfault.com/a/1190000041959594",
-    "author": "葡萄城技术团队",
-    "home_url": "https://segmentfault.com/u/grapecity",
-    "votes": "4",
-    "rank": 5
   },
   {
     "title": "JS实现将文本或JSON内容下载到文件中",
@@ -50,7 +41,16 @@
     "url": "https://segmentfault.com/a/1190000041965165",
     "author": "十方",
     "home_url": "https://segmentfault.com/u/shifang_5b2b70d160932",
-    "votes": "5",
+    "votes": "7",
+    "rank": 5
+  },
+  {
+    "title": "为什么Hook没有ErrorBoundary？",
+    "description": "在很多全面使用Hooks开发的团队，唯一使用ClassComponent的场景就是使用ClassComponent创建ErrorBoundary。",
+    "url": "https://segmentfault.com/a/1190000041974765",
+    "author": "卡颂",
+    "home_url": "https://segmentfault.com/u/kasong",
+    "votes": "4",
     "rank": 6
   },
   {
@@ -72,58 +72,31 @@
     "rank": 8
   },
   {
-    "title": "为什么Hook没有ErrorBoundary？",
-    "description": "在很多全面使用Hooks开发的团队，唯一使用ClassComponent的场景就是使用ClassComponent创建ErrorBoundary。",
-    "url": "https://segmentfault.com/a/1190000041974765",
-    "author": "卡颂",
-    "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "3",
-    "rank": 9
-  },
-  {
     "title": "【实操干货】做好这 16 项优化，你的 Linux 操作系统焕然一新",
     "description": "大家好，这次跟大家谈谈又拍云的操作系统优化方案。往简单地说，我们使用的 Linux 操作系统主要都是基于 CentOS6/7 的精简和优化。往复杂地说，则是我们有两套系统，业务上使用的定制 Linux 系统和数据中心使用的...",
     "url": "https://segmentfault.com/a/1190000041974556",
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
     "votes": "6",
+    "rank": 9
+  },
+  {
+    "title": "Redis都有哪些使用场景",
+    "description": "Redis作为一种内存型的非关系型的数据库，不管在互联网大厂，小厂，大项目和小项目中，几乎都会被使用。为什么Redis会受到如此青睐呢？关于这个问题，可能很多的程序员只是看着别人用而用，缺乏对Redis一个全面的...",
+    "url": "https://segmentfault.com/a/1190000041985101",
+    "author": "7small7",
+    "home_url": "https://segmentfault.com/u/7small7",
+    "votes": "4",
     "rank": 10
   },
   {
-    "title": "如何用pkg打包nodejs可执行文件",
-    "description": "使用pkg可以将Node.js项目打包为可执行文件，甚至可以在未安装Node.js的设备上运行。实验环境操作系统：windowsnode版本: 16.14.2操作过程下载PKG咱们可以选择全局安装，在任意目录执行： {代码...} 打包程序先写...",
-    "url": "https://segmentfault.com/a/1190000041958374",
-    "author": "墨城",
-    "home_url": "https://segmentfault.com/u/xiaomogu_5f2124ad3ad42",
+    "title": "什么是走索引？",
+    "description": "索引是一种利用某种规则的数据结构与实际数据的关系加快数据查找的功能。我们的数据库中存储有大量的内容，而索引能够通过数据节点，根据特定的规则和算法快速查找到节点对应的实际文件的位置。简单来说索引就像...",
+    "url": "https://segmentfault.com/a/1190000041986392",
+    "author": "云叔_又拍云",
+    "home_url": "https://segmentfault.com/u/yunshu_blog",
     "votes": "4",
     "rank": 11
-  },
-  {
-    "title": "「BUIDLCON2022」“Web3 开发者峰会”线上报名火热开启！",
-    "description": "随着区块链技术的成熟落地以及创新开发团队的涌现，行业开始催生出了新一代互联网技术 —— 去年以来，伴随元宇宙后火起来的 Web3 热度一度风靡全球，且被看作是是互联网的未来。",
-    "url": "https://segmentfault.com/a/1190000041961319",
-    "author": "MissD",
-    "home_url": "https://segmentfault.com/u/d2ms1shh",
-    "votes": "1",
-    "rank": 12
-  },
-  {
-    "title": "react-router-middleware-plus开源啦 | 基于react-router v6的零成本式路由权限解决方案",
-    "description": "一、你的苦恼~~你还在为react-router的路由权限控制而烦恼吗？你还在翻遍了社区react路由权限相关文章发现都是V4、V5版本的而烦恼吗？你还在为自行适配react-router v6版本的权限步骤繁杂，多重鉴权逻辑嵌套而烦...",
-    "url": "https://segmentfault.com/a/1190000041958877",
-    "author": "胡哥有话说",
-    "home_url": "https://segmentfault.com/u/justbecoder",
-    "votes": "3",
-    "rank": 13
-  },
-  {
-    "title": "一个“@”引发的“reply-all 事件”：让 GitHub 变身发骚扰邮件的“僵尸网络”！近 40 万开发者受影响",
-    "description": "近日，一位 18 岁的新手因向 GitHub 仓库提交 PR(Pull Request，Pull 请求)，结果一个“@”让 GitHub 变身“僵尸网络”向近 40 万开发者狂发骚扰邮件的“reply-all 风暴”热度席卷了开源圈。",
-    "url": "https://segmentfault.com/a/1190000041959460",
-    "author": "MissD",
-    "home_url": "https://segmentfault.com/u/d2ms1shh",
-    "votes": "3",
-    "rank": 14
   },
   {
     "title": "2022中国信通院安全运营发展论坛成功召开",
@@ -132,16 +105,16 @@
     "author": "snakesss",
     "home_url": "https://segmentfault.com/u/snakesss",
     "votes": "1",
-    "rank": 15
+    "rank": 12
   },
   {
-    "title": "JS判定一个给定的时间在某个时间范围内",
-    "description": "有这样的一个场景：给定一个时间，需要判定这个时间在哪个时间范围内.比如时间范围如下： {代码...} 现在给定一个时间 15:28 ，那么就需要返回 [\"15:00\",\"16:00\"] 这个时间范围，具体的实现代码如下： {代码...} ...",
-    "url": "https://segmentfault.com/a/1190000041955642",
-    "author": "十方",
-    "home_url": "https://segmentfault.com/u/shifang_5b2b70d160932",
-    "votes": "3",
-    "rank": 16
+    "title": "喜提JDK的BUG一枚！多线程的情况下请谨慎使用这个类的stream遍历。",
+    "description": "前段时间在 RocketMQ 的 ISSUE 里面冲浪的时候，看到一个 pr，虽说是在 RocketMQ 的地盘上发现的，但是这个玩意吧，其实和 RocketMQ 没有任何关系。",
+    "url": "https://segmentfault.com/a/1190000041975524",
+    "author": "why技术",
+    "home_url": "https://segmentfault.com/u/whyjishu",
+    "votes": "2",
+    "rank": 13
   },
   {
     "title": "JS实现JSON对象与URL参数的相互转换",
@@ -150,16 +123,16 @@
     "author": "十方",
     "home_url": "https://segmentfault.com/u/shifang_5b2b70d160932",
     "votes": "3",
-    "rank": 17
+    "rank": 14
   },
   {
-    "title": "实战模拟│企业微信机器人实时报错预警",
-    "description": "一、创建机器人选择群 ► 右键 ► 管理聊天信息 ► 添加群机器人完善机器人基本信息，包括头像、名称等二、机器人配置说明创建好的机器人都有一个唯一的 webhook 地址一定要保护好自己的 webhook 地址，如果一旦泄露...",
-    "url": "https://segmentfault.com/a/1190000041974376",
-    "author": "极客飞兔",
-    "home_url": "https://segmentfault.com/u/autofelix",
-    "votes": "1",
-    "rank": 18
+    "title": "SegmentFault 思否技术周刊 — 想玩转 Python？简直 So Easy！",
+    "description": "Python，是一种面向对象、直译式电脑编程语言，也是一种功能强大的通用型语言，已经具有近二十年的发展历史，成熟且稳定。它包含了一组完善而且容易理解的标准库，能够轻松完成很多常见的任务。它的语法非常简捷...",
+    "url": "https://segmentfault.com/a/1190000041986657",
+    "author": "Beverly",
+    "home_url": "https://segmentfault.com/u/beverly0",
+    "votes": "3",
+    "rank": 15
   },
   {
     "title": "项目中关于解构的常用用法",
@@ -168,16 +141,16 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "4",
-    "rank": 19
+    "rank": 16
   },
   {
-    "title": "JS实现的接粽子小游戏，愿你好运接粽而至",
-    "description": "端午节虽然已经过了，但是美好的生活以旧在继续。这里用 JS 实现了一个简单的接粽子小游戏，寓意美好接粽而至。能接到多少粽子，完全看你手速，不用担心端午没粽子了。线上体验地址",
-    "url": "https://segmentfault.com/a/1190000041957646",
-    "author": "linshuai",
-    "home_url": "https://segmentfault.com/u/linshuai",
-    "votes": "2",
-    "rank": 20
+    "title": "实战模拟│企业微信机器人实时报错预警",
+    "description": "一、创建机器人选择群 ► 右键 ► 管理聊天信息 ► 添加群机器人完善机器人基本信息，包括头像、名称等二、机器人配置说明创建好的机器人都有一个唯一的 webhook 地址一定要保护好自己的 webhook 地址，如果一旦泄露...",
+    "url": "https://segmentfault.com/a/1190000041974376",
+    "author": "极客飞兔",
+    "home_url": "https://segmentfault.com/u/autofelix",
+    "votes": "1",
+    "rank": 17
   },
   {
     "title": "微软 GitHub 宣布将“淘汰” Atom 代码编辑器！未来重点转向 VS Code",
@@ -186,24 +159,51 @@
     "author": "MissD",
     "home_url": "https://segmentfault.com/u/d2ms1shh",
     "votes": "2",
+    "rank": 18
+  },
+  {
+    "title": "还在用Navicat？这款开源的数据库管理工具界面更炫酷！",
+    "description": "数据库管理工具，是后端程序员使用频率非常高的的工具。Navicat、DataGrip虽然很好用，但都是收费的。最近在逛Github的时候，无意间发现了一款开源的数据库管理工具Beekeeper Studio，界面非常炫酷推荐给大家！",
+    "url": "https://segmentfault.com/a/1190000041979445",
+    "author": "macrozheng",
+    "home_url": "https://segmentfault.com/u/macrozheng",
+    "votes": "1",
+    "rank": 19
+  },
+  {
+    "title": "如何使用 GitHub 讨论作为您博客的聊天系统",
+    "description": "在GitHub Discussions(讨论区)的帮助下，你可以把你的博客的评论提升到一个新的水平。在这篇文章中，我将解释如何将GitHub讨论整合到你的博客中并充分利用它。",
+    "url": "https://segmentfault.com/a/1190000041976390",
+    "author": "杭州程序员张张",
+    "home_url": "https://segmentfault.com/u/dunizb",
+    "votes": "1",
+    "rank": 20
+  },
+  {
+    "title": "全球 77.5% 的网站都在用 PHP；百度一程序员删库被判 9 个月；OpenCV 4.6 发布 |  思否周刊",
+    "description": "40s 新闻速递百度一程序员 “删库” 被判刑 9 个月欧盟 2024 年起统一使用 Type-C 接口，苹果或于明年底发布 Type-C iPhone全球 77.5% 的网站都在用 php马斯克为收购 Twitter 筹集新资金的工作由于不确定性而暂停苹...",
+    "url": "https://segmentfault.com/a/1190000041970976",
+    "author": "snakesss",
+    "home_url": "https://segmentfault.com/u/snakesss",
+    "votes": "1",
     "rank": 21
   },
   {
-    "title": "还在从零开始搭建项目？这款升级版快速开发脚手架值得一试！",
-    "description": "关注我Github的小伙伴应该了解，之前我开源了一款快速开发脚手架mall-tiny，该脚手架继承了mall项目的技术栈，拥有完整的权限管理功能。最近抽空把该项目支持了Spring Boot 2.7.0，今天再和大家聊聊这个脚手架，...",
-    "url": "https://segmentfault.com/a/1190000041957879",
-    "author": "macrozheng",
-    "home_url": "https://segmentfault.com/u/macrozheng",
-    "votes": "3",
+    "title": "HTML DOM querySelectorAll() 代替 jquery的 $('') CSS选择器",
+    "description": "querySelectorAll()方法返回文档中匹配指定CSS选择器的所有元素，其效果与jquery的$('')选择器一样，不同的就是querySelectorAll()方法是Js原生方法，无需引入jquery.min.js库。",
+    "url": "https://segmentfault.com/a/1190000041984588",
+    "author": "TANKING",
+    "home_url": "https://segmentfault.com/u/tanking",
+    "votes": "1",
     "rank": 22
   },
   {
-    "title": "新提案，初识CSS的object-view-box属性",
-    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000041935473",
+    "title": "前端性能监测，Runtime Performance Debug 技巧",
+    "description": "提到 Web 前端的效能优化，有许多的技巧是聚焦在如何减少页面的“载入时间 Loading Time”，例如 Code Splitting 透过减少需要载入的 Bundle Size 来加快载入效能。也有些技巧是针对执行时期 (Runtime) 的优化与调...",
+    "url": "https://segmentfault.com/a/1190000041990709",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "1",
+    "votes": "7",
     "rank": 23
   },
   {
@@ -225,13 +225,31 @@
     "rank": 25
   },
   {
-    "title": "马志强：语音识别技术研究进展和应用落地分享丨RTC Dev Meetup",
-    "description": "本文内容源自「RTC Dev Meetup 丨语音处理在实时互动领域的技术实践和应用】的演讲分享，分享讲师为寰语科技语音识别研究主管马志强。",
-    "url": "https://segmentfault.com/a/1190000041962781",
-    "author": "声网",
-    "home_url": "https://segmentfault.com/u/shengwangapi",
-    "votes": "2",
+    "title": "微服务效率工具 goctl 深度解析（上）",
+    "description": "goctl 的最早功能是为了解决 GRPC 内网调试问题，大约是在 2019 年，在我们的生产环境中，rpc 是内网隔离的，不可通过外网访问，为了快速去 mock 一些线上 RPC client 的请求，就简单的实现了第一版本的代码生成...",
+    "url": "https://segmentfault.com/a/1190000041963346",
+    "author": "kevinwan",
+    "home_url": "https://segmentfault.com/u/kevinwan",
+    "votes": "1",
     "rank": 26
+  },
+  {
+    "title": "Cube 技术解读 | Cube 渲染设计的前世今生",
+    "description": "阿里是个重运营的公司，前端开发者居多，2016-2017年，在Weex还是1.0时代，React Native开源还没多久，Flutter还没诞生的时候，如何在贴合前端开发环境的前提下，快速铺到android/iOS双平台是个大热点，支付宝内...",
+    "url": "https://segmentfault.com/a/1190000041966067",
+    "author": "阿里巴巴移动技术",
+    "home_url": "https://segmentfault.com/u/alimobile",
+    "votes": "1",
+    "rank": 27
+  },
+  {
+    "title": "得物前端唤端业务场景和技术精讲",
+    "description": "当你在刷朋友圈时突然看到一个潮鞋广告，正是你非常喜欢、一直想买的那款而且价格美丽，于是你兴奋地点击广告直接打开了购物App，并且直接进入刚刚看到的潮鞋详情页，你只需要直接点击购买就能得到这双你期待已久...",
+    "url": "https://segmentfault.com/a/1190000041986500",
+    "author": "得物技术",
+    "home_url": "https://segmentfault.com/u/dewujishu",
+    "votes": "1",
+    "rank": 28
   },
   {
     "title": "6 月 TIOBE 榜单：C++ 即将超越 Java 进入 Top3，PHP 热度再下滑",
@@ -240,7 +258,7 @@
     "author": "MissD",
     "home_url": "https://segmentfault.com/u/d2ms1shh",
     "votes": "1",
-    "rank": 27
+    "rank": 29
   },
   {
     "title": "React Fiber架构原理",
@@ -248,24 +266,6 @@
     "url": "https://segmentfault.com/a/1190000041965895",
     "author": "xiangzhihong",
     "home_url": "https://segmentfault.com/u/xiangzhihong",
-    "votes": "1",
-    "rank": 28
-  },
-  {
-    "title": "Java 基础常见知识点&面试题总结(上)，2022 最新版！| JavaGuide",
-    "description": "《Java 面试指北》来啦！这是一份教你如何更高效地准备面试的小册，涵盖常见八股文（系统设计、常见框架、分布式、高并发 ......）、优质面经等内容。JavaGuide（Java学习&&面试指南）：[链接]首发于：[链接]",
-    "url": "https://segmentfault.com/a/1190000041960013",
-    "author": "JavaGuide",
-    "home_url": "https://segmentfault.com/u/javaguide",
-    "votes": "1",
-    "rank": 29
-  },
-  {
-    "title": "Spring Security整合企业微信的扫码登录，企微的API惊讶到我了",
-    "description": "现在很多企业都接入了企业微信，作为私域社群工具，企业微信开放了很多API，可以打通很多自有的应用。既然是应用，那肯定需要做登录。正好企业微信提供了企业微信扫码授权登录功能，而且号称使用了OAuth，正好拿...",
-    "url": "https://segmentfault.com/a/1190000041967393",
-    "author": "码农小胖哥",
-    "home_url": "https://segmentfault.com/u/10000000",
     "votes": "1",
     "rank": 30
   }
