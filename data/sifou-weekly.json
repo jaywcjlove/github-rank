@@ -5,8 +5,17 @@
     "url": "https://segmentfault.com/a/1190000041974425",
     "author": "水冗水孚",
     "home_url": "https://segmentfault.com/u/shuirongshui",
-    "votes": "21",
+    "votes": "23",
     "rank": 1
+  },
+  {
+    "title": "让拖拽更加人性化？如何自定义dragover样式",
+    "description": "欢迎关注微信公众号： 前端侦探在 web 开发中，经常会碰到需要拖拽的场景。为了更好的体验，拖拽区域需要有一定的变化提示，告诉用户：\"现在可以放在这里了~\"，例如这样的之前在这篇文章讲述了如何自定义 drag 样...",
+    "url": "https://segmentfault.com/a/1190000041974546",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "12",
+    "rank": 2
   },
   {
     "title": "React Suspense 尝鲜,处理前后端IO异步操作",
@@ -15,15 +24,6 @@
     "author": "葡萄城技术团队",
     "home_url": "https://segmentfault.com/u/grapecity",
     "votes": "7",
-    "rank": 2
-  },
-  {
-    "title": "让拖拽更加人性化？如何自定义dragover样式",
-    "description": "欢迎关注微信公众号： 前端侦探在 web 开发中，经常会碰到需要拖拽的场景。为了更好的体验，拖拽区域需要有一定的变化提示，告诉用户：\"现在可以放在这里了~\"，例如这样的之前在这篇文章讲述了如何自定义 drag 样...",
-    "url": "https://segmentfault.com/a/1190000041974546",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "10",
     "rank": 3
   },
   {
@@ -36,21 +36,21 @@
     "rank": 4
   },
   {
-    "title": "为什么Hook没有ErrorBoundary？",
-    "description": "在很多全面使用Hooks开发的团队，唯一使用ClassComponent的场景就是使用ClassComponent创建ErrorBoundary。",
-    "url": "https://segmentfault.com/a/1190000041974765",
-    "author": "卡颂",
-    "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "4",
-    "rank": 5
-  },
-  {
     "title": "前端性能监测，Runtime Performance Debug 技巧",
     "description": "提到 Web 前端的效能优化，有许多的技巧是聚焦在如何减少页面的“载入时间 Loading Time”，例如 Code Splitting 透过减少需要载入的 Bundle Size 来加快载入效能。也有些技巧是针对执行时期 (Runtime) 的优化与调...",
     "url": "https://segmentfault.com/a/1190000041990709",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "7",
+    "rank": 5
+  },
+  {
+    "title": "为什么Hook没有ErrorBoundary？",
+    "description": "在很多全面使用Hooks开发的团队，唯一使用ClassComponent的场景就是使用ClassComponent创建ErrorBoundary。",
+    "url": "https://segmentfault.com/a/1190000041974765",
+    "author": "卡颂",
+    "home_url": "https://segmentfault.com/u/kasong",
+    "votes": "4",
     "rank": 6
   },
   {
@@ -59,7 +59,7 @@
     "url": "https://segmentfault.com/a/1190000041980427",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "9",
+    "votes": "10",
     "rank": 7
   },
   {
@@ -90,21 +90,21 @@
     "rank": 10
   },
   {
+    "title": "掘地三尺搞定 Redis 与 MySQL 数据一致性问题",
+    "description": "Redis 拥有高性能的数据读写功能，被我们广泛用在缓存场景，一是能提高业务系统的性能，二是为数据库抵挡了高并发的流量请求，点我 -> 解密 Redis 为什么这么快的秘密。把 Redis 作为缓存组件，需要防止出现以...",
+    "url": "https://segmentfault.com/a/1190000041998615",
+    "author": "码哥字节",
+    "home_url": "https://segmentfault.com/u/magebyte",
+    "votes": "5",
+    "rank": 11
+  },
+  {
     "title": "什么是走索引？",
     "description": "索引是一种利用某种规则的数据结构与实际数据的关系加快数据查找的功能。我们的数据库中存储有大量的内容，而索引能够通过数据节点，根据特定的规则和算法快速查找到节点对应的实际文件的位置。简单来说索引就像...",
     "url": "https://segmentfault.com/a/1190000041986392",
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
     "votes": "4",
-    "rank": 11
-  },
-  {
-    "title": "2022中国信通院安全运营发展论坛成功召开",
-    "description": "6月10日，由中国信息通信研究院（以下简称“中国信通院”）主办的安全运营发展论坛在京召开。会上中国信通院公布了最新安全运营中心（SOC）能力评估、云工作负载保护平台（CWPP）能力评估与案例评选结果，发布《主...",
-    "url": "https://segmentfault.com/a/1190000041983409",
-    "author": "snakesss",
-    "home_url": "https://segmentfault.com/u/snakesss",
-    "votes": "1",
     "rank": 12
   },
   {
@@ -117,13 +117,31 @@
     "rank": 13
   },
   {
+    "title": "2022中国信通院安全运营发展论坛成功召开",
+    "description": "6月10日，由中国信息通信研究院（以下简称“中国信通院”）主办的安全运营发展论坛在京召开。会上中国信通院公布了最新安全运营中心（SOC）能力评估、云工作负载保护平台（CWPP）能力评估与案例评选结果，发布《主...",
+    "url": "https://segmentfault.com/a/1190000041983409",
+    "author": "snakesss",
+    "home_url": "https://segmentfault.com/u/snakesss",
+    "votes": "1",
+    "rank": 14
+  },
+  {
     "title": "SegmentFault 思否技术周刊 — 想玩转 Python？简直 So Easy！",
     "description": "Python，是一种面向对象、直译式电脑编程语言，也是一种功能强大的通用型语言，已经具有近二十年的发展历史，成熟且稳定。它包含了一组完善而且容易理解的标准库，能够轻松完成很多常见的任务。它的语法非常简捷...",
     "url": "https://segmentfault.com/a/1190000041986657",
     "author": "Beverly",
     "home_url": "https://segmentfault.com/u/beverly0",
     "votes": "3",
-    "rank": 14
+    "rank": 15
+  },
+  {
+    "title": "React新文档：不要滥用Ref哦～",
+    "description": "React新文档有个很有意思的细节：useRef、useEffect这两个API的介绍，在文档中所在的章节叫Escape Hatches（逃生舱）。",
+    "url": "https://segmentfault.com/a/1190000041991074",
+    "author": "卡颂",
+    "home_url": "https://segmentfault.com/u/kasong",
+    "votes": "5",
+    "rank": 16
   },
   {
     "title": "喜提JDK的BUG一枚！多线程的情况下请谨慎使用这个类的stream遍历。",
@@ -132,7 +150,7 @@
     "author": "why技术",
     "home_url": "https://segmentfault.com/u/whyjishu",
     "votes": "2",
-    "rank": 15
+    "rank": 17
   },
   {
     "title": "项目中关于解构的常用用法",
@@ -141,7 +159,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "4",
-    "rank": 16
+    "rank": 18
   },
   {
     "title": "Java 基础常见知识点&面试题总结(中)，2022 最新版！| JavaGuide",
@@ -150,16 +168,7 @@
     "author": "JavaGuide",
     "home_url": "https://segmentfault.com/u/javaguide",
     "votes": "2",
-    "rank": 17
-  },
-  {
-    "title": "实战模拟│企业微信机器人实时报错预警",
-    "description": "一、创建机器人选择群 ► 右键 ► 管理聊天信息 ► 添加群机器人完善机器人基本信息，包括头像、名称等二、机器人配置说明创建好的机器人都有一个唯一的 webhook 地址一定要保护好自己的 webhook 地址，如果一旦泄露...",
-    "url": "https://segmentfault.com/a/1190000041974376",
-    "author": "极客飞兔",
-    "home_url": "https://segmentfault.com/u/autofelix",
-    "votes": "1",
-    "rank": 18
+    "rank": 19
   },
   {
     "title": "如何使用 GitHub 讨论作为您博客的聊天系统",
@@ -168,33 +177,24 @@
     "author": "杭州程序员张张",
     "home_url": "https://segmentfault.com/u/dunizb",
     "votes": "1",
-    "rank": 19
-  },
-  {
-    "title": "React新文档：不要滥用Ref哦～",
-    "description": "React新文档有个很有意思的细节：useRef、useEffect这两个API的介绍，在文档中所在的章节叫Escape Hatches（逃生舱）。",
-    "url": "https://segmentfault.com/a/1190000041991074",
-    "author": "卡颂",
-    "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "3",
     "rank": 20
   },
   {
-    "title": "还在用Navicat？这款开源的数据库管理工具界面更炫酷！",
-    "description": "数据库管理工具，是后端程序员使用频率非常高的的工具。Navicat、DataGrip虽然很好用，但都是收费的。最近在逛Github的时候，无意间发现了一款开源的数据库管理工具Beekeeper Studio，界面非常炫酷推荐给大家！",
-    "url": "https://segmentfault.com/a/1190000041979445",
-    "author": "macrozheng",
-    "home_url": "https://segmentfault.com/u/macrozheng",
+    "title": "得物前端唤端业务场景和技术精讲",
+    "description": "当你在刷朋友圈时突然看到一个潮鞋广告，正是你非常喜欢、一直想买的那款而且价格美丽，于是你兴奋地点击广告直接打开了购物App，并且直接进入刚刚看到的潮鞋详情页，你只需要直接点击购买就能得到这双你期待已久...",
+    "url": "https://segmentfault.com/a/1190000041986500",
+    "author": "得物技术",
+    "home_url": "https://segmentfault.com/u/dewujishu",
     "votes": "1",
     "rank": 21
   },
   {
-    "title": "如何在 Vue 项目中，通过点击 DOM 自动定位VSCode中的代码行？",
-    "description": "现在大型的 Vue项目基本上都是多人协作开发，并且随着版本的迭代，Vue 项目中的组件数也会越来越多，如果此时让你负责不熟悉的页面功能开发，甚至你才刚刚加入这个项目，那么怎么样才能快速找到相关组件在整个项...",
-    "url": "https://segmentfault.com/a/1190000041958969",
-    "author": "vivo互联网技术",
-    "home_url": "https://segmentfault.com/u/vivo_tech",
-    "votes": "4",
+    "title": "实战模拟│企业微信机器人实时报错预警",
+    "description": "一、创建机器人选择群 ► 右键 ► 管理聊天信息 ► 添加群机器人完善机器人基本信息，包括头像、名称等二、机器人配置说明创建好的机器人都有一个唯一的 webhook 地址一定要保护好自己的 webhook 地址，如果一旦泄露...",
+    "url": "https://segmentfault.com/a/1190000041974376",
+    "author": "极客飞兔",
+    "home_url": "https://segmentfault.com/u/autofelix",
+    "votes": "1",
     "rank": 22
   },
   {
@@ -207,20 +207,20 @@
     "rank": 23
   },
   {
-    "title": "得物前端唤端业务场景和技术精讲",
-    "description": "当你在刷朋友圈时突然看到一个潮鞋广告，正是你非常喜欢、一直想买的那款而且价格美丽，于是你兴奋地点击广告直接打开了购物App，并且直接进入刚刚看到的潮鞋详情页，你只需要直接点击购买就能得到这双你期待已久...",
-    "url": "https://segmentfault.com/a/1190000041986500",
-    "author": "得物技术",
-    "home_url": "https://segmentfault.com/u/dewujishu",
-    "votes": "1",
+    "title": "如何在 Vue 项目中，通过点击 DOM 自动定位VSCode中的代码行？",
+    "description": "现在大型的 Vue项目基本上都是多人协作开发，并且随着版本的迭代，Vue 项目中的组件数也会越来越多，如果此时让你负责不熟悉的页面功能开发，甚至你才刚刚加入这个项目，那么怎么样才能快速找到相关组件在整个项...",
+    "url": "https://segmentfault.com/a/1190000041958969",
+    "author": "vivo互联网技术",
+    "home_url": "https://segmentfault.com/u/vivo_tech",
+    "votes": "4",
     "rank": 24
   },
   {
-    "title": "全球 77.5% 的网站都在用 PHP；百度一程序员删库被判 9 个月；OpenCV 4.6 发布 |  思否周刊",
-    "description": "40s 新闻速递百度一程序员 “删库” 被判刑 9 个月欧盟 2024 年起统一使用 Type-C 接口，苹果或于明年底发布 Type-C iPhone全球 77.5% 的网站都在用 php马斯克为收购 Twitter 筹集新资金的工作由于不确定性而暂停苹...",
-    "url": "https://segmentfault.com/a/1190000041970976",
-    "author": "snakesss",
-    "home_url": "https://segmentfault.com/u/snakesss",
+    "title": "还在用Navicat？这款开源的数据库管理工具界面更炫酷！",
+    "description": "数据库管理工具，是后端程序员使用频率非常高的的工具。Navicat、DataGrip虽然很好用，但都是收费的。最近在逛Github的时候，无意间发现了一款开源的数据库管理工具Beekeeper Studio，界面非常炫酷推荐给大家！",
+    "url": "https://segmentfault.com/a/1190000041979445",
+    "author": "macrozheng",
+    "home_url": "https://segmentfault.com/u/macrozheng",
     "votes": "1",
     "rank": 25
   },
@@ -234,31 +234,22 @@
     "rank": 26
   },
   {
-    "title": "6 月 TIOBE 榜单：C++ 即将超越 Java 进入 Top3，PHP 热度再下滑",
-    "description": "近日，TIOBE 出炉了 2022 年 6 月份的编程语言趋势榜单。本次数据显示，C++ 的热度和流行趋势即将超越 Java，而 PHP 热度再下滑，已跌出前十。",
-    "url": "https://segmentfault.com/a/1190000041969334",
-    "author": "MissD",
-    "home_url": "https://segmentfault.com/u/d2ms1shh",
+    "title": "十年老友记 | @依云：曾经看到一句话：Coding changes the world!",
+    "description": "十年前的今天，SegmentFault 思否正式创立，如一颗嫩绿的幼芽开始成长，期间承载过和煦的日光、沐浴过柔和的春风，也挑战过滂沱的暴雨、体会过凛冽的冬雪。所幸，今日呈现在我们面前的 SegmentFault 思否，已经长...",
+    "url": "https://segmentfault.com/a/1190000041992859",
+    "author": "思否编辑部",
+    "home_url": "https://segmentfault.com/u/writers",
     "votes": "1",
     "rank": 27
   },
   {
-    "title": "这个Spring Security登录插件牛啊，验证码、小程序、OAuth2都能快速接入",
-    "description": "上次我们把验证码登录、小程序登录优雅地集成到了Spring Security，很多同学大呼过瘾，相比较一些传统玩法高级了很多。胖哥就赶紧抓住机会举一反三，把几个非标准的OAuth2也接入了进来，主要是微信、企业微信，做...",
-    "url": "https://segmentfault.com/a/1190000041986074",
-    "author": "码农小胖哥",
-    "home_url": "https://segmentfault.com/u/10000000",
-    "votes": "2",
+    "title": "记录一个 Nginx-FastCGI-\"Primary script unknown\"  错误",
+    "description": "nginx和PHP环境都装好了，然后一运行就报错File not found，看了nginx错误日志之后，各种搜索找了解决方案都不行，一说文件权限问题，一说是php-fpm的权限问题，还有可能是nginx的问题。",
+    "url": "https://segmentfault.com/a/1190000041989673",
+    "author": "kumfo",
+    "home_url": "https://segmentfault.com/u/kumfo",
+    "votes": "1",
     "rank": 28
-  },
-  {
-    "title": "Goodbye！27 年“老古董”IE 浏览器迎来“退役”倒计时",
-    "description": "正如此前预告的那样，即将到来的（太平洋时间 6 月 15 日）也就是后天，微软将停止支持其浏览器的最新版本 IE11（Internet Explorer 11），取而代之的是其独家提供的 Microsoft Edge 浏览器。",
-    "url": "https://segmentfault.com/a/1190000041981116",
-    "author": "MissD",
-    "home_url": "https://segmentfault.com/u/d2ms1shh",
-    "votes": "2",
-    "rank": 29
   },
   {
     "title": "云音乐预估系统建设与实践",
@@ -267,6 +258,15 @@
     "author": "云音乐技术团队",
     "home_url": "https://segmentfault.com/u/musicfe",
     "votes": "1",
+    "rank": 29
+  },
+  {
+    "title": "这个Spring Security登录插件牛啊，验证码、小程序、OAuth2都能快速接入",
+    "description": "上次我们把验证码登录、小程序登录优雅地集成到了Spring Security，很多同学大呼过瘾，相比较一些传统玩法高级了很多。胖哥就赶紧抓住机会举一反三，把几个非标准的OAuth2也接入了进来，主要是微信、企业微信，做...",
+    "url": "https://segmentfault.com/a/1190000041986074",
+    "author": "码农小胖哥",
+    "home_url": "https://segmentfault.com/u/10000000",
+    "votes": "2",
     "rank": 30
   }
 ]
