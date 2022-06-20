@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "title": "前端项目中如何保证请求时序",
+    "description": "前端项目中经常遇到请求输入查找场景，防抖与截流很好处理了频繁输入问题，但是不能解决最先发起请求结果后返回，覆盖了最后一次的搜索结果，导致搜索结果不正确。我总结一下自己常用的两种方法。",
+    "url": "https://segmentfault.com/a/1190000042005959",
+    "author": "Ming_Up",
+    "home_url": "https://segmentfault.com/u/mray",
+    "votes": "1",
+    "rank": 1
+  },
+  {
+    "title": "抖音二面：为什么模块循环依赖不会导致死循环？CommonJS和ES Module的解决办法有什么不同？",
+    "description": "大家好，我是年年。如果被问到“CommonJS和ES Module的差异”，大概每个前端都都背出几条：一个是导出值的拷贝，一个是导出值的引用；一个是运行时加载，一个是静态编译...",
+    "url": "https://segmentfault.com/a/1190000042003845",
+    "author": "前端私教年年",
+    "home_url": "https://segmentfault.com/u/qiuzhisijiaoniannian",
+    "votes": "1",
+    "rank": 2
+  },
+  {
+    "title": "SAP Marketing Cloud 功能概述(一)",
+    "description": "本系列文章分享笔者所在的团队，在从事 SAP Marketing Cloud 系统集成项目中积累的一些经验以及对这个 SaaS 软件的理解，希望广大同行不吝赐教。",
+    "url": "https://segmentfault.com/a/1190000042005579",
+    "author": "JerryWang_汪子熙",
+    "home_url": "https://segmentfault.com/u/jerrywangsap",
+    "votes": "1",
+    "rank": 3
+  },
+  {
+    "title": "Sass应用之实现主题切换",
+    "description": "实现主题切换有几种不同的方案，比如使用CSS变量，使用JavaScript动态加载对应的主题样式文件等。本文主要讲的是如何使用Sass实现主题切换。",
+    "url": "https://segmentfault.com/a/1190000042003368",
+    "author": "玛尔斯通",
+    "home_url": "https://segmentfault.com/u/zhouqichao",
+    "votes": "2",
+    "rank": 4
+  }
+]

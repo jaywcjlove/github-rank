@@ -27,22 +27,13 @@
     "rank": 3
   },
   {
-    "title": "JS实现将文本或JSON内容下载到文件中",
-    "description": "有时候在前端开发过程中，可能遇到这样的需求场景：需要将页面上的文本内容下载到文件中，内容可能是某个大的文本字段，比如博客文章，也可能是后端接口返回的 JSON 数据。",
-    "url": "https://segmentfault.com/a/1190000041965165",
-    "author": "十方",
-    "home_url": "https://segmentfault.com/u/shifang_5b2b70d160932",
-    "votes": "9",
-    "rank": 4
-  },
-  {
     "title": "前端性能监测，Runtime Performance Debug 技巧",
     "description": "提到 Web 前端的效能优化，有许多的技巧是聚焦在如何减少页面的“载入时间 Loading Time”，例如 Code Splitting 透过减少需要载入的 Bundle Size 来加快载入效能。也有些技巧是针对执行时期 (Runtime) 的优化与调...",
     "url": "https://segmentfault.com/a/1190000041990709",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "7",
-    "rank": 5
+    "rank": 4
   },
   {
     "title": "为什么Hook没有ErrorBoundary？",
@@ -51,6 +42,15 @@
     "author": "卡颂",
     "home_url": "https://segmentfault.com/u/kasong",
     "votes": "4",
+    "rank": 5
+  },
+  {
+    "title": "Doris 毕业成为 Apache 顶级项目，独家专访百度 PALO 团队",
+    "description": "2022 年 6 月 16 日，Apache 软件基金会发表博文，宣布 Doris 正式毕业，正式成为 Apache 顶级项目（TLP）。（相关阅读：[链接]）。",
+    "url": "https://segmentfault.com/a/1190000041995552",
+    "author": "思否编辑部",
+    "home_url": "https://segmentfault.com/u/writers",
+    "votes": "6",
     "rank": 6
   },
   {
@@ -63,12 +63,12 @@
     "rank": 7
   },
   {
-    "title": "Doris 毕业成为 Apache 顶级项目，独家专访百度 PALO 团队",
-    "description": "2022 年 6 月 16 日，Apache 软件基金会发表博文，宣布 Doris 正式毕业，正式成为 Apache 顶级项目（TLP）。（相关阅读：[链接]）。",
-    "url": "https://segmentfault.com/a/1190000041995552",
-    "author": "思否编辑部",
-    "home_url": "https://segmentfault.com/u/writers",
-    "votes": "6",
+    "title": "掘地三尺搞定 Redis 与 MySQL 数据一致性问题",
+    "description": "Redis 拥有高性能的数据读写功能，被我们广泛用在缓存场景，一是能提高业务系统的性能，二是为数据库抵挡了高并发的流量请求，点我 -> 解密 Redis 为什么这么快的秘密。把 Redis 作为缓存组件，需要防止出现以...",
+    "url": "https://segmentfault.com/a/1190000041998615",
+    "author": "码哥字节",
+    "home_url": "https://segmentfault.com/u/magebyte",
+    "votes": "7",
     "rank": 8
   },
   {
@@ -90,21 +90,21 @@
     "rank": 10
   },
   {
-    "title": "掘地三尺搞定 Redis 与 MySQL 数据一致性问题",
-    "description": "Redis 拥有高性能的数据读写功能，被我们广泛用在缓存场景，一是能提高业务系统的性能，二是为数据库抵挡了高并发的流量请求，点我 -> 解密 Redis 为什么这么快的秘密。把 Redis 作为缓存组件，需要防止出现以...",
-    "url": "https://segmentfault.com/a/1190000041998615",
-    "author": "码哥字节",
-    "home_url": "https://segmentfault.com/u/magebyte",
-    "votes": "5",
-    "rank": 11
-  },
-  {
     "title": "什么是走索引？",
     "description": "索引是一种利用某种规则的数据结构与实际数据的关系加快数据查找的功能。我们的数据库中存储有大量的内容，而索引能够通过数据节点，根据特定的规则和算法快速查找到节点对应的实际文件的位置。简单来说索引就像...",
     "url": "https://segmentfault.com/a/1190000041986392",
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
     "votes": "4",
+    "rank": 11
+  },
+  {
+    "title": "SegmentFault 思否技术周刊 — 想玩转 Python？简直 So Easy！",
+    "description": "Python，是一种面向对象、直译式电脑编程语言，也是一种功能强大的通用型语言，已经具有近二十年的发展历史，成熟且稳定。它包含了一组完善而且容易理解的标准库，能够轻松完成很多常见的任务。它的语法非常简捷...",
+    "url": "https://segmentfault.com/a/1190000041986657",
+    "author": "Beverly",
+    "home_url": "https://segmentfault.com/u/beverly0",
+    "votes": "3",
     "rank": 12
   },
   {
@@ -126,12 +126,12 @@
     "rank": 14
   },
   {
-    "title": "SegmentFault 思否技术周刊 — 想玩转 Python？简直 So Easy！",
-    "description": "Python，是一种面向对象、直译式电脑编程语言，也是一种功能强大的通用型语言，已经具有近二十年的发展历史，成熟且稳定。它包含了一组完善而且容易理解的标准库，能够轻松完成很多常见的任务。它的语法非常简捷...",
-    "url": "https://segmentfault.com/a/1190000041986657",
-    "author": "Beverly",
-    "home_url": "https://segmentfault.com/u/beverly0",
-    "votes": "3",
+    "title": "如何使用 GitHub 讨论作为您博客的聊天系统",
+    "description": "在GitHub Discussions(讨论区)的帮助下，你可以把你的博客的评论提升到一个新的水平。在这篇文章中，我将解释如何将GitHub讨论整合到你的博客中并充分利用它。",
+    "url": "https://segmentfault.com/a/1190000041976390",
+    "author": "杭州程序员张张",
+    "home_url": "https://segmentfault.com/u/dunizb",
+    "votes": "2",
     "rank": 15
   },
   {
@@ -140,8 +140,17 @@
     "url": "https://segmentfault.com/a/1190000041991074",
     "author": "卡颂",
     "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "5",
+    "votes": "6",
     "rank": 16
+  },
+  {
+    "title": "玩转 AbortController 控制器",
+    "description": "绝大部分情况，网络请求都是先请求先响应。但是某些情况下，由于未知的一些问题，可能会导致先请求的 api 后返回。最简单的解决方案就是添加 loading 状态，在所有请求都完成后才能进行下一次请求。",
+    "url": "https://segmentfault.com/a/1190000042001788",
+    "author": "jump__jump",
+    "home_url": "https://segmentfault.com/u/jump_and_jump",
+    "votes": "3",
+    "rank": 17
   },
   {
     "title": "喜提JDK的BUG一枚！多线程的情况下请谨慎使用这个类的stream遍历。",
@@ -150,7 +159,7 @@
     "author": "why技术",
     "home_url": "https://segmentfault.com/u/whyjishu",
     "votes": "2",
-    "rank": 17
+    "rank": 18
   },
   {
     "title": "项目中关于解构的常用用法",
@@ -159,7 +168,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "4",
-    "rank": 18
+    "rank": 19
   },
   {
     "title": "Java 基础常见知识点&面试题总结(中)，2022 最新版！| JavaGuide",
@@ -168,15 +177,6 @@
     "author": "JavaGuide",
     "home_url": "https://segmentfault.com/u/javaguide",
     "votes": "2",
-    "rank": 19
-  },
-  {
-    "title": "如何使用 GitHub 讨论作为您博客的聊天系统",
-    "description": "在GitHub Discussions(讨论区)的帮助下，你可以把你的博客的评论提升到一个新的水平。在这篇文章中，我将解释如何将GitHub讨论整合到你的博客中并充分利用它。",
-    "url": "https://segmentfault.com/a/1190000041976390",
-    "author": "杭州程序员张张",
-    "home_url": "https://segmentfault.com/u/dunizb",
-    "votes": "1",
     "rank": 20
   },
   {
@@ -207,21 +207,21 @@
     "rank": 23
   },
   {
-    "title": "如何在 Vue 项目中，通过点击 DOM 自动定位VSCode中的代码行？",
-    "description": "现在大型的 Vue项目基本上都是多人协作开发，并且随着版本的迭代，Vue 项目中的组件数也会越来越多，如果此时让你负责不熟悉的页面功能开发，甚至你才刚刚加入这个项目，那么怎么样才能快速找到相关组件在整个项...",
-    "url": "https://segmentfault.com/a/1190000041958969",
-    "author": "vivo互联网技术",
-    "home_url": "https://segmentfault.com/u/vivo_tech",
-    "votes": "4",
-    "rank": 24
-  },
-  {
     "title": "还在用Navicat？这款开源的数据库管理工具界面更炫酷！",
     "description": "数据库管理工具，是后端程序员使用频率非常高的的工具。Navicat、DataGrip虽然很好用，但都是收费的。最近在逛Github的时候，无意间发现了一款开源的数据库管理工具Beekeeper Studio，界面非常炫酷推荐给大家！",
     "url": "https://segmentfault.com/a/1190000041979445",
     "author": "macrozheng",
     "home_url": "https://segmentfault.com/u/macrozheng",
     "votes": "1",
+    "rank": 24
+  },
+  {
+    "title": "利用微信公众号提供的官方API上传图片获取永久图片素材！当图床用！",
+    "description": "自己开发的小程序，例如社区类、电商类、新闻、博客等类型小程序，会需要储存很多图片，图片资源会给个人开发者带来很多成本，万一访问量大了，网站带宽、流量也会不堪重负，所以图片资源必然不合适储存在自己的...",
+    "url": "https://segmentfault.com/a/1190000041998801",
+    "author": "TANKING",
+    "home_url": "https://segmentfault.com/u/tanking",
+    "votes": "2",
     "rank": 25
   },
   {
@@ -243,12 +243,12 @@
     "rank": 27
   },
   {
-    "title": "记录一个 Nginx-FastCGI-\"Primary script unknown\"  错误",
-    "description": "nginx和PHP环境都装好了，然后一运行就报错File not found，看了nginx错误日志之后，各种搜索找了解决方案都不行，一说文件权限问题，一说是php-fpm的权限问题，还有可能是nginx的问题。",
-    "url": "https://segmentfault.com/a/1190000041989673",
-    "author": "kumfo",
-    "home_url": "https://segmentfault.com/u/kumfo",
-    "votes": "1",
+    "title": "十年老友记 | @王子亭：编程让我享受创造和解决问题的过程",
+    "description": "十年前的今天，SegmentFault 思否正式创立，如一颗嫩绿的幼芽开始成长，期间承载过和煦的日光、沐浴过柔和的春风，也挑战过滂沱的暴雨、体会过凛冽的冬雪。所幸，今日呈现在我们面前的 SegmentFault 思否，已经长...",
+    "url": "https://segmentfault.com/a/1190000041993356",
+    "author": "思否编辑部",
+    "home_url": "https://segmentfault.com/u/writers",
+    "votes": "2",
     "rank": 28
   },
   {
@@ -261,12 +261,12 @@
     "rank": 29
   },
   {
-    "title": "这个Spring Security登录插件牛啊，验证码、小程序、OAuth2都能快速接入",
-    "description": "上次我们把验证码登录、小程序登录优雅地集成到了Spring Security，很多同学大呼过瘾，相比较一些传统玩法高级了很多。胖哥就赶紧抓住机会举一反三，把几个非标准的OAuth2也接入了进来，主要是微信、企业微信，做...",
-    "url": "https://segmentfault.com/a/1190000041986074",
-    "author": "码农小胖哥",
-    "home_url": "https://segmentfault.com/u/10000000",
-    "votes": "2",
+    "title": "正式发布丨Visual Studio Code 1.68",
+    "description": "欢迎使用5 月发布的 Visual Studio Code，本次发布的亮点如下：▌Configure Display LanguageConfigure Display Language命令已更新为包括：该语言的语言名称。Available languages显示您的计算机上未安装哪些语言...",
+    "url": "https://segmentfault.com/a/1190000041989813",
+    "author": "微软技术栈",
+    "home_url": "https://segmentfault.com/u/mstech",
+    "votes": "1",
     "rank": 30
   }
 ]
