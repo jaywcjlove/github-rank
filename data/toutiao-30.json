@@ -2,7 +2,7 @@
   {
     "title": "消息队列原理和选型：Kafka、RocketMQ 、RabbitMQ 和 ActiveMQ",
     "description": "",
-    "votes": "127",
+    "votes": "128",
     "url": "/k/nuwnwro",
     "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
     "avatarAlt": "乱点技能树 - 独家号",
@@ -52,7 +52,7 @@
   {
     "title": "架构师成长路线图",
     "description": "成长为软件架构师不是一件容易的事，这篇文章列举了架构师需要学习的技术储备，给出了成为软件架构师的路线图，帮助有志于在架构领域成长的同学可以明确学习的方向。原文：Master Pla...",
-    "votes": "80",
+    "votes": "81",
     "url": "/k/27b6p2e",
     "avatar": "https://img.toutiao.io/user/af19eb53bb164e47a25e3b1ef00f965e/thumb",
     "avatarAlt": "DeepNoMind - 独家号",
@@ -70,6 +70,36 @@
     "homeUrl": "/subjects/21711"
   },
   {
+    "title": "总监的烦恼：技术丢了怎么办？",
+    "description": "原创不易，求分享、求一键三连前段时间有个粉丝与我讨论了一个问题：小钗，我半年前从技术经理升职到了技术总监，但这段时间的工作很恼火：一大半时间要去开各种产品会，还有一些时间要去处理团...",
+    "votes": "75",
+    "url": "/k/rzytby1",
+    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
+  },
+  {
+    "title": "我们公司使用了 5 年的系统限流方案！从实现到部署实战详解，稳的一批!​",
+    "description": "大家好，我是老赵！ 什么是限流呢？限流是限制到达系统的并发请求数量，保证系统能够正常响应部分用户请求，而对于超过限制的流量，则通过拒绝服务的方式保证整体系统的可用性。根据限流作用范...",
+    "votes": "68",
+    "url": "/k/4tls39t",
+    "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
+    "avatarAlt": "服务架构及中台 - 独家号",
+    "subjectName": "服务架构及中台",
+    "homeUrl": "/subjects/26578"
+  },
+  {
+    "title": "Redis夺命52连问",
+    "description": "",
+    "votes": "72",
+    "url": "/k/he3fzao",
+    "avatar": "https://img.toutiao.io/subject/5677c886e56b479194e85580c577d68a/thumb",
+    "avatarAlt": "编程爱好者(网络编程) - 独家号",
+    "subjectName": "编程爱好者(网络编程)",
+    "homeUrl": "/subjects/134283"
+  },
+  {
     "title": "如何写出一篇好的技术方案？",
     "description": "",
     "votes": "71",
@@ -80,39 +110,9 @@
     "homeUrl": "/subjects/42200"
   },
   {
-    "title": "总监的烦恼：技术丢了怎么办？",
-    "description": "原创不易，求分享、求一键三连前段时间有个粉丝与我讨论了一个问题：小钗，我半年前从技术经理升职到了技术总监，但这段时间的工作很恼火：一大半时间要去开各种产品会，还有一些时间要去处理团...",
-    "votes": "74",
-    "url": "/k/rzytby1",
-    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
-    "avatarAlt": "Bloomingroses - 独家号",
-    "subjectName": "Bloomingroses",
-    "homeUrl": "/subjects/98777"
-  },
-  {
-    "title": "我们公司使用了 5 年的系统限流方案！从实现到部署实战详解，稳的一批!​",
-    "description": "",
-    "votes": "67",
-    "url": "/k/4tls39t",
-    "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
-    "avatarAlt": "服务架构及中台 - 独家号",
-    "subjectName": "服务架构及中台",
-    "homeUrl": "/subjects/26578"
-  },
-  {
-    "title": "Redis夺命52连问",
-    "description": "",
-    "votes": "68",
-    "url": "/k/he3fzao",
-    "avatar": "https://img.toutiao.io/subject/5677c886e56b479194e85580c577d68a/thumb",
-    "avatarAlt": "编程爱好者(网络编程) - 独家号",
-    "subjectName": "编程爱好者(网络编程)",
-    "homeUrl": "/subjects/134283"
-  },
-  {
     "title": "高并发下如何防重？",
     "description": "大家好，我是苏三，又跟大家见面了。文末留言送书啦！！！前言最近测试给我提了一个bug，说我之前提供的一个批量复制商品的接口，产生了重复的商品数据。追查原因之后发现，这个事情没想象中...",
-    "votes": "66",
+    "votes": "69",
     "url": "/k/ulsc0so",
     "avatar": "https://img.toutiao.io/subject/0a66350d491141748ab4dd49be144252/thumb",
     "avatarAlt": "苏三说技术 - 独家号",
@@ -138,16 +138,6 @@
     "avatarAlt": "猿天地 - 独家号",
     "subjectName": "猿天地",
     "homeUrl": "/subjects/6491"
-  },
-  {
-    "title": "技术人 | “一直写代码会丧失竞争力吗？”",
-    "description": "",
-    "votes": "62",
-    "url": "/k/dvu60jc",
-    "avatar": "https://img.toutiao.io/subject/df70c5d3876241ecba5984356133ab23/thumb",
-    "avatarAlt": "架构必知必会 - 独家号",
-    "subjectName": "架构必知必会",
-    "homeUrl": "/subjects/472073"
   },
   {
     "title": "肝了一个月的 DDD，一文带你掌握！",
@@ -192,7 +182,7 @@
   {
     "title": "吐血推荐17个提升开发效率的“轮子”",
     "description": "",
-    "votes": "55",
+    "votes": "56",
     "url": "/k/10u7n9b",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -230,16 +220,6 @@
     "homeUrl": "/subjects/453205"
   },
   {
-    "title": "腾讯妹子图解Golang内存分配和垃圾回收",
-    "description": "",
-    "votes": "45",
-    "url": "/k/1nrxnmu",
-    "avatar": "https://img.toutiao.io/subject/3f69ffc3bdf6496e86439348166e3ed7/thumb",
-    "avatarAlt": "GoHackers - 独家号",
-    "subjectName": "GoHackers",
-    "homeUrl": "/subjects/1385"
-  },
-  {
     "title": "HTTP 2.0 为什么这么设计",
     "description": "",
     "votes": "46",
@@ -248,5 +228,25 @@
     "avatarAlt": "xinconan - 独家号",
     "subjectName": "xinconan",
     "homeUrl": "/subjects/150250"
+  },
+  {
+    "title": "我做Go项目的一些实战经验",
+    "description": "",
+    "votes": "50",
+    "url": "/k/n4zn8vb",
+    "avatar": "https://img.toutiao.io/subject/3f69ffc3bdf6496e86439348166e3ed7/thumb",
+    "avatarAlt": "GoHackers - 独家号",
+    "subjectName": "GoHackers",
+    "homeUrl": "/subjects/1385"
+  },
+  {
+    "title": "写好技术原创文章的一点建议",
+    "description": "",
+    "votes": "46",
+    "url": "/k/op0y5m9",
+    "avatar": "https://img.toutiao.io/subject/f6b88dbf417a484185c20535fd76a3c1/thumb",
+    "avatarAlt": "kanwangzjm - 独家号",
+    "subjectName": "kanwangzjm",
+    "homeUrl": "/subjects/20925"
   }
 ]
