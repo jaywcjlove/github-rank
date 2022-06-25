@@ -2,7 +2,7 @@
   {
     "title": "3000帧动画图解MySQL为什么需要binlog、redo log和undo log",
     "description": "全文建立在MySQL的存储引擎为InnoDB的基础上先看一条SQL如何入库的：这是一条很简单的更新SQL，从MySQL服务端接收到SQL到落盘，先后经过了MySQL Server层...",
-    "votes": "103",
+    "votes": "125",
     "url": "/k/b0g4460",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -10,19 +10,9 @@
     "homeUrl": "/subjects/26578"
   },
   {
-    "title": "6年时间，我做了一个纯净的 Java 学习&面试网站！",
-    "description": "在大三准备面试的时候，我开源了 JavaGuide 。我把自己准备面试过程中的一些总结都毫不保留地通过 JavaGuide 分享了出来。目前，这个项目在 Github 一共有 41...",
-    "votes": "47",
-    "url": "/k/q51bb2i",
-    "avatar": "https://img.toutiao.io/subject/f834a19bb9e24261a813b7a1ebc03a11/thumb",
-    "avatarAlt": "JavaGuide - 独家号",
-    "subjectName": "JavaGuide",
-    "homeUrl": "/subjects/352853"
-  },
-  {
     "title": "如何学习架构，一个系列帮助你构筑架构知识体系",
     "description": "",
-    "votes": "40",
+    "votes": "41",
     "url": "/k/i9clyuy",
     "avatar": "https://img.toutiao.io/subject/bcb663e36b0c406c9533cb76104b3227/thumb",
     "avatarAlt": "Java全栈知识体系 - 独家号",
@@ -32,7 +22,7 @@
   {
     "title": "商品系统架构设计与实践",
     "description": "",
-    "votes": "33",
+    "votes": "35",
     "url": "/k/2r512r9",
     "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
     "avatarAlt": "Bloomingroses - 独家号",
@@ -42,8 +32,38 @@
   {
     "title": "一文详解｜Go 分布式链路追踪实现原理",
     "description": "在分布式、微服务架构下，应用一个请求往往贯穿多个分布式服务，这给应用的故障排查、性能优化带来新的挑战。分布式链路追踪作为解决分布式应用可观测问题的重要技术，愈发成为分布式应用不可缺...",
-    "votes": "32",
+    "votes": "34",
     "url": "/k/876321c",
+    "avatar": "https://img.toutiao.io/subject/5677c886e56b479194e85580c577d68a/thumb",
+    "avatarAlt": "编程爱好者(网络编程) - 独家号",
+    "subjectName": "编程爱好者(网络编程)",
+    "homeUrl": "/subjects/134283"
+  },
+  {
+    "title": "最牛逼的技术能力，是技术领导力",
+    "description": "",
+    "votes": "31",
+    "url": "/k/kron0fq",
+    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
+    "avatarAlt": "进击的程序猿 - 独家号",
+    "subjectName": "进击的程序猿",
+    "homeUrl": "/subjects/24912"
+  },
+  {
+    "title": "如何做好CodeReview",
+    "description": "",
+    "votes": "28",
+    "url": "/k/v5nrj6u",
+    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
+  },
+  {
+    "title": "GitHub的5个骚操作",
+    "description": "来源 | 程序员鱼皮作者 | 鱼皮GitHub 是程序员必备的代码开源平台。我们可以在 GitHub 上搜索和阅读项目代码，进行学习；或者复制粘贴，从而快速完成自己的项目。相信绝大...",
+    "votes": "29",
+    "url": "/k/v25x5fy",
     "avatar": "https://img.toutiao.io/subject/5677c886e56b479194e85580c577d68a/thumb",
     "avatarAlt": "编程爱好者(网络编程) - 独家号",
     "subjectName": "编程爱好者(网络编程)",
@@ -60,39 +80,9 @@
     "homeUrl": "/subjects/42200"
   },
   {
-    "title": "最牛逼的技术能力，是技术领导力",
-    "description": "",
-    "votes": "28",
-    "url": "/k/kron0fq",
-    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
-    "avatarAlt": "进击的程序猿 - 独家号",
-    "subjectName": "进击的程序猿",
-    "homeUrl": "/subjects/24912"
-  },
-  {
-    "title": "如何做好CodeReview",
-    "description": "",
-    "votes": "25",
-    "url": "/k/v5nrj6u",
-    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
-    "avatarAlt": "Bloomingroses - 独家号",
-    "subjectName": "Bloomingroses",
-    "homeUrl": "/subjects/98777"
-  },
-  {
-    "title": "GitHub的5个骚操作",
-    "description": "来源 | 程序员鱼皮作者 | 鱼皮GitHub 是程序员必备的代码开源平台。我们可以在 GitHub 上搜索和阅读项目代码，进行学习；或者复制粘贴，从而快速完成自己的项目。相信绝大...",
-    "votes": "25",
-    "url": "/k/v25x5fy",
-    "avatar": "https://img.toutiao.io/subject/5677c886e56b479194e85580c577d68a/thumb",
-    "avatarAlt": "编程爱好者(网络编程) - 独家号",
-    "subjectName": "编程爱好者(网络编程)",
-    "homeUrl": "/subjects/134283"
-  },
-  {
     "title": "哈啰推荐引擎搭建实战",
     "description": "",
-    "votes": "27",
+    "votes": "28",
     "url": "/k/fnlspfp",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -100,14 +90,14 @@
     "homeUrl": "/subjects/26578"
   },
   {
-    "title": "为什么BFE可以取代Nginx",
-    "description": "",
-    "votes": "21",
-    "url": "/k/zaq2g7m",
-    "avatar": "https://img.toutiao.io/subject/5677c886e56b479194e85580c577d68a/thumb",
-    "avatarAlt": "编程爱好者(网络编程) - 独家号",
-    "subjectName": "编程爱好者(网络编程)",
-    "homeUrl": "/subjects/134283"
+    "title": "遇到这种面试官，去了也没啥前途",
+    "description": "原创不易，求分享、求一键三连前段时间有个粉丝抱怨了一个问题：小钗，我最近面试遇到个非常不尊重人的面试官，全程咄咄逼人，语气轻蔑，可把我气坏了！虽然面试就是评价候选人，但并不意味着面...",
+    "votes": "23",
+    "url": "/k/e815f46",
+    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
   },
   {
     "title": "京东到家App端精准埋点实践",
@@ -120,10 +110,10 @@
     "homeUrl": "/subjects/136176"
   },
   {
-    "title": "遇到这种面试官，去了也没啥前途",
-    "description": "原创不易，求分享、求一键三连前段时间有个粉丝抱怨了一个问题：小钗，我最近面试遇到个非常不尊重人的面试官，全程咄咄逼人，语气轻蔑，可把我气坏了！虽然面试就是评价候选人，但并不意味着面...",
-    "votes": "21",
-    "url": "/k/e815f46",
+    "title": "什么是人才梯队，你在第几梯队？",
+    "description": "",
+    "votes": "26",
+    "url": "/k/kojvwp8",
     "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
     "avatarAlt": "Bloomingroses - 独家号",
     "subjectName": "Bloomingroses",
@@ -138,6 +128,36 @@
     "avatarAlt": "GoHackers - 独家号",
     "subjectName": "GoHackers",
     "homeUrl": "/subjects/1385"
+  },
+  {
+    "title": "全面解读！Golang中泛型的使用",
+    "description": "",
+    "votes": "20",
+    "url": "/k/68j23an",
+    "avatar": "https://img.toutiao.io/subject/d24ef6d0970a4ad9bb55c6bfa546e5f2/thumb",
+    "avatarAlt": "云原生四颗咖啡豆 - 独家号",
+    "subjectName": "云原生四颗咖啡豆",
+    "homeUrl": "/subjects/154014"
+  },
+  {
+    "title": "软件架构如何“以不变应万变”",
+    "description": "采访嘉宾：蔡超、成国柱、谭待 编辑｜辛晓亮 在 InfoQ 成立 15 周年之际，InfoQ 编辑部发起了“2007-2022：云、运维、架构、前端的 15 年演进史”特别策划，将...",
+    "votes": "21",
+    "url": "/k/d6wagu8",
+    "avatar": "https://img.toutiao.io/subject/6b95b177f4e94ffda58f7c8e2799fd2c/thumb",
+    "avatarAlt": "InfoQ - 独家号",
+    "subjectName": "InfoQ",
+    "homeUrl": "/subjects/3935"
+  },
+  {
+    "title": "从维护性工作到软件开发革命，运维 15 年间的大逆转",
+    "description": "在 InfoQ 成立 15 周年之际，InfoQ 编辑部发起了“2007-2022：云、运维、架构、前端的 15 年演进史”特别策划，将和业内专家共同盘点云计算、运维、架构、前端四...",
+    "votes": "22",
+    "url": "/k/xr13s7n",
+    "avatar": "https://img.toutiao.io/subject/6b95b177f4e94ffda58f7c8e2799fd2c/thumb",
+    "avatarAlt": "InfoQ - 独家号",
+    "subjectName": "InfoQ",
+    "homeUrl": "/subjects/3935"
   },
   {
     "title": "跨系统数据一致性问题解决方案汇总",
@@ -160,43 +180,23 @@
     "homeUrl": "/subjects/7076"
   },
   {
-    "title": "全面解读！Golang中泛型的使用",
+    "title": "聊聊go中的逃逸分析",
     "description": "",
-    "votes": "18",
-    "url": "/k/68j23an",
-    "avatar": "https://img.toutiao.io/subject/d24ef6d0970a4ad9bb55c6bfa546e5f2/thumb",
-    "avatarAlt": "云原生四颗咖啡豆 - 独家号",
-    "subjectName": "云原生四颗咖啡豆",
-    "homeUrl": "/subjects/154014"
+    "votes": "15",
+    "url": "/k/gvpsq14",
+    "avatar": "https://img.toutiao.io/subject/3f69ffc3bdf6496e86439348166e3ed7/thumb",
+    "avatarAlt": "GoHackers - 独家号",
+    "subjectName": "GoHackers",
+    "homeUrl": "/subjects/1385"
   },
   {
-    "title": "软件架构如何“以不变应万变”",
-    "description": "采访嘉宾：蔡超、成国柱、谭待 编辑｜辛晓亮 在 InfoQ 成立 15 周年之际，InfoQ 编辑部发起了“2007-2022：云、运维、架构、前端的 15 年演进史”特别策划，将...",
-    "votes": "18",
-    "url": "/k/d6wagu8",
-    "avatar": "https://img.toutiao.io/subject/612c29ad07154db6af1edec716865cb3/thumb",
-    "avatarAlt": "InfoQ - 独家号",
-    "subjectName": "InfoQ",
-    "homeUrl": "/subjects/3935"
-  },
-  {
-    "title": "使用读写分离模式扩展 Grafana Loki",
+    "title": "Spring架构系列 - 深入浅出Spring核心之面向切面编程(AOP)",
     "description": "",
-    "votes": "14",
-    "url": "/k/zp552t1",
-    "avatar": "https://img.toutiao.io/subject/6ee3bb205b3248c2b746c1506548181a/thumb",
-    "avatarAlt": "大数据生态 - 独家号",
-    "subjectName": "大数据生态",
-    "homeUrl": "/subjects/136176"
-  },
-  {
-    "title": "基于Kubernetes v1.24.0的集群搭建（三）",
-    "description": "",
-    "votes": "12",
-    "url": "/k/6cq0j14",
-    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
-    "avatarAlt": "Bloomingroses - 独家号",
-    "subjectName": "Bloomingroses",
-    "homeUrl": "/subjects/98777"
+    "votes": "16",
+    "url": "/k/x6shaod",
+    "avatar": "https://img.toutiao.io/subject/bcb663e36b0c406c9533cb76104b3227/thumb",
+    "avatarAlt": "Java全栈知识体系 - 独家号",
+    "subjectName": "Java全栈知识体系",
+    "homeUrl": "/subjects/319391"
   }
 ]

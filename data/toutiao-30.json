@@ -10,6 +10,16 @@
     "homeUrl": "/subjects/194141"
   },
   {
+    "title": "3000帧动画图解MySQL为什么需要binlog、redo log和undo log",
+    "description": "全文建立在MySQL的存储引擎为InnoDB的基础上先看一条SQL如何入库的：这是一条很简单的更新SQL，从MySQL服务端接收到SQL到落盘，先后经过了MySQL Server层...",
+    "votes": "125",
+    "url": "/k/b0g4460",
+    "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
+    "avatarAlt": "服务架构及中台 - 独家号",
+    "subjectName": "服务架构及中台",
+    "homeUrl": "/subjects/26578"
+  },
+  {
     "title": "阿里10年沉淀｜那些技术实战中的架构设计方法",
     "description": "上周我写的一篇文章《关于技术能力的思考和总结》引起了大家的关注，好多读者的评论“以写代想、以想促真、以讲验真”，大家的感受很深刻，基于上次的文章，这篇文章我其实更想跟大家聊聊一些常...",
     "votes": "111",
@@ -30,19 +40,9 @@
     "homeUrl": "/subjects/465623"
   },
   {
-    "title": "3000帧动画图解MySQL为什么需要binlog、redo log和undo log",
-    "description": "全文建立在MySQL的存储引擎为InnoDB的基础上先看一条SQL如何入库的：这是一条很简单的更新SQL，从MySQL服务端接收到SQL到落盘，先后经过了MySQL Server层...",
-    "votes": "103",
-    "url": "/k/b0g4460",
-    "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
-    "avatarAlt": "服务架构及中台 - 独家号",
-    "subjectName": "服务架构及中台",
-    "homeUrl": "/subjects/26578"
-  },
-  {
     "title": "架构师成长路线图",
     "description": "成长为软件架构师不是一件容易的事，这篇文章列举了架构师需要学习的技术储备，给出了成为软件架构师的路线图，帮助有志于在架构领域成长的同学可以明确学习的方向。原文：Master Pla...",
-    "votes": "83",
+    "votes": "84",
     "url": "/k/27b6p2e",
     "avatar": "https://img.toutiao.io/user/af19eb53bb164e47a25e3b1ef00f965e/thumb",
     "avatarAlt": "DeepNoMind - 独家号",
@@ -52,7 +52,7 @@
   {
     "title": "Redis夺命52连问",
     "description": "大家好，我是苏三，面渣逆袭系列继续，这节我们来搞定Redis——不会有人假期玩去了吧？不会吧？基础1.说说什么是Redis?Redis图标Redis是一种基于键值对（key-val...",
-    "votes": "84",
+    "votes": "86",
     "url": "/k/he3fzao",
     "avatar": "https://img.toutiao.io/subject/5677c886e56b479194e85580c577d68a/thumb",
     "avatarAlt": "编程爱好者(网络编程) - 独家号",
@@ -82,12 +82,22 @@
   {
     "title": "高并发下如何防重？",
     "description": "大家好，我是苏三，又跟大家见面了。文末留言送书啦！！！前言最近测试给我提了一个bug，说我之前提供的一个批量复制商品的接口，产生了重复的商品数据。追查原因之后发现，这个事情没想象中...",
-    "votes": "76",
+    "votes": "77",
     "url": "/k/ulsc0so",
     "avatar": "https://img.toutiao.io/subject/0a66350d491141748ab4dd49be144252/thumb",
     "avatarAlt": "苏三说技术 - 独家号",
     "subjectName": "苏三说技术",
     "homeUrl": "/subjects/453205"
+  },
+  {
+    "title": "总监的烦恼：技术丢了怎么办？",
+    "description": "原创不易，求分享、求一键三连前段时间有个粉丝与我讨论了一个问题：小钗，我半年前从技术经理升职到了技术总监，但这段时间的工作很恼火：一大半时间要去开各种产品会，还有一些时间要去处理团...",
+    "votes": "76",
+    "url": "/k/rzytby1",
+    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
   },
   {
     "title": "如何写出一篇好的技术方案？",
@@ -98,16 +108,6 @@
     "avatarAlt": "架构之美 - 独家号",
     "subjectName": "架构之美",
     "homeUrl": "/subjects/42200"
-  },
-  {
-    "title": "总监的烦恼：技术丢了怎么办？",
-    "description": "原创不易，求分享、求一键三连前段时间有个粉丝与我讨论了一个问题：小钗，我半年前从技术经理升职到了技术总监，但这段时间的工作很恼火：一大半时间要去开各种产品会，还有一些时间要去处理团...",
-    "votes": "75",
-    "url": "/k/rzytby1",
-    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
-    "avatarAlt": "Bloomingroses - 独家号",
-    "subjectName": "Bloomingroses",
-    "homeUrl": "/subjects/98777"
   },
   {
     "title": "肝了一个月的 DDD，一文带你掌握！",
@@ -210,6 +210,16 @@
     "homeUrl": "/subjects/132403"
   },
   {
+    "title": "6年时间，我做了一个纯净的 Java 学习&面试网站！",
+    "description": "在大三准备面试的时候，我开源了 JavaGuide 。我把自己准备面试过程中的一些总结都毫不保留地通过 JavaGuide 分享了出来。目前，这个项目在 Github 一共有 41...",
+    "votes": "48",
+    "url": "/k/q51bb2i",
+    "avatar": "https://img.toutiao.io/subject/f834a19bb9e24261a813b7a1ebc03a11/thumb",
+    "avatarAlt": "JavaGuide - 独家号",
+    "subjectName": "JavaGuide",
+    "homeUrl": "/subjects/352853"
+  },
+  {
     "title": "我做Go项目的一些实战经验",
     "description": "",
     "votes": "51",
@@ -220,14 +230,14 @@
     "homeUrl": "/subjects/1385"
   },
   {
-    "title": "6年时间，我做了一个纯净的 Java 学习&面试网站！",
-    "description": "在大三准备面试的时候，我开源了 JavaGuide 。我把自己准备面试过程中的一些总结都毫不保留地通过 JavaGuide 分享了出来。目前，这个项目在 Github 一共有 41...",
-    "votes": "47",
-    "url": "/k/q51bb2i",
-    "avatar": "https://img.toutiao.io/subject/f834a19bb9e24261a813b7a1ebc03a11/thumb",
-    "avatarAlt": "JavaGuide - 独家号",
-    "subjectName": "JavaGuide",
-    "homeUrl": "/subjects/352853"
+    "title": "团队管理｜如何提高技术Leader的思考技巧？",
+    "description": "",
+    "votes": "41",
+    "url": "/k/f3496vg",
+    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
   },
   {
     "title": "HTTP 2.0 为什么这么设计",
@@ -238,15 +248,5 @@
     "avatarAlt": "xinconan - 独家号",
     "subjectName": "xinconan",
     "homeUrl": "/subjects/150250"
-  },
-  {
-    "title": "团队管理｜如何提高技术Leader的思考技巧？",
-    "description": "",
-    "votes": "40",
-    "url": "/k/f3496vg",
-    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
-    "avatarAlt": "Bloomingroses - 独家号",
-    "subjectName": "Bloomingroses",
-    "homeUrl": "/subjects/98777"
   }
 ]
