@@ -1,20 +1,29 @@
 [
   {
-    "title": "编程技巧│提高 Javascript 代码效率的技巧",
-    "description": "一、变量声明多个变量的声明，可以简写 {代码...} 二、三元运算符在条件判断时，可以使用三元运算符增加效率 {代码...} 三、解构赋值变量赋值 {代码...} 四、解构交换交换两个变量 {代码...} 五、箭头函数函数的...",
-    "url": "https://segmentfault.com/a/1190000042033825",
-    "author": "极客飞兔",
-    "home_url": "https://segmentfault.com/u/autofelix",
-    "votes": "3",
+    "title": "数据清洗工具flashtext，效率直接提升了几十倍数",
+    "description": "正则表达式在一个 10k 的词库中查找 15k 个关键词的时间差不多是 0.165 秒。但是对于 Flashtext 而言只需要 0.002 秒。因此，在这个问题上 Flashtext的速度大约比正则表达式快 82 倍。",
+    "url": "https://segmentfault.com/a/1190000042036892",
+    "author": "Python集中营",
+    "home_url": "https://segmentfault.com/u/kuqidequantou",
+    "votes": "1",
     "rank": 1
   },
   {
-    "title": "纯c实现tcp协议",
-    "description": "传输控制协议（TCP，Transmission Control Protocol）是一种面向连接的、可靠的、基于字节流的传输层通信协议，由IETF的RFC 793定义。TCP旨在适应支持多网络应用的分层协议层次结构。 连接到不同但互连的计算机通...",
-    "url": "https://segmentfault.com/a/1190000042033990",
-    "author": "瞿小凯",
-    "home_url": "https://segmentfault.com/u/keen_626105e1ef632",
+    "title": "大家都能看得懂的源码（一）ahooks 整体架构篇",
+    "description": "本文是深入浅出 ahooks 源码系列文章的第一篇，这个系列的目标主要有以下几点：加深对 React hooks 的理解。学习如何抽象自定义 hooks。构建属于自己的 React hooks 工具库。培养阅读学习源码的习惯，工具库是一...",
+    "url": "https://segmentfault.com/a/1190000042036723",
+    "author": "Gopal",
+    "home_url": "https://segmentfault.com/u/fengguangping",
     "votes": "1",
     "rank": 2
+  },
+  {
+    "title": "git配置以及替换gerrit默认commit-msg hook",
+    "description": "user.name 配置规则: name#工号 示例 git config --global user.name \"张三#A00003\"",
+    "url": "https://segmentfault.com/a/1190000042037321",
+    "author": "记得要微笑",
+    "home_url": "https://segmentfault.com/u/tosmile",
+    "votes": "1",
+    "rank": 3
   }
 ]

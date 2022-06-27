@@ -12,7 +12,7 @@
   {
     "title": "左耳朵耗子：我做系统架构的一些原则",
     "description": "",
-    "votes": "154",
+    "votes": "155",
     "url": "/k/9oljc6o",
     "avatar": "https://img.toutiao.io/subject/ae2b74c589814b769c1bebad92c2fb9a/thumb",
     "avatarAlt": "架构之美 - 独家号",
@@ -22,7 +22,7 @@
   {
     "title": "3000帧动画图解MySQL为什么需要binlog、redo log和undo log",
     "description": "全文建立在MySQL的存储引擎为InnoDB的基础上先看一条SQL如何入库的：这是一条很简单的更新SQL，从MySQL服务端接收到SQL到落盘，先后经过了MySQL Server层...",
-    "votes": "137",
+    "votes": "147",
     "url": "/k/b0g4460",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -32,7 +32,7 @@
   {
     "title": "消息队列原理和选型：Kafka、RocketMQ 、RabbitMQ 和 ActiveMQ",
     "description": "",
-    "votes": "131",
+    "votes": "132",
     "url": "/k/nuwnwro",
     "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
     "avatarAlt": "乱点技能树 - 独家号",
@@ -42,7 +42,7 @@
   {
     "title": "9大高性能优化经验总结，强烈建议收藏！！！",
     "description": "",
-    "votes": "129",
+    "votes": "130",
     "url": "/k/26za4ep",
     "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
     "avatarAlt": "进击的程序猿 - 独家号",
@@ -82,7 +82,7 @@
   {
     "title": "微服务网关选型：5种主流 API 网关，哪个最香！",
     "description": "",
-    "votes": "116",
+    "votes": "117",
     "url": "/k/jtyo70d",
     "avatar": "https://img.toutiao.io/subject/7950b62a884849aaaa2c7d9fb03f3051/thumb",
     "avatarAlt": "前端智能化 - 独家号",
@@ -120,16 +120,6 @@
     "homeUrl": "/subjects/465623"
   },
   {
-    "title": "Kafka 面试连环炮, 看看你能撑到哪一步?",
-    "description": "",
-    "votes": "103",
-    "url": "/k/z30ehzv",
-    "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
-    "avatarAlt": "服务架构及中台 - 独家号",
-    "subjectName": "服务架构及中台",
-    "homeUrl": "/subjects/26578"
-  },
-  {
     "title": "系统架构的11条原则",
     "description": "基本原则原则一：价值为王解析：价值为王的另一种说法叫做YAGNI。YAGNI 是 You aren’t gonna need it 的缩写。该原则的基本含义就是，不应该开发任何当前...",
     "votes": "104",
@@ -162,12 +152,22 @@
   {
     "title": "Redis夺命52连问",
     "description": "大家好，我是苏三，面渣逆袭系列继续，这节我们来搞定Redis——不会有人假期玩去了吧？不会吧？基础1.说说什么是Redis?Redis图标Redis是一种基于键值对（key-val...",
-    "votes": "90",
+    "votes": "93",
     "url": "/k/he3fzao",
     "avatar": "https://img.toutiao.io/subject/5677c886e56b479194e85580c577d68a/thumb",
     "avatarAlt": "编程爱好者(网络编程) - 独家号",
     "subjectName": "编程爱好者(网络编程)",
     "homeUrl": "/subjects/134283"
+  },
+  {
+    "title": "面渣逆袭：Spring三十五问，四万字+五十图详解！建议收藏！",
+    "description": "",
+    "votes": "91",
+    "url": "/k/8ab20e9",
+    "avatar": "https://img.toutiao.io/subject/d42ad8a9192a430b9df44df9a6d383df/thumb",
+    "avatarAlt": "三分恶 - 独家号",
+    "subjectName": "三分恶",
+    "homeUrl": "/subjects/454266"
   },
   {
     "title": "ThreadLocal夺命11连问",
@@ -180,24 +180,24 @@
     "homeUrl": "/subjects/453205"
   },
   {
-    "title": "面渣逆袭：Spring三十五问，四万字+五十图详解！建议收藏！",
-    "description": "",
-    "votes": "89",
-    "url": "/k/8ab20e9",
-    "avatar": "https://img.toutiao.io/subject/d42ad8a9192a430b9df44df9a6d383df/thumb",
-    "avatarAlt": "三分恶 - 独家号",
-    "subjectName": "三分恶",
-    "homeUrl": "/subjects/454266"
-  },
-  {
     "title": "你见过哪些目瞪口呆的 Java 代码技巧？",
     "description": "",
-    "votes": "91",
+    "votes": "92",
     "url": "/k/avsba7r",
     "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
     "avatarAlt": "浪客用react,java全栈 - 独家号",
     "subjectName": "浪客用react,java全栈",
     "homeUrl": "/subjects/132403"
+  },
+  {
+    "title": "架构师成长路线图",
+    "description": "成长为软件架构师不是一件容易的事，这篇文章列举了架构师需要学习的技术储备，给出了成为软件架构师的路线图，帮助有志于在架构领域成长的同学可以明确学习的方向。原文：Master Pla...",
+    "votes": "85",
+    "url": "/k/27b6p2e",
+    "avatar": "https://img.toutiao.io/user/af19eb53bb164e47a25e3b1ef00f965e/thumb",
+    "avatarAlt": "DeepNoMind - 独家号",
+    "subjectName": "DeepNoMind",
+    "homeUrl": "/subjects/460290"
   },
   {
     "title": "跨Mysql、Redis、Mongo的分布式事务",
@@ -208,16 +208,6 @@
     "avatarAlt": "叶东富 - 独家号",
     "subjectName": "叶东富",
     "homeUrl": "/subjects/307550"
-  },
-  {
-    "title": "架构师成长路线图",
-    "description": "成长为软件架构师不是一件容易的事，这篇文章列举了架构师需要学习的技术储备，给出了成为软件架构师的路线图，帮助有志于在架构领域成长的同学可以明确学习的方向。原文：Master Pla...",
-    "votes": "84",
-    "url": "/k/27b6p2e",
-    "avatar": "https://img.toutiao.io/user/af19eb53bb164e47a25e3b1ef00f965e/thumb",
-    "avatarAlt": "DeepNoMind - 独家号",
-    "subjectName": "DeepNoMind",
-    "homeUrl": "/subjects/460290"
   },
   {
     "title": "20多个好用的 Vue 组件库，请查收！",
@@ -248,5 +238,15 @@
     "avatarAlt": "GoHackers - 独家号",
     "subjectName": "GoHackers",
     "homeUrl": "/subjects/1385"
+  },
+  {
+    "title": "深入浅出分布式锁",
+    "description": "",
+    "votes": "82",
+    "url": "/k/957qnad",
+    "avatar": "https://img.toutiao.io/subject/cc2d501408fd455d9b841cb6c8d95a6c/thumb",
+    "avatarAlt": "ASCE1885 - 独家号",
+    "subjectName": "ASCE1885",
+    "homeUrl": "/subjects/4829"
   }
 ]
