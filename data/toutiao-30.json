@@ -2,7 +2,7 @@
   {
     "title": "3000帧动画图解MySQL为什么需要binlog、redo log和undo log",
     "description": "全文建立在MySQL的存储引擎为InnoDB的基础上先看一条SQL如何入库的：这是一条很简单的更新SQL，从MySQL服务端接收到SQL到落盘，先后经过了MySQL Server层...",
-    "votes": "147",
+    "votes": "151",
     "url": "/k/b0g4460",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -18,16 +18,6 @@
     "avatarAlt": "乱点技能树 - 独家号",
     "subjectName": "乱点技能树",
     "homeUrl": "/subjects/194141"
-  },
-  {
-    "title": "阿里10年沉淀｜那些技术实战中的架构设计方法",
-    "description": "上周我写的一篇文章《关于技术能力的思考和总结》引起了大家的关注，好多读者的评论“以写代想、以想促真、以讲验真”，大家的感受很深刻，基于上次的文章，这篇文章我其实更想跟大家聊聊一些常...",
-    "votes": "113",
-    "url": "/k/e9vlh55",
-    "avatar": "https://img.toutiao.io/subject/df70c5d3876241ecba5984356133ab23/thumb",
-    "avatarAlt": "架构必知必会 - 独家号",
-    "subjectName": "架构必知必会",
-    "homeUrl": "/subjects/472073"
   },
   {
     "title": "MongoDB全方位知识图谱！",
@@ -52,7 +42,7 @@
   {
     "title": "架构师成长路线图",
     "description": "成长为软件架构师不是一件容易的事，这篇文章列举了架构师需要学习的技术储备，给出了成为软件架构师的路线图，帮助有志于在架构领域成长的同学可以明确学习的方向。原文：Master Pla...",
-    "votes": "85",
+    "votes": "86",
     "url": "/k/27b6p2e",
     "avatar": "https://img.toutiao.io/user/af19eb53bb164e47a25e3b1ef00f965e/thumb",
     "avatarAlt": "DeepNoMind - 独家号",
@@ -62,7 +52,7 @@
   {
     "title": "我们公司使用了 5 年的系统限流方案！从实现到部署实战详解，稳的一批!​",
     "description": "大家好，我是老赵！什么是限流呢？限流是限制到达系统的并发请求数量，保证系统能够正常响应部分用户请求，而对于超过限制的流量，则通过拒绝服务的方式保证整体系统的可用性。根据限流作用范围...",
-    "votes": "73",
+    "votes": "75",
     "url": "/k/4tls39t",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -72,7 +62,7 @@
   {
     "title": "高并发下如何防重？",
     "description": "大家好，我是苏三，又跟大家见面了。文末留言送书啦！！！前言最近测试给我提了一个bug，说我之前提供的一个批量复制商品的接口，产生了重复的商品数据。追查原因之后发现，这个事情没想象中...",
-    "votes": "78",
+    "votes": "79",
     "url": "/k/ulsc0so",
     "avatar": "https://img.toutiao.io/subject/0a66350d491141748ab4dd49be144252/thumb",
     "avatarAlt": "苏三说技术 - 独家号",
@@ -82,7 +72,7 @@
   {
     "title": "总监的烦恼：技术丢了怎么办？",
     "description": "原创不易，求分享、求一键三连前段时间有个粉丝与我讨论了一个问题：小钗，我半年前从技术经理升职到了技术总监，但这段时间的工作很恼火：一大半时间要去开各种产品会，还有一些时间要去处理团...",
-    "votes": "76",
+    "votes": "77",
     "url": "/k/rzytby1",
     "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
     "avatarAlt": "Bloomingroses - 独家号",
@@ -112,7 +102,7 @@
   {
     "title": "肝了一个月的 DDD，一文带你掌握！",
     "description": "",
-    "votes": "70",
+    "votes": "71",
     "url": "/k/bclz2n6",
     "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
     "avatarAlt": "Bloomingroses - 独家号",
@@ -180,6 +170,16 @@
     "homeUrl": "/subjects/460290"
   },
   {
+    "title": "如何学习架构，一个系列帮助你构筑架构知识体系",
+    "description": "",
+    "votes": "51",
+    "url": "/k/i9clyuy",
+    "avatar": "https://img.toutiao.io/subject/bcb663e36b0c406c9533cb76104b3227/thumb",
+    "avatarAlt": "Java全栈知识体系 - 独家号",
+    "subjectName": "Java全栈知识体系",
+    "homeUrl": "/subjects/319391"
+  },
+  {
     "title": "我做Go项目的一些实战经验",
     "description": "",
     "votes": "51",
@@ -210,16 +210,6 @@
     "homeUrl": "/subjects/379488"
   },
   {
-    "title": "如何学习架构，一个系列帮助你构筑架构知识体系",
-    "description": "",
-    "votes": "48",
-    "url": "/k/i9clyuy",
-    "avatar": "https://img.toutiao.io/subject/bcb663e36b0c406c9533cb76104b3227/thumb",
-    "avatarAlt": "Java全栈知识体系 - 独家号",
-    "subjectName": "Java全栈知识体系",
-    "homeUrl": "/subjects/319391"
-  },
-  {
     "title": "30款提升组织效能 SaaS 工具，我们的宝藏工具箱大公开",
     "description": "",
     "votes": "48",
@@ -230,10 +220,10 @@
     "homeUrl": "/subjects/464469"
   },
   {
-    "title": "ClickHouse使用实践与规范",
+    "title": "最牛逼的技术能力，是技术领导力",
     "description": "",
-    "votes": "38",
-    "url": "/k/3xcqu8e",
+    "votes": "40",
+    "url": "/k/kron0fq",
     "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
     "avatarAlt": "进击的程序猿 - 独家号",
     "subjectName": "进击的程序猿",
@@ -248,5 +238,15 @@
     "avatarAlt": "编程爱好者(网络编程) - 独家号",
     "subjectName": "编程爱好者(网络编程)",
     "homeUrl": "/subjects/134283"
+  },
+  {
+    "title": "B站 API 网关的发展",
+    "description": "",
+    "votes": "39",
+    "url": "/k/1qdkfk1",
+    "avatar": "https://img.toutiao.io/subject/388a8f21de6247edb0dced13b1701e0c/thumb",
+    "avatarAlt": "趣编程的独家号 - 独家号",
+    "subjectName": "趣编程的独家号",
+    "homeUrl": "/subjects/465623"
   }
 ]
