@@ -63,31 +63,22 @@
     "rank": 7
   },
   {
-    "title": "掘地三尺搞定 Redis 与 MySQL 数据一致性问题",
-    "description": "Redis 拥有高性能的数据读写功能，被我们广泛用在缓存场景，一是能提高业务系统的性能，二是为数据库抵挡了高并发的流量请求，点我 -> 解密 Redis 为什么这么快的秘密。把 Redis 作为缓存组件，需要防止出现以...",
-    "url": "https://segmentfault.com/a/1190000041998615",
-    "author": "码哥字节",
-    "home_url": "https://segmentfault.com/u/magebyte",
-    "votes": "21",
-    "rank": 8
-  },
-  {
     "title": "CSS实现可拉伸调整尺寸的分栏布局",
     "description": "很多页面布局，特别是那种工具类的、比如编辑器、可视化平台等，为了充分的利用屏幕空间，都会提供拖拽调节各个分栏尺寸的功能，比如像 vscode",
     "url": "https://segmentfault.com/a/1190000042006775",
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
     "votes": "26",
-    "rank": 9
+    "rank": 8
   },
   {
-    "title": "锁定项目 Node 版本和包管理器",
-    "description": "成员机器 Node.js 版本不统一： 守旧派用 12.x、保守用 14.x、激进用 17.x。项目能否正常跑起来全凭天意，在没有 CICD 流水线加持本地 npm run build 的场景下线上风险可想而知。",
-    "url": "https://segmentfault.com/a/1190000041918155",
-    "author": "亖混子",
-    "home_url": "https://segmentfault.com/u/1023",
-    "votes": "20",
-    "rank": 10
+    "title": "掘地三尺搞定 Redis 与 MySQL 数据一致性问题",
+    "description": "Redis 拥有高性能的数据读写功能，被我们广泛用在缓存场景，一是能提高业务系统的性能，二是为数据库抵挡了高并发的流量请求，点我 -> 解密 Redis 为什么这么快的秘密。把 Redis 作为缓存组件，需要防止出现以...",
+    "url": "https://segmentfault.com/a/1190000041998615",
+    "author": "码哥字节",
+    "home_url": "https://segmentfault.com/u/magebyte",
+    "votes": "21",
+    "rank": 9
   },
   {
     "title": "十年老友记 | @张京：我编程了三十年，编程就是我的符号",
@@ -96,7 +87,7 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "16",
-    "rank": 11
+    "rank": 10
   },
   {
     "title": "让拖拽更加人性化？如何自定义dragover样式",
@@ -105,6 +96,15 @@
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
     "votes": "12",
+    "rank": 11
+  },
+  {
+    "title": "如何移除你项目中99%的JS代码",
+    "description": "在前不久的WWC22中，builder.io的CTO miško hevery（同时也是Angular/AngularJS的发明者）发表了一段充满想象力的演讲。",
+    "url": "https://segmentfault.com/a/1190000042011578",
+    "author": "卡颂",
+    "home_url": "https://segmentfault.com/u/kasong",
+    "votes": "14",
     "rank": 12
   },
   {
@@ -144,22 +144,13 @@
     "rank": 16
   },
   {
-    "title": "如何移除你项目中99%的JS代码",
-    "description": "在前不久的WWC22中，builder.io的CTO miško hevery（同时也是Angular/AngularJS的发明者）发表了一段充满想象力的演讲。",
-    "url": "https://segmentfault.com/a/1190000042011578",
-    "author": "卡颂",
-    "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "13",
-    "rank": 17
-  },
-  {
     "title": "Redis都有哪些使用场景",
     "description": "Redis作为一种内存型的非关系型的数据库，不管在互联网大厂，小厂，大项目和小项目中，几乎都会被使用。为什么Redis会受到如此青睐呢？关于这个问题，可能很多的程序员只是看着别人用而用，缺乏对Redis一个全面的...",
     "url": "https://segmentfault.com/a/1190000041985101",
     "author": "7small7",
     "home_url": "https://segmentfault.com/u/7small7",
     "votes": "9",
-    "rank": 18
+    "rank": 17
   },
   {
     "title": "亚马逊云科技：“云+数+AI”助力企业数智化转型",
@@ -168,16 +159,7 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "11",
-    "rank": 19
-  },
-  {
-    "title": "CSS 变量自动变色技术",
-    "description": "欢迎关注微信公众号： 前端侦探在思否上看到这样一个设计，当阅读量比较少时，文字呈灰色，当阅读量比较多（>=100）时，文字就变成褐色了，示意效果如下是不是非常醒目呢？另外，还有那种可以根据进度自动变色...",
-    "url": "https://segmentfault.com/a/1190000041914954",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "12",
-    "rank": 20
+    "rank": 18
   },
   {
     "title": "前端性能监测，Runtime Performance Debug 技巧",
@@ -186,7 +168,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "11",
-    "rank": 21
+    "rank": 19
   },
   {
     "title": "有意思的鼠标指针交互探究",
@@ -195,7 +177,7 @@
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
     "votes": "10",
-    "rank": 22
+    "rank": 20
   },
   {
     "title": "无需安装、注册，一行命令搞定内网穿透！关键是完全免费",
@@ -204,7 +186,16 @@
     "author": "民工哥",
     "home_url": "https://segmentfault.com/u/jishuroad",
     "votes": "13",
-    "rank": 23
+    "rank": 21
+  },
+  {
+    "title": "视觉还原小技巧！CSS 实现角标效果",
+    "description": "欢迎关注微信公众号： 前端侦探最近在项目中碰到一个这样的角标设计，如下像这种可以文字可变化，自适应大小的布局，自然首选 CSS 了~下面看看如何实现的（两分钟读完）一、圆角矩形和三角形从设计上可以拆分成两...",
+    "url": "https://segmentfault.com/a/1190000042038058",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "13",
+    "rank": 22
   },
   {
     "title": "全球顶级交易所前端二面",
@@ -213,7 +204,7 @@
     "author": "Peter谭老师",
     "home_url": "https://segmentfault.com/u/jerrytanjinjie",
     "votes": "8",
-    "rank": 24
+    "rank": 23
   },
   {
     "title": "11个常用JS小小技巧",
@@ -222,7 +213,7 @@
     "author": "前端荣耀",
     "home_url": "https://segmentfault.com/u/lengxing",
     "votes": "12",
-    "rank": 25
+    "rank": 24
   },
   {
     "title": "SegmentFault 思否社区 10 周年 | 寄语有奖获奖名单公布，快来领奖~",
@@ -231,7 +222,7 @@
     "author": "SegmentFault思否",
     "home_url": "https://segmentfault.com/u/segmentfault",
     "votes": "7",
-    "rank": 26
+    "rank": 25
   },
   {
     "title": "云计算的未来在哪？破解亚马逊云科技增长神话",
@@ -240,7 +231,7 @@
     "author": "六一",
     "home_url": "https://segmentfault.com/u/suicidal_romantic_scoundrel",
     "votes": "9",
-    "rank": 27
+    "rank": 26
   },
   {
     "title": "JavaScript精度丢失原因以及解决方案",
@@ -249,7 +240,7 @@
     "author": "沉静地闪光",
     "home_url": "https://segmentfault.com/u/007008",
     "votes": "10",
-    "rank": 28
+    "rank": 27
   },
   {
     "title": "SegmentFault 思否技术周刊 -- Node.js 进阶之旅，看看哪些还需要学？",
@@ -258,7 +249,7 @@
     "author": "Beverly",
     "home_url": "https://segmentfault.com/u/beverly0",
     "votes": "6",
-    "rank": 29
+    "rank": 28
   },
   {
     "title": "社区的力量 | SegmentFault 思否十周年，伙伴们说",
@@ -266,6 +257,15 @@
     "url": "https://segmentfault.com/a/1190000041926694",
     "author": "SegmentFault思否",
     "home_url": "https://segmentfault.com/u/segmentfault",
+    "votes": "5",
+    "rank": 29
+  },
+  {
+    "title": "构建基于React18的电子表格程序",
+    "description": "2022年3月29日，React正式发布18.0.0。本次升级内容包括开箱即用的改进，如自动批处理、新的API（如startTransition）和支持Suspense 的流式服务器端渲染。关于此次发布新增的功能可以参考官方文档。",
+    "url": "https://segmentfault.com/a/1190000041959594",
+    "author": "葡萄城技术团队",
+    "home_url": "https://segmentfault.com/u/grapecity",
     "votes": "5",
     "rank": 30
   }
