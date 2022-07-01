@@ -1,47 +1,65 @@
 [
   {
-    "title": "又拍云 Redis 的改进之路",
-    "description": "作为推出国内首创可编程 CDN 服务的专业云服务提供商，又拍云利用 CDN 边缘网络规模和性能，允许客户自定义编写规则来满足常用业务场景。而为了保证这些源数据，如边缘重定向、请求限速、自定义错误页面、访问防...",
-    "url": "https://segmentfault.com/a/1190000042048198",
-    "author": "云叔_又拍云",
-    "home_url": "https://segmentfault.com/u/yunshu_blog",
-    "votes": "4",
+    "title": "如何使用插件化机制优雅的封装你的请求hook",
+    "description": "本文是深入浅出 ahooks 源码系列文章的第二篇，这个系列的目标主要有以下几点：加深对 React hooks 的理解。学习如何抽象自定义 hooks。构建属于自己的 React hooks 工具库。培养阅读学习源码的习惯，工具库是一...",
+    "url": "https://segmentfault.com/a/1190000042051905",
+    "author": "Gopal",
+    "home_url": "https://segmentfault.com/u/fengguangping",
+    "votes": "1",
     "rank": 1
   },
   {
-    "title": "ONES 创始人王颖奇对话《财富》(中文版）：中国有没有优秀的软件？",
-    "description": "6月22日，《财富》（中文版）发布「中国40位40岁以下的商界精英」（简称 40U40 ）榜单。ONES 创始人兼 CEO 王颖奇成功入选。",
-    "url": "https://segmentfault.com/a/1190000042048420",
-    "author": "万事ONES",
-    "home_url": "https://segmentfault.com/u/wanshiones",
+    "title": "JavaScript扩展原型链浅析",
+    "description": "前言上文对原型和原型链做了一些简单的概念介绍和解析，本文将浅析一些原型链的扩展。javaScript原型和原型链[链接]扩展原型链使用new操作符利用原型是对象的特性，实例化对象的时候，继承多个构造函数的属性和方...",
+    "url": "https://segmentfault.com/a/1190000042051801",
+    "author": "程序猿布欧",
+    "home_url": "https://segmentfault.com/u/lewyon",
     "votes": "1",
     "rank": 2
   },
   {
-    "title": "英特尔傲腾，让数据管理不再纠结",
-    "description": "据中国信通院最新报告显示，随着5G和人工智能等新技术应用落地，2021年中国人均移动数据流量比2015年增长18倍，预计到2025年全球数据量将会从2016年的16ZB上升至163ZB，我们也正经历着一场有海量且场景丰富的数据...",
-    "url": "https://segmentfault.com/a/1190000042050449",
-    "author": "溜达兔",
-    "home_url": "https://segmentfault.com/u/liudatu",
-    "votes": "1",
+    "title": "冴羽答读者问：如何在工作中打造影响力，带动同事？",
+    "description": "前言最近我发起了「冴羽答读者问」活动，如果你也有想要提问的问题，欢迎留言，我会按照顺序依此回答。正文什么是影响力呢？引用百度百科的解释：影响力是用一种别人所乐于接受的方式，改变他人的思想和行动的能...",
+    "url": "https://segmentfault.com/a/1190000042054629",
+    "author": "冴羽",
+    "home_url": "https://segmentfault.com/u/yayu",
+    "votes": "2",
     "rank": 3
   },
   {
-    "title": "超 Nice 的表格响应式布局小技巧",
-    "description": "今天，遇到了一个很有意思的问题，一名群友问我，仅仅使用 CSS，能否实现这样一种响应式的布局效果：简单解析一下效果：在屏幕视口较为宽时，表现为一个整体 Table 的样式而当屏幕视口宽度较小时，原 Table 的每...",
-    "url": "https://segmentfault.com/a/1190000042048733",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "3",
+    "title": "开源人物专访：OpenFunction 的独特“处世之道”，开源“实干家精神”从 0 到 1 的突破",
+    "description": "采访整理：SegmentFault 思否 | 编辑 朱玲采访嘉宾：霍秉杰 霍秉杰，哈尔滨工业大学计算机科技与技术硕士，曾任职于金山软件从事大数据技术研发，2016年加入青云科技。现为 KubeSphere 云原生 FaaS 项目 OpenFunc...",
+    "url": "https://segmentfault.com/a/1190000042053265",
+    "author": "MissD",
+    "home_url": "https://segmentfault.com/u/d2ms1shh",
+    "votes": "1",
     "rank": 4
   },
   {
-    "title": "责任链模式",
-    "description": "通过构建一条流水线，将一个请求按照顺序进行多次处理下面使用一个登录的例子来实现责任链模式请求体类 {代码...} 抽象处理类 {代码...} 具体处理过程 验证密码 → 权限验证 {代码...} {代码...} 测试 {代码...} ...",
-    "url": "https://segmentfault.com/a/1190000042048951",
-    "author": "eacape",
-    "home_url": "https://segmentfault.com/u/xiaoyongyong",
+    "title": "2022 年编程语言趋势：Swift、Kotlin 热度持续增长，收入最高的 5 种编程语言竟是它们",
+    "description": "随着低代码和无代码平台的兴起，2022 年编程语言的世界正在悄然发生着变化。如今，大多数开发人员对最常用的常规编程语言有着透彻的了解，但掌握不常见的编程语言也能帮助开发者获得高薪的工作。特别是如软件开发...",
+    "url": "https://segmentfault.com/a/1190000042053038",
+    "author": "MissD",
+    "home_url": "https://segmentfault.com/u/d2ms1shh",
     "votes": "1",
     "rank": 5
+  },
+  {
+    "title": "switch 有四样写法你知道么",
+    "description": "我所知道的 JavaScript 的 switch 语句只有一种写法。但要说到对分支的处理，写法可就多了去了。if 分支写法可以算一种，switch 分支写法可以算第二种，第三种是使用策略模式，如果要把条件运算符也算上的话，嗯...",
+    "url": "https://segmentfault.com/a/1190000042055258",
+    "author": "边城",
+    "home_url": "https://segmentfault.com/u/jamesfancy",
+    "votes": "1",
+    "rank": 6
+  },
+  {
+    "title": "《网络是怎么样连接的》读书笔记 - 汇总篇",
+    "description": "其实就是把之前的内容汇总到一个文章方便阅读。为了节省大家的时间，建议挑自己感兴趣的内容看，而不是从上往下看，建议看一切文字材料都保持这样的习惯。",
+    "url": "https://segmentfault.com/a/1190000042053583",
+    "author": "lazytimes",
+    "home_url": "https://segmentfault.com/u/lazytimes",
+    "votes": "1",
+    "rank": 7
   }
 ]
