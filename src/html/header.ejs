@@ -75,29 +75,6 @@
     .list li > div.info a:hover i { color: #333; }
     .list li div.sub-title { color: var(--color-theme-text); margin: 4px 0 0 0; }
     .list li div.avatar { padding-right: 10px; }
-    <% if (/(repos|trending)/.test(tabCls)) { %>
-    .list li a.language,
-    .list li span.star { height: 18px; background: var(--color-neutral-muted); display: inline-block; padding: 2px 4px; border-radius: 3px; }
-    <% } %>
-    <% if (/(toutiao|users|sifou|trending)/.test(tabCls)) { %>
-    .list .select { }
-    .list .select .active { color: var(--color-theme-text); font-weight: bold; border-bottom: 1px dotted var(--color-border);}
-    <% } %>
-    <% if (/(toutiao|users|repos|trending)/.test(tabCls)) { %>
-    .list li div.followers { font-size: 12px; color: var(--color-fg-muted); white-space:nowrap; padding-top: 2px; border-radius: 3px; }
-    .list li div.followers a { color: var(--color-fg-muted); }
-    .list li div.followers * { vertical-align: middle; }
-    .list li div.followers svg { vertical-align: text-top; display: inline-block; fill: #9E9E9E; width: 14px; height: 14px; }
-    <% } %>
-    <% if (tabCls === 'repos') { %>
-    .list.repos.trending .language > span { border-radius: 50%; display: inline-block; position: relative; height: 10px; width: 10px; vertical-align: middle; top: -1px; margin-right: 4px; }
-    .list.repos li div.followers { display: inline-block; padding-right: 5px; }
-    .list.repos li div.details { width: 100%; }
-    <% } %>
-    <% if (tabCls === 'users') { %>
-    .list li.unactive > div { opacity: 0.46; }
-    .list li.death > div { opacity: 1; filter: grayscale(100%); }
-    <% } %>
     @keyframes octocat-wave {
       0%,100%{-webkit-transform:rotate(0); transform:rotate(0);}
       20%,60%{-webkit-transform:rotate(-25deg); transform:rotate(-25deg);}
@@ -107,6 +84,37 @@
       .title { padding-top: 16px; font-size: 21px; }
     }
   </style>
+  <% if (/(repos|trending)/.test(tabCls)) { %>
+  <style>
+    .list li a.language,
+    .list li span.star { height: 18px; background: var(--color-neutral-muted); display: inline-block; padding: 2px 4px; border-radius: 3px; }
+  </style>
+  <% } %>
+  <% if (/(toutiao|users|sifou|trending)/.test(tabCls)) { %>
+  <style>
+    .list .select .active { color: var(--color-theme-text); font-weight: bold; border-bottom: 1px dotted var(--color-border);}
+  </style>
+  <% } %>
+  <% if (/(toutiao|users|repos|trending)/.test(tabCls)) { %>
+  <style>
+    .list li div.followers { font-size: 12px; color: var(--color-fg-muted); white-space:nowrap; padding-top: 2px; border-radius: 3px; }
+    .list li div.followers a { color: var(--color-fg-muted); }
+    .list li div.followers * { vertical-align: middle; }
+    .list li div.followers svg { vertical-align: text-top; display: inline-block; fill: #9E9E9E; width: 14px; height: 14px; }
+  </style>
+  <% } %>
+  <% if (tabCls === 'repos') { %>
+  <style>
+    .list.repos.trending .language > span { border-radius: 50%; display: inline-block; position: relative; height: 10px; width: 10px; vertical-align: middle; top: -1px; margin-right: 4px; }
+    .list.repos li div.followers { display: inline-block; padding-right: 5px; }
+    .list.repos li div.details { width: 100%; }
+  </style>
+  <% } %>
+  <% if (tabCls === 'users') { %>
+  <style>
+    .list li.death > div { opacity: 1; filter: grayscale(100%); }
+  </style>
+  <% } %>
   <script src="https://unpkg.com/@wcj/dark-mode"></script>
 </head>
 <body>
