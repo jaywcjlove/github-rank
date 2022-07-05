@@ -1,21 +1,12 @@
 [
   {
-    "title": "视觉还原小技巧！CSS 实现角标效果",
-    "description": "欢迎关注微信公众号： 前端侦探最近在项目中碰到一个这样的角标设计，如下像这种可以文字可变化，自适应大小的布局，自然首选 CSS 了~下面看看如何实现的（两分钟读完）一、圆角矩形和三角形从设计上可以拆分成两...",
-    "url": "https://segmentfault.com/a/1190000042038058",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "14",
-    "rank": 1
-  },
-  {
     "title": "switch 有四样写法你知道么",
     "description": "我所知道的 JavaScript 的 switch 语句只有一种写法。但要说到对分支的处理，写法可就多了去了。if 分支写法可以算一种，switch 分支写法可以算第二种，第三种是使用策略模式，如果要把条件运算符也算上的话，嗯...",
     "url": "https://segmentfault.com/a/1190000042055258",
     "author": "边城",
     "home_url": "https://segmentfault.com/u/jamesfancy",
     "votes": "9",
-    "rank": 2
+    "rank": 1
   },
   {
     "title": "SegmentFault 思否技术周刊 -- 超实用 Vue 合集，请查收",
@@ -23,26 +14,8 @@
     "url": "https://segmentfault.com/a/1190000042048392",
     "author": "Beverly",
     "home_url": "https://segmentfault.com/u/beverly0",
-    "votes": "7",
-    "rank": 3
-  },
-  {
-    "title": "几百行代码实现一个 JSON 解析器",
-    "description": "以前我也有思考过它是如何实现的，过程中一旦和编译原理扯上关系就不由自主的劝退了；但经过这段时间的实践我发现实现一个 JSON 解析器似乎也不困难，只是运用到了编译原理前端的部分知识就完全足够了。",
-    "url": "https://segmentfault.com/a/1190000042042002",
-    "author": "crossoverJie",
-    "home_url": "https://segmentfault.com/u/crossoverjie",
-    "votes": "5",
-    "rank": 4
-  },
-  {
-    "title": "热乎乎的前端\"数字\" 转换 \"货币字符串\", 如此有趣的知识来啦 (Intl.NumberFormat)",
-    "description": "这是一个由我编写的轻量级数字转货币字符串插件, 因为发现各个国家的货币相关知识很有趣, 并且当前市场上相关插件比较老, 所以也想与你分享这些有趣知识。",
-    "url": "https://segmentfault.com/a/1190000042037852",
-    "author": "lulu_up",
-    "home_url": "https://segmentfault.com/u/lulu_up",
-    "votes": "10",
-    "rank": 5
+    "votes": "6",
+    "rank": 2
   },
   {
     "title": "又拍云 Redis 的改进之路",
@@ -50,26 +23,17 @@
     "url": "https://segmentfault.com/a/1190000042048198",
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
-    "votes": "5",
-    "rank": 6
-  },
-  {
-    "title": "社招两年半10个公司28轮面试面经（含字节、拼多多、美团、滴滴......）",
-    "description": "个人情况学历：二本工作年限：2 年半面试结果：拿到了字节、拼多多、美团、滴滴、欧科云链....等公司的offer面试准备复习你信我，真学习还得看书，看书能让你的知识体系更加健全。当然，平时也可以看一些大佬的文...",
-    "url": "https://segmentfault.com/a/1190000042035124",
-    "author": "CoderW",
-    "home_url": "https://segmentfault.com/u/coderw_5fd9998278d42",
     "votes": "6",
-    "rank": 7
+    "rank": 3
   },
   {
-    "title": "React团队最近都在忙啥呢？",
-    "description": "大家好，我卡颂。不知道大家有没有一个感觉：React新特性的更新速度非常慢，时间通常是以年计。实际上，在React漫长的发展过程中，除了很多优秀的特性（比如Hooks、Suspense）外，还有很多最终没有落地的想法。这...",
-    "url": "https://segmentfault.com/a/1190000042038001",
+    "title": "Skypack：我老早就在布局前端基建了",
+    "description": "其中最主要的原因是 —— vite在开发环境基于ESM规范实现的Nobundle模式，节省了代码打包的时间（当然，也有ESBuild的功劳）。",
+    "url": "https://segmentfault.com/a/1190000042055196",
     "author": "卡颂",
     "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "4",
-    "rank": 8
+    "votes": "6",
+    "rank": 4
   },
   {
     "title": "Vue项目之使用EditorConfig, Eslint和Prettier实现代码规范",
@@ -78,7 +42,16 @@
     "author": "玛尔斯通",
     "home_url": "https://segmentfault.com/u/zhouqichao",
     "votes": "8",
-    "rank": 9
+    "rank": 5
+  },
+  {
+    "title": "CSS层级小技巧！如何在滚动时自动添加头部阴影？",
+    "description": "在网页中，经常会用阴影来突出层级关系，特别是顶部导航，但有时候设计觉得没必要一开始就显示阴影，只有滚动后才出现。比如下面这个例子，注意观察头部阴影",
+    "url": "https://segmentfault.com/a/1190000042065365",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "11",
+    "rank": 6
   },
   {
     "title": "超 Nice 的表格响应式布局小技巧",
@@ -87,34 +60,7 @@
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
     "votes": "7",
-    "rank": 10
-  },
-  {
-    "title": "20个稀奇古怪的 JavaScript 表达式，你要挑战回答一下嘛",
-    "description": "微信搜索 【大迁世界】 关注有可爱喵前端人。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。JavaScript是一种非常容错的编程语言，许多在其他编程语言中不合法的表达式在JavaScript...",
-    "url": "https://segmentfault.com/a/1190000041995394",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "4",
-    "rank": 11
-  },
-  {
-    "title": "angular ChangeDetectorRef",
-    "description": "随着子组件的增多和嵌套，遇到数据改变，但是组件页面没有渲染的问题开始变多。例如:此页面为子组件，打开该页面后，原本应该显示已存在的附件，但是现在却显示空。正确显示：问题显示：没有渲染此问题的出现往往...",
-    "url": "https://segmentfault.com/a/1190000042041251",
-    "author": "weiewiyi",
-    "home_url": "https://segmentfault.com/u/chenchu_6110ed583800c",
-    "votes": "4",
-    "rank": 12
-  },
-  {
-    "title": "企业级低代码平台，JeecgBoot-Vue3版  v1.3.0 里程碑版本发布",
-    "description": "Jeecgboot-Vue3 采用 Vue3.0、Vite、 Ant-Design-Vue、TypeScript 等新技术方案，包括二次封装组件、utils、hooks、动态菜单、权限校验、按钮级别权限控制等功能。JeecgBoot企业级的低代码平台对应的vue3前端版本！",
-    "url": "https://segmentfault.com/a/1190000042041290",
-    "author": "scott",
-    "home_url": "https://segmentfault.com/u/jeecg",
-    "votes": "2",
-    "rank": 13
+    "rank": 7
   },
   {
     "title": "ONES 创始人王颖奇对话《财富》(中文版）：中国有没有优秀的软件？",
@@ -123,7 +69,7 @@
     "author": "万事ONES",
     "home_url": "https://segmentfault.com/u/wanshiones",
     "votes": "2",
-    "rank": 14
+    "rank": 8
   },
   {
     "title": "Ajax 怎么取消？要不要取消？",
@@ -132,7 +78,7 @@
     "author": "ssshooter",
     "home_url": "https://segmentfault.com/u/ssshooter",
     "votes": "2",
-    "rank": 15
+    "rank": 9
   },
   {
     "title": "MySQL 锁常见知识点&面试题总结",
@@ -141,16 +87,7 @@
     "author": "JavaGuide",
     "home_url": "https://segmentfault.com/u/javaguide",
     "votes": "2",
-    "rank": 16
-  },
-  {
-    "title": "MongoDB 关系实现",
-    "description": "MongoDB不同于我们常用的mysql，作为一款非关系型数据库，数据存储已类似于json格式存储在文档里，不存在外建，无法实现mysql的表格之间关联。那么，对于一对一，一对多，多对一，多对多关系如何实现呢？",
-    "url": "https://segmentfault.com/a/1190000042041143",
-    "author": "小强Zzz",
-    "home_url": "https://segmentfault.com/u/zhaokaiqiang",
-    "votes": "3",
-    "rank": 17
+    "rank": 10
   },
   {
     "title": "冴羽答读者问：如何在工作中打造影响力，带动同事？",
@@ -159,7 +96,16 @@
     "author": "冴羽",
     "home_url": "https://segmentfault.com/u/yayu",
     "votes": "3",
-    "rank": 18
+    "rank": 11
+  },
+  {
+    "title": "通过示例了解Vue过渡和动画",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000042055924",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "2",
+    "rank": 12
   },
   {
     "title": "前端 Git-Hooks 工程化实践",
@@ -168,7 +114,7 @@
     "author": "袋鼠云数栈UED",
     "home_url": "https://segmentfault.com/u/daishuyunshuzhanqianduan",
     "votes": "1",
-    "rank": 19
+    "rank": 13
   },
   {
     "title": "测试一下Pinia，Vuex 要出局了？",
@@ -177,43 +123,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "2",
-    "rank": 20
-  },
-  {
-    "title": "精读《Permutation, Flatten, Absolute...》",
-    "description": "所以这题如果能 “递归触发联合类型分配率”，就有戏解决啊。但触发的条件必须存在两个泛型，而题目传入的只有一个，我们只好创造第二个泛型，使其默认值等于第一个：",
-    "url": "https://segmentfault.com/a/1190000042037674",
-    "author": "黄子毅",
-    "home_url": "https://segmentfault.com/u/aoyangyudakong",
-    "votes": "1",
-    "rank": 21
-  },
-  {
-    "title": "2022 年编程语言趋势：Swift、Kotlin 热度持续增长，收入最高的 5 种编程语言竟是它们",
-    "description": "随着低代码和无代码平台的兴起，2022 年编程语言的世界正在悄然发生着变化。如今，大多数开发人员对最常用的常规编程语言有着透彻的了解，但掌握不常见的编程语言也能帮助开发者获得高薪的工作。特别是如软件开发...",
-    "url": "https://segmentfault.com/a/1190000042053038",
-    "author": "MissD",
-    "home_url": "https://segmentfault.com/u/d2ms1shh",
-    "votes": "2",
-    "rank": 22
-  },
-  {
-    "title": "在异步方法中获取登陆用户时出现的问题",
-    "description": "在重写分配任务算法时需要获取当前登陆用户区域及其子区域，重写之后进行测试的时候发现任务直接停留在了分配中，查看后台日志时发现了报错根据报错查看抛出错误的地方可以发现是在调用getAuthUserDetailWithoutT...",
-    "url": "https://segmentfault.com/a/1190000042037821",
-    "author": "李明",
-    "home_url": "https://segmentfault.com/u/pluto_612f55567eb8c",
-    "votes": "3",
-    "rank": 23
-  },
-  {
-    "title": "JavaScript框架的四个时代",
-    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000042032435",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "2",
-    "rank": 24
+    "rank": 14
   },
   {
     "title": "Go1.19 那些事：国产芯片、内存模型等新特性，你知道多少？",
@@ -222,7 +132,34 @@
     "author": "煎鱼",
     "home_url": "https://segmentfault.com/u/eddycjy",
     "votes": "1",
-    "rank": 25
+    "rank": 15
+  },
+  {
+    "title": "Java 集合常见知识点&面试题总结(上)，2022 最新版！",
+    "description": "你好，我是 Guide。秋招即将到来（提前批已经开始），我对 JavaGuide 的内容进行了重构完善，公众号同步一下最新更新，希望能够帮助你。",
+    "url": "https://segmentfault.com/a/1190000042059163",
+    "author": "JavaGuide",
+    "home_url": "https://segmentfault.com/u/javaguide",
+    "votes": "2",
+    "rank": 16
+  },
+  {
+    "title": "2022 年编程语言趋势：Swift、Kotlin 热度持续增长，收入最高的 5 种编程语言竟是它们",
+    "description": "随着低代码和无代码平台的兴起，2022 年编程语言的世界正在悄然发生着变化。如今，大多数开发人员对最常用的常规编程语言有着透彻的了解，但掌握不常见的编程语言也能帮助开发者获得高薪的工作。特别是如软件开发...",
+    "url": "https://segmentfault.com/a/1190000042053038",
+    "author": "MissD",
+    "home_url": "https://segmentfault.com/u/d2ms1shh",
+    "votes": "2",
+    "rank": 17
+  },
+  {
+    "title": "JavaScript框架的四个时代",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000042032435",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "2",
+    "rank": 18
   },
   {
     "title": "又一款值得推荐的高颜值的服务器探针——WGCLOUD",
@@ -231,25 +168,7 @@
     "author": "徐三刀",
     "home_url": "https://segmentfault.com/u/9b3sps2b",
     "votes": "1",
-    "rank": 26
-  },
-  {
-    "title": "面试官：哥们Go语言的互斥锁了解到什么程度？",
-    "description": "哈喽，大家好，我是asong。当提到并发编程、多线程编程时，都会在第一时间想到锁，锁是并发编程中的同步原语，他可以保证多线程在访问同一片内存时不会出现竞争来保证并发安全；在Go语言中更推崇由channel通过通...",
-    "url": "https://segmentfault.com/a/1190000042041754",
-    "author": "asong",
-    "home_url": "https://segmentfault.com/u/asong_5eeb7a1d0da86",
-    "votes": "1",
-    "rank": 27
-  },
-  {
-    "title": "BeanMappingKey，Java开发者们的福星！！！",
-    "description": "一切还要从我的上一家公司讲起，我的上一家公司是一家独角兽企业，说大不大说小不小的那种，公司氛围也是比较注重技术，我当时入职之后的第一课就是阅读我们 CTO 写的开发规范，其中他把 Java 项目的目录结构划分...",
-    "url": "https://segmentfault.com/a/1190000042037714",
-    "author": "和耳朵",
-    "home_url": "https://segmentfault.com/u/heerduo",
-    "votes": "1",
-    "rank": 28
+    "rank": 19
   },
   {
     "title": "英特尔傲腾，让数据管理不再纠结",
@@ -258,7 +177,7 @@
     "author": "溜达兔",
     "home_url": "https://segmentfault.com/u/liudatu",
     "votes": "1",
-    "rank": 29
+    "rank": 20
   },
   {
     "title": "2022 开源代码状态调查报告：最受欢迎 5 大自动化和编排技术， Puppet  第一，Kubespray 热度增幅最高",
@@ -267,6 +186,87 @@
     "author": "MissD",
     "home_url": "https://segmentfault.com/u/d2ms1shh",
     "votes": "2",
+    "rank": 21
+  },
+  {
+    "title": "JavaScript扩展原型链浅析",
+    "description": "前言上文对原型和原型链做了一些简单的概念介绍和解析，本文将浅析一些原型链的扩展。javaScript原型和原型链[链接]扩展原型链使用new操作符利用原型是对象的特性，实例化对象的时候，继承多个构造函数的属性和方...",
+    "url": "https://segmentfault.com/a/1190000042051801",
+    "author": "程序猿布欧",
+    "home_url": "https://segmentfault.com/u/lewyon",
+    "votes": "1",
+    "rank": 22
+  },
+  {
+    "title": "开源人物专访：OpenFunction 的独特“处世之道”，开源“实干家精神”从 0 到 1 的突破",
+    "description": "采访整理：SegmentFault 思否 | 编辑 朱玲采访嘉宾：霍秉杰 霍秉杰，哈尔滨工业大学计算机科技与技术硕士，曾任职于金山软件从事大数据技术研发，2016年加入青云科技。现为 KubeSphere 云原生 FaaS 项目 OpenFunc...",
+    "url": "https://segmentfault.com/a/1190000042053265",
+    "author": "MissD",
+    "home_url": "https://segmentfault.com/u/d2ms1shh",
+    "votes": "1",
+    "rank": 23
+  },
+  {
+    "title": "6年技术迭代 阿里全球化出海&合规的挑战和探索",
+    "description": "全球化技术根植于全球化业务，经过五个阶段的演进，逐渐发展成为阿里巴巴集团内相对独立的技术体系。本文会首先重点讲解全球化基础设施层的挑战和技术实践。",
+    "url": "https://segmentfault.com/a/1190000042058053",
+    "author": "溜达兔",
+    "home_url": "https://segmentfault.com/u/liudatu",
+    "votes": "2",
+    "rank": 24
+  },
+  {
+    "title": "Vue3，用组合编写更好的代码：灵活的参数(2/5)",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000042036965",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "1",
+    "rank": 25
+  },
+  {
+    "title": "如何使用插件化机制优雅的封装你的请求hook",
+    "description": "本文是深入浅出 ahooks 源码系列文章的第二篇，这个系列的目标主要有以下几点：加深对 React hooks 的理解。学习如何抽象自定义 hooks。构建属于自己的 React hooks 工具库。培养阅读学习源码的习惯，工具库是一...",
+    "url": "https://segmentfault.com/a/1190000042051905",
+    "author": "Gopal",
+    "home_url": "https://segmentfault.com/u/fengguangping",
+    "votes": "1",
+    "rank": 26
+  },
+  {
+    "title": "【Java面试】简单说一下你对序列化和反序列化的理解",
+    "description": "Hi，大家好，我是Mic一个工作4年的粉丝，投了很多简历好不容易接到一个互联网公司的面试邀约。在面试第一轮就被干掉了，原因是对主流互联网技术理解太浅了。其中就有一个这样的问题：“简单说一下你对序列化和反序...",
+    "url": "https://segmentfault.com/a/1190000042058707",
+    "author": "跟着Mic学架构",
+    "home_url": "https://segmentfault.com/u/fukua_5be8034f8191f",
+    "votes": "1",
+    "rank": 27
+  },
+  {
+    "title": "Fundebug JavaScript插件支持监控HTTP请求数据",
+    "description": "Fundebug提供专业的前端异常监控服务，我们的插件可以提供全方位的异常监控，可以帮助开发者第一时间定位各种前端异常，包括但不限于 JavaScript 执行错误以及 HTTP 请求错误。",
+    "url": "https://segmentfault.com/a/1190000042055989",
+    "author": "Fundebug",
+    "home_url": "https://segmentfault.com/u/fundebug",
+    "votes": "1",
+    "rank": 28
+  },
+  {
+    "title": "React Native 中实现动态导入",
+    "description": "随着业务的发展，每一个 React Native 应用的代码数量都在不断增加，bundle 体积不断膨胀，对应用性能的负面影响愈发明显。虽然我们可以通过 React Native 官方工具 Metro 进行拆包处理，拆分为一个基础包和一个...",
+    "url": "https://segmentfault.com/a/1190000042053905",
+    "author": "云音乐技术团队",
+    "home_url": "https://segmentfault.com/u/musicfe",
+    "votes": "1",
+    "rank": 29
+  },
+  {
+    "title": "阿里出品！SpringBoot应用自动化部署神器，IDEA版Jenkins？",
+    "description": "之前分享过一些使用Jenkins进行自动化部署的技巧 ，最近发现一款阿里出品的IDEA插件CloudToolkit，不仅支持直接打包应用部署到远程服务器上，而且还能当终端工具使用。试用了一把这个插件，非常不错，推荐给大家...",
+    "url": "https://segmentfault.com/a/1190000042042539",
+    "author": "macrozheng",
+    "home_url": "https://segmentfault.com/u/macrozheng",
+    "votes": "1",
     "rank": 30
   }
 ]
