@@ -30,7 +30,10 @@ jobs:
         ID: ${{ secrets.GITHUB_ID }}
         SECRET: ${{ secrets.GITHUB_SECRET }}
 
-    - run: npm run get
+    - run: |
+        npm run get:users
+        npm run get:users:china
+        npm run get:users:info
       env: 
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         ID: ${{ secrets.GITHUB_ID }}
