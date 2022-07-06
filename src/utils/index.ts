@@ -1,10 +1,10 @@
 import fetch from 'node-fetch';
 import dotenv from 'dotenv';
 import cheerio from 'cheerio';
-import { resolve as resolveUrl } from 'url';
+import url from 'url';
 import { request } from "@octokit/request";
 import formatter from '@uiw/formatter';
-import { UsersDataBase, UsersData, RepoData } from '../common/props';
+import { UsersDataBase, UsersData, RepoData } from '../common/props.js';
 
 dotenv.config();
 
@@ -101,10 +101,11 @@ export interface ITrendingData {
 export function getTrendingData(type: string = 'daily') {
   const apiUrl = `https://github.com/trending?since=${type}`;
   return fetch(apiUrl)
-    .then(res => res.buffer())
-    .then((data) => {
+    .then(res => res.arrayBuffer())
+    .then((buf) => {
       const resultData: ITrendingData[] = [];
-      const html = data.toString();
+      const enc = new TextDecoder("utf-8");
+      const html = enc.decode(buf);
       const $ = cheerio.load(html)
       $('.Box-row').each(function(idx, item) {
         // 不需要头像，避免被和谐
@@ -132,7 +133,7 @@ export function getTrendingData(type: string = 'daily') {
           forked = node[0].next.data.replace(/(\n|\s|,)/g, '');
         }
 
-        resultData.push({ full_name: fullName, language, color, description, forked, stargazers_count: parseInt(stargazersCount, 10), todayStar, html_url: resolveUrl(apiUrl, href), rank: idx + 1 });
+        resultData.push({ full_name: fullName, language, color, description, forked, stargazers_count: parseInt(stargazersCount, 10), todayStar, html_url: url.resolve(apiUrl, href), rank: idx + 1 });
       });
       return resultData;
     });
@@ -149,9 +150,10 @@ export function sleep(ms: number) {
  */
 export function getUserStar(username: string): Promise<string> {
   return fetch(`https://github-readme-stats.vercel.app/api?username=${username}`)
-    .then(res => res.buffer())
-    .then((data) => {
-      const html = data.toString();
+    .then(res => res.arrayBuffer())
+    .then((buf) => {
+      const enc = new TextDecoder('utf-8');
+      const html = enc.decode(buf);
       const $ = cheerio.load(html);
       let star = '';
       $('svg svg text.stat').each((idx, item) => {
@@ -177,9 +179,10 @@ export interface IToutiaoData {
 
 export function getToutiaoData(day: number = 7) {
   return fetch(`https://toutiao.io/posts/hot/${day}`)
-    .then(res => res.buffer())
-    .then((data) => {
-      const html = data.toString();
+    .then(res => res.arrayBuffer())
+    .then((buf) => {
+      const enc = new TextDecoder('utf-8');
+      const html = enc.decode(buf);
       const $ = cheerio.load(html);
       const toutiaoData: IToutiaoData[] = [];
       $('.container .posts .post').each((idx, item) => {
@@ -210,7 +213,7 @@ export interface I36KrData {
 export function get36KrData(page: number = 100): Promise<I36KrData[]> {
   return fetch(`https://36kr.com/pp/api/newsflash?per_page=${page}`)
     .then(res => res.json())
-    .then((data) => {
+    .then((data: any) => {
       if (data && data.data && data.data.items) {
         return data.data.items;
       } else {

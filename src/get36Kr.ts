@@ -1,5 +1,5 @@
-import { get36KrData, I36KrData } from './utils';
-import { saveData } from './utils/saveData';
+import { get36KrData, I36KrData } from './utils/index.js';
+import { saveData } from './utils/saveData.js';
 
 
 (async() => {

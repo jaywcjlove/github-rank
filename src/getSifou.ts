@@ -1,5 +1,5 @@
-import { getSifou, ISifou } from './utils/getSifou';
-import { saveData } from './utils/saveData';
+import { getSifou, ISifou } from './utils/getSifou.js';
+import { saveData } from './utils/saveData.js';
 
 (async() => {
   let data: ISifou[] = await getSifou();

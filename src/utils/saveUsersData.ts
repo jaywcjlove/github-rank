@@ -1,7 +1,7 @@
 import FS from 'fs-extra';
 import path from 'path';
-import { UsersDataBase, UsersData } from '../common/props';
-import { sleep, getUserInfoData, getUserStar } from './';
+import { UsersDataBase, UsersData } from '../common/props.js';
+import { sleep, getUserInfoData } from './index.js';
 
 /**
  * 用于更新用户数据，最终数据

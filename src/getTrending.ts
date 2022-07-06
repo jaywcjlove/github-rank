@@ -1,6 +1,6 @@
 import FS from 'fs-extra';
 import path from 'path';
-import { getTrendingData, ITrendingData } from './utils';
+import { getTrendingData, ITrendingData } from './utils/index.js';
 
 
 async function saveTrendingData(data: ITrendingData[], type: string = 'daily') {

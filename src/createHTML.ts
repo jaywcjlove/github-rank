@@ -1,9 +1,9 @@
 import FS from 'fs-extra';
 import path from 'path';
 import ejs from 'ejs';
-import { ISifou } from './utils/getSifou';
+import { ISifou } from './utils/getSifou.js';
 
-import { IToutiaoData, I36KrData } from './utils'
+import { IToutiaoData, I36KrData } from './utils/index.js';
 
 const rootPath: string = path.join(__dirname, 'html');
 const dateStr: string = `${new Date().getFullYear()}/${(new Date().getMonth()) + 1}/${new Date().getDate()}`;

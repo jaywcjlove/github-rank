@@ -1,7 +1,7 @@
 import FS from 'fs-extra';
 import path from 'path';
-import { getUserData, sleep } from './utils';
-import { UsersDataBase } from './common/props';
+import { getUserData, sleep } from './utils/index.js';
+import { UsersDataBase } from './common/props.js';
 
 (async () => {
   try {

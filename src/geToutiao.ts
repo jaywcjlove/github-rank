@@ -1,6 +1,6 @@
 
-import { getToutiaoData } from './utils';
-import { saveData } from './utils/saveData';
+import { getToutiaoData } from './utils/index.js';
+import { saveData } from './utils/saveData.js';
 
 (async() => {
   let data = await getToutiaoData(7);

@@ -13,9 +13,10 @@ export interface ISifou {
 
 export function getSifou(type: string = '') {
   return fetch(`https://segmentfault.com/hottest/${type}`)
-    .then(res => res.buffer())
-    .then((data) => {
-      const html = data.toString();
+    .then(res => res.arrayBuffer())
+    .then((buf) => {
+      const enc = new TextDecoder('utf-8');
+      const html = enc.decode(buf)
       const resultData: ISifou[] = [];
       const $ = cheerio.load(html);
 
@@ -26,7 +27,8 @@ export function getSifou(type: string = '') {
         const votes = $(item).find('.votes-num').text().trim();
         let homeURL = $(item).find('.author a').attr('href').trim();
         const urlElm = $(item).find('.news__item-info.clearfix a');
-        const url = urlElm.first()[0].attribs.href;
+        const anchorElm = (urlElm.first()[0] as unknown as cheerio.TagElement);
+        const url = anchorElm.attribs.href;
 
         homeURL = homeURL ? `https://segmentfault.com${homeURL}` : '';
         resultData.push({ title, description, url: url ? `https://segmentfault.com${url}`: '', author, home_url: homeURL, votes, rank: idx + 1 });

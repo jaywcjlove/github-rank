@@ -3,7 +3,7 @@ import usersCache from '../.cache/users.json';
 import usersDist from '../dist/users.json';
 import usersChinaCache from '../.cache/users.china.json';
 import usersChinaDist from '../dist/users.china.json';
-import { saveUsersData } from './utils/saveUsersData';
+import { saveUsersData } from './utils/saveUsersData.js';
 
 ;(async () => {
   try {

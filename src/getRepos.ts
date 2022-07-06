@@ -1,6 +1,6 @@
-import { sleep, getReposData } from './utils';
-import { RepoData } from './common/props';
-import { saveData } from './utils/saveData';
+import { sleep, getReposData } from './utils/index.js';
+import { RepoData } from './common/props.js';
+import { saveData } from './utils/saveData.js';
 
 ;(async() => {
   let repos: RepoData[] = [];

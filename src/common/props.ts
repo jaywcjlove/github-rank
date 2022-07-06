@@ -1,10 +1,13 @@
-import { SearchUsersResponseData, UsersGetByUsernameResponseData, UsersGetAuthenticatedResponseData, SearchReposResponseData } from '@octokit/types';
+import { Endpoints } from "@octokit/types";
 
-export type UsersDataBase = SearchUsersResponseData['items'][0] & {
+type listReposResponse = Endpoints["GET /search/repositories"]["response"];
+type listUserReposResponse = Endpoints["GET /search/users"]["response"];
+
+export type UsersDataBase = listUserReposResponse["data"]["items"][0] & {
   rank?: number;
 }
 
-export type UsersData = Omit<UsersGetByUsernameResponseData, 'plan' | 'twitter_username'>  & {
+export type UsersData = Omit<UsersDataBase, 'plan' | 'twitter_username'>  & {
   rank?: number;
   twitter_username?: string;
   /**
@@ -16,4 +19,4 @@ export type UsersData = Omit<UsersGetByUsernameResponseData, 'plan' | 'twitter_u
   documentation_url?: string;
 }
 
-export type RepoData = SearchReposResponseData['items'][0];
+export type RepoData = listReposResponse['data']['items'][0];

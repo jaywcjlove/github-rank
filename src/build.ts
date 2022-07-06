@@ -7,8 +7,8 @@ import {
   creatSifouHTML,
   creatToutiaoHTML,
   creat36KrHTML,
-  ICreateFollowersHTML, IReposHTML, ICreateTrendingHTML } from './createHTML';
-import { ISifou } from './utils/getSifou';
+  ICreateFollowersHTML, IReposHTML, ICreateTrendingHTML } from './createHTML.js';
+import { ISifou } from './utils/getSifou.js';
 import usersDone from '../dist/users.json';
 import usersChinaDone from '../dist/users.china.json';
 import usersRIP from '../dist/users.rip.json';
@@ -20,7 +20,7 @@ import sifouDailyData from '../dist/sifou-daily.json';
 import sifouWeeklyData from '../dist/sifou-weekly.json';
 import sifouMonthlyData from '../dist/sifou-monthly.json';
 
-import { IToutiaoData, I36KrData } from './utils';
+import { IToutiaoData, I36KrData } from './utils/index.js';
 import toutiao7 from '../dist/toutiao-7.json';
 import toutiao30 from '../dist/toutiao-30.json';
 import toutiao90 from '../dist/toutiao-90.json';
