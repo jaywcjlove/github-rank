@@ -7,14 +7,15 @@ on:
       - v*
   schedule:
     - cron:  '0 0 6,12,18 * *'
+
 jobs:
   build-deploy:
     runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-node@v2
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
       with:
-        node-version: 14
+        node-version: 16
 
     - run: npm install
 
