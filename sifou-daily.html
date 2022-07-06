@@ -75,14 +75,6 @@
     .list li > div.info a:hover i { color: #333; }
     .list li div.sub-title { color: var(--color-theme-text); margin: 4px 0 0 0; }
     .list li div.avatar { padding-right: 10px; }
-    
-    
-    .list .select { }
-    .list .select .active { color: var(--color-theme-text); font-weight: bold; border-bottom: 1px dotted var(--color-border);}
-    
-    
-    
-    
     @keyframes octocat-wave {
       0%,100%{-webkit-transform:rotate(0); transform:rotate(0);}
       20%,60%{-webkit-transform:rotate(-25deg); transform:rotate(-25deg);}
@@ -92,6 +84,15 @@
       .title { padding-top: 16px; font-size: 21px; }
     }
   </style>
+  
+  
+  <style>
+    .list .select .active { color: var(--color-theme-text); font-weight: bold; border-bottom: 1px dotted var(--color-border);}
+  </style>
+  
+  
+  
+  
   <script src="https://unpkg.com/@wcj/dark-mode"></script>
 </head>
 <body>
@@ -116,7 +117,7 @@
     
     
   </h1>
-  <div class="time">Last cache created on 2022/7/5 by 
+  <div class="time">Last cache created on 2022/7/6 by 
     
     
     
@@ -147,7 +148,7 @@
     <div class="info">
       <div class="rank">
         <span title="Ranking 1">1</span>
-        <a href="https://segmentfault.com/a/1190000042065365" target="_blank" title="CSS层级小技巧！如何在滚动时自动添加头部阴影？">CSS层级小技巧！如何在滚动时自动添加头部阴影？</a>
+        <a href="https://segmentfault.com/a/1190000042070334" target="_blank" title="使用纯 CSS 实现超酷炫的粘性气泡效果">使用纯 CSS 实现超酷炫的粘性气泡效果</a>
       </div>
       <div class="sub-title followers">
         
@@ -161,12 +162,12 @@
           <span>11</span>
         </span>
         &nbsp;
-        <a target="_blank" href="https://segmentfault.com/u/xboxyan"  title="Programming Language">
-          <span>XboxYan</span>
+        <a target="_blank" href="https://segmentfault.com/u/chokcoco"  title="Programming Language">
+          <span>chokcoco</span>
         </a>
       </div>
       <div class="details">
-        在网页中，经常会用阴影来突出层级关系，特别是顶部导航，但有时候设计觉得没必要一开始就显示阴影，只有滚动后才出现。比如下面这个例子，注意观察头部阴影
+        最近，在 CodePen 上看到这样一个非常有意思的效果：这个效果的核心难点在于气泡的一种特殊融合效果。其源代码在：CodePen Demo -- Goey footer，作者主要使用的是 SVG 滤镜完成的该效果，感兴趣的可以戳源码看看...
       </div>
     </div>
   </li>
@@ -175,7 +176,7 @@
     <div class="info">
       <div class="rank">
         <span title="Ranking 2">2</span>
-        <a href="https://segmentfault.com/a/1190000042065327" target="_blank" title="runc hang 导致 Kubernetes 节点 NotReady">runc hang 导致 Kubernetes 节点 NotReady</a>
+        <a href="https://segmentfault.com/a/1190000042069856" target="_blank" title="使用CSS background实现炫酷悬停效果">使用CSS background实现炫酷悬停效果</a>
       </div>
       <div class="sub-title followers">
         
@@ -186,15 +187,15 @@
               <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
             </g>
           </svg>
-          <span>4</span>
+          <span>5</span>
         </span>
         &nbsp;
-        <a target="_blank" href="https://segmentfault.com/u/yunshu_blog"  title="Programming Language">
-          <span>云叔_又拍云</span>
+        <a target="_blank" href="https://segmentfault.com/u/nanchengfe"  title="Programming Language">
+          <span>南城大前端</span>
         </a>
       </div>
       <div class="details">
-        Kubernetes 1.19.3OS: CentOS 7.9.2009Kernel: 5.4.94-1.el7.elrepo.x86_64Docker: 20.10.6先说结论，runc v1.0.0-rc93 有 bug，会导致 docker hang 住。发现问题线上告警提示集群中存在 2-3 个 K8s 节点处于 Not...
+        日常开发过程中，会遇到不少按钮鼠标悬停的效果，实现这类悬停效果的方式有很多，借助伪元素，CSS3变换及过渡等都可以实现。今天的文章将使用背景色实现类似的效果，当我们遇到一个问题时，你的脑海中的方案不止...
       </div>
     </div>
   </li>
@@ -203,7 +204,7 @@
     <div class="info">
       <div class="rank">
         <span title="Ranking 3">3</span>
-        <a href="https://segmentfault.com/a/1190000042065274" target="_blank" title="反爬篇 | 手把手教你处理 JS 逆向之图片伪装">反爬篇 | 手把手教你处理 JS 逆向之图片伪装</a>
+        <a href="https://segmentfault.com/a/1190000042070687" target="_blank" title="Nginx 实战核心知识点整理（上）">Nginx 实战核心知识点整理（上）</a>
       </div>
       <div class="sub-title followers">
         
@@ -214,15 +215,15 @@
               <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
             </g>
           </svg>
-          <span>1</span>
+          <span>2</span>
         </span>
         &nbsp;
-        <a target="_blank" href="https://segmentfault.com/u/bianchengdandan"  title="Programming Language">
-          <span>Python技术大本营</span>
+        <a target="_blank" href="https://segmentfault.com/u/rhythm_2019"  title="Programming Language">
+          <span>Rhythm_2019</span>
         </a>
       </div>
       <div class="details">
-        aHR0cHM6Ly93d3cuZ3hyYy5jb20vam9iRGV0YWlsL2Q2NmExNjQxNzc2MjRlNzA4MzU5NWIzMjI1ZWJjMTBi
+        Nginx 作为一款高性能的代理软件，在工作中常被用做负载均衡器、正向反向代理。最近在看了一个关于 Nginx 的视频，老师讲得很不错。笔者也记录了一下整套课程的一些重点和自己的理解。
       </div>
     </div>
   </li>
@@ -231,7 +232,7 @@
     <div class="info">
       <div class="rank">
         <span title="Ranking 4">4</span>
-        <a href="https://segmentfault.com/a/1190000042063425" target="_blank" title="如何优雅地实现多数据库的发件箱模式">如何优雅地实现多数据库的发件箱模式</a>
+        <a href="https://segmentfault.com/a/1190000042073725" target="_blank" title="你还在为组件文档烦恼吗？">你还在为组件文档烦恼吗？</a>
       </div>
       <div class="sub-title followers">
         
@@ -245,12 +246,12 @@
           <span>1</span>
         </span>
         &nbsp;
-        <a target="_blank" href="https://segmentfault.com/u/yedongfu"  title="Programming Language">
-          <span>叶东富</span>
+        <a target="_blank" href="https://segmentfault.com/u/samonxian"  title="Programming Language">
+          <span>Samon</span>
         </a>
       </div>
       <div class="details">
-        一个微服务可能需要执行“存数据库”和“发送事件”两个步骤。例如发布一篇文章后，需要更新作者的发文统计信息。业务上要求两个操作同时失败，或者同时成功，而不能出现一个成功一个失败。假如最终文章发布了，更新...
+        从 0 到 1 搭建一个全新的组件库文档工具不是最优的选择，本人先在网上搜寻一些已有的解决方案。业务项目技术栈是基于 React，UI 库使用的是 Antd，下面是一些方案的汇总和分析：
       </div>
     </div>
   </li>
@@ -259,7 +260,7 @@
     <div class="info">
       <div class="rank">
         <span title="Ranking 5">5</span>
-        <a href="https://segmentfault.com/a/1190000042069210" target="_blank" title="Web 应用实时版本检测，这么做最方便">Web 应用实时版本检测，这么做最方便</a>
+        <a href="https://segmentfault.com/a/1190000042069792" target="_blank" title="Lepton 无损压缩原理及性能分析">Lepton 无损压缩原理及性能分析</a>
       </div>
       <div class="sub-title followers">
         
@@ -273,12 +274,12 @@
           <span>1</span>
         </span>
         &nbsp;
-        <a target="_blank" href="https://segmentfault.com/u/akimyou"  title="Programming Language">
-          <span>Myou_Aki</span>
+        <a target="_blank" href="https://segmentfault.com/u/vivo_tech"  title="Programming Language">
+          <span>vivo互联网技术</span>
         </a>
       </div>
       <div class="details">
-        经常会发生这样的情况: 当用户在浏览器中打开某 web 应用较长时间且未刷新页面, 在应用有新版本更新或问题修复时, 用户会无法及时知晓有新版发布, 导致用户继续使用旧的版本, 影响用户体验和后端数据准确性。
+        作者：vivo 互联网数据库团队- Li Shihai本文主要介绍无损压缩图片的概要流程和原理，以及Lepton无损压缩在前期调研中发现的问题和解决方案。一、从一个游戏开始1.1 游戏找茬请拿出你的秒表计时，在15秒时间内找...
       </div>
     </div>
   </li>
@@ -287,7 +288,7 @@
     <div class="info">
       <div class="rank">
         <span title="Ranking 6">6</span>
-        <a href="https://segmentfault.com/a/1190000042067919" target="_blank" title="uniapp 监听消息推送">uniapp 监听消息推送</a>
+        <a href="https://segmentfault.com/a/1190000042073871" target="_blank" title="Vim直接上手（一）：三种模式">Vim直接上手（一）：三种模式</a>
       </div>
       <div class="sub-title followers">
         
@@ -301,12 +302,12 @@
           <span>1</span>
         </span>
         &nbsp;
-        <a target="_blank" href="https://segmentfault.com/u/nongcha_5f009dd6254e5"  title="Programming Language">
-          <span>红尘戏子</span>
+        <a target="_blank" href="https://segmentfault.com/u/liberhome"  title="Programming Language">
+          <span>LiberHome</span>
         </a>
       </div>
       <div class="details">
-        1、监听消息推送，后端记得推送的模板是 ： 透传消息！透传消息！透传消息！2、我的需求是根据后端推送的数据，一旦有值就重新调用接口刷新页面数据。3、我这边是监听消息推送即可，所以用不到监听的数据，用了wa...
+        比如，我们直接在mac上的terminal上输入vim 1.txt,这样系统就会查找是否存在这个txt文件，有就打开，没有就创建一个再打开。
       </div>
     </div>
   </li>
@@ -315,7 +316,7 @@
     <div class="info">
       <div class="rank">
         <span title="Ranking 7">7</span>
-        <a href="https://segmentfault.com/a/1190000042067910" target="_blank" title="EMQX Newsletter 2022-06｜与 HStreamDB 集成、充电桩通信协议 OCPP 网关开发…">EMQX Newsletter 2022-06｜与 HStreamDB 集成、充电桩通信协议 OCPP 网关开发…</a>
+        <a href="https://segmentfault.com/a/1190000042073070" target="_blank" title="Vue 源码中的工具函数">Vue 源码中的工具函数</a>
       </div>
       <div class="sub-title followers">
         
@@ -326,15 +327,15 @@
               <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
             </g>
           </svg>
-          <span>1</span>
+          <span>2</span>
         </span>
         &nbsp;
-        <a target="_blank" href="https://segmentfault.com/u/emqx"  title="Programming Language">
-          <span>EMQX</span>
+        <a target="_blank" href="https://segmentfault.com/u/nuodun"  title="Programming Language">
+          <span>诺顿</span>
         </a>
       </div>
       <div class="details">
-        继 EMQX 5.0.0-rc.4 发布之后，v5.0 的开发工作已经接近尾声。除了继续优化 Dashboard 的 UI/UX 以提升使用体验，和测试并修复各项 Bug 以提升软件稳定性以外，EMQX 团队也在对用户文档进行全面的改进和更新，不...
+        在 Vue 源码中，封装了很多工具函数，学习这些函数，一方面学习大佬们的实现方式，另一方面是温习基础知识，希望大家在日常工作中，简单的函数也可以自己封装，提高编码能力。
       </div>
     </div>
   </li>
@@ -343,7 +344,7 @@
     <div class="info">
       <div class="rank">
         <span title="Ranking 8">8</span>
-        <a href="https://segmentfault.com/a/1190000042067688" target="_blank" title="uniapp PDA广播扫码">uniapp PDA广播扫码</a>
+        <a href="https://segmentfault.com/a/1190000042072196" target="_blank" title="下一个行业风口：NFT 数字藏品，是机遇还是泡沫？">下一个行业风口：NFT 数字藏品，是机遇还是泡沫？</a>
       </div>
       <div class="sub-title followers">
         
@@ -357,12 +358,12 @@
           <span>1</span>
         </span>
         &nbsp;
-        <a target="_blank" href="https://segmentfault.com/u/nongcha_5f009dd6254e5"  title="Programming Language">
-          <span>红尘戏子</span>
+        <a target="_blank" href="https://segmentfault.com/u/qcloudcommunity"  title="Programming Language">
+          <span>腾讯云加社区</span>
         </a>
       </div>
       <div class="details">
-        1、需求是：App监听东大PDA内置的扫描工具，通过扫描工具扫描条码，把数据自动赋值在input输入框，无需手动设置或者调用uniapp的uni.scanCode({})去赋值2、这里声明下，在封装的JS里面，你需要知道你的PDA的广播...
+        2021年3月，艺术家Beeple花费5000多天制成的作品《每一天：前5000天》，作为史上第一件公开拍卖的纯数字艺术品，在顶级拍卖行佳士得以高达6900万美元（约合4.5亿人民币）的天价成交，刷新了网上拍卖成交最高作品...
       </div>
     </div>
   </li>
@@ -371,7 +372,7 @@
     <div class="info">
       <div class="rank">
         <span title="Ranking 9">9</span>
-        <a href="https://segmentfault.com/a/1190000042065187" target="_blank" title="uniapp 使用websocket请求">uniapp 使用websocket请求</a>
+        <a href="https://segmentfault.com/a/1190000042071370" target="_blank" title="PHP后端面试85问">PHP后端面试85问</a>
       </div>
       <div class="sub-title followers">
         
@@ -385,12 +386,12 @@
           <span>1</span>
         </span>
         &nbsp;
-        <a target="_blank" href="https://segmentfault.com/u/nongcha_5f009dd6254e5"  title="Programming Language">
-          <span>红尘戏子</span>
+        <a target="_blank" href="https://segmentfault.com/u/itxiaoma"  title="Programming Language">
+          <span>IT小马</span>
         </a>
       </div>
       <div class="details">
-        1.此处说下我的需求：是通过websocket接受后端传递的数据，赋值到input输入框，然后再进行一系列的操作，如果websocket链接失败则弹窗提示，并且无限建立心跳链接，不允许断开。废话不多直接代码截图。
+        替换原则(the Liskov Substitution Principle LSP) ：子类应当可以替换父类并出现在父类能够出现的任何地方。
       </div>
     </div>
   </li>
@@ -399,7 +400,7 @@
     <div class="info">
       <div class="rank">
         <span title="Ranking 10">10</span>
-        <a href="https://segmentfault.com/a/1190000042064534" target="_blank" title="K8S 生态周报| Ingress NGINX 项目暂停接收新功能将专注于稳定性提升">K8S 生态周报| Ingress NGINX 项目暂停接收新功能将专注于稳定性提升</a>
+        <a href="https://segmentfault.com/a/1190000042070708" target="_blank" title="Redis常见指令">Redis常见指令</a>
       </div>
       <div class="sub-title followers">
         
@@ -413,12 +414,12 @@
           <span>1</span>
         </span>
         &nbsp;
-        <a target="_blank" href="https://segmentfault.com/u/moelove"  title="Programming Language">
-          <span>张晋涛</span>
+        <a target="_blank" href="https://segmentfault.com/u/liberhome"  title="Programming Language">
+          <span>LiberHome</span>
         </a>
       </div>
       <div class="details">
-        「K8S 生态周报」内容主要包含我所接触到的 K8S 生态相关的每周值得推荐的一些信息。欢迎订阅专栏「k8s生态」。题外话大家好，我是张晋涛。本次我将这个部分放在开头。聊聊最近的一些情况。「K8S 生态周报」暂停...
+        KEYS :查询符合模板要求的所有key类似正则 （由于Redis是单线程，这样在大规模数据的查询中会导致阻塞，所以强烈不推荐在生产环境中使用）
       </div>
     </div>
   </li>
@@ -427,7 +428,7 @@
     <div class="info">
       <div class="rank">
         <span title="Ranking 11">11</span>
-        <a href="https://segmentfault.com/a/1190000042064332" target="_blank" title="golang 简洁架构介绍">golang 简洁架构介绍</a>
+        <a href="https://segmentfault.com/a/1190000042074179" target="_blank" title="“李记餐厅”微信点餐小程序+后台管理系统">“李记餐厅”微信点餐小程序+后台管理系统</a>
       </div>
       <div class="sub-title followers">
         
@@ -441,124 +442,12 @@
           <span>1</span>
         </span>
         &nbsp;
-        <a target="_blank" href="https://segmentfault.com/u/ucmir183"  title="Programming Language">
-          <span>ucmir183</span>
+        <a target="_blank" href="https://segmentfault.com/u/ouyangxiaobai"  title="Programming Language">
+          <span>欧阳小白</span>
         </a>
       </div>
       <div class="details">
-        在 go 开发中，首先遇到的一个问题，应该怎么设计开发架构。一个好的架构可以在后续的项目开发中能够更好的使用项目的推进，同时能够让团队的配合更加的顺利。
-      </div>
-    </div>
-  </li>
-  
-  <li>
-    <div class="info">
-      <div class="rank">
-        <span title="Ranking 12">12</span>
-        <a href="https://segmentfault.com/a/1190000042069019" target="_blank" title="这个高颜值的开源第三方网易云音乐播放器你值得拥有">这个高颜值的开源第三方网易云音乐播放器你值得拥有</a>
-      </div>
-      <div class="sub-title followers">
-        
-        <span title="Stargazers Count">
-          <svg width="12" height="12" viewBox="0 0 16 16">
-            <g fill="none" fill-rule="evenodd">
-              <path d="M0 0h16v16H0z"/>
-              <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
-            </g>
-          </svg>
-          <span>1</span>
-        </span>
-        &nbsp;
-        <a target="_blank" href="https://segmentfault.com/u/jiejiaoxiaolin"  title="Programming Language">
-          <span>街角小林</span>
-        </a>
-      </div>
-      <div class="details">
-        我平时主要的听歌软件是网易云音乐，但是它有很多花里胡哨的功能，比如电台、直播、朋友、播客、云村等等，说实话这些我都不需要，基本也不会用，大部分的时间都只把它当做一个本地播放器，因为它毕竟是一个商业...
-      </div>
-    </div>
-  </li>
-  
-  <li>
-    <div class="info">
-      <div class="rank">
-        <span title="Ranking 13">13</span>
-        <a href="https://segmentfault.com/a/1190000042068327" target="_blank" title="sso单点登录">sso单点登录</a>
-      </div>
-      <div class="sub-title followers">
-        
-        <span title="Stargazers Count">
-          <svg width="12" height="12" viewBox="0 0 16 16">
-            <g fill="none" fill-rule="evenodd">
-              <path d="M0 0h16v16H0z"/>
-              <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
-            </g>
-          </svg>
-          <span>1</span>
-        </span>
-        &nbsp;
-        <a target="_blank" href="https://segmentfault.com/u/zhaokaiqiang"  title="Programming Language">
-          <span>小强Zzz</span>
-        </a>
-      </div>
-      <div class="details">
-        sso，Single Sign On，单点登录。简单来说，就是当我们有多个系统时，我们每个系统都需要单独登录非常麻烦，那么我们去单独做一个登录系统，我们叫做sso，这个登录系统可以登录多个其他系统，并且访问多个系统只...
-      </div>
-    </div>
-  </li>
-  
-  <li>
-    <div class="info">
-      <div class="rank">
-        <span title="Ranking 14">14</span>
-        <a href="https://segmentfault.com/a/1190000042067210" target="_blank" title="总结一下本周遇到的问题">总结一下本周遇到的问题</a>
-      </div>
-      <div class="sub-title followers">
-        
-        <span title="Stargazers Count">
-          <svg width="12" height="12" viewBox="0 0 16 16">
-            <g fill="none" fill-rule="evenodd">
-              <path d="M0 0h16v16H0z"/>
-              <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
-            </g>
-          </svg>
-          <span>1</span>
-        </span>
-        &nbsp;
-        <a target="_blank" href="https://segmentfault.com/u/pluto_612f55567eb8c"  title="Programming Language">
-          <span>李明</span>
-        </a>
-      </div>
-      <div class="details">
-        起初认为是我在修改中错误的修改了一些地方，寻找无果后直接用ng new project新建一个项目进行测试，由于我本地的angular cli没有更新，还是之前安装的angular 11 版本，新建完项目后直接执行ng test发现没有任何...
-      </div>
-    </div>
-  </li>
-  
-  <li>
-    <div class="info">
-      <div class="rank">
-        <span title="Ranking 15">15</span>
-        <a href="https://segmentfault.com/a/1190000042065079" target="_blank" title="2022年中总结关键词：裁员、年终奖、晋升、涨薪、疫情">2022年中总结关键词：裁员、年终奖、晋升、涨薪、疫情</a>
-      </div>
-      <div class="sub-title followers">
-        
-        <span title="Stargazers Count">
-          <svg width="12" height="12" viewBox="0 0 16 16">
-            <g fill="none" fill-rule="evenodd">
-              <path d="M0 0h16v16H0z"/>
-              <path fill="#9E9E9E" d="M4.234 6.693v7.243H2.881c-.486 0-.881-.492-.881-1.095V7.875c0-.63.412-1.182.88-1.182h1.354zm3.688-3.7C8.01 2.404 8.49 1.99 9.018 2c.754.015 1.204.663 1.36.983.284.585.292 1.549.097 2.167-.177.56-.586 1.296-.586 1.296h3.066c.324 0 .625.164.826.449.204.29.27.668.178 1.011l-1.387 5.183c-.126.499-.544.847-1.016.847H5.53V6.693c1.385-.309 2.236-2.632 2.392-3.7z"/>
-            </g>
-          </svg>
-          <span>1</span>
-        </span>
-        &nbsp;
-        <a target="_blank" href="https://segmentfault.com/u/yangyaya"  title="Programming Language">
-          <span>阳呀呀</span>
-        </a>
-      </div>
-      <div class="details">
-        2022年转眼过去了一半，又到了年中总结的时候。上半年可以概括为在关注公司裁员、等待发年终奖、准备专业晋升、等待聊涨薪、迁移项目、疫情导致在家办公中一点点渡过的。接下来就一一来聊一下吧~
+        系统说明本系统的设计主要是用于小型餐厅点餐，是基于微信小程序开发的。对于普通用户来说，需要系统可以进行菜单浏览、菜品详情查看、下单以及对菜品评价、搜索需要的菜品。对商家来说，则需要对用户进行审核、...
       </div>
     </div>
   </li>
@@ -579,7 +468,7 @@
         <img src="https://img.shields.io/npm/v/@wcj/github-rank.svg?label=unpkg">
       </a>
     </div>
-    <div class="time">Last cache created on 2022/7/5 by Github API v3.</div>
+    <div class="time">Last cache created on 2022/7/6 by Github API v3.</div>
     Create by <a href="https://github.com/jaywcjlove" target="_blank">小弟调调™</a>.
   </div>
 </body>
