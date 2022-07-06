@@ -201,23 +201,3 @@ export function getToutiaoData(day: number = 7) {
       return toutiaoData;
     });
 }
-
-export interface I36KrData {
-  id: number;
-  title: string;
-  description: string;
-  created_at: string;
-  [key: string]: any;
-}
-
-export function get36KrData(page: number = 100): Promise<I36KrData[]> {
-  return fetch(`https://36kr.com/pp/api/newsflash?per_page=${page}`)
-    .then(res => res.json())
-    .then((data: any) => {
-      if (data && data.data && data.data.items) {
-        return data.data.items;
-      } else {
-        return [];
-      }
-    });
-}

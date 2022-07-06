@@ -6,7 +6,6 @@ import {
   creatTrendingHTML,
   creatSifouHTML,
   creatToutiaoHTML,
-  creat36KrHTML,
   ICreateFollowersHTML, IReposHTML, ICreateTrendingHTML } from './createHTML.js';
 import { ISifou } from './utils/getSifou.js';
 import usersDone from '../dist/users.json' assert { type: "json" };
@@ -20,12 +19,10 @@ import sifouDailyData from '../dist/sifou-daily.json' assert { type: "json" };
 import sifouWeeklyData from '../dist/sifou-weekly.json' assert { type: "json" };
 import sifouMonthlyData from '../dist/sifou-monthly.json' assert { type: "json" };
 
-import { IToutiaoData, I36KrData } from './utils/index.js';
+import { IToutiaoData } from './utils/index.js';
 import toutiao7 from '../dist/toutiao-7.json' assert { type: "json" };
 import toutiao30 from '../dist/toutiao-30.json' assert { type: "json" };
 import toutiao90 from '../dist/toutiao-90.json' assert { type: "json" };
-
-import krData from '../dist/36kr.json' assert { type: "json" };
 
 function markDeath(data: ICreateFollowersHTML[] = []) {
   return data.map(item => {
@@ -111,13 +108,6 @@ function markDeath(data: ICreateFollowersHTML[] = []) {
     html = creatToutiaoHTML(toutiao, 90);
     FS.outputFileSync(path.join(process.cwd(), 'web', 'toutiao-90.html'), html);
     console.log(`> 头条 90 趋势榜，页面生成成功！共${sifou.length}条数据！`);
-
-    console.log(`> ------------------`)
-
-    let kr: I36KrData[] = [...krData];
-    html = creat36KrHTML(kr);
-    FS.outputFileSync(path.join(process.cwd(), 'web', '36kr.html'), html);
-    console.log(`> 36Kr快讯，页面生成成功！共${kr.length}条数据！`);
 
   } catch (error) {
     console.log(error);

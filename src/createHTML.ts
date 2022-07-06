@@ -4,7 +4,7 @@ import ejs from 'ejs';
 import { fileURLToPath } from 'url';
 import { ISifou } from './utils/getSifou.js';
 
-import { IToutiaoData, I36KrData } from './utils/index.js';
+import { IToutiaoData } from './utils/index.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -71,11 +71,4 @@ export function creatToutiaoHTML(data: IToutiaoData[], day: number = 7) {
   const filename: string = path.join(rootPath, `toutiao.ejs`);
   const tmpStr: string = FS.readFileSync(filename).toString();
   return ejs.render(tmpStr, { title: `开发者头条 - 最近${day}天热门分享`, data, date: dateStr, day }, { filename });
-}
-
-
-export function creat36KrHTML(data: I36KrData[]) {
-  const filename: string = path.join(rootPath, `36kr.ejs`);
-  const tmpStr: string = FS.readFileSync(filename).toString();
-  return ejs.render(tmpStr, { title: `36Kr快讯`, data, date: dateStr }, { filename });
 }
