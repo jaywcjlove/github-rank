@@ -9,23 +9,23 @@ import {
   creat36KrHTML,
   ICreateFollowersHTML, IReposHTML, ICreateTrendingHTML } from './createHTML.js';
 import { ISifou } from './utils/getSifou.js';
-import usersDone from '../dist/users.json';
-import usersChinaDone from '../dist/users.china.json';
-import usersRIP from '../dist/users.rip.json';
-import reposData from '../dist/repos.json';
-import trendingDailyData from '../dist/trending-daily.json';
-import trendingWeeklyData from '../dist/trending-weekly.json';
-import trendingMonthlyData from '../dist/trending-monthly.json';
-import sifouDailyData from '../dist/sifou-daily.json';
-import sifouWeeklyData from '../dist/sifou-weekly.json';
-import sifouMonthlyData from '../dist/sifou-monthly.json';
+import usersDone from '../dist/users.json' assert { type: "json" };
+import usersChinaDone from '../dist/users.china.json' assert { type: "json" };
+import usersRIP from '../dist/users.rip.json' assert { type: "json" };
+import reposData from '../dist/repos.json' assert { type: "json" };
+import trendingDailyData from '../dist/trending-daily.json' assert { type: "json" };
+import trendingWeeklyData from '../dist/trending-weekly.json' assert { type: "json" };
+import trendingMonthlyData from '../dist/trending-monthly.json' assert { type: "json" };
+import sifouDailyData from '../dist/sifou-daily.json' assert { type: "json" };
+import sifouWeeklyData from '../dist/sifou-weekly.json' assert { type: "json" };
+import sifouMonthlyData from '../dist/sifou-monthly.json' assert { type: "json" };
 
 import { IToutiaoData, I36KrData } from './utils/index.js';
-import toutiao7 from '../dist/toutiao-7.json';
-import toutiao30 from '../dist/toutiao-30.json';
-import toutiao90 from '../dist/toutiao-90.json';
+import toutiao7 from '../dist/toutiao-7.json' assert { type: "json" };
+import toutiao30 from '../dist/toutiao-30.json' assert { type: "json" };
+import toutiao90 from '../dist/toutiao-90.json' assert { type: "json" };
 
-import krData from '../dist/36kr.json';
+import krData from '../dist/36kr.json' assert { type: "json" };
 
 function markDeath(data: ICreateFollowersHTML[] = []) {
   return data.map(item => {

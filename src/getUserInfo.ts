@@ -1,8 +1,8 @@
 import { UsersDataBase, UsersData } from './common/props';
-import usersCache from '../.cache/users.json';
-import usersDist from '../dist/users.json';
-import usersChinaCache from '../.cache/users.china.json';
-import usersChinaDist from '../dist/users.china.json';
+import usersCache from '../.cache/users.json' assert { type: "json" };
+import usersDist from '../dist/users.json' assert { type: "json" };
+import usersChinaCache from '../.cache/users.china.json' assert { type: "json" };
+import usersChinaDist from '../dist/users.china.json' assert { type: "json" };
 import { saveUsersData } from './utils/saveUsersData.js';
 
 ;(async () => {
