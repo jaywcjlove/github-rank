@@ -14,7 +14,7 @@
     "url": "https://segmentfault.com/a/1190000041974425",
     "author": "水冗水孚",
     "home_url": "https://segmentfault.com/u/shuirongshui",
-    "votes": "29",
+    "votes": "30",
     "rank": 2
   },
   {
@@ -63,13 +63,31 @@
     "rank": 7
   },
   {
+    "title": "使用纯 CSS 实现超酷炫的粘性气泡效果",
+    "description": "最近，在 CodePen 上看到这样一个非常有意思的效果：这个效果的核心难点在于气泡的一种特殊融合效果。其源代码在：CodePen Demo -- Goey footer，作者主要使用的是 SVG 滤镜完成的该效果，感兴趣的可以戳源码看看...",
+    "url": "https://segmentfault.com/a/1190000042070334",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "17",
+    "rank": 8
+  },
+  {
+    "title": "switch 有四样写法你知道么",
+    "description": "我所知道的 JavaScript 的 switch 语句只有一种写法。但要说到对分支的处理，写法可就多了去了。if 分支写法可以算一种，switch 分支写法可以算第二种，第三种是使用策略模式，如果要把条件运算符也算上的话，嗯...",
+    "url": "https://segmentfault.com/a/1190000042055258",
+    "author": "边城",
+    "home_url": "https://segmentfault.com/u/jamesfancy",
+    "votes": "14",
+    "rank": 9
+  },
+  {
     "title": "JS实现将文本或JSON内容下载到文件中",
     "description": "有时候在前端开发过程中，可能遇到这样的需求场景：需要将页面上的文本内容下载到文件中，内容可能是某个大的文本字段，比如博客文章，也可能是后端接口返回的 JSON 数据。",
     "url": "https://segmentfault.com/a/1190000041965165",
     "author": "十方",
     "home_url": "https://segmentfault.com/u/shifang_5b2b70d160932",
     "votes": "11",
-    "rank": 8
+    "rank": 10
   },
   {
     "title": "让拖拽更加人性化？如何自定义dragover样式",
@@ -78,16 +96,16 @@
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
     "votes": "12",
-    "rank": 9
+    "rank": 11
   },
   {
-    "title": "switch 有四样写法你知道么",
-    "description": "我所知道的 JavaScript 的 switch 语句只有一种写法。但要说到对分支的处理，写法可就多了去了。if 分支写法可以算一种，switch 分支写法可以算第二种，第三种是使用策略模式，如果要把条件运算符也算上的话，嗯...",
-    "url": "https://segmentfault.com/a/1190000042055258",
-    "author": "边城",
-    "home_url": "https://segmentfault.com/u/jamesfancy",
-    "votes": "12",
-    "rank": 10
+    "title": "CSS层级小技巧！如何在滚动时自动添加头部阴影？",
+    "description": "在网页中，经常会用阴影来突出层级关系，特别是顶部导航，但有时候设计觉得没必要一开始就显示阴影，只有滚动后才出现。比如下面这个例子，注意观察头部阴影",
+    "url": "https://segmentfault.com/a/1190000042065365",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "16",
+    "rank": 12
   },
   {
     "title": "干货合集│最好用的 python 库都在这",
@@ -96,7 +114,7 @@
     "author": "极客飞兔",
     "home_url": "https://segmentfault.com/u/autofelix",
     "votes": "11",
-    "rank": 11
+    "rank": 13
   },
   {
     "title": "这个队列的思路是真的好，现在它是我简历上的亮点了。",
@@ -105,7 +123,7 @@
     "author": "why技术",
     "home_url": "https://segmentfault.com/u/whyjishu",
     "votes": "12",
-    "rank": 12
+    "rank": 14
   },
   {
     "title": "视觉还原小技巧！CSS 实现角标效果",
@@ -114,7 +132,7 @@
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
     "votes": "15",
-    "rank": 13
+    "rank": 15
   },
   {
     "title": "Redis都有哪些使用场景",
@@ -123,7 +141,7 @@
     "author": "7small7",
     "home_url": "https://segmentfault.com/u/7small7",
     "votes": "10",
-    "rank": 14
+    "rank": 16
   },
   {
     "title": "React Suspense 尝鲜,处理前后端IO异步操作",
@@ -132,7 +150,7 @@
     "author": "葡萄城技术团队",
     "home_url": "https://segmentfault.com/u/grapecity",
     "votes": "7",
-    "rank": 15
+    "rank": 17
   },
   {
     "title": "亚马逊云科技：“云+数+AI”助力企业数智化转型",
@@ -141,24 +159,6 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "11",
-    "rank": 16
-  },
-  {
-    "title": "有意思的鼠标指针交互探究",
-    "description": "今天，来实现这样一个有意思的交互效果：将原本的鼠标指针样式，修改成自己想要的效果，并且添加上一些特殊的交互效果。修改鼠标样式首先，第一个问题，我们可以看到，上图中，鼠标指针的样式被修改成了一个圆点...",
-    "url": "https://segmentfault.com/a/1190000042012558",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "12",
-    "rank": 17
-  },
-  {
-    "title": "CSS层级小技巧！如何在滚动时自动添加头部阴影？",
-    "description": "在网页中，经常会用阴影来突出层级关系，特别是顶部导航，但有时候设计觉得没必要一开始就显示阴影，只有滚动后才出现。比如下面这个例子，注意观察头部阴影",
-    "url": "https://segmentfault.com/a/1190000042065365",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "15",
     "rank": 18
   },
   {
@@ -171,13 +171,22 @@
     "rank": 19
   },
   {
+    "title": "有意思的鼠标指针交互探究",
+    "description": "今天，来实现这样一个有意思的交互效果：将原本的鼠标指针样式，修改成自己想要的效果，并且添加上一些特殊的交互效果。修改鼠标样式首先，第一个问题，我们可以看到，上图中，鼠标指针的样式被修改成了一个圆点...",
+    "url": "https://segmentfault.com/a/1190000042012558",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "12",
+    "rank": 20
+  },
+  {
     "title": "前端性能监测，Runtime Performance Debug 技巧",
     "description": "提到 Web 前端的效能优化，有许多的技巧是聚焦在如何减少页面的“载入时间 Loading Time”，例如 Code Splitting 透过减少需要载入的 Bundle Size 来加快载入效能。也有些技巧是针对执行时期 (Runtime) 的优化与调...",
     "url": "https://segmentfault.com/a/1190000041990709",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "11",
-    "rank": 20
+    "rank": 21
   },
   {
     "title": "SegmentFault 思否社区 10 周年 | 寄语有奖获奖名单公布，快来领奖~",
@@ -186,15 +195,6 @@
     "author": "SegmentFault思否",
     "home_url": "https://segmentfault.com/u/segmentfault",
     "votes": "7",
-    "rank": 21
-  },
-  {
-    "title": "JavaScript精度丢失原因以及解决方案",
-    "description": "由于计算机的底层是由二进制实现的，有些运算的数字无法全部显示出来。就像一些无理数不能完全显示出来一样，如圆周率 3.1415926...，0.3333... 等。JavaScript遵循IEEE754规范，采用双精度存储（double precisio...",
-    "url": "https://segmentfault.com/a/1190000041941297",
-    "author": "沉静地闪光",
-    "home_url": "https://segmentfault.com/u/007008",
-    "votes": "11",
     "rank": 22
   },
   {
