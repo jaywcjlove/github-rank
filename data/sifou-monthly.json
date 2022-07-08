@@ -5,7 +5,7 @@
     "url": "https://segmentfault.com/a/1190000041947673",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "43",
+    "votes": "44",
     "rank": 1
   },
   {
@@ -14,16 +14,16 @@
     "url": "https://segmentfault.com/a/1190000041974425",
     "author": "水冗水孚",
     "home_url": "https://segmentfault.com/u/shuirongshui",
-    "votes": "30",
+    "votes": "31",
     "rank": 2
   },
   {
-    "title": "CSS 实现头像名称首字符自动占位",
-    "description": "在 web 中经常会见到这样的设计，很多 UI 组件库也称之为 Avator 组件，也就是头像的意思，当头像未设置时，会显示名称的首字符充当默认头像，如下所示：",
-    "url": "https://segmentfault.com/a/1190000041940807",
+    "title": "CSS实现可拉伸调整尺寸的分栏布局",
+    "description": "很多页面布局，特别是那种工具类的、比如编辑器、可视化平台等，为了充分的利用屏幕空间，都会提供拖拽调节各个分栏尺寸的功能，比如像 vscode",
+    "url": "https://segmentfault.com/a/1190000042006775",
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "26",
+    "votes": "30",
     "rank": 3
   },
   {
@@ -36,21 +36,21 @@
     "rank": 4
   },
   {
-    "title": "CSS实现可拉伸调整尺寸的分栏布局",
-    "description": "很多页面布局，特别是那种工具类的、比如编辑器、可视化平台等，为了充分的利用屏幕空间，都会提供拖拽调节各个分栏尺寸的功能，比如像 vscode",
-    "url": "https://segmentfault.com/a/1190000042006775",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "27",
-    "rank": 5
-  },
-  {
     "title": "掘地三尺搞定 Redis 与 MySQL 数据一致性问题",
     "description": "Redis 拥有高性能的数据读写功能，被我们广泛用在缓存场景，一是能提高业务系统的性能，二是为数据库抵挡了高并发的流量请求，点我 -> 解密 Redis 为什么这么快的秘密。把 Redis 作为缓存组件，需要防止出现以...",
     "url": "https://segmentfault.com/a/1190000041998615",
     "author": "码哥字节",
     "home_url": "https://segmentfault.com/u/magebyte",
     "votes": "22",
+    "rank": 5
+  },
+  {
+    "title": "CSS层级小技巧！如何在滚动时自动添加头部阴影？",
+    "description": "在网页中，经常会用阴影来突出层级关系，特别是顶部导航，但有时候设计觉得没必要一开始就显示阴影，只有滚动后才出现。比如下面这个例子，注意观察头部阴影",
+    "url": "https://segmentfault.com/a/1190000042065365",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "18",
     "rank": 6
   },
   {
@@ -72,13 +72,22 @@
     "rank": 8
   },
   {
+    "title": "让拖拽更加人性化？如何自定义dragover样式",
+    "description": "欢迎关注微信公众号： 前端侦探在 web 开发中，经常会碰到需要拖拽的场景。为了更好的体验，拖拽区域需要有一定的变化提示，告诉用户：\"现在可以放在这里了~\"，例如这样的之前在这篇文章讲述了如何自定义 drag 样...",
+    "url": "https://segmentfault.com/a/1190000041974546",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "13",
+    "rank": 9
+  },
+  {
     "title": "switch 有四样写法你知道么",
     "description": "我所知道的 JavaScript 的 switch 语句只有一种写法。但要说到对分支的处理，写法可就多了去了。if 分支写法可以算一种，switch 分支写法可以算第二种，第三种是使用策略模式，如果要把条件运算符也算上的话，嗯...",
     "url": "https://segmentfault.com/a/1190000042055258",
     "author": "边城",
     "home_url": "https://segmentfault.com/u/jamesfancy",
     "votes": "14",
-    "rank": 9
+    "rank": 10
   },
   {
     "title": "JS实现将文本或JSON内容下载到文件中",
@@ -87,25 +96,7 @@
     "author": "十方",
     "home_url": "https://segmentfault.com/u/shifang_5b2b70d160932",
     "votes": "11",
-    "rank": 10
-  },
-  {
-    "title": "让拖拽更加人性化？如何自定义dragover样式",
-    "description": "欢迎关注微信公众号： 前端侦探在 web 开发中，经常会碰到需要拖拽的场景。为了更好的体验，拖拽区域需要有一定的变化提示，告诉用户：\"现在可以放在这里了~\"，例如这样的之前在这篇文章讲述了如何自定义 drag 样...",
-    "url": "https://segmentfault.com/a/1190000041974546",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "12",
     "rank": 11
-  },
-  {
-    "title": "CSS层级小技巧！如何在滚动时自动添加头部阴影？",
-    "description": "在网页中，经常会用阴影来突出层级关系，特别是顶部导航，但有时候设计觉得没必要一开始就显示阴影，只有滚动后才出现。比如下面这个例子，注意观察头部阴影",
-    "url": "https://segmentfault.com/a/1190000042065365",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "16",
-    "rank": 12
   },
   {
     "title": "干货合集│最好用的 python 库都在这",
@@ -114,16 +105,7 @@
     "author": "极客飞兔",
     "home_url": "https://segmentfault.com/u/autofelix",
     "votes": "11",
-    "rank": 13
-  },
-  {
-    "title": "这个队列的思路是真的好，现在它是我简历上的亮点了。",
-    "description": "你好呀，我是歪歪。前几天在一个开源项目的 github 里面看到这样的一个 pr：光是看这个名字，里面有个 MemorySafe，我就有点陷进去了。我先给你看看这个东西：这个肯定很眼熟吧？我是从阿里巴巴开发规范中截的图...",
-    "url": "https://segmentfault.com/a/1190000041943100",
-    "author": "why技术",
-    "home_url": "https://segmentfault.com/u/whyjishu",
-    "votes": "12",
-    "rank": 14
+    "rank": 12
   },
   {
     "title": "视觉还原小技巧！CSS 实现角标效果",
@@ -132,7 +114,7 @@
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
     "votes": "15",
-    "rank": 15
+    "rank": 13
   },
   {
     "title": "Redis都有哪些使用场景",
@@ -141,7 +123,7 @@
     "author": "7small7",
     "home_url": "https://segmentfault.com/u/7small7",
     "votes": "10",
-    "rank": 16
+    "rank": 14
   },
   {
     "title": "React Suspense 尝鲜,处理前后端IO异步操作",
@@ -150,7 +132,7 @@
     "author": "葡萄城技术团队",
     "home_url": "https://segmentfault.com/u/grapecity",
     "votes": "7",
-    "rank": 17
+    "rank": 15
   },
   {
     "title": "亚马逊云科技：“云+数+AI”助力企业数智化转型",
@@ -159,7 +141,7 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "11",
-    "rank": 18
+    "rank": 16
   },
   {
     "title": "叮~您有一封Vue.js挑战邀请函,请查收",
@@ -168,7 +150,7 @@
     "author": "null仔",
     "home_url": "https://segmentfault.com/u/xiaoqianduan_58b28cfebff36",
     "votes": "10",
-    "rank": 19
+    "rank": 17
   },
   {
     "title": "有意思的鼠标指针交互探究",
@@ -177,7 +159,16 @@
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
     "votes": "12",
-    "rank": 20
+    "rank": 18
+  },
+  {
+    "title": "SegmentFault 思否技术周刊 -- 超实用 Vue 合集，请查收",
+    "description": "Vue.js 是一个用于创建 web 交互界面的工具。其特点是简洁 HTML 模板 + JSON 数据，再创建一个 Vue 实例，就这么简单。数据驱动 自动追踪依赖的模板表达式和计算属性。组件化 用解耦、可复用的组件来构造界面。轻...",
+    "url": "https://segmentfault.com/a/1190000042048392",
+    "author": "Beverly",
+    "home_url": "https://segmentfault.com/u/beverly0",
+    "votes": "8",
+    "rank": 19
   },
   {
     "title": "前端性能监测，Runtime Performance Debug 技巧",
@@ -186,7 +177,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "11",
-    "rank": 21
+    "rank": 20
   },
   {
     "title": "SegmentFault 思否社区 10 周年 | 寄语有奖获奖名单公布，快来领奖~",
@@ -195,16 +186,7 @@
     "author": "SegmentFault思否",
     "home_url": "https://segmentfault.com/u/segmentfault",
     "votes": "7",
-    "rank": 22
-  },
-  {
-    "title": "SegmentFault 思否技术周刊 -- 超实用 Vue 合集，请查收",
-    "description": "Vue.js 是一个用于创建 web 交互界面的工具。其特点是简洁 HTML 模板 + JSON 数据，再创建一个 Vue 实例，就这么简单。数据驱动 自动追踪依赖的模板表达式和计算属性。组件化 用解耦、可复用的组件来构造界面。轻...",
-    "url": "https://segmentfault.com/a/1190000042048392",
-    "author": "Beverly",
-    "home_url": "https://segmentfault.com/u/beverly0",
-    "votes": "7",
-    "rank": 23
+    "rank": 21
   },
   {
     "title": "云计算的未来在哪？破解亚马逊云科技增长神话",
@@ -213,7 +195,7 @@
     "author": "六一",
     "home_url": "https://segmentfault.com/u/suicidal_romantic_scoundrel",
     "votes": "9",
-    "rank": 24
+    "rank": 22
   },
   {
     "title": "SegmentFault 思否技术周刊 -- Node.js 进阶之旅，看看哪些还需要学？",
@@ -222,7 +204,7 @@
     "author": "Beverly",
     "home_url": "https://segmentfault.com/u/beverly0",
     "votes": "6",
-    "rank": 25
+    "rank": 23
   },
   {
     "title": "玩转 AbortController 控制器",
@@ -231,16 +213,7 @@
     "author": "jump__jump",
     "home_url": "https://segmentfault.com/u/jump_and_jump",
     "votes": "6",
-    "rank": 26
-  },
-  {
-    "title": "精读《type challenges - easy》",
-    "description": "TS 强类型非常好用，但在实际运用中，免不了遇到一些难以描述，反复看官方文档也解决不了的问题，至今为止也没有任何一篇文档，或者一套教材可以解决所有犄角旮旯的类型问题。为什么会这样呢？因为 TS 并不是简单...",
-    "url": "https://segmentfault.com/a/1190000041941889",
-    "author": "黄子毅",
-    "home_url": "https://segmentfault.com/u/aoyangyudakong",
-    "votes": "5",
-    "rank": 27
+    "rank": 24
   },
   {
     "title": "构建基于React18的电子表格程序",
@@ -249,7 +222,7 @@
     "author": "葡萄城技术团队",
     "home_url": "https://segmentfault.com/u/grapecity",
     "votes": "5",
-    "rank": 28
+    "rank": 25
   },
   {
     "title": "为什么Hook没有ErrorBoundary？",
@@ -258,7 +231,7 @@
     "author": "卡颂",
     "home_url": "https://segmentfault.com/u/kasong",
     "votes": "4",
-    "rank": 29
+    "rank": 26
   },
   {
     "title": "又拍云 Redis 的改进之路",
@@ -267,6 +240,33 @@
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
     "votes": "7",
+    "rank": 27
+  },
+  {
+    "title": "使用 content-visibility 优化渲染性能",
+    "description": "content-visibility：属性控制一个元素是否渲染其内容，它允许用户代理（浏览器）潜在地省略大量布局和渲染工作，直到需要它为止。",
+    "url": "https://segmentfault.com/a/1190000041980427",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "11",
+    "rank": 28
+  },
+  {
+    "title": "几百行代码实现一个 JSON 解析器",
+    "description": "以前我也有思考过它是如何实现的，过程中一旦和编译原理扯上关系就不由自主的劝退了；但经过这段时间的实践我发现实现一个 JSON 解析器似乎也不困难，只是运用到了编译原理前端的部分知识就完全足够了。",
+    "url": "https://segmentfault.com/a/1190000042042002",
+    "author": "crossoverJie",
+    "home_url": "https://segmentfault.com/u/crossoverjie",
+    "votes": "5",
+    "rank": 29
+  },
+  {
+    "title": "esbuild 构建油猴脚本",
+    "description": "前段时间思否十周年，搞了个问答打卡活动。参与打卡活动的人需要在回答问题的结尾加一个“小尾巴”。加小尾巴本身并不难，但是由于官方没有提供快捷方式，每次都需要自己从某个地方拷贝过去，稍嫌繁琐。正好前不久...",
+    "url": "https://segmentfault.com/a/1190000042036660",
+    "author": "边城",
+    "home_url": "https://segmentfault.com/u/jamesfancy",
+    "votes": "6",
     "rank": 30
   }
 ]

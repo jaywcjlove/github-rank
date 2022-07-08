@@ -2,7 +2,7 @@
   {
     "title": "3000帧动画图解MySQL为什么需要binlog、redo log和undo log",
     "description": "全文建立在MySQL的存储引擎为InnoDB的基础上先看一条SQL如何入库的：这是一条很简单的更新SQL，从MySQL服务端接收到SQL到落盘，先后经过了MySQL Server层...",
-    "votes": "177",
+    "votes": "180",
     "url": "/k/b0g4460",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -12,7 +12,7 @@
   {
     "title": "吐血整理：一份不可多得的架构师图谱！",
     "description": "文章来源：https://c1n.cn/J3wve‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍目录概述微服务消息队列概述“架构师图谱”是一个很宏大的命题，特别是优秀的架构师自身也是“由点到...",
-    "votes": "137",
+    "votes": "139",
     "url": "/k/ptp0ru2",
     "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
     "avatarAlt": "进击的程序猿 - 独家号",
@@ -50,6 +50,16 @@
     "homeUrl": "/subjects/26578"
   },
   {
+    "title": "团队管理｜如何提高技术Leader的思考技巧？",
+    "description": "",
+    "votes": "73",
+    "url": "/k/f3496vg",
+    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
+  },
+  {
     "title": "高并发下如何防重？",
     "description": "大家好，我是苏三，又跟大家见面了。文末留言送书啦！！！前言最近测试给我提了一个bug，说我之前提供的一个批量复制商品的接口，产生了重复的商品数据。追查原因之后发现，这个事情没想象中...",
     "votes": "82",
@@ -58,16 +68,6 @@
     "avatarAlt": "苏三说技术 - 独家号",
     "subjectName": "苏三说技术",
     "homeUrl": "/subjects/453205"
-  },
-  {
-    "title": "团队管理｜如何提高技术Leader的思考技巧？",
-    "description": "",
-    "votes": "71",
-    "url": "/k/f3496vg",
-    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
-    "avatarAlt": "Bloomingroses - 独家号",
-    "subjectName": "Bloomingroses",
-    "homeUrl": "/subjects/98777"
   },
   {
     "title": "肝了一个月的 DDD，一文带你掌握！",
@@ -92,7 +92,7 @@
   {
     "title": "服务端监控架构设计与实践",
     "description": "作者：vivo互联网服务器团队-Deng Haibo一、业务背景当今时代处在信息大爆发的时代，信息借助互联网的潮流在全球自由的流动，产生了各式各样的平台系统和软件系统，越来越多的业...",
-    "votes": "55",
+    "votes": "58",
     "url": "/k/xhwa9mo",
     "avatar": "https://img.toutiao.io/subject/ae2b74c589814b769c1bebad92c2fb9a/thumb",
     "avatarAlt": "架构之美 - 独家号",
@@ -102,12 +102,22 @@
   {
     "title": "吐血推荐17个提升开发效率的“轮子”",
     "description": "",
-    "votes": "63",
+    "votes": "64",
     "url": "/k/10u7n9b",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
     "subjectName": "服务架构及中台",
     "homeUrl": "/subjects/26578"
+  },
+  {
+    "title": "月活 12.8 亿的微信，海量请求下是如何防止崩溃的？",
+    "description": "",
+    "votes": "55",
+    "url": "/k/fflgnsh",
+    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
+    "avatarAlt": "进击的程序猿 - 独家号",
+    "subjectName": "进击的程序猿",
+    "homeUrl": "/subjects/24912"
   },
   {
     "title": "线上真实排队系统重构案例分享——实战篇",
@@ -120,14 +130,14 @@
     "homeUrl": "/subjects/379488"
   },
   {
-    "title": "月活 12.8 亿的微信，海量请求下是如何防止崩溃的？",
+    "title": "如何学习架构，一个系列帮助你构筑架构知识体系",
     "description": "",
-    "votes": "52",
-    "url": "/k/fflgnsh",
-    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
-    "avatarAlt": "进击的程序猿 - 独家号",
-    "subjectName": "进击的程序猿",
-    "homeUrl": "/subjects/24912"
+    "votes": "59",
+    "url": "/k/i9clyuy",
+    "avatar": "https://img.toutiao.io/subject/bcb663e36b0c406c9533cb76104b3227/thumb",
+    "avatarAlt": "Java全栈知识体系 - 独家号",
+    "subjectName": "Java全栈知识体系",
+    "homeUrl": "/subjects/319391"
   },
   {
     "title": "生产环境Go程序内存泄露，用pprof如何快速定位",
@@ -148,16 +158,6 @@
     "avatarAlt": "JavaGuide - 独家号",
     "subjectName": "JavaGuide",
     "homeUrl": "/subjects/352853"
-  },
-  {
-    "title": "如何学习架构，一个系列帮助你构筑架构知识体系",
-    "description": "",
-    "votes": "58",
-    "url": "/k/i9clyuy",
-    "avatar": "https://img.toutiao.io/subject/bcb663e36b0c406c9533cb76104b3227/thumb",
-    "avatarAlt": "Java全栈知识体系 - 独家号",
-    "subjectName": "Java全栈知识体系",
-    "homeUrl": "/subjects/319391"
   },
   {
     "title": "最牛逼的技术能力，是技术领导力",
@@ -192,7 +192,7 @@
   {
     "title": "产品指标体系如何搭建",
     "description": "",
-    "votes": "43",
+    "votes": "44",
     "url": "/k/ipcteru",
     "avatar": "https://img.toutiao.io/subject/6ee3bb205b3248c2b746c1506548181a/thumb",
     "avatarAlt": "大数据生态 - 独家号",
@@ -208,16 +208,6 @@
     "avatarAlt": "JuiceFS的独家号 - 独家号",
     "subjectName": "JuiceFS的独家号",
     "homeUrl": "/subjects/464469"
-  },
-  {
-    "title": "这些Shell分析服务器日志命令集锦",
-    "description": "",
-    "votes": "41",
-    "url": "/k/a3rxith",
-    "avatar": "https://img.toutiao.io/subject/5677c886e56b479194e85580c577d68a/thumb",
-    "avatarAlt": "编程爱好者(网络编程) - 独家号",
-    "subjectName": "编程爱好者(网络编程)",
-    "homeUrl": "/subjects/134283"
   },
   {
     "title": "商品系统架构设计与实践",
@@ -238,6 +228,16 @@
     "avatarAlt": "编程爱好者(网络编程) - 独家号",
     "subjectName": "编程爱好者(网络编程)",
     "homeUrl": "/subjects/134283"
+  },
+  {
+    "title": "刨根问底: Kafka 到底会不会丢数据？",
+    "description": "",
+    "votes": "38",
+    "url": "/k/909ukbu",
+    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
+    "avatarAlt": "进击的程序猿 - 独家号",
+    "subjectName": "进击的程序猿",
+    "homeUrl": "/subjects/24912"
   },
   {
     "title": "Git存储原理及部分实现",
