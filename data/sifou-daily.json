@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "title": "死锁问题排查过程-间隙锁的复现以及解决",
+    "description": "我们在开启多线程对数据库进行操作的时候，先批量对数据进行删除，然后再新增，本来想着是考虑到不走更新，性能会提升，但是执行的时候发现报错，执行的sql等待超时，阻塞了进程，dbcp连接池被打满，数据库表访问...",
+    "url": "https://segmentfault.com/a/1190000042091156",
+    "author": "skyarthur",
+    "home_url": "https://segmentfault.com/u/skyarthur",
+    "votes": "1",
+    "rank": 1
+  }
+]

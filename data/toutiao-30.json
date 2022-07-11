@@ -22,7 +22,7 @@
   {
     "title": "Redis夺命52连问",
     "description": "大家好，我是苏三，面渣逆袭系列继续，这节我们来搞定Redis——不会有人假期玩去了吧？不会吧？基础1.说说什么是Redis?Redis图标Redis是一种基于键值对（key-val...",
-    "votes": "105",
+    "votes": "106",
     "url": "/k/he3fzao",
     "avatar": "https://img.toutiao.io/subject/5677c886e56b479194e85580c577d68a/thumb",
     "avatarAlt": "编程爱好者(网络编程) - 独家号",
@@ -32,7 +32,7 @@
   {
     "title": "我们公司使用了 5 年的系统限流方案！从实现到部署实战详解，稳的一批!​",
     "description": "大家好，我是老赵！什么是限流呢？限流是限制到达系统的并发请求数量，保证系统能够正常响应部分用户请求，而对于超过限制的流量，则通过拒绝服务的方式保证整体系统的可用性。根据限流作用范围...",
-    "votes": "80",
+    "votes": "81",
     "url": "/k/4tls39t",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -72,7 +72,7 @@
   {
     "title": "服务端监控架构设计与实践",
     "description": "作者：vivo互联网服务器团队-Deng Haibo一、业务背景当今时代处在信息大爆发的时代，信息借助互联网的潮流在全球自由的流动，产生了各式各样的平台系统和软件系统，越来越多的业...",
-    "votes": "62",
+    "votes": "64",
     "url": "/k/xhwa9mo",
     "avatar": "https://img.toutiao.io/subject/ae2b74c589814b769c1bebad92c2fb9a/thumb",
     "avatarAlt": "架构之美 - 独家号",
@@ -82,12 +82,22 @@
   {
     "title": "月活 12.8 亿的微信，海量请求下是如何防止崩溃的？",
     "description": "",
-    "votes": "57",
+    "votes": "59",
     "url": "/k/fflgnsh",
     "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
     "avatarAlt": "进击的程序猿 - 独家号",
     "subjectName": "进击的程序猿",
     "homeUrl": "/subjects/24912"
+  },
+  {
+    "title": "生产环境Go程序内存泄露，用pprof如何快速定位",
+    "description": "内存泄漏可以在整个系统中以多种形式出现，除了在写代码上的疏忽，忘了关闭该关闭的资源外，更多的时候导致系统发生内存泄露原因可能是设计上决策不对、或者业务逻辑上的疏忽没有考虑到一些边界...",
+    "votes": "54",
+    "url": "/k/o31fl5p",
+    "avatar": "https://img.toutiao.io/subject/3f69ffc3bdf6496e86439348166e3ed7/thumb",
+    "avatarAlt": "GoHackers - 独家号",
+    "subjectName": "GoHackers",
+    "homeUrl": "/subjects/1385"
   },
   {
     "title": "如何学习架构，一个系列帮助你构筑架构知识体系",
@@ -98,16 +108,6 @@
     "avatarAlt": "Java全栈知识体系 - 独家号",
     "subjectName": "Java全栈知识体系",
     "homeUrl": "/subjects/319391"
-  },
-  {
-    "title": "生产环境Go程序内存泄露，用pprof如何快速定位",
-    "description": "内存泄漏可以在整个系统中以多种形式出现，除了在写代码上的疏忽，忘了关闭该关闭的资源外，更多的时候导致系统发生内存泄露原因可能是设计上决策不对、或者业务逻辑上的疏忽没有考虑到一些边界...",
-    "votes": "53",
-    "url": "/k/o31fl5p",
-    "avatar": "https://img.toutiao.io/subject/3f69ffc3bdf6496e86439348166e3ed7/thumb",
-    "avatarAlt": "GoHackers - 独家号",
-    "subjectName": "GoHackers",
-    "homeUrl": "/subjects/1385"
   },
   {
     "title": "6年时间，我做了一个纯净的 Java 学习&面试网站！",
@@ -128,6 +128,16 @@
     "avatarAlt": "浅谈架构 - 独家号",
     "subjectName": "浅谈架构",
     "homeUrl": "/subjects/379488"
+  },
+  {
+    "title": "产品指标体系如何搭建",
+    "description": "",
+    "votes": "48",
+    "url": "/k/ipcteru",
+    "avatar": "https://img.toutiao.io/subject/6ee3bb205b3248c2b746c1506548181a/thumb",
+    "avatarAlt": "大数据生态 - 独家号",
+    "subjectName": "大数据生态",
+    "homeUrl": "/subjects/136176"
   },
   {
     "title": "最牛逼的技术能力，是技术领导力",
@@ -160,16 +170,6 @@
     "homeUrl": "/subjects/98777"
   },
   {
-    "title": "产品指标体系如何搭建",
-    "description": "",
-    "votes": "45",
-    "url": "/k/ipcteru",
-    "avatar": "https://img.toutiao.io/subject/6ee3bb205b3248c2b746c1506548181a/thumb",
-    "avatarAlt": "大数据生态 - 独家号",
-    "subjectName": "大数据生态",
-    "homeUrl": "/subjects/136176"
-  },
-  {
     "title": "30款提升组织效能 SaaS 工具，我们的宝藏工具箱大公开",
     "description": "",
     "votes": "49",
@@ -190,6 +190,16 @@
     "homeUrl": "/subjects/98777"
   },
   {
+    "title": "刨根问底: Kafka 到底会不会丢数据？",
+    "description": "",
+    "votes": "40",
+    "url": "/k/909ukbu",
+    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
+    "avatarAlt": "进击的程序猿 - 独家号",
+    "subjectName": "进击的程序猿",
+    "homeUrl": "/subjects/24912"
+  },
+  {
     "title": "GitHub的5个骚操作",
     "description": "来源 | 程序员鱼皮作者 | 鱼皮GitHub 是程序员必备的代码开源平台。我们可以在 GitHub 上搜索和阅读项目代码，进行学习；或者复制粘贴，从而快速完成自己的项目。相信绝大...",
     "votes": "41",
@@ -200,14 +210,14 @@
     "homeUrl": "/subjects/134283"
   },
   {
-    "title": "刨根问底: Kafka 到底会不会丢数据？",
+    "title": "如何写出好代码 — 防御式编程指南",
     "description": "",
     "votes": "38",
-    "url": "/k/909ukbu",
-    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
-    "avatarAlt": "进击的程序猿 - 独家号",
-    "subjectName": "进击的程序猿",
-    "homeUrl": "/subjects/24912"
+    "url": "/k/mmvrn8n",
+    "avatar": "https://img.toutiao.io/subject/3f69ffc3bdf6496e86439348166e3ed7/thumb",
+    "avatarAlt": "GoHackers - 独家号",
+    "subjectName": "GoHackers",
+    "homeUrl": "/subjects/1385"
   },
   {
     "title": "Git存储原理及部分实现",
@@ -220,6 +230,16 @@
     "homeUrl": "/subjects/97644"
   },
   {
+    "title": "单机高并发模型设计",
+    "description": "",
+    "votes": "40",
+    "url": "/k/2woifhp",
+    "avatar": "https://img.toutiao.io/subject/0bc4a65bf09748718c9acc6991f50e49/thumb",
+    "avatarAlt": "方丈的寺院 - 独家号",
+    "subjectName": "方丈的寺院",
+    "homeUrl": "/subjects/405015"
+  },
+  {
     "title": "Java 基础常见知识点&面试题总结(中)，2022 最新版！",
     "description": "",
     "votes": "43",
@@ -228,25 +248,5 @@
     "avatarAlt": "JavaGuide - 独家号",
     "subjectName": "JavaGuide",
     "homeUrl": "/subjects/352853"
-  },
-  {
-    "title": "什么是人才梯队，你在第几梯队？",
-    "description": "",
-    "votes": "40",
-    "url": "/k/kojvwp8",
-    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
-    "avatarAlt": "Bloomingroses - 独家号",
-    "subjectName": "Bloomingroses",
-    "homeUrl": "/subjects/98777"
-  },
-  {
-    "title": "一文详解｜Go 分布式链路追踪实现原理",
-    "description": "在分布式、微服务架构下，应用一个请求往往贯穿多个分布式服务，这给应用的故障排查、性能优化带来新的挑战。分布式链路追踪作为解决分布式应用可观测问题的重要技术，愈发成为分布式应用不可缺...",
-    "votes": "40",
-    "url": "/k/876321c",
-    "avatar": "https://img.toutiao.io/subject/5677c886e56b479194e85580c577d68a/thumb",
-    "avatarAlt": "编程爱好者(网络编程) - 独家号",
-    "subjectName": "编程爱好者(网络编程)",
-    "homeUrl": "/subjects/134283"
   }
 ]
