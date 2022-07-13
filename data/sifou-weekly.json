@@ -1,20 +1,20 @@
 [
   {
-    "title": "使用纯 CSS 实现超酷炫的粘性气泡效果",
-    "description": "最近，在 CodePen 上看到这样一个非常有意思的效果：这个效果的核心难点在于气泡的一种特殊融合效果。其源代码在：CodePen Demo -- Goey footer，作者主要使用的是 SVG 滤镜完成的该效果，感兴趣的可以戳源码看看...",
-    "url": "https://segmentfault.com/a/1190000042070334",
+    "title": "高阶切图技巧！基于单张图片的任意颜色转换",
+    "description": "今天，要介绍一种基于 CSS mask-composite 的高级技巧。通过掌握它，我们可以通过一张 图片，得到关于它的各种变换，甚至乎，得到各种不同颜色的变换。通过单张 PNG/SVG 得到它的反向切图事情的经过是这样的，某...",
+    "url": "https://segmentfault.com/a/1190000042093361",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "22",
+    "votes": "8",
     "rank": 1
   },
   {
-    "title": "使用CSS background实现炫酷悬停效果",
-    "description": "日常开发过程中，会遇到不少按钮鼠标悬停的效果，实现这类悬停效果的方式有很多，借助伪元素，CSS3变换及过渡等都可以实现。今天的文章将使用背景色实现类似的效果，当我们遇到一个问题时，你的脑海中的方案不止...",
-    "url": "https://segmentfault.com/a/1190000042069856",
-    "author": "南城大前端",
-    "home_url": "https://segmentfault.com/u/nanchengfe",
-    "votes": "9",
+    "title": "动画合成小技巧！CSS 实现动感的倒计时效果",
+    "description": "欢迎关注微信公众号： 前端侦探介绍一个 CSS 动画合成小技巧。先看效果这是一个非常“动感”的倒计时效果，通常在一些活动开场中比较常见，分析一下整个动画过程，不难发现，有以下几类动画数字的变化缩小和放大透...",
+    "url": "https://segmentfault.com/a/1190000042094549",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "8",
     "rank": 2
   },
   {
@@ -27,13 +27,22 @@
     "rank": 3
   },
   {
+    "title": "Nginx部署配置",
+    "description": "常用命令启动： {代码...} 立即停止： {代码...} 优雅停止： {代码...} 重启 {代码...} 查看配置文件是否正常，无语法错误 {代码...} 查看日志 {代码...} upstream基本语法upstream 的基本语法如下，一个 upstrea...",
+    "url": "https://segmentfault.com/a/1190000042089218",
+    "author": "MangoGoing",
+    "home_url": "https://segmentfault.com/u/nulidexiaocongmang",
+    "votes": "4",
+    "rank": 4
+  },
+  {
     "title": "DNS 系列（一）：为什么更新了 DNS 记录不生效？",
     "description": "我们在上网时如果想要访问到另一台机器上的内容，通常只需要直接输入一串地址，例如：www.upyun.com，就能够准确访问到自己想要访问的网站。但是实际上这只是方便我们记忆的字符形式网络标识，真正让我们的机器和...",
     "url": "https://segmentfault.com/a/1190000042081565",
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
     "votes": "4",
-    "rank": 4
+    "rank": 5
   },
   {
     "title": "他们齐聚 2022 ECUG Con，只为「中国技术力量」",
@@ -42,16 +51,16 @@
     "author": "snakesss",
     "home_url": "https://segmentfault.com/u/snakesss",
     "votes": "3",
-    "rank": 5
+    "rank": 6
   },
   {
-    "title": "Nginx部署配置",
-    "description": "常用命令启动： {代码...} 立即停止： {代码...} 优雅停止： {代码...} 重启 {代码...} 查看配置文件是否正常，无语法错误 {代码...} 查看日志 {代码...} upstream基本语法upstream 的基本语法如下，一个 upstrea...",
-    "url": "https://segmentfault.com/a/1190000042089218",
-    "author": "MangoGoing",
-    "home_url": "https://segmentfault.com/u/nulidexiaocongmang",
+    "title": "面试官：主说 Git Rebase 和 Git Merge 差异",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000042092852",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "4",
-    "rank": 6
+    "rank": 7
   },
   {
     "title": "原生JS以后也支持类型注解啦？",
@@ -59,16 +68,7 @@
     "url": "https://segmentfault.com/a/1190000042080607",
     "author": "卡颂",
     "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "2",
-    "rank": 7
-  },
-  {
-    "title": "Nginx 实战核心知识点整理（上）",
-    "description": "Nginx 作为一款高性能的代理软件，在工作中常被用做负载均衡器、正向反向代理。最近在看了一个关于 Nginx 的视频，老师讲得很不错。笔者也记录了一下整套课程的一些重点和自己的理解。",
-    "url": "https://segmentfault.com/a/1190000042070687",
-    "author": "Rhythm_2019",
-    "home_url": "https://segmentfault.com/u/rhythm_2019",
-    "votes": "3",
+    "votes": "4",
     "rank": 8
   },
   {
@@ -81,39 +81,39 @@
     "rank": 9
   },
   {
-    "title": "GitHub 四宗罪“惹众怒”？SFC 发文《Give Up GitHub！》呼吁全网声讨",
-    "description": "前几天，一则关于 “GitHub 人工智能编程工具 Copilot 以67 元/月的费用正式上线”的消息引发了开源圈的热议，一时间关于 Copilot 侵犯隐私、抄袭代码、无视许可证以及“开源变付费”等以往争议话题再次被挖出来，且...",
-    "url": "https://segmentfault.com/a/1190000042071322",
-    "author": "MissD",
-    "home_url": "https://segmentfault.com/u/d2ms1shh",
+    "title": "网易云音乐机器学习平台实践",
+    "description": "在网易云音乐内部，机器学习平台早期主要承担着包括音乐推荐、主站搜索、创新算法业务在内的核心业务，慢慢地也覆盖包括音视频、NLP等内容理解业务。机器学习平台基础架构如下，目前我按功能将其抽象为四层，本篇...",
+    "url": "https://segmentfault.com/a/1190000042075285",
+    "author": "云音乐技术团队",
+    "home_url": "https://segmentfault.com/u/musicfe",
     "votes": "2",
     "rank": 10
   },
   {
-    "title": "高阶切图技巧！基于单张图片的任意颜色转换",
-    "description": "今天，要介绍一种基于 CSS mask-composite 的高级技巧。通过掌握它，我们可以通过一张 图片，得到关于它的各种变换，甚至乎，得到各种不同颜色的变换。通过单张 PNG/SVG 得到它的反向切图事情的经过是这样的，某...",
-    "url": "https://segmentfault.com/a/1190000042093361",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "7",
+    "title": "CSS Houdini：用浏览器引擎实现高级CSS效果",
+    "description": "Houdini被称之为Magic of styling and layout on the web，看起来十分神秘，但实际上，Houdini并非什么神秘组织或者神奇魔法，它是一系列与CSS引擎相关的浏览器API的总称。",
+    "url": "https://segmentfault.com/a/1190000042078359",
+    "author": "vivo互联网技术",
+    "home_url": "https://segmentfault.com/u/vivo_tech",
+    "votes": "1",
     "rank": 11
   },
   {
-    "title": "PHP后端面试85问",
-    "description": "替换原则(the Liskov Substitution Principle LSP) ：子类应当可以替换父类并出现在父类能够出现的任何地方。",
-    "url": "https://segmentfault.com/a/1190000042071370",
-    "author": "IT小马",
-    "home_url": "https://segmentfault.com/u/itxiaoma",
-    "votes": "2",
+    "title": "用前端构建工具打包后端服务，我到底经历什么",
+    "description": "看到这个 标题，是的，我本是个后端，最近要写点 node.js， 之前写前端，知道 npm build 一下，那么用 javascript 写的后端程序也要 npm build 吧，好的，作为个 gopher ， 带着对 javascript 的刻板印象就开干了。",
+    "url": "https://segmentfault.com/a/1190000042092435",
+    "author": "小白要生发",
+    "home_url": "https://segmentfault.com/u/xiaobaiyaoshengfa",
+    "votes": "1",
     "rank": 12
   },
   {
-    "title": "你还在为组件文档烦恼吗？",
-    "description": "前言随着时间的推进，业务组件也逐渐丰富起来，我们开始搭建组件库，编写组件文档的烦恼就随之而来。这里分享下我选取组件文档工具的经历，最终以 Docusaurus 为基础，搭建了一套开箱即用的 React 组件文档工具。...",
-    "url": "https://segmentfault.com/a/1190000042073725",
-    "author": "Samon",
-    "home_url": "https://segmentfault.com/u/samonxian",
-    "votes": "1",
+    "title": "优化 Go 错误处理，魔改 Go recover 靠谱吗？",
+    "description": "Go 的错误处理一直是表现最突出的一块地方，许许多多的同学都提出了各种提案，例如：引入 try-catch、用 panic 代替 if err != nil、引入新的关键字等。但这些都被一一驳回了。",
+    "url": "https://segmentfault.com/a/1190000042085628",
+    "author": "煎鱼",
+    "home_url": "https://segmentfault.com/u/eddycjy",
+    "votes": "2",
     "rank": 13
   },
   {
@@ -126,49 +126,31 @@
     "rank": 14
   },
   {
-    "title": "网易云音乐机器学习平台实践",
-    "description": "在网易云音乐内部，机器学习平台早期主要承担着包括音乐推荐、主站搜索、创新算法业务在内的核心业务，慢慢地也覆盖包括音视频、NLP等内容理解业务。机器学习平台基础架构如下，目前我按功能将其抽象为四层，本篇...",
-    "url": "https://segmentfault.com/a/1190000042075285",
-    "author": "云音乐技术团队",
-    "home_url": "https://segmentfault.com/u/musicfe",
-    "votes": "1",
-    "rank": 15
-  },
-  {
-    "title": "Vim直接上手（一）：三种模式",
-    "description": "比如，我们直接在mac上的terminal上输入vim 1.txt,这样系统就会查找是否存在这个txt文件，有就打开，没有就创建一个再打开。",
-    "url": "https://segmentfault.com/a/1190000042073871",
-    "author": "LiberHome",
-    "home_url": "https://segmentfault.com/u/liberhome",
-    "votes": "1",
-    "rank": 16
-  },
-  {
-    "title": "Vim直接上手（二）：常用命令（进入输入模式、移动光标、文本操作）",
-    "description": "i是insert在光标前面插入字符，a是append是在光标后面追加字符。o是用来新起一行，大小写区别在于上下左右，自己试一下就知道了。r是用来替换字符。小写替换一个，大写可以替换很多个。",
-    "url": "https://segmentfault.com/a/1190000042074385",
-    "author": "LiberHome",
-    "home_url": "https://segmentfault.com/u/liberhome",
-    "votes": "1",
-    "rank": 17
-  },
-  {
     "title": "如何参与开源项目 - 细说 GitHub 上的 PR 全过程",
     "description": "当然，除了正常的 PR 合入流程之外，我还准备详细介绍一下如果一个 PR 提交后遇到了冲突、需要追加 commits、需要合并 commits 等等相对复杂问题该如何解决。",
     "url": "https://segmentfault.com/a/1190000042079992",
     "author": "Daniel_Hu",
     "home_url": "https://segmentfault.com/u/daniel_hu_6299be102876e",
     "votes": "1",
-    "rank": 18
+    "rank": 15
   },
   {
-    "title": "Vue 源码中的工具函数",
-    "description": "在 Vue 源码中，封装了很多工具函数，学习这些函数，一方面学习大佬们的实现方式，另一方面是温习基础知识，希望大家在日常工作中，简单的函数也可以自己封装，提高编码能力。",
-    "url": "https://segmentfault.com/a/1190000042073070",
-    "author": "诺顿",
-    "home_url": "https://segmentfault.com/u/nuodun",
-    "votes": "5",
-    "rank": 19
+    "title": "死锁问题排查过程-间隙锁的复现以及解决",
+    "description": "我们在开启多线程对数据库进行操作的时候，先批量对数据进行删除，然后再新增，本来想着是考虑到不走更新，性能会提升，但是执行的时候发现报错，执行的sql等待超时，阻塞了进程，dbcp连接池被打满，数据库表访问...",
+    "url": "https://segmentfault.com/a/1190000042091156",
+    "author": "skyarthur",
+    "home_url": "https://segmentfault.com/u/skyarthur",
+    "votes": "2",
+    "rank": 16
+  },
+  {
+    "title": "Three.js系列: 在元宇宙看电影，享受 VR 视觉盛宴",
+    "description": "最近元宇宙的概念很火，并且受到疫情的影响，我们的出行总是受限，电影院也总是关门，但是在家里又没有看大片的氛围，这个时候我们就可以通过自己来造一个宇宙，并在 VR 设备（Oculus 、cardboard）中来观看。",
+    "url": "https://segmentfault.com/a/1190000042094334",
+    "author": "程序员秋风",
+    "home_url": "https://segmentfault.com/u/qiufeng_5a07f6cb96ee0",
+    "votes": "2",
+    "rank": 17
   },
   {
     "title": "如何在VUE中低延迟播放海康威视RTSP/RTMP视频流并且延迟低于300毫秒？支持海康威视NVR录像机回放！",
@@ -177,6 +159,24 @@
     "author": "李不白",
     "home_url": "https://segmentfault.com/u/libubai",
     "votes": "1",
+    "rank": 18
+  },
+  {
+    "title": "H5实现生成urlscheme并从H5跳转到小程序",
+    "description": "在2022年之前，想要在H5打开小程序只需要在平台上设置urlscheme即可，但是自 2022 年 4 月 11 日起，URL Scheme有效期最长 30 天，不再支持永久有效的URL Scheme、不再区分短期有效URL Scheme与长期有效URL Schem...",
+    "url": "https://segmentfault.com/a/1190000042089388",
+    "author": "huaweichenai",
+    "home_url": "https://segmentfault.com/u/huaweichenai",
+    "votes": "1",
+    "rank": 19
+  },
+  {
+    "title": "记录遇到的一个循环依赖问题",
+    "description": "但是我在使用的时候却报了notifyService的循环依赖。NG0200: Circular dependency in DI detected for ThyNotifyService如图",
+    "url": "https://segmentfault.com/a/1190000042096697",
+    "author": "weiewiyi",
+    "home_url": "https://segmentfault.com/u/chenchu_6110ed583800c",
+    "votes": "3",
     "rank": 20
   },
   {
@@ -189,12 +189,12 @@
     "rank": 21
   },
   {
-    "title": "死锁问题排查过程-间隙锁的复现以及解决",
-    "description": "我们在开启多线程对数据库进行操作的时候，先批量对数据进行删除，然后再新增，本来想着是考虑到不走更新，性能会提升，但是执行的时候发现报错，执行的sql等待超时，阻塞了进程，dbcp连接池被打满，数据库表访问...",
-    "url": "https://segmentfault.com/a/1190000042091156",
-    "author": "skyarthur",
-    "home_url": "https://segmentfault.com/u/skyarthur",
-    "votes": "2",
+    "title": "Nginx 实战核心知识点整理（下）",
+    "description": "Nginx 作为一款高性能的代理软件，在工作中常被用做负载均衡器、正向反向代理。最近在看了一个关于 Nginx 的视频，老师讲得很不错。笔者也记录了一下整套课程的一些重点和自己的理解。",
+    "url": "https://segmentfault.com/a/1190000042078910",
+    "author": "Rhythm_2019",
+    "home_url": "https://segmentfault.com/u/rhythm_2019",
+    "votes": "1",
     "rank": 22
   },
   {
@@ -207,31 +207,22 @@
     "rank": 23
   },
   {
-    "title": "下一个行业风口：NFT 数字藏品，是机遇还是泡沫？",
-    "description": "2021年3月，艺术家Beeple花费5000多天制成的作品《每一天：前5000天》，作为史上第一件公开拍卖的纯数字艺术品，在顶级拍卖行佳士得以高达6900万美元（约合4.5亿人民币）的天价成交，刷新了网上拍卖成交最高作品...",
-    "url": "https://segmentfault.com/a/1190000042072196",
-    "author": "腾讯云开发者",
-    "home_url": "https://segmentfault.com/u/qcloudcommunity",
+    "title": "DNS 系列（二）：DNS 记录及工作方式，你了解吗？",
+    "description": "在上一篇《DNS 系列（一）：为什么更新了 DNS 记录不生效？》中，我们主要讲解了 DNS 和 DNS 传播，知道了网络通信主要通过 IP 地址来进行，而域名系统（DNS）则是保证用户在浏览器中输入域名之后，可以访问到对...",
+    "url": "https://segmentfault.com/a/1190000042094981",
+    "author": "云叔_又拍云",
+    "home_url": "https://segmentfault.com/u/yunshu_blog",
     "votes": "1",
     "rank": 24
   },
   {
-    "title": "用前端构建工具打包后端服务，我到底经历什么",
-    "description": "看到这个 标题，是的，我本是个后端，最近要写点 node.js， 之前写前端，知道 npm build 一下，那么用 javascript 写的后端程序也要 npm build 吧，好的，作为个 gopher ， 带着对 javascript 的刻板印象就开干了。",
-    "url": "https://segmentfault.com/a/1190000042092435",
-    "author": "小白要生发",
-    "home_url": "https://segmentfault.com/u/xiaobaiyaoshengfa",
+    "title": "精读《MinusOne, PickByType, StartsWith...》",
+    "description": "TS 没有 “普通” 的运算能力，但涉及数字却有一条生路，即 TS 可通过 ['length'] 访问数组长度，几乎所有数字计算都是通过它推导出来的。",
+    "url": "https://segmentfault.com/a/1190000042092948",
+    "author": "黄子毅",
+    "home_url": "https://segmentfault.com/u/aoyangyudakong",
     "votes": "1",
     "rank": 25
-  },
-  {
-    "title": "优化 Go 错误处理，魔改 Go recover 靠谱吗？",
-    "description": "Go 的错误处理一直是表现最突出的一块地方，许许多多的同学都提出了各种提案，例如：引入 try-catch、用 panic 代替 if err != nil、引入新的关键字等。但这些都被一一驳回了。",
-    "url": "https://segmentfault.com/a/1190000042085628",
-    "author": "煎鱼",
-    "home_url": "https://segmentfault.com/u/eddycjy",
-    "votes": "1",
-    "rank": 26
   },
   {
     "title": "前端这两年的文章总结",
@@ -240,6 +231,15 @@
     "author": "lio_zero",
     "home_url": "https://segmentfault.com/u/lio_zero",
     "votes": "0",
+    "rank": 26
+  },
+  {
+    "title": "外卖广告大规模深度学习模型工程实践 | 美团外卖广告工程实践专题连载",
+    "description": "在外卖广告CTR场景下，深度学习模型正在从简单DNN小模型过渡到千亿参数复杂模型。基于该背景，本文将重点针对大规模深度模型在全链路带来的挑战，从在线时延、离线效率两个方面展开，阐述外卖广告在大规模深度模...",
+    "url": "https://segmentfault.com/a/1190000042081999",
+    "author": "美团技术团队",
+    "home_url": "https://segmentfault.com/u/meituanjishutuandui",
+    "votes": "1",
     "rank": 27
   },
   {
@@ -261,11 +261,11 @@
     "rank": 29
   },
   {
-    "title": "前端需要的免费在线api接口",
-    "description": "回想当年刚接触前端，Ajax 真的碰一次就跪一次。当时不懂后端，不知道 api 是什么东东，也没有后端小伙伴写接口给我测试。本文整理了我用过的几个 免费的在线api接口，而且不需要处理跨域等问题。希望能给刚入门...",
-    "url": "https://segmentfault.com/a/1190000042085705",
-    "author": "学习委员",
-    "home_url": "https://segmentfault.com/u/k21vin",
+    "title": "大众点评搜索相关性技术探索与实践",
+    "description": "搜索相关性用于衡量Query和Doc的相关程度，是搜索引擎的重要环节，本文主要讲述大众点评搜索团队在相关性计算上的技术探索和实践，通过多相似矩阵模型结构、多阶段训练等方法提升预训练模型在相关性问题上的效果...",
+    "url": "https://segmentfault.com/a/1190000042081898",
+    "author": "美团技术团队",
+    "home_url": "https://segmentfault.com/u/meituanjishutuandui",
     "votes": "1",
     "rank": 30
   }

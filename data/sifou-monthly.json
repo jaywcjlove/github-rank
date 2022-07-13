@@ -5,7 +5,7 @@
     "url": "https://segmentfault.com/a/1190000041974425",
     "author": "水冗水孚",
     "home_url": "https://segmentfault.com/u/shuirongshui",
-    "votes": "31",
+    "votes": "33",
     "rank": 1
   },
   {
@@ -23,7 +23,7 @@
     "url": "https://segmentfault.com/a/1190000042070334",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "22",
+    "votes": "24",
     "rank": 3
   },
   {
@@ -41,7 +41,7 @@
     "url": "https://segmentfault.com/a/1190000042065365",
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "19",
+    "votes": "20",
     "rank": 5
   },
   {
@@ -59,8 +59,17 @@
     "url": "https://segmentfault.com/a/1190000041974546",
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "13",
+    "votes": "14",
     "rank": 7
+  },
+  {
+    "title": "有意思的鼠标指针交互探究",
+    "description": "今天，来实现这样一个有意思的交互效果：将原本的鼠标指针样式，修改成自己想要的效果，并且添加上一些特殊的交互效果。修改鼠标样式首先，第一个问题，我们可以看到，上图中，鼠标指针的样式被修改成了一个圆点...",
+    "url": "https://segmentfault.com/a/1190000042012558",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "16",
+    "rank": 8
   },
   {
     "title": "switch 有四样写法你知道么",
@@ -69,7 +78,7 @@
     "author": "边城",
     "home_url": "https://segmentfault.com/u/jamesfancy",
     "votes": "15",
-    "rank": 8
+    "rank": 9
   },
   {
     "title": "视觉还原小技巧！CSS 实现角标效果",
@@ -78,15 +87,6 @@
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
     "votes": "17",
-    "rank": 9
-  },
-  {
-    "title": "有意思的鼠标指针交互探究",
-    "description": "今天，来实现这样一个有意思的交互效果：将原本的鼠标指针样式，修改成自己想要的效果，并且添加上一些特殊的交互效果。修改鼠标样式首先，第一个问题，我们可以看到，上图中，鼠标指针的样式被修改成了一个圆点...",
-    "url": "https://segmentfault.com/a/1190000042012558",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "14",
     "rank": 10
   },
   {
@@ -171,12 +171,12 @@
     "rank": 19
   },
   {
-    "title": "Sass应用之实现主题切换",
-    "description": "实现主题切换有几种不同的方案，比如使用CSS变量，使用JavaScript动态加载对应的主题样式文件等。本文主要讲的是如何使用Sass实现主题切换。",
-    "url": "https://segmentfault.com/a/1190000042003368",
-    "author": "玛尔斯通",
-    "home_url": "https://segmentfault.com/u/zhouqichao",
-    "votes": "7",
+    "title": "高阶切图技巧！基于单张图片的任意颜色转换",
+    "description": "今天，要介绍一种基于 CSS mask-composite 的高级技巧。通过掌握它，我们可以通过一张 图片，得到关于它的各种变换，甚至乎，得到各种不同颜色的变换。通过单张 PNG/SVG 得到它的反向切图事情的经过是这样的，某...",
+    "url": "https://segmentfault.com/a/1190000042093361",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "8",
     "rank": 20
   },
   {
@@ -189,13 +189,22 @@
     "rank": 21
   },
   {
+    "title": "Sass应用之实现主题切换",
+    "description": "实现主题切换有几种不同的方案，比如使用CSS变量，使用JavaScript动态加载对应的主题样式文件等。本文主要讲的是如何使用Sass实现主题切换。",
+    "url": "https://segmentfault.com/a/1190000042003368",
+    "author": "玛尔斯通",
+    "home_url": "https://segmentfault.com/u/zhouqichao",
+    "votes": "7",
+    "rank": 22
+  },
+  {
     "title": "玩转 AbortController 控制器",
     "description": "绝大部分情况，网络请求都是先请求先响应。但是某些情况下，由于未知的一些问题，可能会导致先请求的 api 后返回。最简单的解决方案就是添加 loading 状态，在所有请求都完成后才能进行下一次请求。",
     "url": "https://segmentfault.com/a/1190000042001788",
     "author": "jump__jump",
     "home_url": "https://segmentfault.com/u/jump_and_jump",
     "votes": "6",
-    "rank": 22
+    "rank": 23
   },
   {
     "title": "为什么Hook没有ErrorBoundary？",
@@ -204,7 +213,7 @@
     "author": "卡颂",
     "home_url": "https://segmentfault.com/u/kasong",
     "votes": "4",
-    "rank": 23
+    "rank": 24
   },
   {
     "title": "esbuild 构建油猴脚本",
@@ -213,7 +222,7 @@
     "author": "边城",
     "home_url": "https://segmentfault.com/u/jamesfancy",
     "votes": "6",
-    "rank": 24
+    "rank": 25
   },
   {
     "title": "又拍云 Redis 的改进之路",
@@ -222,7 +231,7 @@
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
     "votes": "7",
-    "rank": 25
+    "rank": 26
   },
   {
     "title": "几百行代码实现一个 JSON 解析器",
@@ -231,25 +240,7 @@
     "author": "crossoverJie",
     "home_url": "https://segmentfault.com/u/crossoverjie",
     "votes": "5",
-    "rank": 26
-  },
-  {
-    "title": "React新文档：不要滥用Ref哦～",
-    "description": "React新文档有个很有意思的细节：useRef、useEffect这两个API的介绍，在文档中所在的章节叫Escape Hatches（逃生舱）。",
-    "url": "https://segmentfault.com/a/1190000041991074",
-    "author": "卡颂",
-    "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "9",
     "rank": 27
-  },
-  {
-    "title": "Doris 毕业成为 Apache 顶级项目，独家专访百度 PALO 团队",
-    "description": "2022 年 6 月 16 日，Apache 软件基金会发表博文，宣布 Doris 正式毕业，正式成为 Apache 顶级项目（TLP）。（相关阅读：[链接]）。",
-    "url": "https://segmentfault.com/a/1190000041995552",
-    "author": "思否编辑部",
-    "home_url": "https://segmentfault.com/u/writers",
-    "votes": "7",
-    "rank": 28
   },
   {
     "title": "Vue项目之使用EditorConfig, Eslint和Prettier实现代码规范",
@@ -258,15 +249,24 @@
     "author": "玛尔斯通",
     "home_url": "https://segmentfault.com/u/zhouqichao",
     "votes": "10",
+    "rank": 28
+  },
+  {
+    "title": "React新文档：不要滥用Ref哦～",
+    "description": "React新文档有个很有意思的细节：useRef、useEffect这两个API的介绍，在文档中所在的章节叫Escape Hatches（逃生舱）。",
+    "url": "https://segmentfault.com/a/1190000041991074",
+    "author": "卡颂",
+    "home_url": "https://segmentfault.com/u/kasong",
+    "votes": "9",
     "rank": 29
   },
   {
-    "title": "热乎乎的前端\"数字\" 转换 \"货币字符串\", 如此有趣的知识来啦 (Intl.NumberFormat)",
-    "description": "这是一个由我编写的轻量级数字转货币字符串插件, 因为发现各个国家的货币相关知识很有趣, 并且当前市场上相关插件比较老, 所以也想与你分享这些有趣知识。",
-    "url": "https://segmentfault.com/a/1190000042037852",
-    "author": "lulu_up",
-    "home_url": "https://segmentfault.com/u/lulu_up",
-    "votes": "11",
+    "title": "Doris 毕业成为 Apache 顶级项目，独家专访百度 PALO 团队",
+    "description": "2022 年 6 月 16 日，Apache 软件基金会发表博文，宣布 Doris 正式毕业，正式成为 Apache 顶级项目（TLP）。（相关阅读：[链接]）。",
+    "url": "https://segmentfault.com/a/1190000041995552",
+    "author": "思否编辑部",
+    "home_url": "https://segmentfault.com/u/writers",
+    "votes": "7",
     "rank": 30
   }
 ]

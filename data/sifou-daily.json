@@ -1,74 +1,29 @@
 [
   {
-    "title": "高阶切图技巧！基于单张图片的任意颜色转换",
-    "description": "今天，要介绍一种基于 CSS mask-composite 的高级技巧。通过掌握它，我们可以通过一张 图片，得到关于它的各种变换，甚至乎，得到各种不同颜色的变换。通过单张 PNG/SVG 得到它的反向切图事情的经过是这样的，某...",
-    "url": "https://segmentfault.com/a/1190000042093361",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "7",
+    "title": "分库分表真的适合你的系统吗？聊聊分库分表和NewSQL如何选择",
+    "description": "曾几何时，“并发高就分库，数据大就分表”已经成了处理 MySQL 数据增长问题的圣经。面试官喜欢问，博主喜欢写，候选人也喜欢背，似乎已经形成了一个闭环。但你有没有思考过，_分库分表真的适合你的系统吗？_分表在...",
+    "url": "https://segmentfault.com/a/1190000042099882",
+    "author": "CoderW",
+    "home_url": "https://segmentfault.com/u/coderw_5fd9998278d42",
+    "votes": "2",
     "rank": 1
   },
   {
-    "title": "动画合成小技巧！CSS 实现动感的倒计时效果",
-    "description": "欢迎关注微信公众号： 前端侦探介绍一个 CSS 动画合成小技巧。先看效果这是一个非常“动感”的倒计时效果，通常在一些活动开场中比较常见，分析一下整个动画过程，不难发现，有以下几类动画数字的变化缩小和放大透...",
-    "url": "https://segmentfault.com/a/1190000042094549",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "5",
+    "title": "百家号基于AE的视频渲染技术探索",
+    "description": "导读：百家号作为百度为创作者打造的集创作、发布、变现于一体的内容创作平台，在图文、短视频方面已经深耕多年，基于百度基础AI能力，通过视觉、语音、 NLP等技术将图文内容智能合成视频是目前主要的探索方向，...",
+    "url": "https://segmentfault.com/a/1190000042098985",
+    "author": "百度Geek说",
+    "home_url": "https://segmentfault.com/u/baidujiagoushi",
+    "votes": "1",
     "rank": 2
   },
   {
-    "title": "记录遇到的一个循环依赖问题",
-    "description": "但是我在使用的时候却报了notifyService的循环依赖。NG0200: Circular dependency in DI detected for ThyNotifyService如图",
-    "url": "https://segmentfault.com/a/1190000042096697",
-    "author": "weiewiyi",
-    "home_url": "https://segmentfault.com/u/chenchu_6110ed583800c",
-    "votes": "3",
+    "title": "【Java面试】请谈谈AQS是怎么回事儿？",
+    "description": "Hi，大家好，我是Mic。今年的市场环境是真的很难。很多工作一年的人，面试的难度相当于一个4年经验的人。越是这样，我们越应该强大自己，才能在逆境中获得更多的机会。今天一个一年经验的粉丝，被问到“AQS的实现...",
+    "url": "https://segmentfault.com/a/1190000042098735",
+    "author": "跟着Mic学架构",
+    "home_url": "https://segmentfault.com/u/fukua_5be8034f8191f",
+    "votes": "1",
     "rank": 3
-  },
-  {
-    "title": "Go学习笔记-Zap日志",
-    "description": "mu属性主要是为了确保原子操作，prefix设置每一行的前缀，flag设置输出的各种属性，比如时间、行号、文件路径等。out输出的方向，用于把日志存储文件。",
-    "url": "https://segmentfault.com/a/1190000042094912",
-    "author": "IT小马",
-    "home_url": "https://segmentfault.com/u/itxiaoma",
-    "votes": "1",
-    "rank": 4
-  },
-  {
-    "title": "Three.js系列: 在元宇宙看电影，享受 VR 视觉盛宴",
-    "description": "最近元宇宙的概念很火，并且受到疫情的影响，我们的出行总是受限，电影院也总是关门，但是在家里又没有看大片的氛围，这个时候我们就可以通过自己来造一个宇宙，并在 VR 设备（Oculus 、cardboard）中来观看。",
-    "url": "https://segmentfault.com/a/1190000042094334",
-    "author": "程序员秋风",
-    "home_url": "https://segmentfault.com/u/qiufeng_5a07f6cb96ee0",
-    "votes": "2",
-    "rank": 5
-  },
-  {
-    "title": "DNS 系列（二）：DNS 记录及工作方式，你了解吗？",
-    "description": "在上一篇《DNS 系列（一）：为什么更新了 DNS 记录不生效？》中，我们主要讲解了 DNS 和 DNS 传播，知道了网络通信主要通过 IP 地址来进行，而域名系统（DNS）则是保证用户在浏览器中输入域名之后，可以访问到对...",
-    "url": "https://segmentfault.com/a/1190000042094981",
-    "author": "云叔_又拍云",
-    "home_url": "https://segmentfault.com/u/yunshu_blog",
-    "votes": "1",
-    "rank": 6
-  },
-  {
-    "title": "用原生Go写一个自己的博客-搭建项目",
-    "description": "可以在环境中设置代理goproxy.cn避免国内下包出错启动服务最开始可以先对一个端口18080启动一个服务： {代码...} 效果：没有404，说明服务启动成功。添加localhost:18080/响应接下来，我们在index这个func可以添...",
-    "url": "https://segmentfault.com/a/1190000042095188",
-    "author": "LiberHome",
-    "home_url": "https://segmentfault.com/u/liberhome",
-    "votes": "1",
-    "rank": 7
-  },
-  {
-    "title": "电商商品系统的演进分析",
-    "description": "好久没有给大家带来新的知识分享了，2022的第一篇（是的，你没看错！第一篇）就给大家讲讲商品模型的演进过程吧！希望对大家做的工作有所帮助~~",
-    "url": "https://segmentfault.com/a/1190000042094414",
-    "author": "大愚Talk",
-    "home_url": "https://segmentfault.com/u/helei112g",
-    "votes": "1",
-    "rank": 8
   }
 ]
