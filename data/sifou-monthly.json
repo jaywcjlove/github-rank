@@ -99,22 +99,13 @@
     "rank": 11
   },
   {
-    "title": "JS实现将文本或JSON内容下载到文件中",
-    "description": "有时候在前端开发过程中，可能遇到这样的需求场景：需要将页面上的文本内容下载到文件中，内容可能是某个大的文本字段，比如博客文章，也可能是后端接口返回的 JSON 数据。",
-    "url": "https://segmentfault.com/a/1190000041965165",
-    "author": "十方",
-    "home_url": "https://segmentfault.com/u/shifang_5b2b70d160932",
-    "votes": "11",
-    "rank": 12
-  },
-  {
     "title": "Redis都有哪些使用场景",
     "description": "Redis作为一种内存型的非关系型的数据库，不管在互联网大厂，小厂，大项目和小项目中，几乎都会被使用。为什么Redis会受到如此青睐呢？关于这个问题，可能很多的程序员只是看着别人用而用，缺乏对Redis一个全面的...",
     "url": "https://segmentfault.com/a/1190000041985101",
     "author": "7small7",
     "home_url": "https://segmentfault.com/u/7small7",
     "votes": "10",
-    "rank": 13
+    "rank": 12
   },
   {
     "title": "React Suspense 尝鲜,处理前后端IO异步操作",
@@ -123,7 +114,7 @@
     "author": "葡萄城技术团队",
     "home_url": "https://segmentfault.com/u/grapecity",
     "votes": "7",
-    "rank": 14
+    "rank": 13
   },
   {
     "title": "亚马逊云科技：“云+数+AI”助力企业数智化转型",
@@ -132,7 +123,7 @@
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "11",
-    "rank": 15
+    "rank": 14
   },
   {
     "title": "SegmentFault 思否技术周刊 -- 超实用 Vue 合集，请查收",
@@ -141,7 +132,34 @@
     "author": "Beverly",
     "home_url": "https://segmentfault.com/u/beverly0",
     "votes": "8",
+    "rank": 15
+  },
+  {
+    "title": "使用CSS background实现炫酷悬停效果",
+    "description": "日常开发过程中，会遇到不少按钮鼠标悬停的效果，实现这类悬停效果的方式有很多，借助伪元素，CSS3变换及过渡等都可以实现。今天的文章将使用背景色实现类似的效果，当我们遇到一个问题时，你的脑海中的方案不止...",
+    "url": "https://segmentfault.com/a/1190000042069856",
+    "author": "南城大前端",
+    "home_url": "https://segmentfault.com/u/nanchengfe",
+    "votes": "11",
     "rank": 16
+  },
+  {
+    "title": "PHP后端面试85问",
+    "description": "替换原则(the Liskov Substitution Principle LSP) ：子类应当可以替换父类并出现在父类能够出现的任何地方。",
+    "url": "https://segmentfault.com/a/1190000042071370",
+    "author": "IT小马",
+    "home_url": "https://segmentfault.com/u/itxiaoma",
+    "votes": "9",
+    "rank": 17
+  },
+  {
+    "title": "高阶切图技巧！基于单张图片的任意颜色转换",
+    "description": "今天，要介绍一种基于 CSS mask-composite 的高级技巧。通过掌握它，我们可以通过一张 图片，得到关于它的各种变换，甚至乎，得到各种不同颜色的变换。通过单张 PNG/SVG 得到它的反向切图事情的经过是这样的，某...",
+    "url": "https://segmentfault.com/a/1190000042093361",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "10",
+    "rank": 18
   },
   {
     "title": "前端性能监测，Runtime Performance Debug 技巧",
@@ -150,7 +168,16 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "11",
-    "rank": 17
+    "rank": 19
+  },
+  {
+    "title": "动画合成小技巧！CSS 实现动感的倒计时效果",
+    "description": "欢迎关注微信公众号： 前端侦探介绍一个 CSS 动画合成小技巧。先看效果这是一个非常“动感”的倒计时效果，通常在一些活动开场中比较常见，分析一下整个动画过程，不难发现，有以下几类动画数字的变化缩小和放大透...",
+    "url": "https://segmentfault.com/a/1190000042094549",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "11",
+    "rank": 20
   },
   {
     "title": "SegmentFault 思否社区 10 周年 | 寄语有奖获奖名单公布，快来领奖~",
@@ -159,7 +186,7 @@
     "author": "SegmentFault思否",
     "home_url": "https://segmentfault.com/u/segmentfault",
     "votes": "7",
-    "rank": 18
+    "rank": 21
   },
   {
     "title": "使用 content-visibility 优化渲染性能",
@@ -168,25 +195,7 @@
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
     "votes": "12",
-    "rank": 19
-  },
-  {
-    "title": "高阶切图技巧！基于单张图片的任意颜色转换",
-    "description": "今天，要介绍一种基于 CSS mask-composite 的高级技巧。通过掌握它，我们可以通过一张 图片，得到关于它的各种变换，甚至乎，得到各种不同颜色的变换。通过单张 PNG/SVG 得到它的反向切图事情的经过是这样的，某...",
-    "url": "https://segmentfault.com/a/1190000042093361",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "8",
-    "rank": 20
-  },
-  {
-    "title": "使用CSS background实现炫酷悬停效果",
-    "description": "日常开发过程中，会遇到不少按钮鼠标悬停的效果，实现这类悬停效果的方式有很多，借助伪元素，CSS3变换及过渡等都可以实现。今天的文章将使用背景色实现类似的效果，当我们遇到一个问题时，你的脑海中的方案不止...",
-    "url": "https://segmentfault.com/a/1190000042069856",
-    "author": "南城大前端",
-    "home_url": "https://segmentfault.com/u/nanchengfe",
-    "votes": "9",
-    "rank": 21
+    "rank": 22
   },
   {
     "title": "Sass应用之实现主题切换",
@@ -195,7 +204,7 @@
     "author": "玛尔斯通",
     "home_url": "https://segmentfault.com/u/zhouqichao",
     "votes": "7",
-    "rank": 22
+    "rank": 23
   },
   {
     "title": "玩转 AbortController 控制器",
@@ -204,7 +213,7 @@
     "author": "jump__jump",
     "home_url": "https://segmentfault.com/u/jump_and_jump",
     "votes": "6",
-    "rank": 23
+    "rank": 24
   },
   {
     "title": "为什么Hook没有ErrorBoundary？",
@@ -213,7 +222,7 @@
     "author": "卡颂",
     "home_url": "https://segmentfault.com/u/kasong",
     "votes": "4",
-    "rank": 24
+    "rank": 25
   },
   {
     "title": "esbuild 构建油猴脚本",
@@ -222,7 +231,16 @@
     "author": "边城",
     "home_url": "https://segmentfault.com/u/jamesfancy",
     "votes": "6",
-    "rank": 25
+    "rank": 26
+  },
+  {
+    "title": "Vue项目之使用EditorConfig, Eslint和Prettier实现代码规范",
+    "description": "每个人的代码风格不同，比如有的人代码缩进喜欢用Tab，有的人喜欢用Space；有的人代码语句后会加上分号，有的人则不加。并且不同的人使用的开发工具也不同，有的人喜欢使用WebStorm，有的人喜欢用VSCode。。。如...",
+    "url": "https://segmentfault.com/a/1190000042044168",
+    "author": "玛尔斯通",
+    "home_url": "https://segmentfault.com/u/zhouqichao",
+    "votes": "11",
+    "rank": 27
   },
   {
     "title": "又拍云 Redis 的改进之路",
@@ -231,7 +249,16 @@
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
     "votes": "7",
-    "rank": 26
+    "rank": 28
+  },
+  {
+    "title": "熬夜爆肝整理的一份elasticsearch中文文档手册",
+    "description": "Elaticsearch，简称为 ES， ES 是一个开源的高扩展的分布式全文搜索引擎，Elasticsearch 是面向文档型数据库，一条数据在这里就是一个文档。",
+    "url": "https://segmentfault.com/a/1190000042059652",
+    "author": "7small7",
+    "home_url": "https://segmentfault.com/u/7small7",
+    "votes": "8",
+    "rank": 29
   },
   {
     "title": "几百行代码实现一个 JSON 解析器",
@@ -240,33 +267,6 @@
     "author": "crossoverJie",
     "home_url": "https://segmentfault.com/u/crossoverjie",
     "votes": "5",
-    "rank": 27
-  },
-  {
-    "title": "Vue项目之使用EditorConfig, Eslint和Prettier实现代码规范",
-    "description": "每个人的代码风格不同，比如有的人代码缩进喜欢用Tab，有的人喜欢用Space；有的人代码语句后会加上分号，有的人则不加。并且不同的人使用的开发工具也不同，有的人喜欢使用WebStorm，有的人喜欢用VSCode。。。如...",
-    "url": "https://segmentfault.com/a/1190000042044168",
-    "author": "玛尔斯通",
-    "home_url": "https://segmentfault.com/u/zhouqichao",
-    "votes": "10",
-    "rank": 28
-  },
-  {
-    "title": "React新文档：不要滥用Ref哦～",
-    "description": "React新文档有个很有意思的细节：useRef、useEffect这两个API的介绍，在文档中所在的章节叫Escape Hatches（逃生舱）。",
-    "url": "https://segmentfault.com/a/1190000041991074",
-    "author": "卡颂",
-    "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "9",
-    "rank": 29
-  },
-  {
-    "title": "Doris 毕业成为 Apache 顶级项目，独家专访百度 PALO 团队",
-    "description": "2022 年 6 月 16 日，Apache 软件基金会发表博文，宣布 Doris 正式毕业，正式成为 Apache 顶级项目（TLP）。（相关阅读：[链接]）。",
-    "url": "https://segmentfault.com/a/1190000041995552",
-    "author": "思否编辑部",
-    "home_url": "https://segmentfault.com/u/writers",
-    "votes": "7",
     "rank": 30
   }
 ]

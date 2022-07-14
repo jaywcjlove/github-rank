@@ -1,29 +1,47 @@
 [
   {
-    "title": "分库分表真的适合你的系统吗？聊聊分库分表和NewSQL如何选择",
-    "description": "曾几何时，“并发高就分库，数据大就分表”已经成了处理 MySQL 数据增长问题的圣经。面试官喜欢问，博主喜欢写，候选人也喜欢背，似乎已经形成了一个闭环。但你有没有思考过，_分库分表真的适合你的系统吗？_分表在...",
-    "url": "https://segmentfault.com/a/1190000042099882",
-    "author": "CoderW",
-    "home_url": "https://segmentfault.com/u/coderw_5fd9998278d42",
-    "votes": "2",
+    "title": "利用噪声构建美妙的 CSS 图形",
+    "description": "在平时，我非常喜欢利用 CSS 去构建一些有意思的图形。我们首先来看一个简单的例子。首先，假设我们实现一个 10x10 的格子：此时，我们可以利用一些随机效果，优化这个图案。譬如，我们给它随机添加不同的颜色：...",
+    "url": "https://segmentfault.com/a/1190000042103702",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "3",
     "rank": 1
   },
   {
-    "title": "百家号基于AE的视频渲染技术探索",
-    "description": "导读：百家号作为百度为创作者打造的集创作、发布、变现于一体的内容创作平台，在图文、短视频方面已经深耕多年，基于百度基础AI能力，通过视觉、语音、 NLP等技术将图文内容智能合成视频是目前主要的探索方向，...",
-    "url": "https://segmentfault.com/a/1190000042098985",
-    "author": "百度Geek说",
-    "home_url": "https://segmentfault.com/u/baidujiagoushi",
-    "votes": "1",
+    "title": "Redis 内存优化神技，小内存保存大数据",
+    "description": "大家好，我是「码哥」，大家可以叫我靓仔。这次码哥跟大家分享一些优化神技，当你面试或者工作中你遇到如下问题，那就使出今天学到的绝招，一招定乾坤！如何用更少的内存保存更多的数据？我们应该从 Redis 是如何...",
+    "url": "https://segmentfault.com/a/1190000042103541",
+    "author": "码哥字节",
+    "home_url": "https://segmentfault.com/u/magebyte",
+    "votes": "2",
     "rank": 2
   },
   {
-    "title": "【Java面试】请谈谈AQS是怎么回事儿？",
-    "description": "Hi，大家好，我是Mic。今年的市场环境是真的很难。很多工作一年的人，面试的难度相当于一个4年经验的人。越是这样，我们越应该强大自己，才能在逆境中获得更多的机会。今天一个一年经验的粉丝，被问到“AQS的实现...",
-    "url": "https://segmentfault.com/a/1190000042098735",
-    "author": "跟着Mic学架构",
-    "home_url": "https://segmentfault.com/u/fukua_5be8034f8191f",
+    "title": "Go 原生插件使用问题全解析",
+    "description": "文｜丁飞（花名：路德 )蚂蚁集团高级工程师深耕于 SOFAMesh 产品的商业化落地 主要方向为基于服务网格技术的系统架构升级方案设计与落地本文 4394 字 阅读 10 分钟｜前言｜MOSN 作为蚂蚁集团在 ServiceMesh 解决...",
+    "url": "https://segmentfault.com/a/1190000042104429",
+    "author": "SOFAStack",
+    "home_url": "https://segmentfault.com/u/sofastack",
     "votes": "1",
     "rank": 3
+  },
+  {
+    "title": "DNS 系列（三）：如何免受 DNS 欺骗的侵害",
+    "description": "互联网上每一台设备都会有一个 IP 地址，我们在访问网站或发送信息时，其实都是通过 IP 地址达成准确请求的。但是这个 IP 地址由很长一串数字组成，记忆起来相当困难，所以我们创造了更实用的域名来代替 IP 地址...",
+    "url": "https://segmentfault.com/a/1190000042104392",
+    "author": "云叔_又拍云",
+    "home_url": "https://segmentfault.com/u/yunshu_blog",
+    "votes": "1",
+    "rank": 4
+  },
+  {
+    "title": "Vue 部署后强制客户端刷新获取最新的代码资源【纯前端】",
+    "description": "背景：自己的项目修复了bug；但是客户端没有刷新浏览器；导致还是有bug的资源代码；出现了问题思路：结合Vue 部署后怎么强制客户端刷新获取最新的代码资源？里面的方案；分3步曲实现生产环境部署后资源刷新",
+    "url": "https://segmentfault.com/a/1190000042105627",
+    "author": "songxianling1992",
+    "home_url": "https://segmentfault.com/u/songxianling1992",
+    "votes": "2",
+    "rank": 5
   }
 ]
