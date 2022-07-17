@@ -144,21 +144,21 @@
     "rank": 16
   },
   {
-    "title": "前端性能监测，Runtime Performance Debug 技巧",
-    "description": "提到 Web 前端的效能优化，有许多的技巧是聚焦在如何减少页面的“载入时间 Loading Time”，例如 Code Splitting 透过减少需要载入的 Bundle Size 来加快载入效能。也有些技巧是针对执行时期 (Runtime) 的优化与调...",
-    "url": "https://segmentfault.com/a/1190000041990709",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "11",
-    "rank": 17
-  },
-  {
     "title": "利用噪声构建美妙的 CSS 图形",
     "description": "在平时，我非常喜欢利用 CSS 去构建一些有意思的图形。我们首先来看一个简单的例子。首先，假设我们实现一个 10x10 的格子：此时，我们可以利用一些随机效果，优化这个图案。譬如，我们给它随机添加不同的颜色：...",
     "url": "https://segmentfault.com/a/1190000042103702",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
     "votes": "8",
+    "rank": 17
+  },
+  {
+    "title": "前端性能监测，Runtime Performance Debug 技巧",
+    "description": "提到 Web 前端的效能优化，有许多的技巧是聚焦在如何减少页面的“载入时间 Loading Time”，例如 Code Splitting 透过减少需要载入的 Bundle Size 来加快载入效能。也有些技巧是针对执行时期 (Runtime) 的优化与调...",
+    "url": "https://segmentfault.com/a/1190000041990709",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "11",
     "rank": 18
   },
   {
@@ -261,12 +261,12 @@
     "rank": 29
   },
   {
-    "title": "React新文档：不要滥用Ref哦～",
-    "description": "React新文档有个很有意思的细节：useRef、useEffect这两个API的介绍，在文档中所在的章节叫Escape Hatches（逃生舱）。",
-    "url": "https://segmentfault.com/a/1190000041991074",
-    "author": "卡颂",
-    "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "9",
+    "title": "webpack 拆包：关于 splitChunks 的几个重点属性解析",
+    "description": "先来举个简单的栗子，wepack 设置中有 3 个入口文件：a.js、b.js 和 c.js，每个入口文件都同步 import 了 m1.js，不设置 splitChunks，配置下 webpack-bundle-analyzer 插件用来查看输出文件的内容，打包输出是这...",
+    "url": "https://segmentfault.com/a/1190000042093955",
+    "author": "deepfunc",
+    "home_url": "https://segmentfault.com/u/deepfunc",
+    "votes": "3",
     "rank": 30
   }
 ]
