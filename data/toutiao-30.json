@@ -2,7 +2,7 @@
   {
     "title": "3000帧动画图解MySQL为什么需要binlog、redo log和undo log",
     "description": "全文建立在MySQL的存储引擎为InnoDB的基础上先看一条SQL如何入库的：这是一条很简单的更新SQL，从MySQL服务端接收到SQL到落盘，先后经过了MySQL Server层...",
-    "votes": "183",
+    "votes": "191",
     "url": "/k/b0g4460",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -12,7 +12,7 @@
   {
     "title": "吐血整理：一份不可多得的架构师图谱！",
     "description": "文章来源：https://c1n.cn/J3wve‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍目录概述微服务消息队列概述“架构师图谱”是一个很宏大的命题，特别是优秀的架构师自身也是“由点到...",
-    "votes": "146",
+    "votes": "149",
     "url": "/k/ptp0ru2",
     "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
     "avatarAlt": "进击的程序猿 - 独家号",
@@ -22,7 +22,7 @@
   {
     "title": "高并发，你真的理解透彻了吗？",
     "description": "",
-    "votes": "70",
+    "votes": "74",
     "url": "/k/93k2zfb",
     "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
     "avatarAlt": "浪客用react,java全栈 - 独家号",
@@ -82,7 +82,7 @@
   {
     "title": "一线技术人应该关注的四种思维能力",
     "description": "",
-    "votes": "54",
+    "votes": "55",
     "url": "/k/s2lbrzp",
     "avatar": "https://img.toutiao.io/subject/df70c5d3876241ecba5984356133ab23/thumb",
     "avatarAlt": "架构必知必会 - 独家号",
@@ -92,7 +92,7 @@
   {
     "title": "产品指标体系如何搭建",
     "description": "",
-    "votes": "50",
+    "votes": "51",
     "url": "/k/ipcteru",
     "avatar": "https://img.toutiao.io/subject/6ee3bb205b3248c2b746c1506548181a/thumb",
     "avatarAlt": "大数据生态 - 独家号",
@@ -102,12 +102,32 @@
   {
     "title": "最牛逼的技术能力，是技术领导力",
     "description": "",
-    "votes": "50",
+    "votes": "51",
     "url": "/k/kron0fq",
     "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
     "avatarAlt": "进击的程序猿 - 独家号",
     "subjectName": "进击的程序猿",
     "homeUrl": "/subjects/24912"
+  },
+  {
+    "title": "单机高并发模型设计",
+    "description": "",
+    "votes": "52",
+    "url": "/k/2woifhp",
+    "avatar": "https://img.toutiao.io/subject/0bc4a65bf09748718c9acc6991f50e49/thumb",
+    "avatarAlt": "方丈的寺院 - 独家号",
+    "subjectName": "方丈的寺院",
+    "homeUrl": "/subjects/405015"
+  },
+  {
+    "title": "什么是反弹 Shell？",
+    "description": "",
+    "votes": "62",
+    "url": "/k/ltdnh1m",
+    "avatar": "https://img.toutiao.io/subject/1be92f5a50224852895d647097a6d521/thumb",
+    "avatarAlt": "测试之路 - 独家号",
+    "subjectName": "测试之路",
+    "homeUrl": "/subjects/205186"
   },
   {
     "title": "【合集】万字长文带你重温Elasticsearch ，这下完全懂了！",
@@ -120,14 +140,24 @@
     "homeUrl": "/subjects/472073"
   },
   {
-    "title": "单机高并发模型设计",
+    "title": "10 款更先进的开源命令行工具",
     "description": "",
-    "votes": "51",
-    "url": "/k/2woifhp",
-    "avatar": "https://img.toutiao.io/subject/0bc4a65bf09748718c9acc6991f50e49/thumb",
-    "avatarAlt": "方丈的寺院 - 独家号",
-    "subjectName": "方丈的寺院",
-    "homeUrl": "/subjects/405015"
+    "votes": "54",
+    "url": "/k/gmwqnt8",
+    "avatar": "https://img.toutiao.io/subject/b751657c3aaa4ac59db50c07db41e538/thumb",
+    "avatarAlt": "HelloGitHub - 独家号",
+    "subjectName": "HelloGitHub",
+    "homeUrl": "/subjects/175527"
+  },
+  {
+    "title": "MySQL六十六问，两万字+五十图详解！有点六！",
+    "description": "",
+    "votes": "48",
+    "url": "/k/5cpvhga",
+    "avatar": "https://img.toutiao.io/subject/df70c5d3876241ecba5984356133ab23/thumb",
+    "avatarAlt": "架构必知必会 - 独家号",
+    "subjectName": "架构必知必会",
+    "homeUrl": "/subjects/472073"
   },
   {
     "title": "如何写出好代码 — 防御式编程指南",
@@ -140,6 +170,16 @@
     "homeUrl": "/subjects/1385"
   },
   {
+    "title": "团队一盘散沙，怎么破？",
+    "description": "原创不易，求分享、求一键三连最近有个粉丝问了一道大题：小钗，我最近空降到一个小公司做技术负责人，感觉团队士气很低，同学们要么有力无处使，要么常规摸鱼，这种一盘散沙的团队该如何带呢？...",
+    "votes": "47",
+    "url": "/k/kdzpdh5",
+    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
+  },
+  {
     "title": "如何做好CodeReview",
     "description": "",
     "votes": "45",
@@ -150,34 +190,14 @@
     "homeUrl": "/subjects/98777"
   },
   {
-    "title": "什么是反弹 Shell？",
-    "description": "",
-    "votes": "58",
-    "url": "/k/ltdnh1m",
-    "avatar": "https://img.toutiao.io/subject/1be92f5a50224852895d647097a6d521/thumb",
-    "avatarAlt": "测试之路 - 独家号",
-    "subjectName": "测试之路",
-    "homeUrl": "/subjects/205186"
-  },
-  {
-    "title": "10 款更先进的开源命令行工具",
-    "description": "",
-    "votes": "50",
-    "url": "/k/gmwqnt8",
-    "avatar": "https://img.toutiao.io/subject/b751657c3aaa4ac59db50c07db41e538/thumb",
-    "avatarAlt": "HelloGitHub - 独家号",
-    "subjectName": "HelloGitHub",
-    "homeUrl": "/subjects/175527"
-  },
-  {
-    "title": "MySQL六十六问，两万字+五十图详解！有点六！",
-    "description": "",
+    "title": "日志中台不重不丢实现浅谈",
+    "description": "导读：日志数据的生命周期包含日志采集、接入、传输、应用等各个环节。数据的稳定性对于公司报表建设、决策分析、转化策略效果都有至关重要的影响。全文旨在介绍百度日志中台当前的现状，公司内...",
     "votes": "43",
-    "url": "/k/5cpvhga",
-    "avatar": "https://img.toutiao.io/subject/df70c5d3876241ecba5984356133ab23/thumb",
-    "avatarAlt": "架构必知必会 - 独家号",
-    "subjectName": "架构必知必会",
-    "homeUrl": "/subjects/472073"
+    "url": "/k/cnc323n",
+    "avatar": "https://img.toutiao.io/subject/6ee3bb205b3248c2b746c1506548181a/thumb",
+    "avatarAlt": "大数据生态 - 独家号",
+    "subjectName": "大数据生态",
+    "homeUrl": "/subjects/136176"
   },
   {
     "title": "刨根问底: Kafka 到底会不会丢数据？",
@@ -190,14 +210,14 @@
     "homeUrl": "/subjects/24912"
   },
   {
-    "title": "商品系统架构设计与实践",
-    "description": "",
+    "title": "GitHub的5个骚操作",
+    "description": "来源 | 程序员鱼皮作者 | 鱼皮GitHub 是程序员必备的代码开源平台。我们可以在 GitHub 上搜索和阅读项目代码，进行学习；或者复制粘贴，从而快速完成自己的项目。相信绝大...",
     "votes": "42",
-    "url": "/k/2r512r9",
-    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
-    "avatarAlt": "Bloomingroses - 独家号",
-    "subjectName": "Bloomingroses",
-    "homeUrl": "/subjects/98777"
+    "url": "/k/v25x5fy",
+    "avatar": "https://img.toutiao.io/subject/5677c886e56b479194e85580c577d68a/thumb",
+    "avatarAlt": "编程爱好者(网络编程) - 独家号",
+    "subjectName": "编程爱好者(网络编程)",
+    "homeUrl": "/subjects/134283"
   },
   {
     "title": "24 个 Docker 常见问题处理技巧",
@@ -210,29 +230,9 @@
     "homeUrl": "/subjects/205186"
   },
   {
-    "title": "日志中台不重不丢实现浅谈",
-    "description": "导读：日志数据的生命周期包含日志采集、接入、传输、应用等各个环节。数据的稳定性对于公司报表建设、决策分析、转化策略效果都有至关重要的影响。全文旨在介绍百度日志中台当前的现状，公司内...",
-    "votes": "41",
-    "url": "/k/cnc323n",
-    "avatar": "https://img.toutiao.io/subject/6ee3bb205b3248c2b746c1506548181a/thumb",
-    "avatarAlt": "大数据生态 - 独家号",
-    "subjectName": "大数据生态",
-    "homeUrl": "/subjects/136176"
-  },
-  {
-    "title": "GitHub的5个骚操作",
-    "description": "来源 | 程序员鱼皮作者 | 鱼皮GitHub 是程序员必备的代码开源平台。我们可以在 GitHub 上搜索和阅读项目代码，进行学习；或者复制粘贴，从而快速完成自己的项目。相信绝大...",
-    "votes": "41",
-    "url": "/k/v25x5fy",
-    "avatar": "https://img.toutiao.io/subject/5677c886e56b479194e85580c577d68a/thumb",
-    "avatarAlt": "编程爱好者(网络编程) - 独家号",
-    "subjectName": "编程爱好者(网络编程)",
-    "homeUrl": "/subjects/134283"
-  },
-  {
     "title": "分布式唯一 ID 生成方案浅谈",
     "description": "",
-    "votes": "37",
+    "votes": "38",
     "url": "/k/qqf460n",
     "avatar": "https://img.toutiao.io/subject/df70c5d3876241ecba5984356133ab23/thumb",
     "avatarAlt": "架构必知必会 - 独家号",

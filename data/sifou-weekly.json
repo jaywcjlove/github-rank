@@ -5,8 +5,17 @@
     "url": "https://segmentfault.com/a/1190000042103702",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "9",
+    "votes": "11",
     "rank": 1
+  },
+  {
+    "title": "CSS color-scheme 和夜间模式",
+    "description": "欢迎关注微信公众号：前端侦探介绍一个和深色模式相关的CSS属性：color-scheme一、什么是 color-scheme？color-scheme顾名思义，即为“配色方案”，在系统中指的是“白天模式”和“夜间模式”。使用这个属性可以轻松的...",
+    "url": "https://segmentfault.com/a/1190000042184163",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "9",
+    "rank": 2
   },
   {
     "title": "冴羽答读者问：如何学习更有计划性、提升更稳更快？",
@@ -15,16 +24,16 @@
     "author": "冴羽",
     "home_url": "https://segmentfault.com/u/yayu",
     "votes": "8",
-    "rank": 2
+    "rank": 3
   },
   {
-    "title": "无需CORS，用nginx解决跨域问题，轻松实现低代码开发的前后端分离",
-    "description": "在技术层面，前后端分离指在同一个Web系统中，前端服务器和后端服务器采用不同的技术栈，利用标准的WebAPI完成协同工作。这种前后端分离的\"混合开发\"模式下，前后端通常会部署到不同的服务器上，即便部...",
-    "url": "https://segmentfault.com/a/1190000042115197",
-    "author": "葡萄城技术团队",
-    "home_url": "https://segmentfault.com/u/grapecity",
-    "votes": "1",
-    "rank": 3
+    "title": "DNS 系列（三）：如何免受 DNS 欺骗的侵害",
+    "description": "互联网上每一台设备都会有一个 IP 地址，我们在访问网站或发送信息时，其实都是通过 IP 地址达成准确请求的。但是这个 IP 地址由很长一串数字组成，记忆起来相当困难，所以我们创造了更实用的域名来代替 IP 地址...",
+    "url": "https://segmentfault.com/a/1190000042104392",
+    "author": "云叔_又拍云",
+    "home_url": "https://segmentfault.com/u/yunshu_blog",
+    "votes": "4",
+    "rank": 4
   },
   {
     "title": "Redis 内存优化神技，小内存保存大数据",
@@ -33,7 +42,25 @@
     "author": "码哥字节",
     "home_url": "https://segmentfault.com/u/magebyte",
     "votes": "4",
-    "rank": 4
+    "rank": 5
+  },
+  {
+    "title": "无需CORS，用nginx解决跨域问题，轻松实现低代码开发的前后端分离",
+    "description": "在技术层面，前后端分离指在同一个Web系统中，前端服务器和后端服务器采用不同的技术栈，利用标准的WebAPI完成协同工作。这种前后端分离的\"混合开发\"模式下，前后端通常会部署到不同的服务器上，即便部...",
+    "url": "https://segmentfault.com/a/1190000042115197",
+    "author": "葡萄城技术团队",
+    "home_url": "https://segmentfault.com/u/grapecity",
+    "votes": "1",
+    "rank": 6
+  },
+  {
+    "title": "这些年我开源的几个小项目",
+    "description": "笔者是一个平平无奇的前端打工人，没有参与过啥热门开源项目的共建，所以每次说自己热爱开源都很心虚，充其量就是热爱使用开源项目，不过这两年来也陆续做了几个小项目，虽然只有时不时的来几个star，不过也给我...",
+    "url": "https://segmentfault.com/a/1190000042182672",
+    "author": "街角小林",
+    "home_url": "https://segmentfault.com/u/jiejiaoxiaolin",
+    "votes": "4",
+    "rank": 7
   },
   {
     "title": "主流移动端组件库的对比和分析",
@@ -42,7 +69,7 @@
     "author": "京东设计中心JDC",
     "home_url": "https://segmentfault.com/u/jingdongshejizhongxin",
     "votes": "2",
-    "rank": 5
+    "rank": 8
   },
   {
     "title": "利用vue-3d-loader同时加载多个3D模型",
@@ -51,7 +78,16 @@
     "author": "深夜徘徊",
     "home_url": "https://segmentfault.com/u/king2088",
     "votes": "2",
-    "rank": 6
+    "rank": 9
+  },
+  {
+    "title": "超酷炫的转场动画？CSS 轻松拿下！",
+    "description": "在 WeGame 的 PC 端官网首页，有着非常多制作精良的基于滚动的动画效果。这里我简单截取其中 2 个比较有意思的转场动画，大家感受感受。转场动画 1：转场动画 2：是不是挺有意思的，整个动画的衔接是基于滚轮的滚...",
+    "url": "https://segmentfault.com/a/1190000042184211",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "6",
+    "rank": 10
   },
   {
     "title": "『你写的Promise, 是完美的吗?』",
@@ -60,16 +96,7 @@
     "author": "斑驳光影",
     "home_url": "https://segmentfault.com/u/zqbright",
     "votes": "5",
-    "rank": 7
-  },
-  {
-    "title": "go-zero微服务实战系列（九、极致优化秒杀性能）",
-    "description": "上一篇文章中引入了消息队列对秒杀流量做削峰的处理，我们使用的是Kafka，看起来似乎工作的不错，但其实还是有很多隐患存在，如果这些隐患不优化处理掉，那么秒杀抢购活动开始后可能会出现消息堆积、消费延迟、数...",
-    "url": "https://segmentfault.com/a/1190000042099343",
-    "author": "kevinwan",
-    "home_url": "https://segmentfault.com/u/kevinwan",
-    "votes": "2",
-    "rank": 8
+    "rank": 11
   },
   {
     "title": "SegmentFault 思否技术周刊 -- 这份 Webpack 有点料！",
@@ -78,16 +105,7 @@
     "author": "Beverly",
     "home_url": "https://segmentfault.com/u/beverly0",
     "votes": "3",
-    "rank": 9
-  },
-  {
-    "title": "CSS color-scheme 和夜间模式",
-    "description": "欢迎关注微信公众号：前端侦探介绍一个和深色模式相关的CSS属性：color-scheme一、什么是 color-scheme？color-scheme顾名思义，即为“配色方案”，在系统中指的是“白天模式”和“夜间模式”。使用这个属性可以轻松的...",
-    "url": "https://segmentfault.com/a/1190000042184163",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "8",
-    "rank": 10
+    "rank": 12
   },
   {
     "title": "记录一次 Online DDL 操作",
@@ -96,43 +114,7 @@
     "author": "Cindy",
     "home_url": "https://segmentfault.com/u/cindy_583d3583ae952",
     "votes": "1",
-    "rank": 11
-  },
-  {
-    "title": "html2canvas将指定区域导出为图片（js将div导出为图片）",
-    "description": "如何使用JS截取HTML页面为图片呢，html2canvas.js这个插件可以轻松实现。这个原理很简单，就是html2canvas.js可以将当页面渲染成一个Canvas图片，然后保存下来即可。它不需要来自服务器任何渲染，整张图片都是在...",
-    "url": "https://segmentfault.com/a/1190000042106889",
-    "author": "TANKING",
-    "home_url": "https://segmentfault.com/u/tanking",
-    "votes": "2",
-    "rank": 12
-  },
-  {
-    "title": "Vue 部署后强制客户端刷新获取最新的代码资源【纯前端】",
-    "description": "背景：自己的项目修复了bug；但是客户端没有刷新浏览器；导致还是有bug的资源代码；出现了问题思路：结合Vue 部署后怎么强制客户端刷新获取最新的代码资源？里面的方案；分3步曲实现生产环境部署后资源刷新",
-    "url": "https://segmentfault.com/a/1190000042105627",
-    "author": "songxianling1992",
-    "home_url": "https://segmentfault.com/u/songxianling1992",
-    "votes": "5",
     "rank": 13
-  },
-  {
-    "title": "JavaScript一键复制内容（document.execCommand原生JS设置剪贴板）",
-    "description": "有时候为了方便用户快速复制页面的内容，一般的做法就是添加一个按钮给用户点击一下就复制下来了，这边使用JavaScript原生的方法进行设置剪贴板。",
-    "url": "https://segmentfault.com/a/1190000042178536",
-    "author": "TANKING",
-    "home_url": "https://segmentfault.com/u/tanking",
-    "votes": "2",
-    "rank": 14
-  },
-  {
-    "title": "DNS 系列（三）：如何免受 DNS 欺骗的侵害",
-    "description": "互联网上每一台设备都会有一个 IP 地址，我们在访问网站或发送信息时，其实都是通过 IP 地址达成准确请求的。但是这个 IP 地址由很长一串数字组成，记忆起来相当困难，所以我们创造了更实用的域名来代替 IP 地址...",
-    "url": "https://segmentfault.com/a/1190000042104392",
-    "author": "云叔_又拍云",
-    "home_url": "https://segmentfault.com/u/yunshu_blog",
-    "votes": "1",
-    "rank": 15
   },
   {
     "title": "[Hacker News 周报] Vite 3.0 发布；Bun 性能实测；性能更强的 Prometheus 替代方案",
@@ -141,25 +123,52 @@
     "author": "aryu",
     "home_url": "https://segmentfault.com/u/aryu",
     "votes": "1",
+    "rank": 14
+  },
+  {
+    "title": "html2canvas将指定区域导出为图片（js将div导出为图片）",
+    "description": "如何使用JS截取HTML页面为图片呢，html2canvas.js这个插件可以轻松实现。这个原理很简单，就是html2canvas.js可以将当页面渲染成一个Canvas图片，然后保存下来即可。它不需要来自服务器任何渲染，整张图片都是在...",
+    "url": "https://segmentfault.com/a/1190000042106889",
+    "author": "TANKING",
+    "home_url": "https://segmentfault.com/u/tanking",
+    "votes": "2",
+    "rank": 15
+  },
+  {
+    "title": "JavaScript一键复制内容（document.execCommand原生JS设置剪贴板）",
+    "description": "有时候为了方便用户快速复制页面的内容，一般的做法就是添加一个按钮给用户点击一下就复制下来了，这边使用JavaScript原生的方法进行设置剪贴板。",
+    "url": "https://segmentfault.com/a/1190000042178536",
+    "author": "TANKING",
+    "home_url": "https://segmentfault.com/u/tanking",
+    "votes": "2",
     "rank": 16
   },
   {
-    "title": "图扑 Web 可视化引擎在仿真分析领域的应用",
-    "description": "在数字孪生和仿真研究过程中，会产生大量和三维空间相关的数值信息，比如设备外观的扫描数据、地形扫描数据、生产设备温度场/压力场、流体的速度场、流体扩散，以及各种仿真数据：速度，压力，应力，温度等。",
-    "url": "https://segmentfault.com/a/1190000042114034",
-    "author": "hightopo",
-    "home_url": "https://segmentfault.com/u/hightopo",
-    "votes": "1",
+    "title": "Vue 部署后强制客户端刷新获取最新的代码资源【纯前端】",
+    "description": "背景：自己的项目修复了bug；但是客户端没有刷新浏览器；导致还是有bug的资源代码；出现了问题思路：结合Vue 部署后怎么强制客户端刷新获取最新的代码资源？里面的方案；分3步曲实现生产环境部署后资源刷新",
+    "url": "https://segmentfault.com/a/1190000042105627",
+    "author": "songxianling1992",
+    "home_url": "https://segmentfault.com/u/songxianling1992",
+    "votes": "5",
     "rank": 17
   },
   {
-    "title": "网页长按保存及识别二维码",
-    "description": "网易哒哒的 H5 一向是业界精品，其中不少 H5 会成为爆款，能在朋友圈广泛流传的那种。同时，他们还写了一本很水的书——制造爆款：H5营销策划一本通，草草介绍了下各式各样的H5，但相关的技术文章却都没这么介绍，...",
-    "url": "https://segmentfault.com/a/1190000042104608",
-    "author": "山头人汉波",
-    "home_url": "https://segmentfault.com/u/johanazhu",
-    "votes": "1",
+    "title": "Shopee在React Native 架构方面的探索",
+    "description": "React Native（下文简称 RN）是混合应用领域流行的跨端开发框架。RN 非常适合灵活多变的电商领域业务，由于 RN 是基于客户端渲染的技术，所以相较于 H5 页面，它在用户体验方面有一定优势。",
+    "url": "https://segmentfault.com/a/1190000042183220",
+    "author": "xiangzhihong",
+    "home_url": "https://segmentfault.com/u/xiangzhihong",
+    "votes": "3",
     "rank": 18
+  },
+  {
+    "title": "Golang 非主流 打包静态资源方案",
+    "description": "说到往 Go 程序里面打包进其他非 *.go 资源，在 Go1.16 之前有 go-bindata 第三方开源支持。在 Go1.16 引入了新特性 embed，不依赖第三方就能嵌入静态资源权限。然而在项目中，以上两种方案我都没用，转而自研了...",
+    "url": "https://segmentfault.com/a/1190000042183244",
+    "author": "小白要生发",
+    "home_url": "https://segmentfault.com/u/xiaobaiyaoshengfa",
+    "votes": "1",
+    "rank": 19
   },
   {
     "title": "2022最新慕课网课程大全_完整无密_百度网盘分享",
@@ -168,16 +177,25 @@
     "author": "小道哥",
     "home_url": "https://segmentfault.com/u/xiaodaoge",
     "votes": "1",
-    "rank": 19
+    "rank": 20
   },
   {
-    "title": "React Table 表格组件使用教程 排序、分页、搜索过滤筛选功能实战开发",
-    "description": "在日常开发中，特别是内部使用的后台系统时，我们常常会需要用表格来展示数据，同时提供一些操作用于操作表格内的数据。简单的表格直接用原生 HTML table 就好，但如果要在 React 中实现一个功能丰富的表格，其实...",
-    "url": "https://segmentfault.com/a/1190000042101414",
-    "author": "蒋川",
-    "home_url": "https://segmentfault.com/u/jiangchuan_5ecf6be720834",
+    "title": "网页长按保存及识别二维码",
+    "description": "网易哒哒的 H5 一向是业界精品，其中不少 H5 会成为爆款，能在朋友圈广泛流传的那种。同时，他们还写了一本很水的书——制造爆款：H5营销策划一本通，草草介绍了下各式各样的H5，但相关的技术文章却都没这么介绍，...",
+    "url": "https://segmentfault.com/a/1190000042104608",
+    "author": "山头人汉波",
+    "home_url": "https://segmentfault.com/u/johanazhu",
     "votes": "1",
-    "rank": 20
+    "rank": 21
+  },
+  {
+    "title": "图扑 Web 可视化引擎在仿真分析领域的应用",
+    "description": "在数字孪生和仿真研究过程中，会产生大量和三维空间相关的数值信息，比如设备外观的扫描数据、地形扫描数据、生产设备温度场/压力场、流体的速度场、流体扩散，以及各种仿真数据：速度，压力，应力，温度等。",
+    "url": "https://segmentfault.com/a/1190000042114034",
+    "author": "hightopo",
+    "home_url": "https://segmentfault.com/u/hightopo",
+    "votes": "1",
+    "rank": 22
   },
   {
     "title": "vscode 解析——如何维护海量模块依赖关系(二)",
@@ -186,16 +204,7 @@
     "author": "混沌福王",
     "home_url": "https://segmentfault.com/u/flywang",
     "votes": "1",
-    "rank": 21
-  },
-  {
-    "title": "Go 原生插件使用问题全解析",
-    "description": "文｜丁飞（花名：路德 )蚂蚁集团高级工程师深耕于 SOFAMesh 产品的商业化落地 主要方向为基于服务网格技术的系统架构升级方案设计与落地本文 4394 字 阅读 10 分钟｜前言｜MOSN 作为蚂蚁集团在 ServiceMesh 解决...",
-    "url": "https://segmentfault.com/a/1190000042104429",
-    "author": "SOFAStack",
-    "home_url": "https://segmentfault.com/u/sofastack",
-    "votes": "1",
-    "rank": 22
+    "rank": 23
   },
   {
     "title": "vue3 解决 ESLint 各类型错误",
@@ -204,16 +213,25 @@
     "author": "Shyla",
     "home_url": "https://segmentfault.com/u/xiaoniezi",
     "votes": "1",
-    "rank": 23
+    "rank": 24
   },
   {
-    "title": "分库分表真的适合你的系统吗？聊聊分库分表和NewSQL如何选择",
-    "description": "曾几何时，“并发高就分库，数据大就分表”已经成了处理 MySQL 数据增长问题的圣经。面试官喜欢问，博主喜欢写，候选人也喜欢背，似乎已经形成了一个闭环。但你有没有思考过，_分库分表真的适合你的系统吗？_分表在...",
-    "url": "https://segmentfault.com/a/1190000042099882",
-    "author": "CoderW",
-    "home_url": "https://segmentfault.com/u/coderw_5fd9998278d42",
-    "votes": "2",
-    "rank": 24
+    "title": "千万不要把Request传递到异步线程里面！有坑！",
+    "description": "你好哇，我是歪歪。前几天在网上冲浪的时候看到一篇技术文章，讲的是他把一个 request 请求传递到了线程池里面，然后遇到了一个匪夷所思的情况。他写了这篇文章，把自己针对这个问题的探索过程分享了出来：《spri...",
+    "url": "https://segmentfault.com/a/1190000042184829",
+    "author": "why技术",
+    "home_url": "https://segmentfault.com/u/whyjishu",
+    "votes": "1",
+    "rank": 25
+  },
+  {
+    "title": "Go 原生插件使用问题全解析",
+    "description": "文｜丁飞（花名：路德 )蚂蚁集团高级工程师深耕于 SOFAMesh 产品的商业化落地 主要方向为基于服务网格技术的系统架构升级方案设计与落地本文 4394 字 阅读 10 分钟｜前言｜MOSN 作为蚂蚁集团在 ServiceMesh 解决...",
+    "url": "https://segmentfault.com/a/1190000042104429",
+    "author": "SOFAStack",
+    "home_url": "https://segmentfault.com/u/sofastack",
+    "votes": "1",
+    "rank": 26
   },
   {
     "title": "go-zero微服务实战系列（十一、大结局）",
@@ -222,7 +240,25 @@
     "author": "kevinwan",
     "home_url": "https://segmentfault.com/u/kevinwan",
     "votes": "1",
-    "rank": 25
+    "rank": 27
+  },
+  {
+    "title": "Golang RPC （一）Go标准库的简单实现 介绍+使用",
+    "description": "在涉及RPC的应用中，作为开发人员一般至少有三种角色：首先是服务端实现RPC方法的开发人员，其次是客户端调用RPC方法的人员，最后也是最重要的是制定服务端和客户端RPC接口规范的设计人员。在前面的例子中我们为...",
+    "url": "https://segmentfault.com/a/1190000042184813",
+    "author": "LiberHome",
+    "home_url": "https://segmentfault.com/u/liberhome",
+    "votes": "1",
+    "rank": 28
+  },
+  {
+    "title": "工程效能CI/CD之流水线引擎的建设实践",
+    "description": "经过近3年的建设打磨，美团流水线引擎完成了服务端的基建统一，每日支撑近十万次的流水线执行量，系统成功率保持在99.99%以上。本文主要介绍在自研引擎建设层面遇到的挑战以及解决方案。",
+    "url": "https://segmentfault.com/a/1190000042184293",
+    "author": "美团技术团队",
+    "home_url": "https://segmentfault.com/u/meituanjishutuandui",
+    "votes": "1",
+    "rank": 29
   },
   {
     "title": "web-compiler：mvvm 的实现思路",
@@ -230,42 +266,6 @@
     "url": "https://segmentfault.com/a/1190000042114347",
     "author": "yangrd",
     "home_url": "https://segmentfault.com/u/yangrd",
-    "votes": "1",
-    "rank": 26
-  },
-  {
-    "title": "纯css实现自动显示“全文”链接",
-    "description": "最近发现了一位大佬用纯css实现了自动显示“全文”链接的这样一个功能，用的方法挺巧妙的，于是我自己也试着实现了一下，借此来记录一下～功能效果文案较少时直接显示，文案较多时限制5行，显示省略号，然后再显示...",
-    "url": "https://segmentfault.com/a/1190000042098496",
-    "author": "Isabella",
-    "home_url": "https://segmentfault.com/u/isabella_5b593d1fde470",
-    "votes": "1",
-    "rank": 27
-  },
-  {
-    "title": "纯CSS实现四种方式文本反差色效果",
-    "description": "如上图所示，文字随着界面的交互变化会修改文字的颜色形成反差色，让平平无奇的文字产生了眼前一亮的效果。如果你关注设计和动画效果，这样的效果肯定见过不少，在一些比较注重设计的网站都有类似的交互效果出现...",
-    "url": "https://segmentfault.com/a/1190000042099252",
-    "author": "南城大前端",
-    "home_url": "https://segmentfault.com/u/nanchengfe",
-    "votes": "1",
-    "rank": 28
-  },
-  {
-    "title": "脉脉上的 \"前端三大浪漫\" 是个啥？",
-    "description": "背景今天在陌陌脉脉看到一个帖子，讲到前端三大浪漫.一、富文本编辑器富文本编辑器市面上已经有很多优秀的开源版本了，但是问题在于每个产品的富文本编辑器需求不一样，所以可能导致有一些时候需要手撸编辑器例如...",
-    "url": "https://segmentfault.com/a/1190000042102319",
-    "author": "PeterTan",
-    "home_url": "https://segmentfault.com/u/jerrytanjinjie",
-    "votes": "4",
-    "rank": 29
-  },
-  {
-    "title": "许式伟：Go+ 演进之路",
-    "description": "7 月 10 日，一年一度的 ECUG Con 2022 在线上圆满举行。许式伟作为七牛云 CEO、ECUG 社区发起人、Go+ 语言发明人，为大家来带了《Go+ 演进之路》的主题演讲。以下内容根据演讲实录整理。 大家好，欢迎来到 ECUG ...",
-    "url": "https://segmentfault.com/a/1190000042113338",
-    "author": "七牛云",
-    "home_url": "https://segmentfault.com/u/portal_qiniu_com",
     "votes": "1",
     "rank": 30
   }
