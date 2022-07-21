@@ -1,47 +1,74 @@
 [
   {
-    "title": "关于 Angular 注解 @Injectable() 使用的一些误区",
-    "description": "当使用 Angular 装饰器时，被装饰的类以 Angular 可以读取的格式存储关于自身的元数据——这包括关于它需要获取和注入哪些依赖项的元数据。",
-    "url": "https://segmentfault.com/a/1190000042193798",
-    "author": "JerryWang_汪子熙",
-    "home_url": "https://segmentfault.com/u/jerrywangsap",
-    "votes": "1",
+    "title": "SegmentFault 思否技术周刊 -- 日常使用 Git，这些问题你遇到过吗？",
+    "description": "Git 的诞生是一个非常有趣的故事。1991年 Linus 开源了 Linux 内核，无数 Linux 爱好者在世界各地为 Linux 编写代码，那么问题来了，这些代码该如何管理呢？起初 Linus 使用 BitKeeper(BitMover 公司的版本控制软...",
+    "url": "https://segmentfault.com/a/1190000042196077",
+    "author": "Beverly",
+    "home_url": "https://segmentfault.com/u/beverly0",
+    "votes": "2",
     "rank": 1
   },
   {
-    "title": "我有 7种 实现web实时消息推送的方案，7种！",
-    "description": "技术交流，公众号：程序员小富大家好，我是小富～我有一个朋友～做了一个小破站，现在要实现一个站内信web消息推送的功能，对，就是下图这个小红点，一个很常用的功能。不过他还没想好用什么方式做，这里我帮他整...",
-    "url": "https://segmentfault.com/a/1190000042192378",
-    "author": "程序员小富",
-    "home_url": "https://segmentfault.com/u/chengxy",
-    "votes": "2",
+    "title": "即将开幕！XDC 2022 亮点全揭晓！",
+    "description": "历经 4 个月的精心打磨，连接中外技术生态，与上百位海内外技术专家深度交流，在 120 多个充满着不确定性的日夜中找寻着确定，只为了 7 月 22、23 日 2 天的精彩绽放。如今，第二届稀土开发者大会(XDC 2022)终于...",
+    "url": "https://segmentfault.com/a/1190000042195964",
+    "author": "snakesss",
+    "home_url": "https://segmentfault.com/u/snakesss",
+    "votes": "1",
     "rank": 2
   },
   {
-    "title": "SiamRPN：孪生网络与RPN的结合",
-    "description": "大多数性能优越的视觉目标跟踪器很难有实时速度。在这篇文章中，我们提出了孪生候选区域生成网络（Siamese region proposal network），简称Siamese-RPN，它能够利用大尺度的图像对离线端到端训练。具体来讲，这...",
-    "url": "https://segmentfault.com/a/1190000042189837",
+    "title": "SiamRPN++：深层网络连体视觉跟踪的演变",
+    "description": "基于孪生网络的跟踪器将跟踪表述为目标模板和搜索区域之间的卷积特征互相关。然而孪生网络的算法不能利用来自深层网络（如 resnet-50或更深层）的特征，与先进的算法相比仍然有差距。",
+    "url": "https://segmentfault.com/a/1190000042195741",
     "author": "代码的路",
     "home_url": "https://segmentfault.com/u/zbzcdzf",
     "votes": "1",
     "rank": 3
   },
   {
-    "title": "用原生的 JavaScript Intersection Observer API 实现 Lazy Loading",
-    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000042188399",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "title": "搭建前端监控，采集用户行为的 N 种姿势",
+    "description": "上一篇我们详细介绍了前端如何采集异常数据。采集异常数据是为了随时监测线上项目的运行情况，发现问题及时修复。在很多场景下，除了异常监控有用，收集用户的行为数据同样有意义。",
+    "url": "https://segmentfault.com/a/1190000042194426",
+    "author": "杨成功",
+    "home_url": "https://segmentfault.com/u/ruidoc",
     "votes": "1",
     "rank": 4
   },
   {
-    "title": "来自NPM联合创始人的预言：前端未来会这样",
-    "description": "大家好，我卡颂。在WWC22上，NPM联合创始人（当前是Netlify的数据分析师）Laurie Voss发表了对web开发未来发展方向的预测演讲。本文让我们来看看这位有26年web开发经验的数据分析师，会带来哪些洞察。欢迎加入人...",
-    "url": "https://segmentfault.com/a/1190000042188563",
-    "author": "卡颂",
-    "home_url": "https://segmentfault.com/u/kasong",
+    "title": "插件机制，能让开源的 api 管理工具使用更简单么？",
+    "description": "API 管理工具，基本的功能是文档和测试，但如果 API 管理工具也能安装插件，任何你想要的 API 管理相关的其他功能都可以通过安装插件来满足，是不是就很酷呢？",
+    "url": "https://segmentfault.com/a/1190000042198163",
+    "author": "气势凌人的柿子",
+    "home_url": "https://segmentfault.com/u/qishilingrendeshizi",
     "votes": "1",
     "rank": 5
+  },
+  {
+    "title": "切换测试环境而已，真的不需要那么麻烦",
+    "description": "前面我们都在讲接口测试、接口文档，这一期讲讲如何切换测试环境。设置 API 的请求地址前缀、全局变量信息。在测试时，可以一键切换测试环境而不需要手动输入域名。我们可以通过环境下拉框新增环境。我们可以通过...",
+    "url": "https://segmentfault.com/a/1190000042197403",
+    "author": "气势凌人的柿子",
+    "home_url": "https://segmentfault.com/u/qishilingrendeshizi",
+    "votes": "1",
+    "rank": 6
+  },
+  {
+    "title": "写一个新的接口之前，我通常会思考这几个问题",
+    "description": "我在开始一个新的接口之前，需要进行以下判断：请求协议是不是 HTTP、https?请求体和响应格式是什么（XML、JSON、FormData、Raw）?API 是不是 RESTful 风格？如果上面三个问题的答案都清楚了，就可以开始新增一个...",
+    "url": "https://segmentfault.com/a/1190000042196021",
+    "author": "气势凌人的柿子",
+    "home_url": "https://segmentfault.com/u/qishilingrendeshizi",
+    "votes": "1",
+    "rank": 7
+  },
+  {
+    "title": "搞懂虚拟 DOM 看这一篇就够了",
+    "description": "React 和 Vue 中都有虚拟 DOM，我们应该如何理解和掌握虚拟 DOM 的精髓呢？我推荐大家学习 Snabbdom 这个项目。Snabbdom 是一个虚拟 DOM 实现库，推荐的原因一是代码比较少，核心代码只有几百行；二是 Vue 就是借...",
+    "url": "https://segmentfault.com/a/1190000042195199",
+    "author": "deepfunc",
+    "home_url": "https://segmentfault.com/u/deepfunc",
+    "votes": "1",
+    "rank": 8
   }
 ]

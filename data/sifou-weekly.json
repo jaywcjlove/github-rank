@@ -1,19 +1,19 @@
 [
   {
-    "title": "利用噪声构建美妙的 CSS 图形",
-    "description": "在平时，我非常喜欢利用 CSS 去构建一些有意思的图形。我们首先来看一个简单的例子。首先，假设我们实现一个 10x10 的格子：此时，我们可以利用一些随机效果，优化这个图案。譬如，我们给它随机添加不同的颜色：...",
-    "url": "https://segmentfault.com/a/1190000042103702",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "11",
-    "rank": 1
-  },
-  {
     "title": "CSS color-scheme 和夜间模式",
     "description": "欢迎关注微信公众号：前端侦探介绍一个和深色模式相关的CSS属性：color-scheme一、什么是 color-scheme？color-scheme顾名思义，即为“配色方案”，在系统中指的是“白天模式”和“夜间模式”。使用这个属性可以轻松的...",
     "url": "https://segmentfault.com/a/1190000042184163",
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "10",
+    "rank": 1
+  },
+  {
+    "title": "超酷炫的转场动画？CSS 轻松拿下！",
+    "description": "在 WeGame 的 PC 端官网首页，有着非常多制作精良的基于滚动的动画效果。这里我简单截取其中 2 个比较有意思的转场动画，大家感受感受。转场动画 1：转场动画 2：是不是挺有意思的，整个动画的衔接是基于滚轮的滚...",
+    "url": "https://segmentfault.com/a/1190000042184211",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
     "votes": "9",
     "rank": 2
   },
@@ -27,22 +27,13 @@
     "rank": 3
   },
   {
-    "title": "DNS 系列（三）：如何免受 DNS 欺骗的侵害",
-    "description": "互联网上每一台设备都会有一个 IP 地址，我们在访问网站或发送信息时，其实都是通过 IP 地址达成准确请求的。但是这个 IP 地址由很长一串数字组成，记忆起来相当困难，所以我们创造了更实用的域名来代替 IP 地址...",
-    "url": "https://segmentfault.com/a/1190000042104392",
-    "author": "云叔_又拍云",
-    "home_url": "https://segmentfault.com/u/yunshu_blog",
+    "title": "这些年我开源的几个小项目",
+    "description": "笔者是一个平平无奇的前端打工人，没有参与过啥热门开源项目的共建，所以每次说自己热爱开源都很心虚，充其量就是热爱使用开源项目，不过这两年来也陆续做了几个小项目，虽然只有时不时的来几个star，不过也给我...",
+    "url": "https://segmentfault.com/a/1190000042182672",
+    "author": "街角小林",
+    "home_url": "https://segmentfault.com/u/jiejiaoxiaolin",
     "votes": "4",
     "rank": 4
-  },
-  {
-    "title": "Redis 内存优化神技，小内存保存大数据",
-    "description": "大家好，我是「码哥」，大家可以叫我靓仔。这次码哥跟大家分享一些优化神技，当你面试或者工作中你遇到如下问题，那就使出今天学到的绝招，一招定乾坤！如何用更少的内存保存更多的数据？我们应该从 Redis 是如何...",
-    "url": "https://segmentfault.com/a/1190000042103541",
-    "author": "码哥字节",
-    "home_url": "https://segmentfault.com/u/magebyte",
-    "votes": "4",
-    "rank": 5
   },
   {
     "title": "无需CORS，用nginx解决跨域问题，轻松实现低代码开发的前后端分离",
@@ -51,16 +42,16 @@
     "author": "葡萄城技术团队",
     "home_url": "https://segmentfault.com/u/grapecity",
     "votes": "1",
-    "rank": 6
+    "rank": 5
   },
   {
-    "title": "这些年我开源的几个小项目",
-    "description": "笔者是一个平平无奇的前端打工人，没有参与过啥热门开源项目的共建，所以每次说自己热爱开源都很心虚，充其量就是热爱使用开源项目，不过这两年来也陆续做了几个小项目，虽然只有时不时的来几个star，不过也给我...",
-    "url": "https://segmentfault.com/a/1190000042182672",
-    "author": "街角小林",
-    "home_url": "https://segmentfault.com/u/jiejiaoxiaolin",
-    "votes": "4",
-    "rank": 7
+    "title": "『你写的Promise, 是完美的吗?』",
+    "description": "《手写 Promise》是一个经典的问题，基本上大家上手都可以按照自己的理解，写出来一个 promise, 有一天个朋友问我，\"手写 Promise 要写到什么程度才是合格的 ?\", 这也引起了我的兴趣和思考, \"怎么样的 Promise ，...",
+    "url": "https://segmentfault.com/a/1190000042111165",
+    "author": "斑驳光影",
+    "home_url": "https://segmentfault.com/u/zqbright",
+    "votes": "6",
+    "rank": 6
   },
   {
     "title": "主流移动端组件库的对比和分析",
@@ -69,7 +60,7 @@
     "author": "京东设计中心JDC",
     "home_url": "https://segmentfault.com/u/jingdongshejizhongxin",
     "votes": "2",
-    "rank": 8
+    "rank": 7
   },
   {
     "title": "利用vue-3d-loader同时加载多个3D模型",
@@ -78,34 +69,16 @@
     "author": "深夜徘徊",
     "home_url": "https://segmentfault.com/u/king2088",
     "votes": "2",
+    "rank": 8
+  },
+  {
+    "title": "可能改变前端工程化未来的特性：ESM Loader Hooks",
+    "description": "大家好，我卡颂。在最近发布的Node v18.6.0中，带来了一个试验特性ESM Loader Hooks API。如果他最终落地，很可能会成为改变前端工程化未来的特性。本文我们来聊聊他。欢迎加入人类高质量前端框架群，带飞本文参...",
+    "url": "https://segmentfault.com/a/1190000042184347",
+    "author": "卡颂",
+    "home_url": "https://segmentfault.com/u/kasong",
+    "votes": "2",
     "rank": 9
-  },
-  {
-    "title": "超酷炫的转场动画？CSS 轻松拿下！",
-    "description": "在 WeGame 的 PC 端官网首页，有着非常多制作精良的基于滚动的动画效果。这里我简单截取其中 2 个比较有意思的转场动画，大家感受感受。转场动画 1：转场动画 2：是不是挺有意思的，整个动画的衔接是基于滚轮的滚...",
-    "url": "https://segmentfault.com/a/1190000042184211",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "6",
-    "rank": 10
-  },
-  {
-    "title": "『你写的Promise, 是完美的吗?』",
-    "description": "《手写 Promise》是一个经典的问题，基本上大家上手都可以按照自己的理解，写出来一个 promise, 有一天个朋友问我，\"手写 Promise 要写到什么程度才是合格的 ?\", 这也引起了我的兴趣和思考, \"怎么样的 Promise ，...",
-    "url": "https://segmentfault.com/a/1190000042111165",
-    "author": "斑驳光影",
-    "home_url": "https://segmentfault.com/u/zqbright",
-    "votes": "5",
-    "rank": 11
-  },
-  {
-    "title": "SegmentFault 思否技术周刊 -- 这份 Webpack 有点料！",
-    "description": "从分析图中可以比较直观的看出，三个输出 bundle 文件中都包含了 m1.js 文件，这说明有重复的模块代码。splitChunks 的目的就是用来把重复的模块代码分离到单独的文件，以异步加载的方式来节省输出文件的体积。sp...",
-    "url": "https://segmentfault.com/a/1190000042104271",
-    "author": "Beverly",
-    "home_url": "https://segmentfault.com/u/beverly0",
-    "votes": "3",
-    "rank": 12
   },
   {
     "title": "记录一次 Online DDL 操作",
@@ -114,7 +87,16 @@
     "author": "Cindy",
     "home_url": "https://segmentfault.com/u/cindy_583d3583ae952",
     "votes": "1",
-    "rank": 13
+    "rank": 10
+  },
+  {
+    "title": "Shopee在React Native 架构方面的探索",
+    "description": "React Native（下文简称 RN）是混合应用领域流行的跨端开发框架。RN 非常适合灵活多变的电商领域业务，由于 RN 是基于客户端渲染的技术，所以相较于 H5 页面，它在用户体验方面有一定优势。",
+    "url": "https://segmentfault.com/a/1190000042183220",
+    "author": "xiangzhihong",
+    "home_url": "https://segmentfault.com/u/xiangzhihong",
+    "votes": "3",
+    "rank": 11
   },
   {
     "title": "[Hacker News 周报] Vite 3.0 发布；Bun 性能实测；性能更强的 Prometheus 替代方案",
@@ -123,14 +105,32 @@
     "author": "aryu",
     "home_url": "https://segmentfault.com/u/aryu",
     "votes": "1",
+    "rank": 12
+  },
+  {
+    "title": "Golang 非主流 打包静态资源方案",
+    "description": "说到往 Go 程序里面打包进其他非 *.go 资源，在 Go1.16 之前有 go-bindata 第三方开源支持。在 Go1.16 引入了新特性 embed，不依赖第三方就能嵌入静态资源权限。然而在项目中，以上两种方案我都没用，转而自研了...",
+    "url": "https://segmentfault.com/a/1190000042183244",
+    "author": "小白要生发",
+    "home_url": "https://segmentfault.com/u/xiaobaiyaoshengfa",
+    "votes": "1",
+    "rank": 13
+  },
+  {
+    "title": "2022最新慕课网课程大全_完整无密_百度网盘分享",
+    "description": "所有课程百分百高清，完整，原画，包含所有的 视频+素材+课件+源码，官方同步体验！所有课程格式 MP4格式无密 可以通过网盘在线学习也可下载到本地，方便快捷！目前已收录二十多家IT机构累计3000+课程，且在持续...",
+    "url": "https://segmentfault.com/a/1190000042180486",
+    "author": "小道哥",
+    "home_url": "https://segmentfault.com/u/xiaodaoge",
+    "votes": "1",
     "rank": 14
   },
   {
-    "title": "html2canvas将指定区域导出为图片（js将div导出为图片）",
-    "description": "如何使用JS截取HTML页面为图片呢，html2canvas.js这个插件可以轻松实现。这个原理很简单，就是html2canvas.js可以将当页面渲染成一个Canvas图片，然后保存下来即可。它不需要来自服务器任何渲染，整张图片都是在...",
-    "url": "https://segmentfault.com/a/1190000042106889",
-    "author": "TANKING",
-    "home_url": "https://segmentfault.com/u/tanking",
+    "title": "Golang RPC （一）Go标准库的简单实现 介绍+使用",
+    "description": "在涉及RPC的应用中，作为开发人员一般至少有三种角色：首先是服务端实现RPC方法的开发人员，其次是客户端调用RPC方法的人员，最后也是最重要的是制定服务端和客户端RPC接口规范的设计人员。在前面的例子中我们为...",
+    "url": "https://segmentfault.com/a/1190000042184813",
+    "author": "LiberHome",
+    "home_url": "https://segmentfault.com/u/liberhome",
     "votes": "2",
     "rank": 15
   },
@@ -140,53 +140,26 @@
     "url": "https://segmentfault.com/a/1190000042178536",
     "author": "TANKING",
     "home_url": "https://segmentfault.com/u/tanking",
-    "votes": "2",
+    "votes": "3",
     "rank": 16
   },
   {
-    "title": "Vue 部署后强制客户端刷新获取最新的代码资源【纯前端】",
-    "description": "背景：自己的项目修复了bug；但是客户端没有刷新浏览器；导致还是有bug的资源代码；出现了问题思路：结合Vue 部署后怎么强制客户端刷新获取最新的代码资源？里面的方案；分3步曲实现生产环境部署后资源刷新",
-    "url": "https://segmentfault.com/a/1190000042105627",
-    "author": "songxianling1992",
-    "home_url": "https://segmentfault.com/u/songxianling1992",
-    "votes": "5",
+    "title": "千万不要把Request传递到异步线程里面！有坑！",
+    "description": "你好哇，我是歪歪。前几天在网上冲浪的时候看到一篇技术文章，讲的是他把一个 request 请求传递到了线程池里面，然后遇到了一个匪夷所思的情况。他写了这篇文章，把自己针对这个问题的探索过程分享了出来：《spri...",
+    "url": "https://segmentfault.com/a/1190000042184829",
+    "author": "why技术",
+    "home_url": "https://segmentfault.com/u/whyjishu",
+    "votes": "3",
     "rank": 17
   },
   {
-    "title": "Shopee在React Native 架构方面的探索",
-    "description": "React Native（下文简称 RN）是混合应用领域流行的跨端开发框架。RN 非常适合灵活多变的电商领域业务，由于 RN 是基于客户端渲染的技术，所以相较于 H5 页面，它在用户体验方面有一定优势。",
-    "url": "https://segmentfault.com/a/1190000042183220",
-    "author": "xiangzhihong",
-    "home_url": "https://segmentfault.com/u/xiangzhihong",
-    "votes": "3",
+    "title": "用原生的 JavaScript Intersection Observer API 实现 Lazy Loading",
+    "description": "有梦想，有干货，微信搜索 【大迁世界】 关注这个在凌晨还在刷碗的刷碗智。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000042188399",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "2",
     "rank": 18
-  },
-  {
-    "title": "Golang 非主流 打包静态资源方案",
-    "description": "说到往 Go 程序里面打包进其他非 *.go 资源，在 Go1.16 之前有 go-bindata 第三方开源支持。在 Go1.16 引入了新特性 embed，不依赖第三方就能嵌入静态资源权限。然而在项目中，以上两种方案我都没用，转而自研了...",
-    "url": "https://segmentfault.com/a/1190000042183244",
-    "author": "小白要生发",
-    "home_url": "https://segmentfault.com/u/xiaobaiyaoshengfa",
-    "votes": "1",
-    "rank": 19
-  },
-  {
-    "title": "2022最新慕课网课程大全_完整无密_百度网盘分享",
-    "description": "所有课程百分百高清，完整，原画，包含所有的 视频+素材+课件+源码，官方同步体验！所有课程格式 MP4格式无密 可以通过网盘在线学习也可下载到本地，方便快捷！目前已收录二十多家IT机构累计3000+课程，且在持续...",
-    "url": "https://segmentfault.com/a/1190000042180486",
-    "author": "小道哥",
-    "home_url": "https://segmentfault.com/u/xiaodaoge",
-    "votes": "1",
-    "rank": 20
-  },
-  {
-    "title": "网页长按保存及识别二维码",
-    "description": "网易哒哒的 H5 一向是业界精品，其中不少 H5 会成为爆款，能在朋友圈广泛流传的那种。同时，他们还写了一本很水的书——制造爆款：H5营销策划一本通，草草介绍了下各式各样的H5，但相关的技术文章却都没这么介绍，...",
-    "url": "https://segmentfault.com/a/1190000042104608",
-    "author": "山头人汉波",
-    "home_url": "https://segmentfault.com/u/johanazhu",
-    "votes": "1",
-    "rank": 21
   },
   {
     "title": "图扑 Web 可视化引擎在仿真分析领域的应用",
@@ -195,16 +168,16 @@
     "author": "hightopo",
     "home_url": "https://segmentfault.com/u/hightopo",
     "votes": "1",
-    "rank": 22
+    "rank": 19
   },
   {
-    "title": "vscode 解析——如何维护海量模块依赖关系(二)",
-    "description": "前言上次我们解释了 vscode 这种大型项目设计依赖注入管理海量的模块有什么好处。也提到了 DI 必须有这样一种机制：1、模块与模块之间的无源码依赖（这里的模块主要指类）2、只依赖接口/抽象，不依赖具体实现3、...",
-    "url": "https://segmentfault.com/a/1190000042178445",
-    "author": "混沌福王",
-    "home_url": "https://segmentfault.com/u/flywang",
-    "votes": "1",
-    "rank": 23
+    "title": "SpringBoot接口 - API接口有哪些不安全的因素？如何对接口进行签名？",
+    "description": "在以SpringBoot开发后台API接口时，会存在哪些接口不安全的因素呢？通常如何去解决的呢？本文主要介绍API接口有不安全的因素以及常见的保证接口安全的方式，重点实践如何对接口进行签名。@pdai",
+    "url": "https://segmentfault.com/a/1190000042183644",
+    "author": "pdai",
+    "home_url": "https://segmentfault.com/u/pdai",
+    "votes": "3",
+    "rank": 20
   },
   {
     "title": "vue3 解决 ESLint 各类型错误",
@@ -213,43 +186,16 @@
     "author": "Shyla",
     "home_url": "https://segmentfault.com/u/xiaoniezi",
     "votes": "1",
-    "rank": 24
+    "rank": 21
   },
   {
-    "title": "千万不要把Request传递到异步线程里面！有坑！",
-    "description": "你好哇，我是歪歪。前几天在网上冲浪的时候看到一篇技术文章，讲的是他把一个 request 请求传递到了线程池里面，然后遇到了一个匪夷所思的情况。他写了这篇文章，把自己针对这个问题的探索过程分享了出来：《spri...",
-    "url": "https://segmentfault.com/a/1190000042184829",
-    "author": "why技术",
-    "home_url": "https://segmentfault.com/u/whyjishu",
+    "title": "【分享】从Mybatis源码中，学习到的10种设计模式",
+    "description": "你说的没错，但你天天写CRUD，你觉得 烦不？ 慌不？ 是不是既担心自己没有得到技术成长，也害怕将来没法用这些都是CRUD的项目去参加；述职、晋升、答辩，甚至可能要被迫面试时，自己手里一点干货也没有的情况。",
+    "url": "https://segmentfault.com/a/1190000042183733",
+    "author": "小傅哥",
+    "home_url": "https://segmentfault.com/u/fuzhengwei",
     "votes": "1",
-    "rank": 25
-  },
-  {
-    "title": "Go 原生插件使用问题全解析",
-    "description": "文｜丁飞（花名：路德 )蚂蚁集团高级工程师深耕于 SOFAMesh 产品的商业化落地 主要方向为基于服务网格技术的系统架构升级方案设计与落地本文 4394 字 阅读 10 分钟｜前言｜MOSN 作为蚂蚁集团在 ServiceMesh 解决...",
-    "url": "https://segmentfault.com/a/1190000042104429",
-    "author": "SOFAStack",
-    "home_url": "https://segmentfault.com/u/sofastack",
-    "votes": "1",
-    "rank": 26
-  },
-  {
-    "title": "go-zero微服务实战系列（十一、大结局）",
-    "description": "本篇是整个系列的最后一篇了，本来打算在系列的最后一两篇写一下关于k8s部署相关的内容，在构思的过程中觉得自己对k8s知识的掌握还很不足，在自己没有理解掌握的前提下我觉得也很难写出自己满意的文章，大家看了...",
-    "url": "https://segmentfault.com/a/1190000042112503",
-    "author": "kevinwan",
-    "home_url": "https://segmentfault.com/u/kevinwan",
-    "votes": "1",
-    "rank": 27
-  },
-  {
-    "title": "Golang RPC （一）Go标准库的简单实现 介绍+使用",
-    "description": "在涉及RPC的应用中，作为开发人员一般至少有三种角色：首先是服务端实现RPC方法的开发人员，其次是客户端调用RPC方法的人员，最后也是最重要的是制定服务端和客户端RPC接口规范的设计人员。在前面的例子中我们为...",
-    "url": "https://segmentfault.com/a/1190000042184813",
-    "author": "LiberHome",
-    "home_url": "https://segmentfault.com/u/liberhome",
-    "votes": "1",
-    "rank": 28
+    "rank": 22
   },
   {
     "title": "工程效能CI/CD之流水线引擎的建设实践",
@@ -258,7 +204,34 @@
     "author": "美团技术团队",
     "home_url": "https://segmentfault.com/u/meituanjishutuandui",
     "votes": "1",
-    "rank": 29
+    "rank": 23
+  },
+  {
+    "title": "vscode 解析——如何维护海量模块依赖关系(二)",
+    "description": "前言上次我们解释了 vscode 这种大型项目设计依赖注入管理海量的模块有什么好处。也提到了 DI 必须有这样一种机制：1、模块与模块之间的无源码依赖（这里的模块主要指类）2、只依赖接口/抽象，不依赖具体实现3、...",
+    "url": "https://segmentfault.com/a/1190000042178445",
+    "author": "混沌福王",
+    "home_url": "https://segmentfault.com/u/flywang",
+    "votes": "1",
+    "rank": 24
+  },
+  {
+    "title": "go-zero微服务实战系列（十一、大结局）",
+    "description": "本篇是整个系列的最后一篇了，本来打算在系列的最后一两篇写一下关于k8s部署相关的内容，在构思的过程中觉得自己对k8s知识的掌握还很不足，在自己没有理解掌握的前提下我觉得也很难写出自己满意的文章，大家看了...",
+    "url": "https://segmentfault.com/a/1190000042112503",
+    "author": "kevinwan",
+    "home_url": "https://segmentfault.com/u/kevinwan",
+    "votes": "1",
+    "rank": 25
+  },
+  {
+    "title": "「原理篇」你真的了解 React18 的并发吗？",
+    "description": "前阵子，打磨已久的React18终于正式发布，其中最重要的一个更新就是并发（concurrency）。其他的新特性如Suspense、useTransition、useDeferredValue 的内部原理都是基于并发的，可想而知在这次更新中并发的重要性。",
+    "url": "https://segmentfault.com/a/1190000042186883",
+    "author": "起风了",
+    "home_url": "https://segmentfault.com/u/qifengliao_5e7f5b20ee3bd",
+    "votes": "1",
+    "rank": 26
   },
   {
     "title": "web-compiler：mvvm 的实现思路",
@@ -267,6 +240,33 @@
     "author": "yangrd",
     "home_url": "https://segmentfault.com/u/yangrd",
     "votes": "1",
+    "rank": 27
+  },
+  {
+    "title": "我有 7种 实现web实时消息推送的方案，7种！",
+    "description": "技术交流，公众号：程序员小富大家好，我是小富～我有一个朋友～做了一个小破站，现在要实现一个站内信web消息推送的功能，对，就是下图这个小红点，一个很常用的功能。不过他还没想好用什么方式做，这里我帮他整...",
+    "url": "https://segmentfault.com/a/1190000042192378",
+    "author": "程序员小富",
+    "home_url": "https://segmentfault.com/u/chengxy",
+    "votes": "5",
+    "rank": 28
+  },
+  {
+    "title": "许式伟：Go+ 演进之路",
+    "description": "7 月 10 日，一年一度的 ECUG Con 2022 在线上圆满举行。许式伟作为七牛云 CEO、ECUG 社区发起人、Go+ 语言发明人，为大家来带了《Go+ 演进之路》的主题演讲。以下内容根据演讲实录整理。 大家好，欢迎来到 ECUG ...",
+    "url": "https://segmentfault.com/a/1190000042113338",
+    "author": "七牛云",
+    "home_url": "https://segmentfault.com/u/portal_qiniu_com",
+    "votes": "1",
+    "rank": 29
+  },
+  {
+    "title": "基于CSS mask-image 实现炫酷图片过渡效果之星球大战",
+    "description": "在给公司开发官网的过程中，会有涉及到一些图片的鼠标悬停效果，鼠标悬停后会改变原图，单纯的渐隐渐现，放大缩小，左右平移已经满足不了产品经理期望了，总觉得不够惊艳，创意不够。其实作为一个开发者，也不会...",
+    "url": "https://segmentfault.com/a/1190000042182016",
+    "author": "南城大前端",
+    "home_url": "https://segmentfault.com/u/nanchengfe",
+    "votes": "3",
     "rank": 30
   }
 ]
