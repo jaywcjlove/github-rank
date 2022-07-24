@@ -2,7 +2,7 @@
   {
     "title": "团队一盘散沙，怎么破？",
     "description": "原创不易，求分享、求一键三连最近有个粉丝问了一道大题：小钗，我最近空降到一个小公司做技术负责人，感觉团队士气很低，同学们要么有力无处使，要么常规摸鱼，这种一盘散沙的团队该如何带呢？...",
-    "votes": "74",
+    "votes": "77",
     "url": "/k/kdzpdh5",
     "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
     "avatarAlt": "Bloomingroses - 独家号",
@@ -12,7 +12,7 @@
   {
     "title": "花了一周，我总结了120个数据分析指标与术语。",
     "description": "",
-    "votes": "68",
+    "votes": "69",
     "url": "/k/9pzybmk",
     "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
     "avatarAlt": "进击的程序猿 - 独家号",
@@ -22,7 +22,7 @@
   {
     "title": "聊聊Java中代码优化的30个小技巧",
     "description": "大家好，我是苏三，又跟大家见面了。前言我之前写过两篇关于优化相关的问题：《聊聊sql优化的15个小技巧》和《聊聊接口性能优化的11个小技巧》，发表之后，在全网受到广大网友的好评。阅...",
-    "votes": "60",
+    "votes": "68",
     "url": "/k/jv8g1r6",
     "avatar": "https://img.toutiao.io/subject/0a66350d491141748ab4dd49be144252/thumb",
     "avatarAlt": "苏三说技术 - 独家号",
@@ -30,19 +30,9 @@
     "homeUrl": "/subjects/453205"
   },
   {
-    "title": "日志中台不重不丢实现浅谈",
-    "description": "导读：日志数据的生命周期包含日志采集、接入、传输、应用等各个环节。数据的稳定性对于公司报表建设、决策分析、转化策略效果都有至关重要的影响。全文旨在介绍百度日志中台当前的现状，公司内...",
-    "votes": "45",
-    "url": "/k/cnc323n",
-    "avatar": "https://img.toutiao.io/subject/6ee3bb205b3248c2b746c1506548181a/thumb",
-    "avatarAlt": "大数据生态 - 独家号",
-    "subjectName": "大数据生态",
-    "homeUrl": "/subjects/136176"
-  },
-  {
     "title": "腾讯低代码平台正式开源！可拖拽、生成手机项目、PC 项目！接私活福利啊！",
-    "description": "",
-    "votes": "43",
+    "description": "点击关注公众号，Java干货及时送达来源：腾讯开源项目简介腾讯tmagic-editor是一个所见即所得的页面可视化编辑器，基于tmagic-editor可以快速搭建可视化页面生产...",
+    "votes": "51",
     "url": "/k/8oqx21m",
     "avatar": "https://img.toutiao.io/subject/1be92f5a50224852895d647097a6d521/thumb",
     "avatarAlt": "测试之路 - 独家号",
@@ -62,7 +52,7 @@
   {
     "title": "聊聊分布式锁",
     "description": "",
-    "votes": "35",
+    "votes": "36",
     "url": "/k/n11nix6",
     "avatar": "https://img.toutiao.io/subject/df70c5d3876241ecba5984356133ab23/thumb",
     "avatarAlt": "架构必知必会 - 独家号",
@@ -72,12 +62,22 @@
   {
     "title": "从业务开发中学习和理解架构设计",
     "description": "",
-    "votes": "34",
+    "votes": "36",
     "url": "/k/c14dhs9",
     "avatar": "https://img.toutiao.io/subject/cc2d501408fd455d9b841cb6c8d95a6c/thumb",
     "avatarAlt": "ASCE1885 - 独家号",
     "subjectName": "ASCE1885",
     "homeUrl": "/subjects/4829"
+  },
+  {
+    "title": "RabbitMQ、RocketMQ、Kafka 三元归一",
+    "description": "",
+    "votes": "26",
+    "url": "/k/2gc8qxi",
+    "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
+    "avatarAlt": "乱点技能树 - 独家号",
+    "subjectName": "乱点技能树",
+    "homeUrl": "/subjects/194141"
   },
   {
     "title": "搞微服务还用Spring Cloud？Istio好用到爆！",
@@ -90,20 +90,20 @@
     "homeUrl": "/subjects/98777"
   },
   {
-    "title": "RabbitMQ、RocketMQ、Kafka 三元归一",
-    "description": "",
-    "votes": "24",
-    "url": "/k/2gc8qxi",
-    "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
-    "avatarAlt": "乱点技能树 - 独家号",
-    "subjectName": "乱点技能树",
-    "homeUrl": "/subjects/194141"
-  },
-  {
     "title": "聊聊并发编程的10个坑",
     "description": "",
-    "votes": "25",
+    "votes": "26",
     "url": "/k/ajkvysg",
+    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
+  },
+  {
+    "title": "分布式接口幂等性、分布式限流：Guava 、nginx和lua限流",
+    "description": "",
+    "votes": "22",
+    "url": "/k/xqm5e8k",
     "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
     "avatarAlt": "Bloomingroses - 独家号",
     "subjectName": "Bloomingroses",
@@ -132,12 +132,22 @@
   {
     "title": "Linux 程序编译过程详解",
     "description": "",
-    "votes": "17",
+    "votes": "18",
     "url": "/k/o4hxpl5",
     "avatar": "https://img.toutiao.io/subject/5677c886e56b479194e85580c577d68a/thumb",
     "avatarAlt": "编程爱好者(网络编程) - 独家号",
     "subjectName": "编程爱好者(网络编程)",
     "homeUrl": "/subjects/134283"
+  },
+  {
+    "title": "换掉Postman，事实证明它更牛逼！",
+    "description": "",
+    "votes": "18",
+    "url": "/k/uncruss",
+    "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
+    "avatarAlt": "浪客用react,java全栈 - 独家号",
+    "subjectName": "浪客用react,java全栈",
+    "homeUrl": "/subjects/132403"
   },
   {
     "title": "难道，降本增效就是裁员吗",
@@ -160,34 +170,14 @@
     "homeUrl": "/subjects/1385"
   },
   {
-    "title": "一次线上事故，我顿悟了异步的精髓",
+    "title": "一文深入浅出 ETCD",
     "description": "",
-    "votes": "18",
-    "url": "/k/3dv09fs",
-    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
-    "avatarAlt": "Bloomingroses - 独家号",
-    "subjectName": "Bloomingroses",
-    "homeUrl": "/subjects/98777"
-  },
-  {
-    "title": "什么是分包？怎么利用分包优化",
-    "description": "",
-    "votes": "18",
-    "url": "/k/9gs42k0",
-    "avatar": "https://img.toutiao.io/subject/c9bc51847b0c4b49aca52d0eaa087ed1/thumb",
-    "avatarAlt": "冷星前端圈 - 独家号",
-    "subjectName": "冷星前端圈",
-    "homeUrl": "/subjects/380054"
-  },
-  {
-    "title": "换掉Postman，事实证明它更牛逼！",
-    "description": "",
-    "votes": "17",
-    "url": "/k/uncruss",
-    "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
-    "avatarAlt": "浪客用react,java全栈 - 独家号",
-    "subjectName": "浪客用react,java全栈",
-    "homeUrl": "/subjects/132403"
+    "votes": "16",
+    "url": "/k/ur9pbh3",
+    "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
+    "avatarAlt": "服务架构及中台 - 独家号",
+    "subjectName": "服务架构及中台",
+    "homeUrl": "/subjects/26578"
   },
   {
     "title": "吴恩达：机器学习的六个核心算法",
@@ -198,5 +188,15 @@
     "avatarAlt": "AIHackers - 独家号",
     "subjectName": "AIHackers",
     "homeUrl": "/subjects/300686"
+  },
+  {
+    "title": "一次 MySQL 误操作导致的事故，「高可用」都顶不住了！",
+    "description": "",
+    "votes": "13",
+    "url": "/k/9whfs9c",
+    "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
+    "avatarAlt": "浪客用react,java全栈 - 独家号",
+    "subjectName": "浪客用react,java全栈",
+    "homeUrl": "/subjects/132403"
   }
 ]
