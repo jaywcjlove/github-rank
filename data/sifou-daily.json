@@ -1,29 +1,20 @@
 [
   {
-    "title": "Wuzzle，不 eject 也能定制 create-react-app 创建的 React 应用",
-    "description": "作为 React 官方维护的命令行工具，create-react-app（简称 CRA）能够极其轻松地创建配置完备的 React 应用，帮助使用者快速进入 React 开发。它的最大缺憾是创建的应用不能随心所欲地定制配置。想要定制，只能 e...",
-    "url": "https://segmentfault.com/a/1190000042244854",
-    "author": "乌柏木",
-    "home_url": "https://segmentfault.com/u/wubomu",
-    "votes": "13",
+    "title": "使用itextpdf提取PDF文件中的任意页码",
+    "description": "现在有这样的一个需求：有一个几十页的PDF文件，现在需要从中拆分出指定的页码，然后生成一个新的PDF文件。这个时候，可以使用开源的 itextpdf 库来实现，itextpdf 的官方 github 地址为：[链接].下面通过具体的...",
+    "url": "https://segmentfault.com/a/1190000042215124",
+    "author": "十方",
+    "home_url": "https://segmentfault.com/u/shifang_5b2b70d160932",
+    "votes": "1",
     "rank": 1
   },
   {
-    "title": "JVM诊断命令jcmd介绍",
-    "description": "从JDK7开始，jdk提供了一个方便扩展的诊断命令jcmd，用来取代之前比较分散的jdk基础命令，如jps、jstack、jmap、jinfo等，并且jdk添加新的诊断功能，也会通过jcmd提供，所以还是有必要将这个命令熟悉起来的。",
-    "url": "https://segmentfault.com/a/1190000042245884",
-    "author": "打码日志",
-    "home_url": "https://segmentfault.com/u/codelogs",
+    "title": "SpringBoot集成文件 - 如何基于POI-tl和word模板导出庞大的Word文件？",
+    "description": "前文我们介绍了通过Apache POI通过来导出word的例子；那如果是word模板方式，有没有开源库通过模板方式导出word呢？poi-tl是一个基于Apache POI的Word模板引擎，也是一个免费开源的Java类库，你可以非常方便的加...",
+    "url": "https://segmentfault.com/a/1190000042249867",
+    "author": "pdai",
+    "home_url": "https://segmentfault.com/u/pdai",
     "votes": "1",
     "rank": 2
-  },
-  {
-    "title": "Linux系列之进程管理",
-    "description": "前言进程是正在运行的程序，Linux系统通常有数百个进程同时运行。本文就来介绍下Linux是如何进行进程管理的。我们可以看到：查看进程（Viewing processes）查找进程（Finding processes）管理进程（Managing proc...",
-    "url": "https://segmentfault.com/a/1190000042245797",
-    "author": "chuck",
-    "home_url": "https://segmentfault.com/u/chuckqu",
-    "votes": "1",
-    "rank": 3
   }
 ]
