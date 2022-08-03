@@ -1,92 +1,47 @@
 [
   {
-    "title": "提升web输入体验！JS 如何自动配对标点符号？",
-    "description": "欢迎关注微信公众号前端侦探温馨提示：在阅读本文之前，可以先回顾这篇文章：Web 中的“选区”和“光标”，有很多你可能不太知道的原生 API，以下内容是对该内容的实践运用在写作编辑中，有很多需要成对出现的标点符...",
-    "url": "https://segmentfault.com/a/1190000042251637",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "10",
+    "title": "前端构建效率优化之路",
+    "description": "我们的系统（一个 ToB 的 Web 单页应用）前端单页应用经过多年的迭代，目前已经累积有大几十万行的业务代码，30+ 路由模块，整体的代码量和复杂度还是比较高的。",
+    "url": "https://segmentfault.com/a/1190000042256837",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "5",
     "rank": 1
   },
   {
-    "title": "M1 nvm install报错",
-    "description": "M1执行nvm install安装node报错404 {代码...} 经过分析发现命令安装node版本时，M1电脑自动拼接路径如下：[链接]arm64是M1特有的软件命令方式 目前node官网不提供此类的压缩包 压缩包官网 解决方案执行install命...",
-    "url": "https://segmentfault.com/a/1190000042254696",
-    "author": "浅夏晴空",
-    "home_url": "https://segmentfault.com/u/qianxiaqingkong",
-    "votes": "2",
+    "title": "我用这一招让团队的开发效率提升了 100%!",
+    "description": "我在一家做微信营销的公司干技术 leader，带 40 多个人，公司名就不说了。在这个位置上做了好几年，把团队从小带大，公司虽然不算风口浪尖上的高增长业务，但技术这块儿也从来没出过什么问题，我还是蛮自豪的。",
+    "url": "https://segmentfault.com/a/1190000042260021",
+    "author": "迷茫的可乐",
+    "home_url": "https://segmentfault.com/u/mimangdekele",
+    "votes": "1",
     "rank": 2
   },
   {
-    "title": "WebGPU 导入[1] - 入门常见问题与个人分享",
-    "description": "什么是应用级？这两个库都屏蔽了 WebGL 的底层调用细节，大多数时候，你编写的代码更专注于“场景”中的“三维物体”的位置，加载“模型文件”，高级点的会写漂亮的“材质”。这些带引号的概念，在 WebGL 底层接口都是没...",
-    "url": "https://segmentfault.com/a/1190000042255266",
-    "author": "四季留歌",
-    "home_url": "https://segmentfault.com/u/onsummer",
+    "title": "JavaScript WebGL 三维相关概念",
+    "description": "三维坐标理论上三个分量就够了，但在看相关程序的时候，发现会出现 4 个分量，这种表示方式称为齐次坐标，它将一个原本 n 维向量用一个 n+1 维向量表示。比如向量 (x, y, z) 的齐次坐标可表示为 (x, y, z, w)。这...",
+    "url": "https://segmentfault.com/a/1190000042256231",
+    "author": "XXHolic",
+    "home_url": "https://segmentfault.com/u/xxholic",
     "votes": "1",
     "rank": 3
   },
   {
-    "title": "AI目标分割能力，无需绿幕即可实现快速视频抠图",
-    "description": "绿幕抠图是影视制作过程中常见的技术手段，常用于视频中抠除并替换背景，通过后期加工实现视频剪辑制作的更多可能性。然而，绿幕抠图技术制作成本费时费力，无法应用于日常生活。",
-    "url": "https://segmentfault.com/a/1190000042252173",
-    "author": "HMSCore",
-    "home_url": "https://segmentfault.com/u/hms_core",
+    "title": "微体系-多端全栈项目实战：商业级代驾全流程落地完结无密",
+    "description": "工作1-3年的后端同学，面对晋升或者跳槽时经常被攻击的点是：技能点不熟练，大型项目生疏。很多人有苦说不出，公司平台没有机会，自己能怎么办？别慌！本课程就用一个商业级的多端全栈型代驾项目，带你补齐硬核经...",
+    "url": "https://segmentfault.com/a/1190000042260556",
+    "author": "一身肌肉的桔子",
+    "home_url": "https://segmentfault.com/u/yishenjiroudejiezi",
     "votes": "1",
     "rank": 4
   },
   {
-    "title": "独立产品灵感周刊 DecoHack #024 - 90年代的网站设计",
-    "description": "本周刊记录有趣好玩的独立产品设计开发相关内容，每周发布，感兴趣的伙伴可以点击订阅我的周刊。为保证每期都能收到，建议邮件订阅。欢迎通过 Twitter 私信推荐或投稿。",
-    "url": "https://segmentfault.com/a/1190000042252026",
-    "author": "ViggoZ",
-    "home_url": "https://segmentfault.com/u/viggoz",
+    "title": "OpenInfra Days China 2022 云原生技术与应用实践论坛议程全览",
+    "description": "一年一度的 OpenInfra Days China 又要启航了。在过去的一年里国内的开源基础设施技术仍然在不断得发展进化，伴随着 OpenStack 技术的高速发展与成熟，以及进入云原生时代后越来越多的开源基础设施技术的涌现，Op...",
+    "url": "https://segmentfault.com/a/1190000042257466",
+    "author": "MissD",
+    "home_url": "https://segmentfault.com/u/d2ms1shh",
     "votes": "1",
     "rank": 5
-  },
-  {
-    "title": "MarkDown公式指导手册",
-    "description": "原文链接 一、公式使用参考1．如何插入公式$\\TeX$ 可使用行中公式放在文中与其它文字混编，或单独成行的独立公式。（1）行中公式可以用如下方法表示： {代码...} 例子： {代码...} 显示： $ J_\\alpha(x) = \\...",
-    "url": "https://segmentfault.com/a/1190000042253190",
-    "author": "代码的路",
-    "home_url": "https://segmentfault.com/u/zbzcdzf",
-    "votes": "1",
-    "rank": 6
-  },
-  {
-    "title": "[信息安全] WEP 是什么",
-    "description": "WEP(Wired Equivalent Privacy) 有线等效保密 是一种保护无线传输安全性的协议。起源于 1997 年的 IEEE 802.11，是第一个 WiFi 安全标准。",
-    "url": "https://segmentfault.com/a/1190000042255754",
-    "author": "Ljzn",
-    "home_url": "https://segmentfault.com/u/exunit",
-    "votes": "1",
-    "rank": 7
-  },
-  {
-    "title": "组件关系问题",
-    "description": "新增和列表组件关系之前的项目的设计中，列表组件和新增组件是兄弟组件。 {代码...} 开始时，位于列表组件index。点击新增，跳到add路由，此时加载add组件，并且index组件销毁。新增完成后，需要回跳到index组件...",
-    "url": "https://segmentfault.com/a/1190000042254847",
-    "author": "weiewiyi",
-    "home_url": "https://segmentfault.com/u/chenchu_6110ed583800c",
-    "votes": "1",
-    "rank": 8
-  },
-  {
-    "title": "记录最近遇到的问题",
-    "description": "按照常理来说一般出现 no provide for NgForm报错都是因为没有引入ReactiveFormsModule，但是经过检查也已经引入了相应的模块。下面是出现报错的代码，去除后没有问题。",
-    "url": "https://segmentfault.com/a/1190000042253360",
-    "author": "李明",
-    "home_url": "https://segmentfault.com/u/crister_612f55567eb8c",
-    "votes": "1",
-    "rank": 9
-  },
-  {
-    "title": "数据结构与算法-跳表",
-    "description": "跳表可以达到和红黑树一样的时间复杂度O(logN)，且实现简单，Redis中的有序集合对象的底层数据结构就使用了跳表。本篇文章将对跳表的实现进行学习。",
-    "url": "https://segmentfault.com/a/1190000042251862",
-    "author": "半夏之沫",
-    "home_url": "https://segmentfault.com/u/banxiazhimo",
-    "votes": "1",
-    "rank": 10
   }
 ]
