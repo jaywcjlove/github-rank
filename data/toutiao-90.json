@@ -2,22 +2,12 @@
   {
     "title": "3000帧动画图解MySQL为什么需要binlog、redo log和undo log",
     "description": "全文建立在MySQL的存储引擎为InnoDB的基础上先看一条SQL如何入库的：这是一条很简单的更新SQL，从MySQL服务端接收到SQL到落盘，先后经过了MySQL Server层...",
-    "votes": "199",
+    "votes": "200",
     "url": "/k/b0g4460",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
     "subjectName": "服务架构及中台",
     "homeUrl": "/subjects/26578"
-  },
-  {
-    "title": "左耳朵耗子：我做系统架构的一些原则",
-    "description": "",
-    "votes": "161",
-    "url": "/k/9oljc6o",
-    "avatar": "https://img.toutiao.io/subject/ae2b74c589814b769c1bebad92c2fb9a/thumb",
-    "avatarAlt": "架构之美 - 独家号",
-    "subjectName": "架构之美",
-    "homeUrl": "/subjects/42200"
   },
   {
     "title": "吐血整理：一份不可多得的架构师图谱！",
@@ -32,7 +22,7 @@
   {
     "title": "消息队列原理和选型：Kafka、RocketMQ 、RabbitMQ 和 ActiveMQ",
     "description": "",
-    "votes": "143",
+    "votes": "144",
     "url": "/k/nuwnwro",
     "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
     "avatarAlt": "乱点技能树 - 独家号",
@@ -160,6 +150,16 @@
     "homeUrl": "/subjects/42200"
   },
   {
+    "title": "花了一周，我总结了120个数据分析指标与术语。",
+    "description": "",
+    "votes": "85",
+    "url": "/k/9pzybmk",
+    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
+    "avatarAlt": "进击的程序猿 - 独家号",
+    "subjectName": "进击的程序猿",
+    "homeUrl": "/subjects/24912"
+  },
+  {
     "title": "聊聊Java中代码优化的30个小技巧",
     "description": "大家好，我是苏三，又跟大家见面了。前言我之前写过两篇关于优化相关的问题：《聊聊sql优化的15个小技巧》和《聊聊接口性能优化的11个小技巧》，发表之后，在全网受到广大网友的好评。阅...",
     "votes": "88",
@@ -200,16 +200,6 @@
     "homeUrl": "/subjects/98777"
   },
   {
-    "title": "花了一周，我总结了120个数据分析指标与术语。",
-    "description": "",
-    "votes": "84",
-    "url": "/k/9pzybmk",
-    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
-    "avatarAlt": "进击的程序猿 - 独家号",
-    "subjectName": "进击的程序猿",
-    "homeUrl": "/subjects/24912"
-  },
-  {
     "title": "高并发下如何防重？",
     "description": "大家好，我是苏三，又跟大家见面了。文末留言送书啦！！！前言最近测试给我提了一个bug，说我之前提供的一个批量复制商品的接口，产生了重复的商品数据。追查原因之后发现，这个事情没想象中...",
     "votes": "88",
@@ -248,5 +238,15 @@
     "avatarAlt": "服务架构及中台 - 独家号",
     "subjectName": "服务架构及中台",
     "homeUrl": "/subjects/26578"
+  },
+  {
+    "title": "肝了一个月的 DDD，一文带你掌握！",
+    "description": "",
+    "votes": "78",
+    "url": "/k/bclz2n6",
+    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
   }
 ]

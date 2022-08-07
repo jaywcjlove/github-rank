@@ -9,22 +9,13 @@
     "rank": 1
   },
   {
-    "title": "Wuzzle，不 eject 也能定制 create-react-app 创建的 React 应用",
-    "description": "作为 React 官方维护的命令行工具，create-react-app（简称 CRA）能够极其轻松地创建配置完备的 React 应用，帮助使用者快速进入 React 开发。它的最大缺憾是创建的应用不能随心所欲地定制配置。想要定制，只能 e...",
-    "url": "https://segmentfault.com/a/1190000042244854",
-    "author": "乌柏木",
-    "home_url": "https://segmentfault.com/u/wubomu",
-    "votes": "14",
-    "rank": 2
-  },
-  {
     "title": "妙用 CSS 构建花式透视背景效果",
     "description": "本文将介绍一种巧用 background 配合 backdrop- filter 来构建有趣的透视背景效果的方式。本技巧源自于一名群友的提问，如何构建如 ElementUI 文档的一种顶栏背景特效，看看效果：仔细看，在页面的的滚动过程中，...",
     "url": "https://segmentfault.com/a/1190000042267425",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "11",
-    "rank": 3
+    "votes": "12",
+    "rank": 2
   },
   {
     "title": "前端构建效率优化之路",
@@ -32,6 +23,15 @@
     "url": "https://segmentfault.com/a/1190000042256837",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "11",
+    "rank": 3
+  },
+  {
+    "title": "防御式CSS是什么？这几点属性重点防御！",
+    "description": "微信搜索 【大迁世界】, 我会第一时间和你分享前端行业趋势，学习途径等等。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000042272755",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "9",
     "rank": 4
   },
@@ -72,20 +72,20 @@
     "rank": 8
   },
   {
-    "title": "vue3开发拒绝cv, 快使用curd",
-    "description": "开发管理后台基本是企业的日常需求, 基本每个前台项目都必有一个后台项目跟着, 虽然是必需品, 但是大家好像有不是那么在意他, 毕竟只有管理员用, 今天我们讲一下\"增删改查\"组件:v-curd.",
-    "url": "https://segmentfault.com/a/1190000042258739",
-    "author": "铁皮饭盒",
-    "home_url": "https://segmentfault.com/u/russell221",
-    "votes": "3",
-    "rank": 9
-  },
-  {
     "title": "前端晋升答辩-性能优化篇范式",
     "description": "本文力争为你参加晋升答辩时，提供一个论述性能优化相关工作的范式。简单点儿来说，就是按照这个范式文来准备、阐述，就可以博得晋升评委的认可与喜爱。",
     "url": "https://segmentfault.com/a/1190000042264240",
     "author": "胡哥有话说",
     "home_url": "https://segmentfault.com/u/justbecoder",
+    "votes": "3",
+    "rank": 9
+  },
+  {
+    "title": "vue3开发拒绝cv, 快使用curd",
+    "description": "开发管理后台基本是企业的日常需求, 基本每个前台项目都必有一个后台项目跟着, 虽然是必需品, 但是大家好像有不是那么在意他, 毕竟只有管理员用, 今天我们讲一下\"增删改查\"组件:v-curd.",
+    "url": "https://segmentfault.com/a/1190000042258739",
+    "author": "铁皮饭盒",
+    "home_url": "https://segmentfault.com/u/russell221",
     "votes": "3",
     "rank": 10
   },
@@ -117,13 +117,22 @@
     "rank": 13
   },
   {
+    "title": "React Fiber架构原理剖析",
+    "description": "在 React 16 之前，VirtualDOM 的更新采用的是Stack架构实现的，也就是循环递归方式。不过，这种对比方式有明显的缺陷，就是一旦任务开始进行就无法中断，如果遇到应用中组件数量比较庞大，那么VirtualDOM 的层级...",
+    "url": "https://segmentfault.com/a/1190000042271919",
+    "author": "xiangzhihong",
+    "home_url": "https://segmentfault.com/u/xiangzhihong",
+    "votes": "3",
+    "rank": 14
+  },
+  {
     "title": "6 个意想不到的 JavaScript 问题",
     "description": "作为前端开发工程师，JavaScript 是我们的主要开发语言，它本身语法比较简单，并且生态系统也非常完善，在社区的影响力越来越大。在我们使用过程中，经常会遇到各种奇怪的问题，让我们经常摸不着头脑。本文灵感来...",
     "url": "https://segmentfault.com/a/1190000042255934",
     "author": "pingan8787",
     "home_url": "https://segmentfault.com/u/pingan8787",
     "votes": "3",
-    "rank": 14
+    "rank": 15
   },
   {
     "title": "type=\"module\" 你了解，但 type=\"importmap\" 你知道吗",
@@ -132,24 +141,15 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "4",
-    "rank": 15
-  },
-  {
-    "title": "Go十大常见错误第3篇：Go指针的性能问题和内存逃逸",
-    "description": "前言这是Go十大常见错误系列的第3篇：Go指针的性能问题和内存逃逸。素材来源于Go布道者，现Docker公司资深工程师Teiva Harsanyi。本文涉及的源代码全部开源在：Go十大常见错误源代码，欢迎大家关注公众号，及时获...",
-    "url": "https://segmentfault.com/a/1190000042246391",
-    "author": "coding进阶",
-    "home_url": "https://segmentfault.com/u/c9eulmav",
-    "votes": "1",
     "rank": 16
   },
   {
-    "title": "3 分钟掌握 Node.js 版本的区别",
-    "description": "Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行时环境。在我们日常开发中，Node.js 使用场景越来越多，大到服务端项目，小到开发工具脚本，所以掌握 Node.js 一些基础知识是非常有必要的。今天主要聊一下 ...",
-    "url": "https://segmentfault.com/a/1190000042246598",
-    "author": "pingan8787",
-    "home_url": "https://segmentfault.com/u/pingan8787",
-    "votes": "3",
+    "title": "React组件应用于Spring MVC工程",
+    "description": "公司前端工程还处于React+Mobx与Spring MVC（freemarker+jQuery）技术栈共存的阶段，两种技术栈页面难免会存在一些相同的业务功能点，如果分别开发和维护，就需要双倍的人力成本，因此，我们尝试将React业务组件...",
+    "url": "https://segmentfault.com/a/1190000042272426",
+    "author": "记得要微笑",
+    "home_url": "https://segmentfault.com/u/tosmile",
+    "votes": "2",
     "rank": 17
   },
   {
@@ -162,22 +162,13 @@
     "rank": 18
   },
   {
-    "title": "防御式CSS是什么？这几点属性重点防御！",
-    "description": "微信搜索 【大迁世界】, 我会第一时间和你分享前端行业趋势，学习途径等等。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000042272755",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "7",
-    "rank": 19
-  },
-  {
     "title": "如何查看所有测试历史？进来学习下",
     "description": "当然，在现版本（V 1.3.0）之前也有查看测试历史功能，但彼时测试历史跟随 API 信息，每个 API 有自己的测试历史，这样就会遇到两个方面的问题：",
     "url": "https://segmentfault.com/a/1190000042265021",
     "author": "eoapi",
     "home_url": "https://segmentfault.com/u/jiangdaoyidechahu",
     "votes": "3",
-    "rank": 20
+    "rank": 19
   },
   {
     "title": "OpenInfra Days China 2022 启幕在即，SegmentFault 思否战略支持",
@@ -186,6 +177,15 @@
     "author": "MissD",
     "home_url": "https://segmentfault.com/u/d2ms1shh",
     "votes": "3",
+    "rank": 20
+  },
+  {
+    "title": "React报错之Property 'X' does not exist on type 'HTMLElement'",
+    "description": "在React中，当我们试图访问类型为HTMLElement 的元素上不存在的属性时，就会发生Property 'X' does not exist on type 'HTMLElement'错误。为了解决该错误，在访问属性之前，使用类型断言来正确地类型声明元素。",
+    "url": "https://segmentfault.com/a/1190000042250475",
+    "author": "chuck",
+    "home_url": "https://segmentfault.com/u/chuckqu",
+    "votes": "1",
     "rank": 21
   },
   {
@@ -198,40 +198,13 @@
     "rank": 22
   },
   {
-    "title": "React报错之Property 'X' does not exist on type 'HTMLElement'",
-    "description": "在React中，当我们试图访问类型为HTMLElement 的元素上不存在的属性时，就会发生Property 'X' does not exist on type 'HTMLElement'错误。为了解决该错误，在访问属性之前，使用类型断言来正确地类型声明元素。",
-    "url": "https://segmentfault.com/a/1190000042250475",
-    "author": "chuck",
-    "home_url": "https://segmentfault.com/u/chuckqu",
-    "votes": "1",
-    "rank": 23
-  },
-  {
-    "title": "从编译的角度来学作用域！",
-    "description": "作用域是什么？思维导图编译原理我们都认为js是一门动态语言，但是其实是一门编译语言，但是不是提前编译的，编译结果也不能在分布式系 统中进行移植编译流程传统编译语言的流程程序中的一段源代码在执行之前会经...",
-    "url": "https://segmentfault.com/a/1190000042246545",
-    "author": "默海笑",
-    "home_url": "https://segmentfault.com/u/mohaixiao_62c9572f77386",
-    "votes": "1",
-    "rank": 24
-  },
-  {
-    "title": "四大科技巨头呼吁废除闰秒；国内 Go 语言爱好者发起新编程语言；Java 7 生命周期结束 | 思否周刊",
-    "description": "40s 新闻速递国内 Go 语言爱好者发起新编程语言540 万 Twitter 账号信息泄露，卖价 3 万美元苹果应用商店被曝大量色情 App四大科技巨头呼吁废除闰秒马斯克要求推特收购案 10 月 17 日审判iPhone14 或支持万兆网，...",
-    "url": "https://segmentfault.com/a/1190000042246459",
-    "author": "snakesss",
-    "home_url": "https://segmentfault.com/u/snakesss",
-    "votes": "0",
-    "rank": 25
-  },
-  {
     "title": "JavaScript WebGL 三维相关概念",
     "description": "三维坐标理论上三个分量就够了，但在看相关程序的时候，发现会出现 4 个分量，这种表示方式称为齐次坐标，它将一个原本 n 维向量用一个 n+1 维向量表示。比如向量 (x, y, z) 的齐次坐标可表示为 (x, y, z, w)。这...",
     "url": "https://segmentfault.com/a/1190000042256231",
     "author": "XXHolic",
     "home_url": "https://segmentfault.com/u/xxholic",
     "votes": "1",
-    "rank": 26
+    "rank": 23
   },
   {
     "title": "WebGPU 导入[1] - 入门常见问题与个人分享",
@@ -240,7 +213,16 @@
     "author": "四季留歌",
     "home_url": "https://segmentfault.com/u/onsummer",
     "votes": "1",
-    "rank": 27
+    "rank": 24
+  },
+  {
+    "title": "6 个你必须明白 Vue3 的 ref 和 reactive 问题（入门篇）",
+    "description": "Vue3 为开发者提供 ref和 reactive两个 API 来实现响应式数据，这也是我们使用 Vue3 开发项目中经常用到的两个 API。",
+    "url": "https://segmentfault.com/a/1190000042266418",
+    "author": "pingan8787",
+    "home_url": "https://segmentfault.com/u/pingan8787",
+    "votes": "1",
+    "rank": 25
   },
   {
     "title": "独立产品灵感周刊 DecoHack #024 - 90年代的网站设计",
@@ -249,7 +231,7 @@
     "author": "ViggoZ",
     "home_url": "https://segmentfault.com/u/viggoz",
     "votes": "1",
-    "rank": 28
+    "rank": 26
   },
   {
     "title": "保姆级教程：写出自己的移动应用和小程序（篇五）",
@@ -258,15 +240,33 @@
     "author": "火爆的茶壶",
     "home_url": "https://segmentfault.com/u/huobaodechahu",
     "votes": "1",
+    "rank": 27
+  },
+  {
+    "title": "图扑软件数字孪生油气管道站，搭建油气运输管控平台",
+    "description": "从国家管网集团获悉，西气东输管道系统 2021 年已累计输送天然气超 1000 亿立方米，这是西气东输年输气量首次突破千亿立方米。为了应对复杂多变的供气环境，保障全国人民的天然气使用，加快管道智能化是赋能油气...",
+    "url": "https://segmentfault.com/a/1190000042263453",
+    "author": "hightopo",
+    "home_url": "https://segmentfault.com/u/hightopo",
+    "votes": "1",
+    "rank": 28
+  },
+  {
+    "title": "下载！《云原生架构白皮书 2022 版》重磅发布",
+    "description": "简介：今年，《云原生架构白皮书2022版》正式上线，相较于2020年版本，本次内容新增数十家企业实战经验合集，同时在云原生产品矩阵中，新增多个核心产品家族，如容器产品家族、微服务产品家族、云原生技术中台 CN...",
+    "url": "https://segmentfault.com/a/1190000042252196",
+    "author": "阿里云开发者",
+    "home_url": "https://segmentfault.com/u/alijishu",
+    "votes": "2",
     "rank": 29
   },
   {
-    "title": "什么是文件系统?",
-    "description": "Nanami 是 Nanase 的学霸朋友，每天都会把老师在课堂上讲过的重点内容更新到笔记，方便期末复习。欢乐时光总是短暂，一转眼已经到了期末考试前的最后一个周末。Nanami 也是早早起床，打开电脑开始最后的冲刺。看...",
-    "url": "https://segmentfault.com/a/1190000042245082",
-    "author": "Douyiya",
-    "home_url": "https://segmentfault.com/u/douyiya_sang",
-    "votes": "2",
+    "title": "Day 86/100 《图解HTTP》读书笔记（四）——HTTP报文头信息",
+    "description": "HTTP 通信过程包括从客户端发往服务器端的请求及从服务器端返回 客户端的响应。1、HTTP 报文用于 HTTP 协议交互的信息被称为 HTTP 报文。请求端(客户端)的 HTTP 报文叫做请求报文，响应端(服务器端)的叫做响应报...",
+    "url": "https://segmentfault.com/a/1190000042265802",
+    "author": "SnowWolfArden",
+    "home_url": "https://segmentfault.com/u/snowwolfarden",
+    "votes": "1",
     "rank": 30
   }
 ]
