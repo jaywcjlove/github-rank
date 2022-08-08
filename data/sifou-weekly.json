@@ -14,7 +14,7 @@
     "url": "https://segmentfault.com/a/1190000042267425",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "12",
+    "votes": "13",
     "rank": 2
   },
   {
@@ -54,22 +54,13 @@
     "rank": 6
   },
   {
-    "title": "Qwik.js框架是如何追求极致性能的?!",
-    "description": "Qwik是一款语法\"接近\"react的前端ssr框架, 前段时间看了两篇Qwik相关的文章, 对这个框架有了些兴趣, 但是去网上搜了一下, 发现相关的中文文章几乎没有了, 所以决定对其好好研究一番, 并且写一...",
-    "url": "https://segmentfault.com/a/1190000042250628",
-    "author": "lulu_up",
-    "home_url": "https://segmentfault.com/u/lulu_up",
-    "votes": "8",
-    "rank": 7
-  },
-  {
     "title": "SegmentFault 思否技术周刊 -- Amazing！CSS 也能实现炫酷特效",
     "description": "CSS 的全称是 Cascading Style Sheets，即层叠样式表， 是一种样式表语言，用来描述 HTML 或 XML（包括如 SVG、XHTML 之类的 XML 分支语言）元素所呈现的样式。",
     "url": "https://segmentfault.com/a/1190000042262023",
     "author": "Beverly",
     "home_url": "https://segmentfault.com/u/beverly0",
     "votes": "4",
-    "rank": 8
+    "rank": 7
   },
   {
     "title": "前端晋升答辩-性能优化篇范式",
@@ -77,8 +68,35 @@
     "url": "https://segmentfault.com/a/1190000042264240",
     "author": "胡哥有话说",
     "home_url": "https://segmentfault.com/u/justbecoder",
-    "votes": "3",
+    "votes": "4",
+    "rank": 8
+  },
+  {
+    "title": "React Fiber架构原理剖析",
+    "description": "在 React 16 之前，VirtualDOM 的更新采用的是Stack架构实现的，也就是循环递归方式。不过，这种对比方式有明显的缺陷，就是一旦任务开始进行就无法中断，如果遇到应用中组件数量比较庞大，那么VirtualDOM 的层级...",
+    "url": "https://segmentfault.com/a/1190000042271919",
+    "author": "xiangzhihong",
+    "home_url": "https://segmentfault.com/u/xiangzhihong",
+    "votes": "5",
     "rank": 9
+  },
+  {
+    "title": "if err != nil 太烦？Go 创始人教你如何对错误进行编程！",
+    "description": "前段时间我分享了一篇文章《10+ 条 Go 官方谚语，你知道几条？》，引发了许多小伙伴的讨论。其中有一条 “Errors are values”，大家在是 “错误是值” 还是 “错误就是价值” 中反复横跳，纠结不易。",
+    "url": "https://segmentfault.com/a/1190000042252269",
+    "author": "煎鱼",
+    "home_url": "https://segmentfault.com/u/eddycjy",
+    "votes": "5",
+    "rank": 10
+  },
+  {
+    "title": "整理了这23个开源项，初学者可以拿来练习！",
+    "description": "微信搜索 【大迁世界】, 我会第一时间和你分享前端行业趋势，学习途径等等。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000042266784",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "5",
+    "rank": 11
   },
   {
     "title": "vue3开发拒绝cv, 快使用curd",
@@ -87,7 +105,7 @@
     "author": "铁皮饭盒",
     "home_url": "https://segmentfault.com/u/russell221",
     "votes": "3",
-    "rank": 10
+    "rank": 12
   },
   {
     "title": "M1 nvm install报错",
@@ -96,33 +114,15 @@
     "author": "浅夏晴空",
     "home_url": "https://segmentfault.com/u/qianxiaqingkong",
     "votes": "2",
-    "rank": 11
-  },
-  {
-    "title": "if err != nil 太烦？Go 创始人教你如何对错误进行编程！",
-    "description": "前段时间我分享了一篇文章《10+ 条 Go 官方谚语，你知道几条？》，引发了许多小伙伴的讨论。其中有一条 “Errors are values”，大家在是 “错误是值” 还是 “错误就是价值” 中反复横跳，纠结不易。",
-    "url": "https://segmentfault.com/a/1190000042252269",
-    "author": "煎鱼",
-    "home_url": "https://segmentfault.com/u/eddycjy",
-    "votes": "4",
-    "rank": 12
-  },
-  {
-    "title": "整理了这23个开源项，初学者可以拿来练习！",
-    "description": "微信搜索 【大迁世界】, 我会第一时间和你分享前端行业趋势，学习途径等等。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000042266784",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "4",
     "rank": 13
   },
   {
-    "title": "React Fiber架构原理剖析",
-    "description": "在 React 16 之前，VirtualDOM 的更新采用的是Stack架构实现的，也就是循环递归方式。不过，这种对比方式有明显的缺陷，就是一旦任务开始进行就无法中断，如果遇到应用中组件数量比较庞大，那么VirtualDOM 的层级...",
-    "url": "https://segmentfault.com/a/1190000042271919",
-    "author": "xiangzhihong",
-    "home_url": "https://segmentfault.com/u/xiangzhihong",
-    "votes": "3",
+    "title": "React组件应用于Spring MVC工程",
+    "description": "公司前端工程还处于React+Mobx与Spring MVC（freemarker+jQuery）技术栈共存的阶段，两种技术栈页面难免会存在一些相同的业务功能点，如果分别开发和维护，就需要双倍的人力成本，因此，我们尝试将React业务组件...",
+    "url": "https://segmentfault.com/a/1190000042272426",
+    "author": "记得要微笑",
+    "home_url": "https://segmentfault.com/u/tosmile",
+    "votes": "2",
     "rank": 14
   },
   {
@@ -144,21 +144,21 @@
     "rank": 16
   },
   {
-    "title": "React组件应用于Spring MVC工程",
-    "description": "公司前端工程还处于React+Mobx与Spring MVC（freemarker+jQuery）技术栈共存的阶段，两种技术栈页面难免会存在一些相同的业务功能点，如果分别开发和维护，就需要双倍的人力成本，因此，我们尝试将React业务组件...",
-    "url": "https://segmentfault.com/a/1190000042272426",
-    "author": "记得要微笑",
-    "home_url": "https://segmentfault.com/u/tosmile",
-    "votes": "2",
-    "rank": 17
-  },
-  {
     "title": "AI目标分割能力，无需绿幕即可实现快速视频抠图",
     "description": "绿幕抠图是影视制作过程中常见的技术手段，常用于视频中抠除并替换背景，通过后期加工实现视频剪辑制作的更多可能性。然而，绿幕抠图技术制作成本费时费力，无法应用于日常生活。",
     "url": "https://segmentfault.com/a/1190000042252173",
     "author": "HMSCore",
     "home_url": "https://segmentfault.com/u/hms_core",
     "votes": "1",
+    "rank": 17
+  },
+  {
+    "title": "OpenInfra Days China 2022 启幕在即，SegmentFault 思否战略支持",
+    "description": "OpenInfra Days China 是由 OpenInfra 基金会（前身 OpenStack 基金会）授权，由全球各个地区的社区志愿者团队共同筹划组织的一次年度的开源基础设施技术与行业盛会。自 2016 年中国社区的志愿者们第一次筹办面向...",
+    "url": "https://segmentfault.com/a/1190000042267659",
+    "author": "MissD",
+    "home_url": "https://segmentfault.com/u/d2ms1shh",
+    "votes": "3",
     "rank": 18
   },
   {
@@ -171,30 +171,30 @@
     "rank": 19
   },
   {
-    "title": "OpenInfra Days China 2022 启幕在即，SegmentFault 思否战略支持",
-    "description": "OpenInfra Days China 是由 OpenInfra 基金会（前身 OpenStack 基金会）授权，由全球各个地区的社区志愿者团队共同筹划组织的一次年度的开源基础设施技术与行业盛会。自 2016 年中国社区的志愿者们第一次筹办面向...",
-    "url": "https://segmentfault.com/a/1190000042267659",
-    "author": "MissD",
-    "home_url": "https://segmentfault.com/u/d2ms1shh",
-    "votes": "3",
-    "rank": 20
-  },
-  {
-    "title": "React报错之Property 'X' does not exist on type 'HTMLElement'",
-    "description": "在React中，当我们试图访问类型为HTMLElement 的元素上不存在的属性时，就会发生Property 'X' does not exist on type 'HTMLElement'错误。为了解决该错误，在访问属性之前，使用类型断言来正确地类型声明元素。",
-    "url": "https://segmentfault.com/a/1190000042250475",
-    "author": "chuck",
-    "home_url": "https://segmentfault.com/u/chuckqu",
-    "votes": "1",
-    "rank": 21
-  },
-  {
     "title": "基于微前端qiankun的多页签缓存方案实践",
     "description": "本文梳理了基于阿里开源微前端框架qiankun，实现多页签及子应用缓存的方案，同时还类比了多个不同方案之间的区别及优劣势，为使用微前端进行多页签开发的同学，提供一些参考。",
     "url": "https://segmentfault.com/a/1190000042252404",
     "author": "vivo互联网技术",
     "home_url": "https://segmentfault.com/u/vivo_tech",
     "votes": "2",
+    "rank": 20
+  },
+  {
+    "title": "6 个你必须明白 Vue3 的 ref 和 reactive 问题（入门篇）",
+    "description": "Vue3 为开发者提供 ref和 reactive两个 API 来实现响应式数据，这也是我们使用 Vue3 开发项目中经常用到的两个 API。",
+    "url": "https://segmentfault.com/a/1190000042266418",
+    "author": "pingan8787",
+    "home_url": "https://segmentfault.com/u/pingan8787",
+    "votes": "2",
+    "rank": 21
+  },
+  {
+    "title": "WebGPU 导入[1] - 入门常见问题与个人分享",
+    "description": "什么是应用级？这两个库都屏蔽了 WebGL 的底层调用细节，大多数时候，你编写的代码更专注于“场景”中的“三维物体”的位置，加载“模型文件”，高级点的会写漂亮的“材质”。这些带引号的概念，在 WebGL 底层接口都是没...",
+    "url": "https://segmentfault.com/a/1190000042255266",
+    "author": "四季留歌",
+    "home_url": "https://segmentfault.com/u/onsummer",
+    "votes": "1",
     "rank": 22
   },
   {
@@ -207,22 +207,13 @@
     "rank": 23
   },
   {
-    "title": "WebGPU 导入[1] - 入门常见问题与个人分享",
-    "description": "什么是应用级？这两个库都屏蔽了 WebGL 的底层调用细节，大多数时候，你编写的代码更专注于“场景”中的“三维物体”的位置，加载“模型文件”，高级点的会写漂亮的“材质”。这些带引号的概念，在 WebGL 底层接口都是没...",
-    "url": "https://segmentfault.com/a/1190000042255266",
-    "author": "四季留歌",
-    "home_url": "https://segmentfault.com/u/onsummer",
+    "title": "图扑软件数字孪生油气管道站，搭建油气运输管控平台",
+    "description": "从国家管网集团获悉，西气东输管道系统 2021 年已累计输送天然气超 1000 亿立方米，这是西气东输年输气量首次突破千亿立方米。为了应对复杂多变的供气环境，保障全国人民的天然气使用，加快管道智能化是赋能油气...",
+    "url": "https://segmentfault.com/a/1190000042263453",
+    "author": "hightopo",
+    "home_url": "https://segmentfault.com/u/hightopo",
     "votes": "1",
     "rank": 24
-  },
-  {
-    "title": "6 个你必须明白 Vue3 的 ref 和 reactive 问题（入门篇）",
-    "description": "Vue3 为开发者提供 ref和 reactive两个 API 来实现响应式数据，这也是我们使用 Vue3 开发项目中经常用到的两个 API。",
-    "url": "https://segmentfault.com/a/1190000042266418",
-    "author": "pingan8787",
-    "home_url": "https://segmentfault.com/u/pingan8787",
-    "votes": "1",
-    "rank": 25
   },
   {
     "title": "独立产品灵感周刊 DecoHack #024 - 90年代的网站设计",
@@ -231,7 +222,7 @@
     "author": "ViggoZ",
     "home_url": "https://segmentfault.com/u/viggoz",
     "votes": "1",
-    "rank": 26
+    "rank": 25
   },
   {
     "title": "保姆级教程：写出自己的移动应用和小程序（篇五）",
@@ -240,16 +231,7 @@
     "author": "火爆的茶壶",
     "home_url": "https://segmentfault.com/u/huobaodechahu",
     "votes": "1",
-    "rank": 27
-  },
-  {
-    "title": "图扑软件数字孪生油气管道站，搭建油气运输管控平台",
-    "description": "从国家管网集团获悉，西气东输管道系统 2021 年已累计输送天然气超 1000 亿立方米，这是西气东输年输气量首次突破千亿立方米。为了应对复杂多变的供气环境，保障全国人民的天然气使用，加快管道智能化是赋能油气...",
-    "url": "https://segmentfault.com/a/1190000042263453",
-    "author": "hightopo",
-    "home_url": "https://segmentfault.com/u/hightopo",
-    "votes": "1",
-    "rank": 28
+    "rank": 26
   },
   {
     "title": "下载！《云原生架构白皮书 2022 版》重磅发布",
@@ -258,7 +240,7 @@
     "author": "阿里云开发者",
     "home_url": "https://segmentfault.com/u/alijishu",
     "votes": "2",
-    "rank": 29
+    "rank": 27
   },
   {
     "title": "Day 86/100 《图解HTTP》读书笔记（四）——HTTP报文头信息",
@@ -266,6 +248,24 @@
     "url": "https://segmentfault.com/a/1190000042265802",
     "author": "SnowWolfArden",
     "home_url": "https://segmentfault.com/u/snowwolfarden",
+    "votes": "1",
+    "rank": 28
+  },
+  {
+    "title": "Driver.js - 开源无依赖的 web 新手交互引导工具库，功能强大、高度可定制",
+    "description": "Driver.js 是一个可以轻松实现新手指引交互的 javascript 工具库，主要的作用是为刚接触应用的新手用户快速了解产品，帮助用户把注意力聚焦到某项功能，从而快速熟悉我们的开发的产品，截止发文 star 已经高达 13...",
+    "url": "https://segmentfault.com/a/1190000042261924",
+    "author": "搬不要钱的砖",
+    "home_url": "https://segmentfault.com/u/thosefree",
+    "votes": "1",
+    "rank": 29
+  },
+  {
+    "title": "【Java面试】讲下线程池的线程回收",
+    "description": "大家好，我是Mic，一个工作了14年的Java程序员。最近很多小伙伴私信我，让我说一些线程池相关的问题。线程池这个方向考察的点还挺多的，如果只是靠刷面试题面试官很容易就能识别出来，我随便举几个。线程池是如何...",
+    "url": "https://segmentfault.com/a/1190000042274807",
+    "author": "跟着Mic学架构",
+    "home_url": "https://segmentfault.com/u/fukua_5be8034f8191f",
     "votes": "1",
     "rank": 30
   }
