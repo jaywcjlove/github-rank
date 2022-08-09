@@ -2,7 +2,7 @@
   {
     "title": "3000帧动画图解MySQL为什么需要binlog、redo log和undo log",
     "description": "全文建立在MySQL的存储引擎为InnoDB的基础上先看一条SQL如何入库的：这是一条很简单的更新SQL，从MySQL服务端接收到SQL到落盘，先后经过了MySQL Server层...",
-    "votes": "200",
+    "votes": "201",
     "url": "/k/b0g4460",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -80,6 +80,16 @@
     "homeUrl": "/subjects/134283"
   },
   {
+    "title": "阿里云官方 Redis 开发规范！",
+    "description": "",
+    "votes": "101",
+    "url": "/k/2fqcbfi",
+    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
+    "avatarAlt": "进击的程序猿 - 独家号",
+    "subjectName": "进击的程序猿",
+    "homeUrl": "/subjects/24912"
+  },
+  {
     "title": "如何画好一张架构图？",
     "description": "",
     "votes": "101",
@@ -88,16 +98,6 @@
     "avatarAlt": "架构必知必会 - 独家号",
     "subjectName": "架构必知必会",
     "homeUrl": "/subjects/472073"
-  },
-  {
-    "title": "阿里云官方 Redis 开发规范！",
-    "description": "",
-    "votes": "99",
-    "url": "/k/2fqcbfi",
-    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
-    "avatarAlt": "进击的程序猿 - 独家号",
-    "subjectName": "进击的程序猿",
-    "homeUrl": "/subjects/24912"
   },
   {
     "title": "你见过哪些目瞪口呆的 Java 代码技巧？",
@@ -142,7 +142,7 @@
   {
     "title": "花了一周，我总结了120个数据分析指标与术语。",
     "description": "",
-    "votes": "85",
+    "votes": "86",
     "url": "/k/9pzybmk",
     "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
     "avatarAlt": "进击的程序猿 - 独家号",
@@ -152,7 +152,7 @@
   {
     "title": "聊聊Java中代码优化的30个小技巧",
     "description": "大家好，我是苏三，又跟大家见面了。前言我之前写过两篇关于优化相关的问题：《聊聊sql优化的15个小技巧》和《聊聊接口性能优化的11个小技巧》，发表之后，在全网受到广大网友的好评。阅...",
-    "votes": "90",
+    "votes": "91",
     "url": "/k/jv8g1r6",
     "avatar": "https://img.toutiao.io/subject/0a66350d491141748ab4dd49be144252/thumb",
     "avatarAlt": "苏三说技术 - 独家号",
@@ -162,12 +162,22 @@
   {
     "title": "我们公司使用了 5 年的系统限流方案！从实现到部署实战详解，稳的一批!​",
     "description": "大家好，我是老赵！什么是限流呢？限流是限制到达系统的并发请求数量，保证系统能够正常响应部分用户请求，而对于超过限制的流量，则通过拒绝服务的方式保证整体系统的可用性。根据限流作用范围...",
-    "votes": "83",
+    "votes": "84",
     "url": "/k/4tls39t",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
     "subjectName": "服务架构及中台",
     "homeUrl": "/subjects/26578"
+  },
+  {
+    "title": "高并发，你真的理解透彻了吗？",
+    "description": "",
+    "votes": "85",
+    "url": "/k/93k2zfb",
+    "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
+    "avatarAlt": "浪客用react,java全栈 - 独家号",
+    "subjectName": "浪客用react,java全栈",
+    "homeUrl": "/subjects/132403"
   },
   {
     "title": "团队管理｜如何提高技术Leader的思考技巧？",
@@ -200,16 +210,6 @@
     "homeUrl": "/subjects/453205"
   },
   {
-    "title": "高并发，你真的理解透彻了吗？",
-    "description": "",
-    "votes": "83",
-    "url": "/k/93k2zfb",
-    "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
-    "avatarAlt": "浪客用react,java全栈 - 独家号",
-    "subjectName": "浪客用react,java全栈",
-    "homeUrl": "/subjects/132403"
-  },
-  {
     "title": "聊聊我们是如何做系统保障方案的",
     "description": "",
     "votes": "75",
@@ -218,6 +218,16 @@
     "avatarAlt": "Bloomingroses - 独家号",
     "subjectName": "Bloomingroses",
     "homeUrl": "/subjects/98777"
+  },
+  {
+    "title": "Java 大后端各种架构图汇总（建议收藏！！）",
+    "description": "",
+    "votes": "74",
+    "url": "/k/dvo6z1w",
+    "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
+    "avatarAlt": "浪客用react,java全栈 - 独家号",
+    "subjectName": "浪客用react,java全栈",
+    "homeUrl": "/subjects/132403"
   },
   {
     "title": "肝了一个月的 DDD，一文带你掌握！",
@@ -238,15 +248,5 @@
     "avatarAlt": "架构之美 - 独家号",
     "subjectName": "架构之美",
     "homeUrl": "/subjects/42200"
-  },
-  {
-    "title": "总监的烦恼：技术丢了怎么办？",
-    "description": "原创不易，求分享、求一键三连前段时间有个粉丝与我讨论了一个问题：小钗，我半年前从技术经理升职到了技术总监，但这段时间的工作很恼火：一大半时间要去开各种产品会，还有一些时间要去处理团...",
-    "votes": "79",
-    "url": "/k/rzytby1",
-    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
-    "avatarAlt": "Bloomingroses - 独家号",
-    "subjectName": "Bloomingroses",
-    "homeUrl": "/subjects/98777"
   }
 ]
