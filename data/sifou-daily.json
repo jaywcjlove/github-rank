@@ -1,83 +1,47 @@
 [
   {
-    "title": "使用 CSS 构建强大且酷炫的粒子动画",
-    "description": "当然，不使用 HTML + CSS 的主要原因在于，粒子动画通常需要较多的粒子，而如果使用 HTML + CSS 的话势必需要过多的 DOM 元素，这也就导致了使用 HTML + CSS 构建的粒子动画在性能上毫无优势。",
-    "url": "https://segmentfault.com/a/1190000042283578",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "9",
+    "title": "markdown 编辑器实现双屏同步滚动",
+    "description": "由于一直在使用 markdown 编辑器写技术文章，所以对于编写体验很敏感。我发现各大社区的 markdown 编辑器基本都有同步滚动功能。只不过有些做得好，有些做得马马虎虎。出于好奇，我就打算自己亲自实现一下这个功能。",
+    "url": "https://segmentfault.com/a/1190000042290360",
+    "author": "谭光志",
+    "home_url": "https://segmentfault.com/u/woai3c",
+    "votes": "3",
     "rank": 1
   },
   {
-    "title": "可视化拖拽组件库一些技术要点原理分析（四）",
-    "description": "本文是可视化拖拽系列的第四篇，比起之前的三篇文章，这篇功能点要稍微少一点，总共有五点：SVG 组件动态属性面板数据来源（接口请求）组件联动组件按需加载如果你对我之前的系列文章不是很了解，建议先把这三篇...",
-    "url": "https://segmentfault.com/a/1190000042282658",
-    "author": "谭光志",
-    "home_url": "https://segmentfault.com/u/woai3c",
-    "votes": "5",
+    "title": "快速了解navigator API setAppBadge",
+    "description": "欢迎关注我的公众号：前端侦探在很多客户端应用程序中，一般会通过应用图标的角标来显示当前消息的数量，例如其实，web 中也有类似的设定，花两分钟了解一下吧一、navigator.setAppBadge现在的navigator早已不是...",
+    "url": "https://segmentfault.com/a/1190000042288003",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "3",
     "rank": 2
   },
   {
-    "title": "面向推荐的汽车知识图谱构建",
-    "description": "知识图谱的概念，最早由 Google 在2012 年提出， 旨在实现更智能的搜索引擎，并在2013年之后开始在学术界和工业级普及。目前，随着人工智能技术的高速发展，知识图谱已广泛应用于搜索、推荐、广告、风控、智能调...",
-    "url": "https://segmentfault.com/a/1190000042287137",
-    "author": "之家技术",
-    "home_url": "https://segmentfault.com/u/zhijiajishu",
-    "votes": "7",
+    "title": "解决 docker-compose 配置postgresql中登陆失败的错误",
+    "description": "理论上来说运行以上的doccker-compose文件之后就可以直接根据所设置的用户名密码来登陆postgresql，但是尝试了很多此却总是报如下错误：用户名、密码不匹配，但是在其他人的设备上却没有问题。经检查docker容器也...",
+    "url": "https://segmentfault.com/a/1190000042293707",
+    "author": "李明",
+    "home_url": "https://segmentfault.com/u/crister_612f55567eb8c",
+    "votes": "1",
     "rank": 3
   },
   {
-    "title": "基于微信云开发的幼儿园招生报名小程序",
-    "description": "园方人员根据资料可以做预先审核，并提示用户修改完善资料，并可查看和导出名单Excel，审核报名记录等，大大减少了现场报名的人力成本，数字化手段提高了工作效率， 也为家长节省了时间。",
-    "url": "https://segmentfault.com/a/1190000042284989",
-    "author": "CC同学呀",
-    "home_url": "https://segmentfault.com/u/ccxiaoyoulu",
-    "votes": "1",
+    "title": "【JVM知识总结-9】类加载的过程",
+    "description": "类的加载过程包括5个阶段：加载、验证、准备、解析和初始化。加载加载的过程“加载”是“类加载”过程的一个阶段，不能混淆这两个名词。在加载阶段，虚拟机需要完成3件事：通过类的全限定名获取改类的二进制字节流将...",
+    "url": "https://segmentfault.com/a/1190000042293732",
+    "author": "AllenYang",
+    "home_url": "https://segmentfault.com/u/allenyang",
+    "votes": "2",
     "rank": 4
   },
   {
-    "title": "记录遇到的mongoDb问题, 以及restTemplate请求重试",
-    "description": "最近使用mongDb的时候，出现了一些问题。mongoDb 实体id自增在保存实体的时候报了这个错Cannot aotogenerate id of type java.lang.Long for entity即 不能自动生成id之后就带着报错去谷歌了一下。 得到了如下结...",
-    "url": "https://segmentfault.com/a/1190000042287505",
-    "author": "weiewiyi",
-    "home_url": "https://segmentfault.com/u/chenchu_6110ed583800c",
-    "votes": "2",
+    "title": "富媒体在客服IM消息通信中的秒发实践",
+    "description": "客服一站式平台旨在为得物生态内的客服域服务人员提供一站式的服务办公平台。我们有多条业务线，客服在和用户聊天的过程中，有很多场景需要发送富媒体。跟普通的文本传输相比，富媒体可以直观的让用户了解到消息...",
+    "url": "https://segmentfault.com/a/1190000042289219",
+    "author": "得物技术",
+    "home_url": "https://segmentfault.com/u/dewujishu",
+    "votes": "1",
     "rank": 5
-  },
-  {
-    "title": "mongoDb查询中遇到的问题",
-    "description": "返回的数据样式：可以看到这样查询后会将从表查询到的数据添加到主表数据中，也就是说在mongoDb中并不需要在实体中加入关联实体，只需加入关联实体的Id即可。如果还想要加入其他查询条件，只需像下面这样加入crit...",
-    "url": "https://segmentfault.com/a/1190000042283317",
-    "author": "李明",
-    "home_url": "https://segmentfault.com/u/crister_612f55567eb8c",
-    "votes": "2",
-    "rank": 6
-  },
-  {
-    "title": "[开源项目]可观测、易使用的SpringBoot线程池",
-    "description": "在开发spring boot应用服务的时候，难免会使用到异步任务及线程池。spring boot的线程池是可以自定义的，所以我们经常会在项目里面看到类似于下面这样的代码",
-    "url": "https://segmentfault.com/a/1190000042284199",
-    "author": "字母哥博客",
-    "home_url": "https://segmentfault.com/u/zimug",
-    "votes": "1",
-    "rank": 7
-  },
-  {
-    "title": "精读《Unique, MapTypes, Construct Tuple...》",
-    "description": "去重需要不断递归产生去重后结果，因此需要一个辅助变量 R 配合，并把 T 用 infer 逐一拆解，判断第一个字符是否在结果数组里，如果不在就塞进去：",
-    "url": "https://segmentfault.com/a/1190000042282563",
-    "author": "黄子毅",
-    "home_url": "https://segmentfault.com/u/aoyangyudakong",
-    "votes": "1",
-    "rank": 8
-  },
-  {
-    "title": "JavaScript WebGL 绘制顺序",
-    "description": "引子在 JavaScript WebGL 三维相关概念中尝试一些效果的时候，又碰到了新问题，就去查了资料，自己尝试后总结下。OriginMy GitHub绘制顺序之前二维绘制顺序并没有产生明显的不好效果，现在绘制三维影响就比较大了...",
-    "url": "https://segmentfault.com/a/1190000042282536",
-    "author": "XXHolic",
-    "home_url": "https://segmentfault.com/u/xxholic",
-    "votes": "1",
-    "rank": 9
   }
 ]

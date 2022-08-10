@@ -1,12 +1,21 @@
 [
   {
+    "title": "提升web输入体验！JS 如何自动配对标点符号？",
+    "description": "欢迎关注微信公众号前端侦探温馨提示：在阅读本文之前，可以先回顾这篇文章：Web 中的“选区”和“光标”，有很多你可能不太知道的原生 API，以下内容是对该内容的实践运用在写作编辑中，有很多需要成对出现的标点符...",
+    "url": "https://segmentfault.com/a/1190000042251637",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "18",
+    "rank": 1
+  },
+  {
     "title": "圆角大杀器，使用滤镜构建圆角及波浪效果",
     "description": "本文，将另辟蹊径，介绍一种使用滤镜去构建圆角的独特方式。首先，我们来看这样一个图形：一个矩形，没什么特别的，代码如下： {代码...} 如果，我们现在需要给这个矩形的两端加上圆角，像是这样，该怎么做呢：So...",
     "url": "https://segmentfault.com/a/1190000042217200",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
     "votes": "22",
-    "rank": 1
+    "rank": 2
   },
   {
     "title": "超酷炫的转场动画？CSS 轻松拿下！",
@@ -15,15 +24,6 @@
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
     "votes": "21",
-    "rank": 2
-  },
-  {
-    "title": "提升web输入体验！JS 如何自动配对标点符号？",
-    "description": "欢迎关注微信公众号前端侦探温馨提示：在阅读本文之前，可以先回顾这篇文章：Web 中的“选区”和“光标”，有很多你可能不太知道的原生 API，以下内容是对该内容的实践运用在写作编辑中，有很多需要成对出现的标点符...",
-    "url": "https://segmentfault.com/a/1190000042251637",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "17",
     "rank": 3
   },
   {
@@ -32,8 +32,17 @@
     "url": "https://segmentfault.com/a/1190000042094549",
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "21",
+    "votes": "22",
     "rank": 4
+  },
+  {
+    "title": "CSS color-scheme 和夜间模式",
+    "description": "欢迎关注微信公众号：前端侦探介绍一个和深色模式相关的CSS属性：color-scheme一、什么是 color-scheme？color-scheme顾名思义，即为“配色方案”，在系统中指的是“白天模式”和“夜间模式”。使用这个属性可以轻松的...",
+    "url": "https://segmentfault.com/a/1190000042184163",
+    "author": "XboxYan",
+    "home_url": "https://segmentfault.com/u/xboxyan",
+    "votes": "18",
+    "rank": 5
   },
   {
     "title": "高阶切图技巧！基于单张图片的任意颜色转换",
@@ -42,15 +51,6 @@
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
     "votes": "14",
-    "rank": 5
-  },
-  {
-    "title": "CSS color-scheme 和夜间模式",
-    "description": "欢迎关注微信公众号：前端侦探介绍一个和深色模式相关的CSS属性：color-scheme一、什么是 color-scheme？color-scheme顾名思义，即为“配色方案”，在系统中指的是“白天模式”和“夜间模式”。使用这个属性可以轻松的...",
-    "url": "https://segmentfault.com/a/1190000042184163",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "17",
     "rank": 6
   },
   {
@@ -63,22 +63,40 @@
     "rank": 7
   },
   {
+    "title": "妙用 CSS 构建花式透视背景效果",
+    "description": "本文将介绍一种巧用 background 配合 backdrop- filter 来构建有趣的透视背景效果的方式。本技巧源自于一名群友的提问，如何构建如 ElementUI 文档的一种顶栏背景特效，看看效果：仔细看，在页面的的滚动过程中，...",
+    "url": "https://segmentfault.com/a/1190000042267425",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "18",
+    "rank": 8
+  },
+  {
     "title": "社区维基：将你的问答捐赠给社区",
     "description": "小王初学编程的时候，在 SegmentFault 提出了许多相关的问题。在社区热心人的帮助下，小王的问题一个个得到了解决，编程技术进步神速。",
     "url": "https://segmentfault.com/a/1190000042203704",
     "author": "fenbox",
     "home_url": "https://segmentfault.com/u/fenbox",
     "votes": "12",
-    "rank": 8
+    "rank": 9
   },
   {
-    "title": "妙用 CSS 构建花式透视背景效果",
-    "description": "本文将介绍一种巧用 background 配合 backdrop- filter 来构建有趣的透视背景效果的方式。本技巧源自于一名群友的提问，如何构建如 ElementUI 文档的一种顶栏背景特效，看看效果：仔细看，在页面的的滚动过程中，...",
-    "url": "https://segmentfault.com/a/1190000042267425",
+    "title": "防御式CSS是什么？这几点属性重点防御！",
+    "description": "微信搜索 【大迁世界】, 我会第一时间和你分享前端行业趋势，学习途径等等。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000042272755",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "15",
+    "rank": 10
+  },
+  {
+    "title": "使用 CSS 构建强大且酷炫的粒子动画",
+    "description": "当然，不使用 HTML + CSS 的主要原因在于，粒子动画通常需要较多的粒子，而如果使用 HTML + CSS 的话势必需要过多的 DOM 元素，这也就导致了使用 HTML + CSS 构建的粒子动画在性能上毫无优势。",
+    "url": "https://segmentfault.com/a/1190000042283578",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
     "votes": "15",
-    "rank": 9
+    "rank": 11
   },
   {
     "title": "今҈天҈真҈是҈热҈化҈了҈！",
@@ -87,16 +105,7 @@
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
     "votes": "16",
-    "rank": 10
-  },
-  {
-    "title": "防御式CSS是什么？这几点属性重点防御！",
-    "description": "微信搜索 【大迁世界】, 我会第一时间和你分享前端行业趋势，学习途径等等。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000042272755",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "14",
-    "rank": 11
+    "rank": 12
   },
   {
     "title": "试着换个角度理解低代码平台设计的本质",
@@ -105,7 +114,16 @@
     "author": "pingan8787",
     "home_url": "https://segmentfault.com/u/pingan8787",
     "votes": "11",
-    "rank": 12
+    "rank": 13
+  },
+  {
+    "title": "前端构建效率优化之路",
+    "description": "我们的系统（一个 ToB 的 Web 单页应用）前端单页应用经过多年的迭代，目前已经累积有大几十万行的业务代码，30+ 路由模块，整体的代码量和复杂度还是比较高的。",
+    "url": "https://segmentfault.com/a/1190000042256837",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "13",
+    "rank": 14
   },
   {
     "title": "一步步带你搞懂虚拟 DOM 的工作原理",
@@ -114,7 +132,7 @@
     "author": "deepfunc",
     "home_url": "https://segmentfault.com/u/deepfunc",
     "votes": "15",
-    "rank": 13
+    "rank": 15
   },
   {
     "title": "webpack 拆包：关于 splitChunks 的几个重点属性解析",
@@ -123,16 +141,7 @@
     "author": "deepfunc",
     "home_url": "https://segmentfault.com/u/deepfunc",
     "votes": "7",
-    "rank": 14
-  },
-  {
-    "title": "前端构建效率优化之路",
-    "description": "我们的系统（一个 ToB 的 Web 单页应用）前端单页应用经过多年的迭代，目前已经累积有大几十万行的业务代码，30+ 路由模块，整体的代码量和复杂度还是比较高的。",
-    "url": "https://segmentfault.com/a/1190000042256837",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "12",
-    "rank": 15
+    "rank": 16
   },
   {
     "title": "面试官：主说 Git Rebase 和 Git Merge 差异",
@@ -141,7 +150,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "11",
-    "rank": 16
+    "rank": 17
   },
   {
     "title": "【分享】从Mybatis源码中，学习到的10种设计模式",
@@ -150,7 +159,7 @@
     "author": "小傅哥",
     "home_url": "https://segmentfault.com/u/fuzhengwei",
     "votes": "11",
-    "rank": 17
+    "rank": 18
   },
   {
     "title": "一个简洁、强大、可扩展的前端项目架构是什么样的？",
@@ -159,7 +168,7 @@
     "author": "卡颂",
     "home_url": "https://segmentfault.com/u/kasong",
     "votes": "11",
-    "rank": 18
+    "rank": 19
   },
   {
     "title": "如何提出一个高质量的问题？",
@@ -168,7 +177,7 @@
     "author": "唯一丶",
     "home_url": "https://segmentfault.com/u/weiyi_5b04fb4aa815a",
     "votes": "11",
-    "rank": 19
+    "rank": 20
   },
   {
     "title": "Wuzzle，不 eject 也能定制 create-react-app 创建的 React 应用",
@@ -177,7 +186,7 @@
     "author": "乌柏木",
     "home_url": "https://segmentfault.com/u/wubomu",
     "votes": "14",
-    "rank": 20
+    "rank": 21
   },
   {
     "title": "使用前端技术实现静态图片局部流动效果 🌊",
@@ -186,7 +195,7 @@
     "author": "dragonir",
     "home_url": "https://segmentfault.com/u/dragonir",
     "votes": "9",
-    "rank": 21
+    "rank": 22
   },
   {
     "title": "搭建前端监控，采集用户行为的 N 种姿势",
@@ -195,7 +204,7 @@
     "author": "杨成功",
     "home_url": "https://segmentfault.com/u/ruidoc",
     "votes": "11",
-    "rank": 22
+    "rank": 23
   },
   {
     "title": "梳理 Webpack 知识体系与学习资源推荐",
@@ -204,7 +213,7 @@
     "author": "JackySummer",
     "home_url": "https://segmentfault.com/u/jackysummer",
     "votes": "14",
-    "rank": 23
+    "rank": 24
   },
   {
     "title": "Three.js系列: 在元宇宙看电影，享受 VR 视觉盛宴",
@@ -213,7 +222,16 @@
     "author": "程序员秋风",
     "home_url": "https://segmentfault.com/u/qiufeng_5a07f6cb96ee0",
     "votes": "6",
-    "rank": 24
+    "rank": 25
+  },
+  {
+    "title": "通向架子工的前端开发利器推荐",
+    "description": "01：thunderclient: VSCode 中的 postmanVSCode 的一个插件，在 VSCode 中管理请求资源，如同 postman 一样。它支持与 postman 兼容的格式，可导出为 postman Collection。02：Apifox, 团队 API 管理利器Apifox，...",
+    "url": "https://segmentfault.com/a/1190000042204295",
+    "author": "shanyue",
+    "home_url": "https://segmentfault.com/u/xiange",
+    "votes": "9",
+    "rank": 26
   },
   {
     "title": "使用Three.js实现炫酷的赛博朋克风格3D数字地球大屏 🌐",
@@ -222,7 +240,7 @@
     "author": "dragonir",
     "home_url": "https://segmentfault.com/u/dragonir",
     "votes": "6",
-    "rank": 25
+    "rank": 27
   },
   {
     "title": "Redis 内存优化神技，小内存保存大数据",
@@ -231,7 +249,7 @@
     "author": "码哥字节",
     "home_url": "https://segmentfault.com/u/magebyte",
     "votes": "10",
-    "rank": 26
+    "rank": 28
   },
   {
     "title": "我有 7种 实现web实时消息推送的方案，7种！",
@@ -240,7 +258,7 @@
     "author": "程序员小富",
     "home_url": "https://segmentfault.com/u/chengxy",
     "votes": "14",
-    "rank": 27
+    "rank": 29
   },
   {
     "title": "你的 Tap bar  不够花里胡哨，试试这个！",
@@ -249,24 +267,6 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "8",
-    "rank": 28
-  },
-  {
-    "title": "低代码是开发的未来吗？浅谈低代码平台",
-    "description": "低代码的热潮在几年前就火过，从阿里钉钉跨平台协作方式，再到飞书上的审批流程，以及目前我们接触到的表单审批、投票的模板，这些都是关于低代码的实现方式。随着企业数字化转型和云计算的不断发展，低代码平台...",
-    "url": "https://segmentfault.com/a/1190000042229850",
-    "author": "云叔_又拍云",
-    "home_url": "https://segmentfault.com/u/yunshu_blog",
-    "votes": "10",
-    "rank": 29
-  },
-  {
-    "title": "基于 Next.js实现在线Excel",
-    "description": "如果要从头开始使用 React 构建一个完整的 Web 应用程序，需要哪些步骤？这当然不像把大象装进冰箱那么简单，只需要分成三步：打开冰箱，拿起大象，塞进冰箱就好。",
-    "url": "https://segmentfault.com/a/1190000042268783",
-    "author": "葡萄城技术团队",
-    "home_url": "https://segmentfault.com/u/grapecity",
-    "votes": "4",
     "rank": 30
   }
 ]
