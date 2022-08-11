@@ -1,47 +1,128 @@
 [
   {
-    "title": "markdown 编辑器实现双屏同步滚动",
-    "description": "由于一直在使用 markdown 编辑器写技术文章，所以对于编写体验很敏感。我发现各大社区的 markdown 编辑器基本都有同步滚动功能。只不过有些做得好，有些做得马马虎虎。出于好奇，我就打算自己亲自实现一下这个功能。",
-    "url": "https://segmentfault.com/a/1190000042290360",
-    "author": "谭光志",
-    "home_url": "https://segmentfault.com/u/woai3c",
-    "votes": "3",
+    "title": "Vue递归组件：渲染嵌套评论",
+    "description": "微信搜索 【大迁世界】, 我会第一时间和你分享前端行业趋势，学习途径等等。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000042261970",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "2",
     "rank": 1
   },
   {
-    "title": "快速了解navigator API setAppBadge",
-    "description": "欢迎关注我的公众号：前端侦探在很多客户端应用程序中，一般会通过应用图标的角标来显示当前消息的数量，例如其实，web 中也有类似的设定，花两分钟了解一下吧一、navigator.setAppBadge现在的navigator早已不是...",
-    "url": "https://segmentfault.com/a/1190000042288003",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
+    "title": "教你如何开发一个导入/导出插件",
+    "description": "在开发过程中，或多或少都会遇到数据格式转换的问题，如果只是简单的数据，那自然用什么方式都可以，如果遇到数据非常多、层级复杂、关联性强的数据，则需要摸索出一套合适的，本文会介绍两种比较可行的转换模型...",
+    "url": "https://segmentfault.com/a/1190000042298935",
+    "author": "eoapi",
+    "home_url": "https://segmentfault.com/u/jiangdaoyidechahu",
     "votes": "3",
     "rank": 2
   },
   {
-    "title": "解决 docker-compose 配置postgresql中登陆失败的错误",
-    "description": "理论上来说运行以上的doccker-compose文件之后就可以直接根据所设置的用户名密码来登陆postgresql，但是尝试了很多此却总是报如下错误：用户名、密码不匹配，但是在其他人的设备上却没有问题。经检查docker容器也...",
-    "url": "https://segmentfault.com/a/1190000042293707",
-    "author": "李明",
-    "home_url": "https://segmentfault.com/u/crister_612f55567eb8c",
-    "votes": "1",
+    "title": "手写一个有点意思的电梯小程序",
+    "description": "通过本示例，你将学到什么?CSS 相关CSS定位CSS弹性盒子布局CSS动画CSS变量的用法js相关类的封装DOM的操作与事件的操作样式与类的操作延迟函数的使用示例效果废话少说，先看效果如图所示:分析小程序的构成电梯井（...",
+    "url": "https://segmentfault.com/a/1190000042298118",
+    "author": "夕水",
+    "home_url": "https://segmentfault.com/u/xishui_5ac9a340a5484",
+    "votes": "5",
     "rank": 3
   },
   {
-    "title": "【JVM知识总结-9】类加载的过程",
-    "description": "类的加载过程包括5个阶段：加载、验证、准备、解析和初始化。加载加载的过程“加载”是“类加载”过程的一个阶段，不能混淆这两个名词。在加载阶段，虚拟机需要完成3件事：通过类的全限定名获取改类的二进制字节流将...",
-    "url": "https://segmentfault.com/a/1190000042293732",
-    "author": "AllenYang",
-    "home_url": "https://segmentfault.com/u/allenyang",
-    "votes": "2",
+    "title": "vue3的管理端项目工程模板来了~~可直接快速开发项目，不用再考虑各种配置和优化~真香！",
+    "description": "即开即用，提供初创团队或新项目专注于快速启动和开发交易。不再考虑脚手架编译打包和优化、ESLlint统一配置、项目和编码规范等问题。 参考、借鉴vue-element-admin项目。",
+    "url": "https://segmentfault.com/a/1190000042299910",
+    "author": "马赛克就是我",
+    "home_url": "https://segmentfault.com/u/yisuan",
+    "votes": "1",
     "rank": 4
   },
   {
-    "title": "富媒体在客服IM消息通信中的秒发实践",
-    "description": "客服一站式平台旨在为得物生态内的客服域服务人员提供一站式的服务办公平台。我们有多条业务线，客服在和用户聊天的过程中，有很多场景需要发送富媒体。跟普通的文本传输相比，富媒体可以直观的让用户了解到消息...",
-    "url": "https://segmentfault.com/a/1190000042289219",
-    "author": "得物技术",
-    "home_url": "https://segmentfault.com/u/dewujishu",
+    "title": "屏幕截图工具哪个好？Snagit 屏幕捕捉工具分享",
+    "description": "Snagit是一款简单好用的屏幕捕捉工具，支持各种方式的屏幕截图，如全屏、滚动、部分、窗口、菜单等，可以从创建图像和视频中获取图片以及图像，捕捉您的屏幕，编辑图像并提供结果。拥有强大的视觉效果，支持屏幕...",
+    "url": "https://segmentfault.com/a/1190000042297259",
+    "author": "暖阳",
+    "home_url": "https://segmentfault.com/u/nuanyang_62ba77f74c207",
     "votes": "1",
     "rank": 5
+  },
+  {
+    "title": "JWT 实现登录认证 + Token 自动续期方案",
+    "description": "JWT 实现登录认证 + Token 自动续期方案，这才是正确的使用姿势！项目中基本都有用户管理模块，而用户管理模块会涉及到加密及认证流程。",
+    "url": "https://segmentfault.com/a/1190000042295563",
+    "author": "CRMEB",
+    "home_url": "https://segmentfault.com/u/crmeb",
+    "votes": "2",
+    "rank": 6
+  },
+  {
+    "title": "HarmonyOS自动化测试框架—Hypium",
+    "description": "应用开发过程中，要确保应用的功能和界面能满足预期，往往需要通过测试来验证。为此，我们研发了一套新的自动化测试框架，它支持以插件形式集成到DevEco Studio中，让开发者在应用开发的过程中可以快速编写和执行...",
+    "url": "https://segmentfault.com/a/1190000042297511",
+    "author": "HarmonyOS开发者",
+    "home_url": "https://segmentfault.com/u/harmonyos",
+    "votes": "1",
+    "rank": 7
+  },
+  {
+    "title": "那些年在Coding质量上走过的路",
+    "description": "最近接了几个项目，代码质量参差不齐。本想按照以往的实践建议每个patch都做review，但往往dead line当头。我会想，我如果对这次patch做了review、以及长期做review能给业务带来什么价值。接着本文，我还想讨论其...",
+    "url": "https://segmentfault.com/a/1190000042295108",
+    "author": "泊浮目",
+    "home_url": "https://segmentfault.com/u/camile",
+    "votes": "1",
+    "rank": 8
+  },
+  {
+    "title": "Docker使用基本命令",
+    "description": "根据镜像新建并启动容器docker run -d -p {宿主机端口}:{容器端口} -v {宿主机文件路径}:{容器文件路径} --name {容器名别名} {镜像名}:{镜像版本}-d: 后台运行",
+    "url": "https://segmentfault.com/a/1190000042297257",
+    "author": "码兔",
+    "home_url": "https://segmentfault.com/u/routu",
+    "votes": "1",
+    "rank": 9
+  },
+  {
+    "title": "并发容器线程安全应对之道-ConcurrentHashMap",
+    "description": "2 并发容器线程安全应对之道 {代码...} 2.1 并发容器总体概述目标：学习ConcurrentHashMap基本概念和认识它的数据结构ConcurrentHashMap概念：ConcurrentHashMap是J.U.C包里面提供的一个线程安全的HashMap， 在并...",
+    "url": "https://segmentfault.com/a/1190000042297220",
+    "author": "紧张的羊肉串aa",
+    "home_url": "https://segmentfault.com/u/jinzhangdeyangrouchuan",
+    "votes": "1",
+    "rank": 10
+  },
+  {
+    "title": "图扑数字孪生北京故宫，推进旅游业元宇宙进程",
+    "description": "文旅的数字化转型之路正如火如荼地开展，多家文旅景区和主题乐园开启了元宇宙的探索——张家界元宇宙研究中心挂牌，成为全国首个设立元宇宙研究中心的景区。现代化景区在吸纳了信息革命（5G/6G）、互联网革命（Web ...",
+    "url": "https://segmentfault.com/a/1190000042296125",
+    "author": "hightopo",
+    "home_url": "https://segmentfault.com/u/hightopo",
+    "votes": "2",
+    "rank": 11
+  },
+  {
+    "title": "使用CSS实现多种Noise噪点效果",
+    "description": "在插画中添加噪点肌理可以营造出一种自然的氛围。噪点肌理可以用于塑造阴影、高光、深度以及更多细节，并优化插画质感，应用噪点肌理的方式在扁平插画中广受欢迎。",
+    "url": "https://segmentfault.com/a/1190000042295231",
+    "author": "dragonir",
+    "home_url": "https://segmentfault.com/u/dragonir",
+    "votes": "1",
+    "rank": 12
+  },
+  {
+    "title": "Rider调试ASP.NET Core时报thread not gc-safe的解决方法",
+    "description": "新建了一个ASP.NET Core 5.0的Web API项目，当使用断点调试Host.CreateDefaultBuilder(args)时，进入该函数后查看中间变量的值，报错Evaluation is not allowed: The thread is not at a GC-safe poi...",
+    "url": "https://segmentfault.com/a/1190000042299619",
+    "author": "阿升1990",
+    "home_url": "https://segmentfault.com/u/ai408",
+    "votes": "1",
+    "rank": 13
+  },
+  {
+    "title": "负载均衡原理分析与源码解读",
+    "description": "上一篇文章一起学习了Resolver的原理和源码分析，本篇继续和大家一起学习下和Resolver关系密切的Balancer的相关内容。这里说的负载均衡主要指数据中心内的负载均衡，即RPC间的负载均衡。",
+    "url": "https://segmentfault.com/a/1190000042295402",
+    "author": "kevinwan",
+    "home_url": "https://segmentfault.com/u/kevinwan",
+    "votes": "1",
+    "rank": 14
   }
 ]
