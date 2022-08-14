@@ -2,7 +2,7 @@
   {
     "title": "京东面试：MQ 消息丢失、重复、积压问题，如何解决？",
     "description": "",
-    "votes": "73",
+    "votes": "74",
     "url": "/k/1unx53z",
     "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
     "avatarAlt": "浪客用react,java全栈 - 独家号",
@@ -12,7 +12,7 @@
   {
     "title": "连流量染色都没有，你说要搞微服务？",
     "description": "",
-    "votes": "55",
+    "votes": "56",
     "url": "/k/9k1wfc7",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -22,7 +22,7 @@
   {
     "title": "掌握这些 SpringBoot 启动扩展点，已经超过 90% 的人了",
     "description": "",
-    "votes": "52",
+    "votes": "61",
     "url": "/k/3m8iq2m",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -32,7 +32,7 @@
   {
     "title": "微服务接口设计原则",
     "description": "本文结合自身后台开发经验，从高可用、高性能、易维护和低风险（安全）角度出发，尝试总结业界常见微服务接口设计原则，帮助大家设计出优秀的微服务。1.前言微服务是一种系统架构风格，是 S...",
-    "votes": "45",
+    "votes": "59",
     "url": "/k/4hjv10p",
     "avatar": "https://img.toutiao.io/subject/cc2d501408fd455d9b841cb6c8d95a6c/thumb",
     "avatarAlt": "ASCE1885 - 独家号",
@@ -42,7 +42,7 @@
   {
     "title": "明明加了唯一索引，为什么还是产生重复数据？",
     "description": "",
-    "votes": "46",
+    "votes": "48",
     "url": "/k/18ha9kp",
     "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
     "avatarAlt": "浪客用react,java全栈 - 独家号",
@@ -50,19 +50,9 @@
     "homeUrl": "/subjects/132403"
   },
   {
-    "title": "面试官：Redis 大 key 要如何处理？",
-    "description": "作者：小林coding八股文网站：xiaolincoding.com大家好，我是小林。今天来聊聊，关于 Redis 大 key 的四个问题。什么是 Redis 大 key？大 ke...",
-    "votes": "40",
-    "url": "/k/adi7th7",
-    "avatar": "https://img.toutiao.io/user/535e9d8c1b454c3bb455a88850d3f1f2/thumb",
-    "avatarAlt": "若沿的独家号 - 独家号",
-    "subjectName": "若沿的独家号",
-    "homeUrl": "/subjects/325462"
-  },
-  {
     "title": "「架构选型」5 种 API 网关技术选型",
     "description": "官网：www.passjava.cn你好，我是悟空。这一次我们来看下 API 网关如何设计、五种 API 网关的技术选型对比。关于什么是网关，以及为什么需要网关，可以看上一篇：60...",
-    "votes": "41",
+    "votes": "45",
     "url": "/k/a4v7vsf",
     "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
     "avatarAlt": "乱点技能树 - 独家号",
@@ -70,19 +60,19 @@
     "homeUrl": "/subjects/194141"
   },
   {
-    "title": "保姆级教程！Golang微服务简洁架构实战",
-    "description": "导语 | 本文从简洁架构的理论出发，依托trpc-go目录规范，简单阐述了整体代码架构如何划分，具体trpc-go服务代码实现细节，和落地步骤，并讨论了和DDD的区别。文章源于我们...",
-    "votes": "31",
-    "url": "/k/wcd6wfn",
-    "avatar": "https://img.toutiao.io/subject/5677c886e56b479194e85580c577d68a/thumb",
-    "avatarAlt": "编程爱好者(网络编程) - 独家号",
-    "subjectName": "编程爱好者(网络编程)",
-    "homeUrl": "/subjects/134283"
+    "title": "面试官：Redis 大 key 要如何处理？",
+    "description": "作者：小林coding八股文网站：xiaolincoding.com大家好，我是小林。今天来聊聊，关于 Redis 大 key 的四个问题。什么是 Redis 大 key？大 ke...",
+    "votes": "42",
+    "url": "/k/adi7th7",
+    "avatar": "https://img.toutiao.io/user/535e9d8c1b454c3bb455a88850d3f1f2/thumb",
+    "avatarAlt": "若沿的独家号 - 独家号",
+    "subjectName": "若沿的独家号",
+    "homeUrl": "/subjects/325462"
   },
   {
     "title": "这个技术总监，把 RabbitMQ 讲得那叫一个透彻，佩服！",
     "description": "",
-    "votes": "35",
+    "votes": "37",
     "url": "/k/zsheoa9",
     "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
     "avatarAlt": "Bloomingroses - 独家号",
@@ -92,7 +82,7 @@
   {
     "title": "Java基础 | Stream流原理与用法总结",
     "description": "Stream简化元素计算；一、接口设计从Java1.8开始提出了Stream流的概念，侧重对于源数据计算能力的封装，并且支持序列与并行两种操作方式；依旧先看核心接口的设计:Base...",
-    "votes": "28",
+    "votes": "29",
     "url": "/k/bz1xc1u",
     "avatar": "https://img.toutiao.io/subject/b82e66f0d4464d78b30e0db3cfad0dd8/thumb",
     "avatarAlt": "知了一笑 - 独家号",
@@ -102,12 +92,22 @@
   {
     "title": "五万字 | 深入理解Linux内存管理",
     "description": "作者简介：程磊，一线码农，在某手机公司担任系统开发工程师，日常喜欢研究内核基本原理。1.1 内存管理的意义1.2 原始内存管理1.3 分段内存管理1.4 分页内存管理1.5 内存管...",
-    "votes": "26",
+    "votes": "28",
     "url": "/k/d0jjgi5",
     "avatar": "https://img.toutiao.io/subject/ca32be3cbe13422a9fc08989bf5378d9/thumb",
     "avatarAlt": "文不落 - 独家号",
     "subjectName": "文不落",
     "homeUrl": "/subjects/113701"
+  },
+  {
+    "title": "秒杀系统的艺术",
+    "description": "",
+    "votes": "25",
+    "url": "/k/m8ga13m",
+    "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
+    "avatarAlt": "浪客用react,java全栈 - 独家号",
+    "subjectName": "浪客用react,java全栈",
+    "homeUrl": "/subjects/132403"
   },
   {
     "title": "32 道 Spring 常见面试总结（附详细参考答案），我经常拿来面试别人",
@@ -118,16 +118,6 @@
     "avatarAlt": "JavaGuide - 独家号",
     "subjectName": "JavaGuide",
     "homeUrl": "/subjects/352853"
-  },
-  {
-    "title": "秒杀系统的艺术",
-    "description": "",
-    "votes": "24",
-    "url": "/k/m8ga13m",
-    "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
-    "avatarAlt": "浪客用react,java全栈 - 独家号",
-    "subjectName": "浪客用react,java全栈",
-    "homeUrl": "/subjects/132403"
   },
   {
     "title": "研发效能度量：单人效率考核内卷？",
@@ -142,7 +132,7 @@
   {
     "title": "“12306” 的架构到底有多牛逼？",
     "description": "",
-    "votes": "21",
+    "votes": "23",
     "url": "/k/77nmo8x",
     "avatar": "https://img.toutiao.io/user/01ec77a3ddbb4158afed606b24af1c87/thumb",
     "avatarAlt": "脑子进煎鱼了 - 独家号",
@@ -150,9 +140,29 @@
     "homeUrl": "/subjects/343446"
   },
   {
+    "title": "腾讯软件工程师是怎样写设计文档的？",
+    "description": "",
+    "votes": "24",
+    "url": "/k/nvkablz",
+    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
+    "avatarAlt": "进击的程序猿 - 独家号",
+    "subjectName": "进击的程序猿",
+    "homeUrl": "/subjects/24912"
+  },
+  {
+    "title": "Redis 突然变慢了如何排查并解决？",
+    "description": "",
+    "votes": "21",
+    "url": "/k/4ihru9o",
+    "avatar": "https://img.toutiao.io/subject/5677c886e56b479194e85580c577d68a/thumb",
+    "avatarAlt": "编程爱好者(网络编程) - 独家号",
+    "subjectName": "编程爱好者(网络编程)",
+    "homeUrl": "/subjects/134283"
+  },
+  {
     "title": "教你如何定位不合理的SQL？并优化之",
     "description": "如何定位不合理的 SQL引言在应用的开发过程中，由于初期数据量小，开发人员写 SQL 语句时更重视功能上的实现，但是当应用系统正式上线后，随着生产数据量的急剧增长，很多SQL语句开...",
-    "votes": "20",
+    "votes": "21",
     "url": "/k/huxhsnt",
     "avatar": "https://img.toutiao.io/subject/8e319b8fa49c44da812c80fae93a9d84/thumb",
     "avatarAlt": "开发者独家号 - 独家号",
@@ -162,7 +172,7 @@
   {
     "title": "BFF避坑指南",
     "description": "BFF —— Backends for frontends（服务于前端的后端），是为了让后端API满足不同的前端使用场景，而演进出来的一种模式。BFF在改善前端用户体验上起到了非常...",
-    "votes": "19",
+    "votes": "20",
     "url": "/k/cra0qqz",
     "avatar": "https://img.toutiao.io/user/4a74c5bc82c5462fbfb1a614d56f8753/thumb",
     "avatarAlt": "ThoughtWorks - 独家号",
@@ -172,7 +182,7 @@
   {
     "title": "也聊一聊服务稳定性建设",
     "description": "写在前面俗话说“缺啥补啥”。想起写这么一篇文章，不是因为自己和团队稳定性建设做得有多好，相反，最近经常被吐槽线上不“稳定”.... 回想当年，作者进入某度的第一个项目中，从0到1撸...",
-    "votes": "21",
+    "votes": "22",
     "url": "/k/ccmz6bl",
     "avatar": "https://img.toutiao.io/subject/883ccd2414c04d28ac20bb97c0f8a862/thumb",
     "avatarAlt": "Itegel, on the way! - 独家号",
@@ -188,15 +198,5 @@
     "avatarAlt": "ASCE1885 - 独家号",
     "subjectName": "ASCE1885",
     "homeUrl": "/subjects/4829"
-  },
-  {
-    "title": "想知道中后台的人效如何计算吗，我知道！",
-    "description": "",
-    "votes": "17",
-    "url": "/k/8fcs0et",
-    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
-    "avatarAlt": "Bloomingroses - 独家号",
-    "subjectName": "Bloomingroses",
-    "homeUrl": "/subjects/98777"
   }
 ]
