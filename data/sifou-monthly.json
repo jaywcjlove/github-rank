@@ -81,21 +81,21 @@
     "rank": 9
   },
   {
+    "title": "可视化拖拽组件库一些技术要点原理分析（四）",
+    "description": "本文是可视化拖拽系列的第四篇，比起之前的三篇文章，这篇功能点要稍微少一点，总共有五点：SVG 组件动态属性面板数据来源（接口请求）组件联动组件按需加载如果你对我之前的系列文章不是很了解，建议先把这三篇...",
+    "url": "https://segmentfault.com/a/1190000042282658",
+    "author": "谭光志",
+    "home_url": "https://segmentfault.com/u/woai3c",
+    "votes": "13",
+    "rank": 10
+  },
+  {
     "title": "今҈天҈真҈是҈热҈化҈了҈！",
     "description": "欢迎关注我的公众号：前端侦探今天真是太热了，不信你看标题今҈天҈真҈是҈热҈化҈了҈！也可以查看下面截图相信大家最近都能看到这样“热化了”的标题。那么，这是如何实现的呢？CSS 可以实现类似的效果吗？一起看看吧...",
     "url": "https://segmentfault.com/a/1190000042217446",
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
     "votes": "16",
-    "rank": 10
-  },
-  {
-    "title": "可视化拖拽组件库一些技术要点原理分析（四）",
-    "description": "本文是可视化拖拽系列的第四篇，比起之前的三篇文章，这篇功能点要稍微少一点，总共有五点：SVG 组件动态属性面板数据来源（接口请求）组件联动组件按需加载如果你对我之前的系列文章不是很了解，建议先把这三篇...",
-    "url": "https://segmentfault.com/a/1190000042282658",
-    "author": "谭光志",
-    "home_url": "https://segmentfault.com/u/woai3c",
-    "votes": "12",
     "rank": 11
   },
   {
@@ -135,21 +135,21 @@
     "rank": 15
   },
   {
-    "title": "Wuzzle，不 eject 也能定制 create-react-app 创建的 React 应用",
-    "description": "作为 React 官方维护的命令行工具，create-react-app（简称 CRA）能够极其轻松地创建配置完备的 React 应用，帮助使用者快速进入 React 开发。它的最大缺憾是创建的应用不能随心所欲地定制配置。想要定制，只能 e...",
-    "url": "https://segmentfault.com/a/1190000042244854",
+    "title": "Wuzzle，进行基于 webpack 的 JS 转译",
+    "description": "转译器（transpiler）是指能够进行文件到文件一对一转换的编译器（compiler）。在 JS 世界中，常见的开箱即可用的转译器有 typescript cli、babel cli 等，但他们一般只处理 .js、.ts 等脚本文件。而 webpack 尽...",
+    "url": "https://segmentfault.com/a/1190000042306044",
     "author": "乌柏木",
     "home_url": "https://segmentfault.com/u/wubomu",
     "votes": "14",
     "rank": 16
   },
   {
-    "title": "如何提出一个高质量的问题？",
-    "description": "看到标题的一瞬间，你或许在想 “什么样的问题算是好问题？”，在思否，每天或多或少都有十几个（休息日除外）新的问题被提出来，而这里面充斥着不少的 “质量” 问题。",
-    "url": "https://segmentfault.com/a/1190000042182354",
-    "author": "唯一丶",
-    "home_url": "https://segmentfault.com/u/weiyi_5b04fb4aa815a",
-    "votes": "11",
+    "title": "Wuzzle，不 eject 也能定制 create-react-app 创建的 React 应用",
+    "description": "作为 React 官方维护的命令行工具，create-react-app（简称 CRA）能够极其轻松地创建配置完备的 React 应用，帮助使用者快速进入 React 开发。它的最大缺憾是创建的应用不能随心所欲地定制配置。想要定制，只能 e...",
+    "url": "https://segmentfault.com/a/1190000042244854",
+    "author": "乌柏木",
+    "home_url": "https://segmentfault.com/u/wubomu",
+    "votes": "14",
     "rank": 17
   },
   {
@@ -162,12 +162,12 @@
     "rank": 18
   },
   {
-    "title": "Wuzzle，进行基于 webpack 的 JS 转译",
-    "description": "转译器（transpiler）是指能够进行文件到文件一对一转换的编译器（compiler）。在 JS 世界中，常见的开箱即可用的转译器有 typescript cli、babel cli 等，但他们一般只处理 .js、.ts 等脚本文件。而 webpack 尽...",
-    "url": "https://segmentfault.com/a/1190000042306044",
-    "author": "乌柏木",
-    "home_url": "https://segmentfault.com/u/wubomu",
-    "votes": "14",
+    "title": "如何提出一个高质量的问题？",
+    "description": "看到标题的一瞬间，你或许在想 “什么样的问题算是好问题？”，在思否，每天或多或少都有十几个（休息日除外）新的问题被提出来，而这里面充斥着不少的 “质量” 问题。",
+    "url": "https://segmentfault.com/a/1190000042182354",
+    "author": "唯一丶",
+    "home_url": "https://segmentfault.com/u/weiyi_5b04fb4aa815a",
+    "votes": "11",
     "rank": 19
   },
   {
@@ -216,13 +216,22 @@
     "rank": 24
   },
   {
+    "title": "React Fiber架构原理剖析",
+    "description": "在 React 16 之前，VirtualDOM 的更新采用的是Stack架构实现的，也就是循环递归方式。不过，这种对比方式有明显的缺陷，就是一旦任务开始进行就无法中断，如果遇到应用中组件数量比较庞大，那么VirtualDOM 的层级...",
+    "url": "https://segmentfault.com/a/1190000042271919",
+    "author": "xiangzhihong",
+    "home_url": "https://segmentfault.com/u/xiangzhihong",
+    "votes": "9",
+    "rank": 25
+  },
+  {
     "title": "我有 7种 实现web实时消息推送的方案，7种！",
     "description": "技术交流，公众号：程序员小富大家好，我是小富～我有一个朋友～做了一个小破站，现在要实现一个站内信web消息推送的功能，对，就是下图这个小红点，一个很常用的功能。不过他还没想好用什么方式做，这里我帮他整...",
     "url": "https://segmentfault.com/a/1190000042192378",
     "author": "程序员小富",
     "home_url": "https://segmentfault.com/u/chengxy",
     "votes": "14",
-    "rank": 25
+    "rank": 26
   },
   {
     "title": "你的 Tap bar  不够花里胡哨，试试这个！",
@@ -231,7 +240,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "8",
-    "rank": 26
+    "rank": 27
   },
   {
     "title": "markdown 编辑器实现双屏同步滚动",
@@ -240,7 +249,7 @@
     "author": "谭光志",
     "home_url": "https://segmentfault.com/u/woai3c",
     "votes": "6",
-    "rank": 27
+    "rank": 28
   },
   {
     "title": "Shopee在React Native 架构方面的探索",
@@ -249,7 +258,7 @@
     "author": "xiangzhihong",
     "home_url": "https://segmentfault.com/u/xiangzhihong",
     "votes": "6",
-    "rank": 28
+    "rank": 29
   },
   {
     "title": "低代码是开发的未来吗？浅谈低代码平台",
@@ -257,15 +266,6 @@
     "url": "https://segmentfault.com/a/1190000042229850",
     "author": "云叔_又拍云",
     "home_url": "https://segmentfault.com/u/yunshu_blog",
-    "votes": "11",
-    "rank": 29
-  },
-  {
-    "title": "面向推荐的汽车知识图谱构建",
-    "description": "知识图谱的概念，最早由 Google 在2012 年提出， 旨在实现更智能的搜索引擎，并在2013年之后开始在学术界和工业级普及。目前，随着人工智能技术的高速发展，知识图谱已广泛应用于搜索、推荐、广告、风控、智能调...",
-    "url": "https://segmentfault.com/a/1190000042287137",
-    "author": "之家技术",
-    "home_url": "https://segmentfault.com/u/zhijiajishu",
     "votes": "11",
     "rank": 30
   }

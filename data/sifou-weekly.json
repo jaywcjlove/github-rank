@@ -14,7 +14,7 @@
     "url": "https://segmentfault.com/a/1190000042282658",
     "author": "谭光志",
     "home_url": "https://segmentfault.com/u/woai3c",
-    "votes": "12",
+    "votes": "13",
     "rank": 2
   },
   {
@@ -27,22 +27,13 @@
     "rank": 3
   },
   {
-    "title": "详聊immer.js高效复制与冻结\"对象\"的原理于局限性",
-    "description": "immer.js应该是2019年时候火起来的一个库, 他可以高效的复制一个对象(比如相对于JSON.parse(JSON.stringify(obj))), 并且冻结对这个对象上的一些值的修改权限。",
-    "url": "https://segmentfault.com/a/1190000042282263",
-    "author": "lulu_up",
-    "home_url": "https://segmentfault.com/u/lulu_up",
-    "votes": "9",
-    "rank": 4
-  },
-  {
     "title": "markdown 编辑器实现双屏同步滚动",
     "description": "由于一直在使用 markdown 编辑器写技术文章，所以对于编写体验很敏感。我发现各大社区的 markdown 编辑器基本都有同步滚动功能。只不过有些做得好，有些做得马马虎虎。出于好奇，我就打算自己亲自实现一下这个功能。",
     "url": "https://segmentfault.com/a/1190000042290360",
     "author": "谭光志",
     "home_url": "https://segmentfault.com/u/woai3c",
     "votes": "6",
-    "rank": 5
+    "rank": 4
   },
   {
     "title": "面向推荐的汽车知识图谱构建",
@@ -51,16 +42,7 @@
     "author": "之家技术",
     "home_url": "https://segmentfault.com/u/zhijiajishu",
     "votes": "11",
-    "rank": 6
-  },
-  {
-    "title": "PHP如何提高高并发能力",
-    "description": "用于生产环境中的PHP需要对其进行优化，让PHP自身发挥更好的性能，除了写好PHP代码，还要配置好php-fpm以及php.ini调优。本文从内存、OPcache、上传、会话以及安全等方面讲解php.ini的配置调优。",
-    "url": "https://segmentfault.com/a/1190000042280585",
-    "author": "7small7",
-    "home_url": "https://segmentfault.com/u/7small7",
-    "votes": "5",
-    "rank": 7
+    "rank": 5
   },
   {
     "title": "electron 应用开发优秀实践",
@@ -69,16 +51,7 @@
     "author": "vivo互联网技术",
     "home_url": "https://segmentfault.com/u/vivo_tech",
     "votes": "8",
-    "rank": 8
-  },
-  {
-    "title": "我做了一个在线白板（二）",
-    "description": "上一篇我做了一个在线白板！给大家介绍了一下矩形的绘制、选中、拖动、旋转、伸缩，以及放大缩小、网格模式、导出图片等功能，本文继续为各位介绍一下箭头的绘制、自由书写、文字的绘制，以及如何按比例缩放文字...",
-    "url": "https://segmentfault.com/a/1190000042281991",
-    "author": "街角小林",
-    "home_url": "https://segmentfault.com/u/jiejiaoxiaolin",
-    "votes": "4",
-    "rank": 9
+    "rank": 6
   },
   {
     "title": "如何在BI中增加“路线地图”并进行数据分析？",
@@ -87,7 +60,7 @@
     "author": "葡萄城技术团队",
     "home_url": "https://segmentfault.com/u/grapecity",
     "votes": "2",
-    "rank": 10
+    "rank": 7
   },
   {
     "title": "Vue仿钉钉审批流程",
@@ -96,7 +69,7 @@
     "author": "xiangzhihong",
     "home_url": "https://segmentfault.com/u/xiangzhihong",
     "votes": "6",
-    "rank": 11
+    "rank": 8
   },
   {
     "title": "使用Vue.js编写命令行界面,前端开发CLI的利器",
@@ -105,7 +78,7 @@
     "author": "null仔",
     "home_url": "https://segmentfault.com/u/xiaoqianduan_58b28cfebff36",
     "votes": "2",
-    "rank": 12
+    "rank": 9
   },
   {
     "title": "🔬 一文搞懂前端兼容问题",
@@ -114,16 +87,7 @@
     "author": "卤代烃",
     "home_url": "https://segmentfault.com/u/skychx",
     "votes": "4",
-    "rank": 13
-  },
-  {
-    "title": "Flutter 的 6 个最有用的 VS Code扩展",
-    "description": "Pubspec Assist 是一个 Visual Studio Code 扩展，它允许您轻松地将依赖项添加到您的 Dart 和 Flutter 项目的 pubspec.yaml，所有这些都无需离开您的编辑器。",
-    "url": "https://segmentfault.com/a/1190000042280857",
-    "author": "杭州程序员张张",
-    "home_url": "https://segmentfault.com/u/dunizb",
-    "votes": "4",
-    "rank": 14
+    "rank": 10
   },
   {
     "title": "终于新增了：查看所有测试历史的功能，我有点迫不及待了",
@@ -132,7 +96,16 @@
     "author": "猿计划",
     "home_url": "https://segmentfault.com/u/yuanjihua_5d954fd2a3238",
     "votes": "3",
-    "rank": 15
+    "rank": 11
+  },
+  {
+    "title": "从 Islands Architecture 看前端有多卷",
+    "description": "大家好，我卡颂。最近，Remix团队的暴躁老哥Ryan Florence一连怼了好几个友商框架，比如：喷SolidStart抄Remix的文档怼Next.js抄Remix的API设计吐槽Astro、Qwik没有什么新鲜理念当然，这些推文发出不到一天就被老...",
+    "url": "https://segmentfault.com/a/1190000042307425",
+    "author": "卡颂",
+    "home_url": "https://segmentfault.com/u/kasong",
+    "votes": "4",
+    "rank": 12
   },
   {
     "title": "手写一个有点意思的电梯小程序",
@@ -141,7 +114,7 @@
     "author": "夕水",
     "home_url": "https://segmentfault.com/u/xishui_5ac9a340a5484",
     "votes": "6",
-    "rank": 16
+    "rank": 13
   },
   {
     "title": "快速了解navigator API setAppBadge",
@@ -150,7 +123,7 @@
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
     "votes": "4",
-    "rank": 17
+    "rank": 14
   },
   {
     "title": "又更新了！新版本 V 1.3.0 发布了，新增：前后置脚本、查看所有测试历史、国际化...",
@@ -159,34 +132,7 @@
     "author": "猿计划",
     "home_url": "https://segmentfault.com/u/yuanjihua_5d954fd2a3238",
     "votes": "3",
-    "rank": 18
-  },
-  {
-    "title": "Vue递归组件：渲染嵌套评论",
-    "description": "微信搜索 【大迁世界】, 我会第一时间和你分享前端行业趋势，学习途径等等。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000042261970",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "3",
-    "rank": 19
-  },
-  {
-    "title": "Redis 定长队列的探索和实践",
-    "description": "vivo 互联网服务器团队 - Wang Zhi一、业务背景从技术的角度来说，技术方案的选型都是受限于实际的业务场景，都以解决实际业务场景为目标。在我们的实际业务场景中，需要以游戏的维度收集和上报行为数据，考虑数...",
-    "url": "https://segmentfault.com/a/1190000042267962",
-    "author": "vivo互联网技术",
-    "home_url": "https://segmentfault.com/u/vivo_tech",
-    "votes": "2",
-    "rank": 20
-  },
-  {
-    "title": "精读《Unique, MapTypes, Construct Tuple...》",
-    "description": "去重需要不断递归产生去重后结果，因此需要一个辅助变量 R 配合，并把 T 用 infer 逐一拆解，判断第一个字符是否在结果数组里，如果不在就塞进去：",
-    "url": "https://segmentfault.com/a/1190000042282563",
-    "author": "黄子毅",
-    "home_url": "https://segmentfault.com/u/aoyangyudakong",
-    "votes": "2",
-    "rank": 21
+    "rank": 15
   },
   {
     "title": "用 http-middleware-proxy 造了个代理工具",
@@ -195,7 +141,25 @@
     "author": "亖混子",
     "home_url": "https://segmentfault.com/u/1023",
     "votes": "5",
-    "rank": 22
+    "rank": 16
+  },
+  {
+    "title": "Vue递归组件：渲染嵌套评论",
+    "description": "微信搜索 【大迁世界】, 我会第一时间和你分享前端行业趋势，学习途径等等。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000042261970",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "3",
+    "rank": 17
+  },
+  {
+    "title": "精读《Unique, MapTypes, Construct Tuple...》",
+    "description": "去重需要不断递归产生去重后结果，因此需要一个辅助变量 R 配合，并把 T 用 infer 逐一拆解，判断第一个字符是否在结果数组里，如果不在就塞进去：",
+    "url": "https://segmentfault.com/a/1190000042282563",
+    "author": "黄子毅",
+    "home_url": "https://segmentfault.com/u/aoyangyudakong",
+    "votes": "2",
+    "rank": 18
   },
   {
     "title": "一文搞懂│XSS攻击、SQL注入、CSRF攻击、DDOS攻击、DNS劫持",
@@ -204,7 +168,7 @@
     "author": "极客飞兔",
     "home_url": "https://segmentfault.com/u/autofelix",
     "votes": "2",
-    "rank": 23
+    "rank": 19
   },
   {
     "title": "请求体格式有哪些呢？我总结常见的这几种",
@@ -213,7 +177,7 @@
     "author": "气势凌人的柿子",
     "home_url": "https://segmentfault.com/u/qishilingrendeshizi",
     "votes": "2",
-    "rank": 24
+    "rank": 20
   },
   {
     "title": "教你如何开发一个导入/导出插件",
@@ -222,7 +186,7 @@
     "author": "eoapi",
     "home_url": "https://segmentfault.com/u/jiangdaoyidechahu",
     "votes": "3",
-    "rank": 25
+    "rank": 21
   },
   {
     "title": "记录遇到的mongoDb问题, 以及restTemplate请求重试",
@@ -231,7 +195,7 @@
     "author": "weiewiyi",
     "home_url": "https://segmentfault.com/u/chenchu_6110ed583800c",
     "votes": "3",
-    "rank": 26
+    "rank": 22
   },
   {
     "title": "mongoDb查询中遇到的问题",
@@ -240,7 +204,7 @@
     "author": "李明",
     "home_url": "https://segmentfault.com/u/crister_612f55567eb8c",
     "votes": "3",
-    "rank": 27
+    "rank": 23
   },
   {
     "title": "试试使用 Vitest 进行组件测试，确实很香。",
@@ -249,16 +213,16 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "2",
-    "rank": 28
+    "rank": 24
   },
   {
-    "title": "🚀Turborepo：发布当月就激增 3.8k Star，这款超神的新兴 Monorepo 方案，你不打算尝试下吗？",
-    "description": "Monorepo是一种项目管理方式，在Monorepo之前，代码仓库管理方式是 MultiRepo，即每个项目都对应着一个单独的代码仓库每个项目进行分散管理这就会导致许多弊端，例如可能每个项目的基建以及工具库都是差不多的，...",
-    "url": "https://segmentfault.com/a/1190000042282389",
-    "author": "DevUI团队",
-    "home_url": "https://segmentfault.com/u/devui",
-    "votes": "1",
-    "rank": 29
+    "title": "那些年在Coding质量上走过的路",
+    "description": "最近接了几个项目，代码质量参差不齐。本想按照以往的实践建议每个patch都做review，但往往dead line当头。我会想，我如果对这次patch做了review、以及长期做review能给业务带来什么价值。接着本文，我还想讨论其...",
+    "url": "https://segmentfault.com/a/1190000042295108",
+    "author": "泊浮目",
+    "home_url": "https://segmentfault.com/u/camile",
+    "votes": "2",
+    "rank": 25
   },
   {
     "title": "分享 6 个 Vue3 开发必备的 VSCode 插件",
@@ -267,6 +231,42 @@
     "author": "pingan8787",
     "home_url": "https://segmentfault.com/u/pingan8787",
     "votes": "2",
+    "rank": 26
+  },
+  {
+    "title": "[开源项目]可观测、易使用的SpringBoot线程池",
+    "description": "在开发spring boot应用服务的时候，难免会使用到异步任务及线程池。spring boot的线程池是可以自定义的，所以我们经常会在项目里面看到类似于下面这样的代码",
+    "url": "https://segmentfault.com/a/1190000042284199",
+    "author": "字母哥博客",
+    "home_url": "https://segmentfault.com/u/zimug",
+    "votes": "2",
+    "rank": 27
+  },
+  {
+    "title": "vue3的管理端项目工程模板来了~~可直接快速开发项目，不用再考虑各种配置和优化~真香！",
+    "description": "即开即用，提供初创团队或新项目专注于快速启动和开发交易。不再考虑脚手架编译打包和优化、ESLlint统一配置、项目和编码规范等问题。 参考、借鉴vue-element-admin项目。",
+    "url": "https://segmentfault.com/a/1190000042299910",
+    "author": "马赛克就是我",
+    "home_url": "https://segmentfault.com/u/yisuan",
+    "votes": "1",
+    "rank": 28
+  },
+  {
+    "title": "前端食堂技术周刊第 47 期：Docusaurus 2.0 、7 月登陆网络平台的新内容 、Nuxt.js 团队的轮子库",
+    "description": "美味值：🌟🌟🌟🌟🌟口味：碳烤羊排食堂技术周刊仓库地址：https://github.com/Geekhyt/weeklyPC 端在仓库里看体验更好，顺手赏个 Star 是对食堂最大的支持。本期摘要Docusaurus 2.07 月登陆网络平台的新内容Nuxt.js 团...",
+    "url": "https://segmentfault.com/a/1190000042294760",
+    "author": "童欧巴",
+    "home_url": "https://segmentfault.com/u/tongouba",
+    "votes": "1",
+    "rank": 29
+  },
+  {
+    "title": "JavaScript WebGL 绘制顺序",
+    "description": "引子在 JavaScript WebGL 三维相关概念中尝试一些效果的时候，又碰到了新问题，就去查了资料，自己尝试后总结下。OriginMy GitHub绘制顺序之前二维绘制顺序并没有产生明显的不好效果，现在绘制三维影响就比较大了...",
+    "url": "https://segmentfault.com/a/1190000042282536",
+    "author": "XXHolic",
+    "home_url": "https://segmentfault.com/u/xxholic",
+    "votes": "1",
     "rank": 30
   }
 ]
