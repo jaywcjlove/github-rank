@@ -2,7 +2,7 @@
   {
     "title": "全网最全的权限系统设计方案（图解）",
     "description": "",
-    "votes": "119",
+    "votes": "122",
     "url": "/k/lozkmee",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -20,16 +20,6 @@
     "homeUrl": "/subjects/24912"
   },
   {
-    "title": "聊聊Java中代码优化的30个小技巧",
-    "description": "大家好，我是苏三，又跟大家见面了。前言我之前写过两篇关于优化相关的问题：《聊聊sql优化的15个小技巧》和《聊聊接口性能优化的11个小技巧》，发表之后，在全网受到广大网友的好评。阅...",
-    "votes": "97",
-    "url": "/k/jv8g1r6",
-    "avatar": "https://img.toutiao.io/subject/0a66350d491141748ab4dd49be144252/thumb",
-    "avatarAlt": "苏三说技术 - 独家号",
-    "subjectName": "苏三说技术",
-    "homeUrl": "/subjects/453205"
-  },
-  {
     "title": "Java 大后端各种架构图汇总（建议收藏！！）",
     "description": "",
     "votes": "88",
@@ -42,7 +32,7 @@
   {
     "title": "掌握这些 SpringBoot 启动扩展点，已经超过 90% 的人了",
     "description": "",
-    "votes": "90",
+    "votes": "92",
     "url": "/k/3m8iq2m",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -60,6 +50,16 @@
     "homeUrl": "/subjects/132403"
   },
   {
+    "title": "聊聊 13 种锁的实现方式",
+    "description": "大家好，我是Tom哥。最近有很多小伙伴给我留言，分布式系统时代，线程并发，资源抢占，\"锁\" 慢慢变得很重要。那么常见的锁都有哪些？今天Tom哥就和大家简单聊聊这个话题1、悲观锁正如...",
+    "votes": "84",
+    "url": "/k/wcwg3fn",
+    "avatar": "https://img.toutiao.io/subject/e62c1664abed48848efc89141ae64112/thumb",
+    "avatarAlt": "微观技术 - 独家号",
+    "subjectName": "微观技术",
+    "homeUrl": "/subjects/348507"
+  },
+  {
     "title": "研发过程中的文档管理与工具",
     "description": "写文档也是技术活01：实践对于多数开发同学来说，很多时候即讨厌没有研发文档，但是自己又不愿意常写文档，痛且倔强着；程序员该不该写文档，与争论哪种编程语言最好一样，想撕的嘴不留情，该...",
     "votes": "81",
@@ -72,22 +72,12 @@
   {
     "title": "微服务接口设计原则",
     "description": "本文结合自身后台开发经验，从高可用、高性能、易维护和低风险（安全）角度出发，尝试总结业界常见微服务接口设计原则，帮助大家设计出优秀的微服务。1.前言微服务是一种系统架构风格，是 S...",
-    "votes": "75",
+    "votes": "76",
     "url": "/k/4hjv10p",
     "avatar": "https://img.toutiao.io/subject/cc2d501408fd455d9b841cb6c8d95a6c/thumb",
     "avatarAlt": "ASCE1885 - 独家号",
     "subjectName": "ASCE1885",
     "homeUrl": "/subjects/4829"
-  },
-  {
-    "title": "聊聊 13 种锁的实现方式",
-    "description": "大家好，我是Tom哥。最近有很多小伙伴给我留言，分布式系统时代，线程并发，资源抢占，\"锁\" 慢慢变得很重要。那么常见的锁都有哪些？今天Tom哥就和大家简单聊聊这个话题1、悲观锁正如...",
-    "votes": "75",
-    "url": "/k/wcwg3fn",
-    "avatar": "https://img.toutiao.io/subject/e62c1664abed48848efc89141ae64112/thumb",
-    "avatarAlt": "微观技术 - 独家号",
-    "subjectName": "微观技术",
-    "homeUrl": "/subjects/348507"
   },
   {
     "title": "腾讯低代码平台正式开源！可拖拽、生成手机项目、PC 项目！接私活福利啊！",
@@ -212,7 +202,7 @@
   {
     "title": "「架构选型」5 种 API 网关技术选型",
     "description": "官网：www.passjava.cn你好，我是悟空。这一次我们来看下 API 网关如何设计、五种 API 网关的技术选型对比。关于什么是网关，以及为什么需要网关，可以看上一篇：60...",
-    "votes": "53",
+    "votes": "54",
     "url": "/k/a4v7vsf",
     "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
     "avatarAlt": "乱点技能树 - 独家号",
@@ -248,5 +238,15 @@
     "avatarAlt": "ASCE1885 - 独家号",
     "subjectName": "ASCE1885",
     "homeUrl": "/subjects/4829"
+  },
+  {
+    "title": "面试官：Redis 大 key 要如何处理？",
+    "description": "作者：小林coding八股文网站：xiaolincoding.com大家好，我是小林。今天来聊聊，关于 Redis 大 key 的四个问题。什么是 Redis 大 key？大 ke...",
+    "votes": "49",
+    "url": "/k/adi7th7",
+    "avatar": "https://img.toutiao.io/user/535e9d8c1b454c3bb455a88850d3f1f2/thumb",
+    "avatarAlt": "若沿的独家号 - 独家号",
+    "subjectName": "若沿的独家号",
+    "homeUrl": "/subjects/325462"
   }
 ]

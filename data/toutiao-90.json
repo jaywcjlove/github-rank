@@ -2,7 +2,7 @@
   {
     "title": "3000帧动画图解MySQL为什么需要binlog、redo log和undo log",
     "description": "全文建立在MySQL的存储引擎为InnoDB的基础上先看一条SQL如何入库的：这是一条很简单的更新SQL，从MySQL服务端接收到SQL到落盘，先后经过了MySQL Server层...",
-    "votes": "202",
+    "votes": "203",
     "url": "/k/b0g4460",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -42,7 +42,7 @@
   {
     "title": "全网最全的权限系统设计方案（图解）",
     "description": "",
-    "votes": "119",
+    "votes": "122",
     "url": "/k/lozkmee",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -140,6 +140,16 @@
     "homeUrl": "/subjects/132403"
   },
   {
+    "title": "掌握这些 SpringBoot 启动扩展点，已经超过 90% 的人了",
+    "description": "",
+    "votes": "92",
+    "url": "/k/3m8iq2m",
+    "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
+    "avatarAlt": "服务架构及中台 - 独家号",
+    "subjectName": "服务架构及中台",
+    "homeUrl": "/subjects/26578"
+  },
+  {
     "title": "关于技术能力的思考和总结",
     "description": "技术人成长的悖论在程序员界有一个悖论持续在困惑着很多技术人：在写代码的人的困惑是一直写代码是不是会丧失竞争力，会不会被后面年轻的更能加班写代码的人汰换。典型代表就是工作5年左右的核...",
     "votes": "89",
@@ -154,16 +164,6 @@
     "description": "大家好，我是老赵！什么是限流呢？限流是限制到达系统的并发请求数量，保证系统能够正常响应部分用户请求，而对于超过限制的流量，则通过拒绝服务的方式保证整体系统的可用性。根据限流作用范围...",
     "votes": "84",
     "url": "/k/4tls39t",
-    "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
-    "avatarAlt": "服务架构及中台 - 独家号",
-    "subjectName": "服务架构及中台",
-    "homeUrl": "/subjects/26578"
-  },
-  {
-    "title": "掌握这些 SpringBoot 启动扩展点，已经超过 90% 的人了",
-    "description": "",
-    "votes": "90",
-    "url": "/k/3m8iq2m",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
     "subjectName": "服务架构及中台",
@@ -210,6 +210,16 @@
     "homeUrl": "/subjects/453205"
   },
   {
+    "title": "聊聊 13 种锁的实现方式",
+    "description": "大家好，我是Tom哥。最近有很多小伙伴给我留言，分布式系统时代，线程并发，资源抢占，\"锁\" 慢慢变得很重要。那么常见的锁都有哪些？今天Tom哥就和大家简单聊聊这个话题1、悲观锁正如...",
+    "votes": "84",
+    "url": "/k/wcwg3fn",
+    "avatar": "https://img.toutiao.io/subject/e62c1664abed48848efc89141ae64112/thumb",
+    "avatarAlt": "微观技术 - 独家号",
+    "subjectName": "微观技术",
+    "homeUrl": "/subjects/348507"
+  },
+  {
     "title": "肝了一个月的 DDD，一文带你掌握！",
     "description": "",
     "votes": "78",
@@ -238,15 +248,5 @@
     "avatarAlt": "Bloomingroses - 独家号",
     "subjectName": "Bloomingroses",
     "homeUrl": "/subjects/98777"
-  },
-  {
-    "title": "研发过程中的文档管理与工具",
-    "description": "写文档也是技术活01：实践对于多数开发同学来说，很多时候即讨厌没有研发文档，但是自己又不愿意常写文档，痛且倔强着；程序员该不该写文档，与争论哪种编程语言最好一样，想撕的嘴不留情，该...",
-    "votes": "81",
-    "url": "/k/mdiqwn5",
-    "avatar": "https://img.toutiao.io/subject/b82e66f0d4464d78b30e0db3cfad0dd8/thumb",
-    "avatarAlt": "知了一笑 - 独家号",
-    "subjectName": "知了一笑",
-    "homeUrl": "/subjects/416733"
   }
 ]
