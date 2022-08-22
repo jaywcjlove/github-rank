@@ -5,7 +5,7 @@
     "url": "https://segmentfault.com/a/1190000042325723",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "16",
+    "votes": "17",
     "rank": 1
   },
   {
@@ -36,13 +36,31 @@
     "rank": 4
   },
   {
+    "title": "记录第一次给开源项目提 PR",
+    "description": "本篇文章算是该系列的一个彩蛋篇，记录一下第一次给开源项目提 PR 的过程（之前好像也有过，不过那个非常小的一个改动），希望能够帮助更多的人参与到开源项目中来。",
+    "url": "https://segmentfault.com/a/1190000042342284",
+    "author": "Gopal",
+    "home_url": "https://segmentfault.com/u/fengguangping",
+    "votes": "6",
+    "rank": 5
+  },
+  {
+    "title": "聊聊 npm 的语义化版本（Semver）",
+    "description": "现在我们要开发一个项目，我们都知道为了方便项目管理，要写一个版本号，那开发的时候初始的版本号是多少呢？是 1.0.0 还是 0.0.1 开始？",
+    "url": "https://segmentfault.com/a/1190000042342124",
+    "author": "冴羽",
+    "home_url": "https://segmentfault.com/u/yayu",
+    "votes": "5",
+    "rank": 6
+  },
+  {
     "title": "精读《pnpm》",
     "description": "pnpm 全称是 “Performant NPM”，即高性能的 npm。它结合软硬链接与新的依赖组织方式，大大提升了包管理的效率，也同时解决了 “幻影依赖” 的问题，让包管理更加规范，减少潜在风险发生的可能性。",
     "url": "https://segmentfault.com/a/1190000042318738",
     "author": "黄子毅",
     "home_url": "https://segmentfault.com/u/aoyangyudakong",
     "votes": "7",
-    "rank": 5
+    "rank": 7
   },
   {
     "title": "手写一个有点意思的电梯小程序（React版本）",
@@ -51,7 +69,7 @@
     "author": "夕水",
     "home_url": "https://segmentfault.com/u/xishui_5ac9a340a5484",
     "votes": "3",
-    "rank": 6
+    "rank": 8
   },
   {
     "title": "如何开发一款基于 vite+vue3 的在线表格系统（下）",
@@ -60,7 +78,7 @@
     "author": "葡萄城技术团队",
     "home_url": "https://segmentfault.com/u/grapecity",
     "votes": "5",
-    "rank": 7
+    "rank": 9
   },
   {
     "title": "谷歌总是找不到想要的内容？学会这14个技巧，立马就能找到",
@@ -69,43 +87,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "5",
-    "rank": 8
-  },
-  {
-    "title": "记录第一次给开源项目提 PR",
-    "description": "本篇文章算是该系列的一个彩蛋篇，记录一下第一次给开源项目提 PR 的过程（之前好像也有过，不过那个非常小的一个改动），希望能够帮助更多的人参与到开源项目中来。",
-    "url": "https://segmentfault.com/a/1190000042342284",
-    "author": "Gopal",
-    "home_url": "https://segmentfault.com/u/fengguangping",
-    "votes": "5",
-    "rank": 9
-  },
-  {
-    "title": "聊聊 npm 的语义化版本（Semver）",
-    "description": "现在我们要开发一个项目，我们都知道为了方便项目管理，要写一个版本号，那开发的时候初始的版本号是多少呢？是 1.0.0 还是 0.0.1 开始？",
-    "url": "https://segmentfault.com/a/1190000042342124",
-    "author": "冴羽",
-    "home_url": "https://segmentfault.com/u/yayu",
-    "votes": "4",
     "rank": 10
-  },
-  {
-    "title": "将废弃的安卓手机重新用作Web服务器 一",
-    "description": "将废弃的安卓手机重新用作Web服务器环境准备首先，我们需要给手机安装一个Linux环境。这里选择Termux，Termux是Android的终端模拟器下载地址你可能需要根据你的手机型号选择适合的版本下载后想办法将安装包发送到...",
-    "url": "https://segmentfault.com/a/1190000042317550",
-    "author": "Riki一二三",
-    "home_url": "https://segmentfault.com/u/riki_wang",
-    "votes": "3",
-    "rank": 11
-  },
-  {
-    "title": "开阔眼界的好工具，一文教你使用Wappalzer来学习全栈技术",
-    "description": "大家都知道，一个完整的高可用、高性能的Web系统本身的构成是比较复杂的，除了我们熟知的前端部分，比如静态网页生成器、JS库、UI框架、监控工具等，还有Web Server、云服务、CDN内容分发、代理服务、HTTP缓存与...",
-    "url": "https://segmentfault.com/a/1190000042316720",
-    "author": "Gomi",
-    "home_url": "https://segmentfault.com/u/gomi",
-    "votes": "5",
-    "rank": 12
   },
   {
     "title": "数据透视表上线！如何在纯前端实现这个强大的数据分析功能？",
@@ -114,7 +96,7 @@
     "author": "六一",
     "home_url": "https://segmentfault.com/u/suicidal_romantic_scoundrel",
     "votes": "2",
-    "rank": 13
+    "rank": 11
   },
   {
     "title": "js 使用reduce方法合并两个对象数组，有则替换，无则新增",
@@ -123,7 +105,7 @@
     "author": "Awbeci",
     "home_url": "https://segmentfault.com/u/awbeci",
     "votes": "5",
-    "rank": 14
+    "rank": 12
   },
   {
     "title": "HPC、AI与云计算：当智能时代三叉戟在亚马逊云科技完美融合",
@@ -132,7 +114,7 @@
     "author": "六一",
     "home_url": "https://segmentfault.com/u/suicidal_romantic_scoundrel",
     "votes": "1",
-    "rank": 15
+    "rank": 13
   },
   {
     "title": "前端必备的 HTTP 知识",
@@ -141,7 +123,7 @@
     "author": "Gopal",
     "home_url": "https://segmentfault.com/u/fengguangping",
     "votes": "7",
-    "rank": 16
+    "rank": 14
   },
   {
     "title": "在 api 接口测试中，我会关注这三个指标",
@@ -150,7 +132,7 @@
     "author": "气势凌人的柿子",
     "home_url": "https://segmentfault.com/u/qishilingrendeshizi",
     "votes": "3",
-    "rank": 17
+    "rank": 15
   },
   {
     "title": "如何让 useEffect 支持 async...await？",
@@ -159,7 +141,7 @@
     "author": "Gopal",
     "home_url": "https://segmentfault.com/u/fengguangping",
     "votes": "1",
-    "rank": 18
+    "rank": 16
   },
   {
     "title": "有两套数据源，那开源 api 管理工具如何部署？",
@@ -168,7 +150,16 @@
     "author": "猿计划",
     "home_url": "https://segmentfault.com/u/yuanjihua_5d954fd2a3238",
     "votes": "3",
-    "rank": 19
+    "rank": 17
+  },
+  {
+    "title": "项目一共30个模块，你叫我maven版本一个个手动改？",
+    "description": "之前有个群友私聊问我，如何快速统一去更改项目中所有的maven版本号，他说之前都是手动一个个去修改，项目一共有30多个maven模块，上次因为漏改了一个，还造成了生产事故。",
+    "url": "https://segmentfault.com/a/1190000042345408",
+    "author": "铂赛东",
+    "home_url": "https://segmentfault.com/u/bosaidong_5c495684bcf4b",
+    "votes": "3",
+    "rank": 18
   },
   {
     "title": "写接口文档之前，我会问自己 3 个问题",
@@ -177,25 +168,7 @@
     "author": "气势凌人的柿子",
     "home_url": "https://segmentfault.com/u/qishilingrendeshizi",
     "votes": "3",
-    "rank": 20
-  },
-  {
-    "title": "11 个需要避免的 React 错误用法",
-    "description": "随着 React 越来越受欢迎，React 开发者也越来越多，在开发过程中也遇到各种各样的问题。本文我将结合自己实际工作经验，总结 11 个 React 开发中常见的一些错误，帮助您避免一些错误的发生。如果您刚开始使用 Re...",
-    "url": "https://segmentfault.com/a/1190000042318606",
-    "author": "pingan8787",
-    "home_url": "https://segmentfault.com/u/pingan8787",
-    "votes": "2",
-    "rank": 21
-  },
-  {
-    "title": "一文讲透Java核心技术之高可扩展利器SPI",
-    "description": "Java是一种面向对象语言，虽然Java8开始支持函数式编程和Stream，但是总体来说，还是面向对象的语言。在使用Java进行面向对象开发时，一般会推荐使用基于接口的编程，程序的模块与模块之前不会直接进行实现类的硬...",
-    "url": "https://segmentfault.com/a/1190000042319253",
-    "author": "冰河",
-    "home_url": "https://segmentfault.com/u/binghe001",
-    "votes": "0",
-    "rank": 22
+    "rank": 19
   },
   {
     "title": "完整又全面，教你在 Github Action 多平台构建 Electron 应用",
@@ -204,16 +177,16 @@
     "author": "eoapi",
     "home_url": "https://segmentfault.com/u/jiangdaoyidechahu",
     "votes": "4",
-    "rank": 23
+    "rank": 20
   },
   {
-    "title": "如果让我设计一套，TPS百万级API网关！",
-    "description": "是滴，小傅哥又要准备搞事情了！这次准备下手API网关项目，因为这是所有互联网大厂都有的一个核心服务，承接着来自用户的滴滴打车、美团外卖、京东购物、微信支付，更是大促期间千万级访问量的核心系统。",
-    "url": "https://segmentfault.com/a/1190000042324803",
-    "author": "小傅哥",
-    "home_url": "https://segmentfault.com/u/fuzhengwei",
-    "votes": "2",
-    "rank": 24
+    "title": "一文讲透Java核心技术之高可扩展利器SPI",
+    "description": "Java是一种面向对象语言，虽然Java8开始支持函数式编程和Stream，但是总体来说，还是面向对象的语言。在使用Java进行面向对象开发时，一般会推荐使用基于接口的编程，程序的模块与模块之前不会直接进行实现类的硬...",
+    "url": "https://segmentfault.com/a/1190000042319253",
+    "author": "冰河",
+    "home_url": "https://segmentfault.com/u/binghe001",
+    "votes": "0",
+    "rank": 21
   },
   {
     "title": "在阿里做前端程序员，我是这样规划的",
@@ -222,7 +195,16 @@
     "author": "大淘宝技术",
     "home_url": "https://segmentfault.com/u/alibabataoxijishu",
     "votes": "5",
-    "rank": 25
+    "rank": 22
+  },
+  {
+    "title": "如果让我设计一套，TPS百万级API网关！",
+    "description": "是滴，小傅哥又要准备搞事情了！这次准备下手API网关项目，因为这是所有互联网大厂都有的一个核心服务，承接着来自用户的滴滴打车、美团外卖、京东购物、微信支付，更是大促期间千万级访问量的核心系统。",
+    "url": "https://segmentfault.com/a/1190000042324803",
+    "author": "小傅哥",
+    "home_url": "https://segmentfault.com/u/fuzhengwei",
+    "votes": "2",
+    "rank": 23
   },
   {
     "title": "flutter系列之:flutter架构什么的,看完这篇文章就全懂了",
@@ -231,7 +213,7 @@
     "author": "flydean",
     "home_url": "https://segmentfault.com/u/flydean",
     "votes": "2",
-    "rank": 26
+    "rank": 24
   },
   {
     "title": "低代码时代已来，还是又一轮技术炒作？",
@@ -240,16 +222,7 @@
     "author": "腾讯云开发者",
     "home_url": "https://segmentfault.com/u/qcloudcommunity",
     "votes": "1",
-    "rank": 27
-  },
-  {
-    "title": "项目一共30个模块，你叫我maven版本一个个手动改？",
-    "description": "之前有个群友私聊问我，如何快速统一去更改项目中所有的maven版本号，他说之前都是手动一个个去修改，项目一共有30多个maven模块，上次因为漏改了一个，还造成了生产事故。",
-    "url": "https://segmentfault.com/a/1190000042345408",
-    "author": "铂赛东",
-    "home_url": "https://segmentfault.com/u/bosaidong_5c495684bcf4b",
-    "votes": "1",
-    "rank": 28
+    "rank": 25
   },
   {
     "title": "如何正确的中断线程？你的姿势是否正确",
@@ -258,7 +231,16 @@
     "author": "一个程序员的成长",
     "home_url": "https://segmentfault.com/u/bingfengdada",
     "votes": "1",
-    "rank": 29
+    "rank": 26
+  },
+  {
+    "title": "HttpClient 在vivo内销浏览器的高并发实践优化",
+    "description": "HttpClient作为Java程序员最常用的Http工具，其对Http连接的管理能简化开发，并且提升连接重用效率；在正常情况下，HttpClient能帮助我们高效管理连接，但在一些并发高，报文体较大的情况下，如果再遇到网络波动...",
+    "url": "https://segmentfault.com/a/1190000042318840",
+    "author": "vivo互联网技术",
+    "home_url": "https://segmentfault.com/u/vivo_tech",
+    "votes": "1",
+    "rank": 27
   },
   {
     "title": "如何开发一个跨框架组件？",
@@ -267,6 +249,24 @@
     "author": "飞叶_前端",
     "home_url": "https://segmentfault.com/u/yunhuangbeiqing",
     "votes": "1",
+    "rank": 28
+  },
+  {
+    "title": "Redis进阶篇：发布订阅模式原理与运用",
+    "description": "“65 哥，如果你交了个漂亮小姐姐做女朋友，你会通过什么方式将这个消息广而告之给你的微信好友？““那不得拍点女朋友的美照 + 亲密照弄一个九宫格图文消息在朋友圈发布大肆宣传，暴击单身狗。”",
+    "url": "https://segmentfault.com/a/1190000042333233",
+    "author": "码哥字节",
+    "home_url": "https://segmentfault.com/u/magebyte",
+    "votes": "1",
+    "rank": 29
+  },
+  {
+    "title": "深入理解Redis 数据结构—字典",
+    "description": "字典，又称为符号表、关联数组或映射，是一种用于保存键值对的抽象数据结构。在字典中，一个键可以和一个值进行关联，这些关联的键和值称为键值对。键值对中键是唯一的,我们可以根据键key通过映射查找或者更新对...",
+    "url": "https://segmentfault.com/a/1190000042343233",
+    "author": "小码code",
+    "home_url": "https://segmentfault.com/u/jeremylai7",
+    "votes": "2",
     "rank": 30
   }
 ]
