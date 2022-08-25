@@ -2,7 +2,7 @@
   {
     "title": "一文读懂 | Linux系统启动过程",
     "description": "",
-    "votes": "60",
+    "votes": "61",
     "url": "/k/tiobp8c",
     "avatar": "https://img.toutiao.io/subject/ca32be3cbe13422a9fc08989bf5378d9/thumb",
     "avatarAlt": "文不落 - 独家号",
@@ -12,7 +12,7 @@
   {
     "title": "Java线上CPU内存冲高问题排查步骤",
     "description": "作者：茂茂的小破号链接：https://www.jianshu.com/p/801ecfb441131 引言作为一名从事Java开发快一年的程序员，在线上经常碰到某个模块的Pod发...",
-    "votes": "52",
+    "votes": "55",
     "url": "/k/t9sj17s",
     "avatar": "https://img.toutiao.io/subject/ca32be3cbe13422a9fc08989bf5378d9/thumb",
     "avatarAlt": "文不落 - 独家号",
@@ -32,7 +32,7 @@
   {
     "title": "聊聊异步编程的 7 种实现方式",
     "description": "大家好，我是 Tom哥最近有很多小伙伴给我留言，能不能总结下异步编程，今天就和大家简单聊聊这个话题。早期的系统是同步的，容易理解，我们来看个例子同步编程当用户创建一笔电商交易订单时...",
-    "votes": "41",
+    "votes": "42",
     "url": "/k/gz8v798",
     "avatar": "https://img.toutiao.io/subject/e62c1664abed48848efc89141ae64112/thumb",
     "avatarAlt": "微观技术 - 独家号",
@@ -42,12 +42,42 @@
   {
     "title": "如何做好分布式任务调度——Scheduler 的一些探索",
     "description": "动手点关注 干货不迷路 👆作者：张宇轩，章逸，曾丹初识 Scheduler找准定位：分布式任务调度平台无论是互联网应用或者企业级应用，都充斥着大量的任务。我们常常需要一些任务调度系...",
-    "votes": "34",
+    "votes": "35",
     "url": "/k/3aa11k3",
     "avatar": "https://img.toutiao.io/subject/ca32be3cbe13422a9fc08989bf5378d9/thumb",
     "avatarAlt": "文不落 - 独家号",
     "subjectName": "文不落",
     "homeUrl": "/subjects/113701"
+  },
+  {
+    "title": "面向对象分析与设计的底层逻辑",
+    "description": "01面向对象是符合人认识事物的基本方法Aliware01人是怎么认识事物的在面向对象出现之前，已有面向过程的分析方法，为什么面向对象被提出了呢？究其本质原因，人们发现面向过程并不是...",
+    "votes": "36",
+    "url": "/k/5x9px3n",
+    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
+  },
+  {
+    "title": "一文彻底理解Go语言栈内存/堆内存",
+    "description": "系列导读本文基于64位平台、1Page=8KB、Go1.6本文为《Go语言轻松进阶》系列第二章「内存与垃圾回收」的第三小节。第二章目录：知识预备指针的大小(完结)TCMalloc内...",
+    "votes": "33",
+    "url": "/k/8csj4gy",
+    "avatar": "https://img.toutiao.io/subject/9164e3cc824f44169e06b1774b815ba5/thumb",
+    "avatarAlt": "TIGERB的技术博客 - 独家号",
+    "subjectName": "TIGERB的技术博客",
+    "homeUrl": "/subjects/77815"
+  },
+  {
+    "title": "40 张最全计算机网络基础思维导图",
+    "description": "",
+    "votes": "32",
+    "url": "/k/rogs5j4",
+    "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
+    "avatarAlt": "浪客用react,java全栈 - 独家号",
+    "subjectName": "浪客用react,java全栈",
+    "homeUrl": "/subjects/132403"
   },
   {
     "title": "Api 接口优化的几个技巧",
@@ -60,46 +90,6 @@
     "homeUrl": "/subjects/98777"
   },
   {
-    "title": "深度解密钉钉即时消息服务DTIM的技术设计",
-    "description": "本文引用自InfoQ社区“5亿用户如何高效沟通？钉钉首次对外揭秘即时消息服务DTIM”一文，作者陈万红等、策划褚杏娟，即时通讯网有修订和改动。一、引言本文是国内企业IM的事实王者钉...",
-    "votes": "32",
-    "url": "/k/6ztt44k",
-    "avatar": "https://img.toutiao.io/subject/ca32be3cbe13422a9fc08989bf5378d9/thumb",
-    "avatarAlt": "文不落 - 独家号",
-    "subjectName": "文不落",
-    "homeUrl": "/subjects/113701"
-  },
-  {
-    "title": "40 张最全计算机网络基础思维导图",
-    "description": "",
-    "votes": "30",
-    "url": "/k/rogs5j4",
-    "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
-    "avatarAlt": "浪客用react,java全栈 - 独家号",
-    "subjectName": "浪客用react,java全栈",
-    "homeUrl": "/subjects/132403"
-  },
-  {
-    "title": "最强分布式锁工具：Redisson",
-    "description": "",
-    "votes": "29",
-    "url": "/k/v9di3a4",
-    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
-    "avatarAlt": "Bloomingroses - 独家号",
-    "subjectName": "Bloomingroses",
-    "homeUrl": "/subjects/98777"
-  },
-  {
-    "title": "Spring Boot 实现跨域的 5 种方式，总有一种适合你，建议收藏",
-    "description": "",
-    "votes": "26",
-    "url": "/k/v14ga1m",
-    "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
-    "avatarAlt": "浪客用react,java全栈 - 独家号",
-    "subjectName": "浪客用react,java全栈",
-    "homeUrl": "/subjects/132403"
-  },
-  {
     "title": "从单体架构迁移到 CQRS 后，我觉得 DDD 并不可怕",
     "description": "",
     "votes": "24",
@@ -110,24 +100,24 @@
     "homeUrl": "/subjects/26578"
   },
   {
-    "title": "如何做好分布式任务调度——Scheduler 的一些探索",
+    "title": "15分钟20图学懂从0到1搭建企业级数据治理体系【建议收藏】",
     "description": "",
     "votes": "23",
-    "url": "/k/jp5tr8p",
-    "avatar": "https://img.toutiao.io/subject/ae2b74c589814b769c1bebad92c2fb9a/thumb",
-    "avatarAlt": "架构之美 - 独家号",
-    "subjectName": "架构之美",
-    "homeUrl": "/subjects/42200"
+    "url": "/k/ibfmokh",
+    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
+    "avatarAlt": "进击的程序猿 - 独家号",
+    "subjectName": "进击的程序猿",
+    "homeUrl": "/subjects/24912"
   },
   {
-    "title": "一文搞懂前端兼容问题",
-    "description": "",
-    "votes": "28",
-    "url": "/k/plsx3t3",
-    "avatar": "https://img.toutiao.io/subject/0fbaad0d2a7744dd911eff08a456d6d9/thumb",
-    "avatarAlt": "WEB 前端文章收藏 - 独家号",
-    "subjectName": "WEB 前端文章收藏",
-    "homeUrl": "/subjects/71779"
+    "title": "安全架构设计的方法论",
+    "description": " 常用思考方法技术常用思考方法技术思考本质还是结构化思考，所以常见的结构化思考方法也是适用的。这也是大家会看到很多技术架构师都会用一些方法论去分析问题的原因。但这里我不是重新去论述...",
+    "votes": "25",
+    "url": "/k/ig2i9fh",
+    "avatar": "https://img.toutiao.io/subject/378e77470970490b9e51050078d80e34/thumb",
+    "avatarAlt": "安全屋 - 独家号",
+    "subjectName": "安全屋",
+    "homeUrl": "/subjects/27565"
   },
   {
     "title": "聊聊分布式的10大坑",
@@ -140,39 +130,9 @@
     "homeUrl": "/subjects/98777"
   },
   {
-    "title": "一文彻底理解Go语言栈内存/堆内存",
-    "description": "系列导读本文基于64位平台、1Page=8KB、Go1.6本文为《Go语言轻松进阶》系列第二章「内存与垃圾回收」的第三小节。第二章目录：知识预备指针的大小(完结)TCMalloc内...",
-    "votes": "25",
-    "url": "/k/8csj4gy",
-    "avatar": "https://img.toutiao.io/subject/9164e3cc824f44169e06b1774b815ba5/thumb",
-    "avatarAlt": "TIGERB的技术博客 - 独家号",
-    "subjectName": "TIGERB的技术博客",
-    "homeUrl": "/subjects/77815"
-  },
-  {
-    "title": "安全架构设计的方法论",
-    "description": " 常用思考方法技术常用思考方法技术思考本质还是结构化思考，所以常见的结构化思考方法也是适用的。这也是大家会看到很多技术架构师都会用一些方法论去分析问题的原因。但这里我不是重新去论述...",
-    "votes": "24",
-    "url": "/k/ig2i9fh",
-    "avatar": "https://img.toutiao.io/subject/378e77470970490b9e51050078d80e34/thumb",
-    "avatarAlt": "安全屋 - 独家号",
-    "subjectName": "安全屋",
-    "homeUrl": "/subjects/27565"
-  },
-  {
-    "title": "15分钟20图学懂从0到1搭建企业级数据治理体系【建议收藏】",
-    "description": "",
-    "votes": "21",
-    "url": "/k/ibfmokh",
-    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
-    "avatarAlt": "进击的程序猿 - 独家号",
-    "subjectName": "进击的程序猿",
-    "homeUrl": "/subjects/24912"
-  },
-  {
     "title": "面试官: 后端一次返回过多数据，前端应该如何优化处理？",
     "description": "",
-    "votes": "24",
+    "votes": "25",
     "url": "/k/qyc4xhq",
     "avatar": "https://img.toutiao.io/subject/c9bc51847b0c4b49aca52d0eaa087ed1/thumb",
     "avatarAlt": "冷星前端圈 - 独家号",
@@ -194,6 +154,46 @@
     "description": "",
     "votes": "19",
     "url": "/k/qnypq61",
+    "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
+    "avatarAlt": "服务架构及中台 - 独家号",
+    "subjectName": "服务架构及中台",
+    "homeUrl": "/subjects/26578"
+  },
+  {
+    "title": "美团一面：为什么线程崩溃不会导致 JVM 崩溃",
+    "description": "",
+    "votes": "21",
+    "url": "/k/59cokhl",
+    "avatar": "https://img.toutiao.io/subject/3d78175afedb436bb46508bd52ed41f3/thumb",
+    "avatarAlt": "1点25 - 独家号",
+    "subjectName": "1点25",
+    "homeUrl": "/subjects/168469"
+  },
+  {
+    "title": "大厂基本功 | MySQL 三大日志 ( binlog、redo log 和 undo log ) 的作用？",
+    "description": "",
+    "votes": "18",
+    "url": "/k/o1494l7",
+    "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
+    "avatarAlt": "浪客用react,java全栈 - 独家号",
+    "subjectName": "浪客用react,java全栈",
+    "homeUrl": "/subjects/132403"
+  },
+  {
+    "title": "Go：服务发现原理分析与源码解读",
+    "description": "",
+    "votes": "20",
+    "url": "/k/i8bvlto",
+    "avatar": "https://img.toutiao.io/subject/3f69ffc3bdf6496e86439348166e3ed7/thumb",
+    "avatarAlt": "GoHackers - 独家号",
+    "subjectName": "GoHackers",
+    "homeUrl": "/subjects/1385"
+  },
+  {
+    "title": "图文详解 Java 泛型，写得太好了！",
+    "description": "",
+    "votes": "22",
+    "url": "/k/5dvfjkp",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
     "subjectName": "服务架构及中台",
