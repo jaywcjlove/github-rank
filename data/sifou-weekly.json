@@ -14,7 +14,7 @@
     "url": "https://segmentfault.com/a/1190000042361223",
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "11",
+    "votes": "12",
     "rank": 2
   },
   {
@@ -23,7 +23,7 @@
     "url": "https://segmentfault.com/a/1190000042353870",
     "author": "lulu_up",
     "home_url": "https://segmentfault.com/u/lulu_up",
-    "votes": "8",
+    "votes": "9",
     "rank": 3
   },
   {
@@ -45,22 +45,13 @@
     "rank": 5
   },
   {
-    "title": "CSS设置禁止文本复制",
-    "description": "CSS设置禁止复制经常可以看到某些网站网页上的文字无法被选中，出了js控制，通过CSS样式user-select和z-index两个属性都可导致无法复制文字user-select浏览器中双击或点击选中文本，文本会被高亮显示，通过css us...",
-    "url": "https://segmentfault.com/a/1190000042359740",
-    "author": "Riki一二三",
-    "home_url": "https://segmentfault.com/u/riki_wang",
-    "votes": "5",
+    "title": "拒绝加班:巧用前端电子表格中构建公式树",
+    "description": "还在为满屏的公式而“内牛满面”吗？还在为长串的公式解析而发愁吗？ 还在定位错误的公式而苦恼吗？上班要写代码，加班还要分析这又长又臭的公式。你的发际线还好吗？",
+    "url": "https://segmentfault.com/a/1190000042377267",
+    "author": "葡萄城技术团队",
+    "home_url": "https://segmentfault.com/u/grapecity",
+    "votes": "0",
     "rank": 6
-  },
-  {
-    "title": "怎么防止同事用 Evil.js 的代码投毒",
-    "description": "视频移步B站[链接]最近Evil.js被讨论的很多，项目介绍如下项目被发布到npm上后，引起了激烈的讨论，最终因为安全问题被npm官方移除，代码也闭源了作为一个前端老司机，我肯定是反对这种行为，泄私愤有很多种方式...",
-    "url": "https://segmentfault.com/a/1190000042360645",
-    "author": "前端小菜鸟",
-    "home_url": "https://segmentfault.com/u/qianduanxiaocainiao_5c612df9514ba",
-    "votes": "3",
-    "rank": 7
   },
   {
     "title": "你不知道的 console，让 JS 调试更简单",
@@ -69,7 +60,25 @@
     "author": "高志鹏",
     "home_url": "https://segmentfault.com/u/gaozhipeng",
     "votes": "6",
+    "rank": 7
+  },
+  {
+    "title": "CSS设置禁止文本复制",
+    "description": "CSS设置禁止复制经常可以看到某些网站网页上的文字无法被选中，出了js控制，通过CSS样式user-select和z-index两个属性都可导致无法复制文字user-select浏览器中双击或点击选中文本，文本会被高亮显示，通过css us...",
+    "url": "https://segmentfault.com/a/1190000042359740",
+    "author": "Riki一二三",
+    "home_url": "https://segmentfault.com/u/riki_wang",
+    "votes": "5",
     "rank": 8
+  },
+  {
+    "title": "怎么防止同事用 Evil.js 的代码投毒",
+    "description": "视频移步B站[链接]最近Evil.js被讨论的很多，项目介绍如下项目被发布到npm上后，引起了激烈的讨论，最终因为安全问题被npm官方移除，代码也闭源了作为一个前端老司机，我肯定是反对这种行为，泄私愤有很多种方式...",
+    "url": "https://segmentfault.com/a/1190000042360645",
+    "author": "前端小菜鸟",
+    "home_url": "https://segmentfault.com/u/qianduanxiaocainiao_5c612df9514ba",
+    "votes": "4",
+    "rank": 9
   },
   {
     "title": "JavaScript 中的可迭代对象与迭代器是啥",
@@ -78,15 +87,6 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "3",
-    "rank": 9
-  },
-  {
-    "title": "拒绝加班:巧用前端电子表格中构建公式树",
-    "description": "还在为满屏的公式而“内牛满面”吗？还在为长串的公式解析而发愁吗？ 还在定位错误的公式而苦恼吗？上班要写代码，加班还要分析这又长又臭的公式。你的发际线还好吗？",
-    "url": "https://segmentfault.com/a/1190000042377267",
-    "author": "葡萄城技术团队",
-    "home_url": "https://segmentfault.com/u/grapecity",
-    "votes": "0",
     "rank": 10
   },
   {
@@ -108,58 +108,22 @@
     "rank": 12
   },
   {
+    "title": "有意思的方向裁切 overflow: clip",
+    "description": "本文将介绍一个新特性，从 Chrome 90 开始，overflow 新增的一个新特性 -- overflow: clip，使用它，轻松的对溢出方向进行控制。",
+    "url": "https://segmentfault.com/a/1190000042382028",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "3",
+    "rank": 13
+  },
+  {
     "title": "React团队是如何测试并发特性的",
     "description": "大家好，我卡颂。React18进入大家视野已经有一段时间了，不知道各位有没有尝试并发特性呢？当启用并发特性后，React会从同步更新变为异步、带优先级、可中断的更新。这也为编写单元测试带来了一些难度。本文来聊...",
     "url": "https://segmentfault.com/a/1190000042356218",
     "author": "卡颂",
     "home_url": "https://segmentfault.com/u/kasong",
     "votes": "1",
-    "rank": 13
-  },
-  {
-    "title": "6个常用的前端代码编辑器",
-    "description": "在线代码编辑器通常包括以下功能：包含代码高这的HTML、CSS 和 JavaScript编辑器代码命令自动完成一个预览窗口，（通常）无手动刷新的重新加载HTML预处理器，例如HAML，PugLess、Sass、Stylus 和类似的 CSS 预处...",
-    "url": "https://segmentfault.com/a/1190000042356334",
-    "author": "jinling",
-    "home_url": "https://segmentfault.com/u/liushuigs",
-    "votes": "2",
     "rank": 14
-  },
-  {
-    "title": "spring接口多实现类，该依赖注入哪一个？",
-    "description": "一、问题的描述在实际的系统应用开发中我经常会遇到这样的一类需求，相信大家在工作中也会经常遇到：同一个系统在多个省份部署。一个业务在北京是一种实现方式，是基于北京用户的需求。同样的业务在上海是另外一...",
-    "url": "https://segmentfault.com/a/1190000042366375",
-    "author": "字母哥博客",
-    "home_url": "https://segmentfault.com/u/zimug",
-    "votes": "3",
-    "rank": 15
-  },
-  {
-    "title": "几个提升Go语言开发效率的小技巧",
-    "description": "哈喽，大家好，我是asong。每门语言都有自己的语法糖，像java的语法糖就有方法变长参数、拆箱与装箱、枚举、for-each等等，Go语言也不例外，其也有自己的语法糖，掌握这些语法糖可以助我们提高开发的效率，所以本...",
-    "url": "https://segmentfault.com/a/1190000042353285",
-    "author": "asong",
-    "home_url": "https://segmentfault.com/u/asong_5eeb7a1d0da86",
-    "votes": "2",
-    "rank": 16
-  },
-  {
-    "title": "使用mybatis + postgreSql 中遇到的问题",
-    "description": "问题一：字段名不存在背景是：进行mapper的insert单元测试的时候出了问题执行如下语句的时候出现了问题： {代码...} 这里运用了mapper自带的insert方法向数据库中插入数据。在用mapper进行插入的时候后，报了这样...",
-    "url": "https://segmentfault.com/a/1190000042357267",
-    "author": "weiewiyi",
-    "home_url": "https://segmentfault.com/u/chenchu_6110ed583800c",
-    "votes": "3",
-    "rank": 17
-  },
-  {
-    "title": "React报错之React Hook useEffect has a missing dependency",
-    "description": "当useEffect钩子使用了一个我们没有包含在其依赖数组中的变量或函数时，会产生\"React Hook useEffect has a missing dependency\"警告。为了解决该错误，禁用某一行的eslint规则，或者将变量移动到useEffect钩子内。",
-    "url": "https://segmentfault.com/a/1190000042351724",
-    "author": "chuck",
-    "home_url": "https://segmentfault.com/u/chuckqu",
-    "votes": "2",
-    "rank": 18
   },
   {
     "title": "这次我设计了一款TPS百万级别的分布式、高性能、可扩展的RPC框架",
@@ -168,61 +132,52 @@
     "author": "冰河",
     "home_url": "https://segmentfault.com/u/binghe001",
     "votes": "1",
+    "rank": 15
+  },
+  {
+    "title": "Mysql和Redis数据如何保持一致",
+    "description": "先阐明一下 Mysql 和 Redis 的关系：Mysql 是数据库，用来持久化数据，一定程度上保证数据的可靠性；Redis 是用来当缓存，用来提升数据访问的性能。",
+    "url": "https://segmentfault.com/a/1190000042363253",
+    "author": "京东云开发者",
+    "home_url": "https://segmentfault.com/u/jdcdevloper",
+    "votes": "2",
+    "rank": 16
+  },
+  {
+    "title": "几个提升Go语言开发效率的小技巧",
+    "description": "哈喽，大家好，我是asong。每门语言都有自己的语法糖，像java的语法糖就有方法变长参数、拆箱与装箱、枚举、for-each等等，Go语言也不例外，其也有自己的语法糖，掌握这些语法糖可以助我们提高开发的效率，所以本...",
+    "url": "https://segmentfault.com/a/1190000042353285",
+    "author": "asong",
+    "home_url": "https://segmentfault.com/u/asong_5eeb7a1d0da86",
+    "votes": "2",
+    "rank": 17
+  },
+  {
+    "title": "6个常用的前端代码编辑器",
+    "description": "在线代码编辑器通常包括以下功能：包含代码高这的HTML、CSS 和 JavaScript编辑器代码命令自动完成一个预览窗口，（通常）无手动刷新的重新加载HTML预处理器，例如HAML，PugLess、Sass、Stylus 和类似的 CSS 预处...",
+    "url": "https://segmentfault.com/a/1190000042356334",
+    "author": "jinling",
+    "home_url": "https://segmentfault.com/u/liushuigs",
+    "votes": "2",
+    "rank": 18
+  },
+  {
+    "title": "spring接口多实现类，该依赖注入哪一个？",
+    "description": "一、问题的描述在实际的系统应用开发中我经常会遇到这样的一类需求，相信大家在工作中也会经常遇到：同一个系统在多个省份部署。一个业务在北京是一种实现方式，是基于北京用户的需求。同样的业务在上海是另外一...",
+    "url": "https://segmentfault.com/a/1190000042366375",
+    "author": "字母哥博客",
+    "home_url": "https://segmentfault.com/u/zimug",
+    "votes": "3",
     "rank": 19
   },
   {
-    "title": "2022年8月 NEAR认证开发者中文课程",
-    "description": "NEAR是一个基于区块链的开放网络基础设施，是发布下一代去中心化社交、金融、游戏等应用的开发平台。除了拥有极高的性能，NEAR 最大的特点正如同它的名字，是拉近用户与区块链距离，连接互联网和 Web3 的桥梁。",
-    "url": "https://segmentfault.com/a/1190000042351250",
-    "author": "robertyan",
-    "home_url": "https://segmentfault.com/u/robert_yan",
-    "votes": "1",
-    "rank": 20
-  },
-  {
-    "title": "理想汽车 x JuiceFS：从 Hadoop 到云原生的演进与思考",
-    "description": "第一个时期： 2006 年到 2008 年。2008 年左右，Hadoop 成为了 Apache 顶级项目，并正式发布了 1.0 版本，它的基础主要是基于谷歌的三驾马车，GFS、MapReduce、BigTable 去定义的。",
-    "url": "https://segmentfault.com/a/1190000042370647",
-    "author": "JuiceFS",
-    "home_url": "https://segmentfault.com/u/juicefs",
+    "title": "使用mybatis + postgreSql 中遇到的问题",
+    "description": "问题一：字段名不存在背景是：进行mapper的insert单元测试的时候出了问题执行如下语句的时候出现了问题： {代码...} 这里运用了mapper自带的insert方法向数据库中插入数据。在用mapper进行插入的时候后，报了这样...",
+    "url": "https://segmentfault.com/a/1190000042357267",
+    "author": "weiewiyi",
+    "home_url": "https://segmentfault.com/u/chenchu_6110ed583800c",
     "votes": "3",
-    "rank": 21
-  },
-  {
-    "title": "初学Go 值得深研的7大开源项目",
-    "description": "go-admin基于Gin + Vue + Element UI的前后端分离权限管理系统,系统初始化极度简单，只需要配置文件中，修改数据库连接，系统支持多指令操作，迁移指令可以让初始化数据库信息变得更简单，服务指令可以很简单的启...",
-    "url": "https://segmentfault.com/a/1190000042353994",
-    "author": "7small7",
-    "home_url": "https://segmentfault.com/u/7small7",
-    "votes": "1",
-    "rank": 22
-  },
-  {
-    "title": "伙计，Go项目怎么使用枚举？",
-    "description": "哈喽，大家好，我是asong。枚举是一种很重要的数据类型，在java、C语言等主流编程语言中都支持了枚举类型，但是在Go语言中却没有枚举类型，那有什么替代方案吗？ 本文我们来聊一聊这个事情；",
-    "url": "https://segmentfault.com/a/1190000042353300",
-    "author": "asong",
-    "home_url": "https://segmentfault.com/u/asong_5eeb7a1d0da86",
-    "votes": "1",
-    "rank": 23
-  },
-  {
-    "title": "超全总结：Go语言如何操作文件",
-    "description": "哈喽，大家好，我是asong。我们都知道在Unix中万物都被称为文件，文件处理是一个非常常见的问题，所以本文就总结了Go语言操作文件的常见方式，整体思路如下：",
-    "url": "https://segmentfault.com/a/1190000042353267",
-    "author": "asong",
-    "home_url": "https://segmentfault.com/u/asong_5eeb7a1d0da86",
-    "votes": "0",
-    "rank": 24
-  },
-  {
-    "title": "5个常见的JavaScript内存错误",
-    "description": "微信搜索 【大迁世界】, 我会第一时间和你分享前端行业趋势，学习途径等等。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000042366651",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "1",
-    "rank": 25
+    "rank": 20
   },
   {
     "title": "Golang 中变量定义的坑",
@@ -231,34 +186,61 @@
     "author": "kumfo",
     "home_url": "https://segmentfault.com/u/kumfo",
     "votes": "1",
+    "rank": 21
+  },
+  {
+    "title": "理想汽车 x JuiceFS：从 Hadoop 到云原生的演进与思考",
+    "description": "第一个时期： 2006 年到 2008 年。2008 年左右，Hadoop 成为了 Apache 顶级项目，并正式发布了 1.0 版本，它的基础主要是基于谷歌的三驾马车，GFS、MapReduce、BigTable 去定义的。",
+    "url": "https://segmentfault.com/a/1190000042370647",
+    "author": "JuiceFS",
+    "home_url": "https://segmentfault.com/u/juicefs",
+    "votes": "3",
+    "rank": 22
+  },
+  {
+    "title": "初学Go 值得深研的7大开源项目",
+    "description": "go-admin基于Gin + Vue + Element UI的前后端分离权限管理系统,系统初始化极度简单，只需要配置文件中，修改数据库连接，系统支持多指令操作，迁移指令可以让初始化数据库信息变得更简单，服务指令可以很简单的启...",
+    "url": "https://segmentfault.com/a/1190000042353994",
+    "author": "7small7",
+    "home_url": "https://segmentfault.com/u/7small7",
+    "votes": "1",
+    "rank": 23
+  },
+  {
+    "title": "伙计，Go项目怎么使用枚举？",
+    "description": "哈喽，大家好，我是asong。枚举是一种很重要的数据类型，在java、C语言等主流编程语言中都支持了枚举类型，但是在Go语言中却没有枚举类型，那有什么替代方案吗？ 本文我们来聊一聊这个事情；",
+    "url": "https://segmentfault.com/a/1190000042353300",
+    "author": "asong",
+    "home_url": "https://segmentfault.com/u/asong_5eeb7a1d0da86",
+    "votes": "1",
+    "rank": 24
+  },
+  {
+    "title": "超全总结：Go语言如何操作文件",
+    "description": "哈喽，大家好，我是asong。我们都知道在Unix中万物都被称为文件，文件处理是一个非常常见的问题，所以本文就总结了Go语言操作文件的常见方式，整体思路如下：",
+    "url": "https://segmentfault.com/a/1190000042353267",
+    "author": "asong",
+    "home_url": "https://segmentfault.com/u/asong_5eeb7a1d0da86",
+    "votes": "0",
+    "rank": 25
+  },
+  {
+    "title": "常见的 Monorepo 框架大比较",
+    "description": "微信搜索 【大迁世界】, 我会第一时间和你分享前端行业趋势，学习途径等等。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000042380412",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "2",
     "rank": 26
   },
   {
-    "title": "Squoosh - 谷歌出品的免费开源图片压缩工具，图片大小减少90%，支持 API 开发调用",
-    "description": "Squoosh 是谷歌出品的一款在线图像压缩工具，使用简单，有极高的压缩比，能够帮助我们把图片大小进行压缩，不管是设计 UI 切图、自媒体文章配图还是 PPT 配图这样的使用场景，都要用到压缩图片。",
-    "url": "https://segmentfault.com/a/1190000042351129",
-    "author": "搬不要钱的砖",
-    "home_url": "https://segmentfault.com/u/thosefree",
+    "title": "5个常见的JavaScript内存错误",
+    "description": "微信搜索 【大迁世界】, 我会第一时间和你分享前端行业趋势，学习途径等等。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000042366651",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "1",
     "rank": 27
-  },
-  {
-    "title": "详解 SSL（三）：SSL 证书该如何选择？",
-    "description": "在上一篇《 详解 SSL（二）：SSL 证书对网站的好处》中，我们知道了在网站部署 SSL 证书后，不管是对网站本身还是对网站的用户都能够带来许多好处。那么随着 HTTPS 的普及，市面上也出现了各种不同的 SSL 证书。...",
-    "url": "https://segmentfault.com/a/1190000042357128",
-    "author": "云叔_又拍云",
-    "home_url": "https://segmentfault.com/u/yunshu_blog",
-    "votes": "5",
-    "rank": 28
-  },
-  {
-    "title": "Nginx入门笔记",
-    "description": "目录什么是反向代理正向代理反向代理Nginx进程模型Worker抢占机制Nginx事件处理配置文件配置结构主要配置常用命令日志分割定时任务分割日志配置一个静态文件使用GZIP压缩Location匹配规则跨域的方式同源策略跨域...",
-    "url": "https://segmentfault.com/a/1190000042351956",
-    "author": "eacape",
-    "home_url": "https://segmentfault.com/u/xiaoyongyong",
-    "votes": "1",
-    "rank": 29
   },
   {
     "title": "jsonp 原理详解及 jsonp-pro 源码解析",
@@ -267,6 +249,24 @@
     "author": "淡紫色的风鹏",
     "home_url": "https://segmentfault.com/u/danzisedefengpeng",
     "votes": "1",
+    "rank": 28
+  },
+  {
+    "title": "django + celery + redis 实现定时任务",
+    "description": "前段时间，工作中有个要求，是将原本的定时任务，改成使用celery实现。原本项目中的定时任务是使用的apscheduler。但是django与celery做定时的教程，网上比较少，且版本对应不上，最后根据网上的教程+仔仔细细看...",
+    "url": "https://segmentfault.com/a/1190000042378638",
+    "author": "葉",
+    "home_url": "https://segmentfault.com/u/_61c08dfa324df",
+    "votes": "2",
+    "rank": 29
+  },
+  {
+    "title": "详解 SSL（三）：SSL 证书该如何选择？",
+    "description": "在上一篇《 详解 SSL（二）：SSL 证书对网站的好处》中，我们知道了在网站部署 SSL 证书后，不管是对网站本身还是对网站的用户都能够带来许多好处。那么随着 HTTPS 的普及，市面上也出现了各种不同的 SSL 证书。...",
+    "url": "https://segmentfault.com/a/1190000042357128",
+    "author": "云叔_又拍云",
+    "home_url": "https://segmentfault.com/u/yunshu_blog",
+    "votes": "5",
     "rank": 30
   }
 ]

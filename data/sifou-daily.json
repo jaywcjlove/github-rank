@@ -1,74 +1,20 @@
 [
   {
-    "title": "金山办公 2022 年技术开放日：文档云原生时代的规模之道",
-    "description": "8 月 26 日，金山办公在珠海举办以「规模之道」为主题的 2022 年技术开放日活动。金山办公副总裁姚冬、金山办公技术委员会执行主席皮霞林、金山办公高级研发总监黄传通、金山办公私有云专家陈良等嘉宾发表了主题...",
-    "url": "https://segmentfault.com/a/1190000042385637",
-    "author": "MissD",
-    "home_url": "https://segmentfault.com/u/d2ms1shh",
-    "votes": "3",
+    "title": "检查原生 JavaScript 函数是否被覆盖",
+    "description": "在JavaScript中，原生函数指的是其源代码已经被编译进原生机器码的函数。原生函数可以在JavaScript 标准内置对象（比如说eval(), parseInt()等等），以及浏览器Web API（比如说fetch(), localStorage.getItem()等...",
+    "url": "https://segmentfault.com/a/1190000042388113",
+    "author": "chuck",
+    "home_url": "https://segmentfault.com/u/chuckqu",
+    "votes": "2",
     "rank": 1
   },
   {
-    "title": "人工智能、云原生、边缘计算趋势洞察｜“2022 智能云边开源峰会”圆满举办",
-    "description": "2022 年 8 月 19 日 - 20 日，为期 2 天的“ACE 智能云边共创生态”的年度盛会——“2022 智能云边开源峰会”（2022 Open Source AceCon）在线上圆满举办。本次峰会由 VMware 携手 Intel、EMQ、 Kyligence、江行智能、...",
-    "url": "https://segmentfault.com/a/1190000042381069",
-    "author": "六一",
-    "home_url": "https://segmentfault.com/u/suicidal_romantic_scoundrel",
+    "title": "SpringBoot基础知识",
+    "description": "控制业务层Service的，它的作用主要是架起了外界与业务层沟通的桥梁，移动端，前端在调用接口访问相关业务时，都会通过Controller，由Controller去调相关的业务层代码并把数据返回给移动端和前端。",
+    "url": "https://segmentfault.com/a/1190000042388996",
+    "author": "代码的路",
+    "home_url": "https://segmentfault.com/u/zbzcdzf",
     "votes": "1",
     "rank": 2
-  },
-  {
-    "title": "常见的 Monorepo 框架大比较",
-    "description": "微信搜索 【大迁世界】, 我会第一时间和你分享前端行业趋势，学习途径等等。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000042380412",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "2",
-    "rank": 3
-  },
-  {
-    "title": "渗透攻防Web篇-深入浅出SQL注入",
-    "description": "京东SRC(Security Response Center)收录大量外部白帽子提交的sql注入漏洞，漏洞发生的原因多为sql语句拼接和Mybatis使用不当导致。",
-    "url": "https://segmentfault.com/a/1190000042379218",
-    "author": "京东云开发者",
-    "home_url": "https://segmentfault.com/u/jdcdevloper",
-    "votes": "1",
-    "rank": 4
-  },
-  {
-    "title": "有意思的方向裁切 overflow: clip",
-    "description": "本文将介绍一个新特性，从 Chrome 90 开始，overflow 新增的一个新特性 -- overflow: clip，使用它，轻松的对溢出方向进行控制。",
-    "url": "https://segmentfault.com/a/1190000042382028",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "2",
-    "rank": 5
-  },
-  {
-    "title": "[PostgreSql]生产级别数据库安装要考虑哪些问题？",
-    "description": "我让公司的小伙伴写一个生产级别的PostgreSQL的安装文档，结果他和我说：“不是用一个命令就能安装好么？还用写文档么？”。我知道他想说的是这个命令：yum install postgresql-server，我也是挺无语的。要知道生产...",
-    "url": "https://segmentfault.com/a/1190000042382085",
-    "author": "字母哥博客",
-    "home_url": "https://segmentfault.com/u/zimug",
-    "votes": "1",
-    "rank": 6
-  },
-  {
-    "title": "总会用到的前端小姿势",
-    "description": "假设一个宽度固定的div内有一段文字，那么浏览器默认处理方式会比较傻，纯中文下乍一看没问题，但英文与数字混搭等情况容易出现bug，此时解决方法有两种css方法：",
-    "url": "https://segmentfault.com/a/1190000042383192",
-    "author": "罡风小天",
-    "home_url": "https://segmentfault.com/u/shawnphang",
-    "votes": "2",
-    "rank": 7
-  },
-  {
-    "title": "程序员提升要「硬实力」和「软实力」两手抓",
-    "description": "从赋能发力、撬动杠杆到降本增效、去肥增瘦，互联网行业正在经历前所未有的风波与挑战。全球范围的「裁员潮」席卷而来，行业去泡沫化和主业务收拢似乎正在为互联网「全员危机」拉开序幕。",
-    "url": "https://segmentfault.com/a/1190000042381012",
-    "author": "LigaAI",
-    "home_url": "https://segmentfault.com/u/ligaai",
-    "votes": "1",
-    "rank": 8
   }
 ]
