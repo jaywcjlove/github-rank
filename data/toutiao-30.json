@@ -2,7 +2,7 @@
   {
     "title": "全网最全的权限系统设计方案（图解）",
     "description": "",
-    "votes": "134",
+    "votes": "136",
     "url": "/k/lozkmee",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -52,7 +52,7 @@
   {
     "title": "微服务接口设计原则",
     "description": "本文结合自身后台开发经验，从高可用、高性能、易维护和低风险（安全）角度出发，尝试总结业界常见微服务接口设计原则，帮助大家设计出优秀的微服务。1.前言微服务是一种系统架构风格，是 S...",
-    "votes": "87",
+    "votes": "89",
     "url": "/k/4hjv10p",
     "avatar": "https://img.toutiao.io/subject/cc2d501408fd455d9b841cb6c8d95a6c/thumb",
     "avatarAlt": "ASCE1885 - 独家号",
@@ -112,7 +112,7 @@
   {
     "title": "【设计模式】10分钟学懂UML类图",
     "description": "",
-    "votes": "59",
+    "votes": "60",
     "url": "/k/wg4oeyc",
     "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
     "avatarAlt": "进击的程序猿 - 独家号",
@@ -132,12 +132,32 @@
   {
     "title": "公司新来了一个同事，把权限系统设计的炉火纯青！",
     "description": "",
-    "votes": "60",
+    "votes": "61",
     "url": "/k/6gp2yxu",
     "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
     "avatarAlt": "浪客用react,java全栈 - 独家号",
     "subjectName": "浪客用react,java全栈",
     "homeUrl": "/subjects/132403"
+  },
+  {
+    "title": "高效能团队的Java研发规范(进阶版) ",
+    "description": "",
+    "votes": "58",
+    "url": "/k/nud1jt6",
+    "avatar": "https://img.toutiao.io/subject/ea8976fb047b483dacc34fd01e51d47e/thumb",
+    "avatarAlt": "Java研发 - 独家号",
+    "subjectName": "Java研发",
+    "homeUrl": "/subjects/2079"
+  },
+  {
+    "title": "MySQL 单表不要超过 2000W 行，靠谱吗？",
+    "description": "八股文网站：xiaolincoding.com作为在后端圈开车的多年老司机，是不是经常听到过：“MySQL 单表最好不要超过 2000w”“单表超过 2000w 就要考虑数据迁移了...",
+    "votes": "60",
+    "url": "/k/vke55xi",
+    "avatar": "https://img.toutiao.io/subject/c1103a714a594e4eafc17c5c14cbab4d/thumb",
+    "avatarAlt": "小渣的独家号 - 独家号",
+    "subjectName": "小渣的独家号",
+    "homeUrl": "/subjects/476437"
   },
   {
     "title": "Kafka在美团数据平台的实践",
@@ -150,16 +170,6 @@
     "homeUrl": "/subjects/117027"
   },
   {
-    "title": "高效能团队的Java研发规范(进阶版) ",
-    "description": "",
-    "votes": "55",
-    "url": "/k/nud1jt6",
-    "avatar": "https://img.toutiao.io/subject/ea8976fb047b483dacc34fd01e51d47e/thumb",
-    "avatarAlt": "Java研发 - 独家号",
-    "subjectName": "Java研发",
-    "homeUrl": "/subjects/2079"
-  },
-  {
     "title": "面试官：Redis 大 key 要如何处理？",
     "description": "作者：小林coding八股文网站：xiaolincoding.com大家好，我是小林。今天来聊聊，关于 Redis 大 key 的四个问题。什么是 Redis 大 key？大 ke...",
     "votes": "52",
@@ -170,14 +180,14 @@
     "homeUrl": "/subjects/325462"
   },
   {
-    "title": "MySQL 单表不要超过 2000W 行，靠谱吗？",
-    "description": "八股文网站：xiaolincoding.com作为在后端圈开车的多年老司机，是不是经常听到过：“MySQL 单表最好不要超过 2000w”“单表超过 2000w 就要考虑数据迁移了...",
-    "votes": "58",
-    "url": "/k/vke55xi",
-    "avatar": "https://img.toutiao.io/subject/c1103a714a594e4eafc17c5c14cbab4d/thumb",
-    "avatarAlt": "小渣的独家号 - 独家号",
-    "subjectName": "小渣的独家号",
-    "homeUrl": "/subjects/476437"
+    "title": "丢弃掉那些BeanUtils工具类吧，MapStruct真香！！！",
+    "description": "作者 l Hollis来源 l Hollis（ID：hollischuang）在前几天的文章《为什么阿里巴巴禁止使用Apache Beanutils进行属性的copy？》中，我曾经...",
+    "votes": "53",
+    "url": "/k/6muqkam",
+    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
   },
   {
     "title": "Redis 突然变慢了如何排查并解决？",
@@ -200,6 +210,26 @@
     "homeUrl": "/subjects/132403"
   },
   {
+    "title": "风控逻辑利器---规则引擎",
+    "description": "前言 规则引擎的定义 规则引擎的执行 转转风控规则引擎 总结 前言 风控的职责是控制业务的风险。在识别风险过程中，要根据大量的用户行为和用户信息去做逻辑判断，最终给出决策结果。在决...",
+    "votes": "51",
+    "url": "/k/vaxsn33",
+    "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
+    "avatarAlt": "服务架构及中台 - 独家号",
+    "subjectName": "服务架构及中台",
+    "homeUrl": "/subjects/26578"
+  },
+  {
+    "title": "一文彻底理解Go语言栈内存/堆内存",
+    "description": "系列导读本文基于64位平台、1Page=8KB、Go1.6本文为《Go语言轻松进阶》系列第二章「内存与垃圾回收」的第三小节。第二章目录：知识预备指针的大小(完结)TCMalloc内...",
+    "votes": "48",
+    "url": "/k/8csj4gy",
+    "avatar": "https://img.toutiao.io/subject/9164e3cc824f44169e06b1774b815ba5/thumb",
+    "avatarAlt": "TIGERB的技术博客 - 独家号",
+    "subjectName": "TIGERB的技术博客",
+    "homeUrl": "/subjects/77815"
+  },
+  {
     "title": "大文件上传时如何做到秒传？",
     "description": "点击关注公众号：互联网架构师，后台回复 2T获取2TB学习资源！上一篇：Alibaba开源内网高并发编程手册.pdf文件上传是一个老生常谈的话题了，在文件相对比较小的情况下，可以直...",
     "votes": "48",
@@ -218,35 +248,5 @@
     "avatarAlt": "进击的程序猿 - 独家号",
     "subjectName": "进击的程序猿",
     "homeUrl": "/subjects/24912"
-  },
-  {
-    "title": "31个！Golang常用工具来啦",
-    "description": "导语 | 本文主要分享Golang相关的一些使用工具，简单介绍工具作用和使用场景，不会详细介绍其使用，列举的工具也不是最全的，具体可以参考链接或自行搜索学习。Go官方的工具可以使用...",
-    "votes": "48",
-    "url": "/k/amn3bs7",
-    "avatar": "https://img.toutiao.io/subject/3f69ffc3bdf6496e86439348166e3ed7/thumb",
-    "avatarAlt": "GoHackers - 独家号",
-    "subjectName": "GoHackers",
-    "homeUrl": "/subjects/1385"
-  },
-  {
-    "title": "风控逻辑利器---规则引擎",
-    "description": "前言 规则引擎的定义 规则引擎的执行 转转风控规则引擎 总结 前言 风控的职责是控制业务的风险。在识别风险过程中，要根据大量的用户行为和用户信息去做逻辑判断，最终给出决策结果。在决...",
-    "votes": "50",
-    "url": "/k/vaxsn33",
-    "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
-    "avatarAlt": "服务架构及中台 - 独家号",
-    "subjectName": "服务架构及中台",
-    "homeUrl": "/subjects/26578"
-  },
-  {
-    "title": "明明加了唯一索引，为什么还是产生重复数据？",
-    "description": "",
-    "votes": "54",
-    "url": "/k/18ha9kp",
-    "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
-    "avatarAlt": "浪客用react,java全栈 - 独家号",
-    "subjectName": "浪客用react,java全栈",
-    "homeUrl": "/subjects/132403"
   }
 ]

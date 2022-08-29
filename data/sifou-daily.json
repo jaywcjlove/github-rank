@@ -1,19 +1,19 @@
 [
   {
-    "title": "检查原生 JavaScript 函数是否被覆盖",
-    "description": "在JavaScript中，原生函数指的是其源代码已经被编译进原生机器码的函数。原生函数可以在JavaScript 标准内置对象（比如说eval(), parseInt()等等），以及浏览器Web API（比如说fetch(), localStorage.getItem()等...",
-    "url": "https://segmentfault.com/a/1190000042388113",
-    "author": "chuck",
-    "home_url": "https://segmentfault.com/u/chuckqu",
-    "votes": "2",
+    "title": "一次SSL握手异常，我发现JDK还有发行版区别",
+    "description": "原创：扣钉日记（微信公众号ID：codelogs），欢迎分享，转载请保留出处。简介最近，我们一个多机房部署的服务，调用方反馈有问题，在调用新加坡机房时正常，而调用印度机房则报SSL握手异常。 排查花了一些时间，...",
+    "url": "https://segmentfault.com/a/1190000042391138",
+    "author": "打码日志",
+    "home_url": "https://segmentfault.com/u/codelogs",
+    "votes": "1",
     "rank": 1
   },
   {
-    "title": "SpringBoot基础知识",
-    "description": "控制业务层Service的，它的作用主要是架起了外界与业务层沟通的桥梁，移动端，前端在调用接口访问相关业务时，都会通过Controller，由Controller去调相关的业务层代码并把数据返回给移动端和前端。",
-    "url": "https://segmentfault.com/a/1190000042388996",
-    "author": "代码的路",
-    "home_url": "https://segmentfault.com/u/zbzcdzf",
+    "title": "node 下载与上传文件",
+    "description": "1.使用axios将文件下载下来，放在tmp文件夹下，responsetype设为arraybuffer，因为写文件writefilesync需要使用到arraybuffer，不要下载stream流，使用createwritestream写文件，因为你还需要把下载下来的文件重...",
+    "url": "https://segmentfault.com/a/1190000042391309",
+    "author": "点墨",
+    "home_url": "https://segmentfault.com/u/chencaize",
     "votes": "1",
     "rank": 2
   }
