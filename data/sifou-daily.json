@@ -1,11 +1,83 @@
 [
   {
-    "title": "如何使用 ABAP 代码解析 XML 文件",
-    "description": "正如本教程的开篇介绍文章SAP OData 开发教程 - 从入门到提高(包含 SEGW, RAP 和 CDP)所提到的，SAP OData 服务开发，从实现技术上来说，可以分为三大类。因此本教程也分为三大部分，分别进行介绍。本文是本教程...",
-    "url": "https://segmentfault.com/a/1190000042430559",
-    "author": "JerryWang_汪子熙",
-    "home_url": "https://segmentfault.com/u/jerrywangsap",
-    "votes": "1",
+    "title": "docker 和 dockerFile 介绍",
+    "description": "最近用到了dockerFIle来构建镜像。 在这之前，其实并不太清楚docker的作用，并不清楚容器和镜像的比较清晰的概念。于是在这里记录一下。",
+    "url": "https://segmentfault.com/a/1190000042435608",
+    "author": "weiewiyi",
+    "home_url": "https://segmentfault.com/u/chenchu_6110ed583800c",
+    "votes": "3",
     "rank": 1
+  },
+  {
+    "title": "性能调优——小小的log大大的坑",
+    "description": "日志对程序的重要性不言而喻，轻巧、简单、无需费脑，程序代码中随处可见，帮助我们排查定位一个有一个问题问题。但看似不起眼的日志，却隐藏着各式各样的“坑”，如果使用不当，不仅不能帮助我们，反而会成为服务“...",
+    "url": "https://segmentfault.com/a/1190000042434642",
+    "author": "咕咕鸡",
+    "home_url": "https://segmentfault.com/u/guguji_fly",
+    "votes": "1",
+    "rank": 2
+  },
+  {
+    "title": "为什么vue.config.js中使用require，而vite.config.js使用 import?",
+    "description": "偶然一次发现，他们两个的引入模块的方式不一样，在好奇心的驱使下，便开始一探究竟。1、vue.config方式打开项目的package.json，找到 scripts位置。找到 vue-cli-service 命令，通常命令都位于当前项目的node_mo...",
+    "url": "https://segmentfault.com/a/1190000042432407",
+    "author": "寒水寺一禅",
+    "home_url": "https://segmentfault.com/u/xiaolizideyitian",
+    "votes": "3",
+    "rank": 3
+  },
+  {
+    "title": "精读《依赖注入简介》",
+    "description": "原文按照 “如何解决无法做单测的问题、统一依赖注入的入口、如何自动保证依赖顺序正确、循环依赖怎么解决、自上而下 vs 自下而上编程思维” 的思路，将依赖注入从想法起点，到延伸出来的特性连贯的串了起来。",
+    "url": "https://segmentfault.com/a/1190000042431264",
+    "author": "黄子毅",
+    "home_url": "https://segmentfault.com/u/aoyangyudakong",
+    "votes": "1",
+    "rank": 4
+  },
+  {
+    "title": "用Vue.js写一个命令行贪吃蛇游戏",
+    "description": "大家好,我是webfansplz.本文要分享的是如何使用Vue.js实现一个命令行贪吃蛇游戏(temir-snake-game).对于贪吃蛇游戏想必大家都不陌生了,使用Vue.js实现一个Web版的贪吃蛇游戏似乎没什么难度,那如果是命令行版的呢?...",
+    "url": "https://segmentfault.com/a/1190000042431217",
+    "author": "null仔",
+    "home_url": "https://segmentfault.com/u/xiaoqianduan_58b28cfebff36",
+    "votes": "2",
+    "rank": 5
+  },
+  {
+    "title": "[算法数据结构] 关于回溯算法的理解记录",
+    "description": "开始二刷回溯算法，这里对回溯法展开思考，加深对其的原理和应用场景的理解。以组合问题为例：给定两个整数 n 和 k，返回范围[1, n]中所有可能的 k 个数的组合。",
+    "url": "https://segmentfault.com/a/1190000042432948",
+    "author": "翁乐安",
+    "home_url": "https://segmentfault.com/u/wenglean",
+    "votes": "1",
+    "rank": 6
+  },
+  {
+    "title": "pip安装更换镜像",
+    "description": "原文链接使用pip来安装python包有时候安装起来会非常慢，因此需要换成国内的源来加速下载：1 单次修改源以Torch为例，常规下载方式为： {代码...} 修改为阿里源： {代码...} 2 修改默认源如果不想在每一次下载都...",
+    "url": "https://segmentfault.com/a/1190000042431518",
+    "author": "代码的路",
+    "home_url": "https://segmentfault.com/u/zbzcdzf",
+    "votes": "1",
+    "rank": 7
+  },
+  {
+    "title": "高级前端进阶必修：自主打造高扩展的业务组件库含源码PPT",
+    "description": "说到设计模式，十有八九，singleton模式在面试中排名第一，这一定是大多数人从入门到面试都无法回避的基础知识。但是，singleton模式中并不只有懒惰模式和饥饿模式，大多数都是最基本的模式。如果你读过spring之...",
+    "url": "https://segmentfault.com/a/1190000042435699",
+    "author": "咆哮的上铺_ciNVTG",
+    "home_url": "https://segmentfault.com/u/paoxiaodeshangpu_cinvtg",
+    "votes": "1",
+    "rank": 8
+  },
+  {
+    "title": "没有二十年功力，写不出Thread.sleep(0)这一行“看似无用”的代码！",
+    "description": "你好呀，我是喜提七天居家隔离的歪歪。这篇文章要从一个奇怪的注释说起，就是下面这张图：我们可以不用管具体的代码逻辑，只是单单看这个 for 循环。在循环里面，专门有个变量 j，来记录当前循环次数。第一次循环...",
+    "url": "https://segmentfault.com/a/1190000042432589",
+    "author": "why技术",
+    "home_url": "https://segmentfault.com/u/whyjishu",
+    "votes": "1",
+    "rank": 9
   }
 ]

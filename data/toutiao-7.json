@@ -1,18 +1,8 @@
 [
   {
-    "title": "什么是顶级的思维？",
-    "description": "分享几个非常适合职场人的顶级思维1、麦肯锡七步成诗：解决问题的7个步骤ProcessOn模板社区-麦肯锡解决问题的七个步骤2、SWOT分析法：基于竞争环境和竞争条件的态势分析3、T...",
-    "votes": "77",
-    "url": "/k/ulqvlcd",
-    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
-    "avatarAlt": "Bloomingroses - 独家号",
-    "subjectName": "Bloomingroses",
-    "homeUrl": "/subjects/98777"
-  },
-  {
     "title": "SpringBoot 官方强烈推荐，连接池，太快了！",
     "description": "大家好，现在介绍一款非常强大，高效，并且号称“史上最快连接池”。由此可见他是有多受人喜欢，并且在SpringBoot2.0之后，采用的默认数据库连接池就是Hikari。我们知道的连...",
-    "votes": "70",
+    "votes": "72",
     "url": "/k/zumxh7v",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -22,7 +12,7 @@
   {
     "title": "公司40k招的架构师写的API网关选型总结，就是牛逼！",
     "description": "文章来源：https://developer.aliyun.com/article/889271?spm=a2c6h.13262185.profile.26.c3a25a75TpX...",
-    "votes": "48",
+    "votes": "60",
     "url": "/k/kyi9yzt",
     "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
     "avatarAlt": "Bloomingroses - 独家号",
@@ -30,24 +20,24 @@
     "homeUrl": "/subjects/98777"
   },
   {
-    "title": "Kafka 面试连环炮, 看你能撑到哪一步?",
-    "description": "本系列总共4万多字，本篇是中篇，阅读本文大约需要 40 分钟。大家好，我是华仔, 又跟大家见面了。之前有粉丝留言说能否总结和分享一些 Kafka 相关的面试题。今天我们就来安排一期...",
-    "votes": "48",
-    "url": "/k/kd4d4fd",
+    "title": "面试官：MySQL 数据库查询慢，除了索引问题还可能是什么原因？",
+    "description": "大家好，我是君哥。mysql查询为什么会慢，关于这个问题，在实际开发经常会遇到，而面试中，也是个高频题。遇到这种问题，我们一般也会想到是因为索引。那除开索引之外，还有哪些因素会导致...",
+    "votes": "47",
+    "url": "/k/4ivnhwu",
     "avatar": "https://img.toutiao.io/subject/c1103a714a594e4eafc17c5c14cbab4d/thumb",
     "avatarAlt": "小渣的独家号 - 独家号",
     "subjectName": "小渣的独家号",
     "homeUrl": "/subjects/476437"
   },
   {
-    "title": "面试官：MySQL 数据库查询慢，除了索引问题还可能是什么原因？",
-    "description": "大家好，我是君哥。mysql查询为什么会慢，关于这个问题，在实际开发经常会遇到，而面试中，也是个高频题。遇到这种问题，我们一般也会想到是因为索引。那除开索引之外，还有哪些因素会导致...",
-    "votes": "46",
-    "url": "/k/4ivnhwu",
-    "avatar": "https://img.toutiao.io/subject/c1103a714a594e4eafc17c5c14cbab4d/thumb",
-    "avatarAlt": "小渣的独家号 - 独家号",
-    "subjectName": "小渣的独家号",
-    "homeUrl": "/subjects/476437"
+    "title": "微服务治理热门技术揭秘：动态读写分离",
+    "description": "我们从应用的视角出发整理抽象了我们在访问、使用数据库时场景的一些稳定性治理、性能优化、提效等方面的实战经验，对于每一个后端应用来说，数据库无疑是重中之重，我们希望通过我们的数据库治...",
+    "votes": "40",
+    "url": "/k/bu7lntc",
+    "avatar": "https://img.toutiao.io/subject/df70c5d3876241ecba5984356133ab23/thumb",
+    "avatarAlt": "架构必知必会 - 独家号",
+    "subjectName": "架构必知必会",
+    "homeUrl": "/subjects/472073"
   },
   {
     "title": "美团二面：加密后的数据如何进行模糊查询",
@@ -60,39 +50,9 @@
     "homeUrl": "/subjects/475601"
   },
   {
-    "title": "微服务治理热门技术揭秘：动态读写分离",
-    "description": "我们从应用的视角出发整理抽象了我们在访问、使用数据库时场景的一些稳定性治理、性能优化、提效等方面的实战经验，对于每一个后端应用来说，数据库无疑是重中之重，我们希望通过我们的数据库治...",
-    "votes": "36",
-    "url": "/k/bu7lntc",
-    "avatar": "https://img.toutiao.io/subject/df70c5d3876241ecba5984356133ab23/thumb",
-    "avatarAlt": "架构必知必会 - 独家号",
-    "subjectName": "架构必知必会",
-    "homeUrl": "/subjects/472073"
-  },
-  {
-    "title": "接口流量突增，如何做好性能优化？",
-    "description": "对于提供接口服务的应用来说，很多都是用 SpringBoot 默认的 Servlet 容器 Tomcat。在一开始上线的时候，由于大多数流量较小，我们也并不会为 Tomcat 做专...",
-    "votes": "31",
-    "url": "/k/5x6jtd4",
-    "avatar": "https://img.toutiao.io/subject/3d78175afedb436bb46508bd52ed41f3/thumb",
-    "avatarAlt": "1点25 - 独家号",
-    "subjectName": "1点25",
-    "homeUrl": "/subjects/168469"
-  },
-  {
-    "title": "也许是最客观、全面的比较 Rust 与 Go：都想把 Rust 也学一下",
-    "description": "",
-    "votes": "29",
-    "url": "/k/2u61cx8",
-    "avatar": "https://img.toutiao.io/subject/8e319b8fa49c44da812c80fae93a9d84/thumb",
-    "avatarAlt": "开发者独家号 - 独家号",
-    "subjectName": "开发者独家号",
-    "homeUrl": "/subjects/13080"
-  },
-  {
     "title": "掌握这些 SpringBoot 启动扩展点，已经超过 90% 的人了",
     "description": "",
-    "votes": "25",
+    "votes": "28",
     "url": "/k/snq08kt",
     "avatar": "https://img.toutiao.io/subject/03e210e126704d0ca23938746bbd4cec/thumb",
     "avatarAlt": "近半生少年 - 独家号",
@@ -100,9 +60,19 @@
     "homeUrl": "/subjects/403307"
   },
   {
+    "title": "也许是最客观、全面的比较 Rust 与 Go：都想把 Rust 也学一下",
+    "description": "",
+    "votes": "30",
+    "url": "/k/2u61cx8",
+    "avatar": "https://img.toutiao.io/subject/8e319b8fa49c44da812c80fae93a9d84/thumb",
+    "avatarAlt": "开发者独家号 - 独家号",
+    "subjectName": "开发者独家号",
+    "homeUrl": "/subjects/13080"
+  },
+  {
     "title": "Spring Boot + Netty + WebSocket 实现消息推送",
     "description": "",
-    "votes": "29",
+    "votes": "30",
     "url": "/k/cq3qyuh",
     "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
     "avatarAlt": "乱点技能树 - 独家号",
@@ -112,7 +82,7 @@
   {
     "title": "Redis 6 中的多线程是如何实现的！？",
     "description": "Redis 是一个高性能服务端的典范。它通过多路复用 epoll 来管理海量的用户连接，只使用一个线程来通过事件循环来处理所有用户请求，就可以达到每秒数万 QPS 的处理能力。下图...",
-    "votes": "23",
+    "votes": "25",
     "url": "/k/c3kqthc",
     "avatar": "https://img.toutiao.io/subject/65dad75e08b748649e634d896377aac8/thumb",
     "avatarAlt": "四颗咖啡豆 - 独家号",
@@ -122,7 +92,7 @@
   {
     "title": "MySQL 的 timestamp 会存在时区问题？",
     "description": "",
-    "votes": "28",
+    "votes": "29",
     "url": "/k/uxupyzj",
     "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
     "avatarAlt": "浪客用react,java全栈 - 独家号",
@@ -130,10 +100,10 @@
     "homeUrl": "/subjects/132403"
   },
   {
-    "title": "能ping通，TCP就一定能连通吗？",
+    "title": "为什么 Spring和IDEA 都不推荐使用 @Autowired 注解",
     "description": "",
-    "votes": "24",
-    "url": "/k/qqiid6c",
+    "votes": "25",
+    "url": "/k/xv1x088",
     "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
     "avatarAlt": "浪客用react,java全栈 - 独家号",
     "subjectName": "浪客用react,java全栈",
@@ -142,7 +112,7 @@
   {
     "title": "阿里官方 Redis 开发规范",
     "description": "",
-    "votes": "23",
+    "votes": "24",
     "url": "/k/2e01od7",
     "avatar": "https://img.toutiao.io/subject/5677c886e56b479194e85580c577d68a/thumb",
     "avatarAlt": "编程爱好者(网络编程) - 独家号",
@@ -150,29 +120,9 @@
     "homeUrl": "/subjects/134283"
   },
   {
-    "title": "终于有人把Elasticsearch原理讲透了！",
-    "description": "",
-    "votes": "21",
-    "url": "/k/ek7uvx5",
-    "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
-    "avatarAlt": "乱点技能树 - 独家号",
-    "subjectName": "乱点技能树",
-    "homeUrl": "/subjects/194141"
-  },
-  {
-    "title": "提高「程序员」的思维方式",
-    "description": "",
-    "votes": "22",
-    "url": "/k/ymhzlck",
-    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
-    "avatarAlt": "Bloomingroses - 独家号",
-    "subjectName": "Bloomingroses",
-    "homeUrl": "/subjects/98777"
-  },
-  {
     "title": "SpringBoot 实现接口幂等性的 4 种方案！",
     "description": "",
-    "votes": "21",
+    "votes": "23",
     "url": "/k/dpoo6rb",
     "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
     "avatarAlt": "进击的程序猿 - 独家号",
@@ -180,9 +130,29 @@
     "homeUrl": "/subjects/24912"
   },
   {
+    "title": "提高「程序员」的思维方式",
+    "description": "",
+    "votes": "23",
+    "url": "/k/ymhzlck",
+    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
+  },
+  {
+    "title": "后端程序员生产力工具合集",
+    "description": "后端程序员除了写代码，也难免要写设计文档，画各种图。因此掌握各种生产力工具，是很有必要的，可以达到事半功倍的效果。下面结合楼主亲身体验，推荐一些生产力工具，欢迎探讨和补充。主要分成...",
+    "votes": "25",
+    "url": "/k/9oph8q0",
+    "avatar": "https://img.toutiao.io/subject/ca32be3cbe13422a9fc08989bf5378d9/thumb",
+    "avatarAlt": "文不落 - 独家号",
+    "subjectName": "文不落",
+    "homeUrl": "/subjects/113701"
+  },
+  {
     "title": "Redis 突然变慢了如何排查并解决？",
     "description": "",
-    "votes": "18",
+    "votes": "19",
     "url": "/k/ncyf6it",
     "avatar": "https://img.toutiao.io/subject/c1103a714a594e4eafc17c5c14cbab4d/thumb",
     "avatarAlt": "小渣的独家号 - 独家号",
@@ -192,11 +162,41 @@
   {
     "title": "Kubernetes网络插件详解 - Calico篇 - 网络基础",
     "description": "",
-    "votes": "18",
+    "votes": "19",
     "url": "/k/vqnj7pn",
     "avatar": "https://img.toutiao.io/subject/3b624d8b4ee94d63aabce021fb189a6f/thumb",
     "avatarAlt": "巨子嘉 - 独家号",
     "subjectName": "巨子嘉",
     "homeUrl": "/subjects/448940"
+  },
+  {
+    "title": "如何防止订单重复支付？",
+    "description": "大家好，我是老三，想必大家对在线支付都不陌生，今天和大家聊聊如何防止订单重复支付。关注公众号「三分恶」，回复「666」，领取七百多页独家原创面试手册！面渣逆袭手册看看订单支付流程我...",
+    "votes": "20",
+    "url": "/k/957g6ly",
+    "avatar": "https://img.toutiao.io/subject/d42ad8a9192a430b9df44df9a6d383df/thumb",
+    "avatarAlt": "三分恶 - 独家号",
+    "subjectName": "三分恶",
+    "homeUrl": "/subjects/454266"
+  },
+  {
+    "title": "ping 命令还能这么玩？",
+    "description": "",
+    "votes": "19",
+    "url": "/k/j0k9n5i",
+    "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
+    "avatarAlt": "浪客用react,java全栈 - 独家号",
+    "subjectName": "浪客用react,java全栈",
+    "homeUrl": "/subjects/132403"
+  },
+  {
+    "title": "服务治理治什么，10张图告诉你答案",
+    "description": "",
+    "votes": "18",
+    "url": "/k/rry9k5t",
+    "avatar": "https://img.toutiao.io/subject/c1103a714a594e4eafc17c5c14cbab4d/thumb",
+    "avatarAlt": "小渣的独家号 - 独家号",
+    "subjectName": "小渣的独家号",
+    "homeUrl": "/subjects/476437"
   }
 ]
