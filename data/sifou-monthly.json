@@ -63,22 +63,13 @@
     "rank": 7
   },
   {
-    "title": "Wuzzle，进行基于 webpack 的 JS 转译",
-    "description": "转译器（transpiler）是指能够进行文件到文件一对一转换的编译器（compiler）。在 JS 世界中，常见的开箱即可用的转译器有 typescript cli、babel cli 等，但他们一般只处理 .js、.ts 等脚本文件。而 webpack 尽...",
-    "url": "https://segmentfault.com/a/1190000042306044",
-    "author": "乌柏木",
-    "home_url": "https://segmentfault.com/u/wubomu",
-    "votes": "14",
-    "rank": 8
-  },
-  {
     "title": "云安全践行者：亚马逊云科技如何打好“安全”牌？",
     "description": "云计算发展正迅疾如风，猛烈似火。为业务赋能之下，上“云”已成大势所趋！特别是在疫情持续了将近三年的背景下，云市场需求持续爆发。资本方、企业主、客户、用户等等，云正成为各方最受关注的科技领域。2022年，...",
     "url": "https://segmentfault.com/a/1190000042418291",
     "author": "六一",
     "home_url": "https://segmentfault.com/u/suicidal_romantic_scoundrel",
     "votes": "10",
-    "rank": 9
+    "rank": 8
   },
   {
     "title": "巧用 transition 实现短视频 APP 点赞动画",
@@ -87,7 +78,7 @@
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
     "votes": "13",
-    "rank": 10
+    "rank": 9
   },
   {
     "title": "如何让CSS计数器支持小数的动态变化？",
@@ -96,7 +87,7 @@
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
     "votes": "11",
-    "rank": 11
+    "rank": 10
   },
   {
     "title": "HPC、AI与云计算：当智能时代三叉戟在亚马逊云科技完美融合",
@@ -105,6 +96,15 @@
     "author": "六一",
     "home_url": "https://segmentfault.com/u/suicidal_romantic_scoundrel",
     "votes": "6",
+    "rank": 11
+  },
+  {
+    "title": "如何优雅地中断 Promise？来试试 AbortController 吧！",
+    "description": "欢迎大家来到 前端小课堂 的第五期，今天我们来聊一聊如何终止正在进行中的 Fetch 以及 Promise。文中会跟大家详细介绍这里面的两个关键知识点 AbortController 和 AbortSignal。对动手实践比较感兴趣的同学还可...",
+    "url": "https://segmentfault.com/a/1190000042447341",
+    "author": "dreamapplehappy",
+    "home_url": "https://segmentfault.com/u/dreamapplehappy",
+    "votes": "9",
     "rank": 12
   },
   {
@@ -189,31 +189,13 @@
     "rank": 21
   },
   {
-    "title": "如何优雅地中断 Promise？来试试 AbortController 吧！",
-    "description": "欢迎大家来到 前端小课堂 的第五期，今天我们来聊一聊如何终止正在进行中的 Fetch 以及 Promise。文中会跟大家详细介绍这里面的两个关键知识点 AbortController 和 AbortSignal。对动手实践比较感兴趣的同学还可...",
-    "url": "https://segmentfault.com/a/1190000042447341",
-    "author": "dreamapplehappy",
-    "home_url": "https://segmentfault.com/u/dreamapplehappy",
-    "votes": "8",
-    "rank": 22
-  },
-  {
     "title": "js 使用reduce方法合并两个对象数组，有则替换，无则新增",
     "description": "我们分析下A和B数组，A和B中都存在name=李四的对象，所以要替换，而B中的name=刘六A中不存在，所以要新增，话不多说，我们通过js的reduce方法来做，代码如下：",
     "url": "https://segmentfault.com/a/1190000042329366",
     "author": "Awbeci",
     "home_url": "https://segmentfault.com/u/awbeci",
     "votes": "7",
-    "rank": 23
-  },
-  {
-    "title": "Vue仿钉钉审批流程",
-    "description": "workflow钉钉审批流程设置workflow钉钉审批流程设置，基于vue开发。QQ交流群：639251756线上开源地址 https://github.com/StavinLi/Workflow github点个星吧！预览地址 https://stavinli.github.io/Workflow/dist...",
-    "url": "https://segmentfault.com/a/1190000042300972",
-    "author": "xiangzhihong",
-    "home_url": "https://segmentfault.com/u/xiangzhihong",
-    "votes": "7",
-    "rank": 24
+    "rank": 22
   },
   {
     "title": "在阿里做前端程序员，我是这样规划的",
@@ -222,7 +204,7 @@
     "author": "大淘宝技术",
     "home_url": "https://segmentfault.com/u/alibabataoxijishu",
     "votes": "9",
-    "rank": 25
+    "rank": 23
   },
   {
     "title": "精读《SolidJS》",
@@ -231,7 +213,7 @@
     "author": "黄子毅",
     "home_url": "https://segmentfault.com/u/aoyangyudakong",
     "votes": "5",
-    "rank": 26
+    "rank": 24
   },
   {
     "title": "有意思的方向裁切 overflow: clip",
@@ -240,16 +222,7 @@
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
     "votes": "5",
-    "rank": 27
-  },
-  {
-    "title": "🔬 一文搞懂前端兼容问题",
-    "description": "对于大部分开发者来说，版本兼容是一件存在感很低的事情，因为它在绝大部分情况下都是一行配置，在一些前端工具链（例如 Babel、CoreJS，Autoprefixer 等工具）的帮助下适配到目标浏览器，只会在一些大的 break c...",
-    "url": "https://segmentfault.com/a/1190000042301384",
-    "author": "卤代烃",
-    "home_url": "https://segmentfault.com/u/skychx",
-    "votes": "5",
-    "rank": 28
+    "rank": 25
   },
   {
     "title": "SegmentFault 思否技术周刊—关于 JavaScript 给你看点有用的！",
@@ -258,7 +231,7 @@
     "author": "Beverly",
     "home_url": "https://segmentfault.com/u/beverly0",
     "votes": "3",
-    "rank": 29
+    "rank": 26
   },
   {
     "title": "CodeForBetter_Hackathon，唤醒代码的力量",
@@ -267,6 +240,33 @@
     "author": "SegmentFault思否",
     "home_url": "https://segmentfault.com/u/segmentfault",
     "votes": "3",
+    "rank": 27
+  },
+  {
+    "title": "用Vue.js写一个命令行贪吃蛇游戏",
+    "description": "大家好,我是webfansplz.本文要分享的是如何使用Vue.js实现一个命令行贪吃蛇游戏(temir-snake-game).对于贪吃蛇游戏想必大家都不陌生了,使用Vue.js实现一个Web版的贪吃蛇游戏似乎没什么难度,那如果是命令行版的呢?...",
+    "url": "https://segmentfault.com/a/1190000042431217",
+    "author": "null仔",
+    "home_url": "https://segmentfault.com/u/xiaoqianduan_58b28cfebff36",
+    "votes": "5",
+    "rank": 28
+  },
+  {
+    "title": "谷歌总是找不到想要的内容？学会这14个技巧，立马就能找到",
+    "description": "微信搜索 【大迁世界】, 我会第一时间和你分享前端行业趋势，学习途径等等。本文 GitHub [链接] 已收录，有一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000042318628",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "5",
+    "rank": 29
+  },
+  {
+    "title": "拒绝加班:巧用前端电子表格中构建公式树",
+    "description": "还在为满屏的公式而“内牛满面”吗？还在为长串的公式解析而发愁吗？ 还在定位错误的公式而苦恼吗？上班要写代码，加班还要分析这又长又臭的公式。你的发际线还好吗？",
+    "url": "https://segmentfault.com/a/1190000042377267",
+    "author": "葡萄城技术团队",
+    "home_url": "https://segmentfault.com/u/grapecity",
+    "votes": "2",
     "rank": 30
   }
 ]
