@@ -5,8 +5,17 @@
     "url": "https://segmentfault.com/a/1190000042447341",
     "author": "dreamapplehappy",
     "home_url": "https://segmentfault.com/u/dreamapplehappy",
-    "votes": "9",
+    "votes": "10",
     "rank": 1
+  },
+  {
+    "title": "CSS transform、transition、animation 指南",
+    "description": "transform变换~ 复杂的变换参数。Transform 取值`none `初始值None 适用于除 “基元行内”框之外的所有元素 百分数相对范围框计算 计算值指定的值，不过相对长度值会计算为绝对长度 继承性否 动画性变形 坐标系1.1 ...",
+    "url": "https://segmentfault.com/a/1190000042443684",
+    "author": "散一群逗逼",
+    "home_url": "https://segmentfault.com/u/sanyiqundoubi",
+    "votes": "6",
+    "rank": 2
   },
   {
     "title": "用Vue.js写一个命令行贪吃蛇游戏",
@@ -15,7 +24,7 @@
     "author": "null仔",
     "home_url": "https://segmentfault.com/u/xiaoqianduan_58b28cfebff36",
     "votes": "5",
-    "rank": 2
+    "rank": 3
   },
   {
     "title": "使用 SVG 生成带标识的 favicon",
@@ -24,15 +33,6 @@
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
     "votes": "6",
-    "rank": 3
-  },
-  {
-    "title": "CSS transform、transition、animation 指南",
-    "description": "transform变换~ 复杂的变换参数。Transform 取值`none `初始值None 适用于除 “基元行内”框之外的所有元素 百分数相对范围框计算 计算值指定的值，不过相对长度值会计算为绝对长度 继承性否 动画性变形 坐标系1.1 ...",
-    "url": "https://segmentfault.com/a/1190000042443684",
-    "author": "散一群逗逼",
-    "home_url": "https://segmentfault.com/u/sanyiqundoubi",
-    "votes": "5",
     "rank": 4
   },
   {
@@ -54,22 +54,31 @@
     "rank": 6
   },
   {
-    "title": "内卷时代下的前端技术-使用JavaScript在浏览器中生成PDF文档",
-    "description": "在计量领域中，计量检定是一种重要形式，主要用于评定计量器具的计量性能，确定其量值是否准确一致，实现手段包括计量检验、出具检定证书和加封盖印等。在检定证书这一环节，存在一个难点，就是无法在线预览以及...",
-    "url": "https://segmentfault.com/a/1190000042451554",
-    "author": "葡萄城技术团队",
-    "home_url": "https://segmentfault.com/u/grapecity",
-    "votes": "1",
-    "rank": 7
-  },
-  {
     "title": "AI数字绘画 stable-diffusion 保姆级教程",
     "description": "简介————————近段时间来，你可能在不少地方都看到了非常多这样的好看的画。比如这样的赛博朋克风prompt: Cyberpunk, 8k resolution, castle, the rose sea, dream水墨画风格prompt: a watercolor ink painting of...",
     "url": "https://segmentfault.com/a/1190000042450560",
     "author": "程序员秋风",
     "home_url": "https://segmentfault.com/u/qiufeng_5a07f6cb96ee0",
     "votes": "3",
+    "rank": 7
+  },
+  {
+    "title": "SegmentFault 思否技术征文丨浅谈 Java 进阶之路",
+    "description": "亲爱的开发者们：大家好，我是 SegmentFault 思否的社区管理员思否小姐姐 ~ 我们的社区征文活动再次起航，这一次，想邀请作者们分享原创技术内容。将于 9-12 月会相继上线技术专题征文活动，征文方向包含 Java、C...",
+    "url": "https://segmentfault.com/a/1190000042453662",
+    "author": "SegmentFault思否",
+    "home_url": "https://segmentfault.com/u/segmentfault",
+    "votes": "5",
     "rank": 8
+  },
+  {
+    "title": "内卷时代下的前端技术-使用JavaScript在浏览器中生成PDF文档",
+    "description": "在计量领域中，计量检定是一种重要形式，主要用于评定计量器具的计量性能，确定其量值是否准确一致，实现手段包括计量检验、出具检定证书和加封盖印等。在检定证书这一环节，存在一个难点，就是无法在线预览以及...",
+    "url": "https://segmentfault.com/a/1190000042451554",
+    "author": "葡萄城技术团队",
+    "home_url": "https://segmentfault.com/u/grapecity",
+    "votes": "1",
+    "rank": 9
   },
   {
     "title": "开源 api 管理工具 V 1.6.0 发布：切换 Tab 不再担心数据丢失！",
@@ -78,7 +87,7 @@
     "author": "eoapi",
     "home_url": "https://segmentfault.com/u/jiangdaoyidechahu",
     "votes": "3",
-    "rank": 9
+    "rank": 10
   },
   {
     "title": "SegmentFault 2022 年社区周报 Vol.8",
@@ -87,7 +96,16 @@
     "author": "SegmentFault思否",
     "home_url": "https://segmentfault.com/u/segmentfault",
     "votes": "2",
-    "rank": 10
+    "rank": 11
+  },
+  {
+    "title": "package.json中的字段详解(来自于官方文档)",
+    "description": "module //定义主要入口点，专门为esm 提供，目的时 tree-shaking，没有时，找mainmain //定义主要入口点， esm和cjs提供。exports //定义多个入口点（推荐使用），优先级比上面两个高。为esm和cjs提供，在引入exp...",
+    "url": "https://segmentfault.com/a/1190000042435553",
+    "author": "寒水寺一禅",
+    "home_url": "https://segmentfault.com/u/xiaolizideyitian",
+    "votes": "3",
+    "rank": 12
   },
   {
     "title": "性能调优——小小的log大大的坑",
@@ -96,7 +114,7 @@
     "author": "咕咕鸡",
     "home_url": "https://segmentfault.com/u/guguji_fly",
     "votes": "1",
-    "rank": 11
+    "rank": 13
   },
   {
     "title": "在 Vue 中如何避免在动态绑定 类 出现空 类 的情况?",
@@ -105,7 +123,7 @@
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "3",
-    "rank": 12
+    "rank": 14
   },
   {
     "title": "SegmentFault 思否技术周刊 — 你对 Vue 了解多少？",
@@ -114,7 +132,7 @@
     "author": "Beverly",
     "home_url": "https://segmentfault.com/u/beverly0",
     "votes": "2",
-    "rank": 13
+    "rank": 15
   },
   {
     "title": "docker 和 dockerFile 介绍",
@@ -123,16 +141,7 @@
     "author": "weiewiyi",
     "home_url": "https://segmentfault.com/u/chenchu_6110ed583800c",
     "votes": "3",
-    "rank": 14
-  },
-  {
-    "title": "Dockerfile的初次使用",
-    "description": "比如我们在同时编写两个web项目，一个使用数据库为mysql：5.7，另一个使用的数据库为mysql：8.0，但是mysql并不支持同时在本地运行多个版本，那么当我们每次更换项目时都需要删除当前mysql=》安装所需mysql=》重...",
-    "url": "https://segmentfault.com/a/1190000042430705",
-    "author": "李明",
-    "home_url": "https://segmentfault.com/u/crister_612f55567eb8c",
-    "votes": "3",
-    "rank": 15
+    "rank": 16
   },
   {
     "title": "终于实现了一门属于自己的编程语言",
@@ -141,16 +150,16 @@
     "author": "crossoverJie",
     "home_url": "https://segmentfault.com/u/crossoverjie",
     "votes": "2",
-    "rank": 16
+    "rank": 17
   },
   {
-    "title": "package.json中的字段详解(来自于官方文档)",
-    "description": "module //定义主要入口点，专门为esm 提供，目的时 tree-shaking，没有时，找mainmain //定义主要入口点， esm和cjs提供。exports //定义多个入口点（推荐使用），优先级比上面两个高。为esm和cjs提供，在引入exp...",
-    "url": "https://segmentfault.com/a/1190000042435553",
-    "author": "寒水寺一禅",
-    "home_url": "https://segmentfault.com/u/xiaolizideyitian",
+    "title": "精读《依赖注入简介》",
+    "description": "原文按照 “如何解决无法做单测的问题、统一依赖注入的入口、如何自动保证依赖顺序正确、循环依赖怎么解决、自上而下 vs 自下而上编程思维” 的思路，将依赖注入从想法起点，到延伸出来的特性连贯的串了起来。",
+    "url": "https://segmentfault.com/a/1190000042431264",
+    "author": "黄子毅",
+    "home_url": "https://segmentfault.com/u/aoyangyudakong",
     "votes": "2",
-    "rank": 17
+    "rank": 18
   },
   {
     "title": "深入理解JavaScript-原型",
@@ -159,7 +168,7 @@
     "author": "山头人汉波",
     "home_url": "https://segmentfault.com/u/johanazhu",
     "votes": "3",
-    "rank": 18
+    "rank": 19
   },
   {
     "title": "手把手教你 Spring Boot 整合 Reactor",
@@ -168,7 +177,7 @@
     "author": "六七十三",
     "home_url": "https://segmentfault.com/u/prepared",
     "votes": "1",
-    "rank": 19
+    "rank": 20
   },
   {
     "title": "都2022年了，实时更新数据你还只会用短轮询?",
@@ -177,7 +186,16 @@
     "author": "进击的大葱",
     "home_url": "https://segmentfault.com/u/jinjidedacong",
     "votes": "1",
-    "rank": 20
+    "rank": 21
+  },
+  {
+    "title": "大家都能看得懂的源码之 ahooks useVirtualList 封装虚拟滚动列表",
+    "description": "本文是深入浅出 ahooks 源码系列文章的第十八篇，该系列已整理成文档-地址。觉得还不错，给个 star 支持一下哈，Thanks。简介提供虚拟化列表能力的 Hook，用于解决展示海量数据渲染时首屏渲染缓慢和滚动卡顿问题...",
+    "url": "https://segmentfault.com/a/1190000042447474",
+    "author": "Gopal",
+    "home_url": "https://segmentfault.com/u/fengguangping",
+    "votes": "2",
+    "rank": 22
   },
   {
     "title": "K8S 生态周报| Kubernetes v1.25.0 正式发布，新特性一览",
@@ -186,7 +204,7 @@
     "author": "张晋涛",
     "home_url": "https://segmentfault.com/u/moelove",
     "votes": "1",
-    "rank": 21
+    "rank": 23
   },
   {
     "title": "PHP-Parser 应用之扫描发现代码中的打印、输出结构语句",
@@ -195,7 +213,7 @@
     "author": "guanguans",
     "home_url": "https://segmentfault.com/u/guanguans",
     "votes": "1",
-    "rank": 22
+    "rank": 24
   },
   {
     "title": "最新抖音数据分析app爬虫",
@@ -203,24 +221,6 @@
     "url": "https://segmentfault.com/a/1190000042442463",
     "author": "平果",
     "home_url": "https://segmentfault.com/u/pingguo_62091d03673de",
-    "votes": "1",
-    "rank": 23
-  },
-  {
-    "title": "精读《依赖注入简介》",
-    "description": "原文按照 “如何解决无法做单测的问题、统一依赖注入的入口、如何自动保证依赖顺序正确、循环依赖怎么解决、自上而下 vs 自下而上编程思维” 的思路，将依赖注入从想法起点，到延伸出来的特性连贯的串了起来。",
-    "url": "https://segmentfault.com/a/1190000042431264",
-    "author": "黄子毅",
-    "home_url": "https://segmentfault.com/u/aoyangyudakong",
-    "votes": "1",
-    "rank": 24
-  },
-  {
-    "title": "为什么Vue（默认情况下）比React性能更好",
-    "description": "本文首发于微信公众号：大迁世界, 我的微信：qq449245884，我会第一时间和你分享前端行业趋势，学习途径等等。更多开源作品请看 GitHub [链接] ，包含一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000042421228",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
     "votes": "1",
     "rank": 25
   },
@@ -234,13 +234,22 @@
     "rank": 26
   },
   {
-    "title": "CommonJS模块 和 ECMAScript模块（来自官方文档）",
-    "description": "CommonJS模块(下面简称 cjs) 是为Node.js打包JavaScript代码的原始方法。使用 require 和 exports（module.exports的简写） 语句定义模块。 参见 nodejs cjsECMAScript模块(下面简称 esm)是ecma262标准下封装的Ja...",
-    "url": "https://segmentfault.com/a/1190000042443391",
-    "author": "寒水寺一禅",
-    "home_url": "https://segmentfault.com/u/xiaolizideyitian",
-    "votes": "2",
+    "title": "为什么Vue（默认情况下）比React性能更好",
+    "description": "本文首发于微信公众号：大迁世界, 我的微信：qq449245884，我会第一时间和你分享前端行业趋势，学习途径等等。更多开源作品请看 GitHub [链接] ，包含一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000042421228",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "1",
     "rank": 27
+  },
+  {
+    "title": "如何打造gitlab runner下可用的钉钉机器人",
+    "description": "gitlab runner运行完相关的测试或打包后，我们总想让它把结果实时主动的告知我们，这时候便需要一个钉钉机器人了。报着试试看的想法在docker hub上搜索，虽然找到了几个关键字相同的，但很遗憾这些作者都很懒，没...",
+    "url": "https://segmentfault.com/a/1190000042450397",
+    "author": "myskies",
+    "home_url": "https://segmentfault.com/u/myskies",
+    "votes": "1",
+    "rank": 28
   },
   {
     "title": "pip安装更换镜像",
@@ -249,24 +258,15 @@
     "author": "代码的路",
     "home_url": "https://segmentfault.com/u/zbzcdzf",
     "votes": "1",
-    "rank": 28
-  },
-  {
-    "title": "使用Jenkins优雅部署Java项目【超级详细的实战教程】",
-    "description": "环境准备centos 7Java 1.8Maven 3.6.3Docker 20.10.17Gitlab gitlab-ce:14.0.5-ce.0Jenkins 2.60.3（强烈建议，其他版本有坑）Jenkins相关依赖环境安装Java环境安装虽然我们是采用docker的方式安装Jenkins，所有...",
-    "url": "https://segmentfault.com/a/1190000042430957",
-    "author": "李博帅",
-    "home_url": "https://segmentfault.com/u/liboshuai",
-    "votes": "1",
     "rank": 29
   },
   {
-    "title": "大家都能看得懂的源码之 ahooks useVirtualList 封装虚拟滚动列表",
-    "description": "本文是深入浅出 ahooks 源码系列文章的第十八篇，该系列已整理成文档-地址。觉得还不错，给个 star 支持一下哈，Thanks。简介提供虚拟化列表能力的 Hook，用于解决展示海量数据渲染时首屏渲染缓慢和滚动卡顿问题...",
-    "url": "https://segmentfault.com/a/1190000042447474",
-    "author": "Gopal",
-    "home_url": "https://segmentfault.com/u/fengguangping",
-    "votes": "1",
+    "title": "CommonJS模块 和 ECMAScript模块（来自官方文档）",
+    "description": "CommonJS模块(下面简称 cjs) 是为Node.js打包JavaScript代码的原始方法。使用 require 和 exports（module.exports的简写） 语句定义模块。 参见 nodejs cjsECMAScript模块(下面简称 esm)是ecma262标准下封装的Ja...",
+    "url": "https://segmentfault.com/a/1190000042443391",
+    "author": "寒水寺一禅",
+    "home_url": "https://segmentfault.com/u/xiaolizideyitian",
+    "votes": "2",
     "rank": 30
   }
 ]
