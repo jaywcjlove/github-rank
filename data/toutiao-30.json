@@ -1,18 +1,8 @@
 [
   {
-    "title": "聊聊 13 种锁的实现方式",
-    "description": "大家好，我是Tom哥。最近有很多小伙伴给我留言，分布式系统时代，线程并发，资源抢占，\"锁\" 慢慢变得很重要。那么常见的锁都有哪些？今天Tom哥就和大家简单聊聊这个话题1、悲观锁正如...",
-    "votes": "106",
-    "url": "/k/wcwg3fn",
-    "avatar": "https://img.toutiao.io/subject/e62c1664abed48848efc89141ae64112/thumb",
-    "avatarAlt": "微观技术 - 独家号",
-    "subjectName": "微观技术",
-    "homeUrl": "/subjects/348507"
-  },
-  {
     "title": "1.8w 字的 SQL 优化大全",
     "description": "↓推荐关注↓分享一篇关于SQL优化的硬核文章，全文有点长，建议收藏后慢慢看。很多朋友在做数据分析时，分析两分钟，跑数两小时？在使用SQL过程中不仅要关注数据结果，同样要注意SQL语...",
-    "votes": "92",
+    "votes": "114",
     "url": "/k/tz7p6nl",
     "avatar": "https://img.toutiao.io/subject/ca32be3cbe13422a9fc08989bf5378d9/thumb",
     "avatarAlt": "文不落 - 独家号",
@@ -32,7 +22,7 @@
   {
     "title": "Redis高可用方案",
     "description": "鉴于上一篇文章提出了，Redis的性能瓶颈在于内存和网络IO上，针对内存上的性能瓶颈，Redis总共采用了三种技术方案，分别是增加内存、内存淘汰策略以及集群。集群不仅解决了内存瓶颈...",
-    "votes": "84",
+    "votes": "87",
     "url": "/k/3hh68yl",
     "avatar": "https://img.toutiao.io/subject/d165ed853e794176806a8cdf2e343338/thumb",
     "avatarAlt": "林晓编程 - 独家号",
@@ -42,7 +32,7 @@
   {
     "title": "公司40k招的架构师写的API网关选型总结，就是牛逼！",
     "description": "文章来源：https://developer.aliyun.com/article/889271?spm=a2c6h.13262185.profile.26.c3a25a75TpX...",
-    "votes": "79",
+    "votes": "81",
     "url": "/k/kyi9yzt",
     "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
     "avatarAlt": "Bloomingroses - 独家号",
@@ -52,7 +42,7 @@
   {
     "title": "Java线上CPU内存冲高问题排查步骤",
     "description": "作者：茂茂的小破号链接：https://www.jianshu.com/p/801ecfb441131 引言作为一名从事Java开发快一年的程序员，在线上经常碰到某个模块的Pod发...",
-    "votes": "74",
+    "votes": "75",
     "url": "/k/t9sj17s",
     "avatar": "https://img.toutiao.io/subject/ca32be3cbe13422a9fc08989bf5378d9/thumb",
     "avatarAlt": "文不落 - 独家号",
@@ -140,16 +130,6 @@
     "homeUrl": "/subjects/132403"
   },
   {
-    "title": "MySQL 单表不要超过 2000W 行，靠谱吗？",
-    "description": "八股文网站：xiaolincoding.com作为在后端圈开车的多年老司机，是不是经常听到过：“MySQL 单表最好不要超过 2000w”“单表超过 2000w 就要考虑数据迁移了...",
-    "votes": "61",
-    "url": "/k/vke55xi",
-    "avatar": "https://img.toutiao.io/subject/c1103a714a594e4eafc17c5c14cbab4d/thumb",
-    "avatarAlt": "小渣的独家号 - 独家号",
-    "subjectName": "小渣的独家号",
-    "homeUrl": "/subjects/476437"
-  },
-  {
     "title": "面向对象分析与设计的底层逻辑",
     "description": "01面向对象是符合人认识事物的基本方法Aliware01人是怎么认识事物的在面向对象出现之前，已有面向过程的分析方法，为什么面向对象被提出了呢？究其本质原因，人们发现面向过程并不是...",
     "votes": "57",
@@ -212,7 +192,7 @@
   {
     "title": "SQL优化万能公式：5 大步骤 + 10 个案例",
     "description": "",
-    "votes": "51",
+    "votes": "54",
     "url": "/k/4p8xa6s",
     "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
     "avatarAlt": "Bloomingroses - 独家号",
@@ -240,13 +220,33 @@
     "homeUrl": "/subjects/194141"
   },
   {
-    "title": "Java性能优化的七个方向",
-    "description": "",
+    "title": "Kafka 面试连环炮, 看你能撑到哪一步?",
+    "description": "本系列总共4万多字，本篇是中篇，阅读本文大约需要 40 分钟。大家好，我是华仔, 又跟大家见面了。之前有粉丝留言说能否总结和分享一些 Kafka 相关的面试题。今天我们就来安排一期...",
+    "votes": "50",
+    "url": "/k/kd4d4fd",
+    "avatar": "https://img.toutiao.io/subject/c1103a714a594e4eafc17c5c14cbab4d/thumb",
+    "avatarAlt": "小渣的独家号 - 独家号",
+    "subjectName": "小渣的独家号",
+    "homeUrl": "/subjects/476437"
+  },
+  {
+    "title": "全网最通透：MySQL 的 redo log 保证数据不丢的原理",
+    "description": "欢迎关注公众号：柳双六总会有面试官问：你知道 MySQL 如何保障数据不丢的吗？实际上这个问题是十分不准确的，MySQL 保障数据不丢的手段可太多了。但通常面试官想听的内容就是 r...",
+    "votes": "50",
+    "url": "/k/1x2qzr6",
+    "avatar": "https://img.toutiao.io/subject/8f429c7a4ecb45c8a8df0c62c5514b8f/thumb",
+    "avatarAlt": "柳双六 - 独家号",
+    "subjectName": "柳双六",
+    "homeUrl": "/subjects/386862"
+  },
+  {
+    "title": "美团二面：加密后的数据如何进行模糊查询",
+    "description": "点击关注公众号，Java干货及时送达我们知道加密后的数据对模糊查询不是很友好，本篇就针对加密数据模糊查询这个问题来展开讲一讲实现的思路，希望对大家有所启发。为了数据安全我们在开发过...",
     "votes": "46",
-    "url": "/k/yjkn4py",
-    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
-    "avatarAlt": "进击的程序猿 - 独家号",
-    "subjectName": "进击的程序猿",
-    "homeUrl": "/subjects/24912"
+    "url": "/k/4vaukpl",
+    "avatar": "https://img.toutiao.io/user/1f0807c2736a43e1b169599572bf4dcf/thumb",
+    "avatarAlt": "zeng1994 - 独家号",
+    "subjectName": "zeng1994",
+    "homeUrl": "/subjects/475601"
   }
 ]
