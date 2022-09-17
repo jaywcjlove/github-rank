@@ -2,7 +2,7 @@
   {
     "title": "1.8w 字的 SQL 优化大全",
     "description": "↓推荐关注↓分享一篇关于SQL优化的硬核文章，全文有点长，建议收藏后慢慢看。很多朋友在做数据分析时，分析两分钟，跑数两小时？在使用SQL过程中不仅要关注数据结果，同样要注意SQL语...",
-    "votes": "114",
+    "votes": "129",
     "url": "/k/tz7p6nl",
     "avatar": "https://img.toutiao.io/subject/ca32be3cbe13422a9fc08989bf5378d9/thumb",
     "avatarAlt": "文不落 - 独家号",
@@ -12,7 +12,7 @@
   {
     "title": "Redis高可用方案",
     "description": "鉴于上一篇文章提出了，Redis的性能瓶颈在于内存和网络IO上，针对内存上的性能瓶颈，Redis总共采用了三种技术方案，分别是增加内存、内存淘汰策略以及集群。集群不仅解决了内存瓶颈...",
-    "votes": "87",
+    "votes": "94",
     "url": "/k/3hh68yl",
     "avatar": "https://img.toutiao.io/subject/d165ed853e794176806a8cdf2e343338/thumb",
     "avatarAlt": "林晓编程 - 独家号",
@@ -20,19 +20,9 @@
     "homeUrl": "/subjects/242088"
   },
   {
-    "title": "常见分布式系统设计图解",
-    "description": "",
-    "votes": "66",
-    "url": "/k/osewvaz",
-    "avatar": "https://img.toutiao.io/subject/ae2b74c589814b769c1bebad92c2fb9a/thumb",
-    "avatarAlt": "架构之美 - 独家号",
-    "subjectName": "架构之美",
-    "homeUrl": "/subjects/42200"
-  },
-  {
     "title": "如何设计一个消息中心",
     "description": "如今的内容型产品，不管提供的是什么类型的内容，在其主功能之外，不可避免的会有另一个十分重要的功能——消息中心。而无论是信息流、论坛、信箱，还是私聊、群聊、通知，推拉模型是内容型（包...",
-    "votes": "38",
+    "votes": "40",
     "url": "/k/yxnahvt",
     "avatar": "https://img.toutiao.io/subject/f49e289c00224ce994449b70f3c6cd5c/thumb",
     "avatarAlt": "二进制 - 独家号",
@@ -40,9 +30,19 @@
     "homeUrl": "/subjects/381811"
   },
   {
+    "title": "2022 年了，我才开始学 TypeScript ，晚吗？（7.5k字总结）",
+    "description": "前言  其实早在初学前端时，就有大致了解过 typescript ,但后面工作中基本 vue2 开发为主，所以真正能够接触到 typescript 的机会其实并不多。尽管在某些间歇...",
+    "votes": "35",
+    "url": "/k/7ppg48s",
+    "avatar": "https://img.toutiao.io/subject/7950b62a884849aaaa2c7d9fb03f3051/thumb",
+    "avatarAlt": "前端智能化 - 独家号",
+    "subjectName": "前端智能化",
+    "homeUrl": "/subjects/7076"
+  },
+  {
     "title": "用代码画时序图！YYDS",
     "description": "前言 大家好，我是捡田螺的小男孩。最近通过代码来画时序图，UML用例图，感觉很不错，所以给大家分享一下。日常开发，一般在设计阶段，我们都需要画时序图、用例图等等。大家平时画图的时候...",
-    "votes": "33",
+    "votes": "34",
     "url": "/k/43k0d0b",
     "avatar": "https://img.toutiao.io/subject/5677c886e56b479194e85580c577d68a/thumb",
     "avatarAlt": "编程爱好者(网络编程) - 独家号",
@@ -52,7 +52,7 @@
   {
     "title": "字节二面：Redis 的大 Key 对持久化有什么影响？",
     "description": "",
-    "votes": "29",
+    "votes": "31",
     "url": "/k/dwzvr51",
     "avatar": "https://img.toutiao.io/subject/5677c886e56b479194e85580c577d68a/thumb",
     "avatarAlt": "编程爱好者(网络编程) - 独家号",
@@ -60,19 +60,9 @@
     "homeUrl": "/subjects/134283"
   },
   {
-    "title": "2022 年了，我才开始学 TypeScript ，晚吗？（7.5k字总结）",
-    "description": "前言  其实早在初学前端时，就有大致了解过 typescript ,但后面工作中基本 vue2 开发为主，所以真正能够接触到 typescript 的机会其实并不多。尽管在某些间歇...",
-    "votes": "31",
-    "url": "/k/7ppg48s",
-    "avatar": "https://img.toutiao.io/subject/7950b62a884849aaaa2c7d9fb03f3051/thumb",
-    "avatarAlt": "前端智能化 - 独家号",
-    "subjectName": "前端智能化",
-    "homeUrl": "/subjects/7076"
-  },
-  {
     "title": "分布式中灰度方案实践",
     "description": "让请求在导航的服务节上点执行；一、背景简介分布式系统中会存在这样的开发场景，不同需求可能涉及到对同一个服务的开发，那么该服务在研发期间就会存在多个版本并行的状态，为了保持不同版本之...",
-    "votes": "32",
+    "votes": "34",
     "url": "/k/jpnejcx",
     "avatar": "https://img.toutiao.io/subject/b82e66f0d4464d78b30e0db3cfad0dd8/thumb",
     "avatarAlt": "知了一笑 - 独家号",
@@ -80,19 +70,9 @@
     "homeUrl": "/subjects/416733"
   },
   {
-    "title": "面试官：如果你是双十一技术负责人，你要怎么准备？",
-    "description": "",
-    "votes": "30",
-    "url": "/k/wsy1c4f",
-    "avatar": "https://img.toutiao.io/subject/c1103a714a594e4eafc17c5c14cbab4d/thumb",
-    "avatarAlt": "小渣的独家号 - 独家号",
-    "subjectName": "小渣的独家号",
-    "homeUrl": "/subjects/476437"
-  },
-  {
     "title": "面试25k职位遇到的线程池8连问，能答出来算你狠！",
     "description": "",
-    "votes": "30",
+    "votes": "31",
     "url": "/k/hecj2ay",
     "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
     "avatarAlt": "Bloomingroses - 独家号",
@@ -100,10 +80,20 @@
     "homeUrl": "/subjects/98777"
   },
   {
-    "title": "40 个 SpringBoot 常用注解：让生产力爆表！",
+    "title": "今天不写代码，聊聊热门的知识图谱技术",
+    "description": "哈喽大家好啊，我是Hydra。前一段时间，boss交给我个任务，让我调研一下知识图谱技术。虽说有点NLP的底子，不过研究起这个来还是满头的包，终于还是在搜集了不少资料后划拉出来50...",
+    "votes": "26",
+    "url": "/k/xcu8n0i",
+    "avatar": "https://img.toutiao.io/subject/d958b6b7b252470c838a8189621b3709/thumb",
+    "avatarAlt": "码农参上 - 独家号",
+    "subjectName": "码农参上",
+    "homeUrl": "/subjects/457899"
+  },
+  {
+    "title": "万字长文，SpringSecurity实现权限系统设计",
     "description": "",
-    "votes": "23",
-    "url": "/k/240u1hm",
+    "votes": "27",
+    "url": "/k/rb5lzmf",
     "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
     "avatarAlt": "浪客用react,java全栈 - 独家号",
     "subjectName": "浪客用react,java全栈",
@@ -112,7 +102,7 @@
   {
     "title": "理想汽车：从 Hadoop 到云原生的演进与思考",
     "description": "",
-    "votes": "25",
+    "votes": "30",
     "url": "/k/0sa2v7o",
     "avatar": "https://img.toutiao.io/user/91863e9380904cf58de389d6802a455e/thumb",
     "avatarAlt": "JuiceFS的独家号 - 独家号",
@@ -120,19 +110,19 @@
     "homeUrl": "/subjects/464469"
   },
   {
-    "title": "​Mysql数据库查询好慢，除了索引，还能因为什么？",
+    "title": "40 个 SpringBoot 常用注解：让生产力爆表！",
     "description": "",
-    "votes": "21",
-    "url": "/k/ilhqqss",
-    "avatar": "https://img.toutiao.io/subject/5677c886e56b479194e85580c577d68a/thumb",
-    "avatarAlt": "编程爱好者(网络编程) - 独家号",
-    "subjectName": "编程爱好者(网络编程)",
-    "homeUrl": "/subjects/134283"
+    "votes": "24",
+    "url": "/k/240u1hm",
+    "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
+    "avatarAlt": "浪客用react,java全栈 - 独家号",
+    "subjectName": "浪客用react,java全栈",
+    "homeUrl": "/subjects/132403"
   },
   {
     "title": "深入单机TCP服务器最大连接数",
     "description": "",
-    "votes": "23",
+    "votes": "27",
     "url": "/k/dnvio2b",
     "avatar": "https://img.toutiao.io/subject/2633bd8663d9433fb04f0dea81cb2ec2/thumb",
     "avatarAlt": "sunsky303 - 独家号",
@@ -142,7 +132,7 @@
   {
     "title": "我有 7 种实现 Web 实时消息推送的方案，7种！",
     "description": "",
-    "votes": "16",
+    "votes": "19",
     "url": "/k/ciew6jm",
     "avatar": "https://img.toutiao.io/subject/c1103a714a594e4eafc17c5c14cbab4d/thumb",
     "avatarAlt": "小渣的独家号 - 独家号",
@@ -150,19 +140,9 @@
     "homeUrl": "/subjects/476437"
   },
   {
-    "title": "从 4 个方面分析 epoll 的实现原理",
-    "description": "",
-    "votes": "19",
-    "url": "/k/fwrqrgj",
-    "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
-    "avatarAlt": "服务架构及中台 - 独家号",
-    "subjectName": "服务架构及中台",
-    "homeUrl": "/subjects/26578"
-  },
-  {
     "title": "缓存和数据库一致性问题，看这篇就够了",
     "description": "",
-    "votes": "17",
+    "votes": "20",
     "url": "/k/qjqpgy8",
     "avatar": "https://img.toutiao.io/subject/df70c5d3876241ecba5984356133ab23/thumb",
     "avatarAlt": "架构必知必会 - 独家号",
@@ -172,7 +152,7 @@
   {
     "title": "微服务架构的演进",
     "description": "",
-    "votes": "23",
+    "votes": "26",
     "url": "/k/x6q7qad",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -182,7 +162,7 @@
   {
     "title": "MYSQL 最朴素的监控方式",
     "description": "",
-    "votes": "20",
+    "votes": "22",
     "url": "/k/j3cybib",
     "avatar": "https://img.toutiao.io/subject/5677c886e56b479194e85580c577d68a/thumb",
     "avatarAlt": "编程爱好者(网络编程) - 独家号",
@@ -190,13 +170,33 @@
     "homeUrl": "/subjects/134283"
   },
   {
-    "title": "干货 ｜超详细安全知识框架推荐",
-    "description": "收集、归纳、分享 我认为这是知识学习的\"三板斧\"收集,很好理解,比如收集各种学习的资源,看过的论文、文章,和各种工具归纳,或者说是总结与分类,将自己学习过程中的心得体会记载下来,写...",
-    "votes": "18",
-    "url": "/k/mwvgraj",
-    "avatar": "https://img.toutiao.io/subject/378e77470970490b9e51050078d80e34/thumb",
-    "avatarAlt": "安全屋 - 独家号",
-    "subjectName": "安全屋",
-    "homeUrl": "/subjects/27565"
+    "title": "没有几十年功力，写不出这一行“看似无用”的代码！！",
+    "description": "这篇文章要从一个奇怪的注释说起，就是下面这张图：我们可以不用管具体的代码逻辑，只是单单看这个 for 循环。在循环里面，专门有个变量 j，来记录当前循环次数。第一次循环以及往后每 ...",
+    "votes": "25",
+    "url": "/k/ce2ftdl",
+    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
+  },
+  {
+    "title": "​Mysql数据库查询好慢，除了索引，还能因为什么？",
+    "description": "",
+    "votes": "22",
+    "url": "/k/ilhqqss",
+    "avatar": "https://img.toutiao.io/subject/5677c886e56b479194e85580c577d68a/thumb",
+    "avatarAlt": "编程爱好者(网络编程) - 独家号",
+    "subjectName": "编程爱好者(网络编程)",
+    "homeUrl": "/subjects/134283"
+  },
+  {
+    "title": "接口流量突增，如何做好性能优化？",
+    "description": "大家好，我是不才陈某~对于提供接口服务的应用来说，很多都是用 SpringBoot 默认的 Servlet 容器 Tomcat。在一开始上线的时候，由于大多数流量较小，我们也并不会...",
+    "votes": "22",
+    "url": "/k/035vsl0",
+    "avatar": "https://img.toutiao.io/subject/ca32be3cbe13422a9fc08989bf5378d9/thumb",
+    "avatarAlt": "文不落 - 独家号",
+    "subjectName": "文不落",
+    "homeUrl": "/subjects/113701"
   }
 ]

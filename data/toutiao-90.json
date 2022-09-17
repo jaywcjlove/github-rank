@@ -2,7 +2,7 @@
   {
     "title": "3000帧动画图解MySQL为什么需要binlog、redo log和undo log",
     "description": "全文建立在MySQL的存储引擎为InnoDB的基础上先看一条SQL如何入库的：这是一条很简单的更新SQL，从MySQL服务端接收到SQL到落盘，先后经过了MySQL Server层...",
-    "votes": "208",
+    "votes": "209",
     "url": "/k/b0g4460",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -30,6 +30,16 @@
     "homeUrl": "/subjects/26578"
   },
   {
+    "title": "1.8w 字的 SQL 优化大全",
+    "description": "↓推荐关注↓分享一篇关于SQL优化的硬核文章，全文有点长，建议收藏后慢慢看。很多朋友在做数据分析时，分析两分钟，跑数两小时？在使用SQL过程中不仅要关注数据结果，同样要注意SQL语...",
+    "votes": "129",
+    "url": "/k/tz7p6nl",
+    "avatar": "https://img.toutiao.io/subject/ca32be3cbe13422a9fc08989bf5378d9/thumb",
+    "avatarAlt": "文不落 - 独家号",
+    "subjectName": "文不落",
+    "homeUrl": "/subjects/113701"
+  },
+  {
     "title": "阿里云官方 Redis 开发规范！",
     "description": "",
     "votes": "115",
@@ -38,16 +48,6 @@
     "avatarAlt": "进击的程序猿 - 独家号",
     "subjectName": "进击的程序猿",
     "homeUrl": "/subjects/24912"
-  },
-  {
-    "title": "1.8w 字的 SQL 优化大全",
-    "description": "↓推荐关注↓分享一篇关于SQL优化的硬核文章，全文有点长，建议收藏后慢慢看。很多朋友在做数据分析时，分析两分钟，跑数两小时？在使用SQL过程中不仅要关注数据结果，同样要注意SQL语...",
-    "votes": "114",
-    "url": "/k/tz7p6nl",
-    "avatar": "https://img.toutiao.io/subject/ca32be3cbe13422a9fc08989bf5378d9/thumb",
-    "avatarAlt": "文不落 - 独家号",
-    "subjectName": "文不落",
-    "homeUrl": "/subjects/113701"
   },
   {
     "title": "聊聊 13 种锁的实现方式",
@@ -100,6 +100,16 @@
     "homeUrl": "/subjects/132403"
   },
   {
+    "title": "Redis高可用方案",
+    "description": "鉴于上一篇文章提出了，Redis的性能瓶颈在于内存和网络IO上，针对内存上的性能瓶颈，Redis总共采用了三种技术方案，分别是增加内存、内存淘汰策略以及集群。集群不仅解决了内存瓶颈...",
+    "votes": "94",
+    "url": "/k/3hh68yl",
+    "avatar": "https://img.toutiao.io/subject/d165ed853e794176806a8cdf2e343338/thumb",
+    "avatarAlt": "林晓编程 - 独家号",
+    "subjectName": "林晓编程",
+    "homeUrl": "/subjects/242088"
+  },
+  {
     "title": "微服务接口设计原则",
     "description": "本文结合自身后台开发经验，从高可用、高性能、易维护和低风险（安全）角度出发，尝试总结业界常见微服务接口设计原则，帮助大家设计出优秀的微服务。1.前言微服务是一种系统架构风格，是 S...",
     "votes": "96",
@@ -112,7 +122,7 @@
   {
     "title": "高并发，你真的理解透彻了吗？",
     "description": "",
-    "votes": "91",
+    "votes": "92",
     "url": "/k/93k2zfb",
     "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
     "avatarAlt": "浪客用react,java全栈 - 独家号",
@@ -140,16 +150,6 @@
     "homeUrl": "/subjects/98777"
   },
   {
-    "title": "Redis高可用方案",
-    "description": "鉴于上一篇文章提出了，Redis的性能瓶颈在于内存和网络IO上，针对内存上的性能瓶颈，Redis总共采用了三种技术方案，分别是增加内存、内存淘汰策略以及集群。集群不仅解决了内存瓶颈...",
-    "votes": "87",
-    "url": "/k/3hh68yl",
-    "avatar": "https://img.toutiao.io/subject/d165ed853e794176806a8cdf2e343338/thumb",
-    "avatarAlt": "林晓编程 - 独家号",
-    "subjectName": "林晓编程",
-    "homeUrl": "/subjects/242088"
-  },
-  {
     "title": "团队一盘散沙，怎么破？",
     "description": "原创不易，求分享、求一键三连最近有个粉丝问了一道大题：小钗，我最近空降到一个小公司做技术负责人，感觉团队士气很低，同学们要么有力无处使，要么常规摸鱼，这种一盘散沙的团队该如何带呢？...",
     "votes": "92",
@@ -162,7 +162,7 @@
   {
     "title": "公司40k招的架构师写的API网关选型总结，就是牛逼！",
     "description": "文章来源：https://developer.aliyun.com/article/889271?spm=a2c6h.13262185.profile.26.c3a25a75TpX...",
-    "votes": "81",
+    "votes": "82",
     "url": "/k/kyi9yzt",
     "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
     "avatarAlt": "Bloomingroses - 独家号",
@@ -202,7 +202,7 @@
   {
     "title": "SpringBoot 官方强烈推荐，连接池，太快了！",
     "description": "大家好，现在介绍一款非常强大，高效，并且号称“史上最快连接池”。由此可见他是有多受人喜欢，并且在SpringBoot2.0之后，采用的默认数据库连接池就是Hikari。我们知道的连...",
-    "votes": "73",
+    "votes": "74",
     "url": "/k/zumxh7v",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -230,6 +230,16 @@
     "homeUrl": "/subjects/205186"
   },
   {
+    "title": "常见分布式系统设计图解",
+    "description": "",
+    "votes": "70",
+    "url": "/k/osewvaz",
+    "avatar": "https://img.toutiao.io/subject/ae2b74c589814b769c1bebad92c2fb9a/thumb",
+    "avatarAlt": "架构之美 - 独家号",
+    "subjectName": "架构之美",
+    "homeUrl": "/subjects/42200"
+  },
+  {
     "title": "【大厂面试真题解析】虾皮 Shopee 后端一面十四问",
     "description": "",
     "votes": "73",
@@ -238,15 +248,5 @@
     "avatarAlt": "ASCE1885 - 独家号",
     "subjectName": "ASCE1885",
     "homeUrl": "/subjects/4829"
-  },
-  {
-    "title": "服务端监控架构设计与实践",
-    "description": "作者：vivo互联网服务器团队-Deng Haibo一、业务背景当今时代处在信息大爆发的时代，信息借助互联网的潮流在全球自由的流动，产生了各式各样的平台系统和软件系统，越来越多的业...",
-    "votes": "70",
-    "url": "/k/xhwa9mo",
-    "avatar": "https://img.toutiao.io/subject/ae2b74c589814b769c1bebad92c2fb9a/thumb",
-    "avatarAlt": "架构之美 - 独家号",
-    "subjectName": "架构之美",
-    "homeUrl": "/subjects/42200"
   }
 ]
