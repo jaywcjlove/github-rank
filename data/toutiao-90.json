@@ -22,7 +22,7 @@
   {
     "title": "1.8w 字的 SQL 优化大全",
     "description": "↓推荐关注↓分享一篇关于SQL优化的硬核文章，全文有点长，建议收藏后慢慢看。很多朋友在做数据分析时，分析两分钟，跑数两小时？在使用SQL过程中不仅要关注数据结果，同样要注意SQL语...",
-    "votes": "141",
+    "votes": "149",
     "url": "/k/tz7p6nl",
     "avatar": "https://img.toutiao.io/subject/ca32be3cbe13422a9fc08989bf5378d9/thumb",
     "avatarAlt": "文不落 - 独家号",
@@ -32,7 +32,7 @@
   {
     "title": "全网最全的权限系统设计方案（图解）",
     "description": "",
-    "votes": "142",
+    "votes": "143",
     "url": "/k/lozkmee",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -52,7 +52,7 @@
   {
     "title": "聊聊 13 种锁的实现方式",
     "description": "大家好，我是Tom哥。最近有很多小伙伴给我留言，分布式系统时代，线程并发，资源抢占，\"锁\" 慢慢变得很重要。那么常见的锁都有哪些？今天Tom哥就和大家简单聊聊这个话题1、悲观锁正如...",
-    "votes": "106",
+    "votes": "107",
     "url": "/k/wcwg3fn",
     "avatar": "https://img.toutiao.io/subject/e62c1664abed48848efc89141ae64112/thumb",
     "avatarAlt": "微观技术 - 独家号",
@@ -62,7 +62,7 @@
   {
     "title": "Redis高可用方案",
     "description": "鉴于上一篇文章提出了，Redis的性能瓶颈在于内存和网络IO上，针对内存上的性能瓶颈，Redis总共采用了三种技术方案，分别是增加内存、内存淘汰策略以及集群。集群不仅解决了内存瓶颈...",
-    "votes": "100",
+    "votes": "102",
     "url": "/k/3hh68yl",
     "avatar": "https://img.toutiao.io/subject/d165ed853e794176806a8cdf2e343338/thumb",
     "avatarAlt": "林晓编程 - 独家号",
@@ -82,7 +82,7 @@
   {
     "title": "聊聊Java中代码优化的30个小技巧",
     "description": "大家好，我是苏三，又跟大家见面了。前言我之前写过两篇关于优化相关的问题：《聊聊sql优化的15个小技巧》和《聊聊接口性能优化的11个小技巧》，发表之后，在全网受到广大网友的好评。阅...",
-    "votes": "102",
+    "votes": "103",
     "url": "/k/jv8g1r6",
     "avatar": "https://img.toutiao.io/subject/0a66350d491141748ab4dd49be144252/thumb",
     "avatarAlt": "苏三说技术 - 独家号",
@@ -102,7 +102,7 @@
   {
     "title": "京东面试：MQ 消息丢失、重复、积压问题，如何解决？",
     "description": "",
-    "votes": "98",
+    "votes": "99",
     "url": "/k/1unx53z",
     "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
     "avatarAlt": "浪客用react,java全栈 - 独家号",
@@ -142,7 +142,7 @@
   {
     "title": "什么是顶级的思维？",
     "description": "分享几个非常适合职场人的顶级思维1、麦肯锡七步成诗：解决问题的7个步骤ProcessOn模板社区-麦肯锡解决问题的七个步骤2、SWOT分析法：基于竞争环境和竞争条件的态势分析3、T...",
-    "votes": "83",
+    "votes": "84",
     "url": "/k/ulqvlcd",
     "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
     "avatarAlt": "Bloomingroses - 独家号",
@@ -170,6 +170,16 @@
     "homeUrl": "/subjects/98777"
   },
   {
+    "title": "Java线上CPU内存冲高问题排查步骤",
+    "description": "作者：茂茂的小破号链接：https://www.jianshu.com/p/801ecfb441131 引言作为一名从事Java开发快一年的程序员，在线上经常碰到某个模块的Pod发...",
+    "votes": "76",
+    "url": "/k/t9sj17s",
+    "avatar": "https://img.toutiao.io/subject/ca32be3cbe13422a9fc08989bf5378d9/thumb",
+    "avatarAlt": "文不落 - 独家号",
+    "subjectName": "文不落",
+    "homeUrl": "/subjects/113701"
+  },
+  {
     "title": "研发过程中的文档管理与工具",
     "description": "写文档也是技术活01：实践对于多数开发同学来说，很多时候即讨厌没有研发文档，但是自己又不愿意常写文档，痛且倔强着；程序员该不该写文档，与争论哪种编程语言最好一样，想撕的嘴不留情，该...",
     "votes": "85",
@@ -178,16 +188,6 @@
     "avatarAlt": "知了一笑 - 独家号",
     "subjectName": "知了一笑",
     "homeUrl": "/subjects/416733"
-  },
-  {
-    "title": "Java线上CPU内存冲高问题排查步骤",
-    "description": "作者：茂茂的小破号链接：https://www.jianshu.com/p/801ecfb441131 引言作为一名从事Java开发快一年的程序员，在线上经常碰到某个模块的Pod发...",
-    "votes": "75",
-    "url": "/k/t9sj17s",
-    "avatar": "https://img.toutiao.io/subject/ca32be3cbe13422a9fc08989bf5378d9/thumb",
-    "avatarAlt": "文不落 - 独家号",
-    "subjectName": "文不落",
-    "homeUrl": "/subjects/113701"
   },
   {
     "title": "聊聊数据库建表的15个小技巧",
