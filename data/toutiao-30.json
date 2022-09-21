@@ -2,7 +2,7 @@
   {
     "title": "1.8w 字的 SQL 优化大全",
     "description": "↓推荐关注↓分享一篇关于SQL优化的硬核文章，全文有点长，建议收藏后慢慢看。很多朋友在做数据分析时，分析两分钟，跑数两小时？在使用SQL过程中不仅要关注数据结果，同样要注意SQL语...",
-    "votes": "149",
+    "votes": "150",
     "url": "/k/tz7p6nl",
     "avatar": "https://img.toutiao.io/subject/ca32be3cbe13422a9fc08989bf5378d9/thumb",
     "avatarAlt": "文不落 - 独家号",
@@ -12,7 +12,7 @@
   {
     "title": "Redis高可用方案",
     "description": "鉴于上一篇文章提出了，Redis的性能瓶颈在于内存和网络IO上，针对内存上的性能瓶颈，Redis总共采用了三种技术方案，分别是增加内存、内存淘汰策略以及集群。集群不仅解决了内存瓶颈...",
-    "votes": "102",
+    "votes": "104",
     "url": "/k/3hh68yl",
     "avatar": "https://img.toutiao.io/subject/d165ed853e794176806a8cdf2e343338/thumb",
     "avatarAlt": "林晓编程 - 独家号",
@@ -40,14 +40,14 @@
     "homeUrl": "/subjects/98777"
   },
   {
-    "title": "Java线上CPU内存冲高问题排查步骤",
-    "description": "作者：茂茂的小破号链接：https://www.jianshu.com/p/801ecfb441131 引言作为一名从事Java开发快一年的程序员，在线上经常碰到某个模块的Pod发...",
-    "votes": "76",
-    "url": "/k/t9sj17s",
-    "avatar": "https://img.toutiao.io/subject/ca32be3cbe13422a9fc08989bf5378d9/thumb",
-    "avatarAlt": "文不落 - 独家号",
-    "subjectName": "文不落",
-    "homeUrl": "/subjects/113701"
+    "title": "常见分布式系统设计图解",
+    "description": "",
+    "votes": "75",
+    "url": "/k/osewvaz",
+    "avatar": "https://img.toutiao.io/subject/ae2b74c589814b769c1bebad92c2fb9a/thumb",
+    "avatarAlt": "架构之美 - 独家号",
+    "subjectName": "架构之美",
+    "homeUrl": "/subjects/42200"
   },
   {
     "title": "聊聊数据库建表的15个小技巧",
@@ -68,16 +68,6 @@
     "avatarAlt": "服务架构及中台 - 独家号",
     "subjectName": "服务架构及中台",
     "homeUrl": "/subjects/26578"
-  },
-  {
-    "title": "常见分布式系统设计图解",
-    "description": "",
-    "votes": "71",
-    "url": "/k/osewvaz",
-    "avatar": "https://img.toutiao.io/subject/ae2b74c589814b769c1bebad92c2fb9a/thumb",
-    "avatarAlt": "架构之美 - 独家号",
-    "subjectName": "架构之美",
-    "homeUrl": "/subjects/42200"
   },
   {
     "title": "微服务网关鉴权：gateway使用、网关限流使用、用户密码加密、JWT鉴权",
@@ -108,6 +98,16 @@
     "avatarAlt": "近半生少年 - 独家号",
     "subjectName": "近半生少年",
     "homeUrl": "/subjects/403307"
+  },
+  {
+    "title": "Netty、Kafka中的零拷贝技术到底有多牛?",
+    "description": "👇推荐大家关注一个公众号👇点击上方 \"编程技术圈\"关注, 星标或置顶一起成长后台回复“大礼包”有惊喜礼包！每日英文Man has to be crazy for once, whe...",
+    "votes": "54",
+    "url": "/k/ussdz4q",
+    "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
+    "avatarAlt": "乱点技能树 - 独家号",
+    "subjectName": "乱点技能树",
+    "homeUrl": "/subjects/194141"
   },
   {
     "title": "面向对象分析与设计的底层逻辑",
@@ -172,12 +172,22 @@
   {
     "title": "已入字节的大佬各厂三年Go面经",
     "description": "",
-    "votes": "50",
+    "votes": "51",
     "url": "/k/a39rox2",
     "avatar": "https://img.toutiao.io/subject/3f69ffc3bdf6496e86439348166e3ed7/thumb",
     "avatarAlt": "GoHackers - 独家号",
     "subjectName": "GoHackers",
     "homeUrl": "/subjects/1385"
+  },
+  {
+    "title": "RedisJson 横空出世，这性能杀疯了！",
+    "description": "",
+    "votes": "51",
+    "url": "/k/y4wdv6t",
+    "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
+    "avatarAlt": "乱点技能树 - 独家号",
+    "subjectName": "乱点技能树",
+    "homeUrl": "/subjects/194141"
   },
   {
     "title": "Kafka 面试连环炮, 看你能撑到哪一步?",
@@ -190,34 +200,14 @@
     "homeUrl": "/subjects/476437"
   },
   {
-    "title": "Netty、Kafka中的零拷贝技术到底有多牛?",
-    "description": "👇推荐大家关注一个公众号👇点击上方 \"编程技术圈\"关注, 星标或置顶一起成长后台回复“大礼包”有惊喜礼包！每日英文Man has to be crazy for once, whe...",
-    "votes": "47",
-    "url": "/k/ussdz4q",
-    "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
-    "avatarAlt": "乱点技能树 - 独家号",
-    "subjectName": "乱点技能树",
-    "homeUrl": "/subjects/194141"
-  },
-  {
     "title": "美团二面：加密后的数据如何进行模糊查询",
     "description": "点击关注公众号，Java干货及时送达我们知道加密后的数据对模糊查询不是很友好，本篇就针对加密数据模糊查询这个问题来展开讲一讲实现的思路，希望对大家有所启发。为了数据安全我们在开发过...",
-    "votes": "48",
+    "votes": "49",
     "url": "/k/4vaukpl",
     "avatar": "https://img.toutiao.io/user/1f0807c2736a43e1b169599572bf4dcf/thumb",
     "avatarAlt": "zeng1994 - 独家号",
     "subjectName": "zeng1994",
     "homeUrl": "/subjects/475601"
-  },
-  {
-    "title": "RedisJson 横空出世，这性能杀疯了！",
-    "description": "",
-    "votes": "50",
-    "url": "/k/y4wdv6t",
-    "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
-    "avatarAlt": "乱点技能树 - 独家号",
-    "subjectName": "乱点技能树",
-    "homeUrl": "/subjects/194141"
   },
   {
     "title": "全网最通透：MySQL 的 redo log 保证数据不丢的原理",
@@ -248,5 +238,15 @@
     "avatarAlt": "文不落 - 独家号",
     "subjectName": "文不落",
     "homeUrl": "/subjects/113701"
+  },
+  {
+    "title": "大厂基本功 | MySQL 三大日志 ( binlog、redo log 和 undo log ) 的作用？",
+    "description": "",
+    "votes": "40",
+    "url": "/k/o1494l7",
+    "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
+    "avatarAlt": "浪客用react,java全栈 - 独家号",
+    "subjectName": "浪客用react,java全栈",
+    "homeUrl": "/subjects/132403"
   }
 ]
