@@ -10,19 +10,9 @@
     "homeUrl": "/subjects/24912"
   },
   {
-    "title": "Netty、Kafka中的零拷贝技术到底有多牛?",
-    "description": "👇推荐大家关注一个公众号👇点击上方 \"编程技术圈\"关注, 星标或置顶一起成长后台回复“大礼包”有惊喜礼包！每日英文Man has to be crazy for once, whe...",
-    "votes": "60",
-    "url": "/k/ussdz4q",
-    "avatar": "https://img.toutiao.io/subject/0a536810212f4f7c9c1f451fc9f55540/thumb",
-    "avatarAlt": "乱点技能树 - 独家号",
-    "subjectName": "乱点技能树",
-    "homeUrl": "/subjects/194141"
-  },
-  {
     "title": "从我在阿里带队的得与失，谈技术管理如何避免瞎折腾",
     "description": "曾子曰：吾日三省吾身，反思是人类进化出来的一项异常宝贵的能力。我在阿里带团队也有四年多的时间，有必要总结一下此间得失；另外，前几天和一个刚开始带团队的同学聊天，他觉得角色转变对于他...",
-    "votes": "48",
+    "votes": "54",
     "url": "/k/g205ze9",
     "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
     "avatarAlt": "Bloomingroses - 独家号",
@@ -32,7 +22,7 @@
   {
     "title": "项目上线一年，整理了一份SpringBoot性能优化方案！",
     "description": "",
-    "votes": "38",
+    "votes": "41",
     "url": "/k/3ueuxa0",
     "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
     "avatarAlt": "Bloomingroses - 独家号",
@@ -40,19 +30,9 @@
     "homeUrl": "/subjects/98777"
   },
   {
-    "title": "5大主流方案对比：MySQL千亿级数据线上平滑扩容实战",
-    "description": "一、扩容方案剖析  1、扩容问题在项目初期，我们部署了三个数据库A、B、C，此时数据库的规模可以满足我们的业务需求。为了将数据做到平均分配，我们在Service服务层使用uid%3...",
-    "votes": "39",
-    "url": "/k/92pt5g6",
-    "avatar": "https://img.toutiao.io/subject/df70c5d3876241ecba5984356133ab23/thumb",
-    "avatarAlt": "架构必知必会 - 独家号",
-    "subjectName": "架构必知必会",
-    "homeUrl": "/subjects/472073"
-  },
-  {
     "title": "20 图 ｜6 千字｜缓存实战（上篇）",
     "description": "回复 PDF 领取资料 这是悟空的第 96 篇原创文章作者 | 悟空聊架构来源 | 悟空聊架构（ID：PassJava666）转载请联系授权（微信ID：PassJava）前言先说个...",
-    "votes": "38",
+    "votes": "39",
     "url": "/k/4uqm3n6",
     "avatar": "https://img.toutiao.io/subject/c1103a714a594e4eafc17c5c14cbab4d/thumb",
     "avatarAlt": "小渣的独家号 - 独家号",
@@ -60,24 +40,34 @@
     "homeUrl": "/subjects/476437"
   },
   {
-    "title": "为什么微服务一定要有网关？",
+    "title": "高并发下如何防重？",
     "description": "",
-    "votes": "26",
-    "url": "/k/8yj2b1k",
-    "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
-    "avatarAlt": "浪客用react,java全栈 - 独家号",
-    "subjectName": "浪客用react,java全栈",
-    "homeUrl": "/subjects/132403"
+    "votes": "31",
+    "url": "/k/qqouiqz",
+    "avatar": "https://img.toutiao.io/subject/c1103a714a594e4eafc17c5c14cbab4d/thumb",
+    "avatarAlt": "小渣的独家号 - 独家号",
+    "subjectName": "小渣的独家号",
+    "homeUrl": "/subjects/476437"
   },
   {
     "title": "Redis碎片整理原理解析与实践",
     "description": "一、诡异耗时问题Redis平台提供了各种删除数据的自助工单（每天数十个工单）全部删除按前缀删除按过期时间删除按空闲时间删除按类型删除上述的排列组合。某天下午，有个业务突然找到我说，...",
-    "votes": "27",
+    "votes": "28",
     "url": "/k/wmkid6f",
     "avatar": "https://img.toutiao.io/subject/6ee3bb205b3248c2b746c1506548181a/thumb",
     "avatarAlt": "大数据生态 - 独家号",
     "subjectName": "大数据生态",
     "homeUrl": "/subjects/136176"
+  },
+  {
+    "title": "从原则、方案、策略及难点阐述分库分表",
+    "description": "点击上方蓝字关注我们、分库分表原则关系型数据库本身比较容易成为系统性能瓶颈，单机存储容量、连接数、处理能力等都很有限，数据库本身的“有状态性”导致了它并不像Web和应用服务器那么容...",
+    "votes": "27",
+    "url": "/k/6u20gmf",
+    "avatar": "https://img.toutiao.io/subject/df70c5d3876241ecba5984356133ab23/thumb",
+    "avatarAlt": "架构必知必会 - 独家号",
+    "subjectName": "架构必知必会",
+    "homeUrl": "/subjects/472073"
   },
   {
     "title": "语雀桌面端技术架构实践",
@@ -90,14 +80,14 @@
     "homeUrl": "/subjects/150250"
   },
   {
-    "title": "从原则、方案、策略及难点阐述分库分表",
-    "description": "点击上方蓝字关注我们、分库分表原则关系型数据库本身比较容易成为系统性能瓶颈，单机存储容量、连接数、处理能力等都很有限，数据库本身的“有状态性”导致了它并不像Web和应用服务器那么容...",
-    "votes": "26",
-    "url": "/k/6u20gmf",
-    "avatar": "https://img.toutiao.io/subject/df70c5d3876241ecba5984356133ab23/thumb",
-    "avatarAlt": "架构必知必会 - 独家号",
-    "subjectName": "架构必知必会",
-    "homeUrl": "/subjects/472073"
+    "title": "Java19的新特性",
+    "description": "Java语言特性系列Java5的新特性Java6的新特性Java7的新特性Java8的新特性Java9的新特性Java10的新特性Java11的新特性Java12的新特性Java1...",
+    "votes": "25",
+    "url": "/k/ezsdsf5",
+    "avatar": "https://img.toutiao.io/subject/845fd4f6ce294ed0ae80674ffd83b3d4/thumb",
+    "avatarAlt": "码匠乱炖 - 独家号",
+    "subjectName": "码匠乱炖",
+    "homeUrl": "/subjects/913"
   },
   {
     "title": "MySQL 上亿大表优化实践",
@@ -110,49 +100,9 @@
     "homeUrl": "/subjects/194141"
   },
   {
-    "title": "高并发下如何防重？",
-    "description": "",
-    "votes": "25",
-    "url": "/k/qqouiqz",
-    "avatar": "https://img.toutiao.io/subject/c1103a714a594e4eafc17c5c14cbab4d/thumb",
-    "avatarAlt": "小渣的独家号 - 独家号",
-    "subjectName": "小渣的独家号",
-    "homeUrl": "/subjects/476437"
-  },
-  {
-    "title": "你真的会面试吗？",
-    "description": "大家好，我是Tom哥。就今年大环境来看，跳槽成功的难度比往年高很多，一个明显的感受：今年的Java技术栈面试，无论一面还是二面，都特别考验Java程序员的技术功底。今天，就来聊一聊...",
-    "votes": "26",
-    "url": "/k/1zwlcj0",
-    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
-    "avatarAlt": "Bloomingroses - 独家号",
-    "subjectName": "Bloomingroses",
-    "homeUrl": "/subjects/98777"
-  },
-  {
-    "title": "Java19的新特性",
-    "description": "Java语言特性系列Java5的新特性Java6的新特性Java7的新特性Java8的新特性Java9的新特性Java10的新特性Java11的新特性Java12的新特性Java1...",
-    "votes": "22",
-    "url": "/k/ezsdsf5",
-    "avatar": "https://img.toutiao.io/subject/845fd4f6ce294ed0ae80674ffd83b3d4/thumb",
-    "avatarAlt": "码匠乱炖 - 独家号",
-    "subjectName": "码匠乱炖",
-    "homeUrl": "/subjects/913"
-  },
-  {
-    "title": "面试官：单核 CPU 支持 Java 多线程吗 ？我又懵逼了 ！！！",
-    "description": "",
-    "votes": "22",
-    "url": "/k/9lqqf2o",
-    "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
-    "avatarAlt": "浪客用react,java全栈 - 独家号",
-    "subjectName": "浪客用react,java全栈",
-    "homeUrl": "/subjects/132403"
-  },
-  {
     "title": "我是怎么读代码的",
     "description": "",
-    "votes": "21",
+    "votes": "26",
     "url": "/k/mk22535",
     "avatar": "https://img.toutiao.io/subject/ae2b74c589814b769c1bebad92c2fb9a/thumb",
     "avatarAlt": "架构之美 - 独家号",
@@ -160,24 +110,44 @@
     "homeUrl": "/subjects/42200"
   },
   {
-    "title": "美团简单版动态线程池源码实现",
-    "description": "最近看到美团技术团队的动态线程池分析文章：https://tech.meituan.com/2020/04/02/java-pooling-pratice-in-meituan.h...",
-    "votes": "19",
-    "url": "/k/vkf7vh0",
-    "avatar": "https://img.toutiao.io/subject/3d78175afedb436bb46508bd52ed41f3/thumb",
-    "avatarAlt": "1点25 - 独家号",
-    "subjectName": "1点25",
-    "homeUrl": "/subjects/168469"
+    "title": "全面认识数据指标体系",
+    "description": "",
+    "votes": "22",
+    "url": "/k/sffmao8",
+    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
+  },
+  {
+    "title": "面试官：单核 CPU 支持 Java 多线程吗 ？我又懵逼了 ！！！",
+    "description": "",
+    "votes": "23",
+    "url": "/k/9lqqf2o",
+    "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
+    "avatarAlt": "浪客用react,java全栈 - 独家号",
+    "subjectName": "浪客用react,java全栈",
+    "homeUrl": "/subjects/132403"
   },
   {
     "title": "看完这篇异地多活的改造，我决定和架构师battle一下",
     "description": "",
-    "votes": "19",
+    "votes": "21",
     "url": "/k/1qc2crx",
     "avatar": "https://img.toutiao.io/subject/df70c5d3876241ecba5984356133ab23/thumb",
     "avatarAlt": "架构必知必会 - 独家号",
     "subjectName": "架构必知必会",
     "homeUrl": "/subjects/472073"
+  },
+  {
+    "title": "7000字+24张图带你彻底弄懂线程池",
+    "description": "",
+    "votes": "20",
+    "url": "/k/wy9f3j0",
+    "avatar": "https://img.toutiao.io/subject/c1103a714a594e4eafc17c5c14cbab4d/thumb",
+    "avatarAlt": "小渣的独家号 - 独家号",
+    "subjectName": "小渣的独家号",
+    "homeUrl": "/subjects/476437"
   },
   {
     "title": "尴尬，在Kafka生产实践中又出问题了",
@@ -190,13 +160,43 @@
     "homeUrl": "/subjects/98777"
   },
   {
-    "title": "爬虫与反爬虫技术简介",
+    "title": "常用红队安全攻防总结",
+    "description": "网络安全的范畴很大，相较于二进制安全等方向的高门槛、高要求，Web安全体系比较成熟，在现阶段来看，但凡有自己网站和安全需求的企业，就需要Web安全工程师，并且薪资十分可观，因此成为...",
+    "votes": "15",
+    "url": "/k/37sno0t",
+    "avatar": "https://img.toutiao.io/subject/378e77470970490b9e51050078d80e34/thumb",
+    "avatarAlt": "安全屋 - 独家号",
+    "subjectName": "安全屋",
+    "homeUrl": "/subjects/27565"
+  },
+  {
+    "title": "innodb 是如何存数据的？",
+    "description": "如果你使用过mysql数据库，对它的存储引擎：innodb，一定不会感到陌生。众所周知，在mysql5以前，默认的存储引擎是：myslam。但mysql5之后，默认的存储引擎已经变...",
+    "votes": "16",
+    "url": "/k/bxpv123",
+    "avatar": "https://img.toutiao.io/subject/ca32be3cbe13422a9fc08989bf5378d9/thumb",
+    "avatarAlt": "文不落 - 独家号",
+    "subjectName": "文不落",
+    "homeUrl": "/subjects/113701"
+  },
+  {
+    "title": "创意！原来阮大佬博客的阅读进度功能这么简单",
+    "description": "",
+    "votes": "18",
+    "url": "/k/e9q9qy6",
+    "avatar": "https://img.toutiao.io/subject/c9bc51847b0c4b49aca52d0eaa087ed1/thumb",
+    "avatarAlt": "冷星前端圈 - 独家号",
+    "subjectName": "冷星前端圈",
+    "homeUrl": "/subjects/380054"
+  },
+  {
+    "title": "一段 20 行代码的 10 倍性能优化，yyds！",
     "description": "",
     "votes": "15",
-    "url": "/k/ffq11yk",
-    "avatar": "https://img.toutiao.io/subject/8adc26cdcf7d45f4a73580f3be4285f2/thumb",
-    "avatarAlt": "vivo互联网技术 - 独家号",
-    "subjectName": "vivo互联网技术",
-    "homeUrl": "/subjects/392760"
+    "url": "/k/li2abvz",
+    "avatar": "https://img.toutiao.io/subject/7950b62a884849aaaa2c7d9fb03f3051/thumb",
+    "avatarAlt": "前端智能化 - 独家号",
+    "subjectName": "前端智能化",
+    "homeUrl": "/subjects/7076"
   }
 ]
