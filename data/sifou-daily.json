@@ -1,38 +1,29 @@
 [
   {
-    "title": "牛客网高频算法题系列-BM16-删除有序链表中重复的元素-II",
-    "description": "首先，考虑特殊情况，如果链表为空或者只有一个结点，不会有重复的元素，返回原链表。否则，遍历链表判断是否有重复元素，处理过程如下：首先，因为头结点也可能重复，所以使用一个虚拟头结点dummyNode；然后，用...",
-    "url": "https://segmentfault.com/a/1190000042572573",
-    "author": "雄狮虎豹",
-    "home_url": "https://segmentfault.com/u/xiongshihubao",
-    "votes": "4",
+    "title": "sofa模块化隔离",
+    "description": "传统项目中有时会Klass service层直接调用Student service层的Bean去实现某些逻辑，当项目变得越来越大时，这种层与层之间的依赖关系变得十分复杂，不利于开发。多个团队同时开发时，本团队只希望关心自己负责的...",
+    "url": "https://segmentfault.com/a/1190000042574759",
+    "author": "小强Zzz",
+    "home_url": "https://segmentfault.com/u/zhaokaiqiang",
+    "votes": "3",
     "rank": 1
   },
   {
-    "title": "Linux三剑客：grep、sed、awk基础入门学习笔记",
-    "description": "正则表达式是对字符串和特殊字符操作的一种逻辑公式，就是用事先定义好的一些特定字符及这些特定字符的组合，组成一个“规则字符串”，这个“规则字符串”用来表达对字符串的一种过滤逻辑。",
-    "url": "https://segmentfault.com/a/1190000042572545",
-    "author": "生信分析笔记",
-    "home_url": "https://segmentfault.com/u/jewin",
-    "votes": "2",
+    "title": "总结本周遇到的问题",
+    "description": "报错如下：搜索后发现此类错误和数据库的字符集有关系之所以之前没发现此类问题是因为之前测试时只测试了保存英文字符，然而当我们存储中文字符时就会出现此类错误。",
+    "url": "https://segmentfault.com/a/1190000042573964",
+    "author": "李明",
+    "home_url": "https://segmentfault.com/u/crister_612f55567eb8c",
+    "votes": "3",
     "rank": 2
   },
   {
-    "title": "从零开始Wails2编写Web桌面应用",
-    "description": "前端要写桌面应用的话首先想到的肯定是Electron，Electron的应用成熟度已经无可置疑，但包体积始终是个令人头疼的问题。如果很在意体积问题，而且喜欢尝试新技术的话，在现代其他编程语言不断侵入前端生态的情况...",
-    "url": "https://segmentfault.com/a/1190000042572133",
-    "author": "LnEoi",
-    "home_url": "https://segmentfault.com/u/lneoi",
-    "votes": "1",
+    "title": "Json序列化以及Infinite recursion",
+    "description": "背景 {代码...} 当时开发的时候报了这个错。看报错就知道是因为，json的相互依赖。比如A 中有一个属性是 B , 而B中也有一个属性是A。 这将造成了json序列化的时候，报相互依赖的异常。而正好，当前的代码就是这么...",
+    "url": "https://segmentfault.com/a/1190000042574739",
+    "author": "weiewiyi",
+    "home_url": "https://segmentfault.com/u/chenchu_6110ed583800c",
+    "votes": "2",
     "rank": 3
-  },
-  {
-    "title": "解决图片底部白边",
-    "description": "解决图片底部白边当图片的父元素是一个块盒，且父元素高度自动即没有指定值，图片底部和父元素底边之间往往会出现空白。例： {代码...} 效果如下 ：我们可以明显的看到图片与边框存在一个白边，那么我们要如何解...",
-    "url": "https://segmentfault.com/a/1190000042573147",
-    "author": "小卢没烦恼",
-    "home_url": "https://segmentfault.com/u/_632fb19cc6ef3",
-    "votes": "1",
-    "rank": 4
   }
 ]
