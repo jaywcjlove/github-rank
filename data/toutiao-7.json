@@ -12,7 +12,7 @@
   {
     "title": "聊聊Spring中最常用的11个扩展点",
     "description": "大家好，我是苏三，又跟大家见面了。前言我们一说到spring，可能第一个想到的是IOC（控制反转） 和AOP（面向切面编程）。没错，它们是spring的基石，得益于它们的优秀设计，...",
-    "votes": "41",
+    "votes": "44",
     "url": "/k/dsdovcg",
     "avatar": "https://img.toutiao.io/subject/0a66350d491141748ab4dd49be144252/thumb",
     "avatarAlt": "苏三说技术 - 独家号",
@@ -22,7 +22,7 @@
   {
     "title": "新来个技术总监，把限流实现的那叫一个优雅，佩服！",
     "description": "在电商高并发场景下，我们经常会使用一些常用方法，去应对流量高峰，比如限流、熔断、降级，今天我们聊聊限流。什么是限流呢？限流是限制到达系统的并发请求数量，保证系统能够正常响应部分用户...",
-    "votes": "36",
+    "votes": "38",
     "url": "/k/vqscb2l",
     "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
     "avatarAlt": "浪客用react,java全栈 - 独家号",
@@ -30,29 +30,19 @@
     "homeUrl": "/subjects/132403"
   },
   {
-    "title": "不靠分库分表和分布式缓存，如何从数据层面提升系统并发能力？",
-    "description": "一、概要商品系统作为电商中的核心系统之一，其重要性不言而喻。互联网业务上的高性能、高并发、高可用在商品系统上体现得淋漓尽致。除了引入分布式缓存以及分库分表的优化之外，本文从数据的角...",
-    "votes": "32",
-    "url": "/k/w8pbpvo",
-    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
-    "avatarAlt": "Bloomingroses - 独家号",
-    "subjectName": "Bloomingroses",
-    "homeUrl": "/subjects/98777"
-  },
-  {
-    "title": "掘地三尺搞定 Redis 与 MySQL 数据一致性问题",
-    "description": " 目录 1、什么是数据库与缓存一致性 2、缓存的使用策略 3、旁路缓存下的一致性问题分析 4、一致性解决方案有哪些？ 5、总结 前言 Redis 拥有高性能的数据读写功能，被我们广...",
-    "votes": "31",
-    "url": "/k/qtv76pm",
-    "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
-    "avatarAlt": "浪客用react,java全栈 - 独家号",
-    "subjectName": "浪客用react,java全栈",
-    "homeUrl": "/subjects/132403"
+    "title": "常用 Shell 分析服务器日志命令，运维快收藏",
+    "description": "  自己的小网站跑在阿里云的 ECS 上面, 偶尔也去分析分析自己网站服务器日志,看看网站的访问量。看看有没有黑阔搞破坏！于是收集，整理一些服务器日志分析命令，大家可以试试！ 1、...",
+    "votes": "37",
+    "url": "/k/y451jnx",
+    "avatar": "https://img.toutiao.io/subject/c71f4a0234be4569bfe2f33b95f710bd/thumb",
+    "avatarAlt": "codebee - 独家号",
+    "subjectName": "codebee",
+    "homeUrl": "/subjects/44250"
   },
   {
     "title": "面试官：你这数据库表设计的，真垃圾。。。",
     "description": "文章来源：https://juejin.cn/post/7147135702604447758  前言 作为后端开发，我们经常需要设计数据库表。整理了21个设计MySQL表的经验准...",
-    "votes": "35",
+    "votes": "40",
     "url": "/k/0c7whvz",
     "avatar": "https://img.toutiao.io/subject/c1103a714a594e4eafc17c5c14cbab4d/thumb",
     "avatarAlt": "小渣的独家号 - 独家号",
@@ -60,9 +50,29 @@
     "homeUrl": "/subjects/476437"
   },
   {
+    "title": "不靠分库分表和分布式缓存，如何从数据层面提升系统并发能力？",
+    "description": "一、概要商品系统作为电商中的核心系统之一，其重要性不言而喻。互联网业务上的高性能、高并发、高可用在商品系统上体现得淋漓尽致。除了引入分布式缓存以及分库分表的优化之外，本文从数据的角...",
+    "votes": "34",
+    "url": "/k/w8pbpvo",
+    "avatar": "https://img.toutiao.io/subject/c34a137f55bf46c3a2cf63e3677a30b1/thumb",
+    "avatarAlt": "Bloomingroses - 独家号",
+    "subjectName": "Bloomingroses",
+    "homeUrl": "/subjects/98777"
+  },
+  {
+    "title": "12306抢票：极限高并发带来的思考",
+    "description": " 每到节假日期间，一二线城市返乡、外出游玩的人们几乎都面临着一个问题：抢火车票！虽然现在大多数情况下都能订到票，但是放票瞬间即无票的场景，相信大家都深有体会。尤其是春节期间，大家不...",
+    "votes": "30",
+    "url": "/k/5k6qd0n",
+    "avatar": "https://img.toutiao.io/subject/ae2b74c589814b769c1bebad92c2fb9a/thumb",
+    "avatarAlt": "架构之美 - 独家号",
+    "subjectName": "架构之美",
+    "homeUrl": "/subjects/42200"
+  },
+  {
     "title": "JAVA 规则引擎 JSR-94",
     "description": "",
-    "votes": "29",
+    "votes": "30",
     "url": "/k/sty3d9t",
     "avatar": "https://img.toutiao.io/subject/1a197bcacc0346c186be58be1aaf34bd/thumb",
     "avatarAlt": "Java后端技术 - 独家号",
@@ -80,19 +90,9 @@
     "homeUrl": "/subjects/13080"
   },
   {
-    "title": "12306抢票：极限高并发带来的思考",
-    "description": " 每到节假日期间，一二线城市返乡、外出游玩的人们几乎都面临着一个问题：抢火车票！虽然现在大多数情况下都能订到票，但是放票瞬间即无票的场景，相信大家都深有体会。尤其是春节期间，大家不...",
-    "votes": "25",
-    "url": "/k/5k6qd0n",
-    "avatar": "https://img.toutiao.io/subject/ae2b74c589814b769c1bebad92c2fb9a/thumb",
-    "avatarAlt": "架构之美 - 独家号",
-    "subjectName": "架构之美",
-    "homeUrl": "/subjects/42200"
-  },
-  {
     "title": "SpringBoot的starter到底是什么？",
     "description": "大家好，我是苏三，又跟大家见面了。前言我们都知道，Spring的功能非常强大，但也有些弊端。比如：我们需要手动去配置大量的参数，没有默认值，需要我们管理大量的jar包和它们的依赖。...",
-    "votes": "25",
+    "votes": "26",
     "url": "/k/uwwfdsl",
     "avatar": "https://img.toutiao.io/subject/0a66350d491141748ab4dd49be144252/thumb",
     "avatarAlt": "苏三说技术 - 独家号",
@@ -102,12 +102,42 @@
   {
     "title": "如何实现数据库读一致性",
     "description": "（给ImportNew加星标，提高Java技能）1 导读数据的一致性是数据准确的重要指标，那如何实现数据的一致性呢？本文从事务特性和事务级别的角度和大家一起学习如何实现数据的读写一...",
-    "votes": "24",
+    "votes": "25",
     "url": "/k/xpscpsa",
     "avatar": "https://img.toutiao.io/subject/ca32be3cbe13422a9fc08989bf5378d9/thumb",
     "avatarAlt": "文不落 - 独家号",
     "subjectName": "文不落",
     "homeUrl": "/subjects/113701"
+  },
+  {
+    "title": "JuiceFS 在 Elasticsearch/ClickHouse 温冷数据存储中的实践",
+    "description": "",
+    "votes": "26",
+    "url": "/k/54f7165",
+    "avatar": "https://img.toutiao.io/user/91863e9380904cf58de389d6802a455e/thumb",
+    "avatarAlt": "JuiceFS的独家号 - 独家号",
+    "subjectName": "JuiceFS的独家号",
+    "homeUrl": "/subjects/464469"
+  },
+  {
+    "title": "高性能 Java 计算服务的性能调优实战",
+    "description": "作者：vivo 互联网服务器团队- Chen Dongxing、Li Haoxuan、Chen Jinxia随着业务的日渐复杂，性能优化俨然成为了每一位技术人的必修课。性能优化从何...",
+    "votes": "24",
+    "url": "/k/bgbsmkh",
+    "avatar": "https://img.toutiao.io/subject/ae2b74c589814b769c1bebad92c2fb9a/thumb",
+    "avatarAlt": "架构之美 - 独家号",
+    "subjectName": "架构之美",
+    "homeUrl": "/subjects/42200"
+  },
+  {
+    "title": "TCP 拥塞控制详解 | 7. 超越 TCP",
+    "description": "网络传输问题本质上是对网络资源的共享和复用问题，因此拥塞控制是网络工程领域的核心问题之一，并且随着互联网和数据中心流量的爆炸式增长，相关算法和机制出现了很多创新，本系列是免费电子书...",
+    "votes": "20",
+    "url": "/k/385cm7h",
+    "avatar": "https://img.toutiao.io/user/af19eb53bb164e47a25e3b1ef00f965e/thumb",
+    "avatarAlt": "DeepNoMind - 独家号",
+    "subjectName": "DeepNoMind",
+    "homeUrl": "/subjects/460290"
   },
   {
     "title": "设计糟糕的分库分表是如何把系统搞挂的？",
@@ -120,16 +150,6 @@
     "homeUrl": "/subjects/476437"
   },
   {
-    "title": "JuiceFS 在 Elasticsearch/ClickHouse 温冷数据存储中的实践",
-    "description": "",
-    "votes": "25",
-    "url": "/k/54f7165",
-    "avatar": "https://img.toutiao.io/user/91863e9380904cf58de389d6802a455e/thumb",
-    "avatarAlt": "JuiceFS的独家号 - 独家号",
-    "subjectName": "JuiceFS的独家号",
-    "homeUrl": "/subjects/464469"
-  },
-  {
     "title": "美团超1.5万台Kafka，抗下每秒数亿消息量的挑战！",
     "description": "",
     "votes": "20",
@@ -140,29 +160,9 @@
     "homeUrl": "/subjects/132403"
   },
   {
-    "title": "TCP 拥塞控制详解 | 7. 超越 TCP",
-    "description": "网络传输问题本质上是对网络资源的共享和复用问题，因此拥塞控制是网络工程领域的核心问题之一，并且随着互联网和数据中心流量的爆炸式增长，相关算法和机制出现了很多创新，本系列是免费电子书...",
-    "votes": "19",
-    "url": "/k/385cm7h",
-    "avatar": "https://img.toutiao.io/user/af19eb53bb164e47a25e3b1ef00f965e/thumb",
-    "avatarAlt": "DeepNoMind - 独家号",
-    "subjectName": "DeepNoMind",
-    "homeUrl": "/subjects/460290"
-  },
-  {
-    "title": "实战 Go：怎样快速实现一个极简任务调度系统",
-    "description": "引子任务调度（Task Scheduling）是很多软件系统中的重要组成部分，字面上的意思是按照一定要求分配运行一些通常时间较长的脚本或程序。在爬虫管理平台 Crawlab[1] ...",
-    "votes": "21",
-    "url": "/k/3c56bkv",
-    "avatar": "https://img.toutiao.io/subject/165bda489eaa4e0ebe4b3fcdc2a6d464/thumb",
-    "avatarAlt": "Crawlab开发组 - 独家号",
-    "subjectName": "Crawlab开发组",
-    "homeUrl": "/subjects/297963"
-  },
-  {
     "title": "Spring Cloud Gateway 服务网关",
     "description": "大家好，我是Tom哥。网关作为系统的前置流量入口，发挥着巨大的作用，网关的技术种类也很多，今天我来聊下Spring家族的网关 Spring Cloud Gateway一、为什么需要...",
-    "votes": "20",
+    "votes": "23",
     "url": "/k/dncyaq6",
     "avatar": "https://img.toutiao.io/subject/e62c1664abed48848efc89141ae64112/thumb",
     "avatarAlt": "微观技术 - 独家号",
@@ -170,19 +170,19 @@
     "homeUrl": "/subjects/348507"
   },
   {
-    "title": "怎么让面试官喜欢你？",
-    "description": "大家好，我是Tom哥。 最近不少小伙伴在找工作，市场很卷，如何获得面试官的青睐，这里面有会一些经验，今天我们就来聊下 面试一般分为 3 ~ 5 轮，第一轮一般是电话面试，后面几轮多...",
-    "votes": "18",
-    "url": "/k/0kimlvu",
-    "avatar": "https://img.toutiao.io/subject/e62c1664abed48848efc89141ae64112/thumb",
-    "avatarAlt": "微观技术 - 独家号",
-    "subjectName": "微观技术",
-    "homeUrl": "/subjects/348507"
+    "title": "京东到家埋点治理实践",
+    "description": "导读：京东到家作为行业领先的即时零售电商平台，又是数据驱动型的公司，埋点的价值日益重要，埋点的可用性、准确率也成了一直在攻克的难题。本文主要讲解京东到家在治理埋点数据、提高埋点数据...",
+    "votes": "22",
+    "url": "/k/2y51ec7",
+    "avatar": "https://img.toutiao.io/subject/6ee3bb205b3248c2b746c1506548181a/thumb",
+    "avatarAlt": "大数据生态 - 独家号",
+    "subjectName": "大数据生态",
+    "homeUrl": "/subjects/136176"
   },
   {
     "title": "别再写 main 方法测试了，太 Low！这才是专业 Java 测试方法",
     "description": "点击关注公众号，Java干货及时送达 来源：https://juejin.cn/post/6844903936869007368 JMH - Java 微基准测试工具accurat...",
-    "votes": "15",
+    "votes": "21",
     "url": "/k/wgaecrx",
     "avatar": "https://img.toutiao.io/subject/d9b0b833d7e44d38b958e8a6003d36b4/thumb",
     "avatarAlt": "浪客用react,java全栈 - 独家号",
@@ -192,7 +192,7 @@
   {
     "title": "深入理解 ForkJoinPool：入门、使用、原理",
     "description": "本文将从一个简单的例子出发，与大家解释为啥要有 ForkJoinPool 的存在。接着向大家介绍 ForkJoinPool 的基本信息及使用，最后讲解 ForkJoinPool 的...",
-    "votes": "17",
+    "votes": "22",
     "url": "/k/zu4hyfd",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
