@@ -5,7 +5,7 @@
     "url": "https://segmentfault.com/a/1190000042584599",
     "author": "卡颂",
     "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "9",
+    "votes": "11",
     "rank": 1
   },
   {
@@ -18,31 +18,22 @@
     "rank": 2
   },
   {
+    "title": "超强的纯 CSS 鼠标点击拖拽效果",
+    "description": "背景鼠标拖拽元素移动，算是一个稍微有点点复杂的交互。而在本文，我们就将打破常规，向大家介绍一种超强的仅仅使用纯 CSS 就能够实现的鼠标点击拖拽效果。在之前的这篇文章中 -- 不可思议的纯 CSS 实现鼠标跟随...",
+    "url": "https://segmentfault.com/a/1190000042589774",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "7",
+    "rank": 3
+  },
+  {
     "title": "华为王泽锋：协作创新、开源的魅力所在",
     "description": "受访者：王泽锋（Kevin Wang），华为云云原生开源负责人，CNCF大使，CNCF技术监督委员会贡献者，Kubernetes资深维护者，KubeEdge、Volcano、Karmada等多个CNCF项目发起人，目前负责华为云在云原生开源社区的整体...",
     "url": "https://segmentfault.com/a/1190000042589829",
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
     "votes": "2",
-    "rank": 3
-  },
-  {
-    "title": "JavaScript 新提案：array.groupBy()",
-    "description": "本文首发于微信公众号：大迁世界, 我的微信：qq449245884，我会第一时间和你分享前端行业趋势，学习途径等等。更多开源作品请看 GitHub [链接] ，包含一线大厂面试完整考点、资料以及我的系列文章。",
-    "url": "https://segmentfault.com/a/1190000042578631",
-    "author": "前端小智",
-    "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "3",
     "rank": 4
-  },
-  {
-    "title": "牛客网高频算法题系列-BM16-删除有序链表中重复的元素-II",
-    "description": "首先，考虑特殊情况，如果链表为空或者只有一个结点，不会有重复的元素，返回原链表。否则，遍历链表判断是否有重复元素，处理过程如下：首先，因为头结点也可能重复，所以使用一个虚拟头结点dummyNode；然后，用...",
-    "url": "https://segmentfault.com/a/1190000042572573",
-    "author": "雄狮虎豹",
-    "home_url": "https://segmentfault.com/u/xiongshihubao",
-    "votes": "4",
-    "rank": 5
   },
   {
     "title": "「数字无限人生」：技术人的精彩时代",
@@ -50,8 +41,35 @@
     "url": "https://segmentfault.com/a/1190000042582695",
     "author": "思否编辑部",
     "home_url": "https://segmentfault.com/u/writers",
-    "votes": "1",
+    "votes": "3",
+    "rank": 5
+  },
+  {
+    "title": "JavaScript 新提案：array.groupBy()",
+    "description": "本文首发于微信公众号：大迁世界, 我的微信：qq449245884，我会第一时间和你分享前端行业趋势，学习途径等等。更多开源作品请看 GitHub [链接] ，包含一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000042578631",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "4",
     "rank": 6
+  },
+  {
+    "title": "实现《羊了个羊-美女版》小游戏（低配版）",
+    "description": "前面有总结过一篇《简易动物版的羊了个羊》的实现，今天参考了鱼皮大佬的鱼了个鱼,我好奇研究了一下他的源码实现，并结合自己的理解，也用react + antd实现了一版，在实现的过程中，我只是简单修改了一下核心逻辑...",
+    "url": "https://segmentfault.com/a/1190000042575730",
+    "author": "夕水",
+    "home_url": "https://segmentfault.com/u/xishui_5ac9a340a5484",
+    "votes": "5",
+    "rank": 7
+  },
+  {
+    "title": "浅析React中的state",
+    "description": "我们在一些面试题中经常会遇到一个问题，那就是state的改变是同步还是异步的。当初自己只是一味的记住事件触发导致state的改变是异步的，其它情况下都是同步的，并不理解其中的缘由。接下来就为大家梳理下其中的...",
+    "url": "https://segmentfault.com/a/1190000042583784",
+    "author": "Itnd",
+    "home_url": "https://segmentfault.com/u/54r9rxzy",
+    "votes": "3",
+    "rank": 8
   },
   {
     "title": "sofa模块化隔离",
@@ -60,70 +78,7 @@
     "author": "小强Zzz",
     "home_url": "https://segmentfault.com/u/zhaokaiqiang",
     "votes": "3",
-    "rank": 7
-  },
-  {
-    "title": "总结本周遇到的问题",
-    "description": "报错如下：搜索后发现此类错误和数据库的字符集有关系之所以之前没发现此类问题是因为之前测试时只测试了保存英文字符，然而当我们存储中文字符时就会出现此类错误。",
-    "url": "https://segmentfault.com/a/1190000042573964",
-    "author": "李明",
-    "home_url": "https://segmentfault.com/u/crister_612f55567eb8c",
-    "votes": "3",
-    "rank": 8
-  },
-  {
-    "title": "从零开始Wails2编写Web桌面应用",
-    "description": "前端要写桌面应用的话首先想到的肯定是Electron，Electron的应用成熟度已经无可置疑，但包体积始终是个令人头疼的问题。如果很在意体积问题，而且喜欢尝试新技术的话，在现代其他编程语言不断侵入前端生态的情况...",
-    "url": "https://segmentfault.com/a/1190000042572133",
-    "author": "LnEoi",
-    "home_url": "https://segmentfault.com/u/lneoi",
-    "votes": "1",
     "rank": 9
-  },
-  {
-    "title": "实现《羊了个羊-美女版》小游戏（低配版）",
-    "description": "前面有总结过一篇《简易动物版的羊了个羊》的实现，今天参考了鱼皮大佬的鱼了个鱼,我好奇研究了一下他的源码实现，并结合自己的理解，也用react + antd实现了一版，在实现的过程中，我只是简单修改了一下核心逻辑...",
-    "url": "https://segmentfault.com/a/1190000042575730",
-    "author": "夕水",
-    "home_url": "https://segmentfault.com/u/xishui_5ac9a340a5484",
-    "votes": "3",
-    "rank": 10
-  },
-  {
-    "title": "浅析React中的state",
-    "description": "我们在一些面试题中经常会遇到一个问题，那就是state的改变是同步还是异步的。当初自己只是一味的记住事件触发导致state的改变是异步的，其它情况下都是同步的，并不理解其中的缘由。接下来就为大家梳理下其中的...",
-    "url": "https://segmentfault.com/a/1190000042583784",
-    "author": "Itnd",
-    "home_url": "https://segmentfault.com/u/54r9rxzy",
-    "votes": "2",
-    "rank": 11
-  },
-  {
-    "title": "用自己的编程语言实现了一个网站（增强版）",
-    "description": "看起来确实非常的挫，其实之前一直也想做一个 GScript 的在线 playground ，于是国庆期间学了一点 皮毛 Vue 加上老弟的帮忙（他是前端开发），最终完成了下面这个网站：",
-    "url": "https://segmentfault.com/a/1190000042578505",
-    "author": "crossoverJie",
-    "home_url": "https://segmentfault.com/u/crossoverjie",
-    "votes": "1",
-    "rank": 12
-  },
-  {
-    "title": "想学习Web安全，如何入门？",
-    "description": "开始前的思考我真的喜欢搞安全吗?我想通过安全赚钱钱?我不知道做什么就是随便?一辈子做安全吗？\\这些不想清楚会对你以后的发展很不利，与其盲目的学习web安全，不如先做一个长远的计划。否则在我看来都是浪费时间...",
-    "url": "https://segmentfault.com/a/1190000042581060",
-    "author": "代码熬夜敲",
-    "home_url": "https://segmentfault.com/u/2uj39mdb",
-    "votes": "1",
-    "rank": 13
-  },
-  {
-    "title": "麒麟操作系统 (kylinos) 从入门到精通 - 办公环境- 第三十七篇 资料搜索（windows下everything替代）",
-    "description": "类别：笔记本型号：中国长城 UF712硬件平台：飞腾处理器（ArmV8 指令集）系统：银河麒麟操作系统 V10 SP1(2203) 关键词：信创,麒麟系统,linux,PKS,银河麒麟,飞腾,arm64,arm,everything,fsearch,find",
-    "url": "https://segmentfault.com/a/1190000042575016",
-    "author": "码上世界",
-    "home_url": "https://segmentfault.com/u/code4world",
-    "votes": "1",
-    "rank": 14
   },
   {
     "title": "想要字体图标设计师却给了SVG？没关系，自己转",
@@ -132,25 +87,7 @@
     "author": "街角小林",
     "home_url": "https://segmentfault.com/u/jiejiaoxiaolin",
     "votes": "2",
-    "rank": 15
-  },
-  {
-    "title": "Json序列化以及Infinite recursion",
-    "description": "背景 {代码...} 当时开发的时候报了这个错。看报错就知道是因为，json的相互依赖。比如A 中有一个属性是 B , 而B中也有一个属性是A。 这将造成了json序列化的时候，报相互依赖的异常。而正好，当前的代码就是这么...",
-    "url": "https://segmentfault.com/a/1190000042574739",
-    "author": "weiewiyi",
-    "home_url": "https://segmentfault.com/u/chenchu_6110ed583800c",
-    "votes": "2",
-    "rank": 16
-  },
-  {
-    "title": "Linux三剑客：grep、sed、awk基础入门学习笔记",
-    "description": "正则表达式是对字符串和特殊字符操作的一种逻辑公式，就是用事先定义好的一些特定字符及这些特定字符的组合，组成一个“规则字符串”，这个“规则字符串”用来表达对字符串的一种过滤逻辑。",
-    "url": "https://segmentfault.com/a/1190000042572545",
-    "author": "生信分析笔记",
-    "home_url": "https://segmentfault.com/u/jewin",
-    "votes": "2",
-    "rank": 17
+    "rank": 10
   },
   {
     "title": "创建现代npm包的最佳实践",
@@ -158,8 +95,44 @@
     "url": "https://segmentfault.com/a/1190000042554239",
     "author": "前端小智",
     "home_url": "https://segmentfault.com/u/minnanitkong",
-    "votes": "2",
-    "rank": 18
+    "votes": "3",
+    "rank": 11
+  },
+  {
+    "title": "总结本周遇到的问题",
+    "description": "报错如下：搜索后发现此类错误和数据库的字符集有关系之所以之前没发现此类问题是因为之前测试时只测试了保存英文字符，然而当我们存储中文字符时就会出现此类错误。",
+    "url": "https://segmentfault.com/a/1190000042573964",
+    "author": "李明",
+    "home_url": "https://segmentfault.com/u/crister_612f55567eb8c",
+    "votes": "3",
+    "rank": 12
+  },
+  {
+    "title": "用自己的编程语言实现了一个网站（增强版）",
+    "description": "看起来确实非常的挫，其实之前一直也想做一个 GScript 的在线 playground ，于是国庆期间学了一点 皮毛 Vue 加上老弟的帮忙（他是前端开发），最终完成了下面这个网站：",
+    "url": "https://segmentfault.com/a/1190000042578505",
+    "author": "crossoverJie",
+    "home_url": "https://segmentfault.com/u/crossoverjie",
+    "votes": "1",
+    "rank": 13
+  },
+  {
+    "title": "想学习Web安全，如何入门？",
+    "description": "开始前的思考我真的喜欢搞安全吗?我想通过安全赚钱钱?我不知道做什么就是随便?一辈子做安全吗？\\这些不想清楚会对你以后的发展很不利，与其盲目的学习web安全，不如先做一个长远的计划。否则在我看来都是浪费时间...",
+    "url": "https://segmentfault.com/a/1190000042581060",
+    "author": "代码熬夜敲",
+    "home_url": "https://segmentfault.com/u/2uj39mdb",
+    "votes": "1",
+    "rank": 14
+  },
+  {
+    "title": "麒麟操作系统 (kylinos) 从入门到精通 - 办公环境- 第三十七篇 资料搜索（windows下everything替代）",
+    "description": "类别：笔记本型号：中国长城 UF712硬件平台：飞腾处理器（ArmV8 指令集）系统：银河麒麟操作系统 V10 SP1(2203) 关键词：信创,麒麟系统,linux,PKS,银河麒麟,飞腾,arm64,arm,everything,fsearch,find",
+    "url": "https://segmentfault.com/a/1190000042575016",
+    "author": "码上世界",
+    "home_url": "https://segmentfault.com/u/code4world",
+    "votes": "1",
+    "rank": 15
   },
   {
     "title": "9 月更新 | Visual Studio Code Python",
@@ -168,7 +141,16 @@
     "author": "微软技术栈",
     "home_url": "https://segmentfault.com/u/mstech",
     "votes": "1",
-    "rank": 19
+    "rank": 16
+  },
+  {
+    "title": "前端实现切换主题方案",
+    "description": "前端开发人员面临着制作增强用户体验和适应用户偏好的用户界面的任务。带有 css 的 react 主要可用于创建多色可切换主题。为用户提供了在给定时间点在主题颜色之间切换以适合他们的偏好的特权。",
+    "url": "https://segmentfault.com/a/1190000042573976",
+    "author": "MangoGoing",
+    "home_url": "https://segmentfault.com/u/nulidexiaocongmang",
+    "votes": "1",
+    "rank": 17
   },
   {
     "title": "面试官：哪些浏览器事件不会冒泡？",
@@ -177,7 +159,34 @@
     "author": "罡风小天",
     "home_url": "https://segmentfault.com/u/shawnphang",
     "votes": "1",
+    "rank": 18
+  },
+  {
+    "title": "Json序列化以及Infinite recursion",
+    "description": "背景 {代码...} 当时开发的时候报了这个错。看报错就知道是因为，json的相互依赖。比如A 中有一个属性是 B , 而B中也有一个属性是A。 这将造成了json序列化的时候，报相互依赖的异常。而正好，当前的代码就是这么...",
+    "url": "https://segmentfault.com/a/1190000042574739",
+    "author": "weiewiyi",
+    "home_url": "https://segmentfault.com/u/chenchu_6110ed583800c",
+    "votes": "2",
+    "rank": 19
+  },
+  {
+    "title": "如何快速学习Go的struct数据类型",
+    "description": "结构是表示字段集合的用户定义类型。它可以用于将数据分组为单个单元而不是将每个数据作为单独的值的地方。例如，员工有firstName、lastName和age。将这三个属性分组到一个名为Employee。",
+    "url": "https://segmentfault.com/a/1190000042589069",
+    "author": "7small7",
+    "home_url": "https://segmentfault.com/u/7small7",
+    "votes": "1",
     "rank": 20
+  },
+  {
+    "title": "新一波 JavaScript 框架",
+    "description": "本文首发于微信公众号：大迁世界, 我的微信：qq449245884，我会第一时间和你分享前端行业趋势，学习途径等等。更多开源作品请看 GitHub [链接] ，包含一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000042558282",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "1",
+    "rank": 21
   },
   {
     "title": "go性能工具pprof",
@@ -186,24 +195,15 @@
     "author": "13sai",
     "home_url": "https://segmentfault.com/u/13sai",
     "votes": "1",
-    "rank": 21
-  },
-  {
-    "title": "利用Vue自定义指令让你的开发变得更优雅",
-    "description": "前段时间在用框架开发H5页面时，碰到框架中的组件内置了一个属性用于适配异形屏，虽然是组件内部实现的，但这个方式让我萌生一个想法：能不能自己写一个属性来实现这样的功能？",
-    "url": "https://segmentfault.com/a/1190000042574651",
-    "author": "罡风小天",
-    "home_url": "https://segmentfault.com/u/shawnphang",
-    "votes": "1",
     "rank": 22
   },
   {
-    "title": "面试题-Java基础",
-    "description": "JRE：java运行环境，为java的运行提供了所需环境。具体来说就是JDK其实包含了JRE，同时还提供了编译Java源码的编译器JAVAC，以及很多java程序调试和分析的工具。简单来说：如果你需要运行Java程序，只需安装JRE就...",
-    "url": "https://segmentfault.com/a/1190000042573592",
-    "author": "李博帅",
-    "home_url": "https://segmentfault.com/u/liboshuai",
-    "votes": "1",
+    "title": "h5中使用javascript在客户端对图片进行压缩和尺寸处理，附ts代码",
+    "description": "有时候我们有这样的需求，就是对前端选中的图片进行压缩处理。这样处理的原因可能是。减少带宽占用率，提高效率。对图片进行裁剪符合上传需求。（现在手机拍照分辨率很高，直接拿来用比较大。)前端对图片进行压缩...",
+    "url": "https://segmentfault.com/a/1190000042587161",
+    "author": "farmerz",
+    "home_url": "https://segmentfault.com/u/farmerz",
+    "votes": "2",
     "rank": 23
   },
   {
@@ -216,22 +216,31 @@
     "rank": 24
   },
   {
+    "title": "利用Vue自定义指令让你的开发变得更优雅",
+    "description": "前段时间在用框架开发H5页面时，碰到框架中的组件内置了一个属性用于适配异形屏，虽然是组件内部实现的，但这个方式让我萌生一个想法：能不能自己写一个属性来实现这样的功能？",
+    "url": "https://segmentfault.com/a/1190000042574651",
+    "author": "罡风小天",
+    "home_url": "https://segmentfault.com/u/shawnphang",
+    "votes": "1",
+    "rank": 25
+  },
+  {
     "title": "go 酷之viper 配置读取",
     "description": "引言viper 是一个用于读取配置文件的库。如果你需要读取配置文件，那么 viper 足够好用。项目地址项目地址： [链接] [star:20.7k]使用场景读取配置安装go get github.com/spf13/viper常用方法SetConfigFile 定义...",
     "url": "https://segmentfault.com/a/1190000042577361",
     "author": "13sai",
     "home_url": "https://segmentfault.com/u/13sai",
     "votes": "1",
-    "rank": 25
+    "rank": 26
   },
   {
-    "title": "h5中使用javascript在客户端对图片进行压缩和尺寸处理，附ts代码",
-    "description": "有时候我们有这样的需求，就是对前端选中的图片进行压缩处理。这样处理的原因可能是。减少带宽占用率，提高效率。对图片进行裁剪符合上传需求。（现在手机拍照分辨率很高，直接拿来用比较大。)前端对图片进行压缩...",
-    "url": "https://segmentfault.com/a/1190000042587161",
-    "author": "farmerz",
-    "home_url": "https://segmentfault.com/u/farmerz",
+    "title": "前端常见问题整理（持续更新）",
+    "description": "作用域就是代码的执行环境，全局执行环境就是全局作用域，函数的执行环境就是私有作用域，它们都是栈内存。执行环境定义了变量或函数有权访问的其他数据，决定了它们各自的行为。每个执行环境都有一个与之关联的...",
+    "url": "https://segmentfault.com/a/1190000042588416",
+    "author": "LunanticSky",
+    "home_url": "https://segmentfault.com/u/lunanticsky",
     "votes": "1",
-    "rank": 26
+    "rank": 27
   },
   {
     "title": "Vue3移动端组件库Varlet源码主题阅读之一：本地启动服务时都做了什么",
@@ -240,33 +249,24 @@
     "author": "街角小林",
     "home_url": "https://segmentfault.com/u/jiejiaoxiaolin",
     "votes": "0",
-    "rank": 27
-  },
-  {
-    "title": "解决图片底部白边",
-    "description": "解决图片底部白边当图片的父元素是一个块盒，且父元素高度自动即没有指定值，图片底部和父元素底边之间往往会出现空白。例： {代码...} 效果如下 ：我们可以明显的看到图片与边框存在一个白边，那么我们要如何解...",
-    "url": "https://segmentfault.com/a/1190000042573147",
-    "author": "小卢没烦恼",
-    "home_url": "https://segmentfault.com/u/_632fb19cc6ef3",
-    "votes": "1",
     "rank": 28
   },
   {
-    "title": "最全Spring+Boot+MVC+CloudAlibaba学习手册，你想学的全都有",
-    "description": "Spring框架自诞生以来一直备受开发者青睐，有人亲切的称之为：Spring 全家桶。Spring更是避免了重复造轮子的工作并跟随着互联网行业的发展做出不断的更新，很多研发人员把spring看作心目中最好的Java项目，没有之...",
-    "url": "https://segmentfault.com/a/1190000042575782",
-    "author": "Java架构师",
-    "home_url": "https://segmentfault.com/u/taozi_60b0b3c71b1a8",
-    "votes": "1",
+    "title": "浅谈移动端单屏解决方案",
+    "description": "文中我强调了移动端适配是对屏幕宽度进行缩放：对于普通的流式布局(长屏幕页面)，页面内容是可以上下滚动的。屏幕小，一屏幕看到的东西虽然变少，但是用户可以通过手势滚动页面，继续浏览下一屏的内容。因此在常...",
+    "url": "https://segmentfault.com/a/1190000042587022",
+    "author": "深红",
+    "home_url": "https://segmentfault.com/u/deepred5",
+    "votes": "0",
     "rank": 29
   },
   {
-    "title": "即时通讯社交应用创业",
-    "description": "2011年推出微信，腾讯在打通中国熟人关系链的同时，也在不断打造微信生态，拓展微信支付、小程序等功能。虽然微信生态颇具体量，但尾大不掉也是事实。",
-    "url": "https://segmentfault.com/a/1190000042573321",
-    "author": "雯文",
-    "home_url": "https://segmentfault.com/u/wen_62753939d92c2",
-    "votes": "0",
+    "title": "element 动态表格新增删除行、列闪现问题",
+    "description": "无论是新增行列还是删除行列，vue 都需要重新计算单元格的高度和宽度，然后再重新渲染到页面上。因为这个过程被直接反馈到了页面上，所以导致了 table 发生闪烁。",
+    "url": "https://segmentfault.com/a/1190000042593644",
+    "author": "tenSe7en",
+    "home_url": "https://segmentfault.com/u/potato_5896cd102b6fe",
+    "votes": "8",
     "rank": 30
   }
 ]
