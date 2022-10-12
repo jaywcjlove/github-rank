@@ -1,21 +1,12 @@
 [
   {
-    "title": "快速了解 inert 属性",
-    "description": "欢迎关注我的公众号：前端侦探介绍一个全新的、和用户行为息息相关的属性：inert。HTMLElement.inert - Web APIs | MDN (mozilla.org)有了这个属性，可以更加轻易地控制很多交互行为，花几分钟了解一下吧一、iner...",
-    "url": "https://segmentfault.com/a/1190000042595978",
-    "author": "XboxYan",
-    "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "1",
-    "rank": 1
-  },
-  {
     "title": "致「独一无二」的你｜1024 程序员节系列活动启动",
     "description": "不知道刚过完小长假的大家，有没有假期模式切换回（连上 7 天班的）工作模式呢？😶‍🌫️ 10 月可不止有国庆节，还有咱们开发者群体不可错过的「1024 程序员节」～",
     "url": "https://segmentfault.com/a/1190000042598682",
     "author": "SegmentFault思否",
     "home_url": "https://segmentfault.com/u/segmentfault",
     "votes": "2",
-    "rank": 2
+    "rank": 1
   },
   {
     "title": "前端框架：性能与灵活性的取舍",
@@ -23,8 +14,35 @@
     "url": "https://segmentfault.com/a/1190000042598225",
     "author": "卡颂",
     "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "2",
+    "votes": "3",
+    "rank": 2
+  },
+  {
+    "title": "Go语言学习笔记：Http请求--Gorequest使用",
+    "description": "最近几天部署代理池的时候，用Python写了requests请求测试IP地址检测连通性的脚本。但是发现了一个问题，requests.get带代理请求有时候请求不通。我初步认为代理的问题，但是之后我用了curl请求发现代理是正常的...",
+    "url": "https://segmentfault.com/a/1190000042602198",
+    "author": "ipidea",
+    "home_url": "https://segmentfault.com/u/ipidea",
+    "votes": "1",
     "rank": 3
+  },
+  {
+    "title": "SegmentFault 思否技术周刊 — 浅谈如何使用 Webpack ？",
+    "description": "最近在开发一个低代码平台，主要用于运营搭建 H5 活动。这中间涉及到第三方组件的开发，而第三方组件想要接入平台，需要经过我们特定的打包工具来 build。构建之后的组件，会合并成单个的 js 文件，而且代码会被...",
+    "url": "https://segmentfault.com/a/1190000042598383",
+    "author": "Beverly",
+    "home_url": "https://segmentfault.com/u/beverly0",
+    "votes": "2",
+    "rank": 4
+  },
+  {
+    "title": "用 javascript 写 SQL",
+    "description": "介绍基于 node-postgreSql 的 sql 客户端什么时候需要用 javascript 写 SQL？避免重复一些 SQL 可以省去多余的代码，例如根据条件查询数据 {代码...} 静态检查例如数据操作是不是符合规范： {代码...} 应用释放资...",
+    "url": "https://segmentfault.com/a/1190000042583108",
+    "author": "donggg",
+    "home_url": "https://segmentfault.com/u/donggg1942",
+    "votes": "1",
+    "rank": 5
   },
   {
     "title": "从边缘视角展望元宇宙",
@@ -33,7 +51,7 @@
     "author": "Rancher",
     "home_url": "https://segmentfault.com/u/rancher",
     "votes": "1",
-    "rank": 4
+    "rank": 6
   },
   {
     "title": "得物 × StarRocks：潮流网购社区的极速 OLAP 实践",
@@ -42,7 +60,7 @@
     "author": "StarRocks",
     "home_url": "https://segmentfault.com/u/starrocks",
     "votes": "1",
-    "rank": 5
+    "rank": 7
   },
   {
     "title": "技术分享 | Presto性能对比测试：Kubernetes部署 VS 物理机部署",
@@ -51,7 +69,7 @@
     "author": "Alluxio",
     "home_url": "https://segmentfault.com/u/alluxio_tianyu",
     "votes": "1",
-    "rank": 6
+    "rank": 8
   },
   {
     "title": "3D点云标注有哪些好用的开源工具",
@@ -60,15 +78,6 @@
     "author": "整数智能AI研究院",
     "home_url": "https://segmentfault.com/u/molardata",
     "votes": "1",
-    "rank": 7
-  },
-  {
-    "title": "SegmentFault 思否技术周刊 — 浅谈如何使用 Webpack ？",
-    "description": "最近在开发一个低代码平台，主要用于运营搭建 H5 活动。这中间涉及到第三方组件的开发，而第三方组件想要接入平台，需要经过我们特定的打包工具来 build。构建之后的组件，会合并成单个的 js 文件，而且代码会被...",
-    "url": "https://segmentfault.com/a/1190000042598383",
-    "author": "Beverly",
-    "home_url": "https://segmentfault.com/u/beverly0",
-    "votes": "1",
-    "rank": 8
+    "rank": 9
   }
 ]
