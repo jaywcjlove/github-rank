@@ -14,7 +14,7 @@
     "url": "https://segmentfault.com/a/1190000042475578",
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
-    "votes": "27",
+    "votes": "28",
     "rank": 2
   },
   {
@@ -63,13 +63,22 @@
     "rank": 7
   },
   {
+    "title": "一个被忽略的前端细分领域",
+    "description": "大家好，我卡颂。回想下你学新技术的主要途径是什么？看书？看技术文档？看博文？看视频？归纳起来，无外乎文字、视频两种形式。从纸媒时代到互联网时代，再到移动互联网时代，虽然信息的载体发生变化，但信息的...",
+    "url": "https://segmentfault.com/a/1190000042584599",
+    "author": "卡颂",
+    "home_url": "https://segmentfault.com/u/kasong",
+    "votes": "15",
+    "rank": 8
+  },
+  {
     "title": "实现《羊了个羊》的小游戏",
     "description": "这两天火爆全场的《羊了个羊》游戏，相信大家都玩过了，那么在玩这个游戏的同时，我想大家都会好奇这个游戏的实现，本文就带大家使用css,html,js来实现一个动物版的游戏。",
     "url": "https://segmentfault.com/a/1190000042502121",
     "author": "夕水",
     "home_url": "https://segmentfault.com/u/xishui_5ac9a340a5484",
     "votes": "14",
-    "rank": 8
+    "rank": 9
   },
   {
     "title": "借助 :has 实现3d轮播图",
@@ -78,7 +87,16 @@
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
     "votes": "10",
-    "rank": 9
+    "rank": 10
+  },
+  {
+    "title": "超强的纯 CSS 鼠标点击拖拽效果",
+    "description": "背景鼠标拖拽元素移动，算是一个稍微有点点复杂的交互。而在本文，我们就将打破常规，向大家介绍一种超强的仅仅使用纯 CSS 就能够实现的鼠标点击拖拽效果。在之前的这篇文章中 -- 不可思议的纯 CSS 实现鼠标跟随...",
+    "url": "https://segmentfault.com/a/1190000042589774",
+    "author": "chokcoco",
+    "home_url": "https://segmentfault.com/u/chokcoco",
+    "votes": "13",
+    "rank": 11
   },
   {
     "title": "漫画 | Serverless + Data，让后端告别搬砖！",
@@ -86,8 +104,8 @@
     "url": "https://segmentfault.com/a/1190000042554569",
     "author": "六一",
     "home_url": "https://segmentfault.com/u/suicidal_romantic_scoundrel",
-    "votes": "11",
-    "rank": 10
+    "votes": "12",
+    "rank": 12
   },
   {
     "title": "见微知著，从两道有意思的 CSS 面试题，考察你的基础",
@@ -96,7 +114,7 @@
     "author": "chokcoco",
     "home_url": "https://segmentfault.com/u/chokcoco",
     "votes": "10",
-    "rank": 11
+    "rank": 13
   },
   {
     "title": "CSS 有了:has伪类可以做些什么？",
@@ -105,16 +123,7 @@
     "author": "XboxYan",
     "home_url": "https://segmentfault.com/u/xboxyan",
     "votes": "14",
-    "rank": 12
-  },
-  {
-    "title": "一个被忽略的前端细分领域",
-    "description": "大家好，我卡颂。回想下你学新技术的主要途径是什么？看书？看技术文档？看博文？看视频？归纳起来，无外乎文字、视频两种形式。从纸媒时代到互联网时代，再到移动互联网时代，虽然信息的载体发生变化，但信息的...",
-    "url": "https://segmentfault.com/a/1190000042584599",
-    "author": "卡颂",
-    "home_url": "https://segmentfault.com/u/kasong",
-    "votes": "13",
-    "rank": 13
+    "rank": 14
   },
   {
     "title": "35+，如果面试让我手写红黑树！",
@@ -123,7 +132,7 @@
     "author": "小傅哥",
     "home_url": "https://segmentfault.com/u/fuzhengwei",
     "votes": "10",
-    "rank": 14
+    "rank": 15
   },
   {
     "title": "Java反射真正的详解，学以致用，实战案例，虽不及万字，但也已有近8000字",
@@ -132,15 +141,6 @@
     "author": "宁在春",
     "home_url": "https://segmentfault.com/u/wyh_study",
     "votes": "15",
-    "rank": 15
-  },
-  {
-    "title": "超强的纯 CSS 鼠标点击拖拽效果",
-    "description": "背景鼠标拖拽元素移动，算是一个稍微有点点复杂的交互。而在本文，我们就将打破常规，向大家介绍一种超强的仅仅使用纯 CSS 就能够实现的鼠标点击拖拽效果。在之前的这篇文章中 -- 不可思议的纯 CSS 实现鼠标跟随...",
-    "url": "https://segmentfault.com/a/1190000042589774",
-    "author": "chokcoco",
-    "home_url": "https://segmentfault.com/u/chokcoco",
-    "votes": "11",
     "rank": 16
   },
   {
@@ -225,21 +225,21 @@
     "rank": 25
   },
   {
-    "title": "面试说：聊聊JavaScript中的数据类型",
-    "description": "答：Javascript 中的数据类型包括原始类型和引用类型。其中原始类型包括 null、undefined、boolean、string、symbol、bigInt、number。引用类型指的是 Object。",
-    "url": "https://segmentfault.com/a/1190000042539876",
-    "author": "Gopal",
-    "home_url": "https://segmentfault.com/u/fengguangping",
-    "votes": "9",
-    "rank": 26
-  },
-  {
     "title": "Segmentfault 思否首届「猫猫杯」线上代码共创大赛正式启动，快来 DIY 你的专属表情包！",
     "description": "关注我们的朋友们都知道，SegmentFault 思否的吉祥物是一只独一无二、特立独行、热爱自由的(>^ω^<)独角猫，也是社区的首席摸鱼官。",
     "url": "https://segmentfault.com/a/1190000042567232",
     "author": "SegmentFault思否",
     "home_url": "https://segmentfault.com/u/segmentfault",
     "votes": "5",
+    "rank": 26
+  },
+  {
+    "title": "面试说：聊聊JavaScript中的数据类型",
+    "description": "答：Javascript 中的数据类型包括原始类型和引用类型。其中原始类型包括 null、undefined、boolean、string、symbol、bigInt、number。引用类型指的是 Object。",
+    "url": "https://segmentfault.com/a/1190000042539876",
+    "author": "Gopal",
+    "home_url": "https://segmentfault.com/u/fengguangping",
+    "votes": "9",
     "rank": 27
   },
   {
