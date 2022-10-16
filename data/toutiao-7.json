@@ -2,7 +2,7 @@
   {
     "title": "7000 字 + 24 张图带你彻底弄懂线程池",
     "description": "今天跟大家聊一聊无论是在工作中常用还是在面试中常问的线程池，通过画图的方式来彻底弄懂线程池的工作原理，以及在实际项目中该如何自定义适合业务的线程池。一、什么是线程池 线程池其实是一...",
-    "votes": "89",
+    "votes": "94",
     "url": "/k/wci1eno",
     "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
     "avatarAlt": "服务架构及中台 - 独家号",
@@ -12,7 +12,7 @@
   {
     "title": "130 个学术网站 26 个科研工具",
     "description": "1.谷歌学术提供1个比较稳定的谷歌学术网址https://xs.glgoo.net/2004年11月，Google第一次发布了Google学术搜索的试用版。该项索引包括了世界上绝大...",
-    "votes": "69",
+    "votes": "76",
     "url": "/k/rw2dlfo",
     "avatar": "https://img.toutiao.io/subject/9ddc6d126f4c4becb5224f2a64f2b998/thumb",
     "avatarAlt": "好玩有趣有料的项目 - 独家号",
@@ -22,7 +22,7 @@
   {
     "title": "常用 Shell 分析服务器日志命令，运维快收藏",
     "description": "  自己的小网站跑在阿里云的 ECS 上面, 偶尔也去分析分析自己网站服务器日志,看看网站的访问量。看看有没有黑阔搞破坏！于是收集，整理一些服务器日志分析命令，大家可以试试！ 1、...",
-    "votes": "44",
+    "votes": "47",
     "url": "/k/y451jnx",
     "avatar": "https://img.toutiao.io/subject/c71f4a0234be4569bfe2f33b95f710bd/thumb",
     "avatarAlt": "codebee - 独家号",
@@ -32,8 +32,18 @@
   {
     "title": "Spring 事务的这 10 种坑使得事务失效了",
     "description": "对于从事java开发工作的同学来说，spring的事务肯定再熟悉不过了。在某些业务场景下，如果同时有多张表的写入操作，为了保证操作的原子性（要么同时成功，要么同时失败）避免数据不一...",
-    "votes": "29",
+    "votes": "31",
     "url": "/k/c5l12vd",
+    "avatar": "https://img.toutiao.io/subject/c1103a714a594e4eafc17c5c14cbab4d/thumb",
+    "avatarAlt": "小渣的独家号 - 独家号",
+    "subjectName": "小渣的独家号",
+    "homeUrl": "/subjects/476437"
+  },
+  {
+    "title": "76 张图，剖析 Spring AOP 源码，小白居然也能看懂，大神，请收下我的膝盖",
+    "description": " 预计阅读 30 分钟，建议先收藏~~大家好，我是楼仔！前两篇分享的 Spring 源码，反响非常不错，这个是源码系列的第 3 篇。前两篇的源码解析，涉及到很多基础知识，但是源码的...",
+    "votes": "34",
+    "url": "/k/kgzocte",
     "avatar": "https://img.toutiao.io/subject/c1103a714a594e4eafc17c5c14cbab4d/thumb",
     "avatarAlt": "小渣的独家号 - 独家号",
     "subjectName": "小渣的独家号",
@@ -50,34 +60,14 @@
     "homeUrl": "/subjects/42200"
   },
   {
-    "title": "76 张图，剖析 Spring AOP 源码，小白居然也能看懂，大神，请收下我的膝盖",
-    "description": " 预计阅读 30 分钟，建议先收藏~~大家好，我是楼仔！前两篇分享的 Spring 源码，反响非常不错，这个是源码系列的第 3 篇。前两篇的源码解析，涉及到很多基础知识，但是源码的...",
-    "votes": "29",
-    "url": "/k/kgzocte",
-    "avatar": "https://img.toutiao.io/subject/c1103a714a594e4eafc17c5c14cbab4d/thumb",
-    "avatarAlt": "小渣的独家号 - 独家号",
-    "subjectName": "小渣的独家号",
-    "homeUrl": "/subjects/476437"
-  },
-  {
-    "title": "JuiceFS 在 Elasticsearch/ClickHouse 温冷数据存储中的实践",
-    "description": "",
-    "votes": "30",
-    "url": "/k/54f7165",
-    "avatar": "https://img.toutiao.io/user/91863e9380904cf58de389d6802a455e/thumb",
-    "avatarAlt": "JuiceFS的独家号 - 独家号",
-    "subjectName": "JuiceFS的独家号",
-    "homeUrl": "/subjects/464469"
-  },
-  {
-    "title": "高性能 Java 计算服务的性能调优实战",
-    "description": "作者：vivo 互联网服务器团队- Chen Dongxing、Li Haoxuan、Chen Jinxia随着业务的日渐复杂，性能优化俨然成为了每一位技术人的必修课。性能优化从何...",
+    "title": "记一次因 @Async 引发的程序 bug",
+    "description": "点击上方蓝字关注我们01前言事情的起因是微服务A通过feign调用微服务B的某个接口，报了形如下的异常feign.FeignException$NotFound: [404] du...",
     "votes": "28",
-    "url": "/k/bgbsmkh",
-    "avatar": "https://img.toutiao.io/subject/ae2b74c589814b769c1bebad92c2fb9a/thumb",
-    "avatarAlt": "架构之美 - 独家号",
-    "subjectName": "架构之美",
-    "homeUrl": "/subjects/42200"
+    "url": "/k/ka76qjk",
+    "avatar": "https://img.toutiao.io/subject/f13d5c901ebe4d5f9509d20e36f1ee33/thumb",
+    "avatarAlt": "linyb极客之路 - 独家号",
+    "subjectName": "linyb极客之路",
+    "homeUrl": "/subjects/406737"
   },
   {
     "title": "京东到家埋点治理实践",
@@ -90,29 +80,9 @@
     "homeUrl": "/subjects/136176"
   },
   {
-    "title": "深入理解 ForkJoinPool：入门、使用、原理",
-    "description": "本文将从一个简单的例子出发，与大家解释为啥要有 ForkJoinPool 的存在。接着向大家介绍 ForkJoinPool 的基本信息及使用，最后讲解 ForkJoinPool 的...",
-    "votes": "26",
-    "url": "/k/zu4hyfd",
-    "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
-    "avatarAlt": "服务架构及中台 - 独家号",
-    "subjectName": "服务架构及中台",
-    "homeUrl": "/subjects/26578"
-  },
-  {
-    "title": "TCP 拥塞控制详解 | 7. 超越 TCP",
-    "description": "网络传输问题本质上是对网络资源的共享和复用问题，因此拥塞控制是网络工程领域的核心问题之一，并且随着互联网和数据中心流量的爆炸式增长，相关算法和机制出现了很多创新，本系列是免费电子书...",
-    "votes": "21",
-    "url": "/k/385cm7h",
-    "avatar": "https://img.toutiao.io/user/af19eb53bb164e47a25e3b1ef00f965e/thumb",
-    "avatarAlt": "DeepNoMind - 独家号",
-    "subjectName": "DeepNoMind",
-    "homeUrl": "/subjects/460290"
-  },
-  {
     "title": "Http 2.0 一篇就够了",
     "description": "自1997年HTTP/1.1发布之后，HTTP/1.1便迅速占领了市场，时至今日(2022年)仍是当前使用最广泛的http协议。但是，这并不能说明HTTP/1.1就完美无缺了，仍然...",
-    "votes": "25",
+    "votes": "26",
     "url": "/k/tpj25u1",
     "avatar": "https://img.toutiao.io/subject/97447fa2afe34a0f8b78e000eebbcea3/thumb",
     "avatarAlt": "RyuGou的独家号 - 独家号",
@@ -122,7 +92,7 @@
   {
     "title": "持续交付的软件系统架构",
     "description": "为了提升交付速度，获得持续交付能力，系统架构在设计时应该考虑如下因素：为测试而设计：如果我们每次写好代码以后，需要花费很大的精力，做很多的准备工作才能对它进行测试的话，那么从写好代...",
-    "votes": "20",
+    "votes": "22",
     "url": "/k/a59p659",
     "avatar": "https://img.toutiao.io/subject/bf13817488764502ae746a0a4798478d/thumb",
     "avatarAlt": "新亮笔记 - 独家号",
@@ -130,24 +100,64 @@
     "homeUrl": "/subjects/135111"
   },
   {
-    "title": "记一次因 @Async 引发的程序 bug",
-    "description": "点击上方蓝字关注我们01前言事情的起因是微服务A通过feign调用微服务B的某个接口，报了形如下的异常feign.FeignException$NotFound: [404] du...",
-    "votes": "21",
-    "url": "/k/ka76qjk",
-    "avatar": "https://img.toutiao.io/subject/f13d5c901ebe4d5f9509d20e36f1ee33/thumb",
-    "avatarAlt": "linyb极客之路 - 独家号",
-    "subjectName": "linyb极客之路",
-    "homeUrl": "/subjects/406737"
+    "title": "Spring 之 Bean 生命周期源码解析",
+    "description": "Bean的生命周期Spring最重要的功能就是帮助程序员创建对象(也就是IOC)，而启动Spring就是为创建对象做准备，所以我们要先明白Spring到底是怎么去创建Bean的，也...",
+    "votes": "23",
+    "url": "/k/5b3p9e1",
+    "avatar": "https://img.toutiao.io/subject/8e12ef64799649acbfd936883ef16c3c/thumb",
+    "avatarAlt": "服务架构及中台 - 独家号",
+    "subjectName": "服务架构及中台",
+    "homeUrl": "/subjects/26578"
   },
   {
     "title": "Paxos 为什么可以保证整体一致性？",
     "description": "微信公众号：并发笔记关注可了解更多的共识算法相关内容。如有问题或建议，请公众号留言;要回答这个问题，先要了解以下几个问题共识和一致性有什么区别？怎么理解多数派？为什么只需要多数派支...",
-    "votes": "21",
+    "votes": "23",
     "url": "/k/2uyzcee",
     "avatar": "https://img.toutiao.io/subject/e869abb8b126449695234f519888025d/thumb",
     "avatarAlt": "并发笔记 - 独家号",
     "subjectName": "并发笔记",
     "homeUrl": "/subjects/395621"
+  },
+  {
+    "title": "一文就想搞懂 Sentinel 限流熔断？带你入个门",
+    "description": "大家好，我是码哥。  面对互联网的高并发过载流量，为了保证系统的稳定性，我们一般会对过载流量进行限流。今天就给大家详细介绍一款限流框架   1、什么是 sentinel：在基于 S...",
+    "votes": "20",
+    "url": "/k/j600vjd",
+    "avatar": "https://img.toutiao.io/subject/c1103a714a594e4eafc17c5c14cbab4d/thumb",
+    "avatarAlt": "小渣的独家号 - 独家号",
+    "subjectName": "小渣的独家号",
+    "homeUrl": "/subjects/476437"
+  },
+  {
+    "title": "21 个 MySQL 表设计的经验准则",
+    "description": "前言  作为后端开发，我们经常需要设计数据库表。整理了21个设计MySQL表的经验准则，分享给大家，大家看完一定会有帮助的。  1.命名规范 数据库表名、字段名、索引名等都需要命名...",
+    "votes": "24",
+    "url": "/k/lh0iga3",
+    "avatar": "https://img.toutiao.io/subject/0bd01d30f85345feb85424b2928d99b2/thumb",
+    "avatarAlt": "进击的程序猿 - 独家号",
+    "subjectName": "进击的程序猿",
+    "homeUrl": "/subjects/24912"
+  },
+  {
+    "title": "用 Charles 断点调试 HTTPS 请求，原理揭秘",
+    "description": "现在的网站基本都是 https 的，而 charles 是常用的 http 抓包工具，所以用 charles 调试 https 请求是常见的需求。今天就分享下如何用 charles...",
+    "votes": "21",
+    "url": "/k/hnbu55g",
+    "avatar": "https://img.toutiao.io/subject/71ba50c970bb45f1bf3fa871b8ef47a9/thumb",
+    "avatarAlt": "xinconan - 独家号",
+    "subjectName": "xinconan",
+    "homeUrl": "/subjects/150250"
+  },
+  {
+    "title": "不会服务治理，还怎么搞微服务？",
+    "description": "目录 单体架构 微服务架构 服务治理之注册与发现和负载均衡 服务治理之限流熔断 服务治理之服务监控 今天给大家分享一个话题，是关于微服务架构的服务治理的，很多小伙伴可能都觉得自己玩...",
+    "votes": "19",
+    "url": "/k/53jbwls",
+    "avatar": "https://img.toutiao.io/subject/df70c5d3876241ecba5984356133ab23/thumb",
+    "avatarAlt": "架构必知必会 - 独家号",
+    "subjectName": "架构必知必会",
+    "homeUrl": "/subjects/472073"
   },
   {
     "title": "字节跳动基于 ClickHouse 的复杂查询实现与优化",
@@ -160,29 +170,9 @@
     "homeUrl": "/subjects/136176"
   },
   {
-    "title": "用 Charles 断点调试 HTTPS 请求，原理揭秘",
-    "description": "现在的网站基本都是 https 的，而 charles 是常用的 http 抓包工具，所以用 charles 调试 https 请求是常见的需求。今天就分享下如何用 charles...",
-    "votes": "19",
-    "url": "/k/hnbu55g",
-    "avatar": "https://img.toutiao.io/subject/71ba50c970bb45f1bf3fa871b8ef47a9/thumb",
-    "avatarAlt": "xinconan - 独家号",
-    "subjectName": "xinconan",
-    "homeUrl": "/subjects/150250"
-  },
-  {
-    "title": "一文就想搞懂 Sentinel 限流熔断？带你入个门",
-    "description": "大家好，我是码哥。  面对互联网的高并发过载流量，为了保证系统的稳定性，我们一般会对过载流量进行限流。今天就给大家详细介绍一款限流框架   1、什么是 sentinel：在基于 S...",
-    "votes": "17",
-    "url": "/k/j600vjd",
-    "avatar": "https://img.toutiao.io/subject/c1103a714a594e4eafc17c5c14cbab4d/thumb",
-    "avatarAlt": "小渣的独家号 - 独家号",
-    "subjectName": "小渣的独家号",
-    "homeUrl": "/subjects/476437"
-  },
-  {
     "title": "从 0 到 1 智能风控决策引擎构建",
     "description": "引言互联网时代，万物互联，网络安全形势越来越严峻，安全是企业的基石，风控在企业中扮演着“警察”角色，运用各种技术和手段，保护企业内的用户利益不受侵害。风控决策引是风控中台的入口，提...",
-    "votes": "18",
+    "votes": "19",
     "url": "/k/z948l4u",
     "avatar": "https://img.toutiao.io/subject/8d1fd69b9a2a49e79f68a1e3c8fc0138/thumb",
     "avatarAlt": "咕咕鸡技术专栏 - 独家号",
@@ -192,11 +182,21 @@
   {
     "title": "开源 2 年半，除了性能优化我们啥也没做",
     "description": "",
-    "votes": "21",
+    "votes": "22",
     "url": "/k/swk2aqc",
     "avatar": "https://img.toutiao.io/subject/a55d21e9f4fd45a7815fa3abbef611c1/thumb",
     "avatarAlt": "MegEngine Bot - 独家号",
     "subjectName": "MegEngine Bot",
     "homeUrl": "/subjects/462343"
+  },
+  {
+    "title": "魔改 xxl-job，彻底告别手动配置任务",
+    "description": "哈喽大家好啊，我是Hydra。xxl-job是一款非常优秀的任务调度中间件，轻量级、使用简单、支持分布式等优点，让它广泛应用在我们的项目中，解决了不少定时任务的调度问题。我们都知道...",
+    "votes": "20",
+    "url": "/k/6sjbtl0",
+    "avatar": "https://img.toutiao.io/subject/d958b6b7b252470c838a8189621b3709/thumb",
+    "avatarAlt": "码农参上 - 独家号",
+    "subjectName": "码农参上",
+    "homeUrl": "/subjects/457899"
   }
 ]
