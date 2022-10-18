@@ -1,38 +1,74 @@
 [
   {
-    "title": "ReactQuery系列文章- 1. React Query 实践",
-    "description": "当2018年GraphQL特别是Apolllo Client开始流行之后，很多人开始认为它将替代Redux，关于Redux是否已经落伍的问题经常被问到。我很清晰地记得我当时对这些观点的不理解。为什么一些数据请求的库会替代全局状态管理...",
-    "url": "https://segmentfault.com/a/1190000042629569",
-    "author": "lakb248",
-    "home_url": "https://segmentfault.com/u/kk_470661",
-    "votes": "1",
+    "title": "思否猫拼接怪编辑器",
+    "description": "1024程序员节马上就要来了，我们借着这个机会实现一个社区的吉祥物思否猫的编辑器，暂时起名【思否猫拼接怪】,唯一的遗憾就是素材不是精确到胳膊腿的",
+    "url": "https://segmentfault.com/a/1190000042632786",
+    "author": "JenK",
+    "home_url": "https://segmentfault.com/u/wangzc996",
+    "votes": "7",
     "rank": 1
   },
   {
-    "title": "《数据密集型应用系统设计》 - 数据模型和查询语言",
-    "description": "sjmj 《数据密集型应用系统设计》 - 数据模型和查询语言概览现实世界的API和相关程序作用于某个特定领域解决现实生活的某些问题。存储数据的模型可以使JSON也可以是XML类型。如何展示以及表示JSON，以及如何操作...",
-    "url": "https://segmentfault.com/a/1190000042629937",
-    "author": "Xander",
-    "home_url": "https://segmentfault.com/u/lazytimes",
-    "votes": "1",
+    "title": "你不知道的JavaScript APIs",
+    "description": "本文首发于微信公众号：大迁世界, 我的微信：qq449245884，我会第一时间和你分享前端行业趋势，学习途径等等。更多开源作品请看 GitHub [链接] ，包含一线大厂面试完整考点、资料以及我的系列文章。",
+    "url": "https://segmentfault.com/a/1190000042558270",
+    "author": "前端小智",
+    "home_url": "https://segmentfault.com/u/minnanitkong",
+    "votes": "2",
     "rank": 2
   },
   {
-    "title": "【docker】文档 [不断补充中...]",
-    "description": "全栈技术分享，API文档动态更新，技术点简明易懂，快速入门有帮助的话点个赞吧，感兴趣的关注加书签获得更多文档，方便随时查阅，有问题欢迎留言讨论",
-    "url": "https://segmentfault.com/a/1190000042629924",
-    "author": "eveforest",
-    "home_url": "https://segmentfault.com/u/eveforest",
-    "votes": "1",
+    "title": "微信推出自研 NLP 大规模语言模型 WeLM，现已开放 API 推动应用落地",
+    "description": "大规模语言模型领域迎来新“选手”。近日，微信 AI 推出自研 NLP 大规模语言模型 WeLM ，该模型是一个尺寸合理的中文模型，能够在零样本以及少样本的情境下完成包多语言任务在内的多种 NLP 任务。",
+    "url": "https://segmentfault.com/a/1190000042632229",
+    "author": "MissD",
+    "home_url": "https://segmentfault.com/u/d2ms1shh",
+    "votes": "2",
     "rank": 3
   },
   {
-    "title": "Docker | 发布镜像到镜像仓库",
-    "description": "本文记录发布镜像到 DockerHub 和 阿里云镜像仓库。工作中使用的是JFrog Artifactory 和 Harbor，没有太大差别。",
-    "url": "https://segmentfault.com/a/1190000042628920",
-    "author": "甜点cc",
-    "home_url": "https://segmentfault.com/u/xiaojt",
+    "title": "go-GIN入门到....(持续更新中)",
+    "description": "go-GIN入门到....(持续更新中)安装gin参考 {代码...} 设置环境变量 {代码...} gin {代码...} 快速开始创建文件 {代码...} 运行文件 {代码...} 路由无参数 {代码...} {代码...} 动态路由 {代码...} {代码...} 带Qu...",
+    "url": "https://segmentfault.com/a/1190000042631567",
+    "author": "BewaterMyfriends",
+    "home_url": "https://segmentfault.com/u/bewatermyfriends",
     "votes": "1",
     "rank": 4
+  },
+  {
+    "title": "Golang 轮子之 Supervisor",
+    "description": "Supervisor 是一个强大的 进程管理工具。在非容器化管理的服务器上， Supervisor 是有非常广泛的使用场景的。例如：服务批量重启，多服务按顺序启动，服务oom后自动拉起，服务std日志收集等，甚至服务健康检查它...",
+    "url": "https://segmentfault.com/a/1190000042631207",
+    "author": "小白要生发",
+    "home_url": "https://segmentfault.com/u/xiaobaiyaoshengfa",
+    "votes": "1",
+    "rank": 5
+  },
+  {
+    "title": "js常用方法梳理",
+    "description": "1、将下标转为中文零一二三... {代码...} 2、判断整数的不同方法 {代码...} 3、dom节点平滑滚动到可视区域，顶部，底部原生的scrollTo方法没有动画，类似于锚点跳转，比较生硬，可以通过这个方法会自带平滑的过度...",
+    "url": "https://segmentfault.com/a/1190000042632971",
+    "author": "墨城",
+    "home_url": "https://segmentfault.com/u/xiaomogu_5f2124ad3ad42",
+    "votes": "1",
+    "rank": 6
+  },
+  {
+    "title": "面试官：深度不够，建议回去深挖",
+    "description": "从刚面试的问题回答中，能看得出你用了不少拙力背了不少题。直接拿这些技术点问，你可以回答。但同样是这些技术点，我换个场景来问用到了什么技术，你就像从没有听说过一样。当然不可否认你能通过背把这些内容记...",
+    "url": "https://segmentfault.com/a/1190000042630604",
+    "author": "小傅哥",
+    "home_url": "https://segmentfault.com/u/fuzhengwei",
+    "votes": "1",
+    "rank": 7
+  },
+  {
+    "title": "从局部变量说起，关于一个莫得名堂的引用和一个坑！",
+    "description": "你好呀，我是歪歪。今天带大家盘一个有点意思的基础知识啊。有多基础呢，先给你上个代码：请问，上面代码中，位于 method 方法中的 object 对象，在方法执行完成之后，是否可以被垃圾回收？这还思考个啥呀，这必...",
+    "url": "https://segmentfault.com/a/1190000042631895",
+    "author": "why技术",
+    "home_url": "https://segmentfault.com/u/whyjishu",
+    "votes": "1",
+    "rank": 8
   }
 ]
