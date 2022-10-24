@@ -8,11 +8,6 @@ import { sleep, getUserInfoData } from './index.js';
  */
 let users: UsersData[] = [];
 
-/**
- * 用于缓存老用户数据，做数据比对筛选
- */
-let usersStore: UsersData[] = [];
-
 export async function saveUserData(data: UsersData[], type: string = '') {
   await FS.outputFile(path.join(process.cwd(), 'dist', `users${type}.json`), JSON.stringify(data, null, 2));
 }
@@ -43,22 +38,7 @@ async function getInfo(arr: UsersDataBase[], type: string = '', globalUsers: Use
     }
   }
   
-  // if (!findUser._stars) {
-  //   const str = await getUserStar(user.login);
-  //   findUser._stars = str;
-  // }
-
-  const userFilter = usersStore.find(item => (findUser && item.login === findUser.login) as boolean);
-  if (!userFilter) {
-    users.push(findUser);
-  } else {
-    users = users.map((item: UsersData) => {
-      if (findUser && item.login === findUser.login) {
-        item = { ...user, ...findUser };
-      }
-      return item;
-    });
-  }
+  users.push(findUser);
   await saveUserData(users, type);
   // 获取成功删除第一条
   arr.shift();
@@ -97,8 +77,10 @@ function sortUser(users: UsersData[]) {
  * @param {String} type 类型，取值 `空` | 或者 `.china` 用于存储。
  */
 export async function saveUsersData(usersDist: UsersData[], cacheUsers: UsersDataBase[], type: string, globalUsers?: UsersData[]) {
-  users = [...usersDist];
-  usersStore = [...usersDist];
+  users = Array.from(cacheUsers).map(item => {
+    const userFilter = usersDist.find(data => item.login === data.login);
+    return { ...userFilter, ...item };
+  })
   if (cacheUsers && cacheUsers.length > 0) {
     await getInfo(cacheUsers, type, globalUsers);
   }
