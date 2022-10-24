@@ -1,20 +1,47 @@
 [
   {
-    "title": "JAVA内存区域划分",
-    "description": "根据《JAVA虚拟机规范》的规定，JAVA虚拟机在执行JAVA程序的过程中会把内存划分为不同的数据区域。不同类型的数据会存储在不同的区域，理解JAVA内存区域的工作细节对裂解JAVA多线程、线程安全性有着重要意义。",
-    "url": "https://segmentfault.com/a/1190000042669875",
-    "author": "福",
-    "home_url": "https://segmentfault.com/u/fu_623f04ad34d53",
-    "votes": "1",
+    "title": "面向猫猫编程，SegmentFault 思否 1024 程序员节惊喜彩蛋攻略来啦！",
+    "description": "在 SegmentFault 思否 1024 程序员节系列活动 中，思否小姐姐为大家预留了一个悬念，还没有公布第三站：惊喜彩蛋「喵了个喵」的具体玩法，思否小姐姐也收到了不少咨询活动玩法的私信，惊喜彩蛋哪里找？趣味游戏怎...",
+    "url": "https://segmentfault.com/a/1190000042671467",
+    "author": "SegmentFault思否",
+    "home_url": "https://segmentfault.com/u/segmentfault",
+    "votes": "36",
     "rank": 1
   },
   {
-    "title": "前端排序简介",
-    "description": "当时觉得自己写的还挺优雅的，后来在某次机缘巧合下看到篇文章，大致意思是通过这种 Math.random 写法的乱序方式是不稳定的，于是我自己尝试统计了下：",
-    "url": "https://segmentfault.com/a/1190000042669850",
-    "author": "小皇帝James",
-    "home_url": "https://segmentfault.com/u/thjjames",
-    "votes": "1",
+    "title": "只需百十行代码，为你的Web页面增加本地文件操作能力，确定不试试吗？",
+    "description": "笔者开源了一个Web思维导图mind-map，数据默认是存储在localstorage里，如果想保存到本地文件，需要使用导出功能，下次打开再使用导入功能，编辑完如果又想保存到文件，那么又需要从重新导出覆盖原来的文件，不得...",
+    "url": "https://segmentfault.com/a/1190000042671481",
+    "author": "街角小林",
+    "home_url": "https://segmentfault.com/u/jiejiaoxiaolin",
+    "votes": "7",
     "rank": 2
+  },
+  {
+    "title": "SegmentFault 思否正式开源问答社区软件 Answer",
+    "description": "作为国内领先的新一代技术问答社区，SegmentFault 思否团队在社区建设上有着多年积累。Answer 不仅拥有搭建问答平台（Q&A Platform）的基础功能，还在产品设计上融入了开发团队对社区发展的思考，并将其经验产品...",
+    "url": "https://segmentfault.com/a/1190000042672978",
+    "author": "SegmentFault思否",
+    "home_url": "https://segmentfault.com/u/segmentfault",
+    "votes": "3",
+    "rank": 3
+  },
+  {
+    "title": "探究几种CSS视差动画实现方案及原理",
+    "description": "background-attachment 的作用是设置背景图像随着页面滚动的时候固定，即使一个元素有滚动机制，背景也不会随着元素的内容而滚动，它的值有以下三个：",
+    "url": "https://segmentfault.com/a/1190000042671680",
+    "author": "MangoGoing",
+    "home_url": "https://segmentfault.com/u/nulidexiaocongmang",
+    "votes": "1",
+    "rank": 4
+  },
+  {
+    "title": "Go - Zero 快速构建高并发微服务",
+    "description": "Go - Zero基本架构图准备工作安装 etcd, mysql, redis {代码...} 安装 protoc-gen-go {代码...} 安装 protoc {代码...} 安装 goctl 工具 {代码...} 创建工作目录 shorturl 和 shorturl/api {代码...} {代码...} {...",
+    "url": "https://segmentfault.com/a/1190000042672082",
+    "author": "BewaterMyfriends",
+    "home_url": "https://segmentfault.com/u/bewatermyfriends",
+    "votes": "1",
+    "rank": 5
   }
 ]
