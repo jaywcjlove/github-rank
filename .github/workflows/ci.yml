@@ -10,7 +10,7 @@ on:
 
 jobs:
   build-deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
     - uses: actions/setup-node@v3
@@ -19,12 +19,14 @@ jobs:
 
     - run: npm install
 
-    - name: Modify Version
+    - name: Modify Version(Date)
       shell: bash
       run: |
         node -e 'var pkg = require("./package.json"); pkg.version= (new Date().getFullYear().toString().substr(2)) + "." + (new Date().getMonth() + 1) + "." + (new Date().getDate()); require("fs").writeFileSync("./package.json", JSON.stringify(pkg, null, 2))'
 
-    - run: npm run get:o
+    - run: |
+        npm run get:trending
+        npm run get:repos
       env: 
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         ID: ${{ secrets.GITHUB_ID }}

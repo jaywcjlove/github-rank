@@ -4,11 +4,9 @@
   "description": "Github Users Ranking for China.",
   "scripts": {
     "start": "node lib/build.js",
-    "get:toutiao": "node lib/geToutiao.js",
     "get": "npm run get:users && npm run get:users:china && npm run get:users:info",
-    "get:o": "npm run get:trending && npm run get:repos && npm run get:sifou && npm run get:toutiao",
+    "get:o": "npm run get:trending && npm run get:repos",
     "get:users:info": "node lib/getUserInfo.js",
-    "get:sifou": "node lib/getSifou.js",
     "get:users": "node lib/getUsers.js",
     "get:users:china": "node lib/getUsersChina.js",
     "get:repos": "node lib/getRepos.js",
@@ -47,7 +45,7 @@
     "@types/dotenv": "~8.2.0",
     "@types/ejs": "~3.1.1",
     "@types/fs-extra": "~9.0.13",
-    "@types/node": "~18.0.1",
+    "@types/node": "~18.11.4",
     "@types/node-fetch": "~2.6.2",
     "@uiw/formatter": "~1.3.3",
     "cheerio": "~1.0.0-rc.12",
@@ -56,6 +54,6 @@
     "ejs": "~3.1.8",
     "fs-extra": "~10.1.0",
     "node-fetch": "~3.2.6",
-    "tsbb": "~3.7.6"
+    "tsbb": "~3.7.8"
   }
 }

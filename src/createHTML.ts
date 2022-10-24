@@ -2,9 +2,6 @@ import FS from 'fs-extra';
 import path from 'path';
 import ejs from 'ejs';
 import { fileURLToPath } from 'url';
-import { ISifou } from './utils/getSifou.js';
-
-import { IToutiaoData } from './utils/index.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -58,17 +55,4 @@ export function creatTrendingHTML(trendingData: ICreateTrendingHTML[], type: str
   const filename: string = path.join(rootPath, 'trending.ejs');
   const tmpStr: string = FS.readFileSync(filename).toString();
   return ejs.render(tmpStr, { title: 'GitHub Repositories Trending', trending: trendingData, date: dateStr, type }, { filename });
-}
-
-export function creatSifouHTML(sifouData: ISifou[], type: string = 'daily') {
-  const filename: string = path.join(rootPath, 'sifou.ejs');
-  const tmpStr: string = FS.readFileSync(filename).toString();
-  return ejs.render(tmpStr, { title: 'Segmentfault 思否热门', data: sifouData, date: dateStr, type }, { filename });
-}
-
-
-export function creatToutiaoHTML(data: IToutiaoData[], day: number = 7) {
-  const filename: string = path.join(rootPath, `toutiao.ejs`);
-  const tmpStr: string = FS.readFileSync(filename).toString();
-  return ejs.render(tmpStr, { title: `开发者头条 - 最近${day}天热门分享`, data, date: dateStr, day }, { filename });
 }

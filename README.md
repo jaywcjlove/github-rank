@@ -30,8 +30,8 @@ Github 中国用户排名，全球仓库 Star 最多排名，通过 Github API v
 - [Github **中国** 用户 Followers 排名预览](http://jaywcjlove.github.io/github-rank/users.china.html)
 - [Github 全球仓库 Star 最多排名预览](http://jaywcjlove.github.io/github-rank/repos.html)
 - [Github 社区趋势榜日、周、月预览](http://jaywcjlove.github.io/github-rank/trending.html) [**`日`**](http://jaywcjlove.github.io/github-rank/trending.html) [**`周`**](http://jaywcjlove.github.io/github-rank/trending-weekly.html) [**`月`**](http://jaywcjlove.github.io/github-rank/trending-monthly.html)
-- [SegmentFault 思否 - 近期热门](http://jaywcjlove.github.io/github-rank/sifou-daily.html) [**`日`**](http://jaywcjlove.github.io/github-rank/sifou-daily.html) [**`周`**](http://jaywcjlove.github.io/github-rank/sifou-weekly.html) [**`月`**](http://jaywcjlove.github.io/github-rank/sifou-monthly.html)
-- [开发者头条 - 最近热门分享](http://jaywcjlove.github.io/github-rank/toutiao-7.html) [**`7天`**](http://jaywcjlove.github.io/github-rank/toutiao-7.html) [**`30天`**](http://jaywcjlove.github.io/github-rank/toutiao-30.html) [**`90天`**](http://jaywcjlove.github.io/github-rank/toutiao-90.html)
+- ~~[SegmentFault 思否 - 近期热门](http://jaywcjlove.github.io/github-rank/sifou-daily.html) [**`日`**](http://jaywcjlove.github.io/github-rank/sifou-daily.html) [**`周`**](http://jaywcjlove.github.io/github-rank/sifou-weekly.html) [**`月`**](http://jaywcjlove.github.io/github-rank/sifou-monthly.html)~~
+- ~~[开发者头条 - 最近热门分享](http://jaywcjlove.github.io/github-rank/toutiao-7.html) [**`7天`**](http://jaywcjlove.github.io/github-rank/toutiao-7.html) [**`30天`**](http://jaywcjlove.github.io/github-rank/toutiao-30.html) [**`90天`**](http://jaywcjlove.github.io/github-rank/toutiao-90.html)~~
 
 从 `2019年04月20日` 在 [`npm`](https://www.npmjs.com/package/@wcj/github-rank) 上发版，版本号以 `年`、`月`、`日` 来定义，如: `v19.4.20`。
 
