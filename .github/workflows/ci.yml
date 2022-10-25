@@ -6,52 +6,52 @@ on:
     tags:
       - v*
   schedule:
-    - cron:  '0 0 * * *'
+    - cron:  '0 0 0/6 * *'
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-node@v3
-      with:
-        node-version: 16
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
 
-    - run: npm install
+      - run: npm install
 
-    - name: Modify Version(Date)
-      shell: bash
-      run: |
-        node -e 'var pkg = require("./package.json"); pkg.version= (new Date().getFullYear().toString().substr(2)) + "." + (new Date().getMonth() + 1) + "." + (new Date().getDate()); require("fs").writeFileSync("./package.json", JSON.stringify(pkg, null, 2))'
+      - name: Modify Version(Date)
+        shell: bash
+        run: |
+          node -e 'var pkg = require("./package.json"); pkg.version= (new Date().getFullYear().toString().substr(2)) + "." + (new Date().getMonth() + 1) + "." + (new Date().getDate()); require("fs").writeFileSync("./package.json", JSON.stringify(pkg, null, 2))'
 
-    - run: |
-        npm run get:trending
-        npm run get:repos
-      env: 
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        ID: ${{ secrets.GITHUB_ID }}
-        SECRET: ${{ secrets.GITHUB_SECRET }}
+      - run: |
+          npm run get:trending
+          npm run get:repos
+        env: 
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ID: ${{ secrets.GITHUB_ID }}
+          SECRET: ${{ secrets.GITHUB_SECRET }}
 
-    - run: |
-        npm run get:users
-        npm run get:users:china
-        npm run get:users:info
-      env: 
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        ID: ${{ secrets.GITHUB_ID }}
-        SECRET: ${{ secrets.GITHUB_SECRET }}
+      - run: |
+          npm run get:users
+          npm run get:users:china
+          npm run get:users:info
+        env: 
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ID: ${{ secrets.GITHUB_ID }}
+          SECRET: ${{ secrets.GITHUB_SECRET }}
 
-    - run: npm run start
-    - run: mkdir -p web/data
-    - run: cp -rf dist/* web/data
+      - run: npm run start
+      - run: mkdir -p web/data
+      - run: cp -rf dist/* web/data
 
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./web
-        user_name: github-actions[bot]
-        user_email: github-actions[bot]@users.noreply.github.com
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./web
+          user_name: github-actions[bot]
+          user_email: github-actions[bot]@users.noreply.github.com
 
-    - run: npm install @jsdevtools/npm-publish -g
-    - run: npm-publish --token="${{ secrets.NPM_TOKEN }}" ./package.json
+      - run: npm install @jsdevtools/npm-publish -g
+      - run: npm-publish --token="${{ secrets.NPM_TOKEN }}" ./package.json
