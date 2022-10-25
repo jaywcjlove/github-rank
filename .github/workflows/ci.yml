@@ -10,6 +10,10 @@ on:
 
 jobs:
   build-deploy:
+    env: 
+      ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      ID: ${{ secrets.GITHUB_ID }}
+      SECRET: ${{ secrets.GITHUB_SECRET }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -24,22 +28,11 @@ jobs:
         run: |
           node -e 'var pkg = require("./package.json"); pkg.version= (new Date().getFullYear().toString().substr(2)) + "." + (new Date().getMonth() + 1) + "." + (new Date().getDate()); require("fs").writeFileSync("./package.json", JSON.stringify(pkg, null, 2))'
 
-      - run: |
-          npm run get:trending
-          npm run get:repos
-        env: 
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          ID: ${{ secrets.GITHUB_ID }}
-          SECRET: ${{ secrets.GITHUB_SECRET }}
-
-      - run: |
-          npm run get:users
-          npm run get:users:china
-          npm run get:users:info
-        env: 
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          ID: ${{ secrets.GITHUB_ID }}
-          SECRET: ${{ secrets.GITHUB_SECRET }}
+      - run: npm run get:trending
+      - run: npm run get:repos
+      - run: npm run get:users
+      - run: npm run get:users:china
+      - run: npm run get:users:info
 
       - run: npm run start
       - run: mkdir -p web/data
