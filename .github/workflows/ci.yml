@@ -22,6 +22,11 @@ jobs:
         with:
           node-version: 16
 
+      - name: Modify README.md
+        uses: github-action-modify-file-content@main
+        with:
+          filepath: README.md
+
       - run: npm install
 
       - name: Modify Version(Date)
