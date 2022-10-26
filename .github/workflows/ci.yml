@@ -23,7 +23,7 @@ jobs:
           node-version: 16
 
       - name: Modify README.md
-        uses: github-action-modify-file-content@main
+        uses: jaywcjlove/github-action-modify-file-content@main
         with:
           filepath: README.md
 
