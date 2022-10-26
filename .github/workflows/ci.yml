@@ -25,7 +25,7 @@ jobs:
       - name: Modify README.md
         uses: jaywcjlove/github-action-modify-file-content@main
         with:
-          filepath: README.md
+          path: README.md
 
       - run: npm install
 
