@@ -110,3 +110,8 @@ npm run get:users:info
 # 获取 Github 趋势榜，Github 仓库排行(Top 500), sifou，toutiao 的数据
 npm run get:o
 ```
+
+## License
+
+Licensed under the MIT License.
+
