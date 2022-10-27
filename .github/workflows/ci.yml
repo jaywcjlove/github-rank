@@ -26,6 +26,7 @@ jobs:
         uses: jaywcjlove/github-action-modify-file-content@main
         with:
           path: README.md
+          body: "{{date:YYYY-MM-DD HH:mm:ss}}"
 
       - run: npm install
 
