@@ -1,12 +1,12 @@
+import FS from 'fs-extra';
+import path from 'path';
 import { UsersDataBase, UsersData } from './common/props';
-import usersCache from '../.cache/users.json' assert { type: "json" };
-import usersDist from '../dist/users.json' assert { type: "json" };
-import usersChinaCache from '../.cache/users.china.json' assert { type: "json" };
-import usersChinaDist from '../dist/users.china.json' assert { type: "json" };
 import { saveUsersData } from './utils/saveUsersData.js';
 
 ;(async () => {
   try {
+    const usersDist = await FS.readJSON(path.resolve('./dist/users.json'))
+    const usersCache = await FS.readJSON(path.resolve('./.cache/users.json'))
     // 获取【全球】用户数据排行榜
     const users: UsersData[] = await saveUsersData(usersDist as UsersData[], usersCache as UsersDataBase[], '');
     if (usersCache.length === 0) {
@@ -14,6 +14,8 @@ import { saveUsersData } from './utils/saveUsersData.js';
     } else {
       console.log(`<- 获取【全球】用户数据未完成！还剩 ${usersCache.length} 个用户信息，待获取！`);
     }
+    const usersChinaDist = await FS.readJSON(path.resolve('./dist/users.china.json'))
+    const usersChinaCache = await FS.readJSON(path.resolve('./.cache/users.china.json'))
     // 获取【中国】用户数据排行榜
     const usersChina: UsersData[] = await saveUsersData(usersChinaDist as UsersData[], usersChinaCache as UsersDataBase[], '.china', users);
     if (usersChinaCache.length === 0) {

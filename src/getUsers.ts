@@ -30,13 +30,20 @@ import { UsersDataBase } from './common/props.js';
     users = users.concat(data);
     console.log(`-> 获取到第3页，共${data.length}条数据！`);
 
-    users = users.map((item: UsersDataBase, idx: number) => {
+    // 数据去重
+    const obj: Record<string, boolean> = {};
+    let result = users.reduce<UsersDataBase[]>((item, next) => {
+      obj[next.login] ? '' : (obj[next.login] = true) && item.push(next);
+      return item
+    }, []);
+
+    result = result.slice(0, 500).map((item: UsersDataBase, idx: number) => {
       item.rank = idx + 1;
       return item;
-    }).slice(0, 500);
+    });
 
-    FS.outputFileSync(path.join(process.cwd(), '.cache', 'users.json'), JSON.stringify(users, null, 2));
-    console.log(`-> 共获取${users.length}条用户数据！`);
+    FS.outputFileSync(path.join(process.cwd(), '.cache', 'users.json'), JSON.stringify(result, null, 2));
+    console.log(`-> 共获取${result.length}条用户数据！`);
   } catch (error) {
     console.log(error);
   }
