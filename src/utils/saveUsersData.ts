@@ -84,10 +84,12 @@ export async function saveUsersData(usersDist: UsersData[], cacheUsers: UsersDat
 
   // 数据去重
   const obj: Record<string, boolean> = {};
-  let result = users.reduce<UsersDataBase[]>((item, next) => {
+  let result = [...users].reduce<UsersDataBase[]>((item, next) => {
     obj[next.login] ? '' : (obj[next.login] = true) && item.push(next);
     return item
   }, []);
+  
+  console.log('result:user:length', result.length)
 
   if (result && result.length > 0) {
     await getInfo(result, type, globalUsers);
