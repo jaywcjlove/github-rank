@@ -81,15 +81,14 @@ export async function saveUsersData(usersDist: UsersData[], cacheUsers: UsersDat
     const userFilter = usersDist.find(data => item.login === data.login);
     return { ...userFilter, ...item };
   })
-
+  console.log('saveUsersData:user:length', users.length)
   // 数据去重
   const obj: Record<string, boolean> = {};
   let result = [...users].reduce<UsersDataBase[]>((item, next) => {
     obj[next.login] ? '' : (obj[next.login] = true) && item.push(next);
     return item
   }, []);
-  
-  console.log('result:user:length', result.length)
+  console.log('saveUsersData:result:length', result.length)
 
   if (result && result.length > 0) {
     await getInfo(result, type, globalUsers);
