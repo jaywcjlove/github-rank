@@ -42,7 +42,7 @@ async function getInfo(arr: UsersDataBase[], type: string = '', globalUsers: Use
   await saveUserData(users, type);
   // 获取成功删除第一条
   arr.shift();
-  await saveCacheUserData(arr as unknown as UsersData[], type);
+  await saveCacheUserData(arr, type);
   console.log(`<- 用户 [${user.login}, followers:${findUser.followers}] 的数据获取完成！还剩 ${arr.length} 个用户信息！`);
   // console.log(`<- 用户 [${user.login}, star:${findUser._stars}, followers:${findUser.followers}] 的数据获取完成！还剩 ${arr.length} 个用户信息！`);
   if (!isLocalData) {
@@ -81,20 +81,23 @@ export async function saveUsersData(usersDist: UsersData[], cacheUsers: UsersDat
     const userFilter = usersDist.find(data => item.login === data.login);
     return { ...userFilter, ...item };
   })
-  console.log('saveUsersData:user:length', users.length)
+  console.log(`👉  完成用户新数据与老数据合并 ${users.length}`);
   // 数据去重
   const obj: Record<string, boolean> = {};
   let result = [...users].reduce<UsersDataBase[]>((item, next) => {
     obj[next.login] ? '' : (obj[next.login] = true) && item.push(next);
     return item
   }, []);
-  console.log('saveUsersData:result:length', result.length)
+  console.log(`👉  完成用户数据去重 ${result.length}`);
 
   if (result && result.length > 0) {
-    await getInfo(result, type, globalUsers);
+    await getInfo([...result], type, globalUsers);
   }
+  console.log(`👉  完成用户详情获取 ${result.length}`);
   result = sortUser(result);
+  console.log(`👉  完成用户数据排序 ${result.length}`);
   result.splice(500, result.length);
+  console.log(`👉  截取前 500 条数据 ${result.length}`);
   await saveUserData(result, type);
   return result;
 }
