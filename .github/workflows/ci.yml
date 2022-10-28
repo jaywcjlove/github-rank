@@ -22,12 +22,6 @@ jobs:
         with:
           node-version: 16
 
-      - name: Modify README.md
-        uses: jaywcjlove/github-action-modify-file-content@main
-        with:
-          path: README.md
-          body: "{{date:YYYY-MM-DD HH:mm:ss}}"
-
       - run: npm install
 
       - name: Modify Version(Date)
@@ -42,6 +36,12 @@ jobs:
       - run: cat .cache/users.json
       - run: cat .cache/users.china.json
       - run: npm run get:users:info
+
+      - name: Modify README.md
+        uses: jaywcjlove/github-action-modify-file-content@main
+        with:
+          path: README.md
+          body: "{{date:YYYY-MM-DD HH:mm:ss}}"
 
       - run: npm run start
       - run: mkdir -p web/data
