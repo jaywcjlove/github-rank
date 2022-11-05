@@ -24,7 +24,7 @@ async function getInfo(arr: UsersDataBase[], type: string = '', globalUsers: Use
   console.log(`\n-> 获取 ${user.login} 的更多信息！`);
   let isLocalData = true;
   let findUser: UsersData = globalUsers.find(item => item.login === user.login);
-  if (!findUser || !findUser.followers) {
+  if (!findUser?.followers) {
     isLocalData = false;
     findUser = await getUserInfoData(user.login);
     if (findUser.message && findUser.documentation_url) {
@@ -39,7 +39,7 @@ async function getInfo(arr: UsersDataBase[], type: string = '', globalUsers: Use
   }
   
   users.push(findUser);
-  await saveUserData(users, type);
+  await saveUserData([...users], type);
   // 获取成功删除第一条
   arr.shift();
   await saveCacheUserData(arr, type);
@@ -98,7 +98,7 @@ export async function updateUsersData(usersPath: string, cachePath: string, type
   console.log(`👉  完成用户数据排序 ${resultInfo.length}`);
   // 数据去重
   resultInfo = reduce(resultInfo);
-  resultInfo.splice(900, resultInfo.length);
+  resultInfo.splice(1000, resultInfo.length);
   console.log(`👉  截取前 500 条数据 ${resultInfo.length}`);
   await saveUserData(resultInfo, type);
   return [...resultInfo];

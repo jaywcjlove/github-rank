@@ -37,7 +37,7 @@ import { UsersDataBase } from './common/props.js';
       return item
     }, []);
 
-    result = result.slice(0, 500).map((item: UsersDataBase, idx: number) => {
+    result = result.map((item: UsersDataBase, idx: number) => {
       item.rank = idx + 1;
       return item;
     });
