@@ -35,7 +35,7 @@ Github 中国用户排名，全球仓库 Star 最多排名，通过 Github API v
 
 现在每天可以自动更新了，利用 [GitHub Actions Workflows](https://github.com/actions/starter-workflows) 通过定时器，每天 `00:00` (北京时间早上8:00) 触发 GitHub 的工作流，自动爬数据，将生成的 web 页面提交到 `gh-pages` 分支，并且自动发布 [npm](https://www.npmjs.com/package/@wcj/github-rank) 版本，真香！！
 
-更新时间：<!--GAMFC-->2022-11-04 17:57:09<!--GAMFC-END-->
+更新时间：<!--GAMFC-->2022-11-05 05:53:54<!--GAMFC-END-->
 
 ## 使用
 
