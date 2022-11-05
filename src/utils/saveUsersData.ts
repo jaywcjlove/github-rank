@@ -24,7 +24,7 @@ async function getInfo(arr: UsersDataBase[], type: string = '', globalUsers: Use
   console.log(`\n-> 获取 ${user.login} 的更多信息！`);
   let isLocalData = true;
   let findUser: UsersData = globalUsers.find(item => item.login === user.login);
-  if (!findUser) {
+  if (!findUser || !findUser.followers) {
     isLocalData = false;
     findUser = await getUserInfoData(user.login);
     if (findUser.message && findUser.documentation_url) {
