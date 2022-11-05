@@ -1,4 +1,4 @@
-[[中文](./README-zh.md)] Preview: [Github](http://jaywcjlove.github.io/github-rank/) | [Gitee](http://jaywcjlove.gitee.io/github-rank) | [UNPKG](https://unpkg.com/@wcj/github-rank/web/index.html) | [Githack](https://raw.githack.com/jaywcjlove/github-rank/gh-pages/index.html) | [Statically](https://cdn.statically.io/gh/jaywcjlove/github-rank/gh-pages/index.html)
+[[English](./README.md)] Preview: [Github](http://jaywcjlove.github.io/github-rank/) | [Gitee](http://jaywcjlove.gitee.io/github-rank) | [UNPKG](https://unpkg.com/@wcj/github-rank/web/index.html) | [Githack](https://raw.githack.com/jaywcjlove/github-rank/gh-pages/index.html) | [Statically](https://cdn.statically.io/gh/jaywcjlove/github-rank/gh-pages/index.html)
 
 <p align="center">
   <a href="https://jaywcjlove.github.io/github-rank">
@@ -24,26 +24,26 @@
   </a>
 </p>
 
-Github global/Chinese user rankings, global repositories Star rankings, page data generated through Github API v3, [ranking preview](http://jaywcjlove.github.io/github-rank/).
+Github 全球/中国用户排名，全球仓库 Star 最多排名，通过 Github API v3 来生成页面数据，[排行榜预览](http://jaywcjlove.github.io/github-rank/)。
 
-- [Github **Global** User Followers Ranking Preview](http://jaywcjlove.github.io/github-rank/)
-- [Github **China** User Followers Ranking Preview](http://jaywcjlove.github.io/github-rank/users.china.html)
-- [Github Global repositories Star Most Ranking Preview](http://jaywcjlove.github.io/github-rank/repos.html)
-- [Github community trend list daily, weekly, monthly preview](http://jaywcjlove.github.io/github-rank/trending.html) [**`daily`**](http://jaywcjlove.github.io/github-rank/trending.html) [**`weekly`**](http://jaywcjlove.github.io/github-rank/trending-weekly.html) [**`monthly`**](http://jaywcjlove.github.io/github-rank/trending-monthly.html)
+- [Github **全球** 用户 Followers 排名预览](http://jaywcjlove.github.io/github-rank/)
+- [Github **中国** 用户 Followers 排名预览](http://jaywcjlove.github.io/github-rank/users.china.html)
+- [Github 全球仓库 Star 最多排名预览](http://jaywcjlove.github.io/github-rank/repos.html)
+- [Github 社区趋势榜日、周、月预览](http://jaywcjlove.github.io/github-rank/trending.html) [**`日`**](http://jaywcjlove.github.io/github-rank/trending.html) [**`周`**](http://jaywcjlove.github.io/github-rank/trending-weekly.html) [**`月`**](http://jaywcjlove.github.io/github-rank/trending-monthly.html)
 
-Released on [`npm`](https://www.npmjs.com/package/@wcj/github-rank) from `April 20, 2019,` the version number is defined by `year`, `month`, and `day`, such as: `v19.4.20`.
+从 `2019年04月20日` 在 [`npm`](https://www.npmjs.com/package/@wcj/github-rank) 上发版，版本号以 `年`、`月`、`日` 来定义，如: `v19.4.20`。
 
-Now it can be updated automatically every day, using [GitHub Actions Workflows](https://github.com/actions/starter-workflows) to trigger the GitHub workflow every day at 00:00 (8:00 am Beijing time) through the timer, automatically crawl the data, submit the generated web page to the gh-pages branch, and Automatically publish [npm](https://www.npmjs.com/package/@wcj/github-rank) version, really fragrant! !
+现在每天可以自动更新了，利用 [GitHub Actions Workflows](https://github.com/actions/starter-workflows) 通过定时器，每天 `00:00` (北京时间早上8:00) 触发 GitHub 的工作流，自动爬数据，将生成的 web 页面提交到 `gh-pages` 分支，并且自动发布 [npm](https://www.npmjs.com/package/@wcj/github-rank) 版本，真香！！
 
-Update date: <!--GAMFC-->2022-11-05 09:15:32<!--GAMFC-END-->
+更新时间：<!--GAMFC-->2022-11-05 09:15:32<!--GAMFC-END-->
 
-## Usage
+## 使用
 
 ```bash
 npm install @wcj/github-rank --save-dev
 ```
 
-Users can obtain ranking data by importing data, or directly access the [user leaderboard](https://unpkg.com/@wcj/github-rank/web/index.html) through [UNPKG](https://unpkg.com/@wcj/github-rank/dist/users.json).
+使用可以通过引入数据，来获取排名数据，也可以通过 [UNPKG](https://unpkg.com/@wcj/github-rank/dist/users.json) 直接访问[用户排行榜](https://unpkg.com/@wcj/github-rank/web/index.html)。
 
 ```js
 import users from '@wcj/github-rank';
@@ -56,7 +56,7 @@ import trendingMonthly from '@wcj/github-rank/dist/trending-monthly.json';
 ```js
 import users from '@wcj/github-rank';
 
-// By default users outputs the following data:
+// 默认 users 输出如下数据：
 [
   {
     "login": "jaywcjlove",
@@ -96,16 +96,16 @@ import users from '@wcj/github-rank';
 ]
 ```
 
-## Crawlers get data
+## 获取数据
 
 ```bash
-# Get Github (China/Global) user rankings (Top 900)
+# 获取 Github (中国/全球)用户排行榜(Top 500)
 npm run get
 
-# Github user acquisition fails in the middle, and then the remaining user information is acquired
+# Github 用户获取中途失败，接着获取剩余用户信息
 npm run get:users:info
 
-# Get Github trend list, Github repository ranking (Top 500) data
+# 获取 Github 趋势榜，Github 仓库排行(Top 500), sifou，toutiao 的数据
 npm run get:o
 ```
 
