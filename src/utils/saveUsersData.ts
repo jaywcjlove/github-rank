@@ -98,7 +98,7 @@ export async function updateUsersData(usersPath: string, cachePath: string, type
   console.log(`👉  完成用户数据排序 ${resultInfo.length}`);
   // 数据去重
   resultInfo = reduce(resultInfo);
-  resultInfo.splice(500, resultInfo.length);
+  resultInfo.splice(900, resultInfo.length);
   console.log(`👉  截取前 500 条数据 ${resultInfo.length}`);
   await saveUserData(resultInfo, type);
   return [...resultInfo];
