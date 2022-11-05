@@ -21,7 +21,7 @@ export interface ICreateFollowersHTML {
 }
 
 export function creatFollowersHTML(userData: ICreateFollowersHTML[], type: string): string {
-  const filename: string = path.join(rootPath, 'followers.ejs');
+  const filename: string = path.join(rootPath, 'uses.ejs');
   const tmpStr: string = FS.readFileSync(filename).toString();
   let title = 'GitHub China User Ranking.';
   if (type === 'global') {

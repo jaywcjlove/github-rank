@@ -86,22 +86,33 @@ export async function updateUsersData(usersPath: string, cachePath: string, type
   })
   console.log(`👉  完成用户新数据与老数据合并 ${users.length}`);
   // 数据去重
-  const obj: Record<string, boolean> = {};
-  let result = [...users].reduce<UsersDataBase[]>((item, next) => {
-    obj[next.login] ? '' : (obj[next.login] = true) && item.push(next);
-    return item
-  }, []);
+  let result = reduce([...users]);
   console.log(`👉  完成用户数据去重 ${result.length}`);
   if (result && result.length > 0) {
     await getInfo([...result], type, globalUsers);
   }
 
-  let resultInfo: UsersData[] = await FS.readJSON(path.resolve(usersPath));
+  let resultInfo: UsersData[] = await FS.readJSON(path.resolve(usersPath));;
   console.log(`👉  完成用户详情获取 ${resultInfo.length}`);
   resultInfo = sortUser([...resultInfo]);
   console.log(`👉  完成用户数据排序 ${resultInfo.length}`);
+  // 数据去重
+  resultInfo = reduce(resultInfo);
   resultInfo.splice(500, resultInfo.length);
   console.log(`👉  截取前 500 条数据 ${resultInfo.length}`);
   await saveUserData(resultInfo, type);
   return [...resultInfo];
+}
+
+/**
+ * 数据去重
+ * @param data 
+ * @returns 
+ */
+function reduce(data: UsersDataBase[] = []) {
+  const obj2: Record<string, boolean> = {};
+  return [...data].reduce<UsersDataBase[]>((item, next) => {
+    obj2[next.login] ? '' : (obj2[next.login] = true) && item.push(next);
+    return item
+  }, []);
 }
