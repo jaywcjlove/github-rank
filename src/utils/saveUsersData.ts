@@ -53,20 +53,20 @@ async function getInfo(arr: UsersDataBase[], type: string = '', globalUsers: Use
 
 /**
  * 用户数据根据 `followers` 排序
- * @param {UsersData[]} users 用户数据
+ * @param {UsersData[]} data 用户数据
  */
-function sortUser(users: UsersData[]) {
-  users.sort((a: UsersData, b: UsersData) => {
+function sortUser(data: UsersData[]) {
+  data.sort((a: UsersData, b: UsersData) => {
     if (b.followers && a.followers) {
       return b.followers - a.followers;
     }
     return 0;
   });
-  users = users.map((item: UsersData, idx: number) => {
+  data = data.map((item: UsersData, idx: number) => {
     item.rank = idx + 1;
     return item;
   });
-  return users;
+  return data;
 }
 
 /**
