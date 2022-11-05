@@ -71,13 +71,16 @@ function sortUser(users: UsersData[]) {
 
 /**
  * 更新用户信息
- * @param {UsersData[]} usersDist 原始用户数据。
- * @param {UsersDataBase[]} cacheUsers 缓存用户数据，获取到的新用户数据，用于数据请求。
- * @param {UsersData[]} globalUsers 全球用户，已完成获取数据，过滤不再请求 API 了
+ * @param {String} usersPath 原始用户数据。
+ * @param {String} cachePath 缓存用户数据。
  * @param {String} type 类型，取值 `空` | 或者 `.china` 用于存储。
+ * @param {UsersData[]} globalUsers 全球用户，已完成获取数据，过滤不再请求 API 了
  */
-export async function saveUsersData(usersDist: UsersData[], cacheUsers: UsersDataBase[], type: string, globalUsers?: UsersData[]) {
-  users = Array.from(cacheUsers).map(item => {
+export async function updateUsersData(usersPath: string, cachePath: string, type: '' | '.china', globalUsers?: UsersData[]) {
+  const usersDist: UsersData[] = await FS.readJSON(path.resolve(usersPath));
+  const cacheUsers: UsersDataBase[] = await FS.readJSON(path.resolve(cachePath));
+
+  users = Array.from([...cacheUsers]).map(item => {
     const userFilter = usersDist.find(data => item.login === data.login);
     return { ...userFilter, ...item };
   })
@@ -89,15 +92,16 @@ export async function saveUsersData(usersDist: UsersData[], cacheUsers: UsersDat
     return item
   }, []);
   console.log(`👉  完成用户数据去重 ${result.length}`);
-
   if (result && result.length > 0) {
     await getInfo([...result], type, globalUsers);
   }
-  console.log(`👉  完成用户详情获取 ${result.length}`);
-  result = sortUser(result);
-  console.log(`👉  完成用户数据排序 ${result.length}`);
-  result.splice(500, result.length);
-  console.log(`👉  截取前 500 条数据 ${result.length}`);
-  await saveUserData(result, type);
-  return result;
+
+  let resultInfo: UsersData[] = await FS.readJSON(path.resolve(usersPath));
+  console.log(`👉  完成用户详情获取 ${resultInfo.length}`);
+  resultInfo = sortUser([...resultInfo]);
+  console.log(`👉  完成用户数据排序 ${resultInfo.length}`);
+  resultInfo.splice(500, resultInfo.length);
+  console.log(`👉  截取前 500 条数据 ${resultInfo.length}`);
+  await saveUserData(resultInfo, type);
+  return [...resultInfo];
 }
