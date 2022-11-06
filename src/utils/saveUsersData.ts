@@ -80,13 +80,13 @@ export async function updateUsersData(usersPath: string, cachePath: string, type
   const usersDist: UsersData[] = await FS.readJSON(path.resolve(usersPath));
   const cacheUsers: UsersDataBase[] = await FS.readJSON(path.resolve(cachePath));
 
-  users = Array.from([...cacheUsers]).map(item => {
+  const newusers = Array.from([...cacheUsers]).map(item => {
     const userFilter = usersDist.find(data => item.login === data.login);
     return { ...userFilter, ...item };
   })
-  console.log(`👉  完成用户新数据与老数据合并 ${users.length}`);
+  console.log(`👉  完成用户新数据与老数据合并 ${newusers.length}`);
   // 数据去重
-  let result = reduce([...users]);
+  let result = reduce([...newusers]);
   console.log(`👉  完成用户数据去重 ${result.length}`);
   if (result && result.length > 0) {
     await getInfo([...result], type, globalUsers);

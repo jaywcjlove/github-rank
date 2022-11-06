@@ -23,12 +23,32 @@ import { UsersDataBase } from './common/props.js';
 
     data = await getUserData(4);
     users = users.concat(data);
-    console.log(`-> 获取到第3页，共${data.length}条数据！`);
+    console.log(`-> 获取到第4页，共${data.length}条数据！`);
     await sleep(1000);
 
     data = await getUserData(5);
     users = users.concat(data);
-    console.log(`-> 获取到第3页，共${data.length}条数据！`);
+    console.log(`-> 获取到第5页，共${data.length}条数据！`);
+
+    data = await getUserData(6);
+    users = users.concat(data);
+    console.log(`-> 获取到第6页，共${data.length}条数据！`);
+
+    data = await getUserData(7);
+    users = users.concat(data);
+    console.log(`-> 获取到第7页，共${data.length}条数据！`);
+
+    data = await getUserData(8);
+    users = users.concat(data);
+    console.log(`-> 获取到第8页，共${data.length}条数据！`);
+
+    data = await getUserData(9);
+    users = users.concat(data);
+    console.log(`-> 获取到第9页，共${data.length}条数据！`);
+
+    data = await getUserData(10);
+    users = users.concat(data);
+    console.log(`-> 获取到第10页，共${data.length}条数据！`);
 
     // 数据去重
     const obj: Record<string, boolean> = {};

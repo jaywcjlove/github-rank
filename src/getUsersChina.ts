@@ -30,6 +30,26 @@ import { UsersDataBase } from './common/props.js';
     users = users.concat(data);
     console.log(`-> 获取到第5页，中国用户共${data.length}条数据！`);
 
+    data = await getUserData(6, true);
+    users = users.concat(data);
+    console.log(`-> 获取到第6页，中国用户共${data.length}条数据！`);
+
+    data = await getUserData(7, true);
+    users = users.concat(data);
+    console.log(`-> 获取到第7页，中国用户共${data.length}条数据！`);
+
+    data = await getUserData(8, true);
+    users = users.concat(data);
+    console.log(`-> 获取到第8页，中国用户共${data.length}条数据！`);
+
+    data = await getUserData(9, true);
+    users = users.concat(data);
+    console.log(`-> 获取到第9页，中国用户共${data.length}条数据！`);
+
+    data = await getUserData(10, true);
+    users = users.concat(data);
+    console.log(`-> 获取到第10页，中国用户共${data.length}条数据！`);
+
     // 数据去重
     const obj: Record<string, boolean> = {};
     let result = users.reduce<UsersDataBase[]>((item, next) => {
