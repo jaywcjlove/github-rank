@@ -97,10 +97,10 @@ export async function updateUsersData(usersPath: string, cachePath: string, type
   resultInfo = sortUser([...resultInfo]);
   console.log(`👉  完成用户数据排序 ${resultInfo.length}`);
   // 数据去重
-  resultInfo = reduce(resultInfo);
+  resultInfo = reduce([...resultInfo]);
   console.log(`👉  总共 ${resultInfo.length} 条用户数据`);
   resultInfo.splice(1000, resultInfo.length);
-  console.log(`👉  超过 1000 条数据丢弃 ${resultInfo.length}`);
+  console.log(`👉  超过 1000(共${resultInfo.length}) 条数据丢弃`);
   await saveUserData(resultInfo, type);
   return [...resultInfo];
 }
