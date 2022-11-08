@@ -77,6 +77,7 @@ function sortUser(data: UsersData[]) {
  * @param {UsersData[]} globalUsers 全球用户，已完成获取数据，过滤不再请求 API 了
  */
 export async function updateUsersData(usersPath: string, cachePath: string, type: '' | '.china', globalUsers?: UsersData[]) {
+  users = [];
   const usersDist: UsersData[] = await FS.readJSON(path.resolve(usersPath));
   const cacheUsers: UsersDataBase[] = await FS.readJSON(path.resolve(cachePath));
 
