@@ -109,6 +109,14 @@ npm run get:users:info
 npm run get:o
 ```
 
+## 感谢所有贡献者
+
+一如既往，感谢我们出色的贡献者！
+
+<!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT--><!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
+
+贡献者列表，由 [contributors](https://github.com/jaywcjlove/github-action-contributors) 自动生成
+
 ## License
 
 Licensed under the MIT License.
