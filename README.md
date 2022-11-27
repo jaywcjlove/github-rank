@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://jaywcjlove.github.io/github-rank">
-    <img alt="Github Ranking" src="https://user-images.githubusercontent.com/1680273/65843701-9efb9280-e365-11e9-80c7-0ed5def853de.png">
+    <img alt="Github Ranking" src="https://user-images.githubusercontent.com/1680273/204141518-e34799bd-9074-4bf9-9b4e-f3efe6d8051e.png">
   </a>
 </p>
 
