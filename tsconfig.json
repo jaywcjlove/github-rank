@@ -1,21 +1,17 @@
 {
   "compilerOptions": {
     "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "node",
     "esModuleInterop": true,
     "declaration": true,
-    "target": "esnext",
     "noImplicitAny": true,
     "resolveJsonModule": true,
-    "moduleResolution": "node",
+    "skipLibCheck": true,
     "sourceMap": true,
     "noEmit": false,
     "outDir": "lib",
-    "baseUrl": ".",
-    "paths": {
-      "*": [
-        "node_modules/*"
-      ]
-    }
+    "baseUrl": "."
   },
   "include": [
     "src/**/*"

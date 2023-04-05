@@ -21,7 +21,7 @@ export async function getUserData(page: number, isChina?: boolean): Promise<User
       per_page: 100,
     });
     if (dt && dt.data && dt.data.items) {
-      console.log(`   Github API 获取用户计数: ${dt.headers['x-ratelimit-limit']}/${dt.headers['x-ratelimit-remaining']}`);
+      console.log(`   Github API 获取用户计数: ${dt.headers['x-ratelimit-limit']}/\x1b[32;1m${dt.headers['x-ratelimit-remaining']}\x1b[0m`);
       console.log('   时间:', `${formatter('YYYY年MM月DD日 HH:mm:ss', new Date(Number(`${dt.headers['x-ratelimit-reset']}000`)))}`);
       return dt.data.items;
     }
@@ -49,7 +49,7 @@ export async function getUserInfoData(username: string, client_id?: string, clie
       ...{ headers },
     });
     if (dt && dt.data) {
-      console.log(`   Github API 获取用户详情计数: ${dt.headers['x-ratelimit-limit']}/${dt.headers['x-ratelimit-remaining']}`);
+      console.log(`   Github API 获取用户详情计数: ${dt.headers['x-ratelimit-limit']}/\x1b[32;1m${dt.headers['x-ratelimit-remaining']}\x1b[0m`);
       console.log('   时间:', `${formatter('YYYY年MM月DD日 HH:mm:ss', new Date(Number(`${dt.headers['x-ratelimit-reset']}000`)))}`);
       return dt.data;
     }
@@ -76,7 +76,7 @@ export async function getReposData(page: number): Promise<RepoData[]> {
       per_page: 100,
     });
     if (dt && dt.data && dt.data.items) {
-      console.log(`   Github API 获取仓库Star排行计数: ${dt.headers['x-ratelimit-limit']}/${dt.headers['x-ratelimit-remaining']}`);
+      console.log(`   Github API 获取仓库Star排行计数: ${dt.headers['x-ratelimit-limit']}/\x1b[32;1m${dt.headers['x-ratelimit-remaining']}\x1b[0m`);
       console.log('   时间:', `${formatter('YYYY年MM月DD日 HH:mm:ss', new Date(Number(`${dt.headers['x-ratelimit-reset']}000`)))}`);
       return dt.data.items;
     }

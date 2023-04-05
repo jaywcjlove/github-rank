@@ -8,47 +8,47 @@ import { UsersDataBase } from './common/props.js';
     let users: UsersDataBase[] = [];
     let data = await getUserData(1, true);
     users = users.concat(data);
-    console.log(`-> 获取到第1页，中国用户共${data.length}条数据！`);
+    console.log(`-> 获取到第1页，中国用户共\x1b[32;1m${data.length}\x1b[0m条数据！`);
     await sleep(1000);
 
     data = await getUserData(2, true);
     users = users.concat(data);
-    console.log(`-> 获取到第2页，中国用户共${data.length}条数据！`);
+    console.log(`-> 获取到第2页，中国用户共\x1b[32;1m${data.length}\x1b[0m条数据！`);
     await sleep(1000);
 
     data = await getUserData(3, true);
     users = users.concat(data);
-    console.log(`-> 获取到第3页，中国用户共${data.length}条数据！`);
+    console.log(`-> 获取到第3页，中国用户共\x1b[32;1m${data.length}\x1b[0m条数据！`);
     await sleep(1000);
 
     data = await getUserData(4, true);
     users = users.concat(data);
-    console.log(`-> 获取到第4页，中国用户共${data.length}条数据！`);
+    console.log(`-> 获取到第4页，中国用户共\x1b[32;1m${data.length}\x1b[0m条数据！`);
     await sleep(1000);
 
     data = await getUserData(5, true);
     users = users.concat(data);
-    console.log(`-> 获取到第5页，中国用户共${data.length}条数据！`);
+    console.log(`-> 获取到第5页，中国用户共\x1b[32;1m${data.length}\x1b[0m条数据！`);
 
     data = await getUserData(6, true);
     users = users.concat(data);
-    console.log(`-> 获取到第6页，中国用户共${data.length}条数据！`);
+    console.log(`-> 获取到第6页，中国用户共\x1b[32;1m${data.length}\x1b[0m条数据！`);
 
     data = await getUserData(7, true);
     users = users.concat(data);
-    console.log(`-> 获取到第7页，中国用户共${data.length}条数据！`);
+    console.log(`-> 获取到第7页，中国用户共\x1b[32;1m${data.length}\x1b[0m条数据！`);
 
     data = await getUserData(8, true);
     users = users.concat(data);
-    console.log(`-> 获取到第8页，中国用户共${data.length}条数据！`);
+    console.log(`-> 获取到第8页，中国用户共\x1b[32;1m${data.length}\x1b[0m条数据！`);
 
     data = await getUserData(9, true);
     users = users.concat(data);
-    console.log(`-> 获取到第9页，中国用户共${data.length}条数据！`);
+    console.log(`-> 获取到第9页，中国用户共\x1b[32;1m${data.length}\x1b[0m条数据！`);
 
     data = await getUserData(10, true);
     users = users.concat(data);
-    console.log(`-> 获取到第10页，中国用户共${data.length}条数据！`);
+    console.log(`-> 获取到第10页，中国用户共\x1b[32;1m${data.length}\x1b[0m条数据！`);
 
     // 数据去重
     const obj: Record<string, boolean> = {};
@@ -63,7 +63,7 @@ import { UsersDataBase } from './common/props.js';
     });
 
     FS.outputFileSync(path.join(process.cwd(), '.cache', 'users.china.json'), JSON.stringify(result, null, 2));
-    console.log(`-> 共获取${result.length}条用户数据！`);
+    console.log(`-> 共获取\x1b[32;1m${result.length}\x1b[0m条用户数据！`);
   } catch (error) {
     console.log(error);
   }

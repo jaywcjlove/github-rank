@@ -21,7 +21,7 @@ async function getInfo(arr: UsersDataBase[], type: string = '', globalUsers: Use
   if (!user) {
     return;
   }
-  console.log(`\n-> 获取 ${user.login} 的更多信息！`);
+  console.log(`\n-> 获取 \x1b[34;1m${user.login}\x1b[0m 的更多信息！`);
   let isLocalData = true;
   let findUser: UsersData = globalUsers.find(item => item.login === user.login);
   if (!findUser?.followers) {
@@ -43,7 +43,7 @@ async function getInfo(arr: UsersDataBase[], type: string = '', globalUsers: Use
   // 获取成功删除第一条
   arr.shift();
   await saveCacheUserData(arr, type);
-  console.log(`<- 用户 [${user.login}, followers:${findUser.followers}] 的数据获取完成！还剩 ${arr.length} 个用户信息！`);
+  console.log(`<- 用户 [\x1b[34;1m${user.login}\x1b[0m, followers:\x1b[32;1m${findUser.followers}\x1b[0m] 的数据获取完成！还剩 \x1b[32;1m${arr.length}\x1b[0m 个用户信息！`);
   // console.log(`<- 用户 [${user.login}, star:${findUser._stars}, followers:${findUser.followers}] 的数据获取完成！还剩 ${arr.length} 个用户信息！`);
   if (!isLocalData) {
     await sleep(1000);
