@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/jaywcjlove/github-rank">
-    <img src="https://github.com/jaywcjlove/github-rank/workflows/Build%20and%20Deploy%20Github%20Rank/badge.svg">
+    <img src="https://github.com/jaywcjlove/github-rank/actions/workflows/ci.yml/badge.svg">
   </a>
   <a href="https://github.com/jaywcjlove/github-rank/issues">
     <img src="https://img.shields.io/github/issues/jaywcjlove/github-rank.svg">
