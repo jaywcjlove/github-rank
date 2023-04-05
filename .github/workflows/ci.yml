@@ -21,6 +21,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
+          registry-url: 'https://registry.npmjs.org'
 
       - run: npm install
 
@@ -62,5 +63,7 @@ jobs:
           user_name: github-actions[bot]
           user_email: github-actions[bot]@users.noreply.github.com
 
-      - run: npm install @jsdevtools/npm-publish -g
-      - run: npm-publish --token="${{ secrets.NPM_TOKEN }}" ./package.json
+      - run: npm publish --access public
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
