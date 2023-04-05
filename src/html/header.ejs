@@ -195,14 +195,14 @@
   </h1>
   <div class="time">Last cache created on <%=date%> by 
     <% if (tabCls === 'users') { %>
-      <a href="<%= type === 'global' ? 'https://github.com/search?q=followers%3A%3E1000&type=Users' : 'https://github.com/search?q=location%3AChina+followers%3A%3E1000&type=Users' %>">Github API v3</a>
+      <a href="<%= type === 'global' ? 'https://github.com/search?q=followers%3A%3E1000&type=Users' : 'https://github.com/search?q=location%3AChina+followers%3A%3E1000&type=Users' %>">Github API v3</a>.
     <% } %>
     <% if (tabCls === 'repos') { %>
-      <a href="https://github.com/search?q=stars%3A%3E8000&type=Repositories">Github API v3</a>
+      <a href="https://github.com/search?q=stars%3A%3E8000&type=Repositories">Github API v3</a>.
     <% } %>
     <% if (tabCls === 'trending') { %>
-      <a href="https://github.com/trending">Github Trending</a>
-    <% } %>.
+      <a href="https://github.com/trending">Github Trending</a>.
+    <% } %> Create by <a href="https://github.com/jaywcjlove" target="_blank">小弟调调™</a>.
   </div>
   <div class="tabs">
     <a class="<%= tabCls === 'users' ? 'active': '' %>" href="index.html">Users</a>
