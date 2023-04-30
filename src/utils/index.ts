@@ -109,14 +109,30 @@ export function getTrendingData(type: string = 'daily') {
       const $ = cheerio.load(html)
       $('.Box-row').each(function(idx, item) {
         // 不需要头像，避免被和谐
-        /* eslint-disable */
         const fullName = $(item).find('h2 a').text().replace(/(\n|\s)/g, '');
-        const href = $(item).find('h2 a').attr('href').replace(/(\n|\s)/g, '');
+        const href = $(item).find('h2 a').attr('href')?.replace(/(\n|\s)/g, '');
         const language = $(item).find('span[itemprop=programmingLanguage]').text().replace(/(\n|\s)/g, '');
         const languageColor = $(item).find('span.repo-language-color');
         const todayStar = $(item).find('span.float-sm-right').text().replace(/(\n|,)/g, '').trim();
-        const description = $(item).find('p.color-text-secondary').text().replace(/(\n)/g, '').trim();
-        /* eslint-enable */
+        const description = $(item).find('p.color-fg-muted').text().replace(/(\n)/g, '').trim();
+        if (!fullName) {
+          throw new Error(`${apiUrl}: fullName is null`);
+        }
+        if (!href) {
+          throw new Error(`${fullName}: href is null`);
+        }
+        if (!language) {
+          throw new Error(`${fullName}: language is null`);
+        }
+        if (!languageColor) {
+          throw new Error(`${fullName}: languageColor is null`);
+        }
+        if (!todayStar) {
+          throw new Error(`${fullName}: todayStar is null`);
+        }
+        // if (!description) {
+        //   throw new Error(`${fullName}: description is null`);
+        // }
         let color = '';
         if (language && languageColor && languageColor.css) {
           color = languageColor.css('background-color');
