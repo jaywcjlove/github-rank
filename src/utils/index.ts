@@ -119,17 +119,17 @@ export function getTrendingData(type: string = 'daily') {
           throw new Error(`${apiUrl}: fullName is null`);
         }
         if (!href) {
-          throw new Error(`${fullName}: href is null`);
-        }
-        if (!language) {
-          throw new Error(`${fullName}: language is null`);
-        }
-        if (!languageColor) {
-          throw new Error(`${fullName}: languageColor is null`);
+          throw new Error(`${apiUrl}\n\n${fullName}: href is null`);
         }
         if (!todayStar) {
-          throw new Error(`${fullName}: todayStar is null`);
+          throw new Error(`${apiUrl}\n\n${fullName}: todayStar is null`);
         }
+        // if (!language) {
+        //   throw new Error(`${apiUrl}\n\n${fullName}: language is null`);
+        // }
+        // if (!languageColor) {
+        //   throw new Error(`${apiUrl}\n\n${fullName}: languageColor is null`);
+        // }
         // if (!description) {
         //   throw new Error(`${fullName}: description is null`);
         // }
