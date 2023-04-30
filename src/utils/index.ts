@@ -110,8 +110,8 @@ export function getTrendingData(type: string = 'daily') {
       $('.Box-row').each(function(idx, item) {
         // 不需要头像，避免被和谐
         /* eslint-disable */
-        const fullName = $(item).find('h1 a').text().replace(/(\n|\s)/g, '');
-        const href = $(item).find('h1 a').attr('href').replace(/(\n|\s)/g, '');
+        const fullName = $(item).find('h2 a').text().replace(/(\n|\s)/g, '');
+        const href = $(item).find('h2 a').attr('href').replace(/(\n|\s)/g, '');
         const language = $(item).find('span[itemprop=programmingLanguage]').text().replace(/(\n|\s)/g, '');
         const languageColor = $(item).find('span.repo-language-color');
         const todayStar = $(item).find('span.float-sm-right').text().replace(/(\n|,)/g, '').trim();
