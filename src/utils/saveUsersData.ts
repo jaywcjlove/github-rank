@@ -23,14 +23,14 @@ async function getInfo(arr: UsersDataBase[], type: string = '', globalUsers: Use
   }
   console.log(`\n-> 获取 \x1b[34;1m${user.login}\x1b[0m 的更多信息！`);
   let isLocalData = true;
-  let findUser: UsersData = globalUsers.find(item => item.login === user.login);
+  let findUser: UsersData | undefined = globalUsers.find(item => item.login === user.login);
   if (!findUser?.followers) {
     isLocalData = false;
     findUser = await getUserInfoData(user.login);
-    if (findUser.message && findUser.documentation_url) {
+    if (findUser && findUser.message && findUser.documentation_url) {
       console.log(`<- 还剩 ${arr.length} 个用户信息！error: ${findUser.message} -> ${findUser.documentation_url}`);
       return;
-    } else if (!findUser.followers) {
+    } else if (findUser && !findUser.followers) {
       console.log(`<- 用户 ${user.login} 的数据获取失败，重新获取！`);
       await sleep(2000);
       await getInfo(arr, type, globalUsers);
@@ -38,12 +38,12 @@ async function getInfo(arr: UsersDataBase[], type: string = '', globalUsers: Use
     }
   }
   
-  users.push(findUser);
+  findUser && users.push(findUser);
   await saveUserData([...users], type);
   // 获取成功删除第一条
   arr.shift();
   await saveCacheUserData(arr, type);
-  console.log(`<- 用户 [\x1b[34;1m${user.login}\x1b[0m, followers:\x1b[32;1m${findUser.followers}\x1b[0m] 的数据获取完成！还剩 \x1b[32;1m${arr.length}\x1b[0m 个用户信息！`);
+  console.log(`<- 用户 [\x1b[34;1m${user.login}\x1b[0m, followers:\x1b[32;1m${findUser?.followers}\x1b[0m] 的数据获取完成！还剩 \x1b[32;1m${arr.length}\x1b[0m 个用户信息！`);
   // console.log(`<- 用户 [${user.login}, star:${findUser._stars}, followers:${findUser.followers}] 的数据获取完成！还剩 ${arr.length} 个用户信息！`);
   if (!isLocalData) {
     await sleep(1000);

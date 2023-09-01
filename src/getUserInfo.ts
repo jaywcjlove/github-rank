@@ -1,6 +1,6 @@
 import FS from 'fs-extra';
 import path from 'path';
-import { UsersData } from './common/props';
+import { type UsersData } from './common/props.js';
 import { updateUsersData } from './utils/saveUsersData.js';
 
 ;(async () => {

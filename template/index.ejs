@@ -1,0 +1,24 @@
+<%- include('./_partial/header', { tabCls: 'users', type: 'global', title: 'GitHub Users Global Ranking' }); %>
+<div class="userlist">
+  <%- include('./_partial/users_nav', { type: 'global' }); %>
+<table>
+  <thead>
+    <tr>
+      <th title="avatar">ava</th>
+      <th>login</th>
+      <th>location</th>
+      <th>company</th>
+      <th>followers</th>
+      <th>following</th>
+      <th>repos</th>
+      <th>created at</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% USERS.forEach(function(user, idx) {%>
+    <%- include('./_partial/users_list', { user, idx }); %>
+    <% }); %>
+  </tbody>
+</table>
+</div>
+<%- include('./_partial/footer', { }); %>

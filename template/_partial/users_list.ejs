@@ -1,0 +1,32 @@
+<tr>
+  <td>
+    <a href="<%=user.html_url%>" target="_blank">
+      <img src="<%=user.avatar_url%>&s=60" width="30" height="30" loading="lazy" title="<%=user.name || user.login%>" alt="<%=user.name || user.login%>" />
+    </a>
+  </td>
+  <td>
+    <b><%=idx + 1%></b>
+    <a href="<%=user.html_url%>" target="_blank"><%=user.name || user.login%></a>
+    <span><%=user.login%></span>
+  </td>
+  <td><%=user.location%></td>
+  <td><%=user.company%></td>
+  <td>
+    <a href="<%=user.html_url%>?tab=followers" target="_blank">
+      <%=user.followers%>
+    </a>
+  </td>
+  <td>
+    <a href="<%=user.html_url%>?tab=following" target="_blank">
+      <%=user.following%>
+    </a>
+  </td>
+  <td>
+    <a href="<%=user.html_url%>?tab=repositories" target="_blank">
+      <%=user.public_repos%>
+    </a>
+  </td>
+  <td>
+    <%=user.created_at ? `${new Date(user.created_at).getFullYear()}/${new Date(user.created_at).getMonth() + 1}/${new Date(user.created_at).getDate()}` : '' %>
+  </td>
+</tr>

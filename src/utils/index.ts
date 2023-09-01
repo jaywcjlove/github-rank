@@ -27,7 +27,10 @@ export async function getUserData(page: number, isChina?: boolean): Promise<User
     }
     return [];
   } catch (error) {
-    throw error.message || error;
+    if (error instanceof Error) {
+      throw error.message || error;
+    }
+    return []
   }
 }
 
@@ -39,7 +42,7 @@ export async function getUserData(page: number, isChina?: boolean): Promise<User
  * `X-RateLimit-Remaining` The number of requests remaining in the current rate limit window.
  * `X-RateLimit-Reset` The time at which the current rate limit window resets in UTC epoch seconds.
  */
-export async function getUserInfoData(username: string, client_id?: string, client_secret?: string): Promise<UsersData> {
+export async function getUserInfoData(username: string, client_id?: string, client_secret?: string): Promise<UsersData | undefined> {
   const headers: { authorization?: string; } = {};
   if (process.env.ACCESS_TOKEN) {
     headers.authorization = `token ${process.env.ACCESS_TOKEN}`
@@ -55,7 +58,9 @@ export async function getUserInfoData(username: string, client_id?: string, clie
     }
     throw '没有获取到用户信息';
   } catch (error) {
-    throw error.message || error;
+    if (error instanceof Error) {
+      throw error.message || error;
+    }
   }
 }
 
@@ -63,7 +68,7 @@ export async function getUserInfoData(username: string, client_id?: string, clie
  * Get repositories data
  * @param page Page number
  */
-export async function getReposData(page: number): Promise<RepoData[]> {
+export async function getReposData(page: number): Promise<RepoData[] | undefined> {
   const headers: { authorization?: string; } = {};
   if (process.env.ACCESS_TOKEN) {
     headers.authorization = `token ${process.env.ACCESS_TOKEN}`
@@ -82,7 +87,9 @@ export async function getReposData(page: number): Promise<RepoData[]> {
     }
     throw '没有获取到用户信息';
   } catch (error) {
-    throw error.message || error;
+    if (error instanceof Error) {
+      throw error.message || error;
+    }
   }
 }
 
@@ -140,13 +147,13 @@ export function getTrendingData(type: string = 'daily') {
         let stargazersCount = '';
         let node = $(item).find('svg[aria-label="star"].octicon.octicon-star');
         if (node && node[0] && node[0].next) {
-          stargazersCount = node[0].next.data.replace(/(\n|\s|,)/g, '');
+          stargazersCount = node[0].next?.data?.replace(/(\n|\s|,)/g, '') || '';
         }
 
         let forked = '-';
         node = $(item).find('svg[aria-label="fork"].octicon.octicon-repo-forked');
         if (node) {
-          forked = node[0].next.data.replace(/(\n|\s|,)/g, '');
+          forked = node[0].next?.data?.replace(/(\n|\s|,)/g, '') || '';
         }
 
         resultData.push({ full_name: fullName, language, color, description, forked, stargazers_count: parseInt(stargazersCount, 10), todayStar, html_url: url.resolve(apiUrl, href), rank: idx + 1 });

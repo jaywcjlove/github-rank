@@ -1,0 +1,8 @@
+<%- include('./_partial/header', { tabCls: 'trending', title: 'GitHub Repositories Trending' }); %>
+<ul class="list repos trending">
+  <%- include('./_partial/trending_nav', { type: 'monthly' }); %>
+  <% TRENDING_MONTHLY.forEach(function(repo, idx){ %>
+    <%- include('./_partial/trending_list', { repo, idx }); %>
+  <% }); %>
+</ul>
+<%- include('./_partial/footer', { }); %>
