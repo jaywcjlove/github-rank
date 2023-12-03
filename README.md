@@ -38,7 +38,7 @@ Released on [`npm`](https://www.npmjs.com/package/@wcj/github-rank) from `April 
 
 Now it can be updated automatically every day, using [GitHub Actions Workflows](https://github.com/actions/starter-workflows) to trigger the GitHub workflow every day at 00:00 (8:00 am Beijing time) through the timer, automatically crawl the data, submit the generated web page to the gh-pages branch, and Automatically publish [npm](https://www.npmjs.com/package/@wcj/github-rank) version, really fragrant! !
 
-Update date: <!--GAMFC-->2023-12-02 05:57:45<!--GAMFC-END-->
+Update date: <!--GAMFC-->2023-12-03 05:57:13<!--GAMFC-END-->
 
 ## Usage
 
