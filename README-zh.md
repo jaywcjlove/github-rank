@@ -7,24 +7,12 @@
 </p>
 
 <p align="center">
-  <a href="https://jaywcjlove.github.io/#/sponsor">
-    <img alt="Buy me a coffee" src="https://img.shields.io/badge/Buy%20me%20a%20coffee-048754?logo=buymeacoffee">
-  </a>
-  <a href="https://github.com/jaywcjlove/github-rank">
-    <img src="https://github.com/jaywcjlove/github-rank/actions/workflows/ci.yml/badge.svg">
-  </a>
-  <a href="https://github.com/jaywcjlove/github-rank/issues">
-    <img src="https://img.shields.io/github/issues/jaywcjlove/github-rank.svg">
-  </a>
-  <a href="https://github.com/jaywcjlove/github-rank/network">
-    <img src="https://img.shields.io/github/forks/jaywcjlove/github-rank.svg">
-  </a>
-  <a href="https://github.com/jaywcjlove/github-rank/stargazers">
-    <img src="https://img.shields.io/github/stars/jaywcjlove/github-rank.svg">
-  </a>
-  <a href="https://www.npmjs.com/package/@wcj/github-rank">
-    <img src="https://img.shields.io/npm/v/@wcj/github-rank.svg">
-  </a>
+  <a href="https://jaywcjlove.github.io/#/sponsor"><img alt="Buy me a coffee" src="https://img.shields.io/badge/Buy%20me%20a%20coffee-048754?logo=buymeacoffee"></a>
+  <a href="https://github.com/jaywcjlove/github-rank/actions/workflows/ci3.yml"><img src="https://github.com/jaywcjlove/github-rank/actions/workflows/ci3.yml/badge.svg"></a>
+  <a href="https://github.com/jaywcjlove/github-rank/issues"><img src="https://badgen.net/github/issues/jaywcjlove/github-rank"></a>
+  <a href="https://github.com/jaywcjlove/github-rank/forks"><img src="https://badgen.net/github/forks/jaywcjlove/github-rank"></a>
+  <a href="https://github.com/jaywcjlove/github-rank/stargazers"><img src="https://badgen.net/github/stars/jaywcjlove/github-rank"></a>
+  <a href="https://www.npmjs.com/package/@wcj/github-rank"><img src="https://img.shields.io/npm/v/@wcj/github-rank.svg"></a>
 </p>
 
 Github 全球/中国用户排名，全球仓库 Star 最多排名，通过 Github API v3 来生成页面数据，[排行榜预览](http://jaywcjlove.github.io/github-rank/)。
