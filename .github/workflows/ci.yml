@@ -38,12 +38,6 @@ jobs:
       - run: cat .cache/users.china.json
       - run: npm run get:users:info
 
-      - name: Modify README.md
-        uses: jaywcjlove/github-action-modify-file-content@main
-        with:
-          path: README.md
-          body: "{{date:YYYY-MM-DD HH:mm:ss}}"
-
       - run: npm run start
       - run: mkdir -p web/data
       - run: cp -rf dist/* web/data
@@ -63,6 +57,13 @@ jobs:
           user_name: github-actions[bot]
           user_email: github-actions[bot]@users.noreply.github.com
 
+      - name: Modify README.md
+        uses: jaywcjlove/github-action-modify-file-content@main
+        with:
+          path: README.md
+          body: "{{date:YYYY-MM-DD HH:mm:ss}}"
+          branch: master
+  
       - run: npm publish --access public
         continue-on-error: true
         env:
