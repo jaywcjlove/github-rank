@@ -57,10 +57,12 @@ import { UsersDataBase } from './common/props.js';
       return item
     }, []);
 
-    result = result.map((item: UsersDataBase, idx: number) => {
-      item.rank = idx + 1;
-      return item;
-    });
+    result = result
+      .filter(item => item.type === 'User')
+      .map((item: UsersDataBase, idx: number) => {
+        item.rank = idx + 1;
+        return item;
+      });
 
     FS.outputFileSync(path.join(process.cwd(), '.cache', 'users.china.json'), JSON.stringify(result, null, 2));
     console.log(`-> 共获取\x1b[32;1m${result.length}\x1b[0m条用户数据！`);
