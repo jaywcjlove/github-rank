@@ -15,7 +15,7 @@ import { updateUsersData } from './utils/saveUsersData.js';
 
       console.log(`   获取【全球用户】数据： \x1b[32;1m${result.length}\x1b[0m 条数据`);
       let resultOrg = users.filter(item => item.type === 'Organization')
-      await FS.writeJSON(path.resolve('./dist/users.org.json'), result, { spaces: 2 });
+      await FS.writeJSON(path.resolve('./dist/users.org.json'), resultOrg, { spaces: 2 });
       console.log(`   获取【全球 Organization】数据： \x1b[32;1m${resultOrg.length}\x1b[0m 条数据`);
     } else {
       console.log(`<- 获取【全球】用户数据未完成！还剩 \x1b[32;1m${usersCacheDone.length}\x1b[0m 个用户信息，待获取！`);
