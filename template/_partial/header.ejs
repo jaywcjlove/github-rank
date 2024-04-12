@@ -195,7 +195,15 @@
   </h1>
   <div class="time">Last cache created on <%=`${new Date().getFullYear()}/${(new Date().getMonth()) + 1}/${new Date().getDate()}`%> by 
     <% if (tabCls === 'users') { %>
-      <a href="<%= type === 'global' ? 'https://github.com/search?q=followers%3A%3E1000&type=Users' : 'https://github.com/search?q=location%3AChina+followers%3A%3E1000&type=Users' %>">Github API v3</a>.
+      <% if (type === 'global') { %>
+        <a href="https://github.com/search?q=followers%3A%3E1000&type=Users">Github API v3</a>.
+      <% } %>
+      <% if (type === 'org') { %>
+        <a href="https://github.com/search?q=location%3AChina+followers%3A%3E1000&type=Organization">Github API v3</a>.
+      <% } %>
+      <% if (type === 'china') { %>
+        <a href="https://github.com/search?q=location%3AChina+followers%3A%3E1000&type=Users">Github API v3</a>.
+      <% } %>
     <% } %>
     <% if (tabCls === 'repos') { %>
       <a href="https://github.com/search?q=stars%3A%3E8000&type=Repositories">Github API v3</a>.

@@ -9,6 +9,7 @@
     "get:users:info": "node lib/getUserInfo.js",
     "get:users": "node lib/getUsers.js",
     "get:users:china": "node lib/getUsersChina.js",
+    "get:users:ORG": "node lib/getUsersChina.js",
     "get:repos": "node lib/getRepos.js",
     "get:trending": "node lib/getTrending.js",
     "prepare": "npm run build",

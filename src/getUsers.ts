@@ -58,7 +58,6 @@ import { UsersDataBase } from './common/props.js';
     }, []);
 
     result = result
-      .filter(item => item.type === 'User')
       .map((item: UsersDataBase, idx: number) => {
         item.rank = idx + 1;
         return item;

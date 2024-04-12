@@ -19,6 +19,7 @@ Github global/Chinese user rankings, global repositories Star rankings, page dat
 
 - [Github **Global** User Followers Ranking Preview](http://jaywcjlove.github.io/github-rank/)
 - [Github **China** User Followers Ranking Preview](http://jaywcjlove.github.io/github-rank/users.china.html)
+- [Github **Global** Org User Followers Ranking Preview](http://jaywcjlove.github.io/github-rank/org.html)
 - [Github Global repositories Star Most Ranking Preview](http://jaywcjlove.github.io/github-rank/repos.html)
 - [Github community trend list daily, weekly, monthly preview](http://jaywcjlove.github.io/github-rank/trending.html) [**`daily`**](http://jaywcjlove.github.io/github-rank/trending.html) [**`weekly`**](http://jaywcjlove.github.io/github-rank/trending-weekly.html) [**`monthly`**](http://jaywcjlove.github.io/github-rank/trending-monthly.html)
 
