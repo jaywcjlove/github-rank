@@ -110,7 +110,8 @@ As always, thanks to our amazing contributors!
 <a href="https://github.com/leon-kfd" title="Leon-kfd"><img src="https://avatars.githubusercontent.com/u/30256102?v=4" width="42;" alt="Leon-kfd"/></a>
 <a href="https://github.com/antfu" title="Anthony Fu"><img src="https://avatars.githubusercontent.com/u/11247099?v=4" width="42;" alt="Anthony Fu"/></a>
 <a href="https://github.com/FeeiCN" title="Feei"><img src="https://avatars.githubusercontent.com/u/1611552?v=4" width="42;" alt="Feei"/></a>
-<a href="https://github.com/zhenyong" title="ZY"><img src="https://avatars.githubusercontent.com/u/4012276?v=4" width="42;" alt="ZY"/></a><!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
+<a href="https://github.com/zhenyong" title="ZY"><img src="https://avatars.githubusercontent.com/u/4012276?v=4" width="42;" alt="ZY"/></a>
+<a href="https://github.com/rr210" title="Ryan Co"><img src="https://avatars.githubusercontent.com/u/66169324?v=4" width="42;" alt="Ryan Co"/></a><!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
 Made with [contributors](https://github.com/jaywcjlove/github-action-contributors), automatically generated.
 
