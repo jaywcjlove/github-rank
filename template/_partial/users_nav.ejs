@@ -1,5 +1,65 @@
 <span class="select">
-  <a class="<%= type === 'global' ? 'active': '' %>" href="index.html">Global</a>
-  <a class="<%= type === 'china' ? 'active': '' %>" href="users.china.html">China</a>
+  <a class="<%= type === 'global' ? 'active': '' %>" href="index.html"
+    >Global</a
+  >
+  <a class="<%= type === 'china' ? 'active': '' %>" href="users.china.html"
+    >China</a
+  >
   <a class="<%= type === 'org' ? 'active': '' %>" href="org.html">Org</a>
 </span>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // 初始变量
+    let currentSortColumn = 0; // 初始排序列
+    const ths = Array.from(document.querySelectorAll("table thead tr th"));
+    let ascendingOrder = true; // 初始排序顺序
+
+    // 事件监听器
+    const headers = document.querySelectorAll("th[data-sort]");
+    headers.forEach((header) => {
+      header.addEventListener("click", (e) => {
+        // 获取点击列的位置
+        currentSortColumn = ths.findIndex(
+          (item) => item.dataset.sort === e.target.dataset.sort
+        );
+        // 调用排序函数
+        sortTable();
+      });
+    });
+
+    // 排序函数
+    function sortTable() {
+      const rows = document.querySelectorAll("tbody tr");
+      const sortedRows = Array.from(rows).sort((rowA, rowB) => {
+        const valueA = parseInt(
+          rowA.querySelectorAll("td")[currentSortColumn].innerText
+        );
+        const valueB = parseInt(
+          rowB.querySelectorAll("td")[currentSortColumn].innerText
+        );
+
+        if (ascendingOrder) {
+          return valueA - valueB;
+        } else {
+          return valueB - valueA;
+        }
+      });
+
+      // 清空表格并重新添加排好序的行
+      const tbody = document.querySelector("tbody");
+      tbody.innerHTML = "";
+      sortedRows.forEach((row) => {
+        tbody.appendChild(row);
+      });
+
+      // 切换排序顺序
+      ascendingOrder = !ascendingOrder;
+    }
+  });
+</script>
+<style>
+  th[data-sort] {
+    cursor: pointer;
+  }
+</style>
