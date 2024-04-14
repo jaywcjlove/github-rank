@@ -29,7 +29,23 @@ Github 全球/中国用户排名，全球仓库 Star 最多排名，通过 Githu
 
 更新时间：<!--GAMFC-->2022-11-05 09:15:32<!--GAMFC-END-->
 
-## 使用
+## 克隆项目
+
+```bash
+git clone https://github.com/372798735/github-rank-fork.git
+```
+```bash
+cd github-rank-fork
+
+npm install
+```
+run
+```bash
+npm run start
+```
+
+
+## 插件使用
 
 ```bash
 npm install @wcj/github-rank --save-dev
