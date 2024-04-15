@@ -146,6 +146,24 @@
       text-align: center;
       font-weight: bold;
     }
+    .userlist tbody tr td svg {
+      display: inline-flex;
+      top: 1px;
+      position: relative;
+      color: var(--color-accent-emphasis);
+    }
+    .userlist tbody tr td svg:hover {
+      color:  var(--color-accent-emphasis);
+      animation: blink 0.5s infinite;
+    }
+    @keyframes blink {
+      0% { opacity: 1; }
+      25% { opacity: 0; }
+      50% { opacity: 1; }
+      75% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
     @media only screen and (max-width: 768px) {
       .userlist table :is(td:nth-child(3), td:nth-child(4), th:nth-child(3), th:nth-child(4)) {
         display: none;
@@ -279,15 +297,23 @@
     </a>
   </td>
   <td>
-    <b>1</b>
-    <a href="https://github.com/openai" target="_blank">OpenAI</a>
+    <div>
+      <b>1</b>
+      <a href="https://github.com/openai" target="_blank">OpenAI</a>
+      
+      
+      <a target="_blank" href="https://openai.com/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>openai</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/openai?tab=followers" target="_blank">
-      77722
+      77740
     </a>
   </td>
   <td>
@@ -312,15 +338,29 @@
     </a>
   </td>
   <td>
-    <b>2</b>
-    <a href="https://github.com/microsoft" target="_blank">Microsoft</a>
+    <div>
+      <b>2</b>
+      <a href="https://github.com/microsoft" target="_blank">Microsoft</a>
+      
+      <a target="_blank" href="https://twitter.com/OpenAtMicrosoft">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://opensource.microsoft.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>microsoft</span>
   </td>
   <td>Redmond, WA</td>
   <td></td>
   <td>
     <a href="https://github.com/microsoft?tab=followers" target="_blank">
-      64525
+      64542
     </a>
   </td>
   <td>
@@ -330,7 +370,7 @@
   </td>
   <td>
     <a href="https://github.com/microsoft?tab=repositories" target="_blank">
-      6163
+      6164
     </a>
   </td>
   <td>
@@ -345,15 +385,29 @@
     </a>
   </td>
   <td>
-    <b>3</b>
-    <a href="https://github.com/google" target="_blank">Google</a>
+    <div>
+      <b>3</b>
+      <a href="https://github.com/google" target="_blank">Google</a>
+      
+      <a target="_blank" href="https://twitter.com/GoogleOSS">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://opensource.google/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>google</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/google?tab=followers" target="_blank">
-      39293
+      39304
     </a>
   </td>
   <td>
@@ -363,7 +417,7 @@
   </td>
   <td>
     <a href="https://github.com/google?tab=repositories" target="_blank">
-      2632
+      2633
     </a>
   </td>
   <td>
@@ -378,15 +432,23 @@
     </a>
   </td>
   <td>
-    <b>4</b>
-    <a href="https://github.com/github" target="_blank">GitHub</a>
+    <div>
+      <b>4</b>
+      <a href="https://github.com/github" target="_blank">GitHub</a>
+      
+      
+      <a target="_blank" href="https://github.com/about">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>github</span>
   </td>
   <td>San Francisco, CA</td>
   <td></td>
   <td>
     <a href="https://github.com/github?tab=followers" target="_blank">
-      37273
+      37280
     </a>
   </td>
   <td>
@@ -411,15 +473,29 @@
     </a>
   </td>
   <td>
-    <b>5</b>
-    <a href="https://github.com/TheAlgorithms" target="_blank">The Algorithms</a>
+    <div>
+      <b>5</b>
+      <a href="https://github.com/TheAlgorithms" target="_blank">The Algorithms</a>
+      
+      <a target="_blank" href="https://twitter.com/the_algorithms">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://the-algorithms.com/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>TheAlgorithms</span>
   </td>
   <td>India</td>
   <td></td>
   <td>
     <a href="https://github.com/TheAlgorithms?tab=followers" target="_blank">
-      34684
+      34689
     </a>
   </td>
   <td>
@@ -444,15 +520,29 @@
     </a>
   </td>
   <td>
-    <b>6</b>
-    <a href="https://github.com/huggingface" target="_blank">Hugging Face</a>
+    <div>
+      <b>6</b>
+      <a href="https://github.com/huggingface" target="_blank">Hugging Face</a>
+      
+      <a target="_blank" href="https://twitter.com/huggingface">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://huggingface.co/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>huggingface</span>
   </td>
   <td>NYC + Paris</td>
   <td></td>
   <td>
     <a href="https://github.com/huggingface?tab=followers" target="_blank">
-      30584
+      30600
     </a>
   </td>
   <td>
@@ -477,15 +567,23 @@
     </a>
   </td>
   <td>
-    <b>7</b>
-    <a href="https://github.com/EpicGames" target="_blank">Epic Games</a>
+    <div>
+      <b>7</b>
+      <a href="https://github.com/EpicGames" target="_blank">Epic Games</a>
+      
+      
+      <a target="_blank" href="http://epicgames.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>EpicGames</span>
   </td>
   <td>United States</td>
   <td></td>
   <td>
     <a href="https://github.com/EpicGames?tab=followers" target="_blank">
-      29657
+      29666
     </a>
   </td>
   <td>
@@ -510,15 +608,29 @@
     </a>
   </td>
   <td>
-    <b>8</b>
-    <a href="https://github.com/freeCodeCamp" target="_blank">freeCodeCamp.org</a>
+    <div>
+      <b>8</b>
+      <a href="https://github.com/freeCodeCamp" target="_blank">freeCodeCamp.org</a>
+      
+      <a target="_blank" href="https://twitter.com/freeCodeCamp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://freecodecamp.org">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>freeCodeCamp</span>
   </td>
   <td>Just here on Earth... for now</td>
   <td></td>
   <td>
     <a href="https://github.com/freeCodeCamp?tab=followers" target="_blank">
-      22362
+      22365
     </a>
   </td>
   <td>
@@ -543,15 +655,29 @@
     </a>
   </td>
   <td>
-    <b>9</b>
-    <a href="https://github.com/facebook" target="_blank">Meta</a>
+    <div>
+      <b>9</b>
+      <a href="https://github.com/facebook" target="_blank">Meta</a>
+      
+      <a target="_blank" href="https://twitter.com/MetaOpenSource">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://opensource.fb.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>facebook</span>
   </td>
   <td>Menlo Park, California</td>
   <td></td>
   <td>
     <a href="https://github.com/facebook?tab=followers" target="_blank">
-      22269
+      22274
     </a>
   </td>
   <td>
@@ -576,15 +702,23 @@
     </a>
   </td>
   <td>
-    <b>10</b>
-    <a href="https://github.com/facebookresearch" target="_blank">Meta Research</a>
+    <div>
+      <b>10</b>
+      <a href="https://github.com/facebookresearch" target="_blank">Meta Research</a>
+      
+      
+      <a target="_blank" href="https://opensource.fb.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>facebookresearch</span>
   </td>
   <td>Menlo Park, California</td>
   <td></td>
   <td>
     <a href="https://github.com/facebookresearch?tab=followers" target="_blank">
-      21602
+      21606
     </a>
   </td>
   <td>
@@ -609,15 +743,23 @@
     </a>
   </td>
   <td>
-    <b>11</b>
-    <a href="https://github.com/apple" target="_blank">Apple</a>
+    <div>
+      <b>11</b>
+      <a href="https://github.com/apple" target="_blank">Apple</a>
+      
+      
+      <a target="_blank" href="https://apple.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>apple</span>
   </td>
   <td>Cupertino, CA</td>
   <td></td>
   <td>
     <a href="https://github.com/apple?tab=followers" target="_blank">
-      21553
+      21559
     </a>
   </td>
   <td>
@@ -642,15 +784,23 @@
     </a>
   </td>
   <td>
-    <b>12</b>
-    <a href="https://github.com/python" target="_blank">Python</a>
+    <div>
+      <b>12</b>
+      <a href="https://github.com/python" target="_blank">Python</a>
+      
+      
+      <a target="_blank" href="https://www.python.org/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>python</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/python?tab=followers" target="_blank">
-      20023
+      20029
     </a>
   </td>
   <td>
@@ -675,15 +825,29 @@
     </a>
   </td>
   <td>
-    <b>13</b>
-    <a href="https://github.com/ReVanced" target="_blank">ReVanced</a>
+    <div>
+      <b>13</b>
+      <a href="https://github.com/ReVanced" target="_blank">ReVanced</a>
+      
+      <a target="_blank" href="https://twitter.com/revancedapp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://revanced.app">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>ReVanced</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/ReVanced?tab=followers" target="_blank">
-      18263
+      18265
     </a>
   </td>
   <td>
@@ -708,15 +872,29 @@
     </a>
   </td>
   <td>
-    <b>14</b>
-    <a href="https://github.com/flutter" target="_blank">Flutter</a>
+    <div>
+      <b>14</b>
+      <a href="https://github.com/flutter" target="_blank">Flutter</a>
+      
+      <a target="_blank" href="https://twitter.com/FlutterDev">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://flutter.dev">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>flutter</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/flutter?tab=followers" target="_blank">
-      14923
+      14925
     </a>
   </td>
   <td>
@@ -741,8 +919,22 @@
     </a>
   </td>
   <td>
-    <b>15</b>
-    <a href="https://github.com/vuejs" target="_blank">Vue</a>
+    <div>
+      <b>15</b>
+      <a href="https://github.com/vuejs" target="_blank">Vue</a>
+      
+      <a target="_blank" href="https://twitter.com/vuejs">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://vuejs.org">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>vuejs</span>
   </td>
   <td>All Over the World</td>
@@ -774,15 +966,23 @@
     </a>
   </td>
   <td>
-    <b>16</b>
-    <a href="https://github.com/vercel" target="_blank">Vercel</a>
+    <div>
+      <b>16</b>
+      <a href="https://github.com/vercel" target="_blank">Vercel</a>
+      
+      
+      <a target="_blank" href="https://vercel.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>vercel</span>
   </td>
   <td>United States of America</td>
   <td></td>
   <td>
     <a href="https://github.com/vercel?tab=followers" target="_blank">
-      14349
+      14353
     </a>
   </td>
   <td>
@@ -807,15 +1007,23 @@
     </a>
   </td>
   <td>
-    <b>17</b>
-    <a href="https://github.com/tensorflow" target="_blank">tensorflow</a>
+    <div>
+      <b>17</b>
+      <a href="https://github.com/tensorflow" target="_blank">tensorflow</a>
+      
+      
+      <a target="_blank" href="http://www.tensorflow.org">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>tensorflow</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/tensorflow?tab=followers" target="_blank">
-      13894
+      13898
     </a>
   </td>
   <td>
@@ -840,15 +1048,29 @@
     </a>
   </td>
   <td>
-    <b>18</b>
-    <a href="https://github.com/community" target="_blank">GitHub Community</a>
+    <div>
+      <b>18</b>
+      <a href="https://github.com/community" target="_blank">GitHub Community</a>
+      
+      <a target="_blank" href="https://twitter.com/GitHub">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://github.com/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>community</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/community?tab=followers" target="_blank">
-      13711
+      13714
     </a>
   </td>
   <td>
@@ -873,15 +1095,29 @@
     </a>
   </td>
   <td>
-    <b>19</b>
-    <a href="https://github.com/dotnet" target="_blank">.NET Platform</a>
+    <div>
+      <b>19</b>
+      <a href="https://github.com/dotnet" target="_blank">.NET Platform</a>
+      
+      <a target="_blank" href="https://twitter.com/dotnetfdn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://dot.net">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>dotnet</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/dotnet?tab=followers" target="_blank">
-      13706
+      13711
     </a>
   </td>
   <td>
@@ -906,15 +1142,23 @@
     </a>
   </td>
   <td>
-    <b>20</b>
-    <a href="https://github.com/alibaba" target="_blank">Alibaba</a>
+    <div>
+      <b>20</b>
+      <a href="https://github.com/alibaba" target="_blank">Alibaba</a>
+      
+      
+      <a target="_blank" href="https://opensource.alibaba.com/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>alibaba</span>
   </td>
   <td>Hangzhou, China</td>
   <td></td>
   <td>
     <a href="https://github.com/alibaba?tab=followers" target="_blank">
-      13010
+      13016
     </a>
   </td>
   <td>
@@ -939,15 +1183,29 @@
     </a>
   </td>
   <td>
-    <b>21</b>
-    <a href="https://github.com/twitter" target="_blank">X (fka Twitter)</a>
+    <div>
+      <b>21</b>
+      <a href="https://github.com/twitter" target="_blank">X (fka Twitter)</a>
+      
+      <a target="_blank" href="https://twitter.com/XEng">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://opensource.x.com/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>twitter</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/twitter?tab=followers" target="_blank">
-      12394
+      12395
     </a>
   </td>
   <td>
@@ -972,15 +1230,29 @@
     </a>
   </td>
   <td>
-    <b>22</b>
-    <a href="https://github.com/cs50" target="_blank">CS50</a>
+    <div>
+      <b>22</b>
+      <a href="https://github.com/cs50" target="_blank">CS50</a>
+      
+      <a target="_blank" href="https://twitter.com/cs50">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://cs50.harvard.edu/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>cs50</span>
   </td>
   <td>Cambridge, Massachusetts, USA</td>
   <td></td>
   <td>
     <a href="https://github.com/cs50?tab=followers" target="_blank">
-      12272
+      12274
     </a>
   </td>
   <td>
@@ -1005,15 +1277,23 @@
     </a>
   </td>
   <td>
-    <b>23</b>
-    <a href="https://github.com/apache" target="_blank">The Apache Software Foundation</a>
+    <div>
+      <b>23</b>
+      <a href="https://github.com/apache" target="_blank">The Apache Software Foundation</a>
+      
+      
+      <a target="_blank" href="https://www.apache.org/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>apache</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/apache?tab=followers" target="_blank">
-      12266
+      12271
     </a>
   </td>
   <td>
@@ -1038,15 +1318,29 @@
     </a>
   </td>
   <td>
-    <b>24</b>
-    <a href="https://github.com/android" target="_blank">Android</a>
+    <div>
+      <b>24</b>
+      <a href="https://github.com/android" target="_blank">Android</a>
+      
+      <a target="_blank" href="https://twitter.com/AndroidDev">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://d.android.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>android</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/android?tab=followers" target="_blank">
-      11982
+      11987
     </a>
   </td>
   <td>
@@ -1071,15 +1365,29 @@
     </a>
   </td>
   <td>
-    <b>25</b>
-    <a href="https://github.com/nodejs" target="_blank">Node.js</a>
+    <div>
+      <b>25</b>
+      <a href="https://github.com/nodejs" target="_blank">Node.js</a>
+      
+      <a target="_blank" href="https://twitter.com/nodejs">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://nodejs.org">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>nodejs</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/nodejs?tab=followers" target="_blank">
-      11139
+      11140
     </a>
   </td>
   <td>
@@ -1104,15 +1412,29 @@
     </a>
   </td>
   <td>
-    <b>26</b>
-    <a href="https://github.com/PacktPublishing" target="_blank">Packt</a>
+    <div>
+      <b>26</b>
+      <a href="https://github.com/PacktPublishing" target="_blank">Packt</a>
+      
+      <a target="_blank" href="https://twitter.com/PacktPublishing">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://www.packtpub.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>PacktPublishing</span>
   </td>
   <td>Birmingham, UK</td>
   <td></td>
   <td>
     <a href="https://github.com/PacktPublishing?tab=followers" target="_blank">
-      10988
+      10991
     </a>
   </td>
   <td>
@@ -1137,15 +1459,23 @@
     </a>
   </td>
   <td>
-    <b>27</b>
-    <a href="https://github.com/Stability-AI" target="_blank">Stability AI</a>
+    <div>
+      <b>27</b>
+      <a href="https://github.com/Stability-AI" target="_blank">Stability AI</a>
+      
+      
+      <a target="_blank" href="https://www.stability.ai/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>Stability-AI</span>
   </td>
   <td>United Kingdom</td>
   <td></td>
   <td>
     <a href="https://github.com/Stability-AI?tab=followers" target="_blank">
-      10938
+      10942
     </a>
   </td>
   <td>
@@ -1170,15 +1500,29 @@
     </a>
   </td>
   <td>
-    <b>28</b>
-    <a href="https://github.com/Visual-Studio-Code" target="_blank">Visual Studio Code</a>
+    <div>
+      <b>28</b>
+      <a href="https://github.com/Visual-Studio-Code" target="_blank">Visual Studio Code</a>
+      
+      <a target="_blank" href="https://twitter.com/code">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://code.visualstudio.com/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>Visual-Studio-Code</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/Visual-Studio-Code?tab=followers" target="_blank">
-      10866
+      10870
     </a>
   </td>
   <td>
@@ -1203,8 +1547,22 @@
     </a>
   </td>
   <td>
-    <b>29</b>
-    <a href="https://github.com/twbs" target="_blank">Bootstrap</a>
+    <div>
+      <b>29</b>
+      <a href="https://github.com/twbs" target="_blank">Bootstrap</a>
+      
+      <a target="_blank" href="https://twitter.com/getbootstrap">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://getbootstrap.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>twbs</span>
   </td>
   <td>San Francisco</td>
@@ -1236,15 +1594,29 @@
     </a>
   </td>
   <td>
-    <b>30</b>
-    <a href="https://github.com/termux" target="_blank">Termux</a>
+    <div>
+      <b>30</b>
+      <a href="https://github.com/termux" target="_blank">Termux</a>
+      
+      <a target="_blank" href="https://twitter.com/termuxdevs">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://termux.dev">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>termux</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/termux?tab=followers" target="_blank">
-      10264
+      10265
     </a>
   </td>
   <td>
@@ -1269,15 +1641,29 @@
     </a>
   </td>
   <td>
-    <b>31</b>
-    <a href="https://github.com/spring-projects" target="_blank">Spring</a>
+    <div>
+      <b>31</b>
+      <a href="https://github.com/spring-projects" target="_blank">Spring</a>
+      
+      <a target="_blank" href="https://twitter.com/springcentral">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://spring.io/projects">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>spring-projects</span>
   </td>
   <td>United States of America</td>
   <td></td>
   <td>
     <a href="https://github.com/spring-projects?tab=followers" target="_blank">
-      10158
+      10160
     </a>
   </td>
   <td>
@@ -1302,15 +1688,23 @@
     </a>
   </td>
   <td>
-    <b>32</b>
-    <a href="https://github.com/google-deepmind" target="_blank">Google DeepMind</a>
+    <div>
+      <b>32</b>
+      <a href="https://github.com/google-deepmind" target="_blank">Google DeepMind</a>
+      
+      
+      <a target="_blank" href="https://www.deepmind.com/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>google-deepmind</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/google-deepmind?tab=followers" target="_blank">
-      10094
+      10096
     </a>
   </td>
   <td>
@@ -1335,15 +1729,23 @@
     </a>
   </td>
   <td>
-    <b>33</b>
-    <a href="https://github.com/aws-samples" target="_blank">AWS Samples</a>
+    <div>
+      <b>33</b>
+      <a href="https://github.com/aws-samples" target="_blank">AWS Samples</a>
+      
+      
+      <a target="_blank" href="https://amazon.com/aws">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>aws-samples</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/aws-samples?tab=followers" target="_blank">
-      10082
+      10085
     </a>
   </td>
   <td>
@@ -1368,15 +1770,29 @@
     </a>
   </td>
   <td>
-    <b>34</b>
-    <a href="https://github.com/rust-lang" target="_blank">The Rust Programming Language</a>
+    <div>
+      <b>34</b>
+      <a href="https://github.com/rust-lang" target="_blank">The Rust Programming Language</a>
+      
+      <a target="_blank" href="https://twitter.com/rustlang">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://www.rust-lang.org">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>rust-lang</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/rust-lang?tab=followers" target="_blank">
-      9887
+      9889
     </a>
   </td>
   <td>
@@ -1401,15 +1817,23 @@
     </a>
   </td>
   <td>
-    <b>35</b>
-    <a href="https://github.com/ethereum" target="_blank">ethereum</a>
+    <div>
+      <b>35</b>
+      <a href="https://github.com/ethereum" target="_blank">ethereum</a>
+      
+      
+      <a target="_blank" href="https://ethereum.org">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>ethereum</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/ethereum?tab=followers" target="_blank">
-      9623
+      9625
     </a>
   </td>
   <td>
@@ -1434,15 +1858,25 @@
     </a>
   </td>
   <td>
-    <b>36</b>
-    <a href="https://github.com/scroll-tech" target="_blank">Scroll</a>
+    <div>
+      <b>36</b>
+      <a href="https://github.com/scroll-tech" target="_blank">Scroll</a>
+      
+      <a target="_blank" href="https://twitter.com/Scroll_ZKP">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+    </div>
     <span>scroll-tech</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/scroll-tech?tab=followers" target="_blank">
-      9122
+      9123
     </a>
   </td>
   <td>
@@ -1467,15 +1901,29 @@
     </a>
   </td>
   <td>
-    <b>37</b>
-    <a href="https://github.com/flipperdevices" target="_blank">Flipper Devices</a>
+    <div>
+      <b>37</b>
+      <a href="https://github.com/flipperdevices" target="_blank">Flipper Devices</a>
+      
+      <a target="_blank" href="https://twitter.com/flipper_zero">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://flipperzero.one/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>flipperdevices</span>
   </td>
   <td>United States of America</td>
   <td></td>
   <td>
     <a href="https://github.com/flipperdevices?tab=followers" target="_blank">
-      8968
+      8970
     </a>
   </td>
   <td>
@@ -1500,15 +1948,29 @@
     </a>
   </td>
   <td>
-    <b>38</b>
-    <a href="https://github.com/Azure" target="_blank">Microsoft Azure</a>
+    <div>
+      <b>38</b>
+      <a href="https://github.com/Azure" target="_blank">Microsoft Azure</a>
+      
+      <a target="_blank" href="https://twitter.com/Azure">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://docs.microsoft.com/en-us/azure/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>Azure</span>
   </td>
   <td>Redmond, WA &amp; the cloud ☁️</td>
   <td></td>
   <td>
     <a href="https://github.com/Azure?tab=followers" target="_blank">
-      8786
+      8788
     </a>
   </td>
   <td>
@@ -1518,7 +1980,7 @@
   </td>
   <td>
     <a href="https://github.com/Azure?tab=repositories" target="_blank">
-      2221
+      2222
     </a>
   </td>
   <td>
@@ -1533,8 +1995,22 @@
     </a>
   </td>
   <td>
-    <b>39</b>
-    <a href="https://github.com/mdn" target="_blank">MDN Web Docs</a>
+    <div>
+      <b>39</b>
+      <a href="https://github.com/mdn" target="_blank">MDN Web Docs</a>
+      
+      <a target="_blank" href="https://twitter.com/MozDevNet">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://developer.mozilla.org">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>mdn</span>
   </td>
   <td>Worldwide</td>
@@ -1566,15 +2042,29 @@
     </a>
   </td>
   <td>
-    <b>40</b>
-    <a href="https://github.com/open-mmlab" target="_blank">OpenMMLab</a>
+    <div>
+      <b>40</b>
+      <a href="https://github.com/open-mmlab" target="_blank">OpenMMLab</a>
+      
+      <a target="_blank" href="https://twitter.com/OpenMMLab">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://openmmlab.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>open-mmlab</span>
   </td>
   <td>China</td>
   <td></td>
   <td>
     <a href="https://github.com/open-mmlab?tab=followers" target="_blank">
-      8738
+      8742
     </a>
   </td>
   <td>
@@ -1599,15 +2089,23 @@
     </a>
   </td>
   <td>
-    <b>41</b>
-    <a href="https://github.com/GoogleCloudPlatform" target="_blank">Google Cloud Platform</a>
+    <div>
+      <b>41</b>
+      <a href="https://github.com/GoogleCloudPlatform" target="_blank">Google Cloud Platform</a>
+      
+      
+      <a target="_blank" href="https://cloud.google.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>GoogleCloudPlatform</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/GoogleCloudPlatform?tab=followers" target="_blank">
-      8655
+      8658
     </a>
   </td>
   <td>
@@ -1632,15 +2130,23 @@
     </a>
   </td>
   <td>
-    <b>42</b>
-    <a href="https://github.com/NVIDIA" target="_blank">NVIDIA Corporation</a>
+    <div>
+      <b>42</b>
+      <a href="https://github.com/NVIDIA" target="_blank">NVIDIA Corporation</a>
+      
+      
+      <a target="_blank" href="www.nvidia.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>NVIDIA</span>
   </td>
   <td>2788 San Tomas Expressway, Santa Clara, CA, 95051</td>
   <td></td>
   <td>
     <a href="https://github.com/NVIDIA?tab=followers" target="_blank">
-      8596
+      8598
     </a>
   </td>
   <td>
@@ -1665,15 +2171,29 @@
     </a>
   </td>
   <td>
-    <b>43</b>
-    <a href="https://github.com/replicate" target="_blank">Replicate</a>
+    <div>
+      <b>43</b>
+      <a href="https://github.com/replicate" target="_blank">Replicate</a>
+      
+      <a target="_blank" href="https://twitter.com/replicate">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://replicate.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>replicate</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/replicate?tab=followers" target="_blank">
-      8558
+      8561
     </a>
   </td>
   <td>
@@ -1698,15 +2218,23 @@
     </a>
   </td>
   <td>
-    <b>44</b>
-    <a href="https://github.com/Unity-Technologies" target="_blank">Unity Technologies</a>
+    <div>
+      <b>44</b>
+      <a href="https://github.com/Unity-Technologies" target="_blank">Unity Technologies</a>
+      
+      
+      <a target="_blank" href="http://unity.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>Unity-Technologies</span>
   </td>
   <td>Copenhagen, Denmark</td>
   <td></td>
   <td>
     <a href="https://github.com/Unity-Technologies?tab=followers" target="_blank">
-      8470
+      8472
     </a>
   </td>
   <td>
@@ -1731,15 +2259,23 @@
     </a>
   </td>
   <td>
-    <b>45</b>
-    <a href="https://github.com/google-research" target="_blank">Google Research</a>
+    <div>
+      <b>45</b>
+      <a href="https://github.com/google-research" target="_blank">Google Research</a>
+      
+      
+      <a target="_blank" href="https://research.google">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>google-research</span>
   </td>
   <td>Earth</td>
   <td></td>
   <td>
     <a href="https://github.com/google-research?tab=followers" target="_blank">
-      8330
+      8334
     </a>
   </td>
   <td>
@@ -1764,15 +2300,23 @@
     </a>
   </td>
   <td>
-    <b>46</b>
-    <a href="https://github.com/Microsoft-corp" target="_blank">Microsoft-Corporation</a>
+    <div>
+      <b>46</b>
+      <a href="https://github.com/Microsoft-corp" target="_blank">Microsoft-Corporation</a>
+      
+      
+      <a target="_blank" href="https://microsoft.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>Microsoft-corp</span>
   </td>
   <td>Redmond, WA</td>
   <td></td>
   <td>
     <a href="https://github.com/Microsoft-corp?tab=followers" target="_blank">
-      8222
+      8226
     </a>
   </td>
   <td>
@@ -1797,15 +2341,23 @@
     </a>
   </td>
   <td>
-    <b>47</b>
-    <a href="https://github.com/aws" target="_blank">Amazon Web Services</a>
+    <div>
+      <b>47</b>
+      <a href="https://github.com/aws" target="_blank">Amazon Web Services</a>
+      
+      
+      <a target="_blank" href="https://amazon.com/aws">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>aws</span>
   </td>
   <td>Seattle, WA</td>
   <td></td>
   <td>
     <a href="https://github.com/aws?tab=followers" target="_blank">
-      8199
+      8201
     </a>
   </td>
   <td>
@@ -1830,8 +2382,12 @@
     </a>
   </td>
   <td>
-    <b>48</b>
-    <a href="https://github.com/ossu" target="_blank">Open Source Society University</a>
+    <div>
+      <b>48</b>
+      <a href="https://github.com/ossu" target="_blank">Open Source Society University</a>
+      
+      
+    </div>
     <span>ossu</span>
   </td>
   <td></td>
@@ -1863,15 +2419,23 @@
     </a>
   </td>
   <td>
-    <b>49</b>
-    <a href="https://github.com/pytorch" target="_blank">pytorch</a>
+    <div>
+      <b>49</b>
+      <a href="https://github.com/pytorch" target="_blank">pytorch</a>
+      
+      
+      <a target="_blank" href="https://pytorch.org">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>pytorch</span>
   </td>
   <td>where the eigens are valued</td>
   <td></td>
   <td>
     <a href="https://github.com/pytorch?tab=followers" target="_blank">
-      8163
+      8164
     </a>
   </td>
   <td>
@@ -1896,15 +2460,29 @@
     </a>
   </td>
   <td>
-    <b>50</b>
-    <a href="https://github.com/kubernetes" target="_blank">Kubernetes</a>
+    <div>
+      <b>50</b>
+      <a href="https://github.com/kubernetes" target="_blank">Kubernetes</a>
+      
+      <a target="_blank" href="https://twitter.com/kubernetesio">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://kubernetes.io">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>kubernetes</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/kubernetes?tab=followers" target="_blank">
-      8091
+      8095
     </a>
   </td>
   <td>
@@ -1929,15 +2507,19 @@
     </a>
   </td>
   <td>
-    <b>51</b>
-    <a href="https://github.com/intel-innersource" target="_blank">Intel-Innersource</a>
+    <div>
+      <b>51</b>
+      <a href="https://github.com/intel-innersource" target="_blank">Intel-Innersource</a>
+      
+      
+    </div>
     <span>intel-innersource</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/intel-innersource?tab=followers" target="_blank">
-      7911
+      7913
     </a>
   </td>
   <td>
@@ -1962,15 +2544,29 @@
     </a>
   </td>
   <td>
-    <b>52</b>
-    <a href="https://github.com/home-assistant" target="_blank">Home Assistant</a>
+    <div>
+      <b>52</b>
+      <a href="https://github.com/home-assistant" target="_blank">Home Assistant</a>
+      
+      <a target="_blank" href="https://twitter.com/home_assistant">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://www.home-assistant.io">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>home-assistant</span>
   </td>
   <td>Your home</td>
   <td></td>
   <td>
     <a href="https://github.com/home-assistant?tab=followers" target="_blank">
-      7904
+      7907
     </a>
   </td>
   <td>
@@ -1995,8 +2591,22 @@
     </a>
   </td>
   <td>
-    <b>53</b>
-    <a href="https://github.com/Fuelet" target="_blank">Fuelet Wallet</a>
+    <div>
+      <b>53</b>
+      <a href="https://github.com/Fuelet" target="_blank">Fuelet Wallet</a>
+      
+      <a target="_blank" href="https://twitter.com/FueletWallet">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://fuelet.app">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>Fuelet</span>
   </td>
   <td></td>
@@ -2028,15 +2638,23 @@
     </a>
   </td>
   <td>
-    <b>54</b>
-    <a href="https://github.com/Tencent" target="_blank">Tencent</a>
+    <div>
+      <b>54</b>
+      <a href="https://github.com/Tencent" target="_blank">Tencent</a>
+      
+      
+      <a target="_blank" href="https://opensource.tencent.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>Tencent</span>
   </td>
   <td>Shenzhen, China</td>
   <td></td>
   <td>
     <a href="https://github.com/Tencent?tab=followers" target="_blank">
-      7544
+      7546
     </a>
   </td>
   <td>
@@ -2061,15 +2679,23 @@
     </a>
   </td>
   <td>
-    <b>55</b>
-    <a href="https://github.com/datawhalechina" target="_blank">Datawhale</a>
+    <div>
+      <b>55</b>
+      <a href="https://github.com/datawhalechina" target="_blank">Datawhale</a>
+      
+      
+      <a target="_blank" href="http://datawhale.club">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>datawhalechina</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/datawhalechina?tab=followers" target="_blank">
-      7324
+      7333
     </a>
   </td>
   <td>
@@ -2094,15 +2720,29 @@
     </a>
   </td>
   <td>
-    <b>56</b>
-    <a href="https://github.com/THUDM" target="_blank">THUDM</a>
+    <div>
+      <b>56</b>
+      <a href="https://github.com/THUDM" target="_blank">THUDM</a>
+      
+      <a target="_blank" href="https://twitter.com/thukeg">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://huggingface.co/THUDM">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>THUDM</span>
   </td>
   <td>FIT Building, Tsinghua University</td>
   <td></td>
   <td>
     <a href="https://github.com/THUDM?tab=followers" target="_blank">
-      7306
+      7310
     </a>
   </td>
   <td>
@@ -2127,15 +2767,29 @@
     </a>
   </td>
   <td>
-    <b>57</b>
-    <a href="https://github.com/JetBrains" target="_blank">JetBrains</a>
+    <div>
+      <b>57</b>
+      <a href="https://github.com/JetBrains" target="_blank">JetBrains</a>
+      
+      <a target="_blank" href="https://twitter.com/jetbrains">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://jetbrains.com/opensource">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>JetBrains</span>
   </td>
   <td>Czech Republic</td>
   <td></td>
   <td>
     <a href="https://github.com/JetBrains?tab=followers" target="_blank">
-      7237
+      7238
     </a>
   </td>
   <td>
@@ -2160,15 +2814,23 @@
     </a>
   </td>
   <td>
-    <b>58</b>
-    <a href="https://github.com/golang" target="_blank">Go</a>
+    <div>
+      <b>58</b>
+      <a href="https://github.com/golang" target="_blank">Go</a>
+      
+      
+      <a target="_blank" href="https://go.dev">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>golang</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/golang?tab=followers" target="_blank">
-      7142
+      7144
     </a>
   </td>
   <td>
@@ -2193,8 +2855,16 @@
     </a>
   </td>
   <td>
-    <b>59</b>
-    <a href="https://github.com/hashicorp" target="_blank">HashiCorp</a>
+    <div>
+      <b>59</b>
+      <a href="https://github.com/hashicorp" target="_blank">HashiCorp</a>
+      
+      
+      <a target="_blank" href="https://hashicorp.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>hashicorp</span>
   </td>
   <td>San Francisco, CA</td>
@@ -2226,15 +2896,23 @@
     </a>
   </td>
   <td>
-    <b>60</b>
-    <a href="https://github.com/mozilla" target="_blank">Mozilla</a>
+    <div>
+      <b>60</b>
+      <a href="https://github.com/mozilla" target="_blank">Mozilla</a>
+      
+      
+      <a target="_blank" href="https://wiki.mozilla.org/Github">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>mozilla</span>
   </td>
   <td>Mountain View, California</td>
   <td></td>
   <td>
     <a href="https://github.com/mozilla?tab=followers" target="_blank">
-      7010
+      7013
     </a>
   </td>
   <td>
@@ -2244,7 +2922,7 @@
   </td>
   <td>
     <a href="https://github.com/mozilla?tab=repositories" target="_blank">
-      2410
+      2411
     </a>
   </td>
   <td>
@@ -2259,15 +2937,23 @@
     </a>
   </td>
   <td>
-    <b>61</b>
-    <a href="https://github.com/fireship-io" target="_blank">Fireship</a>
+    <div>
+      <b>61</b>
+      <a href="https://github.com/fireship-io" target="_blank">Fireship</a>
+      
+      
+      <a target="_blank" href="https://fireship.io">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>fireship-io</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/fireship-io?tab=followers" target="_blank">
-      7006
+      7007
     </a>
   </td>
   <td>
@@ -2292,15 +2978,29 @@
     </a>
   </td>
   <td>
-    <b>62</b>
-    <a href="https://github.com/charmbracelet" target="_blank">Charm</a>
+    <div>
+      <b>62</b>
+      <a href="https://github.com/charmbracelet" target="_blank">Charm</a>
+      
+      <a target="_blank" href="https://twitter.com/charmcli">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://charm.sh">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>charmbracelet</span>
   </td>
   <td>/dev/tty</td>
   <td></td>
   <td>
     <a href="https://github.com/charmbracelet?tab=followers" target="_blank">
-      6999
+      7001
     </a>
   </td>
   <td>
@@ -2325,15 +3025,29 @@
     </a>
   </td>
   <td>
-    <b>63</b>
-    <a href="https://github.com/docker" target="_blank">Docker</a>
+    <div>
+      <b>63</b>
+      <a href="https://github.com/docker" target="_blank">Docker</a>
+      
+      <a target="_blank" href="https://twitter.com/docker">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://www.docker.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>docker</span>
   </td>
   <td>San Francisco, CA</td>
   <td></td>
   <td>
     <a href="https://github.com/docker?tab=followers" target="_blank">
-      6955
+      6957
     </a>
   </td>
   <td>
@@ -2358,15 +3072,23 @@
     </a>
   </td>
   <td>
-    <b>64</b>
-    <a href="https://github.com/django" target="_blank">Django</a>
+    <div>
+      <b>64</b>
+      <a href="https://github.com/django" target="_blank">Django</a>
+      
+      
+      <a target="_blank" href="https://www.djangoproject.com/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>django</span>
   </td>
   <td>Internet</td>
   <td></td>
   <td>
     <a href="https://github.com/django?tab=followers" target="_blank">
-      6911
+      6912
     </a>
   </td>
   <td>
@@ -2391,8 +3113,16 @@
     </a>
   </td>
   <td>
-    <b>65</b>
-    <a href="https://github.com/TheOdinProject" target="_blank">The Odin Project</a>
+    <div>
+      <b>65</b>
+      <a href="https://github.com/TheOdinProject" target="_blank">The Odin Project</a>
+      
+      
+      <a target="_blank" href="https://www.theodinproject.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>TheOdinProject</span>
   </td>
   <td></td>
@@ -2424,15 +3154,23 @@
     </a>
   </td>
   <td>
-    <b>66</b>
-    <a href="https://github.com/EbookFoundation" target="_blank">Free Ebook Foundation</a>
+    <div>
+      <b>66</b>
+      <a href="https://github.com/EbookFoundation" target="_blank">Free Ebook Foundation</a>
+      
+      
+      <a target="_blank" href="https://ebookfoundation.org/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>EbookFoundation</span>
   </td>
   <td>virtual</td>
   <td></td>
   <td>
     <a href="https://github.com/EbookFoundation?tab=followers" target="_blank">
-      6879
+      6880
     </a>
   </td>
   <td>
@@ -2457,15 +3195,29 @@
     </a>
   </td>
   <td>
-    <b>67</b>
-    <a href="https://github.com/tc39" target="_blank">Ecma TC39</a>
+    <div>
+      <b>67</b>
+      <a href="https://github.com/tc39" target="_blank">Ecma TC39</a>
+      
+      <a target="_blank" href="https://twitter.com/TC39">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://tc39.es">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>tc39</span>
   </td>
   <td>The web</td>
   <td></td>
   <td>
     <a href="https://github.com/tc39?tab=followers" target="_blank">
-      6759
+      6763
     </a>
   </td>
   <td>
@@ -2490,8 +3242,16 @@
     </a>
   </td>
   <td>
-    <b>68</b>
-    <a href="https://github.com/filswan" target="_blank">Swan Cloud</a>
+    <div>
+      <b>68</b>
+      <a href="https://github.com/filswan" target="_blank">Swan Cloud</a>
+      
+      
+      <a target="_blank" href="https://filswan.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>filswan</span>
   </td>
   <td></td>
@@ -2523,8 +3283,22 @@
     </a>
   </td>
   <td>
-    <b>69</b>
-    <a href="https://github.com/pmndrs" target="_blank">Poimandres</a>
+    <div>
+      <b>69</b>
+      <a href="https://github.com/pmndrs" target="_blank">Poimandres</a>
+      
+      <a target="_blank" href="https://twitter.com/pmndrs">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="pmnd.rs">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>pmndrs</span>
   </td>
   <td>https://opencollective.com/pmndrs</td>
@@ -2556,15 +3330,23 @@
     </a>
   </td>
   <td>
-    <b>70</b>
-    <a href="https://github.com/zero-to-mastery" target="_blank">Zero To Mastery</a>
+    <div>
+      <b>70</b>
+      <a href="https://github.com/zero-to-mastery" target="_blank">Zero To Mastery</a>
+      
+      
+      <a target="_blank" href="https://zerotomastery.io/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>zero-to-mastery</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/zero-to-mastery?tab=followers" target="_blank">
-      6488
+      6489
     </a>
   </td>
   <td>
@@ -2589,15 +3371,19 @@
     </a>
   </td>
   <td>
-    <b>71</b>
-    <a href="https://github.com/intel-sandbox" target="_blank">Intel-Sandbox</a>
+    <div>
+      <b>71</b>
+      <a href="https://github.com/intel-sandbox" target="_blank">Intel-Sandbox</a>
+      
+      
+    </div>
     <span>intel-sandbox</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/intel-sandbox?tab=followers" target="_blank">
-      6413
+      6416
     </a>
   </td>
   <td>
@@ -2622,8 +3408,22 @@
     </a>
   </td>
   <td>
-    <b>72</b>
-    <a href="https://github.com/codecrafters-io" target="_blank">CodeCrafters</a>
+    <div>
+      <b>72</b>
+      <a href="https://github.com/codecrafters-io" target="_blank">CodeCrafters</a>
+      
+      <a target="_blank" href="https://twitter.com/codecraftersio">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://codecrafters.io">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>codecrafters-io</span>
   </td>
   <td>United States of America</td>
@@ -2655,8 +3455,22 @@
     </a>
   </td>
   <td>
-    <b>73</b>
-    <a href="https://github.com/projectdiscovery" target="_blank">ProjectDiscovery</a>
+    <div>
+      <b>73</b>
+      <a href="https://github.com/projectdiscovery" target="_blank">ProjectDiscovery</a>
+      
+      <a target="_blank" href="https://twitter.com/pdiscoveryio">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://projectdiscovery.io">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>projectdiscovery</span>
   </td>
   <td>United States of America</td>
@@ -2688,8 +3502,22 @@
     </a>
   </td>
   <td>
-    <b>74</b>
-    <a href="https://github.com/tailwindlabs" target="_blank">Tailwind Labs</a>
+    <div>
+      <b>74</b>
+      <a href="https://github.com/tailwindlabs" target="_blank">Tailwind Labs</a>
+      
+      <a target="_blank" href="https://twitter.com/tailwindcss">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="tailwindcss.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>tailwindlabs</span>
   </td>
   <td></td>
@@ -2721,15 +3549,29 @@
     </a>
   </td>
   <td>
-    <b>75</b>
-    <a href="https://github.com/taikoxyz" target="_blank">Taiko Labs</a>
+    <div>
+      <b>75</b>
+      <a href="https://github.com/taikoxyz" target="_blank">Taiko Labs</a>
+      
+      <a target="_blank" href="https://twitter.com/taikoxyz">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://taiko.xyz">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>taikoxyz</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/taikoxyz?tab=followers" target="_blank">
-      6301
+      6302
     </a>
   </td>
   <td>
@@ -2754,15 +3596,29 @@
     </a>
   </td>
   <td>
-    <b>76</b>
-    <a href="https://github.com/laravel" target="_blank">The Laravel Framework</a>
+    <div>
+      <b>76</b>
+      <a href="https://github.com/laravel" target="_blank">The Laravel Framework</a>
+      
+      <a target="_blank" href="https://twitter.com/laravelphp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://laravel.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>laravel</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/laravel?tab=followers" target="_blank">
-      6269
+      6270
     </a>
   </td>
   <td>
@@ -2787,15 +3643,29 @@
     </a>
   </td>
   <td>
-    <b>77</b>
-    <a href="https://github.com/dair-ai" target="_blank">DAIR.AI</a>
+    <div>
+      <b>77</b>
+      <a href="https://github.com/dair-ai" target="_blank">DAIR.AI</a>
+      
+      <a target="_blank" href="https://twitter.com/dair_ai">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://dair.ai/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>dair-ai</span>
   </td>
   <td>Planet Earth</td>
   <td></td>
   <td>
     <a href="https://github.com/dair-ai?tab=followers" target="_blank">
-      6247
+      6248
     </a>
   </td>
   <td>
@@ -2820,8 +3690,16 @@
     </a>
   </td>
   <td>
-    <b>78</b>
-    <a href="https://github.com/awslabs" target="_blank">Amazon Web Services - Labs</a>
+    <div>
+      <b>78</b>
+      <a href="https://github.com/awslabs" target="_blank">Amazon Web Services - Labs</a>
+      
+      
+      <a target="_blank" href="http://amazon.com/aws/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>awslabs</span>
   </td>
   <td>Seattle, WA</td>
@@ -2853,8 +3731,12 @@
     </a>
   </td>
   <td>
-    <b>79</b>
-    <a href="https://github.com/AsahiLinux" target="_blank">Asahi Linux</a>
+    <div>
+      <b>79</b>
+      <a href="https://github.com/AsahiLinux" target="_blank">Asahi Linux</a>
+      
+      
+    </div>
     <span>AsahiLinux</span>
   </td>
   <td></td>
@@ -2886,15 +3768,23 @@
     </a>
   </td>
   <td>
-    <b>80</b>
-    <a href="https://github.com/desktop" target="_blank">GitHub Desktop</a>
+    <div>
+      <b>80</b>
+      <a href="https://github.com/desktop" target="_blank">GitHub Desktop</a>
+      
+      
+      <a target="_blank" href="https://desktop.github.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>desktop</span>
   </td>
   <td>Everywhere</td>
   <td></td>
   <td>
     <a href="https://github.com/desktop?tab=followers" target="_blank">
-      6103
+      6106
     </a>
   </td>
   <td>
@@ -2919,15 +3809,29 @@
     </a>
   </td>
   <td>
-    <b>81</b>
-    <a href="https://github.com/angular" target="_blank">Angular</a>
+    <div>
+      <b>81</b>
+      <a href="https://github.com/angular" target="_blank">Angular</a>
+      
+      <a target="_blank" href="https://twitter.com/angular">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://angular.io">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>angular</span>
   </td>
   <td>United States of America</td>
   <td></td>
   <td>
     <a href="https://github.com/angular?tab=followers" target="_blank">
-      6015
+      6017
     </a>
   </td>
   <td>
@@ -2952,15 +3856,29 @@
     </a>
   </td>
   <td>
-    <b>82</b>
-    <a href="https://github.com/bytedance" target="_blank">Bytedance Inc.</a>
+    <div>
+      <b>82</b>
+      <a href="https://github.com/bytedance" target="_blank">Bytedance Inc.</a>
+      
+      <a target="_blank" href="https://twitter.com/ByteDanceOSS">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://opensource.bytedance.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>bytedance</span>
   </td>
   <td>Singapore</td>
   <td></td>
   <td>
     <a href="https://github.com/bytedance?tab=followers" target="_blank">
-      6010
+      6014
     </a>
   </td>
   <td>
@@ -2985,15 +3903,23 @@
     </a>
   </td>
   <td>
-    <b>83</b>
-    <a href="https://github.com/godotengine" target="_blank">Godot Engine</a>
+    <div>
+      <b>83</b>
+      <a href="https://github.com/godotengine" target="_blank">Godot Engine</a>
+      
+      
+      <a target="_blank" href="https://godotengine.org">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>godotengine</span>
   </td>
   <td>Worldwide</td>
   <td></td>
   <td>
     <a href="https://github.com/godotengine?tab=followers" target="_blank">
-      5981
+      5983
     </a>
   </td>
   <td>
@@ -3018,15 +3944,29 @@
     </a>
   </td>
   <td>
-    <b>84</b>
-    <a href="https://github.com/discord" target="_blank">Discord</a>
+    <div>
+      <b>84</b>
+      <a href="https://github.com/discord" target="_blank">Discord</a>
+      
+      <a target="_blank" href="https://twitter.com/discord">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://discord.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>discord</span>
   </td>
   <td>San Francisco, CA</td>
   <td></td>
   <td>
     <a href="https://github.com/discord?tab=followers" target="_blank">
-      5957
+      5958
     </a>
   </td>
   <td>
@@ -3051,8 +3991,16 @@
     </a>
   </td>
   <td>
-    <b>85</b>
-    <a href="https://github.com/cursoemvideo" target="_blank">Curso em Vídeo</a>
+    <div>
+      <b>85</b>
+      <a href="https://github.com/cursoemvideo" target="_blank">Curso em Vídeo</a>
+      
+      
+      <a target="_blank" href="http://cursoemvideo.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>cursoemvideo</span>
   </td>
   <td>Brazil</td>
@@ -3084,15 +4032,29 @@
     </a>
   </td>
   <td>
-    <b>86</b>
-    <a href="https://github.com/uprockcom" target="_blank">UpRock</a>
+    <div>
+      <b>86</b>
+      <a href="https://github.com/uprockcom" target="_blank">UpRock</a>
+      
+      <a target="_blank" href="https://twitter.com/uprockcom">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://uprock.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>uprockcom</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/uprockcom?tab=followers" target="_blank">
-      5867
+      5873
     </a>
   </td>
   <td>
@@ -3117,8 +4079,16 @@
     </a>
   </td>
   <td>
-    <b>87</b>
-    <a href="https://github.com/Netflix" target="_blank">Netflix, Inc.</a>
+    <div>
+      <b>87</b>
+      <a href="https://github.com/Netflix" target="_blank">Netflix, Inc.</a>
+      
+      
+      <a target="_blank" href="http://netflix.github.io/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>Netflix</span>
   </td>
   <td>Los Gatos, California</td>
@@ -3150,15 +4120,23 @@
     </a>
   </td>
   <td>
-    <b>88</b>
-    <a href="https://github.com/ValveSoftware" target="_blank">Valve Software</a>
+    <div>
+      <b>88</b>
+      <a href="https://github.com/ValveSoftware" target="_blank">Valve Software</a>
+      
+      
+      <a target="_blank" href="https://www.valvesoftware.com/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>ValveSoftware</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/ValveSoftware?tab=followers" target="_blank">
-      5695
+      5696
     </a>
   </td>
   <td>
@@ -3183,15 +4161,29 @@
     </a>
   </td>
   <td>
-    <b>89</b>
-    <a href="https://github.com/Lightning-AI" target="_blank">⚡️ Lightning AI </a>
+    <div>
+      <b>89</b>
+      <a href="https://github.com/Lightning-AI" target="_blank">⚡️ Lightning AI </a>
+      
+      <a target="_blank" href="https://twitter.com/LightningAI">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://lightning.ai/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>Lightning-AI</span>
   </td>
   <td>United States of America</td>
   <td></td>
   <td>
     <a href="https://github.com/Lightning-AI?tab=followers" target="_blank">
-      5647
+      5649
     </a>
   </td>
   <td>
@@ -3216,15 +4208,29 @@
     </a>
   </td>
   <td>
-    <b>90</b>
-    <a href="https://github.com/EddieHubCommunity" target="_blank">EddieHub</a>
+    <div>
+      <b>90</b>
+      <a href="https://github.com/EddieHubCommunity" target="_blank">EddieHub</a>
+      
+      <a target="_blank" href="https://twitter.com/eddiejaoude">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="http://eddiehub.org">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>EddieHubCommunity</span>
   </td>
   <td>0.0.0.0</td>
   <td></td>
   <td>
     <a href="https://github.com/EddieHubCommunity?tab=followers" target="_blank">
-      5583
+      5585
     </a>
   </td>
   <td>
@@ -3249,15 +4255,23 @@
     </a>
   </td>
   <td>
-    <b>91</b>
-    <a href="https://github.com/FuelLabs" target="_blank">Fuel Labs</a>
+    <div>
+      <b>91</b>
+      <a href="https://github.com/FuelLabs" target="_blank">Fuel Labs</a>
+      
+      
+      <a target="_blank" href="https://fuel.network">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>FuelLabs</span>
   </td>
   <td>Ethereum</td>
   <td></td>
   <td>
     <a href="https://github.com/FuelLabs?tab=followers" target="_blank">
-      5411
+      5413
     </a>
   </td>
   <td>
@@ -3282,15 +4296,23 @@
     </a>
   </td>
   <td>
-    <b>92</b>
-    <a href="https://github.com/tsoding" target="_blank">Tsoding</a>
+    <div>
+      <b>92</b>
+      <a href="https://github.com/tsoding" target="_blank">Tsoding</a>
+      
+      
+      <a target="_blank" href="https://tsoding.github.io/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>tsoding</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/tsoding?tab=followers" target="_blank">
-      5396
+      5398
     </a>
   </td>
   <td>
@@ -3315,15 +4337,29 @@
     </a>
   </td>
   <td>
-    <b>93</b>
-    <a href="https://github.com/teaxyz" target="_blank">tea protocol</a>
+    <div>
+      <b>93</b>
+      <a href="https://github.com/teaxyz" target="_blank">tea protocol</a>
+      
+      <a target="_blank" href="https://twitter.com/teaprotocol">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://tea.xyz">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>teaxyz</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/teaxyz?tab=followers" target="_blank">
-      5301
+      5302
     </a>
   </td>
   <td>
@@ -3348,15 +4384,29 @@
     </a>
   </td>
   <td>
-    <b>94</b>
-    <a href="https://github.com/MicrosoftDocs" target="_blank">Microsoft Docs</a>
+    <div>
+      <b>94</b>
+      <a href="https://github.com/MicrosoftDocs" target="_blank">Microsoft Docs</a>
+      
+      <a target="_blank" href="https://twitter.com/docsmsft">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://docs.microsoft.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>MicrosoftDocs</span>
   </td>
   <td>Redmond, WA</td>
   <td></td>
   <td>
     <a href="https://github.com/MicrosoftDocs?tab=followers" target="_blank">
-      5300
+      5302
     </a>
   </td>
   <td>
@@ -3381,15 +4431,23 @@
     </a>
   </td>
   <td>
-    <b>95</b>
-    <a href="https://github.com/OWASP" target="_blank">OWASP</a>
+    <div>
+      <b>95</b>
+      <a href="https://github.com/OWASP" target="_blank">OWASP</a>
+      
+      
+      <a target="_blank" href="https://owasp.org">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>OWASP</span>
   </td>
   <td>United States of America</td>
   <td></td>
   <td>
     <a href="https://github.com/OWASP?tab=followers" target="_blank">
-      5299
+      5300
     </a>
   </td>
   <td>
@@ -3414,8 +4472,22 @@
     </a>
   </td>
   <td>
-    <b>96</b>
-    <a href="https://github.com/codewars" target="_blank">Codewars</a>
+    <div>
+      <b>96</b>
+      <a href="https://github.com/codewars" target="_blank">Codewars</a>
+      
+      <a target="_blank" href="https://twitter.com/codewars">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://codewars.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>codewars</span>
   </td>
   <td></td>
@@ -3447,8 +4519,22 @@
     </a>
   </td>
   <td>
-    <b>97</b>
-    <a href="https://github.com/aptos-labs" target="_blank">Aptos Labs</a>
+    <div>
+      <b>97</b>
+      <a href="https://github.com/aptos-labs" target="_blank">Aptos Labs</a>
+      
+      <a target="_blank" href="https://twitter.com/AptosLabs">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://aptoslabs.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>aptos-labs</span>
   </td>
   <td></td>
@@ -3480,8 +4566,16 @@
     </a>
   </td>
   <td>
-    <b>98</b>
-    <a href="https://github.com/shadowsocks" target="_blank">shadowsocks</a>
+    <div>
+      <b>98</b>
+      <a href="https://github.com/shadowsocks" target="_blank">shadowsocks</a>
+      
+      
+      <a target="_blank" href="https://shadowsocks.org/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>shadowsocks</span>
   </td>
   <td></td>
@@ -3513,15 +4607,23 @@
     </a>
   </td>
   <td>
-    <b>99</b>
-    <a href="https://github.com/cloudflare" target="_blank">Cloudflare</a>
+    <div>
+      <b>99</b>
+      <a href="https://github.com/cloudflare" target="_blank">Cloudflare</a>
+      
+      
+      <a target="_blank" href="https://www.cloudflare.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>cloudflare</span>
   </td>
   <td>San Francisco, London, Austin, Lisbon, Singapore</td>
   <td></td>
   <td>
     <a href="https://github.com/cloudflare?tab=followers" target="_blank">
-      5091
+      5093
     </a>
   </td>
   <td>
@@ -3546,8 +4648,22 @@
     </a>
   </td>
   <td>
-    <b>100</b>
-    <a href="https://github.com/bitwarden" target="_blank">Bitwarden</a>
+    <div>
+      <b>100</b>
+      <a href="https://github.com/bitwarden" target="_blank">Bitwarden</a>
+      
+      <a target="_blank" href="https://twitter.com/bitwarden">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://bitwarden.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>bitwarden</span>
   </td>
   <td>Earth</td>
@@ -3579,15 +4695,23 @@
     </a>
   </td>
   <td>
-    <b>101</b>
-    <a href="https://github.com/PaddlePaddle" target="_blank">PaddlePaddle</a>
+    <div>
+      <b>101</b>
+      <a href="https://github.com/PaddlePaddle" target="_blank">PaddlePaddle</a>
+      
+      
+      <a target="_blank" href="http://paddlepaddle.org">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>PaddlePaddle</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/PaddlePaddle?tab=followers" target="_blank">
-      4993
+      4994
     </a>
   </td>
   <td>
@@ -3612,15 +4736,23 @@
     </a>
   </td>
   <td>
-    <b>102</b>
-    <a href="https://github.com/MicrosoftLearning" target="_blank">Microsoft Learning</a>
+    <div>
+      <b>102</b>
+      <a href="https://github.com/MicrosoftLearning" target="_blank">Microsoft Learning</a>
+      
+      
+      <a target="_blank" href="http://www.microsoft.com/learning">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>MicrosoftLearning</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/MicrosoftLearning?tab=followers" target="_blank">
-      4987
+      4988
     </a>
   </td>
   <td>
@@ -3645,15 +4777,29 @@
     </a>
   </td>
   <td>
-    <b>103</b>
-    <a href="https://github.com/catppuccin" target="_blank">Catppuccin</a>
+    <div>
+      <b>103</b>
+      <a href="https://github.com/catppuccin" target="_blank">Catppuccin</a>
+      
+      <a target="_blank" href="https://twitter.com/catppuccintheme">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://catppuccin.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>catppuccin</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/catppuccin?tab=followers" target="_blank">
-      4979
+      4980
     </a>
   </td>
   <td>
@@ -3678,15 +4824,25 @@
     </a>
   </td>
   <td>
-    <b>104</b>
-    <a href="https://github.com/base-org" target="_blank">Base</a>
+    <div>
+      <b>104</b>
+      <a href="https://github.com/base-org" target="_blank">Base</a>
+      
+      <a target="_blank" href="https://twitter.com/base">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+    </div>
     <span>base-org</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/base-org?tab=followers" target="_blank">
-      4922
+      4924
     </a>
   </td>
   <td>
@@ -3711,8 +4867,22 @@
     </a>
   </td>
   <td>
-    <b>105</b>
-    <a href="https://github.com/AleoHQ" target="_blank">Aleo</a>
+    <div>
+      <b>105</b>
+      <a href="https://github.com/AleoHQ" target="_blank">Aleo</a>
+      
+      <a target="_blank" href="https://twitter.com/AleoHQ">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://aleo.org">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>AleoHQ</span>
   </td>
   <td></td>
@@ -3744,8 +4914,22 @@
     </a>
   </td>
   <td>
-    <b>106</b>
-    <a href="https://github.com/exercism" target="_blank">Exercism</a>
+    <div>
+      <b>106</b>
+      <a href="https://github.com/exercism" target="_blank">Exercism</a>
+      
+      <a target="_blank" href="https://twitter.com/exercism_io">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://exercism.io">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>exercism</span>
   </td>
   <td></td>
@@ -3777,8 +4961,16 @@
     </a>
   </td>
   <td>
-    <b>107</b>
-    <a href="https://github.com/digitalinnovationone" target="_blank">DIO</a>
+    <div>
+      <b>107</b>
+      <a href="https://github.com/digitalinnovationone" target="_blank">DIO</a>
+      
+      
+      <a target="_blank" href="https://dio.me/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>digitalinnovationone</span>
   </td>
   <td></td>
@@ -3810,8 +5002,22 @@
     </a>
   </td>
   <td>
-    <b>108</b>
-    <a href="https://github.com/Shopify" target="_blank">Shopify</a>
+    <div>
+      <b>108</b>
+      <a href="https://github.com/Shopify" target="_blank">Shopify</a>
+      
+      <a target="_blank" href="https://twitter.com/ShopifyEng">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://shopify.engineering/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>Shopify</span>
   </td>
   <td>The Internet</td>
@@ -3828,7 +5034,7 @@
   </td>
   <td>
     <a href="https://github.com/Shopify?tab=repositories" target="_blank">
-      1031
+      1032
     </a>
   </td>
   <td>
@@ -3843,15 +5049,23 @@
     </a>
   </td>
   <td>
-    <b>109</b>
-    <a href="https://github.com/obsidianmd" target="_blank">Obsidian.md</a>
+    <div>
+      <b>109</b>
+      <a href="https://github.com/obsidianmd" target="_blank">Obsidian.md</a>
+      
+      
+      <a target="_blank" href="obsidian.md">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>obsidianmd</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/obsidianmd?tab=followers" target="_blank">
-      4730
+      4732
     </a>
   </td>
   <td>
@@ -3876,15 +5090,29 @@
     </a>
   </td>
   <td>
-    <b>110</b>
-    <a href="https://github.com/code50" target="_blank">Visual Studio Code for CS50</a>
+    <div>
+      <b>110</b>
+      <a href="https://github.com/code50" target="_blank">Visual Studio Code for CS50</a>
+      
+      <a target="_blank" href="https://twitter.com/cs50">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://code.cs50.io/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>code50</span>
   </td>
   <td>United States of America</td>
   <td></td>
   <td>
     <a href="https://github.com/code50?tab=followers" target="_blank">
-      4728
+      4727
     </a>
   </td>
   <td>
@@ -3909,15 +5137,23 @@
     </a>
   </td>
   <td>
-    <b>111</b>
-    <a href="https://github.com/skills" target="_blank">GitHub Skills</a>
+    <div>
+      <b>111</b>
+      <a href="https://github.com/skills" target="_blank">GitHub Skills</a>
+      
+      
+      <a target="_blank" href="skills.github.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>skills</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/skills?tab=followers" target="_blank">
-      4706
+      4708
     </a>
   </td>
   <td>
@@ -3942,15 +5178,23 @@
     </a>
   </td>
   <td>
-    <b>112</b>
-    <a href="https://github.com/NVlabs" target="_blank">NVIDIA Research Projects</a>
+    <div>
+      <b>112</b>
+      <a href="https://github.com/NVlabs" target="_blank">NVIDIA Research Projects</a>
+      
+      
+      <a target="_blank" href="http://research.nvidia.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>NVlabs</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/NVlabs?tab=followers" target="_blank">
-      4704
+      4706
     </a>
   </td>
   <td>
@@ -3975,15 +5219,29 @@
     </a>
   </td>
   <td>
-    <b>113</b>
-    <a href="https://github.com/nextcloud" target="_blank">Nextcloud</a>
+    <div>
+      <b>113</b>
+      <a href="https://github.com/nextcloud" target="_blank">Nextcloud</a>
+      
+      <a target="_blank" href="https://twitter.com/nextclouders">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://nextcloud.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>nextcloud</span>
   </td>
   <td>Worldwide</td>
   <td></td>
   <td>
     <a href="https://github.com/nextcloud?tab=followers" target="_blank">
-      4689
+      4690
     </a>
   </td>
   <td>
@@ -4008,15 +5266,23 @@
     </a>
   </td>
   <td>
-    <b>114</b>
-    <a href="https://github.com/actions" target="_blank">GitHub Actions</a>
+    <div>
+      <b>114</b>
+      <a href="https://github.com/actions" target="_blank">GitHub Actions</a>
+      
+      
+      <a target="_blank" href="https://github.com/features/actions">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>actions</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/actions?tab=followers" target="_blank">
-      4661
+      4662
     </a>
   </td>
   <td>
@@ -4041,15 +5307,29 @@
     </a>
   </td>
   <td>
-    <b>115</b>
-    <a href="https://github.com/signalapp" target="_blank">Signal</a>
+    <div>
+      <b>115</b>
+      <a href="https://github.com/signalapp" target="_blank">Signal</a>
+      
+      <a target="_blank" href="https://twitter.com/signalapp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://www.signal.org">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>signalapp</span>
   </td>
   <td>Everywhere and nowhere</td>
   <td></td>
   <td>
     <a href="https://github.com/signalapp?tab=followers" target="_blank">
-      4660
+      4661
     </a>
   </td>
   <td>
@@ -4074,8 +5354,22 @@
     </a>
   </td>
   <td>
-    <b>116</b>
-    <a href="https://github.com/academind" target="_blank">Academind</a>
+    <div>
+      <b>116</b>
+      <a href="https://github.com/academind" target="_blank">Academind</a>
+      
+      <a target="_blank" href="https://twitter.com/academind_real">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://academind.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>academind</span>
   </td>
   <td>Germany</td>
@@ -4107,8 +5401,16 @@
     </a>
   </td>
   <td>
-    <b>117</b>
-    <a href="https://github.com/alura-cursos" target="_blank">Alura Cursos Online</a>
+    <div>
+      <b>117</b>
+      <a href="https://github.com/alura-cursos" target="_blank">Alura Cursos Online</a>
+      
+      
+      <a target="_blank" href="http://www.alura.com.br/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>alura-cursos</span>
   </td>
   <td></td>
@@ -4140,15 +5442,23 @@
     </a>
   </td>
   <td>
-    <b>118</b>
-    <a href="https://github.com/nasa" target="_blank">NASA</a>
+    <div>
+      <b>118</b>
+      <a href="https://github.com/nasa" target="_blank">NASA</a>
+      
+      
+      <a target="_blank" href="https://github.com/nasa/nasa.github.io/blob/master/docs/INSTRUCTIONS.md">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>nasa</span>
   </td>
   <td>United States of America</td>
   <td></td>
   <td>
     <a href="https://github.com/nasa?tab=followers" target="_blank">
-      4516
+      4518
     </a>
   </td>
   <td>
@@ -4173,15 +5483,19 @@
     </a>
   </td>
   <td>
-    <b>119</b>
-    <a href="https://github.com/intel-restricted" target="_blank">Intel-Restricted</a>
+    <div>
+      <b>119</b>
+      <a href="https://github.com/intel-restricted" target="_blank">Intel-Restricted</a>
+      
+      
+    </div>
     <span>intel-restricted</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/intel-restricted?tab=followers" target="_blank">
-      4510
+      4513
     </a>
   </td>
   <td>
@@ -4206,8 +5520,12 @@
     </a>
   </td>
   <td>
-    <b>120</b>
-    <a href="https://github.com/bluesky-social" target="_blank">bluesky-social</a>
+    <div>
+      <b>120</b>
+      <a href="https://github.com/bluesky-social" target="_blank">bluesky-social</a>
+      
+      
+    </div>
     <span>bluesky-social</span>
   </td>
   <td></td>
@@ -4239,15 +5557,23 @@
     </a>
   </td>
   <td>
-    <b>121</b>
-    <a href="https://github.com/Azure-Samples" target="_blank">Azure Samples</a>
+    <div>
+      <b>121</b>
+      <a href="https://github.com/Azure-Samples" target="_blank">Azure Samples</a>
+      
+      
+      <a target="_blank" href="https://azure.microsoft.com/documentation/samples/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>Azure-Samples</span>
   </td>
   <td>Redmond, WA</td>
   <td></td>
   <td>
     <a href="https://github.com/Azure-Samples?tab=followers" target="_blank">
-      4337
+      4338
     </a>
   </td>
   <td>
@@ -4257,7 +5583,7 @@
   </td>
   <td>
     <a href="https://github.com/Azure-Samples?tab=repositories" target="_blank">
-      2512
+      2513
     </a>
   </td>
   <td>
@@ -4272,15 +5598,29 @@
     </a>
   </td>
   <td>
-    <b>122</b>
-    <a href="https://github.com/TanStack" target="_blank">TanStack</a>
+    <div>
+      <b>122</b>
+      <a href="https://github.com/TanStack" target="_blank">TanStack</a>
+      
+      <a target="_blank" href="https://twitter.com/tan_stack">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://TanStack.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>TanStack</span>
   </td>
   <td>Salt Lake City, Utah, USA</td>
   <td></td>
   <td>
     <a href="https://github.com/TanStack?tab=followers" target="_blank">
-      4262
+      4264
     </a>
   </td>
   <td>
@@ -4305,15 +5645,29 @@
     </a>
   </td>
   <td>
-    <b>123</b>
-    <a href="https://github.com/Uniswap" target="_blank">Uniswap Labs</a>
+    <div>
+      <b>123</b>
+      <a href="https://github.com/Uniswap" target="_blank">Uniswap Labs</a>
+      
+      <a target="_blank" href="https://twitter.com/Uniswap">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://uniswap.org">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>Uniswap</span>
   </td>
   <td>Ethereum</td>
   <td></td>
   <td>
     <a href="https://github.com/Uniswap?tab=followers" target="_blank">
-      4259
+      4260
     </a>
   </td>
   <td>
@@ -4338,15 +5692,23 @@
     </a>
   </td>
   <td>
-    <b>124</b>
-    <a href="https://github.com/reactjs" target="_blank">React Community</a>
+    <div>
+      <b>124</b>
+      <a href="https://github.com/reactjs" target="_blank">React Community</a>
+      
+      
+      <a target="_blank" href="https://reactjs.org">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>reactjs</span>
   </td>
   <td>Everywhere</td>
   <td></td>
   <td>
     <a href="https://github.com/reactjs?tab=followers" target="_blank">
-      4229
+      4230
     </a>
   </td>
   <td>
@@ -4371,15 +5733,23 @@
     </a>
   </td>
   <td>
-    <b>125</b>
-    <a href="https://github.com/blender" target="_blank">Blender</a>
+    <div>
+      <b>125</b>
+      <a href="https://github.com/blender" target="_blank">Blender</a>
+      
+      
+      <a target="_blank" href="https://www.blender.org">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>blender</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/blender?tab=followers" target="_blank">
-      4220
+      4221
     </a>
   </td>
   <td>
@@ -4404,15 +5774,19 @@
     </a>
   </td>
   <td>
-    <b>126</b>
-    <a href="https://github.com/bitcoin" target="_blank">Bitcoin</a>
+    <div>
+      <b>126</b>
+      <a href="https://github.com/bitcoin" target="_blank">Bitcoin</a>
+      
+      
+    </div>
     <span>bitcoin</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/bitcoin?tab=followers" target="_blank">
-      4208
+      4210
     </a>
   </td>
   <td>
@@ -4437,8 +5811,16 @@
     </a>
   </td>
   <td>
-    <b>127</b>
-    <a href="https://github.com/netlify" target="_blank">Netlify</a>
+    <div>
+      <b>127</b>
+      <a href="https://github.com/netlify" target="_blank">Netlify</a>
+      
+      
+      <a target="_blank" href="https://www.netlify.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>netlify</span>
   </td>
   <td>San Francisco</td>
@@ -4470,8 +5852,22 @@
     </a>
   </td>
   <td>
-    <b>128</b>
-    <a href="https://github.com/codepen" target="_blank">CodePen</a>
+    <div>
+      <b>128</b>
+      <a href="https://github.com/codepen" target="_blank">CodePen</a>
+      
+      <a target="_blank" href="https://twitter.com/codepen">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://codepen.io">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>codepen</span>
   </td>
   <td>West Coast, East Coast and Sunshine Coast</td>
@@ -4503,15 +5899,23 @@
     </a>
   </td>
   <td>
-    <b>129</b>
-    <a href="https://github.com/pandas-dev" target="_blank">pandas</a>
+    <div>
+      <b>129</b>
+      <a href="https://github.com/pandas-dev" target="_blank">pandas</a>
+      
+      
+      <a target="_blank" href="http://pandas.pydata.org">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>pandas-dev</span>
   </td>
   <td></td>
   <td></td>
   <td>
     <a href="https://github.com/pandas-dev?tab=followers" target="_blank">
-      4180
+      4181
     </a>
   </td>
   <td>
@@ -4536,8 +5940,22 @@
     </a>
   </td>
   <td>
-    <b>130</b>
-    <a href="https://github.com/frontendbr" target="_blank">Front-end Brasil</a>
+    <div>
+      <b>130</b>
+      <a href="https://github.com/frontendbr" target="_blank">Front-end Brasil</a>
+      
+      <a target="_blank" href="https://twitter.com/frontendbr">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://frontendbr.com.br">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>frontendbr</span>
   </td>
   <td>Brazil</td>
@@ -4569,15 +5987,29 @@
     </a>
   </td>
   <td>
-    <b>131</b>
-    <a href="https://github.com/ultralytics" target="_blank">Ultralytics</a>
+    <div>
+      <b>131</b>
+      <a href="https://github.com/ultralytics" target="_blank">Ultralytics</a>
+      
+      <a target="_blank" href="https://twitter.com/ultralytics">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://ultralytics.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>ultralytics</span>
   </td>
   <td>United States of America</td>
   <td></td>
   <td>
     <a href="https://github.com/ultralytics?tab=followers" target="_blank">
-      4127
+      4128
     </a>
   </td>
   <td>
@@ -4602,8 +6034,22 @@
     </a>
   </td>
   <td>
-    <b>132</b>
-    <a href="https://github.com/IBM" target="_blank">International Business Machines</a>
+    <div>
+      <b>132</b>
+      <a href="https://github.com/IBM" target="_blank">International Business Machines</a>
+      
+      <a target="_blank" href="https://twitter.com/ibmdeveloper">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 16 16">
+          <path fill="currentColor" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07l-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      
+      
+      <a target="_blank" href="https://www.ibm.com/opensource/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 20 20"><path fill="currentColor" d="M10 20a10 10 0 1 1 0-20a10 10 0 0 1 0 20m7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14m-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4m.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4m.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6M3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6"/></svg>
+      </a>
+      
+    </div>
     <span>IBM</span>
   </td>
   <td>Armonk, New York, U.S.</td>
@@ -4620,7 +6066,7 @@
   </td>
   <td>
     <a href="https://github.com/IBM?tab=repositories" target="_blank">
-      3173
+      3174
     </a>
   </td>
   <td>
