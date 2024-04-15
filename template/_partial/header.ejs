@@ -157,6 +157,24 @@
       text-align: center;
       font-weight: bold;
     }
+    .userlist tbody tr td svg {
+      display: inline-flex;
+      top: 1px;
+      position: relative;
+      color: var(--color-accent-emphasis);
+    }
+    .userlist tbody tr td svg:hover {
+      color:  var(--color-accent-emphasis);
+      animation: blink 0.5s infinite;
+    }
+    @keyframes blink {
+      0% { opacity: 1; }
+      25% { opacity: 0; }
+      50% { opacity: 1; }
+      75% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
     @media only screen and (max-width: 768px) {
       .userlist table :is(td:nth-child(3), td:nth-child(4), th:nth-child(3), th:nth-child(4)) {
         display: none;
