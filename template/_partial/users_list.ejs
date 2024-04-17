@@ -1,11 +1,3 @@
-<header>
-<style>
-.td-unknow{
-  color:#999;
-}
-</style>
-</header>
-<tr>
 <tr title="<%=user.bio%>">
   <td>
     <a href="<%=user.html_url%>" target="_blank">
@@ -31,18 +23,23 @@
     </div>
     <span><%=user.login%></span>
   </td>
+
   <% if(user.location) { %>
   <td><%=user.location%></td>
   <% } %>
+
   <% if(!user.location) { %>
-  <td class="td-unknow">未知</td>
+  <td class="td-unknow">unknow</td>
   <% } %>
-    <% if(user.company) { %>
+
+  <% if(user.company) { %>
   <td><%=user.company%></td>
   <% } %>
+  
   <% if(!user.company) { %>
-  <td class="td-unknow">未知</td>
+  <td class="td-unknow">unknow</td>
   <% } %>
+  
   <td>
     <a href="<%=user.html_url%>?tab=followers" target="_blank">
       <%=user.followers/1000%>k
