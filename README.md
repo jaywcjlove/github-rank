@@ -100,10 +100,10 @@ $ npm run build # Compilation output script
 Crawlers get data
 
 ```bash
-$ npm npm run get:trending    # Get trending data
-$ npm npm run get:repos       # Get repos data
-$ npm npm run get:users       # Get users data
-$ npm npm run get:users:china # Get users(china) data
+$ npm run get:trending    # Get trending data
+$ npm run get:repos       # Get repos data
+$ npm run get:users       # Get users data
+$ npm run get:users:china # Get users(china) data
 ```
 
 Generate HTML page
