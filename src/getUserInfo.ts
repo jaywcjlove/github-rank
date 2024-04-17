@@ -3,7 +3,7 @@ import path from 'path';
 import { type UsersData } from './common/props.js';
 import { updateUsersData } from './utils/saveUsersData.js';
 
-;(async () => {
+; (async () => {
   try {
     // 获取【全球】用户数据排行榜
     const users: UsersData[] = await updateUsersData('./dist/users.json', './.cache/users.json', '');

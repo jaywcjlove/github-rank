@@ -29,7 +29,22 @@ Now it can be updated automatically every day, using [GitHub Actions Workflows](
 
 Update date: <!--GAMFC-->2024-04-17 17:59:31<!--GAMFC-END-->
 
-## Usage
+## 克隆项目
+
+```bash
+git clone https://github.com/372798735/github-rank-fork.git
+```
+```bash
+cd github-rank-fork
+
+npm install
+```
+run
+```bash
+npm run start
+```
+
+## Plug-in Usage
 
 ```bash
 npm install @wcj/github-rank --save-dev
