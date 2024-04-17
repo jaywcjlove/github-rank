@@ -29,29 +29,6 @@ Now it can be updated automatically every day, using [GitHub Actions Workflows](
 
 Update date: <!--GAMFC-->2024-04-17 20:44:29<!--GAMFC-END-->
 
-## Development
-
-```bash
-$ git clone https://github.com/jaywcjlove/github-rank.git
-$ cd github-rank
-$ npm install # Install dependencies
-```
-
-Get data
-
-```bash
-$ npm npm run get:trending    # Get trending data
-$ npm npm run get:repos       # Get repos data
-$ npm npm run get:users       # Get users data
-$ npm npm run get:users:china # Get users(china) data
-```
-
-Generate HTML page
-
-```bash
-$ npm run start
-```
-
 ## Plug-in Usage
 
 ```bash
@@ -111,17 +88,28 @@ import users from '@wcj/github-rank';
 ]
 ```
 
-## Crawlers get data
+## Development
 
 ```bash
-# Get Github (China/Global) user rankings (Top 900)
-npm run get
+$ git clone https://github.com/jaywcjlove/github-rank.git
+$ cd github-rank
+$ npm install   # Install dependencies
+$ npm run build # Compilation output script
+```
 
-# Github user acquisition fails in the middle, and then the remaining user information is acquired
-npm run get:users:info
+Crawlers get data
 
-# Get Github trend list, Github repository ranking (Top 500) data
-npm run get:o
+```bash
+$ npm npm run get:trending    # Get trending data
+$ npm npm run get:repos       # Get repos data
+$ npm npm run get:users       # Get users data
+$ npm npm run get:users:china # Get users(china) data
+```
+
+Generate HTML page
+
+```bash
+$ npm run start
 ```
 
 ## Contributors
