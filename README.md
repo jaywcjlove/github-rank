@@ -29,19 +29,27 @@ Now it can be updated automatically every day, using [GitHub Actions Workflows](
 
 Update date: <!--GAMFC-->2024-04-17 20:44:29<!--GAMFC-END-->
 
-## 克隆项目
+## Development
 
 ```bash
-git clone https://github.com/372798735/github-rank-fork.git
+$ git clone https://github.com/jaywcjlove/github-rank.git
+$ cd github-rank
+$ npm install # Install dependencies
 ```
-```bash
-cd github-rank-fork
 
-npm install
-```
-run
+Get data
+
 ```bash
-npm run start
+$ npm npm run get:trending    # Get trending data
+$ npm npm run get:repos       # Get repos data
+$ npm npm run get:users       # Get users data
+$ npm npm run get:users:china # Get users(china) data
+```
+
+Generate HTML page
+
+```bash
+$ npm run start
 ```
 
 ## Plug-in Usage
