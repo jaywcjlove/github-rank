@@ -114,7 +114,7 @@ export function getTrendingData(type: string = 'daily') {
       const enc = new TextDecoder("utf-8");
       const html = enc.decode(buf);
       const $ = cheerio.load(html)
-      $('.Box-row').each(function(idx, item) {
+      $('.Box-row').each(function (idx, item) {
         // 不需要头像，避免被和谐
         const fullName = $(item).find('h2 a').text().replace(/(\n|\s)/g, '');
         const href = $(item).find('h2 a').attr('href')?.replace(/(\n|\s)/g, '');

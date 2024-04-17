@@ -115,14 +115,17 @@
   <% } %>
   <% if (tabCls === 'users') { %>
   <style>
+    .td-unknow{
+      color:#999;
+    }
     .list li.death > div { opacity: 1; filter: grayscale(100%); }
     .userlist {
       font-size: 14px;
       padding: 10px 20px 5px 20px;
     }
     .userlist .select {
-      padding-left: 10px;
-      padding-bottom: 12px;
+      padding-left: 6px;
+      padding-bottom: 5px;
       display: block;
     }
     .userlist .select .active { color: var(--color-theme-text); font-weight: bold; border-bottom: 1px dotted var(--color-border);}
@@ -143,7 +146,7 @@
     .userlist tbody tr td img {
       display: block;
       background-color: var(--color-neutral-muted);
-      border-radius: 4px;
+      border-radius: 6px;
     }
     .userlist tbody tr td {
       padding: 5px;
@@ -157,6 +160,24 @@
       text-align: center;
       font-weight: bold;
     }
+    .userlist tbody tr td svg {
+      display: inline-flex;
+      top: 1px;
+      position: relative;
+      color: var(--color-accent-emphasis);
+    }
+    .userlist tbody tr td svg:hover {
+      color:  var(--color-accent-emphasis);
+      animation: blink 0.5s infinite;
+    }
+    @keyframes blink {
+      0% { opacity: 1; }
+      25% { opacity: 0; }
+      50% { opacity: 1; }
+      75% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
     @media only screen and (max-width: 768px) {
       .userlist table :is(td:nth-child(3), td:nth-child(4), th:nth-child(3), th:nth-child(4)) {
         display: none;

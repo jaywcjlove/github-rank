@@ -29,7 +29,7 @@ Github 全球/中国用户排名，全球仓库 Star 最多排名，通过 Githu
 
 更新时间：<!--GAMFC-->2022-11-05 09:15:32<!--GAMFC-END-->
 
-## 使用
+## 插件使用
 
 ```bash
 npm install @wcj/github-rank --save-dev
@@ -88,17 +88,28 @@ import users from '@wcj/github-rank';
 ]
 ```
 
-## 获取数据
+## 开发
 
 ```bash
-# 获取 Github (中国/全球)用户排行榜(Top 500)
-npm run get
+$ git clone https://github.com/jaywcjlove/github-rank.git
+$ cd github-rank
+$ npm install   # 安装依赖
+$ npm run build # 编译输出脚本
+```
 
-# Github 用户获取中途失败，接着获取剩余用户信息
-npm run get:users:info
+获取数据
 
-# 获取 Github 趋势榜，Github 仓库排行(Top 500), sifou，toutiao 的数据
-npm run get:o
+```bash
+$ npm npm run get:trending    # 获取 trending 数据
+$ npm npm run get:repos       # 获取 repos 数据
+$ npm npm run get:users       # 获取 users 数据
+$ npm npm run get:users:china # 获取 users(china) 数据
+```
+
+生成 HTML 页面
+
+```bash
+$ npm run start
 ```
 
 ## 感谢所有贡献者
