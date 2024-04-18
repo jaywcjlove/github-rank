@@ -27,7 +27,7 @@ Released on [`npm`](https://www.npmjs.com/package/@wcj/github-rank) from `April 
 
 Now it can be updated automatically every day, using [GitHub Actions Workflows](https://github.com/actions/starter-workflows) to trigger the GitHub workflow every day at 00:00 (8:00 am Beijing time) through the timer, automatically crawl the data, submit the generated web page to the gh-pages branch, and Automatically publish [npm](https://www.npmjs.com/package/@wcj/github-rank) version, really fragrant! !
 
-Update date: <!--GAMFC-->2024-04-13 05:57:42<!--GAMFC-END-->
+Update date: <!--GAMFC-->2024-04-18 05:58:49<!--GAMFC-END-->
 
 ## 克隆项目
 
@@ -43,7 +43,6 @@ run
 ```bash
 npm run start
 ```
-
 ## Plug-in Usage
 
 ```bash
@@ -103,17 +102,28 @@ import users from '@wcj/github-rank';
 ]
 ```
 
-## Crawlers get data
+## Development
 
 ```bash
-# Get Github (China/Global) user rankings (Top 900)
-npm run get
+$ git clone https://github.com/jaywcjlove/github-rank.git
+$ cd github-rank
+$ npm install   # Install dependencies
+$ npm run build # Compilation output script
+```
 
-# Github user acquisition fails in the middle, and then the remaining user information is acquired
-npm run get:users:info
+Crawlers get data
 
-# Get Github trend list, Github repository ranking (Top 500) data
-npm run get:o
+```bash
+$ npm run get:trending    # Get trending data
+$ npm run get:repos       # Get repos data
+$ npm run get:users       # Get users data
+$ npm run get:users:china # Get users(china) data
+```
+
+Generate HTML page
+
+```bash
+$ npm run start
 ```
 
 ## Contributors
@@ -123,9 +133,11 @@ As always, thanks to our amazing contributors!
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT--><a href="https://github.com/jaywcjlove" title="小弟调调"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="42;" alt="小弟调调"/></a>
 <a href="https://github.com/renovate-bot" title="Mend Renovate"><img src="https://avatars.githubusercontent.com/u/25180681?v=4" width="42;" alt="Mend Renovate"/></a>
 <a href="https://github.com/leon-kfd" title="Leon-kfd"><img src="https://avatars.githubusercontent.com/u/30256102?v=4" width="42;" alt="Leon-kfd"/></a>
+<a href="https://github.com/372798735" title="mindsets"><img src="https://avatars.githubusercontent.com/u/52733319?v=4" width="42;" alt="mindsets"/></a>
 <a href="https://github.com/antfu" title="Anthony Fu"><img src="https://avatars.githubusercontent.com/u/11247099?v=4" width="42;" alt="Anthony Fu"/></a>
 <a href="https://github.com/FeeiCN" title="Feei"><img src="https://avatars.githubusercontent.com/u/1611552?v=4" width="42;" alt="Feei"/></a>
-<a href="https://github.com/zhenyong" title="ZY"><img src="https://avatars.githubusercontent.com/u/4012276?v=4" width="42;" alt="ZY"/></a><!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
+<a href="https://github.com/zhenyong" title="ZY"><img src="https://avatars.githubusercontent.com/u/4012276?v=4" width="42;" alt="ZY"/></a>
+<a href="https://github.com/rr210" title="Ryan Co"><img src="https://avatars.githubusercontent.com/u/66169324?v=4" width="42;" alt="Ryan Co"/></a><!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
 Made with [contributors](https://github.com/jaywcjlove/github-action-contributors), automatically generated.
 

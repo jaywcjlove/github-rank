@@ -28,7 +28,6 @@ Github 全球/中国用户排名，全球仓库 Star 最多排名，通过 Githu
 现在每天可以自动更新了，利用 [GitHub Actions Workflows](https://github.com/actions/starter-workflows) 通过定时器，每天 `00:00` (北京时间早上8:00) 触发 GitHub 的工作流，自动爬数据，将生成的 web 页面提交到 `gh-pages` 分支，并且自动发布 [npm](https://www.npmjs.com/package/@wcj/github-rank) 版本，真香！！
 
 更新时间：<!--GAMFC-->2022-11-05 09:15:32<!--GAMFC-END-->
-
 ## 克隆项目
 
 ```bash
@@ -43,7 +42,6 @@ run
 ```bash
 npm run start
 ```
-
 
 ## 插件使用
 
@@ -104,17 +102,28 @@ import users from '@wcj/github-rank';
 ]
 ```
 
-## 获取数据
+## 开发
 
 ```bash
-# 获取 Github (中国/全球)用户排行榜(Top 500)
-npm run get
+$ git clone https://github.com/jaywcjlove/github-rank.git
+$ cd github-rank
+$ npm install   # 安装依赖
+$ npm run build # 编译输出脚本
+```
 
-# Github 用户获取中途失败，接着获取剩余用户信息
-npm run get:users:info
+获取数据
 
-# 获取 Github 趋势榜，Github 仓库排行(Top 500), sifou，toutiao 的数据
-npm run get:o
+```bash
+$ npm run get:trending    # 获取 trending 数据
+$ npm run get:repos       # 获取 repos 数据
+$ npm run get:users       # 获取 users 数据
+$ npm run get:users:china # 获取 users(china) 数据
+```
+
+生成 HTML 页面
+
+```bash
+$ npm run start
 ```
 
 ## 感谢所有贡献者
