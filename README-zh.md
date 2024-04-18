@@ -100,10 +100,10 @@ $ npm run build # 编译输出脚本
 获取数据
 
 ```bash
-$ npm npm run get:trending    # 获取 trending 数据
-$ npm npm run get:repos       # 获取 repos 数据
-$ npm npm run get:users       # 获取 users 数据
-$ npm npm run get:users:china # 获取 users(china) 数据
+$ npm run get:trending    # 获取 trending 数据
+$ npm run get:repos       # 获取 repos 数据
+$ npm run get:users       # 获取 users 数据
+$ npm run get:users:china # 获取 users(china) 数据
 ```
 
 生成 HTML 页面
