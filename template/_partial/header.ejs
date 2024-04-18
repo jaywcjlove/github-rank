@@ -89,6 +89,7 @@
   </style>
   <% if (/(repos|trending)/.test(tabCls)) { %>
   <style>
+    .list li span.language,
     .list li a.language,
     .list li span.star { height: 18px; background: var(--color-neutral-muted); display: inline-block; padding: 2px 4px; border-radius: 3px; }
   </style>
@@ -238,3 +239,4 @@
     <a class="<%= tabCls === 'repos' ? 'active': '' %>" href="repos.html">Repos</a>
     <a class="<%= tabCls === 'trending' ? 'active': '' %>" href="trending.html">Trending</a>
   </div>
+  <%- include('./form_filtering', { tabCls: tabCls }); %>

@@ -1,0 +1,90 @@
+<header>
+  <style>
+    .form_filtering {
+      padding: 5px 20px 2px 20px;
+      color: #adadad;
+      font-size: 12px;
+    }
+    .form_filtering .form {
+      display: flex;
+      align-items: center;
+    }
+    .form_filtering .form form-item:not(:first-child) {
+      margin-left: 12px;
+    }
+    .form_filtering .form input[type="submit"] {
+      margin-left: 5px;
+      cursor: pointer;
+    }
+    .hidden {
+      display: none !important;
+    }
+    .show {
+      display: block !important;
+    }
+    .show-table {
+      display: table !important;
+    }
+  </style>
+  <script>
+    function validateForm(event) {
+      event.preventDefault(); // 阻止默认的表单提交行为
+
+      /** Users 的搜索*/
+      const name = document.forms["myForm"]["githubName"]?.value.toLowerCase();
+      const trDoms = document.querySelectorAll(".tr-item");
+      trDoms?.forEach(function (element) {
+        if (
+          element
+            .querySelector(".github-name")
+            .textContent.trim()
+            .toLowerCase()
+            .indexOf(name) === -1
+        ) {
+          element.classList.add("hidden"); // 添加隐藏样式
+        } else {
+          element.classList.remove("hidden");
+        }
+      });
+
+      /** Repos、Trending 的搜索*/
+      const language =
+        document.forms["myForm"]["language"]?.value.toLowerCase();
+      const liDoms = document.querySelectorAll(".info");
+      liDoms?.forEach(function (element) {
+        if (
+          element
+            .querySelector(".language")
+            .textContent.trim()
+            .toLowerCase()
+            .indexOf(language) === -1
+        ) {
+          element.parentNode.classList.add("hidden");
+        } else {
+          element.parentNode.classList.remove("hidden");
+        }
+      });
+    }
+  </script>
+</header>
+<div class="form_filtering">
+  <form
+    name="myForm"
+    class="form"
+    onsubmit="return validateForm(event)"
+    method="post"
+  >
+    <% if(tabCls !== 'users') {%>
+    <div class="form-item">
+      <label for="language">language：</label>
+      <input type="text" id="language" name="language" />
+    </div>
+    <% } %> <% if(tabCls === 'users') {%>
+    <div class="form-item">
+      <label for="githubName">name：</label>
+      <input type="text" id="githubName" name="githubName" />
+    </div>
+    <% } %>
+    <input type="submit" value="查询" />
+  </form>
+</div>
