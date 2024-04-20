@@ -16,6 +16,9 @@
       margin-left: 5px;
       cursor: pointer;
     }
+    .form_filtering .reset-button {
+      margin-left: 5px;
+    }
     .hidden {
       display: none !important;
     }
@@ -27,8 +30,9 @@
     }
   </style>
   <script>
+    /** 查询功能 */
     function validateForm(event) {
-      event.preventDefault(); // 阻止默认的表单提交行为
+      event?.preventDefault(); // 阻止默认的表单提交行为
 
       /** Users 的搜索*/
       const name = document.forms["myForm"]["githubName"]?.value.toLowerCase();
@@ -65,6 +69,14 @@
         }
       });
     }
+
+    function resetForm() {
+      // 获取表单元素
+      var form = document.forms["myForm"];
+      // 重置表单
+      form.reset();
+      validateForm();
+    }
   </script>
 </header>
 <div class="form_filtering">
@@ -85,6 +97,12 @@
       <input type="text" id="githubName" name="githubName" />
     </div>
     <% } %>
-    <input type="submit" value="查询" />
+    <input type="submit" value="Search" />
+    <input
+      type="reset"
+      value="Reset"
+      class="reset-button"
+      onclick="resetForm()"
+    />
   </form>
 </div>

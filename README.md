@@ -29,25 +29,6 @@ Now it can be updated automatically every day, using [GitHub Actions Workflows](
 
 Update date: <!--GAMFC-->2024-04-18 05:58:49<!--GAMFC-END-->
 
-## 克隆项目
-
-```bash
-git clone https://github.com/372798735/github-rank-fork.git
-```
-```bash
-cd github-rank-fork
-
-npm install
-```
-run
-```bash
-npm run start
-```
-## Plug-in Usage
-
-```bash
-npm install @wcj/github-rank --save-dev
-```
 
 Users can obtain ranking data by importing data, or directly access the [user leaderboard](https://unpkg.com/@wcj/github-rank/web/index.html) through [UNPKG](https://unpkg.com/@wcj/github-rank/dist/users.json).
 
