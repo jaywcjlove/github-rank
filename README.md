@@ -29,11 +29,6 @@ Now it can be updated automatically every day, using [GitHub Actions Workflows](
 
 Update date: <!--GAMFC-->2024-06-28 17:58:32<!--GAMFC-END-->
 
-## Plug-in Usage
-
-```bash
-npm install @wcj/github-rank --save-dev
-```
 
 Users can obtain ranking data by importing data, or directly access the [user leaderboard](https://unpkg.com/@wcj/github-rank/web/index.html) through [UNPKG](https://unpkg.com/@wcj/github-rank/dist/users.json).
 
