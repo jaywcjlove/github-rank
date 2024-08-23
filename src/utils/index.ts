@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 import dotenv from 'dotenv';
-import cheerio from 'cheerio';
+import { load } from 'cheerio';
 import url from 'url';
 import { request } from "@octokit/request";
 import formatter from '@uiw/formatter';
@@ -113,7 +113,7 @@ export function getTrendingData(type: string = 'daily') {
       const resultData: ITrendingData[] = [];
       const enc = new TextDecoder("utf-8");
       const html = enc.decode(buf);
-      const $ = cheerio.load(html)
+      const $ = load(html)
       $('.Box-row').each(function (idx, item) {
         // 不需要头像，避免被和谐
         const fullName = $(item).find('h2 a').text().replace(/(\n|\s)/g, '');
@@ -177,7 +177,7 @@ export function getUserStar(username: string): Promise<string> {
     .then((buf) => {
       const enc = new TextDecoder('utf-8');
       const html = enc.decode(buf);
-      const $ = cheerio.load(html);
+      const $ = load(html);
       let star = '';
       $('svg svg text.stat').each((idx, item) => {
         const testid = $(item).data('testid');
