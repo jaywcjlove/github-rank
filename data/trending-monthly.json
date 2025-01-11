@@ -4,8 +4,8 @@
     "language": "Python",
     "color": "#3572A5",
     "description": "Collection of awesome LLM apps with RAG using OpenAI, Anthropic, Gemini and opensource models.",
-    "forked": "1264",
-    "stargazers_count": 11720,
+    "forked": "1274",
+    "stargazers_count": 11818,
     "todayStar": "7150 stars this month",
     "html_url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
     "rank": 1
@@ -15,8 +15,8 @@
     "language": "TypeScript",
     "color": "#3178c6",
     "description": "Autonomous agents for everyone",
-    "forked": "2947",
-    "stargazers_count": 10943,
+    "forked": "2977",
+    "stargazers_count": 11017,
     "todayStar": "7336 stars this month",
     "html_url": "https://github.com/elizaOS/eliza",
     "rank": 2
@@ -27,20 +27,20 @@
     "color": "#DA5B0B",
     "description": "Examples and guides for using the Gemini API",
     "forked": "1187",
-    "stargazers_count": 10216,
+    "stargazers_count": 10228,
     "todayStar": "4788 stars this month",
     "html_url": "https://github.com/google-gemini/cookbook",
     "rank": 3
   },
   {
-    "full_name": "tursodatabase/limbo",
-    "language": "Rust",
-    "color": "#dea584",
-    "description": "Limbo is a work-in-progress, in-process OLTP database management system, compatible with SQLite.",
-    "forked": "279",
-    "stargazers_count": 8472,
-    "todayStar": "7464 stars this month",
-    "html_url": "https://github.com/tursodatabase/limbo",
+    "full_name": "stanford-oval/storm",
+    "language": "Python",
+    "color": "#3572A5",
+    "description": "An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations.",
+    "forked": "1706",
+    "stargazers_count": 19506,
+    "todayStar": "5922 stars this month",
+    "html_url": "https://github.com/stanford-oval/storm",
     "rank": 4
   },
   {
@@ -48,44 +48,33 @@
     "language": "Python",
     "color": "#3572A5",
     "description": "PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/Docker",
-    "forked": "1089",
-    "stargazers_count": 14647,
+    "forked": "1096",
+    "stargazers_count": 14713,
     "todayStar": "10638 stars this month",
     "html_url": "https://github.com/Byaidu/PDFMathTranslate",
     "rank": 5
-  },
-  {
-    "full_name": "stanford-oval/storm",
-    "language": "Python",
-    "color": "#3572A5",
-    "description": "An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations.",
-    "forked": "1700",
-    "stargazers_count": 19457,
-    "todayStar": "5922 stars this month",
-    "html_url": "https://github.com/stanford-oval/storm",
-    "rank": 6
   },
   {
     "full_name": "cline/cline",
     "language": "TypeScript",
     "color": "#3178c6",
     "description": "Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.",
-    "forked": "1814",
-    "stargazers_count": 21279,
+    "forked": "1824",
+    "stargazers_count": 21419,
     "todayStar": "7129 stars this month",
     "html_url": "https://github.com/cline/cline",
-    "rank": 7
+    "rank": 6
   },
   {
     "full_name": "khoj-ai/khoj",
     "language": "Python",
     "color": "#3572A5",
     "description": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.",
-    "forked": "1270",
-    "stargazers_count": 23981,
+    "forked": "1281",
+    "stargazers_count": 24080,
     "todayStar": "6919 stars this month",
     "html_url": "https://github.com/khoj-ai/khoj",
-    "rank": 8
+    "rank": 7
   },
   {
     "full_name": "OpenSPG/KAG",
@@ -93,9 +82,20 @@
     "color": "#3572A5",
     "description": "KAG is a logical form-guided reasoning and retrieval framework based on OpenSPG engine and LLMs. It is used to build logical reasoning and factual Q&A solutions for professional domain knowledge bases. It can effectively overcome the shortcomings of the traditional RAG vector similarity calculation model.",
     "forked": "230",
-    "stargazers_count": 3826,
+    "stargazers_count": 3866,
     "todayStar": "3019 stars this month",
     "html_url": "https://github.com/OpenSPG/KAG",
+    "rank": 8
+  },
+  {
+    "full_name": "tursodatabase/limbo",
+    "language": "Rust",
+    "color": "#dea584",
+    "description": "Limbo is a work-in-progress, in-process OLTP database management system, compatible with SQLite.",
+    "forked": "281",
+    "stargazers_count": 8495,
+    "todayStar": "7464 stars this month",
+    "html_url": "https://github.com/tursodatabase/limbo",
     "rank": 9
   },
   {
@@ -103,8 +103,8 @@
     "language": "Svelte",
     "color": "#ff3e00",
     "description": "best way to save what you love",
-    "forked": "2062",
-    "stargazers_count": 25633,
+    "forked": "2064",
+    "stargazers_count": 25705,
     "todayStar": "6605 stars this month",
     "html_url": "https://github.com/imputnet/cobalt",
     "rank": 10
@@ -115,7 +115,7 @@
     "color": "#3572A5",
     "description": "CISO Assistant is a one-stop-shop for GRC, covering Risk, AppSec and Audit Management and supporting +70 frameworks worldwide with auto-mapping: NIST CSF, ISO 27001, SOC2, CIS, PCI DSS, NIS2, CMMC, PSPF, GDPR, HIPAA, Essential Eight, NYDFS-500, DORA, NIST AI RMF, 800-53, 800-171, CyFun, CJIS, AirCyber, NCSC, ECC, SCF and so much more",
     "forked": "268",
-    "stargazers_count": 2321,
+    "stargazers_count": 2332,
     "todayStar": "1129 stars this month",
     "html_url": "https://github.com/intuitem/ciso-assistant-community",
     "rank": 11
@@ -125,8 +125,8 @@
     "language": "Python",
     "color": "#3572A5",
     "description": "Python APIs for web automation, testing, and bypassing bot-detection.",
-    "forked": "1156",
-    "stargazers_count": 8903,
+    "forked": "1157",
+    "stargazers_count": 8928,
     "todayStar": "3395 stars this month",
     "html_url": "https://github.com/seleniumbase/SeleniumBase",
     "rank": 12
@@ -136,22 +136,11 @@
     "language": "Python",
     "color": "#3572A5",
     "description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
-    "forked": "47604",
-    "stargazers_count": 285358,
+    "forked": "47615",
+    "stargazers_count": 285438,
     "todayStar": "6918 stars this month",
     "html_url": "https://github.com/donnemartin/system-design-primer",
     "rank": 13
-  },
-  {
-    "full_name": "sxyazi/yazi",
-    "language": "Rust",
-    "color": "#dea584",
-    "description": "💥 Blazing fast terminal file manager written in Rust, based on async I/O.",
-    "forked": "456",
-    "stargazers_count": 20501,
-    "todayStar": "3164 stars this month",
-    "html_url": "https://github.com/sxyazi/yazi",
-    "rank": 14
   },
   {
     "full_name": "upscayl/upscayl",
@@ -159,9 +148,31 @@
     "color": "#3178c6",
     "description": "🆙 Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows.",
     "forked": "1535",
-    "stargazers_count": 33525,
+    "stargazers_count": 33557,
     "todayStar": "1904 stars this month",
     "html_url": "https://github.com/upscayl/upscayl",
+    "rank": 14
+  },
+  {
+    "full_name": "sxyazi/yazi",
+    "language": "Rust",
+    "color": "#dea584",
+    "description": "💥 Blazing fast terminal file manager written in Rust, based on async I/O.",
+    "forked": "457",
+    "stargazers_count": 20535,
+    "todayStar": "3164 stars this month",
+    "html_url": "https://github.com/sxyazi/yazi",
     "rank": 15
+  },
+  {
+    "full_name": "EbookFoundation/free-programming-books",
+    "language": "HTML",
+    "color": "#e34c26",
+    "description": "📚 Freely available programming books",
+    "forked": "62481",
+    "stargazers_count": 347162,
+    "todayStar": "6457 stars this month",
+    "html_url": "https://github.com/EbookFoundation/free-programming-books",
+    "rank": 16
   }
 ]
