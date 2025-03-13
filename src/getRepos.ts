@@ -2,7 +2,7 @@ import { sleep, getReposData } from './utils/index.js';
 import { RepoData } from './common/props.js';
 import { saveData } from './utils/saveData.js';
 
-;(async() => {
+; (async () => {
   let repos: RepoData[] = [];
 
   let data = (await getReposData(1)) || [];
