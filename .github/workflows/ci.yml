@@ -7,7 +7,7 @@ on:
       - v*
   schedule:
     # 每天 5:30 和 17:30 UTC 触发工作流程
-    - cron:  '30 5,17 * * *'
+    - cron:  '30 5 * * *'
 
 jobs:
   build-deploy:
