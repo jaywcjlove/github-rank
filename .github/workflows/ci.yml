@@ -1,10 +1,8 @@
 name: Build & Deploy
 on:
   push:
-    # branches:
-    #   - master
     tags:
-      - v*
+      - 'v*'  # 监听所有以 v 开头的标签
   schedule:
     # 每天 5:30 和 17:30 UTC 触发工作流程
     #- cron:  '30 5 * * *'
