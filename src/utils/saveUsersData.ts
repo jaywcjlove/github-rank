@@ -37,7 +37,7 @@ async function getInfo(arr: UsersDataBase[], type: string = '', globalUsers: Use
       return;
     }
   }
-  
+
   findUser && users.push(findUser);
   await saveUserData([...users], type);
   // 获取成功删除第一条
