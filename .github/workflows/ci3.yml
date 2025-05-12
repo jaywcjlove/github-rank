@@ -26,6 +26,16 @@ jobs:
         uses: jaywcjlove/github-action-modify-file-content@main
         with:
           path: README.md
+          trim_whitespace: false
+          openDelimiter: '<!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->'
+          closeDelimiter: '<!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->'
+          body: ${{steps.contributors.outputs.htmlList}}
+
+      - name: Modify README.md
+        uses: jaywcjlove/github-action-modify-file-content@main
+        with:
+          path: README-zh.md
+          trim_whitespace: false
           openDelimiter: '<!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->'
           closeDelimiter: '<!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->'
           body: ${{steps.contributors.outputs.htmlList}}
