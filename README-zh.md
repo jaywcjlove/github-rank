@@ -154,7 +154,7 @@ $ npm run start
 <a href="https://github.com/jaywcjlove" title="小弟调调"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="42;" alt="小弟调调"/></a>
 <a href="https://github.com/renovate-bot" title="Mend Renovate"><img src="https://avatars.githubusercontent.com/u/25180681?v=4" width="42;" alt="Mend Renovate"/></a>
 <a href="https://github.com/leon-kfd" title="Leon-kfd"><img src="https://avatars.githubusercontent.com/u/30256102?v=4" width="42;" alt="Leon-kfd"/></a>
-<a href="https://github.com/ryanuo" title="Ryan uo"><img src="https://avatars.githubusercontent.com/u/66169324?v=4" width="42;" alt="Ryan uo"/></a>
+<a href="https://github.com/ryanuo" title="RYANUO"><img src="https://avatars.githubusercontent.com/u/66169324?v=4" width="42;" alt="RYANUO"/></a>
 <a href="https://github.com/372798735" title="mindsets"><img src="https://avatars.githubusercontent.com/u/52733319?v=4" width="42;" alt="mindsets"/></a>
 <a href="https://github.com/antfu" title="Anthony Fu"><img src="https://avatars.githubusercontent.com/u/11247099?v=4" width="42;" alt="Anthony Fu"/></a>
 <a href="https://github.com/FeeiCN" title="Feei"><img src="https://avatars.githubusercontent.com/u/1611552?v=4" width="42;" alt="Feei"/></a>
