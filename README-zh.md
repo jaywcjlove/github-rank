@@ -1,7 +1,6 @@
 <div align="center" markdown="1">
   <sup>特别感谢：</sup>
   <br>
-  <br>
   <a href="https://dartnode.com">
     <img alt="Powered by DartNode - Free VPS for Open Source" src="https://dartnode.com/branding/DN-Open-Source-sm.png">
   </a>
