@@ -1,9 +1,7 @@
 <div align="center" markdown="1">
   <sup>Special thanks to:</sup>
   <br>
-  <a href="https://dartnode.com">
-    <img alt="Powered by DartNode - Free VPS for Open Source" src="https://dartnode.com/branding/DN-Open-Source-sm.png">
-  </a>
+  You’re welcome to advertise here :)
   <br>
   <br>
   <sup>Using <a href="https://wangchujiang.com/#/app" target="_blank">my app</a> is also a way to <a href="https://wangchujiang.com/#/sponsor" target="_blank">support</a> me:</sup>
