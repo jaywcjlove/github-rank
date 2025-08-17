@@ -65,7 +65,7 @@ Released on [`npm`](https://www.npmjs.com/package/@wcj/github-rank) from `April 
 
 > [!WARNING]
 >
-> Due to the large number of projects, the free quota is insufficient, resulting in some charges. We have now adjusted it to run every 3 days to save costs.
+> Due to the large number of projects, the free quota is insufficient, resulting in some charges. We have now adjusted it to run every `7` days to save costs.
 
 Now it can be updated automatically every day, using [GitHub Actions Workflows](https://github.com/actions/starter-workflows) to trigger the GitHub workflow every day at 00:00 (8:00 am Beijing time) through the timer, automatically crawl the data, submit the generated web page to the gh-pages branch, and Automatically publish [npm](https://www.npmjs.com/package/@wcj/github-rank) version, really fragrant! !
 
