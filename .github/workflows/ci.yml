@@ -18,11 +18,14 @@ jobs:
       ID: ${{ secrets.GITHUB_ID }}
       SECRET: ${{ secrets.GITHUB_SECRET }}
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-node@v6
         with:
-          node-version: 22
+          node-version: 24
           registry-url: 'https://registry.npmjs.org'
 
       - run: npm install
@@ -66,11 +69,7 @@ jobs:
           body: "{{date:YYYY-MM-DD HH:mm:ss}}"
           branch: master
       
-      # npm@v11.5.0+ is required for OIDC support
-      - name: Upgrade npm for OIDC support
-        run: npm install -g npm@latest
-      # node@v22.0.0+ 
-      # https://github.com/orgs/community/discussions/176761
-      # https://github.com/actions/setup-node/issues/1440#issuecomment-3571890875
+      # node@v24.0.0+ 
+      # https://gist.github.com/jaywcjlove/a178278521a6f72c74525d3f1d9c4bf9
       - run: NODE_AUTH_TOKEN="" npm publish --access public --provenance
         continue-on-error: true
