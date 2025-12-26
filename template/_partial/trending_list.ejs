@@ -1,7 +1,15 @@
 <li>
   <div class="info">
     <div class="rank">
+      <% if(idx==0) {%>
+      <span title="Ranking <%=idx + 1%>">🥇</span>
+      <% } else if(idx==1) {%>
+      <span title="Ranking <%=idx + 1%>">🥈</span>
+      <% } else if(idx==2) {%>
+      <span title="Ranking <%=idx + 1%>">🥉</span>
+      <% } else { %>
       <span title="Ranking <%=idx + 1%>"><%=idx + 1%></span>
+      <% } %>
       <a href="<%=repo.html_url%>" target="_blank" title="<%=repo.full_name%>"><%=repo.full_name%></a>
     </div>
     <div class="sub-title followers">

@@ -28,35 +28,42 @@
       --color-link-hover: #58a6ff;
       --color-tab-fg: #e2e2e2;
       --color-border: #000;
-      --color-neutral-muted: rgba(175,184,193,0.2);
+      --color-neutral-muted: rgba(165,171,177,0.2);
     }
   </style>
   <style>
     * { box-sizing: border-box; }
     html, body, ul, li, h1 { margin: 0; padding: 0 }
     html, body { font-size: 16px; font-family: -apple-system,"Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","WenQuanYi Micro Hei","Microsoft Yahei",sans-serif; }
+    body { padding: 0 12px; }
+    main {
+      max-width: 1440px;
+      margin: 0 auto;
+      min-height: 100vh;
+      background-color: var(--bg-secondary);
+      border-radius: 12px;
+      border: 1px solid var(--color-neutral-muted);
+    }
     ul { list-style: none; }
-
     a { color: var(--color-accent-fg); text-decoration: none; transition: all .2s ease-in; }
     a:hover { color: var(--color-link-hover); text-decoration: underline; }
     a.github-corner:hover .octo-arm { animation: octocat-wave 560ms infinite linear; }
     a.github-corner svg { fill: #f1f1f1; color: #000; position: absolute; top: 0; border: 0; right: 0; z-index: 99; width: 70px; height: 70px; }
     a.github-corner { position: fixed; z-index: 9999; top: 0; right: 0; }
 
-    .title { padding: 32px 20px 10px 20px; font-size: 32px; display: flex; }
+    .title { padding: 5rem 20px 10px 20px; font-size: 32px; text-align: center; }
     .title a svg { display: block; }
     .title a { color: var(--color-accent-fg); display: inline-block; margin-left: 10px; }
-    .title dark-mode {
-      margin-right: 8px;
-    }
+    .title dark-mode { margin-right: 8px; }
+    .time { text-align: center; }
     .time, .footer { padding: 5px 20px 2px 20px; font-size: 12px; color: #adadad; }
-    .tabs { padding: 0 20px 5px 20px;}
+    .tabs { padding: 1rem 20px 3rem 20px; text-align: center;}
     .tabs a { background: var(--color-tab-fg); display: inline-block; border-radius: 2px; margin: 2px 0; padding: 2px 5px; font-size: 12px; line-height: 16px; color: var(--color-accent-fg); }
     .tabs a.active { background: #333; color: #efefef; }
     .tabs a:hover:not(.active) { background: #efefef; }
-    .footer { padding: 0 20px 30px 20px; font-size: 12px; color: #adadad; }
-    .footer .time { padding: 0; }
-    .list { text-align: left; padding-bottom: 10px; margin: 0 15px; }
+    .footer { padding: 2rem 20px 6rem 20px; font-size: 12px; color: #adadad; }
+    .footer .time { padding: 0; text-align: center; }
+    .list { text-align: left; padding: 16px;}
     .list img { width: 36px; height: 36px; border-radius: 3px; display: block; margin: 0 auto; background-color: #e2e2e2; border: 0; overflow: hidden; }
     .list li { padding: 10px; transition: all .3s; }
     .list li.rank-title { margin: 0; padding: 3px 0 0 7px; margin-bottom: 10px; border-radius: 5px; font-size: 12px; line-height: 16px; }
@@ -121,12 +128,12 @@
     .list li.death > div { opacity: 1; filter: grayscale(100%); }
     .userlist {
       font-size: 14px;
-      padding: 10px 20px 5px 20px;
+      padding: 16px;
     }
     .userlist .select {
-      padding-left: 6px;
-      padding-bottom: 5px;
-      display: block;
+      padding-bottom: 1rem;
+      display: inline-flex;
+      gap: 6px;
     }
     .userlist .select .active { color: var(--color-theme-text); font-weight: bold; border-bottom: 1px dotted var(--color-border);}
     .userlist thead {
@@ -178,8 +185,19 @@
       100% { opacity: 1; }
     }
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 988px) {
       .userlist table :is(td:nth-child(3), td:nth-child(4), th:nth-child(3), th:nth-child(4)) {
+        display: none;
+      }
+    }
+
+    @media only screen and (max-width: 580px) {
+      .userlist table :is(td:nth-child(3), td:nth-child(4), td:nth-child(8), th:nth-child(3), th:nth-child(4), th:nth-child(8)) {
+        display: none;
+      }
+    }
+    @media only screen and (max-width: 430px) {
+      .userlist table :is(td:nth-child(3), td:nth-child(4), td:nth-child(6), td:nth-child(7), td:nth-child(8), th:nth-child(3), th:nth-child(4), th:nth-child(6), th:nth-child(7), th:nth-child(8)) {
         display: none;
       }
     }
@@ -238,3 +256,4 @@
     <a class="<%= tabCls === 'repos' ? 'active': '' %>" href="repos.html">Repos</a>
     <a class="<%= tabCls === 'trending' ? 'active': '' %>" href="trending.html">Trending</a>
   </div>
+  <main>
