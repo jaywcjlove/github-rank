@@ -1,9 +1,4 @@
-<div align="center" markdown="1">
-  <sup>特别感谢：</sup>
-  <br>
-  欢迎在这里打广告:)
-  <br>
-  <br>
+<div align="left">
   <sup>使用<a href="https://wangchujiang.com/#/app" target="_blank">我的应用</a>，也是对我的<a href="https://wangchujiang.com/#/sponsor" target="_blank">支持</a>：</sup>
   <br>
   <a target="_blank" href="https://apps.apple.com/app/6758053530" title="Scap: Screenshot & Markup Edit for macOS"><img alt="Scap: Screenshot & Markup Edit" height="52" width="52" src="https://wangchujiang.com/appicon/scap.png"></a>

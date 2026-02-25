@@ -1,9 +1,4 @@
-<div align="center" markdown="1">
-  <sup>Special thanks to:</sup>
-  <br>
-  You’re welcome to advertise here :)
-  <br>
-  <br>
+<div align="left">
   <sup>Using <a href="https://wangchujiang.com/#/app" target="_blank">my app</a> is also a way to <a href="https://wangchujiang.com/#/sponsor" target="_blank">support</a> me:</sup>
   <br>
   <a target="_blank" href="https://apps.apple.com/app/6758053530" title="Scap: Screenshot & Markup Edit for macOS"><img alt="Scap: Screenshot & Markup Edit" height="52" width="52" src="https://wangchujiang.com/appicon/scap.png"></a>
