@@ -45,8 +45,8 @@
 </p>
 
 <p align="center">
-  <a href="https://jaywcjlove.github.io/#/sponsor"><img alt="Buy me a coffee" src="https://img.shields.io/badge/Buy%20me%20a%20coffee-048754?logo=buymeacoffee"></a>
-  <a href="https://x.com/jaywcjlove"><img alt="Buy me a coffee" src="https://img.shields.io/badge/Follow%20on%20X-333333?logo=x&logoColor=white"></a>
+  <a href="https://jaywcjlove.github.io/#/sponsor"><img alt="Buy me a coffee" src="https://img.shields.io/badge/Buy_Me_a_Coffee-ffdd00?logo=buy-me-a-coffee&logoColor=black"></a>
+  <a href="https://x.com/jaywcjlove"><img alt="Follow On X" src="https://img.shields.io/badge/Follow%20on%20X-333333?logo=x&logoColor=white"></a>
   <a href="https://github.com/jaywcjlove/github-rank/actions/workflows/ci3.yml"><img src="https://github.com/jaywcjlove/github-rank/actions/workflows/ci3.yml/badge.svg"></a>
   <a href="https://github.com/jaywcjlove/github-rank/issues"><img src="https://badgen.net/github/issues/jaywcjlove/github-rank"></a>
   <a href="https://github.com/jaywcjlove/github-rank/forks"><img src="https://badgen.net/github/forks/jaywcjlove/github-rank"></a>
