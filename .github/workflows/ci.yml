@@ -15,8 +15,6 @@ jobs:
   build-deploy:
     env: 
       ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-      ID: ${{ secrets.GITHUB_ID }}
-      SECRET: ${{ secrets.GITHUB_SECRET }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -34,6 +32,35 @@ jobs:
         shell: bash
         run: |
           node -e 'var pkg = require("./package.json"); pkg.version= (new Date().getFullYear().toString().substr(2)) + "." + (new Date().getMonth() + 1) + "." + (new Date().getDate()); require("fs").writeFileSync("./package.json", JSON.stringify(pkg, null, 2))'
+
+      - name: Validate GitHub Token & Rate Limit
+        shell: bash
+        run: |
+          if [ -z "$ACCESS_TOKEN" ]; then
+            echo "ACCESS_TOKEN is empty or not configured in repository secrets."
+            exit 1
+          fi
+
+          USER_STATUS=$(curl -sS -o /tmp/gh_user.json -w "%{http_code}" \
+            -H "Authorization: token $ACCESS_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/user)
+
+          echo "GitHub /user status: $USER_STATUS"
+          if [ "$USER_STATUS" != "200" ]; then
+            echo "Token validation failed. API response:"
+            cat /tmp/gh_user.json
+            exit 1
+          fi
+
+          RATE_STATUS=$(curl -sS -o /tmp/gh_rate.json -w "%{http_code}" \
+            -H "Authorization: token $ACCESS_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/rate_limit)
+
+          echo "GitHub /rate_limit status: $RATE_STATUS"
+          node -e 'const fs=require("fs");const data=JSON.parse(fs.readFileSync("/tmp/gh_user.json","utf8"));console.log(`Authenticated as: ${data.login || "unknown"}`);'
+          node -e 'const fs=require("fs");const data=JSON.parse(fs.readFileSync("/tmp/gh_rate.json","utf8"));const core=data.resources?.core||{};const search=data.resources?.search||{};console.log(`core remaining: ${core.remaining}/${core.limit}, reset: ${core.reset}`);console.log(`search remaining: ${search.remaining}/${search.limit}, reset: ${search.reset}`);'
 
       - run: npm run get:trending
       - run: npm run get:repos
