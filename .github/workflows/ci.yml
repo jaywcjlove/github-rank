@@ -21,6 +21,8 @@ jobs:
       id-token: write
     steps:
       - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v6
         with:
           node-version: 24
@@ -32,35 +34,6 @@ jobs:
         shell: bash
         run: |
           node -e 'var pkg = require("./package.json"); pkg.version= (new Date().getFullYear().toString().substr(2)) + "." + (new Date().getMonth() + 1) + "." + (new Date().getDate()); require("fs").writeFileSync("./package.json", JSON.stringify(pkg, null, 2))'
-
-      - name: Validate GitHub Token & Rate Limit
-        shell: bash
-        run: |
-          if [ -z "$ACCESS_TOKEN" ]; then
-            echo "ACCESS_TOKEN is empty or not configured in repository secrets."
-            exit 1
-          fi
-
-          USER_STATUS=$(curl -sS -o /tmp/gh_user.json -w "%{http_code}" \
-            -H "Authorization: token $ACCESS_TOKEN" \
-            -H "Accept: application/vnd.github+json" \
-            https://api.github.com/user)
-
-          echo "GitHub /user status: $USER_STATUS"
-          if [ "$USER_STATUS" != "200" ]; then
-            echo "Token validation failed. API response:"
-            cat /tmp/gh_user.json
-            exit 1
-          fi
-
-          RATE_STATUS=$(curl -sS -o /tmp/gh_rate.json -w "%{http_code}" \
-            -H "Authorization: token $ACCESS_TOKEN" \
-            -H "Accept: application/vnd.github+json" \
-            https://api.github.com/rate_limit)
-
-          echo "GitHub /rate_limit status: $RATE_STATUS"
-          node -e 'const fs=require("fs");const data=JSON.parse(fs.readFileSync("/tmp/gh_user.json","utf8"));console.log(`Authenticated as: ${data.login || "unknown"}`);'
-          node -e 'const fs=require("fs");const data=JSON.parse(fs.readFileSync("/tmp/gh_rate.json","utf8"));const core=data.resources?.core||{};const search=data.resources?.search||{};console.log(`core remaining: ${core.remaining}/${core.limit}, reset: ${core.reset}`);console.log(`search remaining: ${search.remaining}/${search.limit}, reset: ${search.reset}`);'
 
       - run: npm run get:trending
       - run: npm run get:repos
@@ -98,5 +71,49 @@ jobs:
       
       # node@v24.0.0+ 
       # https://gist.github.com/jaywcjlove/a178278521a6f72c74525d3f1d9c4bf9
-      - run: NODE_AUTH_TOKEN="" npm publish --access public --provenance
+      - name: 📦 @wcj/github-rank to NPM
+        run: NODE_AUTH_TOKEN="" npm publish --access public --provenance
         continue-on-error: true
+
+      - name: Ensure Tag Exists
+        shell: bash
+        run: |
+          VERSION=$(node -p "require('./package.json').version")
+          TAG="v${VERSION}"
+          echo "TAG=${TAG}" >> "$GITHUB_ENV"
+          git fetch --tags --quiet
+          if git rev-parse -q --verify "refs/tags/${TAG}" >/dev/null; then
+            echo "Tag ${TAG} already exists."
+          else
+            git tag -a "${TAG}" -m "release: ${TAG}"
+            git push origin "${TAG}"
+            echo "Created and pushed tag ${TAG}."
+          fi
+
+      - name: Ensure Release Exists
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          if gh release view "${TAG}" >/dev/null 2>&1; then
+            echo "Release ${TAG} already exists."
+          else
+            gh release create "${TAG}" \
+              --title "${TAG}" \
+              --notes "Automated release for ${TAG}."
+            echo "Created release ${TAG}."
+          fi
+
+      - name: Commit package.json Version
+        shell: bash
+        run: |
+          if git diff --quiet -- package.json; then
+            echo "package.json has no changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          VERSION=$(node -p "require('./package.json').version")
+          git add package.json
+          git commit -m "chore(release): bump version to ${VERSION}"
+          git push origin HEAD:master
