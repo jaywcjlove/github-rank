@@ -76,6 +76,7 @@ jobs:
         continue-on-error: true
 
       - name: Ensure Tag Exists
+        continue-on-error: true
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
@@ -93,6 +94,7 @@ jobs:
           fi
 
       - name: Ensure Release Exists
+        continue-on-error: true
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: bash
@@ -107,6 +109,7 @@ jobs:
           fi
 
       - name: Commit package.json Version
+        continue-on-error: true
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
@@ -118,4 +121,15 @@ jobs:
           VERSION=$(node -p "require('./package.json').version")
           git add package.json
           git commit -m "chore(release): bump version to ${VERSION}"
-          git push origin HEAD:master
+          for i in 1 2 3; do
+            echo "Push attempt ${i}: rebase onto origin/master then push"
+            git fetch origin master
+            git rebase origin/master
+            if git push origin HEAD:master; then
+              echo "package.json version bump pushed successfully."
+              exit 0
+            fi
+            sleep 2
+          done
+          echo "Failed to push package.json version bump after retries."
+          exit 1
