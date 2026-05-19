@@ -10,8 +10,8 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "noEmit": false,
-    "outDir": "lib",
-    "baseUrl": "."
+    "rootDir": "src",
+    "outDir": "lib"
   },
   "include": [
     "src/**/*"

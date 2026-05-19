@@ -17,6 +17,8 @@ export async function getUserData(page: number, isChina?: boolean): Promise<User
     const dt = await request('GET /search/users', {
       ...{ headers },
       q: `followers:>1000${isChina ? '+location:China' : ''}`,
+      sort: 'followers',
+      order: 'desc',
       page: page,
       per_page: 100,
     });
@@ -140,20 +142,31 @@ export function getTrendingData(type: string = 'daily') {
         // if (!description) {
         //   throw new Error(`${fullName}: description is null`);
         // }
+        const getNextText = (targetNode: { next?: unknown } | undefined) => {
+          const nextNode = targetNode?.next;
+          if (nextNode && typeof nextNode === 'object' && 'data' in nextNode) {
+            const data = (nextNode as { data?: unknown }).data;
+            if (typeof data === 'string') {
+              return data.replace(/(\n|\s|,)/g, '');
+            }
+          }
+          return '';
+        };
+
         let color = '';
         if (language && languageColor && languageColor.css) {
-          color = languageColor.css('background-color');
+          color = languageColor.css('background-color') || '';
         }
         let stargazersCount = '';
         let node = $(item).find('svg[aria-label="star"].octicon.octicon-star');
         if (node && node[0] && node[0].next) {
-          stargazersCount = node[0].next?.data?.replace(/(\n|\s|,)/g, '') || '';
+          stargazersCount = getNextText(node[0]);
         }
 
         let forked = '-';
         node = $(item).find('svg[aria-label="fork"].octicon.octicon-repo-forked');
         if (node) {
-          forked = node[0].next?.data?.replace(/(\n|\s|,)/g, '') || '';
+          forked = getNextText(node[0]) || '-';
         }
 
         resultData.push({ full_name: fullName, language, color, description, forked, stargazers_count: parseInt(stargazersCount, 10), todayStar, html_url: url.resolve(apiUrl, href), rank: idx + 1 });
