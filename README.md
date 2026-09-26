@@ -169,6 +169,7 @@ As always, thanks to our amazing contributors!
 <a href="https://github.com/antfu" title="Anthony Fu"><img src="https://avatars.githubusercontent.com/u/11247099?v=4" width="42;" alt="Anthony Fu"/></a>
 <a href="https://github.com/FeeiCN" title="Feei"><img src="https://avatars.githubusercontent.com/u/1611552?v=4" width="42;" alt="Feei"/></a>
 <a href="https://github.com/zhenyong" title="ZY"><img src="https://avatars.githubusercontent.com/u/4012276?v=4" width="42;" alt="ZY"/></a>
+<a href="https://github.com/sebastian-fraga" title="Sebastián Fraga"><img src="https://avatars.githubusercontent.com/u/63276982?v=4" width="42;" alt="Sebastián Fraga"/></a>
 
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
